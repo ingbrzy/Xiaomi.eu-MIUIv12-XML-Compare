@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <plurals name="app_behavior_desc_allow_minute">
+        <item quantity="other">Allowed %2$d times at %1$s</item>
+        <item quantity="one">Allowed %2$d time at %1$s</item>
+     </plurals>
+     <plurals name="app_behavior_desc_deny_minute">
+        <item quantity="other">Denied %2$d times at %1$s</item>
+        <item quantity="one">Denied %2$d time at %1$s</item>
+     </plurals>
+     <plurals name="app_behavior_desc_virtual_minute">
+        <item quantity="other">Returned %2$d blank messages at %1$s</item>
+        <item quantity="one">Returned %2$d blank message at %1$s</item>
+     </plurals>
+     <plurals name="app_behavior_wakepath_multiple">
+        <item quantity="other">%1$1s launched %2$d apps</item>
+        <item quantity="one">%1$1s launched %2$d app</item>
+     </plurals>
+     <plurals name="app_behavior_wakepath_multiple_single">
+        <item quantity="other">This app launched %1$d other apps</item>
+        <item quantity="one">This app launched %1$d other app</item>
+     </plurals>
+     <plurals name="pc_battery_history_hour">
+        <item quantity="other">" hrs"</item>
+        <item quantity="one">" hr"</item>
+     </plurals>
+     <plurals name="pc_battery_history_minute">
+        <item quantity="other">" mins"</item>
+        <item quantity="one">" min"</item>
+     </plurals>
+     <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">Got it (%ds)</item>
+        <item quantity="one">Got it (%ds)</item>
+     </plurals>
+     <plurals name="power_off_warning_notification_message">
+        <item quantity="other">Your device will shut down in %d seconds. Connect charger.</item>
+        <item quantity="one">Your device will shut down in %d second. Connect charger.</item>
+     </plurals>
+     <plurals name="privacy_permission_summary">
+        <item quantity="other">%s apps have permanent access</item>
+        <item quantity="one">%s app has permanent access</item>
+     </plurals>
+     <plurals name="privacy_pop_times">
+        <item quantity="other">%s times</item>
+        <item quantity="one">%s time</item>
+     </plurals>
+</resources>

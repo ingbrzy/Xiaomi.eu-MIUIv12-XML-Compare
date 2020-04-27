@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <array name="battery_indicator_style_icons">
+        <item>@drawable/battery_indicator_graphic</item>
+        <item>@drawable/battery_indicator_percent_in</item>
+        <item>@drawable/battery_indicator_percent_out</item>
+        <item>@drawable/battery_indicator_top</item>
+     </array>
+     <string-array name="device_support_slide_camera">
+        <item>perseus</item>
+        <item>andromeda</item>
+     </string-array>
+     <string-array name="input_method_function_des">
+        <item>@string/input_method_function_voice_des</item>
+        <item>@string/input_method_function_xiaoai_des</item>
+        <item>@string/input_method_function_switch_des</item>
+        <item>@string/input_method_function_clipboard_des</item>
+        <item>@string/input_method_function_no_function_des</item>
+     </string-array>
+     <array name="input_method_function_icons">
+        <item>@drawable/input_method_voice_function_selector</item>
+        <item>@drawable/input_method_xiaoai_function_selector</item>
+        <item>@drawable/input_method_switch_function_selector</item>
+        <item>@drawable/input_method_clipboard_function_selector</item>
+        <item>@drawable/input_method_no_function_selector</item>
+     </array>
+     <string-array name="input_method_function_title">
+        <item>@string/input_method_function_voice</item>
+        <item>@string/input_method_function_xiaoai</item>
+        <item>@string/input_method_function_switch</item>
+        <item>@string/input_method_function_clipboard</item>
+        <item>@string/input_method_function_no_function</item>
+     </string-array>
+     <array name="notch_battery_indicator_style_icons">
+        <item>@drawable/battery_indicator_graphic</item>
+        <item>@drawable/battery_indicator_percent_in</item>
+        <item>@drawable/battery_indicator_percent_out</item>
+     </array>
+     <string-array name="notch_battery_indicator_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+     </string-array>
+</resources>
