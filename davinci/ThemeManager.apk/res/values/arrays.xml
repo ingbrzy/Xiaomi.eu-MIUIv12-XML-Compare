@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_colors">
+        <item>\#ff0000</item>
+        <item>\#ff7f00</item>
+        <item>\#ffff00</item>
+        <item>\#800080</item>
+        <item>\#0000ff</item>
+        <item>\#00ff00</item>
+    </string-array>
+    <string-array name="disable_package_replacement">
+        <item>disable package name</item>
+    </string-array>
+    <string-array name="set_video_wallpaper_three_items">
+        <item>@string/wallpaper_set_as_lockscreen</item>
+        <item>@string/wallpaper_set_as_desktop</item>
+        <item>@string/wallpaper_set_as_both</item>
+    </string-array>
+    <string-array name="set_wallpaper_loop_interval">
+        <item>@string/wallpaper_loop_interval_15min</item>
+        <item>@string/wallpaper_loop_interval_1h</item>
+        <item>@string/wallpaper_loop_interval_1d</item>
+    </string-array>
+    <string-array name="set_wallpaper_loop_interval_values">
+        <item>900000</item>
+        <item>3600000</item>
+        <item>86400000</item>
+    </string-array>
+    <string-array name="set_wallpaper_loop_order">
+        <item>@string/wallpaper_loop_order_loop</item>
+        <item>@string/wallpaper_loop_order_shuffle</item>
+    </string-array>
+    <string-array name="set_wallpaper_loop_order_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="set_wallpaper_three_items">
+        <item>@string/wallpaper_set_as_lockscreen</item>
+        <item>@string/wallpaper_set_as_desktop</item>
+        <item>@string/wallpaper_set_as_both</item>
+    </string-array>
+    <string-array name="set_wallpaper_three_items_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="set_wallpaper_two_items">
+        <item>@string/wallpaper_set_as_desktop</item>
+        <item>@string/wallpaper_set_as_both</item>
+    </string-array>
+</resources>
