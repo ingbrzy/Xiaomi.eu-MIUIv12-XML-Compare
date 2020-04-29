@@ -558,6 +558,11 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="auto_brightness_very_low_title">Very low</string>
   <string name="auto_caps">Auto-capitalization</string>
   <string name="auto_caps_summary">Capitalize first letter in sentences</string>
+  <string name="auto_clean_description">"About this feature
+1. Run this feature once or twice if you find that your speaker is lightly blocked by dust.
+2. If the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards."</string>
+  <string name="auto_clean_summary">Play a 30-second audio to clear the speaker</string>
+  <string name="auto_clean_title">Clear speaker</string>
   <string name="auto_disable_screenbuttons_ask">Ask to disable</string>
   <string name="auto_disable_screenbuttons_auto">Always disable</string>
   <string name="auto_disable_screenbuttons_cancel">Cancel</string>
@@ -1998,6 +2003,9 @@ To fix this issue, you can turn off location for this app."</string>
   <string name="dialog_restrict_all_wlan_title">Restrict WLAN connection</string>
   <string name="dialog_restrict_negative">Restrict</string>
   <string name="dialog_restrict_positive">Cancel</string>
+  <string name="dialog_speaker_auto_clean_button">Got it</string>
+  <string name="dialog_speaker_auto_clean_content">"Clearing takes 30 seconds. Don't leave this page. Maximize sound volume for best effect."</string>
+  <string name="dialog_speaker_auto_clean_title">Attention</string>
   <string name="dialog_stop_message">"Your phone can't manage battery normally because %1$s is keeping your phone awake.
 
 To try to fix this issue, you can stop the app.
