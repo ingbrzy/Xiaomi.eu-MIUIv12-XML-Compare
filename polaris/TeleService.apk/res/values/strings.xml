@@ -1205,15 +1205,10 @@ Switch to the new provider anyway?"</string>
   <string name="menu_edit">Edit contact</string>
   <string name="messageCFB">Number when busy</string>
   <string name="messageCFNRc">Number when unreachable</string>
-  <string name="messageCFNRc_kr_kt">"A network service that diverts all incoming calls and text messages to a specified number when you are unable to answer calls (for example, when you are on the phone or your device is off). You have to subscribe to this service. Contact the customer centre (114+[Send]) to subscribe or unsubscribe from this service. Enter *72+[number to forward calls to][Send] to enable, or *720[Send] to disable.
-
-Number when unreachable"</string>
   <string name="messageCFNRy">Number when unanswered</string>
   <string name="messageCFU">Always use this number</string>
-  <string name="messageCFU_kr_kt">"A network service that diverts all incoming calls and text messages to a specified number. You have to subscribe to this service. You will be charged with monthly fee. Contact the customer center (114+[Send]) to subscribe or unsubscribe from this service. Enter *71+[number to forward calls to][Send] to enable, or *710[Send] to disable.
-
-Always use this number"</string>
-  <string name="messageCW_kr_kt">A free network service that allows you to answer a second call during a call, placing the first call on hold. Enter *40+[Send] to enable, or *400+[Send] to disable.</string>
+  <string name="messageCFU_kr" formatted="false">A network service that diverts all incoming calls and text messages to a specified number. You have to subscribe to this service. You will be charged with monthly fee. Contact the customer center (114+[Send]) to subscribe or unsubscribe from this service. Enter %s+[number to forward calls to][Send] to enable, or %s[Send] to disable.</string>
+  <string name="messageCW_kr" formatted="false">A free network service that allows you to answer a second call during a call, placing the first call on hold. Enter %s[Send] to enable, or %s[Send] to disable.</string>
   <string name="messageCallBarring">Enter password</string>
   <string name="message_decode_error">There was an error while decoding the message.</string>
   <string name="mhh_disable">Medical, Health, and Hospital disabled</string>
@@ -1236,14 +1231,14 @@ Always use this number"</string>
   <string name="miui_network_selection_reset_text">Reset</string>
   <string name="miui_notification_network_selection_title">SIM: No service</string>
   <string name="miui_notification_network_selection_title_by_sim">SIM %s: No service</string>
-  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">pull to refresh</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshed">refresh completed</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshing">refreshing</string>
-  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">release to refresh</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_nodata">no data</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_none">not do that</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh">refreshing</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">fail</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Release to refresh</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">"That's all for now"</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">"That's all for now"</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
   <string name="mmiCancelled">MMI code canceled</string>
   <string name="mmiStarted">MMI code started</string>
   <string name="mobile_advanced_dns_server_title">DNS server address</string>
