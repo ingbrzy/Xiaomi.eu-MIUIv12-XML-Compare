@@ -248,6 +248,31 @@
         <item>@string/solar_term_heavy_snow</item>
         <item>@string/solar_term_winter_solstice</item>
     </string-array>
+    <string-array name="super_wallpaper_list_ids">
+        <item>earth</item>
+        <item>mars</item>
+        <item>mars</item>
+    </string-array>
+    <string-array name="super_wallpaper_list_packages">
+        <item>com.miui.miwallpaper.earth</item>
+        <item>com.miui.miwallpaper</item>
+        <item>com.miui.miwallpaper.mars</item>
+    </string-array>
+    <integer-array name="super_wallpaper_list_presets">
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="super_wallpaper_list_summaries">
+        <item>@string/earth_summary</item>
+        <item>@string/mars_summary</item>
+        <item>@string/mars_summary</item>
+    </string-array>
+    <string-array name="super_wallpaper_list_titles">
+        <item>@string/earth_title</item>
+        <item>@string/mars_title</item>
+        <item>@string/mars_title</item>
+    </string-array>
     <string-array name="super_wallpaper_res_scale_075_devices">
         <item>andromeda</item>
         <item>cepheus</item>
