@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather_null">Napauta saadaksesi säätiedot</string>
-    <string name="date_format">EEEE d. MMMM</string>
+    <string name="date_format">EEEE d. MMMM'ta'</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
-    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
-    <string name="weather_type_null">'Ei dataa'</string>
-    <string name="weather_type_0">Selkeää</string>
-    <string name="weather_type_1">Puolipilvinen</string>
+    <string name="aqi_pure">'ILI '+#weather_aqilevel</string>
+    <string name="aqi_good">'ILI '+#weather_aqilevel</string>
+    <string name="aqi_moderate">'ILI '+#weather_aqilevel</string>
+    <string name="aqi_pollution">'ILI '+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">'ILI '+#weather_aqilevel</string>
+    <string name="aqi_dangerous">'ILI '+#weather_aqilevel</string>
+    <string name="aqi_hazardous">'ILI '+#weather_aqilevel</string>
+    <string name="aqi_break">'ILI '+#weather_aqilevel</string>
+    <string name="weather_type_null">Hae säätiedot napauttamalla</string>
+    <string name="weather_type_0">Selkeä</string>
+    <string name="weather_type_1">Pilvinen</string>
     <string name="weather_type_2">Usvainen</string>
     <string name="weather_type_3">Sumuinen</string>
     <string name="weather_type_4">Kova rankkasade</string>
@@ -36,6 +36,6 @@
     <string name="weather_type_20">Kevyt hiekkamyrsky</string>
     <string name="weather_type_21">Hiekkamyrsky</string>
     <string name="weather_type_22">Raekuuro</string>
-    <string name="weather_type_23">Leijailevaa pölyä</string>
+    <string name="weather_type_23">Leijuvaa pölyä</string>
     <string name="weather_type_24">Usva</string>
 </resources>

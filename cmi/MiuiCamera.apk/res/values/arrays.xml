@@ -129,6 +129,26 @@
         <item>@string/beauty_level_4</item>
         <item>@string/beauty_level_5</item>
     </string-array>
+    <integer-array name="begonia_boost_params">
+        <item>0x00400000</item>
+        <item>2000000</item>
+        <item>0x00400100</item>
+        <item>2000000</item>
+        <item>0x01000000</item>
+        <item>0</item>
+        <item>0x00C00000</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="begoniain_boost_params">
+        <item>0x00400000</item>
+        <item>2000000</item>
+        <item>0x00400100</item>
+        <item>2000000</item>
+        <item>0x01000000</item>
+        <item>0</item>
+        <item>0x00C00000</item>
+        <item>0</item>
+    </integer-array>
     <string-array name="dialog_camera_long_press_viewfinder_options">
         <item>@string/dialog_google_lens_option_0</item>
         <item>@string/pref_camera_long_pressing_viewfinder_entry_lock_ae_af</item>
