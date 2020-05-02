@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+    <string name="date_time" value="ཟླ M ཚེས d E"/>
+    <string name="date_time_12" value="ཟླ M ཚེས d Eaa"/>
+    <string name="desc_date_format" value="ཟླ M ཚེས d E"/>
+    <string name="desc_date_format_12" value="ཟླ M ཚེས d Eaa"/>
+    <string name="desc_time" value="ifelse(eq(#time_format,0),#hour12,eq(#time_format,1),#hour24,#hour24)+'ཆུ་ཚོད'+ifelse(gt(#minute,0)*le(#minute,9),0,'')+ifelse(#minute,#minute+'སྐར་མ།','ཏག་ཏག')+', ཐེངས་གཉིས་གནན་ནས་དུས་ཚོད་Appནང་འཛུལ་བ།'"/>
+
+</strings>
