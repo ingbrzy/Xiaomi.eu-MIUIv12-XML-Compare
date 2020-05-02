@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_time">M -ئاينىڭ d -كۈنى E</string>
+    <string name="date_time_12">M-ئاينىڭ d-كۈنى Eaa</string>
+    <string name="desc_date_format">M ـ ئاينىڭ d ـ كۈنى EEEE</string>
+    <string name="desc_date_format_12">M-ئاينىڭ d-كۈنى Eaa</string>
+    <string name="desc_time">#hour+\'دىن\'+ifelse(#minute,#minute+\'مىنۇت\',\'ئۆتتى\')+\', \'+int(#month+1)+\'-ئاينىڭ\'+#date+\'-كۈنى\'+\', \'+\'ھەپتىگە\'+int(#day_of_week-1)+\', \'+#weather_temperature+\'سېلسىيە گرادۇس\'+\', \'+@weather_description</string>
+    <string name="desc_weather">\@weather_description+\', \'+#weather_temperature+\' گرادۇس\'</string>
+    <string name="desc_weather_null">'سانلىق مەلۇمات يوق'</string>
+    <string name="weather_type_null">'سانلىق مەلۇمات يوق'</string>
+    <string name="weather_type_0">ئوچۇق</string>
+    <string name="weather_type_1">بۇلۇتلۇق</string>
+    <string name="weather_type_2">تۇتۇق</string>
+    <string name="weather_type_3">تۇمانلىق</string>
+    <string name="weather_type_4">ئالاھىدە چوڭ قارا يامغۇر</string>
+    <string name="weather_type_5">چوڭ قارا يامغۇر</string>
+    <string name="weather_type_6">قاتتىق يامغۇر</string>
+    <string name="weather_type_7">گۈلدۈرماملىق ئۆتكۈنچى يامغۇر</string>
+    <string name="weather_type_8">مەزگىللىك يامغۇر</string>
+    <string name="weather_type_9">چوڭ يامغۇر</string>
+    <string name="weather_type_10">ئوتتۇر ھال يامغۇر</string>
+    <string name="weather_type_11">ئازراق يامغۇر</string>
+    <string name="weather_type_12">يامغۇر ئارىلاش قار</string>
+    <string name="weather_type_13">دەھشەت قار</string>
+    <string name="weather_type_14">ئۆتكۈنچى قار</string>
+    <string name="weather_type_15">چوڭ قار</string>
+    <string name="weather_type_16">ئوتتۇرا ھال قار</string>
+    <string name="weather_type_17">ئازراق قار</string>
+    <string name="weather_type_18">كۈچلۈك قۇم بوران</string>
+    <string name="weather_type_19">قۇم بوران</string>
+    <string name="weather_type_20">قۇم</string>
+    <string name="weather_type_21">قۇم ئۇچۇش</string>
+    <string name="weather_type_22">مۆلدۈر</string>
+    <string name="weather_type_23">چاڭ توزان</string>
+    <string name="weather_type_24">تۈتەك</string>
+    <string name="weather_type_25">توڭ يامغۇر</string>
+</resources>
