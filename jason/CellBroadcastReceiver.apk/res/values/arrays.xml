@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alert_reminder_interval_entries">
+        <item>Once</item>
+        <item>Every 2 minutes</item>
+        <item>Every 5 minutes</item>
+        <item>Every 15 minutes</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="alert_reminder_interval_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>15</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="alert_reminder_interval_active_values">
+        <item>1</item>
+        <item>2</item>
+        <item>15</item>
+        <item>0</item>
+    </string-array>
+    <integer-array name="default_vibration_pattern">
+        <item>0</item>
+        <item>2000</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>2000</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>1000</item>
+    </integer-array>
+</resources>
