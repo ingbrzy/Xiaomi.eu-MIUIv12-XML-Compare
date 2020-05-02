@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_time">M月d日 E</string>
+    <string name="date_time_12">M月d日 Eaa</string>
+    <string name="desc_date_format">M月d日 E</string>
+    <string name="desc_date_format_12">M月d日 Eaa</string>
+    <string name="desc_time">ifelse(eq(#time_format,0),#hour12,eq(#time_format,1),#hour24,#hour24)+'点'+ifelse(gt(#minute,0)*le(#minute,9),0,'')+ifelse(#minute,#minute+'分','整')+', 双击进入时钟App'</string>
+</resources>
