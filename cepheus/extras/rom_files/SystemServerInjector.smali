@@ -55,7 +55,7 @@
 
     invoke-static {v0}, Lcom/android/server/SystemServerInjector;->addDeviceName(Ljava/lang/String;)V
 
-    const-string v0, "grus"
+    const-string/jumbo v0, "grus"
 
     invoke-static {v0}, Lcom/android/server/SystemServerInjector;->addDeviceName(Ljava/lang/String;)V
 
