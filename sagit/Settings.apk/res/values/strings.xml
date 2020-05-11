@@ -331,7 +331,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_lights_title">Allow using LED light</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
-  <string name="allow_oaid_used">Restrict access to any ID</string>
+  <string name="allow_oaid_used">Use virtual ID</string>
   <string name="allow_oaid_used_desc">"Apps won't be able to access any ID unless you explicitly allow them to do that. Some personal recommendation features might not work properly when this feature is on."</string>
   <string name="allow_overlay_description">Allow this app to display on top of other apps you’re using. It may interfere with your use of those apps or change the way they seem to appear or behave.</string>
   <string name="allow_sound_title">Allow sound</string>
@@ -1013,6 +1013,7 @@ Apps:
   <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
   <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
   <string name="bluetooth_opp_profile_summary_use_for">Use for file transfer</string>
+  <string name="bluetooth_paired">Saved</string>
   <string name="bluetooth_paired_device_title">Your devices</string>
   <string name="bluetooth_pairing">Pairing…</string>
   <string name="bluetooth_pairing_accept">Pair</string>
@@ -4781,6 +4782,7 @@ UT Interface: %5$s"</string>
 
  You will not lose any app data."</string>
   <string name="reset_app_preferences_title">Reset app preferences?</string>
+  <string name="reset_confirm_directory">"Note: Before restoring items, check whether the folder \"MIUI-Backup-AllBackup\" exists on your mobile device. If it doesn't, create it."</string>
   <string name="reset_dashboard_summary">Network, apps, or device can be reset</string>
   <string name="reset_dashboard_title">Reset options</string>
   <string name="reset_esim_desc">Erase all eSIMs on the phone. You’ll have to contact your carrier to redownload your eSIMs. This will not cancel your mobile service plan.</string>
@@ -4803,6 +4805,7 @@ UT Interface: %5$s"</string>
   <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to undo this action."</string>
   <string name="reset_network_title">Reset WLAN, mobile networks, and Bluetooth</string>
   <string name="reset_network_wifi">WLAN</string>
+  <string name="reset_remove_data_hint">All the items listed above will be erased permanently. Back up all important items to your computer or Xiaomi Cloud before you continue.</string>
   <string name="reset_second_space_passwd">Reset Second space password</string>
   <string name="reset_second_space_passwd_cancel">Cancel</string>
   <string name="reset_second_space_passwd_confirm">Continue</string>
@@ -4821,9 +4824,9 @@ UT Interface: %5$s"</string>
   <string name="restore_dialog_positive">Reset</string>
   <string name="restore_dialog_title">Attention</string>
   <string name="restore_oaid_content">Reset your virtual ID to clear your behavior and preference records</string>
-  <string name="restore_oaid_dialog_content">目前多个应用已使用您的虚拟身份ID，若重置该ID，可能造成部分应用用户数据出现错误或丢失，是否确认进行虚拟身份ID重置操作？</string>
+  <string name="restore_oaid_dialog_content">Multiple apps are using your virtual ID. If you reset it now, a part of your app data might be lost or become unusable. Reset virtual ID anyway?</string>
   <string name="restore_oaid_positive">Reset</string>
-  <string name="restore_oaid_positive_step">Reset(%1$d)</string>
+  <string name="restore_oaid_positive_step">Reset (%1$d)</string>
   <string name="restore_oaid_title">Reset virtual ID</string>
   <string name="restr_pin_enter_admin_pin">Enter admin PIN</string>
   <string name="restrict_background_blacklisted">Background data is turned off</string>
