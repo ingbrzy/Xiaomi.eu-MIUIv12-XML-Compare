@@ -211,63 +211,97 @@
 .method static final addExtraServices(Landroid/content/Context;Z)V
     .locals 7
 
-    new-instance v0, Lcom/miui/server/SecurityManagerService;
+    const-string v0, "SystemServerI"
 
-    invoke-direct {v0, p0, p1}, Lcom/miui/server/SecurityManagerService;-><init>(Landroid/content/Context;Z)V
+    new-instance v1, Lcom/miui/server/SecurityManagerService;
 
-    const-string/jumbo v1, "security"
+    invoke-direct {v1, p0, p1}, Lcom/miui/server/SecurityManagerService;-><init>(Landroid/content/Context;Z)V
 
-    invoke-static {v1, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    const-string/jumbo v2, "security"
 
-    new-instance v0, Lcom/miui/server/MiuiInitServer;
+    invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    invoke-direct {v0, p0}, Lcom/miui/server/MiuiInitServer;-><init>(Landroid/content/Context;)V
+    new-instance v1, Lcom/miui/server/MiuiInitServer;
 
-    const-string v1, "MiuiInit"
+    invoke-direct {v1, p0}, Lcom/miui/server/MiuiInitServer;-><init>(Landroid/content/Context;)V
 
-    invoke-static {v1, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    const-string v2, "MiuiInit"
 
-    new-instance v0, Lcom/miui/server/BackupManagerService;
+    invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    invoke-direct {v0, p0}, Lcom/miui/server/BackupManagerService;-><init>(Landroid/content/Context;)V
+    new-instance v1, Lcom/miui/server/BackupManagerService;
 
-    const-string v1, "MiuiBackup"
+    invoke-direct {v1, p0}, Lcom/miui/server/BackupManagerService;-><init>(Landroid/content/Context;)V
 
-    invoke-static {v1, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    const-string v2, "MiuiBackup"
+
+    invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
     nop
 
     invoke-static {}, Lcom/android/server/LocationPolicyManagerService;->getDefaultService()Lcom/android/server/LocationPolicyManagerService;
 
-    move-result-object v0
+    move-result-object v1
 
-    const-string/jumbo v1, "locationpolicy"
+    const-string/jumbo v2, "locationpolicy"
 
-    invoke-static {v1, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    new-instance v0, Lcom/miui/server/PerfShielderService;
+    new-instance v1, Lcom/miui/server/PerfShielderService;
 
-    invoke-direct {v0, p0}, Lcom/miui/server/PerfShielderService;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/miui/server/PerfShielderService;-><init>(Landroid/content/Context;)V
 
-    const-string/jumbo v1, "perfshielder"
+    const-string/jumbo v2, "perfshielder"
 
-    invoke-static {v1, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    new-instance v0, Lcom/android/server/am/ProcessManagerService;
+    new-instance v1, Lcom/android/server/am/ProcessManagerService;
 
-    invoke-direct {v0, p0}, Lcom/android/server/am/ProcessManagerService;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/android/server/am/ProcessManagerService;-><init>(Landroid/content/Context;)V
 
-    const-string v1, "ProcessManager"
+    const-string v2, "ProcessManager"
 
-    invoke-static {v1, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
+    invoke-static {}, Lmiui/telephony/TelephonyManager;->isCustForKrKt()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    :try_start_0
+    const-string v1, "KT UCA Service"
+
+    invoke-static {v0, v1}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    const-string/jumbo v1, "ktuca"
+
+    new-instance v2, Landroid/ktuca/KtUcaService;
+
+    invoke-direct {v2}, Landroid/ktuca/KtUcaService;-><init>()V
+
+    invoke-static {v1, v2}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v1
+
+    const-string v2, "Failure starting KT UCA Service"
+
+    invoke-static {v0, v2, v1}, Landroid/util/Slog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    :cond_0
+    :goto_0
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
     const/4 v2, 0x1
 
-    :try_start_0
+    :try_start_1
     const-string v3, "com.miui.whetstone.server.WhetstoneActivityManagerService"
 
     invoke-static {v3, v0}, Lmiui/util/ReflectionUtils;->findClass(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class;
@@ -292,9 +326,9 @@
 
     move-result-object v5
 
-    if-eqz v4, :cond_0
+    if-eqz v4, :cond_1
 
-    if-eqz v5, :cond_0
+    if-eqz v5, :cond_1
 
     invoke-virtual {v5}, Lmiui/util/ObjectReference;->get()Ljava/lang/Object;
 
@@ -303,25 +337,25 @@
     check-cast v6, Ljava/lang/String;
 
     invoke-static {v6, v4}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
-    :try_end_0
-    .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
+    :try_end_1
+    .catch Ljava/lang/ClassNotFoundException; {:try_start_1 .. :try_end_1} :catch_1
 
-    :cond_0
-    goto :goto_0
+    :cond_1
+    goto :goto_1
 
-    :catch_0
+    :catch_1
     move-exception v3
 
     invoke-virtual {v3}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
 
-    :goto_0
+    :goto_1
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v4, 0x1a
 
-    if-ge v3, v4, :cond_2
+    if-ge v3, v4, :cond_3
 
-    :try_start_1
+    :try_start_2
     const-string v3, "com.miui.server.TidaService"
 
     invoke-static {v3}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
@@ -344,9 +378,9 @@
 
     move-result-object v5
 
-    if-eqz v4, :cond_1
+    if-eqz v4, :cond_2
 
-    if-eqz v5, :cond_1
+    if-eqz v5, :cond_2
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -365,30 +399,30 @@
     check-cast v0, Ljava/lang/String;
 
     invoke-static {v0, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
-    :try_end_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
-    :cond_1
-    goto :goto_1
+    :cond_2
+    goto :goto_2
 
-    :catch_1
+    :catch_2
     move-exception v0
 
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    :cond_2
-    :goto_1
+    :cond_3
+    :goto_2
     invoke-static {}, Lcom/android/server/display/ScreenEffectService;->startScreenEffectService()V
 
     invoke-static {}, Lcom/android/server/MiuiFgThread;->initialMiuiFgThread()V
 
     sget-boolean v0, Lcom/miui/enterprise/settings/EnterpriseSettings;->ENTERPRISE_ACTIVATED:Z
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
     invoke-static {p0}, Lcom/miui/server/enterprise/EnterpriseManagerService;->init(Landroid/content/Context;)V
 
-    :cond_3
+    :cond_4
     return-void
 .end method
 
