@@ -19,6 +19,7 @@
   <string name="application_package_introduction">This app allows you to install third party apps, scan them before installation, and give recommendations after it.</string>
   <string name="application_permissions">App permissions</string>
   <string name="back">Back</string>
+  <string name="backup_introduction">You can use this app to back up and restore items on your device.</string>
   <string name="calculator_introduction">You can use this app for calculations, converting units and currencies, and estimating your mortgage repayments.</string>
   <string name="camera_introduction">You can use Camera to take photos and shoot videos.</string>
   <string name="carrier_introduction">"In order to provide you with better services, your device may periodically send your device version information, device identification data (including IMEI/IMSI/MSISDN/MAC address, MEID/ICCID), and approximate location information (including base station ID) to the carrier via WLAN, mobile data network, or free SMS. The carrier promises to analyze relevant information only to improve the quality of services or to provide customized services or technologies, and won't disclose relevant information to third parties in any form that identifies you personally. The specific carrier statement shall prevail. Consult your carrier regarding the cost of using this service."</string>
@@ -44,6 +45,7 @@
   <string name="disageement_abnormal_download">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service."</string>
   <string name="disagree">Cancel</string>
   <string name="disagreement_abnormal_running">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose not to use this app or restrict permissions in the Settings in such cases."</string>
+  <string name="disagreement_abnormal_running_fast_pairing">"If you don't agree to grant such permissions, you won't be able to use this app. You can choose to restrict permissions in the Settings in such cases."</string>
   <string name="disagreement_donnot_use_application">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose not to use this app in such cases."</string>
   <string name="disagreement_donnot_use_product">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this product. You can choose not to use this product in such cases."</string>
   <string name="disagreement_donnot_use_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service. You can choose not to use this service in such cases."</string>
@@ -51,12 +53,13 @@
   <string name="disagreement_function">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this feature. You can choose not to use this feature in such cases."</string>
   <string name="disagreement_location_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service."</string>
   <string name="disagreement_terminate_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall, sign out, or restrict permissions in the Settings in such cases."</string>
-  <string name="download_introduction">This app manages all your downloads, including those done in GetApps, Mi Video, Updater, Themes, and Browser.</string>
+  <string name="download_introduction">\"Downloads\" is using Xunlei to download items on your device. This tool works for GetApps, system updates, themes, videos, and browser downloads.</string>
   <string name="enable_accessibility_canceled">Accessibility canceled.</string>
   <string name="enable_accessibility_dialog_message">You turned on TalkBack by pressing the screen with 2 fingers for more than 10 seconds. TalkBack provides voice feedback for people with visual impairments. If you turned it on by accident, tap the Cancel button, and then double tap the screen.</string>
   <string name="enable_accessibility_dialog_negative_btn">Cancel</string>
   <string name="enable_accessibility_dialog_positive_btn">OK</string>
   <string name="fast_application_introduction">Quick apps Framework allows you to create and provide services in quick apps.</string>
+  <string name="fast_pairing_introduction">Mi Link allows your device to connect to Bluetooth devices nearby. To be able to find devices nearby, allow Mi Link to connect to the internet.</string>
   <string name="font_hint_large">Default text size</string>
   <string name="font_hint_normal">Increase text size</string>
   <string name="framework_introduction">Mi Services Framework allows you to use Mi Account, Mi Push, Mi Stats, and MIUI BI.</string>
@@ -111,6 +114,8 @@ Turn off personalized ads anyway?"</string>
   <string name="permission_account">Access accounts on your device:</string>
   <string name="permission_account_introduction">For signing in with Mi Account</string>
   <string name="permission_application_package_introduction">For accessing storage in order to parse and scan installation packages</string>
+  <string name="permission_backup">Accessing storage</string>
+  <string name="permission_backup_introduction">For accessing and saving backups on your device</string>
   <string name="permission_call_records">Access call history:</string>
   <string name="permission_call_records_introduction">For accessing call history in order to display blocked items</string>
   <string name="permission_call_state_introduction">For accessing phone status, recording calls, and pausing recordings during incoming calls</string>
@@ -168,6 +173,7 @@ View the selected keyboard's Privacy Policy."</string>
   <string name="service_agreement">"I've read and agreed to the terms and conditions."</string>
   <string name="service_name_album">Gallery</string>
   <string name="service_name_application_package">Package installer</string>
+  <string name="service_name_backup">Backups</string>
   <string name="service_name_calculator">Calculator</string>
   <string name="service_name_camera">Camera</string>
   <string name="service_name_carrier">Statement on carrier services</string>
@@ -176,6 +182,7 @@ View the selected keyboard's Privacy Policy."</string>
   <string name="service_name_content_center">Content Center</string>
   <string name="service_name_download">Downloads</string>
   <string name="service_name_fast_application">Quick apps Framework</string>
+  <string name="service_name_fast_pairing">Mi Link</string>
   <string name="service_name_game">Games plug-in</string>
   <string name="service_name_google_service">Statement on Google services</string>
   <string name="service_name_location">Location-based services</string>
@@ -186,6 +193,7 @@ View the selected keyboard's Privacy Policy."</string>
   <string name="service_name_security">Security</string>
   <string name="service_name_service_framework">Mi Services Framework</string>
   <string name="service_policy">&lt;Data&gt;Read and agree to our &amp;lt;a href=%1$s&amp;gt;Privacy Policy&amp;lt;/a &amp;gt;.&lt;/Data&gt;</string>
+  <string name="service_policy_download">&lt;Data&gt;Before using our services, read and agree to &amp;lt;a href=%1$s&amp;gt;Xunlei Privacy Policy&amp;lt;/a &amp;gt;.&lt;/Data&gt;</string>
   <string name="service_privacy_index">Privacy Policy</string>
   <string name="servicestate_title">Statement on basic services</string>
   <string name="setting_locale">Setting region…</string>
