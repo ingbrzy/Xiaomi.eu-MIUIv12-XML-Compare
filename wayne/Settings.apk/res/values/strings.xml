@@ -331,8 +331,8 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_lights_title">Allow using LED light</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
-  <string name="allow_oaid_used">Restrict access to any ID</string>
-  <string name="allow_oaid_used_desc">"Apps won't be able to access any ID unless you explicitly allow them to do that. Some personal recommendation features might not work properly when this feature is on."</string>
+  <string name="allow_oaid_used">Use virtual ID</string>
+  <string name="allow_oaid_used_desc">"MIUI won't provide a virtual ID (OAID) to installed apps. Some personal recommendation features might not work properly because of that."</string>
   <string name="allow_overlay_description">Allow this app to display on top of other apps you’re using. It may interfere with your use of those apps or change the way they seem to appear or behave.</string>
   <string name="allow_sound_title">Allow sound</string>
   <string name="allow_vibrate_title">Allow vibration</string>
@@ -1013,6 +1013,7 @@ Apps:
   <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
   <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
   <string name="bluetooth_opp_profile_summary_use_for">Use for file transfer</string>
+  <string name="bluetooth_paired">Saved</string>
   <string name="bluetooth_paired_device_title">Your devices</string>
   <string name="bluetooth_pairing">Pairing…</string>
   <string name="bluetooth_pairing_accept">Pair</string>
@@ -1964,7 +1965,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_name_input_overlength">You went over the character limit</string>
   <string name="device_name_usage_point">Other nearby devices can see this name.</string>
   <string name="device_oaid">Manage virtual ID</string>
-  <string name="device_oaid_desc">Instead of your real identifier, MIUI will provide a virtual ID (OAID) to third party apps. It prevents apps from tracking your behavior and preferences, and protects your privacy.</string>
+  <string name="device_oaid_desc">Instead of your unique identifier, MIUI will provide a virtual ID (OAID) to installed apps. It prevents apps from tracking your behavior and preferences, and protects your privacy.</string>
   <string name="device_oaid_title">Virtual ID</string>
   <string name="device_of_someone">"%1$s's %2$s"</string>
   <string name="device_picker">Choose Bluetooth device</string>
@@ -3732,6 +3733,8 @@ Continue to access additional settings."</string>
   <string name="miui_sos_msg_call_log_prefix">"Here's my call history for the last hour:"</string>
   <string name="miui_sos_play_voice">Play SOS message</string>
   <string name="miui_sos_remind_add">Add</string>
+  <string name="miui_sos_remind_close">Emergency SOS mode is on. Turn it off along with all the related functionality?</string>
+  <string name="miui_sos_remind_close_confirm">Turn off</string>
   <string name="miui_sos_remind_infocontent">"I added you as my emergency contact. You'll receive a message with my location info in case I'm in danger. [Mi Emergency SOS]"</string>
   <string name="miui_sos_remind_open">Emergency SOS needs at least 1 emergency contact to work normally.</string>
   <string name="miui_sos_remind_sendinfo">"Don't forget to tell these people that they are your emergency contacts now. Thus, they will be able to help you faster in case of emergency."</string>
@@ -4756,6 +4759,7 @@ UT Interface: %5$s"</string>
   <string name="recommend_item_title">Recommendations</string>
   <string name="recommend_tip">Need other settings?</string>
   <string name="recompute_size">Recomputing size…</string>
+  <string name="regional_screen_shot">Partial screenshot</string>
   <string name="regulatory_info_text"/>
   <string name="regulatory_labels">Regulatory labels</string>
   <string name="remaining_length_format">%1$s left</string>
@@ -4783,6 +4787,7 @@ UT Interface: %5$s"</string>
 
  You will not lose any app data."</string>
   <string name="reset_app_preferences_title">Reset app preferences?</string>
+  <string name="reset_confirm_directory">"Note: Before restoring items, check whether the folder \"MIUI-Backup-AllBackup\" exists on your mobile device. If it doesn't, create it."</string>
   <string name="reset_dashboard_summary">Network, apps, or device can be reset</string>
   <string name="reset_dashboard_title">Reset options</string>
   <string name="reset_esim_desc">Erase all eSIMs on the phone. You’ll have to contact your carrier to redownload your eSIMs. This will not cancel your mobile service plan.</string>
@@ -4805,6 +4810,7 @@ UT Interface: %5$s"</string>
   <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to undo this action."</string>
   <string name="reset_network_title">Reset WLAN, mobile networks, and Bluetooth</string>
   <string name="reset_network_wifi">WLAN</string>
+  <string name="reset_remove_data_hint">All the items listed above will be erased permanently. Back up all important items to your computer or Xiaomi Cloud before you continue.</string>
   <string name="reset_second_space_passwd">Reset Second space password</string>
   <string name="reset_second_space_passwd_cancel">Cancel</string>
   <string name="reset_second_space_passwd_confirm">Continue</string>
@@ -4823,9 +4829,9 @@ UT Interface: %5$s"</string>
   <string name="restore_dialog_positive">Reset</string>
   <string name="restore_dialog_title">Attention</string>
   <string name="restore_oaid_content">Reset your virtual ID to clear your behavior and preference records</string>
-  <string name="restore_oaid_dialog_content">目前多个应用已使用您的虚拟身份ID，若重置该ID，可能造成部分应用用户数据出现错误或丢失，是否确认进行虚拟身份ID重置操作？</string>
+  <string name="restore_oaid_dialog_content">Multiple apps are using your virtual ID. If you reset it now, a part of your app data might be lost or become unusable. Reset virtual ID anyway?</string>
   <string name="restore_oaid_positive">Reset</string>
-  <string name="restore_oaid_positive_step">Reset(%1$d)</string>
+  <string name="restore_oaid_positive_step">Reset (%1$d)</string>
   <string name="restore_oaid_title">Reset virtual ID</string>
   <string name="restr_pin_enter_admin_pin">Enter admin PIN</string>
   <string name="restrict_background_blacklisted">Background data is turned off</string>
@@ -6161,6 +6167,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="theme_settings_title">Themes</string>
   <string name="thememanager_not_found">"Couldn't open Themes. Make sure the app is installed."</string>
   <string name="three_gesture_down">Slide 3 fingers down</string>
+  <string name="three_gesture_long_press">Press and hold with %d fingers</string>
   <string name="time_picker_title">Time</string>
   <string name="time_spent_in_app_pref_title">Time spent in app</string>
   <string name="time_unit_just_now">Just now</string>
