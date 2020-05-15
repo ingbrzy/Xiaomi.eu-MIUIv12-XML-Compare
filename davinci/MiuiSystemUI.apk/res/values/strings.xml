@@ -404,6 +404,7 @@
   <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
   <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
   <string name="bluetooth_opp_profile_summary_use_for">Use for file transfer</string>
+  <string name="bluetooth_paired">Saved</string>
   <string name="bluetooth_pairing">Pairing…</string>
   <string name="bluetooth_pairing_accept">Pair</string>
   <string name="bluetooth_pairing_accept_all_caps">PAIR</string>
@@ -549,8 +550,6 @@ Selection"</string>
   <string name="connected_via_network_scorer_default">Automatically connected via network rating provider</string>
   <string name="connected_via_passpoint">Connected via %1$s</string>
   <string name="content_description_menu_button">Menu</string>
-  <string name="control_quick_settings_tiles_default">flashlight,mute,screenshot,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit</string>
-  <string name="control_quick_settings_tiles_stock">flashlight,mute,screenshot,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,powermode,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode</string>
   <string name="control_quick_settings_tiles_super_save">gps,nfc,screenshot,vibrate</string>
   <string name="convert_to_fbe_warning">"Convert data partition to file based encryption.
  !!Warning!! This will erase all your data.
@@ -1495,6 +1494,11 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_cellular_detail_data_usage">Data usage</string>
   <string name="quick_settings_cellular_detail_data_used">%s used</string>
   <string name="quick_settings_cellular_detail_data_warning">%s warning</string>
+  <string name="quick_settings_cellular_detail_dialog_message_turnoff">Mobile data(WCDMA/LTE)will be turned off. Unless you use WLAN, you will no longer be able to use apps that require a data connection. Sending or receiving multimedia messages will be restricted.</string>
+  <string name="quick_settings_cellular_detail_dialog_message_turnon">Mobile data will be turned on. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
+  <string name="quick_settings_cellular_detail_dialog_negative_button_cancel">Cancel</string>
+  <string name="quick_settings_cellular_detail_dialog_positive_button_ok">OK</string>
+  <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Turn off</string>
   <string name="quick_settings_cellular_detail_over_limit">Over limit</string>
   <string name="quick_settings_cellular_detail_remaining_data">Remaining data</string>
   <string name="quick_settings_cellular_detail_title">Mobile data</string>
