@@ -726,15 +726,9 @@ Selection"</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
   <string name="data_disable_warning_no_mms">"You won't be able to send and receive MMS if you turn off mobile data (WCDMA/LTE). However, you'll be able to do that when your device is connected to WLAN."</string>
   <string name="data_disable_warning_with_mms">"You'll still be able to send and receive MMS if you turn off mobile data (WCDMA/LTE). To use the internet, connect to WLAN."</string>
-  <string name="data_disable_warning_with_mms_lgu">"You'll still be able to send and receive MMS if you turn off mobile data. To use the internet, connect to WLAN.
-
-Turn off mobile data?"</string>
   <string name="data_enable_always_warn">Ask whether to use mobile data</string>
   <string name="data_enable_summary">Allow this device to use mobile data</string>
   <string name="data_enable_warning">Allowing to always use mobile data may generate additional charges outside of your carrier plan. Connect anyway?</string>
-  <string name="data_enable_warning_lgu">"Unless otherwise indicated in your carrier plan, using mobile data might generate additional carrier fees.
-
-Use mobile data anyway?"</string>
   <string name="data_enabled">Mobile data</string>
   <string name="data_plan">Mobile data plans</string>
   <string name="data_usage_disable_mobile">Turn off mobile data?</string>
@@ -988,6 +982,8 @@ Use mobile data anyway?"</string>
   <string name="fiveg_bearer_status1">5G bearer status :</string>
   <string name="fiveg_endc_available1">NR ENDC available :</string>
   <string name="fiveg_endc_status1">Endc Status :</string>
+  <string name="fiveg_hosted_mode_summary">Switch to best available networks automatically when 5G connectivity is poor</string>
+  <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
   <string name="fiveg_icon_type1">Nr Icon Type :</string>
   <string name="fiveg_infos">5G infos</string>
   <string name="fiveg_network_config_type1">Network Config Type :</string>
@@ -1632,17 +1628,12 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_dialogtitle">Preferred network type</string>
   <string name="preferred_network_mode_evdo_only_summary">Preferred network mode: EvDo only</string>
   <string name="preferred_network_mode_global_summary">Preferred network mode: Global</string>
-  <string name="preferred_network_mode_gsm_only">GSM only</string>
   <string name="preferred_network_mode_gsm_only_summary">Preferred network mode: GSM only</string>
-  <string name="preferred_network_mode_gsm_wcdma_auto">GSM/WCDMA auto</string>
-  <string name="preferred_network_mode_gsm_wcdma_lte">GSM/WCDMA/LTE</string>
-  <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA preferred</string>
   <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: GSM / WCDMA</string>
   <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferred network mode: CDMA+LTE/EVDO</string>
   <string name="preferred_network_mode_lte_cdma_summary">Preferred network mode: LTE / CDMA</string>
   <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
   <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: GSM/WCDMA/LTE</string>
-  <string name="preferred_network_mode_lte_only">LTE only</string>
   <string name="preferred_network_mode_lte_summary">Preferred network mode: LTE</string>
   <string name="preferred_network_mode_lte_tdscdma_cdma_evdo_gsm_wcdma_summary">Preferred network mode: LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_lte_tdscdma_gsm_summary">Preferred network mode: LTE/GSM/TDSCDMA</string>
@@ -1651,17 +1642,12 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_lte_tdscdma_wcdma_summary">Preferred network mode: LTE/TDSCDMA/WCDMA</string>
   <string name="preferred_network_mode_lte_wcdma_summary">Preferred network mode: LTE / WCDMA</string>
   <string name="preferred_network_mode_summary">Change the network operating mode</string>
-  <string name="preferred_network_mode_td_scdma_gsm_wcdma">TD-SCDMA/GSM/WCDMA</string>
-  <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte">TD-SCDMA/GSM/WCDMA/LTE</string>
-  <string name="preferred_network_mode_td_scdma_wcdma_lte">TD-SCDMA/WCDMA/LTE</string>
   <string name="preferred_network_mode_tdscdma_cdma_evdo_gsm_wcdma_summary">Preferred network mode: TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_tdscdma_gsm_summary">Preferred network mode: TDSCDMA / GSM</string>
   <string name="preferred_network_mode_tdscdma_gsm_wcdma_summary">Preferred network mode: TDSCDMA/GSM/WCDMA</string>
   <string name="preferred_network_mode_tdscdma_summary">Preferred network mode: TDSCDMA</string>
   <string name="preferred_network_mode_tdscdma_wcdma_summary">Preferred network mode: TDSCDMA / WCDMA</string>
   <string name="preferred_network_mode_title">Preferred network type</string>
-  <string name="preferred_network_mode_wcdma_lte">WCDMA/LTE</string>
-  <string name="preferred_network_mode_wcdma_only">WCDMA only</string>
   <string name="preferred_network_mode_wcdma_only_summary">Preferred network mode: WCDMA only</string>
   <string name="preferred_network_mode_wcdma_perf_summary">Preferred network mode: WCDMA preferred</string>
   <string name="preferred_network_restrict_network_changed_incall">"Can't change mobile network during call"</string>
