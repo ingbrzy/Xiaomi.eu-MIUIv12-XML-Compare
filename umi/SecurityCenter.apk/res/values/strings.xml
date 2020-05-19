@@ -1322,10 +1322,9 @@ medical card"</string>
   <string name="free_traffic_settings">Off-peak data usage settings</string>
   <string name="function_close">Off</string>
   <string name="function_gwsd_detail">"About this feature:
- 1. Incoming calls to your data SIM won't interrupt mobile data connection. The connection will be interrupted only when you answer a call.
- 2. When this feature is turned on, the caller won't hear call waiting ringtones. Incoming calls will be ended unless you answer within 6 seconds.
- 3. This feature only works for data SIM cards. Calls to your primary SIM will interrupt mobile data connection.
- 4. This feature is supported only by China Mobile and China Unicom."</string>
+ 1. When you're using mobile data on a data SIM or a regular SIM card connected to a VoLTE network, connection won't be interrupted by incoming calls until you pick up.
+ 2. When this feature is on, the other person won't be able to hear your ringback tones unless you're using a regular SIM card. Incoming calls will be rejected automatically after 7-10 seconds of inactivity.
+ 3. Data SIM cards issued by China Mobile and China Unicom are supported. Regular SIM cards issued by China Mobile, China Unicom, and China Telecom are supported."</string>
   <string name="function_gwsd_title">"Don't allow incoming calls to interrupt data SIM connection"</string>
   <string name="function_shield_auto_bright">Turn off auto brightness</string>
   <string name="function_shield_eye_shield">Turn off Reading mode</string>
@@ -2269,6 +2268,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="pm_auto_start_by_system">Start apps</string>
   <string name="pm_auto_start_by_system_event">Allow apps to start automatically</string>
   <string name="pm_auto_start_proc_is_running">Running</string>
+  <string name="pm_newfeature_sub_text">NEW</string>
   <string name="pm_remember_choice">Remember my choice</string>
   <string name="pm_root_success_notification_infomation">Make sure you understand the risks related with root access</string>
   <string name="pm_root_success_notification_title">Allowed root access</string>
