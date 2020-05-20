@@ -374,7 +374,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
   <string name="allow_oaid_used">Use virtual ID</string>
-  <string name="allow_oaid_used_desc">"Apps won't be able to access any ID unless you explicitly allow them to do that. Some personal recommendation features might not work properly when this feature is on."</string>
+  <string name="allow_oaid_used_desc">"MIUI won't provide a virtual ID (OAID) to installed apps. Some personal recommendation features might not work properly because of that."</string>
   <string name="allow_overlay_description">Allow this app to display on top of other apps you’re using. It may interfere with your use of those apps or change the way they seem to appear or behave.</string>
   <string name="allow_sound_title">Allow sound</string>
   <string name="allow_vibrate_title">Allow vibration</string>
@@ -1710,6 +1710,7 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="content_capture">App content</string>
   <string name="content_capture_summary">Allow apps to send content to the Android system</string>
   <string name="content_description_menu_button">Menu</string>
+  <string name="content_miui_music_mute_by_user">Play media sound when Silent mode is on?</string>
   <string name="contextual_card_dismiss_confirm_message">Remove this suggestion?</string>
   <string name="contextual_card_dismiss_keep">Keep</string>
   <string name="contextual_card_dismiss_remove">Remove</string>
@@ -2109,7 +2110,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_name_input_overlength">You went over the character limit</string>
   <string name="device_name_usage_point">Other nearby devices can see this name.</string>
   <string name="device_oaid">Manage virtual ID</string>
-  <string name="device_oaid_desc">Instead of your real identifier, MIUI will provide a virtual ID (OAID) to third party apps. It prevents apps from tracking your behavior and preferences, and protects your privacy.</string>
+  <string name="device_oaid_desc">Instead of your unique identifier, MIUI will provide a virtual ID (OAID) to installed apps. It prevents apps from tracking your behavior and preferences, and protects your privacy.</string>
   <string name="device_oaid_title">Virtual ID</string>
   <string name="device_of_someone">"%1$s's %2$s"</string>
   <string name="device_picker">Choose Bluetooth device</string>
@@ -4424,7 +4425,7 @@ Select your operating system:"</string>
   <string name="not_battery_optimizing">Not using battery optimization</string>
   <string name="not_installed">Not installed for this user</string>
   <string name="not_set">Not set</string>
-  <string name="notch_and_status_bar_settings">Notch &amp; status bar</string>
+  <string name="notch_and_status_bar_settings">Control center &amp; status bar</string>
   <string name="notch_force_black_desc">Turn on to darken the area around the notch</string>
   <string name="notch_force_black_title">Hide notch</string>
   <string name="notch_settings">Notch</string>
@@ -6792,6 +6793,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
   <string name="title_layout_current2_weight">Text size &amp; font weight</string>
+  <string name="title_miui_music_mute_by_user">Silent mode</string>
   <string name="title_of_auto_launch_manage">Autostart</string>
   <string name="to_close">Turn off</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
