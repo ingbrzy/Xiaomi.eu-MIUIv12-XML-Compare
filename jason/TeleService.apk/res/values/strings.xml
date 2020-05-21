@@ -1049,6 +1049,7 @@ Switch to the new provider anyway?"</string>
   <string name="incall_error_missing_voicemail_number">Voicemail number unknown.</string>
   <string name="incall_error_no_phone_number_supplied">To place a call, enter a valid number.</string>
   <string name="incall_error_out_of_service">Mobile network not available.</string>
+  <string name="incall_error_out_of_service_kr">Emergency call available only.</string>
   <string name="incall_error_out_of_service_wfc">Mobile network is not available. Connect to a wireless network to make a call.</string>
   <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
   <string name="incall_error_power_off_wfc">Turn off airplane mode or connect to a wireless network to make a call.</string>
@@ -1062,6 +1063,7 @@ Switch to the new provider anyway?"</string>
   <string name="incall_error_supp_service_transfer">"Can't transfer."</string>
   <string name="incall_error_supp_service_unknown">Service not supported</string>
   <string name="incall_error_wfc_only_no_wireless_network">Connect to a wireless network to make a call.</string>
+  <string name="incall_number_anonymous">Unknown number</string>
   <string name="incall_status_dialed_mmi">Starting MMI sequence…</string>
   <string name="install_other_apps">Install unknown apps</string>
   <string name="international_disable">International news disabled</string>
@@ -1290,7 +1292,9 @@ Switch to the new provider anyway?"</string>
   <string name="msim_set_sub_not_supported_slot_id_error">SIM card error</string>
   <string name="msim_setting_categery_title">SIM card settings</string>
   <string name="msim_setting_default_data">Data card</string>
+  <string name="msim_setting_default_data_description">Data SIM %d</string>
   <string name="msim_setting_default_voice">Default for calls</string>
+  <string name="msim_setting_default_voice_description">SIM %d</string>
   <string name="msim_setting_install_virtual_sim_install">Install</string>
   <string name="msim_setting_install_virtual_sim_message">Install Mi Carrier Services to buy SIM cards and manage your carrier plan.</string>
   <string name="msim_setting_install_virtual_sim_tip">Mi Carrier Services</string>
@@ -1653,6 +1657,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="private_dns_mode_provider_failure">"Couldn't connect"</string>
   <string name="private_dns_mode_provider_hostname_hint">Enter hostname of DNS provider</string>
   <string name="private_num">Private number</string>
+  <string name="private_num_kr">Caller ID restricted</string>
   <string name="process_kernel_label">Android OS</string>
   <string name="progress_dialog_exiting_ecm">Exiting Emergency Callback mode</string>
   <string name="prompt_to_suggest_no_call_service_notification_content">"Can't make and receive calls. VoLTE service is off for your SIM (China Telecom) now."</string>
