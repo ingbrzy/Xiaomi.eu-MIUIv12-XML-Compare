@@ -108,13 +108,13 @@
   <string name="all">Show all</string>
   <string name="app_code">MOVIE-ANDROID-MIVIDEO</string>
   <string name="app_name">Mi Video</string>
-  <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+  <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
   <string name="auth_fail_warning">Session expired. Sign in again.</string>
   <string name="auto_play_next_off">Autoplay is off</string>
   <string name="auto_play_next_on">Autoplay is on</string>
   <string name="before_yestoday">2 days ago</string>
   <string name="bind_sign_in_title">Add Mi Account</string>
-  <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+  <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_choose">Deselect</string>
   <string name="cancel_subscribe_tips">Unfollow now?</string>
@@ -307,8 +307,8 @@ Send this code to the supervisor."</string>
   <string name="exo_track_unknown">Unknown</string>
   <string name="explore">Discover</string>
   <string name="explore_on_mi_video">Find more on Mi Video</string>
-  <string name="fab_transformation_scrim_behavior">android.support.design.transformation.FabTransformationScrimBehavior</string>
-  <string name="fab_transformation_sheet_behavior">android.support.design.transformation.FabTransformationSheetBehavior</string>
+  <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+  <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
   <string name="facebook_application_id"/>
   <string name="facebook_login_protocol_scheme">com.xiaomi.passport.ui</string>
   <string name="failed_dup_secure_phone_number">This phone number is already associated with another Mi Account</string>
@@ -437,7 +437,7 @@ Send this code to the supervisor."</string>
   <string name="have_learned">Got it</string>
   <string name="hidden_channels">"The following channels won't be displayed on the Home page."</string>
   <string name="hide">Hide</string>
-  <string name="hide_bottom_view_on_scroll_behavior">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
+  <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
   <string name="history">History</string>
   <string name="history_local_video">Local</string>
   <string name="history_online_video">Online</string>
@@ -618,6 +618,7 @@ for videos"</string>
   <string name="mr_cast_button_connected">Cast button. Connected</string>
   <string name="mr_cast_button_connecting">Cast button. Connecting</string>
   <string name="mr_cast_button_disconnected">Cast button. Disconnected</string>
+  <string name="mr_cast_dialog_title_view_placeholder">No info available</string>
   <string name="mr_chooser_searching">Finding devices</string>
   <string name="mr_chooser_title">Cast to</string>
   <string name="mr_controller_album_art">Album art</string>
@@ -633,6 +634,8 @@ for videos"</string>
   <string name="mr_controller_stop">Stop</string>
   <string name="mr_controller_stop_casting">Stop casting</string>
   <string name="mr_controller_volume_slider">Volume slider</string>
+  <string name="mr_dialog_device_header">Cast to a device</string>
+  <string name="mr_dialog_route_header">Play on a group</string>
   <string name="mr_system_route_name">System</string>
   <string name="mr_user_route_category_name">Devices</string>
   <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
