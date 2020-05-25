@@ -37,7 +37,6 @@
   <string name="back_up_task_in_process">Backing up…</string>
   <string name="back_up_task_unfinished">"Couldn't back up"</string>
   <string name="backing_up_to_micloud">Backing up…</string>
-  <string name="backup_fail_wifi_needed">"Couldn't back up, Wi-Fi needed."</string>
   <string name="backup_failed_reason_cloud_space_not_enough">Not enough storage space in Xiaomi Cloud. Upgrade your plan or free up storage space.</string>
   <string name="backup_failed_reason_disk_space_not_enough">Not enough storage space. Free up storage first.</string>
   <string name="backup_failed_reason_network_error">Network error. Wait a minute or two and try again.</string>
@@ -58,6 +57,7 @@
   <string name="btn_restore_resume">Resume</string>
   <string name="btn_restore_retry">Try again</string>
   <string name="btn_restore_wait">Wait for Wi-Fi</string>
+  <string name="btn_restore_wait_china">Wait for WLAN</string>
   <string name="btn_retry">Check again</string>
   <string name="btn_skip">Skip this step</string>
   <string name="button_cancel">Cancel</string>
@@ -87,10 +87,15 @@
 *  Notification settings 
 *  MIUI and system settings 
 Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
+  <string name="cloud_back_up_detail_discription_china">"These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: 
+*  Apps, Home screen layout, and wallpapers 
+*  Alarm, clock, and time settings 
+*  Notification settings 
+*  MIUI and system settings 
+Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
   <string name="cloud_back_up_frequence_choice_title">Backup schedule</string>
   <string name="cloud_back_up_frequence_long">Every 7 days</string>
   <string name="cloud_back_up_frequence_short">Every day</string>
-  <string name="cloud_back_up_no_network_warn">"Can't connect to Wi-Fi"</string>
   <string name="cloud_back_up_ok_btn">OK</string>
   <string name="cloud_back_up_opening">Just a sec…</string>
   <string name="cloud_back_up_subscribe_vip_confirm">Upgrade</string>
@@ -103,6 +108,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
   <string name="cloud_backup_detail_manage">Manage backups</string>
   <string name="cloud_backup_detail_state">Automatic backups</string>
   <string name="cloud_backup_detail_state_summary">Create Xiaomi Cloud backups automatically when connected to Wi-Fi.</string>
+  <string name="cloud_backup_detail_state_summary_china">Create Xiaomi Cloud backups automatically when connected to WLAN.</string>
   <string name="cloud_backup_detail_time">Last backup: %1$s</string>
   <string name="cloud_backup_detail_title">Home screen, apps, and settings.</string>
   <string name="cloud_backup_have_data">Found a backup in Xiaomi Cloud</string>
@@ -138,7 +144,9 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
   <string name="dialog_cancel_backup_title">Cancel the ongoing backup?</string>
   <string name="dialog_msg_overwrite_backup">Local backup is different from the one in Xiaomi Cloud. If you continue, current backup will overwrite the previous one.</string>
   <string name="dialog_msg_restore_require_wlan">Restoring backups requires connecting to Wi-Fi.</string>
+  <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to WLAN.</string>
   <string name="dialog_title_require_wlan">Connect to Wi-Fi</string>
+  <string name="dialog_title_require_wlan_china">Connect to WLAN</string>
   <string name="dir_date_format">HHmmss_MMddyyyy</string>
   <string name="doing_calc_backup_data_size">Calculating size…</string>
   <string name="doing_restore_home">Restoring Home screen and settings…</string>
@@ -153,7 +161,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
   <string name="error_unknown">Something went wrong</string>
   <string name="expand_button_title">Advanced</string>
   <string name="get_device_id_error">"Couldn't get device ID"</string>
-  <string name="help_and_feedback">Help and Feedback</string>
+  <string name="help_and_feedback">Help and feedback</string>
   <string name="hint_restore_cross_space">Home screen layout might be displayed incorrectly if you transfer items between spaces.</string>
   <string name="home_hint_global_launcher">POCO Launcher</string>
   <string name="home_hint_other_launcher">Other launcher</string>
@@ -189,9 +197,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
   <string name="notification_channel_remind">Reminder</string>
   <string name="notification_channel_service">Service</string>
   <string name="open_backup_switch">Toggle the backup switch</string>
-  <string name="open_wifi">Turn Wi-Fi on now</string>
-  <string name="open_wifi_description">Connect to a Wi-Fi network to restore app</string>
-  <string name="open_wifi_setting">Wi-Fi settings</string>
   <string name="other_device_main_space">First space</string>
   <string name="other_device_second_space">Second space</string>
   <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
@@ -225,7 +230,6 @@ Check your network settings and try again."</string>
   <string name="restore_app_order_search_prior">High-priority apps</string>
   <string name="restore_app_order_title">Prioritize restored items</string>
   <string name="restore_cloud_backup_to_phone">Restore items from the cloud</string>
-  <string name="restore_data_summary">This feature requires an internet connection.</string>
   <string name="restore_data_title">Restore data</string>
   <string name="restore_detail_category_apps">Home screen layout &amp; apps</string>
   <string name="restore_detail_category_settings">Settings</string>
