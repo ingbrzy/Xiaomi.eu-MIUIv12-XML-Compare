@@ -104,7 +104,7 @@
   <string name="finddevice_miservice_notification_content">"Lock your device remotely if it's lost"</string>
   <string name="finddevice_miservice_notification_title">Turn on Find device</string>
   <string name="forget_password">&lt;u&gt;Forgot password&lt;/u&gt;</string>
-  <string name="help_and_feedback">Help and Feedback</string>
+  <string name="help_and_feedback">Help and feedback</string>
   <string name="i_know">OK</string>
   <string name="input_password_hint">Enter password</string>
   <string name="internet_access_dspt">This app needs to connect to the internet to work normally.</string>
@@ -209,7 +209,9 @@ to your Mi Account to reactivate Xiaomi Cloud."</string>
   <string name="micloud_dspt">"Sync your contacts, messages, call history, and other items across all devices.
 Locate and lock your device in case it's lost."</string>
   <string name="micloud_dspt_provision">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
+  <string name="micloud_dspt_provision_china">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
   <string name="micloud_dspt_provision_xms">Use Xiaomi Cloud to sync data.</string>
+  <string name="micloud_dspt_provision_xms_china">Use Xiaomi Cloud to sync data.</string>
   <string name="micloud_find_device_close_alert_content">"If you turn off Find device, you won't be able to locate your phone using this feature. If your phone supports NFC functionality, all your bank cards and keycards will be deleted from Mi Pay."</string>
   <string name="micloud_find_device_close_alert_negtive">Turn off anyway</string>
   <string name="micloud_find_device_close_alert_positive">Keep on</string>
@@ -223,8 +225,8 @@ Locate and lock your device in case it's lost."</string>
   <string name="micloud_find_device_guide_alert_positive">OK</string>
   <string name="micloud_find_device_guide_alert_title">Remember your password</string>
   <string name="micloud_find_device_guide_button">Turn on Find device</string>
-  <string name="micloud_find_device_guide_desc_pad">"Sign in to &lt;font color=#0097FF&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt; to locate, lock, or erase your device. This might help you to find your device in case it's lost. &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice&gt;[See Help]&lt;/a&gt;"</string>
-  <string name="micloud_find_device_guide_desc_phone">"Sign in to &lt;font color=#0097FF&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt; to locate, lock, or erase your device. This might help you to find your device in case it's lost. &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice&gt;[See Help]&lt;/a&gt;"</string>
+  <string name="micloud_find_device_guide_desc_pad">If your device is lost, sign in to &lt;font color=#0097FF&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt; on any other device to locate, remotely lock, or erase data on lost device. &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice&gt;View details&lt;/a&gt;.</string>
+  <string name="micloud_find_device_guide_desc_phone">If your device is lost, sign in to &lt;font color=#0097FF&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt; on any other device to locate, remotely lock, or erase data on lost device. &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice&gt;View details&lt;/a&gt;.</string>
   <string name="micloud_find_device_guide_fail_reopen">You can turn on Find device in Mi Account - Xiaomi Cloud</string>
   <string name="micloud_find_device_guide_fail_sub_net">Check your network connection and try again.</string>
   <string name="micloud_find_device_guide_micloud_sub_content">Sync contacts, photos, notes, and more with Xiaomi Cloud</string>
@@ -265,9 +267,6 @@ Locate and lock your device in case it's lost."</string>
   <string name="micloud_main_sync_mode_title">Quick sync</string>
   <string name="micloud_main_wait_charge">Fully charge your device to resume sync.</string>
   <string name="micloud_main_wait_charge_sleep">Turn off screen and fully charge your device to resume sync.</string>
-  <string name="micloud_main_wait_wlan">Waiting for Wi-Fi</string>
-  <string name="micloud_main_wait_wlan_charge">Connect to Wi-Fi and fully charge your device to resume sync.</string>
-  <string name="micloud_main_wait_wlan_charge_sleep">Connect to Wi-Fi, turn off screen, and fully charge your device to resume sync.</string>
   <string name="micloud_manage_space_data">Manage cloud data</string>
   <string name="micloud_manaul_sync_success_button_text">View details</string>
   <string name="micloud_manaul_sync_success_time_prefix">Last sync: %s</string>
@@ -306,6 +305,7 @@ Locate and lock your device in case it's lost."</string>
   <string name="micloud_member_pay_order_error_toast">Data error</string>
   <string name="micloud_notif_content_battery_low">Battery is too low.</string>
   <string name="micloud_notif_content_depend_wifi">Connect to Wi-Fi to sync.</string>
+  <string name="micloud_notif_content_depend_wifi_china">Connect to WLAN to sync.</string>
   <string name="micloud_notif_content_dirty_data">Details</string>
   <string name="micloud_notif_content_master_depend_wifi">Connect to Wi-Fi or change sync settings. Tap to change.</string>
   <string name="micloud_notif_content_memory_low">Not enough storage space.</string>
@@ -349,6 +349,7 @@ Locate and lock your device in case it's lost."</string>
   <string name="micloud_setting_sms_summary">SMS and MMS messages</string>
   <string name="micloud_setting_sms_summary_for_google_csp">Text messages</string>
   <string name="micloud_setting_wifi_summary">Wi-Fi settings</string>
+  <string name="micloud_setting_wifi_summary_china">WLAN settings</string>
   <string name="micloud_space_applist_detail">Manage apps on your Home screen</string>
   <string name="micloud_space_applist_title">Manage apps</string>
   <string name="micloud_space_duokan_detail">Download and manage ebooks with the Duokan app.</string>
@@ -382,6 +383,7 @@ Locate and lock your device in case it's lost."</string>
   <string name="micloud_sync_result_secure_space_limit">"Don't sync items from Second space"</string>
   <string name="micloud_sync_result_sim_activated_error">"Couldn't activate SIM card"</string>
   <string name="micloud_sync_result_wifi_only">This item is too big. Sync it when connected to Wi-Fi.</string>
+  <string name="micloud_sync_result_wifi_only_china">This item is too big. Sync it when connected to WLAN.</string>
   <string name="micloud_upgrade_member">Get storage</string>
   <string name="micloud_user_space_title">Storage space</string>
   <string name="micloud_warn_full_sum">"New items won't be synced with Xiaomi Cloud."</string>
@@ -433,6 +435,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="pref_summary_sync_display_photo_on_wifi_only">"Only sync contacts' profile pictures when you're connected to a Wi-Fi network"</string>
   <string name="pref_title_sync_contacts_title">Sync contacts</string>
   <string name="pref_title_sync_display_photo_on_wifi_only">Only use Wi-Fi to sync photos</string>
+  <string name="pref_title_sync_display_photo_on_wifi_only_china">Only use WLAN to sync photos</string>
   <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
   <string name="privacy_and_agreement">Terms and conditions</string>
   <string name="privacy_dialog_finddevice_all_purpose_pad">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost."</string>
@@ -471,7 +474,9 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sina_token_expired_warning">Weibo account expired, add the account again.</string>
   <string name="sina_token_invalid_warning">Weibo account is invalid, add the account again.</string>
   <string name="soundrecorder_sync_only_in_wifi">Only use Wi-Fi to sync</string>
+  <string name="soundrecorder_sync_only_in_wifi_china">Only use WLAN to sync</string>
   <string name="soundrecorder_sync_only_in_wifi_summary">Recorder will not use mobile data to download or upload recordings</string>
+  <string name="soundrecorder_sync_only_in_wifi_summary_china">Recorder will not use mobile data to download or upload recordings</string>
   <string name="soundrecorder_sync_records">Sync with Xiaomi Cloud</string>
   <string name="special_func_title">Special features</string>
   <string name="starred_contact">Favorites</string>
@@ -488,6 +493,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sub_alert_notif_title">Sync with Xiaomi Cloud</string>
   <string name="sub_sync_item_sms_summary">"Only sync messages containing photos, audio, or other media when you're connected to a Wi-Fi network"</string>
   <string name="sub_sync_item_sms_title_wifi_only">Only use Wi-Fi to sync MMS</string>
+  <string name="sub_sync_item_sms_title_wifi_only_china">Only use WLAN to sync MMS</string>
   <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
   <string name="sync_detail_summary_master_sync_off">Sync is off</string>
   <string name="sync_detail_summary_off">Sync is off</string>
@@ -499,6 +505,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sync_dspt_entrance_provision_confirm_open">Use Xiaomi Cloud</string>
   <string name="sync_dspt_entrance_provision_confirm_title">"Don't use Xiaomi Cloud?"</string>
   <string name="sync_dspt_entrance_provision_network">This app needs to connect to the internet to work normally. Syncing data may require mobile data connection and turning on Wi-Fi.</string>
+  <string name="sync_dspt_entrance_provision_network_china">This app needs to connect to the internet to work normally. Syncing data may require mobile data connection and turning on WLAN.</string>
   <string name="sync_dspt_entrance_provision_skip">Skip this step</string>
   <string name="sync_dspt_provision">"Sync your photos, contacts, notes, and more across all your devices or access them at "</string>
   <string name="sync_dspt_provision2">i.mi.com</string>
