@@ -68,10 +68,10 @@
   <string name="alert_weather_enable_settings_title">Weather warnings</string>
   <string name="already_voted_toast">"You've already voted today"</string>
   <string name="app_name">Weather</string>
-  <string name="aqi_15_days_desc">15天空气质量预报</string>
-  <string name="aqi_24_hours_desc">24小时空气质量预报</string>
-  <string name="aqi_48_hours_desc">48小时空气质量预报</string>
-  <string name="aqi_5_days_desc">5天空气质量预报</string>
+  <string name="aqi_15_days_desc">15-day AQI forecast</string>
+  <string name="aqi_24_hours_desc">24-hour AQI forecast</string>
+  <string name="aqi_48_hours_desc">48-hour AQI forecast</string>
+  <string name="aqi_5_days_desc">5-day AQI forecast</string>
   <string name="aqi_data_source">Powered by Colorful Clouds</string>
   <string name="aqi_desc">Air Quality Index</string>
   <string name="aqi_detail_24_hours">24-hour forecast</string>
@@ -154,7 +154,6 @@ Pull down to refresh or check the network settings"</string>
   <string name="data_provided_by">Data provided in part by</string>
   <string name="data_source_time_fromat">"yyyy-MM-dd'T'HH:mm:ssz"</string>
   <string name="data_source_timezone">GMT%1$s</string>
-  <string name="dislike_alert_dialog_title">Why do not you want to see this content?</string>
   <string name="edit_city">Manage cities</string>
   <string name="empty">" "</string>
   <string name="empty_view_net_loading">Updating…</string>
@@ -210,6 +209,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="feedback_sunny">Clear</string>
   <string name="first_start_network_title">Internet connection and location access</string>
   <string name="global_aqi">AQI: %1$s %2$s</string>
+  <string name="global_not_enable_warning">"Can't use this app. It wasn't installed from the official sources."</string>
   <string name="hour_minute_time_format">HH:mm</string>
   <string name="hourly_forcast_now">Now</string>
   <string name="hourly_forecast_bottom_aqi_chinese">%1$s%2$s</string>
@@ -220,7 +220,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="index_item_download_pause">继续下载</string>
   <string name="index_item_downloading">正在下载</string>
   <string name="index_item_experience_now">Install now</string>
-  <string name="index_item_install_dialog"/>
+  <string name="index_item_install_dialog">%1$s下载并安装成功,是否立即体验?</string>
   <string name="index_item_install_dialog_cancel"/>
   <string name="index_item_install_dialog_open"/>
   <string name="index_item_install_now">Install now</string>
@@ -379,7 +379,6 @@ Tap the screen to manually add or reposition city"</string>
   <string name="temperature_unit_C">%1$s℃</string>
   <string name="temperature_unit_F">%1$s℉</string>
   <string name="temperature_unit_default">0</string>
-  <string name="thanku_for_feedback">Thanks for feedback, you can re-open the weather video on the settings page</string>
   <string name="title_share_link">Share URL</string>
   <string name="top_pollution_co">CO</string>
   <string name="top_pollution_no2">NO2</string>
@@ -427,11 +426,12 @@ Tap the screen to manually add or reposition city"</string>
   <string name="weather_introduce">Always with you, rain or shine.</string>
   <string name="weather_list_info">相关资讯</string>
   <string name="weather_list_title">天气头条</string>
-  <string name="weather_main_aqi_desc">空气质量</string>
-  <string name="weather_main_minute_hour">2小时降雨概率</string>
+  <string name="weather_main_aqi_desc">AQI</string>
+  <string name="weather_main_minute_hour">2-hour precipitation</string>
   <string name="weather_main_speak_tips">点击可语音播报天气</string>
   <string name="weather_permission_agree">Accept</string>
   <string name="weather_service_channel_name">Background services</string>
+  <string name="widget_cta_not_agree">Tap to get weather info</string>
   <string name="wind_direction_no_data">Wind</string>
   <string name="wind_power_unit_default">0</string>
   <string name="wind_unit">%1$skm/h</string>
