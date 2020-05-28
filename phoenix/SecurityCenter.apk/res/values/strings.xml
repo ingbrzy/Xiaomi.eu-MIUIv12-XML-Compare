@@ -294,6 +294,8 @@
   <string name="app_behavior_start_from_notification_single">This app was launched by a notification</string>
   <string name="app_behavior_start_from_recent">%1s was launched from Recents</string>
   <string name="app_behavior_start_from_recent_single">This app was launched from Recents</string>
+  <string name="app_behavior_start_from_widget">%1s was launched by a widget</string>
+  <string name="app_behavior_start_from_widget_single">This app was launched by a widget</string>
   <string name="app_behavior_storage">%1s accessed or saved files</string>
   <string name="app_behavior_storage_bg">%1s accessed or saved files in the background</string>
   <string name="app_behavior_storage_bg_single">This app accessed or saved files in the background</string>
@@ -1435,6 +1437,12 @@ medical card"</string>
   <string name="gb_description_image_button_answer">Answer</string>
   <string name="gb_description_image_button_reject">Decline</string>
   <string name="gb_description_image_button_video_answer">Video call</string>
+  <string name="gb_dialog_game_uninstall_deleting">正在删除</string>
+  <string name="gb_dialog_game_uninstall_loading">游戏应用加载中</string>
+  <string name="gb_dialog_game_uninstall_multi_tips_title">卸载\"%1$s\"等%2$d款游戏</string>
+  <string name="gb_dialog_game_uninstall_tips_message">卸载后其所有数据也将被删除</string>
+  <string name="gb_dialog_game_uninstall_tips_message_xspace">将同时卸载关联的双开游戏,游戏内数据将会被删除</string>
+  <string name="gb_dialog_game_uninstall_tips_title">卸载“%s”</string>
   <string name="gb_dialog_record_way_ai">AI recordings are saved in the gamebox and stored there for 7 days.</string>
   <string name="gb_dialog_record_way_finish">Done</string>
   <string name="gb_dialog_record_way_manual">Record videos up to 30 seconds long manually</string>
@@ -1457,6 +1465,7 @@ medical card"</string>
   <string name="gb_first_window_summary">Boost speed and performance on a system level</string>
   <string name="gb_first_window_title">Game Turbo</string>
   <string name="gb_game_end_toast">Revisit the key moments of your games</string>
+  <string name="gb_game_video_ai_record_finish_tips">AI录制%d个视频，已保存至游戏加速</string>
   <string name="gb_game_video_bottom_tips">Watch recordings of your sessions in the gamebox. Videos are stored there for 7 days by default.</string>
   <string name="gb_game_video_item_tag">Key moment</string>
   <string name="gb_game_video_page_delete_success">Deleted successfully</string>
@@ -1464,7 +1473,9 @@ medical card"</string>
   <string name="gb_game_video_record_finish_tips">Saved video successfully</string>
   <string name="gb_game_video_save">Save</string>
   <string name="gb_game_video_type_ai">AI</string>
+  <string name="gb_game_video_type_ai_record">AI录制</string>
   <string name="gb_game_video_type_manual">Manually</string>
+  <string name="gb_game_video_type_manual_record">手动录制</string>
   <string name="gb_get_gift_right_now">Check in now</string>
   <string name="gb_global_settings">General settings</string>
   <string name="gb_have_signed">Checked in today</string>
@@ -1488,6 +1499,9 @@ medical card"</string>
   <string name="gb_signed_gift_loading_summary">Just a sec…</string>
   <string name="gb_signed_title">Checked in this month</string>
   <string name="gb_sound_audition">Try</string>
+  <string name="gb_storage_game_uninstall">游戏卸载</string>
+  <string name="gb_storage_summary">将游戏应用收纳至游戏盒子，桌面将不再显示游戏图标</string>
+  <string name="gb_storage_title">收纳桌面游戏图标</string>
   <string name="gb_voice_change_settinged">Voice changer is on</string>
   <string name="gb_voice_changer_cartoon">Cartoon</string>
   <string name="gb_voice_changer_dlg_button_agree">Allow</string>
@@ -1500,10 +1514,12 @@ medical card"</string>
   <string name="gb_voice_changer_permission_dlg_msg">Voice changer needs to be able to record audio to work normally.</string>
   <string name="gb_voice_changer_permission_dlg_title">Permissions required</string>
   <string name="gb_voice_changer_robot">Robot</string>
+  <string name="gb_wonderful_moment_toast_window_new_pop">开启智能/手动录制，保存精彩瞬间</string>
   <string name="gb_wonderful_video_cancel">Cancel</string>
   <string name="gb_wonderful_video_checkall">Select all</string>
   <string name="gb_wonderful_video_date_format">"dd'th',MMM."</string>
   <string name="gb_wonderful_video_delete">Delete</string>
+  <string name="gb_wonderful_video_goto_box">前往游戏加速查看</string>
   <string name="gb_wonderful_video_header_title">Today</string>
   <string name="gb_wonderful_video_save_suc">Saved successfully</string>
   <string name="gb_xunyou_gift_type_one">Xunyou 1-day boost</string>
