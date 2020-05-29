@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_user_gender_name">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="sleep_duration_values">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="aritst_area_filter">
+        <item>@string/artist_area_all</item>
+        <item>@string/artist_area_china</item>
+        <item>@string/artist_area_korea</item>
+        <item>@string/artist_area_japan</item>
+        <item>@string/artist_area_europe_usa</item>
+    </string-array>
+    <string-array name="aritst_area_filter_api">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="aritst_gender_filter">
+        <item>@string/artist_gender_all</item>
+        <item>@string/artist_gender_male</item>
+        <item>@string/artist_gender_female</item>
+        <item>@string/artist_gender_group</item>
+    </string-array>
+    <string-array name="aritst_gender_filter_api">
+        <item>all</item>
+        <item>male</item>
+        <item>female</item>
+        <item>group</item>
+    </string-array>
+    <array name="desktop_lyric_seekbar_track_color">
+        <item>#ff13baff</item>
+        <item>#ff616acb</item>
+        <item>#ffe28ce2</item>
+        <item>#ffe64b4b</item>
+        <item>#ffffff00</item>
+        <item>#ff84cf84</item>
+        <item>#ff6fe9e9</item>
+    </array>
+    <string-array name="dirac_equalizer_preset_values">
+        <item>0,0,0,0,0,0,0</item>
+        <item>4,2,-2,0,-2,-2,4</item>
+        <item>0,0,0,-2,-3,0,0</item>
+        <item>0,-3,-5,0,0,-3,0</item>
+        <item>0,0,0,0,3,6,6</item>
+        <item>3,3,-3,0,-3,0,2</item>
+        <item>2,4,-6,4,0,1,2</item>
+        <item>3,3,-1,0,-3,0,0</item>
+        <item>0,0,-2,-2,2,2,0</item>
+        <item>0,4,2,0,-2,-2,4</item>
+        <item>2,0,0,-2,-4,0,0</item>
+    </string-array>
+    <string-array name="freq_entries">
+        <item>" "</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>.</item>
+    </string-array>
+    <array name="freq_entryValues">
+        <item>@drawable/fm_number_empty</item>
+        <item>@drawable/fm_number_0</item>
+        <item>@drawable/fm_number_1</item>
+        <item>@drawable/fm_number_2</item>
+        <item>@drawable/fm_number_3</item>
+        <item>@drawable/fm_number_4</item>
+        <item>@drawable/fm_number_5</item>
+        <item>@drawable/fm_number_6</item>
+        <item>@drawable/fm_number_7</item>
+        <item>@drawable/fm_number_8</item>
+        <item>@drawable/fm_number_9</item>
+        <item>@drawable/fm_number_point</item>
+    </array>
+    <string-array name="karaoke_descriptions">
+        <item>有没有那么一首歌，会让你轻轻跟着和...</item>
+        <item>我唱得她心醉...我唱得她心碎...</item>
+        <item>不管喜和悲...卡拉永远ok...</item>
+        <item>麦克风都让我征服...</item>
+        <item>你爱默默倾听全世界...全世界谁倾听你...</item>
+        <item>还好我有 我这一首情歌...</item>
+        <item>昨天太近...明天太远...默默聆听那黑夜...</item>
+        <item>你有Jazz 我用Rock 一起Hip-hop整条街...</item>
+        <item>唱出你的热情 伸出你双手 让我拥抱着你的梦...</item>
+        <item>这是一首简单的小情歌...唱着我们心头的白鸽...</item>
+        <item>我想我很适合做一个歌颂者，青春在风中飘着...</item>
+    </string-array>
+    <string-array name="number_key_entries">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <array name="number_value_entries_dark">
+        <item>@drawable/theme_dark_number_0</item>
+        <item>@drawable/theme_dark_number_1</item>
+        <item>@drawable/theme_dark_number_2</item>
+        <item>@drawable/theme_dark_number_3</item>
+        <item>@drawable/theme_dark_number_4</item>
+        <item>@drawable/theme_dark_number_5</item>
+        <item>@drawable/theme_dark_number_6</item>
+        <item>@drawable/theme_dark_number_7</item>
+        <item>@drawable/theme_dark_number_8</item>
+        <item>@drawable/theme_dark_number_9</item>
+    </array>
+    <array name="number_value_entries_light">
+        <item>@drawable/theme_light_number_0</item>
+        <item>@drawable/theme_light_number_1</item>
+        <item>@drawable/theme_light_number_2</item>
+        <item>@drawable/theme_light_number_3</item>
+        <item>@drawable/theme_light_number_4</item>
+        <item>@drawable/theme_light_number_5</item>
+        <item>@drawable/theme_light_number_6</item>
+        <item>@drawable/theme_light_number_7</item>
+        <item>@drawable/theme_light_number_8</item>
+        <item>@drawable/theme_light_number_9</item>
+    </array>
+    <string-array name="sleep_duration_values_seconds">
+        <item>900</item>
+        <item>1800</item>
+        <item>2700</item>
+        <item>3600</item>
+    </string-array>
+    <integer-array name="song_group_detail_gray_colors">
+        <item>0x33000000</item>
+        <item>0x33000000</item>
+        <item>0x33000000</item>
+        <item>0x33000000</item>
+        <item>0x33000000</item>
+        <item>0x33000000</item>
+        <item>0x457F7F7F</item>
+        <item>0x77C7C7C7</item>
+        <item>0xA6E0E0E0</item>
+        <item>0xD4EBEBEB</item>
+        <item>0xFFF6F6F6</item>
+    </integer-array>
+    <integer-array name="vibration_recorder_major_action">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>5</item>
+        <item>10</item>
+        <item>-3</item>
+        <item>10</item>
+        <item>15</item>
+        <item>10</item>
+        <item>-3</item>
+        <item>10</item>
+        <item>25</item>
+        <item>10</item>
+        <item>-3</item>
+        <item>10</item>
+        <item>35</item>
+        <item>10</item>
+        <item>-3</item>
+        <item>10</item>
+        <item>40</item>
+        <item>10</item>
+        <item>-3</item>
+        <item>30</item>
+        <item>120</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>150</item>
+        <item>50</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="vibration_recorder_minor_action">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>120</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="vibration_recorder_rewind">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>5</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>-3</item>
+        <item>5</item>
+        <item>120</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>150</item>
+        <item>60</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="vibration_recorder_slider">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>120</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>150</item>
+        <item>60</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="vibration_torch_off">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>120</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="vibration_torch_on">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>90</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>150</item>
+        <item>50</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <array name="vibration_virtual_key_up" />
+    <string-array name="xiaoai_tips">
+        <item>周杰伦</item>
+        <item>搜索“难忘今宵”</item>
+        <item>播放本地歌曲</item>
+    </string-array>
+</resources>
