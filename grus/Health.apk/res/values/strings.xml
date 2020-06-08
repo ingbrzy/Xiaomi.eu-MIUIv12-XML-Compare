@@ -54,8 +54,8 @@ to add cards"</string>
   <string name="added_data_source">Added sources</string>
   <string name="afternoon">PM</string>
   <string name="all_records">All records</string>
-  <string name="allergic_drugs">Allergic Drugs</string>
-  <string name="allergic_drugs_hint">Fill in allergic drugs and reactions</string>
+  <string name="allergic_drugs">Medication allergies</string>
+  <string name="allergic_drugs_hint">Enter medication and reaction to it</string>
   <string name="allow_notice_periods">Active time period</string>
   <string name="altitude">Altitude</string>
   <string name="altitude_range">Altitude</string>
@@ -70,8 +70,8 @@ to add cards"</string>
   <string name="auto_start_fail">"Couldn't grant permission"</string>
   <string name="auto_start_success">Granted permission successfully</string>
   <string name="auto_start_tips">Tap \"Settings\" below to open Xiaomi Health settings and give the required permissions.</string>
-  <string name="avatar">Avatar</string>
-  <string name="avatar_upload_failure">Upload failed, please check the network connection</string>
+  <string name="avatar">Profile photo</string>
+  <string name="avatar_upload_failure">"Couldn't upload. Check your network settings and try again."</string>
   <string name="average_cycle_days">Avg cycle</string>
   <string name="average_menstruation_days">Avg period duration</string>
   <string name="avg_altitude">Avg altitude</string>
@@ -105,10 +105,10 @@ to add cards"</string>
   <string name="bg_control_dialog_go_set">Settings</string>
   <string name="bg_control_dialog_msg">"Battery saver will restrict Xiaomi Health's background activity. Allow Xiaomi Health to always run in the background to get accurate stats."</string>
   <string name="bg_control_dialog_title">Background restrictions</string>
-  <string name="birthday">date of birth</string>
-  <string name="blood_type">Blood Type</string>
-  <string name="blood_type_rh">Type Rh</string>
-  <string name="blood_type_select">Type %1$s</string>
+  <string name="birthday">Date of birth</string>
+  <string name="blood_type">Blood type</string>
+  <string name="blood_type_rh">Rh factor</string>
+  <string name="blood_type_select">%1$s</string>
   <string name="bmi_label">BMI</string>
   <string name="body_bmi_descripe_content">Body mass index (BMI) is defined as the body mass in kilograms divided by the square of the body height in meters. Knowing your BMI might help you understand whether your weight has any negative impact on your health.</string>
   <string name="body_composition">Body composition</string>
@@ -132,9 +132,9 @@ to add cards"</string>
   <string name="breaststroke">Breaststroke</string>
   <string name="butterfly_stroke">Butterfly</string>
   <string name="button_record_menstruation">Record</string>
-  <string name="camera_permission_desc">used to set personal avatar</string>
+  <string name="camera_permission_desc">For setting profile photos</string>
   <string name="cancel">Cancel</string>
-  <string name="cancel_edit">Cancel Edit</string>
+  <string name="cancel_edit">Discard changes</string>
   <string name="cancel_mark_end">"Period hasn't ended"</string>
   <string name="cancel_mark_start">Delete this record</string>
   <string name="card_on_using">Using</string>
@@ -217,9 +217,9 @@ to add cards"</string>
   <string name="chinese_symbol_animals_snake">蛇</string>
   <string name="chinese_symbol_animals_tiger">虎</string>
   <string name="chip_text">Chip text</string>
-  <string name="choose_from_album">choose from phone album</string>
-  <string name="chronic">chronic disease</string>
-  <string name="chronic_hint">Introduce chronic diseases, such as high blood pressure, asthma, etc.</string>
+  <string name="choose_from_album">Gallery</string>
+  <string name="chronic">Chronic conditions</string>
+  <string name="chronic_hint">Describe your chronic conditions (e.g. high blood pressure, asthma, etc.)</string>
   <string name="clear">Clear</string>
   <string name="clear_text_end_icon_content_description">Clear text</string>
   <string name="clearable_edittext_clear_description">Clear</string>
@@ -240,8 +240,8 @@ to add cards"</string>
   <string name="contact_format">%1$s | %2$s</string>
   <string name="contact_format2">"%1$s
 %2$s| %3$s"</string>
-  <string name="contact_format3">%1$s | %2$s| %3$s</string>
-  <string name="contact_permission_desc">Used to set up emergency contacts</string>
+  <string name="contact_format3">%1$s | %2$s | %3$s</string>
+  <string name="contact_permission_desc">For setting emergency contacts</string>
   <string name="copy">Copy</string>
   <string name="copy_done">Copied successfully</string>
   <string name="copyright_statement">Copyright © Xiaomi Inc. All rights reserved.</string>
@@ -306,13 +306,13 @@ If you decide to delete your health data after you choose to keep it, you can do
   <string name="deep_sleep_duration_increase_description">Your deep sleep is too long</string>
   <string name="deep_sleep_duration_normal_description">You have a sufficient amount of deep sleep</string>
   <string name="delete">Delete</string>
-  <string name="delete_aid_file">delete file</string>
-  <string name="delete_aid_file_desc">After deleting, the first-aid file information will be deleted from the local and cloud at the same time, and it cannot be restored</string>
+  <string name="delete_aid_file">Delete</string>
+  <string name="delete_aid_file_desc">Your emergency medical ID will be deleted from this device permanently if you continue.</string>
   <string name="delete_all_data">Delete all data</string>
   <string name="delete_all_data_sources">Delete all data sources</string>
   <string name="delete_all_data_sources_description">Delete all added data sources?</string>
-  <string name="delete_avatar">delete the current avatar</string>
-  <string name="delete_contact">delete contact</string>
+  <string name="delete_avatar">Delete current photo</string>
+  <string name="delete_contact">Delete</string>
   <string name="delete_data_source">删除数据源</string>
   <string name="delete_dialog_close_sync_msg">删除数据源“%1$s”需要您先关闭此数据源的设备数据同步。</string>
   <string name="delete_dialog_confirm_msg_cloud">确定要删除数据源“%1$s”，并从设备和云端同步删除来自此数据源的健康数据吗？</string>
@@ -322,14 +322,14 @@ If you decide to delete your health data after you choose to keep it, you can do
   <string name="delete_record">Delete records</string>
   <string name="description">Details</string>
   <string name="detail_format">%1$.1f</string>
-  <string name="detection_has_no_data">今日无数据</string>
-  <string name="detection_not_start">检测未开始</string>
-  <string name="detection_not_start_detail">早点睡觉吧</string>
-  <string name="detection_running">检测中</string>
-  <string name="detection_running_detail">睡眠检测中</string>
+  <string name="detection_has_no_data">No data</string>
+  <string name="detection_not_start">"Haven't started yet"</string>
+  <string name="detection_not_start_detail">"Don't stay up late"</string>
+  <string name="detection_running">Analyzing sleep…</string>
+  <string name="detection_running_detail">Analyzing sleep…</string>
   <string name="detection_stop">This session will end when you get up</string>
-  <string name="detection_wait_generate_report">待生成报告</string>
-  <string name="detection_wait_generate_report_detail">稍后再来看吧</string>
+  <string name="detection_wait_generate_report">Generating stats…</string>
+  <string name="detection_wait_generate_report_detail">Come back later</string>
   <string name="device_data_manage">Manage devices</string>
   <string name="device_data_sync">Sync health data</string>
   <string name="device_description">"This device is associated with Mi Account %s. If you can't find the device you need, add it in Mi Fit or Xiaomi Wear first."</string>
@@ -352,7 +352,7 @@ Xiaomi Health will only notify you about important items."</string>
   <string name="dialog_body_weight_conflict">"Looks like you've already recorded weight during the selected time. Overwrite original data?"</string>
   <string name="dialog_body_weight_select">Set weight</string>
   <string name="dialog_cancel">Cancel</string>
-  <string name="dialog_cancel_edit_record">Are you sure to give up editing this record？</string>
+  <string name="dialog_cancel_edit_record">Discard changes now?</string>
   <string name="dialog_confirm">OK</string>
   <string name="dialog_date_select">Select date</string>
   <string name="dialog_delete">Delete</string>
@@ -405,11 +405,11 @@ Xiaomi Health will only notify you about important items."</string>
   <string name="earthly_branches_yin">寅</string>
   <string name="earthly_branches_you">酉</string>
   <string name="earthly_branches_zi">子</string>
-  <string name="edit_aid_file">edit file</string>
+  <string name="edit_aid_file">Edit</string>
   <string name="edit_basic_info_desc">Basic info</string>
-  <string name="edit_immediately">Fill in now</string>
+  <string name="edit_immediately">Enter info</string>
   <string name="edit_sleep_record_button">Edit</string>
-  <string name="emergency_contact">emergency contact</string>
+  <string name="emergency_contact">Emergency contact</string>
   <string name="empty"/>
   <string name="empty_data">-</string>
   <string name="enable">On</string>
@@ -427,7 +427,7 @@ Xiaomi Health will only notify you about important items."</string>
   <string name="exercise_consume">Burnt %1$d Cal</string>
   <string name="exercise_consume_description">According to Dietary Guidelines for Chinese Residents, daily physical activity should consume more than 15% of total energy expenditure. The energy spent on your daily physical activity is summarized here, but does not include basal metabolic expenditure. If you have weight management concerns, you need to focus on energy intake as well.</string>
   <string name="exercise_consume_exercise_description">This is the time you spend on moderate and high intensity activities. According to the Chinese health authorities, weekly exercise duration should be at least 150 minutes (at least 30 minutes per session). Activities such as brisk walking (cadence greater than 100 steps per minute), running, and climbing stairs will be viewed as moderate to high intensity workouts.</string>
-  <string name="exercise_correct">correct</string>
+  <string name="exercise_correct">Correct</string>
   <string name="exercise_detail_duration">%1$s…%2$s…-…%3$s…%4$s</string>
   <string name="exercise_detail_no_consume_hint">"Selected data source (%1$s) doesn't provide Calorie count info.
 You can select a different data source in More &gt; Data sources."</string>
@@ -437,7 +437,7 @@ You can select another source in More &gt; Data sources."</string>
 You can select a different data source in More &gt; Data sources."</string>
   <string name="exercise_duration">Moderate to high intensity</string>
   <string name="exercise_duration_consume">Duration: %1$s | Burned: %2$s</string>
-  <string name="exercise_fast_description" formatted="false">%1s(%2s)</string>
+  <string name="exercise_fast_description">%1$s(%2$s)</string>
   <string name="exercise_goal">Activity goal</string>
   <string name="exercise_goal_accomplished">Reached goal</string>
   <string name="exercise_goal_lack_exercise">Not enough activity</string>
@@ -457,7 +457,10 @@ You can select a different data source in More &gt; Data sources."</string>
 If your device is listed here, you can add data sources manually in Xiaomi Health &gt; Menu &gt; Data sources &gt; Adding data sources."</string>
   <string name="exercise_question_answer_two">2. Occasionally, motion sensors may fail to mount. Reboot your phone and check whether tracking starts works normally in such cases.</string>
   <string name="exercise_question_title">"Why can't you see your stats?"</string>
-  <string name="exercise_recog_confirm" formatted="false">between %1s-%2s is %3s?</string>
+  <string name="exercise_recog_confirm_ridding">Were you cycling between %1$s and %2$s?</string>
+  <string name="exercise_recog_confirm_run">Were you running between %1$s and %2$s?</string>
+  <string name="exercise_recog_confirm_stair_climb">Were you climbing stairs between %1$s and %2$s?</string>
+  <string name="exercise_recog_confirm_walk">Were you walking between %1$s and %2$s?</string>
   <string name="exercise_record">Workout history</string>
   <string name="exercise_record_no_data">No items here yet</string>
   <string name="exercise_reminder_accomplished">You reached your activity goal!</string>
@@ -469,8 +472,10 @@ If your device is listed here, you can add data sources manually in Xiaomi Healt
   <string name="exercise_setting_label_reach_standard_remind">Activity alert</string>
   <string name="exercise_setting_page_title">Activity settings</string>
   <string name="exercise_speed">速度</string>
+  <string name="exercise_start">Start</string>
   <string name="exercise_strokes">Number of strokes</string>
   <string name="exercise_sum">Exercise report</string>
+  <string name="exercise_time">Duration</string>
   <string name="exercise_walk_description">According to the Dietary Guidelines for Chinese Residents, active physical activity should last at least 40 minutes a day, which is equivalent to walking 6000 steps. The steps you take each day to walk, run, and go upstairs are summarized here.</string>
   <string name="expand_all">Show all</string>
   <string name="expand_button_title">Advanced</string>
@@ -551,7 +556,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="friday_short">Fri</string>
   <string name="friday_shortest">F</string>
   <string name="full_name">Name</string>
-  <string name="full_name_hint">edit name</string>
+  <string name="full_name_hint">Enter name</string>
   <string name="gender_female">Female</string>
   <string name="gender_male">Male</string>
   <string name="gender_other">Other</string>
@@ -589,7 +594,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="health_data_cloud_sync_title">Sync with the cloud</string>
   <string name="health_score">Health score</string>
   <string name="health_score_tips">Health score is calculated based on your BMI (body mass index), as well as your sleep and activity steps. The closer you are to your goals, the higher your health score is.</string>
-  <string name="health_setting">Health Setting</string>
+  <string name="health_setting">Health settings</string>
   <string name="heavenly_stems_bing">丙</string>
   <string name="heavenly_stems_ding">丁</string>
   <string name="heavenly_stems_geng">庚</string>
@@ -603,6 +608,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
   <string name="high">High</string>
   <string name="high_intensity">High</string>
+  <string name="high_intensity_description">Rapid respiratory rate that allows you to finish short phrases</string>
   <string name="history_statistics">Stats</string>
   <string name="home_page_card_setting">Start page cards</string>
   <string name="home_tip_open_data_sync">Turn on sync with the cloud</string>
@@ -623,7 +629,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="insufficient">Not enough</string>
   <string name="jump_over">Skip</string>
   <string name="just_recently">Just now</string>
-  <string name="keep_edit">Keep Edit</string>
+  <string name="keep_edit">Cancel</string>
   <string name="key_sedentary_toggle">sedentary_toggle</string>
   <string name="label_average_daily_sleep_duration">Avg sleep duration</string>
   <string name="label_average_daily_sleep_time">Avg fall asleep time</string>
@@ -655,7 +661,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="label_today_sleep_summary">Sleep last night</string>
   <string name="label_wake_up">Woke up</string>
   <string name="label_wake_up_time">Woke up</string>
-  <string name="lack_permisson">Permission has been closed. Please go to permission management to open the required permission first</string>
+  <string name="lack_permisson">Grant Xiaomi Health all the required permissions to continue.</string>
   <string name="last_measure_date">"Last weigh-in: "</string>
   <string name="last_measure_hours_minutes">%1$s since last weigh-in</string>
   <string name="last_sync_time">Last synced: %1$s</string>
@@ -671,6 +677,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="login_and_open_sync2">Sign in and turn on sync</string>
   <string name="low">Low</string>
   <string name="low_intensity">Low</string>
+  <string name="low_intensity_description">Regular respiratory rate that allows you to maintain conversation</string>
   <string name="manage_home">Manage start page</string>
   <string name="manual_add">Add manually</string>
   <string name="manual_adjust">Adjust</string>
@@ -686,12 +693,12 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="maximum">Maximum</string>
   <string name="maximum_pace">Highest pace</string>
   <string name="measure_date">Measurement time</string>
-  <string name="medical_file_desc1">Important information for emergency life in emergency</string>
-  <string name="medical_file_desc2">Fill in the personal medical emergency file, in case of emergency, it can provide first-aid personnel with important information for life-saving first aid.</string>
-  <string name="medical_file_desc3">Support health cloud service synchronization and data backup. Xiaomi Health highly respects personal privacy, and all information will be strictly protected.</string>
-  <string name="medical_first_aid_files">Medical First Aid File</string>
-  <string name="medication_and_treatment">medication and treatment</string>
-  <string name="medication_and_treatment_hint">Describe medication and treatment. Such as asthma, high blood pressure and other emergency medical needs, or braces, prosthetics, surgery and other treatments</string>
+  <string name="medical_file_desc1">Important medical information essential in case of emergency</string>
+  <string name="medical_file_desc2">Record the basic information about your health to be able to show it to health care providers in case of emergency.</string>
+  <string name="medical_file_desc3">Xiaomi Health respects your privacy and will store all information locally without collecting, storing, or uploading it elsewhere.</string>
+  <string name="medical_first_aid_files">Emergency medical ID</string>
+  <string name="medication_and_treatment">Medications and ongoing treatment</string>
+  <string name="medication_and_treatment_hint">List the medications you take or might need in case of emergency, as well as prostheses, dental braces, and surgeries.</string>
   <string name="medium_intensity">Moderate</string>
   <string name="medley">Mixed</string>
   <string name="meet_days">Reached goal</string>
@@ -720,7 +727,8 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="mi_health">Xiaomi Health</string>
   <string name="mi_sport">Mi Fit</string>
   <string name="mi_sports">Mi Fit</string>
-  <string name="middle">Middle</string>
+  <string name="middle">Medium</string>
+  <string name="middle_intensity_description">Faster respiratory rate that allows you to finish sentences</string>
   <string name="midnight">AM</string>
   <string name="min_altitude">Lowest altitude</string>
   <string name="min_heart_rate">Lowest heart rate</string>
@@ -740,7 +748,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
   <string name="model_card_setting">Card settings</string>
   <string name="modify">Edit</string>
-  <string name="modify_contact">modify contact</string>
+  <string name="modify_contact">Edit</string>
   <string name="modify_end_date">Change end date</string>
   <string name="monday">Monday</string>
   <string name="monday_short">Mon</string>
@@ -807,29 +815,28 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="network_not_available">"Couldn't connect to the network. Check your network settings and try again."</string>
   <string name="next_step">Next</string>
   <string name="night">PM</string>
-  <string name="no">no</string>
   <string name="no_available_device">No devices</string>
   <string name="no_body_weight_record">No records here yet</string>
   <string name="no_data">No data</string>
   <string name="no_records">No items here yet.</string>
   <string name="no_snore">"You didn't snore or talk in your sleep"</string>
   <string name="no_snore_1">No items here yet</string>
-  <string name="no_sport_delete">No sport, Delete record</string>
+  <string name="no_sport_delete">Delete incorrect record</string>
   <string name="noon">PM</string>
   <string name="normal">Normal</string>
   <string name="not_achieve_stand_goals">"You haven't reached your goal"</string>
   <string name="not_added">Not added</string>
-  <string name="not_edit">not edit</string>
+  <string name="not_edit">Not set</string>
   <string name="not_open_auto_sync">Sync is off</string>
-  <string name="not_save">not save</string>
-  <string name="not_save_aid_file_desc">Are you sure not to save the content filled in this time?</string>
+  <string name="not_save">Discard changes</string>
+  <string name="not_save_aid_file_desc">All unsaved changes will be lost.</string>
   <string name="not_set">Not set</string>
   <string name="not_standing">" You didn't stand up"</string>
   <string name="not_support_step">"Your device can't count steps"</string>
   <string name="not_up_to_standard">Below standard</string>
   <string name="number_divided">%1$d/%2$d</string>
-  <string name="oauth_account_failed">Xiaomi account acquisition failed</string>
-  <string name="oauth_account_failed_desc">Xiaomi health needs to use your Xiaomi account to add data sources. To continue using, you need to go to the Xiaomi account page to set up.</string>
+  <string name="oauth_account_failed">"Couldn't get account info"</string>
+  <string name="oauth_account_failed_desc">To add data sources, Xiaomi health needs to use your Mi Account. Sign in to continue.</string>
   <string name="ok">OK</string>
   <string name="open">Turn on</string>
   <string name="open_data_sync_description">Turn on sync with the cloud to sync health data from other sources.</string>
@@ -837,7 +844,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="open_swimming">Open water swim</string>
   <string name="open_sync">Turn on sync</string>
   <string name="open_unrestricted_permissions">To track sleep more accurately, allow Xiaomi Health to always run in the background.</string>
-  <string name="organ_donation_volunteer">Whether to donate volunteers for organs</string>
+  <string name="organ_donation_volunteer">Voluntary organ donor</string>
   <string name="origin">Source</string>
   <string name="other_can_add_data_source">Available sources</string>
   <string name="outdoor_riding">Outdoor cycle</string>
@@ -860,7 +867,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="permission_manage">Manage permissions</string>
   <string name="permission_tip">Give Xiaomi Health the following permissions to allow it to track your sleep accurately</string>
   <string name="phone_detection">Detected automatically</string>
-  <string name="photograph">Take a picture</string>
+  <string name="photograph">Camera</string>
   <string name="picker_day">Selected day: %1$d. Swipe vertically to select.</string>
   <string name="picker_month">Selected month: %1$d. Swipe vertically to select.</string>
   <string name="picker_year">Selected year: %1$d. Swipe vertically to select.</string>
@@ -903,13 +910,13 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="record_more">Record more</string>
   <string name="recorded_menstruation">Recorded period</string>
   <string name="reference">Reference materials</string>
-  <string name="relationship_with_contact">Relationship with emergency contacts</string>
+  <string name="relationship_with_contact">Relationship</string>
   <string name="rem_Duration_increase_description">Your REM sleep is too long</string>
   <string name="rem_duration">REM sleep duration</string>
   <string name="rem_duration_decrease_description">Your REM sleep is too short</string>
   <string name="rem_duration_description" formatted="false">REM refers to the rapid eye movement. Sleep can be divided into rapid eye movement (REM) sleep and non-rapid eye movement (NREM) sleep. Rapid eye movement sleep accounts for about 20 to 25% of the overall sleep duration. When people wake up at this stage, 74 to 95% of them say that they have been dreaming and are able to remember their dreams. Brain is very active and the body is completely relaxed during REM sleep, which makes this sleep phase essential for maintaining cognitive functions.</string>
   <string name="rem_duration_normal_description">REM sleep duration is normal</string>
-  <string name="remarks">Remarks</string>
+  <string name="remarks">Remark</string>
   <string name="remind">Remind</string>
   <string name="remind_goto_sleep">"It's late now. Time to go to bed."</string>
   <string name="remind_menstruation_acquired_start">Your period might start in 2 days</string>
@@ -928,8 +935,6 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="remove">Remove</string>
   <string name="retry">Try again</string>
   <string name="revert_to_default">Restore defaults</string>
-  <string name="rh_negative">negative</string>
-  <string name="rh_positive">positive</string>
   <string name="run">Running</string>
   <string name="saturday">Saturday</string>
   <string name="saturday_short">Sat</string>
@@ -947,18 +952,18 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="sedentary_title">Remind to move</string>
   <string name="sedentary_toggle_content">"Xiaomi Health will remind you to get up and walk if you've been inactive for a long period of time."</string>
   <string name="sedentaty_hazard_description">"Sitting down doesn't benefit your health. 12 hours with 1-minute stand-up breaks every day will help you avoid the risks of a sedentary lifestyle."</string>
-  <string name="select_exercise_type">Select exercise type</string>
+  <string name="select_exercise_type">Select workout type</string>
   <string name="select_menstruation_end_date">Select the end date of this period</string>
   <string name="select_null">Not selected</string>
-  <string name="select_recog_question">Select Recog Question</string>
+  <string name="select_recog_question">Select action</string>
   <string name="select_target">Select Target</string>
   <string name="send_diagnosis_log">Send diagnosis log</string>
   <string name="sending">Sending…</string>
-  <string name="set_emergency_contact">Set Emergency Contact</string>
+  <string name="set_emergency_contact">Emergency contact</string>
   <string name="setting">Settings</string>
-  <string name="setting_avatar">Set avatar</string>
-  <string name="setting_birthday">Set the date of birth</string>
-  <string name="setting_blood_type">Set Blood Type</string>
+  <string name="setting_avatar">Profile photo</string>
+  <string name="setting_birthday">Set date of birth</string>
+  <string name="setting_blood_type">Set blood type</string>
   <string name="setting_data_cloud_sync_tip">Use this feature to back up items from this device and sync health data from other devices</string>
   <string name="setting_gender">Set gender</string>
   <string name="setting_sedentary_off">OFF</string>
@@ -1083,7 +1088,7 @@ sleep data"</string>
   <string name="snore_detection_abnormal_notification_title">Sleep tracking error</string>
   <string name="snore_detection_abnormal_state">Session was interrupted</string>
   <string name="snore_detection_abnormal_state_description">Microphone is off</string>
-  <string name="snore_detection_close_prompt">Snoring and dreamtalk off</string>
+  <string name="snore_detection_close_prompt">Snoring and talking detection is off</string>
   <string name="snore_detection_close_title">Turn off detection of snoring and talking?</string>
   <string name="snore_detection_enable">Detect snoring and talking</string>
   <string name="snore_detection_guide_one_description">Sound will be recorded while you sleep. Machine learning allows Xiaomi Health to detect snoring, talking, and loud noises, and save the recordings on your device.</string>
@@ -1098,7 +1103,7 @@ sleep data"</string>
   <string name="snore_detection_normal_notification_title">Detecting snoring and talking</string>
   <string name="snore_detection_notification_content">Microphone is on. It will keep working in the background.</string>
   <string name="snore_detection_notification_title">Sleep test in progress</string>
-  <string name="snore_detection_open_prompt">Snoring and dreamtalk function has been turned on, and the next sleep will be detected</string>
+  <string name="snore_detection_open_prompt">Snoring and talking will be detected when you go to bed</string>
   <string name="snore_detection_running_state">Detecting…</string>
   <string name="snore_detection_running_state_description">Microphone is on. It will keep working in the background.</string>
   <string name="snore_detection_sotp_opt_1">Stop and delete results</string>
@@ -1426,9 +1431,9 @@ sleep data"</string>
   <string name="unit_second">" s"</string>
   <string name="unit_thousand_format">%1$sK</string>
   <string name="unknown">Unknown</string>
-  <string name="unknown_birthday">unknown birthday</string>
-  <string name="unknown_full_name">Unknown name</string>
-  <string name="unknown_gender">Unknown gender</string>
+  <string name="unknown_birthday">Unknown</string>
+  <string name="unknown_full_name">Unknown</string>
+  <string name="unknown_gender">Unknown</string>
   <string name="update_notify_dialog_ignore">Later</string>
   <string name="update_notify_dialog_msg">"An update is available: %1$s.
 What's new:
@@ -1443,7 +1448,7 @@ Update now?"</string>
   <string name="user_invalid_value">--</string>
   <string name="v7_preference_off">OFF</string>
   <string name="v7_preference_on">ON</string>
-  <string name="value_error_correct">Value error, go to correct</string>
+  <string name="value_error_correct">Edit record</string>
   <string name="visceral_fat">Visceral fat</string>
   <string name="visceral_fat_descripe_content">Visceral fat is essential for stabilizing and protecting internal organs. However, high visceral fat increases the risk of cardiovascular and metabolic diseases.</string>
   <string name="walk">Walking</string>
@@ -1477,6 +1482,5 @@ Delta update size: %2$s"</string>
   <string name="xiaomi_update_sdk_kilobytes_unit">%1$sKB</string>
   <string name="xiaomi_update_sdk_megabytes_unit">%1$sMB</string>
   <string name="year">Year</string>
-  <string name="yes">yes</string>
   <string name="yesterday">Yesterday</string>
 </resources>

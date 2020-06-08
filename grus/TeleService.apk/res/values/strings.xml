@@ -1676,11 +1676,14 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_type_pref_entries_3g_preferred">Prefer 3G</string>
   <string name="preferred_network_type_pref_entries_3g_preferred_cdma">Prefer 3G (CDMA)</string>
   <string name="preferred_network_type_pref_entries_3g_preferred_lm_cr">WCDMA/GSM auto</string>
+  <string name="preferred_network_type_pref_entries_3g_preferred_mx_at">3G/2G (3G Preferred)</string>
   <string name="preferred_network_type_pref_entries_4g_preferred">Prefer LTE</string>
   <string name="preferred_network_type_pref_entries_4g_preferred_cdma">Prefer 4G (CDMA)</string>
   <string name="preferred_network_type_pref_entries_4g_preferred_custom">Prefer 4G</string>
   <string name="preferred_network_type_pref_entries_4g_preferred_lm_cr">LTE/WCDMA/GSM auto</string>
+  <string name="preferred_network_type_pref_entries_4g_preferred_mx_at">4G/3G/2G (4G preferred)</string>
   <string name="preferred_network_type_pref_entries_5g_preferred">Prefer 5G</string>
+  <string name="preferred_network_type_pref_entries_5g_preferred_mx_at">5G/4G/3G/2G (5G/4G preferred)</string>
   <string name="preferred_network_type_pref_entries_auto">Automatic</string>
   <string name="preferred_network_type_pref_entries_global">Global</string>
   <string name="preferred_network_type_pref_entries_only_2g">2G only</string>
@@ -1966,6 +1969,9 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="skt_msim_emm_cause_7_8_15">"SIM %d couldn't register network. Turn your device off, then turn it back on and try again. If you still encounter this problem after that, contact customer support (1599-0011)."</string>
   <string name="smart_divert_summary">CFNRc Settings</string>
   <string name="smart_divert_title">Smart-Divert</string>
+  <string name="smart_dual_sim_prompt">Your device will connect to a mobile data network using the secondary SIM when current connectivity is poor. This may generate additional data fees. Contact your local carrier for details about your data plan.</string>
+  <string name="smart_dual_sim_summary">Switch to the secondary SIM card and use its mobile data automatically when current connectivity is poor. When connectivity improves, switch back to the original SIM card.</string>
+  <string name="smart_dual_sim_title">Smart dual SIM</string>
   <string name="smart_forwarding_settings_menu">Smart Forwarding</string>
   <string name="smart_forwarding_settings_menu_summary">"When one number isn't reachable, always forward calls to your other number"</string>
   <string name="sms_messages_title">SMS</string>
