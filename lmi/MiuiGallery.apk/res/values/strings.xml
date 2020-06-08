@@ -785,7 +785,7 @@
   <string name="cityname_99">Hainan Tibetan Autonomous Prefecture</string>
   <string name="cleaner_empty_value_description">Everything looks good</string>
   <string name="cleaner_photo_pick_delete_selected">Delete selected photos</string>
-  <string name="cleaner_raw_action">View</string>
+  <string name="cleaner_raw_action">View details</string>
   <string name="cleaner_raw_description">Free up storage space by deleting large RAW images</string>
   <string name="cleaner_raw_title">Clear RAW files</string>
   <string name="cleaner_scan_description">Optimizing items frees up storage space on your device</string>
@@ -799,7 +799,7 @@
   <string name="cleaner_screen_shot_action">View</string>
   <string name="cleaner_screen_shot_description">Delete the screenshots you no longer need.</string>
   <string name="cleaner_screen_shot_title">Delete screenshots</string>
-  <string name="cleaner_similar_action">View</string>
+  <string name="cleaner_similar_action">View details</string>
   <string name="cleaner_similar_description">Delete duplicate photos</string>
   <string name="cleaner_similar_title">Duplicate photos</string>
   <string name="cleaner_slim_action">Start optimization</string>
@@ -810,7 +810,7 @@
   <string name="cleaner_space_detail_description">Clear photos in your Gallery to free up storage space</string>
   <string name="cleaner_stop_scan">Stop scanning</string>
   <string name="cleaner_title">clean space</string>
-  <string name="cleaner_video_action">View</string>
+  <string name="cleaner_video_action">View details</string>
   <string name="cleaner_video_description">Delete videos that take up storage space</string>
   <string name="cleaner_video_pick_delete_selected">Delete selected videos</string>
   <string name="cleaner_video_title">Delete videos</string>
@@ -1172,12 +1172,15 @@ are available"</string>
   <string name="filter_category_master">Master</string>
   <string name="filter_category_movie">Movie</string>
   <string name="filter_category_sky">Sky</string>
+  <string name="filter_general_blackice">Black ice</string>
   <string name="filter_general_blackwhite">B&amp;W</string>
   <string name="filter_general_delicious">Food</string>
   <string name="filter_general_df">Clarity</string>
   <string name="filter_general_fairytale">Story</string>
+  <string name="filter_general_greenorange">Lime</string>
   <string name="filter_general_japanese">Pastel</string>
   <string name="filter_general_lilt">Lilt</string>
+  <string name="filter_general_movie">Film</string>
   <string name="filter_general_nature">Nature</string>
   <string name="filter_general_pink">Pink</string>
   <string name="filter_general_portrait">Portrait</string>
@@ -1200,6 +1203,7 @@ are available"</string>
   <string name="filter_movie_koizora">Manga</string>
   <string name="filter_movie_lost">Lost</string>
   <string name="filter_movie_nordic">Nordic</string>
+  <string name="filter_movie_portrait">Color focus</string>
   <string name="filter_movie_rome">Rome</string>
   <string name="filter_movie_summer">Summer</string>
   <string name="filter_movie_travel">Travel</string>
@@ -1311,7 +1315,7 @@ are available"</string>
   <string name="functions_are_being_developed">This feature will be available soon. Stay tuned!</string>
   <string name="gallery_setting">Settings</string>
   <string name="gallery_sync_disable_toast">Sync is off for Gallery</string>
-  <string name="generate_story_summary">MIUI will analyze your photos and create memories. Turn this feature off to stop creating memories.</string>
+  <string name="generate_story_summary">Take enough photos, connect charger, and turn off screen to make memories appear</string>
   <string name="generate_story_title">Memories</string>
   <string name="get_album_info_in_process">"Getting shared album's details…"</string>
   <string name="gif_tip">GIF</string>
@@ -1631,10 +1635,15 @@ to personalize Gallery"</string>
   <string name="onekey_none">Original</string>
   <string name="onekey_portrait">Portrait</string>
   <string name="onekey_scene">Landscape</string>
+  <string name="online_video_normal_transcoding">This video is being transcoded now. Wait a minute or two and try again.</string>
+  <string name="online_video_vip_tip">Become a VIP member to stream videos without fully preloading them</string>
+  <string name="online_video_vip_transcoding">"About to start VIP streaming…
+Transcoding might take some time when you use this feature for the first time."</string>
   <string name="open">Turn on</string>
   <string name="open_public_message">Create URL to share with your friends</string>
   <string name="open_public_title">Share</string>
   <string name="operate_processing_file_error">Wait until all photos are processed.</string>
+  <string name="operate_with_metered_network_msg">Your device is connected to a paid network. Continue anyway?</string>
   <string name="operation_add_album">Add to album</string>
   <string name="operation_add_picture">Add items</string>
   <string name="operation_add_secret">Add to private album</string>
@@ -1789,7 +1798,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_talkback_recently">Recently used</string>
   <string name="photo_editor_talkback_redo">Redo</string>
   <string name="photo_editor_talkback_undo">Undo</string>
-  <string name="photo_editor_text">Text</string>
+  <string name="photo_editor_text">Watermark</string>
   <string name="photo_editor_transition_image_view">photo_view</string>
   <string name="photo_font_cancel_download">Cancel</string>
   <string name="photo_font_download">Download</string>
@@ -2179,6 +2188,7 @@ to personalize Gallery"</string>
   <string name="sticker_fit">Healthy chicken</string>
   <string name="sticker_girl">Funny girl</string>
   <string name="sticker_girly">Accessories</string>
+  <string name="sticker_graduation">Graduation</string>
   <string name="sticker_head">Bad hair day</string>
   <string name="sticker_pupil">School girl</string>
   <string name="sticker_rock">Boom!</string>
@@ -2246,8 +2256,12 @@ to personalize Gallery"</string>
   <string name="text_edit_dialog_style_shadow">Shadow</string>
   <string name="text_edit_dialog_style_transparent">Opacity</string>
   <string name="text_edit_sub_menu_text">Bubble</string>
-  <string name="text_tab_bubble">Bubbles</string>
-  <string name="text_tab_watermark">Watermarks</string>
+  <string name="text_tab_bubble">Bubble</string>
+  <string name="text_tab_city">City</string>
+  <string name="text_tab_festival">Holiday</string>
+  <string name="text_tab_scene">Scene</string>
+  <string name="text_tab_spot">Scenery</string>
+  <string name="text_tab_watermark">Text</string>
   <string name="the_anniversary_of_lifting_martial_law">Anniversary of Lifting Martial Law</string>
   <string name="the_anti_aggression_day">Anti-Aggression Day</string>
   <string name="the_arbor_day">Arbor Day</string>
