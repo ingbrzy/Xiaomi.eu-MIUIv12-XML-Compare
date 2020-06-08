@@ -2523,6 +2523,7 @@ For more details, contact your organization's admin."</string>
   <string name="erase_sure">Mandatory</string>
   <string name="error_adding_apn_type">Carrier does not allow adding APNs of type %s.</string>
   <string name="error_apn_empty">The APN can’t be empty.</string>
+  <string name="error_apn_not_allowed">"This APN isn't allowed on this device. Try another one."</string>
   <string name="error_apn_restrict_string">The APN field can’t contain %1$s</string>
   <string name="error_capturing_system_heap_dump_message">Couldn’t capture system heap dump</string>
   <string name="error_mcc_not3">MCC field must be 3 digits.</string>
@@ -3943,6 +3944,7 @@ There are other users present on this device.
   <string name="mi_pay">Mi Wallet</string>
   <string name="mi_pay_indonesia">Mi Pay Account</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
+  <string name="mi_pay_summary_without_nfc">Mi Pay</string>
   <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
@@ -4003,9 +4005,9 @@ Continue to access additional settings."</string>
   <string name="miui_sos_contacts_category">Emergency contacts</string>
   <string name="miui_sos_emergency_contacts">Emergency contacts</string>
   <string name="miui_sos_emergency_delete">Delete</string>
-  <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s (%2s) has already accepted.</string>
-  <string name="miui_sos_emergency_delivered_sms_noname">%1s has already accepted</string>
-  <string name="miui_sos_emergency_failed_sms" formatted="false">"Couldn't send message to %1s (%2s)."</string>
+  <string name="miui_sos_emergency_delivered_sms">%1$s (%2$s) received the message</string>
+  <string name="miui_sos_emergency_delivered_sms_noname">%1$s received the message</string>
+  <string name="miui_sos_emergency_failed_sms">"Couldn't send message to %1$s (%2$s)"</string>
   <string name="miui_sos_emergency_failed_sms_noname">"Couldn't send message to %1s."</string>
   <string name="miui_sos_enable_switch_summary">Rapidly press the Power button 5 times to send a SOS text message with your location to your emergency contacts</string>
   <string name="miui_sos_enable_switch_title">Emergency SOS</string>
