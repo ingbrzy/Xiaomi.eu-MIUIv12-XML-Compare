@@ -298,7 +298,6 @@ and adjust preferences automatically"</string>
   <string name="apollo_c_28041_0x0008">4</string>
   <string name="apollo_c_28196_0x0005">false</string>
   <string name="apollo_c_32889_0x0001">true</string>
-  <string name="apollo_c_32974_0x0002">true</string>
   <string name="apollo_c_33066_0x0002">true</string>
   <string name="apollo_c_33066_0x0004">true</string>
   <string name="apollo_c_35893_0x0001">true</string>
@@ -831,6 +830,7 @@ and adjust preferences automatically"</string>
   <string name="camera_disabled">Camera has been disabled</string>
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
+  <string name="camera_fastmotion_title">延时摄影功能介绍</string>
   <string name="camera_label">Camera</string>
   <string name="camera_liveshot_off_tip">Turned off dynamic shots</string>
   <string name="camera_liveshot_on_tip">Dynamic shots</string>
@@ -1004,7 +1004,7 @@ and adjust preferences automatically"</string>
   <string name="cas_c_0x5e">true</string>
   <string name="cas_c_0x60">true</string>
   <string name="cas_c_16001_0x0001">true</string>
-  <string name="cas_c_17042_0x0001">false</string>
+  <string name="cas_c_17042_0x0001">true</string>
   <string name="cas_c_17042_0x0003">true</string>
   <string name="cas_c_17042_0x0004">true</string>
   <string name="cas_c_17042_0x0005">true</string>
@@ -1064,8 +1064,11 @@ and adjust preferences automatically"</string>
   <string name="cas_c_35910_0x0003">false</string>
   <string name="cas_c_35910_0x0004">3</string>
   <string name="cas_c_35910_0x0030">true</string>
+  <string name="cas_c_35955_0x0001">true</string>
+  <string name="cas_c_35955_0x0002">1</string>
   <string name="cas_c_36211_0x0001">true</string>
   <string name="cas_c_36658_0x0002">true</string>
+  <string name="cas_c_36658_0x0003">true</string>
   <string name="cas_c_9006_0x0000">true</string>
   <string name="cas_c_9006_0x0001">10</string>
   <string name="cas_c_9006_0x0004">true</string>
@@ -1189,7 +1192,7 @@ and adjust preferences automatically"</string>
   <string name="cepheus_s_e_l">true</string>
   <string name="cepheus_s_f_9">true</string>
   <string name="cepheus_s_f_a">true</string>
-  <string name="cepheus_s_f_s">false</string>
+  <string name="cepheus_s_f_s">true</string>
   <string name="cepheus_s_f_s_c">false</string>
   <string name="cepheus_s_f_z_i">true</string>
   <string name="cepheus_s_m_c_t_f">true</string>
@@ -1308,6 +1311,7 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_35893_0x0002">true</string>
   <string name="cezanne_c_35893_0x0003">true</string>
   <string name="cezanne_c_35893_0x0005">true</string>
+  <string name="cezanne_c_35893_0x0006">true</string>
   <string name="cezanne_c_35905_0x0001">true</string>
   <string name="cezanne_c_35910_0x0001">true</string>
   <string name="cezanne_c_35910_0x0002">true</string>
@@ -1501,6 +1505,7 @@ and adjust preferences automatically"</string>
   <string name="cmi_c_35893_0x0001">true</string>
   <string name="cmi_c_35893_0x0002">true</string>
   <string name="cmi_c_35893_0x0003">true</string>
+  <string name="cmi_c_35905_0x0001">true</string>
   <string name="cmi_c_35910_0x0003">true</string>
   <string name="cmi_c_35955_0x0001">true</string>
   <string name="cmi_c_35955_0x0002">1</string>
@@ -1670,7 +1675,7 @@ and adjust preferences automatically"</string>
   <string name="crux_s_e_l">true</string>
   <string name="crux_s_f_9">true</string>
   <string name="crux_s_f_a">true</string>
-  <string name="crux_s_f_s">false</string>
+  <string name="crux_s_f_s">true</string>
   <string name="crux_s_f_s_c">false</string>
   <string name="crux_s_f_z_i">true</string>
   <string name="crux_s_m_c_t_f">true</string>
@@ -3565,6 +3570,8 @@ in Portrait mode"</string>
   <string name="lmi_c_35893_0x0001">true</string>
   <string name="lmi_c_35893_0x0002">true</string>
   <string name="lmi_c_35893_0x0003">true</string>
+  <string name="lmi_c_35893_0x0005">true</string>
+  <string name="lmi_c_35905_0x0001">true</string>
   <string name="lmi_c_35955_0x0001">true</string>
   <string name="lmi_c_35955_0x0002">1</string>
   <string name="lmi_c_36211_0x0001">true</string>
@@ -3947,7 +3954,7 @@ look larger on photos"</string>
   <string name="monet_c_0x42">true</string>
   <string name="monet_c_0x42_m">true</string>
   <string name="monet_c_0x45">true</string>
-  <string name="monet_c_0x47">v13</string>
+  <string name="monet_c_0x47">v14</string>
   <string name="monet_c_0x48">true</string>
   <string name="monet_c_0x49">true</string>
   <string name="monet_c_0x4a">true</string>
@@ -4813,6 +4820,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_burst_shoot_title">Burst shoot</string>
   <string name="pref_camcorder_settings">Video</string>
   <string name="pref_camcorder_settings_category">Camera settings</string>
+  <string name="pref_camera_ai_audio">ai audio</string>
   <string name="pref_camera_ai_scene_title">AI camera</string>
   <string name="pref_camera_antibanding_default">1</string>
   <string name="pref_camera_antibanding_entry_0">Off</string>
@@ -4947,6 +4955,17 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_face_info_watermark_title">Add age stamp on photos</string>
   <string name="pref_camera_facedetection_auto_hidden_title">Hide face detection frame automatically</string>
   <string name="pref_camera_facedetection_title">Face detection</string>
+  <string name="pref_camera_fastmotion_duration">时长</string>
+  <string name="pref_camera_fastmotion_duration_description">用于设定拍摄的总时长，默认为无限制；拍摄的时间越长，延时摄影的内容越丰富。当设定时长非“无限制”时，即进入计时拍摄，计时结束后自动停止。</string>
+  <string name="pref_camera_fastmotion_duration_infinity">无限时</string>
+  <string name="pref_camera_fastmotion_duration_unit">%1$s分钟</string>
+  <string name="pref_camera_fastmotion_speed">速度</string>
+  <string name="pref_camera_fastmotion_speed_150x">日出日落</string>
+  <string name="pref_camera_fastmotion_speed_1800x">植物</string>
+  <string name="pref_camera_fastmotion_speed_30x">街道</string>
+  <string name="pref_camera_fastmotion_speed_750x">夜晚</string>
+  <string name="pref_camera_fastmotion_speed_90x">云朵</string>
+  <string name="pref_camera_fastmotion_speed_description">可调节时间的压缩程度。同样的拍摄时间下，选择速度数值越大，最终获得的视频时长越短，播放速度越快。对于某些拍摄场景，建议使用以下速度值：</string>
   <string name="pref_camera_first_tag_tips">Tagged successfully</string>
   <string name="pref_camera_flashmode_entry_auto">Auto</string>
   <string name="pref_camera_flashmode_entry_back_soft_light">Soft light</string>
@@ -5088,6 +5107,9 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_quick_settings">Quick settings</string>
   <string name="pref_camera_quick_shot_anim_enable_title">Turn on quick shot animation</string>
   <string name="pref_camera_quick_shot_enable_title">Turn on quick shot</string>
+  <string name="pref_camera_rec_type_3d_record">3D立体音</string>
+  <string name="pref_camera_rec_type_audio_zoom">音源变焦</string>
+  <string name="pref_camera_rec_type_normal">标准</string>
   <string name="pref_camera_recordlocation_default">false</string>
   <string name="pref_camera_recordlocation_entry_off">Off</string>
   <string name="pref_camera_recordlocation_entry_on">On</string>
@@ -5215,6 +5237,9 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_exposure_default">0</string>
   <string name="pref_face_beauty_title">Beautify</string>
   <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
+  <string name="pref_front_denoise_default">false</string>
+  <string name="pref_front_denoise_summary">前置录像时开启，可以过滤手机后置的声音</string>
+  <string name="pref_front_denoise_title">前置单向降噪</string>
   <string name="pref_front_mirror_default">on</string>
   <string name="pref_front_mirror_entry_auto">When face is detected</string>
   <string name="pref_front_mirror_entry_off">Off</string>
@@ -5272,6 +5297,9 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_userdefine_watermark_title">Custom watermark</string>
   <string name="pref_video_autoexposure_default">1</string>
   <string name="pref_video_captrue_ability_title">Image capture while recording</string>
+  <string name="pref_video_denoise_off">关</string>
+  <string name="pref_video_denoise_on">开</string>
+  <string name="pref_video_denoise_title">视频降噪</string>
   <string name="pref_video_encoder_default">h264</string>
   <string name="pref_video_encoder_entry_h264">H.264 High compatibility</string>
   <string name="pref_video_encoder_entry_h265">H.265 High performance</string>
@@ -5327,6 +5355,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_watermark_off">Off</string>
   <string name="pref_watermark_on">On</string>
   <string name="pref_watermark_title">Watermark</string>
+  <string name="pref_wind_denoise_default">true</string>
+  <string name="pref_wind_denoise_title">风声降噪</string>
   <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
   <string name="preparing_sd">Checking SD card…</string>
   <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
@@ -6122,6 +6152,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="umi_c_35893_0x0001">true</string>
   <string name="umi_c_35893_0x0002">true</string>
   <string name="umi_c_35893_0x0003">true</string>
+  <string name="umi_c_35905_0x0001">true</string>
   <string name="umi_c_35955_0x0001">true</string>
   <string name="umi_c_35955_0x0002">1</string>
   <string name="umi_c_36211_0x0001">true</string>
