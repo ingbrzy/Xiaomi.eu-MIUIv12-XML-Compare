@@ -27,6 +27,11 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="accessibility_all_app_custom_category_finish">Done</string>
+  <string name="accessibility_all_app_custom_category_item_remove">Remove \"%1$s\" from categories</string>
+  <string name="accessibility_clear_search_bar_text">Clear search bar</string>
+  <string name="accessibility_enter_all_app_mode">Open App drawer</string>
+  <string name="accessibility_enter_all_app_settings">Open App drawer settings</string>
   <string name="accessibility_menu_item_smallwindow_disable">"This app doesn't support floating windows"</string>
   <string name="accessibility_menu_item_smallwindow_enable">This app supports floating windows</string>
   <string name="accessibility_menu_item_split_disable">"App doesn't support Split screen."</string>
@@ -62,6 +67,7 @@
   <string name="all_apps_no_search_results">"Couldn't find results"</string>
   <string name="all_apps_search_app">Search for apps</string>
   <string name="all_apps_search_market_message">Search online</string>
+  <string name="all_apps_setting_classic_title">Classic</string>
   <string name="all_apps_setting_desktop_desc">"Show all installed apps on the Home screen. Press and hold an app's icon to see available shortcuts, manage or uninstall the app."</string>
   <string name="all_apps_setting_desktop_title">Regular</string>
   <string name="all_apps_setting_drawer_desc">"Place all installed apps in the App drawer which can be opened by swiping up on the Home screen. You'll still be able to find the apps that you moved to the Home screen in the App drawer."</string>
@@ -143,6 +149,7 @@
   <string name="auto_add_app_shortcut">Place new apps on the Home screen</string>
   <string name="auto_delete_category_dialog_content">Current apps will be removed from this category and the category will be deleted. Delete this category now?</string>
   <string name="auto_delete_category_dialog_title">Deleting category</string>
+  <string name="back">Back</string>
   <string name="backup_fail">"Couldn't backup launcher"</string>
   <string name="bad_wallpaper_source_prompt">"Can't load wallpaper"</string>
   <string name="buffering">Buffering…</string>
@@ -167,6 +174,10 @@
   <string name="choose_wallpaper">Choose wallpaper</string>
   <string name="chooser_wallpaper">Choose a new wallpaper</string>
   <string name="cloud_app_restore_title">Pending</string>
+  <string name="common_home_search_delete">Deleting Home screen search bar</string>
+  <string name="common_home_search_delete_cancle">Cancel</string>
+  <string name="common_home_search_delete_confirm">Delete</string>
+  <string name="common_home_search_delete_content">"You won't be able to search for items using the Home screen search bar after you delete it. Delete anyway?"</string>
   <string name="configure_wallpaper">Settings</string>
   <string name="confirm_btn_label">OK</string>
   <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Dual apps will be uninstalled together with these ones.</string>
@@ -315,13 +326,13 @@
   <string name="invalid_contact_shortcut">Invalid contact</string>
   <string name="is_setting_wallpaper_message">Setting wallpaper…</string>
   <string name="is_system_wallpaper_message">"Can't delete system resources"</string>
-  <string name="launcher_global_search_mode_title">Global search</string>
-  <string name="launcher_global_search_provider_title">Global search provider</string>
   <string name="launcher_not_exist">An error occurred. Go back to Home screen and try again.</string>
   <string name="launcher_pull_down_title">Swipe down on the Home screen</string>
+  <string name="launcher_search_bar_provider_title">Search bar provider</string>
   <string name="launcher_search_bar_title">Home screen search bar</string>
   <string name="launcher_search_bar_value_disable">Off</string>
   <string name="launcher_search_bar_value_enable">On</string>
+  <string name="launcher_slide_up_search_provider_title">Swipe up search provider</string>
   <string name="launcher_slide_up_title">Swipe up on the Home screen</string>
   <string name="launcher_sliding_up_gesture">Swipe up on the Home screen to open search</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
@@ -512,8 +523,10 @@
   <string name="start_activity_failed">"Can't start launcher"</string>
   <string name="starting_preset_app">Starting…</string>
   <string name="status_bar_notification_info_overflow">999+</string>
-  <string name="status_bar_recent_memory_info1">%1$sB of %2$sB available</string>
+  <string name="status_bar_recent_memory_giga">%1$s GB</string>
+  <string name="status_bar_recent_memory_info1">%1$s of %2$s available</string>
   <string name="status_bar_recent_memory_info2"/>
+  <string name="status_bar_recent_memory_mega">%1$s MB</string>
   <string name="status_downloaded">Downloaded</string>
   <string name="status_downloading">Downloading</string>
   <string name="status_installing">Installing</string>
