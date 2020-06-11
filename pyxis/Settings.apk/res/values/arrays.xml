@@ -187,6 +187,11 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="apn_not_allowed_entries">
+        <item>internet</item>
+        <item>ims</item>
+        <item>tethering</item>
+    </string-array>
     <string-array name="apn_protocol_entries">
         <item>IPv4</item>
         <item>IPv6</item>
@@ -3934,6 +3939,18 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Media</item>
     </string-array>
     <string-array name="default_vol_stream_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="charge_animation_style_entries">
+        <item>Off</item>
+        <item>Flow</item>
+        <item>Glow</item>
+        <item>Wave</item>
+    </string-array>
+    <string-array name="charge_animation_style_values">
+        <item>0</item>
+        <item>1</item>
         <item>2</item>
         <item>3</item>
     </string-array>
