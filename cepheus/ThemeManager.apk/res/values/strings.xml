@@ -47,17 +47,14 @@
   <string name="ad_begin_to_download_tip">Starting to download…</string>
   <string name="ad_begin_to_install_tip">Installing…</string>
   <string name="ad_closed_tip">"You'll see fewer ads of this type"</string>
-  <string name="ad_details">Details</string>
   <string name="ad_download_download">Download</string>
   <string name="ad_download_download_now">Download</string>
   <string name="ad_download_install">Install</string>
-  <string name="ad_download_now">Download</string>
   <string name="ad_download_open">Open</string>
   <string name="ad_download_pause">Pause</string>
   <string name="ad_download_pending">Pending</string>
   <string name="ad_download_resume">Resume</string>
   <string name="ad_downloading_tip">This item is being downloaded. You can view progress in the Notification shade.</string>
-  <string name="ad_experience_now">Open</string>
   <string name="ad_tag_text_1">流行</string>
   <string name="ad_tag_text_2">时尚</string>
   <string name="add_resource_detail_fail">"Can't add resource"</string>
@@ -190,17 +187,10 @@
   <string name="common_downloading">Downloading…</string>
   <string name="common_format_date_no_year">MM/dd</string>
   <string name="common_skip">Skip</string>
-  <string name="community_community_message_trigger_summary">Receive notifications about replies, likes, and Mi Community status updates using your Mi Account ID</string>
-  <string name="community_community_message_trigger_title">Notify about activity</string>
-  <string name="community_cta_dialog_cancel">No thanks</string>
-  <string name="community_cta_dialog_des">"Third party themes now support Mi Community widget. It works as a shortcut that takes you to the Themes subforum of Mi Community. You can turn this feature off in the Settings.
-Allow Themes to access your Mi Account ID and Mi Community statuses associated with the account to be able to view them here. You can also turn notifications about Mi Comminity activity on and off in the Settings."</string>
-  <string name="community_cta_dialog_ok">Allow</string>
-  <string name="community_cta_dialog_title">Permissions required</string>
-  <string name="community_entrance_summary">Find theme-related content in Mi Community. This feature is supported by selected themes.</string>
-  <string name="community_entrance_title">Mi Community clock widget</string>
-  <string name="community_message_trigger_disabled">Off</string>
-  <string name="community_message_trigger_triggered">On</string>
+  <string name="community_cta_dialog_cancel">Cancel</string>
+  <string name="community_cta_dialog_des">This theme contains a clock shortcut that displays your Mi Account ID and Mi Community status. You can turn this feature off by switching to a different theme or removing the Clock widget.</string>
+  <string name="community_cta_dialog_ok">Got it</string>
+  <string name="community_cta_dialog_title">Clock shortcut</string>
   <string name="component_backup_preference_title">Back up theme</string>
   <string name="component_category_finest_title">GENERAL</string>
   <string name="component_category_more_title">ADVANCED</string>
@@ -228,6 +218,7 @@ Allow Themes to access your Mi Account ID and Mi Community statuses associated w
   <string name="de_component_aod_author">Creator</string>
   <string name="de_component_author">Author</string>
   <string name="de_component_tags">Tags</string>
+  <string name="de_font_exchange_success">Purchased successfully</string>
   <string name="de_icon_text_comment">Comment</string>
   <string name="de_icon_text_discuss">Discuss</string>
   <string name="de_icon_text_favorite">Add to favorites</string>
@@ -400,8 +391,6 @@ Allow Themes to access your Mi Account ID and Mi Community statuses associated w
   <string name="fmt_weekday_time">W T</string>
   <string name="fmt_weekday_time_timezone">W T z</string>
   <string name="fmt_weekday_timezone">W z</string>
-  <string name="forbid_transparent_wallpaper_by_second_space">Apply transparent wallpaper in First space first.</string>
-  <string name="forbid_video_wallpaper_by_second_space">Apply dynamic wallpaper in First space first.</string>
   <string name="friday">Friday</string>
   <string name="friday_short">Fri</string>
   <string name="friday_shortest">F</string>
@@ -478,7 +467,6 @@ Allow Themes to access your Mi Account ID and Mi Community statuses associated w
   <string name="hide_pull_down_positive">Hide</string>
   <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
   <string name="home_apply_success">Home screen wallpaper applied</string>
-  <string name="i_know">Got it</string>
   <string name="icon_content_description">Dialog Icon</string>
   <string name="in_the_end">No more items to show</string>
   <string name="incall_show_apply">Set as profile video</string>
@@ -534,24 +522,6 @@ Tap here to sign in now."</string>
   <string name="mine_tab_title_like">Likes</string>
   <string name="mine_tab_title_local">Local</string>
   <string name="mine_tab_title_purchase">Orders</string>
-  <string name="miui_clock_city_name_local">Local</string>
-  <string name="miui_clock_city_name_second">Second clock</string>
-  <string name="miui_clock_fancy_colon"></string>
-  <string name="miui_digital_clock_dot">:</string>
-  <string name="miui_lock_screen_date">EEEE, MMMM d</string>
-  <string name="miui_lock_screen_date_12">EEEE, MMMM d</string>
-  <string name="miui_lock_screen_date_two_lines">"EEEE
-MMMM d"</string>
-  <string name="miui_lock_screen_date_two_lines_12">"EEEE
-MMMM d"</string>
-  <string name="miui_lock_screen_large_date">"EEE
-M/dd"</string>
-  <string name="miui_lock_screen_large_date_12">"EEE
-M/dd"</string>
-  <string name="miui_vertical_time_format_12">"hh
-mm"</string>
-  <string name="miui_vertical_time_format_24">"HH
-mm"</string>
   <string name="miuishare_account_activate_confirmation">Activate Mi Account</string>
   <string name="miuishare_account_activate_ok">Activate</string>
   <string name="miuishare_account_login_cancel">Cancel</string>
@@ -821,7 +791,8 @@ mm"</string>
   <string name="resource_detail_vertical_divider">|</string>
   <string name="resource_detail_window_title">%1$s details</string>
   <string name="resource_download">Download</string>
-  <string name="resource_download_notification_title_one">Downloaded %1$s successfully</string>
+  <string name="resource_download_notification_title_many">%1$s themes downloaded</string>
+  <string name="resource_download_notification_title_one">Theme downloaded</string>
   <string name="resource_download_trial">Try</string>
   <string name="resource_downloaded_title">Downloaded resources</string>
   <string name="resource_downloading">Downloading</string>
@@ -837,10 +808,11 @@ mm"</string>
   <string name="resource_exchange_share_code_content">"You've received a gift code (%2$s) for the theme %1$s in MIUI's Themes. Tap %3$s to use it now."</string>
   <string name="resource_exchange_share_code_dlg_content">Gift code for %1$s: %2$s. When you send it to another MIUI user, they can use it to download this theme.</string>
   <string name="resource_exchange_share_code_dlg_title">Sending</string>
-  <string name="resource_exchange_success">Redeemed successfully</string>
+  <string name="resource_exchange_success">Purchased successfully</string>
   <string name="resource_exchange_unavailable">"The theme associated with the code you entered isn't available."</string>
   <string name="resource_exchange_universal_finish">Use this code to download items from Themes.</string>
   <string name="resource_exchange_universal_goon">This code can be used to download any theme in the store.</string>
+  <string name="resource_exchange_window_title">Redeem</string>
   <string name="resource_exchange_wrong_format_by_local">The format of the code you entered is incorrect.</string>
   <string name="resource_exchange_wrong_format_by_server">"Code was not verified. Make sure you've entered it correctly."</string>
   <string name="resource_expand_full_text">Expand</string>
@@ -1035,7 +1007,7 @@ mm"</string>
   <string name="sunday">Sunday</string>
   <string name="sunday_short">Sun</string>
   <string name="sunday_shortest">S</string>
-  <string name="super_wallpaper">Super Wallpapers</string>
+  <string name="super_wallpaper">Super wallpapers</string>
   <string name="support_theme_store_des">Good themes are always created by talented designers. Our app contains a small amount of ads which allow us to support their work.</string>
   <string name="support_theme_store_supported">Thanks for your support!</string>
   <string name="support_theme_store_title">Support our designers</string>
@@ -1147,7 +1119,6 @@ mm"</string>
   <string name="theme_current_using_has_update">Theme update available</string>
   <string name="theme_description_title_customized">Custom</string>
   <string name="theme_description_title_default">Default</string>
-  <string name="theme_designer_products">Designer themes</string>
   <string name="theme_detail_tab_comment">Comments</string>
   <string name="theme_detail_tab_recommend">Recommended</string>
   <string name="theme_detail_tab_theme">Details</string>
@@ -1189,7 +1160,7 @@ mm"</string>
   <string name="theme_user_agreement_remind_never">"Don't show again"</string>
   <string name="theme_user_agreement_remind_summary">Show the Terms of Use pop-up every time you open the Themes app. This setting will take effect after you reboot your device.</string>
   <string name="theme_user_agreement_title">Terms of Use</string>
-  <string name="theme_wallpaper">Wallpaper categories</string>
+  <string name="theme_wallpaper">Wallpaper Category</string>
   <string name="theme_yes">Yes</string>
   <string name="third_party_pickers_activity_title">Add %1$s</string>
   <string name="thursday">Thursday</string>
@@ -1261,7 +1232,6 @@ Go to Themes &gt; My account &gt; Themes lab for more options."</string>
   <string name="update_latest">Your app is up to date</string>
   <string name="update_no_net">A network error occurred. Try again.</string>
   <string name="update_title">NEW UPDATE AVAILABLE</string>
-  <string name="use_hint">Attention</string>
   <string name="using_theme_has_update_tips">An update for this theme is available.</string>
   <string name="using_theme_next_automatic_update">Automatic updates</string>
   <string name="using_theme_next_automatic_update_summary">Update downloaded themes using WLAN when the device is locked</string>
