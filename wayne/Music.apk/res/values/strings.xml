@@ -91,7 +91,7 @@
   <string name="am">AM</string>
   <string name="app_code">MYPLAY-ANDROID-MIMUSIC</string>
   <string name="app_label">Downloads</string>
-  <string name="app_name">Preference</string>
+  <string name="app_name">sdk</string>
   <string name="app_permission_confirm">Got it</string>
   <string name="app_permission_optional">Optional permissions</string>
   <string name="app_permission_require">Mandatory permissions</string>
@@ -136,6 +136,7 @@
   <string name="button_sort_by_date">Sort by date</string>
   <string name="button_sort_by_size">Sort by size</string>
   <string name="button_wait_for_wifi">Wait</string>
+  <string name="buy_vip_skip_ad">Remove ads</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_running_download">Cancel</string>
   <string name="cannot_download_to_sdcard_hint">"Can't download items to SD card due to copyright restrictions. Items will be downloaded to internal storage instead."</string>
@@ -224,7 +225,13 @@
   <string name="click_to_add_album_cover_and_lyric">Tap to add album cover and lyrics</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="close_music_time">"Time remaining: "</string>
-  <string name="com.crashlytics.android.build_id">97d9263e-9420-490d-bd7e-0612b258574e</string>
+  <string name="columbus_player_close_desc">You will lose your reward</string>
+  <string name="columbus_player_close_resume">RESUME VIDEO</string>
+  <string name="columbus_player_close_title">Close Video?</string>
+  <string name="columbus_player_close_video">CLOSE VIDEO</string>
+  <string name="columbus_player_install_now">INSTALL NOW</string>
+  <string name="columbus_player_learn_more">Learn More</string>
+  <string name="com.crashlytics.android.build_id">f4cb99c8-78b7-4f24-83c6-f2e511b74cba</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -664,6 +671,46 @@
   <string name="is_scanning">Checking storage…</string>
   <string name="is_scanning_support_online">"Checking storage…
 (In the meantime, you can stream music online)"</string>
+  <string name="joox_account_bind_mi_account">Add Mi Account</string>
+  <string name="joox_account_cancel_login">Cancel</string>
+  <string name="joox_account_continue_login">Sign in</string>
+  <string name="joox_account_fans_center">Fan Center</string>
+  <string name="joox_account_login_conflict_message">"Looks like you're signed in on another device. Sign in here?"</string>
+  <string name="joox_account_login_exception">Sign in again</string>
+  <string name="joox_account_multi_device_login">Multiple devices</string>
+  <string name="joox_area_check_failed">"Looks like you're in the area where our services aren't available. Connect to another network and launch the app again."</string>
+  <string name="joox_auth_button_acquire_vip_instantly">Get VIP membership</string>
+  <string name="joox_auth_button_login_to_acquire_vip">Sign in to get VIP membership</string>
+  <string name="joox_auth_dialog_message">"We've recommended some songs for you. Get VIP membership to lift restrictions."</string>
+  <string name="joox_auth_message_connect_network">"Haven't connected to the server in a while. Connect to the network to be able to play downloaded songs."</string>
+  <string name="joox_auth_message_content_for_vip_only">This item is only available to VIP members</string>
+  <string name="joox_auth_message_content_offline">"Online services aren't available now. We'll improve a couple of things and reopen access soon. Stay tuned!"</string>
+  <string name="joox_auth_message_login_status_expired">Sign-in session expired. Sign in again.</string>
+  <string name="joox_auth_message_one_hour_limit_for_one_company">You can play up to six songs from the same record label every hour. Listen to some recommended songs for now.</string>
+  <string name="joox_auth_message_recommend_for_you">Recommended</string>
+  <string name="joox_auth_message_update_vip_to_change_playlist">Get VIP membership to edit playlists</string>
+  <string name="joox_auth_message_update_vip_to_download">Get VIP membership to download</string>
+  <string name="joox_auth_message_update_vip_to_listen_offline">Your VIP membership expired. You can listen to songs online now. Get VIP membership to be able to download songs.</string>
+  <string name="joox_auth_message_update_vip_to_play_on_demand">"Can't play this song due to copyright restrictions. Try shuffling playback to listen to other songs or get VIP membership to play this one."</string>
+  <string name="joox_auth_message_update_vip_to_seek_progress">"Can't adjust playback progress due to copyright restrictions. Get VIP membership to lift restrictions."</string>
+  <string name="joox_auth_message_update_vip_to_switch_songs">Get VIP membership to switch between songs</string>
+  <string name="joox_auth_message_update_vip_to_use_function">Get VIP membership to use this feature</string>
+  <string name="joox_auth_title_download_song">Download songs</string>
+  <string name="joox_auth_title_login_again">Sign in</string>
+  <string name="joox_auth_title_long_time_no_network">"Looks like you haven't connected to the network in a while"</string>
+  <string name="joox_auth_title_shuffle_play">Shuffle</string>
+  <string name="joox_auth_title_vip_content">VIP content</string>
+  <string name="joox_auth_title_vip_expired">Membership expired</string>
+  <string name="joox_auth_title_vip_function">VIP features</string>
+  <string name="joox_download_title">JOOX downloads</string>
+  <string name="joox_privacy_desc">JOOX Privacy Policy (optional)</string>
+  <string name="joox_privacy_tips_content">Read and agree to &lt;a href="/link/click"&gt;JOOX Privacy Policy&lt;/a&gt; before using online services.</string>
+  <string name="joox_privacy_tips_title">JOOX Privacy Policy</string>
+  <string name="joox_recommend_artist_title">Recommended artists</string>
+  <string name="joox_recommend_playlist_title">Recommended playlists</string>
+  <string name="joox_search_result_more">More</string>
+  <string name="joox_vip_check_to_pay">Purchase</string>
+  <string name="joox_vip_expired_hint">Your VIP membership expired. The songs downloaded from JOOX will only be displayed in your downloads.</string>
   <string name="keep_queued_download">Keep</string>
   <string name="ktv_playlist">KTV playlist</string>
   <string name="language_page_confirm">Confirm</string>
@@ -1106,6 +1153,7 @@ Be Happy"</string>
   <string name="sunday">Sunday</string>
   <string name="sunday_short">Sun</string>
   <string name="sunday_shortest">S</string>
+  <string name="supplementary_songs">Additional songs</string>
   <string name="switch_success">Switched successfully</string>
   <string name="tab_album">Albums</string>
   <string name="tab_album_list">Albums</string>

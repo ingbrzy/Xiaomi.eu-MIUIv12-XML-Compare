@@ -87,14 +87,14 @@
         <item>B</item>
         <item>AB</item>
         <item>O</item>
-        <item>A(+)</item>
         <item>A(-)</item>
-        <item>B(+)</item>
+        <item>A(+)</item>
         <item>B(-)</item>
-        <item>AB(+)</item>
+        <item>B(+)</item>
         <item>AB(-)</item>
-        <item>O(+)</item>
+        <item>AB(+)</item>
         <item>O(-)</item>
+        <item>O(+)</item>
     </string-array>
     <integer-array name="body_water_line_chart_default_y">
         <item>70</item>
@@ -184,15 +184,15 @@
         <item>@string/chinese_symbol_animals_pig</item>
     </string-array>
     <string-array name="contact_relation_array">
-        <item>Not Set</item>
-        <item>Parents</item>
-        <item>Sisters</item>
-        <item>Brothers</item>
-        <item>Couple</item>
-        <item>Lovers</item>
-        <item>Friends</item>
-        <item>Colleagues</item>
-        <item>Classmates</item>
+        <item>Not set</item>
+        <item>Parent</item>
+        <item>Sister</item>
+        <item>Brother</item>
+        <item>Spouse</item>
+        <item>Partner</item>
+        <item>Friend</item>
+        <item>Colleague</item>
+        <item>Classmate</item>
     </string-array>
     <string-array name="detailed_am_pms">
         <item>@string/midnight</item>
@@ -231,7 +231,7 @@
         <item>10</item>
     </integer-array>
     <string-array name="gender_array">
-        <item>not set</item>
+        <item>Not set</item>
         <item>Male</item>
         <item>Female</item>
     </string-array>
@@ -300,18 +300,11 @@
         <item>60</item>
     </integer-array>
     <string-array name="normal_blood_array">
-        <item>not set</item>
-        <item>Type A</item>
-        <item>Type B</item>
-        <item>Type AB</item>
-        <item>Type O</item>
-    </string-array>
-    <string-array name="normal_blood_types">
-        <item>Not Set</item>
-        <item>Type A</item>
-        <item>Type B</item>
-        <item>Type AB</item>
-        <item>Type O</item>
+        <item>Not set</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
     </string-array>
     <string-array name="pager_titles">
         <item>Day</item>
@@ -359,7 +352,7 @@
         <item>2018 Physical Activity Guidelines Advisory Committee Submits Scientific Report</item>
     </string-array>
     <string-array name="rh_blood_array">
-        <item>Not Set</item>
+        <item>Not set</item>
         <item>Negative</item>
         <item>Positive</item>
     </string-array>
@@ -477,8 +470,8 @@
         <item>" lb"</item>
     </string-array>
     <string-array name="yes_no_array">
-        <item>not set</item>
-        <item>yes</item>
-        <item>no</item>
+        <item>Not set</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
 </resources>
