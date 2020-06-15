@@ -1854,6 +1854,7 @@ to respond"</string>
   <string name="memory_check_content">Freed %s</string>
   <string name="memory_clean_memory_size_tip">Cache</string>
   <string name="memory_clean_no_need_clean">Everything looks good</string>
+  <string name="memory_clean_no_need_clean_1" formatted="false">Freed up %s. Your device is %d%% faster now.</string>
   <string name="memory_clear_unused">Clear cache (%s)</string>
   <string name="memory_title">Available: %1$s\u0009\u0009Total: %2$s</string>
   <string name="menu_add">Add</string>
@@ -1899,6 +1900,8 @@ to respond"</string>
   <string name="menu_summary_networkassistants_2">Went over the limit</string>
   <string name="menu_summary_networkassistants_3">Enough data remaining</string>
   <string name="menu_summary_networkassistants_4">Running out of data</string>
+  <string name="menu_summary_optimize_manage">Clear memory</string>
+  <string name="menu_summary_optimize_manage_1">Make your device %d%% faster</string>
   <string name="menu_summary_power_manager">Battery saver gives you more time between charges</string>
   <string name="menu_summary_power_manager_1">Battery is fully charged</string>
   <string name="menu_summary_power_manager_2">%s remaining</string>
@@ -1918,6 +1921,7 @@ to respond"</string>
   <string name="menu_text_networkassistants_unit_kb">KB</string>
   <string name="menu_text_networkassistants_unit_mb">MB</string>
   <string name="menu_text_optimize_manage">Boost speed</string>
+  <string name="menu_text_optimize_manage_1">Boost speed</string>
   <string name="menu_text_power_manager">Battery</string>
   <string name="menu_text_power_percent">%s</string>
   <string name="menu_text_power_percent_title">%s</string>
@@ -2095,6 +2099,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="om_locked_apps_summary">Locked apps will be ignored by the speed boost.</string>
   <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
   <string name="om_not_finish_speedboost">Speed boost is required</string>
+  <string name="om_optimzing_big_button_text">Boost speed</string>
+  <string name="om_running_app_info_summary">Free up %s</string>
   <string name="om_running_locked_apps">Locked running apps</string>
   <string name="om_running_system_apps">Running system apps</string>
   <string name="om_running_third_apps">Running third party apps</string>
@@ -2109,6 +2115,9 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="om_settings_notify_manage">Notifications</string>
   <string name="om_settings_speed_up_auto">Auto speed boost</string>
   <string name="om_settings_title">Settings</string>
+  <string name="om_shortcut_added_toast_text">Added successfully</string>
+  <string name="om_shortcut_dialog_summary">"RAM Jet allows you to clear memory and boost your device's speed in a single tap. Add RAM Jet to your Home screen?"</string>
+  <string name="om_shortcut_dialog_title">RAM Jet</string>
   <string name="one_address_choose_hint">%s1</string>
   <string name="open_activity_err">The application was not found</string>
   <string name="open_alarm_right_now">立刻开启</string>
@@ -2839,7 +2848,11 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="section_title_clear_acc">Clear cache</string>
   <string name="section_title_security_defend">Security</string>
   <string name="section_title_system">System security</string>
+  <string name="security_bottom_guide_to_pm_text">Opening Utility Kit…</string>
   <string name="security_center_slogan">Keep your device fast and secure</string>
+  <string name="security_guide_bubble_text">Open</string>
+  <string name="security_guide_summary">One-stop spot for tools and services</string>
+  <string name="security_guide_title">MIUI Utility Kit</string>
   <string name="security_scan_optimizing">Optimizing…</string>
   <string name="securityadd_install_fail">"Couldn't update plug-in. Try again."</string>
   <string name="securityadd_update_tips_cancle">Not now</string>
