@@ -216,8 +216,14 @@
   <string name="badPin">"The old PIN you typed isn't correct."</string>
   <string name="badPuk">"The PUK you typed isn't correct."</string>
   <string name="battery_saver_charged_notification_title">Phone %1$s charged</string>
-  <string name="battery_saver_description">Battery Saver turns off or restricts background activity, some visual effects &amp; other high-power features to extend battery life.</string>
-  <string name="battery_saver_description_with_learn_more">Battery Saver turns off or restricts background activity, some visual effects &amp; other high-power features to extend battery life. &lt;annotation id="url"&gt;Learn More&lt;/annotation&gt;</string>
+  <string name="battery_saver_description">"To extend battery life, Battery Saver:
+·Turns on Dark theme
+·Turns off or restricts background activity, some visual effects, and other features like “Hey Google”"</string>
+  <string name="battery_saver_description_with_learn_more">"To extend battery life, Battery Saver:
+·Turns on Dark theme
+·Turns off or restricts background activity, some visual effects, and other features like “Hey Google”
+
+"&lt;annotation id="url"&gt;Learn more&lt;/annotation&gt;</string>
   <string name="battery_saver_notification_channel_name">Battery Saver</string>
   <string name="battery_saver_off_alternative_notification_summary">Battery Saver turned off. Features no longer restricted.</string>
   <string name="battery_saver_off_notification_summary">Battery Saver is off. Features no longer restricted.</string>
@@ -326,6 +332,7 @@
   <string name="config_defaultDndAccessPackages">com.android.camera2</string>
   <string name="config_defaultListenerAccessPackages"/>
   <string name="config_defaultModuleMetadataProvider">com.android.modulemetadata</string>
+  <string name="config_defaultNearbySharingComponent"/>
   <string name="config_defaultNetworkRecommendationProviderPackage"/>
   <string name="config_defaultNetworkScorerPackageName"/>
   <string name="config_defaultPictureInPictureScreenEdgeInsets">16x16</string>
@@ -368,7 +375,7 @@
   <string name="config_helpPackageNameKey"/>
   <string name="config_helpPackageNameValue"/>
   <string name="config_iccHotswapPromptForRestartDialogComponent">@null</string>
-  <string name="config_icon_mask">M96.4286 62.2772C96.4286 72.1118 96.4286 77.029 94.7547 82.3225C92.6512 88.1016 88.0988 92.654 82.3196 94.7576C77.6553 96.2326 73.278 96.4076 65.575 96.4284H50H34.425C26.722 96.4076 22.3446 96.2326 17.6803 94.7576C11.9012 92.654 7.34879 88.1016 5.24522 82.3225C3.57141 77.029 3.57141 72.1118 3.57141 62.2772V49.9999V37.7225C3.57141 27.888 3.57141 22.9707 5.24522 17.6772C7.34879 11.8981 11.9012 7.34569 17.6803 5.24212C22.3446 3.76712 26.722 3.59212 34.425 3.57129H50H65.575C73.278 3.59212 77.6553 3.76712 82.3196 5.24212C88.0988 7.34569 92.6512 11.8981 94.7547 17.6772C96.4286 22.9707 96.4286 27.888 96.4286 37.7225V49.9999V62.2772Z</string>
+  <string name="config_icon_mask">M50,0L100,0 100,100 0,100 0,0z</string>
   <string name="config_ims_package"/>
   <string name="config_inCallNotificationSound">/product/media/audio/ui/InCallNotification.ogg</string>
   <string name="config_incidentReportApproverPackage">com.android.permissioncontroller</string>
@@ -398,6 +405,7 @@
   <string name="config_radio_access_family"/>
   <string name="config_recentsComponentName">com.miui.home/com.miui.home.recents.RecentsActivity</string>
   <string name="config_secondaryHomeComponent">com.miui.home/com.miui.home.launcher.SecondaryDisplayLauncher</string>
+  <string name="config_signalXPath">M22,16.41L20.59,15l-2.09,2.09L16.41,15L15,16.41l2.09,2.09L15,20.59L16.41,22l2.09-2.08L20.59,22L22,20.59l-2.08-2.09 L22,16.41z</string>
   <string name="config_timeZoneRulesDataPackage"/>
   <string name="config_timeZoneRulesUpdaterPackage">com.android.timezone.updater</string>
   <string name="config_tvRemoteServicePackage"/>
@@ -595,13 +603,13 @@ using %s"</string>
   <string name="ext_media_unsupported_notification_title">Unsupported %s</string>
   <string name="extract_edit_menu_button">Edit</string>
   <string name="face_acquired_insufficient">Couldn’t capture accurate face data. Try again.</string>
-  <string name="face_acquired_not_detected">Can’t see your face. Look at the phone.</string>
+  <string name="face_acquired_not_detected">Position your face directly in front of the phone.</string>
   <string name="face_acquired_obscured">Remove anything hiding your face.</string>
   <string name="face_acquired_pan_too_extreme">Turn your head a little less.</string>
   <string name="face_acquired_poor_gaze">Please look more directly at your device.</string>
   <string name="face_acquired_recalibrate">Please re-enroll your face.</string>
   <string name="face_acquired_roll_too_extreme">Turn your head a little less.</string>
-  <string name="face_acquired_sensor_dirty">Clean the sensor at the top edge of the screen.</string>
+  <string name="face_acquired_sensor_dirty">Clean the top of your screen, including the black bar</string>
   <string name="face_acquired_tilt_too_extreme">Turn your head a little less.</string>
   <string name="face_acquired_too_bright">Too bright. Try gentler lighting.</string>
   <string name="face_acquired_too_close">Move phone farther away.</string>
@@ -616,20 +624,20 @@ using %s"</string>
   <string name="face_acquired_too_similar">Too similar, please change your pose.</string>
   <string name="face_authenticated_confirmation_required">Face authenticated, please press confirm</string>
   <string name="face_authenticated_no_confirmation_required">Face authenticated</string>
-  <string name="face_error_canceled">Face operation canceled</string>
+  <string name="face_error_canceled">Face operation canceled.</string>
   <string name="face_error_hw_not_available">Can’t verify face. Hardware not available.</string>
-  <string name="face_error_hw_not_present">Face authentication is not supported on this device</string>
+  <string name="face_error_hw_not_present">Face unlock is not supported on this device.</string>
   <string name="face_error_lockout">Too many attempts. Try again later.</string>
-  <string name="face_error_lockout_permanent">Too many attempts. Face authentication disabled.</string>
+  <string name="face_error_lockout_permanent">Too many attempts. Face unlock disabled.</string>
   <string name="face_error_no_space">Can’t store new face data. Delete an old one first.</string>
-  <string name="face_error_not_enrolled">You haven’t set up face authentication</string>
-  <string name="face_error_timeout">Try face authentication again.</string>
+  <string name="face_error_not_enrolled">You haven’t set up face unlock.</string>
+  <string name="face_error_timeout">Try face unlock again.</string>
   <string name="face_error_unable_to_process">Can’t verify face. Try again.</string>
-  <string name="face_error_user_canceled">Face authentication canceled by user</string>
+  <string name="face_error_user_canceled">Face unlock canceled by user.</string>
   <string name="face_icon_content_description">Face icon</string>
   <string name="face_name_template">Face %d</string>
   <string name="face_recalibrate_notification_content">To improve recognition, please re-enroll your face</string>
-  <string name="face_recalibrate_notification_name">Face Authentication</string>
+  <string name="face_recalibrate_notification_name">Face unlock</string>
   <string name="face_recalibrate_notification_title">Re-enroll your face</string>
   <string name="faceunlock_multiple_failures">Maximum Face Unlock attempts exceeded</string>
   <string name="factory_reset_message">"The admin app can't be used. Your device will now be erased.
@@ -1178,6 +1186,7 @@ Try again in %2$d seconds."</string>
   <string name="notification_channel_retail_mode">Retail demo</string>
   <string name="notification_channel_security">Security</string>
   <string name="notification_channel_sim">SIM status</string>
+  <string name="notification_channel_sim_high_prio">High priority SIM status</string>
   <string name="notification_channel_sms">SMS messages</string>
   <string name="notification_channel_system_changes">System changes</string>
   <string name="notification_channel_updates">Updates</string>
@@ -1292,7 +1301,7 @@ Try again in %2$d seconds."</string>
   <string name="permdesc_readCalendar">This app can read all calendar events stored on your phone and share or save your calendar data.</string>
   <string name="permdesc_readCallLog">This app can read your call history.</string>
   <string name="permdesc_readCellBroadcasts">Allows the app to read cell broadcast messages received by your device. Cell broadcast alerts are delivered in some locations to warn you of emergency situations. Malicious apps may interfere with the performance or operation of your device when an emergency cell broadcast is received.</string>
-  <string name="permdesc_readContacts">"Allows the app to read data about your contacts stored on your phone, including the frequency with which you've called, emailed, or communicated in other ways with specific individuals. This permission allows apps to save your contact data, and malicious apps may share contact data without your knowledge."</string>
+  <string name="permdesc_readContacts">Allows the app to read data about your contacts stored on your phone. This permission allows apps to save your contact data, and malicious apps may share contact data without your knowledge.</string>
   <string name="permdesc_readHistoryBookmarks">"Allows the app to read the history of all URLs that the Browser has visited, and all of the Browser's bookmarks. Note: this permission may not be enforced by third-party browsers or other applications with web browsing capabilities."</string>
   <string name="permdesc_readInstallSessions">Allows an application to read install sessions. This allows it to see details about active package installations.</string>
   <string name="permdesc_readNetworkUsageHistory">Allows the app to read historical network usage for specific networks and apps.</string>
@@ -1334,7 +1343,7 @@ Try again in %2$d seconds."</string>
   <string name="permdesc_uninstall_shortcut">Allows the application to remove Homescreen shortcuts without user intervention.</string>
   <string name="permdesc_useBiometric">Allows the app to use biometric hardware for authentication</string>
   <string name="permdesc_useDataInBackground">This app can use data in the background. This may increase data usage.</string>
-  <string name="permdesc_useFaceAuthentication">Allows the app to use face authentication hardware for authentication</string>
+  <string name="permdesc_useFaceAuthentication">Allows the app to use face unlock hardware for authentication</string>
   <string name="permdesc_useFingerprint">Allows the app to use fingerprint hardware for authentication</string>
   <string name="permdesc_use_sip">Allows the app to make and receive SIP calls.</string>
   <string name="permdesc_vibrate">Allows the app to control the vibrator.</string>
@@ -1342,7 +1351,7 @@ Try again in %2$d seconds."</string>
   <string name="permdesc_wakeLock">Allows the app to prevent the phone from going to sleep.</string>
   <string name="permdesc_writeCalendar">This app can add, remove, or change calendar events on your phone. This app can send messages that may appear to come from calendar owners, or change events without notifying their owners.</string>
   <string name="permdesc_writeCallLog">"Allows the app to modify your phone's call log, including data about incoming and outgoing calls. Malicious apps may use this to erase or modify your call log."</string>
-  <string name="permdesc_writeContacts">"Allows the app to modify the data about your contacts stored on your phone, including the frequency with which you've called, emailed, or communicated in other ways with specific contacts. This permission allows apps to delete contact data."</string>
+  <string name="permdesc_writeContacts">Allows the app to modify the data about your contacts stored on your phone. This permission allows apps to delete contact data.</string>
   <string name="permdesc_writeGeolocationPermissions">"Allows the app to modify the Browser's geolocation permissions. Malicious apps may use this to allow sending location information to arbitrary web sites."</string>
   <string name="permdesc_writeHistoryBookmarks">"Allows the app to modify the Browser's history or bookmarks stored on your phone. This may allow the app to erase or modify Browser data. Note: this permission may note be enforced by third-party browsers or other applications with web browsing capabilities."</string>
   <string name="permdesc_writeSettings">"Allows the app to modify the system's settings data. Malicious apps may corrupt your system's configuration."</string>
@@ -1439,7 +1448,7 @@ for account %s."</string>
   <string name="permlab_install_shortcut">install shortcuts</string>
   <string name="permlab_invokeCarrierSetup">invoke the carrier-provided configuration app</string>
   <string name="permlab_killBackgroundProcesses">close other apps</string>
-  <string name="permlab_manageFace">manage face authentication hardware</string>
+  <string name="permlab_manageFace">manage face unlock hardware</string>
   <string name="permlab_manageFingerprint">manage fingerprint hardware</string>
   <string name="permlab_manageNetworkPolicy">manage network policy</string>
   <string name="permlab_manageOwnCalls">route calls through the system</string>
@@ -1495,7 +1504,7 @@ for account %s."</string>
   <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
   <string name="permlab_useBiometric">use biometric hardware</string>
   <string name="permlab_useDataInBackground">use data in the background</string>
-  <string name="permlab_useFaceAuthentication">use face authentication hardware</string>
+  <string name="permlab_useFaceAuthentication">use face unlock hardware</string>
   <string name="permlab_useFingerprint">use fingerprint hardware</string>
   <string name="permlab_use_sip">make/receive SIP calls</string>
   <string name="permlab_vibrate">control vibration</string>
@@ -1532,6 +1541,7 @@ for account %s."</string>
   <string name="phoneTypeWork">Work</string>
   <string name="phoneTypeWorkMobile">Work Mobile</string>
   <string name="phoneTypeWorkPager">Work Pager</string>
+  <string name="pin_target">Pin</string>
   <string name="policydesc_disableCamera">Prevent use of all device cameras.</string>
   <string name="policydesc_disableKeyguardFeatures">Prevent use of some screen lock features.</string>
   <string name="policydesc_encryptedStorage">Require that stored app data be encrypted.</string>
@@ -1850,6 +1860,7 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="tutorial_double_tap_to_zoom_message_short">Tap twice for zoom control</string>
   <string name="undo">Undo</string>
   <string name="unknownName">Unknown</string>
+  <string name="unpin_target">Unpin</string>
   <string name="unsupported_compile_sdk_check_update">Check for update</string>
   <string name="unsupported_compile_sdk_message">%1$s was built for an incompatible version of the Android OS and may behave unexpectedly. An updated version of the app may be available.</string>
   <string name="unsupported_compile_sdk_show">Always show</string>
@@ -1893,8 +1904,8 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="usb_unsupported_audio_accessory_title">Detected analog audio accessory</string>
   <string name="use_a_different_app">Use a different app</string>
   <string name="user_authentication_failed"/>
-  <string name="user_creation_account_exists">Allow %1$s to create a new User with %2$s ?</string>
-  <string name="user_creation_adding">Allow %1$s to create a new User with %2$s (a User with this account already exists) ?</string>
+  <string name="user_creation_account_exists">Allow %1$s to create a new User with %2$s (a User with this account already exists) ?</string>
+  <string name="user_creation_adding">Allow %1$s to create a new User with %2$s ?</string>
   <string name="user_logging_out_message">Logging out %1$s…</string>
   <string name="user_owner_label">Switch to personal profile</string>
   <string name="user_switched">Current user %1$s.</string>
@@ -1952,6 +1963,7 @@ Do you want to close it?"</string>
   <string name="wfcSpnFormat_wifi_calling_wo_hyphen">WLAN Calling</string>
   <string name="wfcSpnFormat_wlan_call">WLAN Call</string>
   <string name="wfc_mode_cellular_preferred_summary">Call over mobile network</string>
+  <string name="wfc_mode_ims_preferred_summary">Ims Preferred</string>
   <string name="wfc_mode_wifi_only_summary">WLAN only</string>
   <string name="wfc_mode_wifi_preferred_summary">Call over WLAN</string>
   <string name="whichApplication">Complete action using</string>
@@ -1992,9 +2004,19 @@ Do you want to close it?"</string>
   <string name="wifi_available_title_connecting">Connecting to Wi‑Fi network</string>
   <string name="wifi_available_title_failed_to_connect">Could not connect to Wi‑Fi network</string>
   <string name="wifi_calling_off_summary">Off</string>
+  <string name="wifi_cannot_connect_with_randomized_mac_message">Tap to change privacy settings and retry</string>
+  <string name="wifi_cannot_connect_with_randomized_mac_title">Can’t connect to %1$s</string>
   <string name="wifi_connect_alert_message">Application %1$s would like to connect to Wifi Network %2$s</string>
   <string name="wifi_connect_alert_title">Allow connection?</string>
   <string name="wifi_connect_default_application">An application</string>
+  <string name="wifi_disable_mac_randomization_dialog_confirm_text">Change setting</string>
+  <string name="wifi_disable_mac_randomization_dialog_failure">Can’t change privacy setting</string>
+  <string name="wifi_disable_mac_randomization_dialog_message">"%1$s may want to connect using your device MAC address, a unique identifier. This may allow your device’s location to be tracked by nearby devices. 
+
+If you continue, %1$s will change your privacy setting and try to connect again."</string>
+  <string name="wifi_disable_mac_randomization_dialog_network_not_found">Network not found</string>
+  <string name="wifi_disable_mac_randomization_dialog_success">Setting updated. Try connecting again.</string>
+  <string name="wifi_disable_mac_randomization_dialog_title">Change privacy setting?</string>
   <string name="wifi_localhotspot_configure_ssid_default">AndroidShare</string>
   <string name="wifi_no_internet">%1$s has no internet access</string>
   <string name="wifi_no_internet_detailed">Tap for options</string>
@@ -2013,10 +2035,10 @@ Do you want to close it?"</string>
   <string name="wifi_softap_config_change">Changes to your hotspot settings</string>
   <string name="wifi_softap_config_change_detailed">This device doesn’t support your preference for 5GHz only. Instead, this device will use the 5GHz band when available.</string>
   <string name="wifi_softap_config_change_summary">Your hotspot band has changed.</string>
-  <string name="wifi_suggestion_action_allow_app">Yes</string>
-  <string name="wifi_suggestion_action_disallow_app">No</string>
-  <string name="wifi_suggestion_content">Suggested by %s</string>
-  <string name="wifi_suggestion_title">Connect to Wi‑Fi networks?</string>
+  <string name="wifi_suggestion_action_allow_app">Allow</string>
+  <string name="wifi_suggestion_action_disallow_app">No thanks</string>
+  <string name="wifi_suggestion_content">%s suggested networks. Device may connect automatically.</string>
+  <string name="wifi_suggestion_title">Allow suggested Wi‑Fi networks?</string>
   <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
   <string name="wifi_wakeup_enabled_content">"You're near a saved network: %1$s"</string>
   <string name="wifi_wakeup_enabled_title">Wi‑Fi turned on automatically</string>

@@ -51,6 +51,7 @@
         <item>200</item>
     </integer-array>
     <array name="config_ambientThresholdLevels" />
+    <array name="config_ambientThresholdsOfPeakRefreshRate" />
     <array name="config_apexBootImagePinnerServiceFiles" />
     <integer-array name="config_apfEthTypeBlackList">
         <item>0x000088A2</item>
@@ -144,6 +145,7 @@
         <item>com.android.providers.media</item>
         <item>com.android.systemui</item>
     </string-array>
+    <array name="config_brightnessThresholdsOfPeakRefreshRate" />
     <integer-array name="config_calendarDateVibePattern">
         <item>125</item>
         <item>30</item>
@@ -204,6 +206,8 @@
     <string-array name="config_disabledUntilUsedPreinstalledImes">
         <item>com.android.inputmethod.latin</item>
     </string-array>
+    <array name="config_displayCompositionColorModes" />
+    <array name="config_displayCompositionColorSpaces" />
     <array name="config_displayWhiteBalanceAmbientColorTemperatures" />
     <array name="config_displayWhiteBalanceBaseThresholds">
         <item>0.0</item>
@@ -231,9 +235,22 @@
         <item>1.000000</item>
         <item>1.089058</item>
     </string-array>
+    <array name="config_displayWhiteBalanceHighLightAmbientBiases" />
+    <array name="config_displayWhiteBalanceHighLightAmbientBrightnesses" />
     <array name="config_displayWhiteBalanceIncreaseThresholds">
         <item>0.1</item>
     </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBiases">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBrightnesses">
+        <item>10.0</item>
+        <item>10.0</item>
+    </array>
+    <string-array name="config_display_no_service_when_sim_unready">
+        <item>DE</item>
+    </string-array>
     <string-array name="config_dropboxLowPriorityTags">
         <item>data_app_strictmode</item>
         <item>data_app_wtf</item>
@@ -266,6 +283,7 @@
         <item>emergency</item>
     </string-array>
     <array name="config_hideWhenDisabled_packageNames" />
+    <array name="config_highRefreshRateBlacklist" />
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
@@ -894,7 +912,12 @@
         <item>com.android.providers.downloads.ui</item>
         <item>com.android.documentsui</item>
     </string-array>
-    <string-array name="resolver_target_actions">
+    <string-array name="resolver_target_actions_pin">
+        <item>@string/pin_target</item>
+        <item>@string/app_info</item>
+    </string-array>
+    <string-array name="resolver_target_actions_unpin">
+        <item>@string/unpin_target</item>
         <item>@string/app_info</item>
     </string-array>
     <array name="sim_colors">
