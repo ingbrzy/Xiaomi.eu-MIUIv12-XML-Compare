@@ -1,34 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">1 hour ago</item>
-    </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 hour ago</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="other">Half an hour ago</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="other">In 1 hour</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="other">In half an hour</item>
-    </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="other">Immediately</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">in %d mins</item>
-        <item quantity="one">in 1 min</item>
-    </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="other">Just now</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d mins ago</item>
-        <item quantity="one">1 min ago</item>
-    </plurals>
     <plurals name="comment_detail_title">
         <item quantity="other">%d replies</item>
         <item quantity="one">%d reply</item>
@@ -49,32 +20,13 @@
         <item quantity="other">Selected %d reasons</item>
         <item quantity="one">Selected %d reason</item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="other">Half an hour ago</item>
-    </plurals>
     <plurals name="hot_word_hot_count">
         <item quantity="other">%d views</item>
         <item quantity="one">%d view</item>
     </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="other">In 1 hour</item>
-    </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="other">In half an hour</item>
-    </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="other">Immediately</item>
-    </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="other">in %d minutes</item>
-        <item quantity="one">in 1 minute</item>
-    </plurals>
     <plurals name="info_flow_tips">
         <item quantity="other">Found %d new items for you</item>
         <item quantity="one">Found %d new item for you</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="other">Just now</item>
     </plurals>
     <plurals name="mw_last_num_days">
         <item quantity="other">Last %d days</item>
@@ -86,10 +38,6 @@
     <plurals name="nav_screen_incognito_time">
         <item quantity="other">After %d seconds will automatically create a new page</item>
         <item quantity="one">After %d second will automatically create a new page</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">%d minutes ago</item>
-        <item quantity="one">1 minute ago</item>
     </plurals>
     <plurals name="transfer_prompt">
         <item quantity="other">Play video in %1$d seconds</item>
@@ -134,8 +82,8 @@ Will play the next one in %d second…"</item>
         <item quantity="one">%d image</item>
     </plurals>
     <plurals name="vo_short_video_play_count">
-        <item quantity="other">%s views</item>
-        <item quantity="one">%s view</item>
+        <item quantity="other">%s</item>
+        <item quantity="one">%s</item>
     </plurals>
     <plurals name="vo_source_comment">
         <item quantity="other">%1$s | %2$s comments</item>
