@@ -222,8 +222,11 @@
   <string name="first_enter_custom_folder_hint">You can rename or delete folders here</string>
   <string name="float_todo_guide_cancel">Cancel</string>
   <string name="float_todo_guide_message">Home screen shortcut allows you to swipe from the edge of the screen to view and create tasks. Create the shortcut now?</string>
+  <string name="float_todo_guide_message_v2">Gesture shortcut allows you to view and create tasks by swiping from the edge of the screen. You can turn this feature on and off in the Settings.</string>
   <string name="float_todo_guide_ok">Create</string>
+  <string name="float_todo_guide_ok_v2">Turn on</string>
   <string name="float_todo_guide_title">Home screen shortcut</string>
+  <string name="float_todo_guide_title_v2">Gesture shortcut</string>
   <string name="fmt_chinese_date">N e</string>
   <string name="fmt_date">D</string>
   <string name="fmt_date_day">dd</string>
@@ -430,7 +433,9 @@
   <string name="pref_desc_skip_confirm_for_quick_delete">Swipe up with 2 fingers to delete notes without confirmation</string>
   <string name="pref_desc_todo_float_mode">Swipe from the edge of the screen to open task toolbox</string>
   <string name="pref_remind_type_summary">Play reminder sound in Silent mode</string>
+  <string name="pref_remind_type_summary_new">Ignore Silent mode and keep playing sound until the alarm is turned off</string>
   <string name="pref_remind_type_title">Ignore Silent mode</string>
+  <string name="pref_remind_type_title_new">High-priority reminders</string>
   <string name="pref_title_cloud_trash_bin">Deleted notes in the cloud</string>
   <string name="pref_title_common">Additional settings</string>
   <string name="pref_title_font_size">Font size</string>
@@ -619,6 +624,7 @@
   <string name="toast_reach_text_limit_truncate">This note is too long. Some text has been cut off of the end.</string>
   <string name="toast_refuse_to_record_when_in_call">"Can't use this feature during calls"</string>
   <string name="toast_refuse_to_record_when_in_multi_window">"Can't use this feature with Split screen"</string>
+  <string name="toast_refuse_to_record_when_in_multi_window_new">"Can't use this feature in Split screen or floating windows"</string>
   <string name="toast_refuse_to_use_contact">"Contacts permissions are restricted.
 Allow Notes to read your contacts and find accounts on the device."</string>
   <string name="toast_refuse_to_use_external_storage">"Storage permissions are restricted.
@@ -702,6 +708,7 @@ Allow Notes to record audio."</string>
   <string name="toolbar_voice_description">Voice</string>
   <string name="trash_folder_name">Trash</string>
   <string name="trash_folder_reminder">The notes you delete will be deleted permanently in 30 days.</string>
+  <string name="trash_folder_reminder_new">Notes are kept in the trash for %d days before being permanently deleted</string>
   <string name="tuesday">Tuesday</string>
   <string name="tuesday_short">Tue</string>
   <string name="tuesday_shortest">Tue</string>

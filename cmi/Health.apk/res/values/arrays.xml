@@ -82,6 +82,20 @@
         <item>1 hour</item>
         <item>2 hours</item>
     </string-array>
+    <string-array name="blood_types">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+        <item>A(-)</item>
+        <item>A(+)</item>
+        <item>B(-)</item>
+        <item>B(+)</item>
+        <item>AB(-)</item>
+        <item>AB(+)</item>
+        <item>O(-)</item>
+        <item>O(+)</item>
+    </string-array>
     <integer-array name="body_water_line_chart_default_y">
         <item>70</item>
         <item>60</item>
@@ -169,6 +183,17 @@
         <item>@string/chinese_symbol_animals_dog</item>
         <item>@string/chinese_symbol_animals_pig</item>
     </string-array>
+    <string-array name="contact_relation_array">
+        <item>Not set</item>
+        <item>Parent</item>
+        <item>Sister</item>
+        <item>Brother</item>
+        <item>Spouse</item>
+        <item>Partner</item>
+        <item>Friend</item>
+        <item>Colleague</item>
+        <item>Classmate</item>
+    </string-array>
     <string-array name="detailed_am_pms">
         <item>@string/midnight</item>
         <item>@string/early_morning</item>
@@ -205,6 +230,11 @@
         <item>20</item>
         <item>10</item>
     </integer-array>
+    <string-array name="gender_array">
+        <item>Not set</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
     <string-array name="heavenly_stems">
         <item>@string/heavenly_stems_jia</item>
         <item>@string/heavenly_stems_yi</item>
@@ -269,6 +299,13 @@
         <item>70</item>
         <item>60</item>
     </integer-array>
+    <string-array name="normal_blood_array">
+        <item>Not set</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
     <string-array name="pager_titles">
         <item>Day</item>
         <item>Week</item>
@@ -313,6 +350,11 @@
         <item>窗敲雨. 安全期真的安全吗[J]. 康复, 2013(1):16-16.</item>
         <item>肖玮, 阿丹. 安全期避孕安全吗?[J]. 健康必读, 2002(4).</item>
         <item>2018 Physical Activity Guidelines Advisory Committee Submits Scientific Report</item>
+    </string-array>
+    <string-array name="rh_blood_array">
+        <item>Not set</item>
+        <item>Negative</item>
+        <item>Positive</item>
     </string-array>
     <string-array name="run_in_background_state">
         <item>No restrictions</item>
@@ -426,5 +468,10 @@
         <item>" liang"</item>
         <item>" jin"</item>
         <item>" lb"</item>
+    </string-array>
+    <string-array name="yes_no_array">
+        <item>Not set</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
 </resources>

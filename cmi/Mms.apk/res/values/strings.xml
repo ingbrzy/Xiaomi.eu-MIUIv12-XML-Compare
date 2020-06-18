@@ -211,7 +211,6 @@
   <string name="cm_privacy_dialog_tips">"Smart messaging services are provided by your carrier. Messaging needs to connect to the Internet and access your location in order to provide these services. You must agree to your carrier's %1s before you start using these services. Agree?"</string>
   <string name="cm_privacy_dialog_title">Attention</string>
   <string name="cmcc_privacy">China Mobile Carrier Privacy Agreement</string>
-  <string name="com.crashlytics.android.build_id">798235b4-de7d-48e0-a953-72977ab819f2</string>
   <string name="complain_message_title">Report</string>
   <string name="compressing">Picture is too large. Compressing…</string>
   <string name="confirm">OK</string>
@@ -264,12 +263,12 @@
   <string name="copy_to_sdcard">Save attachment</string>
   <string name="copy_to_sdcard_fail">"Couldn't save attachment"</string>
   <string name="copy_to_sdcard_success">Attachment saved as %s</string>
+  <string name="copy_verification_code_tip">Copied successfully</string>
   <string name="current_data_version">Mi Message version</string>
   <string name="date_picker_label_day"/>
   <string name="date_picker_label_month"/>
   <string name="date_picker_label_year"/>
   <string name="date_picker_lunar">Chinese Traditional Calendar</string>
-  <string name="default_web_client_id">442074018142-eri5e8fk5h1pv23iej2aup5r7a4knsnj.apps.googleusercontent.com</string>
   <string name="delete">Delete</string>
   <string name="delete_block_conversation">Delete this conversation</string>
   <string name="delete_bookmark">Remove from favorites</string>
@@ -381,7 +380,6 @@
   <string name="file_size">Size:</string>
   <string name="file_title">Name:</string>
   <string name="file_width_height">Size:</string>
-  <string name="firebase_database_url">https://global-sms-ab3bc.firebaseio.com</string>
   <string name="flatshow_page_no">%1$d</string>
   <string name="fmt_chinese_date">N月e</string>
   <string name="fmt_date">D</string>
@@ -452,11 +450,6 @@
   <string name="from_pkg_name">From the app:</string>
   <string name="ft_cfs_dialog_content">"Files couldn't be delivered using RCS. Send a link in a text message instead?"</string>
   <string name="ft_cfs_dialog_title">Alternative file transfer</string>
-  <string name="gcm_defaultSenderId">442074018142</string>
-  <string name="google_api_key">AIzaSyDJSJKMSCw0P0F9WfIIELP_I-z58k3QKYA</string>
-  <string name="google_app_id">1:442074018142:android:1dd1f9d142d1661a12dfcf</string>
-  <string name="google_crash_reporting_api_key">AIzaSyDJSJKMSCw0P0F9WfIIELP_I-z58k3QKYA</string>
-  <string name="google_storage_bucket">global-sms-ab3bc.appspot.com</string>
   <string name="group_already_kicked_hint">"Can't send messages. You aren't a member of this group chat."</string>
   <string name="group_member_is_composing">Typing…</string>
   <string name="group_message">Group message</string>
@@ -532,6 +525,7 @@
   <string name="menu_make_call">Call</string>
   <string name="menu_mark">Mark</string>
   <string name="menu_more">More</string>
+  <string name="menu_multi_select">Select</string>
   <string name="menu_new_contact">New contact</string>
   <string name="menu_new_manual">Enter phone number</string>
   <string name="menu_pick_from_contact">Select from contacts</string>
@@ -728,6 +722,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
   <string name="nosend_message">"Don't send"</string>
   <string name="not_prepare_for_send">No message to send</string>
   <string name="not_set">Not set</string>
+  <string name="not_support_audio_forward">"Can't forward voice messages"</string>
   <string name="notification_ad_content">You received a promotional message from %s</string>
   <string name="notification_add_todo">Remind me</string>
   <string name="notification_add_todo_content">Pickup code: %s</string>
@@ -783,6 +778,8 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
   <string name="pref_msg_trash_bin_title">Deleted messages</string>
   <string name="pref_notification_settings_title">Notifications</string>
   <string name="pref_other_title">Additional settings</string>
+  <string name="pref_rcs_show_report_message">回执报告</string>
+  <string name="pref_rcs_show_report_message_tip">对方收到短信后返回已读状态</string>
   <string name="pref_show_blocked_messages_summary">Show blocked SMS in conversations list</string>
   <string name="pref_show_list_avatar_summary">Show profile photos and contact info in list view</string>
   <string name="pref_show_photo_word_summary">Automatically assign a picture to contacts without one</string>
@@ -808,6 +805,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
   <string name="pref_summary_on_system_mms_priority">"Set MIUI's Messaging app as the default app to send and receive MMS"</string>
   <string name="pref_summary_privacy_authority">Toggle this switch to grant or revoke your authorization</string>
   <string name="pref_summary_send_delivery_reports">Send delivery confirmation message to sender when you receive a multimedia message</string>
+  <string name="pref_summary_voice_report">Turn on to read messages out loud as they are received. Press the Volume down or Power button to stop playback.</string>
   <string name="pref_summary_wake_up_screen">Wake the screen whenever a new message is received</string>
   <string name="pref_switch_sdk_setting">Switch smart SMS service provider</string>
   <string name="pref_system_title">System</string>
@@ -839,6 +837,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
   <string name="pref_title_storage_status">Message storage status</string>
   <string name="pref_title_system_mms_priority">Set as default</string>
   <string name="pref_title_vcard">Send via vCard</string>
+  <string name="pref_title_voice_report">Read messages out loud</string>
   <string name="pref_title_wake_up_screen">Wake screen</string>
   <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
   <string name="preferences_title">Settings</string>
@@ -867,7 +866,6 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
   <string name="private_protect">Privacy protection</string>
   <string name="private_settings">Settings</string>
   <string name="processing">Working…</string>
-  <string name="project_id">global-sms-ab3bc</string>
   <string name="prompt_area_code">+86</string>
   <string name="prompt_otp">Code</string>
   <string name="prompt_phone">Phone number</string>
@@ -908,6 +906,7 @@ Turn on mobile data and open this page again."</string>
 Take a look at the recommended ones!"</string>
   <string name="rcs_chatbot_near_tab_empty">No mini apps here yet.</string>
   <string name="rcs_chatbot_net_error">"Couldn't connect to the network. Check your network settings and try again."</string>
+  <string name="rcs_chatbot_no_waring">消息免打扰</string>
   <string name="rcs_chatbot_normal_message">You received a message. Tap to view details.</string>
   <string name="rcs_chatbot_notification">Mini app: %s</string>
   <string name="rcs_chatbot_progress_failed">"Couldn't load info. Tap to try again."</string>
@@ -1076,6 +1075,8 @@ Take a look at the recommended ones!"</string>
   <string name="rms_text_body">[Text]</string>
   <string name="rms_vcard_body">[Contact]</string>
   <string name="rms_video_body">[Video]</string>
+  <string name="rsc_chatbot_back">返回</string>
+  <string name="rsc_chatbot_detail">商户信息入口</string>
   <string name="saturday">Saturday</string>
   <string name="saturday_short">Sat</string>
   <string name="saturday_shortest">Sat</string>
@@ -1343,6 +1344,7 @@ If you don't agree to grant such permissions or share and upload your personal i
   <string name="too_many_attachments">"Can't exceed %1$s attachments. Only the first %2$s will be added."</string>
   <string name="too_many_recipients">"Message has too many recipients (%1$s). You can't have more than %2$s recipients."</string>
   <string name="too_many_unsent_mms">"Can't send message right now. Too many unsent multimedia messages."</string>
+  <string name="top_conversation">Pinned conversation</string>
   <string name="try_to_send">Try to send</string>
   <string name="tuesday">Tuesday</string>
   <string name="tuesday_short">Tue</string>
@@ -1382,9 +1384,13 @@ Attempt made: %s."</string>
   <string name="v7_preference_on">ON</string>
   <string name="verification_code_icon_name">V</string>
   <string name="verification_code_list_title">Verification codes</string>
+  <string name="verification_code_safety_warning">"Don't disclose these codes to other people"</string>
   <string name="view">View</string>
   <string name="view_bookmark">View original message</string>
   <string name="view_message_details">View details</string>
+  <string name="voice_report_anytime">Always</string>
+  <string name="voice_report_off">Off</string>
+  <string name="voice_report_wiredon">With earphones</string>
   <string name="wap_push_title">"[WAP Push] "</string>
   <string name="warning_show">Send in %ds</string>
   <string name="wednesday">Wednesday</string>

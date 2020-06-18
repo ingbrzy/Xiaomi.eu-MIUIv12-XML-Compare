@@ -1220,11 +1220,13 @@ Selection"</string>
   <string name="bluetooth_unlock_change_matched_device">Choose other device</string>
   <string name="bluetooth_unlock_confirm_device_text">Tap Bluetooth device to confirm.</string>
   <string name="bluetooth_unlock_confirm_device_text_for_huami_watch">Tap the button on the watch to unlock.</string>
+  <string name="bluetooth_unlock_confirm_device_text_for_mi_wear">confirm on devices</string>
   <string name="bluetooth_unlock_confirm_device_text_for_miband2">Tap the button on device to unlock.</string>
   <string name="bluetooth_unlock_delete_device">Delete this device</string>
   <string name="bluetooth_unlock_delete_device_confirm_msg">Delete this device?</string>
   <string name="bluetooth_unlock_device_matched_text">Use this device to unlock.</string>
   <string name="bluetooth_unlock_no_matched_device_yet">No devices detected</string>
+  <string name="bluetooth_unlock_reject">remote device reject the unlock request</string>
   <string name="bluetooth_unlock_settings_devices_title">Device</string>
   <string name="bluetooth_unlock_settings_toggle_title">Apply to</string>
   <string name="bluetooth_unlock_settings_unlock_device">Unlock device</string>
@@ -1236,6 +1238,7 @@ Selection"</string>
   <string name="bluetooth_unlock_title">Unlock with Bluetooth device</string>
   <string name="bluetooth_unlock_turned_off">Off</string>
   <string name="bluetooth_unlock_turned_on">On</string>
+  <string name="bluetooth_unlock_unsupport">unsupport version</string>
   <string name="bluetooth_unpair_dialog_body">Your phone will no longer be paired with %1$s</string>
   <string name="bluetooth_unpair_dialog_forget_confirm_button">Forget device</string>
   <string name="bluetooth_unpair_dialog_title">Forget device?</string>
@@ -1481,6 +1484,8 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
   <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
   <string name="character_counter_pattern">%1$d / %2$d</string>
+  <string name="charge_animation_style_summary">Choose your preferred lock screen charging animation style</string>
+  <string name="charge_animation_style_title">Charging animation</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="charging_sounds_title">Charging sounds</string>
   <string name="check_find_device_status_failure_confirm">OK</string>
@@ -1720,6 +1725,7 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="contextual_card_undo_dismissal_text">Undo</string>
   <string name="continue_reset_factory">Factory reset</string>
   <string name="contributors_title">Contributors</string>
+  <string name="control_center">Control center</string>
   <string name="control_panel_switch_side">Switch Control center side</string>
   <string name="controls_label">Controls</string>
   <string name="controls_subtitle">Adjust power use</string>
@@ -2308,6 +2314,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="done">Done</string>
   <string name="done_button">Done</string>
   <string name="double_click_power_key">Double press the Power button</string>
+  <string name="double_knock">Knuckle double tap</string>
   <string name="double_tap_power_for_camera_suggestion_title">Open camera quickly</string>
   <string name="double_tap_power_for_camera_summary">To quickly open camera, press the power button twice. Works from any screen.</string>
   <string name="double_tap_power_for_camera_title">Jump to camera</string>
@@ -2521,6 +2528,8 @@ For more details, contact your organization's admin."</string>
   <string name="erase_sure">Mandatory</string>
   <string name="error_adding_apn_type">Carrier does not allow adding APNs of type %s.</string>
   <string name="error_apn_empty">The APN can’t be empty.</string>
+  <string name="error_apn_not_allowed">"This APN isn't allowed on this device. Try another one."</string>
+  <string name="error_apn_restrict_string">The APN field can’t contain %1$s</string>
   <string name="error_capturing_system_heap_dump_message">Couldn’t capture system heap dump</string>
   <string name="error_mcc_not3">MCC field must be 3 digits.</string>
   <string name="error_mnc_not23">MNC field must be 2 or 3 digits.</string>
@@ -3169,11 +3178,11 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="input_method_bottom_open">On</string>
   <string name="input_method_clipboard_settings">Clipboard settings</string>
   <string name="input_method_cloud_data_title">Cloud clipboard</string>
-  <string name="input_method_cloud_paste_mode_bubble_des">"You'll see a bubble pop up whenever new content appears in the cloud clipboard. Tap the bubble to enter copied text."</string>
+  <string name="input_method_cloud_paste_mode_bubble_des">"You'll see a bubble pop up. Tap the bubble to enter copied text."</string>
   <string name="input_method_cloud_paste_mode_bubble_title">Bubble</string>
-  <string name="input_method_cloud_paste_mode_no_des">"You won't see notifications when new content appears in the cloud clipboard. However, you'll still be able to use your clipboard by tapping the icon."</string>
+  <string name="input_method_cloud_paste_mode_no_des">"You won't see notifications. However, you'll still be able to use your clipboard by tapping the icon."</string>
   <string name="input_method_cloud_paste_mode_no_title">None</string>
-  <string name="input_method_cloud_paste_mode_red_point_des">"You'll see a red dot at the bottom of the keyboard whenever new content appears in the cloud clipboard. Tap the icon to open the clipboard and use the copied content."</string>
+  <string name="input_method_cloud_paste_mode_red_point_des">"You'll see a red dot at the bottom of the keyboard. Tap the icon to open the clipboard and use the copied content."</string>
   <string name="input_method_cloud_paste_mode_red_point_title">Red dot</string>
   <string name="input_method_function_clipboard">Clipboard and frequent phrases</string>
   <string name="input_method_function_clipboard_des">Tap to view clipboard contents and frequent phrases</string>
@@ -3189,6 +3198,7 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="input_method_quick_access">Quick access</string>
   <string name="input_method_quick_cloud_mode_title">Notifications about new clipboard content</string>
   <string name="input_method_quick_cloud_summary">Copy items on compatible computers and paste them on your device</string>
+  <string name="input_method_quick_cloud_tips">Notification type</string>
   <string name="input_method_quick_cloud_title">Cloud clipboard</string>
   <string name="input_method_quick_paste_summary">View copied items by tapping the clipboard icon</string>
   <string name="input_method_quick_paste_title">Quick paste</string>
@@ -3407,6 +3417,7 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="last_synced">Last synced %1$s</string>
   <string name="last_time_used_label">Last time used</string>
   <string name="lattice_smartcover_title">Lattice front cover</string>
+  <string name="launch_ai_shortcut">Mi AI shortcut</string>
   <string name="launch_by_default">Open by default</string>
   <string name="launch_camera">Launch camera</string>
   <string name="launch_defaults_none">No defaults set</string>
@@ -3944,6 +3955,7 @@ There are other users present on this device.
   <string name="mi_pay">Mi Wallet</string>
   <string name="mi_pay_indonesia">Mi Pay Account</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
+  <string name="mi_pay_summary_without_nfc">Mi Pay</string>
   <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
@@ -4004,9 +4016,9 @@ Continue to access additional settings."</string>
   <string name="miui_sos_contacts_category">Emergency contacts</string>
   <string name="miui_sos_emergency_contacts">Emergency contacts</string>
   <string name="miui_sos_emergency_delete">Delete</string>
-  <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s (%2s) has already accepted.</string>
-  <string name="miui_sos_emergency_delivered_sms_noname">%1s has already accepted</string>
-  <string name="miui_sos_emergency_failed_sms" formatted="false">"Couldn't send message to %1s (%2s)."</string>
+  <string name="miui_sos_emergency_delivered_sms">%1$s (%2$s) received the message</string>
+  <string name="miui_sos_emergency_delivered_sms_noname">%1$s received the message</string>
+  <string name="miui_sos_emergency_failed_sms">"Couldn't send message to %1$s (%2$s)"</string>
   <string name="miui_sos_emergency_failed_sms_noname">"Couldn't send message to %1s."</string>
   <string name="miui_sos_enable_switch_summary">Rapidly press the Power button 5 times to send a SOS text message with your location to your emergency contacts</string>
   <string name="miui_sos_enable_switch_title">Emergency SOS</string>
@@ -4429,7 +4441,7 @@ Select your operating system:"</string>
   <string name="not_battery_optimizing">Not using battery optimization</string>
   <string name="not_installed">Not installed for this user</string>
   <string name="not_set">Not set</string>
-  <string name="notch_and_status_bar_settings">Control center &amp; status bar</string>
+  <string name="notch_and_status_bar_settings">Control center &amp; Notification shade</string>
   <string name="notch_force_black_desc">Turn on to darken the area around the notch</string>
   <string name="notch_force_black_title">Hide notch</string>
   <string name="notch_settings">Notch</string>
@@ -7188,7 +7200,7 @@ or earphones with 3.5mm plug."</string>
   <string name="usb_use_photo_transfers_desc">Transfer photos or files if MTP is not supported (PTP)</string>
   <string name="usb_use_power_only">Charge connected device</string>
   <string name="usb_use_tethering">USB tethering</string>
-  <string name="use_control_panel">Use Control center</string>
+  <string name="use_control_panel">Use new Control center</string>
   <string name="use_location_summary">Let Google use your location to improve search results and other services</string>
   <string name="use_location_title">Location &amp; Google search</string>
   <string name="use_open_wifi_automatically_summary">Automatically connect to high‑quality public networks</string>
@@ -7598,9 +7610,10 @@ Please review your service provider’s privacy policy."</string>
   <string name="wifi_ask_enable">%s wants to turn on WLAN</string>
   <string name="wifi_assist">WLAN assistant</string>
   <string name="wifi_assistant">Select best networks automatically</string>
-  <string name="wifi_assistant_auto_confirm_data_message">Current WLAN can not access the Internet, will use mobile data instead, you can turn off WLAN assistant in settings</string>
-  <string name="wifi_assistant_confirm_always">No more hints next time</string>
-  <string name="wifi_assistant_confirm_connection_title">Confirm connection</string>
+  <string name="wifi_assistant_auto_confirm_data_help">You can turn this feature off in Settings &gt; WLAN &gt; WLAN assistant.</string>
+  <string name="wifi_assistant_auto_confirm_data_message">"Use mobile data networks when your device can't connect to the internet via WLAN."</string>
+  <string name="wifi_assistant_confirm_always">"Don't show again"</string>
+  <string name="wifi_assistant_confirm_connection_title">Select best networks automatically</string>
   <string name="wifi_assistant_data_prompt">Enable prompt</string>
   <string name="wifi_assistant_data_prompt_summary">Show data usage warning when switching to mobile data</string>
   <string name="wifi_assistant_description">"After turn on this function:
