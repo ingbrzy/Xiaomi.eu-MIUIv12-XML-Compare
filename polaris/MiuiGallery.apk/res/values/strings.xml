@@ -84,6 +84,7 @@
   <string name="album_camera_name">Camera</string>
   <string name="album_cloud_list_page_title">Manage synced albums</string>
   <string name="album_creative">My edited photos</string>
+  <string name="album_detail_default_sort_tip">Switched to chronological order</string>
   <string name="album_detail_page_empty">No photos or videos</string>
   <string name="album_download">Downloads</string>
   <string name="album_faces_name">People</string>
@@ -267,6 +268,8 @@
   <string name="blur_refocus_enter"/>
   <string name="browse_category_title">Browse</string>
   <string name="btn_cancel">Cancel</string>
+  <string name="btn_cancel_send">Cancel this transfer</string>
+  <string name="btn_exit_send">Exit</string>
   <string name="btn_sure">OK</string>
   <string name="burst_image_download_item_title" formatted="false">Download original (%s|%s)</string>
   <string name="burst_photo_enter"/>
@@ -1461,6 +1464,10 @@ to personalize Gallery"</string>
   <string name="member_menu_vipname_premium">Premium</string>
   <string name="member_menu_vipname_ultra">Ultra</string>
   <string name="menu_album_new_album">New album</string>
+  <string name="menu_detail_sort_create_date">Created</string>
+  <string name="menu_detail_sort_name">Filename</string>
+  <string name="menu_detail_sort_size">File size</string>
+  <string name="menu_detail_sort_update_date">Last updated</string>
   <string name="menu_item_sort_date">Date</string>
   <string name="menu_item_sort_name">Name</string>
   <string name="menu_item_sort_size">Size</string>
@@ -1662,6 +1669,7 @@ Transcoding might take some time when you use this feature for the first time."<
   <string name="operation_favorites">Favorites</string>
   <string name="operation_force_top">Pin</string>
   <string name="operation_hide">Hide</string>
+  <string name="operation_hide_time">Hide dates</string>
   <string name="operation_in_process">Processing…</string>
   <string name="operation_move">Move</string>
   <string name="operation_move_to_other_albums">Move to other albums</string>
@@ -1686,7 +1694,9 @@ Transcoding might take some time when you use this feature for the first time."<
   <string name="operation_share_manage">Manage shared items</string>
   <string name="operation_show_in_photos_tab">Show in Photos</string>
   <string name="operation_show_on_map">Show on map</string>
+  <string name="operation_show_time">Show dates</string>
   <string name="operation_slide_show">Start slideshow</string>
+  <string name="operation_sort">Sort</string>
   <string name="operation_successful">Done</string>
   <string name="operation_too_often">Whoa there! Too many requests are being made from your IP address. Wait a minute or two and try again.</string>
   <string name="operation_unforce_top">Unpin</string>
@@ -2107,6 +2117,7 @@ Transcoding might take some time when you use this feature for the first time."<
   <string name="share_album">Share album</string>
   <string name="share_album_needs_auto_upload_tip">"Can't turn off sync with the cloud for shared albums"</string>
   <string name="share_album_qr_code">"Album's QR code"</string>
+  <string name="share_and_delete_screenshot">Delete after sharing</string>
   <string name="share_by_email_start">Share %1$s in background</string>
   <string name="share_by_email_successfully">Shared %1$s</string>
   <string name="share_public_url_text">"I've shared the album %1$s with you. View it at %2$s"</string>
@@ -2167,6 +2178,7 @@ Transcoding might take some time when you use this feature for the first time."<
   <string name="solar_term_winter_solstice">Winter solstice</string>
   <string name="sort">Sort</string>
   <string name="special_type_8k">AI 8K</string>
+  <string name="special_type_ai_audio">AI Audio</string>
   <string name="special_type_eye_repair">Fixed closed eyes using AI</string>
   <string name="special_type_hdr">HDR</string>
   <string name="special_type_log">LOG</string>
