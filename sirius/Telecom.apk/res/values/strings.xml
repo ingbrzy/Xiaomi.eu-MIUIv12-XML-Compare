@@ -33,7 +33,7 @@
   <string name="accessibility_manual_zen_less_time">Less time.</string>
   <string name="accessibility_manual_zen_more_time">More time.</string>
   <string name="accessibility_no_wifi">Wifi disconnected.</string>
-  <string name="accessibility_speakerphone_enabled">Speakerphone enabled.</string>
+  <string name="accessibility_speakerphone_enabled">Speakerphone is on</string>
   <string name="accessibility_wifi_off">Wifi off.</string>
   <string name="accessibility_wifi_one_bar">Wifi one bar.</string>
   <string name="accessibility_wifi_security_type_none">Open network</string>
@@ -82,7 +82,7 @@
   <string name="blocked_numbers_block_emergency_number_message">Unable to block emergency number.</string>
   <string name="blocked_numbers_butter_bar_body">After you dial or text an emergency number, blocking is turned off to ensure that emergency services can contact you.</string>
   <string name="blocked_numbers_butter_bar_button">Re-enable now</string>
-  <string name="blocked_numbers_butter_bar_title">Blocking temporarily off</string>
+  <string name="blocked_numbers_butter_bar_title">Blocklist is off</string>
   <string name="blocked_numbers_msg">"You won't receive calls or texts from blocked numbers."</string>
   <string name="blocked_numbers_number_already_blocked_message">%1$s is already blocked.</string>
   <string name="blocked_numbers_number_blocked_message">%1$s blocked</string>
@@ -190,9 +190,9 @@ Selection"</string>
   <string name="can_not_dial_while_vt_prompt">"Can't dial while a video call in process"</string>
   <string name="cancel">Cancel</string>
   <string name="cant_call_due_to_no_supported_service">Call cannot be placed because there are no calling accounts which support calls of this type.</string>
-  <string name="cant_call_due_to_ongoing_call">Call cannot be placed due to your %1$s call.</string>
-  <string name="cant_call_due_to_ongoing_calls">Call cannot be placed due to your %1$s calls.</string>
-  <string name="cant_call_due_to_ongoing_unknown_call">Call cannot be placed due to a call in another app.</string>
+  <string name="cant_call_due_to_ongoing_call">"Can't place a call. %1$s other call is ongoing."</string>
+  <string name="cant_call_due_to_ongoing_calls">"Can't place a call. End your %1$s call first."</string>
+  <string name="cant_call_due_to_ongoing_unknown_call">"Can't place a call due to a call in another app."</string>
   <string name="category_personal">Personal</string>
   <string name="category_work">Work</string>
   <string name="certinstaller_package">com.android.certinstaller</string>
@@ -201,7 +201,7 @@ Selection"</string>
   <string name="change_default_call_screening_dialog_title">Make %s your default call screening app?</string>
   <string name="change_default_call_screening_warning_message">%s will be able to see information about callers not in your contacts and will be able to block these calls. Only apps you trust should be set as the default call screening app.</string>
   <string name="change_default_call_screening_warning_message_for_disable_old_app">%s will no longer be able to screen calls.</string>
-  <string name="change_default_dialer_dialog_affirmative">Set Default</string>
+  <string name="change_default_dialer_dialog_affirmative">Set as default Phone app</string>
   <string name="change_default_dialer_dialog_negative">Cancel</string>
   <string name="change_default_dialer_dialog_title">Make %s your default Phone app?</string>
   <string name="change_default_dialer_warning_message">%s will be able to place and control all aspects of calls. Only apps you trust should be set as the default Phone app.</string>
@@ -269,7 +269,7 @@ Selection"</string>
   <string name="disabled">Disabled</string>
   <string name="disabled_by_admin">Disabled by admin</string>
   <string name="disabled_by_admin_summary_text">Controlled by admin</string>
-  <string name="duplicate_video_call_not_allowed">Call cannot be added at this time.</string>
+  <string name="duplicate_video_call_not_allowed">"Can't add more calls"</string>
   <string name="enable_account_preference_title">Calling accounts</string>
   <string name="enable_adb">USB debugging</string>
   <string name="enable_adb_summary">Debug mode when USB is connected</string>
@@ -387,7 +387,7 @@ Selection"</string>
   <string name="osu_sign_up_complete">Sign-up complete. Connecting…</string>
   <string name="osu_sign_up_failed">Couldn’t complete sign-up. Tap to try again.</string>
   <string name="outgoing_call_error_no_phone_number_supplied">To place a call, enter a valid number.</string>
-  <string name="outgoing_call_not_allowed_no_permission">This application cannot make outgoing calls without the Phone permission.</string>
+  <string name="outgoing_call_not_allowed_no_permission">"This app can't make outgoing calls without the required permissions."</string>
   <string name="outgoing_call_not_allowed_user_restriction">Only emergency calls are allowed.</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="phone_settings_call_blocking_txt">Call Blocking</string>
@@ -507,7 +507,7 @@ Selection"</string>
   <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
   <string name="summary_empty"/>
   <string name="tap_to_sign_up">Tap to sign up</string>
-  <string name="telecommAppLabel">Call Management</string>
+  <string name="telecommAppLabel">Manage calls</string>
   <string name="test_account_0_label">Q Mobile</string>
   <string name="test_account_0_short_description">Account with Q Mobile</string>
   <string name="test_account_1_label">Market Wireless</string>
