@@ -16,25 +16,26 @@
         <item quantity="other">%1$d apps have full access to your device</item>
         <item quantity="one">1 app has full access to your device</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
-        <item quantity="other">Extremely short delay (%1$d ms)</item>
-        <item quantity="one">Extremely short delay (%1$d ms)</item>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s seconds</item>
+        <item quantity="one">%1$s second</item>
+        <item quantity="few">%1$s seconds</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
-        <item quantity="other">Long delay (%1$d ms)</item>
-        <item quantity="one">Long delay (%1$d ms)</item>
+        <item quantity="other">Long (%1$s seconds)</item>
+        <item quantity="one">Long (%1$s second)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Medium (%1$s seconds)</item>
+        <item quantity="one">Medium (%1$s second)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
-        <item quantity="other">Short delay (%1$d ms)</item>
-        <item quantity="one">Short delay (%1$d ms)</item>
+        <item quantity="other">Short (%1$s seconds)</item>
+        <item quantity="one">Short (%1$s second)</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
-        <item quantity="other">Very long delay (%1$d ms)</item>
-        <item quantity="one">Very long delay (%1$d ms)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
-        <item quantity="other">Very short delay (%1$d ms)</item>
-        <item quantity="one">Very short delay (%1$d ms)</item>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">App claims to handle %d links</item>
+        <item quantity="one">App claims to handle %d link</item>
     </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Off for %d apps</item>
@@ -152,6 +153,10 @@
         <item quantity="other">%s hours</item>
         <item quantity="one">1 hour</item>
     </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d apps connected</item>
+        <item quantity="one">%d app connected</item>
+    </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">%1$d of %2$d apps have access to location</item>
         <item quantity="one">%1$d of %2$d apps has access to location</item>
@@ -171,6 +176,10 @@
     <plurals name="lockpassword_password_requires_nonletter">
         <item quantity="other">Must contain at least %d non-letter characters</item>
         <item quantity="one">Must contain at least 1 non-letter character</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">Must contain at least %d non-numerical characters</item>
+        <item quantity="one">Must contain at least 1 non-numerical character</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric">
         <item quantity="other">Must contain at least %d numerical digits</item>
@@ -252,6 +261,10 @@
         <item quantity="other">%d categories</item>
         <item quantity="one">%d category</item>
     </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d notifications</item>
+        <item quantity="one">%d notification</item>
+    </plurals>
     <plurals name="notification_summary">
         <item quantity="other">Off for %d apps</item>
         <item quantity="one">Off for 1 app</item>
@@ -323,10 +336,6 @@
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Show %d hidden items</item>
         <item quantity="one">Show %d hidden item</item>
-    </plurals>
-    <plurals name="show_bluetooth_devices">
-        <item quantity="other">%1$d devices connected</item>
-        <item quantity="one">%1$d device connected</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">"You're %1$d steps away from entering CIT."</item>
@@ -493,17 +502,28 @@ For more information about this certificate, contact your admin."</item>
         <item quantity="one">Incorrect SIM PIN code, you have %d remaining attempt before you must contact your carrier to unlock your device.</item>
     </plurals>
     <plurals name="zen_mode_bypassing_apps_subtext">
-        <item quantity="other">Notifications from %1$d apps can override Do Not Disturb</item>
-        <item quantity="zero">No apps can override Do Not Disturb</item>
-        <item quantity="one">Notifications from 1 app can override Do Not Disturb</item>
+        <item quantity="other">%s can interrupt</item>
+        <item quantity="one">%s can interrupt</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">1 contact</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d conversations</item>
+        <item quantity="one">1 conversation</item>
     </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
         <item quantity="other">%d hours</item>
         <item quantity="one">1 hour</item>
     </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s can interrupt</item>
+        <item quantity="one">%s can interrupt</item>
+    </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d enabled</item>
-        <item quantity="one">1 enabled</item>
+        <item quantity="other">%d schedules set</item>
+        <item quantity="one">1 schedule set</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
         <item quantity="other">%d schedules can turn on automatically</item>
