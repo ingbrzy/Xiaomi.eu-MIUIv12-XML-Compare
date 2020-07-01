@@ -143,7 +143,9 @@
         <item>com.android.providers.media</item>
         <item>com.android.systemui</item>
     </string-array>
-    <array name="config_biometric_sensors" />
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
     <array name="config_brightnessThresholdsOfPeakRefreshRate" />
     <integer-array name="config_calendarDateVibePattern">
         <item>125</item>
