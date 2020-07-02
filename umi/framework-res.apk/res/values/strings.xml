@@ -507,7 +507,7 @@ You can change this shortcut to another feature in Settings &gt; Accessibility."
   <string name="config_defaultNetworkScorerPackageName"/>
   <string name="config_defaultPictureInPictureScreenEdgeInsets">16x16</string>
   <string name="config_defaultSms">@string/default_sms_application</string>
-  <string name="config_defaultSupervisionProfileOwnerComponent">com.google.android.gms/.kids.account.receiver.ProfileOwnerReceiver</string>
+  <string name="config_defaultSupervisionProfileOwnerComponent"/>
   <string name="config_defaultSystemCaptionsManagerService"/>
   <string name="config_defaultSystemCaptionsService"/>
   <string name="config_defaultTextClassifierPackage"/>
@@ -678,8 +678,8 @@ using %s"</string>
   <string name="date_time_set">Set</string>
   <string name="day">day</string>
   <string name="days">days</string>
-  <string name="db_default_journal_mode">TRUNCATE</string>
-  <string name="db_default_sync_mode">FULL</string>
+  <string name="db_default_journal_mode">PERSIST</string>
+  <string name="db_default_sync_mode">NORMAL</string>
   <string name="db_wal_sync_mode">NORMAL</string>
   <string name="decline">Decline</string>
   <string name="decline_remote_bugreport_action">DECLINE</string>
