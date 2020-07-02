@@ -577,6 +577,9 @@
         <item>0</item>
         <item>400</item>
     </integer-array>
+    <string-array name="config_canCustomNotificationAppIcon">
+        <item>com.miui.securitycenter</item>
+    </string-array>
     <string-array name="config_canSendSubstituteNotificationPackages">
         <item>com.xiaomi.xmsf</item>
         <item>com.android.systemui</item>
@@ -928,6 +931,7 @@
         <item>com.miui.securitycore</item>
         <item>com.wali.live</item>
         <item>com.xiaomi.scanner</item>
+        <item>com.miui.weather2</item>
     </string-array>
     <string-array name="multi_window_force_resize_pkgs">
         <item>com.tencent.mobileqq</item>
@@ -1515,6 +1519,7 @@
     <string-array name="system_alert_window_notification_whitelist">
         <item>com.miui.notes</item>
         <item>com.android.thememanager</item>
+        <item>com.miui.mishare.connectivity</item>
     </string-array>
     <string-array name="system_foreground_notification_whitelist">
         <item>com.xiaomi.joyose</item>
