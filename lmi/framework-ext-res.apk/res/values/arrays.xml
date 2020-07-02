@@ -100,6 +100,7 @@
     <array name="config_minBrightnessCurvesNits" />
     <string-array name="config_mms_force_unmetered_list">
         <item>260</item>
+        <item>20201</item>
         <item>20801</item>
         <item>21401</item>
         <item>21403</item>
@@ -109,9 +110,11 @@
         <item>22299</item>
         <item>22610</item>
         <item>26201</item>
+        <item>26801</item>
         <item>45005</item>
         <item>45006</item>
         <item>45008</item>
+        <item>60202</item>
     </string-array>
     <integer-array name="config_originalLux">
         <item>10</item>
@@ -126,18 +129,23 @@
     <array name="config_virtualKeyUpPattern" />
     <string-array name="empty_initial_attach_apn_plmn">
         <item>20205</item>
+        <item>20404</item>
         <item>20810</item>
         <item>20811</item>
         <item>20813</item>
+        <item>21401</item>
         <item>21670</item>
         <item>22210</item>
         <item>22601</item>
+        <item>23003</item>
         <item>23402</item>
         <item>23411</item>
+        <item>23415</item>
         <item>26202</item>
         <item>26209</item>
         <item>26801</item>
         <item>26806</item>
+        <item>27201</item>
         <item>45005</item>
         <item>45006</item>
         <item>45008</item>
@@ -1461,6 +1469,10 @@
         <item>com.miui.mishare.connectivity</item>
         <item>com.miui.notes</item>
         <item>com.milink.service</item>
+        <item>com.xiaomi.vipaccount</item>
+    </string-array>
+    <string-array name="process_light_speed_protect_list">
+        <item>com.android.camera</item>
     </string-array>
     <string-array name="process_secretly_protect_list">
         <item>com.tencent.mm</item>
@@ -1527,6 +1539,24 @@
         <item>show_menu</item>
     </string-array>
     <array name="screen_resolution_supported" />
+    <string-array name="tmpfs_pkg_list">
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.hxh</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.netease.hyxd.mi</item>
+        <item>com.netease.onmyoji.mi</item>
+        <item>com.netease.mc.mi</item>
+        <item>com.netease.mrzh.mi</item>
+        <item>com.aligames.kuang.kybc.mi</item>
+        <item>com.imangi.templerun2</item>
+        <item>com.jingdong.app.mall</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.taobao.taobao</item>
+        <item>com.outfit7.talkingtomgoldrun.mi</item>
+        <item>com.happyelements.AndroidAnimal</item>
+    </string-array>
     <integer-array name="vibration_recorder_major_action">
         <item>0</item>
         <item>0</item>

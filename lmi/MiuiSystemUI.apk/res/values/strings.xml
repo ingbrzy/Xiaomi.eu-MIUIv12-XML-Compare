@@ -105,6 +105,10 @@
   <string name="accessibility_desc_recent_apps">Overview.</string>
   <string name="accessibility_desc_settings">Settings</string>
   <string name="accessibility_desc_work_lock">Work lock screen</string>
+  <string name="accessibility_detail_switch">Switch between toggles</string>
+  <string name="accessibility_detail_switch_disable">Not available</string>
+  <string name="accessibility_detail_switch_off">Turn off</string>
+  <string name="accessibility_detail_switch_on">Turn on</string>
   <string name="accessibility_display_daltonizer_preference_subtitle">This feature is experimental and may affect performance.</string>
   <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
   <string name="accessibility_divider">Split-screen divider</string>
@@ -112,6 +116,7 @@
   <string name="accessibility_enter_lock_wallpaper">Tap to open Wallpaper Carousel</string>
   <string name="accessibility_ethernet_connected">Ethernet connected.</string>
   <string name="accessibility_ethernet_disconnected">Ethernet disconnected.</string>
+  <string name="accessibility_expand_button">Show more</string>
   <string name="accessibility_face_dialog_face_icon">Face icon</string>
   <string name="accessibility_fingerprint_dialog_app_icon">Application icon</string>
   <string name="accessibility_fingerprint_dialog_fingerprint_icon">Fingerprint icon</string>
@@ -318,8 +323,8 @@
   <string name="audio_effect_custom">Configure</string>
   <string name="audio_effect_info">Optimize audio</string>
   <string name="audio_effect_settings">Choose headphones type</string>
-  <string name="auto_brightness_off">Auto brightness disabled</string>
-  <string name="auto_brightness_on">Auto brightness enabled</string>
+  <string name="auto_brightness_off">Auto brightness is off</string>
+  <string name="auto_brightness_on">Auto brightness is on</string>
   <string name="auto_disable_screenbuttons_disable_toast_text">Navigation buttons disabled, double tap any button to turn them back on.</string>
   <string name="auto_disable_screenbuttons_enable_toast_text">Navigation buttons enabled</string>
   <string name="available_via_carrier">Available via %1$s</string>
@@ -1339,6 +1344,11 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overview">Overview</string>
   <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
+  <string name="partial_screenshot_edit">Edit</string>
+  <string name="partial_screenshot_repaint">Start over</string>
+  <string name="partial_screenshot_save">Save</string>
+  <string name="partial_screenshot_save_successful">Saved successfully</string>
+  <string name="partial_screenshot_share">Share</string>
   <string name="password_toggle_content_description">Show password</string>
   <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
   <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1497,10 +1507,10 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_cellular_detail_data_usage">Data usage</string>
   <string name="quick_settings_cellular_detail_data_used">%s used</string>
   <string name="quick_settings_cellular_detail_data_warning">%s warning</string>
-  <string name="quick_settings_cellular_detail_dialog_message_turnoff">Mobile data(WCDMA/LTE)will be turned off. Unless you use WLAN, you will no longer be able to use apps that require a data connection. Sending or receiving multimedia messages will be restricted.</string>
-  <string name="quick_settings_cellular_detail_dialog_message_turnon">Mobile data will be turned on. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
+  <string name="quick_settings_cellular_detail_dialog_message_turnoff">"If you turn off mobile data, you won't be able to use the internet unless you connect to WLAN. You'll still be able to send MMS. Turn off mobile data anyway?"</string>
+  <string name="quick_settings_cellular_detail_dialog_message_turnon">Using mobile data may generate additional charges depending on your payment plan. Allow using mobile data anyway?</string>
   <string name="quick_settings_cellular_detail_dialog_negative_button_cancel">Cancel</string>
-  <string name="quick_settings_cellular_detail_dialog_positive_button_ok">OK</string>
+  <string name="quick_settings_cellular_detail_dialog_positive_button_ok">Allow</string>
   <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Turn off</string>
   <string name="quick_settings_cellular_detail_over_limit">Over limit</string>
   <string name="quick_settings_cellular_detail_remaining_data">Remaining data</string>
@@ -1769,8 +1779,8 @@ be monitored"</string>
   <string name="status_bar_clock_date_format_12">E, MMM d</string>
   <string name="status_bar_clock_date_time_format">H:mm E, MMM d</string>
   <string name="status_bar_clock_date_time_format_12">h:mm aa, E, MMM d</string>
-  <string name="status_bar_clock_date_weekday_format">EEE MM/dd</string>
-  <string name="status_bar_clock_date_weekday_format_12">EEE MM/dd</string>
+  <string name="status_bar_clock_date_weekday_format">EEEE, MMMM dd</string>
+  <string name="status_bar_clock_date_weekday_format_12">EEEE, MMMM dd</string>
   <string name="status_bar_date_format">"E
 MMM d"</string>
   <string name="status_bar_date_format_12">"E
@@ -2126,6 +2136,8 @@ Any user can update apps for all other users."</string>
   <string name="wifi_status_no_internet">No internet</string>
   <string name="wifi_status_sign_in_required">Sign in required</string>
   <string name="wifi_unmetered_label">Unmetered</string>
+  <string name="wifi_unsaved_network_linking">SSID Bridging ‑ Auto Connection</string>
+  <string name="wifi_unsaved_network_linking_summary">Enable auto connection attempts to a new WPA/WPA2‑PSK 5GHz SSID with current connected WPA/WPA2‑PSK 2GHz SSID credentials on SSID and BSSID partial match</string>
   <string name="wifi_verbose_logging">Turn on WLAN verbose logging</string>
   <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show per SSID RSSI in WLAN Picker</string>
   <string name="wifi_wapi_as_certificate">AS certificate</string>
@@ -2137,6 +2149,8 @@ Make sure your certificates are valid."</string>
 Looks like credential storage isn't enabled."</string>
   <string name="wifi_wapi_psk_type">Password type</string>
   <string name="wifi_wapi_user_certificate">User certificate</string>
+  <string name="wifi_whitelist_roaming">SSID Bridging ‑ Fast Handover</string>
+  <string name="wifi_whitelist_roaming_summary">Enable roaming between different SSID WPA/WPA2‑PSK APs with same gateway MAC address</string>
   <string name="window_animation_scale_title">Window animation scale</string>
   <string name="wireless_change_to_ac_charging">Switched to wired charging</string>
   <string name="wireless_charge_current">Charging</string>

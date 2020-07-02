@@ -47,14 +47,17 @@
   <string name="ad_begin_to_download_tip">Starting to download…</string>
   <string name="ad_begin_to_install_tip">Installing…</string>
   <string name="ad_closed_tip">"You'll see fewer ads of this type"</string>
+  <string name="ad_details">Details</string>
   <string name="ad_download_download">Download</string>
   <string name="ad_download_download_now">Download</string>
   <string name="ad_download_install">Install</string>
+  <string name="ad_download_now">Download</string>
   <string name="ad_download_open">Open</string>
   <string name="ad_download_pause">Pause</string>
   <string name="ad_download_pending">Pending</string>
   <string name="ad_download_resume">Resume</string>
   <string name="ad_downloading_tip">This item is being downloaded. You can view progress in the Notification shade.</string>
+  <string name="ad_experience_now">Open</string>
   <string name="ad_tag_text_1">流行</string>
   <string name="ad_tag_text_2">时尚</string>
   <string name="add_resource_detail_fail">"Can't add resource"</string>
@@ -69,12 +72,14 @@
   <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
   <string name="apply_choosen_type_resource">Apply selected items</string>
   <string name="apply_default_font_tip">"Keep using system's current font?"</string>
+  <string name="apply_failed">"Couldn't apply"</string>
   <string name="apply_font_btn_exclude">Not now</string>
   <string name="apply_font_btn_reboot">Reboot</string>
   <string name="apply_font_tip">"Reboot to apply this theme's font."</string>
   <string name="apply_not_support_aod">"Always-on display isn't supported on this device"</string>
   <string name="apply_not_support_in_second_space">"Can't apply this item in Second space"</string>
   <string name="apply_not_support_maml_aod">"Can't combine Always-on display with themes on this device"</string>
+  <string name="apply_succeed">Applied successfully</string>
   <string name="apply_success_not_enable_aod">Turn-on Always-on display in the Settings first</string>
   <string name="apply_success_not_support_aod">"Can't combine Always-on display with themes on this device. The rest of this theme's components were applied successfully."</string>
   <string name="apply_theme_with_ringtones">Use theme ringtones</string>
@@ -187,10 +192,16 @@
   <string name="common_downloading">Downloading…</string>
   <string name="common_format_date_no_year">MM/dd</string>
   <string name="common_skip">Skip</string>
-  <string name="community_cta_dialog_cancel">Cancel</string>
-  <string name="community_cta_dialog_des">This theme contains a clock shortcut that displays your Mi Account ID and Mi Community status. You can turn this feature off by switching to a different theme or removing the Clock widget.</string>
-  <string name="community_cta_dialog_ok">Got it</string>
-  <string name="community_cta_dialog_title">Clock shortcut</string>
+  <string name="community_community_message_trigger_summary">Receive notifications about replies, likes, and Mi Community status updates using your Mi Account ID</string>
+  <string name="community_community_message_trigger_title">Notify about activity</string>
+  <string name="community_cta_dialog_cancel">No thanks</string>
+  <string name="community_cta_dialog_des">Third party themes now support Mi Community widget. Allow Themes to access your Mi Account ID and Mi Community statuses associated with the account to be able to view them here.</string>
+  <string name="community_cta_dialog_ok">Allow</string>
+  <string name="community_cta_dialog_title">Permissions required</string>
+  <string name="community_entrance_summary">Find theme-related content in Mi Community. This feature is supported by selected themes.</string>
+  <string name="community_entrance_title">Mi Community clock widget</string>
+  <string name="community_message_trigger_disabled">Off</string>
+  <string name="community_message_trigger_triggered">On</string>
   <string name="component_backup_preference_title">Back up theme</string>
   <string name="component_category_finest_title">GENERAL</string>
   <string name="component_category_more_title">ADVANCED</string>
@@ -218,11 +229,11 @@
   <string name="de_component_aod_author">Creator</string>
   <string name="de_component_author">Author</string>
   <string name="de_component_tags">Tags</string>
-  <string name="de_font_exchange_success">Purchased successfully</string>
   <string name="de_icon_text_comment">Comment</string>
   <string name="de_icon_text_discuss">Discuss</string>
   <string name="de_icon_text_favorite">Add to favorites</string>
   <string name="de_icon_text_like">Like</string>
+  <string name="de_icon_text_reward">Reward</string>
   <string name="de_icon_text_share">Share</string>
   <string name="de_mix">Build</string>
   <string name="de_mix_dialog_title">Build your theme</string>
@@ -260,9 +271,26 @@
   <string name="detail_author_fans">"Followers: "</string>
   <string name="detail_author_works">"Items: "</string>
   <string name="detail_recommend_title">You might like these</string>
+  <string name="detail_reward_alert">Reward talented designers for their work</string>
+  <string name="detail_reward_build_order_error">"Couldn't create order. Wait a minute or two and try again."</string>
+  <string name="detail_reward_custom_amount">Custom amount</string>
+  <string name="detail_reward_duplicate_order_error">Too many attempts. Wait a minute or two and try again.</string>
+  <string name="detail_reward_exceed_limit">Rewards can contain up to 200 CNY</string>
+  <string name="detail_reward_know_it">Got it</string>
+  <string name="detail_reward_limited_to_200">Rewards can contain up to 200 Mi Coins</string>
+  <string name="detail_reward_loading_failed">"Couldn't load info. Try again."</string>
+  <string name="detail_reward_no_one">No rewards yet. Give the first one!</string>
+  <string name="detail_reward_reached_upper_limit">"Can't reward today. Come back tomorrow!"</string>
+  <string name="detail_reward_resource_error">"Can't reward due to an error"</string>
+  <string name="detail_reward_server_error">A server error occurred. Wait a minute or two and try again.</string>
+  <string name="detail_reward_successed">Rewarded successfully</string>
+  <string name="detail_reward_thanks_for_fans_support">Thanks for your support!</string>
+  <string name="detail_reward_thanks_for_your_support">Thanks for your support!</string>
+  <string name="detail_reward_user_limited_to_display">Only first 100 people are displayed</string>
   <string name="dev_options">Developer options</string>
   <string name="dev_options_summary">Web resources</string>
   <string name="dialog_show_never">"Don't show again."</string>
+  <string name="display">Display</string>
   <string name="download_failed">"Couldn't download"</string>
   <string name="download_preview_failed">"Can't load preview"</string>
   <string name="download_success">Download finished</string>
@@ -289,7 +317,7 @@
   <string name="eras_bc">BC</string>
   <string name="error_icon_content_description">Error</string>
   <string name="evening">PM</string>
-  <string name="exchange_alert">You can get coupons during our promotion events and exchange them for themes.</string>
+  <string name="exchange_alert">You can get codes during our events and redeem them here</string>
   <string name="exit_extreme_mode_dialog_agree">Agree</string>
   <string name="exit_extreme_mode_dialog_cancel">Cancel</string>
   <string name="exit_extreme_mode_dialog_title">Turn off Extreme mode</string>
@@ -391,6 +419,8 @@
   <string name="fmt_weekday_time">W T</string>
   <string name="fmt_weekday_time_timezone">W T z</string>
   <string name="fmt_weekday_timezone">W z</string>
+  <string name="forbid_transparent_wallpaper_by_second_space">Apply transparent wallpaper in First space first.</string>
+  <string name="forbid_video_wallpaper_by_second_space">Apply dynamic wallpaper in First space first.</string>
   <string name="friday">Friday</string>
   <string name="friday_short">Fri</string>
   <string name="friday_shortest">F</string>
@@ -467,6 +497,7 @@
   <string name="hide_pull_down_positive">Hide</string>
   <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
   <string name="home_apply_success">Home screen wallpaper applied</string>
+  <string name="i_know">Got it</string>
   <string name="icon_content_description">Dialog Icon</string>
   <string name="in_the_end">No more items to show</string>
   <string name="incall_show_apply">Set as profile video</string>
@@ -522,6 +553,24 @@ Tap here to sign in now."</string>
   <string name="mine_tab_title_like">Likes</string>
   <string name="mine_tab_title_local">Local</string>
   <string name="mine_tab_title_purchase">Orders</string>
+  <string name="miui_clock_city_name_local">Local</string>
+  <string name="miui_clock_city_name_second">Second clock</string>
+  <string name="miui_clock_fancy_colon"></string>
+  <string name="miui_digital_clock_dot">:</string>
+  <string name="miui_lock_screen_date">EEEE, MMMM d</string>
+  <string name="miui_lock_screen_date_12">EEEE, MMMM d</string>
+  <string name="miui_lock_screen_date_two_lines">"EEEE
+MMMM d"</string>
+  <string name="miui_lock_screen_date_two_lines_12">"EEEE
+MMMM d"</string>
+  <string name="miui_lock_screen_large_date">"EEE
+M/dd"</string>
+  <string name="miui_lock_screen_large_date_12">"EEE
+M/dd"</string>
+  <string name="miui_vertical_time_format_12">"hh
+mm"</string>
+  <string name="miui_vertical_time_format_24">"HH
+mm"</string>
   <string name="miuishare_account_activate_confirmation">Activate Mi Account</string>
   <string name="miuishare_account_activate_ok">Activate</string>
   <string name="miuishare_account_login_cancel">Cancel</string>
@@ -746,6 +795,7 @@ Tap here to sign in now."</string>
   <string name="resource_comment_edit_text_second_hint">Your feedback is extremely important to us.</string>
   <string name="resource_comment_edit_title">Comment about %1$s</string>
   <string name="resource_comment_entry_tips">Comments (%1$s)</string>
+  <string name="resource_comment_error_not_bought">You should use an item before commenting about it</string>
   <string name="resource_comment_expand_full_text">Expand all text▼</string>
   <string name="resource_comment_footer">Empty comments are not displayed.</string>
   <string name="resource_comment_good_comments">Positive</string>
@@ -764,7 +814,6 @@ Tap here to sign in now."</string>
   <string name="resource_comment_upload_data_invalid">The comment you entered is invalid</string>
   <string name="resource_comment_upload_failed">"Can't send comment"</string>
   <string name="resource_comment_upload_hint">Your comment will be displayed after a brief review.</string>
-  <string name="resource_comment_upload_not_bought">You need to apply the theme before you can write comments about it</string>
   <string name="resource_comment_upload_not_logined">You need to sign in first</string>
   <string name="resource_comment_upload_success">Your comment will be displayed after a brief review.</string>
   <string name="resource_comment_wonderful_comments">Popular comments</string>
@@ -791,8 +840,7 @@ Tap here to sign in now."</string>
   <string name="resource_detail_vertical_divider">|</string>
   <string name="resource_detail_window_title">%1$s details</string>
   <string name="resource_download">Download</string>
-  <string name="resource_download_notification_title_many">%1$s themes downloaded</string>
-  <string name="resource_download_notification_title_one">Theme downloaded</string>
+  <string name="resource_download_notification_title_one">Downloaded %1$s successfully</string>
   <string name="resource_download_trial">Try</string>
   <string name="resource_downloaded_title">Downloaded resources</string>
   <string name="resource_downloading">Downloading</string>
@@ -800,19 +848,18 @@ Tap here to sign in now."</string>
   <string name="resource_exchange_confirm">OK</string>
   <string name="resource_exchange_device_not_support">"This item isn't supported on your device"</string>
   <string name="resource_exchange_empty_format">Enter gift code</string>
-  <string name="resource_exchange_has_bought">"You've already purchased this theme."</string>
+  <string name="resource_exchange_has_bought">"You've already purchased this item before"</string>
   <string name="resource_exchange_has_expired">The code you entered has expired.</string>
   <string name="resource_exchange_has_used">The code you entered has already been used.</string>
-  <string name="resource_exchange_hint">Enter your gift code</string>
+  <string name="resource_exchange_hint">Enter code</string>
   <string name="resource_exchange_purchase_unkown_error">Yikes! An unknown error occurred. Sign in at http://market.xiaomi.com to view your payment status.</string>
   <string name="resource_exchange_share_code_content">"You've received a gift code (%2$s) for the theme %1$s in MIUI's Themes. Tap %3$s to use it now."</string>
   <string name="resource_exchange_share_code_dlg_content">Gift code for %1$s: %2$s. When you send it to another MIUI user, they can use it to download this theme.</string>
   <string name="resource_exchange_share_code_dlg_title">Sending</string>
-  <string name="resource_exchange_success">Purchased successfully</string>
-  <string name="resource_exchange_unavailable">"The theme associated with the code you entered isn't available."</string>
+  <string name="resource_exchange_success">Redeemed successfully</string>
+  <string name="resource_exchange_unavailable">"This item isn't currently available"</string>
   <string name="resource_exchange_universal_finish">Use this code to download items from Themes.</string>
   <string name="resource_exchange_universal_goon">This code can be used to download any theme in the store.</string>
-  <string name="resource_exchange_window_title">Redeem</string>
   <string name="resource_exchange_wrong_format_by_local">The format of the code you entered is incorrect.</string>
   <string name="resource_exchange_wrong_format_by_server">"Code was not verified. Make sure you've entered it correctly."</string>
   <string name="resource_expand_full_text">Expand</string>
@@ -960,6 +1007,14 @@ Tap here to sign in now."</string>
   <string name="set_home_wallpaper_failed">"%s. Can't apply Home screen wallpaper."</string>
   <string name="setting_font_online">Online fonts</string>
   <string name="settings">Settings</string>
+  <string name="settings_search_keyword_font_free">Free fonts</string>
+  <string name="settings_search_keyword_font_home">Home screen fonts</string>
+  <string name="settings_search_keyword_font_input">Input method fonts</string>
+  <string name="settings_search_keyword_font_keyboard">Keyboard fonts</string>
+  <string name="settings_search_keyword_font_manager">Manage fonts</string>
+  <string name="settings_search_keyword_font_online">Online fonts</string>
+  <string name="settings_search_keyword_font_style">Font format</string>
+  <string name="settings_search_keyword_font_wechat">WeChat fonts</string>
   <string name="shortcut_add">Add</string>
   <string name="shortcut_cancel">No thanks</string>
   <string name="shortcut_message">Add a Home screen shortcut!</string>
@@ -1007,7 +1062,7 @@ Tap here to sign in now."</string>
   <string name="sunday">Sunday</string>
   <string name="sunday_short">Sun</string>
   <string name="sunday_shortest">S</string>
-  <string name="super_wallpaper">Super wallpapers</string>
+  <string name="super_wallpaper">Super Wallpapers</string>
   <string name="support_theme_store_des">Good themes are always created by talented designers. Our app contains a small amount of ads which allow us to support their work.</string>
   <string name="support_theme_store_supported">Thanks for your support!</string>
   <string name="support_theme_store_title">Support our designers</string>
@@ -1078,8 +1133,6 @@ Tap here to sign in now."</string>
   <string name="theme_batch_update_dlg_title">Update theme</string>
   <string name="theme_batch_updating_text">Updating (%1$d)</string>
   <string name="theme_bug_report">Feedback</string>
-  <string name="theme_changed_failed_message">"Can't apply theme"</string>
-  <string name="theme_changed_message">Theme applied</string>
   <string name="theme_changing_dialog_title">"Applying "</string>
   <string name="theme_comment_detail_no_more">"That's all for now"</string>
   <string name="theme_comment_detail_sub_comment_title">All replies</string>
@@ -1119,6 +1172,7 @@ Tap here to sign in now."</string>
   <string name="theme_current_using_has_update">Theme update available</string>
   <string name="theme_description_title_customized">Custom</string>
   <string name="theme_description_title_default">Default</string>
+  <string name="theme_designer_products">Designer themes</string>
   <string name="theme_detail_tab_comment">Comments</string>
   <string name="theme_detail_tab_recommend">Recommended</string>
   <string name="theme_detail_tab_theme">Details</string>
@@ -1160,7 +1214,7 @@ Tap here to sign in now."</string>
   <string name="theme_user_agreement_remind_never">"Don't show again"</string>
   <string name="theme_user_agreement_remind_summary">Show the Terms of Use pop-up every time you open the Themes app. This setting will take effect after you reboot your device.</string>
   <string name="theme_user_agreement_title">Terms of Use</string>
-  <string name="theme_wallpaper">Wallpaper Category</string>
+  <string name="theme_wallpaper">Wallpaper categories</string>
   <string name="theme_yes">Yes</string>
   <string name="third_party_pickers_activity_title">Add %1$s</string>
   <string name="thursday">Thursday</string>
@@ -1232,6 +1286,7 @@ Go to Themes &gt; My account &gt; Themes lab for more options."</string>
   <string name="update_latest">Your app is up to date</string>
   <string name="update_no_net">A network error occurred. Try again.</string>
   <string name="update_title">NEW UPDATE AVAILABLE</string>
+  <string name="use_hint">Attention</string>
   <string name="using_theme_has_update_tips">An update for this theme is available.</string>
   <string name="using_theme_next_automatic_update">Automatic updates</string>
   <string name="using_theme_next_automatic_update_summary">Update downloaded themes using WLAN when the device is locked</string>

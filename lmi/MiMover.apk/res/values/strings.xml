@@ -137,8 +137,8 @@
   <string name="clearable_edittext_clear_description">Clear</string>
   <string name="click_to_restore">Restore system items to be able to use MIUI normally after a factory reset. Tap to start.</string>
   <string name="close">Close</string>
-  <string name="close_cellular_summary">由于系统限制，当前网络连接为数据流量，请您关闭数据流量后重新连接新手机</string>
-  <string name="close_cellular_title">连接异常</string>
+  <string name="close_cellular_summary">Your device is using mobile data due to system restrictions now. Turn off mobile data and connect to the new device again.</string>
+  <string name="close_cellular_title">"Couldn't connect"</string>
   <string name="close_twice_auth_btn">Turn off two-factor authentication</string>
   <string name="close_twice_auth_note">"Note:
 After creating a new security question and confirming your date of birth, your Apple ID two-factor authentication will be turned off. If you don't see the option to turn off two-factor authentication on the Apple ID account page, you can't turn it off."</string>
@@ -449,6 +449,10 @@ Visit https://appleid.apple.com/#!&amp;page=signin to turn off"</string>
   <string name="dialog_tip_upgrade_title">Update Mi Mover</string>
   <string name="dialog_version_summary_tip">"What's new:"</string>
   <string name="dialog_version_title_tip">An update is available</string>
+  <string name="dialog_wechat_data_transfer_fail_button">我知道了</string>
+  <string name="dialog_wechat_data_transfer_fail_message">"由于微信版本限制，相关数据(含聊天记录)没有成功迁移，建议您使用微信APP内的聊天记录备份与迁移功能进行迁移。
+步骤：打开微信APP&gt;我的&gt;设置&gt;通用&gt;聊天记录备份与迁移。"</string>
+  <string name="dialog_wechat_data_transfer_fail_title">微信数据迁移失败</string>
   <string name="do_not_restore_temporarily">Not now</string>
   <string name="document">Documents</string>
   <string name="early_morning">AM</string>
@@ -837,6 +841,8 @@ Visit https://appleid.apple.com/#!&amp;page=signin to turn off"</string>
   <string name="prompt_before_transmission_message3_title">"You're using Second space"</string>
   <string name="prompt_before_transmission_message4_summary">"Don't turn off WLAN or switch between networks until the transfer is complete."</string>
   <string name="prompt_before_transmission_message4_title">Stay connected throughout the transfer</string>
+  <string name="prompt_before_transmission_message5_summary">"Transferring big amounts of data wirelessly might cause slight overheating which isn't abnormal. Your device will cool down soon after the transfer is complete."</string>
+  <string name="prompt_before_transmission_message5_title">Your device might heat up during transfers.</string>
   <string name="qq_app">QQ</string>
   <string name="qq_app_receive_fail">"Couldn't receive QQ"</string>
   <string name="qq_app_send_fail">"Couldn't send QQ"</string>
@@ -862,6 +868,7 @@ The data which wasn't imported must be imported again."</string>
 Free up at least %s."</string>
   <string name="scan_soft_ap_label">Connect to the new device</string>
   <string name="scanner_bottom_tip">Select only important items to make the transfer faster.</string>
+  <string name="scanner_not_support_data_transfer_tip">不支持从非小米手机迁移应用数据(包括微信、QQ聊天记录)</string>
   <string name="scanner_permission_alert_cancel">Got it</string>
   <string name="scanner_permission_alert_ok">Settings</string>
   <string name="scanner_quit_alert_btn_negative">Quit</string>

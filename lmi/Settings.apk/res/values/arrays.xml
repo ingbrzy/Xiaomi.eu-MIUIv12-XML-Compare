@@ -187,6 +187,11 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="apn_not_allowed_entries">
+        <item>internet</item>
+        <item>ims</item>
+        <item>tethering</item>
+    </string-array>
     <string-array name="apn_protocol_entries">
         <item>IPv4</item>
         <item>IPv6</item>
@@ -2037,6 +2042,16 @@
         <item>2</item>
         <item>0</item>
     </string-array>
+    <string-array name="gradient_colors">
+        <item>\#88C2FF</item>
+        <item>\#C8F4E4</item>
+        <item>\#FFCEA0</item>
+    </string-array>
+    <string-array name="gradient_positions">
+        <item>0f</item>
+        <item>0.53f</item>
+        <item>1f</item>
+    </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5\u2033</item>
         <item>4.0\u2033</item>
@@ -2273,7 +2288,7 @@
         <item>Long</item>
     </string-array>
     <string-array name="long_press_timeout_selector_values">
-        <item>400</item>
+        <item>300</item>
         <item>1000</item>
         <item>1500</item>
     </string-array>
@@ -2732,6 +2747,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1920x1080/320|3840x2160/640</item>
         <item>1920x1080/320|3840x2160/640,secure</item>
         <item>1280x720/213;1920x1080/320</item>
+    </string-array>
+    <string-array name="paper_color_index">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="paper_color_values">
+        <item>Full colors</item>
+        <item>Light colors</item>
+        <item>Black and white</item>
     </string-array>
     <string-array name="perm_hips_action">
         <item>Allow</item>
@@ -3310,6 +3335,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>excalibur</item>
         <item>joyeuse</item>
         <item>lancelot</item>
+        <item>galahad</item>
     </string-array>
     <string-array name="swipe_direction_titles">
         <item>@string/swipe_direction_rtl</item>
@@ -3334,6 +3360,32 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@drawable/threedrop04</item>
         <item>@drawable/threedrop05</item>
         <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
