@@ -1821,14 +1821,6 @@
         <item>@string/dndm_vip_list_starred_contact</item>
         <item>@string/dndm_vip_list_custom</item>
     </string-array>
-    <array name="double_knock">
-        <item>@drawable/double_knock01</item>
-        <item>@drawable/double_knock02</item>
-        <item>@drawable/double_knock03</item>
-        <item>@drawable/double_knock04</item>
-        <item>@drawable/double_knock05</item>
-        <item>@drawable/double_knock06</item>
-    </array>
     <string-array name="dream_timeout_entries">
         <item>Never</item>
         <item>15 seconds</item>
@@ -2049,6 +2041,16 @@
         <item>1</item>
         <item>2</item>
         <item>0</item>
+    </string-array>
+    <string-array name="gradient_colors">
+        <item>\#88C2FF</item>
+        <item>\#C8F4E4</item>
+        <item>\#FFCEA0</item>
+    </string-array>
+    <string-array name="gradient_positions">
+        <item>0f</item>
+        <item>0.53f</item>
+        <item>1f</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5\u2033</item>
@@ -2745,6 +2747,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1920x1080/320|3840x2160/640</item>
         <item>1920x1080/320|3840x2160/640,secure</item>
         <item>1280x720/213;1920x1080/320</item>
+    </string-array>
+    <string-array name="paper_color_index">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="paper_color_values">
+        <item>Full colors</item>
+        <item>Light colors</item>
+        <item>Black and white</item>
     </string-array>
     <string-array name="perm_hips_action">
         <item>Allow</item>
