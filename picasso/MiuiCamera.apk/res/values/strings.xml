@@ -28,8 +28,8 @@
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
   <string name="access_sd_fail">"Couldn't access SD card."</string>
-  <string name="accessibility_8k_off">AI 8K,关闭状态</string>
-  <string name="accessibility_8k_on">AI 8K,开启状态</string>
+  <string name="accessibility_8k_off">AI 8K is off</string>
+  <string name="accessibility_8k_on">AI 8K is on</string>
   <string name="accessibility_ai_scene_off">AI camera is off</string>
   <string name="accessibility_ai_scene_on">AI camera is on</string>
   <string name="accessibility_back_preview_status">Rear camera preview</string>
@@ -290,7 +290,7 @@ and adjust preferences automatically"</string>
   <string name="apollo_c_27810_0x0006">true</string>
   <string name="apollo_c_27810_0x0008">true</string>
   <string name="apollo_c_27845_0x0001">true</string>
-  <string name="apollo_c_27845_0x0002">true</string>
+  <string name="apollo_c_27845_0x0002">mfnr:1</string>
   <string name="apollo_c_27845_0x0004">true</string>
   <string name="apollo_c_27845_0x0005">13200000</string>
   <string name="apollo_c_28041_0x0000">3</string>
@@ -300,6 +300,7 @@ and adjust preferences automatically"</string>
   <string name="apollo_c_28041_0x0007">false</string>
   <string name="apollo_c_28041_0x0008">4</string>
   <string name="apollo_c_28196_0x0005">true</string>
+  <string name="apollo_c_2974_0x0005">true</string>
   <string name="apollo_c_32889_0x0001">true</string>
   <string name="apollo_c_32974_0x0002">true</string>
   <string name="apollo_c_33066_0x0002">true</string>
@@ -342,6 +343,7 @@ and adjust preferences automatically"</string>
   <string name="apollo_pro_c_0x02_p_c_r_v">0.935279806</string>
   <string name="apollo_pro_c_19039_0x0004">3:12032x9024</string>
   <string name="apollo_pro_c_22367_0x000c">capture_inner:0.6:1:2:5:10:30;capture_ruler:4:10:10:5:10</string>
+  <string name="apollo_pro_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="apollo_pro_c_35955_0x0002">0</string>
   <string name="apollo_pro_module_name_pixel">108M</string>
   <string name="apollo_pro_parent">apollo</string>
@@ -371,6 +373,7 @@ and adjust preferences automatically"</string>
   <string name="apollo_s_v_f_m">true</string>
   <string name="apollo_s_z_m">true</string>
   <string name="app_name">Preference</string>
+  <string name="apricot_parent">atom</string>
   <string name="atom_a_e_d">false</string>
   <string name="atom_a_l_h_l">380</string>
   <string name="atom_a_l_l_l">420</string>
@@ -390,7 +393,7 @@ and adjust preferences automatically"</string>
   <string name="atom_c_0x0f">false</string>
   <string name="atom_c_0x10">false</string>
   <string name="atom_c_0x11">true</string>
-  <string name="atom_c_0x13">2</string>
+  <string name="atom_c_0x13">1</string>
   <string name="atom_c_0x14">true</string>
   <string name="atom_c_0x16">false</string>
   <string name="atom_c_0x17">false</string>
@@ -545,7 +548,14 @@ and adjust preferences automatically"</string>
   <string name="auxiliary_exposure_feedback_status">Exposure verification is on</string>
   <string name="auxiliary_focus_peak_status">Focus peaking is on</string>
   <string name="back_andromeda">2:MI MIX 3 5G:AI DUAL CAMERA:48MP DUAL CAMERA</string>
+  <string name="back_apollo">3:SHOT ON MI PHONE:AI TRIPLE CAMERA:64MP TRIPLE CAMERA</string>
+  <string name="back_apollo_global">3:SHOT ON MI PHONE:AI TRIPLE CAMERA:64MP TRIPLE CAMERA</string>
+  <string name="back_apollo_global_pro">3:SHOT ON MI PHONE:AI TRIPLE CAMERA:108MP TRIPLE CAMERA</string>
+  <string name="back_apollo_india">3:SHOT ON MI PHONE:AI TRIPLE CAMERA:64MP TRIPLE CAMERA</string>
+  <string name="back_apollo_india_pro">3:SHOT ON MI PHONE:AI TRIPLE CAMERA:108MP TRIPLE CAMERA</string>
+  <string name="back_apricot">3:SHOT ON REDMI 10X:AI TRIPLE CAMERA:48MP TRIPLE CAMERA</string>
   <string name="back_atom">3:SHOT ON REDMI 10X:AI TRIPLE CAMERA:48MP TRIPLE CAMERA</string>
+  <string name="back_banana">4:REDMI 10X PRO:AI QUAD CAMERA:48MP QUAD CAMERA</string>
   <string name="back_begonia">4:REDMI NOTE8 PRO:AI QUAD CAMERA:64MP QUAD CAMERA</string>
   <string name="back_begoniain">4:REDMI NOTE8 PRO:AI QUAD CAMERA:64MP QUAD CAMERA</string>
   <string name="back_beryllium">0:POCOPHONE:SHOT ON POCOPHONE F1:SHOT ON POCOPHONE F1</string>
@@ -624,6 +634,26 @@ and adjust preferences automatically"</string>
   <string name="back_violet">2:REDMI NOTE 7 PRO:AI DUAL CAMERA:48MP DUAL CAMERA</string>
   <string name="back_willow">4:REDMI NOTE 8T:AI QUAD CAMERA:48MP QUAD CAMERA</string>
   <string name="background">Background</string>
+  <string name="banana_c_0x32">true</string>
+  <string name="banana_c_0x50">true</string>
+  <string name="banana_c_0x51">true</string>
+  <string name="banana_c_0x53">true</string>
+  <string name="banana_c_19039_0x0005">2</string>
+  <string name="banana_c_22367_0x000b">0.6:1.0:3.0</string>
+  <string name="banana_c_22367_0x000c">capture_inner:0.6:1:3:5:10;capture_ruler:4:10:10:5</string>
+  <string name="banana_c_22756_0x0001">1.0:2.0</string>
+  <string name="banana_c_27810_0x0002">macro:ultra_wide:pro:capture_intent</string>
+  <string name="banana_c_28041_0x0000">3</string>
+  <string name="banana_c_28041_0x0008">5</string>
+  <string name="banana_c_28196_0x0003">false</string>
+  <string name="banana_c_32889_0x0004">macro:wide:ultra_wide:tele:sat</string>
+  <string name="banana_c_35910_0x0003">true</string>
+  <string name="banana_c_35910_0x0004">3</string>
+  <string name="banana_c_9006_0x0008">true</string>
+  <string name="banana_o_0x05_is_support_optical_zoom">true</string>
+  <string name="banana_parent">atom</string>
+  <string name="banana_s_p_l_b">true</string>
+  <string name="banana_s_p_l_f">true</string>
   <string name="beauty_body">Figure</string>
   <string name="beauty_body_body">Slender</string>
   <string name="beauty_body_head">Head</string>
@@ -838,7 +868,7 @@ and adjust preferences automatically"</string>
   <string name="camera_disabled">Camera has been disabled</string>
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
-  <string name="camera_fastmotion_title">延时摄影功能介绍</string>
+  <string name="camera_fastmotion_title">Time-lapse videos</string>
   <string name="camera_label">Camera</string>
   <string name="camera_liveshot_off_tip">Turned off dynamic shots</string>
   <string name="camera_liveshot_on_tip">Dynamic shots</string>
@@ -1003,7 +1033,7 @@ and adjust preferences automatically"</string>
   <string name="cas_c_0x40">v4</string>
   <string name="cas_c_0x42_m">true</string>
   <string name="cas_c_0x45">true</string>
-  <string name="cas_c_0x47">v15</string>
+  <string name="cas_c_0x47">v16</string>
   <string name="cas_c_0x48">true</string>
   <string name="cas_c_0x4a">false</string>
   <string name="cas_c_0x50">false</string>
@@ -1015,6 +1045,7 @@ and adjust preferences automatically"</string>
   <string name="cas_c_0x5d">true</string>
   <string name="cas_c_0x5e">true</string>
   <string name="cas_c_0x60">true</string>
+  <string name="cas_c_13254_0x0004">true</string>
   <string name="cas_c_16001_0x0001">true</string>
   <string name="cas_c_17042_0x0001">true</string>
   <string name="cas_c_17042_0x0002">true</string>
@@ -1025,7 +1056,6 @@ and adjust preferences automatically"</string>
   <string name="cas_c_19039_0x0004">1:8000x6000</string>
   <string name="cas_c_19039_0x0005">2</string>
   <string name="cas_c_19039_0x0006">true</string>
-  <string name="cas_c_19039_0x0007">true</string>
   <string name="cas_c_19039_0x0012">true</string>
   <string name="cas_c_19039_0x0013">false</string>
   <string name="cas_c_19039_0x0014">true</string>
@@ -1058,6 +1088,7 @@ and adjust preferences automatically"</string>
   <string name="cas_c_27810_0x0007">true</string>
   <string name="cas_c_27810_0x0008">true</string>
   <string name="cas_c_27845_0x0001">true</string>
+  <string name="cas_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="cas_c_27845_0x0004">true</string>
   <string name="cas_c_27845_0x0005">12200000</string>
   <string name="cas_c_27845_0x0006">false</string>
@@ -1065,10 +1096,11 @@ and adjust preferences automatically"</string>
   <string name="cas_c_28041_0x0003">true</string>
   <string name="cas_c_28041_0x0004">0</string>
   <string name="cas_c_28041_0x0005">true</string>
-  <string name="cas_c_28041_0x0006">false</string>
+  <string name="cas_c_28041_0x0006">true</string>
   <string name="cas_c_28041_0x0007">true</string>
   <string name="cas_c_28041_0x0008">5</string>
   <string name="cas_c_28196_0x0005">true</string>
+  <string name="cas_c_2974_0x0005">true</string>
   <string name="cas_c_32889_0x0001">true</string>
   <string name="cas_c_32974_0x0002">true</string>
   <string name="cas_c_33066_0x0002">true</string>
@@ -1093,7 +1125,8 @@ and adjust preferences automatically"</string>
   <string name="cas_c_9006_0x0005">true</string>
   <string name="cas_c_9006_0x0006">true</string>
   <string name="cas_c_9006_0x0007">true</string>
-  <string name="cas_c_9006_0x000a">true</string>
+  <string name="cas_c_9006_0x0009">true</string>
+  <string name="cas_c_9006_0x000a">false</string>
   <string name="cas_c_d_e_f_w">true</string>
   <string name="cas_c_parallel_set">8,13:3;12,13:5;16,13:5</string>
   <string name="cas_c_r_i_m_m">true</string>
@@ -1251,26 +1284,26 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_0x0f">false</string>
   <string name="cezanne_c_0x10">false</string>
   <string name="cezanne_c_0x11">true</string>
-  <string name="cezanne_c_0x13">2</string>
+  <string name="cezanne_c_0x13">1</string>
   <string name="cezanne_c_0x14">true</string>
   <string name="cezanne_c_0x16">false</string>
   <string name="cezanne_c_0x17">true</string>
   <string name="cezanne_c_0x18">false</string>
   <string name="cezanne_c_0x19">false</string>
   <string name="cezanne_c_0x1a">false</string>
-  <string name="cezanne_c_0x1b">false</string>
+  <string name="cezanne_c_0x1b">true</string>
   <string name="cezanne_c_0x1c">false</string>
   <string name="cezanne_c_0x20">true</string>
   <string name="cezanne_c_0x21">false</string>
   <string name="cezanne_c_0x22">true</string>
   <string name="cezanne_c_0x23">true</string>
   <string name="cezanne_c_0x24">true</string>
-  <string name="cezanne_c_0x25">true</string>
+  <string name="cezanne_c_0x25">false</string>
   <string name="cezanne_c_0x26">true</string>
   <string name="cezanne_c_0x27">true</string>
   <string name="cezanne_c_0x28">false</string>
   <string name="cezanne_c_0x29">4.5</string>
-  <string name="cezanne_c_0x30">4</string>
+  <string name="cezanne_c_0x30">3.2</string>
   <string name="cezanne_c_0x31">true</string>
   <string name="cezanne_c_0x32">true</string>
   <string name="cezanne_c_0x33">true</string>
@@ -1324,6 +1357,7 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_28041_0x0008">5</string>
   <string name="cezanne_c_28196_0x0003">false</string>
   <string name="cezanne_c_28196_0x0005">true</string>
+  <string name="cezanne_c_2974_0x0005">true</string>
   <string name="cezanne_c_32889_0x0001">true</string>
   <string name="cezanne_c_32889_0x0004">macro:wide:ultra_wide:sat</string>
   <string name="cezanne_c_32974_0x0002">true</string>
@@ -1358,6 +1392,7 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_s_a_u_q">true</string>
   <string name="cezanne_e_m_a_u_q_s">true</string>
   <string name="cezanne_e_p_p_l_t">false</string>
+  <string name="cezanne_h_d_v">auto</string>
   <string name="cezanne_i_l_m_d">false</string>
   <string name="cezanne_i_q_a_u_m">true</string>
   <string name="cezanne_i_s_e_r">false</string>
@@ -1384,8 +1419,8 @@ and adjust preferences automatically"</string>
   <string name="cezanne_s_a_3">true</string>
   <string name="cezanne_s_a_u">true</string>
   <string name="cezanne_s_b_a">true</string>
-  <string name="cezanne_s_b_b">false</string>
-  <string name="cezanne_s_b_m">false</string>
+  <string name="cezanne_s_b_b">true</string>
+  <string name="cezanne_s_b_m">true</string>
   <string name="cezanne_s_b_m_d_t">-1</string>
   <string name="cezanne_s_b_m_s_c">-1</string>
   <string name="cezanne_s_c_w_b">true</string>
@@ -1520,6 +1555,7 @@ and adjust preferences automatically"</string>
   <string name="cmi_c_27810_0x0006">true</string>
   <string name="cmi_c_27810_0x0007">true</string>
   <string name="cmi_c_27845_0x0001">true</string>
+  <string name="cmi_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="cmi_c_27845_0x0004">true</string>
   <string name="cmi_c_27845_0x0005">12200000</string>
   <string name="cmi_c_28041_0x0000">4</string>
@@ -1549,7 +1585,6 @@ and adjust preferences automatically"</string>
   <string name="cmi_c_9006_0x0006">true</string>
   <string name="cmi_c_9006_0x0007">true</string>
   <string name="cmi_c_9006_0x000a">false</string>
-  <string name="cmi_c_9006_0x000b">false</string>
   <string name="cmi_c_9006_0x000c">false</string>
   <string name="cmi_c_d_e_f_w">true</string>
   <string name="cmi_c_parallel_set">8,0:3;12,15:5</string>
@@ -2136,6 +2171,7 @@ scanned documents automatically"</string>
   <string name="draco_c_22367_0x000b">0.6:1.0:2.0</string>
   <string name="draco_c_22367_0x000c">capture_inner:0.6:1:2:5:10;capture_ruler:4:10:10:5</string>
   <string name="draco_c_27810_0x0002">no_pixel</string>
+  <string name="draco_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="draco_c_28041_0x0000">3</string>
   <string name="draco_c_28041_0x0003">true</string>
   <string name="draco_c_9006_0x0000">true</string>
@@ -2491,9 +2527,8 @@ if you rotate your phone"</string>
   <string name="gauguin_a_l_l_l">400</string>
   <string name="gauguin_c_0x00_s_l_s">true</string>
   <string name="gauguin_c_0x01_p_g_a_v">323</string>
-  <string name="gauguin_c_0x02_p_c_r_v">1.0</string>
+  <string name="gauguin_c_0x02_p_c_r_v">0.873470846</string>
   <string name="gauguin_c_0x03">false</string>
-  <string name="gauguin_c_0x05">true</string>
   <string name="gauguin_c_0x06">true</string>
   <string name="gauguin_c_0x07">false</string>
   <string name="gauguin_c_0x08">true</string>
@@ -2556,14 +2591,14 @@ if you rotate your phone"</string>
   <string name="gauguin_c_27810_0x0005">true</string>
   <string name="gauguin_c_27810_0x0006">true</string>
   <string name="gauguin_c_27810_0x0007">true</string>
-  <string name="gauguin_c_27845_0x0002">true</string>
+  <string name="gauguin_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="gauguin_c_27845_0x0003">true</string>
   <string name="gauguin_c_28041_0x0000">3</string>
   <string name="gauguin_c_28041_0x0002">true</string>
   <string name="gauguin_c_28041_0x0003">true</string>
-  <string name="gauguin_c_28041_0x0005">true</string>
   <string name="gauguin_c_28196_0x0002">true</string>
   <string name="gauguin_c_28196_0x0005">true</string>
+  <string name="gauguin_c_2974_0x0005">true</string>
   <string name="gauguin_c_32889_0x0001">true</string>
   <string name="gauguin_c_32974_0x0002">true</string>
   <string name="gauguin_c_33066_0x0002">true</string>
@@ -2625,8 +2660,6 @@ if you rotate your phone"</string>
   <string name="gauguin_s_m_f">false</string>
   <string name="gauguin_s_o_a_w">false</string>
   <string name="gauguin_s_p_a">true</string>
-  <string name="gauguin_s_p_l_b">true</string>
-  <string name="gauguin_s_p_l_f">true</string>
   <string name="gauguin_s_p_l_i_e">true</string>
   <string name="gauguin_s_p_r_n">3</string>
   <string name="gauguin_s_s_n">true</string>
@@ -2635,6 +2668,7 @@ if you rotate your phone"</string>
   <string name="gauguin_s_v_b">false</string>
   <string name="gauguin_s_v_f_m">true</string>
   <string name="gauguin_s_z_m">true</string>
+  <string name="gauguinpro_pro_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="gauguinpro_pro_parent">gauguin</string>
   <string name="ginkgo_a_l_h_l">350</string>
   <string name="ginkgo_a_l_l_l">380</string>
@@ -3276,6 +3310,7 @@ Print the copy wirelessly on A4 paper."</string>
   <string name="laurus_i_q_a_u_m">true</string>
   <string name="laurus_live_activation_id">100075</string>
   <string name="laurus_live_activation_license">022f35c83f7e92706b61cb089fc0ca4dfdba7173ac54dad1e9410b7b2f11c0ec4590b390f211eaeff7933a81bc0a78acdfb2f23af82ed0b9b24072d06712f1b1cdf2f0df7120a6d2229ea9271e329afd</string>
+  <string name="laurus_o_0x05_is_support_optical_zoom">false</string>
   <string name="laurus_s_a">true</string>
   <string name="laurus_s_c_w_m">true</string>
   <string name="laurus_s_f_a">true</string>
@@ -3329,12 +3364,19 @@ Print the copy wirelessly on A4 paper."</string>
 Clean the lens for better effect."</string>
   <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
   <string name="lens_dirty_detected_title_front">Front camera lens is dirty</string>
+  <string name="lighting_bright_red">嫣红</string>
+  <string name="lighting_dazzling">炫影</string>
+  <string name="lighting_dreamland">梦境</string>
+  <string name="lighting_gorgeous">斑斓</string>
   <string name="lighting_hint_needed">Place your subject in the frame</string>
   <string name="lighting_hint_title">Studio lighting</string>
   <string name="lighting_hint_too_close">Move the camera further away</string>
   <string name="lighting_hint_too_far">Bring the camera closer</string>
   <string name="lighting_hint_usage">"You can use studio lighting effects
 in Portrait mode"</string>
+  <string name="lighting_lanshan">阑珊</string>
+  <string name="lighting_neon">霓虹</string>
+  <string name="lighting_nostalgia">怀旧</string>
   <string name="lighting_pattern_dot">Dots</string>
   <string name="lighting_pattern_holi">Holi</string>
   <string name="lighting_pattern_leaf">Leaves</string>
@@ -3344,6 +3386,8 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
+  <string name="lighting_phantom">魅影</string>
+  <string name="lighting_rainbow">彩虹</string>
   <string name="link_privacy_policy">http://www.miui.com/res/doc/privacy.html?lang=%s</string>
   <string name="link_user_agreement">http://www.miui.com/res/doc/eula.html?lang=%s</string>
   <string name="live_edit_exit_confirm">Stop</string>
@@ -3452,7 +3496,7 @@ in Portrait mode"</string>
   <string name="lmi_c_27810_0x0005">true</string>
   <string name="lmi_c_27810_0x0006">true</string>
   <string name="lmi_c_27810_0x0007">true</string>
-  <string name="lmi_c_27845_0x0002">true</string>
+  <string name="lmi_c_27845_0x0002">mfnr:1</string>
   <string name="lmi_c_27845_0x0004">true</string>
   <string name="lmi_c_27845_0x0005">16100000</string>
   <string name="lmi_c_28041_0x0000">3</string>
@@ -3558,6 +3602,7 @@ in Portrait mode"</string>
   <string name="lmipro_pro_c_0x32">false</string>
   <string name="lmipro_pro_c_0x50">false</string>
   <string name="lmipro_pro_c_0x53">false</string>
+  <string name="lmipro_pro_c_19039_0x0006">true</string>
   <string name="lmipro_pro_c_19039_0x0019">true</string>
   <string name="lmipro_pro_c_19039_0x0021">true</string>
   <string name="lmipro_pro_c_19039_0x0022">true</string>
@@ -3892,7 +3937,7 @@ look larger on photos"</string>
   <string name="monet_c_27810_0x0005">true</string>
   <string name="monet_c_27810_0x0006">true</string>
   <string name="monet_c_27810_0x0007">true</string>
-  <string name="monet_c_27845_0x0002">true</string>
+  <string name="monet_c_27845_0x0002">mfnr:1</string>
   <string name="monet_c_27845_0x0003">true</string>
   <string name="monet_c_27845_0x0004">true</string>
   <string name="monet_c_28041_0x0000">3</string>
@@ -4474,7 +4519,7 @@ look larger on photos"</string>
   <string name="picasso_c_22367_0x000c">capture_inner:0.6:1:2:5:10;capture_ruler:4:10:10:5</string>
   <string name="picasso_c_22756_0x0001">1.0:2.0</string>
   <string name="picasso_c_27810_0x0002">ultra_wide:macro:capture_intent</string>
-  <string name="picasso_c_27845_0x0002">true</string>
+  <string name="picasso_c_27845_0x0002">mfnr:1</string>
   <string name="picasso_c_27845_0x0003">true</string>
   <string name="picasso_c_27845_0x0004">true</string>
   <string name="picasso_c_27845_0x0005">16100000</string>
@@ -4592,7 +4637,7 @@ look larger on photos"</string>
   <string name="picassoin_c_22367_0x000c">capture_inner:0.6:1:2:5:10;capture_ruler:4:10:10:5</string>
   <string name="picassoin_c_22756_0x0001">1.0:2.0</string>
   <string name="picassoin_c_27810_0x0002">ultra_wide:macro:capture_intent</string>
-  <string name="picassoin_c_27845_0x0002">true</string>
+  <string name="picassoin_c_27845_0x0002">mfnr:1</string>
   <string name="picassoin_c_27845_0x0003">true</string>
   <string name="picassoin_c_28041_0x0000">3</string>
   <string name="picassoin_c_28041_0x0002">true</string>
@@ -4675,6 +4720,8 @@ look larger on photos"</string>
   <string name="pine_s_i_a">true</string>
   <string name="pine_s_m_f">true</string>
   <string name="pine_s_o_a_w">true</string>
+  <string name="pixel_ai_108">AI 100 million ultra vivid</string>
+  <string name="pixel_ai_108_close">Close AI 100 million ultra vivid</string>
   <string name="polaris_a_e_d">true</string>
   <string name="polaris_c_0x16">true</string>
   <string name="polaris_c_0x5b">true</string>
@@ -4685,7 +4732,7 @@ look larger on photos"</string>
   <string name="polaris_s_s_n">true</string>
   <string name="polaris_s_s_v">false</string>
   <string name="popup_tip_3d_beauty_intro_text">3D Beauty</string>
-  <string name="popup_tips_near_range_mode">近距模式</string>
+  <string name="popup_tips_near_range_mode">Close focus</string>
   <string name="portait_effect_entry_blackwhite">B&amp;W</string>
   <string name="portait_effect_entry_cool">Mint</string>
   <string name="portait_effect_entry_dusk">Dusk</string>
@@ -4737,6 +4784,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camcorder_settings_category">Camera settings</string>
   <string name="pref_camera_ai_audio">ai audio</string>
   <string name="pref_camera_ai_scene_title">AI camera</string>
+  <string name="pref_camera_ai_shutter_description">智能选取按下快门时的最佳瞬间</string>
+  <string name="pref_camera_ai_shutter_title">AI抓拍</string>
   <string name="pref_camera_antibanding_default">1</string>
   <string name="pref_camera_antibanding_entry_0">Off</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz</string>
@@ -4802,8 +4851,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_device_watermark_title">Device watermark</string>
   <string name="pref_camera_dual_enable_title">Turn on dual camera</string>
   <string name="pref_camera_dual_sat_enable_title">Turn on dual SAT camera</string>
-  <string name="pref_camera_dynamic_frame_rate_summary">低光环境下为改善画质，自动将帧率从60FPS降至33FPS</string>
-  <string name="pref_camera_dynamic_frame_rate_title">低光自动帧率</string>
+  <string name="pref_camera_dynamic_frame_rate_summary">Decrease frame rate in low light conditions from %1$d to %2$d FPS to improve video quality</string>
+  <string name="pref_camera_dynamic_frame_rate_title">Adjust frame rate to low light</string>
   <string name="pref_camera_eis_entry_normal">EIS</string>
   <string name="pref_camera_eis_entry_off">Off</string>
   <string name="pref_camera_eis_entry_pro">EIS Pro</string>
@@ -4872,17 +4921,16 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_face_info_watermark_title">Add age stamp on photos</string>
   <string name="pref_camera_facedetection_auto_hidden_title">Hide face detection frame automatically</string>
   <string name="pref_camera_facedetection_title">Face detection</string>
-  <string name="pref_camera_fastmotion_duration">时长</string>
-  <string name="pref_camera_fastmotion_duration_description">用于设定拍摄的总时长，默认为无限制；拍摄的时间越长，延时摄影的内容越丰富。当设定时长非“无限制”时，即进入计时拍摄，计时结束后自动停止。</string>
-  <string name="pref_camera_fastmotion_duration_infinity">无限时</string>
-  <string name="pref_camera_fastmotion_duration_unit">%1$s分钟</string>
-  <string name="pref_camera_fastmotion_speed">速度</string>
-  <string name="pref_camera_fastmotion_speed_150x">日出日落</string>
-  <string name="pref_camera_fastmotion_speed_1800x">植物</string>
-  <string name="pref_camera_fastmotion_speed_30x">街道</string>
-  <string name="pref_camera_fastmotion_speed_750x">夜晚</string>
-  <string name="pref_camera_fastmotion_speed_90x">云朵</string>
-  <string name="pref_camera_fastmotion_speed_description">可调节时间的压缩程度。同样的拍摄时间下，选择速度数值越大，最终获得的视频时长越短，播放速度越快。对于某些拍摄场景，建议使用以下速度值：</string>
+  <string name="pref_camera_fastmotion_duration">Duration</string>
+  <string name="pref_camera_fastmotion_duration_description">The duration of a shooting session is unlimited by default. You can also set the timer which will stop the session at a fixed moment.</string>
+  <string name="pref_camera_fastmotion_duration_infinity">Unlimited</string>
+  <string name="pref_camera_fastmotion_speed">Speed</string>
+  <string name="pref_camera_fastmotion_speed_150x">Sunrises and sunsets</string>
+  <string name="pref_camera_fastmotion_speed_1800x">Plants</string>
+  <string name="pref_camera_fastmotion_speed_30x">Street</string>
+  <string name="pref_camera_fastmotion_speed_750x">Dusk</string>
+  <string name="pref_camera_fastmotion_speed_90x">Clouds</string>
+  <string name="pref_camera_fastmotion_speed_description">Time-lapse videos shot at higher speed are shorter and more condensed. Here are the speed values suitable for different scenes:</string>
   <string name="pref_camera_first_tag_tips">Tagged successfully</string>
   <string name="pref_camera_flashmode_entry_auto">Auto</string>
   <string name="pref_camera_flashmode_entry_back_soft_light">Soft light</string>
@@ -5154,7 +5202,6 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_exposure_default">0</string>
   <string name="pref_face_beauty_title">Beautify</string>
   <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
-  <string name="pref_front_denoise_default">Off</string>
   <string name="pref_front_denoise_summary">Reduce noises generated behind the front camera</string>
   <string name="pref_front_denoise_title">Selfie noise filter</string>
   <string name="pref_front_mirror_default">on</string>
@@ -5170,7 +5217,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_google_lens_summary">Point your camera at contact info, URLs, and QR codes to view available options</string>
   <string name="pref_google_lens_title">Lens suggestions</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
-  <string name="pref_hdr10_video_mode_description">支持H.265编码的4K、8K分辨率视频</string>
+  <string name="pref_hdr10_video_mode_description">Supports 4K and 8K videos encoded by H.265</string>
   <string name="pref_hdr10_video_mode_title">HDR10</string>
   <string name="pref_lens_dirty_detect_summary">Receive a notification when the lens is dirty</string>
   <string name="pref_lens_dirty_detect_title">Notify about dirty lens</string>
@@ -5274,7 +5321,6 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_watermark_off">Off</string>
   <string name="pref_watermark_on">On</string>
   <string name="pref_watermark_title">Watermark</string>
-  <string name="pref_wind_denoise_default">On</string>
   <string name="pref_wind_denoise_title">Wind filter</string>
   <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
   <string name="preparing_sd">Checking SD card…</string>
@@ -5536,8 +5582,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="search_menu_title">Search</string>
   <string name="search_settings">Camera settings;Quality;Image quality;Image location;Picture location;Face detection;Camera sound</string>
   <string name="see_qrcode_detals">View QR code details</string>
-  <string name="settings_camera_near_range_description">近距离拍摄平面物体时，去除景深虚化效果</string>
-  <string name="settings_camera_near_range_title">近距模式</string>
+  <string name="settings_camera_near_range_description">Remove blurring when focusing on flat surfaces very close up</string>
+  <string name="settings_camera_near_range_title">Close focus</string>
   <string name="share">Share</string>
   <string name="shiva_a_l_h_l">395</string>
   <string name="shiva_a_l_l_l">410</string>
@@ -5712,11 +5758,10 @@ Keep the subject sharp while blurring the background."</string>
   <string name="timbre_normal">Original</string>
   <string name="timbre_robot">Robot</string>
   <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
-  <string name="timer_burst">Timer burst</string>
-  <string name="timer_burst_manu_param_interval">Time interval(not contains exposure time)</string>
-  <string name="timer_burst_param_interval">Time interval</string>
-  <string name="timer_burst_param_total_count">Total capture count</string>
-  <string name="timer_burst_setting_total_count">Count:%1$s</string>
+  <string name="timer_burst">Timed burst shot</string>
+  <string name="timer_burst_manu_param_interval">Interval without exposure</string>
+  <string name="timer_burst_param_interval">Interval</string>
+  <string name="timer_burst_param_total_count">Number of photos</string>
   <string name="title_snap_double_confirm">Confirm again</string>
   <string name="toast_burst_snap_forbidden_when_audio_capture_open">"Can't burst shoot while audio capture is on"</string>
   <string name="toast_saving">Saving photos…</string>
@@ -5912,6 +5957,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="tucana_c_22367_0x000c">capture_inner:0.6:1:2:5:10:50;capture_ruler:4:10:10:5:10</string>
   <string name="tucana_c_27810_0x0002">no_pixel</string>
   <string name="tucana_c_27845_0x0001">true</string>
+  <string name="tucana_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="tucana_c_27845_0x0004">false</string>
   <string name="tucana_c_27845_0x0005">12200000</string>
   <string name="tucana_c_28041_0x0000">4</string>
@@ -6068,6 +6114,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="umi_c_27810_0x0006">true</string>
   <string name="umi_c_27810_0x0007">true</string>
   <string name="umi_c_27845_0x0001">true</string>
+  <string name="umi_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="umi_c_27845_0x0004">true</string>
   <string name="umi_c_27845_0x0005">13200000</string>
   <string name="umi_c_28041_0x0000">3</string>
@@ -6095,7 +6142,6 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="umi_c_9006_0x0004">true</string>
   <string name="umi_c_9006_0x0005">true</string>
   <string name="umi_c_9006_0x0006">true</string>
-  <string name="umi_c_9006_0x000b">false</string>
   <string name="umi_c_9006_0x000c">false</string>
   <string name="umi_c_d_e_f_w">true</string>
   <string name="umi_c_parallel_set">8,0:3;12,15:5</string>
@@ -6139,6 +6185,8 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="umi_s_v_f_m">true</string>
   <string name="umi_s_z_m">true</string>
   <string name="unknow_error">Unknown error</string>
+  <string name="unsupported_microphones_3d_record_tips">3D立体音不支持外接麦克风</string>
+  <string name="unsupported_microphones_audio_zoom_tips">音源变焦不支持外接麦克风</string>
   <string name="ursa_c_0x16">true</string>
   <string name="ursa_c_0x40">v0</string>
   <string name="ursa_c_0x4a">true</string>
@@ -6244,11 +6292,11 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="video_beauty_tip_beautification">Beautify</string>
   <string name="video_beauty_tip_filter">Filters</string>
   <string name="video_beauty_tip_portrait_bokeh">Bokeh</string>
-  <string name="video_bokeh_blur">模糊</string>
-  <string name="video_bokeh_color_point">色点</string>
-  <string name="video_bokeh_spin">旋转</string>
-  <string name="video_bokeh_zoom_in">内缩放</string>
-  <string name="video_bokeh_zoom_out">外缩放</string>
+  <string name="video_bokeh_blur">Blur</string>
+  <string name="video_bokeh_color_point">Color spots</string>
+  <string name="video_bokeh_spin">Spin</string>
+  <string name="video_bokeh_zoom_in">Zoom in</string>
+  <string name="video_bokeh_zoom_out">Zoom out</string>
   <string name="video_camera_label">Camcorder</string>
   <string name="video_effect_entry_blackwhite">B&amp;W</string>
   <string name="video_effect_entry_bygone">Bygone</string>
