@@ -317,6 +317,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="additional_system_update_menu"/>
   <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
   <string name="adjust_3d_depth_title">"Adjust games' 3D depth"</string>
+  <string name="adjust_temperature_title">Color temperature</string>
   <string name="admin_device_owner_message">"Your admin can monitor and manage apps and data associated with this device, including settings, permissions, corporate access, network activity, and the device's location information."</string>
   <string name="admin_disabled_other_options">Other options are disabled by your admin</string>
   <string name="admin_more_details">More details</string>
@@ -326,6 +327,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="advanced_apps">Advanced</string>
   <string name="advanced_battery_graph_subtext">Battery left estimate is based on your device usage</string>
   <string name="advanced_battery_title">Battery usage</string>
+  <string name="advanced_screen_paper_mode_title">Reading mode</string>
   <string name="advanced_section_header">Advanced</string>
   <string name="advanced_security_title">Advanced</string>
   <string name="advanced_settings">Additional settings</string>
@@ -588,6 +590,8 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="audio_files_title">Audio files</string>
   <string name="audio_profile_settings_title">Audio profiles</string>
   <string name="audio_record_proc_title">Noise cancellation</string>
+  <string name="auto_adjst_effect_summary">Adjust color temperature to ambient light automatically in order to maintain optimal comfort level</string>
+  <string name="auto_adjust_effect_title">Adjust color temperature automatically</string>
   <string name="auto_brightness_default_title">Default</string>
   <string name="auto_brightness_description">Your screen brightness will automatically adjust to your environment and activities. You can move the slider manually to help adaptive brightness learn your preferences.</string>
   <string name="auto_brightness_disclaimer">Optimize brightness level for available light. When this feature is on, you can still adjust brightness temporarily.</string>
@@ -918,6 +922,9 @@ Apps:
   <string name="battery_used_by">%1$s used by %2$s</string>
   <string name="battery_used_for">Used for ^1</string>
   <string name="bearer">Bearer</string>
+  <string name="beauty_camera">Beautify for video calls</string>
+  <string name="beauty_camera_summary">Use Beautify for WeChat video calls</string>
+  <string name="beauty_camera_switch">Beautify</string>
   <string name="billing_cycle">Data warning &amp; limit</string>
   <string name="billing_cycle_fragment_summary">Monthly on day %1$s</string>
   <string name="billing_cycle_less_than_one_day_left">Less than 1 day left</string>
@@ -1220,13 +1227,13 @@ Selection"</string>
   <string name="bluetooth_unlock_change_matched_device">Choose other device</string>
   <string name="bluetooth_unlock_confirm_device_text">Tap Bluetooth device to confirm.</string>
   <string name="bluetooth_unlock_confirm_device_text_for_huami_watch">Tap the button on the watch to unlock.</string>
-  <string name="bluetooth_unlock_confirm_device_text_for_mi_wear">confirm on devices</string>
+  <string name="bluetooth_unlock_confirm_device_text_for_mi_wear">Confirm on device</string>
   <string name="bluetooth_unlock_confirm_device_text_for_miband2">Tap the button on device to unlock.</string>
   <string name="bluetooth_unlock_delete_device">Delete this device</string>
   <string name="bluetooth_unlock_delete_device_confirm_msg">Delete this device?</string>
   <string name="bluetooth_unlock_device_matched_text">Use this device to unlock.</string>
   <string name="bluetooth_unlock_no_matched_device_yet">No devices detected</string>
-  <string name="bluetooth_unlock_reject">remote device reject the unlock request</string>
+  <string name="bluetooth_unlock_reject">The request to unlock this device was rejected</string>
   <string name="bluetooth_unlock_settings_devices_title">Device</string>
   <string name="bluetooth_unlock_settings_toggle_title">Apply to</string>
   <string name="bluetooth_unlock_settings_unlock_device">Unlock device</string>
@@ -1238,7 +1245,7 @@ Selection"</string>
   <string name="bluetooth_unlock_title">Unlock with Bluetooth device</string>
   <string name="bluetooth_unlock_turned_off">Off</string>
   <string name="bluetooth_unlock_turned_on">On</string>
-  <string name="bluetooth_unlock_unsupport">unsupport version</string>
+  <string name="bluetooth_unlock_unsupport">"This device's firmware version isn't currently supported"</string>
   <string name="bluetooth_unpair_dialog_body">Your phone will no longer be paired with %1$s</string>
   <string name="bluetooth_unpair_dialog_forget_confirm_button">Forget device</string>
   <string name="bluetooth_unpair_dialog_title">Forget device?</string>
@@ -1507,6 +1514,8 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="choose_unlock_face_msg">Set a screen lock before recording face data.</string>
   <string name="choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
   <string name="choose_voice_input_title">Choose voice input</string>
+  <string name="classic_mode_summary">Switch to warmer colors to reduce the amount of blue light</string>
+  <string name="classic_mode_title">Classic</string>
   <string name="cleaner">Cleaner</string>
   <string name="clear_activities">Clear defaults</string>
   <string name="clear_activities_summary">Use this app for some operations by default</string>
@@ -2314,7 +2323,6 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="done">Done</string>
   <string name="done_button">Done</string>
   <string name="double_click_power_key">Double press the Power button</string>
-  <string name="double_knock">Knuckle double tap</string>
   <string name="double_tap_power_for_camera_suggestion_title">Open camera quickly</string>
   <string name="double_tap_power_for_camera_summary">To quickly open camera, press the power button twice. Works from any screen.</string>
   <string name="double_tap_power_for_camera_title">Jump to camera</string>
@@ -2382,6 +2390,7 @@ You can view generated logs in File Manager."</string>
   <string name="edge_to_edge_navigation_title">Gesture navigation</string>
   <string name="edit_rule">Edit rules</string>
   <string name="edit_rules">Edit</string>
+  <string name="effect_preview">Preview</string>
   <string name="eighthours">8 hours</string>
   <string name="emergency_address_summary">Used as your location when you make an emergency call over WLAN</string>
   <string name="emergency_address_title">Emergency Address</string>
@@ -2529,7 +2538,7 @@ For more details, contact your organization's admin."</string>
   <string name="error_adding_apn_type">Carrier does not allow adding APNs of type %s.</string>
   <string name="error_apn_empty">The APN can’t be empty.</string>
   <string name="error_apn_not_allowed">"This APN isn't allowed on this device. Try another one."</string>
-  <string name="error_apn_restrict_string">The APN field can’t contain %1$s</string>
+  <string name="error_apn_restrict_string">"The APN field can't contain %1$s"</string>
   <string name="error_capturing_system_heap_dump_message">Couldn’t capture system heap dump</string>
   <string name="error_mcc_not3">MCC field must be 3 digits.</string>
   <string name="error_mnc_not23">MNC field must be 2 or 3 digits.</string>
@@ -3086,6 +3095,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
 You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="high_power_prompt_title">Let app always run in background?</string>
   <string name="high_power_system">Battery optimization not available</string>
+  <string name="hint_unadjustable_text">"Can't adjust manually. Color temperature is adjusted automatically now."</string>
   <string name="history_details_title">History details</string>
   <string name="home">Settings Home</string>
   <string name="home_app">Launcher</string>
@@ -3413,7 +3423,6 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="last_synced">Last synced %1$s</string>
   <string name="last_time_used_label">Last time used</string>
   <string name="lattice_smartcover_title">Lattice front cover</string>
-  <string name="launch_ai_shortcut">Mi AI shortcut</string>
   <string name="launch_by_default">Open by default</string>
   <string name="launch_camera">Launch camera</string>
   <string name="launch_defaults_none">No defaults set</string>
@@ -4727,6 +4736,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="page_layout_small_title">XS</string>
   <string name="page_tab_title_summary">All</string>
   <string name="page_tab_title_support">Tips &amp; support</string>
+  <string name="paper_color_title">Colors</string>
   <string name="paper_mode_auto_twilight_summary">Switch to Reading mode after sunset automatically</string>
   <string name="paper_mode_auto_twilight_title">"Good night's read"</string>
   <string name="paper_mode_customize_time_summary">Turn on Reading mode for a custom period</string>
@@ -4736,8 +4746,12 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="paper_mode_get_location_dlg_negative_btn_text">Cancel</string>
   <string name="paper_mode_get_location_dlg_positive_btn_text">Go to Settings</string>
   <string name="paper_mode_get_location_dlg_title">Set location</string>
+  <string name="paper_mode_reset">Restore defaults</string>
   <string name="paper_mode_side_effect_hint">Higher intensity might affect the way content is displayed.</string>
   <string name="paper_mode_start_time_title">Turn on</string>
+  <string name="paper_mode_summary">Switch to warmer colors and add paper texture to backgrounds to reduce eye strain</string>
+  <string name="paper_mode_title">Paper</string>
+  <string name="papger_effect_category">Mode</string>
   <string name="partial_connectivity_text">Some apps and services may not work due to limited connectivity. Use anyway?</string>
   <string name="passpoint_content">%1$s credentials</string>
   <string name="passpoint_label">Saved via</string>
@@ -5439,7 +5453,7 @@ This setting affects all users on this phone."</string>
   <string name="screen">Screen</string>
   <string name="screen_cancel">Cancel</string>
   <string name="screen_color_and_optimize">Colors &amp; contrast</string>
-  <string name="screen_color_and_optimize_disabled">"Can't adjust color temperature in Reading mode"</string>
+  <string name="screen_color_and_optimize_disabled">"Can't adjust color scheme and color temperature in Reading mode"</string>
   <string name="screen_color_temperature">Color temperature</string>
   <string name="screen_color_temperature_and_saturation">Colors &amp; saturation</string>
   <string name="screen_compatibility_label">Screen compatibility</string>
@@ -5484,10 +5498,11 @@ This setting affects all users on this phone."</string>
   <string name="screen_on_proximity_sensor_summary">Lock touch gestures when placed in a pocket</string>
   <string name="screen_on_proximity_sensor_title">Pocket mode</string>
   <string name="screen_optimize">Colors</string>
-  <string name="screen_optimize_disabled">"Can't adjust contrast when Reading mode is on"</string>
+  <string name="screen_optimize_disabled">"Can't adjust color scheme in Reading mode"</string>
   <string name="screen_paper_mode_adjust_level">Adjust</string>
   <string name="screen_paper_mode_apps_loading">Just a sec…</string>
   <string name="screen_paper_mode_apps_title">Use Reading mode</string>
+  <string name="screen_paper_mode_description">Reading mode adjusts colors and textures of the items on your screen allowing your eyes to relax</string>
   <string name="screen_paper_mode_global_summary">Use Reading mode for all apps</string>
   <string name="screen_paper_mode_global_title">All apps</string>
   <string name="screen_paper_mode_hdr_toast">"Reading mode will be turned off while you're playing HDR videos. It will be turned back on automatically after the playback is over."</string>
@@ -5509,6 +5524,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_paper_mode_update_white_pkg_list_privacy_title">Internet connection</string>
   <string name="screen_paper_mode_update_white_pkg_list_summary">Update the list of apps which automatically use Reading mode</string>
   <string name="screen_paper_mode_update_white_pkg_list_title">Update automatically</string>
+  <string name="screen_paper_texture">Texture</string>
   <string name="screen_pinning_description">"When this setting is turned on, you can use screen pinning to keep the current screen in view until you unpin.
 
 To use screen pinning:
@@ -6003,6 +6019,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="set_data_warning">Set data warning</string>
   <string name="set_jeejen_prompt_message">Jeejen will be set as your default launcher. You can change the default launcher in Settings &gt; System settings &gt; Home screen &amp; Recents &gt; Default launcher.</string>
   <string name="set_jeejen_prompt_title">Confirm changes</string>
+  <string name="set_screen_paper_mode">Reading mode</string>
   <string name="setting_privacy_password">Set Privacy protection password</string>
   <string name="settings_ad_loading">Loading…</string>
   <string name="settings_ad_loading_unavailable">"Couldn't load info."</string>
@@ -6776,6 +6793,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tethering_hardware_offload_summary">Use tethering hardware acceleration if available</string>
   <string name="tethering_help_button_text">Help</string>
   <string name="tethering_settings_not_available">Change tethering settings in First space</string>
+  <string name="texture_adjust_temperature_title">Color temperature</string>
   <string name="the_way_of_wakeup_voice_assistant_summary">Wake up voice assistant in full screen mode (no virtual buttons)</string>
   <string name="theme_customization_accent_color_title">Accent color</string>
   <string name="theme_customization_category">Theming</string>
@@ -8103,6 +8121,8 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_type_approval_title">Type approval</string>
   <string name="wifi_unchanged">(unchanged)</string>
   <string name="wifi_unmetered_label">Unmetered</string>
+  <string name="wifi_unsaved_network_linking">SSID Bridging ‑ Auto Connection</string>
+  <string name="wifi_unsaved_network_linking_summary">Enable auto connection attempts to a new WPA/WPA2‑PSK 5GHz SSID with current connected WPA/WPA2‑PSK 2GHz SSID credentials on SSID and BSSID partial match</string>
   <string name="wifi_unspecified">Please select</string>
   <string name="wifi_update">Refresh stats</string>
   <string name="wifi_use_system_certs">Use system certificates</string>
@@ -8141,6 +8161,8 @@ Looks like credential storage isn't enabled."</string>
   <string name="wifi_wapi_psk_type">Password type</string>
   <string name="wifi_wapi_user_cert">User certificate</string>
   <string name="wifi_wapi_user_certificate">User certificate</string>
+  <string name="wifi_whitelist_roaming">SSID Bridging ‑ Fast Handover</string>
+  <string name="wifi_whitelist_roaming_summary">Enable roaming between different SSID WPA/WPA2‑PSK APs with same gateway MAC address</string>
   <string name="wifi_wps_available_first_item">WPS available</string>
   <string name="wifi_wps_available_second_item">" (WPS available)"</string>
   <string name="wifi_wps_connected">Connected to WLAN network %s</string>
