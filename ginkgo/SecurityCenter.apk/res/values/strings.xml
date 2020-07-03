@@ -168,8 +168,10 @@
   <string name="antivirus_privacy_dialog_cloudscan">Upload app names and details</string>
   <string name="antivirus_privacy_dialog_cloudscan_description">Upload and scan app names and details using online virus definitions.</string>
   <string name="antivirus_privacy_dialog_ok">OK</string>
-  <string name="antivirus_privacy_dialog_summary">"This feature encrypts and uploads your device's ID to Avast, AVL and Tencent's servers (%s)."</string>
   <string name="antivirus_privacy_dialog_summary_link">Privacy Policy</string>
+  <string name="antivirus_privacy_dialog_summary_new">&lt;Data&gt;This feature uses antivirus definitions provided by Avast, AVL, and Tencent. Read the related &amp;lt;a href=\"%1$s\"&amp;gt;license agreements&amp;lt;/a&amp;gt; to learn more.&lt;/Data&gt;</string>
+  <string name="antivirus_privacy_dialog_summary_not_have_avast">&lt;Data&gt;This feature uses antivirus definitions provided by AVL and Tencent. Read the related &amp;lt;a href=\"%1$s\"&amp;gt;license agreements&amp;lt;/a&amp;gt; to learn more.&lt;/Data&gt;</string>
+  <string name="antivirus_privacy_dialog_summary_not_have_tencent">&lt;Data&gt;This feature uses antivirus definitions provided by Avast and AVL. Read the related &amp;lt;a href=\"%1$s\"&amp;gt;license agreements&amp;lt;/a&amp;gt; to learn more.&lt;/Data&gt;</string>
   <string name="antivirus_privacy_dialog_title">Privacy Policy</string>
   <string name="antivirus_sec_network_unavailable">"Security can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
   <string name="antivirus_toast_already_update">Up to date</string>
@@ -801,6 +803,10 @@ You will not lose any app data."</string>
   <string name="choose">Choose</string>
   <string name="choose_gs_show_way">Select home page orientation</string>
   <string name="clean_immediately">Clear</string>
+  <string name="clean_master_icon_recall_button_text">Add</string>
+  <string name="clean_master_icon_recall_summary">Add a Home screen shortcut to clear trash anytime you need.</string>
+  <string name="clean_master_icon_recall_title">Clear trash faster</string>
+  <string name="clean_master_icon_recall_toast_text">Added a Home screen shortcut for Cleaner successfully</string>
   <string name="cleaned">Cleared</string>
   <string name="clear_garbage">Clear trash to free up space</string>
   <string name="clear_immediately">Clean now</string>
@@ -2848,7 +2854,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="section_title_clear_acc">Clear cache</string>
   <string name="section_title_security_defend">Security</string>
   <string name="section_title_system">System security</string>
-  <string name="security_bottom_guide_to_pm_text">Opening Utility Kit…</string>
+  <string name="security_bottom_guide_to_pm_text">Release to open utilities</string>
   <string name="security_center_slogan">Keep your device fast and secure</string>
   <string name="security_guide_bubble_text">Open</string>
   <string name="security_guide_summary">One-stop spot for tools and services</string>
