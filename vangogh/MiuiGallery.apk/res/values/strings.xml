@@ -278,6 +278,13 @@
   <string name="burst_save_choice_title" formatted="false">Selected %d out of %d</string>
   <string name="burst_save_error_msg">"Couldn't save"</string>
   <string name="burst_save_processing">Processing…</string>
+  <string name="burst_save_video">Save as video</string>
+  <string name="burst_save_video_choice_1080">%dp</string>
+  <string name="burst_save_video_choice_4k">%dK</string>
+  <string name="burst_save_video_choice_720">%dp</string>
+  <string name="burst_save_video_fail">"Couldn't save"</string>
+  <string name="burst_save_video_progerss">Creating video…</string>
+  <string name="burst_save_video_title">Video resolution</string>
   <string name="burst_transition_image_view">photo_view_burst</string>
   <string name="buy_member_tip">Become a member</string>
   <string name="by_email">Email</string>
@@ -1171,9 +1178,12 @@ are available"</string>
   <string name="file_cannot_screen_throw">"Can't cast this item."</string>
   <string name="file_sending">Transferring files…</string>
   <string name="filter_bg_color_component">0.968</string>
+  <string name="filter_category_classic">Classic</string>
   <string name="filter_category_general">General</string>
   <string name="filter_category_master">Master</string>
   <string name="filter_category_movie">Movie</string>
+  <string name="filter_category_popular">Popular</string>
+  <string name="filter_category_portrait">Portrait</string>
   <string name="filter_category_sky">Sky</string>
   <string name="filter_general_blackice">Black ice</string>
   <string name="filter_general_blackwhite">B&amp;W</string>
@@ -1212,7 +1222,13 @@ are available"</string>
   <string name="filter_movie_travel">Travel</string>
   <string name="filter_movie_wonderful">Wonder</string>
   <string name="filter_original">None</string>
+  <string name="filter_popular_humanity">Documentary</string>
+  <string name="filter_popular_lnk">Ink</string>
+  <string name="filter_popular_purple">Purple</string>
+  <string name="filter_portrait_greyish">Ash</string>
   <string name="filter_portrait_hint">Color focus</string>
+  <string name="filter_portrait_mist">Mist</string>
+  <string name="filter_portrait_painting">Painting</string>
   <string name="filter_single_sky">Skyscaping</string>
   <string name="filter_sky_bikong">Azure</string>
   <string name="filter_sky_clear_sky">Clear sky</string>
@@ -1420,6 +1436,7 @@ are available"</string>
   <string name="loading_image_thumbnail">Downloading thumbnail…</string>
   <string name="loading_members">Loading members2026</string>
   <string name="loading_suspend">Download paused. Will resume when Wi-Fi is available.</string>
+  <string name="loading_text_format" formatted="false">Removing private info from photos (%d/%d)…</string>
   <string name="loading_video">Downloading video…</string>
   <string name="loading_video_compress_lib">Downloading video compression plug-in…</string>
   <string name="loading_video_fail_sync_without_network">Connect to the network to download metadata</string>
@@ -1642,7 +1659,9 @@ to personalize Gallery"</string>
   <string name="onekey_none">Original</string>
   <string name="onekey_portrait">Portrait</string>
   <string name="onekey_scene">Landscape</string>
-  <string name="online_video_normal_transcoding">This video is being transcoded now. Wait a minute or two and try again.</string>
+  <string name="online_video_error_unknown">Online playback error occurred. Downloaded the item instead.</string>
+  <string name="online_video_error_unsupported_type">"Online player doesn't support this format. Downloaded the item instead."</string>
+  <string name="online_video_normal_transcoding">"Online player isn't ready yet. Downloaded the item instead."</string>
   <string name="online_video_vip_tip">Become a VIP member to stream videos without fully preloading them</string>
   <string name="online_video_vip_transcoding">"About to start VIP streaming…
 Transcoding might take some time when you use this feature for the first time."</string>
@@ -1992,12 +2011,19 @@ Transcoding might take some time when you use this feature for the first time."<
   <string name="screen_doodle_talkback_size">Doodle line width</string>
   <string name="screen_editor_btn_delete">Delete</string>
   <string name="screen_editor_btn_save">Save</string>
+  <string name="screen_editor_btn_shell_off">Remove device frame</string>
+  <string name="screen_editor_btn_shell_on">Add device frame</string>
   <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+  <string name="screen_editor_crop_disallowed_with_shell">"Can't crop screenshots with device frame"</string>
   <string name="screen_editor_delete_dialog_msg">Delete this screenshot?</string>
   <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
   <string name="screen_editor_finish">Done</string>
   <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
   <string name="screen_editor_send">@string/operation_send</string>
+  <string name="screen_editor_shell_disallowed_with_crop">"Can't add device frame to cropped screenshots"</string>
+  <string name="screen_editor_shell_net_error">Connect to the network to download device frame</string>
+  <string name="screen_editor_shell_res_downloading">Downloading device frame…</string>
+  <string name="screen_editor_shell_storage_insufficient">"Can't download device frame due to insufficient storage space"</string>
   <string name="screen_editor_text">@string/photo_editor_text</string>
   <string name="screen_save_dialog_btn_cancel">Cancel</string>
   <string name="screen_save_dialog_btn_delete">Delete screenshot</string>
@@ -2186,6 +2212,7 @@ Transcoding might take some time when you use this feature for the first time."<
   <string name="special_type_night_mode">AI night mode</string>
   <string name="special_type_portrait">AI light painting portrait</string>
   <string name="special_type_raw">RAW</string>
+  <string name="special_type_real_8k">8K</string>
   <string name="special_type_wide_angle">AI ultra wide angle</string>
   <string name="start_debug">Debug Gallery</string>
   <string name="start_to_use_face_albumset">Sort by people</string>
@@ -2323,6 +2350,8 @@ Transcoding might take some time when you use this feature for the first time."<
   <string name="thursday">Thursday</string>
   <string name="thursday_short">Thu</string>
   <string name="thursday_shortest">Thu</string>
+  <string name="time_burst_photo_enter">Timed burst shot</string>
+  <string name="time_burst_preview_title">Timed burst shot</string>
   <string name="time_picker_dialog_title">Set time</string>
   <string name="time_picker_label_hour">H</string>
   <string name="time_picker_label_minute">M</string>
