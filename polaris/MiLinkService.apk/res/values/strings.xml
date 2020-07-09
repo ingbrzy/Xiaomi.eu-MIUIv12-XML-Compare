@@ -27,6 +27,7 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="account_other">Other</string>
   <string name="actionbar_button_up_description">Back</string>
   <string name="afternoon">PM</string>
   <string name="am">AM</string>
@@ -106,6 +107,9 @@
   <string name="chinese_symbol_animals_snake">蛇</string>
   <string name="chinese_symbol_animals_tiger">虎</string>
   <string name="clearable_edittext_clear_description">Clear</string>
+  <string name="close_hotspot_hint">Turn off portable hotspot before casting</string>
+  <string name="close_slave_wifi_hint">Disconnect from auxiliary Wi-Fi networks before casting</string>
+  <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
   <string name="console_guide_btn_got_it">Got it</string>
   <string name="console_guide_subtitle_hang_up">You can keep casting when the screen of your device is turned off. This feature decreases power consumption.</string>
   <string name="console_guide_subtitle_private">"Don't display floating notifications, incoming calls, and other private items on external monitors"</string>
@@ -157,6 +161,7 @@ View help if you have problems connecting."</string>
   <string name="earthly_branches_you">酉</string>
   <string name="earthly_branches_zi">子</string>
   <string name="empty"/>
+  <string name="enable_screen_projection_summary">Cast screen contents to an external monitor</string>
   <string name="eras_ad">AD</string>
   <string name="eras_bc">BC</string>
   <string name="evening">PM</string>
@@ -304,6 +309,8 @@ If you need to turn on Miracast, press the [MENU] button and select My apps &gt;
   <string name="help_page_text_55_global">"If you can't connect to the network, make sure your external monitor supports Miracast functionality and it's turned on. On some models, this feature is called Wireless Display, Screen Mirroring, or Multiple screens.
 4. If you encounter any issues, you can report them using our \"Services &amp; feedback\" app."</string>
   <string name="help_page_text_end">"If the brand of your device isn't listed here, contact the manufacturer to learn more about casting functionality."</string>
+  <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
+  <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
   <string name="midnight">AM</string>
   <string name="miuix_appcompat_cloud_state_disabled">Sync with the cloud is off</string>
   <string name="miuix_appcompat_cloud_state_finished">Synced with the cloud</string>
@@ -362,27 +369,30 @@ If you need to turn on Miracast, press the [MENU] button and select My apps &gt;
   <string name="noon">PM</string>
   <string name="notification_rc_title">XiaoMi TV Assistant</string>
   <string name="notification_show_more">Tap to view more features</string>
+  <string name="open_game_accelerate">Turn on Game Turbo</string>
   <string name="pm">PM</string>
   <string name="privacy_agree">Agree</string>
-  <string name="privacy_detail">&lt;Data&gt;&amp;#35831;&amp;#24744;&amp;#21516;&amp;#24847;&amp;#24212;&amp;#29992;&amp;#32852;&amp;#32593;&amp;#21450;&amp;#20197;&amp;#19978;&amp;#24517;&amp;#35201;&amp;#26435;&amp;#38480;&amp;#65292;&amp;#38405;&amp;#35835;&amp;#24182;&amp;#21516;&amp;#24847;&amp;#25105;&amp;#20204;&amp;#30340;&amp;lt;a href=%1$s&amp;gt;&amp;#12298;&amp;#29992;&amp;#25143;&amp;#21327;&amp;#35758;&amp;#12299;&amp;lt;/a&amp;gt;&amp;#19982;&amp;lt;a href=%2$s&amp;gt;&amp;#12298;&amp;#38544;&amp;#31169;&amp;#25919;&amp;#31574;&amp;#12299;&amp;lt;/a&amp;gt;&amp;#65292;&amp;#20102;&amp;#35299;&amp;#24744;&amp;#30340;&amp;#29992;&amp;#25143;&amp;#26435;&amp;#30410;&amp;#21450;&amp;#30456;&amp;#20851;&amp;#20351;&amp;#29992;&amp;#25968;&amp;#25454;&amp;#30340;&amp;#22788;&amp;#29702;&amp;#26041;&amp;#27861;&amp;#12290;&lt;/Data&gt;</string>
-  <string name="privacy_detail_extra">&lt;Data&gt;&amp;#37096;&amp;#20998;&amp;#25237;&amp;#23631;&amp;#21151;&amp;#33021;&amp;#26377;&amp;#31532;&amp;#19977;&amp;#26041;&amp;#20844;&amp;#21496;&amp;#20048;&amp;#25773;&amp;#25237;&amp;#23631;&amp;#25552;&amp;#20379;&amp;#25903;&amp;#25345;&amp;#65292;&amp;#35831;&amp;#24744;&amp;#21516;&amp;#26102;&amp;#38405;&amp;#35835;&amp;#24182;&amp;#21516;&amp;#24847;&amp;lt;a href=%1$s&amp;gt;&amp;#12298;&amp;#20048;&amp;#25773;&amp;#25237;&amp;#23631;&amp;#38544;&amp;#31169;&amp;#25919;&amp;#31574;&amp;#12299;&amp;lt;/a&amp;gt;&amp;#19982;&amp;lt;a href=%2$s&amp;gt;&amp;#12298;&amp;#20048;&amp;#25773;&amp;#25237;&amp;#23631;&amp;#27861;&amp;#24459;&amp;#22768;&amp;#26126;&amp;#12299;&amp;lt;/a&amp;gt;&lt;/Data&gt;</string>
-  <string name="privacy_explain">欢迎使用投屏，您可使用本应用将手机画面实时同步至电视/电视盒子/投影等大屏设备。在使用本应用的过程中，我们将联网并向您申请以下权限：</string>
+  <string name="privacy_detail">&lt;Data&gt;This app needs to connect to the internet and collect the required personal data to be able to work normally. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &amp;lt;a href=%1$s&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=%2$s&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;.&lt;/Data&gt;</string>
+  <string name="privacy_detail_extra">&lt;Data&gt;Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &amp;lt;a href=%1$s&amp;gt;HappyCast Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=%2$s&amp;gt;HappyCast Legal Statement&amp;lt;/a&amp;gt;.&lt;/Data&gt;</string>
+  <string name="privacy_explain">"Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor. This app needs to connect to the internet and requires the following permissions to be able to work normally:"</string>
   <string name="privacy_link_1">http://cdn.hpplay.com.cn/xm/lbprivacy/index.html?langType=en</string>
   <string name="privacy_link_2">http://cdn.hpplay.com.cn/xm/lbservice/index.html?langType=en</string>
-  <string name="privacy_negative">退出</string>
-  <string name="privacy_permission_ble">开启/关闭蓝牙</string>
-  <string name="privacy_permission_ble_desc">使用蓝牙扫描附近可投屏的设备</string>
-  <string name="privacy_permission_location">获取设备的位置信息</string>
-  <string name="privacy_permission_location_desc">获取附近可投屏的设备信息</string>
-  <string name="privacy_permission_necessary">必要权限</string>
-  <string name="privacy_permission_necessary_desc">用于该应用的基本服务与功能</string>
+  <string name="privacy_negative">Exit</string>
+  <string name="privacy_permission_ble">Turning Bluetooth on and off</string>
+  <string name="privacy_permission_ble_desc">For finding available devices nearby</string>
+  <string name="privacy_permission_location">Accessing location</string>
+  <string name="privacy_permission_location_desc">For finding available devices nearby</string>
+  <string name="privacy_permission_necessary">Mandatory permissions</string>
+  <string name="privacy_permission_necessary_desc">These permissions are required to make the basic features and services of this app available.</string>
   <string name="privacy_permission_nfc">NFC</string>
-  <string name="privacy_permission_nfc_desc">使用NFC关联您要投屏的设备</string>
-  <string name="privacy_permission_optional">可选权限</string>
-  <string name="privacy_permission_optional_desc">用于附加功能，将在您使用相关功能时向您申请</string>
-  <string name="privacy_permission_wlan">开启/关闭WLAN</string>
-  <string name="privacy_permission_wlan_desc">使用WLAN扫描附近可投屏的设备</string>
-  <string name="privacy_positive">同意</string>
+  <string name="privacy_permission_nfc_desc">For pairing devices using NFC</string>
+  <string name="privacy_permission_optional">Optional permissions</string>
+  <string name="privacy_permission_optional_desc">"Used for additional features while you're using them"</string>
+  <string name="privacy_permission_wlan">Turning Wi-Fi on and off</string>
+  <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
+  <string name="privacy_permission_wlan_desc">For finding available devices nearby</string>
+  <string name="privacy_permission_wlan_desc_china">For finding available devices nearby</string>
+  <string name="privacy_positive">Agree</string>
   <string name="privacy_text_1">&lt;Data&gt;"Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor.
 We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies. Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &amp;lt;a href=%2$s&amp;gt;HappyCast Legal Statement&amp;lt;/a&amp;gt; and &amp;lt;a href=%1$s&amp;gt;HappyCast Privacy Policy&amp;lt;/a&amp;gt;.
 To be able to work normally, this app needs to connect to the internet and requires the following permissions in order to collect your personal information:"&lt;/Data&gt;</string>
@@ -392,7 +402,7 @@ Read and agree to our &amp;lt;a href=%1$s&amp;gt;User Agreement&amp;lt;/a&amp;gt
 　　•Record calls and audio in order to cast audio on external devices
 　　•Access phone number, IMEI, and IMSI to identify your device
 　　•Access your location to find devices nearby"</string>
-  <string name="privacy_title">用户须知</string>
+  <string name="privacy_title">Attention</string>
   <string name="private_protect">Hide private items</string>
   <string name="san_wait_msg_1">Turn on wireless casting on the target device</string>
   <string name="san_wait_msg_2">Searching for devices might take some time…</string>
@@ -401,6 +411,24 @@ Read and agree to our &amp;lt;a href=%1$s&amp;gt;User Agreement&amp;lt;/a&amp;gt
   <string name="saturday">Saturday</string>
   <string name="saturday_short">Sat</string>
   <string name="saturday_shortest">S</string>
+  <string name="screen_projection">Cast</string>
+  <string name="screen_projection_characteristics">Special features</string>
+  <string name="screen_projection_characteristics_off_screen_summary">You can keep casting when the screen of your device is turned off. This feature decreases power consumption.</string>
+  <string name="screen_projection_characteristics_off_screen_title">Cast with screen off</string>
+  <string name="screen_projection_characteristics_privacy_protect_summary">"Don't display floating notifications, incoming calls, and other private items on external monitors."</string>
+  <string name="screen_projection_characteristics_privacy_protect_title">Hide private items</string>
+  <string name="screen_projection_characteristics_small_window_summary">"Minimize the window that's being cast to be able to use other features of your phone."</string>
+  <string name="screen_projection_characteristics_small_window_title">Minimize window</string>
+  <string name="screen_projection_example_document_summary">Display presentations on an external monitor while using your phone to switch between slides and view notes. Go to File Manager &gt; Docs to try this feature.</string>
+  <string name="screen_projection_example_document_title">Documents</string>
+  <string name="screen_projection_example_gallery_summary">Tap the Share button under an item in the Gallery app to display it on an external monitor.</string>
+  <string name="screen_projection_example_gallery_title">Photos &amp; videos</string>
+  <string name="screen_projection_example_game_summary">Game Turbo allows you to cast games to an external monitor. Use the shortcut in the Game Turbo toolbox to turn this feature on.</string>
+  <string name="screen_projection_example_game_title">Games</string>
+  <string name="screen_projection_help">Help</string>
+  <string name="screen_projection_sample_summary">Casting documents, games, photos, and videos</string>
+  <string name="screen_projection_sample_title">Demos</string>
+  <string name="screen_projection_title">Cast</string>
   <string name="sdk_name">lebo</string>
   <string name="search_menu_title">Search</string>
   <string name="small_window">Minimize window</string>
