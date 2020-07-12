@@ -127,10 +127,11 @@ and adjust preferences automatically"</string>
   <string name="ambilight_intro_crowd_moving_part2">You can also take pictures of busy traffic and moving crowds. Long exposure will keep the buildings crisp, but all moving objects will be blurry.</string>
   <string name="ambilight_intro_light_track">Use a light source to \"paint\" over a dark scene to bring all the lit pieces together in one image.</string>
   <string name="ambilight_intro_magic_star">Use this mode in places with low light pollution. The exposure will be set to %d seconds, so using a tripod is a great idea.</string>
+  <string name="ambilight_intro_magic_star_ae">在光污染较少的场所进行拍摄，即可拍出璀璨的星空；最久需要拍摄%d秒，请使用三脚架</string>
   <string name="ambilight_intro_silky_water_part1">Use this mode when shooting moving clouds. It will give the sky an \"oil painting\" effect.</string>
   <string name="ambilight_intro_silky_water_part2">This mode makes moving water (rivers, waterfalls, and lakes) look like satin.</string>
   <string name="ambilight_intro_star_track">"Shooting the starry sky for a long time can capture the trajectories of stars. Don't forget to use a tripod and shoot continuously for at least %d minutes."</string>
-  <string name="ambilight_intro_star_track_2">对星空进行长时间的拍摄，可将星星的移动路径完整保留在画面中，请使用三脚架。拍摄%d分钟以上时，可同时获得星轨视频与照片。</string>
+  <string name="ambilight_intro_star_track_2">"Shooting the starry sky for a long time can capture the trajectories of stars. Don't forget to use a tripod! Shoot continuously for at least %d minutes to be able to get both photos and videos."</string>
   <string name="ambilight_intro_traffic_light">At night, you can capture the trajectory of bright moving lights (on cars and ships, for example). This mode allows to preview the final result on your screen in real time.</string>
   <string name="ambilight_scene_crowd_moving">Moving crowd</string>
   <string name="ambilight_scene_light_track">Light painting</string>
@@ -568,7 +569,6 @@ and adjust preferences automatically"</string>
   <string name="back_cepheus">3:SHOT ON MI 9:AI TRIPLE CAMERA:48MP TRIPLE CAMERA</string>
   <string name="back_cepheus_mi_9_explorer">3:SHOT ON MI 9 EXPLORER:AI TRIPLE CAMERA:48MP TRIPLE CAMERA</string>
   <string name="back_cepheus_mi_9_roy">3:SHOT ON MI 9 ROY:AI TRIPLE CAMERA:48MP TRIPLE CAMERA</string>
-  <string name="back_cezanne">4:REDMI K30 ULTRA</string>
   <string name="back_cmi">4:MI 10 PRO 5G:AI QUAD CAMERA:108MP QUAD CAMERA</string>
   <string name="back_common">2:SHOT ON MI PHONE:AI DUAL CAMERA:48MP DUAL CAMERA</string>
   <string name="back_crux">3:MI 9 PRO 5G:AI TRIPLE CAMERA:48MP TRIPLE CAMERA</string>
@@ -1113,7 +1113,7 @@ and adjust preferences automatically"</string>
   <string name="cas_c_28041_0x0007">true</string>
   <string name="cas_c_28041_0x0008">5</string>
   <string name="cas_c_28196_0x0005">true</string>
-  <string name="cas_c_28196_0x0006">false</string>
+  <string name="cas_c_28196_0x0006">true</string>
   <string name="cas_c_2974_0x0005">true</string>
   <string name="cas_c_32889_0x0001">true</string>
   <string name="cas_c_32889_0x0004">sat</string>
@@ -1339,7 +1339,7 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_0x44">false</string>
   <string name="cezanne_c_0x45">false</string>
   <string name="cezanne_c_0x46">false</string>
-  <string name="cezanne_c_0x47">v16</string>
+  <string name="cezanne_c_0x47">v17</string>
   <string name="cezanne_c_0x48">true</string>
   <string name="cezanne_c_0x49">false</string>
   <string name="cezanne_c_0x4a">false</string>
@@ -1357,9 +1357,11 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_16001_0x0001">true</string>
   <string name="cezanne_c_16001_0x0002">false</string>
   <string name="cezanne_c_17042_0x0003">true</string>
+  <string name="cezanne_c_19039_0x0000">true</string>
   <string name="cezanne_c_19039_0x0004">2:9248x6944</string>
   <string name="cezanne_c_19039_0x0005">2</string>
   <string name="cezanne_c_19039_0x0018">true</string>
+  <string name="cezanne_c_19039_0x0021">true</string>
   <string name="cezanne_c_22367_0x0002">false</string>
   <string name="cezanne_c_22367_0x0007">true</string>
   <string name="cezanne_c_22367_0x000b">0.6:1.0:2.0</string>
@@ -1786,11 +1788,11 @@ and adjust preferences automatically"</string>
   <string name="crux_s_u_w">true</string>
   <string name="crux_s_v_b">false</string>
   <string name="crux_s_v_f_m">true</string>
-  <string name="cta_msg">欢迎您使用相机！您可使用本应用进行拍照和视频录制。在使用本应用时，我们将联网并向您申请以下可选权限：</string>
-  <string name="cta_perm_dec">记录拍摄照片和视频的位置信息</string>
-  <string name="cta_perm_loc">获取位置信息</string>
-  <string name="cta_perm_type">可选权限（用于附加功能，将在使用相关权限时申请）</string>
-  <string name="cta_user_tips">&lt;Data&gt;&amp;#35831;&amp;#24744;&amp;#38405;&amp;#35835;&amp;#24182;&amp;#21516;&amp;#24847;&amp;#25105;&amp;#20204;&amp;#30340;&amp;lt;a href =%1$s&amp;gt;&amp;#12298;&amp;#29992;&amp;#25143;&amp;#21327;&amp;#35758;&amp;#12299;&amp;lt;/a&amp;gt;&amp;#19982;&amp;lt;a href =%2$s&amp;gt;&amp;#12298;&amp;#38544;&amp;#31169;&amp;#25919;&amp;#31574;&amp;#12299;&amp;lt;/a&amp;gt;&amp;#65292;&amp;#20102;&amp;#35299;&amp;#24744;&amp;#30340;&amp;#29992;&amp;#25143;&amp;#26435;&amp;#30410;&amp;#21450;&amp;#30456;&amp;#20851;&amp;#20351;&amp;#29992;&amp;#25968;&amp;#25454;&amp;#30340;&amp;#22788;&amp;#29702;&amp;#26041;&amp;#27861;&amp;#12290;&lt;/Data&gt;</string>
+  <string name="cta_msg">Welcome to Camera! You can use this app to take photos and shoot videos. This app needs to connect to the internet and requires the following optional permissions:</string>
+  <string name="cta_perm_dec">For adding location info to photos and videos</string>
+  <string name="cta_perm_loc">Location</string>
+  <string name="cta_perm_type">"Optional permissions (Used for additional features while you're using them)"</string>
+  <string name="cta_user_tips">&lt;Data&gt;To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &amp;lt;a href =%1$s&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href =%2$s&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;.&lt;/Data&gt;</string>
   <string name="curtana_a_l_h_l">320</string>
   <string name="curtana_a_l_l_l">360</string>
   <string name="curtana_c_0x00_s_l_s">true</string>
@@ -2609,6 +2611,7 @@ if you rotate your phone"</string>
   <string name="gauguin_c_19039_0x0002">false</string>
   <string name="gauguin_c_19039_0x0004">3:12000x9000</string>
   <string name="gauguin_c_19039_0x0005">1</string>
+  <string name="gauguin_c_19039_0x0008">true</string>
   <string name="gauguin_c_19039_0x0012">true</string>
   <string name="gauguin_c_19039_0x0021">true</string>
   <string name="gauguin_c_19086_0x0001">true</string>
@@ -2668,6 +2671,7 @@ if you rotate your phone"</string>
   <string name="gauguin_o_0x11_picture_water_mark">true</string>
   <string name="gauguin_o_0x12_magic_mirror">false</string>
   <string name="gauguin_o_0x13_age_detection">false</string>
+  <string name="gauguin_o_0x15_support_dual_sd_card">true</string>
   <string name="gauguin_o_0x16_support_psensor_pocket_mode">true</string>
   <string name="gauguin_o_0x18_support_camera_quick_snap">true</string>
   <string name="gauguin_o_0x19_camera_role">true</string>
@@ -2702,7 +2706,8 @@ if you rotate your phone"</string>
   <string name="gauguin_s_v_b">false</string>
   <string name="gauguin_s_v_f_m">true</string>
   <string name="gauguin_s_z_m">true</string>
-  <string name="gauguinpro_pro_c_0x02_p_c_r_v">0.873470846</string>
+  <string name="gauguinpro_pro_c_0x01_p_g_a_v">314</string>
+  <string name="gauguinpro_pro_c_0x02_p_c_r_v">0.9404793609</string>
   <string name="gauguinpro_pro_c_27845_0x0002">notelemfnr:1;telesr:1</string>
   <string name="gauguinpro_pro_parent">gauguin</string>
   <string name="ginkgo_a_l_h_l">350</string>
@@ -3094,6 +3099,7 @@ Print the copy wirelessly on A4 paper."</string>
   <string name="karna_c_27810_0x0002">capture_intent:no_pixel</string>
   <string name="karna_c_27810_0x0005">true</string>
   <string name="karna_c_27810_0x0008">true</string>
+  <string name="karna_c_27845_0x0002">mfnr:1</string>
   <string name="karna_c_27845_0x0004">true</string>
   <string name="karna_c_27845_0x0005">12100000</string>
   <string name="karna_c_28041_0x0000">3</string>
@@ -3101,11 +3107,13 @@ Print the copy wirelessly on A4 paper."</string>
   <string name="karna_c_28196_0x0002">true</string>
   <string name="karna_c_28196_0x0003">false</string>
   <string name="karna_c_28196_0x0005">true</string>
+  <string name="karna_c_2974_0x0005">true</string>
   <string name="karna_c_32889_0x0001">true</string>
   <string name="karna_c_32889_0x0004">macro:wide:ultra_wide</string>
   <string name="karna_c_33066_0x0002">true</string>
   <string name="karna_c_35893_0x0001">true</string>
   <string name="karna_c_35893_0x0002">true</string>
+  <string name="karna_c_35893_0x0007">true</string>
   <string name="karna_c_35955_0x0001">true</string>
   <string name="karna_c_35955_0x0002">2</string>
   <string name="karna_c_35955_0x0003">true</string>
@@ -3411,7 +3419,8 @@ Clean the lens for better effect."</string>
   <string name="lighting_hint_usage">"You can use studio lighting effects
 in Portrait mode"</string>
   <string name="lighting_lanshan">阑珊</string>
-  <string name="lighting_neon">霓虹</string>
+  <string name="lighting_movie_light_effect_title">电影光效</string>
+  <string name="lighting_neon">霓影</string>
   <string name="lighting_nostalgia">怀旧</string>
   <string name="lighting_pattern_dot">Dots</string>
   <string name="lighting_pattern_holi">Holi</string>
@@ -5278,7 +5287,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_module_settings">Modes</string>
   <string name="pref_more_mode_style_title">Camera modes</string>
   <string name="pref_mtk_video_quality_default">10</string>
-  <string name="pref_multi_camera_dual_video_front">前置</string>
+  <string name="pref_multi_camera_dual_video_front">Front camera</string>
   <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
   <string name="pref_new_slow_motion_video_quality_960_720only">You can only record 720p videos with 960fps</string>
   <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
@@ -6257,7 +6266,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="user_agree">Agree</string>
   <string name="user_define_watermark_cancel">Cancel</string>
   <string name="user_define_watermark_save">Save</string>
-  <string name="user_disagree">不同意</string>
+  <string name="user_disagree">"Don't agree"</string>
   <string name="user_notice_identify_summary_format">Before using Camera, you must agree to our &lt;a href="http://www.miui.com/res/doc/eula.html?lang=en_US"&gt;User Agreement&lt;/a&gt; and &lt;a href="http://www.miui.com/res/doc/privacy.html?lang=en_US"&gt;Privacy Policy&lt;/a&gt;. Camera also needs to connect to the internet to work normally. Agree?</string>
   <string name="user_notice_title">Terms and Conditions</string>
   <string name="v7_preference_off">OFF</string>
