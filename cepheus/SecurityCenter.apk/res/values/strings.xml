@@ -1305,6 +1305,13 @@ medical card"</string>
   <string name="first_aid_scanning_item4">Checking for battery issues…</string>
   <string name="first_aid_scanning_item5">Checking for other issues…</string>
   <string name="first_aid_stop_scan">Stop scanning</string>
+  <string name="first_settings_default_camera_title">Share without metadata by default</string>
+  <string name="first_settings_default_location_subtitle">Remove location info from shared photos</string>
+  <string name="first_settings_default_location_title">Share without location info by default</string>
+  <string name="first_settings_share_enable">Add \"Secure sharing\" badge</string>
+  <string name="first_settings_share_enable_subtitle">The items you share on WeChat will appear with a MIUI badge</string>
+  <string name="first_settings_subtitle">Here are the secure sharing options available to you:</string>
+  <string name="first_settings_title">Protect your privacy</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
@@ -1710,6 +1717,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="list_empty_text">Empty</string>
   <string name="load_only_under_wlan">Load using only Wi-Fi</string>
   <string name="loading">Just a sec…</string>
+  <string name="loading_text_format" formatted="false">Removing private info from photos (%d/%d)…</string>
   <string name="local_ip_exception_summary">"Couldn't get local IP address. To report this issue to MIUI, go to the Feedback app and send a log from your device."</string>
   <string name="lock_all_title">Lock all apps</string>
   <string name="lock_mode_title">Lock settings</string>
@@ -2063,6 +2071,9 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notification_channel_battery">Battery</string>
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
+  <string name="notification_garbage_clean_botton_text">Clear</string>
+  <string name="notification_garbage_clean_hint">Clear storage space</string>
+  <string name="notification_garbage_clean_size">Free up %s</string>
   <string name="notification_garbage_cleanup_summary">Clear trash (%s) to speed up your device</string>
   <string name="notification_garbage_cleanup_title">Clear trash files</string>
   <string name="notification_low_battery_action_btn">Turn on</string>
@@ -2074,6 +2085,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notification_masked_item">How to hide notification content?</string>
   <string name="notification_masked_subtitle">Use App lock to hide notification content for selected apps</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
+  <string name="notification_whatsapp_clean_button_text">Clear</string>
+  <string name="notification_whatsapp_clean_size">WhatsApp cache reached %s</string>
   <string name="notify_channel_mipush">Security push messages</string>
   <string name="notify_channel_name_behavior">Behavior history</string>
   <string name="notify_channel_name_security">System security</string>
@@ -2128,6 +2141,10 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="om_shortcut_added_toast_text">Added successfully</string>
   <string name="om_shortcut_dialog_summary">"RAM Jet allows you to clear memory and boost your device's speed in a single tap. Add RAM Jet to your Home screen?"</string>
   <string name="om_shortcut_dialog_title">RAM Jet</string>
+  <string name="once_settings_camera_ttile">Share without metadata</string>
+  <string name="once_settings_location_title">Share without location info</string>
+  <string name="once_settings_subtitle">How would you like to share the selected items?</string>
+  <string name="once_settings_title">Privacy protection</string>
   <string name="one_address_choose_hint">%s1</string>
   <string name="open_activity_err">The application was not found</string>
   <string name="open_alarm_right_now">立刻开启</string>
@@ -2882,10 +2899,18 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="settings">Data usage settings</string>
   <string name="settings_battery_consume_abnormal_summary">Receive notifications when battery is being drained fast</string>
   <string name="settings_battery_consume_abnormal_title">Battery drain notifications</string>
+  <string name="settings_camera_subtitle_no">No metadata</string>
   <string name="settings_category_other">Other settings</string>
   <string name="settings_category_overheat">Heating</string>
   <string name="settings_choice_no_notification">Off</string>
+  <string name="settings_image_camera_summary">Device model, metadata, etc.</string>
+  <string name="settings_location_subtitle_no">No location info</string>
   <string name="settings_power_save_ontime_title">Schedule</string>
+  <string name="settings_share_enable_summary">The items you share on WeChat will appear with a MIUI badge</string>
+  <string name="settings_share_info">Here are the secure sharing options available for the items shared from Gallery and File Manager:</string>
+  <string name="settings_show_detail">View details</string>
+  <string name="settings_tip">Go to Gallery &gt; Settings to view more options</string>
+  <string name="settings_title">Secure sharing</string>
   <string name="shake_send_sticker_summary">在微信与QQ中，摇一摇随机出现搞笑表情。逢年过节拼表情，从此易如反掌！</string>
   <string name="shield_keyboard_detail">Double tap the buttons to turn them back on</string>
   <string name="shield_keyboard_summary">Restrict buttons and full screen gestures during games</string>
@@ -3360,8 +3385,10 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
   <string name="text_button">Got it</string>
   <string name="text_cycle_day">%s</string>
   <string name="text_day"/>
+  <string name="text_done">OK</string>
   <string name="text_error">相关软件版本过低或未安装</string>
   <string name="text_lucky_alarm_before">红包活动即将开始</string>
+  <string name="text_security">Privacy</string>
   <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
   <string name="thermal_tips_title">Attention</string>
   <string name="third_application">Installed apps</string>
@@ -3596,6 +3623,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="vb_advanced_settings_after_open">After</string>
   <string name="vb_advanced_settings_before_open">Before</string>
   <string name="vb_advanced_settings_pic_stronger_desc">Make moving objects crisper by enhancing animations. This feature requires higher power consumption.</string>
+  <string name="vb_quick_func_auto_bgm">Recognize background music</string>
   <string name="vb_quick_func_hangup_listening">Play video sound with screen off</string>
   <string name="vb_quick_func_screen_capture">Screenshot</string>
   <string name="vb_quick_func_screen_record">Record</string>
