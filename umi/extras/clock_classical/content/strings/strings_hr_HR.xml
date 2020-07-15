@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <string name="date_time">dd.MM. EEEE</string>
-  <string name="date_time_12">dd.MM. EEEE</string>
-  <string name="desc_date_format">dd.MM. EEEE</string>
-  <string name="desc_date_format_12">dd.MM. EEEE</string>
-  <string name="desc_time">'vrijeme\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', dodirnite dva puta za prikaz sata'</string>
-</resources>
+<strings>
+    <string name="date_time" value="EEEE, d. MMMM">dd.MM. EEEE</string>
+    <string name="date_time_12" value="EEEE, d. MMMM">dd.MM. EEEE</string>
+    <string name="desc_date_format" value="EEEE, d. MMMM">dd.MM. EEEE</string>
+    <string name="desc_date_format_12" value="EEEE, d. MMMM">dd.MM. EEEE</string>
+</strings>
