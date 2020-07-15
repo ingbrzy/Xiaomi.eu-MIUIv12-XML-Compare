@@ -62,7 +62,7 @@
   <string name="actionbar_button_up_description">Back</string>
   <string name="ad_close">Close</string>
   <string name="ad_data_exception">Ad data error</string>
-  <string name="ad_recommend">Receive recommendations</string>
+  <string name="ad_recommend">Show ads</string>
   <string name="ad_setting">Additional settings</string>
   <string name="add_music">Add songs</string>
   <string name="add_to_last_of_playlist">Add to the end of playlist</string>
@@ -89,6 +89,7 @@
   <string name="already_favorited">Already favorited</string>
   <string name="always_use_metered">Always use mobile data</string>
   <string name="am">AM</string>
+  <string name="app_bugly_id">e5f6fa4ff3</string>
   <string name="app_code">MYPLAY-ANDROID-MIMUSIC</string>
   <string name="app_label">Downloads</string>
   <string name="app_name">sdk</string>
@@ -116,6 +117,8 @@
   <string name="artist_home_search_hint">Search for artists</string>
   <string name="artist_is_empty">Artist name can not be empty.</string>
   <string name="artist_name">Artist</string>
+  <string name="audio_ad_countdown">Skip ad in %ss</string>
+  <string name="audio_ad_pass">Skip ad</string>
   <string name="audio_picker_title">Choose a song</string>
   <string name="auto_recommend">Auto (recommended)</string>
   <string name="auto_sound_quality">Auto</string>
@@ -231,7 +234,7 @@
   <string name="columbus_player_close_video">CLOSE VIDEO</string>
   <string name="columbus_player_install_now">INSTALL NOW</string>
   <string name="columbus_player_learn_more">Learn More</string>
-  <string name="com.crashlytics.android.build_id">755d0a84-ebd8-4c2f-8d91-3175cdb0dab1</string>
+  <string name="com.crashlytics.android.build_id">286189e3-e51d-4456-8e6e-0895e8424794</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -678,6 +681,7 @@
   <string name="joox_account_login_conflict_message">"Looks like you're signed in on another device. Sign in here?"</string>
   <string name="joox_account_login_exception">Sign in again</string>
   <string name="joox_account_multi_device_login">Multiple devices</string>
+  <string name="joox_anonymous_name">Visitor</string>
   <string name="joox_area_check_failed">"Looks like you're in the area where our services aren't available. Connect to another network and launch the app again."</string>
   <string name="joox_auth_button_acquire_vip_instantly">Get VIP membership</string>
   <string name="joox_auth_button_login_to_acquire_vip">Sign in to get VIP membership</string>
@@ -702,15 +706,26 @@
   <string name="joox_auth_title_vip_content">VIP content</string>
   <string name="joox_auth_title_vip_expired">Membership expired</string>
   <string name="joox_auth_title_vip_function">VIP features</string>
+  <string name="joox_category_artist">Artists</string>
+  <string name="joox_category_playlist">Playlists</string>
+  <string name="joox_category_vip">Fan Center</string>
+  <string name="joox_download_tab_title">JOOX</string>
   <string name="joox_download_title">JOOX downloads</string>
   <string name="joox_privacy_desc">JOOX Privacy Policy (optional)</string>
+  <string name="joox_privacy_policy_url">http://www.tencent.com/en-us/privacy-policy.html</string>
   <string name="joox_privacy_tips_content">Read and agree to &lt;a href="/link/click"&gt;JOOX Privacy Policy&lt;/a&gt; before using online services.</string>
   <string name="joox_privacy_tips_title">JOOX Privacy Policy</string>
   <string name="joox_recommend_artist_title">Recommended artists</string>
   <string name="joox_recommend_playlist_title">Recommended playlists</string>
   <string name="joox_search_result_more">More</string>
+  <string name="joox_search_subtitle_prefix_album">album</string>
+  <string name="joox_search_subtitle_prefix_artist">artist</string>
+  <string name="joox_search_subtitle_prefix_playlist">playlist</string>
+  <string name="joox_search_subtitle_prefix_song">track</string>
   <string name="joox_vip_check_to_pay">Purchase</string>
   <string name="joox_vip_expired_hint">Your VIP membership expired. The songs downloaded from JOOX will only be displayed in your downloads.</string>
+  <string name="jooxdebugvip">JooxVip切换测试</string>
+  <string name="jooxtestlogin">Joox登录测试</string>
   <string name="keep_queued_download">Keep</string>
   <string name="ktv_playlist">KTV playlist</string>
   <string name="language_page_confirm">Confirm</string>
@@ -982,6 +997,10 @@
   <string name="preset_music_playlist">Mi Music playlist</string>
   <string name="priority_storage">Use external SD card</string>
   <string name="priority_storage_summary">Automatically download to external SD card if available</string>
+  <string name="privacy_authorize_network_error">"Couldn't connect to the network. Check your network settings and try again."</string>
+  <string name="privacy_authorize_revoke_failed">"Couldn't revoke authorization"</string>
+  <string name="privacy_authorize_revoke_success">Revoked authorization successfully</string>
+  <string name="privacy_authorize_revoking">Revoking authorization…</string>
   <string name="privacy_desc">Privacy Policy (mandatory)</string>
   <string name="privacy_policy">Privacy Policy</string>
   <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
@@ -996,11 +1015,14 @@
   <string name="ready_to_play">Up next</string>
   <string name="recently_played">Recently played</string>
   <string name="recently_played_songs">Recent</string>
+  <string name="recommend_artist_title">Recommended Artist</string>
   <string name="recommend_songs_when_playing_audio_files">Get song recommendations while listening to music</string>
   <string name="recommended_file_size_download_in_mobile">Use %s of mobile data to download this file?</string>
   <string name="recommended_no_file_size_download_in_mobile">Use your mobile data connection to download this file?</string>
   <string name="remove">Remove</string>
   <string name="remove_download">Remove</string>
+  <string name="remove_user_privacy_dialog_message">After you revoke authorization, Mi Music will stop collecting data, and all the related data will be deleted from the servers. This might make Mi Music virtually unusable. Revoke authorization anyway?</string>
+  <string name="remove_user_privacy_dialog_title">Revoking authorization</string>
   <string name="renew_dialog_title">"Go Pro
 Be Happy"</string>
   <string name="repeat_all_notif">Repeating all songs.</string>
@@ -1012,6 +1034,7 @@ Be Happy"</string>
   <string name="retry">Try again</string>
   <string name="retry_after_network_available">"Can't connect to the network. Check connection and try again."</string>
   <string name="retry_download">Try again</string>
+  <string name="revoke_upload_playlist_to_hungama_toast">"Online songs won't be synced to Hungama"</string>
   <string name="ringtone_editing">Ringtone editor</string>
   <string name="ringtone_not_support">"This song's format isn't supported"</string>
   <string name="ringtone_selected">Selected</string>
@@ -1275,8 +1298,17 @@ Be Happy"</string>
   <string name="upgrade_music">Update Music</string>
   <string name="upgrade_music_message">Updates are ready. Restart to update.</string>
   <string name="upgrading_in_backstage">Updating in the background…</string>
+  <string name="upload_playlist_to_hungama_negative_text">"Don't sync"</string>
+  <string name="upload_playlist_to_hungama_positive_text">Sync</string>
+  <string name="upload_playlist_to_hungama_title">Sync online songs to Hungama to be able to access them on other devices where you use your Mi Account.</string>
+  <string name="upload_playlist_to_hungama_toast">Online songs will be synced to Hungama</string>
   <string name="user_agreement">User Agreement</string>
   <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
+  <string name="user_privacy_dialog_negative_text">Cancel</string>
+  <string name="user_privacy_dialog_positive_count_down_text">Revoke (%ss)</string>
+  <string name="user_privacy_dialog_positive_text">Revoke</string>
+  <string name="user_privacy_setting_group_title">Authorization</string>
+  <string name="user_privacy_setting_title">Toggle the switch to grant or revoke your authorization</string>
   <string name="v7_preference_off">OFF</string>
   <string name="v7_preference_on">ON</string>
   <string name="version_info">Version</string>
