@@ -195,6 +195,8 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
+        <item>Enable Optional Codecs</item>
+        <item>Disable Optional Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Use System Selection (Default)</item>
@@ -244,16 +246,6 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
-    <string-array name="bluetooth_map_version_values">
-        <item>map12</item>
-        <item>map13</item>
-        <item>map14</item>
-    </string-array>
-    <string-array name="bluetooth_map_versions">
-        <item>MAP 1.2 (Default)</item>
-        <item>MAP 1.3</item>
-        <item>MAP 1.4</item>
-    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Disabled</item>
         <item>Enabled Filtered</item>
@@ -286,16 +278,6 @@
         <item>@color/bt_color_icon_6</item>
         <item>@color/bt_color_icon_7</item>
     </array>
-    <string-array name="cached_apps_freezer_entries">
-        <item>@string/cached_apps_freezer_device_default</item>
-        <item>@string/cached_apps_freezer_enabled</item>
-        <item>@string/cached_apps_freezer_disabled</item>
-    </string-array>
-    <string-array name="cached_apps_freezer_values">
-        <item>device_default</item>
-        <item>enabled</item>
-        <item>disabled</item>
-    </string-array>
     <string-array name="color_mode_descriptions">
         <item>Enhanced colors</item>
         <item>Natural colors as seen by the eye</item>

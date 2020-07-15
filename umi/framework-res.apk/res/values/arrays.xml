@@ -41,6 +41,7 @@
     <array name="carrier_properties" />
     <array name="common_nicknames" />
     <array name="config_allowedGlobalInstantAppSettings" />
+    <array name="config_allowedManagedServicesOnLowRamDevices" />
     <array name="config_allowedSecureInstantAppSettings" />
     <array name="config_allowedSystemInstantAppSettings" />
     <integer-array name="config_ambientBrighteningThresholds">
@@ -51,6 +52,7 @@
     </integer-array>
     <array name="config_ambientThresholdLevels" />
     <array name="config_ambientThresholdsOfPeakRefreshRate" />
+    <array name="config_apexBootImagePinnerServiceFiles" />
     <integer-array name="config_apfEthTypeBlackList">
         <item>0x000088A2</item>
         <item>0x000088A4</item>
@@ -143,25 +145,12 @@
         <item>com.android.providers.media</item>
         <item>com.android.systemui</item>
     </string-array>
-    <string-array name="config_biometric_sensors">
-        <item>0:2:15</item>
-    </string-array>
     <array name="config_brightnessThresholdsOfPeakRefreshRate" />
     <integer-array name="config_calendarDateVibePattern">
         <item>125</item>
         <item>30</item>
     </integer-array>
     <string-array name="config_callBarringMMI">
-        <item>33</item>
-        <item>331</item>
-        <item>332</item>
-        <item>35</item>
-        <item>351</item>
-        <item>330</item>
-        <item>333</item>
-        <item>353</item>
-    </string-array>
-    <string-array name="config_callBarringMMI_for_ims">
         <item>33</item>
         <item>331</item>
         <item>332</item>
@@ -179,15 +168,10 @@
         <item>30</item>
     </integer-array>
     <array name="config_convert_to_emergency_number_map" />
+    <string-array name="config_defaultCellBroadcastReceiverPkgs">
+        <item>com.android.cellbroadcastreceiver</item>
+    </string-array>
     <array name="config_defaultFirstUserRestrictions" />
-    <array name="config_defaultImperceptibleKillingExemptionPkgs" />
-    <integer-array name="config_defaultImperceptibleKillingExemptionProcStates">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>12</item>
-    </integer-array>
     <integer-array name="config_defaultNotificationVibePattern">
         <item>0</item>
         <item>350</item>
@@ -266,8 +250,6 @@
     </array>
     <string-array name="config_display_no_service_when_sim_unready">
         <item>DE</item>
-        <item>GB</item>
-        <item>JP</item>
     </string-array>
     <string-array name="config_dropboxLowPriorityTags">
         <item>data_app_strictmode</item>
@@ -279,9 +261,10 @@
         <item>system_server_strictmode</item>
         <item>system_server_wtf</item>
     </string-array>
-    <string-array name="config_emergency_iso_country_codes">
-        <item>in</item>
-    </string-array>
+    <integer-array name="config_emergency_mcc_codes">
+        <item>404</item>
+        <item>405</item>
+    </integer-array>
     <array name="config_ephemeralResolverPackage" />
     <array name="config_ethernet_interfaces" />
     <array name="config_face_acquire_biometricprompt_ignorelist" />
@@ -290,22 +273,17 @@
     <array name="config_face_acquire_vendor_biometricprompt_ignorelist" />
     <array name="config_face_acquire_vendor_enroll_ignorelist" />
     <array name="config_face_acquire_vendor_keyguard_ignorelist" />
-    <string-array name="config_forceQueryablePackages">
-        <item>com.android.settings</item>
-        <item>com.android.providers.settings</item>
-    </string-array>
     <string-array name="config_globalActionsList">
-        <item>emergency</item>
         <item>power</item>
         <item>restart</item>
         <item>lockdown</item>
         <item>logout</item>
         <item>bugreport</item>
+        <item>screenshot</item>
+        <item>emergency</item>
     </string-array>
     <array name="config_hideWhenDisabled_packageNames" />
     <array name="config_highRefreshRateBlacklist" />
-    <array name="config_integrityRuleProviderPackages" />
-    <array name="config_jitzygoteBootImagePinnerServiceFiles" />
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
@@ -413,11 +391,8 @@
         <item>com.android.server.notification.CriticalNotificationExtractor</item>
     </string-array>
     <array name="config_oemUsbModeOverride" />
-    <array name="config_packagesExemptFromSuspension" />
     <string-array name="config_priorityOnlyDndExemptPackages">
         <item>com.android.dialer</item>
-        <item>com.android.systemui</item>
-        <item>android</item>
     </string-array>
     <integer-array name="config_protectedNetworks">
         <item>10</item>
@@ -662,13 +637,8 @@
         <item>7</item>
     </integer-array>
     <array name="config_tether_usb_regexs" />
-    <array name="config_tether_wifi_p2p_regexs" />
     <array name="config_tether_wifi_regexs" />
     <array name="config_tether_wimax_regexs" />
-    <string-array name="config_toastCrossUserPackages">
-        <item>android</item>
-        <item>com.android.systemui</item>
-    </string-array>
     <array name="config_twoDigitNumberPattern" />
     <array name="config_usbHostBlacklist" />
     <integer-array name="config_virtualKeyVibePattern">
@@ -680,11 +650,11 @@
     <string-array name="config_vvmSmsFilterRegexes">
         <item>310004,310010,310012,310013,310590,310890,310910,311110,311270,311271,311272,311273,311274,311275,311276,311277,311278,311279,311280,311281,311282,311283,311284,311285,311286,311287,311288,311289,311390,311480,311481,311482,311483,311484,311485,311486,311487,311488,311489;^//VZWVVM.*</item>
     </string-array>
-    <array name="config_wakeonlan_supported_interfaces" />
     <string-array name="config_wearActivityModeRadios">
         <item>wifi</item>
     </string-array>
     <array name="config_wifi_dual_sap_interfaces" />
+    <array name="config_wifi_fatal_firmware_alert_error_code_list" />
     <array name="correct_brightness_game">
         <item>0.0733</item>
         <item>0.0733</item>
@@ -727,7 +697,6 @@
         <item>com.ss.android.article.video</item>
         <item>com.huajiao</item>
     </string-array>
-    <array name="cross_profile_apps" />
     <array name="dial_string_replace" />
     <array name="disallowed_apps_managed_device" />
     <array name="disallowed_apps_managed_profile" />
@@ -1496,8 +1465,6 @@
         <item>com.tencent.tmgp.pubgmhd</item>
         <item>com.tencent.tmgp.sgame</item>
     </string-array>
-    <array name="vendor_allowed_personal_apps_org_owned_device" />
-    <array name="vendor_cross_profile_apps" />
     <array name="vendor_disallowed_apps_managed_device" />
     <array name="vendor_disallowed_apps_managed_profile" />
     <array name="vendor_disallowed_apps_managed_user" />

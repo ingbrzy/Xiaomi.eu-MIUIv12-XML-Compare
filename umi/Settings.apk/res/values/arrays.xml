@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="accessibility_autoclick_control_selector_keys">
-        <item>accessibility_control_autoclick_default</item>
-        <item>accessibility_control_autoclick_200ms</item>
-        <item>accessibility_control_autoclick_600ms</item>
-        <item>accessibility_control_autoclick_1sec</item>
-        <item>accessibility_control_autoclick_custom</item>
-    </string-array>
-    <integer-array name="accessibility_autoclick_selector_values">
-        <item>0</item>
-        <item>200</item>
-        <item>600</item>
-        <item>1000</item>
-        <item>2000</item>
-    </integer-array>
     <string-array name="accessibility_timeout_control_selector_keys">
         <item>accessibility_control_timeout_default</item>
         <item>accessibility_control_timeout_10secs</item>
@@ -200,6 +186,11 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+    <string-array name="apn_not_allowed_entries">
+        <item>internet</item>
+        <item>ims</item>
+        <item>tethering</item>
     </string-array>
     <string-array name="apn_protocol_entries">
         <item>IPv4</item>
@@ -495,7 +486,6 @@
         <item>1xRTT</item>
         <item>IS95B</item>
         <item>IS95A</item>
-        <item>NR</item>
     </string-array>
     <string-array name="bearer_values">
         <item>0</item>
@@ -514,7 +504,6 @@
         <item>6</item>
         <item>5</item>
         <item>4</item>
-        <item>20</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
         <item>High quality mode (Default)</item>
@@ -699,16 +688,6 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
-    <string-array name="bluetooth_map_version_values">
-        <item>map12</item>
-        <item>map13</item>
-        <item>map14</item>
-    </string-array>
-    <string-array name="bluetooth_map_versions">
-        <item>MAP 1.2 (Default)</item>
-        <item>MAP 1.3</item>
-        <item>MAP 1.4</item>
-    </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Use System Default: %1$d</item>
         <item>1</item>
@@ -846,16 +825,6 @@
         <item>@android:string/megabyteShort</item>
         <item>@android:string/gigabyteShort</item>
     </array>
-    <string-array name="cached_apps_freezer_entries">
-        <item>@string/cached_apps_freezer_device_default</item>
-        <item>@string/cached_apps_freezer_enabled</item>
-        <item>@string/cached_apps_freezer_disabled</item>
-    </string-array>
-    <string-array name="cached_apps_freezer_values">
-        <item>device_default</item>
-        <item>enabled</item>
-        <item>disabled</item>
-    </string-array>
     <string-array name="captioning_color_selector_titles">
         <item>@string/color_unspecified</item>
         <item>@string/color_white</item>
@@ -950,17 +919,10 @@
         <item>3</item>
         <item>4</item>
     </integer-array>
-    <string-array name="captioning_font_size_selector_summaries">
-        <item>Very small text size</item>
-        <item>Small text size</item>
-        <item>Default text size</item>
-        <item>Large text size</item>
-        <item>Very large text size</item>
-    </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Very small</item>
         <item>Small</item>
-        <item>Default</item>
+        <item>Normal</item>
         <item>Large</item>
         <item>Very large</item>
     </string-array>
@@ -984,7 +946,7 @@
         <item>0xFFFFFFFF</item>
     </integer-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>Set by app</item>
+        <item>Use app defaults</item>
         <item>White on black</item>
         <item>Black on white</item>
         <item>Yellow on black</item>
@@ -1715,9 +1677,6 @@
     <array name="config_order_display_services" />
     <array name="config_order_interaction_control_services" />
     <array name="config_order_screen_reader_services" />
-    <string-array name="config_panel_keep_observe_uri">
-        <item>content://com.android.settings.slices/intent/media_output_indicator</item>
-    </string-array>
     <array name="config_preinstalled_audio_and_caption_services" />
     <array name="config_preinstalled_display_services" />
     <string-array name="config_preinstalled_interaction_control_services">
@@ -1728,12 +1687,6 @@
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
     <array name="config_settings_slices_accessibility_components" />
-    <string-array name="config_skip_reset_apps_package_name">
-        <item>android</item>
-        <item>com.android.providers.downloads</item>
-        <item>com.android.systemui</item>
-        <item>com.android.vending</item>
-    </string-array>
     <array name="config_suppress_injected_tile_keys" />
     <string-array name="connect_mode_entries">
         <item>Compatibility</item>
@@ -1747,21 +1700,16 @@
         <item>@string/cutout_mode_default</item>
         <item>@string/cutout_mode_always</item>
     </string-array>
-    <string-array name="daltonizer_mode_keys">
-        <item>daltonizer_mode_deuteranomaly</item>
-        <item>daltonizer_mode_protanomaly</item>
-        <item>daltonizer_mode_tritanomaly</item>
-    </string-array>
-    <string-array name="daltonizer_mode_summaries">
+    <string-array name="daltonizer_type_entries">
         <item>@string/daltonizer_mode_deuteranomaly</item>
         <item>@string/daltonizer_mode_protanomaly</item>
         <item>@string/daltonizer_mode_tritanomaly</item>
     </string-array>
-    <integer-array name="daltonizer_type_values">
+    <string-array name="daltonizer_type_values">
         <item>12</item>
         <item>11</item>
         <item>13</item>
-    </integer-array>
+    </string-array>
     <string-array name="dark_ui_mode_entries">
         <item>Dark</item>
         <item>Light</item>
@@ -1769,11 +1717,6 @@
     <string-array name="dark_ui_mode_values">
         <item>yes</item>
         <item>no</item>
-    </string-array>
-    <string-array name="dark_ui_scheduler_preference_titles">
-        <item>@string/dark_ui_auto_mode_never</item>
-        <item>@string/dark_ui_auto_mode_auto</item>
-        <item>@string/dark_ui_auto_mode_custom</item>
     </string-array>
     <string-array name="data_network_type_name_default">
         <item>4G</item>
@@ -1878,6 +1821,14 @@
         <item>@string/dndm_vip_list_starred_contact</item>
         <item>@string/dndm_vip_list_custom</item>
     </string-array>
+    <array name="double_knock">
+        <item>@drawable/double_knock01</item>
+        <item>@drawable/double_knock02</item>
+        <item>@drawable/double_knock03</item>
+        <item>@drawable/double_knock04</item>
+        <item>@drawable/double_knock05</item>
+        <item>@drawable/double_knock06</item>
+    </array>
     <string-array name="dream_timeout_entries">
         <item>Never</item>
         <item>15 seconds</item>
@@ -1903,12 +1854,6 @@
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
-    </string-array>
-    <string-array name="eap_ocsp_type">
-        <item>Do not validate</item>
-        <item>Request certificate status</item>
-        <item>Require certificate status</item>
-        <item>Require all non-trusted certificate statuses</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>None</item>
@@ -1985,24 +1930,6 @@
     <string-array name="enabled_networks_except_lte_values">
         <item>0</item>
         <item>1</item>
-    </string-array>
-    <string-array name="enabled_networks_gsm_wcdma_choices">
-        <item>@string/network_2G_only</item>
-        <item>@string/network_3G_only</item>
-        <item>@string/network_2G_3G_preferred</item>
-    </string-array>
-    <string-array name="enabled_networks_gsm_wcdma_values">
-        <item>1</item>
-        <item>2</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="enabled_networks_subsidy_locked_choices">
-        <item>LTE Only</item>
-        <item>GSM/WCDMA/LTE</item>
-    </string-array>
-    <string-array name="enabled_networks_subsidy_locked_values">
-        <item>11</item>
-        <item>9</item>
     </string-array>
     <string-array name="enabled_networks_tdscdma_choices">
         <item>@string/network_lte</item>
@@ -2102,6 +2029,17 @@
         <item>120</item>
         <item>60</item>
     </string-array>
+    <string-array name="game_driver_all_apps_preference_values">
+        <item>@string/game_driver_app_preference_default</item>
+        <item>@string/game_driver_app_preference_game_driver</item>
+        <item>@string/game_driver_app_preference_prerelease_driver</item>
+    </string-array>
+    <string-array name="game_driver_app_preference_values">
+        <item>@string/game_driver_app_preference_default</item>
+        <item>@string/game_driver_app_preference_game_driver</item>
+        <item>@string/game_driver_app_preference_prerelease_driver</item>
+        <item>@string/game_driver_app_preference_system</item>
+    </string-array>
     <string-array name="gesture_prevent_ringing_entries">
         <item>@string/prevent_ringing_option_vibrate</item>
         <item>@string/prevent_ringing_option_mute</item>
@@ -2111,17 +2049,6 @@
         <item>1</item>
         <item>2</item>
         <item>0</item>
-    </string-array>
-    <string-array name="graphics_driver_all_apps_preference_values">
-        <item>@string/graphics_driver_app_preference_default</item>
-        <item>@string/graphics_driver_app_preference_game_driver</item>
-        <item>@string/graphics_driver_app_preference_prerelease_driver</item>
-    </string-array>
-    <string-array name="graphics_driver_app_preference_values">
-        <item>@string/graphics_driver_app_preference_default</item>
-        <item>@string/graphics_driver_app_preference_prerelease_driver</item>
-        <item>@string/graphics_driver_app_preference_game_driver</item>
-        <item>@string/graphics_driver_app_preference_system</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5\u2033</item>
@@ -2375,16 +2302,6 @@
         <item>Street-snap-movie</item>
         <item>public_transportation_shortcuts</item>
     </string-array>
-    <string-array name="magnification_mode_summaries">
-        <item>@string/accessibility_magnification_area_settings_full_screen_summary</item>
-        <item>@string/accessibility_magnification_area_settings_window_screen_summary</item>
-        <item>@string/accessibility_magnification_area_settings_all_summary</item>
-    </string-array>
-    <integer-array name="magnification_mode_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </integer-array>
     <string-array name="max_number_titles">
         <item>6</item>
         <item>5</item>
@@ -2580,50 +2497,224 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
     </string-array>
     <string-array name="organized_locales">
+        <item>af</item>
+        <item>al</item>
         <item>dz</item>
+        <item>as</item>
+        <item>ad</item>
         <item>ao</item>
+        <item>ai</item>
+        <item>ag</item>
+        <item>ar</item>
+        <item>am</item>
+        <item>aw</item>
+        <item>au</item>
+        <item>at</item>
+        <item>az</item>
+        <item>bs</item>
         <item>bh</item>
+        <item>bd</item>
+        <item>bb</item>
+        <item>by</item>
+        <item>be</item>
+        <item>bz</item>
+        <item>bj</item>
+        <item>bt</item>
+        <item>bo</item>
+        <item>ba</item>
         <item>bw</item>
         <item>br</item>
+        <item>vg</item>
+        <item>bn</item>
+        <item>bg</item>
+        <item>bf</item>
+        <item>bi</item>
+        <item>kh</item>
         <item>cm</item>
+        <item>ca</item>
+        <item>cv</item>
+        <item>bq</item>
+        <item>ky</item>
+        <item>td</item>
+        <item>cl</item>
+        <item>co</item>
+        <item>km</item>
         <item>cd</item>
+        <item>ck</item>
+        <item>cr</item>
         <item>ci</item>
+        <item>hr</item>
+        <item>cu</item>
+        <item>cy</item>
+        <item>cz</item>
+        <item>dk</item>
+        <item>dj</item>
+        <item>dm</item>
+        <item>do</item>
+        <item>ec</item>
         <item>eg</item>
+        <item>sv</item>
         <item>gq</item>
+        <item>er</item>
+        <item>ee</item>
         <item>et</item>
+        <item>fk</item>
+        <item>fo</item>
+        <item>fj</item>
+        <item>fi</item>
         <item>fr</item>
+        <item>gf</item>
+        <item>pf</item>
+        <item>ga</item>
+        <item>gm</item>
+        <item>ge</item>
+        <item>de</item>
         <item>gh</item>
+        <item>gi</item>
+        <item>gr</item>
+        <item>gl</item>
+        <item>gd</item>
+        <item>gu</item>
+        <item>gt</item>
+        <item>gg</item>
+        <item>gn</item>
+        <item>gw</item>
+        <item>gy</item>
+        <item>ht</item>
+        <item>hn</item>
         <item>hk</item>
+        <item>hu</item>
+        <item>is</item>
         <item>in</item>
         <item>id</item>
         <item>ir</item>
+        <item>iq</item>
+        <item>ie</item>
+        <item>im</item>
+        <item>il</item>
+        <item>it</item>
+        <item>jm</item>
+        <item>jp</item>
+        <item>je</item>
+        <item>jo</item>
+        <item>kz</item>
         <item>ke</item>
+        <item>ki</item>
+        <item>kw</item>
+        <item>kg</item>
+        <item>la</item>
+        <item>lv</item>
+        <item>lb</item>
         <item>ls</item>
+        <item>lr</item>
+        <item>ly</item>
+        <item>li</item>
+        <item>lt</item>
+        <item>lu</item>
+        <item>mo</item>
+        <item>mk</item>
+        <item>mg</item>
         <item>mw</item>
         <item>my</item>
+        <item>mv</item>
+        <item>ml</item>
+        <item>mt</item>
+        <item>mh</item>
+        <item>mr</item>
+        <item>mu</item>
+        <item>yt</item>
         <item>mx</item>
+        <item>fm</item>
+        <item>md</item>
+        <item>mn</item>
+        <item>me</item>
+        <item>ms</item>
         <item>ma</item>
         <item>mz</item>
         <item>mm</item>
         <item>na</item>
+        <item>nr</item>
+        <item>np</item>
+        <item>nl</item>
+        <item>nc</item>
+        <item>nz</item>
+        <item>ni</item>
         <item>ng</item>
+        <item>nu</item>
+        <item>nf</item>
+        <item>kp</item>
+        <item>mp</item>
+        <item>no</item>
+        <item>om</item>
+        <item>pk</item>
+        <item>pw</item>
+        <item>ps</item>
+        <item>pa</item>
+        <item>pg</item>
+        <item>py</item>
+        <item>pe</item>
         <item>ph</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>pr</item>
         <item>qa</item>
+        <item>ro</item>
         <item>ru</item>
         <item>rw</item>
+        <item>sh</item>
+        <item>kn</item>
+        <item>lc</item>
+        <item>pm</item>
+        <item>vc</item>
+        <item>ws</item>
+        <item>sm</item>
+        <item>st</item>
+        <item>sa</item>
         <item>sn</item>
+        <item>rs</item>
+        <item>sc</item>
+        <item>sl</item>
         <item>sg</item>
+        <item>sk</item>
+        <item>si</item>
+        <item>sb</item>
+        <item>so</item>
         <item>za</item>
+        <item>gs</item>
         <item>kr</item>
+        <item>ss</item>
+        <item>es</item>
+        <item>lk</item>
+        <item>sd</item>
+        <item>sr</item>
         <item>sz</item>
+        <item>se</item>
+        <item>ch</item>
+        <item>sy</item>
         <item>tw</item>
+        <item>tj</item>
         <item>tz</item>
         <item>th</item>
+        <item>tl</item>
+        <item>tg</item>
+        <item>tk</item>
+        <item>to</item>
+        <item>tt</item>
+        <item>tn</item>
         <item>tr</item>
+        <item>tm</item>
+        <item>tv</item>
         <item>ug</item>
         <item>ua</item>
         <item>ae</item>
+        <item>gb</item>
+        <item>us</item>
+        <item>uy</item>
+        <item>uz</item>
+        <item>vu</item>
+        <item>ve</item>
         <item>vn</item>
+        <item>ye</item>
         <item>zm</item>
         <item>zw</item>
     </string-array>
@@ -2853,32 +2944,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>LTE/TDSCDMA/GSM/WCDMA</item>
         <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
         <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-        <item>NR only</item>
-        <item>NR/LTE</item>
-        <item>NR/LTE/CDMA/EvDo</item>
-        <item>NR/LTE/GSM/WCDMA</item>
-        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
-        <item>NR/LTE/WCDMA</item>
-        <item>NR/LTE/TDSCDMA</item>
-        <item>NR/LTE/TDSCDMA/GSM</item>
-        <item>NR/LTE/TDSCDMA/WCDMA</item>
-        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
-        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
     <string-array name="preferred_network_mode_choices_world_mode">
         <item>Global</item>
         <item>LTE / CDMA</item>
         <item>LTE / GSM / UMTS</item>
-    </string-array>
-    <string-array name="preferred_network_mode_gsm_wcdma_choices">
-        <item>GSM only</item>
-        <item>WCDMA only</item>
-        <item>GSM/WCDMA preferred</item>
-    </string-array>
-    <string-array name="preferred_network_mode_gsm_wcdma_values">
-        <item>1</item>
-        <item>2</item>
-        <item>0</item>
     </string-array>
     <string-array name="preferred_network_mode_values">
         <item>0</item>
@@ -2904,17 +2974,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>20</item>
         <item>21</item>
         <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
-        <item>32</item>
-        <item>33</item>
     </string-array>
     <string-array name="preferred_network_mode_values_world_mode">
         <item>10</item>
@@ -2973,12 +3032,6 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="remove_oldman_mode_device_list">
         <item>davinci</item>
         <item>raphael</item>
-    </string-array>
-    <string-array name="rtt_setting_mode">
-        <item></item>
-        <item>@string/rtt_settings_no_visible</item>
-        <item>@string/rtt_settings_visible_during_call</item>
-        <item>@string/rtt_settings_always_visible</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
@@ -3150,24 +3203,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>default,security,kernel</item>
         <item>kernel</item>
     </string-array>
-    <string-array name="setting_palette_colors">
-        <item>@string/color_red</item>
-        <item>@string/color_orange</item>
-        <item>@string/color_yellow</item>
-        <item>@string/color_green</item>
-        <item>@string/color_cyan</item>
-        <item>@string/color_blue</item>
-        <item>@string/color_purple</item>
-    </string-array>
-    <array name="setting_palette_data">
-        <item>@color/palette_list_color_red</item>
-        <item>@color/palette_list_color_orange</item>
-        <item>@color/palette_list_color_yellow</item>
-        <item>@color/palette_list_color_green</item>
-        <item>@color/palette_list_color_cyan</item>
-        <item>@color/palette_list_color_blue</item>
-        <item>@color/palette_list_color_purple</item>
-    </array>
     <string-array name="show_non_rect_clip_entries">
         <item>Off</item>
         <item>Draw non-rectangular clip region in blue</item>
@@ -3288,6 +3323,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>excalibur</item>
         <item>joyeuse</item>
         <item>lancelot</item>
+        <item>galahad</item>
     </string-array>
     <string-array name="swipe_direction_titles">
         <item>@string/swipe_direction_rtl</item>
@@ -3312,6 +3348,32 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@drawable/threedrop04</item>
         <item>@drawable/threedrop05</item>
         <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
@@ -3525,9 +3587,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>IPSec Xauth PSK</item>
         <item>IPSec Xauth RSA</item>
         <item>IPSec Hybrid RSA</item>
-        <item>IKEv2/IPSec MSCHAPv2</item>
-        <item>IKEv2/IPSec PSK</item>
-        <item>IKEv2/IPSec RSA</item>
     </string-array>
     <string-array name="vpn_types_long">
         <item>PPTP VPN</item>
@@ -3536,9 +3595,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>IPSec VPN with pre-shared keys and Xauth authentication</item>
         <item>IPSec VPN with certificates and Xauth authentication</item>
         <item>IPSec VPN with certificates and hybrid authentication</item>
-        <item>IKEv2/IPSec VPN with certificates and username/password authentication</item>
-        <item>IKEv2/IPSec VPN with pre-shared keys</item>
-        <item>IKEv2/IPSec VPN with certificates</item>
     </string-array>
     <string-array name="wapi_psk_type">
         <item>@string/wapi_psk_type_ascii</item>
@@ -3576,17 +3632,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2</item>
         <item>3</item>
     </string-array>
-    <string-array name="whitelist_hide_summary_in_battery_usage">
-        <item>com.google.android.googlequicksearchbox</item>
-    </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
         <item>Graphical</item>
         <item>Percentage (in the icon)</item>
         <item>Percentage (next to the icon in the Notification shade)</item>
-    </string-array>
-    <string-array name="wifi_ap_band">
-        <item>1</item>
-        <item>3</item>
     </string-array>
     <string-array name="wifi_ap_band_config_2G_5G">
         <item>@string/wifi_ap_choose_2G</item>
@@ -3599,27 +3648,27 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_choose_5G</item>
     </string-array>
-    <string-array name="wifi_ap_band_summary">
+    <string-array name="wifi_ap_band_dual_mode">
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="wifi_ap_band_dual_mode_summary">
         <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_prefer_5G</item>
     </string-array>
-    <string-array name="wifi_ap_band_vendor_config_full">
-        <item>1</item>
-        <item>3</item>
-        <item>8</item>
+    <string-array name="wifi_ap_band_summary_full">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
     </string-array>
-    <string-array name="wifi_ap_band_vendor_config_no_dual">
+    <string-array name="wifi_ap_band_vendor_config_full">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
     <string-array name="wifi_ap_band_vendor_summary_full">
         <item>@string/wifi_ap_choose_2G</item>
-        <item>@string/wifi_ap_prefer_5G</item>
-        <item>@string/wifi_ap_choose_vendor_dual_band</item>
-    </string-array>
-    <string-array name="wifi_ap_band_vendor_summary_no_dual">
-        <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_choose_5G</item>
+        <item>@string/wifi_ap_choose_vendor_both</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
@@ -3640,33 +3689,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Mobile</item>
         <item>WLAN only</item>
     </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_with_ims_preferred">
-        <item>Ims Preferred</item>
-        <item>WLAN</item>
-        <item>Mobile</item>
-        <item>WLAN only</item>
-    </string-array>
     <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
         <item>WLAN</item>
         <item>Mobile</item>
     </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only_with_ims_preferred">
-        <item>Ims Preferred</item>
-        <item>WLAN</item>
-        <item>Mobile</item>
-    </string-array>
-    <array name="wifi_calling_mode_choices_with_ims_preferred">
-        <item>@android:string/wfc_mode_ims_preferred_summary</item>
-        <item>@android:string/wfc_mode_wifi_preferred_summary</item>
-        <item>@android:string/wfc_mode_cellular_preferred_summary</item>
-        <item>@android:string/wfc_mode_wifi_only_summary</item>
-    </array>
     <array name="wifi_calling_mode_choices_without_wifi_only">
-        <item>@android:string/wfc_mode_wifi_preferred_summary</item>
-        <item>@android:string/wfc_mode_cellular_preferred_summary</item>
-    </array>
-    <array name="wifi_calling_mode_choices_without_wifi_only_with_ims_preferred">
-        <item>@android:string/wfc_mode_ims_preferred_summary</item>
         <item>@android:string/wfc_mode_wifi_preferred_summary</item>
         <item>@android:string/wfc_mode_cellular_preferred_summary</item>
     </array>
@@ -3675,18 +3702,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/wifi_calling_mode_cellular_preferred_summary</item>
         <item>@string/wifi_calling_mode_wifi_only_summary</item>
     </string-array>
-    <string-array name="wifi_calling_mode_summaries_with_ims_preferred">
-        <item>@string/wifi_calling_mode_ims_preferred_summary</item>
-        <item>@string/wifi_calling_mode_wifi_preferred_summary</item>
-        <item>@string/wifi_calling_mode_cellular_preferred_summary</item>
-        <item>@string/wifi_calling_mode_wifi_only_summary</item>
-    </string-array>
     <string-array name="wifi_calling_mode_summaries_without_wifi_only">
-        <item>@string/wifi_calling_mode_wifi_preferred_summary</item>
-        <item>@string/wifi_calling_mode_cellular_preferred_summary</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_summaries_without_wifi_only_with_ims_preferred">
-        <item>@string/wifi_calling_mode_ims_preferred_summary</item>
         <item>@string/wifi_calling_mode_wifi_preferred_summary</item>
         <item>@string/wifi_calling_mode_cellular_preferred_summary</item>
     </string-array>
@@ -3695,18 +3711,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
         <item>0</item>
     </string-array>
-    <string-array name="wifi_calling_mode_values_with_ims_preferred">
-        <item>10</item>
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
     <string-array name="wifi_calling_mode_values_without_wifi_only">
-        <item>2</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_without_wifi_only_with_ims_preferred">
-        <item>10</item>
         <item>2</item>
         <item>1</item>
     </string-array>
@@ -3746,12 +3751,6 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="wifi_eap_method_add_sim_for_cmcc">
         <item>PEAP</item>
         <item>SIM</item>
-    </string-array>
-    <string-array name="wifi_eap_method_target_strings">
-        <item>"AKA'"</item>
-    </string-array>
-    <string-array name="wifi_eap_method_tts_strings">
-        <item>AKA prime</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automatic</item>
@@ -3794,15 +3793,24 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>PIN from this device</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
+        <item>None</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries_with_sim_auth">
+        <item>None</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
         <item>SIM</item>
         <item>AKA</item>
         <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
         <item>Use randomized MAC</item>
@@ -3883,14 +3891,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/wifi_security_none</item>
     </string-array>
     <string-array name="wifi_tether_security_values">
-        <item>1</item>
+        <item>4</item>
         <item>0</item>
-    </string-array>
-    <string-array name="wifi_ttls_phase2_entries">
-        <item>PAP</item>
-        <item>MSCHAP</item>
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
     </string-array>
     <string-array name="wifi_wapi_key_type">
         <item>WAPI ASCII</item>
@@ -3918,29 +3920,19 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/zen_mode_from_anyone</item>
         <item>@string/zen_mode_from_contacts</item>
         <item>@string/zen_mode_from_starred</item>
-        <item>@string/zen_mode_none_calls</item>
+        <item>@string/zen_mode_from_none_calls</item>
     </string-array>
     <string-array name="zen_mode_contacts_messages_entries">
         <item>@string/zen_mode_from_anyone</item>
         <item>@string/zen_mode_from_contacts</item>
         <item>@string/zen_mode_from_starred</item>
-        <item>@string/zen_mode_none_messages</item>
+        <item>@string/zen_mode_from_none_messages</item>
     </string-array>
     <string-array name="zen_mode_contacts_values">
         <item>zen_mode_from_anyone</item>
         <item>zen_mode_from_contacts</item>
         <item>zen_mode_from_starred</item>
         <item>zen_mode_from_none</item>
-    </string-array>
-    <string-array name="zen_mode_conversations_entries">
-        <item>@string/zen_mode_from_all_conversations</item>
-        <item>@string/zen_mode_from_important_conversations</item>
-        <item>@string/zen_mode_from_no_conversations</item>
-    </string-array>
-    <string-array name="zen_mode_conversations_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
     <string-array name="status_bar_settings_qs_layout_entries">
         <item>Default</item>
