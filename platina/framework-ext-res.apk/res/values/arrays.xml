@@ -63,6 +63,26 @@
         <item>3</item>
         <item>4</item>
     </integer-array>
+    <array name="config_bcbc_brt_change_node">
+        <item>0.048852</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.390816</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.586224</item>
+        <item>0.73278</item>
+    </array>
+    <array name="config_bcbc_brt_change_node_disable_auto_brt">
+        <item>0.048852</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.390816</item>
+        <item>0.073278</item>
+        <item>0.509804</item>
+        <item>0.745098</item>
+        <item>0.854902</item>
+    </array>
     <integer-array name="config_compensateSignalLevelValue">
         <item>0</item>
         <item>0</item>
@@ -72,6 +92,21 @@
         <item>0</item>
     </integer-array>
     <array name="config_crossSpaceNotificationPackageNames" />
+    <integer-array name="config_hbm_backlight_levels">
+        <item>0</item>
+        <item>3586</item>
+        <item>4095</item>
+    </integer-array>
+    <integer-array name="config_hbm_lux_levels">
+        <item>4500</item>
+        <item>10000</item>
+        <item>20000</item>
+    </integer-array>
+    <integer-array name="config_hbm_nit_levels">
+        <item>21</item>
+        <item>215</item>
+        <item>300</item>
+    </integer-array>
     <integer-array name="config_hightGrayBrightnessLevels">
         <item>150</item>
         <item>500</item>
@@ -1555,6 +1590,7 @@
         <item>com.xiaomi.mi_connect_service</item>
         <item>com.android.permissioncontroller</item>
         <item>com.ss.android.lark.kami</item>
+        <item>com.miui.maintenancemode</item>
     </string-array>
     <string-array name="screen_key_long_press_default_action">
         <item>voice_assistant</item>
