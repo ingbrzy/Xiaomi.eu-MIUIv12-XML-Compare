@@ -89,6 +89,7 @@
   <string name="ad_more">More</string>
   <string name="add_to_trust_device">This is a trusted device</string>
   <string name="agree">Agree</string>
+  <string name="agree_and_continue">Agree</string>
   <string name="ai_animation_music_text">AI soundtrack</string>
   <string name="ai_music_save_cancel">Cancel</string>
   <string name="ai_music_save_dialog_title">Save</string>
@@ -128,6 +129,7 @@
   <string name="cast_expanded_controller_ad_image_description">Image displayed while the cast receiver is playing an ad</string>
   <string name="cast_expanded_controller_ad_in_progress">Ad in progress…</string>
   <string name="cast_expanded_controller_background_image">Album art</string>
+  <string name="cast_expanded_controller_live_head_description">Current position is at the head of the live stream</string>
   <string name="cast_expanded_controller_live_stream_indicator">Live stream</string>
   <string name="cast_expanded_controller_loading">Loading…</string>
   <string name="cast_expanded_controller_skip_ad_label">Skip Ad</string>
@@ -138,6 +140,7 @@
   <string name="cast_intro_overlay_button_text">@android:string/ok</string>
   <string name="cast_invalid_stream_duration_text">--:--</string>
   <string name="cast_invalid_stream_position_text">--:--</string>
+  <string name="cast_live_label">LIVE</string>
   <string name="cast_mute">Mute</string>
   <string name="cast_notification_connected_message">Connected to %1$s</string>
   <string name="cast_notification_connecting_message">Connecting to %1$s</string>
@@ -175,6 +178,12 @@
   <string name="cloud_online_switch_close_time">You can turn on personalized content recommendations in %s</string>
   <string name="cloud_online_switch_open_time">Show personalized content recommendations</string>
   <string name="collect_diagnosis_log">Collect logs</string>
+  <string name="columbus_player_close_desc">You will lose your reward</string>
+  <string name="columbus_player_close_resume">RESUME VIDEO</string>
+  <string name="columbus_player_close_title">Close Video?</string>
+  <string name="columbus_player_close_video">CLOSE VIDEO</string>
+  <string name="columbus_player_install_now">INSTALL NOW</string>
+  <string name="columbus_player_learn_more">Learn More</string>
   <string name="com.crashlytics.android.build_id">ec71a063-3031-4779-b62b-ab7779274c23</string>
   <string name="com_facebook_device_auth_instructions">Visit &lt;b&gt;facebook.com/device&lt;/b&gt; and enter the code shown above.</string>
   <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
@@ -251,6 +260,7 @@
   <string name="confirm_unbundled_phone_dialog_message">This phone number was associated with Mi Account %2$s on %1$s. It will no longer be associated with Mi Account %3$s if you continue. Continue?</string>
   <string name="content">Content</string>
   <string name="content_can_not_null">"Can't submit feedback without description."</string>
+  <string name="continue_play">Resume</string>
   <string name="data_empty">No items here</string>
   <string name="day">day</string>
   <string name="default_filedownloader_notification_content">FileDownloader is running.</string>
@@ -262,13 +272,15 @@
   <string name="diagnosis_log_sent_format">"Sent logs successfully.
 ID:%s
 Send this code to the supervisor."</string>
-  <string name="dialog_privacy_info_new2">"To be able to use its services, you must agree that %1$s will collect, process, and use your personal information. You'll be deemed to have read and agreed to our &lt;a href=\"%2$s\"&gt;Privacy Policy&lt;/a&gt; when you tap \"Agree\" below."</string>
+  <string name="dialog_privacy_info_new2">"To be able to use its services, you must agree that %1$s will collect, process, and use your personal information. You'll be deemed to have read and agreed to our &lt;a href=%2$s&gt;Privacy Policy&lt;/a&gt; when you tap \"Agree\" below."</string>
+  <string name="dialog_privacy_info_new3">"To be able to use this service, you need to allow %1$s to collect, process, and use your personal information in accordance with the Privacy Policy. By tapping \"Agree\" below, you're agreeing to Xiaomi's &lt;a href=%2$s&gt;Privacy Policy&lt;/a&gt; and &lt;a href=%3$s&gt;User Agreement&lt;/a&gt;."</string>
   <string name="dialog_privacy_title">Authorization</string>
   <string name="dialog_revoke_privacy_info_new2">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from our servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
   <string name="dialog_revoke_privacy_title">Revoking authorization</string>
   <string name="diy_channels_tips">You can customize the list of your channels now.</string>
   <string name="do_not_show_again">"Don't show again"</string>
   <string name="download">Download</string>
+  <string name="download_checking_tip">Preparing to download…</string>
   <string name="download_complete">Downloaded</string>
   <string name="download_delete_tip">Delete selected items?</string>
   <string name="download_delete_title">Delete</string>
@@ -278,6 +290,7 @@ Send this code to the supervisor."</string>
   <string name="download_progress">%d%%</string>
   <string name="download_retry">Try again</string>
   <string name="download_space_info" formatted="false">%s, %s</string>
+  <string name="download_unable_tip">"Can't download this item"</string>
   <string name="download_video">Downloading video</string>
   <string name="downloading">Downloading…</string>
   <string name="empty_channels">Manage channels</string>
@@ -351,6 +364,7 @@ Send this code to the supervisor."</string>
   <string name="feedback_success_toast">Submitted successfully. Thanks for your feedback!</string>
   <string name="feedback_tag_title">Category</string>
   <string name="feedback_text_empty_toast">Enter your feedback first.</string>
+  <string name="file_cant_rename">File with %1$s name already exists. Please rename</string>
   <string name="find_psw">Forgot password</string>
   <string name="finish">Done</string>
   <string name="firebase_database_url">https://global-video-5cd70.firebaseio.com</string>
@@ -378,11 +392,14 @@ Send this code to the supervisor."</string>
   <string name="gallery_folder_alias_youku_video">Youku</string>
   <string name="gallery_tab_all">All</string>
   <string name="gallery_tab_videos">Videos</string>
+  <string name="galleryplus_already_cloud_member">Using VIP membership to play</string>
+  <string name="galleryplus_check_network">Settings</string>
   <string name="galleryplus_chose_play_speed">Playing at %1$.1fX speed</string>
   <string name="galleryplus_chose_play_speed_failure">"Couldn't adjust playback speed"</string>
   <string name="galleryplus_click_to_higher_definition">Double tap to open HD preview</string>
   <string name="galleryplus_cta_tips">You can help us improve our services by enrolling in User Experience Program and allowing Mi Video to connect to the internet. Agree?</string>
   <string name="galleryplus_double_tap_to_higher_definition">Double tap again to open HD preview</string>
+  <string name="galleryplus_fr_unsupport_restore_speed">Unsupported frame rate. Switched back to regular speed.</string>
   <string name="galleryplus_gallery_fold_tags">Hide marks</string>
   <string name="galleryplus_gallery_video_adjust_hint">Only 960fps videos are supported</string>
   <string name="galleryplus_gallery_video_adjust_text">Adjust</string>
@@ -402,6 +419,15 @@ Send this code to the supervisor."</string>
   <string name="galleryplus_gallery_video_slow_edit">Slow-motion</string>
   <string name="galleryplus_gallery_view_tags">Show marks</string>
   <string name="galleryplus_is_higher_definition">Opened HD preview</string>
+  <string name="galleryplus_network_connect_check">"Couldn't connect to the network"</string>
+  <string name="galleryplus_network_connect_confirm">Connect to Wi-Fi or turn on mobile data in the network settings.</string>
+  <string name="galleryplus_network_error">"Couldn't connect to the network"</string>
+  <string name="galleryplus_network_not_wifi">Using mobile data to stream videos may generate additional carrier fees</string>
+  <string name="galleryplus_online_cta">Mi Video needs to connect to the internet to work normally. Agree?</string>
+  <string name="galleryplus_online_cta_agree">Agree</string>
+  <string name="galleryplus_online_cta_disagree">"Don't agree"</string>
+  <string name="galleryplus_online_cta_title">Terms and conditions</string>
+  <string name="galleryplus_online_video_loading">Just a sec…</string>
   <string name="galleryplus_permission_content">Give Mi Video the required permissions to be able to use this feature.</string>
   <string name="galleryplus_permission_content2">"To be able to use this feature, go to Settings &gt; Apps &gt; Mi Video &gt; App permissions and allow Mi Video to do the following:
 
@@ -452,6 +478,7 @@ Send this code to the supervisor."</string>
   <string name="google_application_id"/>
   <string name="google_crash_reporting_api_key">AIzaSyBmWA13ZtMoPDvgTFVtmG4anqKADZ_XnNg</string>
   <string name="google_storage_bucket">global-video-5cd70.appspot.com</string>
+  <string name="got_it">Got it</string>
   <string name="goto_sign_up">Create account</string>
   <string name="have_learned">Got it</string>
   <string name="hidden_channels">"The following channels won't be displayed on the Home page."</string>
@@ -599,7 +626,7 @@ for videos"</string>
   <string name="lv_subtitle_onlinesub_loading">Loading subtitles…</string>
   <string name="lv_subtitle_onlinesub_loading_wait">Loading subtitles…</string>
   <string name="lv_subtitle_onlinesub_right_declare">Disclaimer</string>
-  <string name="lv_subtitle_onlinesub_right_declare_content">Get subtitles &lt;br/&gt;&lt;br/&gt;from &lt;a href=\"http://www.opensubtitles.org\"&gt;opensubtitles.org&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;All online subtitles are provided by &lt;a href=\"http://www.opensubtitles.org\"&gt;opensubtitles.org&lt;/a&gt;.</string>
+  <string name="lv_subtitle_onlinesub_right_declare_content">Get subtitles &lt;br/&gt;&lt;br/&gt;from &lt;a href=http://www.opensubtitles.org&gt;opensubtitles.org&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;All online subtitles are provided by &lt;a href=http://www.opensubtitles.org&gt;opensubtitles.org&lt;/a&gt;.</string>
   <string name="lv_subtitle_onlinesub_save_failed">"Couldn't add subtitles"</string>
   <string name="lv_subtitle_onlinesub_save_success">Added subtitles successfully</string>
   <string name="lv_subtitle_onlinesub_search_keyword">Enter keywords to search</string>
@@ -621,6 +648,7 @@ for videos"</string>
   <string name="lv_video_null">No videos</string>
   <string name="lv_volume">Volume</string>
   <string name="manage">Manage</string>
+  <string name="mediation_ad_can_not_share">"Can't share this video"</string>
   <string name="mi_video">Mi Video</string>
   <string name="mnc_live_tv">Live TV</string>
   <string name="moment_guide_desc">Use gestures to zoom in and out</string>
@@ -670,6 +698,7 @@ for videos"</string>
   <string name="neverthink_player_loading">Loading Neverthink video …</string>
   <string name="new_channel_tip">Take a look at new channels!</string>
   <string name="next">Next</string>
+  <string name="next_step">Next</string>
   <string name="nick_name">Nickname</string>
   <string name="no_account">Not signed in</string>
   <string name="no_longer_prompt">"Don't show again"</string>
@@ -688,6 +717,8 @@ for videos"</string>
   <string name="notice_message_title">Notifications</string>
   <string name="notice_title">Messages</string>
   <string name="notification_bar">Notification shade</string>
+  <string name="notification_bar_player_subtitle">Show minimized player in the Notification shade</string>
+  <string name="notification_bar_player_title">Minimize player</string>
   <string name="notification_open_tip">Turn on to receive notifications</string>
   <string name="notify_apk_installed">Downloaded successfully</string>
   <string name="ok">OK</string>
@@ -863,8 +894,8 @@ Update Mi Video to the latest version first."</string>
   <string name="passport_unknow_error">An unknown error occurred</string>
   <string name="passport_unknow_host_network_error">Check your network settings and try again</string>
   <string name="passport_unknow_network_error">A network error occurred</string>
-  <string name="passport_user_agreement_link">"&lt;Data&gt;I've read and agree to Xiaomi's &lt;a href=\"%1$s\"&gt;User Agreement&lt;/a&gt; and &lt;a href=\"%2$s\"&gt;Privacy Policy&lt;/a&gt;.&lt;/Data&gt;"</string>
-  <string name="passport_user_agreement_link_more">"&lt;Data&gt;I've read and agree to the following documents: Xiaomi's &lt;a href=\"%1$s\"&gt;User Agreement&lt;/a&gt; and &lt;a href=\"%4$s\"&gt;Privacy Policy&lt;/a&gt;, &lt;a href=\"%2$s\"&gt;\"%3$s\"&lt;/a&gt;.&lt;/Data&gt;"</string>
+  <string name="passport_user_agreement_link">"&lt;Data&gt;I've read and agree to Xiaomi's &lt;a href=%1$s&gt;User Agreement&lt;/a&gt; and &lt;a href=%2$s&gt;Privacy Policy&lt;/a&gt;.&lt;/Data&gt;"</string>
+  <string name="passport_user_agreement_link_more">"&lt;Data&gt;I've read and agree to the following documents: Xiaomi's &lt;a href=%1$s&gt;User Agreement&lt;/a&gt; and &lt;a href=%4$s&gt;Privacy Policy&lt;/a&gt;, &lt;a href=%2$s&gt;%3$s&lt;/a&gt;.&lt;/Data&gt;"</string>
   <string name="passport_user_id_intro">Enter password for %1$s</string>
   <string name="passport_v_code_error">Verification code is incorrect</string>
   <string name="passport_vcode_notification_title">Your sign-in verification is incomplete</string>
@@ -900,6 +931,7 @@ Increase the security of your account."</string>
   <string name="phone_num_use_for">Phone number is used for:</string>
   <string name="phone_number">Phone number</string>
   <string name="photoPickerNotFoundText">No photos available.</string>
+  <string name="pip">PiP</string>
   <string name="playlist_detail_recomm_title">Recommended playlists</string>
   <string name="playlist_hot">Popular</string>
   <string name="playlist_new">New</string>
@@ -972,7 +1004,7 @@ Increase the security of your account."</string>
   <string name="plus_player_subtitle_local_add_success">Added subtitles successfully</string>
   <string name="plus_player_subtitle_no_file">No subtitles here.</string>
   <string name="plus_player_subtitle_online">Online subtitles</string>
-  <string name="plus_player_subtitle_online_declare_content">"You're about to search for &lt;br/&gt;subtitles in the &lt;a href=\"http://www.opensubtitles.org\"&gt;opensubtitles.org&lt;/a&gt; database. &lt;br/&gt;All subtitles are provided by &lt;a href=\"http://www.opensubtitles.org\"&gt;opensubtitles.org&lt;/a&gt;."</string>
+  <string name="plus_player_subtitle_online_declare_content">"You're about to search for &lt;br/&gt;subtitles in the &lt;a href=http://www.opensubtitles.org&gt;opensubtitles.org&lt;/a&gt; database. &lt;br/&gt;All subtitles are provided by &lt;a href=http://www.opensubtitles.org&gt;opensubtitles.org&lt;/a&gt;."</string>
   <string name="plus_player_subtitle_online_declare_title">Disclaimer</string>
   <string name="plus_player_subtitle_online_download_fail">"Couldn't download subtitles"</string>
   <string name="plus_player_subtitle_online_download_start">Downloading subtitles…</string>
@@ -1121,6 +1153,8 @@ Increase the security of your account."</string>
   <string name="sns_bind_limit">Too many attempts. Try other ways to sign in.</string>
   <string name="sns_sign_in">Other ways to sign in</string>
   <string name="source">"Source: "</string>
+  <string name="special_type_8k">AI 8K</string>
+  <string name="special_type_log">LOG</string>
   <string name="srl_component_falsify" formatted="false">"%s falsify area,
  Represents the height[%.1fdp] of drag at run time,
  It does not show anything."</string>
@@ -1194,6 +1228,8 @@ Increase the security of your account."</string>
   <string name="ticket_hint">Verification code</string>
   <string name="ticket_invalid">The code you entered is incorrect</string>
   <string name="ticket_sign_in">Sign in via SMS</string>
+  <string name="tip_author_click">Tap to view more videos from this account</string>
+  <string name="tip_topic_click">Tap to find more videos on this topic</string>
   <string name="title_publisher">Creators</string>
   <string name="title_subscribe">Subscriptions</string>
   <string name="toast_no_data">"This item isn't available now. Come back later."</string>
@@ -1255,6 +1291,7 @@ Increase the security of your account."</string>
   <string name="video_resolution_kb_size_suffix">%.2f KB</string>
   <string name="video_resolution_mb_size_suffix">%.2f MB</string>
   <string name="video_resolution_tag_suffix">%dP</string>
+  <string name="view">View</string>
   <string name="vp_VideoView_error_button">OK</string>
   <string name="vp_VideoView_error_text_unknown">An error occurred</string>
   <string name="vp_VideoView_error_title">Unknown error</string>
