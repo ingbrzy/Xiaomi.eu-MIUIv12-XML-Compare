@@ -292,6 +292,11 @@
   <string name="recording_quality_low">Low quality</string>
   <string name="recording_quality_standard">Standard quality</string>
   <string name="recording_stopped">Stopped</string>
+  <string name="recording_timer_format_four_sections" formatted="false">%02d:%02d:%02d.%02d</string>
+  <string name="recording_timer_format_three_sections" formatted="false">%02d:%02d.%02d</string>
+  <string name="recovery">Restore</string>
+  <string name="recovery_failed_dialog_button">Got it</string>
+  <string name="recovery_failed_dialog_title">Attention</string>
   <string name="reg_error_audio_exist">This file already exists.</string>
   <string name="reg_error_audio_large">"Audio files can't be bigger than 500MB."</string>
   <string name="reg_error_audio_short">Audio file is too small.</string>
@@ -308,9 +313,10 @@
   <string name="rename_duplicate">Another recording with the same name already exists.</string>
   <string name="rename_fail_tip">"Couldn't rename. Item with this name already exists."</string>
   <string name="rename_no_more_tip">"Don't show again"</string>
-  <string name="required_permissions">android.permission.READ_PHONE_STATE;android.permission.RECORD_AUDIO;android.permission.READ_EXTERNAL_STORAGE;android.permission.WRITE_EXTERNAL_STORAGE;</string>
+  <string name="required_permissions">android.permission.RECORD_AUDIO;android.permission.READ_EXTERNAL_STORAGE;android.permission.WRITE_EXTERNAL_STORAGE;</string>
   <string name="retry">Retry</string>
   <string name="runtime_permission_ungranted">"Can't use Recorder due to ungranted permissions"</string>
+  <string name="save_record_dialog_title">Save recording</string>
   <string name="search_app">Recorder</string>
   <string name="search_empty">"Couldn't find results"</string>
   <string name="search_enable_earpiece_title">Use receiver to play audio</string>
@@ -358,7 +364,11 @@
   <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
   <string name="toast_max_record_time">%1$s can record for about %2$s</string>
   <string name="toast_uninstall_fileexplorer">"File Manager isn't installed"</string>
+  <string name="trash_box">Recently deleted items</string>
+  <string name="trash_box_close_tip">Close prompt</string>
+  <string name="trash_box_delete_all">Delete all items from the trash permanently?</string>
   <string name="usage_description">Transcribing audio and syncing items with the cloud</string>
+  <string name="user_feedback">Feedback</string>
   <string name="v7_preference_off">OFF</string>
   <string name="v7_preference_on">ON</string>
   <string name="webview_check_network">Network settings</string>
