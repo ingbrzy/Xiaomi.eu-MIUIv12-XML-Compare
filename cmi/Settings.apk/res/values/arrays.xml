@@ -1722,10 +1722,9 @@
     <array name="config_preinstalled_display_services" />
     <string-array name="config_preinstalled_interaction_control_services">
         <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
-        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+        <item>com.android.settings/com.android.settings.accessibility.accessibilitymenu.AccessibilityMenuService</item>
     </string-array>
     <string-array name="config_preinstalled_screen_reader_services">
-        <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
     <array name="config_settings_slices_accessibility_components" />
