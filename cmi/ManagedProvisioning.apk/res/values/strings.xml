@@ -51,8 +51,8 @@
   <string name="car_ui_alert_dialog_default_button">Close</string>
   <string name="car_ui_dialog_preference_negative">@android:string/cancel</string>
   <string name="car_ui_dialog_preference_positive">@android:string/ok</string>
-  <string name="car_ui_direct_manipulation">android.rotary.DIRECT_MANIPULATION</string>
   <string name="car_ui_ellipsis">…</string>
+  <string name="car_ui_installer_process_name"/>
   <string name="car_ui_preference_switch_off">Off</string>
   <string name="car_ui_preference_switch_on">On</string>
   <string name="car_ui_restricted_while_driving">Feature not available while driving</string>
@@ -83,11 +83,6 @@
   <string name="copying_certs">Setting up CA certificates</string>
   <string name="couldnt_set_up_device">"Couldn't set up device. For help, contact your IT admin."</string>
   <string name="creditor_capabilities_header">%1$s can:</string>
-  <string name="cross_profile_consent_summary">Connected apps let you access work and personal data together. You can make changes anytime in Settings.</string>
-  <string name="cross_profile_consent_title">Connect work &amp; personal apps</string>
-  <string name="cross_profile_notification_channel_name">Connect work &amp; personal apps</string>
-  <string name="cross_profile_notification_text">Access work and personal data together. Tap to set up.</string>
-  <string name="cross_profile_notification_title">Connect work &amp; personal apps</string>
   <string name="default_first_meat_user_name">Primary user</string>
   <string name="default_managed_profile_name">Work profile</string>
   <string name="default_owned_device_username">User of work device</string>
@@ -117,7 +112,7 @@
   <string name="error_wifi">"Couldn't connect to WLAN"</string>
   <string name="expand">Expand</string>
   <string name="expand_button_title">Advanced</string>
-  <string name="financed_device_screen_header">This device is provided by %1$s</string>
+  <string name="financed_device_screen_header">This device was purchased on credit from %1$s</string>
   <string name="for_help_contact_admin">For help, contact your IT admin</string>
   <string name="frp_clear_progress_text">Please wait...</string>
   <string name="frp_clear_progress_title">Erasing</string>
@@ -133,7 +128,7 @@
   <string name="info_anim_title_0">Change the way you work</string>
   <string name="info_anim_title_1">Separate work from personal</string>
   <string name="info_anim_title_2">"Turn off work when you're done"</string>
-  <string name="install_creditor_app_description">Install the %1$s app on this device</string>
+  <string name="install_creditor_app_description">Install the %1$s app so you can make payments for this device</string>
   <string name="join_many_items_first">%1$s, %2$s</string>
   <string name="join_many_items_last">%1$s, and %2$s</string>
   <string name="join_many_items_middle">%1$s, %2$s</string>
@@ -143,7 +138,7 @@
   <string name="learn_more_label">Learn more button</string>
   <string name="learn_more_link">Learn more</string>
   <string name="link_isnt_secure_and_cant_be_opened_until_device_setup_finished">"This link isn't secure and can't be opened until device setup is finished: %1$s"</string>
-  <string name="lock_device_description">"Lock this device if you don't make payments"</string>
+  <string name="lock_device_description">"Restrict access to this device if you don't make payments"</string>
   <string name="managed_device_info">Managed device info</string>
   <string name="managed_provisioning_error_text">"Couldn't set up your work profile. Contact your IT department or try again later."</string>
   <string name="mdm_icon_label">%1$s icon</string>
@@ -223,7 +218,6 @@
   <string name="work_profile_cant_be_added_contact_admin">A work profile can’t be added to this device. If you have questions, contact your IT admin.</string>
   <string name="work_profile_description">Your work apps will be kept in this profile and managed by your organization</string>
   <string name="work_profile_info">Work profile info</string>
-  <string name="work_profile_provisioning_accept_header">"First, let's set up your work profile"</string>
   <string name="work_profile_provisioning_accept_header_post_suw">"Let's set up your work profile"</string>
   <string name="work_profile_provisioning_progress_label">Setting up your work profile…</string>
   <string name="work_profile_provisioning_step_1_header">Work apps are kept in your work profile</string>
