@@ -733,7 +733,6 @@ Selection"</string>
   <string name="config_disable_cdma_activation_code">false</string>
   <string name="config_ims_mmtel_package"/>
   <string name="config_ims_rcs_package"/>
-  <string name="config_schedules_provider_caller_package">com.android.settings</string>
   <string name="config_simUnlockUiClass">@null</string>
   <string name="config_simUnlockUiPackage">@null</string>
   <string name="config_world_mode"/>
@@ -861,7 +860,7 @@ Selection"</string>
   <string name="dial_emergency_error">"Can't call. %s is not an emergency number."</string>
   <string name="dial_related_setting_catory">Dialer</string>
   <string name="dialerKeyboardHintText">Use keyboard to dial</string>
-  <string name="dialer_default_class">com.android.dialer.DialtactsActivity</string>
+  <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
   <string name="dialog_alert_title">Attention</string>
   <string name="dialog_cancel">Cancel</string>
   <string name="dialog_network_priority_title">Priority network</string>
@@ -1262,6 +1261,12 @@ Switch to the new provider anyway?"</string>
   <string name="lgu_msim_emm_cause_7_14">"SIM %d network doesn't provide mobile data services"</string>
   <string name="lgu_msim_emm_cause_8">"SIM %d couldn't register network. Visit a customer service center (+82-2-3416-7010)."</string>
   <string name="lgu_msim_emm_cause_others">"SIM %d can't connect to the network. Visit a customer service center (+82-2-3416-7010)."</string>
+  <string name="limited_service_alert_dialog_description">&lt;b&gt;Emergency calls via WLAN Calling&lt;/b&gt;"
+Emergency calls are not possible via WLAN Calling. 
+
+The device switches automatically to a cellular network (2G/3G) to place an emergency call. 
+
+Emergency calls are only possible in areas with cellular coverage."</string>
   <string name="limited_sim_function_notification_message">%1$s calls and data services may be blocked while using another SIM.</string>
   <string name="limited_sim_function_notification_title">Limited SIM functionality</string>
   <string name="limited_sim_function_with_phone_num_notification_message">%1$s calls and data services may be blocked while using %2$s.</string>
@@ -1297,6 +1302,7 @@ Switch to the new provider anyway?"</string>
   <string name="media_category">Media</string>
   <string name="media_transfer_this_device_name">Phone speaker</string>
   <string name="media_transfer_wired_device_name">Wired audio device</string>
+  <string name="media_transfer_wired_usb_device_name">Wired headphone</string>
   <string name="menu_add">Add contact</string>
   <string name="menu_delete">Delete contact</string>
   <string name="menu_dial">Dial contact</string>
@@ -1696,7 +1702,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="pin_puk_system_user_only">Only the owner of the device can enter PIN/PUK codes.</string>
   <string name="ping_test_label">Run Ping Test</string>
   <string name="platform_carrier_config_package">com.android.carrierconfig</string>
-  <string name="platform_number_verification_package"/>
+  <string name="platform_number_verification_package">com.google.android.gms</string>
   <string name="pointer_location">Pointer location</string>
   <string name="pointer_location_summary">Screen overlay showing current touch data</string>
   <string name="police_type_description">Police</string>

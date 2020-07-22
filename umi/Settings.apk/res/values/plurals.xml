@@ -43,11 +43,11 @@
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Never disable for %d apps</item>
-        <item quantity="one">Never disable for 1 app</item>
+        <item quantity="one">Never disable for %d app</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Always disable for %d apps</item>
-        <item quantity="one">Always disable for 1 app</item>
+        <item quantity="one">Always disable for %d app</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d apps are allowed to autostart</item>
@@ -253,10 +253,6 @@
         <item quantity="other">%1$d restrictions</item>
         <item quantity="one">1 restriction</item>
     </plurals>
-    <plurals name="notification_few_channel_count_summary">
-        <item quantity="other">%1$d notification channels.</item>
-        <item quantity="one">%1$d notification channel.</item>
-    </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d categories</item>
         <item quantity="one">%d category</item>
@@ -309,6 +305,10 @@
         <item quantity="other">%1$d print services on</item>
         <item quantity="one">1 print service on</item>
     </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d priority conversations</item>
+        <item quantity="one">%d priority conversation</item>
+    </plurals>
     <plurals name="restricted_app_summary">
         <item quantity="other">Limiting battery usage for %1$d apps</item>
         <item quantity="one">Limiting battery usage for %1$d app</item>
@@ -333,6 +333,10 @@
         <item quantity="other">%1$d fingerprints set up</item>
         <item quantity="one">%1$d fingerprint set up</item>
     </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">See all %1$d apps</item>
+        <item quantity="one">See all apps</item>
+    </plurals>
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Show %d hidden items</item>
         <item quantity="one">Show %d hidden item</item>
@@ -350,8 +354,8 @@
         <item quantity="one">%1$d saved hearing aid</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">"You're %1$d steps away from entering phone info."</item>
-        <item quantity="one">"You're %1$d step away from entering phone info."</item>
+        <item quantity="other">"You're %1$d step away from opening device info."</item>
+        <item quantity="one">"You're %1$d step away from opening device info."</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">"You're %1$d steps away from reporting bug."</item>

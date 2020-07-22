@@ -137,6 +137,12 @@
         <item>65</item>
     </integer-array>
     <array name="config_availableColorModes" />
+    <array name="config_backGestureInsetScales">
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.33</item>
+        <item>1.66</item>
+    </array>
     <array name="config_batteryPackageTypeService" />
     <string-array name="config_batteryPackageTypeSystem">
         <item>com.android.providers.calendar</item>
@@ -318,7 +324,9 @@
         <item>/system/framework/oat/arm/services.odex</item>
     </string-array>
     <array name="config_localPrivateDisplayPorts" />
-    <array name="config_locationExtraPackageNames" />
+    <string-array name="config_locationExtraPackageNames">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
     <string-array name="config_locationProviderPackageNames">
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
@@ -399,6 +407,7 @@
         <item>150</item>
         <item>100</item>
     </integer-array>
+    <array name="config_notificationMsgPkgsAllowedAsConvos" />
     <string-array name="config_notificationSignalExtractors">
         <item>com.android.server.notification.NotificationChannelExtractor</item>
         <item>com.android.server.notification.NotificationAdjustmentExtractor</item>
@@ -427,7 +436,6 @@
         <item>15</item>
     </integer-array>
     <array name="config_restrictedImagesServices" />
-    <array name="config_restrictedPreinstalledCarrierApps" />
     <string-array name="config_ringtoneEffectUris">
         <item>placeholder</item>
         <item>placeholder</item>
