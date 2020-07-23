@@ -409,6 +409,8 @@
   <string name="comment_fail">"Couldn't add comment. Try again."</string>
   <string name="comment_flag_choice">Featured</string>
   <string name="comment_flag_top">Pinned</string>
+  <string name="comment_forbid">暂不支持评论</string>
+  <string name="comment_forbid_article">文章暂不支持评论</string>
   <string name="comment_hint">Comment</string>
   <string name="comment_just_now">Just now</string>
   <string name="comment_max_length">Your comment is too long.</string>
@@ -484,6 +486,7 @@
   <string name="debug_browser_sug_title">sug搜索为:</string>
   <string name="debug_browser_switch">一键更换测试环境</string>
   <string name="debug_browser_title">主环境为:</string>
+  <string name="debug_browser_user_task_title">任务中心地址为:</string>
   <string name="debug_browser_warning">自定义环境请先关闭一键更换！</string>
   <string name="debug_code_hint">请输入神秘暗号~</string>
   <string name="debug_code_warning">有内鬼，终止交易！</string>
@@ -502,6 +505,7 @@
   <string name="delete_bookmark_warning">Delete bookmark \"%s\"?</string>
   <string name="delete_download">Delete</string>
   <string name="delete_select_book_ask">同时删除本机上的文件</string>
+  <string name="dev_pref_debug_login">模拟Debug登录</string>
   <string name="dev_pref_title_jump">页面跳转</string>
   <string name="dialog_ad_exit_exit_app">Later</string>
   <string name="dialog_ad_exit_open_app">Open</string>
@@ -548,6 +552,7 @@ to support our work"</string>
   <string name="download_btn_select_none">Deselect all</string>
   <string name="download_complete">Downloaded successfully</string>
   <string name="download_completed">Downloaded</string>
+  <string name="download_confirm_dialog_title">Risk alert</string>
   <string name="download_dialog_default_path_invalid">"The download location you've selected is invalid. Saving to default location…"</string>
   <string name="download_dialog_file_length_default_txt">Just a sec…</string>
   <string name="download_dialog_file_length_lessthan1kb">Less than 1KB</string>
@@ -569,6 +574,9 @@ to support our work"</string>
   <string name="download_no_sdcard_dlg_msg">An SD card is required to download %s.</string>
   <string name="download_no_sdcard_dlg_title">No SD card</string>
   <string name="download_pending">Starting download…</string>
+  <string name="download_proceed">Normal download</string>
+  <string name="download_risk_alert_content">The game is not verified by Xiaomi Market. By choosing Normal download, you indicate that you are aware of the risks and consequences.</string>
+  <string name="download_safe">Safe download</string>
   <string name="download_sdcard_busy_dlg_msg">SD card is busy. To allow downloads, turn off USB storage in the notification shade.</string>
   <string name="download_sdcard_busy_dlg_title">SD card unavailable</string>
   <string name="download_status_failed">"Couldn't download"</string>
@@ -1018,6 +1026,7 @@ to view open tabs from other devices."</string>
   <string name="load_more_footer_status_msg_full">"That's all for now."</string>
   <string name="load_more_footer_status_msg_idle">Tap to load more</string>
   <string name="load_more_footer_status_msg_loading">Just a sec…</string>
+  <string name="load_sever_data_error">服务端开小差了，请稍后再试～</string>
   <string name="loading">正在努力加载数据…</string>
   <string name="loading_dialog_title">Moving…</string>
   <string name="login_failed_toast">"Couldn't sign in, refresh and try again"</string>
@@ -1522,6 +1531,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="save_to_camera">Save to Gallery</string>
   <string name="save_to_camera_failed">"Can't save image"</string>
   <string name="save_to_camera_success">Saved to Gallery</string>
+  <string name="saved_sucess">Saved Sucess</string>
   <string name="scanner_uninstalled_text">Install Scanner to continue</string>
   <string name="scanner_uninstalled_title">Scanner has been uninstalled</string>
   <string name="screenshot_loading_dialog_title">Capturing</string>
@@ -1612,6 +1622,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
   <string name="skip_current_version">Skip this version</string>
   <string name="slide_guide">Slide to return</string>
+  <string name="slide_guide_back">向右滑恢复网页</string>
   <string name="small_video_ad_app_text_click">Download</string>
   <string name="small_video_ad_download_text">Download</string>
   <string name="small_video_ad_web_text">Open</string>
@@ -2381,6 +2392,7 @@ feedsContentId:
   <string name="vo_info_flow_load_more_title">Try loading more items manually</string>
   <string name="vo_info_flow_refresh_empty">No updates for now. Check other channels!</string>
   <string name="vo_info_flow_refresh_error">"Couldn't connect to the network. Check your network settings and try again."</string>
+  <string name="vo_info_flow_refresh_sever_data_error">服务端开小差了，请稍后再试～</string>
   <string name="vo_info_flow_rs_hint">Search</string>
   <string name="vo_like_text">Like</string>
   <string name="vo_location_change_cancel">Not now</string>
