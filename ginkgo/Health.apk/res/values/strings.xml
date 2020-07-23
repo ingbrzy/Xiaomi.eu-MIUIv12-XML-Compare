@@ -61,6 +61,7 @@ to add cards"</string>
   <string name="altitude_range">Altitude</string>
   <string name="am">AM</string>
   <string name="app_name">plugin.health.analyze</string>
+  <string name="app_setting">Apps</string>
   <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
   <string name="audio_permission_dialog_desc">To analyze your sleep cycle and record talking and snoring, Xiaomi Health needs permission to record audio.</string>
   <string name="audio_permission_dialog_title">Allow recording audio</string>
@@ -405,6 +406,7 @@ Xiaomi Health will only notify you about important items."</string>
   <string name="dialog_user_agreement_purpose2">Welcome to Xiaomi Health! You can use this app to count your steps, analyze sleep, track periods, record weight, and more.</string>
   <string name="diastolic_pressure">Diastolic</string>
   <string name="disable">Off</string>
+  <string name="divider">/</string>
   <string name="divider_format1">%1$s/%2$s</string>
   <string name="divider_format2">%1$s-%2$s</string>
   <string name="divider_format3">%1$s~%2$s</string>
@@ -619,6 +621,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="health_cloud_service">Cloud services</string>
   <string name="health_data_cloud_sync_subtitle">Sync your health data with the cloud and access it from any device</string>
   <string name="health_data_cloud_sync_title">Sync with the cloud</string>
+  <string name="health_data_sync">Sync Health data</string>
   <string name="health_score">Health score</string>
   <string name="health_score_tips">Health score is calculated based on your BMI (body mass index), as well as your sleep and activity steps. The closer you are to your goals, the higher your health score is.</string>
   <string name="health_setting">Health settings</string>
@@ -775,6 +778,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="miuix_appcompat_cloud_state_disabled">Sync with the cloud is off</string>
   <string name="miuix_appcompat_cloud_state_finished">Synced with the cloud successfully</string>
   <string name="miuix_appcompat_cloud_state_syncing">Syncing with the cloud…</string>
+  <string name="miuix_appcompat_search_input_description">Search</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -1242,6 +1246,7 @@ sleep data"</string>
   <string name="sustain_title">"You haven't moved for "</string>
   <string name="swim">Swimming</string>
   <string name="swim_type">Style</string>
+  <string name="sync_health_data">Sync Health data</string>
   <string name="sync_immediately">Sync</string>
   <string name="sync_is_not_closed">Sync is on now</string>
   <string name="sync_is_off">Sync is off</string>
@@ -1252,8 +1257,12 @@ sleep data"</string>
   <string name="sync_status_network_failure">"Couldn't sync. Connect to the network and try again."</string>
   <string name="sync_status_never_done">Not synced</string>
   <string name="sync_status_oauth_error">"Couldn't sync data. Grant the required permissions first."</string>
+  <string name="system_app_setting">System app settings</string>
   <string name="systolic_pressure">Systolic</string>
   <string name="tb_audio_progress_bar">Audio playback bar</string>
+  <string name="tb_blood_pressure_day_chart">%1$s. Highest systolic pressure: %2$d millimeters of mercury. Lowest diastolic pressure: %3$d millimeters of mercury.</string>
+  <string name="tb_blood_pressure_item">%1$s. Systolic pressure: %2$d millimeters of mercury. Diastolic pressure: %3$d millimeters of mercury.</string>
+  <string name="tb_blood_pressure_wm_card">Average systolic pressure: %1$d millimeters of mercury. Average diastolic pressure: %2$d millimeters of mercury. Highest systolic pressure: %3$d millimeters of mercury. Highest diastolic pressure: %4$d millimeters of mercury. Lowest systolic pressure: %5$d millimeters of mercury. Lowest diastolic pressure: %6$d millimeters of mercury.</string>
   <string name="tb_card_on_using_list">Added</string>
   <string name="tb_click_finish_stand">"Looks like you haven't stood up within the last hour. If you have, add a record manually."</string>
   <string name="tb_current_select">%1$s currently selected</string>
@@ -1482,6 +1491,7 @@ sleep data"</string>
   <string name="unit_metre">" m"</string>
   <string name="unit_min">" m"</string>
   <string name="unit_number_format">%1$d</string>
+  <string name="unit_percent">%</string>
   <string name="unit_second">" s"</string>
   <string name="unit_thousand_format">%1$sK</string>
   <string name="unknown">Unknown</string>
