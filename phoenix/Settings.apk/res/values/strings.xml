@@ -479,6 +479,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="app_floating_window_dlg_disable">"Turning off %1$s's floating window settings requires the app to restart."</string>
   <string name="app_floating_window_dlg_enable">"Turning on %1$s's floating window settings requires the app to restart."</string>
   <string name="app_forward_locked">App is copy-protected.</string>
+  <string name="app_function">App feature</string>
   <string name="app_info_storage_title">Space used</string>
   <string name="app_install_details_group_title">Store</string>
   <string name="app_install_details_summary">App installed from %1$s</string>
@@ -2003,7 +2004,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="day_of_week">Day of the week</string>
   <string name="dc_light_dialog_summary">Image quality might be affected when Anti-flicker mode is on. Turn on anyway?</string>
   <string name="dc_light_summary">Apply DC dimming to reduce eye strain</string>
-  <string name="dc_light_summary_new">DC dimming prevents extensive flickering and reduces eye strain in low light conditions. However, image quality might be affected when this feature is on.</string>
+  <string name="dc_light_summary_new">Prevent extensive flickering and reduce eye strain in low light conditions</string>
   <string name="dc_light_title">Anti-flicker mode</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
@@ -2802,6 +2803,7 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget">Forget</string>
   <string name="forget_passpoint_dialog_message">You may lose access to any remaining time or data. Check with your provider before removing.</string>
+  <string name="forget_passpoint_wifi_message">Your device will stop connecting to this network automatically.</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="forget_password_dialog_button_text">Back</string>
   <string name="forget_password_dialog_content_four">2. Select [Wipe data], and wait until your device reboots.</string>
@@ -3201,6 +3203,10 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="input_method_function_no_function_des">"Don't show any shortcuts"</string>
   <string name="input_method_function_switch">Switch between keyboards</string>
   <string name="input_method_function_switch_des">Tap to switch to a different keyboard</string>
+  <string name="input_method_function_switch_keyboard_language">Switch languages</string>
+  <string name="input_method_function_switch_keyboard_language_des">Tap to switch between input languages</string>
+  <string name="input_method_function_switch_keyboard_type">Switch keyboards</string>
+  <string name="input_method_function_switch_keyboard_type_des">Tap to switch between different keyboards</string>
   <string name="input_method_function_voice">Voice input</string>
   <string name="input_method_function_voice_des">Tap to use voice input</string>
   <string name="input_method_function_xiaoai">Mi AI voice input</string>
@@ -4762,6 +4768,13 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="partial_connectivity_text">Some apps and services may not work due to limited connectivity. Use anyway?</string>
   <string name="passpoint_content">%1$s credentials</string>
   <string name="passpoint_label">Saved via</string>
+  <string name="passpoint_r1_privacy_dialog_message">"Passpoint is a reliable, safe wireless connection technology launched by the WLAN Alliance. It configures accounts automatically to achieve a seamless connection between WLAN networks and mobile devices.
+
+This feature obtains your WLAN MAC address only for the initial account registration. We will process your data in accordance with our %s. Read and agree to our Privacy Policy before using this feature."</string>
+  <string name="passpoint_r1_privacy_dialog_no">Cancel</string>
+  <string name="passpoint_r1_privacy_dialog_title">Attention</string>
+  <string name="passpoint_r1_privacy_dialog_url_text">Privacy Policy</string>
+  <string name="passpoint_r1_privacy_dialog_yes">Agree</string>
   <string name="passwordIncorrect">The password you entered is incorrect</string>
   <string name="password_and_security">Passwords &amp; security</string>
   <string name="password_entrance_title">Set screen lock</string>
