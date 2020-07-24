@@ -808,6 +808,11 @@ You will not lose any app data."</string>
   <string name="choose_gs_show_way">Select home page orientation</string>
   <string name="clean_immediately">Clear</string>
   <string name="clean_master_icon_recall_button_text">Add</string>
+  <string name="clean_master_icon_recall_dialog_button_negative">No thanks</string>
+  <string name="clean_master_icon_recall_dialog_button_positive">Add</string>
+  <string name="clean_master_icon_recall_dialog_summary">Add a Home screen shortcut to clear trash anytime you need.</string>
+  <string name="clean_master_icon_recall_dialog_title">Clear trash faster</string>
+  <string name="clean_master_icon_recall_hint">Add a Home screen shortcut</string>
   <string name="clean_master_icon_recall_summary">Add a Home screen shortcut to clear trash anytime you need.</string>
   <string name="clean_master_icon_recall_title">Clear trash faster</string>
   <string name="clean_master_icon_recall_toast_text">Added a Home screen shortcut for Cleaner successfully</string>
@@ -1305,6 +1310,13 @@ medical card"</string>
   <string name="first_aid_scanning_item4">Checking for battery issues…</string>
   <string name="first_aid_scanning_item5">Checking for other issues…</string>
   <string name="first_aid_stop_scan">Stop scanning</string>
+  <string name="first_settings_default_camera_title">Share without metadata by default</string>
+  <string name="first_settings_default_location_subtitle">Remove location info from shared photos</string>
+  <string name="first_settings_default_location_title">Share without location info by default</string>
+  <string name="first_settings_share_enable">Add \"Secure sharing\" badge</string>
+  <string name="first_settings_share_enable_subtitle">The items you share on WeChat will appear with a MIUI badge</string>
+  <string name="first_settings_subtitle">Here are the secure sharing options available to you:</string>
+  <string name="first_settings_title">Protect your privacy</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
@@ -1486,6 +1498,10 @@ medical card"</string>
   <string name="gb_game_video_type_manual_record">Record manually</string>
   <string name="gb_get_gift_right_now">Check in now</string>
   <string name="gb_global_settings">General settings</string>
+  <string name="gb_gpu_driver_btn_update">Check for updates</string>
+  <string name="gb_gpu_driver_update">GPU Driver Updater</string>
+  <string name="gb_gpu_driver_update_app">Update</string>
+  <string name="gb_gpu_driver_update_app_tips">Current version is up to date</string>
   <string name="gb_have_signed">Checked in today</string>
   <string name="gb_manual_record_dialog_del_video_message">Delete selected videos permanently?</string>
   <string name="gb_msg_completely_shielded">Hide messages</string>
@@ -1534,7 +1550,7 @@ of your gaming sessions"</string>
   <string name="gb_xunyou_gift_type_one">Xunyou 1-day boost</string>
   <string name="gb_xunyou_gift_type_three">Xunyou 3-day boost</string>
   <string name="gb_xunyou_gift_type_two">Xunyou 2-day boost</string>
-  <string name="gdpr_msg">&lt;Data&gt;"In order to use the basic features of Security, you must agree that Xiaomi will collect, process, and use your personal data, including information about the ways you use Security's features (e.g., mobile data usage stats, info about malware, as well as basic info about your device) and other types of information specified in our &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
+  <string name="gdpr_msg">&lt;Data&gt;"To be able to detect security risks and protect your data, we need to collect the necessary amount of information about your device. Read and agree to our &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using our services. In case you don't allow us to collect such information, you'll still be able to use this app, but some features won't be available to you. "&lt;/Data&gt;</string>
   <string name="ge">个</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
@@ -1710,6 +1726,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="list_empty_text">Empty</string>
   <string name="load_only_under_wlan">Load using only Wi-Fi</string>
   <string name="loading">Just a sec…</string>
+  <string name="loading_text_format" formatted="false">Removing private info from photos (%d/%d)…</string>
   <string name="local_ip_exception_summary">"Couldn't get local IP address. To report this issue to MIUI, go to the Feedback app and send a log from your device."</string>
   <string name="lock_all_title">Lock all apps</string>
   <string name="lock_mode_title">Lock settings</string>
@@ -1864,7 +1881,8 @@ to respond"</string>
   <string name="memory_check_content">Freed %s</string>
   <string name="memory_clean_memory_size_tip">Cache</string>
   <string name="memory_clean_no_need_clean">Everything looks good</string>
-  <string name="memory_clean_no_need_clean_1" formatted="false">Freed up %s. Your device is %d%% faster now.</string>
+  <string name="memory_clean_no_need_clean_1" formatted="false">"Freed up %s.
+Your device is %d%% faster now."</string>
   <string name="memory_clear_unused">Clear cache (%s)</string>
   <string name="memory_title">Available: %1$s\u0009\u0009Total: %2$s</string>
   <string name="menu_add">Add</string>
@@ -2063,6 +2081,9 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notification_channel_battery">Battery</string>
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
+  <string name="notification_garbage_clean_botton_text">Clear</string>
+  <string name="notification_garbage_clean_hint">Clear storage space</string>
+  <string name="notification_garbage_clean_size">Free up %s</string>
   <string name="notification_garbage_cleanup_summary">Clear trash (%s) to speed up your device</string>
   <string name="notification_garbage_cleanup_title">Clear trash files</string>
   <string name="notification_low_battery_action_btn">Turn on</string>
@@ -2074,6 +2095,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notification_masked_item">How to hide notification content?</string>
   <string name="notification_masked_subtitle">Use App lock to hide notification content for selected apps</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
+  <string name="notification_whatsapp_clean_button_text">Clear</string>
+  <string name="notification_whatsapp_clean_size">WhatsApp cache reached %s</string>
   <string name="notify_channel_mipush">Security push messages</string>
   <string name="notify_channel_name_behavior">Behavior history</string>
   <string name="notify_channel_name_security">System security</string>
@@ -2128,6 +2151,10 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="om_shortcut_added_toast_text">Added successfully</string>
   <string name="om_shortcut_dialog_summary">"RAM Jet allows you to clear memory and boost your device's speed in a single tap. Add RAM Jet to your Home screen?"</string>
   <string name="om_shortcut_dialog_title">RAM Jet</string>
+  <string name="once_settings_camera_ttile">Share without metadata</string>
+  <string name="once_settings_location_title">Share without location info</string>
+  <string name="once_settings_subtitle">How would you like to share the selected items?</string>
+  <string name="once_settings_title">Privacy protection</string>
   <string name="one_address_choose_hint">%s1</string>
   <string name="open_activity_err">The application was not found</string>
   <string name="open_alarm_right_now">立刻开启</string>
@@ -2882,10 +2909,18 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="settings">Data usage settings</string>
   <string name="settings_battery_consume_abnormal_summary">Receive notifications when battery is being drained fast</string>
   <string name="settings_battery_consume_abnormal_title">Battery drain notifications</string>
+  <string name="settings_camera_subtitle_no">No metadata</string>
   <string name="settings_category_other">Other settings</string>
   <string name="settings_category_overheat">Heating</string>
   <string name="settings_choice_no_notification">Off</string>
+  <string name="settings_image_camera_summary">Device model, metadata, etc.</string>
+  <string name="settings_location_subtitle_no">No location info</string>
   <string name="settings_power_save_ontime_title">Schedule</string>
+  <string name="settings_share_enable_summary">The items you share on WeChat will appear with a MIUI badge</string>
+  <string name="settings_share_info">Here are the secure sharing options available for the items shared from Gallery and File Manager:</string>
+  <string name="settings_show_detail">View details</string>
+  <string name="settings_tip">Go to Gallery &gt; Settings to view more options</string>
+  <string name="settings_title">Secure sharing</string>
   <string name="shake_send_sticker_summary">在微信与QQ中，摇一摇随机出现搞笑表情。逢年过节拼表情，从此易如反掌！</string>
   <string name="shield_keyboard_detail">Double tap the buttons to turn them back on</string>
   <string name="shield_keyboard_summary">Restrict buttons and full screen gestures during games</string>
@@ -3023,9 +3058,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_call_other_group">Other</string>
   <string name="st_call_settings">Call blocklist</string>
   <string name="st_call_stranger_group">Block calls from strangers</string>
-  <string name="st_confirm_dialog_btn_open">Open</string>
+  <string name="st_confirm_dialog_btn_open">Block</string>
   <string name="st_confirm_dialog_summary_contact_call">All calls from contacts will be blocked.</string>
-  <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
+  <string name="st_confirm_dialog_summary_oversea_call">All calls from foreign phone numbers will be blocked.</string>
   <string name="st_confirm_dialog_summary_stranger_call">All calls from strangers will be blocked.</string>
   <string name="st_filter_keywords_setting_summary1">Messages from unknown numbers that contain the words in this list will be blocked.</string>
   <string name="st_filter_keywords_setting_summary2">(Use a comma to separate multiple keywords)</string>
@@ -3360,8 +3395,10 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
   <string name="text_button">Got it</string>
   <string name="text_cycle_day">%s</string>
   <string name="text_day"/>
+  <string name="text_done">OK</string>
   <string name="text_error">相关软件版本过低或未安装</string>
   <string name="text_lucky_alarm_before">红包活动即将开始</string>
+  <string name="text_security">Privacy</string>
   <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
   <string name="thermal_tips_title">Attention</string>
   <string name="third_application">Installed apps</string>
@@ -3596,6 +3633,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="vb_advanced_settings_after_open">After</string>
   <string name="vb_advanced_settings_before_open">Before</string>
   <string name="vb_advanced_settings_pic_stronger_desc">Make moving objects crisper by enhancing animations. This feature requires higher power consumption.</string>
+  <string name="vb_quick_func_auto_bgm">Recognize background music</string>
   <string name="vb_quick_func_hangup_listening">Play video sound with screen off</string>
   <string name="vb_quick_func_screen_capture">Screenshot</string>
   <string name="vb_quick_func_screen_record">Record</string>
@@ -3641,6 +3679,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="vtb_func_frc_title">Motion smoothing</string>
   <string name="vtb_func_vpp_desc4">"This feature won't work when video resolution is higher than 4K."</string>
   <string name="vtb_func_vpp_title">Enhanced contours</string>
+  <string name="vtb_function_video_translation">Real-time translation</string>
   <string name="vtb_other_milink_connect">"Can't cast video now. About to cast other items…"</string>
   <string name="vtb_stop_milink_connect">Stopped casting video</string>
   <string name="wakepath_confirm_start_activity">Allow %1$s to open %2$s?</string>
