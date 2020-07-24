@@ -186,6 +186,10 @@ You can change selected features in Settings &gt; Accessibility."</string>
 You can change this shortcut to another feature in Settings &gt; Accessibility."</string>
   <string name="accessibility_shortcut_single_service_warning_title">Turn on %1$s?</string>
   <string name="accessibility_shortcut_spoken_feedback">Press and hold both volume keys for three seconds to use %1$s</string>
+  <string name="accessibility_shortcut_talkback_warning">"Holding down both volume keys for a few seconds turns on TalkBack, a screen reader that is helpful for people who are blind or have low vision. TalkBack completely changes how your device works.
+
+You can change this shortcut to another feature in Settings &gt; Accessibility."</string>
+  <string name="accessibility_shortcut_talkback_warning_title">Turn on TalkBack?</string>
   <string name="accessibility_shortcut_toogle_warning">When the shortcut is on, pressing both volume buttons for 3 seconds will start an accessibility feature.</string>
   <string name="accessibility_shortcut_warning_dialog_title">Use Accessibility Shortcut?</string>
   <string name="accessibility_system_action_back_label">Back</string>
@@ -209,6 +213,8 @@ You can change this shortcut to another feature in Settings &gt; Accessibility."
   <string name="activity_chooser_view_dialog_title_default">Choose activity</string>
   <string name="activity_chooser_view_see_all">See all</string>
   <string name="activity_list_empty">No matching activities found.</string>
+  <string name="activity_resolver_app_settings">Settings</string>
+  <string name="activity_resolver_set_always">Set to always open</string>
   <string name="activity_resolver_use_always">Always</string>
   <string name="activity_resolver_use_once">Just once</string>
   <string name="activity_resolver_work_profiles_support">"%1$s doesn't support work profile"</string>
@@ -380,7 +386,7 @@ You can change this shortcut to another feature in Settings &gt; Accessibility."
   <string name="battery_saver_notification_channel_name">Battery Saver</string>
   <string name="battery_saver_off_notification_title">Battery Saver turned off</string>
   <string name="beforeOneMonthDurationPast">Before 1 month ago</string>
-  <string name="biometric_dialog_default_title">Verify it’s you</string>
+  <string name="biometric_dialog_default_title">Verify it‘s you</string>
   <string name="biometric_error_canceled">Authentication canceled</string>
   <string name="biometric_error_device_not_secured">No pin, pattern, or password set</string>
   <string name="biometric_error_hw_unavailable">Biometric hardware unavailable</string>
@@ -1710,10 +1716,10 @@ for account %s."</string>
   <string name="permlab_writeSyncSettings">toggle sync on and off</string>
   <string name="perms_description_app">Provided by %1$s.</string>
   <string name="perms_new_perm_prefix">&lt;font fgcolor="#ff33b5e5" size="12"&gt;NEW: &lt;/font&gt;</string>
-  <string name="personal_apps_suspended_turn_profile_on">Turn on</string>
-  <string name="personal_apps_suspension_soon_text">Personal apps will be blocked on %1$s at %2$s. Your IT admin doesn’t allow your work profile to stay off for more than %3$d days.</string>
+  <string name="personal_apps_suspended_turn_profile_on">Turn on work profile</string>
   <string name="personal_apps_suspension_text">Your personal apps are blocked until you turn on your work profile</string>
   <string name="personal_apps_suspension_title">Turn on your work profile</string>
+  <string name="personal_apps_suspension_tomorrow_text">Your personal apps will be blocked tomorrow</string>
   <string name="petabyteShort">PB</string>
   <string name="phoneTypeAssistant">Assistant</string>
   <string name="phoneTypeCallback">Callback</string>
@@ -2044,7 +2050,6 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="tethered_notification_multi_device_message">%1$s connected devices</string>
   <string name="tethered_notification_no_device_message">No connected device</string>
   <string name="tethered_notification_one_device_message">%1$s connected device</string>
-  <string name="tethered_notification_title">Tethering or hotspot active</string>
   <string name="textSelectionCABTitle">Text selection</string>
   <string name="text_copied">Text copied to clipboard.</string>
   <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>

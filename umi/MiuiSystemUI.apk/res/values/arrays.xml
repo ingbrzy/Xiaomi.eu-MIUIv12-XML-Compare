@@ -139,13 +139,13 @@
         <item>3</item>
     </integer-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
@@ -157,12 +157,12 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -172,16 +172,16 @@
         <item>2</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimized for audio quality</item>
-        <item>Balanced audio and connection quality</item>
-        <item>Optimized for connection quality</item>
-        <item>Best effort (Auto bit rate)</item>
+        <item>Optimized for Audio Quality</item>
+        <item>Balanced Audio And Connection Quality</item>
+        <item>Optimized for Connection Quality</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimized for audio quality (990kbps/909kbps)</item>
-        <item>Balanced audio and connection quality (660kbps/606kbps)</item>
-        <item>Optimized for connection quality (330kbps/303kbps)</item>
-        <item>Best effort (Auto bit rate)</item>
+        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
+        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
+        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
         <item>1000</item>
@@ -190,14 +190,14 @@
         <item>1003</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -211,7 +211,7 @@
         <item>8</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
@@ -224,7 +224,7 @@
         <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
@@ -235,8 +235,8 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Enable optional codecs</item>
-        <item>Disable optional codecs</item>
+        <item>Enable Optional Codecs</item>
+        <item>Disable Optional Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_values">
         <item>1000000</item>
@@ -283,10 +283,10 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Disabled</item>
-        <item>Filtered</item>
+        <item>Enabled Filtered</item>
         <item>Enabled</item>
-        <item>Headers filtered</item>
-        <item>Media packets filtered</item>
+        <item>Enabled \"Headers filtered\"</item>
+        <item>Enabled \"Media packets filtered\"</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_values">
         <item>disabled</item>
@@ -587,7 +587,6 @@
         <item>com.skype.raider</item>
         <item>com.twitter.android</item>
         <item>com.google.android.apps.messaging</item>
-        <item>com.ss.android.lark.kami</item>
     </string-array>
     <array name="config_blockFloatPackages" />
     <array name="config_blockKeyguardPackages" />
@@ -595,11 +594,6 @@
         <item>0</item>
         <item>400</item>
     </integer-array>
-    <string-array name="config_canCustomNotificationAppIcon">
-        <item>com.miui.securitycenter</item>
-        <item>com.miui.bugreport</item>
-        <item>com.miui.miservice</item>
-    </string-array>
     <string-array name="config_canSendSubstituteNotificationPackages">
         <item>com.xiaomi.xmsf</item>
         <item>com.android.systemui</item>
@@ -951,7 +945,6 @@
         <item>com.miui.securitycore</item>
         <item>com.wali.live</item>
         <item>com.xiaomi.scanner</item>
-        <item>com.miui.weather2</item>
     </string-array>
     <string-array name="multi_window_force_resize_pkgs">
         <item>com.tencent.mobileqq</item>
@@ -1091,25 +1084,25 @@
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Off</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Off</item>
-        <item>64 KB per log buffer</item>
-        <item>256 KB per log buffer</item>
-        <item>1 MB per log buffer</item>
-        <item>4 MB per log buffer</item>
-        <item>16 MB per log buffer</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M per log buffer</item>
+        <item>4M per log buffer</item>
+        <item>16M per log buffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
     </string-array>
     <string-array name="select_logd_size_values">
         <item>32768</item>
@@ -1123,13 +1116,13 @@
         <item>Off</item>
         <item>All log buffers</item>
         <item>All but radio log buffers</item>
-        <item>Kernel log buffer only</item>
+        <item>kernel log buffer only</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Off</item>
         <item>All</item>
         <item>All but radio</item>
-        <item>Kernel only</item>
+        <item>kernel only</item>
     </string-array>
     <string-array name="select_logpersist_values">
         <item></item>
@@ -1539,8 +1532,6 @@
     <string-array name="system_alert_window_notification_whitelist">
         <item>com.miui.notes</item>
         <item>com.android.thememanager</item>
-        <item>com.miui.mishare.connectivity</item>
-        <item>com.xiaomi.gamecenter.sdk.service</item>
     </string-array>
     <string-array name="system_foreground_notification_whitelist">
         <item>com.xiaomi.joyose</item>
@@ -1560,7 +1551,6 @@
         <item>com.miui.securitycore</item>
         <item>com.miui.notification</item>
         <item>com.mi.health</item>
-        <item>com.xiaomi.market:com.xiaomi.market_hide</item>
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.discover</item>
         <item>com.miui.mishare.connectivity</item>
@@ -2053,7 +2043,7 @@
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Audio source</item>
+        <item>Audio Source</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_configuration_values">

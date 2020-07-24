@@ -529,13 +529,13 @@
         <item>134225920</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
@@ -547,12 +547,12 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -562,10 +562,10 @@
         <item>2</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimized for audio quality</item>
-        <item>Balanced audio and connection quality</item>
-        <item>Optimized for connection quality</item>
-        <item>Best effort (Auto bit rate)</item>
+        <item>Optimized for Audio Quality</item>
+        <item>Balanced Audio And Connection Quality</item>
+        <item>Optimized for Connection Quality</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Optimized for audio quality (990kbps/909kbps)</item>
@@ -616,14 +616,14 @@
         <item>32772</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -796,10 +796,10 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Disabled</item>
-        <item>Filtered</item>
+        <item>Enabled Filtered</item>
         <item>Enabled</item>
-        <item>Headers filtered</item>
-        <item>Media packets filtered</item>
+        <item>Enabled \"Headers filtered\"</item>
+        <item>Enabled \"Media packets filtered\"</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_values">
         <item>disabled</item>
@@ -2359,7 +2359,7 @@
         <item>Long</item>
     </string-array>
     <string-array name="long_press_timeout_selector_values">
-        <item>400</item>
+        <item>300</item>
         <item>1000</item>
         <item>1500</item>
     </string-array>
@@ -3096,25 +3096,25 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Off</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Off</item>
-        <item>64 KB per log buffer</item>
-        <item>256 KB per log buffer</item>
-        <item>1 MB per log buffer</item>
-        <item>4 MB per log buffer</item>
-        <item>16 MB per log buffer</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M per log buffer</item>
+        <item>4M per log buffer</item>
+        <item>16M per log buffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
     </string-array>
     <string-array name="select_logd_size_values">
         <item>32768</item>
@@ -3136,13 +3136,13 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Off</item>
         <item>All log buffers</item>
         <item>All but radio log buffers</item>
-        <item>Kernel log buffer only</item>
+        <item>kernel log buffer only</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Off</item>
         <item>All</item>
         <item>All but radio</item>
-        <item>Kernel only</item>
+        <item>kernel only</item>
     </string-array>
     <string-array name="select_logpersist_values">
         <item></item>
@@ -3288,7 +3288,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>excalibur</item>
         <item>joyeuse</item>
         <item>lancelot</item>
-        <item>galahad</item>
     </string-array>
     <string-array name="swipe_direction_titles">
         <item>@string/swipe_direction_rtl</item>
@@ -3446,29 +3445,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>150</item>
         <item>200</item>
     </string-array>
-    <string-array name="uplmn_cu_mcc_mnc_values">
-        <item>46001</item>
-        <item>46006</item>
-        <item>46009</item>
-    </string-array>
-    <string-array name="uplmn_prefer_network_mode_td_choices">
-        <item>GSM</item>
-        <item>TDSCDMA</item>
-        <item>LTE</item>
-        <item>Triple mode</item>
-    </string-array>
-    <string-array name="uplmn_prefer_network_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="uplmn_prefer_network_mode_w_choices">
-        <item>GSM</item>
-        <item>WCDMA</item>
-        <item>LTE</item>
-        <item>Triple mode</item>
-    </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Usage time</item>
         <item>Last time used</item>
@@ -3479,7 +3455,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Audio source</item>
+        <item>Audio Source</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_configuration_values">
@@ -3644,10 +3620,6 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="wifi_ap_band_vendor_summary_no_dual">
         <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_choose_5G</item>
-    </string-array>
-    <string-array name="wifi_ap_hidden_ssid_config">
-        <item>@string/wifi_ap_ssid_off</item>
-        <item>@string/wifi_ap_ssid_on</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
