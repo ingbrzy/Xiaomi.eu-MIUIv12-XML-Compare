@@ -1062,7 +1062,9 @@ and adjust preferences automatically"</string>
   <string name="cas_c_0x5d">true</string>
   <string name="cas_c_0x5e">true</string>
   <string name="cas_c_0x60">true</string>
+  <string name="cas_c_13254_0x0004">true</string>
   <string name="cas_c_16001_0x0001">true</string>
+  <string name="cas_c_16818_0x0001">5</string>
   <string name="cas_c_17042_0x0001">true</string>
   <string name="cas_c_17042_0x0002">true</string>
   <string name="cas_c_17042_0x0003">true</string>
@@ -1121,6 +1123,7 @@ and adjust preferences automatically"</string>
   <string name="cas_c_33066_0x0002">true</string>
   <string name="cas_c_33066_0x0003">true</string>
   <string name="cas_c_33066_0x0004">true</string>
+  <string name="cas_c_33972_0x0001">3565158</string>
   <string name="cas_c_35893_0x0001">true</string>
   <string name="cas_c_35893_0x0002">true</string>
   <string name="cas_c_35893_0x0003">true</string>
@@ -1145,8 +1148,9 @@ and adjust preferences automatically"</string>
   <string name="cas_c_9006_0x0007">true</string>
   <string name="cas_c_9006_0x0009">true</string>
   <string name="cas_c_9006_0x000a">true</string>
+  <string name="cas_c_9006_0x000c">3</string>
   <string name="cas_c_d_e_f_w">true</string>
-  <string name="cas_c_parallel_set">8,13:3;12,13:5;16,13:5</string>
+  <string name="cas_c_parallel_set">8,1!13:3;12,1!13:5;16,1!13:5</string>
   <string name="cas_c_r_i_m_m">true</string>
   <string name="cas_c_s_a_u_q">true</string>
   <string name="cas_h_d_v">auto</string>
@@ -1612,9 +1616,9 @@ and adjust preferences automatically"</string>
   <string name="cmi_c_9006_0x0006">true</string>
   <string name="cmi_c_9006_0x0007">true</string>
   <string name="cmi_c_9006_0x000a">false</string>
-  <string name="cmi_c_9006_0x000c">false</string>
+  <string name="cmi_c_9006_0x000c">2</string>
   <string name="cmi_c_d_e_f_w">true</string>
-  <string name="cmi_c_parallel_set">8,0:3;12,15:5</string>
+  <string name="cmi_c_parallel_set">8,0!0:3;12,0!15:5</string>
   <string name="cmi_c_r_i_m_m">true</string>
   <string name="cmi_c_s_a_u_q">true</string>
   <string name="cmi_e_m_a_u_q_s">true</string>
@@ -1842,6 +1846,7 @@ and adjust preferences automatically"</string>
   <string name="curtana_c_0x5d">false</string>
   <string name="curtana_c_0x5e">true</string>
   <string name="curtana_c_0x60">true</string>
+  <string name="curtana_c_17137_0x0001">false</string>
   <string name="curtana_c_19039_0x0004">1:8000x6000</string>
   <string name="curtana_c_19039_0x0005">0</string>
   <string name="curtana_c_19039_0x0012">true</string>
@@ -2327,6 +2332,7 @@ scanned documents automatically"</string>
   <string name="excalibur_c_0x5d">false</string>
   <string name="excalibur_c_0x5e">true</string>
   <string name="excalibur_c_0x60">true</string>
+  <string name="excalibur_c_17137_0x0001">false</string>
   <string name="excalibur_c_19039_0x0004">2:9280x6944</string>
   <string name="excalibur_c_19039_0x0005">0</string>
   <string name="excalibur_c_19039_0x0012">true</string>
@@ -2609,6 +2615,7 @@ if you rotate your phone"</string>
   <string name="gauguin_c_16001_0x0001">true</string>
   <string name="gauguin_c_16001_0x0002">false</string>
   <string name="gauguin_c_17042_0x0003">true</string>
+  <string name="gauguin_c_17042_0x0005">true</string>
   <string name="gauguin_c_19039_0x0000">true</string>
   <string name="gauguin_c_19039_0x0002">false</string>
   <string name="gauguin_c_19039_0x0004">3:12000x9000</string>
@@ -2639,7 +2646,7 @@ if you rotate your phone"</string>
   <string name="gauguin_c_32889_0x0001">true</string>
   <string name="gauguin_c_32974_0x0002">true</string>
   <string name="gauguin_c_33066_0x0002">true</string>
-  <string name="gauguin_c_33066_0x0003">false</string>
+  <string name="gauguin_c_33066_0x0003">true</string>
   <string name="gauguin_c_35893_0x0001">true</string>
   <string name="gauguin_c_35893_0x0002">true</string>
   <string name="gauguin_c_35893_0x0003">true</string>
@@ -2825,6 +2832,7 @@ if you rotate your phone"</string>
   <string name="gram_c_0x5d">false</string>
   <string name="gram_c_0x5e">true</string>
   <string name="gram_c_0x60">true</string>
+  <string name="gram_c_17137_0x0001">false</string>
   <string name="gram_c_19039_0x0004">1:8000x6000</string>
   <string name="gram_c_19039_0x0005">0</string>
   <string name="gram_c_19039_0x0012">true</string>
@@ -5028,6 +5036,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_hfr_entry_3x">90</string>
   <string name="pref_camera_hfr_entry_4x">120</string>
   <string name="pref_camera_hfr_entry_off">Off</string>
+  <string name="pref_camera_high_quality_preferred_description">通过画质优先算法提升成像效果，拍照时间会变长</string>
+  <string name="pref_camera_high_quality_preferred_title">画质增强</string>
   <string name="pref_camera_histogram_entry_disable">Turn off</string>
   <string name="pref_camera_histogram_entry_enable">Turn on</string>
   <string name="pref_camera_iso_default">0</string>
@@ -6044,7 +6054,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="tucana_c_9006_0x0004">true</string>
   <string name="tucana_c_9006_0x0005">true</string>
   <string name="tucana_c_d_e_f_w">true</string>
-  <string name="tucana_c_parallel_set">8,0:3;12,0:5</string>
+  <string name="tucana_c_parallel_set">8,0!0:3;12,0!0:5</string>
   <string name="tucana_c_r_i_m_m">true</string>
   <string name="tucana_c_s_a_u_q">true</string>
   <string name="tucana_h_d_v">auto</string>
@@ -6210,9 +6220,9 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="umi_c_9006_0x0004">true</string>
   <string name="umi_c_9006_0x0005">true</string>
   <string name="umi_c_9006_0x0006">true</string>
-  <string name="umi_c_9006_0x000c">false</string>
+  <string name="umi_c_9006_0x000c">2</string>
   <string name="umi_c_d_e_f_w">true</string>
-  <string name="umi_c_parallel_set">8,0:3;12,15:5</string>
+  <string name="umi_c_parallel_set">8,0!0:3;12,0!15:5</string>
   <string name="umi_c_r_i_m_m">true</string>
   <string name="umi_c_s_a_u_q">true</string>
   <string name="umi_e_m_a_u_q_s">true</string>
