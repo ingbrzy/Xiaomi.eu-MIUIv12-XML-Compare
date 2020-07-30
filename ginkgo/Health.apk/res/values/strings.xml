@@ -245,7 +245,6 @@ to add cards"</string>
   <string name="climbing">Climbing</string>
   <string name="close">Turn off</string>
   <string name="close_once">Turn off once</string>
-  <string name="close_stand_detection_tip">Turn on to track and receive reminders</string>
   <string name="close_stand_notice_and_detection_tip">Turn on reminders</string>
   <string name="close_stand_notice_tip">Start tracking standing up</string>
   <string name="collapse">Hide</string>
@@ -972,6 +971,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="remind_query_menstruation_start">"Has your period started? Don't forget to record it."</string>
   <string name="remind_sleep_report_complete">Sleep stats are ready</string>
   <string name="remind_sleep_report_content">You slept %1$d hr(s) %2$d min(s) last night. Tap to view details.</string>
+  <string name="remind_sleep_report_content_1">You slept %1$d hr(s) last night. Tap to view details.</string>
   <string name="remind_sleep_report_title">Sleep stats are ready</string>
   <string name="remind_subtitle_menstruation_start">Receive a reminder 2 days before next period might start</string>
   <string name="remind_subtitle_record">Receive reminders when you need to record start and end dates of your periods</string>
@@ -1212,7 +1212,9 @@ sleep data"</string>
   <string name="stand_notice_title4">Stand up and do stretch a little</string>
   <string name="stand_notice_title5">"Looks like you haven't stood up within the last hour"</string>
   <string name="stand_notice_title6">Have you stood up within the last hour?</string>
+  <string name="stand_remind_setting_desc">When no standing activity is detected within 1 hour, send a notification to remind you to stand</string>
   <string name="stand_setting">Settings</string>
+  <string name="stand_stop_reminding">Stop receiving standing reminders</string>
   <string name="standard_format">(standard: %1s)</string>
   <string name="standing_already">" You stood up"</string>
   <string name="state_agree">Agree</string>
