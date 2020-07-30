@@ -28,6 +28,10 @@
         <item quantity="other">%d recordings downloaded</item>
         <item quantity="one">%d recording downloaded</item>
     </plurals>
+    <plurals name="recovery_failed_dialog_message">
+        <item quantity="other">"Couldn't restore %d items due to an unknown error."</item>
+        <item quantity="one">"Couldn't restore %d item due to an unknown error."</item>
+    </plurals>
     <plurals name="search_alll_records_hint">
         <item quantity="other">Search among %d recordings</item>
         <item quantity="one">Search among %d recording</item>
@@ -43,6 +47,18 @@
     <plurals name="search_result">
         <item quantity="other">Found %d recordings</item>
         <item quantity="one">Found %d recording</item>
+    </plurals>
+    <plurals name="time_left_for_clear_file">
+        <item quantity="other">%d days left</item>
+        <item quantity="one">%d day left</item>
+    </plurals>
+    <plurals name="trash_box_delete_items">
+        <item quantity="other">Delete %d selected recordings permanently?</item>
+        <item quantity="one">Delete %d selected recording permanently?</item>
+    </plurals>
+    <plurals name="trash_box_tip">
+        <item quantity="other">Deleted items can be stored in the trash for up to %d days</item>
+        <item quantity="one">Deleted items can be stored in the trash for up to %d day</item>
     </plurals>
     <plurals name="unsynced_records_count">
         <item quantity="other">%d not synced</item>
