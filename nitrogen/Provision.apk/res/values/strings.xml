@@ -19,6 +19,7 @@
   <string name="application_package_introduction">This app allows you to install third party apps, scan them before installation, and give recommendations after it.</string>
   <string name="application_permissions">App permissions</string>
   <string name="back">Back</string>
+  <string name="backup_introduction">You can use this app to back up and restore items on your device.</string>
   <string name="calculator_introduction">You can use this app for calculations, converting units and currencies, and estimating your mortgage repayments.</string>
   <string name="camera_introduction">You can use Camera to take photos and shoot videos.</string>
   <string name="carrier_introduction">"In order to provide you with better services, your device may periodically send your device version information, device identification data (including IMEI/IMSI/MSISDN/MAC address, MEID/ICCID), and approximate location information (including base station ID) to the carrier via Wi-Fi, mobile data network, or free SMS. The carrier promises to analyze relevant information only to improve the quality of services or to provide customized services or technologies, and won't disclose relevant information to third parties in any form that identifies you personally. The specific carrier statement shall prevail. Consult your carrier regarding the cost of using this service."</string>
@@ -44,7 +45,7 @@
   <string name="disageement_abnormal_download">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service."</string>
   <string name="disagree">Cancel</string>
   <string name="disagreement_abnormal_running">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose not to use this app or restrict permissions in the Settings in such cases."</string>
-  <string name="disagreement_abnormal_running_fast_pairing">"If you don't agree to grant such permissions, you won't be able to use this app. You can choose to restrict permissions in the Settings in such cases."</string>
+  <string name="disagreement_abnormal_running_fast_pairing">"If you don't agree to grant such permissions, you won't be able to use this app. You can choose to restrict permissions and turn off this feature in the Settings in such cases."</string>
   <string name="disagreement_donnot_use_application">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose not to use this app in such cases."</string>
   <string name="disagreement_donnot_use_product">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this product. You can choose not to use this product in such cases."</string>
   <string name="disagreement_donnot_use_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service. You can choose not to use this service in such cases."</string>
@@ -58,7 +59,7 @@
   <string name="enable_accessibility_dialog_negative_btn">Cancel</string>
   <string name="enable_accessibility_dialog_positive_btn">OK</string>
   <string name="fast_application_introduction">Quick apps Framework allows you to create and provide services in quick apps.</string>
-  <string name="fast_pairing_introduction">Mi Link allows your device to connect to Bluetooth devices nearby. To be able to find devices nearby, allow Mi Link to connect to the internet.</string>
+  <string name="fast_pairing_introduction">Mi Link allows your device to connect to Bluetooth devices nearby using MIUI Bluetooth Service. To be able to find devices nearby, allow MIUI Bluetooth Service to connect to the internet.</string>
   <string name="font_hint_large">Default text size</string>
   <string name="font_hint_normal">Increase text size</string>
   <string name="framework_introduction">Mi Services Framework allows you to use Mi Account, Mi Push, Mi Stats, and MIUI BI.</string>
@@ -72,16 +73,27 @@
   <string name="install_preinstall_app">Loading apps…</string>
   <string name="item_fingerprint">Fingerprint</string>
   <string name="item_lock_screen_password">Only screen lock</string>
+  <string name="ktlocation_U">(KT Service Agent)</string>
+  <string name="ktposition_header">Sharing location information with emergency rescue agencies</string>
   <string name="language_picker_other_languages_title">More languages</string>
   <string name="language_settings">Choose language</string>
   <string name="locale_picker_other_locale_title">More regions</string>
   <string name="locale_picker_title">Choose your region</string>
+  <string name="location_U">U+ GPSnWPS</string>
+  <string name="location_content">In accordance with the law, mobile carriers can obtain the location information of mobile devices to comply with the requirements of emergency rescue agencies (fire departments and the police) which pursue security and emergency rescue purposes.</string>
   <string name="location_introduction">Location-based services find products and services near you.</string>
+  <string name="location_location">Emergency rescue agencies can obtain your current location upon request</string>
   <string name="lockscreen_introduction">Wallpaper Carousel allows you to get fresh images delivered to your Lock screen daily.</string>
   <string name="mint_keyboard_oobe_checkbox">"I've read and agreed to Mint Keyboard Privacy Policy"</string>
   <string name="mint_keyboard_oobe_terms">Mint Keyboard Privacy Policy</string>
   <string name="miui_privacy_policy_no_network">"You don't have an internet connection. View the Privacy Policy at %s."</string>
   <string name="miui_terms_no_network">"You don't have an internet connection. View the User Agreement at %s."</string>
+  <string name="mobile_network">Using mobile data</string>
+  <string name="move_data_dialog_box_le">"This allows using mobile data and GPS connection based on the user's request. Syncing accounts and other items may require using mobile data depending on the smartphone specifications."</string>
+  <string name="move_data_dialog_box_title">Unless you have a plan with unlimited data, using mobile data may generate additional carrier fees. Use mobile data anyway?</string>
+  <string name="move_data_dialog_cancel">Cancel</string>
+  <string name="move_data_dialog_title">You can restrict mobile data connection in the Settings later</string>
+  <string name="move_data_dialog_use">Use</string>
   <string name="multisim_settings_category">SIM card settings</string>
   <string name="multisim_settings_title">2 SIM cards detected</string>
   <string name="navigation_picker_gesture_guide">Gesture guide</string>
@@ -113,6 +125,8 @@ Turn off personalized ads anyway?"</string>
   <string name="permission_account">Access accounts on your device:</string>
   <string name="permission_account_introduction">For signing in with Mi Account</string>
   <string name="permission_application_package_introduction">For accessing storage in order to parse and scan installation packages</string>
+  <string name="permission_backup">Accessing storage</string>
+  <string name="permission_backup_introduction">For accessing and saving backups on your device</string>
   <string name="permission_call_records">Access call history:</string>
   <string name="permission_call_records_introduction">For accessing call history in order to display blocked items</string>
   <string name="permission_call_state_introduction">For accessing phone status, recording calls, and pausing recordings during incoming calls</string>
@@ -154,6 +168,8 @@ Turn off personalized ads anyway?"</string>
   <string name="poco_agree_terms_other">(Including POCO Launcher Privacy Policy and User Agreement)</string>
   <string name="poco_launcher_privacy_policy">POCO Launcher Privacy Policy</string>
   <string name="poco_launcher_user_agreement">POCO Launcher User Agreement</string>
+  <string name="position_header">Sharing location information</string>
+  <string name="position_subheading">Location info</string>
   <string name="pref_title_data_slot">Preferred data SIM card</string>
   <string name="pref_title_voice_slot">Preferred voice SIM card</string>
   <string name="privacy_policy">Privacy Policy</string>
@@ -170,6 +186,7 @@ View the selected keyboard's Privacy Policy."</string>
   <string name="service_agreement">"I've read and agreed to the terms and conditions."</string>
   <string name="service_name_album">Gallery</string>
   <string name="service_name_application_package">Package installer</string>
+  <string name="service_name_backup">Backups</string>
   <string name="service_name_calculator">Calculator</string>
   <string name="service_name_camera">Camera</string>
   <string name="service_name_carrier">Statement on carrier services</string>
@@ -224,7 +241,7 @@ You must agree to our User Agreement and Privacy Policy before you can use MIUI.
   <string name="terms_of_use_label_phrase">, Frequent phrases</string>
   <string name="terms_of_use_label_systemhelper">, Self-registered service</string>
   <string name="terms_of_use_label_updater">, Updater</string>
-  <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, translation services, Quick apps, App vault, statistics, Mi Link</string>
+  <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, translation services, MIUI SDK, Quick apps, App vault, statistics, Mi Link</string>
   <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 You must agree to Facemoji Privacy Policy before using this feature."</string>
@@ -241,7 +258,7 @@ You must agree to Mint Keyboard Privacy Policy before using this feature."</stri
   <string name="terms_privacy_policy_input_method_kika">Kika Privacy Policy</string>
   <string name="title_fingerprint">Set password</string>
   <string name="user_agreement">User Agreement</string>
-  <string name="user_agreement_declare">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Mi SIM Activation Service, Xiaomi Cloud, Find device, Home screen, Frequent phrases, Translation Service, MIUI Daemon, HTML Viewer, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, Permissions Manager, and Updater will connect to the network. Smart services will connect to the network and access your location.</string>
+  <string name="user_agreement_declare">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Mi SIM Activation Service, Xiaomi Cloud, Find device, Home screen, Frequent phrases, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, Permissions Manager, and Updater will connect to the network. Smart services will connect to the network and access your location.</string>
   <string name="voice_assist_advice">Mi AI allows you to use voice controls, but it consumes more power (+1% every hour).</string>
   <string name="voice_assist_condition">"You'll be able to use Mi AI in these cases:r
 1. When the screen is on.r
