@@ -581,6 +581,7 @@
         <item>com.miui.securitycenter</item>
         <item>com.miui.bugreport</item>
         <item>com.miui.miservice</item>
+        <item>com.miui.accessibility</item>
     </string-array>
     <string-array name="config_canSendSubstituteNotificationPackages">
         <item>com.xiaomi.xmsf</item>
@@ -870,6 +871,16 @@
         <item>0.0dip</item>
         <item>0.0dip</item>
         <item>0.0dip</item>
+    </array>
+    <array name="miui_volume_ringer_btn_standard_corners2">
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
     </array>
     <integer-array name="miui_volume_timer_segments">
         <item>0</item>
@@ -1542,7 +1553,7 @@
         <item>com.miui.securitycore</item>
         <item>com.miui.notification</item>
         <item>com.mi.health</item>
-        <item>com.xiaomi.market</item>
+        <item>com.xiaomi.market:com.xiaomi.market_hide</item>
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.discover</item>
         <item>com.miui.mishare.connectivity</item>
@@ -1554,6 +1565,7 @@
         <item>com.android.thememanager</item>
         <item>com.miui.voiceassist:com.miui.voiceassistforeground</item>
         <item>com.miui.misound</item>
+        <item>com.xiaomi.mirror</item>
     </string-array>
     <string-array name="telephony_data_activity_1x_sim1">
         <item>0</item>

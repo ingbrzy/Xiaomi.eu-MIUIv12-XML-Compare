@@ -120,6 +120,7 @@
 and adjust preferences automatically"</string>
   <string name="ai_scene_top_moon_off">Low light mode</string>
   <string name="ai_scene_top_tip">Moon mode</string>
+  <string name="ai_ultra_pixel_108mp">108MP</string>
   <string name="ai_watermark_title">AI watermark</string>
   <string name="ambi_file_name_format">"'AMBI'_yyyyMMdd_HHmmss"</string>
   <string name="ambilight_description_title">About long exposure</string>
@@ -127,7 +128,7 @@ and adjust preferences automatically"</string>
   <string name="ambilight_intro_crowd_moving_part2">You can also take pictures of busy traffic and moving crowds. Long exposure will keep the buildings crisp, but all moving objects will be blurry.</string>
   <string name="ambilight_intro_light_track">Use a light source to \"paint\" over a dark scene to bring all the lit pieces together in one image.</string>
   <string name="ambilight_intro_magic_star">Use this mode in places with low light pollution. The exposure will be set to %d seconds, so using a tripod is a great idea.</string>
-  <string name="ambilight_intro_magic_star_ae">在光污染较少的场所进行拍摄，即可拍出璀璨的星空；最久需要拍摄%d秒，请使用三脚架</string>
+  <string name="ambilight_intro_magic_star_ae">Use this mode in places with low light pollution. The exposure can be set up to %d seconds, so using a tripod is a great idea.</string>
   <string name="ambilight_intro_silky_water_part1">Use this mode when shooting moving clouds. It will give the sky an \"oil painting\" effect.</string>
   <string name="ambilight_intro_silky_water_part2">This mode makes moving water (rivers, waterfalls, and lakes) look like satin.</string>
   <string name="ambilight_intro_star_track">"Shooting the starry sky for a long time can capture the trajectories of stars. Don't forget to use a tripod and shoot continuously for at least %d minutes."</string>
@@ -136,7 +137,7 @@ and adjust preferences automatically"</string>
   <string name="ambilight_scene_crowd_moving">Moving crowd</string>
   <string name="ambilight_scene_light_track">Light painting</string>
   <string name="ambilight_scene_magic_star">Starry sky</string>
-  <string name="ambilight_scene_silky_water">Silky water</string>
+  <string name="ambilight_scene_silky_water">Oil painting</string>
   <string name="ambilight_scene_star_track">Star trails</string>
   <string name="ambilight_scene_traffic_light">Neon trails</string>
   <string name="ambilight_tips_for_longtime_using_tripod">Use a tripod to capture a longer exposure</string>
@@ -273,7 +274,7 @@ and adjust preferences automatically"</string>
   <string name="apollo_c_19039_0x0006">true</string>
   <string name="apollo_c_19039_0x0008">true</string>
   <string name="apollo_c_19039_0x0012">true</string>
-  <string name="apollo_c_19039_0x0014">true</string>
+  <string name="apollo_c_19039_0x0014">false</string>
   <string name="apollo_c_19039_0x0016">true</string>
   <string name="apollo_c_19039_0x0018">true</string>
   <string name="apollo_c_19039_0x0019">true</string>
@@ -331,6 +332,7 @@ and adjust preferences automatically"</string>
   <string name="apollo_c_r_i_m_m">true</string>
   <string name="apollo_c_s_a_u_q">true</string>
   <string name="apollo_e_m_a_u_q_s">true</string>
+  <string name="apollo_h_d_v">auto</string>
   <string name="apollo_i_q_a_u_m">true</string>
   <string name="apollo_i_s_s_b">true</string>
   <string name="apollo_module_name_pixel">64M</string>
@@ -497,8 +499,6 @@ and adjust preferences automatically"</string>
   <string name="atom_i_s_q_c">true</string>
   <string name="atom_i_s_s_b">false</string>
   <string name="atom_i_v_b_c_f_d">false</string>
-  <string name="atom_live_activation_id">100076</string>
-  <string name="atom_live_activation_license">dff6d32668df2971300def991d343f8b48aa7902b677c275d805c4984cf7483efcba3e1730b410501cfe17bbbaab92c7c8286416b15a53f9354fdf721da22301f94f1c89090ce10b2fb4d5f67e4391e6</string>
   <string name="atom_o_0x00_s_s_l">true</string>
   <string name="atom_o_0x02_soc_vendor">mediatek</string>
   <string name="atom_o_0x03_support_3d_face_beauty">true</string>
@@ -831,8 +831,6 @@ and adjust preferences automatically"</string>
   <string name="begonia_s_v_b">false</string>
   <string name="begonia_s_v_f_m">true</string>
   <string name="begonia_s_z_m">false</string>
-  <string name="begoniain_live_activation_id">100091</string>
-  <string name="begoniain_live_activation_license">d79bf3e37bd7df3530a687c4b50c61651f13d8799e18a8275ff0924c897122a3e1320c8a58d46bca97e990184d7340c2e0ea1f705e861bf743e75af9fd7bb87701618192c08a5d58bf1eca3b6b071e3e</string>
   <string name="begoniain_parent">begonia</string>
   <string name="beryllium_c_0x02_p_c_r_v">0.8327</string>
   <string name="beryllium_c_0x08">true</string>
@@ -893,13 +891,13 @@ and adjust preferences automatically"</string>
   <string name="camera_snap_mode_title_detail">Tap to view details</string>
   <string name="cannon_a_l_h_l">395</string>
   <string name="cannon_a_l_l_l">410</string>
-  <string name="cannon_c_0x01_p_g_a_v">341</string>
+  <string name="cannon_c_0x01_p_g_a_v">304</string>
   <string name="cannon_c_0x02_p_c_r_v">0.935279806</string>
   <string name="cannon_c_0x03">false</string>
   <string name="cannon_c_0x04_i_l_h_d">false</string>
   <string name="cannon_c_0x05">true</string>
   <string name="cannon_c_0x06">true</string>
-  <string name="cannon_c_0x07">true</string>
+  <string name="cannon_c_0x07">false</string>
   <string name="cannon_c_0x0b">180</string>
   <string name="cannon_c_0x0c">true</string>
   <string name="cannon_c_0x0f">false</string>
@@ -938,6 +936,7 @@ and adjust preferences automatically"</string>
   <string name="cannon_c_16001_0x0001">true</string>
   <string name="cannon_c_16001_0x0002">false</string>
   <string name="cannon_c_17042_0x0003">true</string>
+  <string name="cannon_c_17137_0x0001">false</string>
   <string name="cannon_c_19039_0x0004">1:8000x6000</string>
   <string name="cannon_c_19039_0x0005">0</string>
   <string name="cannon_c_19039_0x0012">true</string>
@@ -947,7 +946,7 @@ and adjust preferences automatically"</string>
   <string name="cannon_c_22367_0x0007">false</string>
   <string name="cannon_c_26813_0x0003">true</string>
   <string name="cannon_c_27810_0x0001">true</string>
-  <string name="cannon_c_27810_0x0002">capture_intent</string>
+  <string name="cannon_c_27810_0x0002">macro:capture_intent</string>
   <string name="cannon_c_27810_0x0005">true</string>
   <string name="cannon_c_27810_0x0006">true</string>
   <string name="cannon_c_28041_0x0002">true</string>
@@ -955,7 +954,7 @@ and adjust preferences automatically"</string>
   <string name="cannon_c_28196_0x0003">false</string>
   <string name="cannon_c_32889_0x0001">true</string>
   <string name="cannon_c_32889_0x0003">false</string>
-  <string name="cannon_c_32889_0x0004">macro:ultra_wide</string>
+  <string name="cannon_c_32889_0x0004">macro:wide:ultra_wide</string>
   <string name="cannon_c_32974_0x0003">true</string>
   <string name="cannon_c_32974_0x0004">false</string>
   <string name="cannon_c_33066_0x0002">true</string>
@@ -972,6 +971,7 @@ and adjust preferences automatically"</string>
   <string name="cannon_c_9006_0x0000">true</string>
   <string name="cannon_c_9006_0x0002">true</string>
   <string name="cannon_c_9006_0x0004">false</string>
+  <string name="cannon_c_9006_0x0008">true</string>
   <string name="cannon_c_d_e_f_w">true</string>
   <string name="cannon_c_r_i_m_m">true</string>
   <string name="cannon_c_s_a_u_q">true</string>
@@ -987,7 +987,7 @@ and adjust preferences automatically"</string>
   <string name="cannon_o_0x21_long_press_shutter">true</string>
   <string name="cannon_parallel_maxAcquireCount">15</string>
   <string name="cannon_parallel_maxDequeueCount">2</string>
-  <string name="cannon_preferred_image_reprocessor_type">1</string>
+  <string name="cannon_preferred_image_reprocessor_type">3</string>
   <string name="cannon_rethrow_vendor_tag_not_found_exception">false</string>
   <string name="cannon_s_20_9_s">true</string>
   <string name="cannon_s_a_u">true</string>
@@ -1012,6 +1012,7 @@ and adjust preferences automatically"</string>
   <string name="cannon_s_s_v">false</string>
   <string name="cannon_s_u_w">false</string>
   <string name="cannon_s_v_f_m">true</string>
+  <string name="cannong_parent">cannon</string>
   <string name="cannot_connect_camera_once">"Can't connect to camera"</string>
   <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
@@ -1061,11 +1062,12 @@ and adjust preferences automatically"</string>
   <string name="cas_c_0x5d">true</string>
   <string name="cas_c_0x5e">true</string>
   <string name="cas_c_0x60">true</string>
+  <string name="cas_c_13254_0x0004">true</string>
   <string name="cas_c_16001_0x0001">true</string>
+  <string name="cas_c_16818_0x0001">5</string>
   <string name="cas_c_17042_0x0001">true</string>
   <string name="cas_c_17042_0x0002">true</string>
   <string name="cas_c_17042_0x0003">true</string>
-  <string name="cas_c_17042_0x0004">true</string>
   <string name="cas_c_17042_0x0005">true</string>
   <string name="cas_c_19039_0x0000">true</string>
   <string name="cas_c_19039_0x0004">1:8000x6000</string>
@@ -1114,7 +1116,6 @@ and adjust preferences automatically"</string>
   <string name="cas_c_28041_0x0007">true</string>
   <string name="cas_c_28041_0x0008">5</string>
   <string name="cas_c_28196_0x0005">true</string>
-  <string name="cas_c_28196_0x0006">true</string>
   <string name="cas_c_2974_0x0005">true</string>
   <string name="cas_c_32889_0x0001">true</string>
   <string name="cas_c_32889_0x0004">sat</string>
@@ -1122,6 +1123,7 @@ and adjust preferences automatically"</string>
   <string name="cas_c_33066_0x0002">true</string>
   <string name="cas_c_33066_0x0003">true</string>
   <string name="cas_c_33066_0x0004">true</string>
+  <string name="cas_c_33972_0x0001">3565158</string>
   <string name="cas_c_35893_0x0001">true</string>
   <string name="cas_c_35893_0x0002">true</string>
   <string name="cas_c_35893_0x0003">true</string>
@@ -1146,8 +1148,9 @@ and adjust preferences automatically"</string>
   <string name="cas_c_9006_0x0007">true</string>
   <string name="cas_c_9006_0x0009">true</string>
   <string name="cas_c_9006_0x000a">true</string>
+  <string name="cas_c_9006_0x000c">3</string>
   <string name="cas_c_d_e_f_w">true</string>
-  <string name="cas_c_parallel_set">8,13:3;12,13:5;16,13:5</string>
+  <string name="cas_c_parallel_set">8,1!13:3;12,1!13:5;16,1!13:5</string>
   <string name="cas_c_r_i_m_m">true</string>
   <string name="cas_c_s_a_u_q">true</string>
   <string name="cas_h_d_v">auto</string>
@@ -1286,7 +1289,7 @@ and adjust preferences automatically"</string>
   <string name="cepheus_s_v_f_m">true</string>
   <string name="cezanne_a_e_d">false</string>
   <string name="cezanne_a_l_h_l">380</string>
-  <string name="cezanne_a_l_l_l">420</string>
+  <string name="cezanne_a_l_l_l">295</string>
   <string name="cezanne_c_0x00_s_l_s">true</string>
   <string name="cezanne_c_0x01_p_g_a_v">290</string>
   <string name="cezanne_c_0x02_p_c_r_v">0.88812</string>
@@ -1320,7 +1323,7 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_0x25">false</string>
   <string name="cezanne_c_0x26">true</string>
   <string name="cezanne_c_0x27">true</string>
-  <string name="cezanne_c_0x28">false</string>
+  <string name="cezanne_c_0x28">true</string>
   <string name="cezanne_c_0x29">4.5</string>
   <string name="cezanne_c_0x30">3.2</string>
   <string name="cezanne_c_0x31">true</string>
@@ -1394,6 +1397,8 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_35893_0x0005">true</string>
   <string name="cezanne_c_35893_0x0006">true</string>
   <string name="cezanne_c_35893_0x0007">true</string>
+  <string name="cezanne_c_35893_0x0008">true</string>
+  <string name="cezanne_c_35893_0x0009">true</string>
   <string name="cezanne_c_35905_0x0001">true</string>
   <string name="cezanne_c_35910_0x0001">true</string>
   <string name="cezanne_c_35910_0x0002">true</string>
@@ -1407,6 +1412,7 @@ and adjust preferences automatically"</string>
   <string name="cezanne_c_36658_0x0002">true</string>
   <string name="cezanne_c_36658_0x0003">true</string>
   <string name="cezanne_c_9006_0x0002">true</string>
+  <string name="cezanne_c_9006_0x0006">true</string>
   <string name="cezanne_c_9006_0x0008">true</string>
   <string name="cezanne_c_d_e_f_w">true</string>
   <string name="cezanne_c_e_f_a_l">true</string>
@@ -1430,7 +1436,7 @@ and adjust preferences automatically"</string>
   <string name="cezanne_o_0x06_is_support_peaking_mf">true</string>
   <string name="cezanne_o_0x12_magic_mirror">false</string>
   <string name="cezanne_o_0x13_age_detection">false</string>
-  <string name="cezanne_o_0x14_burst_count">100</string>
+  <string name="cezanne_o_0x14_burst_count">20</string>
   <string name="cezanne_o_0x18_support_camera_quick_snap">true</string>
   <string name="cezanne_o_0x19_camera_role">true</string>
   <string name="cezanne_parallel_maxAcquireCount">15</string>
@@ -1610,9 +1616,9 @@ and adjust preferences automatically"</string>
   <string name="cmi_c_9006_0x0006">true</string>
   <string name="cmi_c_9006_0x0007">true</string>
   <string name="cmi_c_9006_0x000a">false</string>
-  <string name="cmi_c_9006_0x000c">false</string>
+  <string name="cmi_c_9006_0x000c">2</string>
   <string name="cmi_c_d_e_f_w">true</string>
-  <string name="cmi_c_parallel_set">8,0:3;12,15:5</string>
+  <string name="cmi_c_parallel_set">8,0!0:3;12,0!15:5</string>
   <string name="cmi_c_r_i_m_m">true</string>
   <string name="cmi_c_s_a_u_q">true</string>
   <string name="cmi_e_m_a_u_q_s">true</string>
@@ -1651,7 +1657,7 @@ and adjust preferences automatically"</string>
   <string name="cmi_s_v_f_m">true</string>
   <string name="cmi_s_z_m">true</string>
   <string name="color_effect_entry_berry">Berries</string>
-  <string name="color_effect_entry_blackgold">Rhodium</string>
+  <string name="color_effect_entry_blackgold">Gold vibes</string>
   <string name="color_effect_entry_blackice">Black ice</string>
   <string name="color_effect_entry_blackwhite">B&amp;W</string>
   <string name="color_effect_entry_classic">Classic</string>
@@ -1926,7 +1932,7 @@ and adjust preferences automatically"</string>
   <string name="custom_tint_color_select">Customize colors</string>
   <string name="custom_watermark_contains_senstive_words">"Watermarks can't contain restricted terms (%1$s)"</string>
   <string name="custom_watermark_tips">This text will appear as the second line of your watermark. It can contain up to 18 letters or 14 Chinese characters.</string>
-  <string name="custom_watermark_tips_gen2" formatted="false">Up to %d Chinese characters or %d letters.</string>
+  <string name="custom_watermark_tips_gen2">Up to %1$d Chinese characters or %2$d letters.</string>
   <string name="custom_watermark_too_many_words">The text you entered is too long</string>
   <string name="custom_watermark_words">Custom watermark</string>
   <string name="custom_watermark_words_input_hint">Enter text</string>
@@ -2103,8 +2109,6 @@ and adjust preferences automatically"</string>
   <string name="davinciin_c_d_e_f_w">true</string>
   <string name="davinciin_c_e_f_a_l">true</string>
   <string name="davinciin_i_s_s_b">true</string>
-  <string name="davinciin_live_activation_id">100090</string>
-  <string name="davinciin_live_activation_license">6ba7e0ed8f25969f309a520ef7c87098c8a5283fdcc5bb883091929ac0e469d7578d288cde43462fc869af28ffef38332b6dc33d5860ccbd9d7f08229222a694d6fea29637f26548924f1e147934262e</string>
   <string name="davinciin_o_0x00_s_s_l">true</string>
   <string name="davinciin_o_0x01_r_p_s_f">12</string>
   <string name="davinciin_o_0x16_support_psensor_pocket_mode">true</string>
@@ -2608,7 +2612,6 @@ if you rotate your phone"</string>
   <string name="gauguin_c_0x60">true</string>
   <string name="gauguin_c_16001_0x0001">true</string>
   <string name="gauguin_c_16001_0x0002">false</string>
-  <string name="gauguin_c_17042_0x0001">true</string>
   <string name="gauguin_c_17042_0x0003">true</string>
   <string name="gauguin_c_19039_0x0000">true</string>
   <string name="gauguin_c_19039_0x0002">false</string>
@@ -2620,7 +2623,6 @@ if you rotate your phone"</string>
   <string name="gauguin_c_19086_0x0001">true</string>
   <string name="gauguin_c_22367_0x0002">false</string>
   <string name="gauguin_c_22367_0x0005">true</string>
-  <string name="gauguin_c_22367_0x0007">true</string>
   <string name="gauguin_c_22367_0x000b">0.6:1.0:2.0</string>
   <string name="gauguin_c_22367_0x000c">capture_inner:0.6:1:2:5:10;capture_ruler:4:10:10:5</string>
   <string name="gauguin_c_22756_0x0001">1.0:2.0</string>
@@ -2645,6 +2647,7 @@ if you rotate your phone"</string>
   <string name="gauguin_c_35893_0x0001">true</string>
   <string name="gauguin_c_35893_0x0002">true</string>
   <string name="gauguin_c_35893_0x0003">true</string>
+  <string name="gauguin_c_35893_0x0005">true</string>
   <string name="gauguin_c_35905_0x0001">true</string>
   <string name="gauguin_c_35905_0x0002">10.0</string>
   <string name="gauguin_c_35910_0x0001">true</string>
@@ -2717,7 +2720,6 @@ if you rotate your phone"</string>
   <string name="ginkgo_a_l_l_l">380</string>
   <string name="ginkgo_c_0x01_p_g_a_v">287</string>
   <string name="ginkgo_c_0x02_p_c_r_v">0.89495</string>
-  <string name="ginkgo_c_0x03">true</string>
   <string name="ginkgo_c_0x06">true</string>
   <string name="ginkgo_c_0x0b">80</string>
   <string name="ginkgo_c_0x0c">true</string>
@@ -2726,6 +2728,7 @@ if you rotate your phone"</string>
   <string name="ginkgo_c_0x14">true</string>
   <string name="ginkgo_c_0x1c">true</string>
   <string name="ginkgo_c_0x22">true</string>
+  <string name="ginkgo_c_0x28">true</string>
   <string name="ginkgo_c_0x30">3.2</string>
   <string name="ginkgo_c_0x31">true</string>
   <string name="ginkgo_c_0x32">true</string>
@@ -2748,10 +2751,12 @@ if you rotate your phone"</string>
   <string name="ginkgo_c_22367_0x000c">capture_inner:0.6:1:2:5:10;capture_ruler:4:10:10:5</string>
   <string name="ginkgo_c_22756_0x0001">1.0:2.0</string>
   <string name="ginkgo_c_28041_0x0000">3</string>
+  <string name="ginkgo_c_35893_0x0004">1</string>
+  <string name="ginkgo_c_36211_0x0001">true</string>
+  <string name="ginkgo_c_36211_0x0002">true</string>
+  <string name="ginkgo_c_36658_0x0002">true</string>
   <string name="ginkgo_c_d_e_f_w">true</string>
   <string name="ginkgo_i_l_m_d">true</string>
-  <string name="ginkgo_live_activation_id">100079</string>
-  <string name="ginkgo_live_activation_license">7ac2284d55330de408d7b1a714d8ec3135019be24db678c9535487bd8ec7bbf5f4e86cce375a9ef468253bc178bd2bec9205752e299978158dffa86f8e1adbdf82eeb9246e0a9b92cdf8b83838778b0e</string>
   <string name="ginkgo_o_0x00_s_s_l">true</string>
   <string name="ginkgo_o_0x05_is_support_optical_zoom">false</string>
   <string name="ginkgo_o_0x06_is_support_peaking_mf">true</string>
@@ -3330,7 +3335,7 @@ Print the copy wirelessly on A4 paper."</string>
   <string name="laurel_sprout_s_z_m">true</string>
   <string name="laurus_c_0x01_p_g_a_v">390</string>
   <string name="laurus_c_0x02_p_c_r_v">0.93671875</string>
-  <string name="laurus_c_0x03">true</string>
+  <string name="laurus_c_0x03">false</string>
   <string name="laurus_c_0x06">true</string>
   <string name="laurus_c_0x0b">220</string>
   <string name="laurus_c_0x0c">true</string>
@@ -3340,6 +3345,7 @@ Print the copy wirelessly on A4 paper."</string>
   <string name="laurus_c_0x1c">true</string>
   <string name="laurus_c_0x22">true</string>
   <string name="laurus_c_0x25">true</string>
+  <string name="laurus_c_0x28">true</string>
   <string name="laurus_c_0x31">true</string>
   <string name="laurus_c_0x33">false</string>
   <string name="laurus_c_0x37">true</string>
@@ -3354,11 +3360,13 @@ Print the copy wirelessly on A4 paper."</string>
   <string name="laurus_c_22367_0x000b">0.6:1.0:2.0</string>
   <string name="laurus_c_22367_0x000c">capture_inner:0.6:1:2:5:10;capture_ruler:4:10:10:5</string>
   <string name="laurus_c_28041_0x0000">3</string>
+  <string name="laurus_c_35893_0x0004">1</string>
+  <string name="laurus_c_36211_0x0001">true</string>
+  <string name="laurus_c_36211_0x0002">true</string>
+  <string name="laurus_c_36658_0x0002">true</string>
   <string name="laurus_c_d_e_f_w">true</string>
   <string name="laurus_i_l_m_d">true</string>
   <string name="laurus_i_q_a_u_m">true</string>
-  <string name="laurus_live_activation_id">100075</string>
-  <string name="laurus_live_activation_license">022f35c83f7e92706b61cb089fc0ca4dfdba7173ac54dad1e9410b7b2f11c0ec4590b390f211eaeff7933a81bc0a78acdfb2f23af82ed0b9b24072d06712f1b1cdf2f0df7120a6d2229ea9271e329afd</string>
   <string name="laurus_o_0x05_is_support_optical_zoom">false</string>
   <string name="laurus_s_a">true</string>
   <string name="laurus_s_c_w_m">true</string>
@@ -3367,7 +3375,7 @@ Print the copy wirelessly on A4 paper."</string>
   <string name="laurus_s_i_a">true</string>
   <string name="laurus_s_m_c_t_f">true</string>
   <string name="laurus_s_m_f">true</string>
-  <string name="laurus_s_o_a_w">true</string>
+  <string name="laurus_s_o_a_w">false</string>
   <string name="laurus_s_p_a">true</string>
   <string name="laurus_s_s_m_t">true</string>
   <string name="laurus_s_s_n">true</string>
@@ -3413,20 +3421,20 @@ Print the copy wirelessly on A4 paper."</string>
 Clean the lens for better effect."</string>
   <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
   <string name="lens_dirty_detected_title_front">Front camera lens is dirty</string>
-  <string name="lighting_bright_red">嫣红</string>
-  <string name="lighting_dazzling">炫影</string>
-  <string name="lighting_dreamland">梦境</string>
-  <string name="lighting_gorgeous">斑斓</string>
+  <string name="lighting_bright_red">Scarlet</string>
+  <string name="lighting_dazzling">Beams</string>
+  <string name="lighting_dreamland">Dreamland</string>
+  <string name="lighting_gorgeous">Motley</string>
   <string name="lighting_hint_needed">Place your subject in the frame</string>
   <string name="lighting_hint_title">Studio lighting</string>
   <string name="lighting_hint_too_close">Move the camera further away</string>
   <string name="lighting_hint_too_far">Bring the camera closer</string>
   <string name="lighting_hint_usage">"You can use studio lighting effects
 in Portrait mode"</string>
-  <string name="lighting_lanshan">阑珊</string>
-  <string name="lighting_movie_light_effect_title">电影光效</string>
-  <string name="lighting_neon">霓影</string>
-  <string name="lighting_nostalgia">怀旧</string>
+  <string name="lighting_lanshan">Decadence</string>
+  <string name="lighting_movie_light_effect_title">Cinematic effects</string>
+  <string name="lighting_neon">Neon</string>
+  <string name="lighting_nostalgia">Nostalgia</string>
   <string name="lighting_pattern_dot">Dots</string>
   <string name="lighting_pattern_holi">Holi</string>
   <string name="lighting_pattern_leaf">Leaves</string>
@@ -3436,8 +3444,8 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
-  <string name="lighting_phantom">魅影</string>
-  <string name="lighting_rainbow">彩虹</string>
+  <string name="lighting_phantom">Phantom</string>
+  <string name="lighting_rainbow">Rainbow</string>
   <string name="link_privacy_policy">http://www.miui.com/res/doc/privacy.html?lang=%s</string>
   <string name="link_user_agreement">http://www.miui.com/res/doc/eula.html?lang=%s</string>
   <string name="live_edit_exit_confirm">Stop</string>
@@ -4481,8 +4489,6 @@ look larger on photos"</string>
   <string name="phoenixin_f_a_u_u">false</string>
   <string name="phoenixin_i_q_a_u_m">true</string>
   <string name="phoenixin_i_s_s_b">true</string>
-  <string name="phoenixin_live_activation_id">100097</string>
-  <string name="phoenixin_live_activation_license">8531c759ddce11dae9ed37a6be01b96dd9f73d643b8215bdeec6fd7710f296ec0ce3150d218202fe95d88321d9fce65c53176afad21c08ccf4e08ee9b8eb53eecc76da1ec0ed5239f83a0512f1f61618</string>
   <string name="phoenixin_module_name_pixel">64M</string>
   <string name="phoenixin_o_0x00_s_s_l">true</string>
   <string name="phoenixin_o_0x01_r_p_s_f">12</string>
@@ -4602,8 +4608,6 @@ look larger on photos"</string>
   <string name="picasso_e_m_a_u_q_s">true</string>
   <string name="picasso_i_q_a_u_m">true</string>
   <string name="picasso_i_s_s_b">true</string>
-  <string name="picasso_live_activation_id">100115</string>
-  <string name="picasso_live_activation_license">981ef9f9bbe5ce14570b0ff522ba11136a23987bad242e5fc4f17dfb31d58915c6b2b804da3e63812c4f3eab9a668d34084d40421f8456c85a33e9393ba2e8762b83fd521a5e5454bc0e82909a266883</string>
   <string name="picasso_module_name_pixel">M</string>
   <string name="picasso_o_0x00_s_s_l">true</string>
   <string name="picasso_o_0x01_r_p_s_f">12</string>
@@ -4719,8 +4723,6 @@ look larger on photos"</string>
   <string name="picassoin_c_s_a_u_q">true</string>
   <string name="picassoin_i_q_a_u_m">true</string>
   <string name="picassoin_i_s_s_b">true</string>
-  <string name="picassoin_live_activation_id">100116</string>
-  <string name="picassoin_live_activation_license">137de7b5f6dfe8fde085e3448dc59ad5957c9fb44d97869c0ab61b6852e67dc3fd596b469106ad3dde86016704db015e48140aa9084ccc8b1ecc10ca6d7ec75c8d2dc46d522b3880b6173a8782437ead</string>
   <string name="picassoin_module_name_pixel">64M</string>
   <string name="picassoin_o_0x00_s_s_l">true</string>
   <string name="picassoin_o_0x01_r_p_s_f">12</string>
@@ -4837,6 +4839,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_960_watermark_title">960FPS watermark</string>
   <string name="pref_advance_settings">Additional settings</string>
   <string name="pref_ai_detect">AI detection</string>
+  <string name="pref_audio_denoise_title">Audio noise reduction</string>
   <string name="pref_audio_focus_entry_front">Front</string>
   <string name="pref_audio_focus_entry_general">Normal</string>
   <string name="pref_audio_focus_entry_rear">Rear</string>
@@ -5029,6 +5032,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_hfr_entry_3x">90</string>
   <string name="pref_camera_hfr_entry_4x">120</string>
   <string name="pref_camera_hfr_entry_off">Off</string>
+  <string name="pref_camera_high_quality_preferred_description">通过画质优先算法提升成像效果，拍照时间会变长</string>
+  <string name="pref_camera_high_quality_preferred_title">画质增强</string>
   <string name="pref_camera_histogram_entry_disable">Turn off</string>
   <string name="pref_camera_histogram_entry_enable">Turn on</string>
   <string name="pref_camera_iso_default">0</string>
@@ -5286,6 +5291,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_live_volumekey_function_default">volume</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_manual_exposure_title_abbr">S</string>
+  <string name="pref_menu_ai_ultra_pixel_photography">AI %s</string>
   <string name="pref_menu_ultra_pixel_photography">%s Ultra HD</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_module_settings">Modes</string>
@@ -5604,8 +5610,6 @@ Keep the subject sharp while blurring the background."</string>
   <string name="raphaelin_c_d_e_f_w">true</string>
   <string name="raphaelin_c_e_f_a_l">true</string>
   <string name="raphaelin_i_s_s_b">true</string>
-  <string name="raphaelin_live_activation_id">100089</string>
-  <string name="raphaelin_live_activation_license">ec067f9cc5da6698195f7f54eaea2e4a7a4272c2d7173565e9982102c23a591e15ee493c66caa6624b5905e843b1dd5ae8c2388312a57bdd89482d4daff1814b5e2488ef93f3ee7a655d68deba53d881</string>
   <string name="raphaelin_o_0x00_s_s_l">true</string>
   <string name="raphaelin_o_0x01_r_p_s_f">12</string>
   <string name="raphaelin_s_a_3">true</string>
@@ -5824,7 +5828,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="timbre_normal">Original</string>
   <string name="timbre_robot">Robot</string>
   <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
-  <string name="timer_burst">Timed burst shot</string>
+  <string name="timer_burst">Timed burst</string>
   <string name="timer_burst_manu_param_interval">Interval without exposure</string>
   <string name="timer_burst_param_interval">Interval</string>
   <string name="timer_burst_param_total_count">Number of photos</string>
@@ -6046,7 +6050,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="tucana_c_9006_0x0004">true</string>
   <string name="tucana_c_9006_0x0005">true</string>
   <string name="tucana_c_d_e_f_w">true</string>
-  <string name="tucana_c_parallel_set">8,0:3;12,0:5</string>
+  <string name="tucana_c_parallel_set">8,0!0:3;12,0!0:5</string>
   <string name="tucana_c_r_i_m_m">true</string>
   <string name="tucana_c_s_a_u_q">true</string>
   <string name="tucana_h_d_v">auto</string>
@@ -6084,8 +6088,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="tucana_s_z_m">true</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
-  <string name="ultra_ai_pixel_photography_close_tip">AI %s超清已关闭</string>
-  <string name="ultra_ai_pixel_photography_open_tip">AI %s超清</string>
+  <string name="ultra_ai_pixel_photography_close_tip">AI %s Ultra HD is off</string>
+  <string name="ultra_ai_pixel_photography_open_tip">AI %s Ultra HD</string>
   <string name="ultra_pixel_108mp">108MP</string>
   <string name="ultra_pixel_32mp">32MP</string>
   <string name="ultra_pixel_48mp">48MP</string>
@@ -6212,9 +6216,9 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="umi_c_9006_0x0004">true</string>
   <string name="umi_c_9006_0x0005">true</string>
   <string name="umi_c_9006_0x0006">true</string>
-  <string name="umi_c_9006_0x000c">false</string>
+  <string name="umi_c_9006_0x000c">2</string>
   <string name="umi_c_d_e_f_w">true</string>
-  <string name="umi_c_parallel_set">8,0:3;12,15:5</string>
+  <string name="umi_c_parallel_set">8,0!0:3;12,0!15:5</string>
   <string name="umi_c_r_i_m_m">true</string>
   <string name="umi_c_s_a_u_q">true</string>
   <string name="umi_e_m_a_u_q_s">true</string>
@@ -6300,7 +6304,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="vela_c_0x00_s_l_s">false</string>
   <string name="vela_c_0x01_p_g_a_v">301</string>
   <string name="vela_c_0x02_p_c_r_v">0.935279806</string>
-  <string name="vela_c_0x03">true</string>
+  <string name="vela_c_0x03">false</string>
   <string name="vela_c_0x05">true</string>
   <string name="vela_c_0x06">true</string>
   <string name="vela_c_0x07">false</string>
