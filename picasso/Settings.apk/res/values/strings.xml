@@ -473,6 +473,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="app_disable_dlg_text">If you disable this app, Android and other apps may no longer function as intended. Keep in mind, you can’t delete this app since it came pre-installed on your device. By disabling, you turn this app off and hide it on your device.</string>
   <string name="app_disable_dlg_title">Disable built-in app?</string>
   <string name="app_disable_notifications_dlg_title">Turn off notifications?</string>
+  <string name="app_enable_bluetooth_record">Apps turning on Bluetooth</string>
   <string name="app_factory_reset">Uninstall updates</string>
   <string name="app_factory_reset_dlg_text">All updates to this Android system app will be uninstalled.</string>
   <string name="app_factory_reset_dlg_title">Uninstall updates?</string>
@@ -596,7 +597,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="audio_files_title">Audio files</string>
   <string name="audio_profile_settings_title">Audio profiles</string>
   <string name="audio_record_proc_title">Noise cancellation</string>
-  <string name="auto_adjst_effect_summary">Adjust color temperature to ambient light automatically in order to maintain optimal comfort level</string>
+  <string name="auto_adjst_effect_summary">Adjust color temperature to ambient light automatically</string>
   <string name="auto_adjust_effect_title">Adjust color temperature automatically</string>
   <string name="auto_brightness_default_title">Default</string>
   <string name="auto_brightness_description">Your screen brightness will automatically adjust to your environment and activities. You can move the slider manually to help adaptive brightness learn your preferences.</string>
@@ -683,10 +684,13 @@ Last ran on %2$s"</string>
   <string name="avoid_ui">Touch block</string>
   <string name="awake">Device awake time</string>
   <string name="back_button">Back</string>
+  <string name="back_double_tap">Double back tap</string>
   <string name="back_key">Back</string>
   <string name="back_sensitivity_dialog_message">"
 Higher sensitivity may conflict with any app gestures along the edges of the screen."</string>
   <string name="back_sensitivity_dialog_title">Back Sensitivity</string>
+  <string name="back_tap">Back tap</string>
+  <string name="back_triple_tap">Triple back tap</string>
   <string name="background_activity_disabled_dialog_text">"Since this app is not set to optimize battery, you can’t restrict it.
 
 To restrict the app, first turn on battery optimization."</string>
@@ -1240,6 +1244,7 @@ Selection"</string>
   <string name="bluetooth_unlock_device_matched_text">Use this device to unlock.</string>
   <string name="bluetooth_unlock_no_matched_device_yet">No devices detected</string>
   <string name="bluetooth_unlock_reject">The request to unlock this device was rejected</string>
+  <string name="bluetooth_unlock_settings_devices_prompt">Only selected wearable Bluetooth devices are supported (e.g. fitness bands and smartwatches)</string>
   <string name="bluetooth_unlock_settings_devices_title">Device</string>
   <string name="bluetooth_unlock_settings_toggle_title">Apply to</string>
   <string name="bluetooth_unlock_settings_unlock_device">Unlock device</string>
@@ -1328,6 +1333,10 @@ You can change this in the Settings."</string>
 You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices."</string>
   <string name="bt_aac_open_dialog_title">Switching to AAC codec</string>
   <string name="bt_aac_pre_title">AAC</string>
+  <string name="bt_absVolume_open_dialog_summary">Due to compatibility issues, some Bluetooth devices may have abnormal volume levels, which can be resolved by turning this feature off.</string>
+  <string name="bt_absVolume_open_dialog_title">Attention</string>
+  <string name="bt_absVolume_pre_title">Absolute volume</string>
+  <string name="bt_absVolume_summary">Keep the volume of Bluetooth devices and the phone strictly consistent</string>
   <string name="bt_dialog_remember_choice">Remember choice</string>
   <string name="bt_dialog_settings">Settings</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
@@ -1835,6 +1844,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="current_zone">(current)</string>
   <string name="custom_carrier_title">Edit carrier name</string>
   <string name="custom_color">Custom</string>
+  <string name="custom_gesture_title">Custom gestures</string>
   <string name="custom_wifi_name_title">Edit WLAN name</string>
   <string name="cutout_mode_always">Always show notch</string>
   <string name="cutout_mode_default">Auto</string>
@@ -2134,6 +2144,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_oaid_desc">Instead of your unique identifier, MIUI will provide a virtual ID (OAID) to installed apps. It prevents apps from tracking your behavior and preferences, and protects your privacy.</string>
   <string name="device_oaid_title">Virtual ID</string>
   <string name="device_of_someone">"%1$s's %2$s"</string>
+  <string name="device_opcust_version">Customized version</string>
   <string name="device_picker">Choose Bluetooth device</string>
   <string name="device_rear_camera">Rear camera</string>
   <string name="device_screen_resolution">Screen resolution</string>
@@ -3434,15 +3445,23 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="last_synced">Last synced %1$s</string>
   <string name="last_time_used_label">Last time used</string>
   <string name="lattice_smartcover_title">Lattice front cover</string>
+  <string name="launch_ai_shortcut">Mi AI shortcut</string>
+  <string name="launch_alipay_payment_code">Alipay payment code</string>
+  <string name="launch_alipay_scanner">Alipay scanner</string>
   <string name="launch_by_default">Open by default</string>
+  <string name="launch_calculator">Calculator</string>
   <string name="launch_camera">Launch camera</string>
+  <string name="launch_control_center">Control center</string>
   <string name="launch_defaults_none">No defaults set</string>
   <string name="launch_defaults_some">Some defaults set</string>
   <string name="launch_google_search">Launch Google Assistant</string>
   <string name="launch_instant_app">Open</string>
   <string name="launch_mdp_app_text">View plan</string>
+  <string name="launch_notification_center">Notification shade</string>
   <string name="launch_recents">Launch Recents</string>
   <string name="launch_voice_assistant">Launch Voice assistant</string>
+  <string name="launch_wechat_payment_code">WeChat payment code</string>
+  <string name="launch_wechat_scanner">WeChat scanner</string>
   <string name="launch_wifi_text">View details</string>
   <string name="launcher_icon">Icons</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
@@ -4239,6 +4258,7 @@ Select your operating system:"</string>
   <string name="multifunction_keyboard">Multifunctional</string>
   <string name="music_equalizer">Equalizer</string>
   <string name="musicfx_title">Music effects</string>
+  <string name="mute">Silent mode</string>
   <string name="mute_music_stream">Mute music stream</string>
   <string name="mute_voiceassist_stream">Mute voice assistant</string>
   <string name="mvno_match_data">MVNO value</string>
