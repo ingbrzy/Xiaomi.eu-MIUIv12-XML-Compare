@@ -95,6 +95,7 @@
   <string name="activity_title_permission_manager">Permissions</string>
   <string name="activity_title_permissions_manager">Permissions</string>
   <string name="activity_title_power_manager">Battery optimization</string>
+  <string name="activity_title_risk_app_install_manager">风险应用安装授权</string>
   <string name="activity_title_root_acquired">Allow root access</string>
   <string name="activity_title_root_manager">Root access</string>
   <string name="activity_title_root_note">About root access</string>
@@ -1835,6 +1836,7 @@ to calibrate"</string>
 to respond"</string>
   <string name="main_today_used">Used today</string>
   <string name="main_toolbar_firewall">Restrict data usage</string>
+  <string name="main_toolbar_misim">Mi SIM</string>
   <string name="main_toolbar_purchase">Top up</string>
   <string name="main_toolbar_statistic">Data usage stats</string>
   <string name="main_traffic_detail">Data usage</string>
@@ -1921,7 +1923,8 @@ Your device is %d%% faster now."</string>
   <string name="menu_summary_antivirus">Search for viruses on your device</string>
   <string name="menu_summary_app_manager">Update and uninstall apps</string>
   <string name="menu_summary_garbage_cleanup">No trash found</string>
-  <string name="menu_summary_garbage_cleanup_ex">Clear %s of trash</string>
+  <string name="menu_summary_garbage_cleanup_ex">Free up %s</string>
+  <string name="menu_summary_garbage_cleanup_new">%d%% of storage space</string>
   <string name="menu_summary_networkassistants">Manage your data plan</string>
   <string name="menu_summary_networkassistants_2">Went over the limit</string>
   <string name="menu_summary_networkassistants_3">Enough data remaining</string>
@@ -2825,6 +2828,15 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="result_sms_title_auth">Financial SMS leak risk exists</string>
   <string name="result_wifi_header">Wi-Fi risks detected</string>
   <string name="right_precent">100%</string>
+  <string name="risk_app_install_agree_button">信任该应用</string>
+  <string name="risk_app_install_agree_checkbox">我愿意承担所有可能存在的风险</string>
+  <string name="risk_app_install_agree_message">该应用涉嫌违反国家法律法规，请您谨慎使用！该应用由第三方应用开发者提供，对该应用所提供的内容与服务的可用性、持续性、可访问性，小米不做任何形式的保证，您使用该应用给您造成的任何损失，由您自行承担。</string>
+  <string name="risk_app_install_agree_title">授权安装用户须知</string>
+  <string name="risk_app_install_auth_result">您已成功授权%1$s的安装，找到安装包后可继续操作。</string>
+  <string name="risk_app_install_empty_text">暂无待授权的应用</string>
+  <string name="risk_app_install_history">应用安装授权记录</string>
+  <string name="risk_app_install_item_des">版本:%1$s</string>
+  <string name="risk_app_install_manager">风险应用安装授权</string>
   <string name="risk_count_suffix"/>
   <string name="roaming_allow_network_dialog_title">Allow mobile data roaming?</string>
   <string name="roaming_limit_dialog_message">Reached daily roaming data limit.</string>
