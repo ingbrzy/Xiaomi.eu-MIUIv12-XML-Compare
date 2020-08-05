@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <string name="date_time">dd MMMM, EEE</string>
-  <string name="date_time_12">dd MMMM, EEE</string>
-  <string name="desc_date_format">dd MMM EEEE</string>
-  <string name="desc_date_format_12">dd MMM, EEEE</string>
-  <string name="desc_time">'Şimdiki zaman\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', saat uygulamasına girmek için iki kez dokunun'</string>
-</resources>
+<strings>
+    <string name="date_time" value="d MMMM, EEEE">dd MMMM, EEE</string>
+    <string name="date_time_12" value="d MMMM, EEEE">dd MMMM, EEE</string>
+    <string name="desc_date_format" value="d MMMM, EEEE">dd MMM EEEE</string>
+    <string name="desc_date_format_12" value="d MMMM, EEEE">dd MMM, EEEE</string>
+</strings>
