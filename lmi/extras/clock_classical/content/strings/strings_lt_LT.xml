@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<strings>
-    <string name="date_time" value="EEEE, MMMM d"/>
-    <string name="date_time_12" value="EEEE, MMMM d"/>
-    <string name="desc_date_format" value="EEEE, MMMM d"/>
-    <string name="desc_date_format_12" value="EEEE, MMMM d"/>
-</strings>
+<resources>
+  <string name="date_time">MMM d \'d.\', EEE</string>
+  <string name="date_time_12">MMM d \'d.\', EEE</string>
+  <string name="desc_date_format">MMM d \'d.\', EEEE</string>
+  <string name="desc_date_format_12">MMM d \'d.\', EEEE</string>
+  <string name="desc_time">'dabartinis laikas\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', norėdami atidaryti laikrodį, dukart palieskite'</string>
+</resources>
