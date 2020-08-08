@@ -215,7 +215,7 @@ You can change this shortcut to another feature in Settings &gt; Accessibility."
   <string name="activitychooserview_choose_application">Choose an app</string>
   <string name="activitychooserview_choose_application_error">"Couldn't launch %s"</string>
   <string name="adb_active_notification_message">Tap to turn off USB debugging</string>
-  <string name="adb_active_notification_title">USB debugging connected</string>
+  <string name="adb_active_notification_title">USB debugging is on</string>
   <string name="adb_debugging_notification_channel_tv">USB debugging</string>
   <string name="adbwifi_active_notification_message">Tap to turn off wireless debugging</string>
   <string name="adbwifi_active_notification_title">Wireless debugging connected</string>
@@ -1101,6 +1101,14 @@ Try again in %2$d seconds."</string>
   <string name="location_changed_notification_title">Apps can access your location</string>
   <string name="location_service">Location Service</string>
   <string name="lock_pattern_view_aspect">square</string>
+  <string name="lock_to_app_description">"Screen pinning locks the display in a single view.
+
+To unpin, press and hold Home and the Power button at the same time."</string>
+  <string name="lock_to_app_description_accessible">"Screen pinning locks the display in a single view.
+
+To unpin, press and hold Home and the Power button at the same time."</string>
+  <string name="lock_to_app_toast">To unpin this screen, press and hold Home and the Power button at the same time.</string>
+  <string name="lock_to_app_toast_accessible">To unpin this screen, press and hold Home and the Power button at the same time.</string>
   <string name="lock_to_app_unlock_password">Ask for password before unpinning</string>
   <string name="lock_to_app_unlock_pattern">Ask for unlock pattern before unpinning</string>
   <string name="lock_to_app_unlock_pin">Ask for PIN before unpinning</string>
@@ -1140,7 +1148,7 @@ Visit "&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;.</string>
   <string name="lockscreen_pattern_instructions">Draw pattern to unlock</string>
   <string name="lockscreen_pattern_wrong">Try again</string>
   <string name="lockscreen_permanent_disabled_sim_instructions">"Your SIM card has been permanently disabled.
- Contact your wireless service provider for another SIM card."</string>
+Contact your wireless service provider for another SIM card."</string>
   <string name="lockscreen_permanent_disabled_sim_message_short">Unusable SIM card.</string>
   <string name="lockscreen_return_to_call">Return to call</string>
   <string name="lockscreen_screen_locked">Screen locked.</string>
@@ -2041,6 +2049,7 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="terabyteShort">TB</string>
   <string name="test_harness_mode_notification_message">Perform a factory reset to disable Test Harness Mode.</string>
   <string name="test_harness_mode_notification_title">Test Harness Mode enabled</string>
+  <string name="tethered_notification_message">Tap to set up.</string>
   <string name="tethered_notification_multi_device_message">%1$s connected devices</string>
   <string name="tethered_notification_no_device_message">No connected device</string>
   <string name="tethered_notification_one_device_message">%1$s connected device</string>
@@ -2090,16 +2099,16 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="usb_contaminant_not_detected_message">Phone no longer detects liquid or debris.</string>
   <string name="usb_contaminant_not_detected_title">OK to use USB port</string>
   <string name="usb_device_resolve_prompt_warn">This app has not been granted record permission but could capture audio through this USB device.</string>
-  <string name="usb_midi_notification_title">MIDI via USB turned on</string>
+  <string name="usb_midi_notification_title">MIDI via USB is on</string>
   <string name="usb_midi_peripheral_manufacturer_name">Android</string>
   <string name="usb_midi_peripheral_name">Android USB Peripheral Port</string>
   <string name="usb_midi_peripheral_product_name">USB Peripheral Port</string>
   <string name="usb_mtp_launch_notification_description">Tap to view files</string>
   <string name="usb_mtp_launch_notification_title">Connected to %1$s</string>
-  <string name="usb_mtp_notification_title">USB file transfer turned on</string>
+  <string name="usb_mtp_notification_title">USB file transfer is on</string>
   <string name="usb_notification_message">Tap for more options.</string>
   <string name="usb_power_notification_message">Charging connected device. Tap for more options.</string>
-  <string name="usb_ptp_notification_title">PTP via USB turned on</string>
+  <string name="usb_ptp_notification_title">PTP via USB is on</string>
   <string name="usb_storage_activity_title">USB mass storage</string>
   <string name="usb_storage_button_mount">Turn on USB storage</string>
   <string name="usb_storage_error_message">"There's a problem using your USB storage for USB mass storage."</string>
@@ -2114,9 +2123,9 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="usb_storage_stop_title">USB storage in use</string>
   <string name="usb_storage_title">USB connected</string>
   <string name="usb_supplying_notification_title">Charging connected device via USB</string>
-  <string name="usb_tether_notification_title">USB tethering turned on</string>
-  <string name="usb_unsupported_audio_accessory_message">The attached device is not compatible with this phone. Tap to learn more.</string>
-  <string name="usb_unsupported_audio_accessory_title">Analog audio accessory detected</string>
+  <string name="usb_tether_notification_title">USB tethering is on</string>
+  <string name="usb_unsupported_audio_accessory_message">"Connected device isn't compatible with this phone. Tap to learn more."</string>
+  <string name="usb_unsupported_audio_accessory_title">Detected analog audio accessory</string>
   <string name="use_a_different_app">Use a different app</string>
   <string name="user_creation_account_exists">Allow %1$s to create a new User with %2$s (a User with this account already exists) ?</string>
   <string name="user_creation_adding">Allow %1$s to create a new User with %2$s ?</string>
@@ -2130,11 +2139,11 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="volume_call">In-call volume</string>
   <string name="volume_dialog_ringer_guidance_silent">Calls and notifications will be muted</string>
   <string name="volume_dialog_ringer_guidance_vibrate">Calls and notifications will vibrate</string>
-  <string name="volume_icon_description_bluetooth">Bluetooth volume</string>
-  <string name="volume_icon_description_incall">Call volume</string>
-  <string name="volume_icon_description_media">Media volume</string>
-  <string name="volume_icon_description_notification">Notification volume</string>
-  <string name="volume_icon_description_ringer">Ringtone volume</string>
+  <string name="volume_icon_description_bluetooth">Bluetooth</string>
+  <string name="volume_icon_description_incall">Call</string>
+  <string name="volume_icon_description_media">Media</string>
+  <string name="volume_icon_description_notification">Notification</string>
+  <string name="volume_icon_description_ringer">Ringer</string>
   <string name="volume_music">Media volume</string>
   <string name="volume_music_hint_playing_through_bluetooth">Playing through Bluetooth</string>
   <string name="volume_music_hint_silent_ringtone_selected">Silent ringtone set</string>
