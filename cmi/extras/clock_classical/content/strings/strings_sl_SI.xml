@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<strings>
-    <string name="date_time" value="EEEE, d. MMMM"/>
-    <string name="date_time_12" value="EEEE, d. MMMM"/>
-    <string name="desc_date_format" value="EEEE, d. MMMM"/>
-    <string name="desc_date_format_12" value="EEEE, d. MMMM"/>
-</strings>
+<resources>
+  <string name="date_time">EEE., d. MMMM</string>
+  <string name="date_time_12">EEE., d. MMMM</string>
+  <string name="desc_date_format">EEEE, d. MMM</string>
+  <string name="desc_date_format_12">EEEE, d. MMM</string>
+  <string name="desc_time">'trenutni čas\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', dvakrat tapnite odprtje aplikacije za uro'</string>
+</resources>

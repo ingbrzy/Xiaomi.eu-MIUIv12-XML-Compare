@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="date_time">EEE, MMMM dd</string>
-<string name="date_time_12">EEE, MMMM dd</string>
-<string name="desc_date_format">EEEE, MMM dd</string>
-<string name="desc_date_format_12">EEEE, MMM dd</string>
-<string name="desc_time">'current time' + #hour12+' '+ifelse(#minute,#minute,'oclock')+', double tap to enter clock app'</string>
+  <string name="date_time">EEEE, dd \'de\' MMMM</string>
+  <string name="date_time_12">EEEE, dd \'de\' MMMM</string>
+  <string name="desc_date_format">EEEE, dd \'de\' MMMM</string>
+  <string name="desc_date_format_12">EEEE, dd \'de\' MMMM</string>
+  <string name="desc_time">'hora atual\' + #hour24+\' \'+ifelse(#minute,#minute,\'\')+\', toque duas vezes para abrir o relógio'</string>
 </resources>
