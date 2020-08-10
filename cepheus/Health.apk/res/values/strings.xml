@@ -28,6 +28,8 @@
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
   <string name="abnormal">Abnormal</string>
+  <string name="above_speed_km_per_hour">≥%d km/h</string>
+  <string name="above_speed_km_per_hour_1">≥%.1f km/h</string>
   <string name="achieve_goals">Reached goal</string>
   <string name="achieve_stand_goals">Reached goal</string>
   <string name="actionbar_button_up_description">Back</string>
@@ -105,6 +107,8 @@ to add cards"</string>
   <string name="bedTime_normal_description">You went to bed on time. Keep it up!</string>
   <string name="bedtime">Bedtime</string>
   <string name="bedtime_description">"Bedtime is the moment when you go to bed and put down your phone. It's estimated based on your bedtime schedule and device usage."</string>
+  <string name="below_speed_km_per_hour">&lt;%d km/h</string>
+  <string name="below_speed_km_per_hour_1">&lt;%.1f km/h</string>
   <string name="bg_control_dialog_go_set">Settings</string>
   <string name="bg_control_dialog_msg">"Battery saver will restrict Xiaomi Health's background activity. Allow Xiaomi Health to always run in the background to get accurate stats."</string>
   <string name="bg_control_dialog_title">Background restrictions</string>
@@ -624,6 +628,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="health_score">Health score</string>
   <string name="health_score_tips">Health score is calculated based on your BMI (body mass index), as well as your sleep and activity steps. The closer you are to your goals, the higher your health score is.</string>
   <string name="health_setting">Health settings</string>
+  <string name="heart_rate">Heart rate</string>
   <string name="heavenly_stems_bing">丙</string>
   <string name="heavenly_stems_ding">丁</string>
   <string name="heavenly_stems_geng">庚</string>
@@ -649,6 +654,15 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="hour">H</string>
   <string name="hour_in_day_format">%1$d</string>
   <string name="hour_in_day_format_short">%1$d</string>
+  <string name="hr_heart_rate_unit">Heart rate (BPM)</string>
+  <string name="hr_input_heart_rate">Record heart rate</string>
+  <string name="hr_state">Status</string>
+  <string name="hr_state_active">Active</string>
+  <string name="hr_state_fast">Fast</string>
+  <string name="hr_state_normal">Normal</string>
+  <string name="hr_state_regular">Regular</string>
+  <string name="hr_state_resting">Resting</string>
+  <string name="hr_state_slow">Slow</string>
   <string name="icon_content_description">Dialog Icon</string>
   <string name="improve_step_target">You reach your goal too often. Try setting a higher one.</string>
   <string name="improve_your_health_default_tips">Exercise and get enough sleep to stay healthy.</string>
@@ -905,6 +919,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="pause">Pause</string>
   <string name="per_time_minutes">%d per minute</string>
   <string name="per_time_minutes1">" per minute"</string>
+  <string name="per_time_minutes_heart_rate">" BPM"</string>
   <string name="permission_check_result">Set successfully</string>
   <string name="permission_check_result_failed">"Couldn't set"</string>
   <string name="permission_manage">Manage permissions</string>
@@ -983,6 +998,8 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
   <string name="remind_weight_title">Weigh-in</string>
   <string name="remove">Remove</string>
   <string name="repeat_mode">Repeat</string>
+  <string name="resting_heart_rate">Resting heart rate</string>
+  <string name="resting_heart_rate_desc">A normal heart rate for adults at rest ranges from 60 to 100 beats per minute. It may vary depending on age, gender, and other factors.</string>
   <string name="retry">Try again</string>
   <string name="revert_to_default">Restore defaults</string>
   <string name="run">Running</string>
@@ -1212,9 +1229,9 @@ sleep data"</string>
   <string name="stand_notice_title4">Stand up and do stretch a little</string>
   <string name="stand_notice_title5">"Looks like you haven't stood up within the last hour"</string>
   <string name="stand_notice_title6">Have you stood up within the last hour?</string>
-  <string name="stand_remind_setting_desc">When no standing activity is detected within 1 hour, send a notification to remind you to stand</string>
+  <string name="stand_remind_setting_desc">Receive a reminder to stand up after 1 hour of inactivity</string>
   <string name="stand_setting">Settings</string>
-  <string name="stand_stop_reminding">Stop receiving standing reminders</string>
+  <string name="stand_stop_reminding">"Don't show again"</string>
   <string name="standard_format">(standard: %1s)</string>
   <string name="standing_already">" You stood up"</string>
   <string name="state_agree">Agree</string>
@@ -1320,12 +1337,15 @@ sleep data"</string>
   <string name="tb_go_next_a_day">Previous day</string>
   <string name="tb_go_on_detection">Resume</string>
   <string name="tb_has_snore_dream_talk">Talking and snoring detected</string>
+  <string name="tb_heart_rate_max_min">Heart rate. Highest: %1$d. Lowest: %2$d.</string>
   <string name="tb_home_blood_pressure_card">Blood pressure. Systolic: %1$d. Diastolic: %2$d. Recorded: %3$s. Status: %4$s.</string>
   <string name="tb_home_blood_pressure_card_no_data">Blood pressure. No data.</string>
   <string name="tb_home_exercise_card_finish">Exercise. %1$s. Completed: %2$s. Goal: %3$s. Completed: %4$s.</string>
   <string name="tb_home_exercise_card_not_set_goal">Exercise. %1$s. Completed: %2$s. Open goal.</string>
   <string name="tb_home_exercise_card_not_supported_step">"Exercise. This device doesn't count steps."</string>
   <string name="tb_home_exercise_card_speed_of_progress">Exercise. %1$s. Completed: %2$s. Goal: %3$s. Progress: %4$s.</string>
+  <string name="tb_home_heart_rate_card">Heart rate. %1$d beats per minute. Recorded on %2$s.</string>
+  <string name="tb_home_heart_rate_card_no_data">Heart rate. No data.</string>
   <string name="tb_home_sleep_card">Sleep. %1$s today. Went to bed at %2$s. Woke up at %3$s. %4$s.</string>
   <string name="tb_home_sleep_card_no_data">Sleep. No data today.</string>
   <string name="tb_home_sleep_card_not_open_trace">Sleep. Sleep cycle analysis is turned off.</string>
@@ -1362,6 +1382,9 @@ sleep data"</string>
   <string name="tb_picker_year">Selected year: %1$d. Swipe vertically to select year.</string>
   <string name="tb_play_next">Switch to the next recording</string>
   <string name="tb_play_previous">Switch to the previous recording</string>
+  <string name="tb_range">From %1$s to %2$s</string>
+  <string name="tb_resting_heart_rate_avg">Average resting heart rate: %1$d. Status: %2$s.</string>
+  <string name="tb_resting_heart_rate_avg2">Average resting heart rate. Highest: %1$d. Lowest: %2$d.</string>
   <string name="tb_select_a_column">Selected %1$s</string>
   <string name="tb_show_sleep_info">Showing sleep stats for %1$s</string>
   <string name="tb_sleep_evaluation">Estimated result: %1$s</string>
