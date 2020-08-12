@@ -198,7 +198,10 @@ Send this code to the supervisor."</string>
   <string name="feedback_delete_images">Delete images</string>
   <string name="feedback_description">Description</string>
   <string name="feedback_description_bugreport_hint">In some cases (…) my phone misbehaves (…).</string>
-  <string name="feedback_description_hint">"Describe the issue you've encountered"</string>
+  <string name="feedback_description_hint">"Describe the issue you've encountered here.
+%1$d. In what app or on what page have you encountered the issue?
+%2$d. After what actions that you performed did the issue appear?
+%3$d. Give us the additional information that might help us fix the issue."</string>
   <string name="feedback_description_hint_suggestion">"Tell us how you'd like to improve MIUI."</string>
   <string name="feedback_description_label">Description</string>
   <string name="feedback_description_suggest_hint">"I'd like you to add a new feature () because I need ()."</string>
@@ -372,6 +375,7 @@ Send this code to the supervisor."</string>
   <string name="modem_tool_log_finish_title">Modem log captured</string>
   <string name="module_communication">Communication</string>
   <string name="module_data">Storage &amp; Dual apps</string>
+  <string name="module_default_json">[{\"packageName\":\"com.miui.device.reboot\",\"problemType\":12,\"isForceShow\":1,\"parentType\":0,\"title\":\"Crashes &amp; reboots\",\"categoryId\":1,\"order\":1},{\"packageName\":\"com.miui.Theraml\",\"problemType\":274,\"isForceShow\":1,\"parentType\":0,\"title\":\"Heating\",\"categoryId\":1,\"order\":2},{\"packageName\":\"com.miui.device.signal\",\"problemType\":14,\"isForceShow\":1,\"parentType\":0,\"title\":\"Mobile networks\",\"categoryId\":2,\"order\":1},{\"packageName\":\"com.miui.device.wifi\",\"problemType\":15,\"isForceShow\":1,\"parentType\":0,\"title\":\"Wi-Fi\",\"categoryId\":2,\"order\":2},{\"packageName\":\"com.miui.device.other\",\"problemType\":17,\"isForceShow\":1,\"parentType\":0,\"title\":\"Other errors\",\"categoryId\":10,\"order\":2}]</string>
   <string name="module_desktop">Home screen &amp; settings</string>
   <string name="module_finance">Finance &amp; Mi Wallet</string>
   <string name="module_google_apps">Google apps</string>
@@ -578,7 +582,7 @@ Send this code to the supervisor."</string>
   <string name="title_same_question_feedback_main">Similar issues in the MIUI forum</string>
   <string name="title_system_app">MIUI apps</string>
   <string name="title_user_guide">User guide</string>
-  <string name="toast_app_tag_required">Select issue</string>
+  <string name="toast_app_tag_required">Select issue first</string>
   <string name="toast_catch_full_log_catching">You can only generate one log at a time.</string>
   <string name="toast_catch_full_log_open_failed">"Couldn't start recording log."</string>
   <string name="toast_description_required">You need to write a description</string>
