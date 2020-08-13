@@ -28,6 +28,7 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="action_bar_report_link_des">App alert</string>
   <string name="adb_install_no_network">"Couldn't connect to the network. Check your network settings and try again."</string>
   <string name="adb_install_open">Opening…</string>
   <string name="adb_install_open_error">"Couldn't open. Check your network settings and try again."</string>
@@ -96,6 +97,7 @@ All your previous user data will be saved."</string>
 
 All your previous user data will be saved."</string>
   <string name="done">Done</string>
+  <string name="exit_install_button">"Don't install"</string>
   <string name="expand_button_title">Advanced</string>
   <string name="external_sources_settings">Settings</string>
   <string name="external_sources_settings_negative">Restrict</string>
@@ -121,18 +123,27 @@ All your previous user data will be saved."</string>
   <string name="increment_preparing">Preparing…</string>
   <string name="install">Install</string>
   <string name="install_app_progress_clear_apk">Delete APK</string>
+  <string name="install_confirm_dialog_message">This app is made by Google. You should install Google Play services to be able to use this app normally. Installing this app now might make your device misbehave. Install anyway?</string>
+  <string name="install_confirm_dialog_negative_button">Cancel</string>
+  <string name="install_confirm_dialog_positive_button">Install</string>
+  <string name="install_confirm_dialog_title">Attention</string>
   <string name="install_confirm_question">Do you want to install this application? It will get access to:</string>
+  <string name="install_confirm_question_des_10">"If you're willing to take the risks and want to proceed with the installation, authorize the installation in Security &gt; Manage apps &gt; Permissions &gt; Apps with possible risks. If you can't find \"Apps with possible risks\", update your Security app and try again."</string>
   <string name="install_confirm_question_no_perms">"Do you want to install this app? It doesn't require any special permissions."</string>
   <string name="install_confirm_question_update">"Do you want to install an update to this existing app? The existing app data won't be lost. The updated application will get access to:"</string>
   <string name="install_confirm_question_update_no_perms">"Do you want to install an update to this existing app? The existing app data won't be lost. It does not require any special permissions."</string>
   <string name="install_confirm_question_update_system">"Do you want to install an update to this system app? The existing app data won't be lost. The updated app will get access to:"</string>
   <string name="install_confirm_question_update_system_no_perms">"Do you want to install an update to this system app? The existing app data won't be lost. It does not require any special permissions."</string>
+  <string name="install_confirm_text_gms">This app is made by Google. Install Google Play services before installing this app. Without this framework, the app might not work properly.</string>
+  <string name="install_continue">继续安装</string>
   <string name="install_control_cancel_install">"Don't install"</string>
+  <string name="install_control_cancel_vip_account_install">Exit</string>
   <string name="install_control_continue_install">Install anyway</string>
   <string name="install_control_lite_mode_explain_des">This app is coming from an unknown source and might not work in Lite mode.</string>
   <string name="install_control_lite_mode_solution_des">"You can choose to install this app aniway.
 Alternatively, you can turn off Lite mode and try again."</string>
   <string name="install_control_normal_mode_explain_des">"Can't install this app due to legal restrictions"</string>
+  <string name="install_control_vip_account_install">Apply for Beta</string>
   <string name="install_done">App installed.</string>
   <string name="install_failed">"Couldn't install app"</string>
   <string name="install_failed_blocked">The package was blocked from being installed.</string>
@@ -144,7 +155,12 @@ Alternatively, you can turn off Lite mode and try again."</string>
   <string name="install_finished_notification_summary">Tap to free up storage space</string>
   <string name="install_finished_notification_title">Installed %1$s successfully. You can free up %2$s of storage space.</string>
   <string name="install_from_appstore_hint">We recommend you to install the app from &lt;u&gt;&lt;font color=#91c727&gt;AppStore&lt;/font&gt;&lt;/u&gt;</string>
+  <string name="install_vip_account_mode_explain_des">This is a Beta version of the app. Apply for Beta testing permissions before installing it.</string>
+  <string name="install_vip_account_mode_solution_des">Apply for Beta</string>
   <string name="installing">Installing…</string>
+  <string name="intercept_confirm_dialog_message">%1$s is trying to install %2$s. Verify your identity to continue.</string>
+  <string name="intercept_confirm_dialog_positive">Verify</string>
+  <string name="intercept_confirm_dialog_title">Attention</string>
   <string name="intercept_install">Install</string>
   <string name="launch">Open</string>
   <string name="lift_ban">Allow</string>
@@ -326,6 +342,7 @@ Alternatively, you can turn off Lite mode and try again."</string>
  "&lt;li&gt;Installation package comes from an unknown source.&lt;/li&gt;</string>
   <string name="settings_warning_dialog_msg">"Your phone is prone to security risks. You won't be prompted to install secure app versions if you turn this feature off. Turn off anyway?"</string>
   <string name="settings_warning_dialog_title">Attention</string>
+  <string name="spannable_continue_text">I understand the risks. Install anyway.</string>
   <string name="status_bar_notification_info_overflow">999+</string>
   <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
   <string name="system_warning">If you deny this permission, basic features of your device may no longer function as intended.</string>

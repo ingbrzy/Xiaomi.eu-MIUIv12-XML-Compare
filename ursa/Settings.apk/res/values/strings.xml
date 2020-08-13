@@ -331,6 +331,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="advanced_apps">Advanced</string>
   <string name="advanced_battery_graph_subtext">Battery left estimate is based on your device usage</string>
   <string name="advanced_battery_title">Battery usage</string>
+  <string name="advanced_gesture">Custom gestures</string>
   <string name="advanced_screen_paper_mode_title">Reading mode</string>
   <string name="advanced_section_header">Advanced</string>
   <string name="advanced_security_title">Advanced</string>
@@ -355,6 +356,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="ai_settings_long_click_title">Press and hold</string>
   <string name="ai_settings_single_press_des">Press the AI button to talk to Google Assistant, then release to get the answer.</string>
   <string name="airplane_mode">Airplane mode</string>
+  <string name="airplane_mode_summary">"Turn on to disconnect your device from mobile networks. You won't be able to make calls, send and receive text messages, or use mobile data when this feature is on."</string>
   <string name="alarm_ringtone_title">Default alarm sound</string>
   <string name="alarm_sound_dialog_title">Choose alarm sound</string>
   <string name="alarm_sound_title">Alarm</string>
@@ -473,6 +475,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="app_disable_dlg_text">If you disable this app, Android and other apps may no longer function as intended. Keep in mind, you can’t delete this app since it came pre-installed on your device. By disabling, you turn this app off and hide it on your device.</string>
   <string name="app_disable_dlg_title">Disable built-in app?</string>
   <string name="app_disable_notifications_dlg_title">Turn off notifications?</string>
+  <string name="app_enable_bluetooth_record">Apps turning on Bluetooth</string>
   <string name="app_factory_reset">Uninstall updates</string>
   <string name="app_factory_reset_dlg_text">All updates to this Android system app will be uninstalled.</string>
   <string name="app_factory_reset_dlg_title">Uninstall updates?</string>
@@ -596,7 +599,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="audio_files_title">Audio files</string>
   <string name="audio_profile_settings_title">Audio profiles</string>
   <string name="audio_record_proc_title">Noise cancellation</string>
-  <string name="auto_adjst_effect_summary">Adjust color temperature to ambient light automatically in order to maintain optimal comfort level</string>
+  <string name="auto_adjst_effect_summary">Adjust color temperature to ambient light automatically</string>
   <string name="auto_adjust_effect_title">Adjust color temperature automatically</string>
   <string name="auto_brightness_default_title">Default</string>
   <string name="auto_brightness_description">Your screen brightness will automatically adjust to your environment and activities. You can move the slider manually to help adaptive brightness learn your preferences.</string>
@@ -683,10 +686,13 @@ Last ran on %2$s"</string>
   <string name="avoid_ui">Touch block</string>
   <string name="awake">Device awake time</string>
   <string name="back_button">Back</string>
+  <string name="back_double_tap">Double back tap</string>
   <string name="back_key">Back</string>
   <string name="back_sensitivity_dialog_message">"
 Higher sensitivity may conflict with any app gestures along the edges of the screen."</string>
   <string name="back_sensitivity_dialog_title">Back Sensitivity</string>
+  <string name="back_tap">Back tap</string>
+  <string name="back_triple_tap">Triple back tap</string>
   <string name="background_activity_disabled_dialog_text">"Since this app is not set to optimize battery, you can’t restrict it.
 
 To restrict the app, first turn on battery optimization."</string>
@@ -1240,6 +1246,7 @@ Selection"</string>
   <string name="bluetooth_unlock_device_matched_text">Use this device to unlock.</string>
   <string name="bluetooth_unlock_no_matched_device_yet">No devices detected</string>
   <string name="bluetooth_unlock_reject">The request to unlock this device was rejected</string>
+  <string name="bluetooth_unlock_settings_devices_prompt">Only selected wearable Bluetooth devices are supported (e.g. fitness bands and smartwatches)</string>
   <string name="bluetooth_unlock_settings_devices_title">Device</string>
   <string name="bluetooth_unlock_settings_toggle_title">Apply to</string>
   <string name="bluetooth_unlock_settings_unlock_device">Unlock device</string>
@@ -1328,6 +1335,10 @@ You can change this in the Settings."</string>
 You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices."</string>
   <string name="bt_aac_open_dialog_title">Switching to AAC codec</string>
   <string name="bt_aac_pre_title">AAC</string>
+  <string name="bt_absVolume_open_dialog_summary">Due to compatibility issues, some Bluetooth devices may have abnormal volume levels, which can be resolved by turning this feature off.</string>
+  <string name="bt_absVolume_open_dialog_title">Attention</string>
+  <string name="bt_absVolume_pre_title">Absolute volume</string>
+  <string name="bt_absVolume_summary">Keep the volume of Bluetooth devices and the phone strictly consistent</string>
   <string name="bt_dialog_remember_choice">Remember choice</string>
   <string name="bt_dialog_settings">Settings</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
@@ -1394,9 +1405,9 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="call_records_name_1">Debbie Smith</string>
   <string name="call_records_name_2">Jason Lee</string>
   <string name="call_records_name_3">Tom Fowles</string>
-  <string name="call_records_summary_1">9:35 AM | 26 seconds | China Unicom</string>
-  <string name="call_records_summary_2">August 16 | 1m 16s | China Mobile</string>
-  <string name="call_records_summary_3">August 16 | 2m 24s | China Unicom</string>
+  <string name="call_records_summary_1">9:35 AM | 26 seconds</string>
+  <string name="call_records_summary_2">August 16 | 1m 16s</string>
+  <string name="call_records_summary_3">August 16 | 2m 24s</string>
   <string name="call_settings_primary_user_only">Change call settings in First space</string>
   <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
   <string name="call_settings_title">Call settings</string>
@@ -1484,6 +1495,7 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="cellular_data_usage">Mobile data usage</string>
   <string name="certinstaller_package">com.android.certinstaller</string>
   <string name="change">Change</string>
+  <string name="change_brightness">Adjust brightness</string>
   <string name="change_lock_screen_password_title">Change screen lock</string>
   <string name="change_password">Change screen lock</string>
   <string name="change_security_lock">Try other ways to unlock</string>
@@ -1835,7 +1847,9 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="current_zone">(current)</string>
   <string name="custom_carrier_title">Edit carrier name</string>
   <string name="custom_color">Custom</string>
+  <string name="custom_gesture_title">Custom gestures</string>
   <string name="custom_wifi_name_title">Edit WLAN name</string>
+  <string name="customize_knock_gesture"/>
   <string name="cutout_mode_always">Always show notch</string>
   <string name="cutout_mode_default">Auto</string>
   <string name="cutout_mode_settings_title">Some apps may be displayed incorrectly if you customize the way notch is displayed.</string>
@@ -2134,6 +2148,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_oaid_desc">Instead of your unique identifier, MIUI will provide a virtual ID (OAID) to installed apps. It prevents apps from tracking your behavior and preferences, and protects your privacy.</string>
   <string name="device_oaid_title">Virtual ID</string>
   <string name="device_of_someone">"%1$s's %2$s"</string>
+  <string name="device_opcust_version">Customized version</string>
   <string name="device_picker">Choose Bluetooth device</string>
   <string name="device_rear_camera">Rear camera</string>
   <string name="device_screen_resolution">Screen resolution</string>
@@ -2329,6 +2344,8 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="done">Done</string>
   <string name="done_button">Done</string>
   <string name="double_click_power_key">Double press the Power button</string>
+  <string name="double_click_volume_down_when_lock">Double press Volume down when the screen is locked</string>
+  <string name="double_knock"/>
   <string name="double_tap_power_for_camera_suggestion_title">Open camera quickly</string>
   <string name="double_tap_power_for_camera_summary">To quickly open camera, press the power button twice. Works from any screen.</string>
   <string name="double_tap_power_for_camera_title">Jump to camera</string>
@@ -2558,7 +2575,7 @@ For more details, contact your organization's admin."</string>
   <string name="ethernet_data_usage">Ethernet data usage</string>
   <string name="every_day">Every day</string>
   <string name="expand_button_title">Advanced</string>
-  <string name="expandable_under_keyguard_title">Expandable under secure Lock screen</string>
+  <string name="expandable_under_keyguard_title">Show on Lock screen</string>
   <string name="experimental_category_title">Experimental</string>
   <string name="experimental_preference">(Experimental)</string>
   <string name="extended_power_menu">Extended power menu</string>
@@ -2676,6 +2693,7 @@ For more details, contact your organization's admin."</string>
   <string name="find_my_device">Find device</string>
   <string name="find_my_device_disable">Off</string>
   <string name="find_my_device_enable">On</string>
+  <string name="find_my_device_summary">This feature requires signing in to Mi Account</string>
   <string name="fingerprint_add_max">You can add up to %d fingerprints</string>
   <string name="fingerprint_add_title">Add fingerprint</string>
   <string name="fingerprint_and_password_entrance_title">Screen lock &amp; fingerprint</string>
@@ -2894,6 +2912,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gentle_notifications_title">Gentle notifications</string>
   <string name="gesture_double_twist_sensor_name"/>
   <string name="gesture_double_twist_sensor_vendor"/>
+  <string name="gesture_function_dialog_message">%1$s is used for \"%2$s\". Replace with \"%3$s\"?</string>
   <string name="gesture_not_supported_dialog_message">Not supported by your default home app, %s</string>
   <string name="gesture_not_supported_positive_button">Switch default home app</string>
   <string name="gesture_preference_summary">Quick gestures to control your phone</string>
@@ -2903,6 +2922,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gesture_prevent_ringing_title">Press Power &amp; Volume Up together to</string>
   <string name="gesture_setting_off">Off</string>
   <string name="gesture_setting_on">On</string>
+  <string name="gesture_settings_title">Gesture shortcuts</string>
   <string name="gesture_wakeup_summary">You can double tap to turn the screen off when either Default or Classic theme is applied</string>
   <string name="gesture_wakeup_title">Double tap to wake or turn off screen</string>
   <string name="getConfiguredNetworks">getConfiguredNetworks</string>
@@ -3274,6 +3294,8 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="invalid_location">Install location isn’t valid.</string>
   <string name="invalid_size_value">Couldn’t compute package size.</string>
   <string name="ipaddr_label">IPaddr:</string>
+  <string name="ipv4_congertion_control">Select TCP congestion control</string>
+  <string name="ipv4_congertion_xontrol_chose">TCP congestion-avoidance algorithm</string>
   <string name="item_system_app">System apps</string>
   <string name="join_two_items">%1$s and %2$s</string>
   <string name="join_two_unrelated_items">%1$s, %2$s</string>
@@ -3284,6 +3306,7 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="key_combination_power_back">Power + Back</string>
   <string name="key_combination_power_home">Power + Home</string>
   <string name="key_combination_power_menu">Power + Menu</string>
+  <string name="key_combination_power_volume_down">Volume down + Power</string>
   <string name="key_fsg_dialog_message">"You're using full screen gestures for navigation. Button-related features aren't available now. Switch to buttons?"</string>
   <string name="key_fsg_dialog_negative">Cancel</string>
   <string name="key_fsg_dialog_positive">Switch to buttons</string>
@@ -3426,6 +3449,17 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="kid_space_settings">Kid space</string>
   <string name="kilobyteShort">KB</string>
   <string name="kilobyte_per_second">KB/s</string>
+  <string name="knock_edge_area_invalid"/>
+  <string name="knock_guide_dialog_title"/>
+  <string name="knock_guide_drive_desc"/>
+  <string name="knock_guide_launch_desc"/>
+  <string name="knock_guide_set_screenshot"/>
+  <string name="knock_guide_set_voiceassist"/>
+  <string name="knock_guide_sub_title"/>
+  <string name="knock_guide_title"/>
+  <string name="knock_long_press_horizontal_slid"/>
+  <string name="knock_slide_shape"/>
+  <string name="knock_slide_v"/>
   <string name="label_available">Available networks</string>
   <string name="label_mi_stats">Mi analytics</string>
   <string name="language_and_input_for_work_category_title">Work profile keyboards &amp; tools</string>
@@ -3440,15 +3474,26 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="last_synced">Last synced %1$s</string>
   <string name="last_time_used_label">Last time used</string>
   <string name="lattice_smartcover_title">Lattice front cover</string>
+  <string name="launch_ai_shortcut">Mi AI shortcut</string>
+  <string name="launch_alipay_payment_code">Alipay payment code</string>
+  <string name="launch_alipay_scanner">Alipay scanner</string>
   <string name="launch_by_default">Open by default</string>
+  <string name="launch_calculator">Calculator</string>
   <string name="launch_camera">Launch camera</string>
+  <string name="launch_control_center">Control center</string>
   <string name="launch_defaults_none">No defaults set</string>
   <string name="launch_defaults_some">Some defaults set</string>
   <string name="launch_google_search">Launch Google Assistant</string>
   <string name="launch_instant_app">Open</string>
   <string name="launch_mdp_app_text">View plan</string>
+  <string name="launch_noapp_dialog_cancel"/>
+  <string name="launch_noapp_dialog_install"/>
+  <string name="launch_noapp_dialog_replace"/>
+  <string name="launch_notification_center">Notification shade</string>
   <string name="launch_recents">Launch Recents</string>
   <string name="launch_voice_assistant">Launch Voice assistant</string>
+  <string name="launch_wechat_payment_code">WeChat payment code</string>
+  <string name="launch_wechat_scanner">WeChat scanner</string>
   <string name="launch_wifi_text">View details</string>
   <string name="launcher_icon">Icons</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
@@ -3801,6 +3846,7 @@ as your First space PIN."</string>
   <string name="long_press_menu_key_when_lock">Long press Menu on the Lock screen</string>
   <string name="long_press_power_key">Long press the Power button</string>
   <string name="long_press_power_key_half_of_second">Press and hold the Power button for 0.5s to turn on Google Assistant</string>
+  <string name="long_press_power_key_half_second">Press and hold the Power button for 0.5 seconds</string>
   <string name="long_press_power_key_tips">&lt;Data&gt;Long press the Power button &amp;lt;font color=#999999&amp;gt;Faster and more convenient&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
   <string name="long_press_volume_down">Long press Volume down</string>
   <string name="lost_internet_access_cancel">Stay on WLAN</string>
@@ -4245,6 +4291,7 @@ Select your operating system:"</string>
   <string name="multifunction_keyboard">Multifunctional</string>
   <string name="music_equalizer">Equalizer</string>
   <string name="musicfx_title">Music effects</string>
+  <string name="mute">Silent mode</string>
   <string name="mute_music_stream">Mute music stream</string>
   <string name="mute_voiceassist_stream">Mute voice assistant</string>
   <string name="mvno_match_data">MVNO value</string>
@@ -4774,12 +4821,12 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="partial_connectivity_text">Some apps and services may not work due to limited connectivity. Use anyway?</string>
   <string name="passpoint_content">%1$s credentials</string>
   <string name="passpoint_label">Saved via</string>
-  <string name="passpoint_r1_privacy_dialog_message">"Passpoint is a reliable, safe wireless connection technology launched by the WLAN Alliance. It configures accounts automatically to achieve a seamless connection between WLAN networks and mobile devices.
+  <string name="passpoint_r1_privacy_dialog_message">"This WLAN service is provided by exands. It allows you to connect to supported nearby hotspots automatically.
 
-This feature obtains your WLAN MAC address only for the initial account registration. We will process your data in accordance with our %s. Read and agree to our Privacy Policy before using this feature."</string>
-  <string name="passpoint_r1_privacy_dialog_no">Cancel</string>
+Read and agree to %s before using this service."</string>
+  <string name="passpoint_r1_privacy_dialog_no">Exit</string>
   <string name="passpoint_r1_privacy_dialog_title">Attention</string>
-  <string name="passpoint_r1_privacy_dialog_url_text">Privacy Policy</string>
+  <string name="passpoint_r1_privacy_dialog_url_text">\"exands Privacy Policy\"</string>
   <string name="passpoint_r1_privacy_dialog_yes">Agree</string>
   <string name="passwordIncorrect">The password you entered is incorrect</string>
   <string name="password_and_security">Passwords &amp; security</string>
@@ -5816,7 +5863,7 @@ To use screen pinning:
   <string name="search_sound_settings">Sound;Volumes;vibration;Suppress noise;noise suppression</string>
   <string name="search_status_bar_settings">Notifications &amp; status bar;Notifications;Status bar</string>
   <string name="search_status_bar_settings_custom_carrier">Edit carrier name;Carrier name</string>
-  <string name="search_status_bar_settings_expandable_under_keyguard">Expandable under secure Lock screen;expandable under secure lockscreen</string>
+  <string name="search_status_bar_settings_expandable_under_keyguard">Show on lock screen;show on lockscreen</string>
   <string name="search_status_bar_settings_manage_notification">App Notifications;Notifications</string>
   <string name="search_status_bar_settings_show_carrier">Show carrier name;Carrier name</string>
   <string name="search_status_bar_settings_show_network_speed">Show connection speed;connection speed</string>
@@ -6160,6 +6207,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="sim_call_back_title">Call back from default SIM</string>
   <string name="sim_calls_always_use">Always use this for calls</string>
   <string name="sim_calls_ask_first_prefs_title">Ask every time</string>
+  <string name="sim_card_lock">SIM card status</string>
   <string name="sim_card_number_title">SIM %1$d</string>
   <string name="sim_card_select_title">Select SIM card</string>
   <string name="sim_cards_changed_message">SIM cards have changed</string>
@@ -6285,6 +6333,9 @@ Possibly incorrect PIN."</string>
   <string name="smart_battery_manager_title">Battery Manager</string>
   <string name="smart_battery_summary">Limit battery for apps that you don’t use often</string>
   <string name="smart_battery_title">Manage apps automatically</string>
+  <string name="smart_home_title">Smart Home</string>
+  <string name="smart_home_value_none">None</string>
+  <string name="smart_home_value_unknown">Unknown</string>
   <string name="smart_notifications_title">Adaptive notifications</string>
   <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover mode</string>
   <string name="smartcover_sensitive_summary">Lock or unlock the phone automatically using smart cover</string>

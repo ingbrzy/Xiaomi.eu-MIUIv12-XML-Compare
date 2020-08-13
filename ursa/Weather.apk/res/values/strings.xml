@@ -68,7 +68,6 @@
   <string name="alert_weather_enable_settings_summary">Receive official weather warnings</string>
   <string name="alert_weather_enable_settings_title">Weather warnings</string>
   <string name="already_voted_toast">"You've already voted today"</string>
-  <string name="analytics_version_name">2.8.18</string>
   <string name="app_name">Weather</string>
   <string name="aqi_15_days_desc">15-day air quality forecast</string>
   <string name="aqi_24_hours_desc">24-hour air quality forecast</string>
@@ -126,7 +125,7 @@
   <string name="card_vote_item_vs">VS</string>
   <string name="change_alert">Check your network connection and try again</string>
   <string name="china_version_first_start_network_msg">"You need to agree to Xiaomi's %1$s and %2$s to be able to use Weather. Weather needs to access your location and connect to the internet to work normally. Agree?"</string>
-  <string name="city_exceeded_warning">You can add up to 10 cities</string>
+  <string name="city_exceeded_warning">"Can't add more cities. To add a new one, delete a city that is already on the list first."</string>
   <string name="clear_net_mock_success">Net mock clear success</string>
   <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
   <string name="common_google_play_services_enable_button">Enable</string>
@@ -176,6 +175,10 @@ Pull down to refresh or check the network settings"</string>
   <string name="data_source_time_fromat">"yyyy-MM-dd'T'HH:mm:ssz"</string>
   <string name="data_source_timezone">GMT%1$s</string>
   <string name="default_web_client_id">555345638765-9lct5s57ied6eqd72cf7drf6baqta1o6.apps.googleusercontent.com</string>
+  <string name="dialog_msg_score_midrop">How do you feel about Weather?</string>
+  <string name="dialog_msg_score_not_good">Could you give us your feedback as well?</string>
+  <string name="dialog_msg_score_perfect">Nice! Rate Weather in Play Store as well?</string>
+  <string name="dialog_title_score">Rate Weather</string>
   <string name="dislike_alert_dialog_title">Why do not you want to see this content?</string>
   <string name="edit_city">Manage cities</string>
   <string name="empty">" "</string>
@@ -257,12 +260,16 @@ Pull down to refresh or check the network settings"</string>
   <string name="indices_desc_humidity">Humidity %1$s%%</string>
   <string name="indices_desc_humidity_without_pic">%1$s%%</string>
   <string name="indices_desc_pressure">%1$smb</string>
+  <string name="indices_title_chance_of_rain">Chance of rain</string>
   <string name="indices_title_feel">Real feel</string>
   <string name="indices_title_pressure">Pressure</string>
+  <string name="indices_title_wind_speed">Wind speed</string>
   <string name="information_settings_title">Weather info</string>
   <string name="install">Install</string>
   <string name="install_progress">%1$s%%</string>
-  <string name="international_details_humidity_title">HUMIDITY</string>
+  <string name="international_details_chance_of_rain">CHANCE OF RAIN</string>
+  <string name="international_details_humidity">HUMIDITY</string>
+  <string name="international_details_no_data">@string/item_city_list_temperature_no_data</string>
   <string name="international_details_pressure_title">PRESSURE</string>
   <string name="international_details_real_feel_title">REAL FEEL®</string>
   <string name="international_details_title">Details</string>
@@ -370,6 +377,8 @@ Tap the screen to manually add or reposition city"</string>
   <string name="rain_sound_setting_title_text">Sound effects</string>
   <string name="rainfall_settings_summary">Rainfall alerts</string>
   <string name="rainfall_settings_title">Rainfall</string>
+  <string name="rating_dialog_later">Later</string>
+  <string name="rating_dialog_rate_now">Rate now</string>
   <string name="real_time_sunrise">Sunrise %1$s</string>
   <string name="real_time_sunset">Sunset %1$s</string>
   <string name="realtime_aqi_title">Air Quality Index</string>
