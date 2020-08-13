@@ -143,7 +143,7 @@
   <string name="app_downloading_ratio_text">Downloading %s</string>
   <string name="app_downloading_text">Downloading</string>
   <string name="app_installing_text">Installing</string>
-  <string name="app_name">mediation-mi</string>
+  <string name="app_name">ad-sdk-native</string>
   <string name="app_new_version">The latest version of this app is already installed</string>
   <string name="app_open_text">Open</string>
   <string name="app_task_download_exists_text">Download exist</string>
@@ -220,8 +220,8 @@
   <string name="block_ads_choice_continue">Continue</string>
   <string name="block_ads_message">Do you want to block messages from this website?</string>
   <string name="block_ads_title">Content may contain ads</string>
-  <string name="book_mark_input_title_hint">Please enter a name</string>
-  <string name="book_mark_input_url_hint">Please enter the URL</string>
+  <string name="book_mark_input_title_hint">Enter a name</string>
+  <string name="book_mark_input_url_hint">Enter the URL</string>
   <string name="book_mark_search_hint">Search %1$s content</string>
   <string name="book_mark_spinner_name">Grouping</string>
   <string name="bookcity_downloadcenter__shared__download_font_immediately">后台下载</string>
@@ -409,6 +409,8 @@
   <string name="comment_fail">"Couldn't add comment. Try again."</string>
   <string name="comment_flag_choice">Featured</string>
   <string name="comment_flag_top">Pinned</string>
+  <string name="comment_forbid">该内容暂不支持评论</string>
+  <string name="comment_forbid_article">文章暂不支持评论</string>
   <string name="comment_hint">Comment</string>
   <string name="comment_just_now">Just now</string>
   <string name="comment_max_length">Your comment is too long.</string>
@@ -484,6 +486,7 @@
   <string name="debug_browser_sug_title">sug搜索为:</string>
   <string name="debug_browser_switch">一键更换测试环境</string>
   <string name="debug_browser_title">主环境为:</string>
+  <string name="debug_browser_user_task_title">任务中心地址为:</string>
   <string name="debug_browser_warning">自定义环境请先关闭一键更换！</string>
   <string name="debug_code_hint">请输入神秘暗号~</string>
   <string name="debug_code_warning">有内鬼，终止交易！</string>
@@ -502,6 +505,7 @@
   <string name="delete_bookmark_warning">Delete bookmark \"%s\"?</string>
   <string name="delete_download">Delete</string>
   <string name="delete_select_book_ask">同时删除本机上的文件</string>
+  <string name="dev_pref_debug_login">模拟Debug登录</string>
   <string name="dev_pref_title_jump">页面跳转</string>
   <string name="dialog_ad_exit_exit_app">Later</string>
   <string name="dialog_ad_exit_open_app">Open</string>
@@ -548,6 +552,7 @@ to support our work"</string>
   <string name="download_btn_select_none">Deselect all</string>
   <string name="download_complete">Downloaded successfully</string>
   <string name="download_completed">Downloaded</string>
+  <string name="download_confirm_dialog_title">Risk alert</string>
   <string name="download_dialog_default_path_invalid">"The download location you've selected is invalid. Saving to default location…"</string>
   <string name="download_dialog_file_length_default_txt">Just a sec…</string>
   <string name="download_dialog_file_length_lessthan1kb">Less than 1KB</string>
@@ -569,6 +574,9 @@ to support our work"</string>
   <string name="download_no_sdcard_dlg_msg">An SD card is required to download %s.</string>
   <string name="download_no_sdcard_dlg_title">No SD card</string>
   <string name="download_pending">Starting download…</string>
+  <string name="download_proceed">Normal download</string>
+  <string name="download_risk_alert_content">The game is not verified by Xiaomi Market. By choosing Normal download, you indicate that you are aware of the risks and consequences.</string>
+  <string name="download_safe">Safe download</string>
   <string name="download_sdcard_busy_dlg_msg">SD card is busy. To allow downloads, turn off USB storage in the notification shade.</string>
   <string name="download_sdcard_busy_dlg_title">SD card unavailable</string>
   <string name="download_status_failed">"Couldn't download"</string>
@@ -1018,6 +1026,7 @@ to view open tabs from other devices."</string>
   <string name="load_more_footer_status_msg_full">"That's all for now."</string>
   <string name="load_more_footer_status_msg_idle">Tap to load more</string>
   <string name="load_more_footer_status_msg_loading">Just a sec…</string>
+  <string name="load_sever_data_error">服务端开小差了，请稍后再试～</string>
   <string name="loading">正在努力加载数据…</string>
   <string name="loading_dialog_title">Moving…</string>
   <string name="login_failed_toast">"Couldn't sign in, refresh and try again"</string>
@@ -1280,9 +1289,8 @@ Are you sure you want to navigate away from this page?"</string>
   <string name="nav_launch_title">Try using the following apps</string>
   <string name="nav_lunch_duokan">Opening Duokan…</string>
   <string name="nav_screen_container_tab_incognito">Incognito tab</string>
-  <string name="nav_screen_incognito_message">"Your browsing and search history won't be saved in Incognito mode.
-Remember that the files you download and the bookmarks you add will still be saved."</string>
-  <string name="nav_screen_incognito_title">Incognito mode</string>
+  <string name="nav_screen_incognito_message">"Now you can browse privately. Your browsing history, search requests, and downloads won't be recorded. We won't save site data as well."</string>
+  <string name="nav_screen_incognito_title">"You've switched to Incognito mode."</string>
   <string name="navigate_feedback_dislike">not interested</string>
   <string name="navigate_feedback_dislike_tips">Will reduce such video recommendations</string>
   <string name="navigate_feedback_input_report_label">Other reasons</string>
@@ -1301,8 +1309,8 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="network_not_available_comment">No internet connection, unable to comment</string>
   <string name="network_show_wifi_setting_tip_dialog_description">Found a Wi-Fi hotspot nearby. Try to connect?</string>
   <string name="network_show_wifi_setting_tip_dialog_title">Wi-Fi network is available</string>
-  <string name="new_copy_address">最新复制的网址</string>
-  <string name="new_copy_content">最新复制的内容</string>
+  <string name="new_copy_address">Last copied URL</string>
+  <string name="new_copy_content">Last copied content</string>
   <string name="news_comment_error">加载失败</string>
   <string name="news_comment_full">已显示全部评论</string>
   <string name="news_comment_loading">加载中…</string>
@@ -1522,6 +1530,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="save_to_camera">Save to Gallery</string>
   <string name="save_to_camera_failed">"Can't save image"</string>
   <string name="save_to_camera_success">Saved to Gallery</string>
+  <string name="saved_sucess">Saved Sucess</string>
   <string name="scanner_uninstalled_text">Install Scanner to continue</string>
   <string name="scanner_uninstalled_title">Scanner has been uninstalled</string>
   <string name="screenshot_loading_dialog_title">Capturing</string>
@@ -1612,6 +1621,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
   <string name="skip_current_version">Skip this version</string>
   <string name="slide_guide">Slide to return</string>
+  <string name="slide_guide_back">向右滑恢复网页</string>
   <string name="small_video_ad_app_text_click">Download</string>
   <string name="small_video_ad_download_text">Download</string>
   <string name="small_video_ad_web_text">Open</string>
@@ -2197,6 +2207,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="title_bar_loading">Loading…</string>
   <string name="title_notice_push">Turn on push</string>
   <string name="toast_feedback">"You'll see fewer items of this kind."</string>
+  <string name="toast_not_support">"This feature isn't supported yet"</string>
   <string name="today">Today</string>
   <string name="today_hot_search">今日热搜</string>
   <string name="tomorrow">Tomorrow</string>
@@ -2381,6 +2392,7 @@ feedsContentId:
   <string name="vo_info_flow_load_more_title">Try loading more items manually</string>
   <string name="vo_info_flow_refresh_empty">No updates for now. Check other channels!</string>
   <string name="vo_info_flow_refresh_error">"Couldn't connect to the network. Check your network settings and try again."</string>
+  <string name="vo_info_flow_refresh_sever_data_error">服务端开小差了，请稍后再试～</string>
   <string name="vo_info_flow_rs_hint">Search</string>
   <string name="vo_like_text">Like</string>
   <string name="vo_location_change_cancel">Not now</string>

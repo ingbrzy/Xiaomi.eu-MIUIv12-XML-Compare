@@ -95,6 +95,7 @@
   <string name="activity_title_permission_manager">Permissions</string>
   <string name="activity_title_permissions_manager">Permissions</string>
   <string name="activity_title_power_manager">Battery optimization</string>
+  <string name="activity_title_risk_app_install_manager">Apps with possible risks</string>
   <string name="activity_title_root_acquired">Allow root access</string>
   <string name="activity_title_root_manager">Root access</string>
   <string name="activity_title_root_note">About root access</string>
@@ -166,12 +167,10 @@
   <string name="antivirus_none_engine_dialog_ok">OK</string>
   <string name="antivirus_not_wlan">"You aren't connected to Wi-Fi. Using mobile data may generate additional fees. Continue anyway?"</string>
   <string name="antivirus_privacy_dialog_cloudscan">Upload app names and details</string>
-  <string name="antivirus_privacy_dialog_cloudscan_description">Upload and scan app names and details using online virus definitions.</string>
+  <string name="antivirus_privacy_dialog_cloudscan_description">"To detect and neutralize viruses more effectively, we'll upload the apps' package names and properties in order to scan them using a cloud engine."</string>
   <string name="antivirus_privacy_dialog_ok">OK</string>
+  <string name="antivirus_privacy_dialog_summary">&lt;Data&gt;This feature is powered by a third party antivirus engine. To learn more, read the &amp;lt;a href=\"%1$s\"&amp;gt;License Agreement&amp;lt;/a&amp;gt; provided by the third party.&lt;/Data&gt;</string>
   <string name="antivirus_privacy_dialog_summary_link">Privacy Policy</string>
-  <string name="antivirus_privacy_dialog_summary_new">&lt;Data&gt;This feature uses antivirus definitions provided by Avast, AVL, and Tencent. Read the related &amp;lt;a href=\"%1$s\"&amp;gt;license agreements&amp;lt;/a&amp;gt; to learn more.&lt;/Data&gt;</string>
-  <string name="antivirus_privacy_dialog_summary_not_have_avast">&lt;Data&gt;This feature uses antivirus definitions provided by AVL and Tencent. Read the related &amp;lt;a href=\"%1$s\"&amp;gt;license agreements&amp;lt;/a&amp;gt; to learn more.&lt;/Data&gt;</string>
-  <string name="antivirus_privacy_dialog_summary_not_have_tencent">&lt;Data&gt;This feature uses antivirus definitions provided by Avast and AVL. Read the related &amp;lt;a href=\"%1$s\"&amp;gt;license agreements&amp;lt;/a&amp;gt; to learn more.&lt;/Data&gt;</string>
   <string name="antivirus_privacy_dialog_title">Privacy Policy</string>
   <string name="antivirus_sec_network_unavailable">"Security can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
   <string name="antivirus_toast_already_update">Up to date</string>
@@ -808,6 +807,11 @@ You will not lose any app data."</string>
   <string name="choose_gs_show_way">Select home page orientation</string>
   <string name="clean_immediately">Clear</string>
   <string name="clean_master_icon_recall_button_text">Add</string>
+  <string name="clean_master_icon_recall_dialog_button_negative">No thanks</string>
+  <string name="clean_master_icon_recall_dialog_button_positive">Add</string>
+  <string name="clean_master_icon_recall_dialog_summary">Add a Home screen shortcut to clear trash anytime you need.</string>
+  <string name="clean_master_icon_recall_dialog_title">Clear trash faster</string>
+  <string name="clean_master_icon_recall_hint">Add a Home screen shortcut</string>
   <string name="clean_master_icon_recall_summary">Add a Home screen shortcut to clear trash anytime you need.</string>
   <string name="clean_master_icon_recall_title">Clear trash faster</string>
   <string name="clean_master_icon_recall_toast_text">Added a Home screen shortcut for Cleaner successfully</string>
@@ -1305,6 +1309,13 @@ medical card"</string>
   <string name="first_aid_scanning_item4">Checking for battery issues…</string>
   <string name="first_aid_scanning_item5">Checking for other issues…</string>
   <string name="first_aid_stop_scan">Stop scanning</string>
+  <string name="first_settings_default_camera_title">Share without metadata by default</string>
+  <string name="first_settings_default_location_subtitle">Remove location info from shared photos</string>
+  <string name="first_settings_default_location_title">Share without location info by default</string>
+  <string name="first_settings_share_enable">Add \"Secure sharing\" badge</string>
+  <string name="first_settings_share_enable_subtitle">The items you share on WeChat will appear with a MIUI badge</string>
+  <string name="first_settings_subtitle">Here are the secure sharing options available to you:</string>
+  <string name="first_settings_title">Protect your privacy</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
@@ -1486,6 +1497,10 @@ medical card"</string>
   <string name="gb_game_video_type_manual_record">Record manually</string>
   <string name="gb_get_gift_right_now">Check in now</string>
   <string name="gb_global_settings">General settings</string>
+  <string name="gb_gpu_driver_btn_update">Check for updates</string>
+  <string name="gb_gpu_driver_update">GPU Driver Updater</string>
+  <string name="gb_gpu_driver_update_app">Update</string>
+  <string name="gb_gpu_driver_update_app_tips">Current version is up to date</string>
   <string name="gb_have_signed">Checked in today</string>
   <string name="gb_manual_record_dialog_del_video_message">Delete selected videos permanently?</string>
   <string name="gb_msg_completely_shielded">Hide messages</string>
@@ -1534,7 +1549,7 @@ of your gaming sessions"</string>
   <string name="gb_xunyou_gift_type_one">Xunyou 1-day boost</string>
   <string name="gb_xunyou_gift_type_three">Xunyou 3-day boost</string>
   <string name="gb_xunyou_gift_type_two">Xunyou 2-day boost</string>
-  <string name="gdpr_msg">&lt;Data&gt;"In order to use the basic features of Security, you must agree that Xiaomi will collect, process, and use your personal data, including information about the ways you use Security's features (e.g., mobile data usage stats, info about malware, as well as basic info about your device) and other types of information specified in our &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
+  <string name="gdpr_msg">&lt;Data&gt;"To be able to detect security risks and protect your data, we need to collect the necessary amount of information about your device. Read and agree to our &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using our services. In case you don't allow us to collect such information, you'll still be able to use this app, but some features won't be available to you. "&lt;/Data&gt;</string>
   <string name="ge">个</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
@@ -1560,8 +1575,6 @@ of your gaming sessions"</string>
   <string name="gs_app_back_self_start">Battery saver</string>
   <string name="gs_auto_clean_memory">Clear cache</string>
   <string name="gs_auto_clean_memory_detail">Clear cache automatically to optimize gaming</string>
-  <string name="gs_autobooster">Boost automatically</string>
-  <string name="gs_autobooster_detail">Boost speed for selected games automatically</string>
   <string name="gs_autobooster_dialog_message">"If you're using Xunyou speed boost, open games on the designated page."</string>
   <string name="gs_call_handsfree">Answer calls hands free</string>
   <string name="gs_call_handsfree_mute">Silent mode</string>
@@ -1586,7 +1599,6 @@ of your gaming sessions"</string>
   <string name="gs_gamebox_detail">Swipe from the top side edge of the screen to view</string>
   <string name="gs_gamebox_slip">Push the screen down to open</string>
   <string name="gs_only_self_start_for_list">Restrict background processes to save battery for gaming</string>
-  <string name="gs_open_game_booster">Boost speed</string>
   <string name="gs_open_game_booster_summary">Boost network speed for games</string>
   <string name="gs_performance_mode">Performance mode</string>
   <string name="gs_performance_mode_detail">Optimize system performance for gaming</string>
@@ -1710,6 +1722,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="list_empty_text">Empty</string>
   <string name="load_only_under_wlan">Load using only Wi-Fi</string>
   <string name="loading">Just a sec…</string>
+  <string name="loading_text_format" formatted="false">Removing private info from photos (%d/%d)…</string>
   <string name="local_ip_exception_summary">"Couldn't get local IP address. To report this issue to MIUI, go to the Feedback app and send a log from your device."</string>
   <string name="lock_all_title">Lock all apps</string>
   <string name="lock_mode_title">Lock settings</string>
@@ -1864,7 +1877,8 @@ to respond"</string>
   <string name="memory_check_content">Freed %s</string>
   <string name="memory_clean_memory_size_tip">Cache</string>
   <string name="memory_clean_no_need_clean">Everything looks good</string>
-  <string name="memory_clean_no_need_clean_1" formatted="false">Freed up %s. Your device is %d%% faster now.</string>
+  <string name="memory_clean_no_need_clean_1" formatted="false">"Freed up %s.
+Your device is %d%% faster now."</string>
   <string name="memory_clear_unused">Clear cache (%s)</string>
   <string name="memory_title">Available: %1$s\u0009\u0009Total: %2$s</string>
   <string name="menu_add">Add</string>
@@ -1905,7 +1919,8 @@ to respond"</string>
   <string name="menu_summary_antivirus">Search for viruses on your device</string>
   <string name="menu_summary_app_manager">Update and uninstall apps</string>
   <string name="menu_summary_garbage_cleanup">No trash found</string>
-  <string name="menu_summary_garbage_cleanup_ex">Clear %s of trash</string>
+  <string name="menu_summary_garbage_cleanup_ex">Free up %s</string>
+  <string name="menu_summary_garbage_cleanup_new">%d%% of storage space</string>
   <string name="menu_summary_networkassistants">Manage your data plan</string>
   <string name="menu_summary_networkassistants_2">Went over the limit</string>
   <string name="menu_summary_networkassistants_3">Enough data remaining</string>
@@ -2063,6 +2078,9 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notification_channel_battery">Battery</string>
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
+  <string name="notification_garbage_clean_botton_text">Clear</string>
+  <string name="notification_garbage_clean_hint">Clear storage space</string>
+  <string name="notification_garbage_clean_size">Free up %s</string>
   <string name="notification_garbage_cleanup_summary">Clear trash (%s) to speed up your device</string>
   <string name="notification_garbage_cleanup_title">Clear trash files</string>
   <string name="notification_low_battery_action_btn">Turn on</string>
@@ -2074,6 +2092,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notification_masked_item">How to hide notification content?</string>
   <string name="notification_masked_subtitle">Use App lock to hide notification content for selected apps</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
+  <string name="notification_whatsapp_clean_button_text">Clear</string>
+  <string name="notification_whatsapp_clean_size">WhatsApp cache reached %s</string>
   <string name="notify_channel_mipush">Security push messages</string>
   <string name="notify_channel_name_behavior">Behavior history</string>
   <string name="notify_channel_name_security">System security</string>
@@ -2128,6 +2148,10 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="om_shortcut_added_toast_text">Added successfully</string>
   <string name="om_shortcut_dialog_summary">"RAM Jet allows you to clear memory and boost your device's speed in a single tap. Add RAM Jet to your Home screen?"</string>
   <string name="om_shortcut_dialog_title">RAM Jet</string>
+  <string name="once_settings_camera_ttile">Share without metadata</string>
+  <string name="once_settings_location_title">Share without location info</string>
+  <string name="once_settings_subtitle">How would you like to share the selected items?</string>
+  <string name="once_settings_title">Privacy protection</string>
   <string name="one_address_choose_hint">%s1</string>
   <string name="open_activity_err">The application was not found</string>
   <string name="open_alarm_right_now">立刻开启</string>
@@ -2800,6 +2824,15 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="result_sms_title_auth">Financial SMS leak risk exists</string>
   <string name="result_wifi_header">Wi-Fi risks detected</string>
   <string name="right_precent">100%</string>
+  <string name="risk_app_install_agree_button">Trust this app</string>
+  <string name="risk_app_install_agree_checkbox">"I'm willing to take all possible risks."</string>
+  <string name="risk_app_install_agree_message">"This app is developed by a third-party and might violate local laws and regulations. Xiaomi doesn't guarantee the availability, continuity, and accessibility of the content and services provided by this app. Any loss or damage brought about by the use of this app will be borne by you."</string>
+  <string name="risk_app_install_agree_title">Disclaimer</string>
+  <string name="risk_app_install_auth_result">"You've authorized installing %1$s. You can continue once the installation package is detected."</string>
+  <string name="risk_app_install_empty_text">No items here yet</string>
+  <string name="risk_app_install_history">Authorization history</string>
+  <string name="risk_app_install_item_des">Version: %1$s</string>
+  <string name="risk_app_install_manager">Apps with possible risks</string>
   <string name="risk_count_suffix"/>
   <string name="roaming_allow_network_dialog_title">Allow mobile data roaming?</string>
   <string name="roaming_limit_dialog_message">Reached daily roaming data limit.</string>
@@ -2882,10 +2915,18 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="settings">Data usage settings</string>
   <string name="settings_battery_consume_abnormal_summary">Receive notifications when battery is being drained fast</string>
   <string name="settings_battery_consume_abnormal_title">Battery drain notifications</string>
+  <string name="settings_camera_subtitle_no">No metadata</string>
   <string name="settings_category_other">Other settings</string>
   <string name="settings_category_overheat">Heating</string>
   <string name="settings_choice_no_notification">Off</string>
+  <string name="settings_image_camera_summary">Device model, metadata, etc.</string>
+  <string name="settings_location_subtitle_no">No location info</string>
   <string name="settings_power_save_ontime_title">Schedule</string>
+  <string name="settings_share_enable_summary">The items you share on WeChat will appear with a MIUI badge</string>
+  <string name="settings_share_info">Here are the secure sharing options available for the items shared from Gallery and File Manager:</string>
+  <string name="settings_show_detail">View details</string>
+  <string name="settings_tip">Go to Gallery &gt; Settings to view more options</string>
+  <string name="settings_title">Secure sharing</string>
   <string name="shake_send_sticker_summary">在微信与QQ中，摇一摇随机出现搞笑表情。逢年过节拼表情，从此易如反掌！</string>
   <string name="shield_keyboard_detail">Double tap the buttons to turn them back on</string>
   <string name="shield_keyboard_summary">Restrict buttons and full screen gestures during games</string>
@@ -3023,9 +3064,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_call_other_group">Other</string>
   <string name="st_call_settings">Call blocklist</string>
   <string name="st_call_stranger_group">Block calls from strangers</string>
-  <string name="st_confirm_dialog_btn_open">Open</string>
+  <string name="st_confirm_dialog_btn_open">Block</string>
   <string name="st_confirm_dialog_summary_contact_call">All calls from contacts will be blocked.</string>
-  <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
+  <string name="st_confirm_dialog_summary_oversea_call">All calls from foreign phone numbers will be blocked.</string>
   <string name="st_confirm_dialog_summary_stranger_call">All calls from strangers will be blocked.</string>
   <string name="st_filter_keywords_setting_summary1">Messages from unknown numbers that contain the words in this list will be blocked.</string>
   <string name="st_filter_keywords_setting_summary2">(Use a comma to separate multiple keywords)</string>
@@ -3360,8 +3401,10 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
   <string name="text_button">Got it</string>
   <string name="text_cycle_day">%s</string>
   <string name="text_day"/>
+  <string name="text_done">OK</string>
   <string name="text_error">相关软件版本过低或未安装</string>
   <string name="text_lucky_alarm_before">红包活动即将开始</string>
+  <string name="text_security">Privacy</string>
   <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
   <string name="thermal_tips_title">Attention</string>
   <string name="third_application">Installed apps</string>
@@ -3596,6 +3639,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="vb_advanced_settings_after_open">After</string>
   <string name="vb_advanced_settings_before_open">Before</string>
   <string name="vb_advanced_settings_pic_stronger_desc">Make moving objects crisper by enhancing animations. This feature requires higher power consumption.</string>
+  <string name="vb_quick_func_auto_bgm">Recognize background music</string>
   <string name="vb_quick_func_hangup_listening">Play video sound with screen off</string>
   <string name="vb_quick_func_screen_capture">Screenshot</string>
   <string name="vb_quick_func_screen_record">Record</string>
@@ -3641,6 +3685,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="vtb_func_frc_title">Motion smoothing</string>
   <string name="vtb_func_vpp_desc4">"This feature won't work when video resolution is higher than 4K."</string>
   <string name="vtb_func_vpp_title">Enhanced contours</string>
+  <string name="vtb_function_video_translation">Real-time translation</string>
   <string name="vtb_other_milink_connect">"Can't cast video now. About to cast other items…"</string>
   <string name="vtb_stop_milink_connect">Stopped casting video</string>
   <string name="wakepath_confirm_start_activity">Allow %1$s to open %2$s?</string>
@@ -3651,7 +3696,78 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="warningcenter_alert_source">MIUI Warning Center | Data source: %s</string>
   <string name="warningcenter_alert_time">Time</string>
   <string name="warningcenter_alert_warning_time">Time received: %s</string>
+  <string name="warningcenter_disaster_all">All warnings</string>
+  <string name="warningcenter_disaster_area_search_hint">Enter region</string>
+  <string name="warningcenter_disaster_area_select">Selected regions</string>
+  <string name="warningcenter_disaster_area_suggest">Recommended regions</string>
+  <string name="warningcenter_disaster_area_tips">*目前仅提供“天津市”、“台山市”、“临安市”地区自然灾害预警服务，后续将逐步开通其他地区</string>
+  <string name="warningcenter_disaster_area_title">Affected area</string>
+  <string name="warningcenter_disaster_baoxue">暴雪</string>
+  <string name="warningcenter_disaster_baoyu">暴雨</string>
+  <string name="warningcenter_disaster_bingbao">冰雹</string>
+  <string name="warningcenter_disaster_blue">蓝色预警</string>
+  <string name="warningcenter_disaster_dafeng">陆地大风</string>
+  <string name="warningcenter_disaster_daolujiebing">道路结冰</string>
+  <string name="warningcenter_disaster_dawu">大雾</string>
+  <string name="warningcenter_disaster_detail_suggest">We recommend you to turn on high-priority warnings</string>
+  <string name="warningcenter_disaster_detail_title">Details</string>
+  <string name="warningcenter_disaster_dizhen">天然地震事件</string>
+  <string name="warningcenter_disaster_dizhizaihaiqixiangfengxian">地质灾害气象风险</string>
+  <string name="warningcenter_disaster_fengbaochao">风暴潮</string>
+  <string name="warningcenter_disaster_gaowen">高温</string>
+  <string name="warningcenter_disaster_guide_title">Safety guidelines</string>
+  <string name="warningcenter_disaster_hailang">海浪</string>
+  <string name="warningcenter_disaster_hanchao">寒潮</string>
+  <string name="warningcenter_disaster_icon_title">Demo warning</string>
+  <string name="warningcenter_disaster_info">"Published by CMA's Warning Center"</string>
+  <string name="warningcenter_disaster_info_from">MIUI预警中心 | 信息来自国家预警中心</string>
+  <string name="warningcenter_disaster_info_title">About warnings</string>
+  <string name="warningcenter_disaster_leiyudafeng">雷雨大风</string>
+  <string name="warningcenter_disaster_level_1">Level I (Extremely severe)</string>
+  <string name="warningcenter_disaster_level_2">Level II (Severe)</string>
+  <string name="warningcenter_disaster_level_3">Level III (Moderate)</string>
+  <string name="warningcenter_disaster_level_4">Level Ⅳ (Minor)</string>
+  <string name="warningcenter_disaster_level_all">All levels</string>
+  <string name="warningcenter_disaster_level_info">Warning levels</string>
+  <string name="warningcenter_disaster_level_title">Warning levels</string>
+  <string name="warningcenter_disaster_list_title">Disaster warnings</string>
+  <string name="warningcenter_disaster_local">Locate</string>
+  <string name="warningcenter_disaster_mai">霾</string>
+  <string name="warningcenter_disaster_orange">橙色预警</string>
+  <string name="warningcenter_disaster_place_settings">Region</string>
+  <string name="warningcenter_disaster_place_subscribe">Select region</string>
+  <string name="warningcenter_disaster_qita">其它地质灾害</string>
+  <string name="warningcenter_disaster_receive_info">Warning format</string>
+  <string name="warningcenter_disaster_receive_level">Select warning level</string>
+  <string name="warningcenter_disaster_receive_level_blue">Blue</string>
+  <string name="warningcenter_disaster_receive_level_orange">Orange</string>
+  <string name="warningcenter_disaster_receive_level_red">Red</string>
+  <string name="warningcenter_disaster_receive_level_yellow">Yellow</string>
+  <string name="warningcenter_disaster_receive_settings">Warning format</string>
+  <string name="warningcenter_disaster_receive_strong">High-priority warnings (suggested)</string>
+  <string name="warningcenter_disaster_receive_strong_summary">Receive push notifications about high-priority warnings issued for the selected region</string>
+  <string name="warningcenter_disaster_receive_strong_title">High-priority warnings</string>
+  <string name="warningcenter_disaster_receive_system">System notifications</string>
+  <string name="warningcenter_disaster_receive_system_summary">Receive disaster warnings issued for the selected region</string>
+  <string name="warningcenter_disaster_receive_type">Warning types</string>
+  <string name="warningcenter_disaster_receive_type_biological">Biological</string>
+  <string name="warningcenter_disaster_receive_type_forest">Forestial</string>
+  <string name="warningcenter_disaster_receive_type_geology">Geological</string>
+  <string name="warningcenter_disaster_receive_type_meteorological">Meteorological</string>
+  <string name="warningcenter_disaster_receive_type_sea">Hydrological</string>
+  <string name="warningcenter_disaster_recent">Recent warnings</string>
+  <string name="warningcenter_disaster_red">红色预警</string>
+  <string name="warningcenter_disaster_search_hint">Warning type/region/issuing agency</string>
   <string name="warningcenter_disaster_search_keywords">Weather alerts</string>
+  <string name="warningcenter_disaster_senlinhuoxian">森林火险</string>
+  <string name="warningcenter_disaster_taifeng">台风</string>
+  <string name="warningcenter_disaster_title">Disaster warning</string>
+  <string name="warningcenter_disaster_type_all">All types</string>
+  <string name="warningcenter_disaster_type_cancel">Canceled</string>
+  <string name="warningcenter_disaster_type_first">New</string>
+  <string name="warningcenter_disaster_type_update">Updated</string>
+  <string name="warningcenter_disaster_yellow">黄色预警</string>
+  <string name="warningcenter_disaster_zhongwuran">重污染</string>
   <string name="warningcenter_earthquake_info">Earthquake early warnings</string>
   <string name="warningcenter_mijia_alert_close">Close</string>
   <string name="warningcenter_mijia_alert_settings">Change settings in Security &gt; Alerts from smart home devices</string>

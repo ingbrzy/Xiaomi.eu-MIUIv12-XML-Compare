@@ -2098,6 +2098,8 @@
         <item>@string/input_method_function_xiaoai_des</item>
         <item>@string/input_method_function_switch_des</item>
         <item>@string/input_method_function_clipboard_des</item>
+        <item>@string/input_method_function_switch_keyboard_language_des</item>
+        <item>@string/input_method_function_switch_keyboard_type_des</item>
         <item>@string/input_method_function_no_function_des</item>
     </string-array>
     <array name="input_method_function_icons">
@@ -2105,6 +2107,8 @@
         <item>@drawable/input_method_xiaoai_function_selector</item>
         <item>@drawable/input_method_switch_function_selector</item>
         <item>@drawable/input_method_clipboard_function_selector</item>
+        <item>@drawable/input_method_switch_keyboard_language_selector</item>
+        <item>@drawable/input_method_switch_keyboard_type_selector</item>
         <item>@drawable/input_method_no_function_selector</item>
     </array>
     <string-array name="input_method_function_title">
@@ -2112,6 +2116,8 @@
         <item>@string/input_method_function_xiaoai</item>
         <item>@string/input_method_function_switch</item>
         <item>@string/input_method_function_clipboard</item>
+        <item>@string/input_method_function_switch_keyboard_language</item>
+        <item>@string/input_method_function_switch_keyboard_type</item>
         <item>@string/input_method_function_no_function</item>
     </string-array>
     <string-array name="input_method_selector_titles">
@@ -3951,14 +3957,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>zen_mode_from_starred</item>
         <item>zen_mode_from_none</item>
     </string-array>
-    <string-array name="status_bar_settings_qs_layout_entries">
-        <item>Default</item>
-        <item>Compact</item>
-    </string-array>
-    <string-array name="status_bar_settings_qs_layout_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="default_vol_stream_entries">
         <item>Ringtone</item>
         <item>Media</item>
@@ -3966,6 +3964,14 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="default_vol_stream_values">
         <item>2</item>
         <item>3</item>
+    </string-array>
+    <string-array name="status_bar_settings_qs_layout_entries">
+        <item>Default</item>
+        <item>Compact</item>
+    </string-array>
+    <string-array name="status_bar_settings_qs_layout_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="charge_animation_style_entries">
         <item>Off</item>
