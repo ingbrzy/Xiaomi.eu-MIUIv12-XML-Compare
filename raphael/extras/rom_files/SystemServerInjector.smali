@@ -423,6 +423,8 @@
     invoke-static {p0}, Lcom/miui/server/enterprise/EnterpriseManagerService;->init(Landroid/content/Context;)V
 
     :cond_4
+    invoke-static {p0}, Lcom/xiaomi/mirror/service/MirrorService;->init(Landroid/content/Context;)V
+
     return-void
 .end method
 
