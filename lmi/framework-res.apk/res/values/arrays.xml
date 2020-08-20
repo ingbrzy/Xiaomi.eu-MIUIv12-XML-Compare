@@ -302,9 +302,9 @@
     </string-array>
     <string-array name="config_globalActionsList">
         <item>emergency</item>
+        <item>lockdown</item>
         <item>power</item>
         <item>restart</item>
-        <item>lockdown</item>
         <item>logout</item>
         <item>bugreport</item>
     </string-array>
@@ -670,9 +670,7 @@
         <item>7</item>
     </integer-array>
     <array name="config_tether_usb_regexs" />
-    <array name="config_tether_wifi_p2p_regexs" />
     <array name="config_tether_wifi_regexs" />
-    <array name="config_tether_wimax_regexs" />
     <string-array name="config_toastCrossUserPackages">
         <item>android</item>
         <item>com.android.systemui</item>
@@ -714,6 +712,8 @@
         <item>com.tencent.tmgp.speedmobile</item>
         <item>com.netease.mc.mi</item>
         <item>com.tencent.tmgp.cf</item>
+        <item>com.netease.idv.googleplay</item>
+        <item>com.supercell.brawlstars</item>
     </string-array>
     <array name="correct_brightness_video">
         <item>0.0425</item>
@@ -734,6 +734,11 @@
         <item>com.ss.android.article.lite</item>
         <item>com.ss.android.article.video</item>
         <item>com.huajiao</item>
+        <item>com.miui.video</item>
+        <item>com.miui.videoplayer</item>
+        <item>com.google.android.youtube</item>
+        <item>com.sohu.sohuvideo</item>
+        <item>com.hunantv.imgo.activity</item>
     </string-array>
     <array name="cross_profile_apps" />
     <array name="dial_string_replace" />
