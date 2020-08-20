@@ -234,7 +234,7 @@
   <string name="columbus_player_close_video">CLOSE VIDEO</string>
   <string name="columbus_player_install_now">INSTALL NOW</string>
   <string name="columbus_player_learn_more">Learn More</string>
-  <string name="com.crashlytics.android.build_id">7775bd88-370e-4902-b2e3-183141bbdd49</string>
+  <string name="com.crashlytics.android.build_id">b6bb3277-212b-4919-a76a-1d588cf3911f</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -317,9 +317,14 @@
   <string name="dialog_renew_positive_text">YEAH, I WANNA ROCK LIKE A PRO</string>
   <string name="dialog_renew_success">Thanks for your confirmation</string>
   <string name="dialog_score_btn_good">Rate</string>
+  <string name="dialog_score_msg_score_explorer">Do you like Mi Music?</string>
+  <string name="dialog_score_msg_score_not_good">Could you give us your feedback as well?</string>
+  <string name="dialog_score_msg_score_perfect">Nice! Rate our app in Play Store as well?</string>
   <string name="dialog_score_prompt_bad">"Thanks for your feedback! We'll do our best to improve our app and services."</string>
   <string name="dialog_score_prompt_good">Thanks for your support! Rate our app in Google Play as well?</string>
   <string name="dialog_score_title">Rate our app</string>
+  <string name="dialog_score_toast_rate">Rate our app first</string>
+  <string name="dialog_score_toast_scroll_down_score_midrop">Scroll down to rate our app</string>
   <string name="dialog_song_sort_type">Sort songs</string>
   <string name="dialog_song_sort_type_name">By name</string>
   <string name="dialog_song_sort_type_playing_times">By the number of times played</string>
@@ -461,6 +466,7 @@
   <string name="evening">PM</string>
   <string name="exo_controls_fastforward_description">Fast forward</string>
   <string name="exo_controls_fullscreen_description">Fullscreen mode</string>
+  <string name="exo_controls_hide">Hide player controls</string>
   <string name="exo_controls_next_description">Next track</string>
   <string name="exo_controls_pause_description">Pause</string>
   <string name="exo_controls_play_description">Play</string>
@@ -469,8 +475,11 @@
   <string name="exo_controls_repeat_off_description">Repeat none</string>
   <string name="exo_controls_repeat_one_description">Repeat one</string>
   <string name="exo_controls_rewind_description">Rewind</string>
-  <string name="exo_controls_shuffle_description">Shuffle</string>
+  <string name="exo_controls_show">Show player controls</string>
+  <string name="exo_controls_shuffle_off_description">Shuffle off</string>
+  <string name="exo_controls_shuffle_on_description">Shuffle on</string>
   <string name="exo_controls_stop_description">Stop</string>
+  <string name="exo_controls_vr_description">VR mode</string>
   <string name="exo_download_completed">Download completed</string>
   <string name="exo_download_description">Download</string>
   <string name="exo_download_downloading">Downloading</string>
@@ -481,6 +490,10 @@
   <string name="exo_track_bitrate">%1$.2f Mbps</string>
   <string name="exo_track_mono">Mono</string>
   <string name="exo_track_resolution">%1$d × %2$d</string>
+  <string name="exo_track_role_alternate">Alternate</string>
+  <string name="exo_track_role_closed_captions">CC</string>
+  <string name="exo_track_role_commentary">Commentary</string>
+  <string name="exo_track_role_supplementary">Supplementary</string>
   <string name="exo_track_selection_auto">Auto</string>
   <string name="exo_track_selection_none">None</string>
   <string name="exo_track_selection_title_audio">Audio</string>
@@ -1117,6 +1130,7 @@ Be Happy"</string>
   <string name="shuffle_music">Shuffle playback</string>
   <string name="shuffle_off_notif">Shuffle is off.</string>
   <string name="shuffle_on_notif">Shuffle is on.</string>
+  <string name="shuffle_play_toast_text">Shuffling songs…</string>
   <string name="similar_albums">Similar albums</string>
   <string name="similar_playlists">Similar playlists</string>
   <string name="similar_songs">Similar songs</string>
@@ -1284,6 +1298,8 @@ Be Happy"</string>
   <string name="toast_not_pro">This feature is available only to PRO members.</string>
   <string name="toast_uhd_songs_for_download">Downloading quality set to High</string>
   <string name="toast_uhd_songs_for_stream">Streaming quality set to High</string>
+  <string name="toast_will_play_list_when_ad_pause">The playlist will start playing after ads</string>
+  <string name="toast_will_play_song_when_ad_pause">This song will start playing after ads</string>
   <string name="today">Today</string>
   <string name="tomorrow">Tomorrow</string>
   <string name="top_chart_title">Charts</string>
@@ -1301,7 +1317,7 @@ Be Happy"</string>
   <string name="upgrade_music_message">Updates are ready. Restart to update.</string>
   <string name="upgrading_in_backstage">Updating in the background…</string>
   <string name="upload_favorite_dialog_title">Upload your songs to the cloud to be able to access them on other synced devices. You can turn this feature off in the Settings.</string>
-  <string name="upload_favorite_setting_summary">Upload songs to the cloud to access them on other devices</string>
+  <string name="upload_favorite_setting_summary">Adding online songs to favorites uploads them to the cloud and allows you to access them on other devices</string>
   <string name="upload_favorite_setting_title">Sync songs</string>
   <string name="upload_playlist_to_hungama_negative_text">"Don't sync"</string>
   <string name="upload_playlist_to_hungama_positive_text">Sync</string>
