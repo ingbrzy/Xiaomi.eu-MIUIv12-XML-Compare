@@ -4206,8 +4206,8 @@ Switching to %1$s won't cancel your %2$s service."</string>
   <string name="mqs_privacy_automatically_upload">Upload automatically next time</string>
   <string name="mqs_privacy_dialog_cancel">Cancel</string>
   <string name="mqs_privacy_dialog_confirm">Upload</string>
-  <string name="mqs_privacy_dialog_content">Upload logs to help us locate and solve this problem? Logs may contain your personal info, including the info about your location.</string>
-  <string name="mqs_privacy_dialog_title">An error occurred</string>
+  <string name="mqs_privacy_dialog_content">Looks like errors have occurred on your device recently. You can upload logs to help us locate and solve this problem. Logs may contain your personal info, including the info about your location. Upload now?</string>
+  <string name="mqs_privacy_dialog_title">Uploading logs</string>
   <string name="mr_button_content_description">Cast button</string>
   <string name="mr_cast_button_connected">Cast button. Connected</string>
   <string name="mr_cast_button_connecting">Cast button. Connecting</string>
@@ -4830,7 +4830,7 @@ Read and agree to %s before using this service."</string>
   <string name="password_toggle_content_description">Show password</string>
   <string name="password_turned_off_text">Password has been turned off</string>
   <string name="password_turned_on_text">Password has been turned on</string>
-  <string name="password_unlock_title">Password</string>
+  <string name="password_unlock_title">Screen lock</string>
   <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
   <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
   <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -5626,6 +5626,8 @@ To use screen pinning:
   <string name="screen_projection_sample_title">Demos</string>
   <string name="screen_projection_title">Cast</string>
   <string name="screen_reader_category_title">Screen readers</string>
+  <string name="screen_reader_mode_input_type_summary">Select gesture for activating text input when TalkBack is on</string>
+  <string name="screen_reader_mode_input_type_title">Text input</string>
   <string name="screen_resolution_dialog_title">Switch resolution</string>
   <string name="screen_resolution_high_format">High (%1$s)</string>
   <string name="screen_resolution_normal_format">Normal (%1$s)</string>
