@@ -55,7 +55,7 @@
   <string name="about_ad_service_instructions">About ad services and privacy​</string>
   <string name="about_phone_device_name_warning">Your device name is visible to apps on your phone. It may also be seen by other people when you connect to Bluetooth devices or set up a WLAN hotspot.</string>
   <string name="about_phone_enter_xiaomi_net">Learn more</string>
-  <string name="about_settings">About device</string>
+  <string name="about_settings">About phone</string>
   <string name="about_settings_summary">View legal info, status, software version</string>
   <string name="ac_enable_summary">Set a password for individual apps</string>
   <string name="ac_enable_title">App lock</string>
@@ -1277,7 +1277,7 @@ Selection: Channel mode"</string>
   <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Select Bluetooth audio LDAC codec
 Selection: Playback quality"</string>
   <string name="bluetooth_select_a2dp_codec_lhdc_latency">Bluetooth audio LHDC codec: Latency</string>
-  <string name="bluetooth_select_a2dp_codec_lhdc_latency_dialog_title">"Select Bluetooth audio LHDC codec
+  <string name="bluetooth_select_a2dp_codec_lhdc_latency_dialog_title">"Select Bluetooth audio LHDC codec:
 Latency"</string>
   <string name="bluetooth_select_a2dp_codec_lhdc_playback_quality">Bluetooth audio LHDC codec: Playback quality</string>
   <string name="bluetooth_select_a2dp_codec_lhdc_playback_quality_dialog_title">"Select Bluetooth audio LHDC codec:
@@ -4444,8 +4444,8 @@ Switching to %1$s won't cancel your %2$s service."</string>
   <string name="mqs_privacy_automatically_upload">Upload automatically next time</string>
   <string name="mqs_privacy_dialog_cancel">Cancel</string>
   <string name="mqs_privacy_dialog_confirm">Upload</string>
-  <string name="mqs_privacy_dialog_content">Upload logs to help us locate and solve this problem? Logs may contain your personal info, including the info about your location.</string>
-  <string name="mqs_privacy_dialog_title">An error occurred</string>
+  <string name="mqs_privacy_dialog_content">Looks like errors have occurred on your device recently. You can upload logs to help us locate and solve this problem. Logs may contain your personal info, including the info about your location. Upload now?</string>
+  <string name="mqs_privacy_dialog_title">Uploading logs</string>
   <string name="mr_button_content_description">Cast button</string>
   <string name="mr_cast_button_connected">Cast button. Connected</string>
   <string name="mr_cast_button_connecting">Cast button. Connecting</string>
@@ -5096,7 +5096,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="password_toggle_content_description">Show password</string>
   <string name="password_turned_off_text">Password has been turned off</string>
   <string name="password_turned_on_text">Password has been turned on</string>
-  <string name="password_unlock_title">Password</string>
+  <string name="password_unlock_title">Screen lock</string>
   <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
   <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
   <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -6217,7 +6217,7 @@ To use app pinning: \u0009
   <string name="security_input_hint">Use secure keyboard when you enter passwords</string>
   <string name="security_input_num_order">Fixed</string>
   <string name="security_input_num_random_order">Randomized</string>
-  <string name="security_input_num_setting_title">Numeric keyboard</string>
+  <string name="security_input_num_setting_title">Numeric keypad</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Privacy</string>
@@ -6631,6 +6631,9 @@ Double tap to open Recents."</string>
   <string name="smart_battery_manager_title">Battery Manager</string>
   <string name="smart_battery_summary">Limit battery for apps that you don’t use often</string>
   <string name="smart_battery_title">Manage apps automatically</string>
+  <string name="smart_home_title">Smart Home</string>
+  <string name="smart_home_value_none">None</string>
+  <string name="smart_home_value_unknown">Unknown</string>
   <string name="smart_notifications_title">Adaptive notifications</string>
   <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover mode</string>
   <string name="smartcover_sensitive_summary">Lock or unlock the phone automatically using smart cover</string>
