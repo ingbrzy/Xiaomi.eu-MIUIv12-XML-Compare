@@ -434,11 +434,11 @@ Selection"</string>
   <string name="notification_channel_in_call_service_crash">Crashed phone apps</string>
   <string name="notification_channel_incoming_call">Incoming calls</string>
   <string name="notification_channel_missed_call">Missed calls</string>
-  <string name="notification_crashedInCallService_body">Your phone app %s has crashed. You call was continued using the phone app that came with your device.</string>
-  <string name="notification_crashedInCallService_title">Crashed phone app</string>
   <string name="notification_disconnectedCall_body">The call to %s has been disconnected due to an emergency call being placed.</string>
   <string name="notification_disconnectedCall_generic_body">Your call has been disconnected due to an emergency call being placed.</string>
   <string name="notification_disconnectedCall_title">Disconnected call</string>
+  <string name="notification_incallservice_not_responding_body">Your call used the phone app that came with your device</string>
+  <string name="notification_incallservice_not_responding_title">%s stopped responding</string>
   <string name="notification_incoming_call">%1$s call from %2$s</string>
   <string name="notification_incoming_video_call">%1$s video call from %2$s</string>
   <string name="notification_missedCallTicker">Missed call from %s</string>
