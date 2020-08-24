@@ -1075,7 +1075,13 @@ medical card"</string>
   <string name="ew_button_confirm">Agree</string>
   <string name="ew_button_exit">"Don't agree"</string>
   <string name="ew_china_version_first_start_network_msg">&lt;Data&gt;"This feature provides you with earthquake warning functionality. It will notify you about upcoming earthquakes and play warning sound. You'll be able to find the nearest shelter, call your emergency contact, and present your medical card if required. &amp;lt;br&amp;gt;We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies. &amp;lt;br&amp;gt;To be able to work normally, this feature requires the following permissions in order to collect your personal information: &amp;lt;br&amp;gt;&amp;#8226; Location info: &amp;lt;br&amp;gt;For accessing your location and providing accurate earthquake warnings. &amp;lt;br&amp;gt;If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this feature. You can choose to turn this feature off or not turn it on in such cases. &amp;lt;br&amp;gt;You must read and agree to our &amp;lt;a href=\"http://api.sec.miui.com/res/docs/disclaimer/privacy/earthquake_alert?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using this feature."&lt;/Data&gt;</string>
+  <string name="ew_city_support_tip">*仅支持为其下辖的%s预警</string>
   <string name="ew_close">Turn off alert</string>
+  <string name="ew_close_warning">Turn off</string>
+  <string name="ew_concern_city">Added cities</string>
+  <string name="ew_concern_date_empty">None</string>
+  <string name="ew_concern_manage">Manage</string>
+  <string name="ew_current_location">Current location</string>
   <string name="ew_emergency_allergy">Allergies</string>
   <string name="ew_emergency_basic_info">Basic info</string>
   <string name="ew_emergency_birthday">Date of birth</string>
@@ -1100,6 +1106,7 @@ medical card"</string>
   <string name="ew_emergency_recent_medicine">Recent active medication</string>
   <string name="ew_emergency_title">Medical card</string>
   <string name="ew_first_start_network_title">Terms and conditions</string>
+  <string name="ew_get_location">Locate</string>
   <string name="ew_guide_law_agree">Agree</string>
   <string name="ew_guide_law_done">Got it</string>
   <string name="ew_guide_law_exit">"Don't agree"</string>
@@ -1108,11 +1115,21 @@ medical card"</string>
   <string name="ew_guide_next_text">Next</string>
   <string name="ew_guide_play_audio">Play warning sound</string>
   <string name="ew_guide_play_audio_last">Play warning sound (%ds)</string>
-  <string name="ew_guide_statement_text">&lt;Data&gt;"This disclaimer applies to all users (hereinafter referred to as you) who turn on the earthquake warning feature. By agreeing to this disclaimer, you enter into a legally binding contract with Xiaomi Inc. and its affiliates (hereinafter referred to as Xiaomi). You acknowledge that you have read all the contents of this disclaimer, and you fully understand and agree to all the terms and conditions of this disclaimer; otherwise, you should turn off the earthquake warning feature immediately.&amp;lt;br&amp;gt; &amp;lt;b&amp;gt;Special statement&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt; The earthquake warning functionality is available in selected regions now (&amp;lt;a href=\"https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/common/quake-warn/dist/index.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Tap to view&amp;lt;/a&amp;gt;). More regions will be available soon.&amp;lt;br&amp;gt; &amp;lt;b&amp;gt;Disclaimer&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt; Earthquake warning features are provided by Xiaomi in the Security app. You must understand that the earthquake warning information is provided by the government early warning agencies. Xiaomi doesn't oversee such agencies and doesn't have any control over them.&amp;lt;br&amp;gt; Xiaomi doesn't promise or guarantee the accuracy, validity, and timeliness of earthquake warning information, nor does it guarantee that the earthquake warning service will meet all your needs.&amp;lt;br&amp;gt; Receiving earthquake warning information requires you to keep your device connected to the mobile network. Third party communication line failures, technical problems, network or terminal equipment failures, system instability, and other various force majeure events might prevent you from receiving earthquake warning information. Xiaomi shall not bear any responsibility for any losses caused by such events.&amp;lt;br&amp;gt; You must understand that this feature is provided for your reference only. The warning you receive might come seconds before the onset of an earthquake. You are solely responsible for the risks and consequences of any actions you perform based on the information provided by this feature.&amp;lt;br&amp;gt;"&lt;/Data&gt;</string>
+  <string name="ew_guide_start">Turn on</string>
+  <string name="ew_guide_start_agree">Turn on</string>
+  <string name="ew_guide_start_find_area">Search for areas</string>
+  <string name="ew_guide_start_warning_range">目前地震预警为成都高新减灾研究所大陆地震预警网覆盖区域提供服务。具体地区可在【城市管理】中查找。</string>
+  <string name="ew_guide_statement_text">该《免责条款》适用于所有开启地震预警功能的用户（下文简称“您”），本条款一经您同意即代表您与小米科技有限责任公司及其关联公司（下文简称为“小米”）之间形成有法律约束力的文件。您确认，您已详细阅读了本免责条款所有内容，您充分理解并同意本免责条款的全部内容，如您不同意本免责条款内容，应立即关闭地震预警功能。 依据相关法律法规，小米将根据相关机构开展地震预警监测地区的范围为您提供预警服务。即当您开启地震预警功能后，在上述区域能够收到地震预警服务。目前提供地震预警服务的地区请在【城市管理】模块中查询，后续将逐步增加预警地区，敬请关注！ 为您的安全考虑，小米在安全中心提供相关功能模块向您展示地震预警信息。您理解地震预警信息由“成都高新减灾研究所”提供，小米不对其拥有任何控制权。 小米对其预警信息的准确性、有效性、及时性均不作承诺和保证，亦不保证地震预警服务能够满足您的所有需求。 接收地震预警信息需要您保持您的手机网络正常运行，因第三方如通讯线路故障、技术问题、网络、终端设备故障、系统不稳定性及其他各种不可抗力原因而导致您未接收或未及时接收等遭受的一切损失，小米不承担任何责任。 您理解地震预警服务仅作为您评估安全风险和做出安全决策的参考，地震预警只能提供几秒到几十秒的预警时间，您基于地震预警服务做出任何行为的风险和后果均由您自行承担。</string>
   <string name="ew_guide_tips_1">"You'll be notified about upcoming earthquakes and hear warning sound"</string>
   <string name="ew_guide_tips_2">Information and warning sound will be updated during the earthquake</string>
   <string name="ew_guide_tips_3">"You'll be able to find the nearest shelter, call your emergency contact, and present your medical card if required"</string>
   <string name="ew_guide_title">View demo</string>
+  <string name="ew_info_agreement">Disclaimers</string>
+  <string name="ew_info_other">Other</string>
+  <string name="ew_info_range">Service scope</string>
+  <string name="ew_info_rule">Rules</string>
+  <string name="ew_info_rule_warning">About warning system</string>
+  <string name="ew_info_service_range">Service scope</string>
   <string name="ew_list_all">All</string>
   <string name="ew_list_empty_text">No warnings here yet</string>
   <string name="ew_list_not_receive_tips">*Epicenter is far from you. You might not sense the earthquake.</string>
@@ -1121,6 +1138,7 @@ medical card"</string>
   <string name="ew_list_receive_time">Start time: %s</string>
   <string name="ew_list_receive_time_title">Start time</string>
   <string name="ew_list_title">Warnings</string>
+  <string name="ew_location_failed">未获取到定位</string>
   <string name="ew_main_close_text">"You won't be able to receive up-to-date info about this earthquake if you turn off the alert. Turn off anyway?"</string>
   <string name="ew_main_close_title">Attention</string>
   <string name="ew_main_contact_change">Change</string>
@@ -1140,9 +1158,11 @@ medical card"</string>
   <string name="ew_main_setting_show_desc">Demo</string>
   <string name="ew_main_setting_warning_desc">Learn more</string>
   <string name="ew_main_settings">Settings</string>
+  <string name="ew_main_warning_all_title">View previously issued warnings</string>
   <string name="ew_main_warning_list">View warnings</string>
   <string name="ew_main_warning_list_tips">View</string>
   <string name="ew_main_warning_list_title">Warning history</string>
+  <string name="ew_not_support_area">"Warnings aren't supported in this area"</string>
   <string name="ew_push_message">Estimated intensity: %s. Expect slight shaking near you.</string>
   <string name="ew_push_title">Earthquake warning for %s</string>
   <string name="ew_safe_place_no_maps_tips">"Can't search now. Install Baidu Maps or Amap first."</string>
@@ -1153,6 +1173,19 @@ medical card"</string>
   <string name="ew_setting_normal_push_title">Receive system notifications</string>
   <string name="ew_setting_strong_push_message">For earthquakes with intensity of 2.0 and higher</string>
   <string name="ew_setting_strong_push_title">Warn about strong earthquakes (On by default)</string>
+  <string name="ew_settings_choose_level">Set warning threshold</string>
+  <string name="ew_settings_choose_level_title">Estimated intensity: %s</string>
+  <string name="ew_settings_choose_level_value_1">" (Vibration in high-rise buildings)"</string>
+  <string name="ew_settings_choose_level_value_2">" (Vibration)"</string>
+  <string name="ew_settings_choose_level_value_3">" (Strong vibration)"</string>
+  <string name="ew_settings_choose_level_value_4">" (Severe vibration)"</string>
+  <string name="ew_settings_push_tips">Warnings about areas otside of your location will come in the form of notifications only.</string>
+  <string name="ew_signature_default">成都高新减灾研究所 大陆地震预警中心</string>
+  <string name="ew_subscribe_area_title">Manage added areas</string>
+  <string name="ew_subscribe_city">Added areas</string>
+  <string name="ew_subscribe_city_count">最多可以订阅%s个城市</string>
+  <string name="ew_subscribe_search_hint">Search for areas</string>
+  <string name="ew_subscribe_title">地震预警 | %1$s发生%2$s级左右地震，%3$s可能有震感</string>
   <string name="examination_score_100">Everything looks good!</string>
   <string name="examination_score_60_0">Scan now</string>
   <string name="examination_score_80_100">A few items can be optimized</string>
