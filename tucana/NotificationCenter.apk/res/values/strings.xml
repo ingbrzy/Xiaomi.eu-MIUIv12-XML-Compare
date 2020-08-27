@@ -233,12 +233,16 @@
   <string name="lock_screen_tip_toast">Allow Lock screen notifications in \"Format\"</string>
   <string name="lockscreen_notifications">Lock screen notifications</string>
   <string name="lockscreen_notifications_short">Lock screen</string>
-  <string name="menu_setting_aggregatation_feedback">Grouping options</string>
-  <string name="menu_setting_feedback_donot_classify">"Don't group"</string>
-  <string name="menu_setting_more_settings">More settings</string>
+  <string name="menu_setting_recommend_to_minus">Show fewer notifications</string>
+  <string name="menu_setting_recommend_to_normal">"Don't reduce notifications"</string>
   <string name="menu_setting_show_in_home">"Don't group"</string>
+  <string name="menu_setting_tip_recommend_minus">"You'll see fewer notifications from %s"</string>
+  <string name="menu_setting_tip_recommend_normal">"Notifications from %s won't be reduced"</string>
   <string name="menu_setting_tip_show_in_home">"Notifications from %s won't be grouped"</string>
   <string name="menu_setting_tip_unfold">All notifications from this app will be considered important</string>
+  <string name="menu_setting_toast_recommend_minus">"You'll see fewer notifications from %s"</string>
+  <string name="menu_setting_toast_recommend_normal">"Notifications from %s won't be reduced"</string>
+  <string name="menu_setting_toast_show_in_home">"Notifications from %s won't be grouped"</string>
   <string name="menu_setting_unfold">Important</string>
   <string name="midnight">Night</string>
   <string name="miuix_appcompat_cloud_state_disabled">Sync with the cloud is off</string>
@@ -327,7 +331,6 @@
   <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
   <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
   <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
-  <string name="mune_setting_prefix_category">"Group with "</string>
   <string name="night">Evening</string>
   <string name="noon">Midday</string>
   <string name="not_sent_recently">Not recently</string>
@@ -343,6 +346,8 @@
   <string name="notification_fold_summary">Group unimportant notifications automatically</string>
   <string name="notification_fold_title">Group notifications</string>
   <string name="notification_manager">App notifications</string>
+  <string name="notification_setting_menu_feedback_text">"This notification shouldn't be here?
+Report this issue &gt;"</string>
   <string name="notification_style_android">Android</string>
   <string name="notification_style_miui">MIUI</string>
   <string name="off">Off</string>
@@ -358,7 +363,6 @@
   <string name="saturday_short">Sat</string>
   <string name="saturday_shortest">Sat</string>
   <string name="search_menu_title">Search</string>
-  <string name="setting_menu_success">Set successfully</string>
   <string name="settings_guide_title">Need other settings?</string>
   <string name="show_badge_notifications">Notification badges</string>
   <string name="show_badge_notifications_short">Badges</string>
@@ -448,7 +452,8 @@
   <string name="time_picker_dialog_title">Set time</string>
   <string name="time_picker_label_hour">H</string>
   <string name="time_picker_label_minute">M</string>
-  <string name="tip_feedback_thanks">Thanks for your feedback!</string>
+  <string name="tip_feedback_success">Submitted successfully</string>
+  <string name="tip_select_category">Select notification category</string>
   <string name="today">Today</string>
   <string name="tomorrow">Tomorrow</string>
   <string name="tuesday">Tuesday</string>
