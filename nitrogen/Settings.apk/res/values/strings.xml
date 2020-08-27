@@ -1338,7 +1338,7 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="bt_absVolume_open_dialog_summary">Due to compatibility issues, some Bluetooth devices may have abnormal volume levels, which can be resolved by turning this feature off.</string>
   <string name="bt_absVolume_open_dialog_title">Attention</string>
   <string name="bt_absVolume_pre_title">Absolute volume</string>
-  <string name="bt_absVolume_summary">Keep the volume of Bluetooth devices and the phone strictly consistent</string>
+  <string name="bt_absVolume_summary">"Keep the volume of Bluetooth devices and the phone strictly consistent. You can turn this feature on and off when media isn't playing in the background."</string>
   <string name="bt_dialog_remember_choice">Remember choice</string>
   <string name="bt_dialog_settings">Settings</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
@@ -1359,6 +1359,8 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="bt_lhdc_property">Attributes</string>
   <string name="bt_pre_summary">Provide a high-quality audio experience</string>
   <string name="bt_rarely_used_device_title">Rarely used devices (%d)</string>
+  <string name="bt_show_notification_summary">Show a permanent notification in the Notification shade</string>
+  <string name="bt_show_notification_title">Notify about Bluetooth connections</string>
   <string name="bt_trace_log">Bluetooth trace log</string>
   <string name="bt_trace_log_summary">Bluetooth trace log</string>
   <string name="btn_back">Back</string>
@@ -1405,9 +1407,9 @@ You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices
   <string name="call_records_name_1">Debbie Smith</string>
   <string name="call_records_name_2">Jason Lee</string>
   <string name="call_records_name_3">Tom Fowles</string>
-  <string name="call_records_summary_1">9:35 AM | 26 seconds</string>
-  <string name="call_records_summary_2">August 16 | 1m 16s</string>
-  <string name="call_records_summary_3">August 16 | 2m 24s</string>
+  <string name="call_records_summary_1">%1$d:%2$d AM | %3$d seconds</string>
+  <string name="call_records_summary_2">August %1$d | %2$dm %3$ds</string>
+  <string name="call_records_summary_3">August %1$d | %2$dm %3$ds</string>
   <string name="call_settings_primary_user_only">Change call settings in First space</string>
   <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
   <string name="call_settings_title">Call settings</string>
@@ -3234,6 +3236,9 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="input_method_function_xiaoai">Mi AI voice input</string>
   <string name="input_method_function_xiaoai_des">Tap to use Mi AI voice input</string>
   <string name="input_method_manage">Manage keyboards</string>
+  <string name="input_method_middle_function_move_cursor">Move cursor</string>
+  <string name="input_method_middle_function_move_cursor_des">Press and hold the central area to move the cursor</string>
+  <string name="input_method_middle_function_no_function_des">"Don't assign any actions"</string>
   <string name="input_method_quick_access">Quick access</string>
   <string name="input_method_quick_cloud_mode_title">Notifications about new clipboard content</string>
   <string name="input_method_quick_cloud_summary">Copy items on compatible computers and paste them on your device</string>
@@ -4029,6 +4034,7 @@ There are other users present on this device.
   <string name="mi_upi_settings">Mi Pay Account</string>
   <string name="micloud_service_summary">Sync the list of apps, back up system settings and Home screen layout</string>
   <string name="micloud_service_title">Xiaomi Cloud</string>
+  <string name="middle_function_key">Central area</string>
   <string name="mipush_fake_channel_group_name">Mi Push</string>
   <string name="misc_files">Misc files</string>
   <string name="misc_files_selected_count">selected %1$d out of %2$d</string>

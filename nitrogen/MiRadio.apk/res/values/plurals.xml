@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="toast_channel_searched">
-        <item quantity="other">%1$d stations scanned</item>
-        <item quantity="one">%1$d station scanned</item>
-    </plurals>
     <plurals name="Nalbum_total_songs">
         <item quantity="other">Total %d songs</item>
         <item quantity="zero">Total %d song</item>
         <item quantity="one">Total %d song</item>
+    </plurals>
+    <plurals name="Nassociate_songs">
+        <item quantity="other">Searching for album covers and lyrics (%1$d/%2$d)</item>
+        <item quantity="one">Searching for album covers and lyrics (%1$d/%2$d)</item>
     </plurals>
     <plurals name="Nbackup_songs">
         <item quantity="other">Backing up songs, %1$d songs remaining (%2$.1fMB)</item>
@@ -42,9 +42,17 @@
         <item quantity="other">"%d songs haven't been backed up to the cloud. Stop now?"</item>
         <item quantity="one">"%d song hasn't been backed up to the cloud. Stop now?"</item>
     </plurals>
+    <plurals name="Ntracks_add_to_playlist">
+        <item quantity="other">%d songs added to playlist</item>
+        <item quantity="one">%d song added to playlist</item>
+    </plurals>
     <plurals name="Ntracks_count">
         <item quantity="other">%d songs</item>
         <item quantity="one">%d song</item>
+    </plurals>
+    <plurals name="Ntracks_remove_from_playlist">
+        <item quantity="other">%d songs removed from playlist</item>
+        <item quantity="one">%d song removed from playlist</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
         <item quantity="other">%d similar songs</item>
@@ -57,6 +65,35 @@
     <plurals name="Nupload_song_button">
         <item quantity="other">Back up %1$d songs (%2$.1fMB)</item>
         <item quantity="one">Back up %1$d song (%2$.1fMB)</item>
+    </plurals>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 hour ago</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 hour ago</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Half an hour ago</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">In 1 hour</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">In half an hour</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Immediately</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">in %d mins</item>
+        <item quantity="one">in 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Just now</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d mins ago</item>
+        <item quantity="one">1 min ago</item>
     </plurals>
     <plurals name="chapter_count">
         <item quantity="other">" (%1$d episodes)"</item>
@@ -86,6 +123,10 @@
         <item quantity="other">Remove %d audios?</item>
         <item quantity="one">Remove %d audio?</item>
     </plurals>
+    <plurals name="dialog_remove_from_cloud_descript">
+        <item quantity="other">Delete %d songs from Xiaomi Cloud? They will be deleted from local playlists as well.</item>
+        <item quantity="one">Delete %d song from Xiaomi Cloud? It will be deleted from local playlists as well.</item>
+    </plurals>
     <plurals name="download_finished">
         <item quantity="other">&lt;font color=\"red\">%d songs&lt;/font> downloaded</item>
         <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> downloaded</item>
@@ -102,9 +143,28 @@
         <item quantity="other">Downloaded %1$d episodes</item>
         <item quantity="one">Downloaded %1$d episode</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Half an hour ago</item>
+    </plurals>
     <plurals name="hours_ago">
         <item quantity="other">%1$d hours ago</item>
         <item quantity="one">%1$d hour ago</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">In 1 hour</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">In half an hour</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Immediately</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">in %d minutes</item>
+        <item quantity="one">in 1 minute</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Just now</item>
     </plurals>
     <plurals name="minutes_ago">
         <item quantity="other">%1$d minutes ago</item>
@@ -126,13 +186,29 @@
         <item quantity="other">%1$d audios</item>
         <item quantity="one">%1$d audio</item>
     </plurals>
+    <plurals name="notification_rec_content">
+        <item quantity="other">%d FM recordings</item>
+        <item quantity="one">%d FM recording</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">1 minute ago</item>
+    </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d followers</item>
         <item quantity="one">%d follower</item>
     </plurals>
+    <plurals name="send_songs_toast">
+        <item quantity="other">%d songs will be sent</item>
+        <item quantity="one">%d song will be sent</item>
+    </plurals>
     <plurals name="skipped_online_songs_tips">
         <item quantity="other">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
         <item quantity="one">Skipped %d song. Turn on online services in the settings to listen to it.</item>
+    </plurals>
+    <plurals name="song_already_favorite">
+        <item quantity="other">Songs have been favorited.</item>
+        <item quantity="one">Song has been favorited.</item>
     </plurals>
     <plurals name="songs_count">
         <item quantity="other">%d songs</item>
@@ -142,36 +218,12 @@
         <item quantity="other">Here are %1$d updates for you:</item>
         <item quantity="one">Here is %1$d update for you:</item>
     </plurals>
+    <plurals name="toast_channel_searched">
+        <item quantity="other">%1$d stations scanned</item>
+        <item quantity="one">%1$d station scanned</item>
+    </plurals>
     <plurals name="total_chapter_count">
         <item quantity="other">%1$d episodes</item>
         <item quantity="one">%1$d episode</item>
-    </plurals>
-    <plurals name="notification_rec_content">
-        <item quantity="other">%d FM recordings</item>
-        <item quantity="one">%d FM recording</item>
-    </plurals>
-    <plurals name="Nassociate_songs">
-        <item quantity="other">Searching for album covers and lyrics (%1$d/%2$d)</item>
-        <item quantity="one">Searching for album covers and lyrics (%1$d/%2$d)</item>
-    </plurals>
-    <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">%d songs added to playlist</item>
-        <item quantity="one">%d song added to playlist</item>
-    </plurals>
-    <plurals name="Ntracks_remove_from_playlist">
-        <item quantity="other">%d songs removed from playlist</item>
-        <item quantity="one">%d song removed from playlist</item>
-    </plurals>
-    <plurals name="dialog_remove_from_cloud_descript">
-        <item quantity="other">Delete %d songs from Xiaomi Cloud? They will be deleted from local playlists as well.</item>
-        <item quantity="one">Delete %d song from Xiaomi Cloud? It will be deleted from local playlists as well.</item>
-    </plurals>
-    <plurals name="send_songs_toast">
-        <item quantity="other">%d songs will be sent</item>
-        <item quantity="one">%d song will be sent</item>
-    </plurals>
-    <plurals name="song_already_favorite">
-        <item quantity="other">Songs have been favorited.</item>
-        <item quantity="one">Song has been favorited.</item>
     </plurals>
 </resources>
