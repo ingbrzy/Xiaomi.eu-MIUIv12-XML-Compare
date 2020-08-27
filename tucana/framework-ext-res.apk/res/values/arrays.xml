@@ -38,7 +38,21 @@
         <item>lavender</item>
         <item>onc</item>
         <item>pine</item>
-        <item>grus</item>
+        <item>platina</item>
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>joyeuse</item>
+        <item>dipper</item>
+        <item>polaris</item>
+        <item>beryllium</item>
+        <item>toco</item>
+        <item>umi</item>
+        <item>cmi</item>
+        <item>whyred</item>
+        <item>tulip</item>
+        <item>monet</item>
+        <item>angelican</item>
+        <item>apollo</item>
     </string-array>
     <string-array name="config_alwaysEnableMms_off_array">
         <item>ch</item>
@@ -51,6 +65,26 @@
         <item>3</item>
         <item>4</item>
     </integer-array>
+    <array name="config_bcbc_brt_change_node">
+        <item>0.048852</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.390816</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.586224</item>
+        <item>0.73278</item>
+    </array>
+    <array name="config_bcbc_brt_change_node_disable_auto_brt">
+        <item>0.048852</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.390816</item>
+        <item>0.073278</item>
+        <item>0.509804</item>
+        <item>0.745098</item>
+        <item>0.854902</item>
+    </array>
     <integer-array name="config_compensateSignalLevelValue">
         <item>0</item>
         <item>0</item>
@@ -60,8 +94,35 @@
         <item>0</item>
     </integer-array>
     <array name="config_crossSpaceNotificationPackageNames" />
-    <array name="config_hightGrayBrightnessLevels" />
-    <array name="config_lowGrayBrightnessLevels" />
+    <integer-array name="config_hbm_backlight_levels">
+        <item>0</item>
+        <item>3586</item>
+        <item>4095</item>
+    </integer-array>
+    <integer-array name="config_hbm_lux_levels">
+        <item>4500</item>
+        <item>10000</item>
+        <item>20000</item>
+    </integer-array>
+    <integer-array name="config_hbm_nit_levels">
+        <item>21</item>
+        <item>215</item>
+        <item>300</item>
+    </integer-array>
+    <integer-array name="config_hightGrayBrightnessLevels">
+        <item>150</item>
+        <item>500</item>
+        <item>1200</item>
+        <item>1500</item>
+        <item>2047</item>
+    </integer-array>
+    <integer-array name="config_lowGrayBrightnessLevels">
+        <item>100</item>
+        <item>150</item>
+        <item>700</item>
+        <item>800</item>
+        <item>2047</item>
+    </integer-array>
     <integer-array name="config_manualBrightnessRemapIn">
         <item>0</item>
         <item>15</item>
@@ -102,6 +163,7 @@
         <item>260</item>
         <item>20201</item>
         <item>20801</item>
+        <item>20810</item>
         <item>21401</item>
         <item>21403</item>
         <item>21405</item>
@@ -149,6 +211,35 @@
         <item>45005</item>
         <item>45006</item>
         <item>45008</item>
+    </string-array>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>Try again</item>
+        <item></item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>Wipe the fingerprint sensor clean and try again</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>"Too fast! Couldn't recognize fingerprint"</item>
+        <item>Move your finger a bit and try again</item>
+        <item>Lift your finger and put it back on the scanner again</item>
+        <item>Keep your finger on the scanner a bit longer</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Move your finger slightly</item>
+        <item>This fingerprint has been added, use a different finger</item>
     </string-array>
     <string-array name="float_notification_whitelist">
         <item>com.google.android.apps.messaging</item>
@@ -1440,6 +1531,11 @@
         <item>com.miui.mishare.connectivity</item>
         <item>com.miui.notes</item>
         <item>com.milink.service</item>
+        <item>com.xiaomi.vipaccount</item>
+        <item>com.xiaomi.mirror</item>
+    </string-array>
+    <string-array name="process_light_speed_protect_list">
+        <item>com.android.camera</item>
     </string-array>
     <string-array name="process_secretly_protect_list">
         <item>com.tencent.mm</item>
@@ -1496,6 +1592,9 @@
         <item>com.miui.aod</item>
         <item>com.magiear.handsfree.assistant</item>
         <item>com.xiaomi.mi_connect_service</item>
+        <item>com.android.permissioncontroller</item>
+        <item>com.ss.android.lark.kami</item>
+        <item>com.miui.maintenancemode</item>
     </string-array>
     <string-array name="screen_key_long_press_default_action">
         <item>voice_assistant</item>
@@ -1504,6 +1603,24 @@
         <item>show_menu</item>
     </string-array>
     <array name="screen_resolution_supported" />
+    <string-array name="tmpfs_pkg_list">
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.hxh</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.netease.hyxd.mi</item>
+        <item>com.netease.onmyoji.mi</item>
+        <item>com.netease.mc.mi</item>
+        <item>com.netease.mrzh.mi</item>
+        <item>com.aligames.kuang.kybc.mi</item>
+        <item>com.imangi.templerun2</item>
+        <item>com.jingdong.app.mall</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.taobao.taobao</item>
+        <item>com.outfit7.talkingtomgoldrun.mi</item>
+        <item>com.happyelements.AndroidAnimal</item>
+    </string-array>
     <integer-array name="vibration_recorder_major_action">
         <item>0</item>
         <item>0</item>
