@@ -2169,6 +2169,8 @@
         <item>@string/input_method_function_xiaoai_des</item>
         <item>@string/input_method_function_switch_des</item>
         <item>@string/input_method_function_clipboard_des</item>
+        <item>@string/input_method_function_switch_keyboard_language_des</item>
+        <item>@string/input_method_function_switch_keyboard_type_des</item>
         <item>@string/input_method_function_no_function_des</item>
     </string-array>
     <array name="input_method_function_icons">
@@ -2176,6 +2178,8 @@
         <item>@drawable/input_method_xiaoai_function_selector</item>
         <item>@drawable/input_method_switch_function_selector</item>
         <item>@drawable/input_method_clipboard_function_selector</item>
+        <item>@drawable/input_method_switch_keyboard_language_selector</item>
+        <item>@drawable/input_method_switch_keyboard_type_selector</item>
         <item>@drawable/input_method_no_function_selector</item>
     </array>
     <string-array name="input_method_function_title">
@@ -2183,6 +2187,8 @@
         <item>@string/input_method_function_xiaoai</item>
         <item>@string/input_method_function_switch</item>
         <item>@string/input_method_function_clipboard</item>
+        <item>@string/input_method_function_switch_keyboard_language</item>
+        <item>@string/input_method_function_switch_keyboard_type</item>
         <item>@string/input_method_function_no_function</item>
     </string-array>
     <string-array name="input_method_selector_titles">
@@ -3863,7 +3869,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Mobile</item>
     </string-array>
     <array name="wifi_calling_mode_choices_with_ims_preferred">
-        <item>@android:string/wfc_mode_ims_preferred_summary</item>
         <item>@android:string/wfc_mode_wifi_preferred_summary</item>
         <item>@android:string/wfc_mode_cellular_preferred_summary</item>
         <item>@android:string/wfc_mode_wifi_only_summary</item>
@@ -3873,7 +3878,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@android:string/wfc_mode_cellular_preferred_summary</item>
     </array>
     <array name="wifi_calling_mode_choices_without_wifi_only_with_ims_preferred">
-        <item>@android:string/wfc_mode_ims_preferred_summary</item>
         <item>@android:string/wfc_mode_wifi_preferred_summary</item>
         <item>@android:string/wfc_mode_cellular_preferred_summary</item>
     </array>
