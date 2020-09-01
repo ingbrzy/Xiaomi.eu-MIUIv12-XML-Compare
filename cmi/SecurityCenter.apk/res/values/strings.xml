@@ -547,6 +547,8 @@ You will not lose any app data."</string>
   <string name="auto_data_booster_suc">Game Turbo is on. Switched to Immersive mode.</string>
   <string name="auto_handle_title">GENERAL</string>
   <string name="auto_import_games">Put all your games in one place</string>
+  <string name="auto_send_correcting_msg">未填写系统将自动发送短信校验</string>
+  <string name="auto_set_by_brand">根据您的品牌自动设置流量及免流信息</string>
   <string name="auto_task_condition_choose_battery_level_down">When battery reaches a certain level</string>
   <string name="auto_task_condition_choose_end_time">End time</string>
   <string name="auto_task_condition_choose_ontime">Timer</string>
@@ -800,6 +802,11 @@ You will not lose any app data."</string>
   <string name="card_tc_failed">"Couldn't calibrate"</string>
   <string name="cd_back">Back</string>
   <string name="celcius_symbol">℃</string>
+  <string name="charger_detect_button_ok">Got it</string>
+  <string name="charger_detect_info1">Check whether the power adapter and cable are properly connected.</string>
+  <string name="charger_detect_info2">"Charging may also slow down if you're using non-standard or old power adapters and cables."</string>
+  <string name="charger_detect_no_remind">"Don't show again"</string>
+  <string name="charger_detect_title">Charging is slow</string>
   <string name="charging_text_battery_full_time">"Last charge "</string>
   <string name="charging_text_battery_nearly_full">Almost fully charged</string>
   <string name="charging_text_battery_perfect">Fully charged</string>
@@ -838,6 +845,7 @@ You will not lose any app data."</string>
   <string name="connect_internet_by_wifi">Wi-Fi</string>
   <string name="connecting">Connecting…</string>
   <string name="continue_install">Install</string>
+  <string name="continue_set">继续设置</string>
   <string name="convenient_mode">Unlock all apps at once</string>
   <string name="convenient_summary">Enter password once to unlock all apps</string>
   <string name="copy">Copy</string>
@@ -906,6 +914,7 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="data_usage_warning_title_notify">You went over your data limit</string>
   <string name="databooster_tips_message">Turn on to restrict all SIM cards except for the data card. Turn this feature off if errors occur in the games of your choice.</string>
   <string name="databooster_tips_title">Attention</string>
+  <string name="day_overflow_tips">每日流量超出提示阀值</string>
   <string name="debug_open_final_tip">Turn on USB debugging?</string>
   <string name="debug_open_title">This feature is intended for developers and might not be convenient for general users. Turning on USB debugging might bring about the following changes:</string>
   <string name="declaration_dialog_msg">This feature can help you track your usage, but is not guaranteed to prevent additional charges. For best results, set a conservative limit.</string>
@@ -1350,6 +1359,8 @@ medical card"</string>
   <string name="first_settings_subtitle">Here are the secure sharing options available to you:</string>
   <string name="first_settings_title">Protect your privacy</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
+  <string name="fixed_package_tips">每月享有固定流量，超出将产生额外扣费</string>
+  <string name="fixed_traffic_quota">固定流量额度（选填）</string>
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
   <string name="float_window_tips">小米手机就是快！</string>
@@ -1376,6 +1387,11 @@ medical card"</string>
   <string name="free_time_traffic_settings">Off-peak data limit</string>
   <string name="free_time_traffic_title">Enter off-peak data limit</string>
   <string name="free_traffic_settings">Off-peak data usage settings</string>
+  <string name="function_auto_reject_detail">"About this feature:
+1. While you're playing games, all incoming calls to the SIM card without mobile data service will be rejected automatically.
+2. You'll see notifications about missed calls and the other person will hear an audio message saying that you're busy at the moment.
+3. This feature is only supported by mobile carriers in China."</string>
+  <string name="function_auto_reject_title">Reject VoLTE calls to SIM cards without data service</string>
   <string name="function_close">Off</string>
   <string name="function_gwsd_detail">"About this feature:
  1. When you're using mobile data on a data SIM or a regular SIM card connected to a VoLTE network, connection won't be interrupted by incoming calls until you pick up.
@@ -1584,6 +1600,7 @@ of your gaming sessions"</string>
   <string name="gb_xunyou_gift_type_two">Xunyou 2-day boost</string>
   <string name="gdpr_msg">&lt;Data&gt;"To be able to detect security risks and protect your data, we need to collect the necessary amount of information about your device. Read and agree to our &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using our services. In case you don't allow us to collect such information, you'll still be able to use this app, but some features won't be available to you. "&lt;/Data&gt;</string>
   <string name="ge">个</string>
+  <string name="get_detail_by_click">点击查看详情</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
   <string name="give_lucky_money">红包大派送</string>
@@ -1592,6 +1609,7 @@ of your gaming sessions"</string>
   <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
   <string name="gmscore_support_service">Basic Google services</string>
   <string name="go_to">Proceed</string>
+  <string name="go_to_send">去发送</string>
   <string name="go_to_setting_fingerprint">Settings</string>
   <string name="google_base_app_fail">"Couldn't download. Check whether Security is allowed to connect to the internet."</string>
   <string name="google_base_app_install_choice">The application requires Google Services Framework to work normally, download and install it?</string>
@@ -1696,6 +1714,7 @@ of your gaming sessions"</string>
   <string name="icon_text_size_giga_byte">%.1fG</string>
   <string name="icon_text_size_max">9.9G</string>
   <string name="icon_text_size_mega_byte">%dM</string>
+  <string name="ignore_special_app">所选应用所消耗流量不计入套餐流量</string>
   <string name="im">IM</string>
   <string name="info_and_call">Calls and messaging</string>
   <string name="info_antispam_close">Blocklist is off</string>
@@ -1758,6 +1777,7 @@ of your gaming sessions"</string>
 
 Carrier may charge you additional fees if you use mobile data connection again."</string>
   <string name="leisure_usage_dialog_title">You went over your off-peak data limit, data connection is off</string>
+  <string name="limit_speed_by_quota">流量不限量使用，超出阀值会降速</string>
   <string name="list_empty_text">Empty</string>
   <string name="load_only_under_wlan">Load using only Wi-Fi</string>
   <string name="loading">Just a sec…</string>
@@ -1875,6 +1895,7 @@ to respond"</string>
   <string name="main_toolbar_purchase">Top up</string>
   <string name="main_toolbar_statistic">Data usage stats</string>
   <string name="main_traffic_detail">Data usage</string>
+  <string name="make_sure_package_type">确认您的流量类型</string>
   <string name="man_add_application">Add autostart apps manually</string>
   <string name="manage_hybrid_permissions">"Manage app's permissions"</string>
   <string name="managed_user_title">All work apps</string>
@@ -2102,6 +2123,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="news_change">Change</string>
   <string name="nickname">Nickname</string>
   <string name="no_game">"Couldn't find games"</string>
+  <string name="no_limit_by_month">每月无限流量</string>
   <string name="no_lucky_money">尚未收到红包</string>
   <string name="not_available">暂无</string>
   <string name="not_limited_brand">Unlimited</string>
@@ -2150,6 +2172,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notify_weekly_traffic_body">To limit data usage automatically, set up your monthly data plan.</string>
   <string name="notify_weekly_traffic_title">Used %s this week</string>
   <string name="notify_weekly_traffic_title_for_slotnum">%1$s used %2$s this week</string>
+  <string name="number_address">号码归属地</string>
   <string name="number_of_lucky_money">已为您提醒红包总数</string>
   <string name="numeric_need_to_confirm">Enter again to confirm</string>
   <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
@@ -2210,6 +2233,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="operator_name_mi_mobile">Mi Mobile</string>
   <string name="operator_name_telcom">China Telecom</string>
   <string name="operator_name_unicom">China Unicom</string>
+  <string name="operator_name_virtual_operator">虚拟运营商</string>
   <string name="operator_number_cmcc">10086</string>
   <string name="operator_number_telcom">10000</string>
   <string name="operator_number_unicom">10010</string>
@@ -2671,6 +2695,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="preferred_app_entries_messaging">Messaging</string>
   <string name="preferred_app_entries_music">Music</string>
   <string name="pricacy_permission_use_total">Permission stats</string>
+  <string name="priority_statistics_fixed_traffic">若套餐中包含每月固定流量将优先统计该流量</string>
   <string name="priority_storage_app_settings">Data will be saved to %1$s</string>
   <string name="priority_storage_settings_summary">"If no SD card is detected, your data will be saved to your device's internal storage automatically."</string>
   <string name="priority_storage_summary">Select location to save your data</string>
@@ -2944,10 +2969,17 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="securitycenter_tab_title">Security</string>
   <string name="see_detail">Details</string>
   <string name="see_more_content">Update Games to see more highlights</string>
+  <string name="select_province_and_city">请选择省市</string>
+  <string name="send_msg_to_query">帮您免费发送短信进行查询</string>
   <string name="set_applock_password">Set password</string>
+  <string name="set_complete">设置完成</string>
+  <string name="set_location">设置归属地</string>
   <string name="set_mixed_password_name">Set password</string>
   <string name="set_numeric_password_name">Set PIN</string>
+  <string name="set_package_tips">系统将向运营商发送免费短信为您校正流量信息，同时将加密上传您所填写的信息用于获取校正短信模板。</string>
+  <string name="set_package_tips_detail">您所填写的运营商信息、手机号、IMEI号及小米账号将加密上传至小米公司服务器。</string>
   <string name="set_pattern_password_name">Set pattern</string>
+  <string name="set_traffic_tips">设置套餐能够帮助您更有效的查看和管理流量的使用，防止超出套餐产生额外的费用。</string>
   <string name="setting">Settings</string>
   <string name="setting_alarm_summary">各大平台官方红包活动闹钟提醒</string>
   <string name="setting_privacy_password">Add pattern</string>
@@ -3553,6 +3585,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
   <string name="traffic_alert_auto_modify_notification_sumarry">Monthly plan changed to %s.</string>
   <string name="traffic_alert_auto_modify_notification_titile">Updated data plan</string>
   <string name="traffic_alert_auto_modify_package_summary">"Automatically adjust data package according to the carrier's info"</string>
+  <string name="traffic_calculation">流量按天计算，如1元/1GB/天</string>
   <string name="traffic_config_alert_auto_modify">Update data plan automatically</string>
   <string name="traffic_config_alert_body">"Your carrier's plan shows this: %s.
 
@@ -3581,6 +3614,7 @@ Rolled over extra data"</string>
 
 Remaining data includes data that has been rolled over from the previous month."</string>
   <string name="traffic_limit_error_alert_title">Data limit reminder %s</string>
+  <string name="traffic_limit_input">流量预警限额（选填）</string>
   <string name="traffic_none">None</string>
   <string name="traffic_over_purchase_link">"You've reached your mobile plan's data usage limit.&lt;br/&gt;If you go over your plan’s data usage limit, your carrier may charge you additional fees.&lt;br/&gt;&lt;br/&gt;&lt;font color='#ccffffff'&gt;&lt;U&gt;Tap to top up your balance.&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="traffic_provider_no_sim">"SIM card isn't installed"</string>
@@ -3630,6 +3664,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="uninstall_danagerous_desc">\"%s\" may damage your device</string>
   <string name="uninstall_danagerous_msg">\"%s\" may damage your device, lower its performance, or cause reboots.</string>
   <string name="uninstall_danagerous_title">Uninstall malicious apps</string>
+  <string name="unknown_package">不清楚自己的套餐是什么？</string>
   <string name="unlike">No thanks</string>
   <string name="unlock_failed">Internal error</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
@@ -3678,6 +3713,9 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="vb_advanced_settings_after_open">After</string>
   <string name="vb_advanced_settings_before_open">Before</string>
   <string name="vb_advanced_settings_pic_stronger_desc">Make moving objects crisper by enhancing animations. This feature requires higher power consumption.</string>
+  <string name="vb_fps_display_unit">Hz</string>
+  <string name="vb_fps_settings">Auto refresh rate</string>
+  <string name="vb_fps_settings_tips">This feature adjusts screen refresh rate to video frame rate, which saves battery and makes playback smooth. Turning on floating comments will turn off auto refresh rate.</string>
   <string name="vb_quick_func_auto_bgm">Recognize background music</string>
   <string name="vb_quick_func_hangup_listening">Play video sound with screen off</string>
   <string name="vb_quick_func_screen_capture">Screenshot</string>
