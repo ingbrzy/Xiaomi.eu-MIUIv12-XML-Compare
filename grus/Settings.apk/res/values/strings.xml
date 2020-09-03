@@ -3851,7 +3851,7 @@ as your First space PIN."</string>
   <string name="long_press_menu_key_when_lock">Long press Menu on the Lock screen</string>
   <string name="long_press_power_key">Long press the Power button</string>
   <string name="long_press_power_key_half_of_second">Press and hold the Power button for 0.5s to turn on Google Assistant</string>
-  <string name="long_press_power_key_half_second">Press and hold the Power button for 0.5 seconds</string>
+  <string name="long_press_power_key_half_second">Press and hold the Power button for %ss</string>
   <string name="long_press_power_key_tips">&lt;Data&gt;Long press the Power button &amp;lt;font color=#999999&amp;gt;Faster and more convenient&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
   <string name="long_press_volume_down">Long press Volume down</string>
   <string name="lost_internet_access_cancel">Stay on WLAN</string>
@@ -4074,6 +4074,7 @@ Continue to access additional settings."</string>
   <string name="miui_lab_install_drive_mode_title">Install Car mode</string>
   <string name="miui_lab_settings">MIUI lab</string>
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
+  <string name="miui_master_clear_prompt_battery_low">"Can't perform a factory reset when less than %1$s of battery is left. Charge your device before you continue."</string>
   <string name="miui_master_clear_summary">Erases all data on phone</string>
   <string name="miui_more_special_feature">Explore new features</string>
   <string name="miui_optimization_disabled">Turn off MIUI optimization</string>
@@ -7113,7 +7114,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter %1$d-%2$d numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary">Enter %1$d-%2$d digits to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>

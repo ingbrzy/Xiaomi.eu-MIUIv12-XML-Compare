@@ -347,14 +347,12 @@ Send this code to the supervisor."</string>
   <string name="loading_apps">Loading list…</string>
   <string name="logo_title">Feedback</string>
   <string name="logout_account">Sign out</string>
-  <string name="max_error">Your %1$s should be shorter.</string>
   <string name="menu_copy">Copy</string>
   <string name="message_label">Message</string>
   <string name="mi_service_dialog_cancel">Exit</string>
   <string name="mi_service_dialog_confirm">Open</string>
   <string name="mi_service_dialog_content">All feedback features were moved to the new \"Services &amp; feedback\" app. The Feedback app will be removed from your Home screen. Tap \"Open\" to try \"Services &amp; feedback\".</string>
   <string name="mi_service_dialog_title">Introducing \"Services &amp; feedback\"</string>
-  <string name="min_error">Your %1$s should be longer.</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -518,7 +516,6 @@ Send this code to the supervisor."</string>
   <string name="qq_login_protocol_scheme">com.xiaomi.passport.ui</string>
   <string name="refresh">Refresh</string>
   <string name="related_question_answer_details">Related issue</string>
-  <string name="reply">Reply</string>
   <string name="reply_failed">"Couldn't reply"</string>
   <string name="reply_option_log_hint">Optional</string>
   <string name="reply_select_log_hint">Select log</string>
@@ -554,12 +551,20 @@ Send this code to the supervisor."</string>
   <string name="sns_bind_limit">Too many attempts. Try other ways to sign in.</string>
   <string name="sns_sign_in">Other ways to sign in</string>
   <string name="status_bar_notification_info_overflow">999+</string>
+  <string name="stop_full_log_dialog_cancel">Not now</string>
+  <string name="stop_full_log_dialog_confirm">Upload</string>
+  <string name="stop_full_log_dialog_content">Looks like logs are being generated now. Stop generating them and upload the ones that are ready?</string>
+  <string name="stop_full_log_dialog_title">Generating logs…</string>
   <string name="submit_dialog_cancel">"Don't agree"</string>
   <string name="submit_dialog_confirm">Agree</string>
   <string name="submit_dialog_content">&lt;Data&gt;"You must agree to our &amp;lt;a href=\"%1$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"%2$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; to be able to use Feedback. The issues you report along with the items you attach (might contain personal information, as well as the information about your device and network) will be uploaded to MIUI's servers. This will help us locate and solve the problems you report."&lt;/Data&gt;</string>
   <string name="submit_dialog_content_global">&lt;Data&gt;"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers. Logs may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"%1$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"%2$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="submit_dialog_title">Send report</string>
   <string name="submit_feedback_info_failed">"Couldn't send report"</string>
+  <string name="suggest_upload_log_dialog_cancel">No thanks</string>
+  <string name="suggest_upload_log_dialog_confirm">Upload</string>
+  <string name="suggest_upload_log_dialog_content">"To help our engineers locate and solve the problem you encountered as soon as possible, we recommend that you upload the related logs. Logs are only used to analyze problems and won't be used for other purposes."</string>
+  <string name="suggest_upload_log_dialog_title">Upload related logs</string>
   <string name="suggestion_description">Add description here</string>
   <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
   <string name="system_app_select">Built-in apps</string>
@@ -585,7 +590,7 @@ Send this code to the supervisor."</string>
   <string name="toast_app_tag_required">Select issue first</string>
   <string name="toast_catch_full_log_catching">You can only generate one log at a time.</string>
   <string name="toast_catch_full_log_open_failed">"Couldn't start recording log."</string>
-  <string name="toast_description_required">You need to write a description</string>
+  <string name="toast_description_required">Describe the issue first</string>
   <string name="toast_feedback_collect_store">Collecting logs…</string>
   <string name="toast_feedback_network_unavailable">"Can't connect to the network"</string>
   <string name="toast_feedback_submitted">Report has been sent</string>
@@ -594,6 +599,7 @@ Send this code to the supervisor."</string>
   <string name="toast_fill_brackets">Your report is missing some info</string>
   <string name="toast_log_not_exists">"The required log was deleted or doesn't exist"</string>
   <string name="toast_log_too_large">"Can't upload. The log is too big."</string>
+  <string name="toast_min_description_count">Your description should be longer</string>
   <string name="toast_module_required">Select item</string>
   <string name="toast_network_unavailable">"Couldn't send. Can't connect to the network."</string>
   <string name="toast_pending_log_collection">Still getting logs…</string>
@@ -625,8 +631,6 @@ Size: %2$s"</string>
   <string name="v7_preference_off">OFF</string>
   <string name="v7_preference_on">ON</string>
   <string name="v_code_title">Enter verification code</string>
-  <string name="warning_field_empty">Enter %1$s</string>
-  <string name="warning_field_invalid">Select a valid %1$s</string>
   <string name="wechat_application_id"/>
   <string name="wechat_scope"/>
   <string name="wechat_state"/>
