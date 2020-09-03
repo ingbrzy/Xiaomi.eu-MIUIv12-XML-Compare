@@ -37,18 +37,32 @@
   <string name="back_up_task_in_process">Backing up…</string>
   <string name="back_up_task_unfinished">"Couldn't back up"</string>
   <string name="backing_up_to_micloud">Backing up…</string>
-  <string name="backup_failed_reason_cloud_space_not_enough">Not enough storage space in Xiaomi Cloud. Upgrade your plan or free up storage space.</string>
+  <string name="backup_action_buy_cloud_space">Get more storage space</string>
+  <string name="backup_action_check_network">Check network settings</string>
+  <string name="backup_action_clean_disk_space">Free up space</string>
+  <string name="backup_action_retry_now">Try again</string>
+  <string name="backup_failed_reason_cloud_space_not_enough">Not enough cloud storage left to save this backup. Upgrade your plan or free up cloud storage space.</string>
   <string name="backup_failed_reason_disk_space_not_enough">Not enough storage space. Free up storage first.</string>
-  <string name="backup_failed_reason_network_error">Network error. Wait a minute or two and try again.</string>
+  <string name="backup_failed_reason_network_error">Check your network settings and try again</string>
   <string name="backup_finished_notification_content">Backed up Home screen apps, system settings, etc.</string>
   <string name="backup_now">Back up now</string>
   <string name="backup_progress_percent_unit">%</string>
+  <string name="backup_remind_buy_cloud_space">Upgrade your cloud storage plan</string>
+  <string name="backup_remind_clean_disk_space">Free up storage space</string>
+  <string name="backup_remind_cloud_space_cost">Backup size: %s</string>
   <string name="backup_size">Size: %s</string>
   <string name="backup_stopped_msg">Current backup will overwrite the previous one. Tap to view.</string>
   <string name="backup_stopped_title">Backup was paused</string>
   <string name="backup_success">Backed up successfully</string>
   <string name="backup_successfully">Backed up successfully</string>
   <string name="backup_to_cloud">Back up app</string>
+  <string name="backup_warning_reason_cloud_space_not_enough">"Can't back up"</string>
+  <string name="backup_warning_reason_disk_space_not_enough">"Not enough storage
+Can't back up"</string>
+  <string name="backup_warning_reason_network_error">"Network error
+Can't back up"</string>
+  <string name="backup_warning_reason_no_server_response">"Connection was interrupted
+Try again"</string>
   <string name="btn_back">Back</string>
   <string name="btn_continue">Continue</string>
   <string name="btn_restore_abort">Cancel</string>
