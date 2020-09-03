@@ -221,20 +221,25 @@
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
     </string-array>
-    <string-array name="settings_search_earth">
-        <item>Home</item>
-        <item>Wallpaper/Super wallpapers/Home</item>
-        <item>Earth;Super wallpapers;Earth Edition;Wallpaper</item>
+    <string-array name="settings_search_mirror">
+        <item>Screen Combo</item>
+        <item>Connect &amp; sharing/Screen Combo</item>
+        <item>Screen Combo</item>
     </string-array>
-    <string-array name="settings_search_mars">
-        <item>The red planet</item>
-        <item>Wallpaper/Super wallpapers/The red planet</item>
-        <item>Mars;Mars Edition;Super wallpapers;Wallpaper</item>
+    <string-array name="settings_tips_message">
+        <item>"1. Turn off portable hotspot, Mi Share, or casting on your mobile device before using Screen Combo.
+2. Turn off Wi-Fi on both your mobile device and computer.
+3. Make sure your mobile device is close to your computer."</item>
+        <item>Your computer uses Bluetooth to detect mobile devices that have been previously connected. Check whether Bluetooth is turned on on your mobile device.</item>
+        <item>"Mobile devices can't sync data with computers when the screen is locked. By default, Screen Combo doesn't allow locking the screen when your mobile device is connected to a computer. You can change this in the Settings."</item>
+        <item>"1. Selected Xiaomi phones running Android Q or later support Screen Combo. If you see the MIUI website after you scan the QR code, your device isn't supported yet.
+2. To use Screen Combo on your computer, install the latest version of Mi Smart Share first."</item>
     </string-array>
-    <string-array name="settings_search_superwp">
-        <item>Super wallpapers</item>
-        <item>Wallpaper/Super wallpapers</item>
-        <item>Super wallpapers;Wallpaper;Dynamic wallpaper;3D wallpaper</item>
+    <string-array name="settings_tips_title">
+        <item>"Can't connect using QR code?"</item>
+        <item>"Can't find mobile devices using your computer?"</item>
+        <item>"Can't lock your mobile device?"</item>
+        <item>Compatibility</item>
     </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
@@ -262,91 +267,6 @@
         <item>@string/solar_term_light_snow</item>
         <item>@string/solar_term_heavy_snow</item>
         <item>@string/solar_term_winter_solstice</item>
-    </string-array>
-    <string-array name="super_wallpaper_list_ids">
-        <item>saturn</item>
-        <item>earth</item>
-        <item>mars</item>
-    </string-array>
-    <string-array name="super_wallpaper_list_packages">
-        <item>com.miui.miwallpaper</item>
-        <item>com.miui.miwallpaper.earth</item>
-        <item>com.miui.miwallpaper.mars</item>
-    </string-array>
-    <integer-array name="super_wallpaper_list_presets">
-        <item>0</item>
-        <item>1</item>
-        <item>0</item>
-    </integer-array>
-    <string-array name="super_wallpaper_list_summaries">
-        <item>@string/saturn_summary</item>
-        <item>@string/earth_summary</item>
-        <item>@string/mars_summary</item>
-    </string-array>
-    <string-array name="super_wallpaper_list_titles">
-        <item>@string/saturn_title</item>
-        <item>@string/earth_title</item>
-        <item>@string/mars_title</item>
-    </string-array>
-    <string-array name="super_wallpaper_res_scale_075_devices">
-        <item>andromeda</item>
-        <item>cepheus</item>
-        <item>crux</item>
-        <item>raphaelin</item>
-        <item>raphael</item>
-        <item>polaris</item>
-        <item>dipper</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-        <item>ursa</item>
-        <item>beryllium</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>monetin</item>
-        <item>monet</item>
-        <item>vangogh</item>
-        <item>atom</item>
-        <item>bomb</item>
-    </string-array>
-    <string-array name="super_wallpaper_res_scale_080_devices">
-        <item>cmi</item>
-        <item>umi</item>
-        <item>lmiin</item>
-        <item>lmi</item>
-        <item>lmipro</item>
-        <item>cas</item>
-    </string-array>
-    <string-array name="super_wallpaper_res_scale_10_devices">
-        <item>davinci</item>
-    </string-array>
-    <string-array name="support_super_wallpaper_devices">
-        <item>cmi</item>
-        <item>umi</item>
-        <item>lmiin</item>
-        <item>lmi</item>
-        <item>lmipro</item>
-        <item>cepheus</item>
-        <item>crux</item>
-        <item>raphaelin</item>
-        <item>raphael</item>
-        <item>polaris</item>
-        <item>dipper</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-        <item>ursa</item>
-        <item>beryllium</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>monetin</item>
-        <item>monet</item>
-        <item>vangogh</item>
-        <item>atom</item>
-        <item>bomb</item>
-        <item>cas</item>
-        <item>surya</item>
-        <item>apollo</item>
-        <item>klein</item>
-        <item>cezanne</item>
     </string-array>
     <string-array name="week_days">
         <item>@string/sunday</item>
