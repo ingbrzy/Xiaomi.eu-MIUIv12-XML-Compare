@@ -153,6 +153,7 @@
   <string name="enable_usb">Connect USB device</string>
   <string name="encrypt_error">"Couldn't hide files, try again"</string>
   <string name="encrypt_prefix">HIDDEN</string>
+  <string name="encrypt_setting">Encryption</string>
   <string name="encrypt_success">Hidden successfully</string>
   <string name="encrypt_success_first_five">"Encrypted and hid file. You can view hidden files by pulling down on the File Manager's start page."</string>
   <string name="encrypting">Encrypting…</string>
@@ -295,6 +296,7 @@
   <string name="no_wifi">No network detected</string>
   <string name="not_set">Not set</string>
   <string name="not_support_documentui">"DocumentUI isn't supported on this device"</string>
+  <string name="not_use">Not now</string>
   <string name="notif_server_starting">Starting FTP server…</string>
   <string name="notif_title">FTP server is running</string>
   <string name="online_not_support">"Can't view this file at the moment."</string>
@@ -312,6 +314,8 @@
   <string name="operation_delete_confirm_message">Delete?</string>
   <string name="operation_delete_confirm_message_folder">"All folder contents will be deleted. "</string>
   <string name="operation_deleting">Deleting…</string>
+  <string name="operation_encrypt_summary">Encrypt files in the private folder. Decrypting big files might take longer than expected.</string>
+  <string name="operation_encrypt_title">Encrypt private files</string>
   <string name="operation_favorite">Favorite</string>
   <string name="operation_hide_sys">"Don't show hidden files"</string>
   <string name="operation_info">Details</string>
@@ -366,6 +370,9 @@
   <string name="private_folder">Hidden folders</string>
   <string name="private_folder_no_file_hints">Press and hold files or folders to add them to your private folder</string>
   <string name="private_folder_update">Updating hidden files…</string>
+  <string name="private_folder_update_msg">File Manager is introducing an additional security measure: you can encrypt private files now!</string>
+  <string name="private_folder_update_msg_summary">Decryption will make removing files from the private folder slower. You can turn encryption on and off in the Settings.</string>
+  <string name="private_folder_update_tips">New feature</string>
   <string name="private_toast_hint2">To hide a file, press and hold it, then add it to a hidden folder.</string>
   <string name="promot_enctypt_password">Enter password used to unlock your device</string>
   <string name="pull_to_enter_private">Pull down to open private folder</string>
@@ -480,6 +487,7 @@
   <string name="unlock_pattern_title">New password</string>
   <string name="upload_user_photo">Upload</string>
   <string name="usb_label">USB</string>
+  <string name="use">Use</string>
   <string name="use_to_all">Apply to all</string>
   <string name="used">Used</string>
   <string name="user_guide_continue_use">OK</string>
