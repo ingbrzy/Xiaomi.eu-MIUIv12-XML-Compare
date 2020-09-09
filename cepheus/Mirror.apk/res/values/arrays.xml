@@ -63,6 +63,14 @@
         <item>@string/am</item>
         <item>@string/pm</item>
     </string-array>
+    <array name="buffer_size_values">
+        <item>@null</item>
+        <item>64K</item>
+        <item>128K</item>
+        <item>256K</item>
+        <item>512K</item>
+        <item>1M</item>
+    </array>
     <string-array name="chinese_days">
         <item>@string/chinese_day_1</item>
         <item>@string/chinese_day_2</item>
@@ -223,8 +231,8 @@
     </string-array>
     <string-array name="settings_search_mirror">
         <item>Screen Combo</item>
-        <item>Connect &amp; sharing/Screen Combo</item>
-        <item>Screen Combo</item>
+        <item>Connection &amp; sharing/Screen Combo</item>
+        <item>Screen Combo;Multiscreen;Screen mirroring;PC;Computer</item>
     </string-array>
     <string-array name="settings_tips_message">
         <item>"1. Turn off portable hotspot, Mi Share, or casting on your mobile device before using Screen Combo.
