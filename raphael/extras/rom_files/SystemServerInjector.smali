@@ -263,6 +263,14 @@
 
     invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
+    new-instance v1, Lcom/miui/server/rtboost/SchedBoostService;
+
+    invoke-direct {v1, p0}, Lcom/miui/server/rtboost/SchedBoostService;-><init>(Landroid/content/Context;)V
+
+    const-string v2, "SchedBoostService"
+
+    invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+
     invoke-static {}, Lmiui/telephony/TelephonyManager;->isCustForKrKt()Z
 
     move-result v1
