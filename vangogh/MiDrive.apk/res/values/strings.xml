@@ -149,6 +149,10 @@
   <string name="inner_storage_path">Internal storage</string>
   <string name="just_now">Just now</string>
   <string name="license_host_unreachable">"Your device isn't connected to cloud services. To view this item, visit %s on any connected device."</string>
+  <string name="load_label_up_no_data">No more items to show</string>
+  <string name="load_label_up_none">No more items to show</string>
+  <string name="load_label_up_refresh">Loading items…</string>
+  <string name="load_label_up_refresh_fail">"Couldn't load items"</string>
   <string name="load_metered_network_dialog_cancel">Cancel</string>
   <string name="load_metered_network_dialog_desc">"Your device isn't connected to Wi-Fi. Load using mobile data?"</string>
   <string name="load_metered_network_dialog_ok">Load</string>
@@ -226,6 +230,10 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
   <string name="pre_user_agreement">User Agreement</string>
   <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
   <string name="privacy_policy">Privacy Policy</string>
+  <string name="refresh_label_pull_to_refresh">Pull down to refresh</string>
+  <string name="refresh_label_refreshed">Refreshed successfully</string>
+  <string name="refresh_label_refreshing">Refreshing…</string>
+  <string name="refresh_label_release_to_refresh">Release to refresh</string>
   <string name="remove_success">Deleted successfully</string>
   <string name="rename_ext_confirm_dialog_desc">Changing file type might make the file unusable</string>
   <string name="rename_file_select_error">"Can't rename multiple items"</string>
@@ -247,9 +255,6 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
   <string name="select_upload_title">Upload to</string>
   <string name="setting_clear_cache">Clear cache</string>
   <string name="setting_create_shortcut">Home screen shortcut</string>
-  <string name="setting_default_download_dir">Default download location</string>
-  <string name="setting_default_download_dir_title">Select default download location</string>
-  <string name="setting_no_download_path">Select default download location first</string>
   <string name="setting_title">Settings</string>
   <string name="shortcut_dialog_confirm">Create</string>
   <string name="shortcut_dialog_content">Create a Home screen shortcut for Mi Drive?</string>
@@ -284,6 +289,16 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
   <string name="transfer_progress_text">%1$s / %2$s</string>
   <string name="transport_end_button">Edit</string>
   <string name="transport_title">Transfers</string>
+  <string name="update_dialog_button_cancel">Not now</string>
+  <string name="update_dialog_button_ok">Update</string>
+  <string name="update_dialog_content">"New version: %1$s
+%2$s"</string>
+  <string name="update_dialog_title">An update is available</string>
+  <string name="update_failed">A server error occurred. Wait a minute or two and try again.</string>
+  <string name="update_failed_no_app_info">"Couldn't get installation package"</string>
+  <string name="update_no_network">"Couldn't connect to the network. Check your network settings and try again."</string>
+  <string name="update_no_update">Current version is up to date</string>
+  <string name="update_progress_dialog_content">Downloading…</string>
   <string name="upload_done">Uploaded successfully</string>
   <string name="upload_done_info_for_sys_content_with_fail">%1$s. %2$s.</string>
   <string name="upload_done_info_for_sys_title">Uploaded successfully. Tap to view.</string>
@@ -307,6 +322,9 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
   <string name="waiting_upload">Pending</string>
   <string name="warning_bar_title_cloud_space_already_full">Cloud storage is almost full. Photos might not be synced.</string>
   <string name="warning_bar_title_cloud_space_full">"Cloud storage is full. Can't sync photos, call history, or other items."</string>
+  <string name="xiaomi_market_sdk_update_dialog_cancel">以后再说</string>
+  <string name="xiaomi_market_sdk_update_dialog_ok">立即更新</string>
+  <string name="xiaomi_market_sdk_update_dialog_title">%s 新版本</string>
   <string name="year_month_day_format">MMMM dd, yyyy</string>
   <string name="yesterday">Yesterday</string>
 </resources>

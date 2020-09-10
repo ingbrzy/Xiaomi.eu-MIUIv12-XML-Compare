@@ -547,6 +547,8 @@ You will not lose any app data."</string>
   <string name="auto_data_booster_suc">Game Turbo is on. Switched to Immersive mode.</string>
   <string name="auto_handle_title">GENERAL</string>
   <string name="auto_import_games">Put all your games in one place</string>
+  <string name="auto_send_correcting_msg">未填写系统将自动发送短信校验</string>
+  <string name="auto_set_by_brand">根据您的品牌自动设置流量及免流信息</string>
   <string name="auto_task_condition_choose_battery_level_down">When battery reaches a certain level</string>
   <string name="auto_task_condition_choose_end_time">End time</string>
   <string name="auto_task_condition_choose_ontime">Timer</string>
@@ -800,6 +802,11 @@ You will not lose any app data."</string>
   <string name="card_tc_failed">"Couldn't calibrate"</string>
   <string name="cd_back">Back</string>
   <string name="celcius_symbol">℃</string>
+  <string name="charger_detect_button_ok">Got it</string>
+  <string name="charger_detect_info1">Check whether the power adapter and cable are properly connected.</string>
+  <string name="charger_detect_info2">"Charging may also slow down if you're using non-standard or old power adapters and cables."</string>
+  <string name="charger_detect_no_remind">"Don't show again"</string>
+  <string name="charger_detect_title">Charging is slow</string>
   <string name="charging_text_battery_full_time">"Last charge "</string>
   <string name="charging_text_battery_nearly_full">Almost fully charged</string>
   <string name="charging_text_battery_perfect">Fully charged</string>
@@ -838,6 +845,7 @@ You will not lose any app data."</string>
   <string name="connect_internet_by_wifi">Wi-Fi</string>
   <string name="connecting">Connecting…</string>
   <string name="continue_install">Install</string>
+  <string name="continue_set">继续设置</string>
   <string name="convenient_mode">Unlock all apps at once</string>
   <string name="convenient_summary">Enter password once to unlock all apps</string>
   <string name="copy">Copy</string>
@@ -906,6 +914,7 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="data_usage_warning_title_notify">You went over your data limit</string>
   <string name="databooster_tips_message">Turn on to restrict all SIM cards except for the data card. Turn this feature off if errors occur in the games of your choice.</string>
   <string name="databooster_tips_title">Attention</string>
+  <string name="day_overflow_tips">每日流量超出提示阈值</string>
   <string name="debug_open_final_tip">Turn on USB debugging?</string>
   <string name="debug_open_title">This feature is intended for developers and might not be convenient for general users. Turning on USB debugging might bring about the following changes:</string>
   <string name="declaration_dialog_msg">This feature can help you track your usage, but is not guaranteed to prevent additional charges. For best results, set a conservative limit.</string>
@@ -1075,7 +1084,13 @@ medical card"</string>
   <string name="ew_button_confirm">Agree</string>
   <string name="ew_button_exit">"Don't agree"</string>
   <string name="ew_china_version_first_start_network_msg">&lt;Data&gt;"This feature provides you with earthquake warning functionality. It will notify you about upcoming earthquakes and play warning sound. You'll be able to find the nearest shelter, call your emergency contact, and present your medical card if required. &amp;lt;br&amp;gt;We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies. &amp;lt;br&amp;gt;To be able to work normally, this feature requires the following permissions in order to collect your personal information: &amp;lt;br&amp;gt;&amp;#8226; Location info: &amp;lt;br&amp;gt;For accessing your location and providing accurate earthquake warnings. &amp;lt;br&amp;gt;If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this feature. You can choose to turn this feature off or not turn it on in such cases. &amp;lt;br&amp;gt;You must read and agree to our &amp;lt;a href=\"http://api.sec.miui.com/res/docs/disclaimer/privacy/earthquake_alert?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using this feature."&lt;/Data&gt;</string>
+  <string name="ew_city_support_tip">*仅支持为其下辖的%s预警</string>
   <string name="ew_close">Turn off alert</string>
+  <string name="ew_close_warning">Turn off</string>
+  <string name="ew_concern_city">Added cities</string>
+  <string name="ew_concern_date_empty">None</string>
+  <string name="ew_concern_manage">Manage</string>
+  <string name="ew_current_location">Current location</string>
   <string name="ew_emergency_allergy">Allergies</string>
   <string name="ew_emergency_basic_info">Basic info</string>
   <string name="ew_emergency_birthday">Date of birth</string>
@@ -1100,6 +1115,7 @@ medical card"</string>
   <string name="ew_emergency_recent_medicine">Recent active medication</string>
   <string name="ew_emergency_title">Medical card</string>
   <string name="ew_first_start_network_title">Terms and conditions</string>
+  <string name="ew_get_location">Locate</string>
   <string name="ew_guide_law_agree">Agree</string>
   <string name="ew_guide_law_done">Got it</string>
   <string name="ew_guide_law_exit">"Don't agree"</string>
@@ -1108,11 +1124,21 @@ medical card"</string>
   <string name="ew_guide_next_text">Next</string>
   <string name="ew_guide_play_audio">Play warning sound</string>
   <string name="ew_guide_play_audio_last">Play warning sound (%ds)</string>
-  <string name="ew_guide_statement_text">&lt;Data&gt;"This disclaimer applies to all users (hereinafter referred to as you) who turn on the earthquake warning feature. By agreeing to this disclaimer, you enter into a legally binding contract with Xiaomi Inc. and its affiliates (hereinafter referred to as Xiaomi). You acknowledge that you have read all the contents of this disclaimer, and you fully understand and agree to all the terms and conditions of this disclaimer; otherwise, you should turn off the earthquake warning feature immediately.&amp;lt;br&amp;gt; &amp;lt;b&amp;gt;Special statement&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt; The earthquake warning functionality is available in selected regions now (&amp;lt;a href=\"https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/common/quake-warn/dist/index.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Tap to view&amp;lt;/a&amp;gt;). More regions will be available soon.&amp;lt;br&amp;gt; &amp;lt;b&amp;gt;Disclaimer&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt; Earthquake warning features are provided by Xiaomi in the Security app. You must understand that the earthquake warning information is provided by the government early warning agencies. Xiaomi doesn't oversee such agencies and doesn't have any control over them.&amp;lt;br&amp;gt; Xiaomi doesn't promise or guarantee the accuracy, validity, and timeliness of earthquake warning information, nor does it guarantee that the earthquake warning service will meet all your needs.&amp;lt;br&amp;gt; Receiving earthquake warning information requires you to keep your device connected to the mobile network. Third party communication line failures, technical problems, network or terminal equipment failures, system instability, and other various force majeure events might prevent you from receiving earthquake warning information. Xiaomi shall not bear any responsibility for any losses caused by such events.&amp;lt;br&amp;gt; You must understand that this feature is provided for your reference only. The warning you receive might come seconds before the onset of an earthquake. You are solely responsible for the risks and consequences of any actions you perform based on the information provided by this feature.&amp;lt;br&amp;gt;"&lt;/Data&gt;</string>
+  <string name="ew_guide_start">Turn on</string>
+  <string name="ew_guide_start_agree">Turn on</string>
+  <string name="ew_guide_start_find_area">Search for areas</string>
+  <string name="ew_guide_start_warning_range">目前地震预警为成都高新减灾研究所大陆地震预警网覆盖区域提供服务。具体地区可在【城市管理】中查找。</string>
+  <string name="ew_guide_statement_text">该《免责条款》适用于所有开启地震预警功能的用户（下文简称“您”），本条款一经您同意即代表您与小米科技有限责任公司及其关联公司（下文简称为“小米”）之间形成有法律约束力的文件。您确认，您已详细阅读了本免责条款所有内容，您充分理解并同意本免责条款的全部内容，如您不同意本免责条款内容，应立即关闭地震预警功能。 依据相关法律法规，小米将根据相关机构开展地震预警监测地区的范围为您提供预警服务。即当您开启地震预警功能后，在上述区域能够收到地震预警服务。目前提供地震预警服务的地区请在【城市管理】模块中查询，后续将逐步增加预警地区，敬请关注！ 为您的安全考虑，小米在安全中心提供相关功能模块向您展示地震预警信息。您理解地震预警信息由“成都高新减灾研究所”提供，小米不对其拥有任何控制权。 小米对其预警信息的准确性、有效性、及时性均不作承诺和保证，亦不保证地震预警服务能够满足您的所有需求。 接收地震预警信息需要您保持您的手机网络正常运行，因第三方如通讯线路故障、技术问题、网络、终端设备故障、系统不稳定性及其他各种不可抗力原因而导致您未接收或未及时接收等遭受的一切损失，小米不承担任何责任。 您理解地震预警服务仅作为您评估安全风险和做出安全决策的参考，地震预警只能提供几秒到几十秒的预警时间，您基于地震预警服务做出任何行为的风险和后果均由您自行承担。</string>
   <string name="ew_guide_tips_1">"You'll be notified about upcoming earthquakes and hear warning sound"</string>
   <string name="ew_guide_tips_2">Information and warning sound will be updated during the earthquake</string>
   <string name="ew_guide_tips_3">"You'll be able to find the nearest shelter, call your emergency contact, and present your medical card if required"</string>
   <string name="ew_guide_title">View demo</string>
+  <string name="ew_info_agreement">Disclaimers</string>
+  <string name="ew_info_other">Other</string>
+  <string name="ew_info_range">Service scope</string>
+  <string name="ew_info_rule">Rules</string>
+  <string name="ew_info_rule_warning">About warning system</string>
+  <string name="ew_info_service_range">Service scope</string>
   <string name="ew_list_all">All</string>
   <string name="ew_list_empty_text">No warnings here yet</string>
   <string name="ew_list_not_receive_tips">*Epicenter is far from you. You might not sense the earthquake.</string>
@@ -1121,6 +1147,7 @@ medical card"</string>
   <string name="ew_list_receive_time">Start time: %s</string>
   <string name="ew_list_receive_time_title">Start time</string>
   <string name="ew_list_title">Warnings</string>
+  <string name="ew_location_failed">未获取到定位</string>
   <string name="ew_main_close_text">"You won't be able to receive up-to-date info about this earthquake if you turn off the alert. Turn off anyway?"</string>
   <string name="ew_main_close_title">Attention</string>
   <string name="ew_main_contact_change">Change</string>
@@ -1140,19 +1167,34 @@ medical card"</string>
   <string name="ew_main_setting_show_desc">Demo</string>
   <string name="ew_main_setting_warning_desc">Learn more</string>
   <string name="ew_main_settings">Settings</string>
+  <string name="ew_main_warning_all_title">View previously issued warnings</string>
   <string name="ew_main_warning_list">View warnings</string>
   <string name="ew_main_warning_list_tips">View</string>
-  <string name="ew_main_warning_list_title">Warning history</string>
+  <string name="ew_main_warning_list_title">View warning history</string>
+  <string name="ew_not_support_area">"Warnings aren't supported in this area"</string>
   <string name="ew_push_message">Estimated intensity: %s. Expect slight shaking near you.</string>
   <string name="ew_push_title">Earthquake warning for %s</string>
   <string name="ew_safe_place_no_maps_tips">"Can't search now. Install Baidu Maps or Amap first."</string>
-  <string name="ew_setting_desc_message">"The system estimates earthquake intensity based on the magnitude of the earthquake, the location of the epicenter, and the distance from you. The greater the intensity of the earthquake, the more devastation the earthquake might bring to your location. When the estimated intensity is greater than 2.0, you'll receive a strong earthquake warning; when the estimated intensity is lower than 2.0, you can choose to receive system notifications."</string>
-  <string name="ew_setting_desc_title">About estimated intensity</string>
+  <string name="ew_setting_desc_message">MIUI estimates the intensity of the earthquake based on its magnitude, the location of the epicenter, and your location. The greater the estimated intensity, the more devastating the earthquake will be in your area.</string>
+  <string name="ew_setting_desc_title">What is estimated intensity?</string>
   <string name="ew_setting_more_title">Learn more about earthquake warnings</string>
-  <string name="ew_setting_normal_push_message">For earthquakes with intensity lower than 2.0</string>
+  <string name="ew_setting_normal_push_message">When the estimated intensity is lower than the warning threshold</string>
   <string name="ew_setting_normal_push_title">Receive system notifications</string>
-  <string name="ew_setting_strong_push_message">For earthquakes with intensity of 2.0 and higher</string>
+  <string name="ew_setting_strong_push_message">When the estimated intensity is higher than the warning threshold</string>
   <string name="ew_setting_strong_push_title">Warn about strong earthquakes (On by default)</string>
+  <string name="ew_settings_choose_level">Set warning threshold</string>
+  <string name="ew_settings_choose_level_title">Estimated intensity: %s</string>
+  <string name="ew_settings_choose_level_value_1">" (Vibration in high-rise buildings)"</string>
+  <string name="ew_settings_choose_level_value_2">" (Vibration)"</string>
+  <string name="ew_settings_choose_level_value_3">" (Strong vibration)"</string>
+  <string name="ew_settings_choose_level_value_4">" (Severe vibration)"</string>
+  <string name="ew_settings_push_tips">Warnings about areas otside of your location will come in the form of notifications only.</string>
+  <string name="ew_signature_default">成都高新减灾研究所 大陆地震预警中心</string>
+  <string name="ew_subscribe_area_title">Manage added areas</string>
+  <string name="ew_subscribe_city">Added areas</string>
+  <string name="ew_subscribe_city_count">最多可以订阅%s个城市</string>
+  <string name="ew_subscribe_search_hint">Search for areas</string>
+  <string name="ew_subscribe_title">地震预警 | %1$s发生%2$s级左右地震，%3$s可能有震感</string>
   <string name="examination_score_100">Everything looks good!</string>
   <string name="examination_score_60_0">Scan now</string>
   <string name="examination_score_80_100">A few items can be optimized</string>
@@ -1317,6 +1359,10 @@ medical card"</string>
   <string name="first_settings_subtitle">Here are the secure sharing options available to you:</string>
   <string name="first_settings_title">Protect your privacy</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
+  <string name="fixed_package_tips">每月享有固定流量，超出将产生额外扣费</string>
+  <string name="fixed_traffic_by_month">每月固定流量</string>
+  <string name="fixed_traffic_quota">固定流量额度（选填）</string>
+  <string name="fixed_traffic_value_by_month">每月固定流量额度</string>
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
   <string name="float_window_tips">小米手机就是快！</string>
@@ -1343,6 +1389,11 @@ medical card"</string>
   <string name="free_time_traffic_settings">Off-peak data limit</string>
   <string name="free_time_traffic_title">Enter off-peak data limit</string>
   <string name="free_traffic_settings">Off-peak data usage settings</string>
+  <string name="function_auto_reject_detail">"About this feature:
+1. While you're playing games, all incoming calls to the SIM card without mobile data service will be rejected automatically.
+2. You'll see notifications about missed calls and the other person will hear an audio message saying that you're busy at the moment.
+3. This feature is only supported by mobile carriers in China."</string>
+  <string name="function_auto_reject_title">Reject VoLTE calls to SIM cards without data service</string>
   <string name="function_close">Off</string>
   <string name="function_gwsd_detail">"About this feature:
  1. When you're using mobile data on a data SIM or a regular SIM card connected to a VoLTE network, connection won't be interrupted by incoming calls until you pick up.
@@ -1551,6 +1602,7 @@ of your gaming sessions"</string>
   <string name="gb_xunyou_gift_type_two">Xunyou 2-day boost</string>
   <string name="gdpr_msg">&lt;Data&gt;"To be able to detect security risks and protect your data, we need to collect the necessary amount of information about your device. Read and agree to our &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using our services. In case you don't allow us to collect such information, you'll still be able to use this app, but some features won't be available to you. "&lt;/Data&gt;</string>
   <string name="ge">个</string>
+  <string name="get_detail_by_click">点击查看详情</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
   <string name="give_lucky_money">红包大派送</string>
@@ -1559,6 +1611,7 @@ of your gaming sessions"</string>
   <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
   <string name="gmscore_support_service">Basic Google services</string>
   <string name="go_to">Proceed</string>
+  <string name="go_to_send">去发送</string>
   <string name="go_to_setting_fingerprint">Settings</string>
   <string name="google_base_app_fail">"Couldn't download. Check whether Security is allowed to connect to the internet."</string>
   <string name="google_base_app_install_choice">The application requires Google Services Framework to work normally, download and install it?</string>
@@ -1615,7 +1668,10 @@ of your gaming sessions"</string>
   <string name="gtb_exit_game_to_gtb">Open gamebox</string>
   <string name="gtb_exit_game_to_home">Back to Home screen</string>
   <string name="gtb_setting_item_summary_smart_5g">Whenever Game Turbo detects a 5G network, it can connect your device to the best network available to reduce network delay</string>
+  <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Increase connection speed by 10%-20% when connected to Mi/Redmi routers</string>
   <string name="gtb_setting_item_title_smart_5g">5G network optimization</string>
+  <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi speed boost</string>
+  <string name="gtb_wlan_speed_tips">Using Mi WiFi…</string>
   <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Wrong carrier?&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="guide_operator_text">"Your current carrier: "</string>
   <string name="guide_quck_open">Turn on</string>
@@ -1657,6 +1713,10 @@ of your gaming sessions"</string>
   <string name="hot">Popular</string>
   <string name="hot_today">Popular today</string>
   <string name="i_know">Got it</string>
+  <string name="icon_text_size_giga_byte">%.1fG</string>
+  <string name="icon_text_size_max">9.9G</string>
+  <string name="icon_text_size_mega_byte">%dM</string>
+  <string name="ignore_special_app">所选应用所消耗流量不计入套餐流量</string>
   <string name="im">IM</string>
   <string name="info_and_call">Calls and messaging</string>
   <string name="info_antispam_close">Blocklist is off</string>
@@ -1719,6 +1779,7 @@ of your gaming sessions"</string>
 
 Carrier may charge you additional fees if you use mobile data connection again."</string>
   <string name="leisure_usage_dialog_title">You went over your off-peak data limit, data connection is off</string>
+  <string name="limit_speed_by_quota">流量不限量使用，超出阈值会降速</string>
   <string name="list_empty_text">Empty</string>
   <string name="load_only_under_wlan">Load using only Wi-Fi</string>
   <string name="loading">Just a sec…</string>
@@ -1836,6 +1897,7 @@ to respond"</string>
   <string name="main_toolbar_purchase">Top up</string>
   <string name="main_toolbar_statistic">Data usage stats</string>
   <string name="main_traffic_detail">Data usage</string>
+  <string name="make_sure_package_type">确认您的流量类型</string>
   <string name="man_add_application">Add autostart apps manually</string>
   <string name="manage_hybrid_permissions">"Manage app's permissions"</string>
   <string name="managed_user_title">All work apps</string>
@@ -2063,6 +2125,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="news_change">Change</string>
   <string name="nickname">Nickname</string>
   <string name="no_game">"Couldn't find games"</string>
+  <string name="no_limit_by_month">每月无限流量</string>
   <string name="no_lucky_money">尚未收到红包</string>
   <string name="not_available">暂无</string>
   <string name="not_limited_brand">Unlimited</string>
@@ -2111,6 +2174,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notify_weekly_traffic_body">To limit data usage automatically, set up your monthly data plan.</string>
   <string name="notify_weekly_traffic_title">Used %s this week</string>
   <string name="notify_weekly_traffic_title_for_slotnum">%1$s used %2$s this week</string>
+  <string name="number_address">号码归属地</string>
   <string name="number_of_lucky_money">已为您提醒红包总数</string>
   <string name="numeric_need_to_confirm">Enter again to confirm</string>
   <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
@@ -2171,6 +2235,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="operator_name_mi_mobile">Mi Mobile</string>
   <string name="operator_name_telcom">China Telecom</string>
   <string name="operator_name_unicom">China Unicom</string>
+  <string name="operator_name_virtual_operator">虚拟运营商</string>
   <string name="operator_number_cmcc">10086</string>
   <string name="operator_number_telcom">10000</string>
   <string name="operator_number_unicom">10010</string>
@@ -2632,6 +2697,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="preferred_app_entries_messaging">Messaging</string>
   <string name="preferred_app_entries_music">Music</string>
   <string name="pricacy_permission_use_total">Permission stats</string>
+  <string name="priority_statistics_fixed_traffic">若套餐中包含每月固定流量将优先统计该流量</string>
   <string name="priority_storage_app_settings">Data will be saved to %1$s</string>
   <string name="priority_storage_settings_summary">"If no SD card is detected, your data will be saved to your device's internal storage automatically."</string>
   <string name="priority_storage_summary">Select location to save your data</string>
@@ -2905,10 +2971,17 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="securitycenter_tab_title">Security</string>
   <string name="see_detail">Details</string>
   <string name="see_more_content">Update Games to see more highlights</string>
+  <string name="select_province_and_city">请选择省市</string>
+  <string name="send_msg_to_query">帮您免费发送短信进行查询</string>
   <string name="set_applock_password">Set password</string>
+  <string name="set_complete">设置完成</string>
+  <string name="set_location">设置归属地</string>
   <string name="set_mixed_password_name">Set password</string>
   <string name="set_numeric_password_name">Set PIN</string>
+  <string name="set_package_tips">系统将向运营商发送免费短信为您校正流量信息，同时将加密上传您所填写的信息用于获取校正短信模板。</string>
+  <string name="set_package_tips_detail">您所填写的运营商信息、手机号、IMEI号及小米账号将加密上传至小米公司服务器。</string>
   <string name="set_pattern_password_name">Set pattern</string>
+  <string name="set_traffic_tips">设置套餐能够帮助您更有效的查看和管理流量的使用，防止超出套餐产生额外的费用。</string>
   <string name="setting">Settings</string>
   <string name="setting_alarm_summary">各大平台官方红包活动闹钟提醒</string>
   <string name="setting_privacy_password">Add pattern</string>
@@ -3514,6 +3587,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
   <string name="traffic_alert_auto_modify_notification_sumarry">Monthly plan changed to %s.</string>
   <string name="traffic_alert_auto_modify_notification_titile">Updated data plan</string>
   <string name="traffic_alert_auto_modify_package_summary">"Automatically adjust data package according to the carrier's info"</string>
+  <string name="traffic_calculation">流量按天计算，如1元/1GB/天</string>
   <string name="traffic_config_alert_auto_modify">Update data plan automatically</string>
   <string name="traffic_config_alert_body">"Your carrier's plan shows this: %s.
 
@@ -3542,6 +3616,7 @@ Rolled over extra data"</string>
 
 Remaining data includes data that has been rolled over from the previous month."</string>
   <string name="traffic_limit_error_alert_title">Data limit reminder %s</string>
+  <string name="traffic_limit_input">流量预警限额（选填）</string>
   <string name="traffic_none">None</string>
   <string name="traffic_over_purchase_link">"You've reached your mobile plan's data usage limit.&lt;br/&gt;If you go over your plan’s data usage limit, your carrier may charge you additional fees.&lt;br/&gt;&lt;br/&gt;&lt;font color='#ccffffff'&gt;&lt;U&gt;Tap to top up your balance.&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="traffic_provider_no_sim">"SIM card isn't installed"</string>
@@ -3591,6 +3666,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="uninstall_danagerous_desc">\"%s\" may damage your device</string>
   <string name="uninstall_danagerous_msg">\"%s\" may damage your device, lower its performance, or cause reboots.</string>
   <string name="uninstall_danagerous_title">Uninstall malicious apps</string>
+  <string name="unknown_package">不清楚自己的套餐是什么？</string>
   <string name="unlike">No thanks</string>
   <string name="unlock_failed">Internal error</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
@@ -3639,6 +3715,9 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="vb_advanced_settings_after_open">After</string>
   <string name="vb_advanced_settings_before_open">Before</string>
   <string name="vb_advanced_settings_pic_stronger_desc">Make moving objects crisper by enhancing animations. This feature requires higher power consumption.</string>
+  <string name="vb_fps_display_unit">Hz</string>
+  <string name="vb_fps_settings">Auto refresh rate</string>
+  <string name="vb_fps_settings_tips">This feature adjusts screen refresh rate to video frame rate, which saves battery and makes playback smooth. Turning on floating comments will turn off auto refresh rate.</string>
   <string name="vb_quick_func_auto_bgm">Recognize background music</string>
   <string name="vb_quick_func_hangup_listening">Play video sound with screen off</string>
   <string name="vb_quick_func_screen_capture">Screenshot</string>

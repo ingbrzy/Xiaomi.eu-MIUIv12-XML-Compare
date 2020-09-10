@@ -3,6 +3,33 @@
   <string name="SMTP_independent_verification_text">SMTP independent verification</string>
   <string name="SMTP_password_text">Password</string>
   <string name="SMTP_username_text">Username</string>
+  <string name="abc_action_bar_home_description">Navigate home</string>
+  <string name="abc_action_bar_up_description">Navigate up</string>
+  <string name="abc_action_menu_overflow_description">More options</string>
+  <string name="abc_action_mode_done">Done</string>
+  <string name="abc_activity_chooser_view_see_all">See all</string>
+  <string name="abc_activitychooserview_choose_application">Choose an app</string>
+  <string name="abc_capital_off">OFF</string>
+  <string name="abc_capital_on">ON</string>
+  <string name="abc_menu_alt_shortcut_label">Alt+</string>
+  <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+  <string name="abc_menu_delete_shortcut_label">delete</string>
+  <string name="abc_menu_enter_shortcut_label">enter</string>
+  <string name="abc_menu_function_shortcut_label">Function+</string>
+  <string name="abc_menu_meta_shortcut_label">Meta+</string>
+  <string name="abc_menu_shift_shortcut_label">Shift+</string>
+  <string name="abc_menu_space_shortcut_label">space</string>
+  <string name="abc_menu_sym_shortcut_label">Sym+</string>
+  <string name="abc_prepend_shortcut_label">Menu+</string>
+  <string name="abc_search_hint">Search…</string>
+  <string name="abc_searchview_description_clear">Clear query</string>
+  <string name="abc_searchview_description_query">Search query</string>
+  <string name="abc_searchview_description_search">Search</string>
+  <string name="abc_searchview_description_submit">Submit query</string>
+  <string name="abc_searchview_description_voice">Voice search</string>
+  <string name="abc_shareactionprovider_share_with">Share with</string>
+  <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+  <string name="abc_toolbar_collapse_description">Collapse</string>
   <string name="account_add_title">Select email service</string>
   <string name="account_cache_provider">Account Cache Provider</string>
   <string name="account_duplicate_dlg_message_fmt">"You're already using this username for the account \"%s\"."</string>
@@ -23,6 +50,7 @@
   <string name="account_security_policy_explanation_fmt">"The server %s requires that you allow it to remotely control
          some security features of your Android device."</string>
   <string name="account_security_title">Device security</string>
+  <string name="account_security_verification">Account verification</string>
   <string name="account_set_up_change_type_note">If you need to switch between POP3 and IMAP settings, delete your account and create a new one with your desired settings.</string>
   <string name="account_setting">Accounts</string>
   <string name="account_setting_keywords">Accounts;mail accounts</string>
@@ -242,17 +270,16 @@
   <string name="auto_advance_summary">Choose which message to scroll to after deleting a message</string>
   <string name="auto_login_fail">"Couldn't sign in automatically"</string>
   <string name="auto_login_fail_to_retry">"Couldn't sign in automatically, try again."</string>
-  <string name="auto_mail_enable_txt">Start Settings</string>
-  <string name="auto_mail_name">AutoMail</string>
-  <string name="auto_mail_title_note">Find the option \"139 Mailbox Automatical Configuring\", click it to start.</string>
-  <string name="auto_mail_window_description">139 Email Service Automatical Configuring</string>
-  <string name="auto_mail_window_label">139 Mailbox Automatical Configuring</string>
   <string name="auto_remind_bind">Add</string>
   <string name="auto_remind_discribe_text">Turn on to receive automatic reminders</string>
   <string name="auto_remind_text">Automatic reminders</string>
   <string name="auto_remind_unbind">Stop</string>
   <string name="auto_sync_off">Auto-sync is off.</string>
   <string name="automatic_remind_text">Remind automatically</string>
+  <string name="bContact_list_search_hint">Search for blocked contacts</string>
+  <string name="b_contacts">Blocklist</string>
+  <string name="b_contacts_remove">Remove from blocklist</string>
+  <string name="b_contacts_remove_tips">Remove this address from blocklist?</string>
   <string name="back">Back</string>
   <string name="bank_card_detail">Credit card details</string>
   <string name="bank_card_list_card_num_fmt">****%s</string>
@@ -277,7 +304,7 @@
   <string name="bytes">%s B</string>
   <string name="calendar_remind_dialog_title">Remind later</string>
   <string name="calendar_remind_gridview_pick_date">Pick date</string>
-  <string name="calendar_skip_no_account_alert">This account was not found</string>
+  <string name="calendar_skip_no_account_alert">"Couldn't find this account"</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_pop3_attchemt_downloading">"Can't cancel ongoing downloads for attachments in POP3 accounts"</string>
@@ -304,6 +331,9 @@
   <string name="chat_item_msg_people_unit">people</string>
   <string name="chat_item_msg_user_etc">etc.</string>
   <string name="check_setup_data">"    Validating server settings…"</string>
+  <string name="choose_an_office365_international">International Edition</string>
+  <string name="choose_an_office365_provider">Choose an office365 service provider</string>
+  <string name="choose_an_office365_sj">21Vianet Edition</string>
   <string name="choosertitle_sharevia">Share using</string>
   <string name="clear">Clear</string>
   <string name="clear_display_images_whitelist_dialog_message">Stop displaying inline images from senders you previously allowed.</string>
@@ -320,9 +350,6 @@
   <string name="compose_picturesexceedlimits">You can add more images as attachments</string>
   <string name="compose_send">Send</string>
   <string name="compose_sent">Mail sent</string>
-  <string name="config">139 Mailbox Phone Number Configured</string>
-  <string name="config_cancel">Cancel</string>
-  <string name="config_retry">Retry</string>
   <string name="confirm">OK</string>
   <string name="confirm_add_to_calendar">Adding to Calendar…</string>
   <string name="confirm_age">Confirm age</string>
@@ -392,6 +419,9 @@
   <string name="conversation_quick_button_approve">OK</string>
   <string name="conversation_quick_button_disapprove">Cancel</string>
   <string name="conversation_quick_button_received">Received</string>
+  <string name="conversation_report_spam">Report spam</string>
+  <string name="conversation_spam_dig_msg">Mark this message as spam? The message will be moved to the \"Spam\" folder and its sender will be added to blocklist.</string>
+  <string name="conversation_spam_tips">Mark this message as spam?</string>
   <string name="conversation_view">Conversation view</string>
   <string name="conversation_view_keywords">conversation view;mail conversation</string>
   <string name="copied">Copied</string>
@@ -530,10 +560,15 @@
   <string name="file_save_path_dialog_cancel">Got it</string>
   <string name="file_save_path_dialog_ok">Change now</string>
   <string name="file_save_term">File saving terms</string>
+  <string name="filter_item_all">All mail</string>
+  <string name="filter_item_cc">"Cc'd to me"</string>
+  <string name="filter_item_me">Sent to me</string>
+  <string name="filter_item_unread">Unread</string>
+  <string name="filter_title_cc">"%s [Cc'd to me]"</string>
+  <string name="filter_title_me">%s [Sent to me]</string>
+  <string name="filter_title_unread">%s [Unread]</string>
   <string name="filtered_tag">" [%1$s]%2$s"</string>
   <string name="first_quick_default_reply">Tap the button to send \"%s\" to all people in the conversation</string>
-  <string name="float_window_info">"When configuring the 139 mailbox, don't operate the phone, in case of configuration failures."</string>
-  <string name="float_window_title">Configuration………</string>
   <string name="folder_drafts_name_cn0">草稿</string>
   <string name="folder_drafts_name_cn1">草稿箱</string>
   <string name="folder_drafts_name_cn2">[Gmail]/草稿</string>
@@ -667,7 +702,6 @@
   <string name="location_hint">Location</string>
   <string name="log_save_path">Log path</string>
   <string name="login">Sign in</string>
-  <string name="login139">Sign in with China Mobile</string>
   <string name="login_des_126">Sign in to 126 Mail</string>
   <string name="login_des_139">Sign in to 139 Mail</string>
   <string name="login_des_163">Sign in to 163 Mail</string>
@@ -847,7 +881,6 @@
   <string name="network_error">No connection</string>
   <string name="network_invaild">"Can't connect to the network"</string>
   <string name="network_not_available">"Can't connect to the network"</string>
-  <string name="network_tip">Authentication failed, please check your network connection</string>
   <string name="network_try_again">Check network connection and try again</string>
   <string name="network_unavailable">Network not available</string>
   <string name="new_incoming_messages_one">New message from %s. Show.</string>
@@ -874,8 +907,6 @@ Try a different inbox."</string>
   <string name="no_search_results">Search on the server</string>
   <string name="not_subject">(No subject)</string>
   <string name="not_synced_title">Account not synced</string>
-  <string name="note_text">Through a network of China Mobile and SMS verification, it will only generate additional traffic, do not generate SMS fees.</string>
-  <string name="note_title">139 Email Automatic Configuration</string>
   <string name="notification_action_archive">Archive</string>
   <string name="notification_action_delete">Delete</string>
   <string name="notification_action_remove_label">Remove label</string>
@@ -890,6 +921,17 @@ Try a different inbox."</string>
   <string name="notify_channel_permission_notice">Permissions required</string>
   <string name="notify_channel_send_fail">Notify about failed delivery</string>
   <string name="notify_channel_service">Notify about background sync</string>
+  <string name="ntes_authorization_code_to_login">Sign in using this verification code</string>
+  <string name="ntes_copy_and_login">Copy and sign in</string>
+  <string name="ntes_do_not_sms_uplink">Send an SMS from the associated phone number and then tap \"Message sent\".</string>
+  <string name="ntes_had_send">Message sent</string>
+  <string name="ntes_had_send_to_content">"If you've already sent an SMS from the associated phone number, tap \"Message sent\" to continue."</string>
+  <string name="ntes_login_error_message" formatted="false">"Can't get account info (Error %s). %s."</string>
+  <string name="ntes_password_error_hint">"If errors occur while you're entering your password, close this page and open it again."</string>
+  <string name="ntes_phone_send">Send a text message from the associated phone number</string>
+  <string name="ntes_send_to">Send to: %s</string>
+  <string name="ntes_send_to_content">If your current phone number is associated with the account, tap \"Send SMS\".</string>
+  <string name="ntes_verification_code">Enter code: %s</string>
   <string name="oauth_error_description">"Couldn't authenticate"</string>
   <string name="oauth_gmail_login_notify">Enter your Google Account username and password on the following sign-in page.</string>
   <string name="oauth_login_continue">Continue</string>
@@ -938,11 +980,6 @@ Try a different inbox."</string>
   <string name="over_16_content">"Confirm that you've already turned 16?"</string>
   <string name="over_due">Overdue</string>
   <string name="over_sixteen">"I'm 16 or older."</string>
-  <string name="overlays_fail_tip">Very sorry that your mailbox is not configured successfully, open the floating Windows permissions and try again</string>
-  <string name="overlays_ok">Open permissions</string>
-  <string name="overlays_tip">Phone settings - Application - Application Details - open floating Windows permissions in the permissions manager, and immediately enjoy 139 mailbox to automatically configure the extreme experience.</string>
-  <string name="overlays_tip_23">Open floating Windows permissions, and immediately enjoy 139 mailbox to automatically configure the extreme experience.</string>
-  <string name="overlays_title">Open floating Windows permissions</string>
   <string name="parase_setup_data">Getting data…</string>
   <string name="parse_bill_discribe">Processing credit card bills…</string>
   <string name="parse_recognize_describe">Analyzing email…</string>
@@ -965,6 +1002,21 @@ Try a different inbox."</string>
   <string name="path_about_email_setting">Mail/Settings</string>
   <string name="path_about_send_feed_back">Mail/Settings/Send feedback</string>
   <string name="path_about_upload_logs">Mail/Settings/Upload logs</string>
+  <string name="pdf_has_signature_prompt_cancel">Open the original file</string>
+  <string name="pdf_has_signature_prompt_confirm">Open copy</string>
+  <string name="pdf_has_signature_prompt_message">A signed copy of this attachment has been detected. Open or not？</string>
+  <string name="pdf_signature_create_title">Create signature</string>
+  <string name="pdf_signature_manager_max_count">Maximum number of signatures,Please delete the existing signature and try again</string>
+  <string name="pdf_signature_manager_title">Signature manager</string>
+  <string name="pdf_viewer_actionbar_more_other">Open by other app</string>
+  <string name="pdf_viewer_actionbar_more_wps">Open by WPS</string>
+  <string name="pdf_viewer_file_damage_toast">Pdf file is corrupted. Please check the file and try again</string>
+  <string name="pdf_viewer_new_email">New email</string>
+  <string name="pdf_viewer_reply">Reply with this file</string>
+  <string name="pdf_viewer_save_signature">Save signature</string>
+  <string name="pdf_viewer_sign_file_damage_toast">The file does not exist</string>
+  <string name="pdf_viewer_signature">PDF signature</string>
+  <string name="perference_change_auth_ok_tips">Authorization code changed</string>
   <string name="perference_change_pw_notnull_tips">Enter your password</string>
   <string name="perference_change_pw_ok_tips">Password changed</string>
   <string name="perference_setup_pop_del">Remove mail from server</string>
@@ -977,7 +1029,6 @@ Try a different inbox."</string>
   <string name="permission_des_external_storage">For creating new emails, as well as saving and adding attachments</string>
   <string name="permission_read_attachment_desc">"Allows app to read your emails' attachments"</string>
   <string name="permission_read_attachment_label">Read attachments</string>
-  <string name="permission_tip">Configuration fails, please allow calls and text messages during configuration permissions</string>
   <string name="personal_data_collection_summary">When the switch is toggled on, you agree that we may collect your personal data. You can toggle the switch off, revoke your authorization, and delete your data from our servers at any time.</string>
   <string name="personal_data_collection_title">Allow collecting personal data</string>
   <string name="phone">phone</string>
@@ -1072,9 +1123,12 @@ to receive reminders about payments and trips"</string>
   <string name="qq_login_open_imap">Tap \"Help\" to turn on IMAP/SMTP</string>
   <string name="qq_login_origin_setting">Enter username and password to sign in &gt;</string>
   <string name="qq_login_send_message">Tap \"Send SMS\" to get a verification code</string>
+  <string name="qq_login_sent_setting">Sync sent messages</string>
   <string name="qq_login_webview">Signing in to QQ web client, tap sign in using the password.</string>
   <string name="qq_next_generation_auth_toast">Turn on password protection in your browser</string>
   <string name="qq_pwd_or_qq_auth_code">Enter code</string>
+  <string name="qq_sent_no_message">"Can't find your sent emails? Tap here to learn what you can do."</string>
+  <string name="qq_sent_no_message_setting">Sync sent messages from QQ Mail</string>
   <string name="qq_uthentication_failed">"Couldn't verify account, sign in again"</string>
   <string name="qq_verify_code">(Requires verification code from QQ)</string>
   <string name="qq_webview_loading">Just a sec…</string>
@@ -1197,6 +1251,7 @@ Wait until it's fully synced or view the message on your computer."</string>
   <string name="sdcard_cannot_use">"Can't use SD card"</string>
   <string name="search_bar_text">Search for senders or contacts</string>
   <string name="search_hint">Search mail</string>
+  <string name="search_menu_title">Search</string>
   <string name="search_remote_again">"Couldn't connect to the network. Tap to try again."</string>
   <string name="search_result">"Results "</string>
   <string name="search_tabs_name_all">All</string>
@@ -1244,6 +1299,24 @@ Wait until it's fully synced or view the message on your computer."</string>
   <string name="ser_resp_err_map_serclosed">Turn on %s in the email web client first</string>
   <string name="ser_resp_err_map_serclosed_info">%s is off</string>
   <string name="ser_resp_err_map_ssl">Toggle on the SSL switch in the manual configurations</string>
+  <string name="server_cet_button">Trust this certificate</string>
+  <string name="server_cet_cert_data">"Validity period: "</string>
+  <string name="server_cet_cert_issuer">"Certificate issuer: "</string>
+  <string name="server_cet_data">"Validity period: "</string>
+  <string name="server_cet_data_exp">"This server's certificate expired."</string>
+  <string name="server_cet_data_to" formatted="false">%s - %s</string>
+  <string name="server_cet_domain">"Domain name: "</string>
+  <string name="server_cet_error_sug">"Try the following:
+1. Connect to a different network or reboot your Wi-Fi router.
+2. Make sure you're using valid certificates."</string>
+  <string name="server_cet_error_title_1">"The server's certificate doesn't support this domain"</string>
+  <string name="server_cet_error_title_2">Certificate expired</string>
+  <string name="server_cet_error_title_3">"The certificate's issuer is not a trusted organization."</string>
+  <string name="server_cet_issue_to">"Issued to "</string>
+  <string name="server_cet_issuer">"Issued by "</string>
+  <string name="server_cet_issuer_no_trust">"The certificate's issuer is not a trusted organization."</string>
+  <string name="server_cet_subject_cn">"Supported domain: "</string>
+  <string name="server_cet_title">Certificate details</string>
   <string name="service_protocol_discribe">&lt;u&gt;"I've read and agree with \"WPS Mail Service Agreement\""&lt;/u&gt;</string>
   <string name="service_protocol_title">Service Agreement</string>
   <string name="set_network">Set network</string>
@@ -1259,6 +1332,7 @@ Wait until it's fully synced or view the message on your computer."</string>
   <string name="show_images">Download and show pictures</string>
   <string name="show_images_all">Load and show all images</string>
   <string name="show_password">Show password</string>
+  <string name="show_server_cet">View certificate</string>
   <string name="signature">"
 
 
@@ -1269,7 +1343,6 @@ Wait until it's fully synced or view the message on your computer."</string>
   <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
   <string name="single_new_message_notification_title">%1$s: %2$s</string>
-  <string name="sms_tip">Authentication fails, check whether the antivirus software to intercept SMS</string>
   <string name="smtp_password_error">Password for outgoing mail server is incorrect</string>
   <string name="snip_pic">%1$s</string>
   <string name="sort_attachment">Sort by</string>
@@ -1289,6 +1362,7 @@ Wait until it's fully synced or view the message on your computer."</string>
   <string name="str_select_none">Deselect all</string>
   <string name="subject_and_snippet">%1$s - %2$s</string>
   <string name="subject_hint">Subject</string>
+  <string name="successfully_obtained_authorization_code">Verification code</string>
   <string name="suffix_sancharnet">sancharnet.in</string>
   <string name="suffix_vsnl">vsnl.com</string>
   <string name="suggestions_authority">com.android.mail.providers.SuggestionsProvider</string>
