@@ -134,7 +134,7 @@
   <string name="app_category_tools">Tools</string>
   <string name="app_category_travel">Travel</string>
   <string name="app_category_vr">VR</string>
-  <string name="app_name">smallWindow</string>
+  <string name="app_name">matrix-android-commons</string>
   <string name="application_name">System launcher</string>
   <string name="apply">Set</string>
   <string name="apply_action">Set</string>
@@ -151,6 +151,8 @@
   <string name="auto_add_app_shortcut">Place new apps on the Home screen</string>
   <string name="auto_delete_category_dialog_content">Current apps will be removed from this category and the category will be deleted. Delete this category now?</string>
   <string name="auto_delete_category_dialog_title">Deleting category</string>
+  <string name="auto_disable_screenbuttons_summary">Double tap any navigation button to re-enable</string>
+  <string name="auto_disable_screenbuttons_title">Automatically disable navigation buttons</string>
   <string name="back">Back</string>
   <string name="backup_fail">"Couldn't backup launcher"</string>
   <string name="bad_wallpaper_source_prompt">"Can't load wallpaper"</string>
@@ -330,6 +332,7 @@
   <string name="invalid_contact_shortcut">Invalid contact</string>
   <string name="is_setting_wallpaper_message">Setting wallpaper…</string>
   <string name="is_system_wallpaper_message">"Can't delete system resources"</string>
+  <string name="key_shortcut_settings_title">Button shortcuts</string>
   <string name="launcher_not_exist">An error occurred. Go back to Home screen and try again.</string>
   <string name="launcher_pull_down_title">Swipe down on the Home screen</string>
   <string name="launcher_search_bar_provider_title">Search bar provider</string>
@@ -369,6 +372,8 @@
   <string name="menu_launcher_setting">Launcher settings</string>
   <string name="menu_lock">Lock Home screen layout</string>
   <string name="menu_more">More</string>
+  <string name="menu_new_display_open">用新窗口打开</string>
+  <string name="menu_pc_open">用电脑程序打开</string>
   <string name="menu_picktheme">Choose a theme</string>
   <string name="menu_reset_scene">Reset to default layout</string>
   <string name="menu_search">Search</string>
@@ -418,6 +423,10 @@
   <string name="navigation_guide_settings">Gesture demos</string>
   <string name="navigation_type_full_screen">Gestures</string>
   <string name="navigation_type_title">System navigation</string>
+  <string name="navigation_type_title_synonyms_1">全面屏</string>
+  <string name="navigation_type_title_synonyms_2">小白条</string>
+  <string name="navigation_type_title_synonyms_3">全面屏手势</string>
+  <string name="navigation_type_title_synonyms_4">导航键</string>
   <string name="navigation_type_virtual_key">Buttons</string>
   <string name="no_detail_page">No details page</string>
   <string name="no_space_toast">Not enough space</string>
@@ -435,6 +444,7 @@
   <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
   <string name="open_personal_assistant_dialog_title">Turn off App vault</string>
   <string name="open_personal_assistant_title">App vault</string>
+  <string name="open_personal_assistant_title_synonyms">负一屏</string>
   <string name="out_of_space">No more room on this Home screen</string>
   <string name="perfect_icons_switch_summary">Render animations on third party app icons</string>
   <string name="perfect_icons_switch_title">Global icon animations</string>
@@ -518,6 +528,8 @@
   <string name="reset_fail">"Couldn't restore"</string>
   <string name="reset_scene_prompt">Screen will be reset to default layout.</string>
   <string name="reset_title">Restore</string>
+  <string name="resource_canary_leak_tip">it has leak!</string>
+  <string name="resource_canary_wait_for_heapdump_message">Dumping heap snapshot...</string>
   <string name="screen_cells_config_title">Home screen layout</string>
   <string name="screen_locked_toast">Home screen layout is locked.</string>
   <string name="screen_number">%d screen</string>
@@ -599,8 +611,6 @@
   <string name="uninstall_xspace_dialog_title_format">Uninstall dual \"%s\"?</string>
   <string name="unknown_artist_name">Unknown artist</string>
   <string name="unnamed_folder_name">Folder</string>
-  <string name="unstable_dialog_message">This device is enrolled in the Android 11 Developer Preview Program. The program allows Android developers and enthusiasts to try out pre-release versions of Android 11.This pre-release version may contain errors and defects that can affect normal functioning of your device.</string>
-  <string name="unstable_dialog_title">Android Developer Preview Program</string>
   <string name="v7_preference_off">OFF</string>
   <string name="v7_preference_on">ON</string>
   <string name="wallpaper">Wallpaper</string>
@@ -619,5 +629,10 @@
   <string name="widgets_preview_title">Add widget</string>
   <string name="work_mode_off_label">"Notifications are off and apps aren't available now"</string>
   <string name="work_mode_on_label">Managed by your organization</string>
+  <string name="work_profile_first_content">Personal data is separate &amp; hidden from work apps</string>
+  <string name="work_profile_got_button">Got it</string>
+  <string name="work_profile_next_button">Next</string>
+  <string name="work_profile_second_content">Work apps &amp; data are visible to your IT admin</string>
+  <string name="work_profile_title">Work profile</string>
   <string name="work_profile_toggle_label">Work profile</string>
 </resources>

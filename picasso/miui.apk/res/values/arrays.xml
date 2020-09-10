@@ -132,58 +132,9 @@
         <item>Z</item>
         <item>\#</item>
     </string-array>
-    <string-array name="solar_terms">
-        <item>@string/empty</item>
-        <item>@string/solar_term_slight_cold</item>
-        <item>@string/solar_term_great_cold</item>
-        <item>@string/solar_term_spring_begins</item>
-        <item>@string/solar_term_the_rains</item>
-        <item>@string/solar_term_insects_awaken</item>
-        <item>@string/solar_term_vernal_equinox</item>
-        <item>@string/solar_term_clear_and_bright</item>
-        <item>@string/solar_term_grain_rain</item>
-        <item>@string/solar_term_summer_begins</item>
-        <item>@string/solar_term_grain_buds</item>
-        <item>@string/solar_term_grain_in_ear</item>
-        <item>@string/solar_term_summer_solstice</item>
-        <item>@string/solar_term_slight_heat</item>
-        <item>@string/solar_term_great_heat</item>
-        <item>@string/solar_term_autumn_begins</item>
-        <item>@string/solar_term_stopping_the_heat</item>
-        <item>@string/solar_term_white_dews</item>
-        <item>@string/solar_term_autumn_equinox</item>
-        <item>@string/solar_term_cold_dews</item>
-        <item>@string/solar_term_hoar_frost_falls</item>
-        <item>@string/solar_term_winter_begins</item>
-        <item>@string/solar_term_light_snow</item>
-        <item>@string/solar_term_heavy_snow</item>
-        <item>@string/solar_term_winter_solstice</item>
-    </string-array>
-    <string-array name="detailed_am_pms">
-        <item>@string/midnight</item>
-        <item>@string/early_morning</item>
-        <item>@string/morning</item>
-        <item>@string/noon</item>
-        <item>@string/afternoon</item>
-        <item>@string/evening</item>
-        <item>@string/night</item>
-    </string-array>
     <string-array name="am_pms">
         <item>@string/am</item>
         <item>@string/pm</item>
-    </string-array>
-    <string-array name="chinese_digits">
-        <item>@string/chinese_digit_zero</item>
-        <item>@string/chinese_digit_one</item>
-        <item>@string/chinese_digit_two</item>
-        <item>@string/chinese_digit_three</item>
-        <item>@string/chinese_digit_four</item>
-        <item>@string/chinese_digit_five</item>
-        <item>@string/chinese_digit_six</item>
-        <item>@string/chinese_digit_seven</item>
-        <item>@string/chinese_digit_eight</item>
-        <item>@string/chinese_digit_nine</item>
-        <item>@string/chinese_digit_ten</item>
     </string-array>
     <string-array name="chinese_days">
         <item>@string/chinese_day_1</item>
@@ -217,6 +168,19 @@
         <item>@string/chinese_day_29</item>
         <item>@string/chinese_day_30</item>
     </string-array>
+    <string-array name="chinese_digits">
+        <item>@string/chinese_digit_zero</item>
+        <item>@string/chinese_digit_one</item>
+        <item>@string/chinese_digit_two</item>
+        <item>@string/chinese_digit_three</item>
+        <item>@string/chinese_digit_four</item>
+        <item>@string/chinese_digit_five</item>
+        <item>@string/chinese_digit_six</item>
+        <item>@string/chinese_digit_seven</item>
+        <item>@string/chinese_digit_eight</item>
+        <item>@string/chinese_digit_nine</item>
+        <item>@string/chinese_digit_ten</item>
+    </string-array>
     <string-array name="chinese_leap_months">
         <item>@string/empty</item>
         <item>@string/chinese_leap</item>
@@ -235,17 +199,41 @@
         <item>@string/chinese_month_november</item>
         <item>@string/chinese_month_december</item>
     </string-array>
-    <string-array name="heavenly_stems">
-        <item>@string/heavenly_stems_jia</item>
-        <item>@string/heavenly_stems_yi</item>
-        <item>@string/heavenly_stems_bing</item>
-        <item>@string/heavenly_stems_ding</item>
-        <item>@string/heavenly_stems_wu</item>
-        <item>@string/heavenly_stems_ji</item>
-        <item>@string/heavenly_stems_geng</item>
-        <item>@string/heavenly_stems_xin</item>
-        <item>@string/heavenly_stems_ren</item>
-        <item>@string/heavenly_stems_gui</item>
+    <string-array name="chinese_symbol_animals">
+        <item>@string/chinese_symbol_animals_mouse</item>
+        <item>@string/chinese_symbol_animals_cow</item>
+        <item>@string/chinese_symbol_animals_tiger</item>
+        <item>@string/chinese_symbol_animals_rabbit</item>
+        <item>@string/chinese_symbol_animals_dragon</item>
+        <item>@string/chinese_symbol_animals_snake</item>
+        <item>@string/chinese_symbol_animals_horse</item>
+        <item>@string/chinese_symbol_animals_sheep</item>
+        <item>@string/chinese_symbol_animals_monkey</item>
+        <item>@string/chinese_symbol_animals_chicken</item>
+        <item>@string/chinese_symbol_animals_dog</item>
+        <item>@string/chinese_symbol_animals_pig</item>
+    </string-array>
+    <string-array name="contact_infotype_entries">
+        <item>@string/name</item>
+        <item>@string/nickname</item>
+        <item>@string/phone</item>
+        <item>@string/email</item>
+        <item>@string/organization</item>
+        <item>@string/im</item>
+        <item>@string/sip_phone</item>
+        <item>@string/birthday</item>
+        <item>@string/website</item>
+        <item>@string/address</item>
+        <item>@string/note</item>
+    </string-array>
+    <string-array name="detailed_am_pms">
+        <item>@string/midnight</item>
+        <item>@string/early_morning</item>
+        <item>@string/morning</item>
+        <item>@string/noon</item>
+        <item>@string/afternoon</item>
+        <item>@string/evening</item>
+        <item>@string/night</item>
     </string-array>
     <string-array name="earthly_branches">
         <item>@string/earthly_branches_zi</item>
@@ -260,6 +248,22 @@
         <item>@string/earthly_branches_you</item>
         <item>@string/earthly_branches_xu</item>
         <item>@string/earthly_branches_hai</item>
+    </string-array>
+    <string-array name="eras">
+        <item>@string/eras_bc</item>
+        <item>@string/eras_ad</item>
+    </string-array>
+    <string-array name="heavenly_stems">
+        <item>@string/heavenly_stems_jia</item>
+        <item>@string/heavenly_stems_yi</item>
+        <item>@string/heavenly_stems_bing</item>
+        <item>@string/heavenly_stems_ding</item>
+        <item>@string/heavenly_stems_wu</item>
+        <item>@string/heavenly_stems_ji</item>
+        <item>@string/heavenly_stems_geng</item>
+        <item>@string/heavenly_stems_xin</item>
+        <item>@string/heavenly_stems_ren</item>
+        <item>@string/heavenly_stems_gui</item>
     </string-array>
     <string-array name="months">
         <item>@string/month_january</item>
@@ -303,23 +307,32 @@
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
     </string-array>
-    <string-array name="chinese_symbol_animals">
-        <item>@string/chinese_symbol_animals_mouse</item>
-        <item>@string/chinese_symbol_animals_cow</item>
-        <item>@string/chinese_symbol_animals_tiger</item>
-        <item>@string/chinese_symbol_animals_rabbit</item>
-        <item>@string/chinese_symbol_animals_dragon</item>
-        <item>@string/chinese_symbol_animals_snake</item>
-        <item>@string/chinese_symbol_animals_horse</item>
-        <item>@string/chinese_symbol_animals_sheep</item>
-        <item>@string/chinese_symbol_animals_monkey</item>
-        <item>@string/chinese_symbol_animals_chicken</item>
-        <item>@string/chinese_symbol_animals_dog</item>
-        <item>@string/chinese_symbol_animals_pig</item>
-    </string-array>
-    <string-array name="eras">
-        <item>@string/eras_bc</item>
-        <item>@string/eras_ad</item>
+    <string-array name="solar_terms">
+        <item>@string/empty</item>
+        <item>@string/solar_term_slight_cold</item>
+        <item>@string/solar_term_great_cold</item>
+        <item>@string/solar_term_spring_begins</item>
+        <item>@string/solar_term_the_rains</item>
+        <item>@string/solar_term_insects_awaken</item>
+        <item>@string/solar_term_vernal_equinox</item>
+        <item>@string/solar_term_clear_and_bright</item>
+        <item>@string/solar_term_grain_rain</item>
+        <item>@string/solar_term_summer_begins</item>
+        <item>@string/solar_term_grain_buds</item>
+        <item>@string/solar_term_grain_in_ear</item>
+        <item>@string/solar_term_summer_solstice</item>
+        <item>@string/solar_term_slight_heat</item>
+        <item>@string/solar_term_great_heat</item>
+        <item>@string/solar_term_autumn_begins</item>
+        <item>@string/solar_term_stopping_the_heat</item>
+        <item>@string/solar_term_white_dews</item>
+        <item>@string/solar_term_autumn_equinox</item>
+        <item>@string/solar_term_cold_dews</item>
+        <item>@string/solar_term_hoar_frost_falls</item>
+        <item>@string/solar_term_winter_begins</item>
+        <item>@string/solar_term_light_snow</item>
+        <item>@string/solar_term_heavy_snow</item>
+        <item>@string/solar_term_winter_solstice</item>
     </string-array>
     <string-array name="week_days">
         <item>@string/sunday</item>
@@ -347,18 +360,5 @@
         <item>@string/thursday_shortest</item>
         <item>@string/friday_shortest</item>
         <item>@string/saturday_shortest</item>
-    </string-array>
-    <string-array name="contact_infotype_entries">
-        <item>@string/name</item>
-        <item>@string/nickname</item>
-        <item>@string/phone</item>
-        <item>@string/email</item>
-        <item>@string/organization</item>
-        <item>@string/im</item>
-        <item>@string/sip_phone</item>
-        <item>@string/birthday</item>
-        <item>@string/website</item>
-        <item>@string/address</item>
-        <item>@string/note</item>
     </string-array>
 </resources>
