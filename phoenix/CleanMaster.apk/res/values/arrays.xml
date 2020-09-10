@@ -98,7 +98,6 @@
         <item>/FileExplorer/.safebox</item>
         <item>/DCIM/.thumbnails</item>
         <item>/Android/data/com.miui.cleanmaster/cache</item>
-        <item>tencent/MicroMsg</item>
         <item>/Android/data/com.tencent.KiHan</item>
     </string-array>
     <string-array name="installed_app_sort_type">
@@ -108,6 +107,11 @@
     <string-array name="large_file_sort_type">
         <item>Size</item>
         <item>Name</item>
+    </string-array>
+    <string-array name="uninstalled_app_sort_type">
+        <item>Size</item>
+        <item>Usage frequency</item>
+        <item>Installation time</item>
     </string-array>
     <string-array name="wechat_sort">
         <item>Date</item>
