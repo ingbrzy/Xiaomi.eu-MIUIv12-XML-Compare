@@ -267,6 +267,8 @@ To switch between services, swipe up with two fingers and hold."</string>
   <string name="activating">Activating…</string>
   <string name="active_device_admin_msg">Device admin app</string>
   <string name="active_input_method_subtypes">Active input methods</string>
+  <string name="activity_check_context">"Your device is trying to connect to the internet now. This process might take longer than expected if you're using mobile data. You can go back and connect to a WLAN network instead, or keep waiting until the mobile data connection is established."</string>
+  <string name="activity_check_title">Connecting to the internet</string>
   <string name="activity_not_found">Application is not installed on your phone.</string>
   <string name="activity_picker_label">Choose activity</string>
   <string name="activity_title_power_manager">Battery saver;Save battery</string>
@@ -2172,6 +2174,12 @@ To try to fix this issue, you can stop %1$s and prevent it from running in the b
   <string name="dialog_background_check_ok">Turn off</string>
   <string name="dialog_background_check_title">Turn off background usage &amp; stop app?</string>
   <string name="dialog_backup_title">Update backups before performing the factory reset?</string>
+  <string name="dialog_check_button_negative">Try again</string>
+  <string name="dialog_check_button_positive">Connect to WLAN</string>
+  <string name="dialog_check_context">"Your device can't connect to the internet now.
+1. Tap \"Connect to WLAN\" to select one of the available networks.
+2. If you want to use mobile data, tap \"Try again\" or remove and reinsert your SIM card."</string>
+  <string name="dialog_check_title">"Can't connect to the internet"</string>
   <string name="dialog_chose_item">Select an item to display</string>
   <string name="dialog_content_login">Sign in to your Mi Account to update?</string>
   <string name="dialog_location_message">"Your phone can't manage battery normally because %1$s keeps requesting your location when you're not using the app.
@@ -2204,6 +2212,10 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="dialog_title_color_calibration">Color correction preset</string>
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
+  <string name="dialog_wifi_button_negative">No</string>
+  <string name="dialog_wifi_button_positive">Yes</string>
+  <string name="dialog_wifi_context">You need to connect to the the internet to set up your device. Unless you connect to WLAN, mobile data might be used. Using mobile data might generate additional carrier fees. Use mobile data anyway?</string>
+  <string name="dialog_wifi_title">Using mobile data</string>
   <string name="dialog_yes">Yes</string>
   <string name="digital_clock_dot">:</string>
   <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
@@ -2779,6 +2791,7 @@ For more details, contact your organization's admin."</string>
   <string name="fold_title">Rules for grouped notifications</string>
   <string name="font_size_exhuge">Extra Huge</string>
   <string name="font_size_huge">Huge</string>
+  <string name="font_size_kddi">Medium</string>
   <string name="font_size_large">Larger</string>
   <string name="font_size_make_larger_desc">Make larger</string>
   <string name="font_size_make_smaller_desc">Make smaller</string>
