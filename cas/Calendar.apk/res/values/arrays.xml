@@ -6,6 +6,18 @@
         <item>#fffdebde</item>
         <item>#fffc6a4f</item>
     </array>
+    <array name="account_manager_colors">
+        <item>#ff3694ed</item>
+        <item>#fffc6a4f</item>
+        <item>#ff3eb9cf</item>
+        <item>#ff7d7aea</item>
+        <item>#ffff9900</item>
+        <item>#ffef5b74</item>
+        <item>#ff03a9f4</item>
+        <item>#ff3a79da</item>
+        <item>#ff2dbf5d</item>
+        <item>#ffa472e3</item>
+    </array>
     <array name="account_preset1">
         <item>#fffb735a</item>
         <item>#fffb735a</item>
@@ -30,6 +42,20 @@
         <item>#fffcebcd</item>
         <item>#ffff9900</item>
     </array>
+    <string-array name="account_sync_frequency">
+        <item>Manual</item>
+        <item>Every 15 minutes</item>
+        <item>Every hour</item>
+        <item>Every 4 hours</item>
+        <item>Every 12 hours</item>
+    </string-array>
+    <integer-array name="account_sync_frequency_value">
+        <item>-1</item>
+        <item>15</item>
+        <item>60</item>
+        <item>240</item>
+        <item>720</item>
+    </integer-array>
     <array name="account_xiaomi">
         <item>#ff2997ff</item>
         <item>#ff2997ff</item>

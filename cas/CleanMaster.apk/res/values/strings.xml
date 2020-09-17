@@ -311,6 +311,7 @@
   <string name="empty_title_video">No videos to delete​</string>
   <string name="engine_cm">Clean Master</string>
   <string name="engine_init">Initializing…</string>
+  <string name="engine_mi">Xiaomi</string>
   <string name="engine_tm">Tencent</string>
   <string name="expand_button_title">Advanced</string>
   <string name="facebook_clean_exit_confirm_cancel">Keep scanning</string>
@@ -463,6 +464,8 @@
   <string name="hot_today">Popular today</string>
   <string name="information_setting">Recommendations</string>
   <string name="install_sucess">Installed %s successfully</string>
+  <string name="install_time_format">MM/dd/yyyy</string>
+  <string name="install_time_invalid">--</string>
   <string name="installed">Installed</string>
   <string name="installing">Installing</string>
   <string name="item_title_process_mode">Choose an action</string>
@@ -560,7 +563,7 @@
   <string name="mainbtn_text_quick_cleanup_default">Clean up</string>
   <string name="megabyteShort">MB</string>
   <string name="memeory_check_content">%1$d apps, memory %2$s</string>
-  <string name="memory_clean_icon_text">RAM Jet</string>
+  <string name="memory_clean_icon_text">Boost speed</string>
   <string name="memory_clean_no_trash_tip">Everything looks good</string>
   <string name="menu_add_to_white_list">Add to exceptions</string>
   <string name="menu_clear">Clear</string>
@@ -612,6 +615,8 @@
   <string name="notification_memory_clean_button_text">Boost</string>
   <string name="notification_memory_clean_hint">Tap to boost speed</string>
   <string name="notification_memory_clean_used_size">%s of memory is occupied</string>
+  <string name="notification_size_1.5_GB">%.1f</string>
+  <string name="notification_size_1_GB">%d</string>
   <string name="notification_summary_after_auto_cleanup">Cleaned %s.</string>
   <string name="notification_uninstalled_clean_button_text">View</string>
   <string name="notification_uninstalled_clean_with_name">Residual items of %s</string>
@@ -635,6 +640,10 @@
   <string name="optimizecenter_data_support_cm">Powered by Clean Master</string>
   <string name="optimizecenter_data_support_tc">Powered by Tencent</string>
   <string name="output_videos">Export videos</string>
+  <string name="permission_dialog_storage_btn1">Settings</string>
+  <string name="permission_dialog_storage_btn2">Cancel</string>
+  <string name="permission_dialog_storage_content">Cleaner needs permission to access internal storage to be able to work normally. Tap \"Settings\" to manage storage permissions.</string>
+  <string name="permission_dialog_storage_title">Permissions required</string>
   <string name="petabyteShort">PB</string>
   <string name="positive_confirm">OK</string>
   <string name="pref_about_privacy_title">Privacy Policy</string>
@@ -672,6 +681,7 @@
   <string name="preference_category_key_auto_update_cleanup_db">key_category_auto_update_cleanup_db</string>
   <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
   <string name="preference_key_about_privacy">key_about_privacy</string>
+  <string name="preference_key_appclean_scan_engine">key_appclean_scan_engine</string>
   <string name="preference_key_auto_update_cleanup_db">key_auto_update_cleanup_db</string>
   <string name="preference_key_cleanup_white_list">key_cleanup_white_list</string>
   <string name="preference_key_create_onekeyclean_shortcut">key_create_onekeyclean_shortcut</string>
