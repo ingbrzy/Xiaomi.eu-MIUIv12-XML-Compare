@@ -88,6 +88,9 @@
   <string name="auto_identify_btn_title">This message is sent from an unknown number.</string>
   <string name="auto_identify_confirmation">It might take several minutes to activate this feature.</string>
   <string name="back_to_message_list">Back to message list</string>
+  <string name="banner_btn_install">Install</string>
+  <string name="banner_btn_not_now">Not now</string>
+  <string name="banner_btn_open">Open</string>
   <string name="batch_adding_progress_message">Adding…</string>
   <string name="batch_deleting_message_progress_message">Deleting…</string>
   <string name="batch_deleting_progress_message">Deleting…</string>
@@ -112,7 +115,7 @@
   <string name="button_resend_message">Send again</string>
   <string name="button_unfold">Unfold</string>
   <string name="call_sender">Call sender</string>
-  <string name="can_not_send_by_rcs">"Can't use China Mobile Messaging"</string>
+  <string name="can_not_send_by_rcs">"Can't use 5G Messaging"</string>
   <string name="can_not_view_group_chat_stranger">"Can't view the details of strangers."</string>
   <string name="cannot_add_picture_and_video">"Can't add video and picture to one slide."</string>
   <string name="cannot_add_slide_anymore">"Can't add more slides."</string>
@@ -277,6 +280,7 @@
   <string name="debug_enable_success">Debug Available</string>
   <string name="debug_export_db">Export Database</string>
   <string name="debug_title">Debug</string>
+  <string name="default_google_message_promo_content">"You've set Messages by Google as your default messaging app. Tap \"Open\" to start texting."</string>
   <string name="delete">Delete</string>
   <string name="delete_block_conversation">Delete this conversation</string>
   <string name="delete_bookmark">Remove from favorites</string>
@@ -343,6 +347,7 @@
   <string name="edit_slide_activity">Edit slide</string>
   <string name="edit_slideshow_activity">Edit slideshow</string>
   <string name="empty"/>
+  <string name="enable_classify_tip_dialog_content">This will relaunch the Messaging app. Continue anyway?</string>
   <string name="enabled">On</string>
   <string name="english_subject_limit">40 characters</string>
   <string name="enter_edit_mode">Edit messages</string>
@@ -458,6 +463,8 @@
   <string name="from_pkg_name">From the app:</string>
   <string name="ft_cfs_dialog_content">"Files couldn't be delivered using RCS. Send a link in a text message instead?"</string>
   <string name="ft_cfs_dialog_title">Alternative file transfer</string>
+  <string name="google_message_promo_content">Xiaomi recommends switching to Messages by Google. It allows you to text on Wi-Fi, share high-quality media, and more. &lt;font color="#B3000000"&gt;&lt;a href="https://support.google.com/messages/answer/6089066"&gt;View details&lt;/a&gt;&lt;/font&gt;.</string>
+  <string name="google_message_promo_title">Upgrade your messaging app</string>
   <string name="group_already_kicked_hint">"Can't send messages. You aren't a member of this group chat."</string>
   <string name="group_member_is_composing">Typing…</string>
   <string name="group_message">Group message</string>
@@ -505,6 +512,8 @@
   <string name="imageview_ad">Ad</string>
   <string name="importing_progress_private_message">Importing…</string>
   <string name="in_sms">Message</string>
+  <string name="installed_google_message_promo_content">Xiaomi recommends using Messages by Google. It allows you to text on Wi-Fi, share high-quality media, and more.</string>
+  <string name="installed_google_message_promo_title">Start using Messages</string>
   <string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
   <string name="invalid_conversation">Invalid conversation</string>
   <string name="invalid_destination">Invalid destination address.</string>
@@ -762,6 +771,9 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
   <string name="perm_purpose_rcs_account">"For displaying beginner's guide to new users"</string>
   <string name="perm_purpose_rcs_phone_state">For accessing IMEI in order to identify your device</string>
   <string name="perm_purpose_rcs_storage">For saving images, videos, files, and other RCS attachments</string>
+  <string name="permission_retry_deny">Cancel</string>
+  <string name="permission_retry_dialog_msg">Messaging needs permissions to be able to work normally. To give the required permissions, tap \"Settings\", select \"App permissions\", and allow the app to access phone, SMS, and contacts.</string>
+  <string name="permission_retry_setting">Settings</string>
   <string name="phrase_confirm_delete_message">This reply will be deleted.</string>
   <string name="phrase_empty">No replies</string>
   <string name="phrase_from">From %1s</string>
@@ -804,6 +816,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
   <string name="pref_summary_delete_limit">%1$s messages per conversation</string>
   <string name="pref_summary_delivery_reports">Show delivery status for sent messages</string>
   <string name="pref_summary_delivery_ringtone">Receive sound notifications for delivered messages.</string>
+  <string name="pref_summary_enable_classify">Move promotional and financial messages to separate tabs</string>
   <string name="pref_summary_manage_sim_messages">Manage messages stored on your SIM card</string>
   <string name="pref_summary_mms_auto_retrieval">Download photos and videos in messages automatically</string>
   <string name="pref_summary_mms_read_reports">Show notification in conversation view when the recipient has downloaded MMS contents</string>
@@ -822,6 +835,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
   <string name="pref_title_card_format">Card share format</string>
   <string name="pref_title_collapse_ad_notification">Group notifications about promotional messages</string>
   <string name="pref_title_delivery_reports">Delivery status</string>
+  <string name="pref_title_enable_classify">Group messages automatically</string>
   <string name="pref_title_fwd_sender_info">Forward sender info</string>
   <string name="pref_title_manage_sim_messages">SIM card storage</string>
   <string name="pref_title_miui_card">Send via card</string>
@@ -967,15 +981,15 @@ Take a look at the recommended ones!"</string>
   <string name="rcs_list_bottom_loading">Just a sec…</string>
   <string name="rcs_list_bottom_search">Searching…</string>
   <string name="rcs_main_purpose">This feature allows you to send and receive RCS messages. RCS Messaging is provided by China Mobile.</string>
-  <string name="rcs_message">RCS messages</string>
+  <string name="rcs_message">5G messages</string>
   <string name="rcs_message_disable">"Can't view this message in Second space"</string>
-  <string name="rcs_message_title">RCS Messaging</string>
+  <string name="rcs_message_title">5G Messaging</string>
   <string name="rcs_more_bar_title">More info</string>
-  <string name="rcs_msg">China Mobile Messaging</string>
+  <string name="rcs_msg">5G Messaging</string>
   <string name="rcs_my_black_chatbot_title">Blocklist</string>
-  <string name="rcs_not_online">"Can't use China Mobile Messaging. Check your network settings and try again."</string>
-  <string name="rcs_offline">Not signed in to UC. Wait a minute or two and try again.</string>
-  <string name="rcs_offline_hint">"China Mobile Messaging is offline. Can't forward this message."</string>
+  <string name="rcs_not_online">"Can't use 5G Messaging. Check your network settings and try again."</string>
+  <string name="rcs_offline">Not signed in to 5G Messaging. Wait a minute or two and try again.</string>
+  <string name="rcs_offline_hint">"5G Messaging is offline. Can't forward this message."</string>
   <string name="rcs_pref_button_login">Sign in</string>
   <string name="rcs_pref_button_logout">Sign out</string>
   <string name="rcs_pref_category_rcs">RCS messaging</string>
@@ -998,7 +1012,7 @@ Take a look at the recommended ones!"</string>
   <string name="rcs_recipient_type_group">Forward to group chat</string>
   <string name="rcs_recipient_type_pc">Forward to computer</string>
   <string name="rcs_remember_my_choice">Remember my choice</string>
-  <string name="rcs_resend_not_online">"Can't use China Mobile Messaging"</string>
+  <string name="rcs_resend_not_online">"Can't use 5G Messaging"</string>
   <string name="rcs_resend_sim_card_not_insert">"Looks like your SIM card isn't installed"</string>
   <string name="rcs_search_group_local">My mini apps</string>
   <string name="rcs_search_group_recommend">Recommended mini apps</string>
@@ -1007,17 +1021,17 @@ Take a look at the recommended ones!"</string>
   <string name="rcs_search_result_server_data_empty">"Couldn't find mini apps online"</string>
   <string name="rcs_send_hello">Hi!</string>
   <string name="rcs_send_rms_remind_change">Settings</string>
-  <string name="rcs_send_rms_remind_desp">China Mobile Messaging is an instant messaging service provided by China Mobile. You can turn this feature off in the Settings.</string>
-  <string name="rcs_send_rms_remind_title">Send messages using China Mobile Messaging</string>
+  <string name="rcs_send_rms_remind_desp">5G Messaging is an instant messaging service provided by China Mobile. You can turn this feature off in the Settings.</string>
+  <string name="rcs_send_rms_remind_title">Use 5G Messaging</string>
   <string name="rcs_service_agreement">Service Agreement</string>
-  <string name="rcs_setting">China Mobile Messaging settings</string>
+  <string name="rcs_setting">5G Messaging settings</string>
   <string name="rcs_setting_tips">You can change alternative delivery methods in the Messaging settings.</string>
   <string name="rcs_silence_message">Silence message notifications</string>
-  <string name="rcs_summary_auto_resend_mms">"Convert China Mobile multimedia messages to MMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
-  <string name="rcs_summary_auto_resend_sms">"Convert China Mobile text messages to SMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
+  <string name="rcs_summary_auto_resend_mms">"Convert 5G multimedia messages to MMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
+  <string name="rcs_summary_auto_resend_sms">"Convert 5G text messages to SMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
   <string name="rcs_summary_silence_message">Silence message notifications when desktop client is working</string>
-  <string name="rcs_unavailable">"Can't use China Mobile Messaging now. China Mobile SIM card isn't your default data card."</string>
-  <string name="rcs_up_not_online">RCS is offline. Check your network settings and try again.</string>
+  <string name="rcs_unavailable">"Can't use 5G Messaging now. China Mobile SIM card isn't your default data card."</string>
+  <string name="rcs_up_not_online">5G Messaging is offline. Check your network settings and try again.</string>
   <string name="rcs_wait_for_retry_text">Waiting…</string>
   <string name="received_at_time">Received at: %1s</string>
   <string name="received_label">"Received: "</string>
@@ -1137,7 +1151,7 @@ Take a look at the recommended ones!"</string>
   <string name="send_message_notification_msg">Tap to view request details.</string>
   <string name="send_message_notification_tickerText">Device is requesting permission</string>
   <string name="send_message_notification_title">Permission request</string>
-  <string name="send_rms_editor_hints">China Mobile Messaging</string>
+  <string name="send_rms_editor_hints">5G Messaging</string>
   <string name="send_rms_editor_hints_omit">Mi Message</string>
   <string name="send_signature_confirm_dialog_message">No content found. Send only your signature?</string>
   <string name="send_signature_confirm_dialog_title">Send message</string>
@@ -1222,6 +1236,7 @@ Take a look at the recommended ones!"</string>
   <string name="sp_category_title_prefix">%s</string>
   <string name="sp_conversation_title">Notifications</string>
   <string name="sp_mark_as_read_menu_title">Mark as read</string>
+  <string name="sp_msg_entry">Services</string>
   <string name="sqlite_disk_full">Storage space on your device is full.</string>
   <string name="sqlite_low_memory">Not enough storage space</string>
   <string name="status_bar_notification_info_overflow">999+</string>
@@ -1346,6 +1361,9 @@ If you don't agree to grant such permissions or share and upload your personal i
   <string name="to_label">"To "</string>
   <string name="to_send_wrapper">Will send at %s</string>
   <string name="toast_failed_to_close_priv_auth">"Couldn't revoke authorization. Check your network settings and try again."</string>
+  <string name="toast_not_show_camera_perm_req">Allow Messaging to use camera to be able to use this feature</string>
+  <string name="toast_not_show_microphone_perm_req">Allow Messaging to use microphone to be able to use this feature</string>
+  <string name="toast_not_show_storage_perm_req">Allow Messaging to access storage to be able to use this feature</string>
   <string name="toast_pending_hangup_msg">Message will be sent after the call ends</string>
   <string name="today">Today</string>
   <string name="tomorrow">Tomorrow</string>
