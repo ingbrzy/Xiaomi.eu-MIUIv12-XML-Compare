@@ -83,6 +83,7 @@
   <string name="action_update_phone">Change phone number</string>
   <string name="activate_email_notice">Make sure to activate your account within 24 hours</string>
   <string name="activity_not_found_notice">"Can't find the app"</string>
+  <string name="ad">Ad</string>
   <string name="ad_buy">Purchase</string>
   <string name="ad_download">Download</string>
   <string name="ad_join">Join community</string>
@@ -113,6 +114,7 @@
   <string name="auth_fail_warning">Session expired. Sign in again.</string>
   <string name="auto_play_next_off">Autoplay is off</string>
   <string name="auto_play_next_on">Autoplay is on</string>
+  <string name="back_to_mainpage">Discover</string>
   <string name="before_yestoday">2 days ago</string>
   <string name="bind_sign_in_title">Add Mi Account</string>
   <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
@@ -184,7 +186,6 @@
   <string name="columbus_player_close_video">CLOSE VIDEO</string>
   <string name="columbus_player_install_now">INSTALL NOW</string>
   <string name="columbus_player_learn_more">Learn More</string>
-  <string name="com.crashlytics.android.build_id">ec71a063-3031-4779-b62b-ab7779274c23</string>
   <string name="com_facebook_device_auth_instructions">Visit &lt;b&gt;facebook.com/device&lt;/b&gt; and enter the code shown above.</string>
   <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
   <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -208,9 +209,6 @@
   <string name="com_facebook_smart_login_confirmation_continue_as">Continue as %1$s</string>
   <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
   <string name="com_facebook_tooltip_default">"You're in control - choose what info you want to share with apps."</string>
-  <string name="com_mixpanel_android_close">Close</string>
-  <string name="com_mixpanel_android_done">Done</string>
-  <string name="com_mixpanel_android_notification_image">Image not displayed</string>
   <string name="com_permission_desc">"Mi Video can't access videos on your device. Allow access in the Settings."</string>
   <string name="com_permission_title">Permissions required</string>
   <string name="comment_model_add_comment">Add a comment</string>
@@ -236,6 +234,8 @@
   <string name="comment_model_send_forbid_tips">Account suspended</string>
   <string name="comment_model_send_success">Sent successfully</string>
   <string name="common_cancel">Cancel</string>
+  <string name="common_copyright_unsupported_audio">"Can't play audio track due to copyright restrictions"</string>
+  <string name="common_copyright_unsupported_video">"Can't play this video due to copyright restrictions"</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
   <string name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -349,6 +349,7 @@ Send this code to the supervisor."</string>
   <string name="favorite_fail">"Couldn't add to favorites. Try again."</string>
   <string name="favorite_success">Added to favorites successfully</string>
   <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+  <string name="fcm_push_title">Popular videos</string>
   <string name="feedback">Feedback</string>
   <string name="feedback_activity_title">Feedback</string>
   <string name="feedback_contact_empty">Enter your contact info</string>
@@ -722,6 +723,9 @@ for videos"</string>
   <string name="notification_bar_player_subtitle">Show minimized player in the Notification shade</string>
   <string name="notification_bar_player_title">Minimize player</string>
   <string name="notification_open_tip">Turn on to receive notifications</string>
+  <string name="notification_recall_action">Turn on</string>
+  <string name="notification_recall_desc">Mi Video can notify you about popular videos and your subscriptions.</string>
+  <string name="notification_recall_title">Turn on notifications</string>
   <string name="notify_apk_installed">Downloaded successfully</string>
   <string name="ok">OK</string>
   <string name="order_alphabet">A-Z</string>
@@ -732,7 +736,7 @@ for videos"</string>
   <string name="ovp_category">Categories</string>
   <string name="ovp_confirm_delete_favor">Remove selected items from favorites?</string>
   <string name="ovp_default_plugin_name">HD plug-in</string>
-  <string name="ovp_detail_back_to_watch_more">Discover more items on the home page</string>
+  <string name="ovp_detail_back_to_watch_more">Discover more brilliant videos</string>
   <string name="ovp_detail_collapse_summary">Hide</string>
   <string name="ovp_detail_collect">Add to favorites</string>
   <string name="ovp_detail_comment">Comment</string>
@@ -928,6 +932,7 @@ Increase the security of your account."</string>
   <string name="permission_storage">Storage</string>
   <string name="permission_storage_desc">For accessing items, saving files, displaying and playing local videos</string>
   <string name="permission_title">Permissions required</string>
+  <string name="pgc_push_title">Subscriptions</string>
   <string name="phone_bind_too_many">This phone has been associated with several Mi Accounts in a short period of time. Try using another phone number.</string>
   <string name="phone_hint">Phone number</string>
   <string name="phone_num_use_for">Phone number is used for:</string>
@@ -1088,6 +1093,7 @@ Increase the security of your account."</string>
   <string name="remaining_space">Available: %s</string>
   <string name="remaining_space_not_enough">"Can't download due to insufficient storage space"</string>
   <string name="reminder">Attention</string>
+  <string name="rename">Rename</string>
   <string name="report">Report</string>
   <string name="report_content_dislike">Violence or inappropriate behavior</string>
   <string name="report_content_fakement">Spam or fraud</string>
