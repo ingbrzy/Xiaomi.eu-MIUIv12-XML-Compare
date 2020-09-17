@@ -48,6 +48,7 @@
   <string name="cloud_find_device_off">Off</string>
   <string name="cloud_find_device_on">On</string>
   <string name="cloud_lab_title">Lab</string>
+  <string name="cloud_space_full_gallery_notification_content_text">Upgrade your plan to get more cloud storage space</string>
   <string name="cloud_storage_already_full">Cloud storage is full: %1$s/%2$s</string>
   <string name="cloud_storage_already_used">Occupied: %1$s/%2$s</string>
   <string name="cloud_storage_default_title">Cloud storage</string>
@@ -67,6 +68,8 @@
   <string name="connect_wlan">Connect to Wi-Fi</string>
   <string name="connect_wlan_china">Connect to WLAN</string>
   <string name="copy">Copy</string>
+  <string name="cta_notification_content_text">Allow %s to connect to the internet to be able to restore items</string>
+  <string name="cta_notification_content_title">"Can't restore items from %s"</string>
   <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">This account is also used on another device. Merge the items from multiple apps (including %1$s and %2$s) with the items on this device?</string>
   <string name="data_merge_dialog_alert_active_on_phone_msg_one">This account is also used on another device. Merge the items from %s with the items on this device?</string>
   <string name="data_merge_dialog_alert_active_on_phone_msg_two">This account is also used on another device. Merge the items from %1$s and %2$s with the items on this device?</string>
@@ -302,6 +305,11 @@ Locate and lock your device in case it's lost."</string>
   <string name="micloud_manual_pausing">Sync paused</string>
   <string name="micloud_manual_pending">Pending…</string>
   <string name="micloud_manual_reactivate">Reactivate</string>
+  <string name="micloud_manual_request_permission_cancel">Cancel</string>
+  <string name="micloud_manual_request_permission_confirm">Settings</string>
+  <string name="micloud_manual_request_permission_content">To be able to use our services, give Xiaomi Cloud the following permissions in the Settings: \"%s\".</string>
+  <string name="micloud_manual_request_permission_content_on_provision">Give the required permissions in Security first</string>
+  <string name="micloud_manual_request_permission_title">Permissions required</string>
   <string name="micloud_manual_sync_all">Sync all items</string>
   <string name="micloud_manual_sync_now">Sync</string>
   <string name="micloud_manual_sync_now_retry">Try again</string>
@@ -444,7 +452,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="no_sim">"Couldn't find SIM card"</string>
   <string name="not_set">Not set</string>
   <string name="pay_info_dialog_confirm_to_pay">Pay %s</string>
-  <string name="pay_info_dialog_mibi_balance_prefix">Use remaining Mi Credits: %s</string>
+  <string name="pay_info_dialog_mibi_balance_prefix">Use remaining Mi Coins: %s</string>
   <string name="pay_info_dialog_title">Select payment method</string>
   <string name="phone_number_required_dspt_provision">"This service requires your phone number. "</string>
   <string name="picker_list_empty">No contacts here</string>
