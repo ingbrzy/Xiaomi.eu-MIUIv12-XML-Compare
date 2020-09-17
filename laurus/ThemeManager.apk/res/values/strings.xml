@@ -126,7 +126,7 @@
   <string name="change_wallpaper">Wallpaper</string>
   <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
   <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
-  <string name="character_counter_pattern">%1$d / %2$d</string>
+  <string name="character_counter_pattern">%1$d/%2$d</string>
   <string name="check_has_new_version">Update is available</string>
   <string name="chinese_day_1">初一</string>
   <string name="chinese_day_10">初十</string>
@@ -481,6 +481,7 @@
   <string name="hide_pull_down_positive">Hide</string>
   <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
   <string name="home_apply_success">Home screen wallpaper applied</string>
+  <string name="home_daily">Daily highlights</string>
   <string name="i_know">Got it</string>
   <string name="icon_content_description">Dialog Icon</string>
   <string name="in_the_end">No more items to show</string>
@@ -505,12 +506,14 @@ To turn this feature off, go to Settings &gt; Sound &amp; vibration &gt; Profile
   <string name="item_resource_audio_optional_color_ring">Ringback tone</string>
   <string name="item_resource_audio_optional_notification_ring">Notifications</string>
   <string name="item_resource_audio_optional_phone_ring">Ringtone</string>
+  <string name="item_view_role_description">Tab</string>
   <string name="kuyin_user_agreement_content">Custom ringtone subscriptions are provided by iFlytek. You must agree to %s before using custom ringtone subscriptions. Agree?</string>
   <string name="kuyin_user_agreement_content_href">iFlytek Privacy Policy</string>
   <string name="lab">Themes lab</string>
   <string name="like_list">My likes</string>
   <string name="live_wallpaper">Dynamic wallpapers</string>
   <string name="loading">Just a sec…</string>
+  <string name="loading_picture">Loading image…</string>
   <string name="loading_resource_detail_fail">"Can't load resource"</string>
   <string name="loading_resource_detail_info">Just a sec…</string>
   <string name="local_photos">Local photos</string>
@@ -529,6 +532,9 @@ To turn this feature off, go to Settings &gt; Sound &amp; vibration &gt; Profile
   <string name="lockscreen_wallpaper">Lock screen</string>
   <string name="lockstyle_personal_settings">Customize</string>
   <string name="long_click_can_hide_resource">Press and hold to hide items</string>
+  <string name="marketSdkVersion">3.2.4</string>
+  <string name="material_slider_range_end">Range end,</string>
+  <string name="material_slider_range_start">Range start,</string>
   <string name="mi_wallpaper">MIUI wallpaper</string>
   <string name="midnight">AM</string>
   <string name="mine_tab_not_login">"Sign in to view items.
@@ -648,6 +654,7 @@ mm"</string>
   <string name="morning">AM</string>
   <string name="mtrl_badge_numberless_content_description">New notification</string>
   <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+  <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
   <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
   <string name="mtrl_picker_a11y_next_month">Change to next month</string>
   <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
@@ -933,6 +940,7 @@ mm"</string>
   <string name="resource_share_subject">Share theme: %1$s</string>
   <string name="resource_share_text">"Here's a theme I thought you might like: %1$s! Link: %2$s"</string>
   <string name="resource_share_title">Share</string>
+  <string name="resource_status_error">"An error occurred. Can't view this wallpaper now."</string>
   <string name="resource_system_title">System resources</string>
   <string name="resource_tab_to_view">Tap to view.</string>
   <string name="resource_tip_select_none">None selected</string>
@@ -1001,6 +1009,19 @@ mm"</string>
   <string name="settings_search_keyword_font_online">Online fonts</string>
   <string name="settings_search_keyword_font_style">Font format</string>
   <string name="settings_search_keyword_font_wechat">WeChat fonts</string>
+  <string name="share_copy_theme_url">Copy theme URL</string>
+  <string name="share_copy_url_success">Copied successfully</string>
+  <string name="share_copy_wallpaper_url">Copy wallpaper URL</string>
+  <string name="share_picture_loading">Loading image…</string>
+  <string name="share_save_success">Saved successfully</string>
+  <string name="share_save_to_photo">Gallery</string>
+  <string name="share_send_to_friend">WeChat</string>
+  <string name="share_share_suffix">\@小米主题</string>
+  <string name="share_theme_content_text">"You can download an amazing theme \"%1$s\" here: %2$s. From "</string>
+  <string name="share_to_qq">QQ</string>
+  <string name="share_to_weibo">Weibo</string>
+  <string name="share_vipaccount">Mi Community</string>
+  <string name="share_wallpaper_content_text">"You can download an amazing wallpaper \"%1$s\" here: %2$s. From "</string>
   <string name="shortcut_add">Add</string>
   <string name="shortcut_cancel">No thanks</string>
   <string name="shortcut_message">Add a Home screen shortcut!</string>
@@ -1332,6 +1353,7 @@ Go to Themes &gt; My account &gt; Themes lab for more options."</string>
   <string name="wallpaper_set_as_incall_show">Set as profile video</string>
   <string name="wallpaper_set_as_lockscreen">Set as Lock screen</string>
   <string name="wallpaper_setting_all">All wallpapers</string>
+  <string name="wallpaper_setting_library">Library</string>
   <string name="wallpaper_setting_live">Live</string>
   <string name="wallpaper_settings">Wallpaper settings</string>
   <string name="wallpaper_settings_loading_text">Just a sec…</string>
@@ -1340,7 +1362,7 @@ Go to Themes &gt; My account &gt; Themes lab for more options."</string>
   <string name="wallpaper_settings_page_title">Wallpaper</string>
   <string name="wallpaper_share_alert">An error occurred. Wait a minute or two and try again.</string>
   <string name="wallpaper_static">Static</string>
-  <string name="wallpaper_subject_version">\@MI</string>
+  <string name="wallpaper_subject_version">MI</string>
   <string name="wechat_not_found">Install WeChat first</string>
   <string name="wednesday">Wednesday</string>
   <string name="wednesday_short">Wed</string>
@@ -1353,15 +1375,8 @@ Go to Themes &gt; My account &gt; Themes lab for more options."</string>
   <string name="xiaoai_speech_not_installed_download">Download</string>
   <string name="xiaoai_speech_not_installed_message">Download and install Mi AI voice assistant to continue.</string>
   <string name="xiaoai_speech_not_installed_title">"Mi AI voice assistant isn't installed."</string>
-  <string name="xiaomi_update_sdk_bytes_unit">%1$sB</string>
-  <string name="xiaomi_update_sdk_connect_download_manager_fail">Connect Download Manager failed, please check the Download Manager state in the Application Management.</string>
-  <string name="xiaomi_update_sdk_dialog_message">"Introducing version %1$s
-Size: %2$s"</string>
-  <string name="xiaomi_update_sdk_dialog_message_diff">"Introducing version %1$s
-Delta update size: %2$s"</string>
-  <string name="xiaomi_update_sdk_dialog_title">%1$s update!</string>
-  <string name="xiaomi_update_sdk_external_storage_unavailable">Storage unavailable, please check the SD card.</string>
-  <string name="xiaomi_update_sdk_kilobytes_unit">%1$sKB</string>
-  <string name="xiaomi_update_sdk_megabytes_unit">%1$sMB</string>
+  <string name="xiaomi_market_sdk_update_dialog_cancel">以后再说</string>
+  <string name="xiaomi_market_sdk_update_dialog_ok">立即更新</string>
+  <string name="xiaomi_market_sdk_update_dialog_title">%s 新版本</string>
   <string name="yesterday">Yesterday</string>
 </resources>
