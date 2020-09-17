@@ -440,6 +440,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="ai_settings_long_click_title">Press and hold</string>
   <string name="ai_settings_single_press_des">Press the AI button to talk to Google Assistant, then release to get the answer.</string>
   <string name="airplane_mode">Airplane mode</string>
+  <string name="airplane_mode_summary">"Turn on to disconnect your device from mobile networks. You won't be able to make calls, send and receive text messages, or use mobile data when this feature is on."</string>
   <string name="alarm_ringtone_title">Default alarm sound</string>
   <string name="alarm_sound_dialog_title">Select alarm sound</string>
   <string name="alarm_sound_title">Alarm</string>
@@ -457,11 +458,11 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
   <string name="allow_device_id_access">Select apps that can use device ID</string>
   <string name="allow_float_summary">Allow floating notifications</string>
-  <string name="allow_float_title">Floating notifications</string>
+  <string name="allow_float_title">Allow floating notifications</string>
   <string name="allow_interruption">Allow interruptions</string>
   <string name="allow_interruption_summary">Let the app make sound, vibrate, and/or pop notifications on screen</string>
   <string name="allow_keyguard_summary">Allow notifications on the Lock screen</string>
-  <string name="allow_keyguard_title">Lock screen notifications</string>
+  <string name="allow_keyguard_title">Allow Lock screen notifications</string>
   <string name="allow_lights_title">Allow using LED light</string>
   <string name="allow_manage_external_storage_description">Allow this app to read, modify and delete all files on this device or any connected storage volumes. If granted, app may access files without your explicit knowledge.</string>
   <string name="allow_mock_location">Allow mock locations</string>
@@ -469,7 +470,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_oaid_used">Use virtual ID</string>
   <string name="allow_oaid_used_desc">"MIUI won't provide a virtual ID (OAID) to installed apps. Some personal recommendation features might not work properly because of that."</string>
   <string name="allow_overlay_description">Allow this app to display on top of other apps you’re using. This app will be able to see where you tap or change what’s displayed on the screen.</string>
-  <string name="allow_sound_title">Allow sound</string>
+  <string name="allow_sound_title">Allow playing sound</string>
   <string name="allow_vibrate_title">Allow vibration</string>
   <string name="alpha_build">Alpha</string>
   <string name="always">Always</string>
@@ -841,7 +842,7 @@ Backups are stored in Xiaomi Cloud and can be accessed wirelessly. This method i
   <string name="backup_set_pw_confirm_title">Confirm new backup password</string>
   <string name="backup_summary_state_off">Off</string>
   <string name="backup_summary_state_on">On</string>
-  <string name="badge_title">Show app icon badges</string>
+  <string name="badge_title">Allow notification badges</string>
   <string name="band_24G">" (2.4 GHz band)"</string>
   <string name="band_5G">" (5 GHz band)"</string>
   <string name="baseband_version">Baseband version</string>
@@ -2555,6 +2556,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="doze_always_on_title">Always-on display</string>
   <string name="doze_summary">When screen is dark, it turns on for new notifications</string>
   <string name="doze_title">Wake screen for notifications</string>
+  <string name="dpp_qrcode_generator_summary">Please scan this QR code with a device that supports Easy Connect</string>
   <string name="draw_overlay">Display over other apps</string>
   <string name="dsu_is_running">DSU is running</string>
   <string name="dsu_loader_description">Load a Dynamic System Update Image</string>
@@ -2897,6 +2899,7 @@ For more details, contact your organization's admin."</string>
   <string name="find_my_device">Find device</string>
   <string name="find_my_device_disable">Off</string>
   <string name="find_my_device_enable">On</string>
+  <string name="find_my_device_summary">This feature requires signing in to Mi Account</string>
   <string name="fingerprint_add_max">You can add up to %d fingerprints</string>
   <string name="fingerprint_add_title">Add fingerprint</string>
   <string name="fingerprint_and_password_entrance_title">Screen lock &amp; fingerprint</string>
@@ -7153,7 +7156,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tap_to_wake">Tap to wake</string>
   <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
   <string name="taplus_title">Taplus</string>
-  <string name="temporary_style">10 seconds after tapping the screen</string>
+  <string name="temporary_style">For 10 seconds after tapping</string>
   <string name="terms_title">Terms and conditions</string>
   <string name="testing">Testing</string>
   <string name="testing_phone_info">Phone information</string>
