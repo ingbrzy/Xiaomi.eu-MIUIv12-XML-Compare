@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="abc_action_bar_home_description">Navigate home</string>
-  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
   <string name="abc_action_bar_up_description">Navigate up</string>
   <string name="abc_action_menu_overflow_description">More options</string>
   <string name="abc_action_mode_done">Done</string>
@@ -10,18 +8,16 @@
   <string name="abc_activitychooserview_choose_application">Choose an app</string>
   <string name="abc_capital_off">OFF</string>
   <string name="abc_capital_on">ON</string>
-  <string name="abc_font_family_body_1_material">sans-serif</string>
-  <string name="abc_font_family_body_2_material">sans-serif-medium</string>
-  <string name="abc_font_family_button_material">sans-serif-medium</string>
-  <string name="abc_font_family_caption_material">sans-serif</string>
-  <string name="abc_font_family_display_1_material">sans-serif</string>
-  <string name="abc_font_family_display_2_material">sans-serif</string>
-  <string name="abc_font_family_display_3_material">sans-serif</string>
-  <string name="abc_font_family_display_4_material">sans-serif-light</string>
-  <string name="abc_font_family_headline_material">sans-serif</string>
-  <string name="abc_font_family_menu_material">sans-serif</string>
-  <string name="abc_font_family_subhead_material">sans-serif</string>
-  <string name="abc_font_family_title_material">sans-serif-medium</string>
+  <string name="abc_menu_alt_shortcut_label">Alt+</string>
+  <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+  <string name="abc_menu_delete_shortcut_label">delete</string>
+  <string name="abc_menu_enter_shortcut_label">enter</string>
+  <string name="abc_menu_function_shortcut_label">Function+</string>
+  <string name="abc_menu_meta_shortcut_label">Meta+</string>
+  <string name="abc_menu_shift_shortcut_label">Shift+</string>
+  <string name="abc_menu_space_shortcut_label">space</string>
+  <string name="abc_menu_sym_shortcut_label">Sym+</string>
+  <string name="abc_prepend_shortcut_label">Menu+</string>
   <string name="abc_search_hint">Search…</string>
   <string name="abc_searchview_description_clear">Clear query</string>
   <string name="abc_searchview_description_query">Search query</string>
@@ -161,9 +157,28 @@
   <string name="clear_history">Clear history</string>
   <string name="combine_loan">Combined loan</string>
   <string name="commercial_loan">Commercial loan</string>
+  <string name="common_google_play_services_enable_button">Enable</string>
+  <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+  <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+  <string name="common_google_play_services_install_button">Install</string>
+  <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+  <string name="common_google_play_services_install_title">Get Google Play services</string>
+  <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+  <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+  <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+  <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+  <string name="common_google_play_services_update_button">Update</string>
+  <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+  <string name="common_google_play_services_update_title">Update Google Play services</string>
+  <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+  <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+  <string name="common_open_on_phone">Open on phone</string>
+  <string name="common_signin_button_text">Sign in</string>
+  <string name="common_signin_button_text_long">Sign in with Google</string>
   <string name="convert_currency">Currency converter</string>
   <string name="convertion_unit">Unit converter</string>
   <string name="convertion_unit_area">Area converter</string>
+  <string name="convertion_unit_data">Data converter</string>
   <string name="convertion_unit_length">Length converter</string>
   <string name="convertion_unit_radix">Numeral system</string>
   <string name="convertion_unit_temperature">Temperature converter</string>
@@ -174,6 +189,7 @@
   <string name="cos">cos</string>
   <string name="cosDesc">cosine</string>
   <string name="cos_mathematical_value">cos</string>
+  <string name="currency_dialog_privacy_content">&lt;Data&gt;Currency converter needs to connect to the internet to get the latest currency exchange rates. Read and agree to our &amp;lt;a href=\"%1$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=\"%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using this feature.&lt;/Data&gt;</string>
   <string name="currency_update_connect_to_get_data">Exchange rates are provided by Webull. Connect to the network to get the latest info.</string>
   <string name="currency_update_support">Exchange rates are provided by Webull.</string>
   <string name="currency_update_time_format">Exchange rates are provided by Webull (%s)</string>
@@ -189,6 +205,7 @@
   <string name="day">day</string>
   <string name="default_separator_text">的</string>
   <string name="default_text">我</string>
+  <string name="default_web_client_id">724101103579-a7hcqq8g7rq6co2t4jne62mnu3v59j4r.apps.googleusercontent.com</string>
   <string name="degDesc">Angle</string>
   <string name="del">DEL</string>
   <string name="deleteDesc">delete</string>
@@ -196,7 +213,7 @@
   <string name="description_title">About Calculator</string>
   <string name="deselect_all">Deselect</string>
   <string name="devided_by_zero_reminder_message">"Can't divide by zero"</string>
-  <string name="dialog_privacy_content">Besides the basic features of a calculator, our app also contains a scientific calculator and a multi-purpose converter. Some features need to connect to the internet to work normally. You must read and agree to our %1$s and %2$s before using Calculator.</string>
+  <string name="dialog_privacy_content">&lt;Data&gt;Besides the basic features of a calculator, our app also contains a scientific calculator and a multi-purpose converter. Some features need to connect to the internet to work normally. You must read and agree to our &amp;lt;a href=\"%1$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=\"%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using Calculator.&lt;/Data&gt;</string>
   <string name="dialog_privacy_title">Terms and Conditions</string>
   <string name="dialog_rating_desc_ask">How do you feel about Calculator?</string>
   <string name="dialog_rating_desc_less">Could you give us your feedback as well?</string>
@@ -215,6 +232,7 @@
   <string name="div">÷</string>
   <string name="divDesc">divide</string>
   <string name="dob_selection_error">"Date of birth must be earlier than today's date"</string>
+  <string name="dont_allow">"Don't agree"</string>
   <string name="dot">.</string>
   <string name="dotDesc">point</string>
   <string name="e">e</string>
@@ -252,6 +270,7 @@
   <string name="factorialDesc">factorial</string>
   <string name="far_relationship_result">关系有点远，年长就叫老祖宗，同龄人就叫美女帅哥吧~</string>
   <string name="father">爸爸</string>
+  <string name="firebase_database_url">https://mi-calculator-edb61.firebaseio.com</string>
   <string name="float_window_guide_text">Tap here to minimize calculator</string>
   <string name="fmt_chinese_date">N月e</string>
   <string name="fmt_date">D</string>
@@ -317,6 +336,7 @@
   <string name="further_education">Further education</string>
   <string name="gay_other_search_result">暂时不支持同性婚姻称呼查询，怎么称呼你决定~</string>
   <string name="gay_search_result">是男是女不重要，是你就好</string>
+  <string name="gcm_defaultSenderId">724101103579</string>
   <string name="global_network_confirm_content">Currency converter needs to connect to the internet to work normally.</string>
   <string name="global_search_key_area_convertion">Area;Area converter;Area conversion</string>
   <string name="global_search_key_calculation">Calculate;Calculator;Unit conversion;Converter;Unit converter</string>
@@ -333,6 +353,10 @@
   <string name="global_search_key_word_figure">Financial characters</string>
   <string name="golbal_search_calculator_setting">Calculator;Calculator settings;Settings</string>
   <string name="golbal_search_path_calculator_setting">System apps/Calculator/Settings</string>
+  <string name="google_api_key">AIzaSyDy8GsOko9KA_ySg13UiTu-xzQhicViNyo</string>
+  <string name="google_app_id">1:724101103579:android:9f07408a363c2e9d0d31fe</string>
+  <string name="google_crash_reporting_api_key">AIzaSyDy8GsOko9KA_ySg13UiTu-xzQhicViNyo</string>
+  <string name="google_storage_bucket">mi-calculator-edb61.appspot.com</string>
   <string name="heavenly_stems_bing">丙</string>
   <string name="heavenly_stems_ding">丁</string>
   <string name="heavenly_stems_geng">庚</string>
@@ -367,6 +391,7 @@
   <string name="item_title_bmi">BMI</string>
   <string name="item_title_calculator">Calculator</string>
   <string name="item_title_currency">Currency</string>
+  <string name="item_title_data_conversion">Data</string>
   <string name="item_title_date_calculator">Date</string>
   <string name="item_title_discount">Discount</string>
   <string name="item_title_dress_size">Clothing size</string>
@@ -402,6 +427,7 @@
   <string name="label_loan_tenure">Loan tenure</string>
   <string name="label_months">Months</string>
   <string name="label_no_history">No items here yet</string>
+  <string name="label_powered_by">Powered by Mi Calculator</string>
   <string name="label_principal">Principal</string>
   <string name="label_share">Share</string>
   <string name="label_start_date">Start date</string>
@@ -607,7 +633,11 @@ One-year and five-year LPRs will be quoted on the 20th of each month (delays mig
   <string name="preference_use_voice_summary">Turn on to use speech output during calculations</string>
   <string name="preference_use_voice_title">Speech output</string>
   <string name="preference_user_feedback_title">Feedback</string>
+  <string name="privacy_disagree">After you disagree to our privacy policy terms and condition, Mi Calculator will stop collecting data and all the related data will be deleted from the servers. You may not be able to use certain features in the application. Disagree anyway?</string>
   <string name="privacy_policy">Privacy Policy</string>
+  <string name="privacy_switch">Agree to privacy policy</string>
+  <string name="privacy_switch_disagree">Disagree</string>
+  <string name="project_id">mi-calculator-edb61</string>
   <string name="radDesc">Radian</string>
   <string name="radian">rad</string>
   <string name="rate_data_provider">Interest rates are provided by hexun.com</string>
@@ -805,6 +835,8 @@ One-year and five-year LPRs will be quoted on the 20th of each month (delays mig
   <string name="unit_data_default_currency_0">JPY</string>
   <string name="unit_data_default_currency_1">USD</string>
   <string name="unit_data_default_currency_2">EUR</string>
+  <string name="unit_data_default_data_0">mb</string>
+  <string name="unit_data_default_data_1">kb</string>
   <string name="unit_data_default_length_0">m</string>
   <string name="unit_data_default_length_1">cm</string>
   <string name="unit_data_default_radix_0">10</string>
@@ -947,6 +979,12 @@ One-year and five-year LPRs will be quoted on the 20th of each month (delays mig
   <string name="unit_data_display_currency_yer">Yemeni rial</string>
   <string name="unit_data_display_currency_zar">South African rand</string>
   <string name="unit_data_display_currency_zmw">Zambian kwacha</string>
+  <string name="unit_data_display_data_b">Byte</string>
+  <string name="unit_data_display_data_gb">Gigabyte</string>
+  <string name="unit_data_display_data_kb">Kilobyte</string>
+  <string name="unit_data_display_data_mb">Megabyte</string>
+  <string name="unit_data_display_data_pb">Petabyte</string>
+  <string name="unit_data_display_data_tb">Terabyte</string>
   <string name="unit_data_display_length_au">Astronomical unit</string>
   <string name="unit_data_display_length_chi">Chi</string>
   <string name="unit_data_display_length_cm">Centimeter</string>
@@ -1059,6 +1097,12 @@ One-year and five-year LPRs will be quoted on the 20th of each month (delays mig
   <string name="unit_data_short_area_sq.rd">rd²</string>
   <string name="unit_data_short_area_sq.um">μm²</string>
   <string name="unit_data_short_area_sq.yd">yd²</string>
+  <string name="unit_data_short_data_b">B</string>
+  <string name="unit_data_short_data_gb">GB</string>
+  <string name="unit_data_short_data_kb">KB</string>
+  <string name="unit_data_short_data_mb">MB</string>
+  <string name="unit_data_short_data_pb">PB</string>
+  <string name="unit_data_short_data_tb">TB</string>
   <string name="unit_data_short_length_au">⊙</string>
   <string name="unit_data_short_length_chi">chi</string>
   <string name="unit_data_short_length_cm">cm</string>
