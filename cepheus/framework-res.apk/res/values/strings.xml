@@ -1,42 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="cancel">Cancel</string>
-    <string name="copy">Copy</string>
-    <string name="copyUrl">Copy URL</string>
-    <string name="cut">Cut</string>
-    <string name="defaultVoiceMailAlphaTag">Voicemail</string>
-    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
-    <string name="emptyPhoneNumber">(No phone number)</string>
-    <string name="httpErrorBadUrl">"Couldn't open the page because the URL is invalid."</string>
-    <string name="httpErrorUnsupportedScheme">"The protocol isn't supported."</string>
-    <string name="no">Cancel</string>
-    <string name="ok">OK</string>
-    <string name="paste">Paste</string>
-    <string name="search_go">Search</string>
-    <string name="selectAll">Select all</string>
-    <string name="unknownName">Unknown</string>
-    <string name="untitled">&lt;Untitled></string>
-    <string name="VideoView_error_button">OK</string>
-    <string name="VideoView_error_text_unknown">"Can't play this video."</string>
-    <string name="VideoView_error_title">Video problem</string>
-    <string name="yes">OK</string>
-    <string name="dialog_alert_title">Attention</string>
-    <string name="VideoView_error_text_invalid_progressive_playback">"This video isn't valid for streaming to this device."</string>
-    <string name="selectTextMode">Select text</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="fingerprint_icon_content_description">Fingerprint icon</string>
-    <string name="paste_as_plain_text">Paste as plain text</string>
-    <string name="autofill">Autofill</string>
-    <string name="config_helpPackageNameKey" />
-    <string name="config_helpPackageNameValue" />
-    <string name="config_helpIntentExtraKey" />
-    <string name="config_helpIntentNameKey" />
-    <string name="config_feedbackIntentExtraKey" />
-    <string name="config_feedbackIntentNameKey" />
-    <string name="config_defaultAssistant">com.miui.voiceassist</string>
-    <string name="config_defaultBrowser">@string/default_browser</string>
-    <string name="config_defaultDialer">com.android.contacts</string>
-    <string name="config_defaultSms">@string/default_sms_application</string>
     <string name="BaMmi">Call barring</string>
     <string name="CLIRDefaultOffNextCallOff">Caller ID defaults to not restricted. Next call: Not restricted</string>
     <string name="CLIRDefaultOffNextCallOn">Caller ID defaults to not restricted. Next call: Restricted</string>
@@ -70,6 +33,10 @@
     <string name="RuacMmi">Rejection of undesired annoying calls</string>
     <string name="SetupCallDefault">Accept call?</string>
     <string name="ThreeWCMmi">Three way calling</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"This video isn't valid for streaming to this device."</string>
+    <string name="VideoView_error_text_unknown">"Can't play this video."</string>
+    <string name="VideoView_error_title">Video problem</string>
     <string name="accept">Accept</string>
     <string name="accessibility_binding_label">Accessibility</string>
     <string name="accessibility_button_instructional_text">To switch between services, touch &amp; hold the accessibility button.</string>
@@ -165,6 +132,7 @@
     <string name="app_suspended_more_details">Learn more</string>
     <string name="app_suspended_title">App isn’t available</string>
     <string name="app_upgrading_toast">%1$s is upgrading…</string>
+    <string name="autofill">Autofill</string>
     <string name="autofill_address_line_1_label_re">address|adresse|indirizzo|住所|地址</string>
     <string name="autofill_address_line_1_re">address.?line|address1|addr1|street|strasse|straße|hausnummer|housenumber|house.?name|direccion|dirección|adresse|indirizzo|住所1|morada|endereço|Адрес|地址</string>
     <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit|adresszusatz|ergänzende.?angaben|direccion2|colonia|adicional|addresssuppl|complementnom|appartement|indirizzo2|住所2</string>
@@ -273,6 +241,7 @@
     <string name="bugreport_status" formatted="false">%s (%s)</string>
     <string name="bugreport_title">Bug report</string>
     <string name="byteShort">B</string>
+    <string name="cancel">Cancel</string>
     <string name="candidates_style"><u>candidates</u></string>
     <string name="capability_desc_canCaptureFingerprintGestures">"Can capture gestures performed on the device's fingerprint sensor."</string>
     <string name="capability_desc_canControlMagnification">"Control the display's zoom level and positioning."</string>
@@ -345,18 +314,22 @@
     <string name="config_datause_iface">rmnet0</string>
     <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
     <string name="config_defaultAppPredictionService" />
+    <string name="config_defaultAssistant">com.miui.voiceassist</string>
     <string name="config_defaultAssistantAccessComponent">android.ext.services/android.ext.services.notification.Assistant</string>
     <string name="config_defaultAttentionService" />
     <string name="config_defaultAugmentedAutofillService" />
     <string name="config_defaultAutofillService">com.miui.contentcatcher/.autofill.services.MiuiAutofillService</string>
+    <string name="config_defaultBrowser">@string/default_browser</string>
     <string name="config_defaultContentCaptureService" />
     <string name="config_defaultContentSuggestionsService" />
+    <string name="config_defaultDialer">com.android.contacts</string>
     <string name="config_defaultDndAccessPackages">com.android.camera2</string>
     <string name="config_defaultListenerAccessPackages" />
     <string name="config_defaultModuleMetadataProvider">com.android.modulemetadata</string>
     <string name="config_defaultNetworkRecommendationProviderPackage" />
     <string name="config_defaultNetworkScorerPackageName" />
     <string name="config_defaultPictureInPictureScreenEdgeInsets">16x16</string>
+    <string name="config_defaultSms">@string/default_sms_application</string>
     <string name="config_defaultSupervisionProfileOwnerComponent" />
     <string name="config_defaultSystemCaptionsManagerService" />
     <string name="config_defaultSystemCaptionsService" />
@@ -379,6 +352,8 @@
     <string name="config_emergency_call_number">112</string>
     <string name="config_ethernet_iface_regex">eth\\d</string>
     <string name="config_ethernet_tcp_buffers">524288,1048576,3145728,524288,1048576,2097152</string>
+    <string name="config_feedbackIntentExtraKey" />
+    <string name="config_feedbackIntentNameKey" />
     <string name="config_foldedArea" />
     <string name="config_forceVoiceInteractionServicePackage" />
     <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
@@ -388,6 +363,10 @@
     <string name="config_headlineFontFamily" />
     <string name="config_headlineFontFamilyMedium">@string/font_family_button_material</string>
     <string name="config_headlineFontFeatureSettings" />
+    <string name="config_helpIntentExtraKey" />
+    <string name="config_helpIntentNameKey" />
+    <string name="config_helpPackageNameKey" />
+    <string name="config_helpPackageNameValue" />
     <string name="config_iccHotswapPromptForRestartDialogComponent">@null</string>
     <string name="config_icon_mask">M50,0L100,0 100,100 0,100 0,0z</string>
     <string name="config_ims_package" />
@@ -447,9 +426,12 @@
     <string name="contentServiceTooManyDeletesNotificationDesc">Attempted to delete too many %s.</string>
     <string name="content_description_sliding_handle">Sliding handle. Touch &amp; hold.</string>
     <string name="copied">Copied</string>
+    <string name="copy">Copy</string>
+    <string name="copyUrl">Copy URL</string>
     <string name="country_selection_title">Region preference</string>
     <string name="create_contact_using">"Create contact
 using %s"</string>
+    <string name="cut">Cut</string>
     <string name="data_conn_status_title" />
     <string name="data_saver_description">To help reduce data usage, Data Saver prevents some apps from sending or receiving data in the background. An app you’re currently using can access data, but may do so less frequently. This may mean, for example, that images don’t display until you tap them.</string>
     <string name="data_saver_enable_button">Turn on</string>
@@ -491,6 +473,8 @@ using %s"</string>
     <string name="db_wal_sync_mode">NORMAL</string>
     <string name="decline">Decline</string>
     <string name="decline_remote_bugreport_action">DECLINE</string>
+    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
+    <string name="defaultVoiceMailAlphaTag">Voicemail</string>
     <string name="default_audio_route_category_name">System</string>
     <string name="default_audio_route_name">Phone</string>
     <string name="default_audio_route_name_dock_speakers">Dock speakers</string>
@@ -517,6 +501,7 @@ using %s"</string>
     <string name="dial_desc">Call selected phone number</string>
     <string name="dial_number_using">"Dial number
 using %s"</string>
+    <string name="dialog_alert_title">Attention</string>
     <string name="disable_accessibility_shortcut">Turn off Shortcut</string>
     <string name="disable_tether_notification_message">Contact your admin for details</string>
     <string name="disable_tether_notification_title">Tethering is disabled</string>
@@ -551,6 +536,7 @@ using %s"</string>
     <string name="email_desc">Email selected address</string>
     <string name="emergency_call_dialog_number_for_display">Emergency number</string>
     <string name="emergency_calls_only">Emergency calls only</string>
+    <string name="emptyPhoneNumber">(No phone number)</string>
     <string name="enablePin">Unsuccessful, enable SIM/RUIM Lock.</string>
     <string name="enable_explore_by_touch_warning_message">"%1$s wants to enable Explore by Touch. When Explore by Touch is turned on, you can hear or see descriptions of what's under your finger or perform gestures to interact with the phone."</string>
     <string name="enable_explore_by_touch_warning_title">Enable Explore by Touch?</string>
@@ -680,6 +666,7 @@ If you have questions, contact your organization's admin."</string>
     <string name="fingerprint_error_timeout">Fingerprint time out reached. Try again.</string>
     <string name="fingerprint_error_unable_to_process">Try again.</string>
     <string name="fingerprint_error_user_canceled">Fingerprint operation canceled by user.</string>
+    <string name="fingerprint_icon_content_description">Fingerprint icon</string>
     <string name="fingerprint_name_template">Finger %d</string>
     <string name="fingerprints">Fingerprints:</string>
     <string name="floating_toolbar_close_overflow_description">Close overflow</string>
@@ -753,6 +740,7 @@ If you have questions, contact your organization's admin."</string>
     <string name="hours">hours</string>
     <string name="httpError">There was a network error.</string>
     <string name="httpErrorAuth">"Couldn't authenticate."</string>
+    <string name="httpErrorBadUrl">"Couldn't open the page because the URL is invalid."</string>
     <string name="httpErrorConnect">"Couldn't connect to the server."</string>
     <string name="httpErrorFailedSslHandshake">"Couldn't establish a secure connection."</string>
     <string name="httpErrorFile">"Couldn't access the file."</string>
@@ -765,6 +753,7 @@ If you have questions, contact your organization's admin."</string>
     <string name="httpErrorTimeout">The connection to the server timed out.</string>
     <string name="httpErrorTooManyRequests">Too many requests are being processed. Try again later.</string>
     <string name="httpErrorUnsupportedAuthScheme">"The site authentication scheme isn't supported."</string>
+    <string name="httpErrorUnsupportedScheme">"The protocol isn't supported."</string>
     <string name="icu_abbrev_wday_month_day_no_year">eeeMMMMd</string>
     <string name="imProtocolAim">AIM</string>
     <string name="imProtocolCustom">Custom</string>
@@ -1161,6 +1150,7 @@ Try again in %2$d seconds."</string>
     <string name="new_sms_notification_content">Open SMS app to view</string>
     <string name="new_sms_notification_title">You have new messages</string>
     <string name="next_button_label">Next</string>
+    <string name="no">Cancel</string>
     <string name="noApplications">No apps can perform this action.</string>
     <string name="no_file_chosen">No file chosen</string>
     <string name="no_matches">No matches</string>
@@ -1216,6 +1206,7 @@ Try again in %2$d seconds."</string>
     <string name="number_picker_increment_button">Increase</string>
     <string name="number_picker_increment_scroll_action">Slide up to increase and down to decrease.</string>
     <string name="number_picker_increment_scroll_mode">%s touch &amp; hold.</string>
+    <string name="ok">OK</string>
     <string name="old_app_action">Go back to %1$s</string>
     <string name="older">Older</string>
     <string name="oneMonthDurationPast">1 month ago</string>
@@ -1233,6 +1224,8 @@ Try again in %2$d seconds."</string>
     <string name="password_keyboard_label_alpha_key">ABC</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="paste">Paste</string>
+    <string name="paste_as_plain_text">Paste as plain text</string>
     <string name="peerTtyModeFull">Peer requested TTY Mode FULL</string>
     <string name="peerTtyModeHco">Peer requested TTY Mode HCO</string>
     <string name="peerTtyModeOff">Peer requested TTY Mode OFF</string>
@@ -1666,6 +1659,7 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="screen_compat_mode_show">Always show</string>
     <string name="screen_lock">Screen lock</string>
     <string name="screenshot_edit">Edit</string>
+    <string name="search_go">Search</string>
     <string name="search_hint">Search…</string>
     <string name="search_language_hint">Type language name</string>
     <string name="searchview_description_clear">Clear query</string>
@@ -1675,6 +1669,8 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="searchview_description_voice">Voice search</string>
     <string name="second">sec</string>
     <string name="seconds">secs</string>
+    <string name="selectAll">Select all</string>
+    <string name="selectTextMode">Select text</string>
     <string name="select_character">Insert character</string>
     <string name="select_day">Select month and day</string>
     <string name="select_hours">Select hours</string>
@@ -1780,6 +1776,7 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="status_bar_mobile">mobile</string>
     <string name="status_bar_mute">mute</string>
     <string name="status_bar_nfc">nfc</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_phone_evdo_signal">phone_evdo_signal</string>
     <string name="status_bar_phone_signal">phone_signal</string>
     <string name="status_bar_rotate">rotate</string>
@@ -1856,11 +1853,13 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="turn_on_radio">Turn on wireless</string>
     <string name="tutorial_double_tap_to_zoom_message_short">Tap twice for zoom control</string>
     <string name="undo">Undo</string>
+    <string name="unknownName">Unknown</string>
     <string name="unsupported_compile_sdk_check_update">Check for update</string>
     <string name="unsupported_compile_sdk_message">%1$s was built for an incompatible version of the Android OS and may behave unexpectedly. An updated version of the app may be available.</string>
     <string name="unsupported_compile_sdk_show">Always show</string>
     <string name="unsupported_display_size_message">%1$s does not support the current Display size setting and may behave unexpectedly.</string>
     <string name="unsupported_display_size_show">Always show</string>
+    <string name="untitled">&lt;Untitled></string>
     <string name="upload_file">Choose file</string>
     <string name="usb_accessory_notification_title">USB accessory connected</string>
     <string name="usb_cd_installer_notification_title">Connected as an installer</string>
@@ -2042,6 +2041,7 @@ Do you want to close it?"</string>
     <string name="write_fail_reason_cannot_write">Error writing content</string>
     <string name="year">year</string>
     <string name="years">years</string>
+    <string name="yes">OK</string>
     <string name="zen_mode_alarm">Until %1$s (next alarm)</string>
     <string name="zen_mode_default_events_name">Event</string>
     <string name="zen_mode_default_every_night_name">Sleeping</string>
@@ -2057,88 +2057,4 @@ Do you want to close it?"</string>
     <string name="zen_upgrade_notification_title">Do Not Disturb has changed</string>
     <string name="zen_upgrade_notification_visd_content">Tap to learn more and change.</string>
     <string name="zen_upgrade_notification_visd_title">New: Do Not Disturb is hiding notifications</string>
-    <item type="string" name="APKTOOL_DUMMY_2c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_40">false</item>
-    <item type="string" name="APKTOOL_DUMMY_41">false</item>
-    <item type="string" name="APKTOOL_DUMMY_43">false</item>
-    <item type="string" name="APKTOOL_DUMMY_45">false</item>
-    <item type="string" name="APKTOOL_DUMMY_47">false</item>
-    <item type="string" name="APKTOOL_DUMMY_49">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_55">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_94">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ae">false</item>
-    <item type="string" name="APKTOOL_DUMMY_af">false</item>
-    <item type="string" name="APKTOOL_DUMMY_120">false</item>
-    <item type="string" name="APKTOOL_DUMMY_127">false</item>
-    <item type="string" name="APKTOOL_DUMMY_131">false</item>
-    <item type="string" name="APKTOOL_DUMMY_132">false</item>
-    <item type="string" name="APKTOOL_DUMMY_133">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1ce">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_206">false</item>
-    <item type="string" name="APKTOOL_DUMMY_211">false</item>
-    <item type="string" name="APKTOOL_DUMMY_212">false</item>
-    <item type="string" name="APKTOOL_DUMMY_213">false</item>
-    <item type="string" name="APKTOOL_DUMMY_214">false</item>
-    <item type="string" name="APKTOOL_DUMMY_216">false</item>
-    <item type="string" name="APKTOOL_DUMMY_230">false</item>
-    <item type="string" name="APKTOOL_DUMMY_231">false</item>
-    <item type="string" name="APKTOOL_DUMMY_232">false</item>
-    <item type="string" name="APKTOOL_DUMMY_233">false</item>
-    <item type="string" name="APKTOOL_DUMMY_234">false</item>
-    <item type="string" name="APKTOOL_DUMMY_235">false</item>
-    <item type="string" name="APKTOOL_DUMMY_236">false</item>
-    <item type="string" name="APKTOOL_DUMMY_237">false</item>
-    <item type="string" name="APKTOOL_DUMMY_238">false</item>
-    <item type="string" name="APKTOOL_DUMMY_239">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_24d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2ed">false</item>
-    <item type="string" name="APKTOOL_DUMMY_351">false</item>
-    <item type="string" name="APKTOOL_DUMMY_352">false</item>
-    <item type="string" name="APKTOOL_DUMMY_395">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3ac">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3ad">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3b0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4b2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4df">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4fe">false</item>
-    <item type="string" name="APKTOOL_DUMMY_512">false</item>
-    <item type="string" name="APKTOOL_DUMMY_522">false</item>
-    <item type="string" name="APKTOOL_DUMMY_523">false</item>
-    <item type="string" name="APKTOOL_DUMMY_54f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_553">false</item>
-    <item type="string" name="APKTOOL_DUMMY_554">false</item>
-    <item type="string" name="APKTOOL_DUMMY_56f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_57b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_597">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5a9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5af">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5cd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5d7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_608">false</item>
-    <item type="string" name="APKTOOL_DUMMY_62f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_661">false</item>
-    <item type="string" name="APKTOOL_DUMMY_67e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_67f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_76b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_798">false</item>
-    <item type="string" name="APKTOOL_DUMMY_799">false</item>
-    <item type="string" name="APKTOOL_DUMMY_79a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_821">false</item>
 </resources>

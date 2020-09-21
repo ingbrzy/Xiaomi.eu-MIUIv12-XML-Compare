@@ -1513,6 +1513,8 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="charge_animation_style_summary">Choose your preferred lock screen charging animation style</string>
+    <string name="charge_animation_style_title">Charging animation</string>
     <string name="charge_length_format">%1$s ago</string>
     <string name="charging_sounds_title">Charging sounds</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
@@ -1755,6 +1757,7 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="continue_reset_factory">Factory reset</string>
     <string name="contributors_title">Contributors</string>
     <string name="control_center">Control center</string>
+    <string name="control_panel_switch_side">Switch Control center side</string>
     <string name="controls_label">Controls</string>
     <string name="controls_subtitle">Adjust power use</string>
     <string name="convenience_key_category_title">System control</string>
@@ -1769,6 +1772,8 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="copy">Copy</string>
     <string name="copyable_slice_toast">%1$s copied to clipboard.</string>
     <string name="copyright_title">Copyright</string>
+    <string name="corner_assistant_gesture_summary">Swipe up from bottom-left or bottom-right corner to wake Google Assistant</string>
+    <string name="corner_assistant_gesture_title">Swipe up from corner for Google Assistant</string>
     <string name="country_name">%s (system)</string>
     <string name="create">Create</string>
     <string name="credential_contains">This entry contains:</string>
@@ -2066,6 +2071,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="default_suppression_title">Default (Recommended)</string>
     <string name="default_theme">Default</string>
     <string name="default_usb_mode">USB connection</string>
+    <string name="default_vol_stream_title">Default volume control stream</string>
     <string name="delete">Delete</string>
     <string name="delete_fingerprint_confirm_msg">Remove fingerprint?</string>
     <string name="delete_fingerprint_confirm_title">Attention</string>
@@ -2115,6 +2121,12 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="device_cpu4_info">Quad-core</string>
     <string name="device_cpu6_info">Hexa-core</string>
     <string name="device_cpu8_info">Octa-core</string>
+    <string name="device_description_battery">Battery capacity</string>
+    <string name="device_description_camera">Rear camera</string>
+    <string name="device_description_cpu">CPU</string>
+    <string name="device_description_ram">RAM</string>
+    <string name="device_description_resolution">Resolution</string>
+    <string name="device_description_screen">Screen size</string>
     <string name="device_details_title">Device details</string>
     <string name="device_display_layout_title">Mi 5 Features</string>
     <string name="device_edit_title">Rename phone</string>
@@ -2578,6 +2590,7 @@ For more details, contact your organization's admin."</string>
     <string name="expandable_under_keyguard_title">Show on Lock screen</string>
     <string name="experimental_category_title">Experimental</string>
     <string name="experimental_preference">(Experimental)</string>
+    <string name="extended_power_menu">Extended power menu</string>
     <string name="external_code_size_label">USB storage app</string>
     <string name="external_data_size_label">USB storage data</string>
     <string name="external_source_switch_title">Allow from this source</string>
@@ -3825,6 +3838,8 @@ as your First space PIN."</string>
     <string name="lockscreen_remote_input">If device is locked, prevent typing replies or other text in notifications</string>
     <string name="lockscreen_settings_title">Lock screen display</string>
     <string name="lockscreen_settings_what_to_show_category">What to show</string>
+    <string name="lockscreen_sidepanel_shortcuts_summary">Customize the apps displayed on the lock screen side panel</string>
+    <string name="lockscreen_sidepanel_shortcuts_title">Side panel shortcuts</string>
     <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with the cloud.</string>
     <string name="login_account_dialog_title">Sign in with Mi Account</string>
     <string name="login_account_summary">Manage accounts, cloud services, payments, and more</string>
@@ -4933,6 +4948,8 @@ Read and agree to %s before using this service."</string>
     <string name="power_key_start_enjoy">Learn more about Google Assistant</string>
     <string name="power_key_start_guide">Waking Google Assistant using the Power button on full display devices</string>
     <string name="power_label">Power</string>
+    <string name="power_menu_under_keyguard_summary">Allow access to the power menu while the device is locked</string>
+    <string name="power_menu_under_keyguard_title">Power menu access</string>
     <string name="power_mgr">Battery optimization</string>
     <string name="power_mode">Power settings</string>
     <string name="power_mode_balanced_title">Balance Power</string>
@@ -5237,6 +5254,8 @@ Read and agree to %s before using this service."</string>
     <string name="quick_reply_title">Quick replies</string>
     <string name="quick_settings_developer_tiles">Quick settings developer tiles</string>
     <string name="quick_settings_label">Toggles</string>
+    <string name="quick_settings_under_keyguard_summary">Allow access to quick settings while the device is locked</string>
+    <string name="quick_settings_under_keyguard_title">Quick settings access</string>
     <string name="quiet">Do not disturb</string>
     <string name="quiet_group">Do not disturb</string>
     <string name="quiet_important_interruptions_mode">Only allow exceptions</string>
@@ -6438,6 +6457,10 @@ A trusted credential installed on your device is making this possible."</string>
     <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">App notifications</string>
     <string name="status_bar_settings_notification_bar">Notification shade</string>
+    <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
+    <string name="status_bar_settings_qs_layout">Quick settings layout</string>
+    <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
+    <string name="status_bar_settings_show_weather">Show weather in notification shade</string>
     <string name="status_bar_settings_status_bar">Status bar</string>
     <string name="status_bar_title">Control center &amp; status bar</string>
     <string name="status_bt_address">Bluetooth address</string>
@@ -7099,6 +7122,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
     <string name="unlogin_account_summary">All Mi services. One Mi Account.</string>
     <string name="unlogin_account_title">Sign in to Mi Account</string>
     <string name="unmount_inform_text">USB storage will be unmounted.</string>
+    <string name="unmute_sound_title">Unmute sound</string>
     <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
     <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
     <string name="unrestricted_app_title">Unrestricted data usage</string>
@@ -8553,126 +8577,4 @@ Update settings to:
     <string name="zone_menu_by_region">Select by region</string>
     <string name="zone_time_type_dst">Daylight savings time</string>
     <string name="zone_time_type_standard">Standard time</string>
-    <item type="string" name="APKTOOL_DUMMY_52">false</item>
-    <item type="string" name="APKTOOL_DUMMY_53">false</item>
-    <item type="string" name="APKTOOL_DUMMY_151">false</item>
-    <item type="string" name="APKTOOL_DUMMY_152">false</item>
-    <item type="string" name="APKTOOL_DUMMY_296">false</item>
-    <item type="string" name="APKTOOL_DUMMY_297">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2f0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3d9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3da">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_687">false</item>
-    <item type="string" name="APKTOOL_DUMMY_688">false</item>
-    <item type="string" name="APKTOOL_DUMMY_689">false</item>
-    <item type="string" name="APKTOOL_DUMMY_746">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7e9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7f6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7f7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_80e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_841">false</item>
-    <item type="string" name="APKTOOL_DUMMY_842">false</item>
-    <item type="string" name="APKTOOL_DUMMY_843">false</item>
-    <item type="string" name="APKTOOL_DUMMY_844">false</item>
-    <item type="string" name="APKTOOL_DUMMY_845">false</item>
-    <item type="string" name="APKTOOL_DUMMY_846">false</item>
-    <item type="string" name="APKTOOL_DUMMY_847">false</item>
-    <item type="string" name="APKTOOL_DUMMY_848">false</item>
-    <item type="string" name="APKTOOL_DUMMY_849">false</item>
-    <item type="string" name="APKTOOL_DUMMY_84a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_84b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_84d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_919">false</item>
-    <item type="string" name="APKTOOL_DUMMY_966">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a1d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a27">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b00">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b01">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b1a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b1b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b1c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b1d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b1e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b1f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b20">false</item>
-    <item type="string" name="APKTOOL_DUMMY_cbf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_d68">false</item>
-    <item type="string" name="APKTOOL_DUMMY_d69">false</item>
-    <item type="string" name="APKTOOL_DUMMY_118a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_118c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_12bd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_13cf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_14a8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_15d2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_168e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1727">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1798">false</item>
-    <item type="string" name="APKTOOL_DUMMY_179b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_179d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_183a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_183c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1843">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1844">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1845">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1847">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1848">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1849">false</item>
-    <item type="string" name="APKTOOL_DUMMY_184a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_184b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_184d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_184f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1851">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1852">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1853">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1854">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1856">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1858">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1859">false</item>
-    <item type="string" name="APKTOOL_DUMMY_185a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_185b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_185c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_185d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_185e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_185f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1861">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1862">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1863">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1864">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1865">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1866">false</item>
-    <item type="string" name="APKTOOL_DUMMY_186c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1871">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1884">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1889">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d3f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1df7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e44">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e45">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f0e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f40">false</item>
-    <string name="device_description_cpu">CPU</string>
-    <string name="device_description_battery">Battery capacity</string>
-    <string name="device_description_camera">Rear camera</string>
-    <string name="device_description_screen">Screen size</string>
-    <string name="device_description_resolution">Resolution</string>
-    <string name="device_description_ram">RAM</string>
-    <string name="default_vol_stream_title">Default volume control stream</string>
-    <string name="extended_power_menu">Extended power menu</string>
-    <string name="lockscreen_sidepanel_shortcuts_title">Side panel shortcuts</string>
-    <string name="lockscreen_sidepanel_shortcuts_summary">Customize the apps displayed on the lock screen side panel</string>
-    <string name="power_menu_under_keyguard_title">Power menu access</string>
-    <string name="power_menu_under_keyguard_summary">Allow access to the power menu while the device is locked</string>
-    <string name="quick_settings_under_keyguard_title">Quick settings access</string>
-    <string name="quick_settings_under_keyguard_summary">Allow access to quick settings while the device is locked</string>
-    <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
-    <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
-    <string name="status_bar_settings_show_weather">Show weather in notification shade</string>
-    <string name="status_bar_settings_qs_layout">Quick settings layout</string>
-    <string name="unmute_sound_title">Unmute sound</string>
-    <string name="charge_animation_style_title">Charging animation</string>
-    <string name="charge_animation_style_summary">Choose your preferred lock screen charging animation style</string>
-    <string name="control_panel_switch_side">Switch Control center side</string>
-    <string name="corner_assistant_gesture_title">Swipe up from corner for Google Assistant</string>
-    <string name="corner_assistant_gesture_summary">Swipe up from bottom-left or bottom-right corner to wake Google Assistant</string>
 </resources>
