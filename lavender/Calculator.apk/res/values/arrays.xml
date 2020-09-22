@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="height_array">
-        <item>Centimeters</item>
-        <item>Meters</item>
-        <item>Feet</item>
-        <item>Inches</item>
-    </string-array>
-    <string-array name="loan_rulers">
-        <item>@string/loan_type_summary_lpr</item>
-        <item>@string/loan_type_summary_base</item>
-    </string-array>
-    <string-array name="mortgage_repayment">
-        <item>Equal installments</item>
-        <item>Decreasing installments</item>
-    </string-array>
-    <string-array name="operatorDescs">
-        <item>left parenthesis</item>
-        <item>right parenthesis</item>
-        <item>factorial</item>
-        <item>natural logarithm</item>
-        <item>logarithm</item>
-        <item>square root</item>
-        <item>divided by</item>
-        <item>multiplied by</item>
-        <item>plus</item>
-        <item>minus</item>
-        <item> point </item>
-        <item>power</item>
-        <item>tangent</item>
-        <item>sine</item>
-        <item>cosine</item>
-        <item>pi</item>
-        <item>equals</item>
-    </string-array>
-    <string-array name="unit_data_order_currency_">
-        <item>USD</item>
-        <item>EUR</item>
-        <item>JPY</item>
-    </string-array>
-    <string-array name="weight_array">
-        <item>Kilograms</item>
-        <item>Pounds</item>
-    </string-array>
     <string-array name="alphabet_table">
         <item>A</item>
         <item>B</item>
@@ -191,6 +149,16 @@
         <item>@string/heavenly_stems_ren</item>
         <item>@string/heavenly_stems_gui</item>
     </string-array>
+    <string-array name="height_array">
+        <item>Centimeters</item>
+        <item>Meters</item>
+        <item>Feet</item>
+        <item>Inches</item>
+    </string-array>
+    <string-array name="loan_rulers">
+        <item>@string/loan_type_summary_lpr</item>
+        <item>@string/loan_type_summary_base</item>
+    </string-array>
     <string-array name="months">
         <item>@string/month_january</item>
         <item>@string/month_february</item>
@@ -232,6 +200,29 @@
         <item>@string/month_october_shortest</item>
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
+    </string-array>
+    <string-array name="mortgage_repayment">
+        <item>Equal installments</item>
+        <item>Decreasing installments</item>
+    </string-array>
+    <string-array name="operatorDescs">
+        <item>left parenthesis</item>
+        <item>right parenthesis</item>
+        <item>factorial</item>
+        <item>natural logarithm</item>
+        <item>logarithm</item>
+        <item>square root</item>
+        <item>divided by</item>
+        <item>multiplied by</item>
+        <item>plus</item>
+        <item>minus</item>
+        <item> point </item>
+        <item>power</item>
+        <item>tangent</item>
+        <item>sine</item>
+        <item>cosine</item>
+        <item>pi</item>
+        <item>equals</item>
     </string-array>
     <string-array name="operators">
         <item>(</item>
@@ -305,6 +296,11 @@
         <item>mu</item>
         <item>sq.chi</item>
         <item>sq.cun</item>
+    </string-array>
+    <string-array name="unit_data_order_currency_">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>JPY</item>
     </string-array>
     <string-array name="unit_data_order_data_">
         <item>b</item>
@@ -471,5 +467,9 @@
         <item>@string/thursday_shortest</item>
         <item>@string/friday_shortest</item>
         <item>@string/saturday_shortest</item>
+    </string-array>
+    <string-array name="weight_array">
+        <item>Kilograms</item>
+        <item>Pounds</item>
     </string-array>
 </resources>
