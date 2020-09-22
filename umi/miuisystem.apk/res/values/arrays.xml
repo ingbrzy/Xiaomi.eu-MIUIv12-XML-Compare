@@ -1,5 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="cta_permission_names">
+        <item>access network</item>
+        <item>read SMS</item>
+        <item>modify SMS</item>
+        <item>receive SMS</item>
+        <item>send SMS</item>
+        <item>call phone</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>read call log</item>
+        <item>modify call log</item>
+        <item>access camera</item>
+        <item>access location</item>
+    </string-array>
+    <string-array name="cta_permissions">
+        <item>PERMISSION_ACCESS_NETWORK</item>
+        <item>PERMISSION_READ_SMS</item>
+        <item>PERMISSION_WRITE_SMS</item>
+        <item>PERMISSION_RECEIVE_SMS</item>
+        <item>PERMISSION_SEND_SMS</item>
+        <item>PERMISSION_CALL_PHONE</item>
+        <item>PERMISSION_READ_CONTACTS</item>
+        <item>PERMISSION_WRITE_CONTACTS</item>
+        <item>PERMISSION_READ_CALL_LOG</item>
+        <item>PERMISSION_WRITE_CALL_LOG</item>
+        <item>PERMISSION_CAMERA</item>
+        <item>PERMISSION_ACCESS_LOCATION</item>
+    </string-array>
+    <string-array name="di_zhi">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+    <string-array name="eu_regions">
+        <item>AT</item>
+        <item>BE</item>
+        <item>BG</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>DE</item>
+        <item>DK</item>
+        <item>EE</item>
+        <item>ES</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GB</item>
+        <item>GR</item>
+        <item>HR</item>
+        <item>HU</item>
+        <item>IE</item>
+        <item>IT</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>LV</item>
+        <item>MT</item>
+        <item>NL</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>SE</item>
+        <item>SI</item>
+        <item>SK</item>
+    </string-array>
+    <string-array name="jia_zi">
+        <item>甲子</item>
+        <item>乙丑</item>
+        <item>丙寅</item>
+        <item>丁卯</item>
+        <item>戊辰</item>
+        <item>己巳</item>
+        <item>庚午</item>
+        <item>辛未</item>
+        <item>壬申</item>
+        <item>癸酉</item>
+        <item>甲戌</item>
+        <item>乙亥</item>
+        <item>丙子</item>
+        <item>丁丑</item>
+        <item>戊寅</item>
+        <item>己卯</item>
+        <item>庚辰</item>
+        <item>辛巳</item>
+        <item>壬午</item>
+        <item>癸未</item>
+        <item>甲申</item>
+        <item>乙酉</item>
+        <item>丙戌</item>
+        <item>丁亥</item>
+        <item>戊子</item>
+        <item>己丑</item>
+        <item>庚寅</item>
+        <item>辛卯</item>
+        <item>壬辰</item>
+        <item>癸巳</item>
+        <item>甲午</item>
+        <item>乙未</item>
+        <item>丙申</item>
+        <item>丁酉</item>
+        <item>戊戌</item>
+        <item>己亥</item>
+        <item>庚子</item>
+        <item>辛丑</item>
+        <item>壬寅</item>
+        <item>癸卯</item>
+        <item>甲辰</item>
+        <item>乙巳</item>
+        <item>丙午</item>
+        <item>丁未</item>
+        <item>戊申</item>
+        <item>己酉</item>
+        <item>庚戌</item>
+        <item>辛亥</item>
+        <item>壬子</item>
+        <item>癸丑</item>
+        <item>甲寅</item>
+        <item>乙卯</item>
+        <item>丙辰</item>
+        <item>丁巳</item>
+        <item>戊午</item>
+        <item>己未</item>
+        <item>庚申</item>
+        <item>辛酉</item>
+        <item>壬戌</item>
+        <item>癸亥</item>
+    </string-array>
+    <string-array name="miui_nature_sound_array">
+        <item>/system/media/audio/ui/WaterDrop_preview.ogg</item>
+        <item>/system/media/audio/ui/BirdCicada_preview.ogg</item>
+    </string-array>
     <string-array name="mobile_operator_display_names">
         <item>China Mobile</item>
         <item>China Unicom</item>
@@ -143,144 +281,6 @@
         <item>中麦通信</item>
         <item>分享通信</item>
         <item>小米移动</item>
-    </string-array>
-    <string-array name="miui_nature_sound_array">
-        <item>/system/media/audio/ui/WaterDrop_preview.ogg</item>
-        <item>/system/media/audio/ui/BirdCicada_preview.ogg</item>
-    </string-array>
-    <string-array name="cta_permission_names">
-        <item>access network</item>
-        <item>read SMS</item>
-        <item>modify SMS</item>
-        <item>receive SMS</item>
-        <item>send SMS</item>
-        <item>call phone</item>
-        <item>read contacts</item>
-        <item>modify contacts</item>
-        <item>read call log</item>
-        <item>modify call log</item>
-        <item>access camera</item>
-        <item>access location</item>
-    </string-array>
-    <string-array name="cta_permissions">
-        <item>PERMISSION_ACCESS_NETWORK</item>
-        <item>PERMISSION_READ_SMS</item>
-        <item>PERMISSION_WRITE_SMS</item>
-        <item>PERMISSION_RECEIVE_SMS</item>
-        <item>PERMISSION_SEND_SMS</item>
-        <item>PERMISSION_CALL_PHONE</item>
-        <item>PERMISSION_READ_CONTACTS</item>
-        <item>PERMISSION_WRITE_CONTACTS</item>
-        <item>PERMISSION_READ_CALL_LOG</item>
-        <item>PERMISSION_WRITE_CALL_LOG</item>
-        <item>PERMISSION_CAMERA</item>
-        <item>PERMISSION_ACCESS_LOCATION</item>
-    </string-array>
-    <string-array name="di_zhi">
-        <item>子</item>
-        <item>丑</item>
-        <item>寅</item>
-        <item>卯</item>
-        <item>辰</item>
-        <item>巳</item>
-        <item>午</item>
-        <item>未</item>
-        <item>申</item>
-        <item>酉</item>
-        <item>戌</item>
-        <item>亥</item>
-    </string-array>
-    <string-array name="eu_regions">
-        <item>AT</item>
-        <item>BE</item>
-        <item>BG</item>
-        <item>CY</item>
-        <item>CZ</item>
-        <item>DE</item>
-        <item>DK</item>
-        <item>EE</item>
-        <item>ES</item>
-        <item>FI</item>
-        <item>FR</item>
-        <item>GB</item>
-        <item>GR</item>
-        <item>HR</item>
-        <item>HU</item>
-        <item>IE</item>
-        <item>IT</item>
-        <item>LT</item>
-        <item>LU</item>
-        <item>LV</item>
-        <item>MT</item>
-        <item>NL</item>
-        <item>PL</item>
-        <item>PT</item>
-        <item>RO</item>
-        <item>SE</item>
-        <item>SI</item>
-        <item>SK</item>
-    </string-array>
-    <string-array name="jia_zi">
-        <item>甲子</item>
-        <item>乙丑</item>
-        <item>丙寅</item>
-        <item>丁卯</item>
-        <item>戊辰</item>
-        <item>己巳</item>
-        <item>庚午</item>
-        <item>辛未</item>
-        <item>壬申</item>
-        <item>癸酉</item>
-        <item>甲戌</item>
-        <item>乙亥</item>
-        <item>丙子</item>
-        <item>丁丑</item>
-        <item>戊寅</item>
-        <item>己卯</item>
-        <item>庚辰</item>
-        <item>辛巳</item>
-        <item>壬午</item>
-        <item>癸未</item>
-        <item>甲申</item>
-        <item>乙酉</item>
-        <item>丙戌</item>
-        <item>丁亥</item>
-        <item>戊子</item>
-        <item>己丑</item>
-        <item>庚寅</item>
-        <item>辛卯</item>
-        <item>壬辰</item>
-        <item>癸巳</item>
-        <item>甲午</item>
-        <item>乙未</item>
-        <item>丙申</item>
-        <item>丁酉</item>
-        <item>戊戌</item>
-        <item>己亥</item>
-        <item>庚子</item>
-        <item>辛丑</item>
-        <item>壬寅</item>
-        <item>癸卯</item>
-        <item>甲辰</item>
-        <item>乙巳</item>
-        <item>丙午</item>
-        <item>丁未</item>
-        <item>戊申</item>
-        <item>己酉</item>
-        <item>庚戌</item>
-        <item>辛亥</item>
-        <item>壬子</item>
-        <item>癸丑</item>
-        <item>甲寅</item>
-        <item>乙卯</item>
-        <item>丙辰</item>
-        <item>丁巳</item>
-        <item>戊午</item>
-        <item>己未</item>
-        <item>庚申</item>
-        <item>辛酉</item>
-        <item>壬戌</item>
-        <item>癸亥</item>
     </string-array>
     <array name="religious_languages" />
     <array name="religious_regions" />
