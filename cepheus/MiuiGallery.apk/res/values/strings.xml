@@ -275,7 +275,7 @@
     <string name="burst_photo_enter" />
     <string name="burst_preview_title">Burst shot</string>
     <string name="burst_save_all">Keep all photos</string>
-    <string name="burst_save_choice_title" formatted="false">Selected %d out of %d</string>
+    <string name="burst_save_choice_title">Selected %1$d out of %2$d</string>
     <string name="burst_save_dialog_title">Select which photos to keep</string>
     <string name="burst_save_error_msg">"Couldn't save"</string>
     <string name="burst_save_processing">Processing…</string>
@@ -1048,7 +1048,7 @@
     <string name="empty_album_other_list_title">No albums here</string>
     <string name="empty_album_rubbish_list_title">No albums here</string>
     <string name="empty_description_conditions">Remember the things that matter</string>
-    <string name="empty_description_conditions_new">"Make sure you've taken enough photos, connect charger, and turn off screen to make items appear sooner here."</string>
+    <string name="empty_description_conditions_new">Connect charger and turn off the screen to make items appear sooner here</string>
     <string name="empty_description_no_cards">"Keep taking photos. Items will appear here as soon as they're generated."</string>
     <string name="empty_query_text_msg">"Don't know what to search for…"</string>
     <string name="empty_recommend_back">Back</string>
@@ -1228,8 +1228,15 @@ are available"</string>
     <string name="filter_movie_travel">Travel</string>
     <string name="filter_movie_wonderful">Wonder</string>
     <string name="filter_original">None</string>
+    <string name="filter_popular_autumn">Autumn</string>
     <string name="filter_popular_bluedream">Slumber</string>
+    <string name="filter_popular_coffee">Coffee</string>
+    <string name="filter_popular_coldsmoke">Cool mist</string>
+    <string name="filter_popular_comic">Anime</string>
+    <string name="filter_popular_dream">Reverie</string>
+    <string name="filter_popular_hill">Hills</string>
     <string name="filter_popular_humanity">Documentary</string>
+    <string name="filter_popular_kamakura">Kamakura</string>
     <string name="filter_popular_lnk">Ink</string>
     <string name="filter_popular_purple">Purple</string>
     <string name="filter_popular_shallow_summer">June</string>
@@ -1430,6 +1437,7 @@ are available"</string>
     <string name="input_or_select_a_name">Enter or select a name</string>
     <string name="input_relation_name">Enter group name</string>
     <string name="install_fail">"Couldn't load plug-in due to an error."</string>
+    <string name="internal_storage_device">Internal storage</string>
     <string name="invalid_invition_url">Invalid invitation URL</string>
     <string name="invalid_recipient_message">The recipient names you entered are invalid</string>
     <string name="invite_sharer_confirm_button_text">Invite</string>
@@ -1743,6 +1751,8 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="operation_move_to_other_albums">Move to other albums</string>
     <string name="operation_move_to_rubbish_albums">Move to trash</string>
     <string name="operation_not_show_in_photos_tab">"Don't show in Photos"</string>
+    <string name="operation_photo_rename">Rename</string>
+    <string name="operation_pic_to_pdf">Create PDF</string>
     <string name="operation_produce">Creativity</string>
     <string name="operation_projection">Cast</string>
     <string name="operation_remove_face">Remove</string>
@@ -1906,6 +1916,18 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="photo_vlog_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_vlog_module_finish">Downloaded video editor successfully</string>
     <string name="photo_vlog_module_loading">Downloading video editor…</string>
+    <string name="photodetail_failed_already_exist">This file already exists</string>
+    <string name="photodetail_rename_failed">"Couldn't rename"</string>
+    <string name="photodetail_rename_invalid">"Filenames can't contain these characters: /\\:*?&lt;>|."</string>
+    <string name="photodetail_rename_success">Renamed successfully</string>
+    <string name="photodetail_rename_title">Rename</string>
+    <string name="photodetail_rename_too_long">The filename you entered is too long</string>
+    <string name="pic_to_pdf_a4_format">A4 paper</string>
+    <string name="pic_to_pdf_all_not_support">"Selected images can't be saved as PDF"</string>
+    <string name="pic_to_pdf_exit_notice">"This PDF won't be saved if you exit now. Exit anyway?"</string>
+    <string name="pic_to_pdf_not_support_video">"Videos can't be saved as PDF"</string>
+    <string name="pic_to_pdf_preview_loading">Loading preview…</string>
+    <string name="pic_to_pdf_save_in">Saved PDF to %s</string>
     <string name="pick_from_contact">Choose from contacts</string>
     <string name="pick_people_cover_fail">An error occurred. Try again.</string>
     <string name="pick_people_cover_page_title">Select cover photo</string>
@@ -2055,6 +2077,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
+    <string name="save_error_try_a_different_template_msg">"Couldn't save. The image is too big."</string>
     <string name="scan_barcode_guide">"To get album's QR code, tap the Share icon."</string>
     <string name="scan_barcode_to_join">Scan QR code to add album</string>
     <string name="scan_qr_code_buttom_text">Scan QR code to view this album</string>
@@ -2132,6 +2155,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="search_title_more">More</string>
     <string name="search_title_others">All results</string>
     <string name="search_title_people">People</string>
+    <string name="search_title_photo_name">Filename</string>
     <string name="search_title_recommend">Recommended</string>
     <string name="search_title_suggestion">Suggestions</string>
     <string name="search_title_tag">Objects</string>
@@ -2437,6 +2461,9 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="to_enable_sync_dialog_message">Turn on sync first</string>
     <string name="to_enable_sync_dialog_positive_button_text">Go to Settings</string>
     <string name="to_enable_sync_dialog_title">Sync</string>
+    <string name="toast_invalid_char">"Filenames can't contain \"%s\""</string>
+    <string name="toast_invalid_prefix">"Filenames can't start with \".\" or \"_\""</string>
+    <string name="toast_rename_exit">This file already exists</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="too_many_recipients">"Can't add more than %2$s recipients (You've currently added %1$s)."</string>
