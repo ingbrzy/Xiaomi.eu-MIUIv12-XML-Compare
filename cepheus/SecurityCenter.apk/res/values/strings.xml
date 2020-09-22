@@ -721,6 +721,7 @@ You will not lose any app data."</string>
     <string name="boot_time">On at %1$s</string>
     <string name="boot_time_day">On in %1$dd at %2$s</string>
     <string name="boot_time_day_tomorrow">On tomorrow at %1$s</string>
+    <string name="bottom_func_guide_default_text">More features</string>
     <string name="btn_back">Back</string>
     <string name="btn_finish_diagnostic">OK</string>
     <string name="btn_start_diagnostic">Test network</string>
@@ -1225,10 +1226,14 @@ medical card"</string>
     <string name="exception_notify_message">"Couldn't calculate data stats due to an error. Reboot to restore."</string>
     <string name="exception_titile">An error occurred</string>
     <string name="exit">Exit</string>
+    <string name="exit_dialog_exit">Exit</string>
     <string name="exit_dialog_garbage_clean_message">The amount of trash on your device is more than %s. Clean up trash?</string>
+    <string name="exit_dialog_garbage_clean_message_new"><Data>Cleaner can free up &lt;font color=#0099ff>%s&lt;/font> of storage space. Clean now?</Data></string>
     <string name="exit_dialog_garbage_clean_positive_button">Clean up</string>
-    <string name="exit_dialog_garbage_clean_title">Clean up trash</string>
+    <string name="exit_dialog_garbage_clean_title">Free up storage space</string>
     <string name="exit_dialog_homepage_optimise_message">"Your device's performance score is lower than 80 points. Optimize now?"</string>
+    <string name="exit_dialog_release_memory_positive_button">Close</string>
+    <string name="exit_dialog_release_memory_title"><Data>Speed up your device by &lt;font color=#0099ff>%d%%&lt;/font></Data></string>
     <string name="exit_dialog_release_storage_message">More than 80% of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
     <string name="exit_dialog_release_storage_positive_button">Free up space</string>
     <string name="exit_dialog_release_storage_title">Free up space</string>
@@ -1983,6 +1988,7 @@ Your device is %d%% faster now."</string>
     <string name="menu_item_notification_antispam_text_avail">Blocklist</string>
     <string name="menu_item_notification_antispam_text_normal">Blocklist</string>
     <string name="menu_item_notification_garbage_text">%s</string>
+    <string name="menu_item_notification_optimize_text">%d%% occupied</string>
     <string name="menu_item_notification_power_text">Battery optimization</string>
     <string name="menu_item_notification_title">Show menu in notification shade</string>
     <string name="menu_item_shortcut_summary">Place features on your Home screen</string>
@@ -2016,8 +2022,9 @@ Your device is %d%% faster now."</string>
     <string name="menu_summary_power_manager_4">%s until full</string>
     <string name="menu_text_antispam">Blocklist</string>
     <string name="menu_text_antivirus">Security scan</string>
+    <string name="menu_text_deepclean_summary" formatted="false">%1s/%2s occupied</string>
     <string name="menu_text_garbage_cleanup">Cleaner</string>
-    <string name="menu_text_garbage_cleanup_danger">%s</string>
+    <string name="menu_text_garbage_cleanup_danger">%s of trash</string>
     <string name="menu_text_license_manager">Permissions</string>
     <string name="menu_text_networkassistants">Data usage</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
@@ -2887,7 +2894,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="renew_now">Renew</string>
     <string name="repair">Repair</string>
     <string name="repair_loading_text">Just a sec…</string>
-    <string name="repeated_marked_number_summary">"Don't block a second call from the same reported number within 3 minutes"</string>
+    <string name="repeated_marked_number_summary">"Don't block a second call from the same reported number within %d minutes"</string>
     <string name="repeated_marked_number_title">"Don't block repeated calls from reported numbers"</string>
     <string name="replace_dns">Replace DNS automatically</string>
     <string name="report">Report</string>
@@ -3180,7 +3187,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="st_msg_settings">SMS blocklist</string>
     <string name="st_msg_stranger_group">Block messages from strangers</string>
     <string name="st_settings_name">Blocklist settings</string>
-    <string name="st_share_settings">Use SIM 1 settings</string>
+    <string name="st_share_settings">Use SIM %d settings</string>
     <string name="st_sub_title_customize_mode_name">Name</string>
     <string name="st_sub_title_whiteblack_list_group">Blocklist</string>
     <string name="st_sum_call_wait">Your away message will also be played as a busy signal for incoming calls.</string>
@@ -3313,6 +3320,12 @@ To use this ^1 with this device, you have to set it up first."</string>
 
 Formatting will erase existing content on the ^2. To avoid losing content, back it up to another ^3 or device."</string>
     <string name="storage_wizard_format_confirm_v2_title">Format this ^1 now?</string>
+    <string name="stranger_call_dialog_add_block_list">Block</string>
+    <string name="stranger_call_dialog_add_contacts">New contact</string>
+    <string name="stranger_call_dialog_notification_body">Add to contacts or block this number</string>
+    <string name="stranger_call_dialog_notification_title_format">Unknown number %s</string>
+    <string name="stranger_call_dialog_subtitle_format">"%s isn't among your contacts. You can add this phone number to contacts or block it."</string>
+    <string name="stranger_call_dialog_title">"Unknown number "</string>
     <string name="suggest_app_tolock">Suggestions</string>
     <string name="suggest_app_tolock_masked">Content hidden</string>
     <string name="suggest_app_tolock_unmasked">Visible notifications</string>
