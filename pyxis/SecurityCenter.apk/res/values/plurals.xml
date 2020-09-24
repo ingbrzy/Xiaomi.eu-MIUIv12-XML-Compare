@@ -80,9 +80,17 @@
         <item quantity="other">Used %d years ago</item>
         <item quantity="one">Used %d year ago</item>
     </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">You can use App lock with %1$s apps</item>
+        <item quantity="one">You can use App lock with %1$s app</item>
+    </plurals>
     <plurals name="applock_guide_app_count_tips">
         <item quantity="other">You can protect at least %s apps</item>
         <item quantity="one">You can protect at least %s app</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s apps will be protected with App lock</item>
+        <item quantity="one">%s app will be protected with App lock</item>
     </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d apps can connect to the network in the background</item>
@@ -119,6 +127,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="ew_concern_date">
         <item quantity="other">%d days ago</item>
         <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="exit_dialog_release_memory_message">
+        <item quantity="other">&lt;Data>Close &lt;font color=#0099ff>%d&lt;/font> apps to speed up your device?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Close &lt;font color=#0099ff>%d&lt;/font> app to speed up your device?&lt;/Data></item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">Search among %d apps</item>
