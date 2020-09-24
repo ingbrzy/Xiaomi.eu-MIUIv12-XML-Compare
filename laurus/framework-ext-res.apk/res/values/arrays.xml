@@ -34,6 +34,9 @@
     <item type="array" name="android_special_locale_names">@android:array/special_locale_names</item>
     <array name="boot_msg_text" />
     <array name="config_BrightnessCurvesLux" />
+    <string-array name="config_France_Orange_IPV6_array">
+        <item>apollo</item>
+    </string-array>
     <string-array name="config_Poland_Orange_IPV6_array">
         <item>lavender</item>
         <item>onc</item>
@@ -298,6 +301,20 @@
         <item>1.0</item>
         <item>1.2</item>
         <item>1.4</item>
+    </string-array>
+    <string-array name="key_and_gesture_shortcut_def_function_list">
+        <item>double_click_power_key</item>
+        <item>three_gesture_down</item>
+        <item>three_gesture_long_press</item>
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_menu_key_when_lock</item>
+        <item>double_knock</item>
+        <item>knock_slide_shape</item>
+        <item>knock_long_press_horizontal_slid</item>
+        <item>knock_gesture_v</item>
+        <item>back_double_tap</item>
+        <item>back_triple_tap</item>
     </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.apps.messaging</item>
@@ -1422,6 +1439,7 @@
         <item>da_DK</item>
         <item>de_DE</item>
         <item>et_EE</item>
+        <item>en_AU</item>
         <item>en_IN</item>
         <item>en_GB</item>
         <item>en_US</item>

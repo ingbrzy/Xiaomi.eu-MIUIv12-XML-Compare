@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="emailAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
-    </string-array>
-    <string-array name="imProtocols">
-        <item>AIM</item>
-        <item>Windows Live</item>
-        <item>Yahoo</item>
-        <item>Skype</item>
-        <item>QQ</item>
-        <item>Google Talk</item>
-        <item>ICQ</item>
-        <item>Jabber</item>
-    </string-array>
-    <string-array name="organizationTypes">
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
-    </string-array>
-    <string-array name="phoneTypes">
-        <item>Home</item>
-        <item>Mobile</item>
-        <item>Work</item>
-        <item>Work Fax</item>
-        <item>Home Fax</item>
-        <item>Pager</item>
-        <item>Other</item>
-        <item>Custom</item>
-    </string-array>
-    <string-array name="postalAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
-    </string-array>
-    <array name="config_keySystemUuidMapping" />
     <string-array name="ae_preload_packages">
         <item>com.mi.global.bbs</item>
         <item>com.alibaba.aliexpresshd</item>
@@ -373,6 +335,7 @@
         <item>emergency</item>
     </string-array>
     <array name="config_hideWhenDisabled_packageNames" />
+    <array name="config_keySystemUuidMapping" />
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
@@ -725,6 +688,12 @@
         <item>com.google.android.apps.magazines</item>
         <item>com.google.android.videos</item>
     </string-array>
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
     <string-array name="es_preload_packages">
         <item>com.mi.global.bbs</item>
         <item>com.mi.global.shop</item>
@@ -829,6 +798,16 @@
         <item>Work</item>
         <item>Other</item>
         <item>Custom</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
     </string-array>
     <string-array name="in_preload_packages">
         <item>com.mi.global.bbs</item>
@@ -963,6 +942,11 @@
         <item>20404;suffix;BAE0000000000000</item>
     </string-array>
     <array name="non_removable_euicc_slots" />
+    <string-array name="organizationTypes">
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
     <string-array name="ph_preload_packages">
         <item>com.mi.global.bbs</item>
         <item>com.lazada.android</item>
@@ -973,6 +957,16 @@
         <item>com.google.android.music</item>
         <item>com.google.android.apps.magazines</item>
         <item>com.google.android.videos</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+        <item>Custom</item>
     </string-array>
     <string-array name="pl_preload_packages">
         <item>com.mi.global.bbs</item>
@@ -985,6 +979,12 @@
         <item>com.google.android.music</item>
         <item>com.google.android.apps.magazines</item>
         <item>com.google.android.videos</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
     </string-array>
     <array name="preloaded_color_state_lists" />
     <array name="preloaded_drawables">
