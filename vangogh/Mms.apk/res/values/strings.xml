@@ -35,6 +35,7 @@
     <string name="activity_not_found">No app was found to handle this action</string>
     <string name="activity_not_found_uri">No app was found to handle this action</string>
     <string name="ad_close_button_text">Promotional</string>
+    <string name="ad_notification_title">Unimportant messages</string>
     <string name="addBlackList">Block</string>
     <string name="add_attachment">Add attachments</string>
     <string name="add_contact">vCard</string>
@@ -792,14 +793,15 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="pref_delivery_ringtone">Delivery sound</string>
     <string name="pref_edit_smsc_address">Short Message service center (SMSC)</string>
     <string name="pref_forward_title">Forward</string>
+    <string name="pref_group_ad_mms_recognition">Group promotional messages</string>
     <string name="pref_hide_verification_code_summary">Automatically hide one-time passwords in message notifications on secured Lock screen</string>
     <string name="pref_messages_to_save">Set number of messages to save</string>
     <string name="pref_mms_settings_title">Multimedia (MMS) messages</string>
     <string name="pref_msg_trash_bin_title">Deleted messages</string>
     <string name="pref_notification_settings_title">Notifications</string>
     <string name="pref_other_title">Additional settings</string>
-    <string name="pref_rcs_show_report_message">回执报告</string>
-    <string name="pref_rcs_show_report_message_tip">对方收到短信后返回已读状态</string>
+    <string name="pref_rcs_show_report_message">Receive delivery reports</string>
+    <string name="pref_rcs_show_report_message_tip">Receive reports when your messages are delivered to the other person</string>
     <string name="pref_show_blocked_messages_summary">Show blocked SMS in conversations list</string>
     <string name="pref_show_list_avatar_summary">Show profile photos and contact info in list view</string>
     <string name="pref_show_photo_word_summary">Automatically assign a picture to contacts without one</string>
@@ -809,10 +811,12 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="pref_smart_messages_settings">Smart Messaging</string>
     <string name="pref_sms_storage_title">Storage</string>
     <string name="pref_sms_theme_title">Display</string>
+    <string name="pref_summary_ad_mms_recognition">Place promotional messages on a separate tab</string>
     <string name="pref_summary_allow_si_sl_push">Allow messages to load content from websites</string>
     <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
     <string name="pref_summary_collapse_ad_notification">Display all promotional messages in a separate Notification shade folder</string>
     <string name="pref_summary_collapse_ad_notification_mms">Display all promotional messages in a separate tab</string>
+    <string name="pref_summary_collapse_ad_notification_mms_new">Group promotional messages and mark them as unimportant in the Notification shade</string>
     <string name="pref_summary_delete_limit">%1$s messages per conversation</string>
     <string name="pref_summary_delivery_reports">Show delivery status for sent messages</string>
     <string name="pref_summary_delivery_ringtone">Receive sound notifications for delivered messages.</string>
@@ -830,6 +834,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="pref_summary_wake_up_screen">Wake the screen whenever a new message is received</string>
     <string name="pref_switch_sdk_setting">Switch smart SMS service provider</string>
     <string name="pref_system_title">System</string>
+    <string name="pref_title_ad_mms_recognition">Recognize promotional messages</string>
     <string name="pref_title_allow_si_sl_push">Allow WAP push messages (SI/SL)</string>
     <string name="pref_title_auto_delete">Delete old messages</string>
     <string name="pref_title_card_format">Card share format</string>
@@ -928,7 +933,7 @@ Turn on mobile data and open this page again."</string>
 Take a look at the recommended ones!"</string>
     <string name="rcs_chatbot_near_tab_empty">No mini apps here yet.</string>
     <string name="rcs_chatbot_net_error">"Couldn't connect to the network. Check your network settings and try again."</string>
-    <string name="rcs_chatbot_no_waring">消息免打扰</string>
+    <string name="rcs_chatbot_no_waring">Silence message notifications</string>
     <string name="rcs_chatbot_normal_message">You received a message. Tap to view details.</string>
     <string name="rcs_chatbot_notification">Mini app: %s</string>
     <string name="rcs_chatbot_progress_failed">"Couldn't load info. Tap to try again."</string>
@@ -1097,8 +1102,8 @@ Take a look at the recommended ones!"</string>
     <string name="rms_text_body">[Text]</string>
     <string name="rms_vcard_body">[Contact]</string>
     <string name="rms_video_body">[Video]</string>
-    <string name="rsc_chatbot_back">返回</string>
-    <string name="rsc_chatbot_detail">商户信息入口</string>
+    <string name="rsc_chatbot_back">Back</string>
+    <string name="rsc_chatbot_detail">Vendor info</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
