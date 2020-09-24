@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="emailAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
-    </string-array>
-    <string-array name="imProtocols">
-        <item>AIM</item>
-        <item>Windows Live</item>
-        <item>Yahoo</item>
-        <item>Skype</item>
-        <item>QQ</item>
-        <item>Google Talk</item>
-        <item>ICQ</item>
-        <item>Jabber</item>
-    </string-array>
-    <string-array name="organizationTypes">
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
-    </string-array>
-    <string-array name="phoneTypes">
-        <item>Home</item>
-        <item>Mobile</item>
-        <item>Work</item>
-        <item>Work Fax</item>
-        <item>Home Fax</item>
-        <item>Pager</item>
-        <item>Other</item>
-        <item>Custom</item>
-    </string-array>
-    <string-array name="postalAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
-    </string-array>
-    <array name="config_keySystemUuidMapping" />
     <array name="carrier_properties" />
     <array name="common_nicknames" />
     <array name="config_allowedGlobalInstantAppSettings" />
@@ -345,6 +307,7 @@
         <item>A_GLONASS_POS_PROTOCOL_SELECT=0xF</item>
     </string-array>
     <array name="config_hideWhenDisabled_packageNames" />
+    <array name="config_keySystemUuidMapping" />
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
@@ -646,6 +609,12 @@
     <array name="disallowed_apps_managed_device" />
     <array name="disallowed_apps_managed_profile" />
     <array name="disallowed_apps_managed_user" />
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
     <array name="face_acquired_vendor" />
     <array name="face_error_vendor" />
     <string-array name="fingerprint_acquired_vendor">
@@ -683,6 +652,16 @@
         <item>Work</item>
         <item>Other</item>
         <item>Custom</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
     </string-array>
     <integer-array name="low_lux_level">
         <item>1</item>
@@ -731,6 +710,27 @@
         <item>20404;suffix;BAE0000000000000</item>
     </string-array>
     <array name="non_removable_euicc_slots" />
+    <string-array name="organizationTypes">
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
     <array name="preloaded_color_state_lists" />
     <array name="preloaded_drawables">
         <item>@drawable/btn_default_pressed_holo_light</item>
