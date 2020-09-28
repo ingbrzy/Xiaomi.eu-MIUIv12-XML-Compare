@@ -1757,14 +1757,16 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="continue_reset_factory">Factory reset</string>
     <string name="contributors_title">Contributors</string>
     <string name="control_center">Control center</string>
+    <string name="control_center_style">Control center style</string>
+    <string name="control_center_style_summary">"Select how you'd like to display toggles and notifications"</string>
     <string name="control_panel_switch_side">Switch Control center side</string>
     <string name="controls_label">Controls</string>
     <string name="controls_subtitle">Adjust power use</string>
     <string name="convenience_key_category_title">System control</string>
     <string name="convert_to_fbe_warning">"Convert data partition to file based encryption.
- !!Warning!! This will erase all your data.
- This feature is alpha, and may not work correctly.
- Press 'Wipe and convert…' to continue."</string>
+!!Warning!! This will erase all your data.
+This feature is alpha, and may not work correctly.
+Press 'Wipe and convert…' to continue."</string>
     <string name="convert_to_file_encryption">Convert to file encryption</string>
     <string name="convert_to_file_encryption_done">Already file encrypted</string>
     <string name="convert_to_file_encryption_enabled">Convert…</string>
@@ -2249,6 +2251,9 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="disconnected">Not connected</string>
     <string name="display_advanced_mode_summary">Color gamut options</string>
     <string name="display_advanced_mode_title">Advanced settings</string>
+    <string name="display_animate_category">Animated effects</string>
+    <string name="display_animate_content">Reduce animated effects that are displayed while the device is being unlocked</string>
+    <string name="display_animate_title">Reduce animations</string>
     <string name="display_auto_rotate_rotate">On</string>
     <string name="display_auto_rotate_stay_in_current">Off</string>
     <string name="display_auto_rotate_stay_in_landscape">Lock landscape</string>
@@ -3527,6 +3532,8 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="led_pulse_summary">Pulse notification light when new notification is received</string>
     <string name="led_settings">Notification light</string>
     <string name="left_function_key">Left shortcut</string>
+    <string name="legacy_control_center_desc">Pull down status bar to view toggles and notifications</string>
+    <string name="legacy_control_center_title">Old version</string>
     <string name="legacy_navigation_summary">Go back, Home, and switch apps with buttons at the bottom of your screen.</string>
     <string name="legacy_navigation_title">3-button navigation</string>
     <string name="legal_information">Legal information</string>
@@ -3660,6 +3667,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="lock_profile_wipe_warning_content_password">If you enter an incorrect work password on this attempt, your work profile and associated data will be removed from this device.</string>
     <string name="lock_profile_wipe_warning_content_pattern">If you enter an incorrect work pattern on this attempt, your work profile and associated data will be removed from this device.</string>
     <string name="lock_profile_wipe_warning_content_pin">If you enter an incorrect work PIN on this attempt, your work profile and associated data will be removed from this device.</string>
+    <string name="lock_screen_action">Items shown on the Lock screen after swiping down</string>
     <string name="lock_screen_display_category_name">Lock screen</string>
     <string name="lock_screen_intro_skip_dialog_text">Device protection features won’t be turned on. You won’t be able to prevent others from using this phone if it’s lost or stolen.</string>
     <string name="lock_screen_intro_skip_dialog_text_frp">Device protection features won’t be turned on. You won’t be able to prevent others from using this phone if it’s lost, stolen or reset.</string>
@@ -4202,6 +4210,8 @@ Switching to %1$s won't cancel your %2$s service."</string>
     <string name="model_name">Model</string>
     <string name="model_number">Device model</string>
     <string name="model_summary">Model: %1$s</string>
+    <string name="modern_control_center_desc">Pull down status bar on the left to view notifications. Pull down status bar on the right to open Control center.</string>
+    <string name="modern_control_center_title">New version</string>
     <string name="modify_default_browser_message">If you set a third party app as your default browser, it might start collecting your browsing history and other data. Set anyway?</string>
     <string name="modify_instruction_password_settings">Set password</string>
     <string name="modify_privacy_password">Change password</string>
@@ -4566,6 +4576,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
     <string name="notification_channels_other">Other</string>
     <string name="notification_content_block_summary">Never show notifications in the shade or on peripheral devices</string>
     <string name="notification_content_block_title">Show notifications</string>
+    <string name="notification_control_center">Notifications &amp; Control center</string>
+    <string name="notification_display_settings">Notification shade</string>
     <string name="notification_fold_description1">Notifications folder was introduced in MIUI 9. This feature filters unimportant notifications and places them into a separate folder.</string>
     <string name="notification_fold_description2">MIUI will remember which notifications you tap, and then use multiple criteria to determine whether they are important.</string>
     <string name="notification_fold_description3">"If the notifications you consider important still go into the Notifications folder, make sure that you report such issues to us. We'd appreciate your feedback."</string>
@@ -4635,6 +4647,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
     <string name="notification_reboot_title_hm">Reboot to apply update</string>
     <string name="notification_remind">Notifications</string>
     <string name="notification_ringtone_title">Default notification sound</string>
+    <string name="notification_settings">Notifications</string>
     <string name="notification_settings_work_profile">Notification access is not available for apps in the work profile.</string>
     <string name="notification_shade_shortcut_title">Notification shade shortcut</string>
     <string name="notification_show_lights_title">Blink light</string>
@@ -5375,6 +5388,7 @@ UT Interface: %5$s"</string>
     <string name="repeat_call">Notify about repeated calls</string>
     <string name="repeat_call_info">Allow sound for the calls repeated within 15 minutes in Silent mode</string>
     <string name="repeat_title">Repeat</string>
+    <string name="requires_modern_control_center">Works with the new version of Control center</string>
     <string name="reset_aaid">Reset advertising identifier</string>
     <string name="reset_app_preferences">Reset app preferences</string>
     <string name="reset_app_preferences_button">Reset apps</string>
@@ -6164,6 +6178,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="show_all_anrs_summary">Display App Not Responding dialog for background apps</string>
     <string name="show_all_apps">Show full device usage</string>
     <string name="show_background_processes">Show cached processes</string>
+    <string name="show_badge_notifications_short">Badges</string>
     <string name="show_carrier_under_keyguard_title">Show carrier when device is locked</string>
     <string name="show_connected_devices_summary">View connected devices</string>
     <string name="show_connected_devices_title">Connected devices</string>
@@ -6785,6 +6800,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="swipe_up_to_switch_apps_suggestion_title">Try the new Home button</string>
     <string name="swipe_up_to_switch_apps_summary">To switch apps, swipe up on the Home button. To see all apps, swipe up again. To go back, tap the back button.</string>
     <string name="swipe_up_to_switch_apps_title">2-button navigation</string>
+    <string name="switchNetworkToast">Connecting to mobile networks may generate additional fees</string>
     <string name="switch_access_service_on">Switch Access</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
@@ -8317,7 +8333,7 @@ Looks like credential storage isn't enabled."</string>
     <string name="xiaomi_cloud_service_description_without_contacts">Xiaomi Cloud syncs your photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
     <string name="xiaomi_cloud_service_disabled">Off</string>
     <string name="xiaomi_cloud_service_unknown">Unknown</string>
-    <string name="xiaomi_money_service">Mi Credit</string>
+    <string name="xiaomi_money_service">Mi Coins</string>
     <string name="xiaomi_router_available_notif_summary">Tap to view more info.</string>
     <string name="xiaomi_router_available_notif_title">Mi Router available</string>
     <string name="xiaomi_router_notif_summary">Notify me when a Mi Router is available</string>
