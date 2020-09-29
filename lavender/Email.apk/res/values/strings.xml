@@ -30,6 +30,9 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about_checking_update">checking update ...</string>
+    <string name="about_go_to_update">Go to update</string>
+    <string name="about_lasted_version">It is the latest edition</string>
     <string name="account_add_title">Select email service</string>
     <string name="account_cache_provider">Account Cache Provider</string>
     <string name="account_duplicate_dlg_message_fmt">"You're already using this username for the account \"%s\"."</string>
@@ -53,6 +56,8 @@
     <string name="account_security_verification">Account verification</string>
     <string name="account_set_up_change_type_note">If you need to switch between POP3 and IMAP settings, delete your account and create a new one with your desired settings.</string>
     <string name="account_setting">Accounts</string>
+    <string name="account_setting_general_summry">Set Email common functions</string>
+    <string name="account_setting_general_title">Function Settings</string>
     <string name="account_setting_keywords">Accounts;mail accounts</string>
     <string name="account_setting_message_body_load_complete">Full message</string>
     <string name="account_setting_message_body_load_head_abstract">Email summary</string>
@@ -62,8 +67,10 @@
     <string name="account_settings_background_attachments_label">Download attachments</string>
     <string name="account_settings_background_attachments_summary">Download attachments using WLAN</string>
     <string name="account_settings_background_attachments_summary_inter">Download attachments using WLAN</string>
+    <string name="account_settings_background_attachments_title">Download attachments automatically</string>
     <string name="account_settings_data_usage">Sync settings</string>
     <string name="account_settings_description_label">Account name</string>
+    <string name="account_settings_does_not_support_pop">POP3 protocol does not support setting this item</string>
     <string name="account_settings_edit_quick_responses_label">Quick reply</string>
     <string name="account_settings_edit_quick_responses_summary">Edit brief messages to paste into emails</string>
     <string name="account_settings_enforced_label">Policies</string>
@@ -201,6 +208,7 @@
     <string name="account_sync_settings_settings">Sync contacts and calendar</string>
     <string name="account_sync_settingstip_description">Sync</string>
     <string name="account_waiting_for_folders_msg">Loading folders…</string>
+    <string name="action_filter">Filter</string>
     <string name="actionbar_more_option">More options</string>
     <string name="activity_folder_selection">Choose folder</string>
     <string name="activity_mailbox_selection">Choose account</string>
@@ -684,6 +692,8 @@
     <string name="info_switch_title">Promotion</string>
     <string name="inline_picture_deleted">Downloading missing picture…</string>
     <string name="input_password_prompt">Enter your password</string>
+    <string name="install_mime_encrypt_cert">Install S/MIME Encryption Certificate</string>
+    <string name="install_mime_sign_cert">Install S/MIME Signature Certificate</string>
     <string name="intent_account_manager_entry">com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY</string>
     <string name="intent_exchange_package">com.android.exchange</string>
     <string name="interact_with_server_error">"Couldn't connect to the server"</string>
@@ -722,6 +732,7 @@
     <string name="login_failed_tip">"Contact us in WeChat to get help: "</string>
     <string name="login_failed_title">"Can't sign in"</string>
     <string name="login_mail">Sign in</string>
+    <string name="login_manual">Manual Setting</string>
     <string name="login_qq_psw">Enter code manually</string>
     <string name="login_support_tip_text">Supports all major email accounts</string>
     <string name="long_press_to_select_tip">Touch &amp; hold to select one conversation, then touch to select more.</string>
@@ -758,6 +769,8 @@
     <string name="mailbox_name_server_sent">Sent</string>
     <string name="mailbox_name_server_starred">Starred</string>
     <string name="mailbox_name_server_trash">Trash</string>
+    <string name="mailbox_setting_preference_sync_summary_close">Synchronization: Off</string>
+    <string name="mailbox_setting_preference_sync_summary_open">Synchronization: On</string>
     <string name="mailbox_settings_activity_title">Sync settings</string>
     <string name="mailbox_settings_activity_title_with_mailbox">Sync settings (%s)</string>
     <string name="mailbox_settings_mailbox_sync_window_label">Sync mail from</string>
@@ -776,6 +789,7 @@
     <string name="mark_not_spam">Unmark as spam</string>
     <string name="mark_read">Mark read</string>
     <string name="mark_unread">Mark unread</string>
+    <string name="marketSdkVersion">3.2.5</string>
     <string name="me_object_pronun">me</string>
     <string name="me_subject_pronun">me</string>
     <string name="meeting_accepted">"
@@ -1317,6 +1331,7 @@ Wait until it's fully synced or view the message on your computer."</string>
     <string name="server_cet_issuer_no_trust">"The certificate's issuer is not a trusted organization."</string>
     <string name="server_cet_subject_cn">"Supported domain: "</string>
     <string name="server_cet_title">Certificate details</string>
+    <string name="server_log">服务协议</string>
     <string name="service_protocol_discribe"><u>"I've read and agree with \"WPS Mail Service Agreement\""</u></string>
     <string name="service_protocol_title">Service Agreement</string>
     <string name="set_network">Set network</string>
@@ -1465,6 +1480,12 @@ Remove account?"</string>
     <string name="upload_logs">Upload logs</string>
     <string name="upload_logs_keywords">upload logs</string>
     <string name="uploading_logs">Just a sec…</string>
+    <string name="user_experience_content">请确认您已阅读并同意《用户体验计划》</string>
+    <string name="user_experience_log">用户体验计划</string>
+    <string name="user_experience_login">参加</string>
+    <string name="user_experience_logout">退出体验计划</string>
+    <string name="user_experience_positive">同意并继续</string>
+    <string name="user_experience_title">声明与条款</string>
     <string name="user_new_auth_code">Use a new code to sign in</string>
     <string name="user_privacy_settings">Privacy settings</string>
     <string name="user_privacy_settings_agreement_authorization">"(By tapping \"Agree\", you're giving Mail all the required permissions)"</string>
@@ -1502,6 +1523,9 @@ Touch "<b>Sync Now</b> to sync mail once, or <b>Change Sync Settings</b> to set 
     <string name="wrong_password">The password you entered is incorrect</string>
     <string name="xiaomi_auth_toastbar">Sign in to authorize your device</string>
     <string name="xiaomi_email">Mail</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">以后再说</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">立即更新</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">%s 新版本</string>
     <string name="xiaomi_under_certification">Authorizing…</string>
     <string name="yes">Yes</string>
     <string name="you_are_in_mobile_network">Use mobile data to upload logs?</string>
