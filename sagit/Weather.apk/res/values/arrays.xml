@@ -259,14 +259,19 @@
         <item>Moderate</item>
         <item>Light</item>
     </string-array>
-    <string-array name="pollution_level_desc_arr">
-        <item>Excellent</item>
-        <item>Good</item>
-        <item>Lightly polluted</item>
-        <item>Moderately polluted</item>
-        <item>Heavily polluted</item>
-        <item>Severely polluted</item>
-        <item>Beyond index</item>
+    <string-array name="settings_atmospheric_pressure_unit_detail">
+        <item>@string/settings_atmospheric_pressure_mbar</item>
+        <item>@string/settings_atmospheric_pressure_hpa</item>
+        <item>@string/settings_atmospheric_pressure_mmhg</item>
+        <item>@string/settings_atmospheric_pressure_inhg</item>
+        <item>@string/settings_atmospheric_pressure_atm</item>
+    </string-array>
+    <string-array name="settings_atmospheric_pressure_unit_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
     <array name="small_thunder_1">
         <item>@drawable/xla_00</item>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="additional_cbs_channels_strings" />
+    <string-array name="alert_reminder_interval_active_values">
+        <item>1</item>
+        <item>2</item>
+        <item>15</item>
+        <item>0</item>
+    </string-array>
     <string-array name="alert_reminder_interval_entries">
         <item>Once</item>
         <item>Every 2 minutes</item>
@@ -14,11 +21,25 @@
         <item>15</item>
         <item>0</item>
     </string-array>
-    <string-array name="alert_reminder_interval_active_values">
-        <item>1</item>
-        <item>2</item>
-        <item>15</item>
-        <item>0</item>
+    <string-array name="cmas_alert_extreme_channels_range_strings">
+        <item>0x1113-0x1114:rat=gsm, emergency=true</item>
+        <item>0x1001-0x1001:rat=cdma, emergency=true</item>
+        <item>0x1120-0x1121:rat=gsm, emergency=true</item>
+    </string-array>
+    <string-array name="cmas_alerts_severe_range_strings">
+        <item>0x1115-0x111A:rat=gsm, emergency=true</item>
+        <item>0x1002-0x1002:rat=cdma, emergency=true</item>
+        <item>0x1122-0x1127:rat=gsm, emergency=true</item>
+    </string-array>
+    <string-array name="cmas_amber_alerts_channels_range_strings">
+        <item>0x111B-0x111B:rat=gsm, emergency=true</item>
+        <item>0x1003-0x1003:rat=cdma, emergency=true</item>
+        <item>0x1128-0x1128:rat=gsm, emergency=true</item>
+    </string-array>
+    <string-array name="cmas_presidential_alerts_channels_range_strings">
+        <item>0x1112-0x1112:rat=gsm, emergency=true</item>
+        <item>0x1000-0x1000:rat=cdma, emergency=true</item>
+        <item>0x111F-0x111F:rat=gsm, emergency=true</item>
     </string-array>
     <integer-array name="default_vibration_pattern">
         <item>0</item>
@@ -34,4 +55,27 @@
         <item>500</item>
         <item>1000</item>
     </integer-array>
+    <array name="emergency_alerts_channels_range_strings" />
+    <string-array name="etws_alerts_range_strings">
+        <item>0x1100-0x1102:rat=gsm, emergency=true</item>
+        <item>0x1104-0x1104:rat=gsm, emergency=true</item>
+    </string-array>
+    <string-array name="etws_test_alerts_range_strings">
+        <item>0x1103-0x1103:rat=gsm, emergency=true</item>
+    </string-array>
+    <string-array name="exercise_alert_range_strings">
+        <item>0x111D-0x111D:rat=gsm, emergency=true</item>
+        <item>0x112A-0x112A:rat=gsm, emergency=true</item>
+    </string-array>
+    <string-array name="operator_defined_alert_range_strings">
+        <item>0x111E-0x111E:rat=gsm, emergency=true</item>
+        <item>0x112B-0x112B:rat=gsm, emergency=true</item>
+    </string-array>
+    <array name="public_safety_messages_channels_range_strings" />
+    <string-array name="required_monthly_test_range_strings">
+        <item>0x111C-0x111C:rat=gsm, emergency=true</item>
+        <item>0x1004-0x1004:rat=cdma, emergency=true</item>
+        <item>0x1129-0x1129:rat=gsm, emergency=true</item>
+    </string-array>
+    <array name="state_local_test_alert_range_strings" />
 </resources>

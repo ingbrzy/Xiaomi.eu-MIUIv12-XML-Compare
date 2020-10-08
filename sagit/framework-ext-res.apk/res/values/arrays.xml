@@ -1,103 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="process_static_white_list">
-        <item>android</item>
-        <item>com.miui.home</item>
-        <item>com.mi.android.globallauncher</item>
-        <item>com.android.systemui</item>
-        <item>com.xiaomi.joyose</item>
-        <item>com.android.phone</item>
-        <item>com.miui.bugreport</item>
-        <item>com.android.keyguard</item>
-        <item>com.android.bluetooth</item>
-        <item>com.miui.networkassistant</item>
-        <item>com.android.providers.contacts</item>
-        <item>com.miui.core</item>
-        <item>com.android.providers.media</item>
-        <item>com.android.providers.downloads</item>
-        <item>com.xiaomi.xmsf</item>
-        <item>com.miui.sysbase</item>
-        <item>com.lbe.security.miui</item>
-        <item>com.google.android.marvin.talkback</item>
-        <item>com.android.updater</item>
-        <item>org.simalliance.openmobileapi.service</item>
-        <item>com.qualcomm.wfd.service</item>
-        <item>com.baidu.duersdk.opensdk</item>
-        <item>com.miui.powerkeeper</item>
-        <item>com.miui.antispam</item>
-        <item>com.miui.securitycenter</item>
-        <item>com.miui.virtualsim</item>
-        <item>com.google.android.gms</item>
-        <item>com.miui.voip</item>
-        <item>com.miui.touchassistant</item>
-        <item>com.qualcomm.qcrilmsgtunnel</item>
-        <item>com.qualcomm.uimremoteclient</item>
-        <item>com.android.vpndialogs</item>
-        <item>com.qti.service.colorservice</item>
-        <item>com.qti.snapdragon.sdk.display</item>
-        <item>com.xiaomi.bluetooth</item>
-        <item>com.xiaomi.metoknlp</item>
-        <item>com.xiaomi.location.fused</item>
-        <item>android.process.acore</item>
-        <item>com.miui.wmsvc</item>
-        <item>com.miui.greenguard</item>
-        <item>com.miui.securitycore</item>
-        <item>com.miui.miwallpaper</item>
-        <item>com.miui.contentextension</item>
-        <item>com.xiaomi.mimobile.cloudsim</item>
-        <item>com.miui.tsmclient</item>
-        <item>com.miui.aod</item>
-        <item>com.magiear.handsfree.assistant</item>
-        <item>com.xiaomi.mi_connect_service</item>
-        <item>com.android.permissioncontroller</item>
-        <item>com.ss.android.lark.kami</item>
+    <string-array name="airtel_mcc_mnc">
+        <item>40552</item>
+        <item>40498</item>
+        <item>40431</item>
+        <item>40490</item>
+        <item>40493</item>
+        <item>40492</item>
+        <item>40551</item>
+        <item>40553</item>
+        <item>40470</item>
+        <item>40556</item>
+        <item>40416</item>
+        <item>40410</item>
+        <item>40440</item>
+        <item>40449</item>
+        <item>40496</item>
+        <item>40403</item>
+        <item>40555</item>
+        <item>40495</item>
+        <item>40445</item>
+        <item>40402</item>
+        <item>40494</item>
+        <item>40554</item>
+        <item>40497</item>
     </string-array>
-    <string-array name="process_disable_trim_list">
-        <item>com.miui.home</item>
-        <item>com.mi.android.globallauncher</item>
-        <item>com.android.systemui</item>
-    </string-array>
-    <string-array name="process_disable_force_stop_list">
-        <item>com.miui.securitycore</item>
-    </string-array>
-    <string-array name="need_trace_list">
-        <item>com.android.phone</item>
-        <item>com.android.nfc</item>
-        <item>com.fingerprints.serviceext</item>
-    </string-array>
-    <string-array name="process_secretly_protect_list">
-        <item>com.tencent.mm</item>
-        <item>com.google.android.gms</item>
-        <item>com.xiaomi.channel</item>
-        <item>com.xiaomi.channel:remote</item>
-    </string-array>
-    <string-array name="process_fg_service_check_list">
-        <item>com.miui.screenrecorder</item>
-        <item>com.android.soundrecorder</item>
-        <item>com.android.deskclock</item>
-        <item>com.miui.voiceassist</item>
-        <item>com.xiaomi.drivemode</item>
-        <item>com.caiharbor.esim</item>
-        <item>com.miui.backup</item>
-        <item>com.android.thememanager</item>
-        <item>com.miui.mishare.connectivity</item>
-        <item>com.miui.notes</item>
-        <item>com.milink.service</item>
-        <item>com.xiaomi.vipaccount</item>
-    </string-array>
-    <string-array name="process_camera_boost_protect_list">
-        <item>android.process.media</item>
-        <item>com.miui.gallery</item>
-        <item>com.android.systemui:sliderview</item>
-        <item>com.android.camera</item>
-    </string-array>
+    <item type="array" name="android_common_nicknames">@android:array/common_nicknames</item>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
+    <item type="array" name="android_config_mobile_hotspot_provision_app">@android:array/config_mobile_hotspot_provision_app</item>
     <item type="array" name="android_config_virtualKeyVibePattern">@android:array/config_virtualKeyVibePattern</item>
     <item type="array" name="android_special_locale_codes">@android:array/special_locale_codes</item>
     <item type="array" name="android_special_locale_names">@android:array/special_locale_names</item>
-    <item type="array" name="android_config_mobile_hotspot_provision_app">@android:array/config_mobile_hotspot_provision_app</item>
-    <item type="array" name="android_common_nicknames">@android:array/common_nicknames</item>
+    <array name="boot_msg_text" />
+    <array name="config_BrightnessCurvesLux" />
+    <string-array name="config_Poland_Orange_IPV6_array">
+        <item>lavender</item>
+        <item>onc</item>
+        <item>pine</item>
+        <item>grus</item>
+    </string-array>
+    <string-array name="config_alwaysEnableMms_off_array">
+        <item>ch</item>
+        <item>be</item>
+        <item>gb</item>
+    </string-array>
+    <integer-array name="config_autoBrightnessMinNitForOriginalLux">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="config_compensateSignalLevelValue">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <array name="config_crossSpaceNotificationPackageNames" />
+    <array name="config_hightGrayBrightnessLevels" />
+    <array name="config_lowGrayBrightnessLevels" />
+    <integer-array name="config_manualBrightnessRemapIn">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>128</item>
+        <item>192</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_manualBrightnessRemapOut">
+        <item>0</item>
+        <item>1</item>
+        <item>8</item>
+        <item>20</item>
+        <item>60</item>
+        <item>120</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_maxBrightnessCurvesNits" />
+    <integer-array name="config_maxBrightnessRemapIn">
+        <item>1</item>
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </integer-array>
+    <integer-array name="config_maxBrightnessRemapOut">
+        <item>140</item>
+        <item>140</item>
+        <item>140</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_minBrightnessCurvesNits" />
+    <string-array name="config_mms_force_unmetered_list">
+        <item>260</item>
+        <item>20201</item>
+        <item>20801</item>
+        <item>21401</item>
+        <item>21403</item>
+        <item>21405</item>
+        <item>21407</item>
+        <item>21630</item>
+        <item>22299</item>
+        <item>22610</item>
+        <item>26201</item>
+        <item>26801</item>
+        <item>45005</item>
+        <item>45006</item>
+        <item>45008</item>
+        <item>60202</item>
+    </string-array>
+    <integer-array name="config_originalLux">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </integer-array>
+    <string-array name="config_sysBrightnessFileArray">
+        <item>/sys/class/leds/lcd-backlight/brightness</item>
+        <item>/sys/class/backlight/panel0-backlight/brightness</item>
+    </string-array>
+    <array name="config_virtualKeyUpPattern" />
+    <string-array name="empty_initial_attach_apn_plmn">
+        <item>20205</item>
+        <item>20404</item>
+        <item>20810</item>
+        <item>20811</item>
+        <item>20813</item>
+        <item>21401</item>
+        <item>21670</item>
+        <item>22210</item>
+        <item>22601</item>
+        <item>23003</item>
+        <item>23402</item>
+        <item>23411</item>
+        <item>23415</item>
+        <item>26202</item>
+        <item>26209</item>
+        <item>26801</item>
+        <item>26806</item>
+        <item>27201</item>
+        <item>45005</item>
+        <item>45006</item>
+        <item>45008</item>
+    </string-array>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>Try again</item>
+        <item></item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>Wipe the fingerprint sensor clean and try again</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>"Too fast! Couldn't recognize fingerprint"</item>
+        <item>Move your finger a bit and try again</item>
+        <item>Lift your finger and put it back on the scanner again</item>
+        <item>Keep your finger on the scanner a bit longer</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Move your finger slightly</item>
+        <item>This fingerprint has been added, use a different finger</item>
+    </string-array>
     <string-array name="float_notification_whitelist">
         <item>com.google.android.apps.messaging</item>
         <item>com.google.android.talk</item>
@@ -162,6 +243,12 @@
         <item>com.miui.systemAdSolution</item>
         <item>com.miui.hybrid.accessory</item>
     </string-array>
+    <string-array name="font_size_scale">
+        <item>0.86</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+    </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.apps.messaging</item>
         <item>com.google.android.talk</item>
@@ -219,132 +306,6 @@
         <item>com.miui.systemAdSolution</item>
         <item>com.techown.emm</item>
         <item>com.miui.hybrid.accessory</item>
-    </string-array>
-    <array name="boot_msg_text" />
-    <array name="config_virtualKeyUpPattern" />
-    <string-array name="screen_key_long_press_default_action">
-        <item>voice_assistant</item>
-        <item>none</item>
-        <item>none</item>
-        <item>show_menu</item>
-    </string-array>
-    <string-array name="font_size_scale">
-        <item>0.86</item>
-        <item>1.0</item>
-        <item>1.2</item>
-        <item>1.4</item>
-    </string-array>
-    <string-array name="organized_languages_international">
-        <item>az_AZ</item>
-        <item>ms_MY</item>
-        <item>bs_BA</item>
-        <item>ca_ES</item>
-        <item>cs_CZ</item>
-        <item>da_DK</item>
-        <item>de_DE</item>
-        <item>et_EE</item>
-        <item>en_IN</item>
-        <item>en_GB</item>
-        <item>en_US</item>
-        <item>es_ES</item>
-        <item>es_US</item>
-        <item>eu_ES</item>
-        <item>fr_FR</item>
-        <item>gl_ES</item>
-        <item>ha_NG</item>
-        <item>hr_HR</item>
-        <item>in_ID</item>
-        <item>it_IT</item>
-        <item>lv_LV</item>
-        <item>lt_LT</item>
-        <item>hu_HU</item>
-        <item>mt_MT</item>
-        <item>nl_NL</item>
-        <item>nb_NO</item>
-        <item>uz_UZ</item>
-        <item>pl_PL</item>
-        <item>pt_BR</item>
-        <item>pt_PT</item>
-        <item>ro_RO</item>
-        <item>sq_AL</item>
-        <item>sk_SK</item>
-        <item>sl_SI</item>
-        <item>fi_FI</item>
-        <item>sv_SE</item>
-        <item>vi_VN</item>
-        <item>tr_TR</item>
-        <item>el_GR</item>
-        <item>be_BY</item>
-        <item>bg_BG</item>
-        <item>kk_KZ</item>
-        <item>mk_MK</item>
-        <item>ru_RU</item>
-        <item>sr_RS</item>
-        <item>uk_UA</item>
-        <item>ka_GE</item>
-        <item>hy_AM</item>
-        <item>iw_IL</item>
-        <item>ur_IN</item>
-        <item>ur_PK</item>
-        <item>ar_EG</item>
-        <item>ar_EG_#u-nu-latn</item>
-        <item>fa_IR</item>
-        <item>fa_IR_#u-nu-latn</item>
-        <item>ne_IN</item>
-        <item>ne_NP</item>
-        <item>mr_IN</item>
-        <item>hi_IN</item>
-        <item>as_IN</item>
-        <item>bn_IN</item>
-        <item>bn_BD</item>
-        <item>pa_IN</item>
-        <item>gu_IN</item>
-        <item>or_IN</item>
-        <item>ta_IN</item>
-        <item>te_IN</item>
-        <item>kn_IN</item>
-        <item>ml_IN</item>
-        <item>th_TH</item>
-        <item>lo_LA</item>
-        <item>my_MM</item>
-        <item>km_KH</item>
-        <item>ko_KR</item>
-        <item>ja_JP</item>
-        <item>zh_CN</item>
-        <item>zh_TW</item>
-        <item>zh_HK</item>
-    </string-array>
-    <string-array name="organized_languages_default">
-        <item>zh_CN</item>
-        <item>zh_TW</item>
-        <item>en_US</item>
-        <item>bo_CN</item>
-        <item>ug_CN</item>
-    </string-array>
-    <string-array name="airtel_mcc_mnc">
-        <item>40552</item>
-        <item>40498</item>
-        <item>40431</item>
-        <item>40490</item>
-        <item>40493</item>
-        <item>40492</item>
-        <item>40551</item>
-        <item>40553</item>
-        <item>40470</item>
-        <item>40556</item>
-        <item>40416</item>
-        <item>40410</item>
-        <item>40440</item>
-        <item>40449</item>
-        <item>40496</item>
-        <item>40403</item>
-        <item>40555</item>
-        <item>40495</item>
-        <item>40445</item>
-        <item>40402</item>
-        <item>40494</item>
-        <item>40554</item>
-        <item>40497</item>
     </string-array>
     <string-array name="max_aspect_ratio_suggest_apps">
         <item>com.tencent.mm</item>
@@ -1390,40 +1351,191 @@
         <item>com.netqin.ps</item>
         <item>com.autonavi.minimap</item>
     </string-array>
-    <string-array name="empty_initial_attach_apn_plmn">
-        <item>20205</item>
-        <item>20404</item>
-        <item>20810</item>
-        <item>20811</item>
-        <item>20813</item>
-        <item>21401</item>
-        <item>21670</item>
-        <item>22210</item>
-        <item>22601</item>
-        <item>23003</item>
-        <item>23402</item>
-        <item>23411</item>
-        <item>23415</item>
-        <item>26202</item>
-        <item>26209</item>
-        <item>26801</item>
-        <item>26806</item>
-        <item>27201</item>
-        <item>45005</item>
-        <item>45006</item>
-        <item>45008</item>
+    <string-array name="need_trace_list">
+        <item>com.android.phone</item>
+        <item>com.android.nfc</item>
+        <item>com.fingerprints.serviceext</item>
     </string-array>
-    <integer-array name="vibration_recorder_minor_action">
-        <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>120</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>5</item>
-    </integer-array>
+    <string-array name="organized_languages_default">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>en_US</item>
+        <item>bo_CN</item>
+        <item>ug_CN</item>
+    </string-array>
+    <string-array name="organized_languages_international">
+        <item>az_AZ</item>
+        <item>ms_MY</item>
+        <item>bs_BA</item>
+        <item>ca_ES</item>
+        <item>cs_CZ</item>
+        <item>da_DK</item>
+        <item>de_DE</item>
+        <item>et_EE</item>
+        <item>en_IN</item>
+        <item>en_GB</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>es_US</item>
+        <item>eu_ES</item>
+        <item>fr_FR</item>
+        <item>gl_ES</item>
+        <item>ha_NG</item>
+        <item>hr_HR</item>
+        <item>in_ID</item>
+        <item>it_IT</item>
+        <item>lv_LV</item>
+        <item>lt_LT</item>
+        <item>hu_HU</item>
+        <item>mt_MT</item>
+        <item>nl_NL</item>
+        <item>nb_NO</item>
+        <item>uz_UZ</item>
+        <item>pl_PL</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ro_RO</item>
+        <item>sq_AL</item>
+        <item>sk_SK</item>
+        <item>sl_SI</item>
+        <item>fi_FI</item>
+        <item>sv_SE</item>
+        <item>vi_VN</item>
+        <item>tr_TR</item>
+        <item>el_GR</item>
+        <item>be_BY</item>
+        <item>bg_BG</item>
+        <item>kk_KZ</item>
+        <item>mk_MK</item>
+        <item>ru_RU</item>
+        <item>sr_RS</item>
+        <item>uk_UA</item>
+        <item>ka_GE</item>
+        <item>hy_AM</item>
+        <item>iw_IL</item>
+        <item>ur_IN</item>
+        <item>ur_PK</item>
+        <item>ar_EG</item>
+        <item>ar_EG_#u-nu-latn</item>
+        <item>fa_IR</item>
+        <item>fa_IR_#u-nu-latn</item>
+        <item>ne_IN</item>
+        <item>ne_NP</item>
+        <item>mr_IN</item>
+        <item>hi_IN</item>
+        <item>as_IN</item>
+        <item>bn_IN</item>
+        <item>bn_BD</item>
+        <item>pa_IN</item>
+        <item>gu_IN</item>
+        <item>or_IN</item>
+        <item>ta_IN</item>
+        <item>te_IN</item>
+        <item>kn_IN</item>
+        <item>ml_IN</item>
+        <item>th_TH</item>
+        <item>lo_LA</item>
+        <item>my_MM</item>
+        <item>km_KH</item>
+        <item>ko_KR</item>
+        <item>ja_JP</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>zh_HK</item>
+    </string-array>
+    <string-array name="process_camera_boost_protect_list">
+        <item>android.process.media</item>
+        <item>com.miui.gallery</item>
+        <item>com.android.systemui:sliderview</item>
+        <item>com.android.camera</item>
+    </string-array>
+    <string-array name="process_disable_force_stop_list">
+        <item>com.miui.securitycore</item>
+    </string-array>
+    <string-array name="process_disable_trim_list">
+        <item>com.miui.home</item>
+        <item>com.mi.android.globallauncher</item>
+        <item>com.android.systemui</item>
+    </string-array>
+    <string-array name="process_fg_service_check_list">
+        <item>com.miui.screenrecorder</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.android.deskclock</item>
+        <item>com.miui.voiceassist</item>
+        <item>com.xiaomi.drivemode</item>
+        <item>com.caiharbor.esim</item>
+        <item>com.miui.backup</item>
+        <item>com.android.thememanager</item>
+        <item>com.miui.mishare.connectivity</item>
+        <item>com.miui.notes</item>
+        <item>com.milink.service</item>
+        <item>com.xiaomi.vipaccount</item>
+    </string-array>
+    <string-array name="process_secretly_protect_list">
+        <item>com.tencent.mm</item>
+        <item>com.google.android.gms</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.xiaomi.channel:remote</item>
+    </string-array>
+    <string-array name="process_static_white_list">
+        <item>android</item>
+        <item>com.miui.home</item>
+        <item>com.mi.android.globallauncher</item>
+        <item>com.android.systemui</item>
+        <item>com.xiaomi.joyose</item>
+        <item>com.android.phone</item>
+        <item>com.miui.bugreport</item>
+        <item>com.android.keyguard</item>
+        <item>com.android.bluetooth</item>
+        <item>com.miui.networkassistant</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.miui.core</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.xiaomi.xmsf</item>
+        <item>com.miui.sysbase</item>
+        <item>com.lbe.security.miui</item>
+        <item>com.google.android.marvin.talkback</item>
+        <item>com.android.updater</item>
+        <item>org.simalliance.openmobileapi.service</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.baidu.duersdk.opensdk</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.miui.antispam</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.virtualsim</item>
+        <item>com.google.android.gms</item>
+        <item>com.miui.voip</item>
+        <item>com.miui.touchassistant</item>
+        <item>com.qualcomm.qcrilmsgtunnel</item>
+        <item>com.qualcomm.uimremoteclient</item>
+        <item>com.android.vpndialogs</item>
+        <item>com.qti.service.colorservice</item>
+        <item>com.qti.snapdragon.sdk.display</item>
+        <item>com.xiaomi.bluetooth</item>
+        <item>com.xiaomi.metoknlp</item>
+        <item>com.xiaomi.location.fused</item>
+        <item>android.process.acore</item>
+        <item>com.miui.wmsvc</item>
+        <item>com.miui.greenguard</item>
+        <item>com.miui.securitycore</item>
+        <item>com.miui.miwallpaper</item>
+        <item>com.miui.contentextension</item>
+        <item>com.xiaomi.mimobile.cloudsim</item>
+        <item>com.miui.tsmclient</item>
+        <item>com.miui.aod</item>
+        <item>com.magiear.handsfree.assistant</item>
+        <item>com.xiaomi.mi_connect_service</item>
+        <item>com.android.permissioncontroller</item>
+        <item>com.ss.android.lark.kami</item>
+    </string-array>
+    <string-array name="screen_key_long_press_default_action">
+        <item>voice_assistant</item>
+        <item>none</item>
+        <item>none</item>
+        <item>show_menu</item>
+    </string-array>
+    <array name="screen_resolution_supported" />
     <integer-array name="vibration_recorder_major_action">
         <item>0</item>
         <item>0</item>
@@ -1455,6 +1567,17 @@
         <item>0</item>
         <item>150</item>
         <item>50</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="vibration_recorder_minor_action">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>120</item>
         <item>8</item>
         <item>-5</item>
         <item>5</item>
@@ -1553,6 +1676,17 @@
         <item>0</item>
         <item>5</item>
     </integer-array>
+    <integer-array name="vibration_torch_off">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>120</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
     <integer-array name="vibration_torch_on">
         <item>0</item>
         <item>0</item>
@@ -1570,139 +1704,5 @@
         <item>0</item>
         <item>5</item>
     </integer-array>
-    <integer-array name="vibration_torch_off">
-        <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>120</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>5</item>
-    </integer-array>
     <array name="vibration_virtual_key_up" />
-    <string-array name="config_mms_force_unmetered_list">
-        <item>260</item>
-        <item>20201</item>
-        <item>20801</item>
-        <item>21401</item>
-        <item>21403</item>
-        <item>21405</item>
-        <item>21407</item>
-        <item>21630</item>
-        <item>22299</item>
-        <item>22610</item>
-        <item>26201</item>
-        <item>26801</item>
-        <item>45005</item>
-        <item>45006</item>
-        <item>45008</item>
-        <item>60202</item>
-    </string-array>
-    <array name="config_crossSpaceNotificationPackageNames" />
-    <string-array name="config_sysBrightnessFileArray">
-        <item>/sys/class/leds/lcd-backlight/brightness</item>
-        <item>/sys/class/backlight/panel0-backlight/brightness</item>
-    </string-array>
-    <integer-array name="config_maxBrightnessRemapIn">
-        <item>1</item>
-        <item>10</item>
-        <item>50</item>
-        <item>100</item>
-        <item>200</item>
-        <item>300</item>
-    </integer-array>
-    <integer-array name="config_maxBrightnessRemapOut">
-        <item>140</item>
-        <item>140</item>
-        <item>140</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-    </integer-array>
-    <integer-array name="config_manualBrightnessRemapIn">
-        <item>0</item>
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>128</item>
-        <item>192</item>
-        <item>255</item>
-    </integer-array>
-    <integer-array name="config_manualBrightnessRemapOut">
-        <item>0</item>
-        <item>1</item>
-        <item>8</item>
-        <item>20</item>
-        <item>60</item>
-        <item>120</item>
-        <item>255</item>
-    </integer-array>
-    <string-array name="config_alwaysEnableMms_off_array">
-        <item>ch</item>
-        <item>be</item>
-        <item>gb</item>
-    </string-array>
-    <string-array name="config_Poland_Orange_IPV6_array">
-        <item>lavender</item>
-        <item>onc</item>
-        <item>pine</item>
-        <item>grus</item>
-    </string-array>
-    <array name="config_hightGrayBrightnessLevels" />
-    <array name="config_lowGrayBrightnessLevels" />
-    <array name="config_BrightnessCurvesLux" />
-    <array name="config_maxBrightnessCurvesNits" />
-    <array name="config_minBrightnessCurvesNits" />
-    <integer-array name="config_originalLux">
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-    </integer-array>
-    <integer-array name="config_autoBrightnessMinNitForOriginalLux">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </integer-array>
-    <array name="screen_resolution_supported" />
-    <integer-array name="config_compensateSignalLevelValue">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-    </integer-array>
-    <string-array name="fingerprint_acquired_vendor">
-        <item>Try again</item>
-        <item></item>
-        <item></item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item></item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item>Wipe the fingerprint sensor clean and try again</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item>"Too fast! Couldn't recognize fingerprint"</item>
-        <item>Move your finger a bit and try again</item>
-        <item>Lift your finger and put it back on the scanner again</item>
-        <item>Keep your finger on the scanner a bit longer</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>Move your finger slightly</item>
-        <item>This fingerprint has been added, use a different finger</item>
-    </string-array>
 </resources>

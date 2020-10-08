@@ -904,6 +904,18 @@
         <item>numerical</item>
         <item>mixed</item>
     </string-array>
+    <string-array name="charge_animation_style_entries">
+        <item>Off</item>
+        <item>Flow</item>
+        <item>Glow</item>
+        <item>Wave</item>
+    </string-array>
+    <string-array name="charge_animation_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
         <item>Accra</item>
@@ -1665,6 +1677,14 @@
     <array name="default_music_package" />
     <string-array name="default_video_package">
         <item>mx_telcel:com.google.android.apps.photos</item>
+    </string-array>
+    <string-array name="default_vol_stream_entries">
+        <item>Ringtone</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="default_vol_stream_values">
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="device_support_pickup_by_MTK">
         <item>cactus</item>
@@ -3021,6 +3041,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2</item>
         <item>0</item>
     </string-array>
+    <string-array name="status_bar_settings_qs_layout_entries">
+        <item>Default</item>
+        <item>Compact</item>
+    </string-array>
+    <string-array name="status_bar_settings_qs_layout_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="support_speaker_auto_clean_device_list">
         <item>willow</item>
         <item>ginkgo</item>
@@ -3587,33 +3615,5 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>zen_mode_from_contacts</item>
         <item>zen_mode_from_starred</item>
         <item>zen_mode_from_none</item>
-    </string-array>
-    <string-array name="status_bar_settings_qs_layout_entries">
-        <item>Default</item>
-        <item>Compact</item>
-    </string-array>
-    <string-array name="status_bar_settings_qs_layout_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="default_vol_stream_entries">
-        <item>Ringtone</item>
-        <item>Media</item>
-    </string-array>
-    <string-array name="default_vol_stream_values">
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="charge_animation_style_entries">
-        <item>Off</item>
-        <item>Flow</item>
-        <item>Glow</item>
-        <item>Wave</item>
-    </string-array>
-    <string-array name="charge_animation_style_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
 </resources>

@@ -49,6 +49,14 @@
         <item quantity="other">%1$d days</item>
         <item quantity="one">%1$d day</item>
     </plurals>
+    <plurals name="days_in_menstrual_period">
+        <item quantity="other">Period duration: %1$d days</item>
+        <item quantity="one">Period duration: %1$d day</item>
+    </plurals>
+    <plurals name="days_in_period">
+        <item quantity="other">Cycle duration: %1$d days</item>
+        <item quantity="one">Cycle duration: %1$d day</item>
+    </plurals>
     <plurals name="dialog_choose_items">
         <item quantity="other">Selected %1$d items</item>
         <item quantity="one">Selected %1$d item</item>
@@ -93,12 +101,20 @@
         <item quantity="other">%1$d steps</item>
         <item quantity="one">%1$d step</item>
     </plurals>
+    <plurals name="group_unit">
+        <item quantity="other">%1$d cycles</item>
+        <item quantity="one">%1$d cycle</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Half an hour ago</item>
     </plurals>
     <plurals name="hours">
         <item quantity="other">%1$d hrs</item>
         <item quantity="one">%1$d hr</item>
+    </plurals>
+    <plurals name="hr_fp_detect_time_remainder">
+        <item quantity="other">%1$d seconds remaining</item>
+        <item quantity="one">%1$d second remaining</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">In 1 hour</item>
@@ -127,6 +143,10 @@
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Just now</item>
+    </plurals>
+    <plurals name="mens_offset_predict_menstrual_period">
+        <item quantity="other">Period will likely start in %1$d days</item>
+        <item quantity="one">Period will likely start in %1$d day</item>
     </plurals>
     <plurals name="menstruation_sum_days">
         <item quantity="other">%1$d-day period</item>
@@ -167,6 +187,36 @@
     <plurals name="sleep_management_exp_hours">
         <item quantity="other">"Current settings won't guarantee you %1$d hours of sleep daily. You need more than that."</item>
         <item quantity="one">"Current settings won't guarantee you %1$d hour of sleep daily. You need more than that."</item>
+    </plurals>
+    <plurals name="sport_tts_goal_time">
+        <item quantity="other">距离您的目标还有%s分钟</item>
+    </plurals>
+    <plurals name="sporting_content_calories">
+        <item quantity="other">共消耗%1$d千卡</item>
+    </plurals>
+    <plurals name="sporting_content_riding_km">
+        <item quantity="other">您已经骑行%1$s千米</item>
+    </plurals>
+    <plurals name="sporting_content_running_km">
+        <item quantity="other">您已经跑步%1$s千米</item>
+    </plurals>
+    <plurals name="sporting_content_speed">
+        <item quantity="other">当前速度为%1$d分%2$d秒每千米</item>
+    </plurals>
+    <plurals name="sporting_content_time">
+        <item quantity="other">共用时%1$d分%2$d秒</item>
+    </plurals>
+    <plurals name="sporting_content_walking_km">
+        <item quantity="other">共走了%1$s千米</item>
+    </plurals>
+    <plurals name="sporting_content_walking_stpe">
+        <item quantity="other">您已经步行%1$d步</item>
+    </plurals>
+    <plurals name="sporting_unit_calories">
+        <item quantity="other">%1$d千卡</item>
+    </plurals>
+    <plurals name="sporting_unit_km">
+        <item quantity="other">%1$s千米</item>
     </plurals>
     <plurals name="step_num_format">
         <item quantity="other">%1$d steps</item>
@@ -243,6 +293,30 @@
     <plurals name="unit_days">
         <item quantity="other">" days"</item>
         <item quantity="one">" day"</item>
+    </plurals>
+    <plurals name="unit_group">
+        <item quantity="other">" cycles"</item>
+        <item quantity="one">" cycle"</item>
+    </plurals>
+    <plurals name="unit_hours">
+        <item quantity="other">" hrs "</item>
+        <item quantity="one">" hr "</item>
+    </plurals>
+    <plurals name="unit_hours2">
+        <item quantity="other">" hours "</item>
+        <item quantity="one">" hour "</item>
+    </plurals>
+    <plurals name="unit_mins">
+        <item quantity="other">" mins "</item>
+        <item quantity="one">" min "</item>
+    </plurals>
+    <plurals name="unit_mins2">
+        <item quantity="other">" minutes "</item>
+        <item quantity="one">" minute "</item>
+    </plurals>
+    <plurals name="unit_seconds">
+        <item quantity="other">" secs "</item>
+        <item quantity="one">" sec "</item>
     </plurals>
     <plurals name="unit_times">
         <item quantity="other">" times"</item>
