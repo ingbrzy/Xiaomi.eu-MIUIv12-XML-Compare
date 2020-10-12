@@ -479,6 +479,16 @@
         <item>Advanced Calling</item>
         <item>4G Calling</item>
     </string-array>
+    <string-array name="fiveg_network_mode_entries">
+        <item>@string/fiveg_network_mode_default</item>
+        <item>@string/fiveg_network_mode_nsa</item>
+        <item>@string/fiveg_network_mode_sa_nsa</item>
+    </string-array>
+    <string-array name="fiveg_network_mode_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Never use HDCP checking</item>
         <item>Use HDCP checking for DRM content only</item>
