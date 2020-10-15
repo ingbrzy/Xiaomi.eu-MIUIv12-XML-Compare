@@ -452,6 +452,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="alarm_volume_title">Alarm</string>
     <string name="all_volume_title">Volumes</string>
     <string name="allow">Allow</string>
+    <string name="allow_all_rotations_title">Allow all rotations</string>
     <string name="allow_bind_app_widget_activity_allow_bind">After you create the widget, %1$s can access all data it displays.</string>
     <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
     <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
@@ -776,9 +777,12 @@ Last ran on %2$s"</string>
     <string name="avoid_ui">Block touch response</string>
     <string name="awake">Device awake time</string>
     <string name="back_button">Back</string>
+    <string name="back_double_tap">Double back tap</string>
     <string name="back_key">Back</string>
     <string name="back_sensitivity_dialog_message">Higher sensitivity may conflict with any app gestures along the edges of the screen.</string>
     <string name="back_sensitivity_dialog_title">Back Sensitivity</string>
+    <string name="back_tap">Back tap</string>
+    <string name="back_triple_tap">Triple back tap</string>
     <string name="background_activity_disabled_dialog_text">"Since this app is not set to optimize battery, you can’t restrict it.
 
 To restrict the app, first turn on battery optimization."</string>
@@ -1425,6 +1429,10 @@ You can change this in the Settings."</string>
 You can turn this feature off in the Settings > Bluetooth > Paired devices."</string>
     <string name="bt_aac_open_dialog_title">Switching to AAC codec</string>
     <string name="bt_aac_pre_title">AAC</string>
+    <string name="bt_absVolume_open_dialog_summary">Due to compatibility issues, some Bluetooth devices may have abnormal volume levels, which can be resolved by turning this feature off.</string>
+    <string name="bt_absVolume_open_dialog_title">Attention</string>
+    <string name="bt_absVolume_pre_title">Absolute volume</string>
+    <string name="bt_absVolume_summary">"Keep the volume of Bluetooth devices and the phone strictly consistent. You can turn this feature on and off when media isn't playing in the background."</string>
     <string name="bt_dialog_remember_choice">"Don't show again"</string>
     <string name="bt_dialog_settings">Settings</string>
     <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
@@ -1894,6 +1902,8 @@ This info identifies whether your contacts can use certain features, like video 
     <string name="continue_reset_factory">Factory reset</string>
     <string name="contributors_title">Contributors</string>
     <string name="control_center">Control center</string>
+    <string name="control_center_style">Control center style</string>
+    <string name="control_center_style_summary">"Select how you'd like to display toggles and notifications"</string>
     <string name="control_panel_switch_side">Switch Control center side</string>
     <string name="controls_label">Controls</string>
     <string name="controls_subtitle">Adjust power use</string>
@@ -1999,6 +2009,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="current_zone">(current)</string>
     <string name="custom_carrier_title">Edit carrier name</string>
     <string name="custom_color">Custom</string>
+    <string name="custom_gesture_title">Custom gestures</string>
     <string name="custom_wifi_name_title">Edit WLAN name</string>
     <string name="cutout_mode_always">Always show notch</string>
     <string name="cutout_mode_default">Auto</string>
@@ -3026,6 +3037,7 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
     <string name="foreground_traffic">Foreground %s</string>
     <string name="forget">Forget</string>
     <string name="forget_passpoint_dialog_message">You may lose access to any remaining time or data. Check with your provider before removing.</string>
+    <string name="forget_passpoint_wifi_message">Your device will stop connecting to this network automatically.</string>
     <string name="forget_password_button_text"><u>Forgot password</u></string>
     <string name="forget_password_dialog_button_text">Back</string>
     <string name="forget_password_dialog_content_four">2. Select [Wipe data], and wait until your device reboots.</string>
@@ -3721,15 +3733,26 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="last_synced">Last synced %1$s</string>
     <string name="last_time_used_label">Last time used</string>
     <string name="lattice_smartcover_title">Lattice front cover</string>
+    <string name="launch_ai_shortcut">Mi AI shortcut</string>
+    <string name="launch_alipay_payment_code">Alipay payment code</string>
+    <string name="launch_alipay_scanner">Alipay scanner</string>
     <string name="launch_by_default">Open by default</string>
+    <string name="launch_calculator">Calculator</string>
     <string name="launch_camera">Launch camera</string>
+    <string name="launch_control_center">Control center</string>
     <string name="launch_defaults_none">No defaults set</string>
     <string name="launch_defaults_some">Some defaults set</string>
     <string name="launch_google_search">Launch Google Assistant</string>
     <string name="launch_instant_app">Open</string>
     <string name="launch_mdp_app_text">View plan</string>
+    <string name="launch_noapp_dialog_cancel">Cancel</string>
+    <string name="launch_noapp_dialog_install">Install</string>
+    <string name="launch_noapp_dialog_replace">Settings</string>
+    <string name="launch_notification_center">Notification shade</string>
     <string name="launch_recents">Launch Recents</string>
     <string name="launch_voice_assistant">Launch voice assistant</string>
+    <string name="launch_wechat_payment_code">WeChat payment code</string>
+    <string name="launch_wechat_scanner">WeChat scanner</string>
     <string name="launch_wifi_text">View details</string>
     <string name="launcher_icon">Icons</string>
     <string name="launcher_title">Home screen &amp; Recents</string>
@@ -3759,6 +3782,8 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="led_settings">LED light</string>
     <string name="left_edge">Left edge</string>
     <string name="left_function_key">Left shortcut</string>
+    <string name="legacy_control_center_desc">Pull down status bar to view toggles and notifications</string>
+    <string name="legacy_control_center_title">Old version</string>
     <string name="legacy_navigation_summary">Go back, Home, and switch apps with buttons at the bottom of your screen.</string>
     <string name="legacy_navigation_title">3-button navigation</string>
     <string name="legal_information">Legal information</string>
@@ -3893,6 +3918,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="lock_profile_wipe_warning_content_password">If you enter an incorrect work password on this attempt, your work profile and associated data will be removed from this device.</string>
     <string name="lock_profile_wipe_warning_content_pattern">If you enter an incorrect work pattern on this attempt, your work profile and associated data will be removed from this device.</string>
     <string name="lock_profile_wipe_warning_content_pin">If you enter an incorrect work PIN on this attempt, your work profile and associated data will be removed from this device.</string>
+    <string name="lock_screen_action">Items shown on the Lock screen after swiping down</string>
     <string name="lock_screen_display_category_name">Lock screen</string>
     <string name="lock_screen_intro_skip_dialog_text">Device protection features won’t be turned on. You won’t be able to prevent others from using this phone if it’s lost or stolen.</string>
     <string name="lock_screen_intro_skip_dialog_text_frp">Device protection features won’t be turned on. You won’t be able to prevent others from using this phone if it’s lost, stolen or reset.</string>
@@ -4384,7 +4410,6 @@ Continue to access additional settings."</string>
     <string name="miui_touch_filtered_warning">If an app is blocking a permissions dialog, drag the overlapping item away or close the app.</string>
     <string name="miui_updater">System update</string>
     <string name="miui_userguide">User guide</string>
-    <string name="miui_wifi_wakeup_summary">WLAN will be turned on automatically when your device detects saved networks nearby and turned off after 15 minutes if no connection is established</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -4449,6 +4474,8 @@ Switching to %1$s won't cancel your %2$s service."</string>
     <string name="model_name">Model</string>
     <string name="model_number">Device</string>
     <string name="model_summary">Model: %1$s</string>
+    <string name="modern_control_center_desc">Pull down status bar on the left to view notifications. Pull down status bar on the right to open Control center.</string>
+    <string name="modern_control_center_title">New version</string>
     <string name="modify_default_browser_message">If you set a third party app as your default browser, it might start collecting your browsing history and other data. Set anyway?</string>
     <string name="modify_instruction_password_settings">Set password</string>
     <string name="modify_privacy_password">Change password</string>
@@ -4544,6 +4571,7 @@ Select your operating system:"</string>
     <string name="multifunction_keyboard">Multifunctional</string>
     <string name="music_equalizer">Equalizer</string>
     <string name="musicfx_title">Music effects</string>
+    <string name="mute">Silent mode</string>
     <string name="mute_media_sound_title">Silence media in Silent mode</string>
     <string name="mute_music_stream">Mute media sound</string>
     <string name="mute_voiceassist_stream">Mute voice assistant</string>
@@ -4833,10 +4861,12 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
     <string name="notification_channels_other">Other</string>
     <string name="notification_content_block_summary">Never show notifications in the shade or on peripheral devices</string>
     <string name="notification_content_block_title">Show notifications</string>
+    <string name="notification_control_center">Notifications &amp; Control center</string>
     <string name="notification_conversation_add_to_home">Add to home</string>
     <string name="notification_conversation_important">Priority</string>
     <string name="notification_conversation_summary">%1$s • %2$s</string>
     <string name="notification_conversation_summary_low">No sound or vibration and appears lower in conversation section</string>
+    <string name="notification_display_settings">Notification shade</string>
     <string name="notification_fold_description1">Notifications folder was introduced in MIUI 9. This feature filters unimportant notifications and places them into a separate folder.</string>
     <string name="notification_fold_description2">MIUI will remember which notifications you tap, and then use multiple criteria to determine whether they are important.</string>
     <string name="notification_fold_description3">"If the notifications you consider important still go into the Notifications folder, make sure that you report such issues to us. We'd appreciate your feedback."</string>
@@ -4915,6 +4945,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
     <string name="notification_reboot_title_hm">Reboot to apply update</string>
     <string name="notification_remind">Notifications</string>
     <string name="notification_ringtone_title">Default notification sound</string>
+    <string name="notification_settings">Notifications</string>
     <string name="notification_settings_work_profile">Notification access is not available for apps in the work profile.</string>
     <string name="notification_shade_shortcut_title">Notification shade shortcut</string>
     <string name="notification_show_lights_title">Blink light</string>
@@ -5111,6 +5142,13 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="partial_connectivity_text">Some apps and services may not work due to limited connectivity. Use anyway?</string>
     <string name="passpoint_content">%1$s credentials</string>
     <string name="passpoint_label">Saved via</string>
+    <string name="passpoint_r1_privacy_dialog_message">"This WLAN service is provided by exands. It allows you to connect to supported nearby hotspots automatically.
+
+Read and agree to %s before using this service."</string>
+    <string name="passpoint_r1_privacy_dialog_no">Exit</string>
+    <string name="passpoint_r1_privacy_dialog_title">Attention</string>
+    <string name="passpoint_r1_privacy_dialog_url_text">\"exands Privacy Policy\"</string>
+    <string name="passpoint_r1_privacy_dialog_yes">Agree</string>
     <string name="passwordIncorrect">The password you entered is incorrect</string>
     <string name="password_and_security">Passwords &amp; security</string>
     <string name="password_entrance_title">Set screen lock</string>
@@ -5209,7 +5247,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="power_center">Battery optimization</string>
     <string name="power_charge_remaining">%1$s to charge</string>
     <string name="power_charging">%1$s - %2$s</string>
-    <string name="power_charging_duration">%1$s - %2$s until charged</string>
+    <string name="power_charging_duration">%1$s - %2$s until fully charged</string>
     <string name="power_checker">Power checker</string>
     <string name="power_discharge_by">Should last until about %1$s (%2$s)</string>
     <string name="power_discharge_by_enhanced">Should last until about %1$s based on your usage (%2$s)</string>
@@ -5255,7 +5293,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="power_optimize">Battery saver</string>
     <string name="power_overcounted">Over-counted</string>
     <string name="power_phone">Voice calls</string>
-    <string name="power_remaining_charging_duration_only">%1$s left until charged</string>
+    <string name="power_remaining_charging_duration_only">%1$s left until fully charged</string>
     <string name="power_remaining_duration_only">About %1$s left</string>
     <string name="power_remaining_duration_only_enhanced">About %1$s left based on your usage</string>
     <string name="power_remaining_duration_only_short">%1$s</string>
@@ -5637,6 +5675,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="repeat_days_in_week">Repeat</string>
     <string name="repeat_never">Never</string>
     <string name="repeat_title">Repeat</string>
+    <string name="requires_modern_control_center">Works with the new version of Control center</string>
     <string name="reset_aaid">Reset advertising identifier</string>
     <string name="reset_app_preferences">Reset app preferences</string>
     <string name="reset_app_preferences_button">Reset apps</string>
@@ -6475,6 +6514,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="show_all_anrs_summary">Show \"App not responding\" dialog for background apps</string>
     <string name="show_all_apps">Show full device usage</string>
     <string name="show_background_processes">Show cached processes</string>
+    <string name="show_badge_notifications_short">Badges</string>
     <string name="show_carrier_under_keyguard_title">Show carrier when device is locked</string>
     <string name="show_connected_devices_summary">View connected devices</string>
     <string name="show_connected_devices_title">Connected devices</string>
@@ -6655,7 +6695,7 @@ Double tap to open Recents."</string>
     <string name="smart_battery_manager_title">Battery Manager</string>
     <string name="smart_battery_summary">Limit battery for apps that you don’t use often</string>
     <string name="smart_battery_title">Manage apps automatically</string>
-    <string name="smart_home_title">Smart Home</string>
+    <string name="smart_home_title">Smart home</string>
     <string name="smart_home_value_none">None</string>
     <string name="smart_home_value_unknown">Unknown</string>
     <string name="smart_notifications_title">Adaptive notifications</string>
@@ -7607,6 +7647,7 @@ or earphones with a 3.5mm plug."</string>
     <string name="usb_preference">USB Preferences</string>
     <string name="usb_ptp_summary">Lets you transfer photos using camera software, and transfer any files on computers that don’t support MTP</string>
     <string name="usb_ptp_title">Camera (PTP)</string>
+    <string name="usb_reverse_charge">Reverse charging</string>
     <string name="usb_summary_MIDI">MIDI</string>
     <string name="usb_summary_MIDI_power">MIDI and supplying power</string>
     <string name="usb_summary_charging_only">Charging this device</string>
@@ -7630,12 +7671,16 @@ or earphones with a 3.5mm plug."</string>
     <string name="usb_use">Use USB for</string>
     <string name="usb_use_MIDI">MIDI</string>
     <string name="usb_use_MIDI_desc">Use this device as MIDI</string>
+    <string name="usb_use_MIDI_miui12_5">MIDI</string>
     <string name="usb_use_charging_only">No data transfer</string>
     <string name="usb_use_charging_only_desc">Just charge this device</string>
     <string name="usb_use_file_transfers">File Transfer</string>
     <string name="usb_use_file_transfers_desc">Transfer files to another device</string>
+    <string name="usb_use_file_transfers_miui12_5">File transfers</string>
+    <string name="usb_use_miui12_5">Use USB for</string>
     <string name="usb_use_photo_transfers">Transfer photos (PTP)</string>
     <string name="usb_use_photo_transfers_desc">Transfer photos or files if MTP is not supported (PTP)</string>
+    <string name="usb_use_photo_transfers_miui12_5">Photo transfers</string>
     <string name="usb_use_power_only">Charge connected device</string>
     <string name="usb_use_tethering">USB tethering</string>
     <string name="use_control_panel">Use new Control center</string>

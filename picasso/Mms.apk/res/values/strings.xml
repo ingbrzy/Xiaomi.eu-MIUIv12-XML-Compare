@@ -464,7 +464,7 @@
     <string name="from_pkg_name">From the app:</string>
     <string name="ft_cfs_dialog_content">"Files couldn't be delivered using RCS. Send a link in a text message instead?"</string>
     <string name="ft_cfs_dialog_title">Alternative file transfer</string>
-    <string name="google_message_promo_content">Xiaomi recommends switching to Messages by Google. It allows you to text on Wi-Fi, share high-quality media, and more. <font color="#B3000000"><a href="https://support.google.com/messages/answer/6089066">View details</a></font>.</string>
+    <string name="google_message_promo_content">Xiaomi recommends upgrading to Messages by Google. Install now to get high quality photo sharing, chat on Wi-Fi, and more. <font color="#B3000000"><a href="https://support.google.com/messages/answer/6089066">Learn more</a></font></string>
     <string name="google_message_promo_title">Upgrade your messaging app</string>
     <string name="group_already_kicked_hint">"Can't send messages. You aren't a member of this group chat."</string>
     <string name="group_member_is_composing">Typing…</string>
@@ -513,8 +513,8 @@
     <string name="imageview_ad">Ad</string>
     <string name="importing_progress_private_message">Importing…</string>
     <string name="in_sms">Message</string>
-    <string name="installed_google_message_promo_content">Xiaomi recommends using Messages by Google. It allows you to text on Wi-Fi, share high-quality media, and more.</string>
-    <string name="installed_google_message_promo_title">Start using Messages</string>
+    <string name="installed_google_message_promo_content">Xiaomi recommends using Messages by Google. Open Messages to get high quality photo sharing, chat on Wi-Fi, and more.</string>
+    <string name="installed_google_message_promo_title">Open Messages for better chat</string>
     <string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
     <string name="invalid_conversation">Invalid conversation</string>
     <string name="invalid_destination">Invalid destination address.</string>
@@ -807,7 +807,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="pref_show_photo_word_summary">Automatically assign a picture to contacts without one</string>
     <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
     <string name="pref_show_sms_template_in_summary">Automatically detect one-time passwords in SMS messages</string>
-    <string name="pref_show_sms_template_summary">Turn on to use the smart features of Mi Message, such as copying codes, checking balance, etc.</string>
+    <string name="pref_show_sms_template_summary">Copy one-time passwords, track delivery, check phone balance, and display tickets and bills as cards automatically</string>
     <string name="pref_smart_messages_settings">Smart Messaging</string>
     <string name="pref_sms_storage_title">Storage</string>
     <string name="pref_sms_theme_title">Display</string>
@@ -885,6 +885,12 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="privacy_password_title3">Upgrade your password</string>
     <string name="privacy_password_title4">Password upgraded</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_state_revoked_cancel">Cancel</string>
+    <string name="privacy_state_revoked_content">By toggling off the switch, you withdraw your consent to the Privacy Policy of Messaging. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period as required by applicable laws. Mi Message and Smart Messaging provided by Messaging need to collect necessary personal information to provide you with basic services. Your withdrawal of consent to the Privacy Policy of Messaging will be held as refusing to accept the services based on collected personal information provided by Mi Message and Smart Messaging.</string>
+    <string name="privacy_state_revoked_dialog_title">Withdrawal of consent</string>
+    <string name="privacy_state_revoked_revoked">Withdraw</string>
+    <string name="privacy_state_revoked_switch">Withdrawal of consent</string>
+    <string name="privacy_state_revoked_synopsis">By toggling off the switch, you withdraw your consent to the Privacy Policy of Messaging.</string>
     <string name="privacy_term">Privacy Policy</string>
     <string name="private_entry_available">Release to open private folder</string>
     <string name="private_entry_default">Slide down to open private folder</string>
@@ -1193,10 +1199,12 @@ Take a look at the recommended ones!"</string>
     <string name="slide_up_to_cancel">Slide up to cancel</string>
     <string name="slideshow_activity">Slideshow</string>
     <string name="smart_message_title">Smart Messaging</string>
+    <string name="smart_message_upgrade_title">Smart Messaging Privacy Policy update</string>
     <string name="smart_messages_network_allow_message">Mi Message needs to connect to the internet in order for its services to work normally. Allow now?</string>
     <string name="smart_messages_network_allow_title">Internet connection is required</string>
     <string name="smart_msg_main_purpose">Smart Messaging provides Sender ID recognition and smart menu services.</string>
     <string name="smart_msg_privacy_policy">Smart Messaging Privacy Policy</string>
+    <string name="smart_msg_upgrade_main_purpose">"Smart Messaging works with MMS now. You'll be able to use more services provided by the senders, as well as receive messages in new formats."</string>
     <string name="sms_card_partner_label">"SMS card partner: "</string>
     <string name="sms_card_teddy_mobile">Teddy Mobile</string>
     <string name="sms_content">Content:</string>
@@ -1288,6 +1296,7 @@ Take a look at the recommended ones!"</string>
 If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app."</string>
     <string name="system_permission_declare_privacy_declare">%1s needs to collect your data and requires the following permissions to work normally:</string>
     <string name="system_permission_declare_privacy_declare_new">This app needs to connect to the internet and requires the following permissions to be able to work normally:</string>
+    <string name="system_permission_declare_privacy_link">To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our %1s.</string>
     <string name="system_permission_declare_revoke_path">You can revoke your authorization and turn off services in the Messaging settings.</string>
     <string name="system_permission_declare_single_link">Read and agree to our %1s before using this feature.</string>
     <string name="system_permission_declare_triple_link" formatted="false">Read and agree to our %1s, %2s, and %3s before using these features.</string>
@@ -1424,6 +1433,7 @@ Attempt made: %s."</string>
     <string name="voice_report_wiredon">With earphones</string>
     <string name="wap_push_title">"[WAP Push] "</string>
     <string name="warning_show">Send in %ds</string>
+    <string name="web_content_invalid_hint">Displaying this item is restricted by the local laws and regulations</string>
     <string name="wednesday">Wednesday</string>
     <string name="wednesday_short">Wed</string>
     <string name="wednesday_shortest">Wed</string>

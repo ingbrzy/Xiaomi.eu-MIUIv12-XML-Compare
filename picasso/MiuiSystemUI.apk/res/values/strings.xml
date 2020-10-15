@@ -546,7 +546,6 @@ Selection"</string>
     <string name="bt_hci_snoop_log">Enable Bluetooth HCI snoop log</string>
     <string name="bt_hci_snoop_log_summary">Capture Bluetooth packets (Toggle Bluetooth after changing this setting).</string>
     <string name="bt_is_off">Bluetooth is off</string>
-    <string name="bubble_accessibility_action_add_back">Add back to stack</string>
     <string name="bubble_accessibility_action_move">Move</string>
     <string name="bubble_accessibility_action_move_bottom_left">Move bottom left</string>
     <string name="bubble_accessibility_action_move_bottom_right">Move bottom right</string>
@@ -555,18 +554,9 @@ Selection"</string>
     <string name="bubble_content_description_single">%1$s from %2$s</string>
     <string name="bubble_content_description_stack">%1$s from %2$s and %3$d more</string>
     <string name="bubble_dismiss_text">Dismiss</string>
-    <string name="bubble_overflow_button_content_description">Overflow</string>
-    <string name="bubble_overflow_empty_subtitle">Recent bubbles and dismissed bubbles will appear here</string>
-    <string name="bubble_overflow_empty_title">No recent bubbles</string>
     <string name="bubbles_deep_link_button_description">Open %1$s</string>
-    <string name="bubbles_dont_bubble_conversation">Don’t bubble conversation</string>
     <string name="bubbles_prompt">Allow bubbles from %1$s?</string>
     <string name="bubbles_settings_button_description">Settings for %1$s bubbles</string>
-    <string name="bubbles_user_education_description">New conversations appear as floating icons, or bubbles. Tap to open bubble. Drag to move it.</string>
-    <string name="bubbles_user_education_got_it">Got it</string>
-    <string name="bubbles_user_education_manage">Tap Manage to turn off bubbles from this app</string>
-    <string name="bubbles_user_education_manage_title">Control bubbles anytime</string>
-    <string name="bubbles_user_education_title">Chat using bubbles</string>
     <string name="bugreport_in_power">Bug report shortcut</string>
     <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
     <string name="button_convert_fbe">Wipe and convert…</string>
@@ -1351,7 +1341,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="notification_aggregate_text">Mark notifications from %1$s as unimportant</string>
     <string name="notification_all_categories">All categories</string>
     <string name="notification_app_settings">Customize: %1$s</string>
-    <string name="notification_bubble_title">Bubble</string>
     <string name="notification_channel_alerts">Alerts</string>
     <string name="notification_channel_battery">Battery</string>
     <string name="notification_channel_controls_closed_accessibility">Notification controls for %1$s closed</string>
@@ -1367,8 +1356,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="notification_channel_tv_pip">Picture-in-Picture</string>
     <string name="notification_channel_usb">USB</string>
     <string name="notification_channels_list_desc_2">%1$s, %2$s</string>
-    <string name="notification_conversation_bubble">Show bubble</string>
-    <string name="notification_conversation_unbubble">Remove bubbles</string>
+    <string name="notification_control_center">Notifications &amp; Control center</string>
     <string name="notification_default_channel_desc">"This app doesn't have notification categories"</string>
     <string name="notification_done">Done</string>
     <string name="notification_group_collapse_button_text">Fold</string>
@@ -1469,7 +1457,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="pointer_location">Pointer location</string>
     <string name="pointer_location_summary">Screen overlay showing current touch data</string>
     <string name="power_charging">%1$s - %2$s</string>
-    <string name="power_charging_duration">%1$s - %2$s until charged</string>
+    <string name="power_charging_duration">%1$s - %2$s until fully charged</string>
     <string name="power_discharge_by">Should last until about %1$s (%2$s)</string>
     <string name="power_discharge_by_enhanced">Should last until about %1$s based on your usage (%2$s)</string>
     <string name="power_discharge_by_only">Should last until about %1$s</string>
@@ -1506,7 +1494,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
 
 "<b>Level 0</b>" 
 - Block all notifications from the app "</string>
-    <string name="power_remaining_charging_duration_only">%1$s left until charged</string>
+    <string name="power_remaining_charging_duration_only">%1$s left until fully charged</string>
     <string name="power_remaining_duration_only">About %1$s left</string>
     <string name="power_remaining_duration_only_enhanced">About %1$s left based on your usage</string>
     <string name="power_remaining_duration_only_short">%1$s</string>
@@ -1660,7 +1648,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_rssi_emergency_only">Emergency calls only</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screenbutton_label">Buttons</string>
-    <string name="quick_settings_screenlock_label">Lock screen</string>
+    <string name="quick_settings_screenlock_label">Lock</string>
     <string name="quick_settings_screenshot_label">Screenshot</string>
     <string name="quick_settings_secondary_label_until">Until %s</string>
     <string name="quick_settings_settings_label">Settings</string>
