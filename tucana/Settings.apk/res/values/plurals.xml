@@ -16,25 +16,26 @@
         <item quantity="other">%1$d apps have full access to your device</item>
         <item quantity="one">1 app has full access to your device</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
-        <item quantity="other">Extremely short delay (%1$d ms)</item>
-        <item quantity="one">Extremely short delay (%1$d ms)</item>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s seconds</item>
+        <item quantity="one">%1$s second</item>
+        <item quantity="few">%1$s seconds</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
-        <item quantity="other">Long delay (%1$d ms)</item>
-        <item quantity="one">Long delay (%1$d ms)</item>
+        <item quantity="other">Long (%1$s seconds)</item>
+        <item quantity="one">Long (%1$s second)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Medium (%1$s seconds)</item>
+        <item quantity="one">Medium (%1$s second)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
-        <item quantity="other">Short delay (%1$d ms)</item>
-        <item quantity="one">Short delay (%1$d ms)</item>
+        <item quantity="other">Short (%1$s seconds)</item>
+        <item quantity="one">Short (%1$s second)</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
-        <item quantity="other">Very long delay (%1$d ms)</item>
-        <item quantity="one">Very long delay (%1$d ms)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
-        <item quantity="other">Very short delay (%1$d ms)</item>
-        <item quantity="one">Very short delay (%1$d ms)</item>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">App claims to handle %d links</item>
+        <item quantity="one">App claims to handle %d link</item>
     </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Off for %d apps</item>
@@ -42,11 +43,11 @@
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Never disable for %d apps</item>
-        <item quantity="one">Never disable for 1 app</item>
+        <item quantity="one">Never disable for %d app</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Always disable for %d apps</item>
-        <item quantity="one">Always disable for 1 app</item>
+        <item quantity="one">Always disable for %d app</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d apps are allowed to autostart</item>
@@ -152,6 +153,10 @@
         <item quantity="other">%s hours</item>
         <item quantity="one">1 hour</item>
     </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d apps connected</item>
+        <item quantity="one">%d app connected</item>
+    </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">%1$d of %2$d apps have access to location</item>
         <item quantity="one">%1$d of %2$d apps has access to location</item>
@@ -171,6 +176,10 @@
     <plurals name="lockpassword_password_requires_nonletter">
         <item quantity="other">Must contain at least %d non-letter characters</item>
         <item quantity="one">Must contain at least 1 non-letter character</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">Must contain at least %d non-numerical characters</item>
+        <item quantity="one">Must contain at least 1 non-numerical character</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric">
         <item quantity="other">Must contain at least %d numerical digits</item>
@@ -236,6 +245,10 @@
         <item quantity="other">%d added</item>
         <item quantity="one">%d added</item>
     </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">WLAN will be turned on automatically when your device detects saved networks nearby and turned off after %d minutes if no connection is established</item>
+        <item quantity="one">WLAN will be turned on automatically when your device detects saved networks nearby and turned off after %d minute if no connection is established</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIMs</item>
         <item quantity="one">%1$d SIM</item>
@@ -244,13 +257,13 @@
         <item quantity="other">%1$d restrictions</item>
         <item quantity="one">1 restriction</item>
     </plurals>
-    <plurals name="notification_few_channel_count_summary">
-        <item quantity="other">%1$d notification channels.</item>
-        <item quantity="one">%1$d notification channel.</item>
-    </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d categories</item>
         <item quantity="one">%d category</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d notifications</item>
+        <item quantity="one">%d notification</item>
     </plurals>
     <plurals name="notification_summary">
         <item quantity="other">Off for %d apps</item>
@@ -296,6 +309,10 @@
         <item quantity="other">%1$d print services on</item>
         <item quantity="one">1 print service on</item>
     </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d priority conversations</item>
+        <item quantity="one">%d priority conversation</item>
+    </plurals>
     <plurals name="restricted_app_summary">
         <item quantity="other">Limiting battery usage for %1$d apps</item>
         <item quantity="one">Limiting battery usage for %1$d app</item>
@@ -320,13 +337,13 @@
         <item quantity="other">%1$d fingerprints set up</item>
         <item quantity="one">%1$d fingerprint set up</item>
     </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">See all %1$d apps</item>
+        <item quantity="one">See all apps</item>
+    </plurals>
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Show %d hidden items</item>
         <item quantity="one">Show %d hidden item</item>
-    </plurals>
-    <plurals name="show_bluetooth_devices">
-        <item quantity="other">%1$d devices connected</item>
-        <item quantity="one">%1$d device connected</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">"You're %1$d steps away from entering CIT."</item>
@@ -341,8 +358,8 @@
         <item quantity="one">%1$d saved hearing aid</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">"You're %1$d steps away from entering phone info."</item>
-        <item quantity="one">"You're %1$d step away from entering phone info."</item>
+        <item quantity="other">"You're %1$d step away from opening device info."</item>
+        <item quantity="one">"You're %1$d step away from opening device info."</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">"You're %1$d steps away from reporting bug."</item>
@@ -493,17 +510,28 @@ For more information about this certificate, contact your admin."</item>
         <item quantity="one">Incorrect SIM PIN code, you have %d remaining attempt before you must contact your carrier to unlock your device.</item>
     </plurals>
     <plurals name="zen_mode_bypassing_apps_subtext">
-        <item quantity="other">Notifications from %1$d apps can override Do Not Disturb</item>
-        <item quantity="zero">No apps can override Do Not Disturb</item>
-        <item quantity="one">Notifications from 1 app can override Do Not Disturb</item>
+        <item quantity="other">%s can interrupt</item>
+        <item quantity="one">%s can interrupt</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">1 contact</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d conversations</item>
+        <item quantity="one">1 conversation</item>
     </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
         <item quantity="other">%d hours</item>
         <item quantity="one">1 hour</item>
     </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s can interrupt</item>
+        <item quantity="one">%s can interrupt</item>
+    </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d enabled</item>
-        <item quantity="one">1 enabled</item>
+        <item quantity="other">%d schedules set</item>
+        <item quantity="one">1 schedule set</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
         <item quantity="other">%d schedules can turn on automatically</item>
