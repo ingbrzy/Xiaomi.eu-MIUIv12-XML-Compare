@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="HIPS_ACTION_REJECT_CLEAR">拒绝并清空剪切板</string>
     <string name="HIPS_Action_Accept">Allow</string>
     <string name="HIPS_Action_Accept_Once">Allow once</string>
+    <string name="HIPS_Action_Accept_This">本次允许</string>
     <string name="HIPS_Action_Reject">Deny</string>
     <string name="HIPS_Action_Reject_Once">Deny once</string>
+    <string name="HIPS_Action_Reject_This">本次拒绝</string>
     <string name="HIPS_Perm_AudioRecorder">Record audio</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">record audio and phone calls</string>
     <string name="HIPS_Perm_AutoStart">Run at startup</string>
@@ -91,6 +94,8 @@
     <string name="HIPS_Perm_process_nfc_Desc">access near field communication (NFC) hardware</string>
     <string name="HIPS_Perm_process_outgoing_calls">Access Phone app</string>
     <string name="HIPS_Perm_process_outgoing_calls_Desc">monitor incoming calls</string>
+    <string name="HIPS_Perm_read_clipboard">读取剪切板</string>
+    <string name="HIPS_Perm_read_clipboard_Desc">允许应用读取复制的内容</string>
     <string name="HIPS_Perm_read_notification_sms">Service SMS</string>
     <string name="HIPS_Perm_read_notification_sms_Desc">read service SMS</string>
     <string name="HIPS_Perm_recognition">Access activity info</string>
@@ -99,18 +104,33 @@
     <string name="HIPS_Perm_service_foreground_Desc">foreground services</string>
     <string name="HIPS_Perm_show_when_locked">Show on Lock screen</string>
     <string name="HIPS_Perm_show_when_locked_Desc">be shown on Lock screen</string>
+    <string name="HIPS_Perm_tencentControl">访问社交信息</string>
+    <string name="HIPS_Perm_tencentControl_Desc">允许应用访问社交信息</string>
     <string name="HIPS_Perm_use_sip">Video services</string>
     <string name="HIPS_Perm_use_sip_Desc">use Session Initiation Protocol to stream video</string>
+    <string name="HIPS_Perm_write_clipboard">写入剪切板</string>
+    <string name="HIPS_Perm_write_clipboard_Desc">允许应用向剪切板写入任何内容</string>
     <string name="HIPS_SecurityPrompt_Caption">Security warning</string>
     <string name="HIPS_SecurityPrompt_Reject">Deny (%d)</string>
+    <string name="HIPS_SecurityPrompt_Reject_Clear_This">拒绝并清空剪切板 (%d)</string>
     <string name="HIPS_SecurityPrompt_Reject_Once">Deny once (%d)</string>
+    <string name="HIPS_SecurityPrompt_Reject_This">本次拒绝 (%d)</string>
     <string name="HIPS_SecurityPrompt_Title">%1$s is trying to %2$s</string>
     <string name="Su_Package_Forbidden2">"doesn't have root access."</string>
     <string name="app_name">Permissions</string>
     <string name="background_location_access_reminder_notification_content">This app can always access your location. Tap to change.</string>
     <string name="background_location_access_reminder_notification_title">%s has been using your location</string>
+    <string name="clipboard_ai_allow_once">已智能允许%1$s读取剪切板</string>
+    <string name="clipboard_data">剪切板数据</string>
+    <string name="clipboard_data_request">%1$s请求读取剪切板</string>
+    <string name="clipboard_deny_notification_content">已自动拦截该行为，点击前往处理</string>
+    <string name="clipboard_deny_notification_operation">立即处理</string>
+    <string name="clipboard_deny_notification_title">%1$s试图读取剪切板数据</string>
+    <string name="clipboard_may_sensitive">可能是敏感信息</string>
+    <string name="clipboard_read_allow_once">%1$s已读取剪切板</string>
     <string name="current_permission_template">%1$s(%2$d/%3$d)</string>
     <string name="default_permission_description">perform unknown actions</string>
+    <string name="go_perm_manager">前往设置权限</string>
     <string name="grant_dialog_button_allow">Allow</string>
     <string name="grant_dialog_button_allow_always">Allow all the time</string>
     <string name="grant_dialog_button_allow_background">Allow all the time</string>
@@ -123,9 +143,12 @@
     <string name="location_settings">Location settings</string>
     <string name="location_warning">%1$s is a provider of location services for this device. Location access can be modified from location settings.</string>
     <string name="never_ask_again">"Don't ask again after restricting"</string>
+    <string name="no">否</string>
     <string name="ok">OK</string>
     <string name="perm_action_allow">Allow</string>
     <string name="perm_action_deny">Never allow</string>
+    <string name="perm_manager_suggest_operation">前往权限设置</string>
+    <string name="perm_manager_suggest_title">权限设置建议</string>
     <string name="perm_modem_location">Access to your location</string>
     <string name="perm_modem_location_desc">Your carrier is trying to access your location info. Share location info with the carrier?</string>
     <string name="permdesc_camera">Take photos and record videos</string>
@@ -168,6 +191,8 @@
     <string name="static_cache_db_md5">ca8b2bf664b02208f1bbe2344e93a705</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_policy_notify_content">如需允许其读取，点击前往设置</string>
+    <string name="storage_policy_notify_gallery_title">已禁止%1$s读取手机相册</string>
+    <string name="storage_policy_notify_sociality_title">已禁止%1$s读取社交信息</string>
     <string name="storage_policy_notify_title">已禁止%1$s读取手机相册</string>
     <string name="virtual_reject_notice_content">A blank response was sent to the app to protect your personal info</string>
     <string name="virtual_reject_notice_title_calendar">Accessing calendar by %1$s</string>
@@ -175,4 +200,5 @@
     <string name="virtual_reject_notice_title_contacts">Accessing contacts by %1$s</string>
     <string name="virtual_reject_notice_title_phonestate">Accessing device info by %1$s</string>
     <string name="virtual_reject_notice_title_sms">Accessing messages by %1$s</string>
+    <string name="yes">是</string>
 </resources>
