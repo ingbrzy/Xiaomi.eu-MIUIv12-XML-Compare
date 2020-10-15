@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_time">M月d日 E</string>
+    <string name="date_time_12">M月d日 Eaa</string>
+    <string name="desc_date_format">M月d日 EEEE</string>
+    <string name="desc_date_format_12">M月d日 Eaa</string>
+    <string name="desc_time">ifelse(eq(#time_format,0),#hour12,eq(#time_format,1),#hour24,#hour24)+\'點\'+ifelse(gt(#minute,0)*le(#minute,9),0,\'\')+ifelse(#minute,#minute+\'分\',\'整\')+\', 按兩下進入時鐘App\'</string>
+    <string name="desc_weather">\@weather_description+\', \'+#weather_temperature+\'度\'</string>
+    <string name="desc_weather_null">'暫無資料'</string>
+    <string name="weather_type_null">'暫無資料'</string>
+    <string name="weather_type_0">晴</string>
+    <string name="weather_type_1">多雲</string>
+    <string name="weather_type_2">陰</string>
+    <string name="weather_type_3">霧</string>
+    <string name="weather_type_4">特大暴雨</string>
+    <string name="weather_type_5">大暴雨</string>
+    <string name="weather_type_6">暴雨</string>
+    <string name="weather_type_7">雷陣雨</string>
+    <string name="weather_type_8">陣雨</string>
+    <string name="weather_type_9">大雨</string>
+    <string name="weather_type_10">中雨</string>
+    <string name="weather_type_11">小雨</string>
+    <string name="weather_type_12">雨夾帶雪</string>
+    <string name="weather_type_13">暴雪</string>
+    <string name="weather_type_14">陣雪</string>
+    <string name="weather_type_15">大雪</string>
+    <string name="weather_type_16">中雪</string>
+    <string name="weather_type_17">小雪</string>
+    <string name="weather_type_18">強沙塵暴</string>
+    <string name="weather_type_19">沙塵暴</string>
+    <string name="weather_type_20">沙塵</string>
+    <string name="weather_type_21">揚沙</string>
+    <string name="weather_type_22">冰雹</string>
+    <string name="weather_type_23">浮塵</string>
+    <string name="weather_type_24">霾</string>
+    <string name="weather_type_25">凍雨</string>
+</resources>
