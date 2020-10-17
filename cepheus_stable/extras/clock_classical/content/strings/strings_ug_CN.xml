@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="date_time">M -ئاينىڭ d -كۈنى E</string>
-    <string name="date_time_12">M-ئاينىڭ d-كۈنى Eaa</string>
-    <string name="desc_date_format">M ـ ئاينىڭ d ـ كۈنى EEEE</string>
-    <string name="desc_date_format_12">M-ئاينىڭ d-كۈنى Eaa</string>
-    <string name="desc_time">ifelse(eq(#time_format,0),#hour12,eq(#time_format,1),#hour24,#hour24)+\'دىن\'+ifelse(gt(#minute,0)*le(#minute,9),0,\'\')+ifelse(#minute,#minute+\'مىنۇت\',\'تا\')+\', قوش چېكىپ سائەتApp گە كىرىڭ\'</string>
-</resources>
