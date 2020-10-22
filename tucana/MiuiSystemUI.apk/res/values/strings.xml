@@ -1337,6 +1337,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="mr_dialog_transferable_header">Play on a group</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
+    <string name="msim_set_sub_not_supported_phone_in_call">"Can't set during call"</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="mtrl_picker_cancel">Cancel</string>
     <string name="mtrl_picker_confirm">Save</string>
@@ -1682,10 +1683,10 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_sync_label">Sync</string>
     <string name="quick_settings_tethering_label">Tethering</string>
     <string name="quick_settings_tiles">default</string>
-    <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit</string>
+    <string name="quick_settings_tiles_default">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit</string>
     <string name="quick_settings_tiles_old_mode">cell,wifi,bt,flashlight,batterysaver,screenshot,edit</string>
     <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-    <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,powermode,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode,workmode</string>
+    <string name="quick_settings_tiles_stock">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,powermode,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode,workmode</string>
     <string name="quick_settings_tiles_super_save">cell,wifi,bt,gps,vibrate</string>
     <string name="quick_settings_time_label">Time</string>
     <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
@@ -1693,6 +1694,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_user_new_user">New user</string>
     <string name="quick_settings_user_title">User</string>
     <string name="quick_settings_vibrate_label">Vibrate</string>
+    <string name="quick_settings_vowifi_label">WLAN Calling</string>
+    <string name="quick_settings_vowifi_sim1_label">WLAN Calling SIM1</string>
+    <string name="quick_settings_vowifi_sim2_label">WLAN Calling SIM2</string>
     <string name="quick_settings_wifi_detail_dual_wifi_accelerated">Boosting speed</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_cancel">Cancel</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Confirm</string>
