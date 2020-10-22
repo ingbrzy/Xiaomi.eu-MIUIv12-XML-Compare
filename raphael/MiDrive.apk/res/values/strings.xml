@@ -36,6 +36,7 @@
     <string name="app_is_running">App is running…</string>
     <string name="app_name">Mi Drive</string>
     <string name="be_sure_to_clear_cache">Clear cache now?</string>
+    <string name="cancel">Cancel</string>
     <string name="category_document">Documents</string>
     <string name="category_document_title">Documents</string>
     <string name="category_file">Files</string>
@@ -62,7 +63,9 @@
     <string name="cloud_storage_info_type_pdc">System settings</string>
     <string name="cloud_storage_loading_data">Just a sec…</string>
     <string name="cloud_storage_no_data">No data</string>
+    <string name="confirm">OK</string>
     <string name="confirm_and_continue">Continue</string>
+    <string name="confirm_know">Back</string>
     <string name="continue_all">Resume all</string>
     <string name="copy">Copy</string>
     <string name="copy_file_success">Copied successfully</string>
@@ -126,6 +129,11 @@
     <string name="exception_rename_illegal_char">"Filenames can't contain special characters"</string>
     <string name="expand_button_title">Advanced</string>
     <string name="fab_menu_sort">Sort</string>
+    <string name="file_info_created">"Uploaded: "</string>
+    <string name="file_info_local_created">"Created: "</string>
+    <string name="file_info_location">"Location: "</string>
+    <string name="file_info_modified">"Last modified: "</string>
+    <string name="file_info_size">"Size: "</string>
     <string name="file_is_downloaded">Item is already downloaded</string>
     <string name="file_list_item_desc">%1$s | %2$s</string>
     <string name="file_no_file_desc">No items here yet.</string>
@@ -136,6 +144,10 @@
     <string name="file_send_no_support">"Can't share files of this type"</string>
     <string name="file_size_is_zero">File size must be greater than 0</string>
     <string name="file_size_lager_than_4g">"File size can't exceed 4 GB"</string>
+    <string name="file_sort_create_time">Sort by date created</string>
+    <string name="file_sort_modify_time">Sort by date modified</string>
+    <string name="file_sort_name">Sort by name</string>
+    <string name="file_sort_size">Sort by size</string>
     <string name="file_status_text">%1$s | %2$s %3$s: %4$s</string>
     <string name="file_status_text_no_size">%1$s %2$s: %3$s</string>
     <string name="file_upload_dialog_cancel">Cancel</string>
@@ -179,7 +191,11 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
     <string name="month_day_format">MM/dd</string>
     <string name="move_file_success">Moved successfully</string>
+    <string name="music_format_not_support">"Can't preview this file"</string>
     <string name="music_picker_title">Select music</string>
+    <string name="music_play_attention_network_traffic">Using mobile data to stream audio and video may generate additional fees</string>
+    <string name="music_play_online">Streaming</string>
+    <string name="music_play_online_network_not_available">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="music_preview_download_failed">"Couldn't load"</string>
     <string name="music_preview_failed">"Can't play this audio file"</string>
     <string name="music_preview_title_loading">Just a sec…</string>
@@ -212,6 +228,7 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="operation_dialog_move_message">Moving…</string>
     <string name="operation_dialog_rename_message">Renaming…</string>
     <string name="operation_download">Download</string>
+    <string name="operation_info">Details</string>
     <string name="operation_move">Move</string>
     <string name="operation_rename">Rename</string>
     <string name="operation_sure_to_delete">Delete now?</string>
@@ -230,10 +247,14 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="pre_user_agreement">User Agreement</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="private_empty_desc">Here you can store files privately.</string>
+    <string name="private_empty_sub_desc">Try moving files here or upload them directly.</string>
+    <string name="private_folder_name">Private files</string>
     <string name="refresh_label_pull_to_refresh">Pull down to refresh</string>
     <string name="refresh_label_refreshed">Refreshed successfully</string>
     <string name="refresh_label_refreshing">Refreshing…</string>
     <string name="refresh_label_release_to_refresh">Release to refresh</string>
+    <string name="release_enter_private">Release to view private files</string>
     <string name="remove_success">Deleted successfully</string>
     <string name="rename_ext_confirm_dialog_desc">Changing file type might make the file unusable</string>
     <string name="rename_file_select_error">"Can't rename multiple items"</string>
@@ -255,6 +276,8 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="select_move_title">Move to</string>
     <string name="select_new_folder">New folder</string>
     <string name="select_upload_title">Upload to</string>
+    <string name="set_lock_password_dialog_msg">Privacy protection password will be used for photos, notes, and files.</string>
+    <string name="set_lock_password_dialog_title">Set a new password</string>
     <string name="setting_clear_cache">Clear cache</string>
     <string name="setting_create_shortcut">Home screen shortcut</string>
     <string name="setting_title">Settings</string>
@@ -291,6 +314,8 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="transfer_progress_text">%1$s / %2$s</string>
     <string name="transport_end_button">Edit</string>
     <string name="transport_title">Transfers</string>
+    <string name="unlock_password_dialog_msg">Privacy protection password will be used. It works for photos, notes, and files.</string>
+    <string name="unlock_password_dialog_title">Privacy protection password</string>
     <string name="update_dialog_button_cancel">Not now</string>
     <string name="update_dialog_button_ok">Update</string>
     <string name="update_dialog_content">"New version: %1$s
