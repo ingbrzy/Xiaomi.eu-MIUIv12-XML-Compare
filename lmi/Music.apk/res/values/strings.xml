@@ -92,7 +92,7 @@
     <string name="app_bugly_id">e5f6fa4ff3</string>
     <string name="app_code">MYPLAY-ANDROID-MIMUSIC</string>
     <string name="app_label">Downloads</string>
-    <string name="app_name">sdk</string>
+    <string name="app_name">Preference</string>
     <string name="app_permission_confirm">Got it</string>
     <string name="app_permission_optional">Optional permissions</string>
     <string name="app_permission_require">Mandatory permissions</string>
@@ -234,7 +234,7 @@
     <string name="columbus_player_close_video">CLOSE VIDEO</string>
     <string name="columbus_player_install_now">INSTALL NOW</string>
     <string name="columbus_player_learn_more">Learn More</string>
-    <string name="com.crashlytics.android.build_id">b6bb3277-212b-4919-a76a-1d588cf3911f</string>
+    <string name="com.crashlytics.android.build_id">f9e2bcb0a64f4dce8bf690f5dfcfe56a</string>
     <string name="comment_format" formatted="false">%s: %s</string>
     <string name="common_google_play_services_enable_button">Enable</string>
     <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -295,6 +295,7 @@
     <string name="desktop_lyric_setting_summary">Show lyrics on Home screen</string>
     <string name="desktop_lyric_setting_title">Home screen lyrics</string>
     <string name="desktop_lyric_textsize">Text</string>
+    <string name="develop_mode">Developer mode</string>
     <string name="device_connected">Connected</string>
     <string name="device_not_connected">Not connected</string>
     <string name="dialog_cannot_resume">"Download interrupted. It can't be resumed."</string>
@@ -341,6 +342,7 @@
     <string name="dialog_title_queued_body">File not yet available</string>
     <string name="dialog_title_remove_tracks">Remove</string>
     <string name="disallow_add_to_fm">"Can't add songs to FM radio"</string>
+    <string name="discover_more_music">Discover more songs</string>
     <string name="do_not_remind_this_version">"Don't remind me about this version"</string>
     <string name="do_not_support_google_voice_search">"Google Voice Search isn't supported on your device."</string>
     <string name="download">Download</string>
@@ -487,6 +489,9 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Removing downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_media_action_repeat_all_description">Repeat all</string>
+    <string name="exo_media_action_repeat_off_description">Repeat none</string>
+    <string name="exo_media_action_repeat_one_description">Repeat one</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
     <string name="exo_track_resolution">%1$d × %2$d</string>
@@ -523,6 +528,7 @@
     <string name="favorites">Favorites</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="feed_back">Feedback</string>
+    <string name="feedback_send_email_body_extra_info">Do not delete the following info. It will help us locate the problem.</string>
     <string name="file_not_found">"File doesn't exist"</string>
     <string name="filter_by_MP4">Display folders with MP4 files</string>
     <string name="filter_by_duration">By length</string>
@@ -552,10 +558,10 @@
     <string name="fmt_date_long_year_month_day">MMMM d, yyyy</string>
     <string name="fmt_date_numeric_day">d</string>
     <string name="fmt_date_numeric_month">M</string>
-    <string name="fmt_date_numeric_month_day">M-d</string>
+    <string name="fmt_date_numeric_month_day">M/d</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">M-yyyy</string>
-    <string name="fmt_date_numeric_year_month_day">M-d-yyyy</string>
+    <string name="fmt_date_numeric_year_month">M/yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">M/d/yyyy</string>
     <string name="fmt_date_short_month">MMM</string>
     <string name="fmt_date_short_month_day">MMM d</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
@@ -573,10 +579,10 @@
     <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
     <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
     <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"H 'o''clock'"</string>
-    <string name="fmt_time_24hour_minute">H:mm</string>
-    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
-    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_24hour">"HH 'o''clock'"</string>
+    <string name="fmt_time_24hour_minute">HH:mm</string>
+    <string name="fmt_time_24hour_minute_second">HH:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
     <string name="fmt_time_millis">"S'ms'"</string>
     <string name="fmt_time_minute">"m'min'"</string>
     <string name="fmt_time_minute_second">"m'min' s's'"</string>
@@ -682,6 +688,13 @@
     <string name="individuation_recommend_title">Recommendations</string>
     <string name="individuation_setting_summary">Receive content recommendations based on your interests</string>
     <string name="individuation_setting_title">Personalized recommendations</string>
+    <string name="info_app_package_name">Package name:</string>
+    <string name="info_app_version">App version:</string>
+    <string name="info_language">Language:</string>
+    <string name="info_location">Region:</string>
+    <string name="info_product">Device:</string>
+    <string name="info_system">System:</string>
+    <string name="info_system_version">System version:</string>
     <string name="input_hint_prefix">Enter %1$s</string>
     <string name="installing_apk">Installing…</string>
     <string name="insufficient_space">"Not enough space on your device's internal storage"</string>
@@ -871,6 +884,7 @@
     <string name="my_playlist_create_self_playlist">Create playlists with your favorite songs</string>
     <string name="my_playlist_set_to_private">Make private</string>
     <string name="my_playlist_set_to_public">Make public</string>
+    <string name="network_disable">"Couldn't connect to the network"</string>
     <string name="network_error_and_retry">"Couldn't connect, tap to try again"</string>
     <string name="network_request_error">"Can't connect to the network"</string>
     <string name="network_settings_error">"Can't connect to the network"</string>
@@ -1012,13 +1026,22 @@
     <string name="preset_music_playlist">Mi Music playlist</string>
     <string name="priority_storage">Use external SD card</string>
     <string name="priority_storage_summary">Automatically download to external SD card if available</string>
-    <string name="privacy_authorize_network_error">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="privacy_authorize_network_error">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
     <string name="privacy_authorize_revoke_failed">"Couldn't revoke authorization"</string>
     <string name="privacy_authorize_revoke_success">Revoked authorization successfully</string>
     <string name="privacy_authorize_revoking">Revoking authorization…</string>
     <string name="privacy_desc">Privacy Policy (mandatory)</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
+    <string name="privacy_request_desc"><Data>"Mi Music needs to collect necessary personal information to provide you with online streaming services. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy of Mi Music in the Settings at any time.
+Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before using Mi Music.
+If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you."</Data></string>
+    <string name="privacy_request_subtitle">"Welcome to Mi Music! This app provides the following services:
+
+- A local audio player
+
+- Online streaming services"</string>
+    <string name="privacy_request_title">Terms and conditions</string>
     <string name="pro_member">PRO member</string>
     <string name="project_device">Mi Phone</string>
     <string name="project_id">mi-music-global</string>
@@ -1036,13 +1059,15 @@
     <string name="recommended_no_file_size_download_in_mobile">Use your mobile data connection to download this file?</string>
     <string name="remove">Remove</string>
     <string name="remove_download">Remove</string>
-    <string name="remove_user_privacy_dialog_message">After you revoke authorization, Mi Music will stop collecting data, and all the related data will be deleted from the servers. This might make Mi Music virtually unusable. Revoke authorization anyway?</string>
-    <string name="remove_user_privacy_dialog_title">Revoking authorization</string>
+    <string name="remove_user_privacy_dialog_message">By toggling off the switch, you withdraw your consent to the Privacy Policy of Mi Music. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period as required by applicable laws. Mi Music needs to collect necessary personal information to provide you with basic services. Your withdrawal of consent to its Privacy Policy will be held as refusing to accept its services based on collected personal information.</string>
+    <string name="remove_user_privacy_dialog_message_canuse">By toggling off the switch, you withdraw your consent to the Privacy Policy of Mi Music. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period as required by applicable laws. Mi Music needs to collect necessary personal information to provide you with online streaming services. Your withdrawal of consent to its Privacy Policy will be held as refusing to accept the aforementioned online services based on collected personal information.</string>
+    <string name="remove_user_privacy_dialog_title">Withdrawal of consent</string>
     <string name="renew_dialog_title">"Go Pro
 Be Happy"</string>
     <string name="repeat_all_notif">Repeating all songs.</string>
     <string name="repeat_current_notif">Repeating current song.</string>
     <string name="request_overlay_permission_desc">Allow Mi Music to display floating windows to be able to use this feature.</string>
+    <string name="request_privacy_permission_title">Read and agree to the terms and conditions below to access all our services.</string>
     <string name="request_share_info">Just a sec…</string>
     <string name="request_subscription_status">Just a sec…</string>
     <string name="restart_immediate">Restart</string>
@@ -1135,6 +1160,7 @@ Be Happy"</string>
     <string name="similar_playlists">Similar playlists</string>
     <string name="similar_songs">Similar songs</string>
     <string name="similar_videos">Similar videos</string>
+    <string name="skip">Skip</string>
     <string name="sleep_mode">Sleep timer</string>
     <string name="sleep_mode_canceled">Sleep mode turned off</string>
     <string name="sleep_mode_summary">Stop player after a certain time</string>
@@ -1182,6 +1208,7 @@ Be Happy"</string>
     <string name="start_to_check_new_version">Checking for updates…</string>
     <string name="start_to_download">Downloading…</string>
     <string name="start_to_play">Play</string>
+    <string name="start_update">Installing new version…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Storage for dual apps</string>
     <string name="storage_internal">Internal storage</string>
@@ -1189,6 +1216,7 @@ Be Happy"</string>
     <string name="storage_usb">USB storage</string>
     <string name="streamloadingtext">Connecting to %s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_command_mode">Turn on to enter Command mode</string>
     <string name="sunday">Sunday</string>
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">S</string>
@@ -1278,10 +1306,12 @@ Be Happy"</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
     <string name="time_to_upgrade">An update is available</string>
+    <string name="title_command_mode">Command mode</string>
     <string name="title_online_fm_recommend">Featured FM</string>
     <string name="title_online_recommend">Featured playlists</string>
     <string name="title_search_history">Search history</string>
     <string name="title_search_hot">Popular</string>
+    <string name="toast_cant_commit_without_title">Enter song title</string>
     <string name="toast_download_error_by_count_limit">You have used up your download quota for this month.</string>
     <string name="toast_download_error_by_not_login">Sign in to Mi Account and try again.</string>
     <string name="toast_download_error_by_vip_required">Get Premium Song Pack to download this song.</string>
@@ -1296,6 +1326,9 @@ Be Happy"</string>
     <string name="toast_normal_songs_for_download">Downloading quality set to Standard</string>
     <string name="toast_normal_songs_for_stream">Streaming quality set to Standard</string>
     <string name="toast_not_pro">This feature is available only to PRO members.</string>
+    <string name="toast_playmode_loop_playback">Current playlist is looped</string>
+    <string name="toast_playmode_shuffle_play">Playback is shuffled</string>
+    <string name="toast_playmode_single_cycle">Current song is looped</string>
     <string name="toast_uhd_songs_for_download">Downloading quality set to High</string>
     <string name="toast_uhd_songs_for_stream">Streaming quality set to High</string>
     <string name="toast_will_play_list_when_ad_pause">The playlist will start playing after ads</string>
@@ -1326,10 +1359,10 @@ Be Happy"</string>
     <string name="user_agreement">User Agreement</string>
     <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="user_privacy_dialog_negative_text">Cancel</string>
-    <string name="user_privacy_dialog_positive_count_down_text">Revoke (%ss)</string>
-    <string name="user_privacy_dialog_positive_text">Revoke</string>
-    <string name="user_privacy_setting_group_title">Authorization</string>
-    <string name="user_privacy_setting_title">Toggle the switch to grant or revoke your authorization</string>
+    <string name="user_privacy_dialog_positive_count_down_text">Withdraw (%ss)</string>
+    <string name="user_privacy_dialog_positive_text">Withdraw</string>
+    <string name="user_privacy_setting_group_title">Withdrawal of consent</string>
+    <string name="user_privacy_setting_title">By toggling off the switch, you withdraw your consent to the Privacy Policy of Mi Music.</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="version_info">Version</string>
