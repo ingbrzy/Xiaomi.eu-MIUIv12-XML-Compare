@@ -634,6 +634,7 @@ scanned documents automatically"</string>
     <string name="dolly_zoom_capture_tip4">ssjjppyyggdd，qqssxxppss</string>
     <string name="dolly_zoom_capture_tip5">ssppbbccssbb</string>
     <string name="dolly_zoom_guide_tip1">qqxxzzyyzztthhzzssggbbjj</string>
+    <string name="dolly_zoom_guide_tip10">ggddccjjddnnjjss</string>
     <string name="dolly_zoom_guide_tip2">jjzzttzzyyffkknn</string>
     <string name="dolly_zoom_guide_tip3">ssyyzz，zzttjjllbbccbbdd</string>
     <string name="dolly_zoom_guide_tip4">ssyyzzccwwssjjhhmm，bbmmzzxxppyy</string>
@@ -641,6 +642,7 @@ scanned documents automatically"</string>
     <string name="dolly_zoom_guide_tip6">ttssggddlltt</string>
     <string name="dolly_zoom_guide_tip7">zzssggddjjdd</string>
     <string name="dolly_zoom_guide_tip8">ggddccjjddnnjjss</string>
+    <string name="dolly_zoom_guide_tip9">zzssggddjjdd</string>
     <string name="dolly_zoom_guide_video_title1">ssppjjcc</string>
     <string name="dolly_zoom_guide_video_title2">ssggssll</string>
     <string name="download_cancel_hint">Cancel downloading %1$s?</string>
@@ -675,9 +677,6 @@ scanned documents automatically"</string>
     <string name="edit_skin_white">Tone</string>
     <string name="edit_slim_nose">Nose</string>
     <string name="edit_smile">Smile</string>
-    <string name="effect_comparison">效果对比</string>
-    <string name="effect_comparison_popup">去除</string>
-    <string name="effect_comparison_tab">原來的</string>
     <string name="emoticon">Sticker pack</string>
     <string name="empty">" "</string>
     <string name="error_fail_to_start_audio_capture">"Couldn't start audio capture"</string>
@@ -726,6 +725,7 @@ scanned documents automatically"</string>
     <string name="film_timefreeze_reset">tip reset</string>
     <string name="film_video_a">video_a</string>
     <string name="film_video_b">video_b</string>
+    <string name="film_video_b_tip">请在暗光环境下拍摄</string>
     <string name="film_video_c">video_c</string>
     <string name="film_video_d">video_d</string>
     <string name="film_video_e">video_e</string>
@@ -802,12 +802,11 @@ in Portrait mode"</string>
     <string name="lighting_rainbow">Rainbow</string>
     <string name="link_privacy_policy">http://www.miui.com/res/doc/privacy.html?lang=%s</string>
     <string name="link_user_agreement">http://www.miui.com/res/doc/eula.html?lang=%s</string>
-    <string name="live_draft_continue">继续拍摄</string>
-    <string name="live_draft_empty">没有草稿</string>
+    <string name="live_draft_continue">Resume</string>
+    <string name="live_draft_empty">No items here</string>
     <string name="live_edit_exit_confirm">Stop</string>
-    <string name="live_edit_exit_confirm_draft">保存并退出</string>
     <string name="live_edit_exit_message">Stop shooting now?</string>
-    <string name="live_edit_exit_message_draft">保存当前进度至草稿箱</string>
+    <string name="live_edit_exit_message_draft">Save as draft</string>
     <string name="live_edit_share_title">Share</string>
     <string name="live_error_confirm">Adjust time</string>
     <string name="live_error_message">Some features might not work properly when system time is incorrect.</string>
@@ -840,9 +839,8 @@ in Portrait mode"</string>
     <string name="live_sticker_network_error_hint">Network error</string>
     <string name="live_sticker_tab_name">TikTok Magic Sticker</string>
     <string name="live_sticker_updating">Updating…</string>
-    <string name="live_workspace_delete_dialog_title">是否删除%1$d项草稿？</string>
-    <string name="live_workspace_title">草稿箱</string>
-    <string name="live_workspace_title_edit">请选择删除项</string>
+    <string name="live_workspace_title">Drafts</string>
+    <string name="live_workspace_title_edit">Select items to delete</string>
     <string name="location_access_allow">Allow</string>
     <string name="location_permission_des">Remember locations for photos and videos</string>
     <string name="location_permission_not_ask_again">Allow Camera to access your location in the Settings.</string>
@@ -1125,11 +1123,9 @@ and brings out the people in the front."</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Try Portrait mode.
 Keep the subject sharp while blurring the background."</string>
     <string name="pref_960_watermark_title">960FPS watermark</string>
+    <string name="pref_a_c_f">Map</string>
     <string name="pref_advance_settings">Additional settings</string>
     <string name="pref_ai_detect">AI detection</string>
-    <string name="pref_audio_chart">Map</string>
-    <string name="pref_audio_chart_off">关闭</string>
-    <string name="pref_audio_chart_on">开启</string>
     <string name="pref_audio_denoise_title">Audio noise reduction</string>
     <string name="pref_audio_focus_entry_front">Front</string>
     <string name="pref_audio_focus_entry_general">Normal</string>
@@ -1563,7 +1559,8 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_customization_title">Customize</string>
     <string name="pref_document_mode">Documents</string>
     <string name="pref_dual_camera_video">Dual video</string>
-    <string name="pref_effect_comparison_title">效果对比</string>
+    <string name="pref_e_c_p_k">去除</string>
+    <string name="pref_e_c_t_j">原來的</string>
     <string name="pref_exposure_default">0</string>
     <string name="pref_face_beauty_title">Beautify</string>
     <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
@@ -1585,11 +1582,9 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_hdr10_video_mode_description">Optimize colors and contrast for 4K and 8K videos automatically. Optimized videos can only be played on HDR10 compatible devices.</string>
     <string name="pref_hdr10_video_mode_title">HDR10</string>
     <string name="pref_hdr10plus_video_mode_description">优化4K/8K视频的色彩和对比度。需要支持HDR10+的设备才能正常播放</string>
-    <string name="pref_histogram_off">关闭</string>
-    <string name="pref_histogram_on">开启</string>
-    <string name="pref_intelligent_noise_reduction">Noise_r</string>
-    <string name="pref_karaoke">返回音量</string>
-    <string name="pref_karaoke_summary">接入耳机时</string>
+    <string name="pref_i_n_r_b">Noise_r</string>
+    <string name="pref_k_h">返回音量</string>
+    <string name="pref_k_s_i">接入耳机时</string>
     <string name="pref_lens_dirty_detect_summary">Receive a notification when the lens is dirty</string>
     <string name="pref_lens_dirty_detect_title">Notify about dirty lens</string>
     <string name="pref_live_volumekey_function_default">volume</string>
@@ -1602,14 +1597,14 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_more_mode_style_title">Camera modes</string>
     <string name="pref_mtk_video_quality_default">10</string>
     <string name="pref_multi_camera_dual_video_front">Front camera</string>
+    <string name="pref_n_s_a">sound_s</string>
     <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
     <string name="pref_new_slow_motion_video_quality_960_720only">You can only record 720p videos with 960fps</string>
     <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
     <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
-    <string name="pref_noise_setting">sound_s</string>
     <string name="pref_noise_setting_off">关闭</string>
     <string name="pref_noise_setting_on">开启</string>
-    <string name="pref_noise_setting_title">sound_s</string>
+    <string name="pref_p_d_e">专业</string>
     <string name="pref_photo_assistance_tips_off">Off</string>
     <string name="pref_photo_assistance_tips_on">On</string>
     <string name="pref_pic_flaw_tip_summary">Receive real time notifications when people in the frame close their eyes or lens is partly covered during shooting</string>
@@ -1618,13 +1613,12 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_priority_storage_title">Save to SD card</string>
     <string name="pref_privacy_title">Privacy Policy</string>
     <string name="pref_pro_video_volumekey_function_default">shutter</string>
-    <string name="pref_professional_chart">Pro_map</string>
-    <string name="pref_professional_display">专业</string>
     <string name="pref_qc_focus_position_title">F</string>
     <string name="pref_qc_focus_position_title_abbr">F</string>
     <string name="pref_retain_camera_common_mode_summary">Open Camera at the previously used mode instead of switching to \"Photo\"</string>
     <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
     <string name="pref_retain_camera_mode_title">Save previous mode</string>
+    <string name="pref_s_n_r_s_c">录像时</string>
     <string name="pref_scan_qrcode_default">true</string>
     <string name="pref_scan_qrcode_summary">Only the rear camera can scan QR codes in the \"Photo\" mode.</string>
     <string name="pref_scan_qrcode_title">Scan QR codes</string>
@@ -1639,7 +1633,6 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_skin_beautify_slim_title">Slim</string>
     <string name="pref_skin_beautify_smooth_default">5</string>
     <string name="pref_skin_beautify_smooth_title">Skin</string>
-    <string name="pref_sound_noise_reduction_summary">录像时</string>
     <string name="pref_userdefine_watermark_title">Custom watermark</string>
     <string name="pref_video_autoexposure_default">1</string>
     <string name="pref_video_captrue_ability_title">Image capture while recording</string>
@@ -1759,7 +1752,6 @@ Keep the subject sharp while blurring the background."</string>
     <string name="slow_shutter_title3">0%d</string>
     <string name="slow_shutter_title4">slowshutter_d</string>
     <string name="snap_cancel">Cancel</string>
-    <string name="snap_cancel_draft">不保存</string>
     <string name="snap_confirmed">Replace</string>
     <string name="spaceIsLow_content_external_storage_priority">SD card is running out of space</string>
     <string name="spaceIsLow_content_primary_storage_priority">USB storage is running out of space</string>
