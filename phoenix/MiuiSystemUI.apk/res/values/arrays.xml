@@ -139,13 +139,13 @@
         <item>3</item>
     </integer-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
@@ -157,12 +157,12 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -172,16 +172,16 @@
         <item>2</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimized for Audio Quality</item>
-        <item>Balanced Audio And Connection Quality</item>
-        <item>Optimized for Connection Quality</item>
-        <item>Best Effort (Adaptive Bit Rate)</item>
+        <item>Optimized for audio quality</item>
+        <item>Balanced audio and connection quality</item>
+        <item>Optimized for connection quality</item>
+        <item>Best effort (Auto bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
-        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
-        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
-        <item>Best Effort (Adaptive Bit Rate)</item>
+        <item>Optimized for audio quality (990kbps/909kbps)</item>
+        <item>Balanced audio and connection quality (660kbps/606kbps)</item>
+        <item>Optimized for connection quality (330kbps/303kbps)</item>
+        <item>Best effort (Auto bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
         <item>1000</item>
@@ -190,14 +190,14 @@
         <item>1003</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -211,7 +211,7 @@
         <item>8</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
@@ -222,11 +222,9 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Enable Optional Codecs</item>
-        <item>Disable Optional Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
@@ -237,8 +235,8 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Enable Optional Codecs</item>
-        <item>Disable Optional Codecs</item>
+        <item>Enable optional codecs</item>
+        <item>Disable optional codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_values">
         <item>1000000</item>
@@ -273,12 +271,22 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Default)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Disabled</item>
-        <item>Enabled Filtered</item>
+        <item>Filtered</item>
         <item>Enabled</item>
-        <item>Enabled \"Headers filtered\"</item>
-        <item>Enabled \"Media packets filtered\"</item>
+        <item>Headers filtered</item>
+        <item>Media packets filtered</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_values">
         <item>disabled</item>
@@ -305,6 +313,16 @@
         <item>@color/bt_color_icon_6</item>
         <item>@color/bt_color_icon_7</item>
     </array>
+    <string-array name="cached_apps_freezer_entries">
+        <item>@string/cached_apps_freezer_device_default</item>
+        <item>@string/cached_apps_freezer_enabled</item>
+        <item>@string/cached_apps_freezer_disabled</item>
+    </string-array>
+    <string-array name="cached_apps_freezer_values">
+        <item>device_default</item>
+        <item>enabled</item>
+        <item>disabled</item>
+    </string-array>
     <array name="car_facet_category_filters" />
     <array name="car_facet_icons" />
     <array name="car_facet_intent_uris" />
@@ -532,6 +550,8 @@
         <item>com.audible.universal</item>
         <item>com.xiaomi.calendar</item>
         <item>com.ss.android.lark.kami</item>
+        <item>com.orange.phone.mea</item>
+        <item>com.orange.labs.dialler</item>
     </string-array>
     <string-array name="config_allowNotificationSlide">
         <item>com.tencent.mm</item>
@@ -1092,25 +1112,25 @@
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Off</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Off</item>
-        <item>64K per log buffer</item>
-        <item>256K per log buffer</item>
-        <item>1M per log buffer</item>
-        <item>4M per log buffer</item>
-        <item>16M per log buffer</item>
+        <item>64 KB per log buffer</item>
+        <item>256 KB per log buffer</item>
+        <item>1 MB per log buffer</item>
+        <item>4 MB per log buffer</item>
+        <item>16 MB per log buffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logd_size_values">
         <item>32768</item>
@@ -1124,13 +1144,13 @@
         <item>Off</item>
         <item>All log buffers</item>
         <item>All but radio log buffers</item>
-        <item>kernel log buffer only</item>
+        <item>Kernel log buffer only</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Off</item>
         <item>All</item>
         <item>All but radio</item>
-        <item>kernel only</item>
+        <item>Kernel only</item>
     </string-array>
     <string-array name="select_logpersist_values">
         <item></item>
@@ -1537,6 +1557,7 @@
         <item>@drawable/stat_sys_signal_4_3g_fully</item>
         <item>@drawable/stat_sys_signal_4_4g_fully</item>
     </array>
+    <array name="status_bar_show_spn_by_gid_when_airplane" />
     <string-array name="system_alert_window_notification_whitelist">
         <item>com.miui.notes</item>
         <item>com.android.thememanager</item>
@@ -1574,6 +1595,8 @@
         <item>com.miui.voiceassist:com.miui.voiceassistforeground</item>
         <item>com.miui.misound</item>
         <item>com.xiaomi.mirror</item>
+        <item>com.miui.personalassistant</item>
+        <item>com.xiaomi.miplay_client</item>
     </string-array>
     <string-array name="telephony_data_activity_1x_sim1">
         <item>0</item>
@@ -2055,7 +2078,7 @@
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Audio Source</item>
+        <item>Audio source</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_configuration_values">
