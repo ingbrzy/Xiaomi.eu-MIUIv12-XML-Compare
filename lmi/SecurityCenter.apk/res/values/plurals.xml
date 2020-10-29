@@ -192,6 +192,28 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Checked in %d days in a row</item>
         <item quantity="one">Checked in %d time</item>
     </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">"Couldn't receive a %d-day free trial"</item>
+        <item quantity="one">"Couldn't receive a %d-day free trial"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">Received a %d-day free trial successfully</item>
+        <item quantity="one">Received a %d-day free trial successfully</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">Get a %d-day free trial</item>
+        <item quantity="one">Get a %d-day free trial</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"Your subscriptions expired.
+You can get a %d-day free trial now!"</item>
+        <item quantity="one">"Your subscriptions expired.
+You can get a %d-day free trial now!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">Get a %d-day free trial</item>
+        <item quantity="one">Get a %d-day free trial</item>
+    </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d more characters</item>
         <item quantity="one">    +%1$d more character</item>
@@ -319,6 +341,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
         <item quantity="other">%2$d apps, including %1$s, are draining battery</item>
         <item quantity="one">%2$d app, including %1$s, is draining battery</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Delete %d installation packages</item>
+        <item quantity="one">Delete %d installation package</item>
     </plurals>
     <plurals name="notification_title_cmcc_app_check">
         <item quantity="other">%d days since last check-up</item>
