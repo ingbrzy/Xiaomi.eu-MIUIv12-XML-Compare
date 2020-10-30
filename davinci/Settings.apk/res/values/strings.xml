@@ -2682,6 +2682,7 @@ You can view generated logs in File Manager."</string>
     <string name="enable_verbose_vendor_logging">Enable verbose vendor logging</string>
     <string name="enable_verbose_vendor_logging_summary">Include additional device-specific vendor logs in bug reports, which may contain private information, use more battery, and/or use more storage.</string>
     <string name="enable_wifi_display">Wireless display</string>
+    <string name="enabled">On</string>
     <string name="enabled_5g_mode_title">Enable 5G</string>
     <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
     <string name="enabled_authorised_apps_title">Granted authorization</string>
@@ -4839,6 +4840,7 @@ This replaces %2$s as your default payment app."</string>
     <string name="normal_smartcover_title">Opaque front cover</string>
     <string name="not_allowed">Your SIM card doesn’t allow a connection to this network.</string>
     <string name="not_battery_optimizing">Not using battery optimization</string>
+    <string name="not_enabled">Off</string>
     <string name="not_installed">Not installed for this user</string>
     <string name="not_set">Not set</string>
     <string name="notch_and_status_bar_settings">Control center &amp; status bar</string>
@@ -5079,6 +5081,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="other_conversations_summary">Conversations you’ve made changes to</string>
     <string name="other_data">Other items on this device</string>
     <string name="other_device_info">Other</string>
+    <string name="other_input_method">Other keyboards</string>
     <string name="other_input_settings">Additional keyboard settings</string>
     <string name="other_password">Other passwords</string>
     <string name="other_personal_settings">Personal settings</string>
@@ -6594,7 +6597,11 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="shuting_down_find_device">Turning off Find device…</string>
     <string name="silent_duration">Duration</string>
     <string name="silent_mode">Silent mode</string>
+    <string name="silent_mode_disable_media">Silence all</string>
+    <string name="silent_mode_enable_media">Play media</string>
+    <string name="silent_mode_summary">Silence calls, notifications, and media</string>
     <string name="silent_mode_title">Silent mode</string>
+    <string name="silent_mode_toggle_title">Silent mode</string>
     <string name="silent_notifications_status_bar">Hide silent notifications in status bar</string>
     <string name="silent_off">Off</string>
     <string name="silent_settings">Silent/DND</string>
@@ -6846,7 +6853,7 @@ A trusted credential installed on your device is making this possible."</string>
     <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
     <string name="status_bar_settings_qs_layout">Quick settings layout</string>
     <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
-    <string name="status_bar_settings_show_weather">Show weather in notification shade</string>
+    <string name="status_bar_settings_show_weather">Show weather info</string>
     <string name="status_bar_settings_status_bar">Status bar</string>
     <string name="status_bar_title">Control center &amp; status bar</string>
     <string name="status_bt_address">Bluetooth address</string>
@@ -7186,7 +7193,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="sync_enable">Sync</string>
     <string name="sync_enabled">Sync is ON</string>
     <string name="sync_error">Sync error</string>
-    <string name="sync_failed">Sync failed</string>
+    <string name="sync_failed">"Couldn't sync. Wait a minute or two and try again."</string>
     <string name="sync_gmail">Gmail</string>
     <string name="sync_in_progress">Syncing now…</string>
     <string name="sync_is_failing">Sync is currently experiencing problems. It will be back shortly.</string>
@@ -7198,6 +7205,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="sync_plug"><font fgcolor="#ffffffff">Welcome to Google sync!</font>" 
 A Google approach to syncing data to allow access to your contacts, appointments, and more from wherever you are. "</string>
     <string name="sync_settings">Accounts &amp; sync</string>
+    <string name="sync_success">Synced successfully</string>
     <string name="sync_wifi_label">WLAN</string>
     <string name="sync_wifi_only">WLAN only</string>
     <string name="system">System</string>
@@ -7923,6 +7931,7 @@ Tap the plus to add words."</string>
     <string name="volte_5G_limited_text">"This also turns off your 5G connection.
 During a voice call, you can’t use the internet and some apps may not work."</string>
     <string name="volte_5G_limited_title">Turn off VoLTE?</string>
+    <string name="volume_adjustment">Adjust volume</string>
     <string name="volume_alarm_description">Alarm</string>
     <string name="volume_alarm_mute">Mute alarms</string>
     <string name="volume_bluetooth_description">Bluetooth</string>
@@ -8667,6 +8676,8 @@ you can use other users' networks, too."</string>
     <string name="wifi_type_approval_title">Type approval</string>
     <string name="wifi_unchanged">(unchanged)</string>
     <string name="wifi_unmetered_label">Unmetered</string>
+    <string name="wifi_unsaved_network_linking">SSID Bridging ‑ Auto Connection</string>
+    <string name="wifi_unsaved_network_linking_summary">Enable auto connection attempts to a new WPA/WPA2‑PSK 5GHz SSID with current connected WPA/WPA2‑PSK 2GHz SSID credentials on SSID and BSSID partial match</string>
     <string name="wifi_unspecified">Please select</string>
     <string name="wifi_update">Refresh stats</string>
     <string name="wifi_use_system_certs">Use system certificates</string>
@@ -8711,6 +8722,8 @@ Looks like credential storage isn't enabled."</string>
     <string name="wifi_wapi_psk_type">Password type</string>
     <string name="wifi_wapi_user_cert">User certificate</string>
     <string name="wifi_wapi_user_certificate">User certificate</string>
+    <string name="wifi_whitelist_roaming">SSID Bridging ‑ Fast Handover</string>
+    <string name="wifi_whitelist_roaming_summary">Enable roaming between different SSID WPA/WPA2‑PSK APs with same gateway MAC address</string>
     <string name="wifi_wps_available_first_item">WPS available</string>
     <string name="wifi_wps_available_second_item">" (WPS available)"</string>
     <string name="wifi_wps_connected">Connected to WLAN network %s</string>
@@ -8773,6 +8786,7 @@ Looks like credential storage isn't enabled."</string>
     <string name="xiaomi_cloud_service_description_without_contacts">Xiaomi Cloud syncs your photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
     <string name="xiaomi_cloud_service_disabled">Off</string>
     <string name="xiaomi_cloud_service_unknown">Unknown</string>
+    <string name="xiaomi_custom_input_method">Customized for Xiaomi</string>
     <string name="xiaomi_money_service">Mi Coins</string>
     <string name="xiaomi_router_available_notif_summary">Tap to view more info.</string>
     <string name="xiaomi_router_available_notif_title">Mi Router available</string>
@@ -8819,9 +8833,11 @@ Looks like credential storage isn't enabled."</string>
     <string name="zen_mode_all_callers">anyone</string>
     <string name="zen_mode_all_calls_summary">All calls can reach you</string>
     <string name="zen_mode_all_messages_summary">All messages can reach you</string>
+    <string name="zen_mode_always">Always</string>
     <string name="zen_mode_and_condition">%1$s. %2$s</string>
     <string name="zen_mode_app_set_behavior">"These settings can't be changed right now. An app (%1$s) has automatically turned on Do Not Disturb with custom behavior."</string>
     <string name="zen_mode_apps_bypassing_list_count">%d more</string>
+    <string name="zen_mode_auto_rule">Schedule DND sessions</string>
     <string name="zen_mode_automatic_rule_settings_page_title">Schedule</string>
     <string name="zen_mode_automation_settings_page_title">Schedules</string>
     <string name="zen_mode_automation_settings_title">Schedules</string>
@@ -8917,6 +8933,7 @@ Looks like credential storage isn't enabled."</string>
     <string name="zen_mode_from_sms">"Messages from "</string>
     <string name="zen_mode_from_starred">Starred contacts</string>
     <string name="zen_mode_important_category">Settings</string>
+    <string name="zen_mode_lockscreen">When locked</string>
     <string name="zen_mode_media">Media sounds</string>
     <string name="zen_mode_media_list">media</string>
     <string name="zen_mode_media_list_first">Media</string>
@@ -8927,6 +8944,7 @@ Looks like credential storage isn't enabled."</string>
     <string name="zen_mode_messages_list">messages</string>
     <string name="zen_mode_messages_title">Messages</string>
     <string name="zen_mode_miui_silent_category">Allow</string>
+    <string name="zen_mode_more_actions">More DND options</string>
     <string name="zen_mode_no_exceptions">None</string>
     <string name="zen_mode_none_calls">None</string>
     <string name="zen_mode_none_messages">None</string>
@@ -9011,6 +9029,7 @@ When you turn off Do Not Disturb, find missed notifications by swiping down from
     <string name="zen_mode_starred_contacts_title">Starred contacts</string>
     <string name="zen_mode_start_time">Start time</string>
     <string name="zen_mode_summary">Silence incoming calls, notifications, media, and turn off vibration</string>
+    <string name="zen_mode_summary2">Silence calls and notifications, turn off vibration</string>
     <string name="zen_mode_summary_alarms_only_by_time">Change to alarms only until %1$s</string>
     <string name="zen_mode_summary_alarms_only_indefinite">Change to alarms only indefinitely</string>
     <string name="zen_mode_summary_always">Change to always interrupt</string>
