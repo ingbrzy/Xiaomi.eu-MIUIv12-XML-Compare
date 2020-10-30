@@ -227,7 +227,7 @@
     </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">"Skipped %1$d photos which couldn't be rendered."</item>
-        <item quantity="one">"Skipped a photo which couldn't be rendered."</item>
+        <item quantity="one">"Skipped %1$d photo which couldn't be rendered."</item>
     </plurals>
     <plurals name="file_type_detail_count">
         <item quantity="other">%1$d files</item>
@@ -262,7 +262,7 @@
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d photos</item>
-        <item quantity="one">1 photo</item>
+        <item quantity="one">%1$d photo</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
         <item quantity="other">%1$d photos waiting to sync</item>
@@ -282,7 +282,7 @@
     </plurals>
     <plurals name="number_of_videos_synced">
         <item quantity="other">%1$d videos</item>
-        <item quantity="one">1 video</item>
+        <item quantity="one">%1$d video</item>
     </plurals>
     <plurals name="number_of_videos_to_upload">
         <item quantity="other">%1$d videos waiting to sync</item>
@@ -317,8 +317,8 @@
         <item quantity="one">"Selected photo isn't on device. It will be downloaded."</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
-        <item quantity="other">"Selected photos (%dMB) aren't on device. Download them using mobile data?"</item>
-        <item quantity="one">"Selected photo (%dMB) isn't on device. Download it using mobile data?"</item>
+        <item quantity="other">"Selected photos (%d MB) aren't on device. Download them using mobile data?"</item>
+        <item quantity="one">"Selected photo (%d MB) isn't on device. Download it using mobile data?"</item>
     </plurals>
     <plurals name="picker_cancel_confirm_message">
         <item quantity="other">"%d files aren't downloaded yet. Cancel anyway?"</item>
@@ -330,23 +330,23 @@
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
         <item quantity="other">"Couldn't download %1$d photos, connect to the network and try again"</item>
-        <item quantity="one">"Couldn't download photo, connect to the network and try again"</item>
+        <item quantity="one">"Couldn't download %1$d photo, connect to the network and try again"</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
-        <item quantity="other">"Couldn't download %1$d files (%2$dMB). Connect to the network and try again."</item>
-        <item quantity="one">"Couldn't download %1$d file (%2$dMB). Connect to the network and try again."</item>
+        <item quantity="other">"Couldn't download %1$d files (%2$d MB). Connect to the network and try again."</item>
+        <item quantity="one">"Couldn't download %1$d file (%2$d MB). Connect to the network and try again."</item>
     </plurals>
     <plurals name="picker_origin_need_to_download">
-        <item quantity="other">"%1$d files (%2$dMB) aren't downloaded yet. Download using mobile data?"</item>
-        <item quantity="one">"%1$d file (%2$dMB) isn't downloaded yet. Download using mobile data?"</item>
+        <item quantity="other">"%1$d files (%2$d MB) aren't downloaded yet. Download using mobile data?"</item>
+        <item quantity="one">"%1$d file (%2$d MB) isn't downloaded yet. Download using mobile data?"</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">"Couldn't download %1$d photos, try again?"</item>
-        <item quantity="one">"Couldn't download photo, try again?"</item>
+        <item quantity="one">"Couldn't download %1$d photo, try again?"</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">"Couldn't download %1$d photos (%2$dMB), try again?"</item>
-        <item quantity="one">"Couldn't download photo (%2$dMB), try again?"</item>
+        <item quantity="other">"Couldn't download %1$d photos (%2$d MB), try again?"</item>
+        <item quantity="one">"Couldn't download %1$d photo (%2$d MB), try again?"</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">"Skipped %d photos which aren't on device."</item>
@@ -354,7 +354,7 @@
     </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">Found %1$d new photos</item>
-        <item quantity="one">Found a new photo</item>
+        <item quantity="one">Found %1$d new photo</item>
     </plurals>
     <plurals name="remind_face_recommend_confirm_text">
         <item quantity="other">Total %d photos</item>
