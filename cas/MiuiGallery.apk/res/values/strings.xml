@@ -1000,9 +1000,11 @@
     <string name="download_tip">Download</string>
     <string name="download_title">Preparing files…</string>
     <string name="download_type_origin">Original files</string>
-    <string name="download_type_origin_desc">Original files</string>
+    <string name="download_type_origin_subtitle_china">Original images take up more storage space and can only be downloaded via Wi-Fi</string>
+    <string name="download_type_origin_title">Original</string>
     <string name="download_type_thumbnail">High quality</string>
-    <string name="download_type_thumbnail_desc">High quality</string>
+    <string name="download_type_thumbnail_subtitle">High quality images look almost identical to the original ones, but take up less storage space</string>
+    <string name="download_type_thumbnail_title">High quality</string>
     <string name="download_type_title">Download quality</string>
     <string name="download_with_metered_network_msg">Downloading original files may generate additional carrier fees. Download anyway?</string>
     <string name="download_with_metered_network_title">"You're connected to a paid network"</string>
@@ -1626,7 +1628,7 @@ to personalize Gallery"</string>
     <string name="movie_download">Download</string>
     <string name="movie_download_failed">"Couldn't download"</string>
     <string name="movie_download_failed_for_notwork">"Couldn't download. Connect to the network and try again."</string>
-    <string name="movie_download_sdk_without_wifi_msg">"Looks like your device isn't connected to Wi-Fi. Download the required plug-in (3MB) using mobile data?"</string>
+    <string name="movie_download_sdk_without_wifi_msg">"Looks like your device isn't connected to Wi-Fi. Download the required plug-in (%2$d MB) using mobile data?"</string>
     <string name="movie_download_sdk_without_wifi_title">Download using mobile data</string>
     <string name="movie_download_with_metered_network_msg">Downloading original files may generate additional carrier fees. Download anyway?</string>
     <string name="movie_download_with_metered_network_title">"You're connected to a paid network"</string>
@@ -1672,6 +1674,7 @@ to personalize Gallery"</string>
     <string name="need_to_turn_on_sync_first">Turn on sync with the cloud first</string>
     <string name="need_to_turn_on_wlan">Connect to Wi-Fi first</string>
     <string name="network_connected_rescan">"Can't connect to the network"</string>
+    <string name="new_album_invalid_byte">This name is too long</string>
     <string name="new_album_invalid_char">"Names can't contain \"%s\", enter a letter or a number."</string>
     <string name="new_album_invalid_name">\"%s\" is system album, please rename for it.</string>
     <string name="new_album_invalid_prefix">"Don't use \".\" or \"_\" in the beginning of the album's name."</string>
@@ -1691,6 +1694,7 @@ to personalize Gallery"</string>
     <string name="not_remind_again">"Don't show again"</string>
     <string name="not_remind_any_more">"Don't show again"</string>
     <string name="not_set">Not set</string>
+    <string name="notice_click_lock_orientation">Tap to lock orientation</string>
     <string name="ocr_abnormal">"Couldn't recognize text."</string>
     <string name="ocr_abnormal_pic_format">"Couldn't recognize text. This image format isn't supported."</string>
     <string name="ocr_abnormal_pic_too_large">"Couldn't recognize text. This image is too big."</string>
@@ -1762,6 +1766,9 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="operation_remove_rubbish">Restore</string>
     <string name="operation_remove_secret">Remove from private album</string>
     <string name="operation_rename">Rename</string>
+    <string name="operation_replace_album_cover">Change album cover</string>
+    <string name="operation_replace_album_cover_custom_mode">Custom</string>
+    <string name="operation_replace_album_cover_default_mode">Default</string>
     <string name="operation_save">Save</string>
     <string name="operation_send">Send</string>
     <string name="operation_set_contact_photo">Set as contact photo</string>
@@ -1846,7 +1853,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="photo_editor_miui_beauty_no_face">"Can't detect face"</string>
     <string name="photo_editor_mosaic">Mosaic</string>
     <string name="photo_editor_navigator_cancel">Cancel</string>
-    <string name="photo_editor_navigator_download_network_metered_msg">Downloading %s requires about 4MB of mobile data. Download now?</string>
+    <string name="photo_editor_navigator_download_network_metered_msg" formatted="false">Downloading %s requires about %2$d MB of mobile data. Download now?</string>
     <string name="photo_editor_navigator_download_network_metered_title">Data usage warning</string>
     <string name="photo_editor_navigator_export">Save</string>
     <string name="photo_editor_navigator_module_download_failed">"Couldn't download %s"</string>
@@ -1898,6 +1905,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="photo_movie_module_finish">Loaded Clips successfully</string>
     <string name="photo_movie_module_loading">Loading Clips…</string>
     <string name="photo_movie_select_image_range">Clips can contain 3-20 photos</string>
+    <string name="photo_page_lock_screen">Lock orientation</string>
     <string name="photo_page_rotate_screen">Rotate screen</string>
     <string name="photo_page_save_uri_image_fail">"Couldn't save to Gallery"</string>
     <string name="photo_page_save_uri_image_ok">Photo saved to Gallery</string>
@@ -1944,7 +1952,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="picker_image_need_download">"%d of the selected photos aren't on device. Download using mobile data?"</string>
     <string name="picker_image_will_download">"%d of the selected photos aren't on device. They will be downloaded."</string>
     <string name="picker_no_network_message">Connect to the network to download</string>
-    <string name="picker_origin_need_download">"%1$d of the selected photos (%2$dMB) aren't on device. Download using mobile data?"</string>
+    <string name="picker_origin_need_download">"%1$d of the selected photos (%2$d MB) aren't on device. Download using mobile data?"</string>
     <string name="picker_origin_request_progress_fail">"Couldn't download the original image due to a network error."</string>
     <string name="picker_origin_request_progress_message">Preparing original files (%1$d/%2$d)…</string>
     <string name="picker_title_format">Select %1$d to %2$d photos</string>
@@ -2251,10 +2259,10 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="slim_cost_time_minute">%dm remaining</string>
     <string name="slim_cost_time_minute_and_second">%1$dm %2$ds remaining</string>
     <string name="slim_cost_time_second">%ds remaining</string>
-    <string name="slim_description_dialog_detail">Reduce file size of local photos. Original files will be stored in Xiaomi Cloud.</string>
+    <string name="slim_description_dialog_detail">Compress photos and leave smaller high quality copies on this device keeping original files in the cloud.</string>
     <string name="slim_description_dialog_ok">Got it</string>
     <string name="slim_description_dialog_slim_after">"After:  167KB"</string>
-    <string name="slim_description_dialog_slim_before">"Before:  3.07MB"</string>
+    <string name="slim_description_dialog_slim_before">Before: %2$d MB</string>
     <string name="slim_exit_dialog_positive">Stop</string>
     <string name="slim_exit_dialog_title">Stop optimizing</string>
     <string name="slim_running">Optimizing…</string>
@@ -2463,6 +2471,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="to_enable_sync_dialog_title">Sync</string>
     <string name="toast_invalid_char">"Filenames can't contain \"%s\""</string>
     <string name="toast_invalid_prefix">"Filenames can't start with \".\" or \"_\""</string>
+    <string name="toast_orientation_locked">Locked orientation successfully</string>
     <string name="toast_rename_exit">This file already exists</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
@@ -2518,7 +2527,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="video_compress_download_failed_for_notwork">"Couldn't download. Check your network settings and try again."</string>
     <string name="video_compress_encode_video">Compressing video…</string>
     <string name="video_compress_lib_download">Download video compression plug-in</string>
-    <string name="video_compress_lib_download_without_wifi">"Looks like your device isn't connected to Wi-Fi. You can use mobile data to download the video compression plug-in (1.3MB)."</string>
+    <string name="video_compress_lib_download_without_wifi">"Looks like your device isn't connected to Wi-Fi. You can use mobile data to download the video compression plug-in (%2$d MB)."</string>
     <string name="video_compress_not_with_8k">"Can't compress 8K videos"</string>
     <string name="video_compress_not_with_format">"Video compression isn't supported for this format"</string>
     <string name="video_compress_not_with_low_quality">Current resolution is the lowest</string>
@@ -2794,6 +2803,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="vlog_video_selected_not_support">"Can't edit selected video"</string>
     <string name="vlog_video_trans_code_cons">Processing a high resolution file…</string>
     <string name="voice_assistant">Voice input</string>
+    <string name="watch_all_photo">Gallery</string>
     <string name="wednesday">Wednesday</string>
     <string name="wednesday_short">Wed</string>
     <string name="wednesday_shortest">Wed</string>

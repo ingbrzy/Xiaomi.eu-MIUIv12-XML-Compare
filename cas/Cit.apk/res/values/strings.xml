@@ -266,6 +266,7 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
     <string name="cit_camera_fast_check_title">Camera fast test</string>
     <string name="cit_camera_rearsub">Back secondary camera test in progress, please wait....</string>
     <string name="cit_camera_sdcard_error">"Can't take photo. SD card is full."</string>
+    <string name="cit_camerasfr_test">Parsing picture, please wait....</string>
     <string name="cit_charge_usb_dcp">Charging：USB_DCP</string>
     <string name="cit_charge_usb_hvdcp">Charging：USB_HVDCP</string>
     <string name="cit_charge_usb_pd">Charging：USB_PD</string>
@@ -326,7 +327,7 @@ and reverse plug in the charger"</string>
     <string name="cit_fm_audio_path_headset">Headphones</string>
     <string name="cit_fm_audio_path_speaker">Speaker</string>
     <string name="cit_fm_check_summary">"This will test the device's FM function
-Before test you have to insert the headset and turn off FM related applications"</string>
+Before test you have to insert the headset"</string>
     <string name="cit_fm_check_title">FM Radio</string>
     <string name="cit_fm_close">Close FM</string>
     <string name="cit_fm_not_supported">"This device doesn't support FM"</string>
@@ -679,22 +680,15 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
     <string name="cit_tool_bluetooth_not_on">Bluetooth is NOT enabled</string>
     <string name="cit_tool_bluetooth_off">Disable Bluetooth</string>
     <string name="cit_tool_bluetooth_on">Enable Bluetooth</string>
-    <string name="cit_tool_bluetooth_rse">Enter Bluetooth RSE Test Mode</string>
-    <string name="cit_tool_bluetooth_rse_chain">antenna:</string>
-    <string name="cit_tool_bluetooth_rse_channel">channel:</string>
-    <string name="cit_tool_bluetooth_rse_mode">mode:</string>
-    <string name="cit_tool_bluetooth_rse_power">Pwr/Lv:</string>
     <string name="cit_tool_bluetooth_tx_burst">TX: BR/EDR</string>
     <string name="cit_tool_bluetooth_tx_burst_run">RUN</string>
     <string name="cit_tool_bluetooth_tx_chain">antenna:</string>
     <string name="cit_tool_bluetooth_tx_channel">channel:</string>
-    <string name="cit_tool_bluetooth_tx_h">Enter Bluetooth carrier 2.480GHz Freq Test Mode</string>
-    <string name="cit_tool_bluetooth_tx_l">Enter Bluetooth carrier 2.402GHz Freq Test Mode</string>
+    <string name="cit_tool_bluetooth_tx_h">Enter Bluetooth BR/EDR 2.480GHz Freq Test Mode</string>
+    <string name="cit_tool_bluetooth_tx_l">Enter Bluetooth BR/EDR 2.402GHz Freq Test Mode</string>
     <string name="cit_tool_bluetooth_tx_level">Pwr/Lv:</string>
-    <string name="cit_tool_bluetooth_tx_m">Enter Bluetooth carrier 2.441GHz Freq Test Mode</string>
+    <string name="cit_tool_bluetooth_tx_m">Enter Bluetooth BR/EDR 2.441GHz Freq Test Mode</string>
     <string name="cit_tool_bluetooth_tx_power">Pwr/dBm:</string>
-    <string name="cit_tool_bluetooth_tx_rse">"TX: RSE     "</string>
-    <string name="cit_tool_bluetooth_tx_rse_run">RUN</string>
     <string name="cit_tool_bluetooth_tx_type">BR0/EDR1:</string>
     <string name="cit_tool_cal_accelerometer">Acc Calibration Tool</string>
     <string name="cit_tool_cal_camera">Camera Calibration Tool</string>
@@ -1432,11 +1426,6 @@ Please click the appropriate button according to the number you hear"</string>
     <string name="test_spi_performance_title">SPI性能测试:</string>
     <string name="test_spi_title">SPI测试:</string>
     <string name="test_succeed">成功</string>
-    <string name="test_success_tips" formatted="false">成功条件: %s%d</string>
-    <string name="test_success_tips_float" formatted="false">成功条件: %s%s</string>
-    <string name="test_success_tips_multi_case" formatted="false">成功条件: %s%s or %s</string>
-    <string name="test_success_tips_multi_case_and" formatted="false">成功条件: %s%s %s</string>
-    <string name="test_success_tips_string" formatted="false">成功条件：%s%s</string>
     <string name="test_top_mic">Top MIC</string>
     <string name="test_top_speaker">top_speaker</string>
     <string name="test_unfinished">未完成</string>

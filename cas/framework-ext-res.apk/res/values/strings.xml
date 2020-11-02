@@ -64,7 +64,6 @@
     <string name="android_whichSendApplicationNamed">@android:string/whichSendApplicationNamed</string>
     <string name="android_whichViewApplication">@android:string/whichViewApplication</string>
     <string name="android_whichViewApplicationNamed">@android:string/whichViewApplicationNamed</string>
-    <string name="android_wifi_tether_configure_ssid_default">@android:string/wifi_tether_configure_ssid_default</string>
     <string name="android_wireless_display_route_description">@android:string/wireless_display_route_description</string>
     <string name="application_cannot_open_alipay_payment_code">"Couldn't open Alipay payment code"</string>
     <string name="application_cannot_open_alipay_scanner">"Couldn't open Alipay scanner"</string>
@@ -88,7 +87,7 @@
     <string name="autofill">Autofill</string>
     <string name="autofill_save_message">Allow MIUI to save your accounts and passwords?</string>
     <string name="autofill_save_ok">Allow</string>
-    <string name="autofill_save_sub_message">You can view and manage your passwords in Settings > Passwords &amp; Security > %s.</string>
+    <string name="autofill_save_sub_message">"You'll be able to manage saved passwords in Settings > Passwords &amp; security > %s."</string>
     <string name="autofill_save_title">Save passwords automatically</string>
     <string name="autofill_service_name">Manage passwords</string>
     <string name="back_double_tap">none</string>
@@ -145,7 +144,7 @@
     <string name="device_status_waiting">Waiting…</string>
     <string name="device_type_pc">Computer</string>
     <string name="double_click_power_key">mi_pay</string>
-    <string name="double_knock">launch_voice_assistant</string>
+    <string name="double_knock">none</string>
     <string name="eighthours">8 hours</string>
     <string name="enable_livetalk_summary">Save 70% on your calling charges</string>
     <string name="enable_livetalk_title">Turn on Top-up package</string>
@@ -210,8 +209,8 @@
     <string name="key_btn_ok">OK</string>
     <string name="key_btn_space">Space</string>
     <string name="knock_gesture_v">none</string>
-    <string name="knock_long_press_horizontal_slid">change_brightness</string>
-    <string name="knock_slide_shape">partial_screen_shot</string>
+    <string name="knock_long_press_horizontal_slid">none</string>
+    <string name="knock_slide_shape">none</string>
     <string name="livetalk_not_enable">Top-up package off</string>
     <string name="location_usage_restricted_body">Tap to allow.</string>
     <string name="location_usage_restricted_title">Background location restricted</string>
@@ -235,23 +234,6 @@
     <string name="miaudiovisual_notification_title">Audio and visual effects</string>
     <string name="miui">miui</string>
     <string name="miui_forbid_poweroff_when_device_locked">"Can't power off, device is locked."</string>
-    <string name="miui_m_com_aligames_kuang_kybc_mi">狂野飙车9</string>
-    <string name="miui_m_com_happyelements_androidanimal">开心消消乐</string>
-    <string name="miui_m_com_imangi_templerun2">神庙逃亡2</string>
-    <string name="miui_m_com_jingdong_app_mall">京东</string>
-    <string name="miui_m_com_mihoyo_bh3_mi">崩坏3</string>
-    <string name="miui_m_com_netease_hyxd_mi">荒野行动</string>
-    <string name="miui_m_com_netease_mc_mi">我的世界</string>
-    <string name="miui_m_com_netease_mrzh_mi">明日之后</string>
-    <string name="miui_m_com_netease_onmyoji_mi">阴阳师</string>
-    <string name="miui_m_com_outfit7_talkingtomgoldrun_mi">汤姆猫跑酷</string>
-    <string name="miui_m_com_ss_android_article_news">今日头条</string>
-    <string name="miui_m_com_taobao_taobao">手机淘宝</string>
-    <string name="miui_m_com_tencent_hxh">猎人</string>
-    <string name="miui_m_com_tencent_tmgp_cf">穿越火线-枪战王者</string>
-    <string name="miui_m_com_tencent_tmgp_pubgmhd">和平精英</string>
-    <string name="miui_m_com_tencent_tmgp_sgame">王者荣耀</string>
-    <string name="miui_m_com_tencent_tmgp_speedmobile">QQ飞车手游</string>
     <string name="miui_screen_ratio_hint">Screen ratio issues</string>
     <string name="miui_screen_ratio_hint_dont_show_again">"Don't show again"</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Go to Settings</string>
@@ -263,6 +245,7 @@
     <string name="miui_warning_tip_info">An error occurred in %1$s. Close this app now?</string>
     <string name="multi_file_name">%1$s，%2$s</string>
     <string name="name_with_ellipsize">%1$s…%2$s</string>
+    <string name="notification_channel_hotspot">Hotspot notification</string>
     <string name="onehour">30 minutes</string>
     <string name="oneplus">OnePlus</string>
     <string name="oneplus_phone">OnePlus</string>
@@ -328,7 +311,7 @@
     <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>
     <string name="screen_on_proximity_sensor_title">Pocket mode</string>
     <string name="screen_paper_mode_enter_toast">Reading mode is on. To turn this feature off, go to Settings > Display > Reading mode.</string>
-    <string name="screen_rotation_freeze_message">Locked screen orientation in landscape mode</string>
+    <string name="screen_rotation_freeze_message">Auto-rotate disabled.</string>
     <string name="screenshot_gesture_detect_alert_button">Turn on in the Settings</string>
     <string name="screenshot_gesture_detect_alert_dont_again">"Don't show again"</string>
     <string name="screenshot_gesture_detect_alert_msg">Swipe down with three fingers to take a screenshot?</string>
@@ -394,7 +377,7 @@
     <string name="status_bar_toggle_power_mode_action">com.android.settings/com.android.settings.Settings$BatterySettingsActivity</string>
     <string name="status_bar_toggle_quiet_mode">DND</string>
     <string name="status_bar_toggle_quiet_mode_action">com.android.settings/com.android.settings.Settings$ZenModeSettingsActivity</string>
-    <string name="status_bar_toggle_rotate">Lock orientation</string>
+    <string name="status_bar_toggle_rotate">Rotate off</string>
     <string name="status_bar_toggle_rotate_action">com.android.settings/com.android.settings.Settings$DisplaySettingsActivity</string>
     <string name="status_bar_toggle_screen_button">Buttons</string>
     <string name="status_bar_toggle_screenshot">Screenshot</string>
@@ -417,7 +400,6 @@
     <string name="switch_desc_tv">Two spaces. One device.</string>
     <string name="switching_tv">Switching…</string>
     <string name="takeback_camera_front_failed">"Couldn't close front camera. Try again."</string>
-    <string name="talk_back_conflict_with_handy_mode">"Can't use One-handed mode when TalkBack is on"</string>
     <string name="talk_back_water_mark_string1">TalkBack is on</string>
     <string name="talk_back_water_mark_string2">Press and hold \"Volume+\" and \"Volume-\" for 3 seconds to turn off</string>
     <string name="three_gesture_down">screen_shot</string>
@@ -431,10 +413,6 @@
     <string name="translation_more">More</string>
     <string name="translation_query_error">"Couldn't find results"</string>
     <string name="translation_query_error_network">"Couldn't get info, check network connection and try again"</string>
-    <string name="trial_mode_dialog_button_cancel">Cancel</string>
-    <string name="trial_mode_dialog_button_save">Save</string>
-    <string name="trial_mode_dialog_message">\"%s\" is running in trial mode. Restarting your device or switching to Light speed mode will delete this game. Save the game to internal storage?</string>
-    <string name="trial_mode_dialog_title">Trial mode</string>
     <string name="turn_off">Turn off</string>
     <string name="twohours">1 hour</string>
     <string name="unknown_caller">Unknown number</string>

@@ -3,15 +3,18 @@
     <string name="action_missing_private_key">Private key required to install a certificate</string>
     <string name="action_missing_user_cert">Certificate required to install a private key</string>
     <string name="app_name">Certificate Installer</string>
-    <string name="cert_is_added">%s is installed.</string>
+    <string name="ca_cert_is_added">CA certificate installed</string>
+    <string name="ca_certificate">CA certificate</string>
     <string name="cert_missing_error">"Couldn't install because the certificate file couldn't be located."</string>
     <string name="cert_not_saved">The certificate is not installed.</string>
     <string name="cert_read_error">"Couldn't install because the certificate file couldn't be read."</string>
+    <string name="cert_temp_error">Temporary failure. Please try again later.</string>
     <string name="cert_too_large_error">"Couldn't install because the certificate size is too large."</string>
+    <string name="certificate">Certificate</string>
     <string name="certificate_capabilities_warning">Note: The issuer of this certificate may inspect all traffic to and from the device.</string>
+    <string name="certificate_name">Certificate name</string>
     <string name="config_system_install_component">com.android.settings/com.android.settings.security.CredentialStorage</string>
     <string name="credential_info">The package contains:</string>
-    <string name="credential_name">Certificate name:</string>
     <string name="credential_password">Type the password to extract the certificates.</string>
     <string name="credential_usage_label">Credential use:</string>
     <string name="done_label">DONE</string>
@@ -19,9 +22,12 @@
     <string name="install_done">%1$s credentials have been added to WLAN saved networks.</string>
     <string name="install_done_title">Credentials installed</string>
     <string name="invalid_cert">The certificate is invalid.</string>
+    <string name="invalid_certificate_close_button">Close</string>
+    <string name="invalid_certificate_message">"This file can't be used as a %1$s"</string>
+    <string name="invalid_certificate_title">"Can't use this file"</string>
     <string name="n_cacrts">%d CA certificates</string>
     <string name="name_char_error">Type a name that contains only letters and numbers.</string>
-    <string name="name_credential_dialog_title">Name the certificate</string>
+    <string name="name_credential_dialog_title">Name this certificate</string>
     <string name="name_empty_error">Type a name.</string>
     <string name="no_cert_to_saved">No certificate to install.</string>
     <string name="one_cacrt">one CA certificate</string>
@@ -34,9 +40,17 @@
     <string name="pick_file_title">Choose a certificate</string>
     <string name="pkcs12_file_password_dialog_title">Extract from %s</string>
     <string name="pkcs12_password_dialog_title">Extract certificate</string>
+    <string name="redirect_ca_certificate_close_button">Close</string>
+    <string name="redirect_ca_certificate_title">Install CA certificates in Settings</string>
+    <string name="redirect_ca_certificate_with_app_info_message">This certificate from %1$s must be installed in Settings. Only install CA certificates from organizations you trust.</string>
+    <string name="select_certificate_usage_title">Choose a certificate type</string>
     <string name="unable_to_save_cert">"Couldn't save the certificate. The credential storage isn't enabled or properly initialized."</string>
+    <string name="user_cert_is_added">User certificate installed</string>
+    <string name="user_certificate">VPN &amp; app user certificate</string>
     <string name="userkey_type">Algorithm:</string>
     <string name="wifi_cancel_label">Cancel</string>
+    <string name="wifi_cert_is_added">Wi‑Fi certificate installed</string>
+    <string name="wifi_certificate">Wi‑Fi certificate</string>
     <string name="wifi_config_text">"Name: %1$s
 FQDN: %2$s
 Roaming Consortiums: %3$s
