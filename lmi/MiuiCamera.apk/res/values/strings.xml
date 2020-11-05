@@ -581,6 +581,7 @@ and adjust preferences automatically"</string>
     <string name="config_name_super_resolution">Super resolution</string>
     <string name="config_name_tilt">Tilt-shift</string>
     <string name="config_name_timer">Timer</string>
+    <string name="confirm_fastmotion_reset_manually_parameter_message">是否重置专业参数？</string>
     <string name="confirm_install_scanner_message">"Scanner allows you to scan QR codes, barcodes, and more. You don't have to connect to the internet to install it."</string>
     <string name="confirm_install_scanner_title">Install Scanner</string>
     <string name="confirm_location_alert">Remember photo locations</string>
@@ -731,7 +732,6 @@ scanned documents automatically"</string>
     <string name="film_video_c">video_c</string>
     <string name="film_video_d">video_d</string>
     <string name="film_video_e">video_e</string>
-    <string name="film_video_e_tip">仅支持横屏拍摄</string>
     <string name="film_video_tip">请使用三脚架拍摄</string>
     <string name="fps960_toast">Slow-motion capture will start at the last quarter of the recording</string>
     <string name="fragment_tab_name_bokeh">Bokeh</string>
@@ -1501,6 +1501,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in ultra wide shots</string>
     <string name="pref_camera_ultra_wide_mode_title">Ultra wide angle mode</string>
     <string name="pref_camera_video_8k_tips">8K</string>
+    <string name="pref_camera_video_ai_scene_title">AI camera</string>
     <string name="pref_camera_video_bokeh_off">Video bokeh is off</string>
     <string name="pref_camera_video_bokeh_on">Video bokeh</string>
     <string name="pref_camera_video_duration_entry_10">10 minutes</string>
@@ -1583,7 +1584,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
     <string name="pref_hdr10_video_mode_description">Optimize colors and contrast for 4K and 8K videos automatically. Optimized videos can only be played on HDR10 compatible devices.</string>
     <string name="pref_hdr10_video_mode_title">HDR10</string>
-    <string name="pref_hdr10plus_video_mode_description">优化4K/8K视频的色彩和对比度。需要支持HDR10+的设备才能正常播放</string>
+    <string name="pref_hdr10plus_video_mode_description">优化4K/8K视频的色彩和对比度。支持HDR10+的设备才能正常播放</string>
     <string name="pref_i_n_r_b">Noise_r</string>
     <string name="pref_k_h">返回音量</string>
     <string name="pref_k_s_i">接入耳机时</string>
@@ -1600,12 +1601,12 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_mtk_video_quality_default">10</string>
     <string name="pref_multi_camera_dual_video_front">Front camera</string>
     <string name="pref_n_s_a">sound_s</string>
+    <string name="pref_n_s_o_l">开启</string>
+    <string name="pref_n_s_o_m">关闭</string>
     <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
     <string name="pref_new_slow_motion_video_quality_960_720only">You can only record 720p videos with 960fps</string>
     <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
     <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
-    <string name="pref_noise_setting_off">关闭</string>
-    <string name="pref_noise_setting_on">开启</string>
     <string name="pref_p_d_e">专业</string>
     <string name="pref_photo_assistance_tips_off">Off</string>
     <string name="pref_photo_assistance_tips_on">On</string>
