@@ -88,7 +88,11 @@
     <string name="ad_download">Download</string>
     <string name="ad_join">Join community</string>
     <string name="ad_more">More</string>
+    <string name="add_search_channel_link">URL</string>
+    <string name="add_search_channel_name">Name</string>
+    <string name="add_search_channel_tip">Search for \"%s\" on the target website, then copy and paste URL here.</string>
     <string name="add_to_trust_device">This is a trusted device</string>
+    <string name="add_website">Add a website</string>
     <string name="agree">Agree</string>
     <string name="agree_and_continue">Agree</string>
     <string name="ai_animation_music_text">AI soundtrack</string>
@@ -111,6 +115,7 @@
     <string name="app_code">MOVIE-ANDROID-MIVIDEO</string>
     <string name="app_name">Mi Video</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="auth_again">Agree</string>
     <string name="auth_fail_warning">Session expired. Sign in again.</string>
     <string name="auto_play_next_off">Autoplay is off</string>
     <string name="auto_play_next_on">Autoplay is on</string>
@@ -176,6 +181,8 @@
     <string name="choose_to_signup">"No, I'll create one"</string>
     <string name="click_to_reload_more">Tap to load more</string>
     <string name="click_to_retry">Try again</string>
+    <string name="cloud_auto_pip_play_switch">Use picture-in-picture automatically</string>
+    <string name="cloud_online_player">Player</string>
     <string name="cloud_online_switch">Personalized recommendations</string>
     <string name="cloud_online_switch_close_time">You can turn on personalized content recommendations in %s</string>
     <string name="cloud_online_switch_open_time">Show personalized content recommendations</string>
@@ -268,6 +275,7 @@
     <string name="default_web_client_id">144285974528-0s4d24nm35j65v8dde47naur9f0p32ff.apps.googleusercontent.com</string>
     <string name="define_roundedimageview" />
     <string name="description">Description</string>
+    <string name="detail_select_source">Select playback source</string>
     <string name="diagnosis_log_send_failed">"Couldn't send logs. Try again."</string>
     <string name="diagnosis_log_sent_format">"Sent logs successfully.
 ID:%s
@@ -369,6 +377,7 @@ Send this code to the supervisor."</string>
     <string name="find_psw">Forgot password</string>
     <string name="finish">Done</string>
     <string name="firebase_database_url">https://global-video-5cd70.firebaseio.com</string>
+    <string name="firework_privacy">Firework Privacy Policy</string>
     <string name="for_diagnosis_usage_only">Logs are used only for diagnostics.</string>
     <string name="for_you">FOR YOU</string>
     <string name="friday">Friday</string>
@@ -500,6 +509,12 @@ Send this code to the supervisor."</string>
     <string name="input_size_tips">You can enter up to 1000 characters</string>
     <string name="isornot_your_mi_account">Is this your Mi Account?</string>
     <string name="issue">Issue</string>
+    <string name="item_card_all_replies">All replies</string>
+    <string name="item_card_continue_play">Autoplay</string>
+    <string name="item_card_more_trailers">More trailers</string>
+    <string name="item_card_open_in">"Open in "</string>
+    <string name="item_card_related">Related</string>
+    <string name="item_setting_go_back">Withdrawal of consent</string>
     <string name="just_a_second">Just a sec…</string>
     <string name="language_later_setting_tips">You can change your language preferences in Profile > Language.</string>
     <string name="language_select_tips">"Select your preferred language
@@ -727,7 +742,9 @@ for videos"</string>
     <string name="notification_recall_desc">Mi Video can notify you about popular videos and your subscriptions.</string>
     <string name="notification_recall_title">Turn on notifications</string>
     <string name="notify_apk_installed">Downloaded successfully</string>
+    <string name="off_tip_firework_recommend">"You won't receive personalized content recommendations from Firework"</string>
     <string name="ok">OK</string>
+    <string name="on_tip_firework_recommend">"You'll receive personalized content recommendations from Firework"</string>
     <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Recent subscriptions</string>
     <string name="order_recently_updated">Recently updated</string>
@@ -939,11 +956,16 @@ Increase the security of your account."</string>
     <string name="phone_number">Phone number</string>
     <string name="photoPickerNotFoundText">No photos available.</string>
     <string name="pip">PiP</string>
+    <string name="playlist_create">Create</string>
     <string name="playlist_detail_recomm_title">Recommended playlists</string>
+    <string name="playlist_finish">Done</string>
     <string name="playlist_hot">Popular</string>
+    <string name="playlist_name">Enter playlist title</string>
     <string name="playlist_new">New</string>
     <string name="playlist_no_more">No more videos here</string>
+    <string name="playlist_no_videos">No videos here</string>
     <string name="playlist_offline">This playlist is no longer available.</string>
+    <string name="playlist_remove">Remove</string>
     <string name="playlist_title">Playlist</string>
     <string name="playlist_view_more">More playlists</string>
     <string name="plus_add_shortcut">Create Home screen shortcut</string>
@@ -1137,6 +1159,8 @@ Increase the security of your account."</string>
     <string name="search_hot_words">Popular</string>
     <string name="search_key_not_null">"Search requests can't be empty"</string>
     <string name="search_menu_title">Search</string>
+    <string name="search_result_download_error">"Couldn't download"</string>
+    <string name="search_result_startdownload">Downloading…</string>
     <string name="selectall">Select all</string>
     <string name="selectnull">Deselect all</string>
     <string name="send_diagnosis_log">Send logs</string>
@@ -1236,8 +1260,11 @@ Increase the security of your account."</string>
     <string name="ticket_hint">Verification code</string>
     <string name="ticket_invalid">The code you entered is incorrect</string>
     <string name="ticket_sign_in">Sign in via SMS</string>
+    <string name="tip_auth_again">"Since you have not previously agreed to the terms of the corresponding Privacy Policy of the third party content provider, we can't display video content in Moments. Tap the button below to agree to the Privacy Policy and access this feature."</string>
     <string name="tip_author_click">Tap to view more videos from this account</string>
+    <string name="tip_pop"><Data>Content from Moments is provided by Firework. In order to improve your viewing experience and receive more relevant content recommendations, allow Firework to collect, process, and use your personal information in accordance with its Privacy Policy. Read and agree to &lt;a href=\"%1$s\">Firework Privacy Policy&lt;/a> before using its services.</Data></string>
     <string name="tip_topic_click">Tap to find more videos on this topic</string>
+    <string name="title_firework_recommend">Firework recommendations</string>
     <string name="title_publisher">Creators</string>
     <string name="title_subscribe">Subscriptions</string>
     <string name="toast_no_data">"This item isn't available now. Come back later."</string>
