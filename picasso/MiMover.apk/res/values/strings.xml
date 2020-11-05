@@ -16,6 +16,7 @@
     <string name="am">AM</string>
     <string name="antispam">Blocklist</string>
     <string name="app_name">Mi Mover</string>
+    <string name="appname_app_data_suffix">%1$s app data</string>
     <string name="audio">Audio</string>
     <string name="audio_video_document">Audio, video, and documents</string>
     <string name="back">Back</string>
@@ -43,7 +44,7 @@
     <string name="ble_waiting_verify_code">Verifying code…</string>
     <string name="ble_waiting_verify_code_error">The code you entered is incorrect</string>
     <string name="btn_got_it">Got it</string>
-    <string name="btn_install_complete">Installed. Start the transfer.</string>
+    <string name="btn_install_complete">Installed</string>
     <string name="btn_mi_cloud_install_complete">"I've installed the app"</string>
     <string name="btn_restore_data_to_device_complete">Sign in</string>
     <string name="btn_sync_data_to_mi_cloud_complete">Synced successfully</string>
@@ -477,6 +478,7 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="error_title">"Couldn't sync"</string>
     <string name="error_unauthorized">Sync has been turned off due to too many sign-in attempts.</string>
     <string name="evening">PM</string>
+    <string name="fail_list_tips">"The following items couldn't be transferred to the new device."</string>
     <string name="failed_description">Failed</string>
     <string name="faq">FAQ</string>
     <string name="finished">Finished</string>
@@ -537,7 +539,9 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="friday_shortest">F</string>
     <string name="get_known_tip">Try again</string>
     <string name="group_info_scanning">Calculating…</string>
-    <string name="guest_hint_connect_new_device">Tap the new device to connect.</string>
+    <string name="guest_connect_dialog_ensure_text">Connect</string>
+    <string name="guest_connect_dialog_fail_message">"Couln't connect. Try again."</string>
+    <string name="guest_hint_connect_new_device">Select new device</string>
     <string name="guest_install_app_hint_ensure">Download</string>
     <string name="guest_install_app_hint_summary">"The new version of Mi Mover isn't compatible with the one installed on this device. Download and install the new version."</string>
     <string name="guest_install_app_hint_title">Download the new version of Mi Mover</string>
@@ -575,6 +579,7 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="host_dialog_known_button">Got it</string>
     <string name="host_dialog_message">Make sure the latest version of Mi Mover is installed on the other device; otherwise, two devices might not be able to connect.</string>
     <string name="host_dialog_title">"Can't connect for a long time"</string>
+    <string name="host_install_hint">"Mi Mover isn't installed?"</string>
     <string name="host_manual_connect_link_text">If it takes too long for your old device to find the hotspot, try connecting manually.</string>
     <string name="host_memory_insuff_cancel">Cancel</string>
     <string name="host_memory_insuff_confirm">Select again</string>
@@ -650,6 +655,10 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="main_chooser_item_android_others">Import from another Android phone</string>
     <string name="main_chooser_item_ios">Import from an iPhone</string>
     <string name="main_chooser_title">Select old device</string>
+    <string name="main_receiver_summary">Tap to receive items</string>
+    <string name="main_receiver_title">New</string>
+    <string name="main_sender_summary">Tap to send items</string>
+    <string name="main_sender_title">Old</string>
     <string name="manual_connection_content1">1. Tap \"Connect to the new device manually\" on the old device.</string>
     <string name="manual_connection_content2">2. Select the following WLAN hotspot.</string>
     <string name="manual_connection_content3">3. Enter this password on the old device to connect.</string>
@@ -852,6 +861,10 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="qq_app_send_fail">"Couldn't send QQ"</string>
     <string name="qq_data_external">QQ SD card data</string>
     <string name="quit_now">Quit</string>
+    <string name="receiver_finish_detail_button">View report</string>
+    <string name="receiver_finish_detail_fail">"Couldn't transfer"</string>
+    <string name="receiver_finish_detail_success">Transferred items</string>
+    <string name="receiver_finish_title">"You're all set!"</string>
     <string name="reconnect">Connect again</string>
     <string name="recreate_soft_ap_tips">Tap the button below to try again.</string>
     <string name="restore_data_to_device_content">"Your items were synced with Xiaomi Cloud.
@@ -879,15 +892,19 @@ Free up at least %s."</string>
     <string name="scanner_send_dialog_btn">Got it</string>
     <string name="scanner_send_dialog_message">"Don't turn off WLAN or switch between networks during the transfer."</string>
     <string name="scanner_size_selected">Selected: %s</string>
-    <string name="scanner_time_remained">Estimated time: %s</string>
+    <string name="scanner_time_remained">Estimated transfer time: %s</string>
     <string name="scanner_title_tip">Select items to transfer</string>
     <string name="scanner_wechat_overwrite_hit">Due to third party app restrictions, chat histories and other app data on your new device will be replaced with those from the old one after the transfer is complete.</string>
     <string name="search_action_mode_cancel">Cancel</string>
     <string name="search_input_description">Search</string>
     <string name="search_mode_button_back_description">Back</string>
-    <string name="searching_for_new_device">Searching for devices nearby…</string>
+    <string name="searching_for_new_device">Searching for the new device…</string>
     <string name="select_all">Select all</string>
     <string name="select_all_description">Select all</string>
+    <string name="select_android_summary">Huawei, OPPO, vivo, and more</string>
+    <string name="select_android_title">Android</string>
+    <string name="select_apple_summary">iPhone</string>
+    <string name="select_apple_title">Apple</string>
     <string name="select_empty">Select items to import first</string>
     <string name="select_item">Select items</string>
     <string name="select_item_calendar">Calendar</string>
@@ -897,12 +914,17 @@ Free up at least %s."</string>
     <string name="select_item_photos">Photos</string>
     <string name="select_item_remind">Reminders</string>
     <string name="select_item_summary_loading">Just a sec…</string>
+    <string name="select_mi_summary">Xiaomi and Redmi</string>
+    <string name="select_mi_title">Xiaomi</string>
+    <string name="select_old_device_title">Select old device model</string>
     <string name="selected">Selected</string>
     <string name="send">Send</string>
     <string name="send_sms_for_sync_notice">An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
     <string name="send_sms_for_sync_title">Data usage warning</string>
     <string name="send_verification_code_fail">"Couldn't send verification code"</string>
     <string name="send_verification_code_fail_tips">"Make sure that you signed in with this account on your Apple device. Otherwise, you won't be able to receive the code."</string>
+    <string name="sender_finish_bottom_tips">"Make sure you've backed up all important items before erasing data on this device."</string>
+    <string name="sender_finish_title">Transferred successfully</string>
     <string name="settings_phone">Phone settings</string>
     <string name="settings_powerkeeper">Step counter data</string>
     <string name="settings_sms">Messaging settings</string>
@@ -924,7 +946,7 @@ Free up at least %s."</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_underline">Skip this step</string>
     <string name="sms">SMS</string>
-    <string name="soft_ap_create_failed">"Couldn't create hotspot"</string>
+    <string name="soft_ap_create_failed">"Couldn't create hotspot. Try again."</string>
     <string name="soft_ap_creating">Creating hotspot…</string>
     <string name="solar_term_autumn_begins">Autumn Begins</string>
     <string name="solar_term_autumn_equinox">Autumn Equinox</string>
@@ -1027,18 +1049,18 @@ Download and install Mi Mover."</string>
 2. Download and install Mi Mover.
 3. Tap the button below once the installation is complete."</string>
     <string name="trans_intro_title">FAQ</string>
-    <string name="trans_main_activity_tutor_first">"Move your photos, contacts, messages, call history,
-audio, video, documents, and apps to a new device"</string>
+    <string name="trans_main_activity_tutor_first">Transfer items to a new device</string>
     <string name="trans_one_key_migrate">Mi Mover</string>
     <string name="trans_receive_time_remained">Received: %1$s | Remaining: %2$s</string>
     <string name="trans_send_time_remained">Sent: %1$s | Remaining: %2$s</string>
-    <string name="trans_show_qr_code_label">Connect to the old device</string>
+    <string name="trans_show_qr_code_label">Open Mi Mover on the old device</string>
     <string name="trans_sync_transfer_data_list">Select items to transfer on the old device</string>
     <string name="trans_time_format_second">Less than 1 minute</string>
     <string name="trans_time_spent">Time: %s</string>
     <string name="transfer_bottom_tip">"You won't be able to use WLAN or Bluetooth during the transfer. Don't leave this page."</string>
     <string name="transfer_connect_fail_summary">Tap the button below to connect manually</string>
     <string name="transfer_finish_bottom_tip">"If your aren't going to use your old device anymore, you can erase all data on it after you confirm that all important items were successfully transferred."</string>
+    <string name="transfer_finish_summary">Transferred %1$s (%2$s)</string>
     <string name="transfer_lose_connect_summary">Looks like connection was interrupted. Connect again.</string>
     <string name="transfer_lose_connect_title">Connection was interrupted</string>
     <string name="transfer_multi_connect_summary">Your transfer was interrupted due to security reasons. You can tap \"Connect again\" to continue anyway.</string>
