@@ -33,6 +33,18 @@
         <item quantity="other">Delete %1$d contacts?</item>
         <item quantity="one">Delete %1$d contact?</item>
     </plurals>
+    <plurals name="bh_day">
+        <item quantity="other">" days"</item>
+        <item quantity="one">" day"</item>
+    </plurals>
+    <plurals name="bh_hour">
+        <item quantity="other">" hrs"</item>
+        <item quantity="one">" hr"</item>
+    </plurals>
+    <plurals name="bh_minute">
+        <item quantity="other">" mins"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
     <plurals name="btn_delete_multi_contacts">
         <item quantity="other">Delete %1$d contacts</item>
         <item quantity="one">Delete %1$d contact</item>
@@ -40,6 +52,14 @@
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">Rang %1$d times</item>
         <item quantity="one">Rang %1$d time</item>
+    </plurals>
+    <plurals name="call_record_auto_whitelist_summary">
+        <item quantity="other">%d phone numbers</item>
+        <item quantity="one">%d phone number</item>
+    </plurals>
+    <plurals name="call_remove_exception_numbers_confirm">
+        <item quantity="other">Delete %d phone numbers?</item>
+        <item quantity="one">Delete %d phone number?</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">"%1$d contacts or photos haven't been synced"</item>
@@ -168,6 +188,10 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d found</item>
         <item quantity="one">%d found</item>
+    </plurals>
+    <plurals name="search_group_contacts_result">
+        <item quantity="other">%s results</item>
+        <item quantity="one">%s result</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">"Select no more than %1$d, can't select all"</item>
