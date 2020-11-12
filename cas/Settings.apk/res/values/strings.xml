@@ -1675,7 +1675,7 @@ This affects other apps or conversations that are allowed to bubble."</string>
     <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
     <string name="clear_all_data">Erase all data</string>
     <string name="clear_cache_btn_text">Clear cache</string>
-    <string name="clear_data_alert_info">All backups stored on this device will be deleted permanently. Back up important items to your computer and Xiaomi Cloud before you continue.</string>
+    <string name="clear_data_alert_info">All backups stored on this device will be deleted permanently. Back up important items to your computer and Xiaomi Cloud before performing a factory reset.</string>
     <string name="clear_data_dlg_text">All this app’s data will be deleted permanently. This includes all files, settings, accounts, databases, etc.</string>
     <string name="clear_data_dlg_title">Delete app data?</string>
     <string name="clear_failed_dlg_text">Couldn’t clear storage for app.</string>
@@ -2046,8 +2046,10 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="dark_color_mode">Dark mode</string>
     <string name="dark_color_summary_lcd">"Use darker color palette for system backgrounds and compatible apps. Dark mode can help you to relieve eye strain when you're using your device in the dark."</string>
     <string name="dark_color_summary_oled">Use darker color palette for system backgrounds and compatible apps. Dark mode reduces power consumption and helps to relieve eye strain.</string>
+    <string name="dark_mode_apps_header">Individual apps</string>
     <string name="dark_mode_contrast">Adjust contrast automatically</string>
     <string name="dark_mode_contrast_hint">Adjust colors and lower contrast automatically when brightness is reduced</string>
+    <string name="dark_mode_font_background_title">Adjust text and backgrounds automatically</string>
     <string name="dark_theme_slice_subtitle">Helps extend battery life</string>
     <string name="dark_theme_slice_title">Try Dark theme</string>
     <string name="dark_ui_activation_off_auto">Turn off until sunset</string>
@@ -2380,7 +2382,7 @@ This setting affects all users of this device."</string>
 To try to fix this issue, you can stop %1$s and prevent it from running in the background."</string>
     <string name="dialog_background_check_ok">Turn off</string>
     <string name="dialog_background_check_title">Turn off background usage &amp; stop app?</string>
-    <string name="dialog_backup_title">Update backups before performing the factory reset?</string>
+    <string name="dialog_backup_title">Back up items first?</string>
     <string name="dialog_chose_item">Select an item to display</string>
     <string name="dialog_content_login">Sign in to your Mi Account to update?</string>
     <string name="dialog_location_message">"Your phone can't manage battery normally because %1$s keeps requesting your location when you're not using the app.
@@ -2790,6 +2792,7 @@ For more details, contact your organization's admin."</string>
     <string name="erase_sure">Mandatory</string>
     <string name="error_adding_apn_type">Carrier does not allow adding APNs of type %s.</string>
     <string name="error_apn_empty">The APN can’t be empty.</string>
+    <string name="error_apn_restrict_string">"The APN field can't contain %1$s"</string>
     <string name="error_capturing_system_heap_dump_message">Couldn’t capture system heap dump</string>
     <string name="error_mcc_not3">MCC field must be 3 digits.</string>
     <string name="error_mnc_not23">MNC field must be 2 or 3 digits.</string>
@@ -2810,6 +2813,7 @@ For more details, contact your organization's admin."</string>
     <string name="experimental_category_title">Experimental</string>
     <string name="experimental_preference">(Experimental)</string>
     <string name="extended_power_menu">Extended power menu</string>
+    <string name="exterior">Color scheme</string>
     <string name="external_code_size_label">USB storage app</string>
     <string name="external_data_size_label">USB storage data</string>
     <string name="external_source_switch_title">Allow from this source</string>
@@ -3210,7 +3214,13 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="gxzw_enroll_again">Lift your finger and press the fingerprint scanner again</string>
     <string name="gxzw_lowlight_open_summary">Lower the brightness of the fingerprint icon in low light conditions. Your device might unlock slower when this feature is on.</string>
     <string name="gxzw_lowlight_open_title">Low light fingerprint unlock</string>
-    <string name="gxzw_quick_open_title" />
+    <string name="gxzw_quick_open_enable_summary">Use gesture shortcuts to open apps or use app features when your device is unlocked</string>
+    <string name="gxzw_quick_open_enable_title">Fingerprint shortcuts</string>
+    <string name="gxzw_quick_open_fast_summary">Swipe to use a shortcut once your device is unlocked.</string>
+    <string name="gxzw_quick_open_fast_title">Quick swipe (advanced)</string>
+    <string name="gxzw_quick_open_slow_summary">Press and hold the fingerprint icon to open shortcut menu. Swipe to use a shortcut.</string>
+    <string name="gxzw_quick_open_slow_title">Press and hold</string>
+    <string name="gxzw_quick_open_title">Shortcuts</string>
     <string name="handy_mode">One-handed mode</string>
     <string name="handy_mode_enable">One-handed mode</string>
     <string name="handy_mode_size">Screen size</string>
@@ -3818,6 +3828,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="legal_written_offer">Written Offer</string>
     <string name="license_title">License</string>
     <string name="lift_to_wake_title">Lift to wake</string>
+    <string name="light_color_mode">Light mode</string>
     <string name="lights_title">LED light</string>
     <string name="line_breaking_summary">Optimize paragraph line breaking</string>
     <string name="line_breaking_title">Optimize text</string>
@@ -4509,6 +4520,7 @@ Switching to %1$s won't cancel your %2$s service."</string>
     <string name="module_version">Google Play system update</string>
     <string name="more_account_settings_title">Other accounts</string>
     <string name="more_dangerous_option_hint">High-risk features including \"%1$s\" are enabled. Tap to change settings.</string>
+    <string name="more_dark_mode_settings">More Dark mode options</string>
     <string name="more_installed_services_title">More downloaded services</string>
     <string name="move_app">Move</string>
     <string name="move_app_failed_dlg_text">"Couldn't move app. %1$s"</string>
@@ -5881,14 +5893,10 @@ This setting affects all users on this phone."</string>
     <string name="screen_compatibility_label">Screen compatibility</string>
     <string name="screen_compatibility_text">This app may not be designed for your screen. You can control how it adjusts to your screen here.</string>
     <string name="screen_confirm">Turn on</string>
-    <string name="screen_dark_mode_advanced_title">Advanced</string>
     <string name="screen_dark_mode_select_time_error_summary">"Start time and end time can't be the same"</string>
-    <string name="screen_dark_mode_smart_dark_3rd_apps_list">Third party apps</string>
     <string name="screen_dark_mode_smart_dark_apps_setting_summary">Some apps might be displayed incorrectly in Dark mode. You can restrict using Dark mode for individual apps here.</string>
-    <string name="screen_dark_mode_smart_dark_apps_setting_title">Individual apps</string>
-    <string name="screen_dark_mode_smart_dark_summary">Apply Dark mode to third party apps as well. Some apps might be displayed incorrectly.</string>
     <string name="screen_dark_mode_smart_dark_title">Global dark mode</string>
-    <string name="screen_dark_mode_time_title">Schedule</string>
+    <string name="screen_dark_mode_time_title">Schedule Dark mode</string>
     <string name="screen_effect">Color scheme</string>
     <string name="screen_fps_summary_power_save">Using fixed rate consumes less power</string>
     <string name="screen_fps_summary_smooth">Some apps will increase refresh rate automatically to improve picture quality</string>
@@ -6737,7 +6745,7 @@ Double tap to open Recents."</string>
     <string name="smart_home_value_none">None</string>
     <string name="smart_home_value_unknown">Unknown</string>
     <string name="smart_notifications_title">Adaptive notifications</string>
-    <string name="smart_space_clock">At A Glance</string>
+    <string name="smart_space_clock">At a Glance</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover mode</string>
     <string name="smartcover_sensitive_summary">Lock or unlock the phone automatically using smart cover</string>
     <string name="smartcover_sensitive_title">Smart cover</string>
@@ -7175,6 +7183,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="swipe_up_to_switch_apps_suggestion_title">Try the new Home button</string>
     <string name="swipe_up_to_switch_apps_summary">To switch apps, swipe up on the Home button. To see all apps, swipe up again. To go back, tap the back button.</string>
     <string name="swipe_up_to_switch_apps_title">2-button navigation</string>
+    <string name="switchNetworkToast">Connecting to mobile networks may generate additional fees</string>
     <string name="switch_access_service_on">Switch Access</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
