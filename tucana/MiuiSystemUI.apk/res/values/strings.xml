@@ -1236,11 +1236,15 @@ a scrolling screenshot"</string>
     <string name="miui_ringer_total_description">Silence sounds and turn off vibration for all items except the alarm clock</string>
     <string name="miui_screen_rotation_freeze_message">Locked screen orientation in landscape mode</string>
     <string name="miui_toast_zen_dnd_to_off">DND is off now. Sounds and vibration are restored to normal.</string>
+    <string name="miui_toast_zen_dnd_to_off_version_R">DND is off. Notification sounds and vibration are back on.</string>
     <string name="miui_toast_zen_standard_to_off">Silent mode is off now. Ringtones are restored to normal.</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Silent mode is off now. Ringtones, as well as notification and media sounds, will be played.</string>
+    <string name="miui_toast_zen_standard_to_off_when_shield_media_version_R">Silent mode is off. Notifications, media sounds, and vibration are back on.</string>
     <string name="miui_toast_zen_to_dnd">Switched to DND. Sounds are silenced and vibration is off now.</string>
+    <string name="miui_toast_zen_to_dnd_version_R">DND is on. Notifications will be silenced and vibration turned off.</string>
     <string name="miui_toast_zen_to_standard">Switched to Silent mode. Ringtones for calls and notifications are silenced now.</string>
     <string name="miui_toast_zen_to_standard_when_shield_media">Switched to Silent mode. Ringtones, as well as notification and media sounds, are silenced now.</string>
+    <string name="miui_toast_zen_to_standard_when_shield_media_version_R">Silent mode is on. Notifications and media will be silenced and vibration turned off.</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -1993,6 +1997,7 @@ Your phone may get too hot if you:
     <string name="torch_closed">Torch off</string>
     <string name="torch_high_temperature_warning">"Your device is overheated. Can't use torch now."</string>
     <string name="torch_opened">Torch on</string>
+    <string name="touch_filtered_warning">"Settings can't verify your response because an app is obscuring a permission request."</string>
     <string name="track_frame_time">Profile HWUI rendering</string>
     <string name="transition_animation_scale_title">Transition animation scale</string>
     <string name="tts_default_lang_summary">Sets the language-specific voice for the spoken text</string>
@@ -2199,6 +2204,16 @@ Any user can update apps for all other users."</string>
     <string name="wifi_connected_no_internet">No internet</string>
     <string name="wifi_coverage_extend">Turn on WLAN coverage extension</string>
     <string name="wifi_coverage_extend_summary">Extend WLAN coverage using hotspot</string>
+    <string name="wifi_debugging_allow">Allow</string>
+    <string name="wifi_debugging_always">Always allow on this network</string>
+    <string name="wifi_debugging_message">"Network name (SSID)
+%1$s
+
+WLAN address (BSSID)
+%2$s"</string>
+    <string name="wifi_debugging_secondary_user_message">"The user currently signed in to this device can't turn on wireless debugging. To use this feature, switch to the primary user."</string>
+    <string name="wifi_debugging_secondary_user_title">"Wireless debugging isn't allowed"</string>
+    <string name="wifi_debugging_title">Allow wireless debugging on this network?</string>
     <string name="wifi_disabled_by_recommendation_provider">Not connected due to low quality network</string>
     <string name="wifi_disabled_generic">Disabled</string>
     <string name="wifi_disabled_network_failure">"Couldn't configure IP"</string>
