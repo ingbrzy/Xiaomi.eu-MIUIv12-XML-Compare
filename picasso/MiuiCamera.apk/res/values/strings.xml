@@ -581,7 +581,7 @@ and adjust preferences automatically"</string>
     <string name="config_name_super_resolution">Super resolution</string>
     <string name="config_name_tilt">Tilt-shift</string>
     <string name="config_name_timer">Timer</string>
-    <string name="confirm_fastmotion_reset_manually_parameter_message">是否重置专业参数？</string>
+    <string name="confirm_fastmotion_reset_manually_parameter_message">Reset parameters now?</string>
     <string name="confirm_install_scanner_message">"Scanner allows you to scan QR codes, barcodes, and more. You don't have to connect to the internet to install it."</string>
     <string name="confirm_install_scanner_title">Install Scanner</string>
     <string name="confirm_location_alert">Remember photo locations</string>
@@ -631,7 +631,7 @@ scanned documents automatically"</string>
     <string name="document_mode_use_hint_text_title">Scan documents</string>
     <string name="document_origin">Original</string>
     <string name="document_strengthen">Enhanced</string>
-    <string name="dolly_zoom_capture_tip1">qqjjzzttzzyyffkknn</string>
+    <string name="dolly_zoom_capture_tip1">qqjjzzttzzyyffkknn%d</string>
     <string name="dolly_zoom_capture_tip2">qqwwddxxhhyyddssjj</string>
     <string name="dolly_zoom_capture_tip3">zzttddss，qqssxxppss</string>
     <string name="dolly_zoom_capture_tip4">ssjjppyyggdd，qqssxxppss</string>
@@ -1157,7 +1157,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_auto_capture_when_stable_title">Capture selected objects when stationary</string>
     <string name="pref_camera_auto_chroma_flash_title">Chroma flash</string>
     <string name="pref_camera_auto_hibernation">Shoot with screen off</string>
-    <string name="pref_camera_auto_hibernation_description">Turn off screen after %d minutes of shooting to save power</string>
+    <string name="pref_camera_auto_hibernation_description">While shooting, turn off screen after %d minutes of inactivity to save power</string>
     <string name="pref_camera_autoexposure_default">1</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">Center weighted</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Frame average</string>
@@ -1562,8 +1562,9 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_customization_title">Customize</string>
     <string name="pref_document_mode">Documents</string>
     <string name="pref_dual_camera_video">Dual video</string>
-    <string name="pref_e_c_p_k">去除</string>
     <string name="pref_e_c_t_j">原來的</string>
+    <string name="pref_e_p_k">blue</string>
+    <string name="pref_e_p_s_n">接入</string>
     <string name="pref_exposure_default">0</string>
     <string name="pref_face_beauty_title">Beautify</string>
     <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
@@ -1653,7 +1654,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_video_focusmode_entryvalue_default">@string/pref_video_focusmode_entryvalue_continuous</string>
     <string name="pref_video_focusmode_title">Focus mode</string>
     <string name="pref_video_hfr_entryvalue_default">1920x1080:120</string>
-    <string name="pref_video_hfr_title">Video HFR</string>
+    <string name="pref_video_hfr_title">Frame rate</string>
     <string name="pref_video_quality_1080P">6</string>
     <string name="pref_video_quality_default">6</string>
     <string name="pref_video_quality_entry_1080p">FHD 1080p, 30fps</string>
@@ -1670,6 +1671,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_video_quality_entry_value_4kuhd_60fps">8,60</string>
     <string name="pref_video_quality_entry_value_720p_60fps">5,60</string>
     <string name="pref_video_quality_entry_value_8kuhd">3001</string>
+    <string name="pref_video_quality_hfr_title">Frame rate &amp; picture quality</string>
     <string name="pref_video_quality_sub_1080p">FHD 1080p</string>
     <string name="pref_video_quality_sub_120fps">120fps</string>
     <string name="pref_video_quality_sub_24fps">24fps</string>

@@ -2158,6 +2158,9 @@ Your device is %d%% faster now."</string>
     <string name="network_connected_exception_title">Test network</string>
     <string name="network_control">View app settings</string>
     <string name="network_diagnostics">Test network</string>
+    <string name="network_disable_dialog_btn_text">Got it</string>
+    <string name="network_disable_dialog_content">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
+    <string name="network_disable_dialog_title">"Can't connect to the network"</string>
     <string name="network_mobile_exception_detail">"Your device can't connect to the internet:
 
 1. Make sure you haven't exceeded your mobile data plan's limit.
@@ -2899,6 +2902,9 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="privacy_dialog_call_title">Protect calls</string>
     <string name="privacy_dialog_camera_message">"To protect your privacy, MIUI doesn't allow apps to use your camera in the background."</string>
     <string name="privacy_dialog_camera_title">Restrict background camera usage</string>
+    <string name="privacy_dialog_content_part1">Welcome to Security! This app checks your device for trash and viruses, as well as allows you to manage apps, control mobile data usage, block calls and messages, and more.</string>
+    <string name="privacy_dialog_content_part2"><Data>Security needs to collect necessary personal information to provide you with its services and be able to improve its features. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy of Security in the Settings at any time.</Data></string>
+    <string name="privacy_dialog_content_part3"><Data>"Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before using Security. If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you."</Data></string>
     <string name="privacy_dialog_danger_mission_message">Android has multiple high-risk permissions (e.g. the permission to send you push notifications). To protect your privacy, MIUI will ask whether you allow such behavior, and provide restriction options.</string>
     <string name="privacy_dialog_danger_mission_title">High-risk permissions</string>
     <string name="privacy_dialog_feedback">Feedback</string>
@@ -2906,6 +2912,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="privacy_dialog_ok">Got it</string>
     <string name="privacy_dialog_ok_with_num">Got it (%ss)</string>
     <string name="privacy_dialog_open">Turn on</string>
+    <string name="privacy_dialog_revoking">Withdrawing consent…</string>
+    <string name="privacy_dialog_title">Terms and conditions</string>
     <string name="privacy_empty_call">"Didn't access call history today"</string>
     <string name="privacy_empty_contact">"Didn't access contacts today"</string>
     <string name="privacy_empty_location">"Didn't access location today"</string>
