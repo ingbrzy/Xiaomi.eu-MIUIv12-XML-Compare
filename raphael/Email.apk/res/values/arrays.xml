@@ -132,6 +132,11 @@
         <item>1</item>
         <item>4</item>
     </string-array>
+    <string-array name="ad_address_list_ignore">
+        <item>do_not_reply@apple.com</item>
+        <item>order_acknowledgment@orders.apple.com</item>
+        <item>zhangming3@kingsoft.com</item>
+    </string-array>
     <string-array name="all_month_str">
         <item>Jan</item>
         <item>Feb</item>
@@ -147,7 +152,6 @@
         <item>Dec</item>
     </string-array>
     <string-array name="alphabet_chars">
-        <item>★</item>
         <item>A</item>
         <item>B</item>
         <item>C</item>
@@ -290,6 +294,31 @@
         <item>normal</item>
         <item>large</item>
         <item>huge</item>
+    </string-array>
+    <string-array name="invoice_amount">
+        <item>开票金额</item>
+        <item>开票金额</item>
+        <item>金额</item>
+    </string-array>
+    <string-array name="invoice_buyer">
+        <item>付款方</item>
+        <item>购买方</item>
+        <item>发票抬头</item>
+        <item>抬头</item>
+    </string-array>
+    <string-array name="invoice_card_keyword">
+        <item>发票</item>
+    </string-array>
+    <string-array name="invoice_card_pdf_keyword">
+        <item>发票</item>
+        <item>invoice</item>
+    </string-array>
+    <string-array name="invoice_date">
+        <item>开票日期</item>
+    </string-array>
+    <string-array name="invoice_seller">
+        <item>收款方</item>
+        <item>销售方</item>
     </string-array>
     <string-array name="kids_arrays">
         <item>@string/under_sixteen</item>
