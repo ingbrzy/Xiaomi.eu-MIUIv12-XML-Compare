@@ -99,13 +99,11 @@
     <string name="button_confirm">Agree</string>
     <string name="button_exit">"Don't agree"</string>
     <string name="button_settings_cancel">Cancel</string>
-    <string name="button_settings_confirm">Revoke</string>
-    <string name="button_settings_confirm_to_revoke_msg">"You won't be able to use Weather after revoking authorization."</string>
-    <string name="button_settings_confirm_to_revoke_title">Revoke authorization?</string>
+    <string name="button_settings_confirm">Withdraw</string>
+    <string name="button_settings_confirm_to_revoke_msg">By toggling off the switch, you withdraw your consent to the Privacy Policy of Weather. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period as required by applicable laws. Weather needs to collect necessary personal information to provide you with basic services. Your withdrawal of consent to its Privacy Policy will be held as refusing to accept its services based on collected personal information.</string>
     <string name="card_item_ad_text">广告</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Check your network connection and try again</string>
-    <string name="china_version_first_start_network_msg">"You need to agree to Xiaomi's %1$s and %2$s to be able to use Weather. Weather needs to access your location and connect to the internet to work normally. Agree?"</string>
     <string name="city_exceeded_warning">"Can't add more cities. To add a new one, delete a city that is already on the list first."</string>
     <string name="clear_net_mock_success">Net mock clear success</string>
     <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
@@ -134,6 +132,7 @@
     <string name="content_desc_activity_main_more_settings">More settings</string>
     <string name="content_desc_back_button">Back</string>
     <string name="content_desc_city_manage_del">Delete</string>
+    <string name="content_desc_close_button">Close</string>
     <string name="copy">Copy</string>
     <string name="daily_forcast_no_wind">0</string>
     <string name="daily_forcast_temperature_transfer">%1$s° / %2$s°</string>
@@ -150,16 +149,18 @@
     <string name="data_source_time_fromat">"yyyy-MM-dd'T'HH:mm:ssz"</string>
     <string name="data_source_timezone">GMT%1$s</string>
     <string name="default_web_client_id">555345638765-9lct5s57ied6eqd72cf7drf6baqta1o6.apps.googleusercontent.com</string>
+    <string name="dialog_internet_error_title">An error occurred</string>
     <string name="dialog_msg_score_midrop">How do you feel about Weather?</string>
     <string name="dialog_msg_score_not_good">Could you give us your feedback as well?</string>
     <string name="dialog_msg_score_perfect">Nice! Rate Weather in Play Store as well?</string>
     <string name="dialog_title_score">Rate Weather</string>
+    <string name="download_rsc_tips">Loading background audio…</string>
+    <string name="dynamic_weather">Weather</string>
     <string name="edit_city">Manage cities</string>
     <string name="empty">" "</string>
     <string name="empty_view_net_loading">Updating…</string>
     <string name="empty_view_net_unavailable">"Couldn't connect to the network"</string>
     <string name="empty_view_refresh">Try again</string>
-    <string name="eu_region_version_first_start_network_msg">"By using this product, you agree that this product will connect the network, collect, process, and use you personal information, including the coordinates of the cities you search, and other types of data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we collect and process information. By tapping \"Agree\", you agree to Xiaomi's %1$s and %2$s."</string>
     <string name="exo_controls_fastforward_description">Fast forward</string>
     <string name="exo_controls_fullscreen_description">Fullscreen mode</string>
     <string name="exo_controls_next_description">Next track</string>
@@ -208,7 +209,6 @@
     <string name="feedback_sandy">Sandy</string>
     <string name="feedback_sunny">Clear</string>
     <string name="firebase_database_url">https://globalmiuiweather.firebaseio.com</string>
-    <string name="first_start_network_title">Internet connection and location access</string>
     <string name="gcm_defaultSenderId">555345638765</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="google_api_key">AIzaSyDk1bbU-UhkFxXirK5NemM1t3FneI82tLw</string>
@@ -261,7 +261,6 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
     <string name="more_details">More details</string>
-    <string name="network_not_available">"Can't connect to the network"</string>
     <string name="network_unavailable">"Can't connect to the network."</string>
     <string name="news_hour_minute_time_format">yyyy-MM-dd HH:mm</string>
     <string name="news_load_more_default">上拉刷新</string>
@@ -274,13 +273,13 @@
     <string name="night_not_disturb_settings_summary">Block alerts between 23:00 and 7:00</string>
     <string name="night_not_disturb_settings_title">"Don't disturb at night"</string>
     <string name="no_data">No data</string>
-    <string name="no_network_btn">Try again</string>
+    <string name="no_internet_message">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
     <string name="no_vote_ratio">Against %1$s%%</string>
+    <string name="non_wifi_environment">Connect to Wi-Fi to download audio effects</string>
     <string name="not_set">Not set</string>
     <string name="notif_aqi_title">AQI is %1$d in %2$s today</string>
     <string name="notif_weather_title">%1$s in %2$s today</string>
     <string name="open">立即打开</string>
-    <string name="open_browser">Open in browser</string>
     <string name="other_settings">Other settings</string>
     <string name="particulate_matter_exceeded">High</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
@@ -295,9 +294,11 @@
     <string name="permission_user_protocol">User Agreement (mandatory)</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="pressure_content">%1$s%2$s</string>
-    <string name="privacy_grant_or_revoke_settings">Granting &amp; revoking authorization</string>
+    <string name="privacy_grant_or_revoke_settings">Withdrawal of consent</string>
     <string name="privacy_grant_success">Granted authorization successfully</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_msg"><Data>This app contains the following features:&lt;br/>• Weather info specific to your location&lt;br/>• Weather forecasts&lt;br/>• Weather warnings&lt;br/>&lt;br/>Weather needs to collect necessary personal information to provide you with basic services. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%3$s\">Privacy Policy&lt;/a> before using Weather. You can withdraw your consent to the Privacy Policy of Weather in the Settings at any time.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>This app contains the following features:&lt;br/>• Weather info specific to your location&lt;br/>• Weather forecasts&lt;br/>• Weather warnings&lt;br/>&lt;br/>Weather needs to collect necessary personal information, including location data, to make these features available, even when the app is closed or not in use. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%3$s\">Privacy Policy&lt;/a> before using Weather. You can withdraw your consent to the Privacy Policy of Weather in the Settings at any time.</Data></string>
     <string name="privacy_revoke_success">Revoked authorization successfully</string>
     <string name="privacy_settings">Privacy Policy</string>
     <string name="project_id">globalmiuiweather</string>
@@ -317,7 +318,6 @@
     <string name="realtime_temperature_no_data">N/A</string>
     <string name="realtime_wind_default_title">Wind</string>
     <string name="receive_net_mock_success">Net mock receive success</string>
-    <string name="refresh_empty_data">"Couldn't load data. Wait a minute or two and try again."</string>
     <string name="refresh_fail">"Couldn't connect to network"</string>
     <string name="reminder_from_xiaomi_weather_app">Mi Weather alert</string>
     <string name="request_cta_connect_net">Allow this app to connect to the internet and grant the mandatory permissions listed above.</string>
@@ -326,6 +326,11 @@
     <string name="request_permission_storage_dialog_content">For sharing weather info in the image format</string>
     <string name="required_permissions">;</string>
     <string name="retry">Try again</string>
+    <string name="revoke_fail">"Can't connect to the network"</string>
+    <string name="revoke_privacy_policy_title">Withdrawal of consent</string>
+    <string name="save_to_gallery_failure_message">"Couldn't save to Gallery"</string>
+    <string name="save_to_gallery_icon_name">Save to Gallery</string>
+    <string name="save_to_gallery_success_message">Saved to Gallery successfully</string>
     <string name="search_menu_title">Search</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -337,7 +342,6 @@
     <string name="settings_atmospheric_pressure_mbar">Millibar (mbar)</string>
     <string name="settings_atmospheric_pressure_mmhg">Millimeter of mercury (mmHg)</string>
     <string name="settings_atmospheric_pressure_title">Atmospheric pressure units</string>
-    <string name="share">Share</string>
     <string name="share_button">Share</string>
     <string name="share_menu_title">Share</string>
     <string name="share_subject">Share</string>
@@ -381,7 +385,6 @@
     <string name="temperature_unit_C">%1$s℃</string>
     <string name="temperature_unit_F">%1$s℉</string>
     <string name="temperature_unit_default">0</string>
-    <string name="title_share_link">Share URL</string>
     <string name="top_pollution_co">CO</string>
     <string name="top_pollution_no2">NO2</string>
     <string name="top_pollution_o3">O3</string>
@@ -424,11 +427,15 @@
     <string name="warning_weather_day_and_night_settings_summary">Receive daily summaries containing weather info at 7:00 and 19:00</string>
     <string name="warning_weather_day_and_night_settings_title">Daily summaries</string>
     <string name="weather_alert_channel_name">Alerts</string>
+    <string name="weather_aqi_full_air_quality_forcast">Full air quality forecast</string>
     <string name="weather_introduce">Always with you, rain or shine.</string>
+    <string name="weather_main_aqi_desc">AQI</string>
     <string name="weather_main_minute_hour">%d-hour precipitation</string>
     <string name="weather_main_speak_tips">Click to broadcast the weather by voice</string>
+    <string name="weather_more_air_quality">More on air quality</string>
     <string name="weather_permission_agree">Accept</string>
     <string name="weather_service_channel_name">Background services</string>
+    <string name="welcome_app_title">Welcome to Weather!</string>
     <string name="wind_direction_no_data">Wind</string>
     <string name="wind_power_unit_default">0</string>
     <string name="wind_unit">%1$skm/h</string>
