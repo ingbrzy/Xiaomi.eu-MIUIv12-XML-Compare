@@ -209,8 +209,14 @@
     <string name="app_behavior_camera_single">This app took photos or recorded video</string>
     <string name="app_behavior_clipboard">%1s accessed or saved items to clipboard</string>
     <string name="app_behavior_clipboard_bg">%1s accessed or saved items to clipboard in the background</string>
+    <string name="app_behavior_clipboard_bg_new">%1s copied items to the clipboard in the background</string>
     <string name="app_behavior_clipboard_bg_single">This app accessed or saved items to clipboard in the background</string>
+    <string name="app_behavior_clipboard_bg_single_new">This app copied items to the clipboard in the background</string>
+    <string name="app_behavior_clipboard_new">%1s copied items to the clipboard</string>
+    <string name="app_behavior_clipboard_read_bg_single">This app accessed items in the clipboard in the background</string>
+    <string name="app_behavior_clipboard_read_single">This app accessed items in the clipboard</string>
     <string name="app_behavior_clipboard_single">This app accessed or saved items to clipboard</string>
+    <string name="app_behavior_clipboard_single_new">This app copied items to the clipboard</string>
     <string name="app_behavior_contacts">%1s accessed your contacts</string>
     <string name="app_behavior_contacts_bg">%1s accessed your contacts in the background</string>
     <string name="app_behavior_contacts_bg_single">This app accessed your contacts in the background</string>
@@ -278,6 +284,8 @@
     <string name="app_behavior_phonestate">%1s accessed device info</string>
     <string name="app_behavior_phonestate_single">This app accessed device info</string>
     <string name="app_behavior_privacy_manager">Notifications about sensitive actions</string>
+    <string name="app_behavior_read_clipboard">%1s accessed items in the clipboard</string>
+    <string name="app_behavior_read_clipboard_bg">%1s accessed items in the clipboard in the background</string>
     <string name="app_behavior_recognition">%1s accessed your activity info</string>
     <string name="app_behavior_recognition_single">This app accessed your activity info</string>
     <string name="app_behavior_search">Search</string>
@@ -1604,8 +1612,8 @@ medical card"</string>
     <string name="gb_shortcut_pref_title">Home screen shortcut</string>
     <string name="gb_sign_gift">Check in to get rewards</string>
     <string name="gb_sign_gift_button_text">Receive</string>
-    <string name="gb_sign_notification_summary">Check in daily to receive Xunyou boost</string>
-    <string name="gb_sign_notification_title">Boost network speed for games</string>
+    <string name="gb_sign_notification_summary">Play games without network delay</string>
+    <string name="gb_sign_notification_title">Try Game Turbo for free</string>
     <string name="gb_signed_gift_loading_fail">"Couldn't load"</string>
     <string name="gb_signed_gift_loading_summary">Just a sec…</string>
     <string name="gb_signed_title">Checked in this month</string>
@@ -2150,6 +2158,9 @@ Your device is %d%% faster now."</string>
     <string name="network_connected_exception_title">Test network</string>
     <string name="network_control">View app settings</string>
     <string name="network_diagnostics">Test network</string>
+    <string name="network_disable_dialog_btn_text">Got it</string>
+    <string name="network_disable_dialog_content">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
+    <string name="network_disable_dialog_title">"Can't connect to the network"</string>
     <string name="network_mobile_exception_detail">"Your device can't connect to the internet:
 
 1. Make sure you haven't exceeded your mobile data plan's limit.
@@ -2448,6 +2459,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="perm_intercept_privacy_content">These actions might expose your personal data. Grant the permission (%1s) anyway?</string>
     <string name="perm_intercept_title">Giving the permission to access usage data to %1s will allow this app to perform the following actions:</string>
     <string name="perm_intercept_unknown_title">Allowing %1s to install apps from unknown sources might pose the following risks:</string>
+    <string name="perm_list_header_title">Apps</string>
     <string name="permdesc_in_calls">Monitor incoming calls</string>
     <string name="permdesc_out_calls">Monitor outgoing calls</string>
     <string name="permgroupdesc_calendar">Access calendar events</string>
@@ -2462,6 +2474,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permgroupdesc_sms">Read or send SMS</string>
     <string name="permgroupdesc_storage">Access photos or files on device</string>
     <string name="permission_action_accept">Accept</string>
+    <string name="permission_action_ai_prompt">Notify when permission is used</string>
     <string name="permission_action_always">Always allow</string>
     <string name="permission_action_desc">Give permissions but return blank messages to the app to protect privacy</string>
     <string name="permission_action_desc_always">This permission can be used anytime</string>
@@ -2534,6 +2547,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permission_upgrade_virtual">"If you don't want to allow apps to access your contacts or call history, you can select \"Return blank messages\" when you grant corresponding permissions."</string>
     <string name="permission_with_SMS_and_MMS">Permissions related to SMS and MMS</string>
     <string name="permission_with_call_and_contact">Permissions related to phone calls, contact info, and call history.</string>
+    <string name="permission_with_read_write_clipboard">Allow apps to access and save items to the clipboard</string>
     <string name="permit_running_network">Background data</string>
     <string name="person_have_hongbao">%1$s 给你发红包啦！</string>
     <string name="person_hotpot">Mobile hotspots</string>
@@ -2888,6 +2902,9 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="privacy_dialog_call_title">Protect calls</string>
     <string name="privacy_dialog_camera_message">"To protect your privacy, MIUI doesn't allow apps to use your camera in the background."</string>
     <string name="privacy_dialog_camera_title">Restrict background camera usage</string>
+    <string name="privacy_dialog_content_part1">Welcome to Security! This app checks your device for trash and viruses, as well as allows you to manage apps, control mobile data usage, block calls and messages, and more.</string>
+    <string name="privacy_dialog_content_part2"><Data>Security needs to collect necessary personal information to provide you with its services and be able to improve its features. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy of Security in the Settings at any time.</Data></string>
+    <string name="privacy_dialog_content_part3"><Data>"Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before using Security. If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you."</Data></string>
     <string name="privacy_dialog_danger_mission_message">Android has multiple high-risk permissions (e.g. the permission to send you push notifications). To protect your privacy, MIUI will ask whether you allow such behavior, and provide restriction options.</string>
     <string name="privacy_dialog_danger_mission_title">High-risk permissions</string>
     <string name="privacy_dialog_feedback">Feedback</string>
@@ -2895,6 +2912,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="privacy_dialog_ok">Got it</string>
     <string name="privacy_dialog_ok_with_num">Got it (%ss)</string>
     <string name="privacy_dialog_open">Turn on</string>
+    <string name="privacy_dialog_revoking">Withdrawing consent…</string>
+    <string name="privacy_dialog_title">Terms and conditions</string>
     <string name="privacy_empty_call">"Didn't access call history today"</string>
     <string name="privacy_empty_contact">"Didn't access contacts today"</string>
     <string name="privacy_empty_location">"Didn't access location today"</string>
@@ -2969,6 +2988,13 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="privacy_special_permission_summary">Monitor how apps use sensitive permissions</string>
     <string name="privacy_special_permission_title">Special permissions</string>
     <string name="privacy_summary">Learn about privacy protection in MIUI 12</string>
+    <string name="privacy_thumbnail_blur_category_financial">Finance</string>
+    <string name="privacy_thumbnail_blur_category_other">Other</string>
+    <string name="privacy_thumbnail_blur_category_photography">Photo &amp; video</string>
+    <string name="privacy_thumbnail_blur_category_tip">Recommended</string>
+    <string name="privacy_thumbnail_blur_search_empty">"Couldn't find results"</string>
+    <string name="privacy_thumbnail_blur_title">Blur previews</string>
+    <string name="privacy_thumbnail_blur_top_tip">Select apps for which previews will be blurred in Recents</string>
     <string name="privacy_type_open">On</string>
     <string name="privacy_using_camera">Using camera</string>
     <string name="privacy_using_location">Accessing location</string>
@@ -3003,6 +3029,14 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="reach_daily_limit_value_body">Reduce your mobile data usage.</string>
     <string name="reach_daily_limit_value_title">Daily data limit reached</string>
     <string name="read_all_sms">Read all</string>
+    <string name="read_and_write_clipboard">Access and save items to the clipboard</string>
+    <string name="read_clipboard_ai_close_no">Not now</string>
+    <string name="read_clipboard_ai_close_tip">"You will no longer receive notifications when apps access the clipboard. Instead, they'll be allowed to use this permission only while you're using the app. Adjust permissions?"</string>
+    <string name="read_clipboard_ai_close_yes">Adjust</string>
+    <string name="read_clipboard_op_content">"Instead of giving the permission only when you're using the app, you'll receive a notification every time apps access your clipboard."</string>
+    <string name="read_clipboard_op_title">Notify when apps access items in the clipboard</string>
+    <string name="read_clipboard_tip_content">This permission allows apps to read any content you copy, which may include private information (e.g. account details, bank card numbers, and passwords).</string>
+    <string name="read_clipboard_tip_title">Accessing items in the clipboard</string>
     <string name="receive_now">Receive</string>
     <string name="recently_reject_message">Rejected installation of %1$s and %2$d other apps</string>
     <string name="recently_reject_message_one">Rejected %1$s installation request</string>
@@ -3890,9 +3924,19 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_video_effects_display_style">Style</string>
     <string name="vb_video_effects_setting_black_white">B&amp;W</string>
     <string name="vb_video_effects_setting_cinema">Cinema</string>
+    <string name="vb_video_effects_setting_girl">Blush</string>
+    <string name="vb_video_effects_setting_gorgeous">Vibrant</string>
+    <string name="vb_video_effects_setting_green_orange">Orange</string>
+    <string name="vb_video_effects_setting_grim">Cool</string>
+    <string name="vb_video_effects_setting_hdr">HDR</string>
+    <string name="vb_video_effects_setting_knight">Metal</string>
+    <string name="vb_video_effects_setting_mecha">Robot</string>
+    <string name="vb_video_effects_setting_nostalgia">Nostalgic</string>
     <string name="vb_video_effects_setting_old_movie">Retro</string>
     <string name="vb_video_effects_setting_outside">Outdoor</string>
     <string name="vb_video_effects_setting_raw">Original</string>
+    <string name="vb_video_effects_setting_solar">Fade</string>
+    <string name="vb_video_effects_setting_warmth">Warm</string>
     <string name="vb_video_effects_settings_liquid">Clarity</string>
     <string name="vb_video_effects_settings_stereo">Volume</string>
     <string name="vb_video_effects_srs_premium_sound">Sound</string>
@@ -4056,6 +4100,8 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="wlan_change_protection_title">Prevent switching networks</string>
     <string name="wlan_optimization_summary">Reduce Wi-Fi network delay</string>
     <string name="wlan_optimization_title">Wi-Fi optimization</string>
+    <string name="write_clipboard_tip_content">This permission allows apps to save items to the clipboard. Spam messages may affect your normal use of the clipboard.</string>
+    <string name="write_clipboard_tip_title">Saving items to the clipboard</string>
     <string name="wrong_password">Incorrect password</string>
     <string name="xunyou_net_booster">Network speed boost</string>
     <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>

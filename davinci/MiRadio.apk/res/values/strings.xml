@@ -189,6 +189,16 @@
     <string name="cancel_auto_pay_ok">已为您关闭该会员的自动续费</string>
     <string name="cancel_auto_renew">取消自动续费</string>
     <string name="cancel_delay_stop">Turn off timer</string>
+    <string name="cancel_dialog_cancel_title">取消后免费试听将立即失效</string>
+    <string name="cancel_dialog_title">取消后免费特权与服务将失效</string>
+    <string name="cancel_free_equity">取消免费特权</string>
+    <string name="cancel_msg">您当前仍有剩余的免费试用天数，取消后将无法继续免费收听会员内容</string>
+    <string name="cancel_msg_left">"畅听会员好书
+无需单独付费"</string>
+    <string name="cancel_msg_mid">"无忧自动续费
+好声音不间断"</string>
+    <string name="cancel_msg_right">"到期前再扣费
+随时可以取消"</string>
     <string name="cancel_running_download">Cancel</string>
     <string name="cannot_comment_try_scroll">This song can not be commented，try to scroll</string>
     <string name="cannot_reply">"Can't reply to this comment now."</string>
@@ -357,6 +367,7 @@
     <string name="cta_runtime_perm_desc_storage_single">Access storage in order to access and save cover art and downloaded files</string>
     <string name="current_program_paid">当前节目为付费节目</string>
     <string name="current_version">Current version</string>
+    <string name="daily_recommend">今日必听</string>
     <string name="data_usage_warning">Data usage</string>
     <string name="data_usage_warning_summary">Using your mobile data connection to stream high quality music may increase your data usage charges.</string>
     <string name="date_format_str">MM-dd-yyyy</string>
@@ -666,6 +677,11 @@ Send this code to the supervisor."</string>
     <string name="fragment_title_artist_album">Albums</string>
     <string name="fragment_title_bill">Playlists</string>
     <string name="fragment_title_songgroup_individuation">Recommend playlists</string>
+    <string name="free_story">免费小说</string>
+    <string name="free_vip_child">VIP免费故事</string>
+    <string name="free_vip_knowledge">VIP免费课程</string>
+    <string name="free_vip_sign">可免费畅听带有   标识的专辑</string>
+    <string name="free_vip_story">VIP免费小说</string>
     <string name="frequency_mhz_fomart">%s MHz</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
@@ -820,6 +836,7 @@ Send this code to the supervisor."</string>
     <string name="lyric_open_other_connect">Download lyrics using mobile network</string>
     <string name="lyric_setting">Lyrics settings</string>
     <string name="manager_cloud_space">Manage Xiaomi Cloud storage</string>
+    <string name="marketSdkVersion">3.2.5</string>
     <string name="market_download_failure">Error，please try it again？</string>
     <string name="max_count">999+</string>
     <string name="max_message_count">99+</string>
@@ -1186,18 +1203,23 @@ Send this code to the supervisor."</string>
     <string name="photoPickerNotFoundText">No photos available.</string>
     <string name="play_all"><Data>Play all &lt;font color=\"#999999\">(%1$d)&lt;/font></Data></string>
     <string name="play_all_shuffle"><Data>Shuffle all&lt;font color=\"#999999\">(%1$d)&lt;/font></Data></string>
-    <string name="play_all_song">Play all</string>
+    <string name="play_all_song">收听全部</string>
     <string name="play_continue"><Data>Continue playing &lt;font color=\"#999999\">(%1$d)&lt;/font></Data></string>
     <string name="play_error_program_not_find">This item is no longer available.</string>
     <string name="play_error_program_offline">该广播已下线</string>
     <string name="play_history_song">续播%s</string>
+    <string name="play_mode_change_hint">该听单暂不支持随机播放，已自动为您切换为顺序播放</string>
     <string name="play_mode_circle">Circle Mode</string>
     <string name="play_mode_circle_hint">Repeating one track now</string>
-    <string name="play_mode_circle_title">Loop one</string>
+    <string name="play_mode_circle_title">Loop</string>
+    <string name="play_mode_loop_hint">播放模式已切换为循环播放</string>
     <string name="play_mode_normal_hint">Playing tracks in the original order now</string>
-    <string name="play_mode_normal_title">Play all</string>
+    <string name="play_mode_normal_title">Sequence</string>
     <string name="play_mode_shuffle">Shuffle Mode</string>
+    <string name="play_mode_shuffle_hint">播放模式已切换为随机播放</string>
+    <string name="play_mode_shuffle_title">Shuffle</string>
     <string name="play_mode_single">Single Mode</string>
+    <string name="play_mode_single_title">Repeat</string>
     <string name="play_next">Play next</string>
     <string name="play_song_continue">Continue playing</string>
     <string name="play_speed">Play Speed</string>
@@ -1426,6 +1448,7 @@ Send this code to the supervisor."</string>
     <string name="sort">Sort</string>
     <string name="sort_by_name">Name</string>
     <string name="sort_by_time">Date</string>
+    <string name="spaces"> </string>
     <string name="spammy_contents">Spam</string>
     <string name="speed">"Speed "</string>
     <string name="splash_bottom_hint">Xiaomi FM</string>
@@ -1486,6 +1509,7 @@ Send this code to the supervisor."</string>
     <string name="talkback_login">Sign in</string>
     <string name="talkback_mode_repeat_all">Loop mode</string>
     <string name="talkback_mode_repeat_current">Repeat mode</string>
+    <string name="talkback_mode_repeat_none">Sequence mode</string>
     <string name="talkback_mode_repeat_shuffle">Shuffle mode</string>
     <string name="talkback_more">More</string>
     <string name="talkback_more_function">More features</string>
@@ -1625,6 +1649,7 @@ Send this code to the supervisor."</string>
     <string name="upgrade_music">Update Music</string>
     <string name="upgrade_music_message">Updates are ready. Restart to update.</string>
     <string name="upload_error_log">Upload log</string>
+    <string name="use_again">再用用看</string>
     <string name="user_avatar_update_title">Change profile photo</string>
     <string name="user_avatar_uploading">Just a sec…</string>
     <string name="user_id_hint">Email/Phone/Mi Account ID</string>
@@ -1650,6 +1675,7 @@ Send this code to the supervisor."</string>
     <string name="vip_auto_renew_message">Your Music subscription will be renewed automatically this evening. Make sure you have enough Mi Credits in your account to complete this payment.</string>
     <string name="vip_auto_renew_title">Subscription renewal</string>
     <string name="vip_child">儿童</string>
+    <string name="vip_download">下载特权</string>
     <string name="vip_free">会员免费听</string>
     <string name="vip_free_album">尊贵的会员，此专辑已向您免费</string>
     <string name="vip_free_listen">会员免费畅听中</string>
@@ -1660,11 +1686,14 @@ Send this code to the supervisor."</string>
     <string name="vip_login_hint">登录后可享受VIP特权</string>
     <string name="vip_login_limit">设备过多</string>
     <string name="vip_login_limit_msg">该账号已登录过多设备，您将无法享用会员权益。您可登录其他账号使用。</string>
+    <string name="vip_mark">尊贵标识</string>
+    <string name="vip_pay">续费可取消</string>
     <string name="vip_renew">会员自动续费</string>
     <string name="vip_renew_message">"You won't be able to stream high quality audio, but some songs will be available in regular quality."</string>
     <string name="vip_renew_title">Subscription expired</string>
     <string name="vip_required">Get Premium Song Pack to play this song. Skipped the song for now.</string>
     <string name="vip_required_with_song">Get Premium Song Pack to play \"%s\". Skipped the song for now.</string>
+    <string name="vip_service">专属客服</string>
     <string name="vip_story">小说</string>
     <string name="vip_tip">Subscribe to Mi Music to stream high quality audio</string>
     <string name="vip_tip_expire_soon">您的%1$s会员即将过期，点击</string>
@@ -1697,6 +1726,9 @@ Tap %2$s to start this download the next time you're connected to a Wi-Fi networ
     <string name="xiaoai_install_title">Install Mi AI voice assistant</string>
     <string name="xiaoai_update_message">Looks like Mi AI voice engine is too old. You can update it now.</string>
     <string name="xiaoai_update_title">Update Mi AI</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">以后再说</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">立即更新</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">%s 新版本</string>
     <string name="yesterday">Yesterday</string>
     <string name="zero_free_listen">0元免费听</string>
 </resources>

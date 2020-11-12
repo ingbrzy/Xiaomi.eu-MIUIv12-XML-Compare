@@ -29,6 +29,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="actionbar_button_up_description">Back</string>
     <string name="afternoon">Afternoon</string>
+    <string name="aggregate_title">Rules for grouping notifications</string>
     <string name="am">AM</string>
     <string name="app_name">Notifications</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
@@ -36,6 +37,9 @@
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="cancel">Cancel</string>
     <string name="category_other">Other</string>
+    <string name="channel_keyguard_hide_content">Show all notifications but hide contents</string>
+    <string name="channel_keyguard_show_content">Show all notifications and their contents</string>
+    <string name="channel_keyguard_show_nothing">"Don't show notification at all"</string>
     <string name="channel_name_aggregation">Grouped notifications</string>
     <string name="channel_name_notification">App notifications</string>
     <string name="channel_name_recovered">Restored notifications</string>
@@ -210,6 +214,10 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">zW T</string>
     <string name="fmt_weekday_timezone">zW</string>
+    <string name="fold_importance_default">Recommended</string>
+    <string name="fold_importance_important">Important</string>
+    <string name="fold_importance_unimportant">Unimportant</string>
+    <string name="fold_title">Rules for grouped notifications</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
@@ -345,6 +353,9 @@
     <string name="notification_display_style">Notification style</string>
     <string name="notification_fold_summary">Group unimportant notifications automatically</string>
     <string name="notification_fold_title">Group notifications</string>
+    <string name="notification_keyguard_hide_content">Show notifications but hide content</string>
+    <string name="notification_keyguard_show_content">Show notification and content</string>
+    <string name="notification_keyguard_show_nothing">"Don't show Lock screen notifications"</string>
     <string name="notification_manager">App notifications</string>
     <string name="notification_style_android">Android</string>
     <string name="notification_style_miui">MIUI</string>
@@ -357,6 +368,7 @@
     <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="rule_keyguard_display">Format</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
@@ -391,6 +403,8 @@
     <string name="solar_term_winter_solstice">Winter solstice</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Status bar</string>
+    <string name="summary_aggregate_default">Promotional and content-related push notifications will be grouped</string>
+    <string name="summary_aggregate_home">"Push notifications won't be grouped"</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">"Floating notifications aren't allowed"</string>
     <string name="summary_disable_lockscreen_notification">"Lock screen notifications aren't allowed"</string>
@@ -399,6 +413,9 @@
     <string name="summary_enable_lockscreen_notification">Lock screen notifications are allowed</string>
     <string name="summary_enable_show_badge_notification">Notification badges are allowed</string>
     <string name="summary_float_enable_notification_first">Allow notifications to be able to turn on floating notifications</string>
+    <string name="summary_fold_importance_default">MIUI will decide which notifications should appear directly</string>
+    <string name="summary_fold_importance_important">Notification will appear in the Notification shade</string>
+    <string name="summary_fold_importance_unimportant">Notification will appear in a separate folder</string>
     <string name="summary_lock_screen_enable_notification_first">Allow notifications to be able to turn on Lock screen notifications</string>
     <string name="summary_show_badge_enable_notification_first">Allow notifications to be able to turn on notification badges</string>
     <string name="sunday">Sunday</string>
@@ -452,6 +469,8 @@
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
     <string name="tip_feedback_thanks">Thanks for your feedback!</string>
+    <string name="title_aggregate_default">Group notifications</string>
+    <string name="title_aggregate_home">"Don't group notifications"</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="tuesday">Tuesday</string>
