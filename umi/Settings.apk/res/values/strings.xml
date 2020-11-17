@@ -694,6 +694,8 @@ Change settings now?"</string>
     <string name="audio_files_title">Audio files</string>
     <string name="audio_profile_settings_title">Audio profiles</string>
     <string name="audio_record_proc_title">Noise cancellation</string>
+    <string name="audio_share_cancel">No thanks</string>
+    <string name="audio_share_confirm">Share</string>
     <string name="auto_adjst_effect_summary">Adjust color temperature to ambient light automatically in order to maintain optimal comfort level</string>
     <string name="auto_adjust_effect_title">Adjust color temperature automatically</string>
     <string name="auto_brightness_default_title">Default</string>
@@ -1075,6 +1077,8 @@ Apps:
     <string name="bluetooth_ask_enablement_no_name">An app wants to turn on Bluetooth</string>
     <string name="bluetooth_ask_lasting_discovery">%1$s wants to make your phone visible to other Bluetooth devices. You can change this later in Bluetooth settings.</string>
     <string name="bluetooth_ask_lasting_discovery_no_name">An app wants to make your phone visible to other Bluetooth devices. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_audio_share_feature_notice_summary">Share audio with other connected devices?</string>
+    <string name="bluetooth_audio_share_feature_notice_title">Share audio</string>
     <string name="bluetooth_battery_level">%1$s battery</string>
     <string name="bluetooth_battery_level_untethered">L: %1$s battery, R: %2$s battery</string>
     <string name="bluetooth_broadcasting">Broadcasting</string>
@@ -1439,6 +1443,9 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="bt_absVolume_open_dialog_title">Attention</string>
     <string name="bt_absVolume_pre_title">Absolute volume</string>
     <string name="bt_absVolume_summary">"Keep the volume of Bluetooth devices and the phone strictly consistent. You can turn this feature on and off when media isn't playing in the background."</string>
+    <string name="bt_audio_share_property">Sharing</string>
+    <string name="bt_audio_share_switch_summary">Share audio with connected Bluetooth devices</string>
+    <string name="bt_audio_share_switch_title">Share audio</string>
     <string name="bt_dialog_remember_choice">"Don't show again"</string>
     <string name="bt_dialog_settings">Settings</string>
     <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
@@ -2362,6 +2369,7 @@ This setting affects all users of this device."</string>
     <string name="device_oaid_desc">Instead of your unique identifier, MIUI will provide a virtual ID (OAID) to installed apps. It prevents apps from tracking your behavior and preferences, and protects your privacy.</string>
     <string name="device_oaid_title">Virtual ID</string>
     <string name="device_of_someone">"%1$s's %2$s"</string>
+    <string name="device_opcust_version">Operator version</string>
     <string name="device_picker">Choose Bluetooth device</string>
     <string name="device_rear_camera">Rear camera</string>
     <string name="device_screen_resolution">Screen resolution</string>
@@ -5899,6 +5907,23 @@ This setting affects all users on this phone."</string>
     <string name="screen_dark_mode_smart_dark_title">Global dark mode</string>
     <string name="screen_dark_mode_time_title">Schedule Dark mode</string>
     <string name="screen_effect">Color scheme</string>
+    <string name="screen_enhance_engine_ai_note">"To make sure your viewing experience is natural, this feature won't work if the image consists of primary colors or contains advanced adjustments."</string>
+    <string name="screen_enhance_engine_ai_open">Enhance images</string>
+    <string name="screen_enhance_engine_ai_pic_summary">Identify objects (e.g. plants, images, buildings) and dynamically adjust display effects. This feature slightly increases power consumption.</string>
+    <string name="screen_enhance_engine_ai_title">AI image enhancement</string>
+    <string name="screen_enhance_engine_memc_open">MEMC</string>
+    <string name="screen_enhance_engine_memc_pic_summary">Add additional frames to videos to make content appear smooth and transitions lively.</string>
+    <string name="screen_enhance_engine_memc_title">MEMC</string>
+    <string name="screen_enhance_engine_s2h_open">AI HDR enhancement</string>
+    <string name="screen_enhance_engine_s2h_pic_summary">Process videos using HDR effects to bring out more detail in the lighter and darker areas and make colors more vibrant. This feature is supported by selected apps.</string>
+    <string name="screen_enhance_engine_s2h_title">AI HDR enhancement</string>
+    <string name="screen_enhance_engine_sr_for_pic">Enhance images</string>
+    <string name="screen_enhance_engine_sr_for_video">Enhance videos</string>
+    <string name="screen_enhance_engine_sr_pic_summary">Upscale the resolution of images or videos up to 1440p. This feature is supported by selected apps and slightly increases power consumption.</string>
+    <string name="screen_enhance_engine_sr_title">Super resolution</string>
+    <string name="screen_enhance_engine_title">AI image engine</string>
+    <string name="screen_enhance_status_disable">Off</string>
+    <string name="screen_enhance_status_enable">On</string>
     <string name="screen_fps_summary_power_save">Using fixed rate consumes less power</string>
     <string name="screen_fps_summary_smooth">Some apps will increase refresh rate automatically to improve picture quality</string>
     <string name="screen_fps_title">Refresh rate</string>
@@ -6859,7 +6884,6 @@ A trusted credential installed on your device is making this possible."</string>
     <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
     <string name="status_bar_settings_qs_layout">Quick settings layout</string>
     <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
-    <string name="status_bar_settings_show_weather">Show weather info</string>
     <string name="status_bar_settings_status_bar">Status bar</string>
     <string name="status_bar_title">Control center &amp; status bar</string>
     <string name="status_bt_address">Bluetooth address</string>
@@ -7269,6 +7293,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="tether_over_limit_dialog_title">Data usage warning</string>
     <string name="tether_over_limit_warning_notify_message">Turn off portable hotspot.</string>
     <string name="tether_over_limit_warning_notify_title">Reached hotspot data limit</string>
+    <string name="tether_password_illegal_character">Password contains illegal characters. please re-enter</string>
     <string name="tether_settings_disabled">Portable hotspot is off</string>
     <string name="tether_settings_disabled_on_data_saver">Can’t tether or use portable hotspots while Data Saver is on</string>
     <string name="tether_settings_summary_all">Hotspot, USB, Bluetooth, Ethernet</string>
