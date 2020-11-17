@@ -320,6 +320,14 @@
         <item>1.2</item>
         <item>1.4</item>
     </string-array>
+    <string-array name="high_device_cpu_list">
+        <item>kona</item>
+        <item>msmnile</item>
+    </string-array>
+    <string-array name="high_device_gpu_list">
+        <item>kona</item>
+        <item>msmnile</item>
+    </string-array>
     <string-array name="key_and_gesture_shortcut_def_function_list">
         <item>double_click_power_key</item>
         <item>three_gesture_down</item>
@@ -391,6 +399,21 @@
         <item>com.miui.systemAdSolution</item>
         <item>com.techown.emm</item>
         <item>com.miui.hybrid.accessory</item>
+    </string-array>
+    <string-array name="low_device_cpu_list">
+        <item>msm8953</item>
+        <item>msm8937</item>
+        <item>mt6768</item>
+        <item>mt6765</item>
+    </string-array>
+    <string-array name="low_device_gpu_list">
+        <item>trinket</item>
+        <item>sdm660</item>
+        <item>bengal</item>
+        <item>msm8953</item>
+        <item>msm8937</item>
+        <item>mt6768</item>
+        <item>mt6765</item>
     </string-array>
     <string-array name="max_aspect_ratio_suggest_apps">
         <item>com.tencent.mm</item>
@@ -1435,6 +1458,31 @@
         <item>com.snapwork.hdfc</item>
         <item>com.netqin.ps</item>
         <item>com.autonavi.minimap</item>
+    </string-array>
+    <string-array name="middle_device_cpu_list">
+        <item>sdm845</item>
+        <item>lito</item>
+        <item>sm6150</item>
+        <item>atoll</item>
+        <item>sdm710</item>
+        <item>trinket</item>
+        <item>sdm660</item>
+        <item>bengal</item>
+        <item>mt6885</item>
+        <item>mt6873</item>
+        <item>mt6853</item>
+        <item>mt6785</item>
+    </string-array>
+    <string-array name="middle_device_gpu_list">
+        <item>sdm845</item>
+        <item>lito</item>
+        <item>sm6150</item>
+        <item>atoll</item>
+        <item>sdm710</item>
+        <item>mt6885</item>
+        <item>mt6873</item>
+        <item>mt6853</item>
+        <item>mt6785</item>
     </string-array>
     <string-array name="need_trace_list">
         <item>com.android.phone</item>
