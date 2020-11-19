@@ -44,6 +44,12 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="sound_effect_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="support_sound_version">
         <item>4.1.2</item>
         <item>4.21.2</item>
@@ -51,5 +57,11 @@
         <item>4.29.2</item>
         <item>4.19.2</item>
         <item>4.9.2</item>
+    </string-array>
+    <string-array name="switch_sound_effect">
+        <item>@string/sound_effect_original</item>
+        <item>@string/sound_effect_room</item>
+        <item>@string/sound_effect_hall</item>
+        <item>@string/sound_effect_theater</item>
     </string-array>
 </resources>
