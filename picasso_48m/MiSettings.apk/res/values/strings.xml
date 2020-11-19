@@ -320,6 +320,7 @@
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="preview">Preview</string>
     <string name="primary_color_region">Original</string>
+    <string name="primary_color_region_chinese_only">nature</string>
     <string name="primary_color_region_summary">Identify color gamut automatically through color calibration</string>
     <string name="privacy_policy">Privacy policy</string>
     <string name="reset_edit">Discard changes</string>
@@ -551,16 +552,11 @@ This app also needs to connect to the internet and requires the following permis
     <string name="usage_new_home_unused">"Didn't use"</string>
     <string name="usage_new_home_update">Change</string>
     <string name="usage_new_home_usage_detail">Usage details</string>
-    <string name="usage_new_home_week_average_count">Avg %s</string>
     <string name="usage_new_home_week_category_title">App categories</string>
     <string name="usage_new_home_week_compare_text1">%.2f more than the week before</string>
-    <string name="usage_new_home_week_compare_text1_new">(%s%% more than last week)</string>
     <string name="usage_new_home_week_compare_text2">%.2f less than the week before</string>
-    <string name="usage_new_home_week_compare_text2_new">(%s%% less than last week)</string>
     <string name="usage_new_home_week_equals_text">Same as the week before</string>
     <string name="usage_new_home_week_title">Week</string>
-    <string name="usage_new_home_week_unlock_compare_decrease">(%.2f fewer than last week)</string>
-    <string name="usage_new_home_week_unlock_compare_increase">(%.2f more than last week)</string>
     <string name="usage_new_home_week_unlock_equals_text">Same as the week before</string>
     <string name="usage_new_home_week_usage_title">Individual apps</string>
     <string name="usage_new_home_which_week">Week %d</string>
@@ -680,10 +676,8 @@ This app needs to connect to the internet and requires the following permissions
     <string name="usage_stats_experience_text">Tap to try (1 min)</string>
     <string name="usage_stats_limit_time_accuracy_title">Accuracy of remaining time estimate</string>
     <string name="usage_stats_limit_time_high_accuracy_summary">Show remaining time with accuracy to a minute. This increases power consumption.</string>
-    <string name="usage_stats_limit_time_high_accuracy_summary_new">Accurate down to the minute (consumes more power)</string>
     <string name="usage_stats_limit_time_high_accuracy_title">High</string>
     <string name="usage_stats_limit_time_low_accuracy_summary">Show remaining time with accuracy to a minute within last 2 remaining hours to save battery</string>
-    <string name="usage_stats_limit_time_low_accuracy_summary_new">Accurate down to the minute within %d remaining hours (saves power)</string>
     <string name="usage_stats_limit_time_low_accuracy_title">Low</string>
     <string name="usage_stats_limit_time_warn">Screen time warnings</string>
     <string name="usage_stats_limit_time_warn_summary">Display remaining screen time in the Notification shade</string>
