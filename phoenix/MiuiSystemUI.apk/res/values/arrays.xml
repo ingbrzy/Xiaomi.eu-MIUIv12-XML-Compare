@@ -566,7 +566,6 @@
         <item>com.p1.mobile.putong</item>
         <item>com.blued.international</item>
         <item>com.soft.blued</item>
-        <item>cn.soulapp.android</item>
         <item>com.google.android.talk</item>
         <item>com.whatsapp</item>
         <item>com.whatsapp.w4b</item>
@@ -577,7 +576,6 @@
         <item>com.vkontakte.android</item>
         <item>com.imo.android.imoim</item>
         <item>com.snapchat.android</item>
-        <item>com.facebook.orca</item>
         <item>com.facebook.mlite</item>
         <item>com.discord</item>
         <item>com.google.android.gm</item>
@@ -708,6 +706,8 @@
     </string-array>
     <string-array name="config_quickSettingsAutoAdd">
         <item>accessibility_display_inversion_enabled:inversion</item>
+        <item>wind_down_first_time_setup:custom(com.google.android.apps.wellbeing/.screen.ui.GrayscaleTileService)</item>
+        <item>focus_mode_first_time_setup:custom(com.google.android.apps.wellbeing/.focusmode.quicksettings.FocusModeTileService)</item>
     </string-array>
     <string-array name="data_activity_sim1">
         <item>array/telephony_data_activity_unknown_sim1</item>
