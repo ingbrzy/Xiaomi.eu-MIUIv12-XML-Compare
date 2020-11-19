@@ -7,6 +7,8 @@
     <string name="HIPS_Action_Reject">Deny</string>
     <string name="HIPS_Action_Reject_Once">Deny once</string>
     <string name="HIPS_Action_Reject_This">Restrict once</string>
+    <string name="HIPS_Perm_Access_Gallery">Access Gallery</string>
+    <string name="HIPS_Perm_Access_Gallery_Desc">Allow this app to access items in your Gallery</string>
     <string name="HIPS_Perm_AudioRecorder">Record audio</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">record audio and phone calls</string>
     <string name="HIPS_Perm_AutoStart">Run at startup</string>
@@ -76,8 +78,6 @@
     <string name="HIPS_Perm_background_start_activity_Desc">display pop-up windows while running in the background</string>
     <string name="HIPS_Perm_clipboard">Clipboard</string>
     <string name="HIPS_Perm_clipboard_Desc">Allow the app to access and add clipboard items</string>
-    <string name="HIPS_Perm_dcimControl">访问相册</string>
-    <string name="HIPS_Perm_dcimControl_Desc">允许应用访问相册</string>
     <string name="HIPS_Perm_deamon_notification">Permanent notification</string>
     <string name="HIPS_Perm_deamon_notification_Desc">show permanent notifications</string>
     <string name="HIPS_Perm_get_accounts">Access accounts on device</string>
@@ -104,8 +104,8 @@
     <string name="HIPS_Perm_service_foreground_Desc">foreground services</string>
     <string name="HIPS_Perm_show_when_locked">Show on Lock screen</string>
     <string name="HIPS_Perm_show_when_locked_Desc">be shown on Lock screen</string>
-    <string name="HIPS_Perm_tencentControl">访问社交信息</string>
-    <string name="HIPS_Perm_tencentControl_Desc">允许应用访问社交信息</string>
+    <string name="HIPS_Perm_tencentControl">Access messages in social media apps</string>
+    <string name="HIPS_Perm_tencentControl_Desc">Allow this app to access your WeChat and QQ messages</string>
     <string name="HIPS_Perm_use_sip">Video services</string>
     <string name="HIPS_Perm_use_sip_Desc">use Session Initiation Protocol to stream video</string>
     <string name="HIPS_Perm_write_clipboard">Save items to clipboard</string>
@@ -113,7 +113,7 @@
     <string name="HIPS_SecurityPrompt_Caption">Security warning</string>
     <string name="HIPS_SecurityPrompt_Reject">Deny (%d)</string>
     <string name="HIPS_SecurityPrompt_Reject_Clear_This">Restrict and clear clipboard (%d)</string>
-    <string name="HIPS_SecurityPrompt_Reject_Never">拒绝且不再询问 (%d)</string>
+    <string name="HIPS_SecurityPrompt_Reject_Never">"Deny and don't ask again (%d)"</string>
     <string name="HIPS_SecurityPrompt_Reject_Once">Deny once (%d)</string>
     <string name="HIPS_SecurityPrompt_Reject_This">Restrict once (%d)</string>
     <string name="HIPS_SecurityPrompt_Title">%1$s is trying to %2$s</string>
@@ -141,9 +141,9 @@
     <string name="grant_dialog_button_deny_and_dont_ask_again">"Deny and don't ask again"</string>
     <string name="grant_dialog_button_deny_background">Only while using the app</string>
     <string name="grant_dialog_button_deny_background_and_dont_ask_again">Always, but only while using the app</string>
-    <string name="grant_dialog_storage_category_title">设置访问手机相册和社交应用信息</string>
-    <string name="grant_dialog_storage_gallery_title">手机相册</string>
-    <string name="grant_dialog_storage_sociality_title">社交应用信息</string>
+    <string name="grant_dialog_storage_category_title">This app requires permissions to access Gallery and messages in social media apps</string>
+    <string name="grant_dialog_storage_gallery_title">Gallery</string>
+    <string name="grant_dialog_storage_sociality_title">Messages in social media apps</string>
     <string name="location_settings">Location settings</string>
     <string name="location_warning">%1$s is a provider of location services for this device. Location access can be modified from location settings.</string>
     <string name="never_ask_again">"Don't ask again after restricting"</string>
@@ -194,10 +194,11 @@
     <string name="screen_overlay_title">Screen overlay detected</string>
     <string name="static_cache_db_md5">ca8b2bf664b02208f1bbe2344e93a705</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="storage_policy_notify_content">如需允许其读取，点击前往设置</string>
-    <string name="storage_policy_notify_gallery_title">已禁止%1$s读取手机相册</string>
-    <string name="storage_policy_notify_sociality_title">已禁止%1$s读取社交信息</string>
-    <string name="storage_policy_notify_title">已禁止%1$s读取手机相册</string>
+    <string name="storage_policy_notify_both_title">"%1$s isn't allowed to access Gallery and messages in social media apps"</string>
+    <string name="storage_policy_notify_content">Tap to adjust permissions</string>
+    <string name="storage_policy_notify_gallery_title">"%1$s isn't allowed to access Gallery"</string>
+    <string name="storage_policy_notify_sociality_title">"%1$s isn't allowed to access messages in social media apps"</string>
+    <string name="storage_policy_notify_title">"%1$s isn't allowed to access Gallery"</string>
     <string name="virtual_reject_notice_content">A blank response was sent to the app to protect your personal info</string>
     <string name="virtual_reject_notice_title_calendar">Accessing calendar by %1$s</string>
     <string name="virtual_reject_notice_title_calllog">Accessing call history by %1$s</string>
