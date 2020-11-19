@@ -206,6 +206,73 @@
         <item>@string/heavenly_stems_ren</item>
         <item>@string/heavenly_stems_gui</item>
     </string-array>
+    <array name="miui_volume_progress_dragging_corners">
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+    </array>
+    <array name="miui_volume_progress_released_corners">
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+        <item>@dimen/miui_volume_timer_corner_radius</item>
+    </array>
+    <array name="miui_volume_ringer_btn_corners_collapsed">
+        <item>@dimen/miui_volume_bg_radius</item>
+        <item>@dimen/miui_volume_bg_radius</item>
+        <item>@dimen/miui_volume_bg_radius</item>
+        <item>@dimen/miui_volume_bg_radius</item>
+        <item>@dimen/miui_volume_bg_radius</item>
+        <item>@dimen/miui_volume_bg_radius</item>
+        <item>@dimen/miui_volume_bg_radius</item>
+        <item>@dimen/miui_volume_bg_radius</item>
+    </array>
+    <array name="miui_volume_ringer_btn_dnd_corners">
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+    </array>
+    <array name="miui_volume_ringer_btn_standard_corners">
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+    </array>
+    <array name="miui_volume_ringer_btn_standard_corners2">
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+    </array>
+    <integer-array name="miui_volume_timer_segments">
+        <item>0</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>28800</item>
+    </integer-array>
     <string-array name="months">
         <item>@string/month_january</item>
         <item>@string/month_february</item>
