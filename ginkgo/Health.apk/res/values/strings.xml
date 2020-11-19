@@ -78,6 +78,15 @@ to add cards"</string>
     <string name="audio_record_perm_description">For recording snoring and talking while analyzing sleep cycle</string>
     <string name="audio_record_permission_description">For recording talking and snoring while analyzing your sleep cycle</string>
     <string name="auth_description">Allow %1$s to sync data from the following devices</string>
+    <string name="auth_dialog_description">"Turn on recommendations?
+
+To provide you with recommendations, we'll share your health data with a third party service provider. The items we'll share include personal information (age, gender), health stats (height, weight, workout routine), behavior data (start and end time, as well as the duration of your workouts).
+
+We'll process these items before we share them in order to prevent third party service providers from identifying you personally based on the data they receive.
+
+If you don't want to get access to the recommended classes, you can still use the regular workouts."</string>
+    <string name="auth_dialog_link">To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;font color=\"#0D84FF\">&lt;a href=%1$s>User Agreement&lt;/a>&lt;/font> and &lt;font color=\"#0D84FF\">&lt;a href=%2$s>Privacy Policy&lt;/a>&lt;/font>.</string>
+    <string name="auth_dialog_title">Recommended classes</string>
     <string name="auto_start_fail">"Couldn't grant permission"</string>
     <string name="auto_start_success">Granted permission successfully</string>
     <string name="auto_start_tips">Tap \"Settings\" below to open Xiaomi Health settings and give the required permissions.</string>
@@ -165,6 +174,7 @@ to add cards"</string>
     <string name="butterfly_stroke">Butterfly</string>
     <string name="button_record_menstruation">Record</string>
     <string name="buy">Buy</string>
+    <string name="calories">calories</string>
     <string name="camera_permission_desc">For setting profile photos</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_edit">Discard changes</string>
@@ -219,9 +229,7 @@ to add cards"</string>
     <string name="chinese_digit_seven">七</string>
     <string name="chinese_digit_six">六</string>
     <string name="chinese_digit_ten">十</string>
-    <string name="chinese_digit_thirty">卅</string>
     <string name="chinese_digit_three">三</string>
-    <string name="chinese_digit_twenty">廿</string>
     <string name="chinese_digit_two">二</string>
     <string name="chinese_digit_zero">〇</string>
     <string name="chinese_leap">闰</string>
@@ -361,6 +369,8 @@ If you decide to delete your health data after you choose to keep it, you can do
     <string name="delete_wear_data_toast">"Can't delete data provided by %1$s"</string>
     <string name="description">Details</string>
     <string name="detail_format">%1$.1f</string>
+    <string name="detail_record_pace_describe">Pace (Time covering 1 km)</string>
+    <string name="detail_record_pace_title">Pace segments</string>
     <string name="detection_has_no_data">No data</string>
     <string name="detection_not_start">"Haven't started yet"</string>
     <string name="detection_not_start_detail">"Don't stay up late"</string>
@@ -384,6 +394,7 @@ Please send this code to the technician."</string>
     <string name="dialog_account_perm_desc">For accessing and signing in the system account</string>
     <string name="dialog_agree">Agree</string>
     <string name="dialog_agree_and_continue">Agree</string>
+    <string name="dialog_agree_permission">Allow</string>
     <string name="dialog_allow">Allow</string>
     <string name="dialog_auto_start_detail">"Allow Xiaomi Health to autostart to be able to receive notifications.
 Xiaomi Health will only notify you about important items."</string>
@@ -413,9 +424,11 @@ Xiaomi Health will only notify you about important items."</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_open">Allow</string>
     <string name="dialog_permission_loading_msg">Checking…</string>
+    <string name="dialog_permission_title">Permissions required</string>
     <string name="dialog_privacy_policy_statement">Privacy Policy statement</string>
     <string name="dialog_privacy_title">Terms and conditions</string>
     <string name="dialog_read_phone_perm_desc">For identifying device features using OAID or Android ID</string>
+    <string name="dialog_reject">Restrict</string>
     <string name="dialog_request_network">Allow this app to connect to the internet.</string>
     <string name="dialog_sleep_goal_setting">Set sleep duration goal</string>
     <string name="dialog_sleep_goal_subtitle">Get 7–9 hours of sleep every day</string>
@@ -532,6 +545,10 @@ If your device is listed here, you can add data sources manually in Xiaomi Healt
     <string name="exercise_sum">Exercise report</string>
     <string name="exercise_time">Duration</string>
     <string name="exercise_walk_description">According to the Dietary Guidelines for Chinese Residents, active physical activity should last at least 40 minutes a day, which is equivalent to walking 6000 steps. The steps you take each day to walk, run, and go upstairs are summarized here.</string>
+    <string name="exit_running_tips_cancel">Yes</string>
+    <string name="exit_running_tips_confirm">No</string>
+    <string name="exit_running_tips_desc">"Looks like you haven't started working out yet. Finish this workout?"</string>
+    <string name="exit_running_tips_title">Finish workout</string>
     <string name="expand_all">Show all</string>
     <string name="expand_button_title">Advanced</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
@@ -633,6 +650,10 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="goal_sleep_time">Sleep duration goal</string>
     <string name="goal_title">Stay healthy</string>
     <string name="goto_setting_auto_start">Settings</string>
+    <string name="gps">GPS</string>
+    <string name="gps_no_signal_hint">"Current GPS signal doesn't allow to track your workout and record routes. Go to a flat, open outdoor area."</string>
+    <string name="gps_unauthorized">GPS permissions required</string>
+    <string name="gps_unopened">GPS is off</string>
     <string name="group">Cycles</string>
     <string name="guide_data_cloud_sync_tip">You can turn off sync in Settings > Cloud services.</string>
     <string name="guide_exit">Exit Xiaomi Health</string>
@@ -703,6 +724,18 @@ Wait until the circle turns red."</string>
     <string name="hr_detect_state_reseting">Resting state</string>
     <string name="hr_detect_state_reseting_desc">Just wake up or completely relaxed</string>
     <string name="hr_disturb_detect">Detection interrupt</string>
+    <string name="hr_finger_permission_desc">To measure your heart rate, this feature needs to access fingerprint scanner to be able to detect changes in your blood flow. Allow?</string>
+    <string name="hr_fp_area">Fingerprint scanner</string>
+    <string name="hr_fp_detect_desc">Blood flows to your fingers with every heartbeat. Bright light in the fingerprint scanner area under the screen allows us to track the changes in your blood flow, analyze the patterns, and convert them into heart rate values.</string>
+    <string name="hr_fp_detect_principle_desc">"Blood isn't completely opaque; therefore, light can pass through it. With every heartbeat, blood flows to your fingers, blocking more light than between the heartbeats. Bright light in the fingerprint scanner area under the screen allows us to track the changes in your blood flow, analyze the patterns, and convert them into heart rate values."</string>
+    <string name="hr_fp_detect_principle_desc_2">"Note: Make sure your finger fully covers the fingerprint icon during the measurement. Don't apply force, as it might block blood flow in your fingertip and make the results inaccurate. This measurement is provided for your reference only. It can't replace medical tests."</string>
+    <string name="hr_fp_detect_principle_desc_3">Our tests show that this method measures your heart rate with an error of only ≤3 BPM.</string>
+    <string name="hr_fp_detect_start_desc">"Lightly press the fingerprint icon.
+Don't move your finger."</string>
+    <string name="hr_fp_detecting">Measuring…</string>
+    <string name="hr_fp_not_put_well">"Your finger moved.
+Start over."</string>
+    <string name="hr_fp_report_common_desc">Normal heart rate ranges from 60 to 100 beats per minute. A heart rate lower than 60 BPM is a sign of bradycardia, while a heart rate over 100 BPM is accepted as tachycardia in adults.</string>
     <string name="hr_heart_rate_unit">Heart rate (BPM)</string>
     <string name="hr_in_detect">Please do not release your fingers while testing</string>
     <string name="hr_input_heart_rate">Record heart rate</string>
@@ -789,6 +822,17 @@ Wait until the circle turns red."</string>
     <string name="light_sleep_time_increase_description">Your light sleep is too long</string>
     <string name="light_sleep_time_normal_description">You have a sufficient amount of light sleep</string>
     <string name="load_failed">"Couldn't load items. Wait a minute or two and try again."</string>
+    <string name="loading">Just a sec…</string>
+    <string name="location_permission_dialog_content">Allow Xiaomi Health to access your location in \"Xiaomi Health\" > \"Manage permissions\" to be able to track your outdoor workouts.</string>
+    <string name="location_permission_dialog_negative">Not now</string>
+    <string name="location_permission_dialog_positive">Allow</string>
+    <string name="location_permission_dialog_title">Location permissions required</string>
+    <string name="location_service_dialog_content">Turn on location services in the Settings to be able to track your outdoor workouts.</string>
+    <string name="location_service_dialog_negative">Not now</string>
+    <string name="location_service_dialog_positive">Turn on</string>
+    <string name="location_service_dialog_title">Location services are off</string>
+    <string name="location_service_ntfc_content">Xiaomi Health</string>
+    <string name="location_service_ntfc_title">Searching for GPS…</string>
     <string name="login_and_open_sync">Sign in and turn on sync</string>
     <string name="login_and_open_sync2">Sign in and turn on sync</string>
     <string name="low">Low</string>
@@ -881,10 +925,20 @@ Wait until the circle turns red."</string>
     <string name="min_pace">Lowest pace</string>
     <string name="minimum">Minimum</string>
     <string name="minute">M</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
+    <string name="miuix_appcompat_action_mode_select_all">Select all</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">More</string>
+    <string name="miuix_appcompat_cancel_description">Cancel</string>
     <string name="miuix_appcompat_cloud_state_disabled">Sync with the cloud is off</string>
     <string name="miuix_appcompat_cloud_state_finished">Synced with the cloud successfully</string>
     <string name="miuix_appcompat_cloud_state_syncing">Syncing with the cloud…</string>
+    <string name="miuix_appcompat_confirm_description">Confirm</string>
+    <string name="miuix_appcompat_delete_description">Delete</string>
+    <string name="miuix_appcompat_deselect_all_description">Deselect all</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Cancel</string>
     <string name="miuix_appcompat_search_input_description">Search</string>
+    <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -963,6 +1017,7 @@ Wait until the circle turns red."</string>
     <string name="need_unrestricted_permission">To get more accurate stats, allow Xiaomi Health to always run in the background.</string>
     <string name="network_connect_failure">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="network_not_available">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="network_not_available2">"Couldn't connect to the network"</string>
     <string name="next_step">Next</string>
     <string name="night">Evening</string>
     <string name="no_available_data_source">No data sources available</string>
@@ -1028,12 +1083,21 @@ Wait until the circle turns red."</string>
     <string name="permission_check_result_failed">"Couldn't set"</string>
     <string name="permission_manage">Manage permissions</string>
     <string name="permission_tip">Give Xiaomi Health the following permissions to allow it to track your sleep accurately</string>
+    <string name="personal_course_recommend_subtitle">Get access to the classes recommended to you based on your personal info, health stats, and preferences</string>
+    <string name="personal_course_recommend_title">Recommended classes</string>
     <string name="phone_detection">Detected automatically</string>
     <string name="photograph">Camera</string>
     <string name="picker_day">Selected day: %1$d. Swipe vertically to select.</string>
     <string name="picker_month">Selected month: %1$d. Swipe vertically to select.</string>
     <string name="picker_year">Selected year: %1$d. Swipe vertically to select.</string>
+    <string name="placement_tips_recommend">Recommended</string>
+    <string name="placement_tips_recommend_1">Backpack</string>
+    <string name="placement_tips_recommend_2">Fanny pack</string>
+    <string name="placement_tips_title">Where should you put your phone?</string>
+    <string name="placement_tips_warn">Not recommended</string>
+    <string name="placement_tips_warn_1">Treadmill</string>
     <string name="play">Play</string>
+    <string name="please_choose">Select</string>
     <string name="pm">PM</string>
     <string name="pool_swimming">Pool swim</string>
     <string name="predict_menstruation">Expected period</string>
@@ -1051,6 +1115,7 @@ Wait until the circle turns red."</string>
     <string name="preference_update_find_new_version">Check for updates</string>
     <string name="preference_update_find_newer_version">An update is available: %1$s</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_setting">Privacy</string>
     <string name="prompt_more_than_3h">More than 3 hours</string>
     <string name="prompt_sleep_time_night">Night sleep</string>
     <string name="prompt_sleep_time_noon">Daytime nap</string>
@@ -1082,7 +1147,7 @@ Wait until the circle turns red."</string>
     <string name="reference">Reference materials</string>
     <string name="relationship_with_contact">Relationship</string>
     <string name="rem_Duration_increase_description">Your REM sleep is too long</string>
-    <string name="rem_duration">REM sleep duration</string>
+    <string name="rem_duration">REM</string>
     <string name="rem_duration_decrease_description">Your REM sleep is too short</string>
     <string name="rem_duration_description">REM refers to the rapid eye movement. Sleep can be divided into rapid eye movement (REM) sleep and non-rapid eye movement (NREM) sleep. Rapid eye movement sleep accounts for about 20 to 25%% of the overall sleep duration. When people wake up at this stage, 74 to 95%% of them say that they have been dreaming and are able to remember their dreams. The brain is very active and the body is completely relaxed during REM sleep, which makes this sleep phase essential for maintaining cognitive functions.</string>
     <string name="rem_duration_normal_description">REM sleep duration is normal</string>
@@ -1146,11 +1211,14 @@ Wait until the circle turns red."</string>
     <string name="setting_avatar">Profile photo</string>
     <string name="setting_birthday">Set date of birth</string>
     <string name="setting_blood_type">Set blood type</string>
+    <string name="setting_cycling_goals">Set cycling goals</string>
     <string name="setting_data_cloud_sync_tip">Use this feature to back up items from this device and sync health data from other devices</string>
     <string name="setting_gender">Set gender</string>
+    <string name="setting_running_goals">Set running goals</string>
     <string name="setting_sedentary_off">OFF</string>
     <string name="setting_sedentary_on">ON</string>
     <string name="setting_sedentary_title">Remind to move</string>
+    <string name="setting_walking_goals">Set walking goals</string>
     <string name="severe_abnormal">Hypertensive crises</string>
     <string name="severe_abnormal_tip">Every day after getting up, after lunch, and before going to bed</string>
     <string name="share">Share</string>
@@ -1161,14 +1229,16 @@ Wait until the circle turns red."</string>
     <string name="sleep_chart_empty">No data</string>
     <string name="sleep_chart_loading">Just a sec…</string>
     <string name="sleep_day">Day</string>
+    <string name="sleep_day_multi_short_title">Nap %1$d</string>
+    <string name="sleep_day_single_short_title">Nap</string>
+    <string name="sleep_day_title">Day sleep</string>
     <string name="sleep_deep">Deep sleep</string>
     <string name="sleep_deep_light_analysis">Light sleep and deep sleep</string>
     <string name="sleep_deep_light_close_tip">Deep sleep analysis is off</string>
-    <string name="sleep_deep_light_no_data">No data here yet</string>
-    <string name="sleep_deep_light_no_data_improvement">"Couldn't detect sleep phases. We're improving our algorithms. Stay tuned!"</string>
+    <string name="sleep_deep_light_no_data">Placing your mobile device next to the pillow will make sleep data more accurate</string>
     <string name="sleep_detection_enable">Analyze sleep cycle</string>
     <string name="sleep_detection_feedback">Feedback</string>
-    <string name="sleep_detection_guide_four_description">Sleep tracking will consume around 1% of your battery daily.</string>
+    <string name="sleep_detection_guide_four_description">Sleep tracking consumes only about 1% of your battery per night</string>
     <string name="sleep_detection_guide_four_high_power_description">Make sure your device is sufficiently charged before you go to bed. Low battery may interrupt sleep tracking.</string>
     <string name="sleep_detection_guide_four_high_power_title">Keep your device charged</string>
     <string name="sleep_detection_guide_four_title">Low power consumption</string>
@@ -1198,8 +1268,8 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="sleep_detector_content">Xiaomi Health is tracking your sleep in the background</string>
     <string name="sleep_detector_title">Tracking sleep</string>
     <string name="sleep_detector_unopened">"You haven't started tracking your sleep yet."</string>
-    <string name="sleep_duration">Sleep Duration</string>
-    <string name="sleep_duration_description">Sleep duration is the time between you going to bed and getting up. The periods when you wake up and then go back to sleep again during the night are subtracted.</string>
+    <string name="sleep_duration">Sleep duration</string>
+    <string name="sleep_duration_description">"Sleep duration is the time when you aren't awake during the day. Generally, adults should sleep for 7-9 hours, while teenagers need to sleep longer than adults. Getting enough sleep is essential for good health and wellbeing."</string>
     <string name="sleep_duration_enough_description">"You've had enough sleep."</string>
     <string name="sleep_duration_everyday">Daily sleep duration</string>
     <string name="sleep_duration_fewer_description">"You've slept for less than 7 hours. Getting more sleep would be better for you."</string>
@@ -1213,7 +1283,6 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="sleep_goal_not_compliance">Not enough sleep</string>
     <string name="sleep_goal_not_upto_standard">"You didn't get enough sleep."</string>
     <string name="sleep_health_model_hint">Sleep assessment recommendations provided by Miao Health</string>
-    <string name="sleep_incomplete_deep_light_data_tip">Why is the light and deep sleep info incomplete?</string>
     <string name="sleep_keep_hard">Problems with staying asleep</string>
     <string name="sleep_light">Light sleep</string>
     <string name="sleep_management_content1">Set reminders for going to bed and getting up</string>
@@ -1223,6 +1292,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="sleep_need_auto_start">Allow Xiaomi Health to autostart to make sleep data more accurate</string>
     <string name="sleep_need_background_run">Select \"No restrictions\" to make sleep data more accurate</string>
     <string name="sleep_need_necessary_permissions">Grant required permissions to make sleep data more accurate</string>
+    <string name="sleep_night_title">Night sleep</string>
     <string name="sleep_no_data_info">"Go through a complete
 sleep cycle"</string>
     <string name="sleep_no_deep_light_data_tip">"Why isn't light and deep sleep recorded?"</string>
@@ -1254,6 +1324,8 @@ sleep data"</string>
     <string name="sleep_snore_detection_desc">Detect snoring and talking to learn more about your sleep</string>
     <string name="sleep_sober">Awake</string>
     <string name="sleep_sober_times_title">Woke up</string>
+    <string name="sleep_state_this_month">"This month's sleep"</string>
+    <string name="sleep_state_this_week">"This week's sleep"</string>
     <string name="sleep_status">Sleep status</string>
     <string name="sleep_time_edit">Edit</string>
     <string name="sleep_time_standard_pattern">Standard: %1$dh</string>
@@ -1275,6 +1347,7 @@ sleep data"</string>
     <string name="snore_detection_abnormal_state">Session was interrupted</string>
     <string name="snore_detection_abnormal_state_description">Microphone is off</string>
     <string name="snore_detection_close_prompt">Snoring and talking detection is off</string>
+    <string name="snore_detection_close_prompt_desc">"You haven't detected snoring and talking for a while. We've turned this feature off for you to save battery. Tap to check the settings."</string>
     <string name="snore_detection_close_title">Turn off detection of snoring and talking?</string>
     <string name="snore_detection_enable">Detect snoring and talking</string>
     <string name="snore_detection_guide_one_description">Sound will be recorded while you sleep. Machine learning allows Xiaomi Health to detect snoring, talking, and loud noises, and save the recordings on your device.</string>
@@ -1328,7 +1401,62 @@ sleep data"</string>
     <string name="solar_term_white_dews">Dews</string>
     <string name="solar_term_winter_begins">Winter begins</string>
     <string name="solar_term_winter_solstice">Winter solstice</string>
+    <string name="sport_btn_continue">Resume</string>
+    <string name="sport_btn_finish">End</string>
+    <string name="sport_btn_lock">Lock</string>
+    <string name="sport_btn_pause">Pause</string>
+    <string name="sport_btn_unlock">Unlock</string>
+    <string name="sport_counter_begin">Start now</string>
+    <string name="sport_home_begin">Start</string>
+    <string name="sport_home_set_goal">Set goal</string>
+    <string name="sport_invalid_dialog_distance_content">The distance you covered during this workout is too short to create a history record. End this workout anyway?</string>
+    <string name="sport_invalid_dialog_time_content">This workout lasted less than 5 seconds. End now without recording it?</string>
+    <string name="sport_invalid_dialog_title">Too fast!</string>
+    <string name="sport_menu_share">Share</string>
+    <string name="sport_no_internet_toast">"Can't access your precise location due to poor network signal."</string>
+    <string name="sport_pace_chart_last_km">Less than 1 km</string>
+    <string name="sport_pace_step_unit">SPM</string>
+    <string name="sport_pace_time_format" formatted="false">"%d'%d\""</string>
+    <string name="sport_pref_category_voice">Audio</string>
+    <string name="sport_pref_gps_voice_title">GPS signal voice prompts</string>
+    <string name="sport_pref_voice_assist_summary">Listen to info and suggestions during workouts</string>
+    <string name="sport_pref_voice_assist_title">Voice prompts</string>
+    <string name="sport_settings_title">Workouts</string>
+    <string name="sport_share_fail">"Couldn't share. Try again"</string>
+    <string name="sport_share_save_local">Saved successfully</string>
+    <string name="sport_share_save_local_fail">"Couldn't save. Try again."</string>
+    <string name="sport_share_save_local_success">Saved successfully</string>
+    <string name="sport_share_success">Shared successfully</string>
+    <string name="sport_share_title">Share</string>
+    <string name="sport_step_average_frequency">Average</string>
+    <string name="sport_step_max_frequency">Highest</string>
+    <string name="sport_step_min_frequency">Lowest</string>
+    <string name="sport_title_step_frequency">Cadence</string>
+    <string name="sport_tts_begin_riding">Start cycling</string>
+    <string name="sport_tts_begin_running">Start running</string>
+    <string name="sport_tts_begin_walking">Start walking</string>
+    <string name="sport_tts_finish_by_user">That was a nice workout!</string>
+    <string name="sport_tts_goal_finish">You have reached your goal! Congrats!</string>
+    <string name="sport_tts_goal_finish_half">You are halfway through! Keep going!</string>
+    <string name="sport_tts_last_km_spent">"You've covered the last kilometer in %s"</string>
+    <string name="sport_tts_pause_by_user">Workout paused</string>
     <string name="sport_type">Workout type</string>
+    <string name="sporting_content_speed">Current pace: %1$s %2$s per kilometer</string>
+    <string name="sporting_content_time">Workout duration: %1$s %2$s</string>
+    <string name="sporting_goal">Goal</string>
+    <string name="sporting_hint_exit_map">Close map</string>
+    <string name="sporting_hint_long_press">Press and hold to end</string>
+    <string name="sporting_hint_switch_to_map">Switch to map</string>
+    <string name="sporting_key_calories">Cal</string>
+    <string name="sporting_key_km">KM</string>
+    <string name="sporting_key_speed">Pace</string>
+    <string name="sporting_key_step">Steps</string>
+    <string name="sporting_key_time">Duration</string>
+    <string name="sporting_location">Locate</string>
+    <string name="sporting_title_outdoor_riding">Cycling</string>
+    <string name="sporting_title_pause">Paused</string>
+    <string name="sporting_title_running">Running</string>
+    <string name="sporting_title_waking">Walking</string>
     <string name="stand">Standing up</string>
     <string name="stand_assistant">Standing up</string>
     <string name="stand_detection">Track standing up</string>
@@ -1348,6 +1476,9 @@ sleep data"</string>
     <string name="stand_stop_reminding">"Don't show again"</string>
     <string name="standard_format">(standard: %1s)</string>
     <string name="standing_already">" You stood up"</string>
+    <string name="start_cycling">Start cycling</string>
+    <string name="start_running">Start running</string>
+    <string name="start_walking">Start walking</string>
     <string name="state_agree">Agree</string>
     <string name="state_auto_run_disenable">Off</string>
     <string name="state_auto_run_enable">On</string>
@@ -1461,11 +1592,11 @@ sleep data"</string>
     <string name="tb_home_exercise_card_speed_of_progress">Exercise. %1$s. Completed: %2$s. Goal: %3$s. Progress: %4$s.</string>
     <string name="tb_home_heart_rate_card">Heart rate. %1$d beats per minute. Recorded on %2$s.</string>
     <string name="tb_home_heart_rate_card_no_data">Heart rate. No data.</string>
-    <string name="tb_home_sleep_card">Sleep. %1$s today. Went to bed at %2$s. Woke up at %3$s. %4$s.</string>
+    <string name="tb_home_sleep_card">"Today's sleep: %1$s, %2$s"</string>
     <string name="tb_home_sleep_card_no_data">Sleep. No data today.</string>
     <string name="tb_home_sleep_card_not_open_trace">Sleep. Sleep cycle analysis is turned off.</string>
     <string name="tb_home_tip_open_data_sync">Sync Xiaomi Health items with Xiaomi Cloud to access them on other devices. Double tap to start.</string>
-    <string name="tb_home_weight_card">Weight. %1$.1f kilograms. Weigh-in time: %2$s. Status: %3$s.</string>
+    <string name="tb_home_weight_card">Weight. %1$.2f kilograms. Weigh-in time: %2$s. Status: %3$s.</string>
     <string name="tb_home_weight_card_no_data">Weight. No data.</string>
     <string name="tb_manage_home">Here you can remove or rearrange the cards displayed on the start page.</string>
     <string name="tb_mens_mark_success">Marked successfully</string>
@@ -1623,6 +1754,7 @@ sleep data"</string>
     <string name="total_distance_label">Total distance</string>
     <string name="total_slip">Number of strokes</string>
     <string name="total_time_label">Total time</string>
+    <string name="treadmill">跑步机</string>
     <string name="tuesday">Tuesday</string>
     <string name="tuesday_short">Tue</string>
     <string name="tuesday_shortest">Tue</string>
@@ -1659,7 +1791,7 @@ Update now?"</string>
     <string name="user_age_unit">Y.O.</string>
     <string name="user_agreement">User Agreement</string>
     <string name="user_birthday_display_format">MM/dd/yyyy</string>
-    <string name="user_center">User Center</string>
+    <string name="user_center">Profile</string>
     <string name="user_invalid_value">--</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
