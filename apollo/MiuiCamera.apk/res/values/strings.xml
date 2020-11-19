@@ -151,12 +151,13 @@
     <string name="accessibility_portrait_depth_effect_panel_on">Portrait panel</string>
     <string name="accessibility_preview_button">Preview</string>
     <string name="accessibility_preview_effect_button">Preview effect</string>
-    <string name="accessibility_preview_expand">放大</string>
-    <string name="accessibility_preview_front">前置预览</string>
-    <string name="accessibility_preview_select_tip">顺序%1$d</string>
-    <string name="accessibility_preview_selected">已被选中</string>
-    <string name="accessibility_preview_shrink">缩小</string>
-    <string name="accessibility_preview_zoom_tip">%1$.1f倍变焦预览</string>
+    <string name="accessibility_preview_expand">Zoom in</string>
+    <string name="accessibility_preview_front">Front camera preview</string>
+    <string name="accessibility_preview_remote">远程预览</string>
+    <string name="accessibility_preview_select_tip">Position %1$d</string>
+    <string name="accessibility_preview_selected">Selected</string>
+    <string name="accessibility_preview_shrink">Zoom out</string>
+    <string name="accessibility_preview_zoom_tip">%1$.1fX zoom preview</string>
     <string name="accessibility_pro_video_simple_mode">Lite mode</string>
     <string name="accessibility_protrait">Portrait</string>
     <string name="accessibility_pull_down_to_open_camera">Swipe down to open camera</string>
@@ -301,6 +302,7 @@ and adjust preferences automatically"</string>
     <string name="aiwatermark_location_absent_hint">"Couldn't get location info"</string>
     <string name="aiwatermark_location_list_title">Location</string>
     <string name="aiwatermark_location_tips">Allow Camera to access your location to get more relevant watermarks</string>
+    <string name="altitude_text">海拔</string>
     <string name="ambi_file_name_format">"'AMBI'_yyyyMMdd_HHmmss"</string>
     <string name="ambilight_description_title">About long exposure</string>
     <string name="ambilight_intro_crowd_moving_part1">When shooting on a crowded street, ask your subject to stand still. Other people will appear as blurry trails.</string>
@@ -581,7 +583,7 @@ and adjust preferences automatically"</string>
     <string name="config_name_super_resolution">Super resolution</string>
     <string name="config_name_tilt">Tilt-shift</string>
     <string name="config_name_timer">Timer</string>
-    <string name="confirm_fastmotion_reset_manually_parameter_message">是否重置专业参数？</string>
+    <string name="confirm_fastmotion_reset_manually_parameter_message">Reset parameters now?</string>
     <string name="confirm_install_scanner_message">"Scanner allows you to scan QR codes, barcodes, and more. You don't have to connect to the internet to install it."</string>
     <string name="confirm_install_scanner_title">Install Scanner</string>
     <string name="confirm_location_alert">Remember photo locations</string>
@@ -631,7 +633,7 @@ scanned documents automatically"</string>
     <string name="document_mode_use_hint_text_title">Scan documents</string>
     <string name="document_origin">Original</string>
     <string name="document_strengthen">Enhanced</string>
-    <string name="dolly_zoom_capture_tip1">qqjjzzttzzyyffkknn</string>
+    <string name="dolly_zoom_capture_tip1">qqjjzzttzzyyffkknn%d</string>
     <string name="dolly_zoom_capture_tip2">qqwwddxxhhyyddssjj</string>
     <string name="dolly_zoom_capture_tip3">zzttddss，qqssxxppss</string>
     <string name="dolly_zoom_capture_tip4">ssjjppyyggdd，qqssxxppss</string>
@@ -651,6 +653,7 @@ scanned documents automatically"</string>
     <string name="download_cancel_hint">Cancel downloading %1$s?</string>
     <string name="download_confirm">Download</string>
     <string name="download_hint">%1$s MB of mobile data will be used to download items. Download anyway?</string>
+    <string name="download_in_progress">下载中…</string>
     <string name="download_title">Data usage warning</string>
     <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
     <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
@@ -724,7 +727,7 @@ scanned documents automatically"</string>
     <string name="fastmotion_pro_save_time_min_or_sec">Duration: %1$s</string>
     <string name="film_landscape_timefreeze_hint">仅支持横屏拍摄</string>
     <string name="film_timefreeze">tip on</string>
-    <string name="film_timefreeze_hint">请不要移动手机 %ds</string>
+    <string name="film_timefreeze_hint">请不要移动手机</string>
     <string name="film_timefreeze_reset">tip reset</string>
     <string name="film_video_a">video_a</string>
     <string name="film_video_b">video_b</string>
@@ -770,9 +773,11 @@ and then create a shot where everyone looks best."</string>
     <string name="id_card_mode_use_hint_text_body">"Combine both sides of your ID in one image.
 Print the copy wirelessly on A4 paper."</string>
     <string name="id_card_mode_use_hint_text_title">Scan ID</string>
+    <string name="ijkplayer_dummy" />
     <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
     <string name="install_confirmed">Install</string>
     <string name="kaleidoscope_fragment_tab_name">Kaleidoscope</string>
+    <string name="latitude_text">纬度</string>
     <string name="lens_dirty_detected_content">"Looks like your camera's lens is dirty.
 Clean the lens for better effect."</string>
     <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
@@ -848,6 +853,7 @@ in Portrait mode"</string>
     <string name="location_permission_not_ask_again">Allow Camera to access your location in the Settings.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Allow</string>
     <string name="log_format">LOG</string>
+    <string name="longitude_text">经度</string>
     <string name="lpl_dialog_item_name_burst">Press and hold to burst shoot</string>
     <string name="lpl_dialog_item_name_record">Press and hold to record video</string>
     <string name="lpl_dialog_title">Select function for the shutter</string>
@@ -1157,7 +1163,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_auto_capture_when_stable_title">Capture selected objects when stationary</string>
     <string name="pref_camera_auto_chroma_flash_title">Chroma flash</string>
     <string name="pref_camera_auto_hibernation">Shoot with screen off</string>
-    <string name="pref_camera_auto_hibernation_description">Turn off screen after %d minutes of shooting to save power</string>
+    <string name="pref_camera_auto_hibernation_description">While shooting, turn off screen after %d minutes of inactivity to save power</string>
     <string name="pref_camera_autoexposure_default">1</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">Center weighted</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Frame average</string>
@@ -1563,6 +1569,8 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_document_mode">Documents</string>
     <string name="pref_dual_camera_video">Dual video</string>
     <string name="pref_e_c_t_j">原來的</string>
+    <string name="pref_e_p_k">blue</string>
+    <string name="pref_e_p_s_n">接入</string>
     <string name="pref_exposure_default">0</string>
     <string name="pref_face_beauty_title">Beautify</string>
     <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
@@ -1599,6 +1607,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_more_mode_style_title">Camera modes</string>
     <string name="pref_mtk_video_quality_default">10</string>
     <string name="pref_multi_camera_dual_video_front">Front camera</string>
+    <string name="pref_multi_camera_dual_video_remote">远程相机</string>
     <string name="pref_n_s_a">sound_s</string>
     <string name="pref_n_s_o_l">开启</string>
     <string name="pref_n_s_o_m">关闭</string>
@@ -1800,6 +1809,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="timbre_normal">Original</string>
     <string name="timbre_robot">Robot</string>
     <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
+    <string name="time_stamp_date_format">MM/dd/yyyy</string>
     <string name="timefreeze_guide_tip2">qqxxzzyyzztthhzzssggbbjj</string>
     <string name="timefreeze_guide_tip3">ssyyzz，zzttjjllbbccbbdd</string>
     <string name="timefreeze_guide_tip4">yyccddzzll</string>
