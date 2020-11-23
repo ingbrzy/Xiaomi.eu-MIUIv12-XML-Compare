@@ -141,6 +141,15 @@
         <item>20</item>
         <item>25</item>
     </integer-array>
+    <integer-array name="config_smartCoverBoundary">
+        <item>0</item>
+        <item>0</item>
+        <item>1080</item>
+        <item>1920</item>
+    </integer-array>
+    <integer-array name="config_smartCoverTypes">
+        <item>0</item>
+    </integer-array>
     <string-array name="config_sysBrightnessFileArray">
         <item>/sys/class/leds/lcd-backlight/brightness</item>
         <item>/sys/class/backlight/panel0-backlight/brightness</item>
