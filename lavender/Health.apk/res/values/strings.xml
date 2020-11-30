@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="MediaControlView_ad_remaining_time">Ad · %1$s remaining</string>
+    <string name="MediaControlView_ad_skip_wait_time">You can skip Ad in %1$ds</string>
+    <string name="MediaControlView_ad_text">Visit Advertiser</string>
+    <string name="MediaControlView_audio_track_none_text">None</string>
+    <string name="MediaControlView_audio_track_number_text">Track %1$d</string>
+    <string name="MediaControlView_audio_track_text">Audio track</string>
+    <string name="MediaControlView_custom_playback_speed_text">%1$.2fx</string>
+    <string name="MediaControlView_playback_speed_normal">Normal</string>
+    <string name="MediaControlView_playback_speed_text">Playback speed</string>
+    <string name="MediaControlView_subtitle_off_text">Off</string>
+    <string name="MediaControlView_subtitle_track_number_and_lang_text">Track %1$d - %2$s</string>
+    <string name="MediaControlView_subtitle_track_number_text">Track %1$d</string>
+    <string name="MediaControlView_time_placeholder">00:00:00</string>
+    <string name="MediaControlView_video_quality_auto_text">Auto</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -67,10 +81,11 @@ to add cards"</string>
     <string name="allergic_drugs_hint">Enter medication and reaction to it</string>
     <string name="allow_notice_periods">Active time period</string>
     <string name="altitude">Altitude</string>
+    <string name="altitude_pressure_hint">*Calculated by air pressure, there are some errors</string>
     <string name="altitude_range">Altitude</string>
     <string name="am">AM</string>
     <string name="androidx_camera_default_config_provider">androidx.camera.camera2.Camera2Config$DefaultProvider</string>
-    <string name="app_name">ILogger</string>
+    <string name="app_name">plugin.health.analyze</string>
     <string name="app_setting">Apps</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="audio_permission_dialog_desc">To analyze your sleep cycle and record talking and snoring, Xiaomi Health needs permission to record audio.</string>
@@ -82,7 +97,7 @@ to add cards"</string>
 
 To provide you with recommendations, we'll share your health data with a third party service provider. The items we'll share include personal information (age, gender), health stats (height, weight, workout routine), behavior data (start and end time, as well as the duration of your workouts).
 
-We'll process these items before we share them in order to prevent third party service providers from identifying you personally based on the data they receive.
+We'll anonymize these items before we share them in order to prevent third party service providers from identifying you personally based on the data they receive.
 
 If you don't want to get access to the recommended classes, you can still use the regular workouts."</string>
     <string name="auth_dialog_link">To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;font color=\"#0D84FF\">&lt;a href=%1$s>User Agreement&lt;/a>&lt;/font> and &lt;font color=\"#0D84FF\">&lt;a href=%2$s>Privacy Policy&lt;/a>&lt;/font>.</string>
@@ -116,6 +131,7 @@ If you don't want to get access to the recommended classes, you can still use th
     <string name="back_stroke">Backstroke</string>
     <string name="background_run_tips">Tap \"Settings\" below and allow Xiaomi Health to always run in the background.</string>
     <string name="backtrack">Back</string>
+    <string name="base_dpi">defalut 360dp</string>
     <string name="basic_info_label_age">Age</string>
     <string name="basic_info_label_birthday">Birthday</string>
     <string name="basic_info_label_gender">Gender</string>
@@ -286,6 +302,37 @@ If you don't want to get access to the recommended classes, you can still use th
     <string name="copy">Copy</string>
     <string name="copy_done">Copied successfully</string>
     <string name="copyright_statement">Copyright © Xiaomi Inc. All rights reserved.</string>
+    <string name="course_consume_title">消耗</string>
+    <string name="course_consume_unit">kcal</string>
+    <string name="course_deatil_time">%1$dmin</string>
+    <string name="course_description">%1$s·%2$s·%3$s</string>
+    <string name="course_detail_consume">%1$d千卡</string>
+    <string name="course_download_error">网络中断点击重试</string>
+    <string name="course_download_text">下载中 %1$d%%</string>
+    <string name="course_group_title">组数</string>
+    <string name="course_group_unit">组</string>
+    <string name="course_history_train">历史训练%1$d次</string>
+    <string name="course_level_title">难度</string>
+    <string name="course_list_search_no_data">没有找到你想要的课程</string>
+    <string name="course_play_error">播放时遇到了问题，请稍后重试～</string>
+    <string name="course_player_rest_next">点击跳到下一个动作</string>
+    <string name="course_player_see_detail">查看详解</string>
+    <string name="course_player_start">继续</string>
+    <string name="course_player_stop">结束</string>
+    <string name="course_player_stop_dialog_cancel">结束</string>
+    <string name="course_player_stop_dialog_confirm">继续坚持</string>
+    <string name="course_player_stop_tips">现在退出不会记录本次训练，确定要结束当前课程么？</string>
+    <string name="course_player_stop_tips_title">结束运动</string>
+    <string name="course_point">动作要点</string>
+    <string name="course_search_no_result">没有搜索到对应课程</string>
+    <string name="course_source_fit_desc">课程由Fit健身提供</string>
+    <string name="course_source_miao_health_desc">课程由妙健康提供</string>
+    <string name="course_start_and_download">下载并开始训练(%1$dMB)</string>
+    <string name="course_start_course">开始训练</string>
+    <string name="course_start_course_num">开始第%1$d次训练</string>
+    <string name="course_time_title">时间</string>
+    <string name="course_time_unit">min</string>
+    <string name="course_train_count">第%1$d次</string>
     <string name="cousume_unit_float_format">%1$.2f Cal</string>
     <string name="cross_hiking">Hiking</string>
     <string name="cumulative_decline">Elevation loss</string>
@@ -323,6 +370,7 @@ If you decide to delete your health data after you choose to keep it, you can do
     <string name="date_format_m_d_2">MM/dd</string>
     <string name="date_format_m_d_3">MM/dd</string>
     <string name="date_format_m_d_h_m">MM-dd HH:mm</string>
+    <string name="date_format_m_s">mm:ss</string>
     <string name="date_format_mm_dd">MMM dd</string>
     <string name="date_format_mm_dd_2">MM/dd</string>
     <string name="date_format_y">yyyy</string>
@@ -350,6 +398,7 @@ If you decide to delete your health data after you choose to keep it, you can do
     <string name="deep_sleep_duration_description">"When people sleep, periodic rapid eye movements occur. Sleep can be divided into rapid eye movement (REM) sleep and non-rapid eye movement (NREM) sleep. Deep sleep occurs during periods of NREM sleep, accounting for about 20 to 25%% of the overall sleep duration. Your brain rests during deep sleep, showing low levels of conscious activity, so waking up isn't easy."</string>
     <string name="deep_sleep_duration_increase_description">Your deep sleep is too long</string>
     <string name="deep_sleep_duration_normal_description">You have a sufficient amount of deep sleep</string>
+    <string name="default_notification_channel_name">Now playing</string>
     <string name="delete">Delete</string>
     <string name="delete_aid_file">Delete</string>
     <string name="delete_aid_file_desc">Your emergency medical ID will be deleted from this device permanently if you continue.</string>
@@ -481,6 +530,12 @@ Xiaomi Health will only notify you about important items."</string>
     <string name="engrgy_format">%1$d W</string>
     <string name="enough">Enough</string>
     <string name="enter_mi_health">Open Xiaomi Health</string>
+    <string name="environment_detection_again">Try again</string>
+    <string name="environment_detection_fail">"Looks like it's too noisy here"</string>
+    <string name="environment_detection_fail_hint">Move to a quiet place and try again.</string>
+    <string name="environment_detection_hint_one">Avoid noisy places to make stats more accurate.</string>
+    <string name="environment_detection_hint_two">Your workout will be paused and resumed automatically based on the sounds you produce.</string>
+    <string name="environment_detection_ing">Checking workout environment…</string>
     <string name="equivalent_exercise">≈%1$s km walk (%2$s kcal)</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
@@ -675,6 +730,8 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="health_score">Health score</string>
     <string name="health_score_tips">Health score is calculated based on your BMI (body mass index), as well as your sleep and activity steps. The closer you are to your goals, the higher your health score is.</string>
     <string name="health_setting">Health settings</string>
+    <string name="health_uninstall_dialog_content">"Xiaomi Health is a system app. You can use this app to count steps, track sleep, periods, and weight, as well as sync your stats to the cloud. You won't be able to use this app after you uninstall it."</string>
+    <string name="health_uninstall_dialog_title">Uninstall Xiaomi Health?</string>
     <string name="heart_rate">Heart rate</string>
     <string name="heavenly_stems_bing">丙</string>
     <string name="heavenly_stems_ding">丁</string>
@@ -725,18 +782,6 @@ Wait until the circle turns red."</string>
     <string name="hr_detect_state_reseting_desc">Just wake up or completely relaxed</string>
     <string name="hr_disable_in_split_screen">"Can't measure heart rate while using Split screen"</string>
     <string name="hr_disturb_detect">Detection interrupt</string>
-    <string name="hr_finger_permission_desc">To measure your heart rate, this feature needs to access fingerprint scanner to be able to detect changes in your blood flow. Allow?</string>
-    <string name="hr_fp_area">Fingerprint scanner</string>
-    <string name="hr_fp_detect_desc">Blood flows to your fingers with every heartbeat. Bright light in the fingerprint scanner area under the screen allows us to track the changes in your blood flow, analyze the patterns, and convert them into heart rate values.</string>
-    <string name="hr_fp_detect_principle_desc">"Blood isn't completely opaque; therefore, light can pass through it. With every heartbeat, blood flows to your fingers, blocking more light than between the heartbeats. Bright light in the fingerprint scanner area under the screen allows us to track the changes in your blood flow, analyze the patterns, and convert them into heart rate values."</string>
-    <string name="hr_fp_detect_principle_desc_2">"Note: Make sure your finger fully covers the fingerprint icon during the measurement. Don't apply force, as it might block blood flow in your fingertip and make the results inaccurate. This measurement is provided for your reference only. It can't replace medical tests."</string>
-    <string name="hr_fp_detect_principle_desc_3">Our tests show that this method measures your heart rate with an error of only ≤3 BPM.</string>
-    <string name="hr_fp_detect_start_desc">"Lightly press the fingerprint icon.
-Don't move your finger."</string>
-    <string name="hr_fp_detecting">Measuring…</string>
-    <string name="hr_fp_not_put_well">"Your finger moved.
-Start over."</string>
-    <string name="hr_fp_report_common_desc">Normal heart rate ranges from 60 to 100 beats per minute. A heart rate lower than 60 BPM is a sign of bradycardia, while a heart rate over 100 BPM is accepted as tachycardia in adults.</string>
     <string name="hr_heart_rate_unit">Heart rate (BPM)</string>
     <string name="hr_in_detect">Please do not release your fingers while testing</string>
     <string name="hr_input_heart_rate">Record heart rate</string>
@@ -748,7 +793,18 @@ Start over."</string>
     <string name="hr_pre_detect_finger">Checking…</string>
     <string name="hr_re_detect_title">Start over</string>
     <string name="hr_report_active_desc">Measuring your heart rate immediately after working out can help you adjust your exercising habits, as workouts of different intensity have different optimal heart rate zones. If your heart rate is too high, the activity might be detrimental to your health, leading to dizziness, chest tightness, and other risks. Low heart rate might be a sign of low effectiveness of a particular workout.</string>
+    <string name="hr_report_active_high_desc">Your current heart rate is a high intensity exercise heart rate. Cardiopulmonary function will be stimulated.</string>
+    <string name="hr_report_active_higher_desc">Your current heart rate is a high intensity exercise heart rate. Heart and lung function get strong stimulation, at the same time pay attention to the physical condition, if there is discomfort, should stop exercise as soon as possible.</string>
+    <string name="hr_report_active_lower_mid_desc">Your current heart rate is a lower intensity exercise heart rate. It can warm up. It is suggested that people with poor health should exercise at low to moderate intensity.</string>
+    <string name="hr_report_active_lowest_desc">Your current heart rate is a low intensity exercise heart rate. Can produce certain stimulation to the body, but the intensity of exercise is small.</string>
+    <string name="hr_report_active_mid_desc">Your current heart rate is a moderate exercise rate. It is recommended that most healthy adults take moderate to high intensity exercise for 150 minutes a week.</string>
     <string name="hr_report_common_desc">Normal heart rate is maintained by the human body during daily activities, and ranges from 60 to 100 beats per minute. A heart rate lower than 60 BPM is a sign of bradycardia, while a heart rate over 100 BPM is accepted as tachycardia in adults.</string>
+    <string name="hr_report_regular_fast_desc">Your current tachycardia. Severe sports, drinking, heavy physical labor, tension, anxiety or taking some drugs may cause physiological tachycardia, while cardiovascular disease, anemia, hyperthyroidism, hypoxia, heart failure and other diseases can cause pathological tachycardia. If you feel unwell, please consult your doctor.</string>
+    <string name="hr_report_regular_normal_desc">Your heart rate is in the normal range. Your heart is good at coping with stress, and your body can resist external stress. Heart rate change is closely related to heart disease. Please pay attention to heart rate change at any time, especially during exercise.</string>
+    <string name="hr_report_regular_slow_desc">Your current heart rate is too slow. The bradycardia rate was lower than normal heart rate (about 60%). If bradycardia does not cause dizziness, amaurosis, dizziness, syncope and other symptoms, can not interfere, regular follow-up can be. But if you have chest tightness, dizziness and other symptoms, please consult your doctor in time.</string>
+    <string name="hr_report_resting_fast_desc">Your resting heart rate is higher than the normal range, which may lead to fatigue or tachycardia. It is suggested that you should improve your lifestyle, such as low salt and less oil diet, weight loss, smoking and alcohol cessation, psychological and emotional adjustment, especially gradually increasing physical exercise, which can help to slow down the resting heart rate.</string>
+    <string name="hr_report_resting_normal_desc">Your resting heart rate is in the normal range. Resting heart rate refers to the number of heart beats per minute of normal people in a quiet state. The best time to measure resting heart rate is waking up in the morning, still lying in bed and not doing any physical activity. Before measuring the resting heart rate, take a deep breath to completely relax the body.</string>
+    <string name="hr_report_resting_slow_desc">Your resting heart rate is below the normal range and bradycardia may be present. If the heart rate is too slow for a long time, it is easy to cause ischemia and hypoxia of organs, especially cardio cerebral vessels. Resting heart rate is closely related to diet, exercise, stress, sleep and physical condition. It is recommended that you maintain a healthy and good lifestyle and pay attention to physical reactions in time. If you have symptoms such as dizziness, fatigue, fainting and chest tightness, please seek medical advice in time.</string>
     <string name="hr_see_report">View report</string>
     <string name="hr_start_detect">Start experiencing</string>
     <string name="hr_state">Status</string>
@@ -840,6 +896,7 @@ Start over."</string>
     <string name="low_intensity">Low</string>
     <string name="low_intensity_description">Regular respiratory rate that allows you to maintain conversation</string>
     <string name="low_pressure">Diastolic (lower)</string>
+    <string name="lowest_freq">Lowest frequency</string>
     <string name="lowest_jump">Lowest jump</string>
     <string name="manage_home">Manage start page</string>
     <string name="manual_add">Add manually</string>
@@ -857,6 +914,28 @@ Start over."</string>
     <string name="max_low_pressure">Max diastolic (lower)</string>
     <string name="maximum">Maximum</string>
     <string name="maximum_pace">Highest pace</string>
+    <string name="mcv2_back_button_desc">Back</string>
+    <string name="mcv2_cc_is_off">Subtitle is off. Click to show it.</string>
+    <string name="mcv2_cc_is_on">Subtitle is on. Click to hide it.</string>
+    <string name="mcv2_error_dialog_button">OK</string>
+    <string name="mcv2_ffwd_button_desc">Go forward by 30 seconds</string>
+    <string name="mcv2_full_screen_button_desc">Full screen</string>
+    <string name="mcv2_launch_button_desc">Launch Link</string>
+    <string name="mcv2_music_artist_unknown_text">Artist unknown</string>
+    <string name="mcv2_music_title_unknown_text">Song title unknown</string>
+    <string name="mcv2_next_button_desc">Next media</string>
+    <string name="mcv2_non_music_title_unknown_text">Video title unknown</string>
+    <string name="mcv2_overflow_left_button_desc">Back to previous button list</string>
+    <string name="mcv2_overflow_right_button_desc">See more buttons</string>
+    <string name="mcv2_pause_button_desc">Pause</string>
+    <string name="mcv2_play_button_desc">Play</string>
+    <string name="mcv2_playback_error_text">"Couldn't play the item you requested"</string>
+    <string name="mcv2_previous_button_desc">Previous media</string>
+    <string name="mcv2_replay_button_desc">Replay</string>
+    <string name="mcv2_rewind_button_desc">Rewind by 10 seconds</string>
+    <string name="mcv2_seek_bar_desc">Playback progress</string>
+    <string name="mcv2_settings_button_desc">Settings</string>
+    <string name="mcv2_video_quality_button_desc">Video Quality Selection</string>
     <string name="measure_date">Measurement time</string>
     <string name="measure_time">Measurement time</string>
     <string name="medical_file_desc1">Important medical information essential in case of emergency</string>
@@ -914,6 +993,9 @@ Start over."</string>
     <string name="mi_health">Xiaomi Health</string>
     <string name="mi_sport">Mi Fit</string>
     <string name="mi_sports">Mi Fit</string>
+    <string name="miao_course_info">%1$d/%2$d %3$s</string>
+    <string name="miao_course_progress_info">%1$d/%2$d</string>
+    <string name="miao_course_progress_info_2">"%1$d/%2$d''"</string>
     <string name="middle">Medium</string>
     <string name="middle_intensity_description">Faster respiratory rate that allows you to finish sentences</string>
     <string name="midnight">Night</string>
@@ -948,6 +1030,11 @@ Start over."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"That's all for now"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
+    <string name="miuix_search_action_mode_cancel">Cancel</string>
+    <string name="miuix_search_history_clear">Clear search history</string>
+    <string name="miuix_search_history_default_title">Search history</string>
+    <string name="miuix_search_recommendation_default_title">You might be interested in these</string>
+    <string name="miuix_search_recommendation_item_del_des">Delete</string>
     <string name="model_card_setting">Card settings</string>
     <string name="moderately_abnormal">Stage 2 hypertension</string>
     <string name="moderately_abnormal_tip">Every day after getting up and before going to bed</string>
@@ -1017,6 +1104,7 @@ Start over."</string>
     <string name="need_auto_start_permission">To get more accurate stats, allow Xiaomi Health to autostart.</string>
     <string name="need_unrestricted_permission">To get more accurate stats, allow Xiaomi Health to always run in the background.</string>
     <string name="network_connect_failure">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="network_name_china">WLAN</string>
     <string name="network_not_available">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="network_not_available2">"Couldn't connect to the network"</string>
     <string name="next_step">Next</string>
@@ -1075,6 +1163,7 @@ Start over."</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
     <string name="pause">Pause</string>
+    <string name="pause_button_content_description">Pause</string>
     <string name="per_count_minutes1">%d SPM</string>
     <string name="per_time_minutes">%d per minute</string>
     <string name="per_time_minutes1">" per minute"</string>
@@ -1086,6 +1175,7 @@ Start over."</string>
     <string name="permission_tip">Give Xiaomi Health the following permissions to allow it to track your sleep accurately</string>
     <string name="personal_course_recommend_subtitle">Get access to the classes recommended to you based on your personal info, health stats, and preferences</string>
     <string name="personal_course_recommend_title">Recommended classes</string>
+    <string name="personal_recommend">个性推荐</string>
     <string name="phone_detection">Detected automatically</string>
     <string name="photograph">Camera</string>
     <string name="picker_day">Selected day: %1$d. Swipe vertically to select.</string>
@@ -1098,6 +1188,7 @@ Start over."</string>
     <string name="placement_tips_warn">Not recommended</string>
     <string name="placement_tips_warn_1">Treadmill</string>
     <string name="play">Play</string>
+    <string name="play_button_content_description">Play</string>
     <string name="please_choose">Select</string>
     <string name="pm">PM</string>
     <string name="pool_swimming">Pool swim</string>
@@ -1136,6 +1227,9 @@ Start over."</string>
     <string name="rb_gender_female">Gender: Female</string>
     <string name="rb_gender_male">Gender: Male</string>
     <string name="reach_standard">Meets standard</string>
+    <string name="recent_train">最近训练</string>
+    <string name="recent_train_course_count">共%1$d个课程</string>
+    <string name="recent_trained">最近练过</string>
     <string name="recommand_body_weight_msg">Recommended target weight: %1$.1f kg. Reach BMI %2$.1f to reduce the risk of cardiovascular and liver diseases.</string>
     <string name="recommend_sleep_goal">21:00-11:00</string>
     <string name="record_blood_pressure">Record measurement</string>
@@ -1180,13 +1274,20 @@ Start over."</string>
     <string name="retry">Try again</string>
     <string name="revert_to_default">Restore defaults</string>
     <string name="rope_skipping">Jump rope</string>
+    <string name="rope_skipping_environment_warning">Please avoid noisy surroundings</string>
+    <string name="rope_skipping_ways">Identify skipping rope by voice</string>
     <string name="rowing_machine">Rower</string>
     <string name="run">Running</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
     <string name="save">Save</string>
+    <string name="search_cancel">取消</string>
+    <string name="search_course_name_hint">查找课程名称</string>
+    <string name="search_history">搜索记录</string>
+    <string name="search_key_null_description">搜索名称不能为空</string>
     <string name="search_menu_title">Search</string>
+    <string name="search_train_course_hint">查找训练课程</string>
     <string name="sedentary_detail_title">Sitting for too long is harmful</string>
     <string name="sedentary_enhance_remind">Vibrate as well</string>
     <string name="sedentary_enhance_remind_content">This feature works when DND is off</string>
@@ -1224,6 +1325,26 @@ Start over."</string>
     <string name="severe_abnormal_tip">Every day after getting up, after lunch, and before going to bed</string>
     <string name="share">Share</string>
     <string name="skip">Skip</string>
+    <string name="skip_to_next_item_button_content_description">Skip to next item</string>
+    <string name="skip_to_previous_item_button_content_description">Skip to previous item</string>
+    <string name="skipping_count">Jumps</string>
+    <string name="skipping_detection_no">"Couldn't detect your workout."</string>
+    <string name="skipping_detection_no_hint">Avoid noisy places and keep this device close by.</string>
+    <string name="skipping_kcal">Calories</string>
+    <string name="skipping_pause">Skipping paused</string>
+    <string name="skipping_pause_tips">Paused | Resume your workout to continue tracking automatically</string>
+    <string name="skipping_ready">You can start your workout now</string>
+    <string name="skipping_ready_hint_one">Keep this device no farther than 1 meter away from you.</string>
+    <string name="skipping_ready_hint_two">Your workout will be paused and resumed automatically based on the sounds you produce.</string>
+    <string name="skipping_ready_toast">"We've increased the volume so you hear the instructions better."</string>
+    <string name="skipping_reset_time">Rest</string>
+    <string name="skipping_start_counting">Start</string>
+    <string name="skipping_time">Duration</string>
+    <string name="skipping_upload_dialog_agree_and_upload">Agree and upload</string>
+    <string name="skipping_upload_dialog_msg">In order to provide a more accurate skipping counting experience, Xiaomi Health will upload the recording file of your skipping rope under %s conditions to optimize the rope skipping recognition effect. To protect your privacy, the upload and storage of recording files will be strictly encrypted.</string>
+    <string name="skipping_upload_dialog_reject_not_remind">Reject and not prompt again</string>
+    <string name="skipping_upload_dialog_title">Upload rope skipping recording to optimize recognition</string>
+    <string name="skipping_upload_tips">Upload this rope skipping recording to help improve the recognition effect</string>
     <string name="sleep">Sleep</string>
     <string name="sleep_and_get_up_time">Bedtime schedule</string>
     <string name="sleep_auto_start_perm_grant">Permissions granted</string>
@@ -1402,6 +1523,9 @@ sleep data"</string>
     <string name="solar_term_white_dews">Dews</string>
     <string name="solar_term_winter_begins">Winter begins</string>
     <string name="solar_term_winter_solstice">Winter solstice</string>
+    <string name="sport_audio_permission_dialog_content">This app needs permissions to record audio to be able to track workouts based on the sounds you produce.</string>
+    <string name="sport_audio_permission_dialog_desc">For tracking workouts based on the sounds you produce</string>
+    <string name="sport_audio_permission_dialog_title">Permissions required</string>
     <string name="sport_btn_continue">Resume</string>
     <string name="sport_btn_finish">End</string>
     <string name="sport_btn_lock">Lock</string>
@@ -1415,6 +1539,7 @@ sleep data"</string>
     <string name="sport_invalid_dialog_title">Too fast!</string>
     <string name="sport_menu_share">Share</string>
     <string name="sport_no_internet_toast">"Can't access your precise location due to poor network signal."</string>
+    <string name="sport_outdoor_running">Running</string>
     <string name="sport_pace_chart_last_km">Less than 1 km</string>
     <string name="sport_pace_step_unit">SPM</string>
     <string name="sport_pace_time_format" formatted="false">"%d'%d\""</string>
@@ -1512,6 +1637,8 @@ sleep data"</string>
     <string name="sustain_title">"You haven't moved for "</string>
     <string name="swim">Swimming</string>
     <string name="swim_type">Style</string>
+    <string name="swipe_right_to_end">Swipe right to end</string>
+    <string name="swipe_up_to_end">Swipe up to end</string>
     <string name="sync_health_data">Sync Health data</string>
     <string name="sync_immediately">Sync</string>
     <string name="sync_is_not_closed">Sync is on now</string>
@@ -1530,6 +1657,7 @@ sleep data"</string>
     <string name="tb_blood_pressure_item">%1$s. Systolic pressure: %2$d millimeters of mercury. Diastolic pressure: %3$d millimeters of mercury.</string>
     <string name="tb_blood_pressure_wm_card">Average systolic pressure: %1$d millimeters of mercury. Average diastolic pressure: %2$d millimeters of mercury. Highest systolic pressure: %3$d millimeters of mercury. Highest diastolic pressure: %4$d millimeters of mercury. Lowest systolic pressure: %5$d millimeters of mercury. Lowest diastolic pressure: %6$d millimeters of mercury.</string>
     <string name="tb_card_on_using_list">Added</string>
+    <string name="tb_clear_history">清空搜索记录</string>
     <string name="tb_click_finish_stand">"Looks like you haven't stood up within the last hour. If you have, add a record manually."</string>
     <string name="tb_current_select">%1$s currently selected</string>
     <string name="tb_date_label_info">%1$s currently selected. Tap to change date.</string>
@@ -1668,6 +1796,7 @@ sleep data"</string>
     <string name="tb_weight_pre_time">Previous weigh-in</string>
     <string name="tb_weight_result">Estimated result: %s</string>
     <string name="temporary_not_available">temporary not available</string>
+    <string name="test">defalut 360dp</string>
     <string name="text_edit_exercise_goal">Change goal</string>
     <string name="text_no_value">--</string>
     <string name="text_save_exercise_goal">Done</string>
@@ -1755,7 +1884,8 @@ sleep data"</string>
     <string name="total_distance_label">Total distance</string>
     <string name="total_slip">Number of strokes</string>
     <string name="total_time_label">Total time</string>
-    <string name="treadmill">跑步机</string>
+    <string name="treadmill">Treadmill</string>
+    <string name="try_again">Try again</string>
     <string name="tuesday">Tuesday</string>
     <string name="tuesday_short">Tue</string>
     <string name="tuesday_shortest">Tue</string>
@@ -1799,6 +1929,7 @@ Update now?"</string>
     <string name="value_error_correct">Edit record</string>
     <string name="visceral_fat">Visceral fat</string>
     <string name="visceral_fat_descripe_content">Visceral fat is essential for stabilizing and protecting internal organs. However, high visceral fat increases the risk of cardiovascular and metabolic diseases.</string>
+    <string name="voice_remind">"We've increased the volume so you hear the instructions better."</string>
     <string name="walk">Walking</string>
     <string name="wednesday">Wednesday</string>
     <string name="wednesday_short">Wed</string>
