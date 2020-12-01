@@ -782,17 +782,6 @@ Wait until the circle turns red."</string>
     <string name="hr_detect_state_reseting_desc">Just wake up or completely relaxed</string>
     <string name="hr_disable_in_split_screen">"Can't measure heart rate while using Split screen"</string>
     <string name="hr_disturb_detect">Detection interrupt</string>
-    <string name="hr_finger_permission_desc">To measure your heart rate, this feature needs to access fingerprint scanner to be able to detect changes in your blood flow. Allow?</string>
-    <string name="hr_fp_area">Fingerprint scanner</string>
-    <string name="hr_fp_detect_desc">Blood flows to your fingers with every heartbeat. Bright light in the fingerprint scanner area under the screen allows us to track the changes in your blood flow, analyze the patterns, and convert them into heart rate values.</string>
-    <string name="hr_fp_detect_principle_desc">"Blood isn't completely opaque; therefore, light can pass through it. With every heartbeat, blood flows to your fingers, blocking more light than between the heartbeats. Bright light in the fingerprint scanner area under the screen allows us to track the changes in your blood flow, analyze the patterns, and convert them into heart rate values."</string>
-    <string name="hr_fp_detect_principle_desc_2">"Note: Make sure your finger fully covers the fingerprint icon during the measurement. Don't apply force, as it might block blood flow in your fingertip and make the results inaccurate. This measurement is provided for your reference only. It can't replace medical tests."</string>
-    <string name="hr_fp_detect_principle_desc_3">Our tests show that this method measures your heart rate with an error of only ≤3 BPM.</string>
-    <string name="hr_fp_detect_start_desc">Cover the icon with your finger</string>
-    <string name="hr_fp_detecting">"Don't move your finger"</string>
-    <string name="hr_fp_not_put_well">"Your finger moved.
-Start over."</string>
-    <string name="hr_fp_report_common_desc">Normal heart rate ranges from 60 to 100 beats per minute. A heart rate lower than 60 BPM is a sign of bradycardia, while a heart rate over 100 BPM is accepted as tachycardia in adults.</string>
     <string name="hr_heart_rate_unit">Heart rate (BPM)</string>
     <string name="hr_in_detect">Please do not release your fingers while testing</string>
     <string name="hr_input_heart_rate">Record heart rate</string>
@@ -1115,6 +1104,7 @@ Start over."</string>
     <string name="need_auto_start_permission">To get more accurate stats, allow Xiaomi Health to autostart.</string>
     <string name="need_unrestricted_permission">To get more accurate stats, allow Xiaomi Health to always run in the background.</string>
     <string name="network_connect_failure">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="network_name_china">WLAN</string>
     <string name="network_not_available">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="network_not_available2">"Couldn't connect to the network"</string>
     <string name="next_step">Next</string>
@@ -1341,7 +1331,7 @@ Start over."</string>
     <string name="skipping_detection_no">"Couldn't detect your workout."</string>
     <string name="skipping_detection_no_hint">Avoid noisy places and keep this device close by.</string>
     <string name="skipping_kcal">Calories</string>
-    <string name="skipping_pause">Skipping timeout</string>
+    <string name="skipping_pause">Skipping paused</string>
     <string name="skipping_pause_tips">Paused | Resume your workout to continue tracking automatically</string>
     <string name="skipping_ready">You can start your workout now</string>
     <string name="skipping_ready_hint_one">Keep this device no farther than 1 meter away from you.</string>
@@ -1351,7 +1341,7 @@ Start over."</string>
     <string name="skipping_start_counting">Start</string>
     <string name="skipping_time">Duration</string>
     <string name="skipping_upload_dialog_agree_and_upload">Agree and upload</string>
-    <string name="skipping_upload_dialog_msg">In order to provide a more accurate skipping counting experience, Xiaomi Health will upload the recording file of your skipping rope under Wi-Fi conditions to optimize the rope skipping recognition effect. To protect your privacy, the upload and storage of recording files will be strictly encrypted.</string>
+    <string name="skipping_upload_dialog_msg">In order to provide a more accurate skipping counting experience, Xiaomi Health will upload the recording file of your skipping rope under %s conditions to optimize the rope skipping recognition effect. To protect your privacy, the upload and storage of recording files will be strictly encrypted.</string>
     <string name="skipping_upload_dialog_reject_not_remind">Reject and not prompt again</string>
     <string name="skipping_upload_dialog_title">Upload rope skipping recording to optimize recognition</string>
     <string name="skipping_upload_tips">Upload this rope skipping recording to help improve the recognition effect</string>
@@ -1894,7 +1884,7 @@ sleep data"</string>
     <string name="total_distance_label">Total distance</string>
     <string name="total_slip">Number of strokes</string>
     <string name="total_time_label">Total time</string>
-    <string name="treadmill">跑步机</string>
+    <string name="treadmill">Treadmill</string>
     <string name="try_again">Try again</string>
     <string name="tuesday">Tuesday</string>
     <string name="tuesday_short">Tue</string>
