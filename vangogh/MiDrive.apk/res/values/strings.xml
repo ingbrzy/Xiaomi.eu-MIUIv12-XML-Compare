@@ -142,6 +142,7 @@
     <string name="exception_move_file_exist">"The item you're moving is already in the destination folder"</string>
     <string name="exception_move_sub_path">"Can't move items within the same folder"</string>
     <string name="exception_net_not_available">"Couldn't connect to the network"</string>
+    <string name="exception_not_support_modify_for_overseas_user">"This feature isn't available outside of Mainland China"</string>
     <string name="exception_param_error">An error occurred. Wait a minute or two and try again.</string>
     <string name="exception_rename_conflict">"Couldn't rename. An item with this name already exists."</string>
     <string name="exception_rename_illegal_char">"Filenames can't contain special characters"</string>
@@ -189,6 +190,7 @@
     <string name="load_metered_network_dialog_ok">Load</string>
     <string name="load_metered_network_dialog_title">Using mobile data</string>
     <string name="loading">Just a sec…</string>
+    <string name="marketSdkVersion">3.2.6</string>
     <string name="member_menu_vipname_free">Free</string>
     <string name="member_menu_vipname_mega">Mega</string>
     <string name="member_menu_vipname_premium">Premium</string>
@@ -231,6 +233,7 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="navigation_tips">500+</string>
     <string name="navigation_transport">Transfers</string>
     <string name="not_set">Not set</string>
+    <string name="not_support_upload_file_for_overseas_users">"Uploading isn't available outside of Mainland China"</string>
     <string name="notification_channel_remind">Reminders</string>
     <string name="notification_channel_service">Services</string>
     <string name="operation_copy">Copy</string>
@@ -316,6 +319,8 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="start_download">Starting to download…</string>
     <string name="start_upload">Starting to upload…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stay_tuned">Stay tuned</string>
+    <string name="stay_tuned_sub_desc">This service is currently available only in Mainland China</string>
     <string name="storage_internal">Internal storage</string>
     <string name="storage_manage_list_title">Xiaomi Cloud</string>
     <string name="storage_manage_list_title_action">More</string>
@@ -375,9 +380,9 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="waiting_upload">Pending</string>
     <string name="warning_bar_title_cloud_space_already_full">Cloud storage is almost full. Photos might not be synced.</string>
     <string name="warning_bar_title_cloud_space_full">"Cloud storage is full. Can't sync photos, call history, or other items."</string>
-    <string name="xiaomi_market_sdk_update_dialog_cancel">以后再说</string>
-    <string name="xiaomi_market_sdk_update_dialog_ok">立即更新</string>
-    <string name="xiaomi_market_sdk_update_dialog_title">%s 新版本</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Not now</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">Update</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">An update is available</string>
     <string name="year_month_day_format">MMMM dd, yyyy</string>
     <string name="yesterday">Yesterday</string>
 </resources>
