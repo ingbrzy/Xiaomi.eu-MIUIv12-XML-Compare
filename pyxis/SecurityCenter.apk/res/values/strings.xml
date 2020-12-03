@@ -144,6 +144,7 @@
     <string name="adjust_traffic_carrier_summary_yesterday">Updated yesterday at %s</string>
     <string name="adjust_traffic_data">Set data usage</string>
     <string name="after_the_lock_screen">Lock apps together with the screen</string>
+    <string name="ai_allow_all">Notify when permission is used for all</string>
     <string name="alarm_headsup_bottom">小米手机抢红包就是快</string>
     <string name="alarm_lock_screen_summary">一大波红包雨在路上...</string>
     <string name="alarm_lockscreen_btn">开始抢红包</string>
@@ -247,6 +248,7 @@
     <string name="app_behavior_key_location">Location</string>
     <string name="app_behavior_key_protect">Protect personal info</string>
     <string name="app_behavior_kill_process">@string/menu_item_force_stop</string>
+    <string name="app_behavior_link_start">Triggered start</string>
     <string name="app_behavior_list_load_more">Loading…</string>
     <string name="app_behavior_location">%1s accessed your location</string>
     <string name="app_behavior_location_bg">%1s accessed your location in the background</string>
@@ -308,6 +310,8 @@
     <string name="app_behavior_settings_category_privacy">Protect personal info</string>
     <string name="app_behavior_settings_perm_tips">Show an alert in status bar when apps access your location, record audio, or take photos</string>
     <string name="app_behavior_settings_privacy_tips">Receive notifications when apps access your contacts, call history, or perform other sensitive actions</string>
+    <string name="app_behavior_share_file">Share file</string>
+    <string name="app_behavior_share_picture">Share image</string>
     <string name="app_behavior_sms_read">%1s read SMS</string>
     <string name="app_behavior_sms_read_single">This app read SMS</string>
     <string name="app_behavior_sms_send">%1s sent SMS</string>
@@ -1548,7 +1552,7 @@ medical card"</string>
     <string name="gb_advance_settings_edge_gear4">Large</string>
     <string name="gb_advance_settings_edge_suppression">Touch-resistant area</string>
     <string name="gb_advance_settings_edge_suppression_summary">Reduce touch sensitivity near the edges to avoid triggering touch controls. Hold your device by the highlighted areas to keep speakers uncovered.</string>
-    <string name="gb_advance_settings_finger_up">Sensitivity to repeated taps</string>
+    <string name="gb_advance_settings_finger_up">Sensitivity to continuous taps</string>
     <string name="gb_advance_settings_follow_up">Touch response</string>
     <string name="gb_advance_settings_reset">Restore default settings</string>
     <string name="gb_advance_settings_reset_dialog_content">Restore default settings now?</string>
@@ -2767,7 +2771,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_optimize_loading">Loading</string>
     <string name="power_optimize_open_hide_mode">Turn on Battery saver</string>
     <string name="power_optimize_power_save_extend_time">Add %s</string>
-    <string name="power_optimize_power_save_summary">Switch to Dark mode and apply multiple system optimizations that limit background activity and save battery</string>
+    <string name="power_optimize_power_save_summary">Turn on Battery saver to apply multiple system optimizations that limit background activity</string>
     <string name="power_optimize_prohibit_app_autostart">"Don't allow apps to autostart"</string>
     <string name="power_optimize_reduce_fps">Lower screen refresh rate to %d Hz</string>
     <string name="power_optimize_reduce_fps_summary">Lower refresh rate works for most scenarios</string>
@@ -3142,7 +3146,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="privacy_revoke_dialog_positive_text">Withdraw</string>
     <string name="privacy_revoke_dialog_title">Withdrawal of consent</string>
     <string name="privacy_risk_app">Risky apps</string>
-    <string name="privacy_risk_app_fuzzy">Apps with without blurred previews</string>
+    <string name="privacy_risk_app_fuzzy">Apps without blurred previews</string>
     <string name="privacy_risk_dangerous_bar_title">High-risk permissions</string>
     <string name="privacy_risk_dangerous_manager">Control device</string>
     <string name="privacy_risk_dangerous_manager_msg">Allow apps to partially control your device</string>
@@ -3157,7 +3161,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="privacy_risk_dangerous_usage_msg">Allow apps to track device activity</string>
     <string name="privacy_risk_detection_continue">Resume</string>
     <string name="privacy_risk_detection_stop">Stop</string>
-    <string name="privacy_risk_detection_stop_btn">Srop</string>
+    <string name="privacy_risk_detection_stop_btn">Stop</string>
     <string name="privacy_risk_detection_stop_msg">If you stop scanning now, some privacy risks might not be detected. Stop scanning anyway?</string>
     <string name="privacy_risk_detection_stop_title">Stop scanning</string>
     <string name="privacy_risk_detection_title">Detect privacy risks</string>
@@ -3186,10 +3190,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="privacy_risk_result_uninstall_btn">Uninstall</string>
     <string name="privacy_risk_sensitive">Sensitive permissions</string>
     <string name="privacy_risk_sensitive_bar_title">Sensitive permissions</string>
-    <string name="privacy_risk_sensitive_call_records">Allow apps to access or call history</string>
+    <string name="privacy_risk_sensitive_call_records">Allow apps to access or edit call history</string>
     <string name="privacy_risk_sensitive_contact">Allow apps to access or edit contacts</string>
     <string name="privacy_risk_sensitive_location">Allow apps to locate your device using available networks or satellites</string>
-    <string name="privacy_risk_sensitive_permissions">Sensiitive permissions</string>
+    <string name="privacy_risk_sensitive_permissions">Sensitive permissions</string>
     <string name="privacy_risk_sensitive_permissions_msg">"To protect your privacy, grant sensitive permissions only when it's necessary."</string>
     <string name="privacy_risk_sensitive_record">Allow apps to record audio or calls</string>
     <string name="privacy_risk_sensitive_second_msg">Apps can use these permissions to access your personal info</string>
@@ -3521,7 +3525,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="special_perm_follow_title">Track device usage</string>
     <string name="special_perm_install_msg">Allow apps to install apps from unknown sources</string>
     <string name="special_perm_install_title">Install apps from unknown sources</string>
-    <string name="special_perm_intercept_action_msg">Learn how you use your device and replace your actions with sutomated ones</string>
+    <string name="special_perm_intercept_action_msg">Learn how you use your device and replace your actions with automated ones</string>
     <string name="special_perm_intercept_action_title">Learn your behavior and automate actions</string>
     <string name="special_perm_intercept_allow">OK (%d)</string>
     <string name="special_perm_intercept_analyze_msg">Allow apps to learn which apps you use and how often</string>
@@ -3535,7 +3539,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="special_perm_intercept_chat_title">Read notifications from instant messengers</string>
     <string name="special_perm_intercept_check_tip">"I'm aware of the possible risks, and assume all possible consequences voluntarily."</string>
     <string name="special_perm_intercept_control_screen_msg">Read all screen content and allow displaying items over other apps</string>
-    <string name="special_perm_intercept_control_screen_title">Read all screen content anf control screen</string>
+    <string name="special_perm_intercept_control_screen_title">Read all screen content and control screen</string>
     <string name="special_perm_intercept_data_msg">Erase all data on this device without permission</string>
     <string name="special_perm_intercept_data_title">Erase all data</string>
     <string name="special_perm_intercept_file_msg">Access and edit files on this device via a connected computer</string>
@@ -3544,9 +3548,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="special_perm_intercept_install_title">Install apps</string>
     <string name="special_perm_intercept_note_msg">Including financial or account info</string>
     <string name="special_perm_intercept_note_title">Read all SMS</string>
-    <string name="special_perm_intercept_psd_msg">Change, monitor, and contol your screen lock</string>
+    <string name="special_perm_intercept_psd_msg">Change, monitor, and control your screen lock</string>
     <string name="special_perm_intercept_psd_title">Monitor and control screen lock</string>
-    <string name="special_perm_intercept_risk_app_msg">Some third party apps might attack your device, putting yourdata and privacy at risk</string>
+    <string name="special_perm_intercept_risk_app_msg">Some third party apps might attack your device, putting your data and privacy at risk</string>
     <string name="special_perm_intercept_risk_app_title">Install dangerous apps</string>
     <string name="special_perm_intercept_screen_msg">Monitor and record all content displayed on the screen</string>
     <string name="special_perm_intercept_screen_title">Monitor and record screen content</string>
@@ -3557,7 +3561,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="special_perm_intercept_system_msg">Install apps that might contain viruses or misbehave in any other way</string>
     <string name="special_perm_intercept_system_title">"Influence the system's security and stability"</string>
     <string name="special_perm_intercept_title">"\"%s\" is a highly sensitive permission. If you grant this permission, your private information might be leaked and your property might be at risk. Here's what apps will be allowed to do:"</string>
-    <string name="special_perm_intercept_usb_title">"\"%s\" is a highly sensitive service intended only for developers. If turn it on, your private information might be leaked and your property might be at risk. Here's what might happen:"</string>
+    <string name="special_perm_intercept_usb_title">"\"%s\" is a highly sensitive service intended only for developers. If you turn it on, your private information might be leaked and your property might be at risk. Here's what might happen:"</string>
     <string name="special_perm_manager_msg">Allow apps to control this device</string>
     <string name="special_perm_manager_title">Control device</string>
     <string name="special_perm_nfc_msg">Allow apps to perform contactless payments</string>
@@ -3570,8 +3574,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="special_perm_power_title">Optimize battery usage</string>
     <string name="special_perm_virtual_msg">Allow apps to manage your virtual ID</string>
     <string name="special_perm_virtual_title">Manage virtual ID</string>
-    <string name="special_perm_vr_msg">Allow apps to use VR assiatnt</string>
-    <string name="special_perm_vr_title">Use VR assiatnt</string>
+    <string name="special_perm_vr_msg">Allow apps to use VR assistant</string>
+    <string name="special_perm_vr_title">Use VR assistant</string>
     <string name="special_perm_window_msg">Allow apps to show items in PiP mode</string>
     <string name="special_perm_window_title">Show items in PiP mode</string>
     <string name="sponsored_sec_fb">Sponsored</string>
