@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_phrases">
+        <item>Invoice header: *** Inc.</item>
+        <item>Address: Street, Apt, City, Country/Region, Province, Postal code</item>
+        <item>Please leave the package by the door. Thanks!</item>
+        <item>"Wait a minute, I'll be right back."</item>
+        <item>"I'm in a meeting. Please send a text message."</item>
+        <item>"I can't talk now. I'll call you back as soon as possible."</item>
+        <item>Thanks!</item>
+    </string-array>
+    <string-array name="input_method_function_des">
+        <item>@string/input_method_function_voice_des</item>
+        <item>@string/input_method_function_switch_des</item>
+        <item>@string/input_method_function_clipboard_des</item>
+        <item>@string/input_method_function_switch_keyboard_type_des</item>
+        <item>@string/input_method_function_switch_keyboard_language_des</item>
+        <item>@string/input_method_function_xiaoai_des</item>
+    </string-array>
+    <array name="input_method_function_icons_black">
+        <item>@drawable/input_method_bottom_icon_voice_black</item>
+        <item>@drawable/input_method_bottom_icon_switch_black</item>
+        <item>@drawable/input_method_bottom_icon_clipboard_black</item>
+        <item>@drawable/input_method_bottom_icon_switch_keyboard_type_black</item>
+        <item>@drawable/input_method_bottom_icon_switch_keyboard_language_black</item>
+        <item>@drawable/input_method_bottom_icon_xiaoai_black</item>
+    </array>
+    <array name="input_method_function_icons_blue">
+        <item>@drawable/input_method_bottom_icon_voice_blue</item>
+        <item>@drawable/input_method_bottom_icon_switch_blue</item>
+        <item>@drawable/input_method_bottom_icon_clipboard_blue</item>
+        <item>@drawable/input_method_bottom_icon_switch_keyboard_type_blue</item>
+        <item>@drawable/input_method_bottom_icon_switch_keyboard_language_blue</item>
+        <item>@drawable/input_method_bottom_icon_xiaoai_blue</item>
+    </array>
+    <string-array name="input_method_function_title">
+        <item>@string/input_method_function_voice</item>
+        <item>@string/input_method_function_switch</item>
+        <item>@string/input_method_function_clipboard</item>
+        <item>@string/input_method_function_switch_keyboard_type</item>
+        <item>@string/input_method_function_switch_keyboard_language</item>
+        <item>@string/input_method_function_xiaoai</item>
+    </string-array>
+</resources>
