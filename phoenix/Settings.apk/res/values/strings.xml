@@ -2622,7 +2622,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="dual_wifi_switching_prompt">Switching between networks</string>
     <string name="dual_wifi_switching_summary">Dual band WLAN speed boost needs to use two different WLAN bands. If you connect to a different main network, auxiliary connection will be lost.</string>
     <string name="dump_log">Get issue-related logs</string>
-    <string name="dump_log_summary">"This feature is designed for generating the 284 log in the Beta version of MIUI. Use it with caution.
+    <string name="dump_log_summary">"This feature is designed for generating the %s log in the Beta version of MIUI. Use it with caution.
 You can view generated logs in File Manager."</string>
     <string name="dump_log_title">About this feature</string>
     <string name="easymode_hint">Tap to turn off Lite mode</string>
@@ -2875,6 +2875,7 @@ For more details, contact your organization's admin."</string>
     <string name="face_unlock_offset_right">Move to the left</string>
     <string name="face_unlock_offset_top">Raise your phone a bit</string>
     <string name="face_unlock_open_eye">Open your eyes a bit wider</string>
+    <string name="face_unlock_prompt">Face unlock prompt</string>
     <string name="face_unlock_quality">"Couldn't see your face clearly"</string>
     <string name="face_unlock_reveal_eye">Make your eyes visible</string>
     <string name="face_unlock_reveal_mouth">Make your lips visible</string>
@@ -5773,6 +5774,11 @@ Restart your device and try again."</string>
     <string name="reset_title">Reset</string>
     <string name="resetting_second_space_passwd">Resetting Second space password</string>
     <string name="resident_timezone_summary">Second clock</string>
+    <string name="resolution_fhd">FHD+</string>
+    <string name="resolution_fhd_summary">2400×1080 (saves battery)</string>
+    <string name="resolution_qhd">WQHD+</string>
+    <string name="resolution_qhd_summary">3200×1440 (adds clarity)</string>
+    <string name="resolution_sub_title">MIUI might close the apps running in the background while switching resolution</string>
     <string name="resolver_settings_label">Sort</string>
     <string name="restore_default_apn">Restoring default APN settings.</string>
     <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
@@ -5878,6 +5884,8 @@ This setting affects all users on this phone."</string>
     <string name="rx_wifi_speed">Receive link speed</string>
     <string name="safety_and_regulatory_info">Safety &amp; regulatory manual</string>
     <string name="save">Save</string>
+    <string name="save_battery_mode">Save battery with WQHD+</string>
+    <string name="save_battery_mode_summary">Switch resolution automatically to save power</string>
     <string name="saved_network">Saved by %1$s</string>
     <string name="saved_wifi">Manage saved networks</string>
     <string name="saved_wifi_delete">Delete</string>
@@ -5903,7 +5911,7 @@ This setting affects all users on this phone."</string>
     <string name="screen_effect">Color scheme</string>
     <string name="screen_enhance_engine_ai_note">"To make sure your viewing experience is natural, this feature won't work if the image consists of primary colors or contains advanced adjustments."</string>
     <string name="screen_enhance_engine_ai_open">Enhance images</string>
-    <string name="screen_enhance_engine_ai_pic_summary">Identify objects (e.g. plants, images, buildings) and dynamically adjust display effects. This feature slightly increases power consumption.</string>
+    <string name="screen_enhance_engine_ai_pic_summary">Identify objects (e.g. plants, animals, buildings) and dynamically adjust display effects. This feature slightly increases power consumption.</string>
     <string name="screen_enhance_engine_ai_title">AI image enhancement</string>
     <string name="screen_enhance_engine_memc_open">MEMC</string>
     <string name="screen_enhance_engine_memc_pic_summary">Add additional frames to videos to make content appear smooth and transitions lively.</string>
@@ -6029,7 +6037,7 @@ To use app pinning: \u0009
     <string name="screen_resolution_normal_format">Normal (%1$s)</string>
     <string name="screen_resolution_summary">"Lowering the display's resolution may save battery and speed up the system, but the images on screen will become less clear."</string>
     <string name="screen_resolution_switch">Apply</string>
-    <string name="screen_resolution_title">Resolution</string>
+    <string name="screen_resolution_title">Display resolution</string>
     <string name="screen_resolution_ultrahigh_format">Ultrahigh (%1$s)</string>
     <string name="screen_saturation">Saturation</string>
     <string name="screen_shot">Take a screenshot</string>
@@ -6765,7 +6773,6 @@ Double tap to open Recents."</string>
     <string name="smart_home_value_none">None</string>
     <string name="smart_home_value_unknown">Unknown</string>
     <string name="smart_notifications_title">Adaptive notifications</string>
-    <string name="smart_space_clock">At a Glance</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover mode</string>
     <string name="smartcover_sensitive_summary">Lock or unlock the phone automatically using smart cover</string>
     <string name="smartcover_sensitive_title">Smart cover</string>
@@ -7265,7 +7272,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="tap_to_wake">Tap to wake</string>
     <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
     <string name="taplus_title">Taplus</string>
-    <string name="temporary_style">For 10 seconds after tapping</string>
+    <string name="temporary_style">10 seconds after tapping the screen</string>
     <string name="terms_title">Terms and conditions</string>
     <string name="testing">Testing</string>
     <string name="testing_phone_info">Phone information</string>
@@ -7287,7 +7294,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="tether_over_limit_dialog_title">Data usage warning</string>
     <string name="tether_over_limit_warning_notify_message">Turn off portable hotspot.</string>
     <string name="tether_over_limit_warning_notify_title">Reached hotspot data limit</string>
-    <string name="tether_password_illegal_character">Password contains illegal characters. please re-enter</string>
+    <string name="tether_password_illegal_character">Password contains illegal characters. Enter again.</string>
     <string name="tether_settings_disabled">Portable hotspot is off</string>
     <string name="tether_settings_disabled_on_data_saver">Can’t tether or use portable hotspots while Data Saver is on</string>
     <string name="tether_settings_summary_all">Hotspot, USB, Bluetooth, Ethernet</string>
@@ -7553,7 +7560,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
     <string name="unlock_set_unlock_password_title">Password</string>
     <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
     <string name="unlock_set_unlock_pattern_title">Pattern</string>
-    <string name="unlock_set_unlock_pin_summary">Enter %1$d-%2$d digits to unlock device</string>
+    <string name="unlock_set_unlock_pin_summary">Enter %1$d-%2$d numbers to unlock device</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unlock_set_unlock_summary">Set a screen lock</string>
     <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings > Security.</string>
