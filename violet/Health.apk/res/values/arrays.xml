@@ -4,11 +4,19 @@
         <item>Health</item>
         <item>Workouts</item>
     </string-array>
+    <string-array name="MediaControlView_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
     <string-array name="SportTabTitle">
         <item>Running</item>
         <item>Walking</item>
         <item>Cycling</item>
-        <item>Treadmill</item>
+        <item>Jump rope</item>
         <item>Workout</item>
     </string-array>
     <string-array name="alphabet_table">
@@ -263,6 +271,15 @@
         <item>" m"</item>
         <item>" km"</item>
     </string-array>
+    <integer-array name="media2_widget_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
     <string-array name="months">
         <item>@string/month_january</item>
         <item>@string/month_february</item>
@@ -473,6 +490,15 @@
         <item>@string/saturday_shortest</item>
     </string-array>
     <string-array name="week_label">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="week_short">
         <item>Sun</item>
         <item>Mon</item>
         <item>Tue</item>

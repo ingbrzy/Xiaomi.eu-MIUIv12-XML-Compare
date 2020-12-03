@@ -324,6 +324,8 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="additional_system_update_menu" />
     <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
     <string name="adjust_3d_depth_title">"Adjust games' 3D depth"</string>
+    <string name="adjust_font_size_answer_cn">Try adjusting text size and font weight using the sliders below!</string>
+    <string name="adjust_font_size_answer_global">Try adjusting text size using the slider below!</string>
     <string name="adjust_temperature_title">Color temperature</string>
     <string name="admin_device_owner_message">"Your admin can monitor and manage apps and data associated with this device, including settings, permissions, corporate access, network activity, and the device's location information."</string>
     <string name="admin_disabled_other_options">Other options are disabled by your admin</string>
@@ -2801,6 +2803,10 @@ For more details, contact your organization's admin."</string>
     <string name="fluency_mode">System animations</string>
     <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
     <string name="fold_title">Rules for grouped notifications</string>
+    <string name="font_setting_weight_toast">"Current font doesn't support adjusting font weight"</string>
+    <string name="font_settings_jump">Accessibility > Display size</string>
+    <string name="font_settings_recommend_title">"Text size isn't big enough?"</string>
+    <string name="font_settings_summary_cn">Fonts and text size</string>
     <string name="font_size_exhuge">Extra Huge</string>
     <string name="font_size_huge">Huge</string>
     <string name="font_size_kddi">Medium</string>
@@ -3169,6 +3175,7 @@ You can change this later from Settings > Apps &amp; notifications."</string>
     <string name="homepage_all_settings">All Settings</string>
     <string name="homepage_condition_footer_content_description">Collapse</string>
     <string name="homepage_personal_settings">Suggestions</string>
+    <string name="how_adjust_font_size">How do I adjust text size?</string>
     <string name="how_backup_content">"You can save backups locally or to the cloud. Local backups can be stored on your mobile device, computer, or USB drive.
 
 Mobile device
@@ -4089,6 +4096,7 @@ There are other users present on this device.
     <string name="miheadset_in_ear_check">Detect ear presence</string>
     <string name="miheadset_in_ear_check_summary">Pause and resume playback automatically as you wear or remove earphones</string>
     <string name="miheadset_last_version">Firmware is up to date</string>
+    <string name="miheadset_local_ota">local ota</string>
     <string name="miheadset_moreSettingsInAi">Additional settings</string>
     <string name="miheadset_next">next</string>
     <string name="miheadset_ok_device">OK</string>
@@ -4941,6 +4949,7 @@ Read and agree to %s before using this service."</string>
     <string name="personal_data_section_title">Personal data</string>
     <string name="personal_device_admin_title">Personal</string>
     <string name="personal_section_title">Personalization</string>
+    <string name="personalize_title">Wallpaper &amp; personalization</string>
     <string name="phone_backup_summary">Back up and restore items on this device</string>
     <string name="phone_backup_title">Mobile device</string>
     <string name="phone_call_noise_suppression">Suppress noise during calls</string>
@@ -6974,6 +6983,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="title_font2">Font</string>
     <string name="title_font_current">System font</string>
     <string name="title_font_current2">System font</string>
+    <string name="title_font_settings">Font settings</string>
     <string name="title_font_size">Font size</string>
     <string name="title_hdmi_color_calibration">Color correction preset</string>
     <string name="title_layout_current">Text size</string>
@@ -6982,6 +6992,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="title_miui_music_mute_by_user">Silent mode</string>
     <string name="title_of_auto_launch_manage">Autostart</string>
     <string name="to_close">Turn off</string>
+    <string name="toast_apply_font_fail">"Can't set font"</string>
     <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
     <string name="toast_need_login">Sign in to your Mi Account</string>
     <string name="toast_sta_ap_works_wifi_display_disable">"Can't cast when WLAN connection is established and hotspot is on."</string>
@@ -8390,6 +8401,7 @@ Looks like credential storage isn't enabled."</string>
     <string name="xiaomi_cloud_service_disabled">Off</string>
     <string name="xiaomi_cloud_service_unknown">Unknown</string>
     <string name="xiaomi_custom_input_method">Customized for Xiaomi</string>
+    <string name="xiaomi_lanting_title">小米兰亭Pro</string>
     <string name="xiaomi_money_service">Mi Coins</string>
     <string name="xiaomi_router_available_notif_summary">Tap to view more info.</string>
     <string name="xiaomi_router_available_notif_title">Mi Router available</string>
