@@ -196,6 +196,7 @@
     <string name="currency_update_updating">Updating rates…</string>
     <string name="current_rate_remind_commercial" />
     <string name="current_rate_remind_fund" />
+    <string name="date_format">MMM dd, yyyy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -214,6 +215,9 @@
     <string name="deselect_all">Deselect</string>
     <string name="devided_by_zero_reminder_message">"Can't divide by zero"</string>
     <string name="dialog_privacy_content"><Data>Besides the basic features of a calculator, our app also contains a scientific calculator and a multi-purpose converter. Some features need to connect to the internet to work normally. You must read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> before using Calculator.</Data></string>
+    <string name="dialog_privacy_disagree_msg">By toggling off the switch, you withdraw your consent to the Privacy Policy of Calculator. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period as required by applicable laws. Calculator needs to collect necessary personal information to provide you with basic services. Your withdrawal of consent to its Privacy Policy will be held as refusing to accept its services based on collected personal information.</string>
+    <string name="dialog_privacy_revoke_btn_ok">Withdraw</string>
+    <string name="dialog_privacy_revoke_title">Withdrawal of consent</string>
     <string name="dialog_privacy_title">Terms and Conditions</string>
     <string name="dialog_rating_desc_ask">How do you feel about Calculator?</string>
     <string name="dialog_rating_desc_less">Could you give us your feedback as well?</string>
@@ -357,6 +361,7 @@
     <string name="google_app_id">1:724101103579:android:9f07408a363c2e9d0d31fe</string>
     <string name="google_crash_reporting_api_key">AIzaSyDy8GsOko9KA_ySg13UiTu-xzQhicViNyo</string>
     <string name="google_storage_bucket">mi-calculator-edb61.appspot.com</string>
+    <string name="gst_percentage">%s</string>
     <string name="heavenly_stems_bing">丙</string>
     <string name="heavenly_stems_ding">丁</string>
     <string name="heavenly_stems_geng">庚</string>
@@ -413,6 +418,17 @@
     <string name="item_title_vel_conversion">Speed</string>
     <string name="item_title_volume_conversion">Volume</string>
     <string name="item_title_weight_conversion">Mass</string>
+    <string name="l_digit0">%d</string>
+    <string name="l_digit1">%d</string>
+    <string name="l_digit2">%d</string>
+    <string name="l_digit3">%d</string>
+    <string name="l_digit4">%d</string>
+    <string name="l_digit5">%d</string>
+    <string name="l_digit6">%d</string>
+    <string name="l_digit7">%d</string>
+    <string name="l_digit8">%d</string>
+    <string name="l_digit9">%d</string>
+    <string name="l_name_discount">Discount (%s off)</string>
     <string name="label_about">About</string>
     <string name="label_clear_history">Clear all</string>
     <string name="label_date_difference">Difference</string>
@@ -480,6 +496,7 @@
     <string name="loan_type_summary_lpr">LPR</string>
     <string name="loan_type_title">Interest rate standard</string>
     <string name="loan_unit">(×10K)</string>
+    <string name="localised_number">%d</string>
     <string name="lpr_format">%1$s%% %2$s %3$s‱ = %4$s%%</string>
     <string name="lpr_ok">Got it</string>
     <string name="lpr_tips_msg">"Starting from October 8, 2019, personal commercial housing loan interest rate will be calculated according to the loan prime rate (LPR) instead of the previously implemented benchmark interest rate of 4.9%. Now, the final rate will be confirmed by adding an LPR basis point.
@@ -590,6 +607,7 @@ One-year and five-year LPRs will be quoted on the 20th of each month (delays mig
     <string name="network_confirm_content">Currency converter, tax and mortgage calculators need to connect to the internet and access location services to work normally.</string>
     <string name="network_confirm_title">Permissions required</string>
     <string name="network_purpose">Welcome to Calculator! Calculator allows you to convert currencies, calculate mortgage repayments, and more.</string>
+    <string name="new_privacy_string"><Data>"Welcome to Calculator!&lt;br/>This app contains the following features:&lt;br/>• Basic calculator&lt;br/>• Scientific calculator&lt;br/>• Universal converter (e.g. currency, units of measurement, etc.)&lt;br/>• Calculation templates for loans, investment, EMI, and more&lt;br/>Calculator needs to collect necessary personal information to provide you with basic services. You can learn how we handle the information we collect in our &lt;a href= \"%1$s\">Privacy Policy&lt;/a>. Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%3$s\">Privacy Policy&lt;/a> before using Calculator. You can withdraw your consent to the Privacy Policy of Calculator in the Settings at any time. If you don't agree to our Privacy Policy, you won't be able to use some features of this app; however, its basic functionality will still be available to you."</Data></string>
     <string name="night">PM</string>
     <string name="none">None</string>
     <string name="noon">PM</string>
@@ -633,10 +651,11 @@ One-year and five-year LPRs will be quoted on the 20th of each month (delays mig
     <string name="preference_use_voice_summary">Turn on to use speech output during calculations</string>
     <string name="preference_use_voice_title">Speech output</string>
     <string name="preference_user_feedback_title">Feedback</string>
-    <string name="privacy_disagree">After you disagree to our privacy policy terms and condition, Mi Calculator will stop collecting data and all the related data will be deleted from the servers. You may not be able to use certain features in the application. Disagree anyway?</string>
+    <string name="privacy_dialog_title">Privacy</string>
     <string name="privacy_policy">Privacy Policy</string>
-    <string name="privacy_switch">Agree to privacy policy</string>
-    <string name="privacy_switch_disagree">Disagree</string>
+    <string name="privacy_revoke_error">"Couldn't withdraw. Try again."</string>
+    <string name="privacy_revoke_progress">Withdrawing…</string>
+    <string name="privacy_switch">Withdrawal of consent</string>
     <string name="project_id">mi-calculator-edb61</string>
     <string name="radDesc">Radian</string>
     <string name="radian">rad</string>
@@ -1206,6 +1225,7 @@ One-year and five-year LPRs will be quoted on the 20th of each month (delays mig
     <string name="unit_yuan">CNY</string>
     <string name="updating">Updating calculator…</string>
     <string name="user_agreement">User Agreement</string>
+    <string name="user_experience_program_title">User Experience Program</string>
     <string name="view_float_window_move">Move minimized Calculator</string>
     <string name="voiceDesc">Voice controls</string>
     <string name="voice_guide_text">You can turn on speech output here</string>
@@ -1216,6 +1236,7 @@ One-year and five-year LPRs will be quoted on the 20th of each month (delays mig
     <string name="weight_prompt">Weight</string>
     <string name="wf_word_figure">Financial characters</string>
     <string name="wife">妻子</string>
+    <string name="withdraw_network_error">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
     <string name="word_figure_big_unit_fen">分</string>
     <string name="word_figure_big_unit_jiao">角</string>
     <string name="word_figure_big_unit_wan">"万 "</string>
