@@ -425,6 +425,8 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="advanced_security_title">Advanced</string>
     <string name="advanced_settings">Additional settings</string>
     <string name="advanced_settings_summary">Enable more settings options</string>
+    <string name="aggregate_rule_group_disabled">"Don't group"</string>
+    <string name="aggregate_rule_group_enabled">Group</string>
     <string name="aggregate_title">Rules for grouping notifications</string>
     <string name="agps_roaming">A-GPS when roaming</string>
     <string name="agps_roaming_dia">"Using A-GPS while roaming may increase your mobile data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
@@ -514,8 +516,9 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="aod_and_lock_screen_settings_title">Always-on display &amp; Lock screen</string>
     <string name="aod_close_color_inversion">"This feature doesn't work with color inversion. Turn off color inversion first."</string>
     <string name="aod_name_wanxiang">Always-on display</string>
-    <string name="aod_notification_style_animation">Show animation</string>
-    <string name="aod_notification_style_none">Do nothing</string>
+    <string name="aod_notification_style">Notification effect</string>
+    <string name="aod_notification_style_animation">Animation</string>
+    <string name="aod_notification_style_none">None</string>
     <string name="aod_notification_style_screen_on">Light up screen</string>
     <string name="aod_settings_category_name">Always-on display</string>
     <string name="aod_settings_title">Always-on display</string>
@@ -2807,6 +2810,7 @@ For more details, contact your organization's admin."</string>
     <string name="error_mnc_not23">MNC field must be 2 or 3 digits.</string>
     <string name="error_name_empty">The Name field can’t be empty.</string>
     <string name="error_title" />
+    <string name="error_xcap_not_add">The APN Type cannot be XCAP type.</string>
     <string name="estimated_charging_time_left">Until fully charged</string>
     <string name="estimated_time_description">Estimate may change based on usage</string>
     <string name="estimated_time_left">Estimated time left</string>
@@ -3018,6 +3022,9 @@ For more details, contact your organization's admin."</string>
     <string name="floating_window_switch_label_disable">Turn off floating windows</string>
     <string name="fluency_mode">System animations</string>
     <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
+    <string name="fold_rule_default">Recommended</string>
+    <string name="fold_rule_important">Important</string>
+    <string name="fold_rule_unimportant">Unimportant</string>
     <string name="fold_title">Rules for grouped notifications</string>
     <string name="font_size_exhuge">Extra Huge</string>
     <string name="font_size_huge">Huge</string>
