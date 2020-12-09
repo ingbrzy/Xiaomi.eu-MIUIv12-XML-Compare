@@ -396,8 +396,8 @@ anytime"</string>
     <string name="delete_file_start">Delete selected files</string>
     <string name="delete_single_fm_history">Delete this playback history record?</string>
     <string name="delete_the_downloaded_file">Downloaded files will be deleted.</string>
-    <string name="description_content">收音机是MIUI系统应用，卸载后将无法使用本地调频广播、电台、听书等功能</string>
-    <string name="description_title">卸载\"收音机\"</string>
+    <string name="description_content">"FM Radio is a system app. You won't be able to listen to the local and online radio stations after you uninstall it."</string>
+    <string name="description_title">Uninstall \"FM Radio\"?</string>
     <string name="deselect_all">Deselect all</string>
     <string name="desktop_lyric_lock_toast">Locked. You can unlock Music in Notification shade.</string>
     <string name="desktop_lyric_setting_title">Home screen lyrics</string>
@@ -419,6 +419,10 @@ Send this code to the supervisor."</string>
     <string name="dialog_media_not_found">"Can't download. SD card isn't available."</string>
     <string name="dialog_not_show_again">"Don't show again"</string>
     <string name="dialog_queued_body">This file is queued for future download.</string>
+    <string name="dialog_recall_soundrecord_cancel">取消</string>
+    <string name="dialog_recall_soundrecord_message">录音列表由录音机提供服务，需下载安装录音机后查看</string>
+    <string name="dialog_recall_soundrecord_ok">去下载</string>
+    <string name="dialog_recall_soundrecord_title">未安装录音机</string>
     <string name="dialog_show_more_backup">Back up local songs</string>
     <string name="dialog_show_more_optimize_all">Optimize song info</string>
     <string name="dialog_sleep_title">Set sleep timer</string>
@@ -1197,6 +1201,7 @@ Send this code to the supervisor."</string>
     <string name="payment_virtual_coin">支付余额%s听币</string>
     <string name="payment_wechat">微信支付</string>
     <string name="pending_apk">Pending…</string>
+    <string name="permission_runtime_perm_desc_location">For accessing local radio stations</string>
     <string name="personal_radio_favorite">Favorited,recommend similar songs</string>
     <string name="phone_bind_too_many">This phone has been associated with several Mi Accounts in a short period of time. Try using another phone number.</string>
     <string name="phone_hint">Phone number</string>
