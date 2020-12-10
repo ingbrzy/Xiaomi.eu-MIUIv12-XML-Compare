@@ -342,6 +342,8 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="advanced_security_title">Advanced</string>
     <string name="advanced_settings">Additional settings</string>
     <string name="advanced_settings_summary">Enable more settings options</string>
+    <string name="aggregate_rule_group_disabled">"Don't group"</string>
+    <string name="aggregate_rule_group_enabled">Group</string>
     <string name="aggregate_title">Rules for grouping notifications</string>
     <string name="agps_roaming">A-GPS when roaming</string>
     <string name="agps_roaming_dia">"Using A-GPS while roaming may increase your mobile data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
@@ -430,6 +432,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="aod_and_lock_screen_settings_title">Always-on display &amp; Lock screen</string>
     <string name="aod_close_color_inversion">"This feature doesn't work with color inversion. Turn off color inversion first."</string>
     <string name="aod_name_wanxiang">Always-on display</string>
+    <string name="aod_notification_style">Notification effect</string>
     <string name="aod_notification_style_animation">Show animation</string>
     <string name="aod_notification_style_none">Do nothing</string>
     <string name="aod_notification_style_screen_on">Light up screen</string>
@@ -2594,6 +2597,7 @@ For more details, contact your organization's admin."</string>
     <string name="error_mnc_not23">MNC field must be 2 or 3 digits.</string>
     <string name="error_name_empty">The Name field can’t be empty.</string>
     <string name="error_title" />
+    <string name="error_xcap_not_add">The APN Type cannot be XCAP type.</string>
     <string name="estimated_charging_time_left">Until fully charged</string>
     <string name="estimated_time_description">Estimate may change based on usage</string>
     <string name="estimated_time_left">Estimated time left</string>
@@ -2802,6 +2806,9 @@ For more details, contact your organization's admin."</string>
     <string name="floating_window_switch_label_disable">Turn off floating windows</string>
     <string name="fluency_mode">System animations</string>
     <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
+    <string name="fold_rule_default">Recommended</string>
+    <string name="fold_rule_important">Important</string>
+    <string name="fold_rule_unimportant">Unimportant</string>
     <string name="fold_title">Rules for grouped notifications</string>
     <string name="font_setting_weight_toast">"Current font doesn't support adjusting font weight"</string>
     <string name="font_settings_jump">Accessibility > Display size</string>
@@ -4085,6 +4092,13 @@ There are other users present on this device.
     <string name="miheadset_LeftEar">Left</string>
     <string name="miheadset_RightEar">Right</string>
     <string name="miheadset_active">powerful</string>
+    <string name="miheadset_audio_mode">audio mode</string>
+    <string name="miheadset_audio_mode_high">high quality</string>
+    <string name="miheadset_audio_mode_listen">listen</string>
+    <string name="miheadset_audio_mode_normal">normal mode</string>
+    <string name="miheadset_audio_mode_summary">change audio mode</string>
+    <string name="miheadset_auto_ack_mode">auto ack mode</string>
+    <string name="miheadset_auto_ack_mode_summary">auto ack the telephone</string>
     <string name="miheadset_bright">bright</string>
     <string name="miheadset_call_assist">call ai</string>
     <string name="miheadset_cancel_device">Cancel</string>
@@ -4095,6 +4109,8 @@ There are other users present on this device.
     <string name="miheadset_define_self">define self</string>
     <string name="miheadset_disconnect">Disconnect</string>
     <string name="miheadset_disconnect_device">Disconnect this device?</string>
+    <string name="miheadset_double_click_key_mode">double click key mode</string>
+    <string name="miheadset_double_click_key_mode_summary">change double click key map</string>
     <string name="miheadset_double_click_left">Double tap the left earphone</string>
     <string name="miheadset_double_click_right">Double tap the left earphone</string>
     <string name="miheadset_enhence_high">enhence high</string>
@@ -4108,15 +4124,21 @@ There are other users present on this device.
     <string name="miheadset_in_ear_check_summary">Pause and resume playback automatically as you wear or remove earphones</string>
     <string name="miheadset_last_version">Firmware is up to date</string>
     <string name="miheadset_local_ota">local ota</string>
+    <string name="miheadset_minus">minus</string>
     <string name="miheadset_moreSettingsInAi">Additional settings</string>
+    <string name="miheadset_multi_connect_mode">multi connect mode</string>
+    <string name="miheadset_multi_connect_mode_summary">connect more than one device at the same time</string>
     <string name="miheadset_next">next</string>
     <string name="miheadset_ok_device">OK</string>
     <string name="miheadset_openAnc">Noise cancellation</string>
     <string name="miheadset_play_pause">play/pause</string>
+    <string name="miheadset_plus">plus</string>
     <string name="miheadset_rename">Rename</string>
     <string name="miheadset_rename_device">Rename</string>
     <string name="miheadset_soft">soft</string>
     <string name="miheadset_transparent">Transparency</string>
+    <string name="miheadset_triple_click_key_mode">triple click key mode</string>
+    <string name="miheadset_triple_click_key_mode_summary">triple click key map</string>
     <string name="mipush_fake_channel_group_name">Mi Push</string>
     <string name="misc_files">Misc files</string>
     <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
@@ -7479,8 +7501,9 @@ Tap the plus to add words."</string>
     <string name="user_exit_guest_confirm_title">Remove guest?</string>
     <string name="user_exit_guest_dialog_remove">Remove</string>
     <string name="user_exit_guest_title">Remove guest</string>
+    <string name="user_experience_open_url">Learn more about User Experience Program</string>
     <string name="user_experience_program">User Experience Program</string>
-    <string name="user_experience_program_summary">Help us improve our products and services by sharing your usage stats with us</string>
+    <string name="user_experience_program_summary">Allow Xiaomi to collect and analyze user data in order to improve our products and services. Read the terms and conditions of our User Experience Program to learn more.</string>
     <string name="user_experience_program_title">User Experience Program</string>
     <string name="user_guest">Guest</string>
     <string name="user_image_choose_photo">Choose an image</string>
@@ -7698,6 +7721,10 @@ Tap the plus to add words."</string>
     <string name="wake_suppression_title">Small area</string>
     <string name="wakeup_and_sleep_settings_category_name">Lock screen settings</string>
     <string name="wakeup_for_keyguard_notification_title">Wake Lock screen for notifications</string>
+    <string name="wallet_reset">You can remove your Mi Pay bank cards, transport cards, and key cards only in Mi Wallet. Open Mi Wallet now?</string>
+    <string name="wallet_reset_cancel_btn">Skip</string>
+    <string name="wallet_reset_ok_btn">Open</string>
+    <string name="wallet_reset_title">Remove cards from Mi Wallet</string>
     <string name="wallpaper_attributions">Wallpapers</string>
     <string name="wallpaper_attributions_values">"Satellite imagery providers:
 ©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>

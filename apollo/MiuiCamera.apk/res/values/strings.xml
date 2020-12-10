@@ -489,8 +489,8 @@ and adjust preferences automatically"</string>
     <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
     <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
     <string name="capture_back_pressed_hint">Tap again to exit</string>
-    <string name="capture_shortcut_long">自拍</string>
-    <string name="capture_shortcut_short">自拍</string>
+    <string name="capture_shortcut_long">Selfie</string>
+    <string name="capture_shortcut_short">Selfie</string>
     <string name="ccc_temperature_warning_msg">Your device is overheated. Camera will be closed in %d seconds. Your photos or videos will be saved automatically.</string>
     <string name="ccc_temperature_warning_title">Device is overheated</string>
     <string name="certificate_com_android_camera">27196e386b875e76adf700e7ea84e4c6eee33dfa</string>
@@ -625,10 +625,10 @@ and adjust preferences automatically"</string>
     <string name="dialog_ok_time">OK (%ds)</string>
     <string name="dirty_tip_toast">The lens is dirty. Wipe it clean.</string>
     <string name="do_not_remind_me">"Don't show again"</string>
-    <string name="doc_shortcut_long">文档</string>
-    <string name="doc_shortcut_short">文档</string>
+    <string name="doc_shortcut_long">Documents</string>
+    <string name="doc_shortcut_short">Documents</string>
     <string name="document_blackwhite">B&amp;W</string>
-    <string name="document_blur_warn">文字拍摄模糊</string>
+    <string name="document_blur_warn">Text is blurred</string>
     <string name="document_mode_use_hint_text_body">"Line up and enhance
 scanned documents automatically"</string>
     <string name="document_mode_use_hint_text_title">Scan documents</string>
@@ -774,7 +774,6 @@ and then create a shot where everyone looks best."</string>
     <string name="id_card_mode_use_hint_text_body">"Combine both sides of your ID in one image.
 Print the copy wirelessly on A4 paper."</string>
     <string name="id_card_mode_use_hint_text_title">Scan ID</string>
-    <string name="ijkplayer_dummy" />
     <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
     <string name="install_confirmed">Install</string>
     <string name="kaleidoscope_fragment_tab_name">Kaleidoscope</string>
@@ -865,6 +864,7 @@ in Portrait mode"</string>
 look larger on photos"</string>
     <string name="macro_mode_use_hint_text_title">Macro</string>
     <string name="makeup_reset_toast">Cleared makeup effects successfully</string>
+    <string name="manual_picture_style">照片风格</string>
     <string name="manually_raw_hint">RAW</string>
     <string name="masterfilter_description_title">滤镜介绍</string>
     <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
@@ -920,6 +920,9 @@ look larger on photos"</string>
     <string name="mimoji_detect_skincolor_failed">"Couldn't detect skin color"</string>
     <string name="mimoji_detect_tips">Keep your face inside the frame</string>
     <string name="mimoji_detect_unknow_failed">Unknown error</string>
+    <string name="mimoji_download_material_hint">新建/编辑拟人形象，需要下载资源包。</string>
+    <string name="mimoji_download_material_title">下载提醒</string>
+    <string name="mimoji_downloading">下载中</string>
     <string name="mimoji_ear">Ears</string>
     <string name="mimoji_earring">Earrings</string>
     <string name="mimoji_edit_abandon_alert">Discard all changes?</string>
@@ -1592,6 +1595,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_google_lens_summary">Point your camera at contact info, URLs, and QR codes to view available options</string>
     <string name="pref_google_lens_title">Lens suggestions</string>
     <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
+    <string name="pref_hdr10_hdr10plus_video_mode_description">Optimize colors for 4K (HDR10+) and 8K (HDR10) videos. This feature only works on HDR10+/HDR10 compatible devices.</string>
     <string name="pref_hdr10_video_mode_description">Optimize colors and contrast for 4K and 8K videos automatically. Optimized videos can only be played on HDR10 compatible devices.</string>
     <string name="pref_hdr10_video_mode_title">HDR10</string>
     <string name="pref_hdr10plus_video_mode_description">Optimize colors and adjust contrast for 4K and 8K videos. This feature only works on HDR10+ compatible devices.</string>
@@ -1722,8 +1726,8 @@ Keep the subject sharp while blurring the background."</string>
     <string name="preparing_sd">Checking SD card…</string>
     <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
     <string name="pro_color_mode">Pro color</string>
-    <string name="professional_shortcut_long">专业</string>
-    <string name="professional_shortcut_short">专业</string>
+    <string name="professional_shortcut_long">Pro</string>
+    <string name="professional_shortcut_short">Pro</string>
     <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
     <string name="recommend_macro_mode">Try the Macro mode</string>
     <string name="recommend_portrait">Try the Portrait mode</string>
@@ -1731,6 +1735,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="recommend_super_night">Try the Night mode</string>
     <string name="record_back_pressed_hint">Tap again to stop recording</string>
     <string name="required_permissions">android.permission.CAMERA;android.permission.RECORD_AUDIO;android.permission.READ_EXTERNAL_STORAGE;android.permission.WRITE_EXTERNAL_STORAGE;</string>
+    <string name="reset_manual_picture_style_toast">照片风格参数已重置</string>
     <string name="reset_manually_parameter_confirmed">OK</string>
     <string name="reset_manually_parameter_hint">Reset</string>
     <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
@@ -1902,8 +1907,8 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
     <string name="video_hdr10_tip">HDR10</string>
     <string name="video_hdr10plus_tip">HDR10+</string>
     <string name="video_reach_size_limit">Size limit reached.</string>
-    <string name="video_shortcut_long">录像</string>
-    <string name="video_shortcut_short">录像</string>
+    <string name="video_shortcut_long">Video</string>
+    <string name="video_shortcut_short">Video</string>
     <string name="video_tag_flag_title">Tag</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
