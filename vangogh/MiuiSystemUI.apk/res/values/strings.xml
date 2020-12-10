@@ -327,7 +327,7 @@
     <string name="app_accessed_mic">%1$s accessed your microphone</string>
     <string name="app_info">App info</string>
     <string name="app_label">System UI</string>
-    <string name="app_name">Lock screen</string>
+    <string name="app_name">Keyguard</string>
     <string name="app_process_limit_title">Background process limit</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="appops_camera">This app is using the camera.</string>
@@ -816,11 +816,11 @@ If you resume, charges may apply for data usage."</string>
     <string name="face_unlock_fail_retry_global">Tap above to use Face unlock</string>
     <string name="face_unlock_not_found">"Couldn't recognize you"</string>
     <string name="face_unlock_open_eye">Open your eyes a bit wider</string>
+    <string name="face_unlock_password_and_fingerprint">Enter password or use fingerprint to unlock</string>
     <string name="face_unlock_passwork">Use password</string>
     <string name="face_unlock_passwork_and_fingerprint">Use password or fingerprint</string>
-    <string name="face_unlock_passwork_and_fingerprint_v11">Enter password or use fingerprint to unlock</string>
-    <string name="face_unlock_pattern_and_fingerprint_v11">Draw pattern or use fingerprint to unlock</string>
-    <string name="face_unlock_pin_and_fingerprint_v11">Enter PIN or use fingerprint to unlock</string>
+    <string name="face_unlock_pattern_and_fingerprint">Draw pattern or use fingerprint to unlock</string>
+    <string name="face_unlock_pin_and_fingerprint">Enter PIN or use fingerprint to unlock</string>
     <string name="face_unlock_reveal_eye">Make your eyes visible</string>
     <string name="face_unlock_reveal_mouth">Make your lips visible</string>
     <string name="failed_to_open_app_settings_toast">"Couldn't open settings for %1$s"</string>
@@ -879,7 +879,6 @@ If you resume, charges may apply for data usage."</string>
     <string name="guest_wipe_session_title">Welcome back, guest!</string>
     <string name="guest_wipe_session_wipe">Start over</string>
     <string name="gxzw_area">Fingerprint scanner</string>
-    <string name="gxzw_long_press_tip" />
     <string name="gxzw_press_harder">Press a bit harder</string>
     <string name="gxzw_quick_close">Close</string>
     <string name="gxzw_quick_open_add_event">Add event</string>
@@ -976,17 +975,17 @@ Keep showing them?"</string>
     <string name="inline_stop_button">Stop notifications</string>
     <string name="inline_turn_off_notifications">Turn off notifications</string>
     <string name="inline_undo">Undo</string>
+    <string name="input_lockscreen_password_hint_text">Enter password</string>
+    <string name="input_lockscreen_pattern_hint_text">Draw pattern</string>
+    <string name="input_lockscreen_pin_hint_text">Enter PIN</string>
     <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">"Can't switch between spaces when Ultra battery saver is on"</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
     <string name="input_password_hint_text">Enter password</string>
-    <string name="input_password_hint_text_v11">Enter password</string>
     <string name="input_pattern_hint_text">Draw your unlock pattern</string>
-    <string name="input_pattern_hint_text_v11">Draw pattern</string>
     <string name="input_pin_code">Enter PIN</string>
-    <string name="input_pin_hint_text_v11">Enter pin</string>
     <string name="input_puk_code">Input PUK</string>
     <string name="install_other_apps">Install unknown apps</string>
     <string name="installer_cd_button_title">Install Android File Transfer app for Mac</string>
@@ -1014,7 +1013,7 @@ only"</string>
     <string name="keep_screen_on">"Don't lock screen"</string>
     <string name="keep_screen_on_summary">"Screen won't go to sleep while charging"</string>
     <string name="keyboard_key">\"</string>
-    <string name="keyboard_key_back">返回</string>
+    <string name="keyboard_key_back">Back</string>
     <string name="keyboard_key_backspace">Backspace</string>
     <string name="keyboard_key_button_template">Button %1$s</string>
     <string name="keyboard_key_dpad_center">Center</string>
@@ -1038,7 +1037,7 @@ only"</string>
     <string name="keyboard_key_numpad_template">Numpad %1$s</string>
     <string name="keyboard_key_page_down">Page Down</string>
     <string name="keyboard_key_page_up">Page Up</string>
-    <string name="keyboard_key_space">空格</string>
+    <string name="keyboard_key_space">Space</string>
     <string name="keyboard_key_tab">Tab</string>
     <string name="keyboard_shortcut_group_applications">Applications</string>
     <string name="keyboard_shortcut_group_applications_assist">Assist</string>
@@ -1063,16 +1062,12 @@ only"</string>
     <string name="keyguard_accessibility_pin_area">PIN area</string>
     <string name="keyguard_accessibility_sim_pin_area">SIM PIN area</string>
     <string name="keyguard_accessibility_sim_puk_area">SIM PUK area</string>
-    <string name="keyguard_carrier_default">No service</string>
+    <string name="keyguard_carrier_default">No service.</string>
     <string name="keyguard_carrier_name_with_sim_locked_template" formatted="false">%s (%s)</string>
     <string name="keyguard_charged">Charged</string>
     <string name="keyguard_charging_back_to_lockscreen">Back to Lock screen</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">On battery</string>
-    <string name="keyguard_charging_info_data_c">%s℃</string>
-    <string name="keyguard_charging_info_data_ma">%smA</string>
-    <string name="keyguard_charging_info_data_percent">%s%%</string>
-    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Drained</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Today %s</string>
@@ -1090,7 +1085,7 @@ only"</string>
     <string name="keyguard_enter_your_password">Enter your password</string>
     <string name="keyguard_enter_your_pattern">Enter your pattern</string>
     <string name="keyguard_enter_your_pin">Enter your PIN</string>
-    <string name="keyguard_fancy_colon"></string>
+    <string name="keyguard_fancy_colon" />
     <string name="keyguard_indication_charging_time">%2$s • Charging (%1$s until full)</string>
     <string name="keyguard_indication_charging_time_fast">%2$s • Charging rapidly (%1$s until full)</string>
     <string name="keyguard_indication_charging_time_slowly">%2$s • Charging slowly (%1$s until full)</string>
@@ -1111,21 +1106,21 @@ only"</string>
     <string name="keyguard_missing_sim_message">No SIM card in phone.</string>
     <string name="keyguard_missing_sim_message_short">No SIM card</string>
     <string name="keyguard_more_overflow_text">+%d</string>
-    <string name="keyguard_network_locked_message">Network is locked</string>
-    <string name="keyguard_password_enter_password_code">Enter password to unlock</string>
-    <string name="keyguard_password_enter_pin_code">Enter PIN code</string>
-    <string name="keyguard_password_enter_pin_password_code">Enter PIN to unlock</string>
+    <string name="keyguard_network_locked_message">Network locked</string>
+    <string name="keyguard_password_enter_password_code">Type password to unlock</string>
+    <string name="keyguard_password_enter_pin_code">Type PIN code</string>
+    <string name="keyguard_password_enter_pin_password_code">Type PIN to unlock</string>
     <string name="keyguard_password_enter_pin_prompt">New SIM PIN code</string>
-    <string name="keyguard_password_enter_puk_code">Enter SIM PUK and new PIN code</string>
+    <string name="keyguard_password_enter_puk_code">Type SIM PUK and new PIN code</string>
     <string name="keyguard_password_enter_puk_prompt">SIM PUK code</string>
-    <string name="keyguard_password_entry_touch_hint"><font size="17">Tap to enter password</font></string>
-    <string name="keyguard_password_wrong_pin_code">PIN code is incorrect.</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Touch to type password</font></string>
+    <string name="keyguard_password_wrong_pin_code">Incorrect PIN code.</string>
     <string name="keyguard_permanent_disabled_sim_instructions">"Your SIM card has been permanently disabled.
  Contact your wireless service provider for another SIM card."</string>
     <string name="keyguard_permanent_disabled_sim_message_short">Unusable SIM card.</string>
-    <string name="keyguard_plugged_in">Charging</string>
-    <string name="keyguard_plugged_in_charging_fast">Charging fast</string>
-    <string name="keyguard_plugged_in_charging_slowly">Charging slowly</string>
+    <string name="keyguard_plugged_in">%s • Charging</string>
+    <string name="keyguard_plugged_in_charging_fast">%s • Charging rapidly</string>
+    <string name="keyguard_plugged_in_charging_slowly">%s • Charging slowly</string>
     <string name="keyguard_plugged_in_wireless">%s • Charging wirelessly</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
     <string name="keyguard_retry">Swipe up to try again</string>
@@ -1135,10 +1130,10 @@ only"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
     <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
     <string name="keyguard_unlock">Swipe up to open</string>
-    <string name="keyguard_widget_12_hours_format">hmm</string>
-    <string name="keyguard_widget_24_hours_format">kkmm</string>
+    <string name="keyguard_widget_12_hours_format">h:mm</string>
+    <string name="keyguard_widget_24_hours_format">kk:mm</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
-    <string name="kg_enter_confirm_pin_hint">Confirm new PIN code</string>
+    <string name="kg_enter_confirm_pin_hint">Confirm desired PIN code</string>
     <string name="kg_face_not_recognized">Not recognized</string>
     <string name="kg_failed_attempts_almost_at_erase_profile">You have incorrectly attempted to unlock the phone %1$d times. After %2$d more unsuccessful attempts, the work profile will be removed, which will delete all profile data.</string>
     <string name="kg_failed_attempts_almost_at_erase_user">You have incorrectly attempted to unlock the phone %1$d times. After %2$d more unsuccessful attempts, this user will be removed, which will delete all user data.</string>
@@ -1150,24 +1145,21 @@ only"</string>
     <string name="kg_failed_attempts_now_erasing_user">You have incorrectly attempted to unlock the phone %d times. This user will be removed, which will delete all user data.</string>
     <string name="kg_failed_attempts_now_wiping">You have incorrectly attempted to unlock the phone %d times. This phone will be reset, which will delete all its data.</string>
     <string name="kg_fingerprint_not_recognized">Not recognized</string>
-    <string name="kg_forgot_pattern_button_text">Forgot pattern</string>
+    <string name="kg_forgot_pattern_button_text">Forgot Pattern</string>
     <string name="kg_invalid_confirm_pin_hint">PIN codes does not match</string>
-    <string name="kg_invalid_puk">Enter the correct PUK code again. Repeated attempts will permanently disable the SIM.</string>
-    <string name="kg_invalid_sim_pin_hint">Enter a PIN that is 4 to 8 numbers.</string>
+    <string name="kg_invalid_puk">Re-enter the correct PUK code. Repeated attempts will permanently disable the SIM.</string>
+    <string name="kg_invalid_sim_pin_hint">Type a PIN that is 4 to 8 numbers.</string>
     <string name="kg_invalid_sim_puk_hint">PUK code should be 8 numbers or more.</string>
     <string name="kg_login_too_many_attempts">Too many pattern attempts</string>
-    <string name="kg_password_instructions">Enter password</string>
-    <string name="kg_password_pin_failed">"Couldn't unlock using SIM PIN"</string>
-    <string name="kg_password_puk_failed">"Couldn't unlock using SIM PUK"</string>
-    <string name="kg_password_wrong_pin_code_pukked">SIM PIN code is incorrect. Contact your carrier to unlock your device.</string>
+    <string name="kg_password_instructions">Enter Password</string>
+    <string name="kg_password_pin_failed">SIM PIN operation failed!</string>
+    <string name="kg_password_puk_failed">SIM PUK operation failed!</string>
+    <string name="kg_password_wrong_pin_code_pukked">Incorrect SIM PIN code you must now contact your carrier to unlock your device.</string>
     <string name="kg_password_wrong_puk_code_dead">SIM is unusable. Contact your carrier.</string>
     <string name="kg_pattern_instructions">Draw your pattern</string>
-    <string name="kg_pin_accepted">Code was accepted</string>
+    <string name="kg_pin_accepted">Code Accepted!</string>
     <string name="kg_pin_instructions">Enter PIN</string>
     <string name="kg_prompt_reason_device_admin">Device locked by admin</string>
-    <string name="kg_prompt_reason_prepare_for_update_password">Password required to prepare for update</string>
-    <string name="kg_prompt_reason_prepare_for_update_pattern">Pattern required to prepare for update</string>
-    <string name="kg_prompt_reason_prepare_for_update_pin">PIN required to prepare for update</string>
     <string name="kg_prompt_reason_restart_password">Password required after device restarts</string>
     <string name="kg_prompt_reason_restart_pattern">Pattern required after device restarts</string>
     <string name="kg_prompt_reason_restart_pin">PIN required after device restarts</string>
@@ -1178,21 +1170,20 @@ only"</string>
     <string name="kg_prompt_reason_timeout_pattern">Pattern required for additional security</string>
     <string name="kg_prompt_reason_timeout_pin">PIN required for additional security</string>
     <string name="kg_prompt_reason_user_request">Device was locked manually</string>
-    <string name="kg_puk_enter_pin_hint">Enter new PIN code</string>
-    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code to continue. Contact your carrier for details.</string>
-    <string name="kg_puk_enter_puk_hint_multi">SIM \"%1$s\" is now disabled. Enter PUK code to continue. Contact your carrier for details.</string>
+    <string name="kg_puk_enter_pin_hint">Enter desired PIN code</string>
+    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code to continue. Contact carrier for details.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM \"%1$s\" is now disabled. Enter PUK code to continue. Contact carrier for details.</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Disable eSIM to use device without mobile service.</string>
-    <string name="kg_sim_pin_instructions">Enter SIM PIN</string>
-    <string name="kg_sim_pin_instructions_multi">Enter SIM PIN for \"%1$s\"</string>
+    <string name="kg_sim_pin_instructions">Enter SIM PIN.</string>
+    <string name="kg_sim_pin_instructions_multi">Enter SIM PIN for \"%1$s\".</string>
     <string name="kg_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
-    <string name="kg_too_many_failed_attempts_countdown">Try again in %d seconds.</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">"You have incorrectly entered your password %1$d times. 
+    <string name="kg_too_many_failed_password_attempts_dialog_message">"You have incorrectly typed your password %1$d times. 
 
 Try again in %2$d seconds."</string>
     <string name="kg_too_many_failed_pattern_attempts_dialog_message">"You have incorrectly drawn your unlock pattern %1$d times. 
 
 Try again in %2$d seconds."</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">"You have incorrectly entered your PIN %1$d times. 
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"You have incorrectly typed your PIN %1$d times. 
 
 Try again in %2$d seconds."</string>
     <string name="kg_wrong_password">Wrong password</string>
@@ -1280,7 +1271,6 @@ MMMM d"</string>
     <string name="lockscreen_none">None</string>
     <string name="lockscreen_shortcut_left">Left shortcut</string>
     <string name="lockscreen_shortcut_right">Right shortcut</string>
-    <string name="lockscreen_sim_error_message_short">SIM card is invalid.</string>
     <string name="lockscreen_unlock_left">Left shortcut also unlocks</string>
     <string name="lockscreen_unlock_right">Right shortcut also unlocks</string>
     <string name="magnification_controls_title">Magnification Window Controls</string>
