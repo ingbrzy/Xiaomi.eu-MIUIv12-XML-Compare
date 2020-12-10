@@ -66,6 +66,7 @@
     <string name="ad_setting">Additional settings</string>
     <string name="add_music">Add songs</string>
     <string name="add_to_last_of_playlist">Add to the end of playlist</string>
+    <string name="add_to_playlist">Add to queue</string>
     <string name="add_to_playlist_successful">Added successfully</string>
     <string name="added_next_play">Added to play next</string>
     <string name="afternoon">PM</string>
@@ -132,6 +133,7 @@
     <string name="banner_op">Mi Music</string>
     <string name="bluetooth_device">Bluetooth audio device</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="btn_text_edit">Edit</string>
     <string name="buffering">Buffering…</string>
     <string name="button_cancel_download">Cancel</string>
     <string name="button_download_now">Download now</string>
@@ -234,7 +236,7 @@
     <string name="columbus_player_close_video">CLOSE VIDEO</string>
     <string name="columbus_player_install_now">INSTALL NOW</string>
     <string name="columbus_player_learn_more">Learn More</string>
-    <string name="com.crashlytics.android.build_id">7977c9b65014446898db443848d45eda</string>
+    <string name="com.crashlytics.android.build_id">749cfb85111949199ce796af94e89e76</string>
     <string name="comment_format" formatted="false">%s: %s</string>
     <string name="common_google_play_services_enable_button">Enable</string>
     <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -259,8 +261,10 @@
     <string name="connect_now">Connect</string>
     <string name="connecting_apk">Connecting…</string>
     <string name="copy">Copy</string>
-    <string name="count_format">%2$1.1fK</string>
-    <string name="count_million_format">%2$1.2fM</string>
+    <string name="count_format">%2$1.0fK</string>
+    <string name="count_format_float">%2$1.1fK</string>
+    <string name="count_million_format">%2$1.0fM</string>
+    <string name="count_million_format_float">%2$1.1fM</string>
     <string name="create_playlist">Create playlist</string>
     <string name="create_playlist_failure">"Couldn't create playlist"</string>
     <string name="create_playlist_input_hint">Enter playlist name</string>
@@ -308,6 +312,7 @@
     <string name="dialog_insufficient_space_on_cache">"Can't complete download, not enough internal storage left."</string>
     <string name="dialog_insufficient_space_on_external">"Can't finish download. Not enough space on the SD card."</string>
     <string name="dialog_media_not_found">"Can't download. SD card isn't available."</string>
+    <string name="dialog_message_unfollow">Unfollow this person?</string>
     <string name="dialog_my_playlist_online_changed_merge">Keep</string>
     <string name="dialog_my_playlist_online_changed_message">Looks like this playlist changed. You can replace it with the new version or keep the old one.</string>
     <string name="dialog_my_playlist_online_changed_replace">Replace</string>
@@ -335,6 +340,7 @@
     <string name="dialog_song_view_type_artist">By artist</string>
     <string name="dialog_song_view_type_folder">By folder</string>
     <string name="dialog_song_view_type_song">By song</string>
+    <string name="dialog_subtitle_make_playlist_public">Public playlists are available to other people. Private playlists are only visible to you on all synced devices.</string>
     <string name="dialog_title_clearlist_tracks">Remove from queue</string>
     <string name="dialog_title_delete_tracks">Delete</string>
     <string name="dialog_title_name_playlist">Playlist name</string>
@@ -519,11 +525,13 @@
     <string name="fail_to_play">"Can't play song"</string>
     <string name="failed_not_access_sd_card">Allow access to SD card first</string>
     <string name="failed_obtain_permissions">"Couldn't get permissions"</string>
+    <string name="fans">Followers</string>
     <string name="fav_login_msg">Sign in to your Mi Account to download songs</string>
     <string name="favorite_canceled">Removed from favorites</string>
     <string name="favorite_playlist">Favorites</string>
     <string name="favorite_singer">Favorite artists</string>
     <string name="favorite_succeed">Added to favorites</string>
+    <string name="favorite_to_playlist">Add to playlist</string>
     <string name="favorite_tracks">Favorites</string>
     <string name="favorites">Favorites</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
@@ -895,8 +903,10 @@
     <string name="no_album_info">No album info</string>
     <string name="no_artist_info">No artist info</string>
     <string name="no_downloads">No downloads</string>
+    <string name="no_fans_empty_title">"You don't have any followers yet"</string>
     <string name="no_favorites_songs">Empty</string>
     <string name="no_file_picker_find">"File Manager isn't installed."</string>
+    <string name="no_follow_empty_title">"You aren't following anyone yet"</string>
     <string name="no_local_songs">Empty</string>
     <string name="no_local_songs_selected">"Can't send songs because they haven't been downloaded"</string>
     <string name="no_local_source_find">"Couldn't find song"</string>
@@ -1148,6 +1158,7 @@ Be Happy"</string>
     <string name="share_end_note">From Mi Music</string>
     <string name="share_failed">"Couldn't share"</string>
     <string name="share_image_error">"Couldn't share image due to a download error"</string>
+    <string name="share_song">Share</string>
     <string name="share_text_list">"Playlist from Mi Music: "</string>
     <string name="share_text_song">"Song in Mi Music: "</string>
     <string name="show_float_first_hint">Minimize player</string>
@@ -1311,11 +1322,14 @@ Be Happy"</string>
     <string name="title_online_recommend">Featured playlists</string>
     <string name="title_search_history">Search history</string>
     <string name="title_search_hot">Popular</string>
+    <string name="toast_cant_collect_mine_playlist">"Can't add your own playlists to favorites"</string>
     <string name="toast_cant_commit_without_title">Enter song title</string>
     <string name="toast_download_error_by_count_limit">You have used up your download quota for this month.</string>
     <string name="toast_download_error_by_not_login">Sign in to Mi Account and try again.</string>
     <string name="toast_download_error_by_vip_required">Get Premium Song Pack to download this song.</string>
     <string name="toast_download_in_process">Download in process</string>
+    <string name="toast_favorite_has_been_added">Added to playlist successfully</string>
+    <string name="toast_follow_success">Followed successfully</string>
     <string name="toast_is_pro">"You're already a PRO member."</string>
     <string name="toast_my_playlist_illegal_name">"The title of this playlist isn't valid. Rename this playlist."</string>
     <string name="toast_my_playlist_set_to_private">"This playlist is private now. Other people can't see it."</string>
@@ -1326,6 +1340,9 @@ Be Happy"</string>
     <string name="toast_normal_songs_for_download">Downloading quality set to Standard</string>
     <string name="toast_normal_songs_for_stream">Streaming quality set to Standard</string>
     <string name="toast_not_pro">This feature is available only to PRO members.</string>
+    <string name="toast_playlist_has_been_added">Added to queue successfully</string>
+    <string name="toast_playlist_has_been_private">This playlist is private</string>
+    <string name="toast_playlist_has_been_public">This playlist is public</string>
     <string name="toast_playmode_loop_playback">Current playlist is looped</string>
     <string name="toast_playmode_shuffle_play">Playback is shuffled</string>
     <string name="toast_playmode_single_cycle">Current song is looped</string>
@@ -1358,11 +1375,15 @@ Be Happy"</string>
     <string name="upload_playlist_to_hungama_toast">Online songs will be synced to Hungama</string>
     <string name="user_agreement">User Agreement</string>
     <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
+    <string name="user_playlist_plaza">Playlists</string>
     <string name="user_privacy_dialog_negative_text">Cancel</string>
     <string name="user_privacy_dialog_positive_count_down_text">Withdraw (%ss)</string>
     <string name="user_privacy_dialog_positive_text">Withdraw</string>
     <string name="user_privacy_setting_group_title">Withdrawal of consent</string>
     <string name="user_privacy_setting_title">By toggling off the switch, you withdraw your consent to the Privacy Policy of Mi Music.</string>
+    <string name="user_profile_created_playlist_title">Custom playlists</string>
+    <string name="user_profile_fans_count">Followers: %s</string>
+    <string name="user_profile_follow_count">Following: %s</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="version_info">Version</string>
