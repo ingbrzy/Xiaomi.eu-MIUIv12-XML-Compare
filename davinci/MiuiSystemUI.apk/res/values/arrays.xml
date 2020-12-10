@@ -501,6 +501,8 @@
         <item>com.audible.universal</item>
         <item>com.xiaomi.calendar</item>
         <item>com.ss.android.lark.kami</item>
+        <item>com.orange.phone.mea</item>
+        <item>com.orange.labs.dialler</item>
     </string-array>
     <string-array name="config_allowNotificationSlide">
         <item>com.tencent.mm</item>
@@ -616,14 +618,12 @@
         <item>0</item>
     </integer-array>
     <string-array name="config_drip_left_statusBarIcons">
-        <item>quiet</item>
         <item>zen</item>
-        <item>mute</item>
         <item>volume</item>
-        <item>micphone</item>
-        <item>headset</item>
-        <item>speakerphone</item>
         <item>alarm_clock</item>
+        <item>headset</item>
+        <item>micphone</item>
+        <item>ble_unlock_mode</item>
     </string-array>
     <string-array name="config_drip_right_block_statusBarIcons">
         <item>micphone</item>
@@ -632,7 +632,7 @@
         <item>call_record</item>
         <item>privacy_mode</item>
         <item>ble_unlock_mode</item>
-        <item>quiet</item>
+        <item>zen</item>
         <item>gps</item>
         <item>missed_call</item>
         <item>ime</item>
@@ -643,8 +643,6 @@
         <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
-        <item>zen</item>
-        <item>mute</item>
         <item>volume</item>
         <item>alarm_clock</item>
     </string-array>
@@ -707,7 +705,7 @@
         <item>call_record</item>
         <item>privacy_mode</item>
         <item>ble_unlock_mode</item>
-        <item>quiet</item>
+        <item>zen</item>
         <item>gps</item>
         <item>missed_call</item>
         <item>managed_profile</item>
@@ -721,8 +719,6 @@
         <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
-        <item>zen</item>
-        <item>mute</item>
         <item>volume</item>
         <item>alarm_clock</item>
         <item>vpn</item>
@@ -1023,6 +1019,9 @@
         <item>2</item>
         <item>1</item>
         <item>3</item>
+    </string-array>
+    <string-array name="split_screen_force_not_resize_pkg_list">
+        <item>com.android.camera</item>
     </string-array>
     <array name="status_bar_show_spn_by_gid_when_airplane" />
     <string-array name="system_alert_window_notification_whitelist">
