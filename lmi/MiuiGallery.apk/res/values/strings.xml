@@ -92,7 +92,9 @@
     <string name="album_from_format">From %s</string>
     <string name="album_hidden_item_button_title">Unhide</string>
     <string name="album_hidden_page_title">Hide</string>
+    <string name="album_homepage_show_all_photos">Show all photos</string>
     <string name="album_jump_failed">Wait until albums are synced with the cloud and try again</string>
+    <string name="album_lockscreen_wallpapers">Lock screen wallpapers</string>
     <string name="album_member">Album members %s</string>
     <string name="album_midrop">Mi Drop</string>
     <string name="album_name">Album name</string>
@@ -390,9 +392,7 @@
     <string name="chinese_digit_seven">七</string>
     <string name="chinese_digit_six">六</string>
     <string name="chinese_digit_ten">十</string>
-    <string name="chinese_digit_thirty">卅</string>
     <string name="chinese_digit_three">三</string>
-    <string name="chinese_digit_twenty">廿</string>
     <string name="chinese_digit_two">二</string>
     <string name="chinese_digit_zero">〇</string>
     <string name="chinese_leap">闰</string>
@@ -998,7 +998,7 @@
     <string name="document_provider_guide_step_4">4. Select \"SD card\".</string>
     <string name="document_provider_guide_step_5">5. Tap \"Select\".</string>
     <string name="double_tap_for_hr_preview_108m">Double tap again to switch to 108MP preview</string>
-    <string name="double_tap_to_higher_definition">Double tap again for the HD preview</string>
+    <string name="double_tap_to_higher_definition">Double tap again to open HD preview</string>
     <string name="download_canceled">Download canceled</string>
     <string name="download_error_format">"Couldn't download %s"</string>
     <string name="download_error_tip">. Downloads were interrupted.</string>
@@ -1549,9 +1549,17 @@ to personalize Gallery"</string>
     <string name="mi_note_10">Mi Note 10</string>
     <string name="micloud_introduce">Sync photos and videos automatically (Mi Account is required)</string>
     <string name="midnight">Night</string>
-    <string name="miuix_appcompat_cloud_state_disabled">Sync with the cloud is off</string>
-    <string name="miuix_appcompat_cloud_state_finished">Synced with the cloud successfully</string>
-    <string name="miuix_appcompat_cloud_state_syncing">Syncing with the cloud…</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
+    <string name="miuix_appcompat_action_mode_select_all">Select all</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">More</string>
+    <string name="miuix_appcompat_cancel_description">Cancel</string>
+    <string name="miuix_appcompat_confirm_description">Confirm</string>
+    <string name="miuix_appcompat_delete_description">Delete</string>
+    <string name="miuix_appcompat_deselect_all_description">Deselect all</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Cancel</string>
+    <string name="miuix_appcompat_search_input_description">Search</string>
+    <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -1947,7 +1955,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="pic_to_pdf_exit_notice">"This PDF won't be saved if you exit now. Exit anyway?"</string>
     <string name="pic_to_pdf_not_support_video">"Videos can't be saved as PDF"</string>
     <string name="pic_to_pdf_preview_loading">Loading preview…</string>
-    <string name="pic_to_pdf_save_in">Saved PDF to %s</string>
+    <string name="pic_to_pdf_saved_in_fileexplorer">Saved successfully. View the item in File Manager.</string>
     <string name="pick_from_contact">Choose from contacts</string>
     <string name="pick_people_cover_fail">An error occurred. Try again.</string>
     <string name="pick_people_cover_page_title">Select cover photo</string>
@@ -2319,7 +2327,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="special_type_ai_audio">AI Audio</string>
     <string name="special_type_eye_repair">Fixed closed eyes using AI</string>
     <string name="special_type_hdr">HDR</string>
-    <string name="special_type_hdr10">HDR10</string>
+    <string name="special_type_hdr10">HDR</string>
     <string name="special_type_heif">HEIF</string>
     <string name="special_type_log">LOG</string>
     <string name="special_type_night_beauty">AI low light portrait</string>
@@ -2493,6 +2501,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="toast_invalid_char">"Filenames can't contain \"%s\""</string>
     <string name="toast_invalid_prefix">"Filenames can't start with \".\" or \"_\""</string>
     <string name="toast_orientation_locked">Locked orientation successfully</string>
+    <string name="toast_orientation_unlock">Screen orientation is unlocked</string>
     <string name="toast_rename_exit">This file already exists</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
@@ -2527,7 +2536,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="unrecognized_model">Unknown device</string>
     <string name="unsupport_raw">"%s doesn't work with RAW images"</string>
     <string name="unsupport_raw_and_video">"%s doesn't work with videos and RAW images"</string>
-    <string name="unsupport_type">"This file type isn't supported"</string>
+    <string name="unsupport_type">"This format isn't supported"</string>
     <string name="unsupport_video">"%s doesn't work with videos"</string>
     <string name="unsupported_media_downloading_tip_common">"Viewing original images in this format isn't supported in this version of Android. Download anyway?"</string>
     <string name="unsupported_media_downloading_tip_format">"Viewing original %s images isn't supported in this version of Android. Download anyway?"</string>
