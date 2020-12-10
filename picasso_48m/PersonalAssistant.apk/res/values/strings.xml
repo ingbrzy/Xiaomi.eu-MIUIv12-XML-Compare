@@ -320,6 +320,10 @@
     <string name="app_bluetooth_device_empty">没有设备连接</string>
     <string name="app_bluetooth_device_type">Bluetooth device</string>
     <string name="app_cancel">取消</string>
+    <string name="app_china_proper_card_title">小米会员中心</string>
+    <string name="app_china_vip_install_dialog">您的手机尚未安装小米商城，因此无法启用相关功能。是否去应用商店下载？</string>
+    <string name="app_china_vip_mijin_unit">米金</string>
+    <string name="app_china_vip_text_ten_thousand">万</string>
     <string name="app_commute_correction_button">Correct</string>
     <string name="app_commute_correction_text">Is \"%1$s\" your %2$s address?</string>
     <string name="app_commute_guide_button_text">Add address</string>
@@ -497,6 +501,8 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_pa_setting_private_key_auth">key_private_auth</string>
     <string name="app_pa_setting_private_key_policy">key_private_policy</string>
     <string name="app_pa_setting_private_policy">Privacy Policy</string>
+    <string name="app_pa_setting_service_china_vip">小米会员中心</string>
+    <string name="app_pa_setting_service_china_vip_summary">收取米金积分、兑换会员福利</string>
     <string name="app_pa_setting_service_commute">Commute</string>
     <string name="app_pa_setting_service_commute_summary">For building navigation routes and providing car-hailing services</string>
     <string name="app_pa_setting_service_forecast">Smart suggestions</string>
@@ -776,11 +782,15 @@ You can also track express delivery on the official websites of delivery compani
     <string name="card_expand_note_clear_all">Clear</string>
     <string name="card_expand_note_dialog_button">Got it</string>
     <string name="card_expand_note_dialog_message">A new note is created every time you tap the \"Save\" button in App vault.</string>
+    <string name="card_expand_note_dialog_message_new">A new note is created every time you tap the \"Save\" button in App vault.</string>
     <string name="card_expand_note_dialog_title">Saving notes</string>
+    <string name="card_expand_note_dialog_title_new">Saving notes</string>
     <string name="card_expand_note_sure_clear_all">Clear now</string>
     <string name="card_expand_note_toast_clear_null">Cleared successfully</string>
     <string name="card_expand_note_toast_install">Install Notes to be able to use this feature</string>
+    <string name="card_expand_note_toast_install_new">Install Notes to be able to use this feature</string>
     <string name="card_expand_note_toast_save_done">Saved to Notes</string>
+    <string name="card_expand_note_toast_save_done_new">Saved to Notes</string>
     <string name="card_expand_note_toast_save_dup">Saved successfully</string>
     <string name="card_expand_note_toast_share_null">This note is empty</string>
     <string name="card_hint_noteboard">Tap here to take a note.</string>
@@ -2141,6 +2151,7 @@ Check your tracking number."</string>
     <string name="save">Save</string>
     <string name="save_edit">Save changes</string>
     <string name="save_to_note">Save to Notes</string>
+    <string name="save_to_note_new">Save to Notes</string>
     <string name="scan">Scan</string>
     <string name="scan_app">Scan</string>
     <string name="scan_card">Business card</string>
@@ -2455,6 +2466,7 @@ Check your tracking number."</string>
     <string name="toast_function_add_limit">You can add up to %d shortcuts</string>
     <string name="toast_function_remove_not_allowed">You should add at least 1 shortcut</string>
     <string name="toast_reach_text_limit_truncate">Your note is too long. Excess content was truncated.</string>
+    <string name="toast_reach_text_limit_truncate_new">Your note is too long. Excess content was truncated.</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="total_month_desc_text">This month</string>
