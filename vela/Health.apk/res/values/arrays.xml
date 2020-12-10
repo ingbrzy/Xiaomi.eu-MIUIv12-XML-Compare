@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="HomePageTabTitle">
+        <item>Health</item>
+        <item>Workouts</item>
+    </string-array>
+    <string-array name="MediaControlView_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="SportTabTitle">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Cycling</item>
+        <item>Jump rope</item>
+        <item>Workout</item>
+    </string-array>
     <string-array name="alphabet_table">
         <item>A</item>
         <item>B</item>
@@ -81,6 +100,20 @@
     <string-array name="arr_time_label">
         <item>1 hour</item>
         <item>2 hours</item>
+    </string-array>
+    <string-array name="blood_types">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+        <item>A(-)</item>
+        <item>A(+)</item>
+        <item>B(-)</item>
+        <item>B(+)</item>
+        <item>AB(-)</item>
+        <item>AB(+)</item>
+        <item>O(-)</item>
+        <item>O(+)</item>
     </string-array>
     <integer-array name="body_water_line_chart_default_y">
         <item>70</item>
@@ -169,6 +202,17 @@
         <item>@string/chinese_symbol_animals_dog</item>
         <item>@string/chinese_symbol_animals_pig</item>
     </string-array>
+    <string-array name="contact_relation_array">
+        <item>Not set</item>
+        <item>Parent</item>
+        <item>Sister</item>
+        <item>Brother</item>
+        <item>Spouse</item>
+        <item>Partner</item>
+        <item>Friend</item>
+        <item>Colleague</item>
+        <item>Classmate</item>
+    </string-array>
     <string-array name="detailed_am_pms">
         <item>@string/midnight</item>
         <item>@string/early_morning</item>
@@ -205,6 +249,11 @@
         <item>20</item>
         <item>10</item>
     </integer-array>
+    <string-array name="gender_array">
+        <item>Not set</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
     <string-array name="heavenly_stems">
         <item>@string/heavenly_stems_jia</item>
         <item>@string/heavenly_stems_yi</item>
@@ -222,6 +271,15 @@
         <item>" m"</item>
         <item>" km"</item>
     </string-array>
+    <integer-array name="media2_widget_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
     <string-array name="months">
         <item>@string/month_january</item>
         <item>@string/month_february</item>
@@ -269,6 +327,13 @@
         <item>70</item>
         <item>60</item>
     </integer-array>
+    <string-array name="normal_blood_array">
+        <item>Not set</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
     <string-array name="pager_titles">
         <item>Day</item>
         <item>Week</item>
@@ -314,6 +379,25 @@
         <item>肖玮, 阿丹. 安全期避孕安全吗?[J]. 健康必读, 2002(4).</item>
         <item>2018 Physical Activity Guidelines Advisory Committee Submits Scientific Report</item>
     </string-array>
+    <string-array name="repeat_mode_mild_abnormal_array">
+        <item>Mon, Wed, Fri</item>
+        <item>Tue, Thu, Sat</item>
+        <item>Wed, Fri, Sun</item>
+    </string-array>
+    <string-array name="repeat_mode_week_array">
+        <item>Every Monday</item>
+        <item>Every Tuesday</item>
+        <item>Every Wednesday</item>
+        <item>Every Thursday</item>
+        <item>Every Friday</item>
+        <item>Every Saturday</item>
+        <item>Every Sunday</item>
+    </string-array>
+    <string-array name="rh_blood_array">
+        <item>Not set</item>
+        <item>Negative</item>
+        <item>Positive</item>
+    </string-array>
     <string-array name="run_in_background_state">
         <item>No restrictions</item>
         <item>Limit background activity</item>
@@ -353,12 +437,12 @@
     </string-array>
     <string-array name="stand_guide_page_content1">
         <item>"Sitting down doesn't benefit your health. Even if you can't reduce the time you spend sitting, standing up every once in a while is a good idea."</item>
-        <item>This feature will remind you to spend at least 1 minute of every hour standing up. 12 hours with stand-up breaks every day will help you avoid the risks of sedentary lifestyle.</item>
+        <item>This feature will remind you to spend at least 1 minute of every hour standing up. 12 hours with stand-up breaks every day will help you avoid the risks of a sedentary lifestyle.</item>
         <item>Tap \"Continue\" to learn more and turn this feature on.</item>
     </string-array>
     <string-array name="stand_guide_page_content2">
-        <item>"Xiaomi Health learns whether you stood up based on how you used your device. If no movement is detected during an hour, you'll be reminded to stand up or add the record manually."</item>
-        <item>This feature will track your movement and send reminders.</item>
+        <item>Xiaomi Health can detect and record when you stand up. You can also receive reminders to stand up after 1 hour of inactivity.</item>
+        <item>This feature tracks your movement and sends reminders based on the results.</item>
     </string-array>
     <string-array name="temperature_unit">
         <item>℃</item>
@@ -414,6 +498,15 @@
         <item>Fri</item>
         <item>Sat</item>
     </string-array>
+    <string-array name="week_short">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
     <integer-array name="weight_line_chart_default_y">
         <item>42</item>
         <item>45</item>
@@ -426,5 +519,10 @@
         <item>" liang"</item>
         <item>" jin"</item>
         <item>" lb"</item>
+    </string-array>
+    <string-array name="yes_no_array">
+        <item>Not set</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
 </resources>

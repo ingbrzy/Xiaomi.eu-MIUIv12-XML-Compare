@@ -442,7 +442,10 @@
         <item>com.xiaomi.vipaccount</item>
         <item>com.xiaomi.mitv.phone.tvassistant</item>
         <item>com.miui.backup</item>
-        <item>com.miui.voicetrigger</item>
+        <item>com.miui.thirdappassistant</item>
+        <item>com.xiaomi.calendar</item>
+        <item>com.miui.core</item>
+        <item>com.ss.android.lark.kami</item>
     </string-array>
     <string-array name="config_allowKeyguardPackages">
         <item>com.google.android.apps.messaging</item>
@@ -466,6 +469,7 @@
         <item>com.facebook.mlite</item>
         <item>com.alibaba.android.rimet</item>
         <item>com.android.calendar</item>
+        <item>com.xiaomi.calendar</item>
         <item>com.google.android.gm</item>
         <item>com.android.email</item>
         <item>com.microsoft.office.outlook</item>
@@ -526,6 +530,10 @@
         <item>com.kakao.talk</item>
         <item>com.ss.android.lark</item>
         <item>com.audible.universal</item>
+        <item>com.xiaomi.calendar</item>
+        <item>com.ss.android.lark.kami</item>
+        <item>com.orange.phone.mea</item>
+        <item>com.orange.labs.dialler</item>
     </string-array>
     <string-array name="config_allowNotificationSlide">
         <item>com.tencent.mm</item>
@@ -540,7 +548,6 @@
         <item>com.p1.mobile.putong</item>
         <item>com.blued.international</item>
         <item>com.soft.blued</item>
-        <item>cn.soulapp.android</item>
         <item>com.google.android.talk</item>
         <item>com.whatsapp</item>
         <item>com.whatsapp.w4b</item>
@@ -551,7 +558,6 @@
         <item>com.vkontakte.android</item>
         <item>com.imo.android.imoim</item>
         <item>com.snapchat.android</item>
-        <item>com.facebook.orca</item>
         <item>com.facebook.mlite</item>
         <item>com.discord</item>
         <item>com.google.android.gm</item>
@@ -563,6 +569,7 @@
         <item>com.skype.raider</item>
         <item>com.twitter.android</item>
         <item>com.google.android.apps.messaging</item>
+        <item>com.ss.android.lark.kami</item>
     </string-array>
     <array name="config_blockFloatPackages" />
     <array name="config_blockKeyguardPackages" />
@@ -570,6 +577,13 @@
         <item>0</item>
         <item>400</item>
     </integer-array>
+    <string-array name="config_canCustomNotificationAppIcon">
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.bugreport</item>
+        <item>com.miui.miservice</item>
+        <item>com.miui.accessibility</item>
+        <item>com.miui.systemAdSolution</item>
+    </string-array>
     <string-array name="config_canSendSubstituteNotificationPackages">
         <item>com.xiaomi.xmsf</item>
         <item>com.android.systemui</item>
@@ -672,6 +686,11 @@
         <item>com.tencent.mm</item>
         <item>com.miui.smarttravel</item>
     </string-array>
+    <string-array name="config_quickSettingsAutoAdd">
+        <item>accessibility_display_inversion_enabled:inversion</item>
+        <item>wind_down_first_time_setup:custom(com.google.android.apps.wellbeing/.screen.ui.GrayscaleTileService)</item>
+        <item>focus_mode_first_time_setup:custom(com.google.android.apps.wellbeing/.focusmode.quicksettings.FocusModeTileService)</item>
+    </string-array>
     <string-array name="data_activity_sim1">
         <item>array/telephony_data_activity_unknown_sim1</item>
         <item>array/telephony_data_activity_g_sim1</item>
@@ -771,6 +790,7 @@
         <item>com.tencent.qqlite</item>
         <item>com.tencent.mm</item>
         <item>com.android.deskclock</item>
+        <item>com.google.android.dialer</item>
     </string-array>
     <string-array name="locale_carrier_names">
         <item>China_Mobile</item>
@@ -859,6 +879,16 @@
         <item>0.0dip</item>
         <item>0.0dip</item>
     </array>
+    <array name="miui_volume_ringer_btn_standard_corners2">
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+        <item>@dimen/miui_volume_bg_radius_expanded</item>
+    </array>
     <integer-array name="miui_volume_timer_segments">
         <item>0</item>
         <item>1800</item>
@@ -921,6 +951,10 @@
         <item>com.miui.securitycore</item>
         <item>com.wali.live</item>
         <item>com.xiaomi.scanner</item>
+        <item>com.miui.weather2</item>
+    </string-array>
+    <string-array name="multi_window_force_not_resize_pkgs_for_android_r">
+        <item>com.android.thememanager</item>
     </string-array>
     <string-array name="multi_window_force_resize_pkgs">
         <item>com.tencent.mobileqq</item>
@@ -1014,6 +1048,7 @@
         <item>custom(com.miui.mishare.connectivity/.tile.MiShareTileService)</item>
         <item>custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService)</item>
         <item>freeformhang</item>
+        <item>scanner</item>
     </string-array>
     <string-array name="qs_control_independent_tiles">
         <item>cell</item>
@@ -1505,9 +1540,12 @@
         <item>@drawable/stat_sys_signal_4_3g_fully</item>
         <item>@drawable/stat_sys_signal_4_4g_fully</item>
     </array>
+    <array name="status_bar_show_spn_by_gid_when_airplane" />
     <string-array name="system_alert_window_notification_whitelist">
         <item>com.miui.notes</item>
         <item>com.android.thememanager</item>
+        <item>com.miui.mishare.connectivity</item>
+        <item>com.xiaomi.gamecenter.sdk.service</item>
     </string-array>
     <string-array name="system_foreground_notification_whitelist">
         <item>com.xiaomi.joyose</item>
@@ -1527,6 +1565,7 @@
         <item>com.miui.securitycore</item>
         <item>com.miui.notification</item>
         <item>com.mi.health</item>
+        <item>com.xiaomi.market:com.xiaomi.market_hide</item>
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.discover</item>
         <item>com.miui.mishare.connectivity</item>
@@ -1535,7 +1574,13 @@
         <item>com.miui.tsmclient</item>
         <item>com.mi.android.globalminusscreen</item>
         <item>com.mfashiongallery.emag</item>
+        <item>com.android.thememanager</item>
         <item>com.miui.voiceassist:com.miui.voiceassistforeground</item>
+        <item>com.miui.misound</item>
+        <item>com.xiaomi.mirror</item>
+        <item>com.miui.personalassistant</item>
+        <item>com.xiaomi.miplay_client</item>
+        <item>com.miui.screenshot</item>
     </string-array>
     <string-array name="telephony_data_activity_1x_sim1">
         <item>0</item>

@@ -34,21 +34,6 @@
         <item>@string/wifi_security_eap</item>
         <item>@string/wifi_security_sae</item>
     </string-array>
-    <string-array name="aggregate_entries">
-        <item>Group</item>
-        <item>Group and lower priority</item>
-        <item>"Don't group"</item>
-    </string-array>
-    <string-array name="aggregate_summaries">
-        <item>Promotional and content-related push notifications will be grouped</item>
-        <item>Push notifications will be grouped and shown below other notifications</item>
-        <item>"Push notifications won't be grouped"</item>
-    </string-array>
-    <string-array name="aggregate_values">
-        <item>0</item>
-        <item>-1</item>
-        <item>1</item>
-    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
@@ -186,6 +171,11 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+    <string-array name="apn_not_allowed_entries">
+        <item>internet</item>
+        <item>ims</item>
+        <item>tethering</item>
     </string-array>
     <string-array name="apn_protocol_entries">
         <item>IPv4</item>
@@ -363,6 +353,16 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+    </string-array>
+    <string-array name="audio_mode_entries">
+        <item>@string/miheadset_audio_mode_normal</item>
+        <item>@string/miheadset_audio_mode_listen</item>
+        <item>@string/miheadset_audio_mode_high</item>
+    </string-array>
+    <string-array name="audio_mode_values">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
         <item>Off</item>
@@ -1005,6 +1005,23 @@
         <item>pattern</item>
         <item>numerical</item>
         <item>mixed</item>
+    </string-array>
+    <string-array name="charge_animation_style_entries">
+        <item>Off</item>
+        <item>Flow</item>
+        <item>Glow</item>
+        <item>Wave</item>
+    </string-array>
+    <string-array name="charge_animation_style_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="choose_dns_mode">
+        <item>@string/private_dns_mode_off</item>
+        <item>@string/private_dns_mode_opportunistic</item>
+        <item>@string/private_dns_mode_provider</item>
     </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
@@ -1760,16 +1777,27 @@
     <array name="default_dialer_package" />
     <string-array name="default_email_package">
         <item>mx_telcel:com.google.android.gm</item>
+        <item>jp_sb:com.google.android.gm</item>
     </string-array>
     <string-array name="default_gallery_package">
         <item>mx_telcel:com.google.android.apps.photos</item>
     </string-array>
     <string-array name="default_mms_package">
         <item>mx_telcel:com.google.android.apps.messaging</item>
+        <item>jp_kd:com.kddi.android.cmail</item>
+        <item>jp_sb:jp.softbank.mb.plusmessage</item>
     </string-array>
     <array name="default_music_package" />
     <string-array name="default_video_package">
         <item>mx_telcel:com.google.android.apps.photos</item>
+    </string-array>
+    <string-array name="default_vol_stream_entries">
+        <item>Ringtone</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="default_vol_stream_values">
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="device_support_pickup_by_MTK">
         <item>cactus</item>
@@ -1800,6 +1828,10 @@
         <item>kate</item>
         <item>prada</item>
         <item>dandelion</item>
+        <item>lime</item>
+        <item>citrus</item>
+        <item>cannon</item>
+        <item>lemon</item>
     </string-array>
     <string-array name="dndm_auto_time_trun_on_off">
         <item>@string/dndm_auto_time_turn_on</item>
@@ -1810,6 +1842,14 @@
         <item>@string/dndm_vip_list_contact</item>
         <item>@string/dndm_vip_list_starred_contact</item>
         <item>@string/dndm_vip_list_custom</item>
+    </string-array>
+    <string-array name="double_click_mode_entries">
+        <item>@string/miheadset_call_assist</item>
+        <item>@string/miheadset_play_pause</item>
+        <item>@string/miheadet_up_music</item>
+        <item>@string/miheadset_next</item>
+        <item>@string/miheadset_plus</item>
+        <item>@string/miheadset_minus</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Never</item>
@@ -1974,21 +2014,6 @@
         <item>"Speeds up device's performance"</item>
         <item>"May slow down device's performance"</item>
     </string-array>
-    <string-array name="fold_entries">
-        <item>Recommended</item>
-        <item>Important</item>
-        <item>Unimportant</item>
-    </string-array>
-    <string-array name="fold_summaries">
-        <item>MIUI will decide which notifications should appear directly</item>
-        <item>Notifications will appear in the Notification shade</item>
-        <item>Notifications will appear in a separate folder</item>
-    </string-array>
-    <string-array name="fold_values">
-        <item>0</item>
-        <item>1</item>
-        <item>-1</item>
-    </string-array>
     <integer-array name="font_size_preference_preview_size">
         <item>14</item>
         <item>18</item>
@@ -2031,6 +2056,16 @@
         <item>1</item>
         <item>2</item>
         <item>0</item>
+    </string-array>
+    <string-array name="gradient_colors">
+        <item>\#88C2FF</item>
+        <item>\#C8F4E4</item>
+        <item>\#FFCEA0</item>
+    </string-array>
+    <string-array name="gradient_positions">
+        <item>0f</item>
+        <item>0.53f</item>
+        <item>1f</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5\u2033</item>
@@ -2078,6 +2113,8 @@
         <item>@string/input_method_function_xiaoai_des</item>
         <item>@string/input_method_function_switch_des</item>
         <item>@string/input_method_function_clipboard_des</item>
+        <item>@string/input_method_function_switch_keyboard_language_des</item>
+        <item>@string/input_method_function_switch_keyboard_type_des</item>
         <item>@string/input_method_function_no_function_des</item>
     </string-array>
     <array name="input_method_function_icons">
@@ -2085,6 +2122,8 @@
         <item>@drawable/input_method_xiaoai_function_selector</item>
         <item>@drawable/input_method_switch_function_selector</item>
         <item>@drawable/input_method_clipboard_function_selector</item>
+        <item>@drawable/input_method_switch_keyboard_language_selector</item>
+        <item>@drawable/input_method_switch_keyboard_type_selector</item>
         <item>@drawable/input_method_no_function_selector</item>
     </array>
     <string-array name="input_method_function_title">
@@ -2092,6 +2131,16 @@
         <item>@string/input_method_function_xiaoai</item>
         <item>@string/input_method_function_switch</item>
         <item>@string/input_method_function_clipboard</item>
+        <item>@string/input_method_function_switch_keyboard_language</item>
+        <item>@string/input_method_function_switch_keyboard_type</item>
+        <item>@string/input_method_function_no_function</item>
+    </string-array>
+    <string-array name="input_method_middle_function_des">
+        <item>@string/input_method_middle_function_move_cursor_des</item>
+        <item>@string/input_method_middle_function_no_function_des</item>
+    </string-array>
+    <string-array name="input_method_middle_function_title">
+        <item>@string/input_method_middle_function_move_cursor</item>
         <item>@string/input_method_function_no_function</item>
     </string-array>
     <string-array name="input_method_selector_titles">
@@ -2112,6 +2161,14 @@
         <item>key_combination_power_menu</item>
         <item>key_combination_power_back</item>
         <item>key_none</item>
+    </string-array>
+    <string-array name="key_mode_values">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
     </string-array>
     <string-array name="key_popup_voice_choice">
         <item>popup_muqin_up.ogg</item>
@@ -2186,6 +2243,18 @@
         <item>7000</item>
         <item>8000</item>
         <item>9000</item>
+    </string-array>
+    <string-array name="left_tone_entries">
+        <item>@string/miheadset_call_assist</item>
+        <item>@string/miheadset_play_pause</item>
+        <item>@string/miheadet_up_music</item>
+        <item>@string/miheadset_next</item>
+    </string-array>
+    <string-array name="left_tone_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Immediately</item>
@@ -2268,7 +2337,7 @@
         <item>Long</item>
     </string-array>
     <string-array name="long_press_timeout_selector_values">
-        <item>400</item>
+        <item>300</item>
         <item>1000</item>
         <item>1500</item>
     </string-array>
@@ -2351,6 +2420,11 @@
         <item>large</item>
         <item>huge</item>
         <item>godzilla</item>
+    </string-array>
+    <string-array name="modem_perm_action_items">
+        <item>@string/allow</item>
+        <item>@string/permission_action_prompt</item>
+        <item>@string/deny</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP and older</item>
@@ -2728,6 +2802,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1920x1080/320|3840x2160/640,secure</item>
         <item>1280x720/213;1920x1080/320</item>
     </string-array>
+    <string-array name="paper_color_index">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="paper_color_values">
+        <item>Full colors</item>
+        <item>Light colors</item>
+        <item>Black and white</item>
+    </string-array>
     <string-array name="perm_hips_action">
         <item>Allow</item>
         <item>Ask</item>
@@ -3015,6 +3099,18 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>davinci</item>
         <item>raphael</item>
     </string-array>
+    <string-array name="right_tone_entries">
+        <item>@string/miheadset_call_assist</item>
+        <item>@string/miheadset_play_pause</item>
+        <item>@string/miheadet_up_music</item>
+        <item>@string/miheadset_next</item>
+    </string-array>
+    <string-array name="right_tone_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
         <item>Right hand style</item>
@@ -3070,6 +3166,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Auto (recommended)</item>
         <item>Saturated</item>
         <item>Standard</item>
+    </string-array>
+    <string-array name="screen_reader_mode_input_type_selector_titles">
+        <item>Tap</item>
+        <item>Double tap</item>
+    </string-array>
+    <string-array name="screen_reader_mode_input_type_selector_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <integer-array name="screen_resolution">
         <item>1440</item>
@@ -3292,6 +3396,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2</item>
         <item>0</item>
     </string-array>
+    <string-array name="status_bar_settings_qs_layout_entries">
+        <item>Default</item>
+        <item>Compact</item>
+    </string-array>
+    <string-array name="status_bar_settings_qs_layout_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="support_speaker_auto_clean_device_list">
         <item>willow</item>
         <item>ginkgo</item>
@@ -3305,6 +3417,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>excalibur</item>
         <item>joyeuse</item>
         <item>lancelot</item>
+        <item>galahad</item>
     </string-array>
     <string-array name="swipe_direction_titles">
         <item>@string/swipe_direction_rtl</item>
@@ -3329,6 +3442,32 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@drawable/threedrop04</item>
         <item>@drawable/threedrop05</item>
         <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
@@ -3399,6 +3538,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2</item>
         <item>5</item>
         <item>10</item>
+    </string-array>
+    <string-array name="triple_click_mode_entries">
+        <item>@string/miheadset_call_assist</item>
+        <item>@string/miheadset_play_pause</item>
+        <item>@string/miheadet_up_music</item>
+        <item>@string/miheadset_next</item>
+        <item>@string/miheadset_plus</item>
+        <item>@string/miheadset_minus</item>
     </string-array>
     <string-array name="true_color_screen_optimize_summary">
         <item>Adjust colors based on the current lighting</item>
@@ -3888,21 +4035,5 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>zen_mode_from_contacts</item>
         <item>zen_mode_from_starred</item>
         <item>zen_mode_from_none</item>
-    </string-array>
-    <string-array name="status_bar_settings_qs_layout_entries">
-        <item>Default</item>
-        <item>Compact</item>
-    </string-array>
-    <string-array name="status_bar_settings_qs_layout_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="default_vol_stream_entries">
-        <item>Ringtone</item>
-        <item>Media</item>
-    </string-array>
-    <string-array name="default_vol_stream_values">
-        <item>2</item>
-        <item>3</item>
     </string-array>
 </resources>

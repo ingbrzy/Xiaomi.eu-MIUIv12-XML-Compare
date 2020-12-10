@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 hour ago</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 hour ago</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Half an hour ago</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">In 1 hour</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">In half an hour</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Immediately</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">in %d mins</item>
+        <item quantity="one">in 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Just now</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d mins ago</item>
+        <item quantity="one">1 min ago</item>
+    </plurals>
     <plurals name="alarm_alert_snooze_set">
         <item quantity="other">Snoozing for %d minutes.</item>
         <item quantity="one">Snoozing for %d minute.</item>
@@ -16,9 +45,28 @@
         <item quantity="other">Delete the selected timezones?</item>
         <item quantity="one">Delete this timezone?</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Half an hour ago</item>
+    </plurals>
     <plurals name="hour">
         <item quantity="other">%d hours</item>
         <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">In 1 hour</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">In half an hour</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Immediately</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">in %d minutes</item>
+        <item quantity="one">in 1 minute</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Just now</item>
     </plurals>
     <plurals name="life_post_wake_up_item_acumu_day">
         <item quantity="other">%1$d days</item>
@@ -31,6 +79,10 @@
     <plurals name="minute_text">
         <item quantity="other">" mins"</item>
         <item quantity="one">" min"</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">1 minute ago</item>
     </plurals>
     <plurals name="second">
         <item quantity="other">%d seconds</item>
@@ -75,6 +127,14 @@
     <plurals name="snooze_message">
         <item quantity="other">Snooze for %d mins</item>
         <item quantity="one">Snooze for %d min</item>
+    </plurals>
+    <plurals name="stopwatch_running_notification_day">
+        <item quantity="other">Stopwatch has been running for %s days. Tap to view.</item>
+        <item quantity="one">Stopwatch has been running for %s day. Tap to view.</item>
+    </plurals>
+    <plurals name="stopwatch_running_notification_hour">
+        <item quantity="other">Stopwatch has been running for %s hours. Tap to view.</item>
+        <item quantity="one">Stopwatch has been running for %s hour. Tap to view.</item>
     </plurals>
     <plurals name="timer_message_hour">
         <item quantity="other">"%1$d hours "</item>

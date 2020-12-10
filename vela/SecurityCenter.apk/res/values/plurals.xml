@@ -80,9 +80,17 @@
         <item quantity="other">Used %d years ago</item>
         <item quantity="one">Used %d year ago</item>
     </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">You can use App lock with %1$s apps</item>
+        <item quantity="one">You can use App lock with %1$s app</item>
+    </plurals>
     <plurals name="applock_guide_app_count_tips">
         <item quantity="other">You can protect at least %s apps</item>
         <item quantity="one">You can protect at least %s app</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s apps will be protected with App lock</item>
+        <item quantity="one">%s app will be protected with App lock</item>
     </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d apps can connect to the network in the background</item>
@@ -115,6 +123,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="ew_alert_second_after">
         <item quantity="other">In %d seconds</item>
         <item quantity="one">In %d second</item>
+    </plurals>
+    <plurals name="ew_concern_date">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">Search among %d apps</item>
@@ -160,6 +172,14 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">%1$d people are playing</item>
         <item quantity="one">%1$d person is playing</item>
     </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">Uninstall %2$d games (including %1$s)</item>
+        <item quantity="one">Uninstall %2$d game (including %1$s)</item>
+    </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">Saved %d AI recordings to Game Turbo</item>
+        <item quantity="one">Saved %d AI recording to Game Turbo</item>
+    </plurals>
     <plurals name="gb_record_time_title">
         <item quantity="other">%d secs</item>
         <item quantity="one">%d sec</item>
@@ -167,6 +187,28 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Checked in %d days in a row</item>
         <item quantity="one">Checked in %d time</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">"Couldn't receive a %d-day free trial"</item>
+        <item quantity="one">"Couldn't receive a %d-day free trial"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">Received a %d-day free trial successfully</item>
+        <item quantity="one">Received a %d-day free trial successfully</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">Get a %d-day free trial</item>
+        <item quantity="one">Get a %d-day free trial</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"Your subscriptions expired.
+You can get a %d-day free trial now!"</item>
+        <item quantity="one">"Your subscriptions expired.
+You can get a %d-day free trial now!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">Get a %d-day free trial</item>
+        <item quantity="one">Get a %d-day free trial</item>
     </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d more characters</item>
@@ -228,9 +270,25 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Not tracking data usage for %d apps</item>
         <item quantity="one">Not tracking data usage for %d app</item>
     </plurals>
+    <plurals name="image_protect_del_tips">
+        <item quantity="other">Delete %d images permanently?</item>
+        <item quantity="one">Delete %d image permanently?</item>
+    </plurals>
+    <plurals name="image_protect_exit_del_tips">
+        <item quantity="other">%d images will be deleted permanently after you leave tis page. Delete anyway?</item>
+        <item quantity="one">%d image will be deleted permanently after you leave tis page. Delete anyway?</item>
+    </plurals>
+    <plurals name="image_protect_try_del_tips">
+        <item quantity="other">Delete %d images</item>
+        <item quantity="one">Delete %d image</item>
+    </plurals>
     <plurals name="install_game_count_title">
         <item quantity="other">Added %d games</item>
         <item quantity="one">Added %d game</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">You can protect %d items</item>
+        <item quantity="one">You can protect %d item</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%s hours</item>
@@ -292,6 +350,18 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">%2$d apps, including %1$s, are draining battery</item>
         <item quantity="one">%2$d app, including %1$s, is draining battery</item>
     </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Delete %d installation packages</item>
+        <item quantity="one">Delete %d installation package</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d battery usage issues</item>
+        <item quantity="one">%d battery usage issue</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">Optimize %d items to save battery</item>
+        <item quantity="one">Optimize %d item to save battery</item>
+    </plurals>
     <plurals name="notification_title_cmcc_app_check">
         <item quantity="other">%d days since last check-up</item>
         <item quantity="one">%d day since last check-up</item>
@@ -323,6 +393,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="om_locked_apps_title">
         <item quantity="other">%d locked apps</item>
         <item quantity="one">%d locked app</item>
+    </plurals>
+    <plurals name="om_running_apps_num">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
     </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>
@@ -400,9 +474,29 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Downloaded by %1$d people</item>
         <item quantity="one">Downloaded by %1$d people</item>
     </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">times</item>
+        <item quantity="one">time</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d battery usage issues</item>
+        <item quantity="one">%d battery usage issue</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d days "</item>
         <item quantity="one">"%d day "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" hrs"</item>
+        <item quantity="one">" hr"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" mins"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
+    <plurals name="power_center_battery_health_summary">
+        <item quantity="other">Fully charge your device at least %2$d times to get accurate stats</item>
+        <item quantity="one">Fully charge your device at least %2$d time to get accurate stats</item>
     </plurals>
     <plurals name="power_center_battery_hour">
         <item quantity="other">"%d hr "</item>
@@ -411,6 +505,26 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="power_center_battery_minute">
         <item quantity="other">"%d min "</item>
         <item quantity="one">"%d min "</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">Fix %d battery usage issues</item>
+        <item quantity="one">Fix %d battery usage issue</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">You can fix %d battery usage issues</item>
+        <item quantity="one">You can fix %d battery usage issue</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d items can be optimized"</item>
+        <item quantity="one">" %d item can be optimized"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">Optimize %d items to save battery</item>
+        <item quantity="one">Optimize %d item to save battery</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">You can optimize %d items to save battery</item>
+        <item quantity="one">You can optimize %d item to save battery</item>
     </plurals>
     <plurals name="power_center_battery_temperature">
         <item quantity="other">%d ℃</item>
@@ -448,6 +562,18 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Your device will shut down in %d seconds. Connect charger.</item>
         <item quantity="one">Your device will shut down in %d second. Connect charger.</item>
     </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d apps autostart frequently</item>
+        <item quantity="one">%d app autostarts frequently</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d apps drains battery</item>
+        <item quantity="one">%d app drains battery</item>
+    </plurals>
+    <plurals name="pp_times">
+        <item quantity="other">%s times</item>
+        <item quantity="one">%s time</item>
+    </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d app icons hidden</item>
         <item quantity="one">%d app icon hidden</item>
@@ -463,6 +589,50 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="privacy_pop_times">
         <item quantity="other">%s times</item>
         <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">%d high-risk permissions granted</item>
+        <item quantity="one">%d high-risk permission granted</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">%d risky apps found</item>
+        <item quantity="one">%d risky app found</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">%d risks of disclosing location info detected</item>
+        <item quantity="one">%d risk of disclosing location info detected</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">%d risks detected</item>
+        <item quantity="one">%d risk detected</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">%d possible risks found</item>
+        <item quantity="one">%d possible risk found</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">%d photos might contain the info that is private or sensitive</item>
+        <item quantity="one">%d photo might contain the info that is private or sensitive</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">%d features that protect your privacy are turned off</item>
+        <item quantity="one">%d feature that protects your privacy is turned off</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">%d sensitive permissions granted</item>
+        <item quantity="one">%d sensitive permission granted</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">Uninstall %d apps</item>
+        <item quantity="one">Uninstall %d app</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">%d items need extra protection</item>
+        <item quantity="one">%d item needs extra protection</item>
     </plurals>
     <plurals name="quick_optimize_issue_count">
         <item quantity="other">%d battery issues</item>

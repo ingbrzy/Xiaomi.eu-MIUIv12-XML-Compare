@@ -54,6 +54,15 @@
         <item>PIN</item>
         <item>Password</item>
     </string-array>
+    <string-array name="cellular_data_unit">
+        <item>GB</item>
+        <item>MB</item>
+    </string-array>
+    <string-array name="cellular_package_type">
+        <item>Monthly plan</item>
+        <item>Unlimited</item>
+        <item>Daily plan</item>
+    </string-array>
     <string-array name="clean_cached_process_white_list">
         <item>com.miui.securitycenter</item>
         <item>com.miui.virtualsim</item>
@@ -66,6 +75,7 @@
         <item>com.android.updater</item>
         <item>com.miui.analytics</item>
         <item>com.miui.cleanmaster</item>
+        <item>com.miui.cleaner</item>
     </string-array>
     <string-array name="contact_infotype_entries">
         <item>@string/name</item>
@@ -85,6 +95,13 @@
         <item>Mi Fan card</item>
         <item>Xiao Tiansheng card</item>
         <item>Tencent King card</item>
+    </string-array>
+    <string-array name="daily_rent_card_brands">
+        <item>Custom</item>
+        <item>Mi Mobile</item>
+        <item>Mi Fan card</item>
+        <item>Tianshen card</item>
+        <item>Tencent card</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Yesterday (mobile data) "</item>
@@ -201,6 +218,16 @@
     </string-array>
     <string-array name="pc_battery_history_spinner_choice">
         <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
         <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <integer-array name="pc_choice_dialog_battery_style_values">
@@ -240,7 +267,7 @@
         <item>Access your carrier-related and language settings, as well as other details</item>
     </string-array>
     <string-array name="perm_intercept_unknown_source">
-        <item>"Third party apps that aren't verified by GetApps might cause multiple problems and decrease system stability."</item>
+        <item>"Third party apps that aren't verified might cause multiple problems and decrease system stability."</item>
         <item>Some third party apps may contain malware that puts your personal data at risk.</item>
     </string-array>
     <string-array name="priority_storage_entries">

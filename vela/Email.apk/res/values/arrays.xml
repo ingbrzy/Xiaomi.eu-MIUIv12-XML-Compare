@@ -132,6 +132,11 @@
         <item>1</item>
         <item>4</item>
     </string-array>
+    <string-array name="ad_address_list_ignore">
+        <item>do_not_reply@apple.com</item>
+        <item>order_acknowledgment@orders.apple.com</item>
+        <item>zhangming3@kingsoft.com</item>
+    </string-array>
     <string-array name="all_month_str">
         <item>Jan</item>
         <item>Feb</item>
@@ -147,7 +152,6 @@
         <item>Dec</item>
     </string-array>
     <string-array name="alphabet_chars">
-        <item>★</item>
         <item>A</item>
         <item>B</item>
         <item>C</item>
@@ -177,6 +181,35 @@
         <item>\#</item>
         <item>∅</item>
     </string-array>
+    <string-array name="alphabet_chars2">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
     <string-array name="calendar_remind_string_array">
         <item>Tonight</item>
         <item>Tomorrow</item>
@@ -196,11 +229,6 @@
         <item>@color/combined_view_account_color_8</item>
         <item>@color/combined_view_account_color_9</item>
     </array>
-    <string-array name="compose_modes">
-        <item>Reply</item>
-        <item>Reply all</item>
-        <item>Forward</item>
-    </string-array>
     <string-array name="default_quick_responses">
         <item>@string/quick_1</item>
         <item>@string/quick_2</item>
@@ -261,6 +289,13 @@
         <item>normal</item>
         <item>large</item>
         <item>huge</item>
+    </string-array>
+    <string-array name="invoice_card_keyword">
+        <item>发票</item>
+    </string-array>
+    <string-array name="invoice_card_pdf_keyword">
+        <item>发票</item>
+        <item>invoice</item>
     </string-array>
     <string-array name="kids_arrays">
         <item>@string/under_sixteen</item>

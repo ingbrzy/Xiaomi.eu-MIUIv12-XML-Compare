@@ -4,12 +4,6 @@
         <item>Male</item>
         <item>Female</item>
     </string-array>
-    <string-array name="sleep_duration_values">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
-    </string-array>
     <string-array name="alphabet_table">
         <item>A</item>
         <item>B</item>
@@ -39,6 +33,40 @@
         <item>Z</item>
         <item>\#</item>
     </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="am_pms">
+        <item>@string/am</item>
+        <item>@string/pm</item>
+    </string-array>
     <string-array name="aritst_area_filter">
         <item>@string/artist_area_all</item>
         <item>@string/artist_area_china</item>
@@ -65,6 +93,83 @@
         <item>female</item>
         <item>group</item>
     </string-array>
+    <string-array name="chinese_days">
+        <item>@string/chinese_day_1</item>
+        <item>@string/chinese_day_2</item>
+        <item>@string/chinese_day_3</item>
+        <item>@string/chinese_day_4</item>
+        <item>@string/chinese_day_5</item>
+        <item>@string/chinese_day_6</item>
+        <item>@string/chinese_day_7</item>
+        <item>@string/chinese_day_8</item>
+        <item>@string/chinese_day_9</item>
+        <item>@string/chinese_day_10</item>
+        <item>@string/chinese_day_11</item>
+        <item>@string/chinese_day_12</item>
+        <item>@string/chinese_day_13</item>
+        <item>@string/chinese_day_14</item>
+        <item>@string/chinese_day_15</item>
+        <item>@string/chinese_day_16</item>
+        <item>@string/chinese_day_17</item>
+        <item>@string/chinese_day_18</item>
+        <item>@string/chinese_day_19</item>
+        <item>@string/chinese_day_20</item>
+        <item>@string/chinese_day_21</item>
+        <item>@string/chinese_day_22</item>
+        <item>@string/chinese_day_23</item>
+        <item>@string/chinese_day_24</item>
+        <item>@string/chinese_day_25</item>
+        <item>@string/chinese_day_26</item>
+        <item>@string/chinese_day_27</item>
+        <item>@string/chinese_day_28</item>
+        <item>@string/chinese_day_29</item>
+        <item>@string/chinese_day_30</item>
+    </string-array>
+    <string-array name="chinese_digits">
+        <item>@string/chinese_digit_zero</item>
+        <item>@string/chinese_digit_one</item>
+        <item>@string/chinese_digit_two</item>
+        <item>@string/chinese_digit_three</item>
+        <item>@string/chinese_digit_four</item>
+        <item>@string/chinese_digit_five</item>
+        <item>@string/chinese_digit_six</item>
+        <item>@string/chinese_digit_seven</item>
+        <item>@string/chinese_digit_eight</item>
+        <item>@string/chinese_digit_nine</item>
+        <item>@string/chinese_digit_ten</item>
+    </string-array>
+    <string-array name="chinese_leap_months">
+        <item>@string/empty</item>
+        <item>@string/chinese_leap</item>
+    </string-array>
+    <string-array name="chinese_months">
+        <item>@string/chinese_month_january</item>
+        <item>@string/chinese_month_february</item>
+        <item>@string/chinese_month_march</item>
+        <item>@string/chinese_month_april</item>
+        <item>@string/chinese_month_may</item>
+        <item>@string/chinese_month_june</item>
+        <item>@string/chinese_month_july</item>
+        <item>@string/chinese_month_august</item>
+        <item>@string/chinese_month_september</item>
+        <item>@string/chinese_month_october</item>
+        <item>@string/chinese_month_november</item>
+        <item>@string/chinese_month_december</item>
+    </string-array>
+    <string-array name="chinese_symbol_animals">
+        <item>@string/chinese_symbol_animals_mouse</item>
+        <item>@string/chinese_symbol_animals_cow</item>
+        <item>@string/chinese_symbol_animals_tiger</item>
+        <item>@string/chinese_symbol_animals_rabbit</item>
+        <item>@string/chinese_symbol_animals_dragon</item>
+        <item>@string/chinese_symbol_animals_snake</item>
+        <item>@string/chinese_symbol_animals_horse</item>
+        <item>@string/chinese_symbol_animals_sheep</item>
+        <item>@string/chinese_symbol_animals_monkey</item>
+        <item>@string/chinese_symbol_animals_chicken</item>
+        <item>@string/chinese_symbol_animals_dog</item>
+        <item>@string/chinese_symbol_animals_pig</item>
+    </string-array>
     <array name="desktop_lyric_seekbar_track_color">
         <item>#ff13baff</item>
         <item>#ff616acb</item>
@@ -74,6 +179,15 @@
         <item>#ff84cf84</item>
         <item>#ff6fe9e9</item>
     </array>
+    <string-array name="detailed_am_pms">
+        <item>@string/midnight</item>
+        <item>@string/early_morning</item>
+        <item>@string/morning</item>
+        <item>@string/noon</item>
+        <item>@string/afternoon</item>
+        <item>@string/evening</item>
+        <item>@string/night</item>
+    </string-array>
     <string-array name="dirac_equalizer_preset_values">
         <item>0,0,0,0,0,0,0</item>
         <item>4,2,-2,0,-2,-2,4</item>
@@ -87,6 +201,75 @@
         <item>0,4,2,0,-2,-2,4</item>
         <item>2,0,0,-2,-4,0,0</item>
     </string-array>
+    <string-array name="earthly_branches">
+        <item>@string/earthly_branches_zi</item>
+        <item>@string/earthly_branches_chou</item>
+        <item>@string/earthly_branches_yin</item>
+        <item>@string/earthly_branches_mao</item>
+        <item>@string/earthly_branches_chen</item>
+        <item>@string/earthly_branches_si</item>
+        <item>@string/earthly_branches_wu</item>
+        <item>@string/earthly_branches_wei</item>
+        <item>@string/earthly_branches_shen</item>
+        <item>@string/earthly_branches_you</item>
+        <item>@string/earthly_branches_xu</item>
+        <item>@string/earthly_branches_hai</item>
+    </string-array>
+    <string-array name="eras">
+        <item>@string/eras_bc</item>
+        <item>@string/eras_ad</item>
+    </string-array>
+    <string-array name="fm_channel">
+        <item>国家台</item>
+        <item>资讯台</item>
+        <item>音乐台</item>
+        <item>交通台</item>
+        <item>网络台</item>
+        <item>文艺台</item>
+        <item>体育台</item>
+        <item>曲艺台</item>
+        <item>方言台</item>
+        <item>生活台</item>
+        <item>都市台</item>
+        <item>旅游台</item>
+        <item>经济台</item>
+        <item>综合台</item>
+        <item>双语台</item>
+    </string-array>
+    <integer-array name="fm_channel_id">
+        <item>370</item>
+        <item>397</item>
+        <item>404</item>
+        <item>401</item>
+        <item>368</item>
+        <item>403</item>
+        <item>407</item>
+        <item>411</item>
+        <item>412</item>
+        <item>410</item>
+        <item>406</item>
+        <item>409</item>
+        <item>402</item>
+        <item>408</item>
+        <item>405</item>
+    </integer-array>
+    <integer-array name="fm_channel_staging_id">
+        <item>2987</item>
+        <item>3017</item>
+        <item>3024</item>
+        <item>3018</item>
+        <item>2988</item>
+        <item>3019</item>
+        <item>3020</item>
+        <item>3039</item>
+        <item>3031</item>
+        <item>3028</item>
+        <item>3030</item>
+        <item>3026</item>
+        <item>3029</item>
+        <item>3023</item>
+        <item>3027</item>
+    </integer-array>
     <string-array name="freq_entries">
         <item>" "</item>
         <item>0</item>
@@ -115,6 +298,18 @@
         <item>@drawable/fm_number_9</item>
         <item>@drawable/fm_number_point</item>
     </array>
+    <string-array name="heavenly_stems">
+        <item>@string/heavenly_stems_jia</item>
+        <item>@string/heavenly_stems_yi</item>
+        <item>@string/heavenly_stems_bing</item>
+        <item>@string/heavenly_stems_ding</item>
+        <item>@string/heavenly_stems_wu</item>
+        <item>@string/heavenly_stems_ji</item>
+        <item>@string/heavenly_stems_geng</item>
+        <item>@string/heavenly_stems_xin</item>
+        <item>@string/heavenly_stems_ren</item>
+        <item>@string/heavenly_stems_gui</item>
+    </string-array>
     <string-array name="karaoke_descriptions">
         <item>有没有那么一首歌，会让你轻轻跟着和...</item>
         <item>我唱得她心醉...我唱得她心碎...</item>
@@ -127,6 +322,48 @@
         <item>唱出你的热情 伸出你双手 让我拥抱着你的梦...</item>
         <item>这是一首简单的小情歌...唱着我们心头的白鸽...</item>
         <item>我想我很适合做一个歌颂者，青春在风中飘着...</item>
+    </string-array>
+    <string-array name="months">
+        <item>@string/month_january</item>
+        <item>@string/month_february</item>
+        <item>@string/month_march</item>
+        <item>@string/month_april</item>
+        <item>@string/month_may</item>
+        <item>@string/month_june</item>
+        <item>@string/month_july</item>
+        <item>@string/month_august</item>
+        <item>@string/month_september</item>
+        <item>@string/month_october</item>
+        <item>@string/month_november</item>
+        <item>@string/month_december</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>@string/month_january_short</item>
+        <item>@string/month_february_short</item>
+        <item>@string/month_march_short</item>
+        <item>@string/month_april_short</item>
+        <item>@string/month_may_short</item>
+        <item>@string/month_june_short</item>
+        <item>@string/month_july_short</item>
+        <item>@string/month_august_short</item>
+        <item>@string/month_september_short</item>
+        <item>@string/month_october_short</item>
+        <item>@string/month_november_short</item>
+        <item>@string/month_december_short</item>
+    </string-array>
+    <string-array name="months_shortest">
+        <item>@string/month_january_shortest</item>
+        <item>@string/month_february_shortest</item>
+        <item>@string/month_march_shortest</item>
+        <item>@string/month_april_shortest</item>
+        <item>@string/month_may_shortest</item>
+        <item>@string/month_june_shortest</item>
+        <item>@string/month_july_shortest</item>
+        <item>@string/month_august_shortest</item>
+        <item>@string/month_september_shortest</item>
+        <item>@string/month_october_shortest</item>
+        <item>@string/month_november_shortest</item>
+        <item>@string/month_december_shortest</item>
     </string-array>
     <string-array name="number_key_entries">
         <item>0</item>
@@ -164,11 +401,44 @@
         <item>@drawable/theme_light_number_8</item>
         <item>@drawable/theme_light_number_9</item>
     </array>
+    <string-array name="sleep_duration_values">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+    </string-array>
     <string-array name="sleep_duration_values_seconds">
         <item>900</item>
         <item>1800</item>
         <item>2700</item>
         <item>3600</item>
+    </string-array>
+    <string-array name="solar_terms">
+        <item>@string/empty</item>
+        <item>@string/solar_term_slight_cold</item>
+        <item>@string/solar_term_great_cold</item>
+        <item>@string/solar_term_spring_begins</item>
+        <item>@string/solar_term_the_rains</item>
+        <item>@string/solar_term_insects_awaken</item>
+        <item>@string/solar_term_vernal_equinox</item>
+        <item>@string/solar_term_clear_and_bright</item>
+        <item>@string/solar_term_grain_rain</item>
+        <item>@string/solar_term_summer_begins</item>
+        <item>@string/solar_term_grain_buds</item>
+        <item>@string/solar_term_grain_in_ear</item>
+        <item>@string/solar_term_summer_solstice</item>
+        <item>@string/solar_term_slight_heat</item>
+        <item>@string/solar_term_great_heat</item>
+        <item>@string/solar_term_autumn_begins</item>
+        <item>@string/solar_term_stopping_the_heat</item>
+        <item>@string/solar_term_white_dews</item>
+        <item>@string/solar_term_autumn_equinox</item>
+        <item>@string/solar_term_cold_dews</item>
+        <item>@string/solar_term_hoar_frost_falls</item>
+        <item>@string/solar_term_winter_begins</item>
+        <item>@string/solar_term_light_snow</item>
+        <item>@string/solar_term_heavy_snow</item>
+        <item>@string/solar_term_winter_solstice</item>
     </string-array>
     <integer-array name="song_group_detail_gray_colors">
         <item>0x33000000</item>
@@ -352,6 +622,33 @@
         <item>5</item>
     </integer-array>
     <array name="vibration_virtual_key_up" />
+    <string-array name="week_days">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+    <string-array name="week_days_short">
+        <item>@string/sunday_short</item>
+        <item>@string/monday_short</item>
+        <item>@string/tuesday_short</item>
+        <item>@string/wednesday_short</item>
+        <item>@string/thursday_short</item>
+        <item>@string/friday_short</item>
+        <item>@string/saturday_short</item>
+    </string-array>
+    <string-array name="week_days_shortest">
+        <item>@string/sunday_shortest</item>
+        <item>@string/monday_shortest</item>
+        <item>@string/tuesday_shortest</item>
+        <item>@string/wednesday_shortest</item>
+        <item>@string/thursday_shortest</item>
+        <item>@string/friday_shortest</item>
+        <item>@string/saturday_shortest</item>
+    </string-array>
     <string-array name="xiaoai_tips">
         <item>周杰伦</item>
         <item>搜索“难忘今宵”</item>

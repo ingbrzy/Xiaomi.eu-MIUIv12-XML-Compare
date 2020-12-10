@@ -33,6 +33,18 @@
         <item quantity="other">Delete %1$d contacts?</item>
         <item quantity="one">Delete %1$d contact?</item>
     </plurals>
+    <plurals name="bh_day">
+        <item quantity="other">" days"</item>
+        <item quantity="one">" day"</item>
+    </plurals>
+    <plurals name="bh_hour">
+        <item quantity="other">" hrs"</item>
+        <item quantity="one">" hr"</item>
+    </plurals>
+    <plurals name="bh_minute">
+        <item quantity="other">" mins"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
     <plurals name="btn_delete_multi_contacts">
         <item quantity="other">Delete %1$d contacts</item>
         <item quantity="one">Delete %1$d contact</item>
@@ -40,6 +52,14 @@
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">Rang %1$d times</item>
         <item quantity="one">Rang %1$d time</item>
+    </plurals>
+    <plurals name="call_record_auto_whitelist_summary">
+        <item quantity="other">%d phone numbers</item>
+        <item quantity="one">%d phone number</item>
+    </plurals>
+    <plurals name="call_remove_exception_numbers_confirm">
+        <item quantity="other">Delete %d phone numbers?</item>
+        <item quantity="one">Delete %d phone number?</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">"%1$d contacts or photos haven't been synced"</item>
@@ -93,8 +113,8 @@
         <item quantity="other">Half an hour ago</item>
     </plurals>
     <plurals name="hint_account_contacts">
-        <item quantity="other">Found %1$d items</item>
-        <item quantity="one">Found %1$d item</item>
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d contacts</item>
@@ -136,10 +156,6 @@
         <item quantity="other">%1$d contacts with partially identical info</item>
         <item quantity="one">%1$d contacts with partially identical info</item>
     </plurals>
-    <plurals name="merge_info">
-        <item quantity="other">merged from %0$d sources</item>
-        <item quantity="one">not merged</item>
-    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d selected</item>
         <item quantity="zero">%1$d selected</item>
@@ -149,17 +165,9 @@
         <item quantity="other">%1$d people from %2$s</item>
         <item quantity="one">%1$d person from %2$s</item>
     </plurals>
-    <plurals name="num_groups_in_account">
-        <item quantity="other">%d groups</item>
-        <item quantity="one">%d group</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">1 minute ago</item>
-    </plurals>
-    <plurals name="number_of_items_available">
-        <item quantity="other">%1$d items remaining</item>
-        <item quantity="one">%1$d item remaining</item>
     </plurals>
     <plurals name="number_of_items_selected">
         <item quantity="other">%1$d selected</item>
@@ -184,6 +192,10 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d found</item>
         <item quantity="one">%d found</item>
+    </plurals>
+    <plurals name="search_group_contacts_result">
+        <item quantity="other">%s results</item>
+        <item quantity="one">%s result</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">"Select no more than %1$d, can't select all"</item>

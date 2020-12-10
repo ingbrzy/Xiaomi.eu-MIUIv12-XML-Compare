@@ -34,11 +34,32 @@
     <item type="array" name="android_special_locale_names">@android:array/special_locale_names</item>
     <array name="boot_msg_text" />
     <array name="config_BrightnessCurvesLux" />
+    <string-array name="config_France_Orange_IPV6_array">
+        <item>apollo</item>
+        <item>gauguin</item>
+        <item>cannong</item>
+    </string-array>
     <string-array name="config_Poland_Orange_IPV6_array">
         <item>lavender</item>
         <item>onc</item>
         <item>pine</item>
-        <item>grus</item>
+        <item>platina</item>
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>joyeuse</item>
+        <item>dipper</item>
+        <item>polaris</item>
+        <item>beryllium</item>
+        <item>toco</item>
+        <item>umi</item>
+        <item>cmi</item>
+        <item>whyred</item>
+        <item>tulip</item>
+        <item>monet</item>
+        <item>angelican</item>
+        <item>apollo</item>
+        <item>gauguin</item>
+        <item>cannong</item>
     </string-array>
     <string-array name="config_alwaysEnableMms_off_array">
         <item>ch</item>
@@ -51,7 +72,31 @@
         <item>3</item>
         <item>4</item>
     </integer-array>
+    <array name="config_bcbc_brt_change_node">
+        <item>0.048852</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.390816</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.586224</item>
+        <item>0.73278</item>
+    </array>
+    <array name="config_bcbc_brt_change_node_disable_auto_brt">
+        <item>0.048852</item>
+        <item>0.073278</item>
+        <item>0.341964</item>
+        <item>0.390816</item>
+        <item>0.073278</item>
+        <item>0.509804</item>
+        <item>0.745098</item>
+        <item>0.854902</item>
+    </array>
     <integer-array name="config_compensateSignalLevelValue">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
@@ -60,6 +105,21 @@
         <item>0</item>
     </integer-array>
     <array name="config_crossSpaceNotificationPackageNames" />
+    <integer-array name="config_hbm_backlight_levels">
+        <item>0</item>
+        <item>3586</item>
+        <item>4095</item>
+    </integer-array>
+    <integer-array name="config_hbm_lux_levels">
+        <item>4500</item>
+        <item>10000</item>
+        <item>20000</item>
+    </integer-array>
+    <integer-array name="config_hbm_nit_levels">
+        <item>21</item>
+        <item>215</item>
+        <item>300</item>
+    </integer-array>
     <integer-array name="config_hightGrayBrightnessLevels">
         <item>150</item>
         <item>500</item>
@@ -112,7 +172,9 @@
     <array name="config_minBrightnessCurvesNits" />
     <string-array name="config_mms_force_unmetered_list">
         <item>260</item>
+        <item>20201</item>
         <item>20801</item>
+        <item>20810</item>
         <item>21401</item>
         <item>21403</item>
         <item>21405</item>
@@ -121,9 +183,12 @@
         <item>22299</item>
         <item>22610</item>
         <item>26201</item>
+        <item>26801</item>
+        <item>28602</item>
         <item>45005</item>
         <item>45006</item>
         <item>45008</item>
+        <item>60202</item>
     </string-array>
     <integer-array name="config_originalLux">
         <item>10</item>
@@ -138,6 +203,8 @@
     <array name="config_virtualKeyUpPattern" />
     <string-array name="empty_initial_attach_apn_plmn">
         <item>20205</item>
+        <item>20801</item>
+        <item>20802</item>
         <item>20810</item>
         <item>20811</item>
         <item>20813</item>
@@ -253,6 +320,28 @@
         <item>1.2</item>
         <item>1.4</item>
     </string-array>
+    <string-array name="high_device_cpu_list">
+        <item>kona</item>
+        <item>msmnile</item>
+    </string-array>
+    <string-array name="high_device_gpu_list">
+        <item>kona</item>
+        <item>msmnile</item>
+    </string-array>
+    <string-array name="key_and_gesture_shortcut_def_function_list">
+        <item>double_click_power_key</item>
+        <item>three_gesture_down</item>
+        <item>three_gesture_long_press</item>
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_menu_key_when_lock</item>
+        <item>double_knock</item>
+        <item>knock_slide_shape</item>
+        <item>knock_long_press_horizontal_slid</item>
+        <item>knock_gesture_v</item>
+        <item>back_double_tap</item>
+        <item>back_triple_tap</item>
+    </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.apps.messaging</item>
         <item>com.google.android.talk</item>
@@ -310,6 +399,21 @@
         <item>com.miui.systemAdSolution</item>
         <item>com.techown.emm</item>
         <item>com.miui.hybrid.accessory</item>
+    </string-array>
+    <string-array name="low_device_cpu_list">
+        <item>msm8953</item>
+        <item>msm8937</item>
+        <item>mt6768</item>
+        <item>mt6765</item>
+    </string-array>
+    <string-array name="low_device_gpu_list">
+        <item>trinket</item>
+        <item>sdm660</item>
+        <item>bengal</item>
+        <item>msm8953</item>
+        <item>msm8937</item>
+        <item>mt6768</item>
+        <item>mt6765</item>
     </string-array>
     <string-array name="max_aspect_ratio_suggest_apps">
         <item>com.tencent.mm</item>
@@ -1355,6 +1459,31 @@
         <item>com.netqin.ps</item>
         <item>com.autonavi.minimap</item>
     </string-array>
+    <string-array name="middle_device_cpu_list">
+        <item>sdm845</item>
+        <item>lito</item>
+        <item>sm6150</item>
+        <item>atoll</item>
+        <item>sdm710</item>
+        <item>trinket</item>
+        <item>sdm660</item>
+        <item>bengal</item>
+        <item>mt6885</item>
+        <item>mt6873</item>
+        <item>mt6853</item>
+        <item>mt6785</item>
+    </string-array>
+    <string-array name="middle_device_gpu_list">
+        <item>sdm845</item>
+        <item>lito</item>
+        <item>sm6150</item>
+        <item>atoll</item>
+        <item>sdm710</item>
+        <item>mt6885</item>
+        <item>mt6873</item>
+        <item>mt6853</item>
+        <item>mt6785</item>
+    </string-array>
     <string-array name="need_trace_list">
         <item>com.android.phone</item>
         <item>com.android.nfc</item>
@@ -1376,6 +1505,7 @@
         <item>da_DK</item>
         <item>de_DE</item>
         <item>et_EE</item>
+        <item>en_AU</item>
         <item>en_IN</item>
         <item>en_GB</item>
         <item>en_US</item>
@@ -1447,6 +1577,49 @@
         <item>zh_TW</item>
         <item>zh_HK</item>
     </string-array>
+    <string-array name="package_static_white_list">
+        <item>android</item>
+        <item>com.miui.home</item>
+        <item>com.mi.android.globallauncher</item>
+        <item>com.xiaomi.joyose</item>
+        <item>com.android.phone</item>
+        <item>com.miui.bugreport</item>
+        <item>com.android.keyguard</item>
+        <item>com.android.bluetooth</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.miui.core</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.xiaomi.xmsf</item>
+        <item>com.miui.sysbase</item>
+        <item>com.google.android.marvin.talkback</item>
+        <item>com.android.updater</item>
+        <item>org.simalliance.openmobileapi.service</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.baidu.duersdk.opensdk</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.google.android.gms</item>
+        <item>com.miui.voip</item>
+        <item>com.qualcomm.qcrilmsgtunnel</item>
+        <item>com.qualcomm.uimremoteclient</item>
+        <item>com.android.vpndialogs</item>
+        <item>com.qti.service.colorservice</item>
+        <item>com.qti.snapdragon.sdk.display</item>
+        <item>com.xiaomi.bluetooth</item>
+        <item>com.xiaomi.metoknlp</item>
+        <item>com.xiaomi.location.fused</item>
+        <item>android.process.acore</item>
+        <item>com.miui.wmsvc</item>
+        <item>com.miui.miwallpaper</item>
+        <item>com.miui.contentextension</item>
+        <item>com.xiaomi.mimobile.cloudsim</item>
+        <item>com.miui.tsmclient</item>
+        <item>com.magiear.handsfree.assistant</item>
+        <item>com.xiaomi.mi_connect_service</item>
+        <item>com.android.permissioncontroller</item>
+        <item>com.ss.android.lark.kami</item>
+        <item>com.miui.maintenancemode</item>
+    </string-array>
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
         <item>com.miui.gallery</item>
@@ -1473,6 +1646,11 @@
         <item>com.miui.mishare.connectivity</item>
         <item>com.miui.notes</item>
         <item>com.milink.service</item>
+        <item>com.xiaomi.vipaccount</item>
+        <item>com.xiaomi.mirror</item>
+    </string-array>
+    <string-array name="process_light_speed_protect_list">
+        <item>com.android.camera</item>
     </string-array>
     <string-array name="process_secretly_protect_list">
         <item>com.tencent.mm</item>
@@ -1481,56 +1659,13 @@
         <item>com.xiaomi.channel:remote</item>
     </string-array>
     <string-array name="process_static_white_list">
-        <item>android</item>
-        <item>com.miui.home</item>
-        <item>com.mi.android.globallauncher</item>
-        <item>com.android.systemui</item>
-        <item>com.xiaomi.joyose</item>
-        <item>com.android.phone</item>
-        <item>com.miui.bugreport</item>
-        <item>com.android.keyguard</item>
-        <item>com.android.bluetooth</item>
-        <item>com.miui.networkassistant</item>
-        <item>com.android.providers.contacts</item>
-        <item>com.miui.core</item>
-        <item>com.android.providers.media</item>
-        <item>com.android.providers.downloads</item>
-        <item>com.xiaomi.xmsf</item>
-        <item>com.miui.sysbase</item>
         <item>com.lbe.security.miui</item>
-        <item>com.google.android.marvin.talkback</item>
-        <item>com.android.updater</item>
-        <item>org.simalliance.openmobileapi.service</item>
-        <item>com.qualcomm.wfd.service</item>
-        <item>com.baidu.duersdk.opensdk</item>
-        <item>com.miui.powerkeeper</item>
-        <item>com.miui.antispam</item>
-        <item>com.miui.securitycenter</item>
-        <item>com.miui.virtualsim</item>
-        <item>com.google.android.gms</item>
-        <item>com.miui.voip</item>
-        <item>com.miui.touchassistant</item>
-        <item>com.qualcomm.qcrilmsgtunnel</item>
-        <item>com.qualcomm.uimremoteclient</item>
-        <item>com.android.vpndialogs</item>
-        <item>com.qti.service.colorservice</item>
-        <item>com.qti.snapdragon.sdk.display</item>
-        <item>com.xiaomi.bluetooth</item>
-        <item>com.xiaomi.metoknlp</item>
-        <item>com.xiaomi.location.fused</item>
-        <item>android.process.acore</item>
-        <item>com.miui.wmsvc</item>
+        <item>com.miui.virtualsim:authentication</item>
+        <item>com.miui.touchassistant:float</item>
+        <item>com.miui.securitycore.remote</item>
+        <item>com.miui.securitycenter.remote</item>
         <item>com.miui.greenguard</item>
-        <item>com.miui.securitycore</item>
-        <item>com.miui.miwallpaper</item>
-        <item>com.miui.contentextension</item>
-        <item>com.xiaomi.mimobile.cloudsim</item>
-        <item>com.miui.tsmclient</item>
         <item>com.miui.aod</item>
-        <item>com.magiear.handsfree.assistant</item>
-        <item>com.xiaomi.mi_connect_service</item>
-        <item>com.android.permissioncontroller</item>
-        <item>com.ss.android.lark.kami</item>
     </string-array>
     <string-array name="screen_key_long_press_default_action">
         <item>voice_assistant</item>
@@ -1539,6 +1674,24 @@
         <item>show_menu</item>
     </string-array>
     <array name="screen_resolution_supported" />
+    <string-array name="tmpfs_pkg_list">
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.hxh</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.netease.hyxd.mi</item>
+        <item>com.netease.onmyoji.mi</item>
+        <item>com.netease.mc.mi</item>
+        <item>com.netease.mrzh.mi</item>
+        <item>com.aligames.kuang.kybc.mi</item>
+        <item>com.imangi.templerun2</item>
+        <item>com.jingdong.app.mall</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.taobao.taobao</item>
+        <item>com.outfit7.talkingtomgoldrun.mi</item>
+        <item>com.happyelements.AndroidAnimal</item>
+    </string-array>
     <integer-array name="vibration_recorder_major_action">
         <item>0</item>
         <item>0</item>

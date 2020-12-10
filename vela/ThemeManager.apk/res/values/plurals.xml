@@ -29,6 +29,38 @@
         <item quantity="other">%d mins ago</item>
         <item quantity="one">1 min ago</item>
     </plurals>
+    <plurals name="anonymous_resource_count_aod">
+        <item quantity="other">%1$d AOD themes</item>
+        <item quantity="one">%1$d AOD theme</item>
+    </plurals>
+    <plurals name="anonymous_resource_count_font">
+        <item quantity="other">%1$d fonts</item>
+        <item quantity="one">%1$d font</item>
+    </plurals>
+    <plurals name="anonymous_resource_count_icon">
+        <item quantity="other">%1$d icons</item>
+        <item quantity="one">%1$d icon</item>
+    </plurals>
+    <plurals name="anonymous_resource_count_theme">
+        <item quantity="other">%1$d themes</item>
+        <item quantity="one">%1$d theme</item>
+    </plurals>
+    <plurals name="anonymous_resource_count_title">
+        <item quantity="other">Add %1$d items</item>
+        <item quantity="one">Add %1$d item</item>
+    </plurals>
+    <plurals name="anonymous_resource_link_success_message">
+        <item quantity="other">Added %1$d items to your account. View added items in your orders.</item>
+        <item quantity="one">Added %1$d item to your account. View added items in your orders.</item>
+    </plurals>
+    <plurals name="anonymous_resource_login_message">
+        <item quantity="other">"You can only download %1$d free items if you aren't signed in (wallpapers and ringtones excluded). Sign in to download items without restrictions."</item>
+        <item quantity="one">"You can only download %1$d free item if you aren't signed in (wallpapers and ringtones excluded). Sign in to download items without restrictions."</item>
+    </plurals>
+    <plurals name="anonymous_resource_view">
+        <item quantity="other">"%1$d items aren't added to your account"</item>
+        <item quantity="one">"%1$d item isn't added to your account"</item>
+    </plurals>
     <plurals name="aod_batch_has_update_text">
         <item quantity="other">Updates for %1$d themes are available</item>
         <item quantity="one">An update for %1$d theme is available</item>
@@ -53,6 +85,14 @@
         <item quantity="other">%1$d more comments</item>
         <item quantity="one">%1$d more comment</item>
     </plurals>
+    <plurals name="detail_reward_few_times">
+        <item quantity="other">%s rewards</item>
+        <item quantity="one">%s reward</item>
+    </plurals>
+    <plurals name="detail_reward_times">
+        <item quantity="other">%s rewards</item>
+        <item quantity="one">%s reward</item>
+    </plurals>
     <plurals name="detail_update_time_hour">
         <item quantity="other">%d hours ago</item>
         <item quantity="one">%d hour ago</item>
@@ -60,6 +100,14 @@
     <plurals name="detail_update_time_minute">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
     </plurals>
     <plurals name="guide_used_number">
         <item quantity="other">Applied on %1$d devices</item>
@@ -103,6 +151,10 @@
     <plurals name="resource_comment_score_count">
         <item quantity="other">%d comments</item>
         <item quantity="one">%d comment</item>
+    </plurals>
+    <plurals name="resource_download_notification_title_many">
+        <item quantity="other">Downloaded %1$d items successfully</item>
+        <item quantity="one">Downloaded %1$d item successfully</item>
     </plurals>
     <plurals name="resource_rating">
         <item quantity="other">%1$.1f points</item>

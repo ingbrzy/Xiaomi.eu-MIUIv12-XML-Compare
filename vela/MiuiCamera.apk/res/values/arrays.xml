@@ -80,6 +80,51 @@
         <item>moon</item>
         <item>group_photo</item>
         <item>statue</item>
+        <item>id_card</item>
+    </string-array>
+    <string-array name="ai_scene_res">
+        <item>@string/ai_scene_mode_unknown</item>
+        <item>@string/ai_scene_mode_doc</item>
+        <item>@string/ai_scene_mode_flower</item>
+        <item>@string/ai_scene_mode_food</item>
+        <item>@string/ai_scene_mode_ppt</item>
+        <item>@string/ai_scene_mode_sky</item>
+        <item>@string/ai_scene_mode_sunrise_sunset</item>
+        <item>@string/ai_scene_mode_cat</item>
+        <item>@string/ai_scene_mode_dog</item>
+        <item>@string/ai_scene_mode_green_plants</item>
+        <item>@string/ai_scene_mode_night</item>
+        <item>@string/ai_scene_mode_snow</item>
+        <item>@string/ai_scene_mode_sea</item>
+        <item>@string/ai_scene_mode_autumn</item>
+        <item>@string/ai_scene_mode_candle_night</item>
+        <item>@string/ai_scene_mode_car</item>
+        <item>@string/ai_scene_mode_grass</item>
+        <item>@string/ai_scene_mode_maple_leaves</item>
+        <item>@string/ai_scene_mode_succulent</item>
+        <item>@string/ai_scene_mode_building</item>
+        <item>@string/ai_scene_mode_city</item>
+        <item>@string/ai_scene_mode_cloud</item>
+        <item>@string/ai_scene_mode_overcast</item>
+        <item>@string/ai_scene_mode_backlight</item>
+        <item>@string/ai_scene_mode_silhouette</item>
+        <item>@string/ai_scene_mode_human</item>
+        <item>@string/ai_scene_mode_jewelry</item>
+        <item>@string/ai_scene_mode_buddha</item>
+        <item>@string/ai_scene_mode_cow</item>
+        <item>@string/ai_scene_mode_curry</item>
+        <item>@string/ai_scene_mode_motorbike</item>
+        <item>@string/ai_scene_mode_temple</item>
+        <item>@string/ai_scene_mode_beach</item>
+        <item>@string/ai_scene_mode_driving</item>
+        <item>@string/ai_scene_mode_tower</item>
+        <item>@string/ai_scene_mode_moon</item>
+        <item>@string/ai_scene_mode_sideface</item>
+        <item>@string/ai_scene_mode_sculpture</item>
+        <item>@string/ai_scene_mode_id_card</item>
+        <item>@string/ai_scene_mode_monkey</item>
+        <item>@string/ai_scene_mode_coconut_tree</item>
+        <item>@string/ai_scene_mode_tutuk</item>
     </string-array>
     <array name="ai_scene_shadow_drawables">
         <item>@drawable/ic_new_ai_scene_off_shadow</item>
@@ -122,6 +167,26 @@
         <item>@drawable/ic_ai_scene_sculpture_shadow</item>
         <item>@drawable/ic_ai_scene_id_card_shadow</item>
     </array>
+    <integer-array name="atom_boost_params">
+        <item>0x00400000</item>
+        <item>2000000</item>
+        <item>0x00400100</item>
+        <item>2000000</item>
+        <item>0x01000000</item>
+        <item>0</item>
+        <item>0x00C00000</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="banana_boost_params">
+        <item>0x00400000</item>
+        <item>2000000</item>
+        <item>0x00400100</item>
+        <item>2000000</item>
+        <item>0x01000000</item>
+        <item>0</item>
+        <item>0x00C00000</item>
+        <item>0</item>
+    </integer-array>
     <string-array name="beauty_level_list">
         <item>@string/beauty_level_1</item>
         <item>@string/beauty_level_2</item>
@@ -140,6 +205,16 @@
         <item>0</item>
     </integer-array>
     <integer-array name="begoniain_boost_params">
+        <item>0x00400000</item>
+        <item>2000000</item>
+        <item>0x00400100</item>
+        <item>2000000</item>
+        <item>0x01000000</item>
+        <item>0</item>
+        <item>0x00C00000</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="bomb_boost_params">
         <item>0x00400000</item>
         <item>2000000</item>
         <item>0x00400100</item>
@@ -183,6 +258,16 @@
         <item>@string/color_effect_live_years</item>
         <item>@string/color_effect_live_deepblack</item>
     </string-array>
+    <integer-array name="portrait_lighting_array_default">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </integer-array>
     <string-array name="pref_camera_antibanding_entries">
         <item>@string/pref_camera_antibanding_entry_0</item>
         <item>@string/pref_camera_antibanding_entry_1</item>
@@ -344,6 +429,34 @@
         <item>@string/pref_camera_volumekey_function_entryvalue_zoom</item>
         <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
     </string-array>
+    <string-array name="pref_camera_volumekey_function_front_entries">
+        <item>@string/pref_camera_volumekey_function_entry_shutter</item>
+        <item>@string/pref_camera_volumekey_function_entry_volume</item>
+    </string-array>
+    <string-array name="pref_camera_volumekey_function_front_entryvalues">
+        <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
+        <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
+    </string-array>
+    <string-array name="pref_camera_volumekey_function_night_entries">
+        <item>@string/pref_camera_volumekey_function_entry_shutter</item>
+        <item>@string/pref_camera_volumekey_function_entry_zoom</item>
+        <item>@string/pref_camera_volumekey_function_entry_volume</item>
+    </string-array>
+    <string-array name="pref_camera_volumekey_function_night_entryvalues">
+        <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
+        <item>@string/pref_camera_volumekey_function_entryvalue_zoom</item>
+        <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
+    </string-array>
+    <string-array name="pref_camera_volumekey_function_portrait_entries">
+        <item>@string/pref_camera_volumekey_function_entry_shutter</item>
+        <item>@string/pref_camera_volumekey_function_entry_timer</item>
+        <item>@string/pref_camera_volumekey_function_entry_volume</item>
+    </string-array>
+    <string-array name="pref_camera_volumekey_function_portrait_entryvalues">
+        <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
+        <item>@string/pref_camera_volumekey_function_entryvalue_timer</item>
+        <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
+    </string-array>
     <string-array name="pref_front_mirror_entries">
         <item>@string/pref_front_mirror_entry_on</item>
         <item>@string/pref_front_mirror_entry_off</item>
@@ -368,10 +481,12 @@
     </string-array>
     <string-array name="pref_pro_video_volumekey_function_entries">
         <item>@string/pref_camera_volumekey_function_entry_shutter</item>
+        <item>@string/pref_camera_volumekey_function_entry_zoom</item>
         <item>@string/pref_camera_volumekey_function_entry_volume</item>
     </string-array>
     <string-array name="pref_pro_video_volumekey_function_entryvalues">
         <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
+        <item>@string/pref_camera_volumekey_function_entryvalue_zoom</item>
         <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
     </string-array>
     <string-array name="pref_video_encoder_entries">
