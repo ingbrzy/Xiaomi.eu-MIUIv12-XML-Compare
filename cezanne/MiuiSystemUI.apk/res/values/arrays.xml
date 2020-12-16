@@ -501,6 +501,8 @@
         <item>com.audible.universal</item>
         <item>com.xiaomi.calendar</item>
         <item>com.ss.android.lark.kami</item>
+        <item>com.orange.phone.mea</item>
+        <item>com.orange.labs.dialler</item>
     </string-array>
     <string-array name="config_allowNotificationSlide">
         <item>com.tencent.mm</item>
@@ -594,6 +596,12 @@
         <item>com.ss.android.lark</item>
         <item>cn.xuexi.android</item>
     </string-array>
+    <string-array name="config_charge_supportWirelessStrongSuper">
+        <item>cas</item>
+        <item>venus</item>
+        <item>star</item>
+        <item>mars</item>
+    </string-array>
     <array name="config_controlsPreferredPackages" />
     <string-array name="config_disableAutoGroupSummaryPackages">
         <item>com.xiaomi.xmsf</item>
@@ -616,14 +624,12 @@
         <item>0</item>
     </integer-array>
     <string-array name="config_drip_left_statusBarIcons">
-        <item>quiet</item>
         <item>zen</item>
-        <item>mute</item>
         <item>volume</item>
-        <item>micphone</item>
-        <item>headset</item>
-        <item>speakerphone</item>
         <item>alarm_clock</item>
+        <item>headset</item>
+        <item>micphone</item>
+        <item>ble_unlock_mode</item>
     </string-array>
     <string-array name="config_drip_right_block_statusBarIcons">
         <item>micphone</item>
@@ -632,7 +638,7 @@
         <item>call_record</item>
         <item>privacy_mode</item>
         <item>ble_unlock_mode</item>
-        <item>quiet</item>
+        <item>zen</item>
         <item>gps</item>
         <item>missed_call</item>
         <item>ime</item>
@@ -643,8 +649,6 @@
         <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
-        <item>zen</item>
-        <item>mute</item>
         <item>volume</item>
         <item>alarm_clock</item>
     </string-array>
@@ -707,7 +711,7 @@
         <item>call_record</item>
         <item>privacy_mode</item>
         <item>ble_unlock_mode</item>
-        <item>quiet</item>
+        <item>zen</item>
         <item>gps</item>
         <item>missed_call</item>
         <item>managed_profile</item>
@@ -721,8 +725,6 @@
         <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
-        <item>zen</item>
-        <item>mute</item>
         <item>volume</item>
         <item>alarm_clock</item>
         <item>vpn</item>

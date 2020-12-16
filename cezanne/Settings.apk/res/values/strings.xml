@@ -425,6 +425,8 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="advanced_security_title">Advanced</string>
     <string name="advanced_settings">Additional settings</string>
     <string name="advanced_settings_summary">Enable more settings options</string>
+    <string name="aggregate_rule_group_disabled">"Don't group"</string>
+    <string name="aggregate_rule_group_enabled">Group</string>
     <string name="aggregate_title">Rules for grouping notifications</string>
     <string name="agps_roaming">A-GPS when roaming</string>
     <string name="agps_roaming_dia">"Using A-GPS while roaming may increase your mobile data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
@@ -514,8 +516,9 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="aod_and_lock_screen_settings_title">Always-on display &amp; Lock screen</string>
     <string name="aod_close_color_inversion">"This feature doesn't work with color inversion. Turn off color inversion first."</string>
     <string name="aod_name_wanxiang">Always-on display</string>
-    <string name="aod_notification_style_animation">Show animation</string>
-    <string name="aod_notification_style_none">Do nothing</string>
+    <string name="aod_notification_style">Notification effect</string>
+    <string name="aod_notification_style_animation">Animation</string>
+    <string name="aod_notification_style_none">None</string>
     <string name="aod_notification_style_screen_on">Light up screen</string>
     <string name="aod_settings_category_name">Always-on display</string>
     <string name="aod_settings_title">Always-on display</string>
@@ -2589,7 +2592,17 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="doze_always_on_title">Always-on display</string>
     <string name="doze_summary">When screen is dark, it turns on for new notifications</string>
     <string name="doze_title">Wake screen for notifications</string>
+    <string name="dpp_before_share_summary">Share the \"%1$s\" WLAN network with another person?</string>
+    <string name="dpp_cannot_connect_target">"Can't connect to the target network"</string>
+    <string name="dpp_connect_success">Connected successfully</string>
+    <string name="dpp_not_support">"Can't share this network"</string>
+    <string name="dpp_qr_code_summary">Connect to a WLAN network by scanning this QR code.</string>
     <string name="dpp_qrcode_generator_summary">Scan this QR code with a device that supports Easy Connect</string>
+    <string name="dpp_scanner_summary">Place QR code inside the frame</string>
+    <string name="dpp_shared_fail">"Couldn't share WLAN"</string>
+    <string name="dpp_shared_success">Shared WLAN successfully</string>
+    <string name="dpp_sharing_wifi_summary">Sharing WLAN…</string>
+    <string name="dpp_theme_title">Shared WLAN</string>
     <string name="draw_overlay">Display over other apps</string>
     <string name="dsu_is_running">DSU is running</string>
     <string name="dsu_loader_description">Load a Dynamic System Update Image</string>
@@ -2875,6 +2888,7 @@ For more details, contact your organization's admin."</string>
     <string name="face_unlock_offset_right">Move to the left</string>
     <string name="face_unlock_offset_top">Raise your phone a bit</string>
     <string name="face_unlock_open_eye">Open your eyes a bit wider</string>
+    <string name="face_unlock_prompt">Face unlock prompt</string>
     <string name="face_unlock_quality">"Couldn't see your face clearly"</string>
     <string name="face_unlock_reveal_eye">Make your eyes visible</string>
     <string name="face_unlock_reveal_mouth">Make your lips visible</string>
@@ -3017,6 +3031,9 @@ For more details, contact your organization's admin."</string>
     <string name="floating_window_switch_label_disable">Turn off floating windows</string>
     <string name="fluency_mode">System animations</string>
     <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
+    <string name="fold_rule_default">Recommended</string>
+    <string name="fold_rule_important">Important</string>
+    <string name="fold_rule_unimportant">Unimportant</string>
     <string name="fold_title">Rules for grouped notifications</string>
     <string name="font_size_exhuge">Extra Huge</string>
     <string name="font_size_huge">Huge</string>
@@ -3209,6 +3226,10 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
     <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
     <string name="gxzw_anim_aurora">Aurora</string>
+    <string name="gxzw_anim_dialog_cancel_enroll">Cancel</string>
+    <string name="gxzw_anim_dialog_enroll">OK</string>
+    <string name="gxzw_anim_dialog_message">Add your fingerprint to be able to see fingerprint animation. Add now?</string>
+    <string name="gxzw_anim_dialog_title">Add fingerprint</string>
     <string name="gxzw_anim_light">Neon</string>
     <string name="gxzw_anim_pulse">Pulse</string>
     <string name="gxzw_anim_rhythm">Rhythm</string>
@@ -5919,6 +5940,7 @@ This setting affects all users on this phone."</string>
     <string name="screen_enhance_engine_ai_open">Enhance images</string>
     <string name="screen_enhance_engine_ai_pic_summary">Identify objects (e.g. plants, animals, buildings) and dynamically adjust display effects. This feature slightly increases power consumption.</string>
     <string name="screen_enhance_engine_ai_title">AI image enhancement</string>
+    <string name="screen_enhance_engine_memc_note">"Can't enhance videos when super resolution is on. By turning on enhanced videos, you'll turn off super resolution."</string>
     <string name="screen_enhance_engine_memc_open">MEMC</string>
     <string name="screen_enhance_engine_memc_pic_summary">Add additional frames to videos to make content appear smooth and transitions lively.</string>
     <string name="screen_enhance_engine_memc_title">MEMC</string>
@@ -5927,7 +5949,9 @@ This setting affects all users on this phone."</string>
     <string name="screen_enhance_engine_s2h_title">AI HDR enhancement</string>
     <string name="screen_enhance_engine_sr_for_pic">Enhance images</string>
     <string name="screen_enhance_engine_sr_for_video">Enhance videos</string>
+    <string name="screen_enhance_engine_sr_for_video_note">"Super resolution doesn't work with enhanced videos. By turning on super resolution, you'll turn off enhanced videos."</string>
     <string name="screen_enhance_engine_sr_pic_summary">Upscale the resolution of images or videos up to 1440p. This feature is supported by selected apps and slightly increases power consumption.</string>
+    <string name="screen_enhance_engine_sr_pic_summary_video_only">Upscale the resolution of videos up to 1440p. This feature is supported by selected apps and slightly increases power consumption.</string>
     <string name="screen_enhance_engine_sr_title">Super resolution</string>
     <string name="screen_enhance_engine_title">AI image engine</string>
     <string name="screen_enhance_status_disable">Off</string>
@@ -6592,6 +6616,8 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="show_background_processes">Show cached processes</string>
     <string name="show_badge_notifications_short">Badges</string>
     <string name="show_carrier_under_keyguard_title">Show carrier when device is locked</string>
+    <string name="show_charging_in_non_lockscreen_animation">Display charging animation after device is unlocked</string>
+    <string name="show_charging_in_non_lockscreen_animation_summary">Keep displaying charging animation after your device is unlocked hiding it only for video playback and other similar fullscreen scenes</string>
     <string name="show_connected_devices_summary">View connected devices</string>
     <string name="show_connected_devices_title">Connected devices</string>
     <string name="show_dev_already">No need, you are already a developer.</string>
