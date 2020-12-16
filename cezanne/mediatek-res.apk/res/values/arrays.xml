@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="block_review_pkgs">
+        <item>com.broadthinking.omaApk</item>
+        <item>com.broadthinking.gpacApkOne</item>
+        <item>com.broadthinking.gpacApkTwo</item>
+        <item>com.mobiletools.systemhelper</item>
+        <item>com.cttl.testService</item>
+    </string-array>
+    <string-array name="bootup_mode">
+        <item>Dual SIMs</item>
+        <item>SIM1</item>
+        <item>SIM2</item>
+    </string-array>
+    <string-array name="config_auto_boot_policy_intent_list">
+        <item>android.intent.action.BOOT_COMPLETED</item>
+    </string-array>
+    <integer-array name="config_enabled_resize_directions">
+        <item>16</item>
+    </integer-array>
+    <string-array name="dtag_dual_apn_plmn_list">
+        <item>26201</item>
+        <item>21901</item>
+        <item>23203</item>
+        <item>22603</item>
+        <item>22606</item>
+        <item>20201</item>
+        <item>23001</item>
+    </string-array>
+    <array name="force_add_send_email_pkgs" />
+    <array name="force_add_send_mms_pkgs" />
+    <array name="force_review_pkgs" />
+    <string-array name="gprs_mode_1">
+        <item>SIM1</item>
+        <item>Do not connect data.</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="gprs_mode_2">
+        <item>SIM2</item>
+        <item>Do not connect data.</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="new_search_engines">
+        <item>--</item>
+        <item>start--Start--mt.start.fyi--search_engine_other--http://mt.start.fyi/search?ie={inputEncoding}&amp;source=browser#gsc.q={searchTerms}--UTF-8--http://www.google.com/complete/search?hl={language}&amp;json= true&amp;q={searchTerms}</item>
+        <item>yahoo--Yahoo!--yahoo.com--search_engine_yahoo--https://search.yahoo.com/search?ei={inputEncoding}&amp;.tsrc=mtkandroid&amp;p={searchTerms}--UTF-8--http://sugg.search.yahoo.com/gossip/?output=fxjson&amp;command={searchTerms}</item>
+        <item>google--Google--google.com--search_engine_google--http://www.google.com/m?hl={language}&amp;ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}--UTF-8--http://www.google.com/complete/search?hl={language}&amp;json=true&amp;q={searchTerms}</item>
+        <item>bing--Bing--bing.com--search_engine_bing--http://www.bing.com/search?q={searchTerms}--UTF-8--http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+    </string-array>
+    <string-array name="operator_support_omh_list">
+        <item>40589</item>
+        <item>40400</item>
+        <item>42103</item>
+    </string-array>
+    <string-array name="signature_app_list">
+        <item>android</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.contacts</item>
+        <item>com.android.mms</item>
+    </string-array>
+</resources>
