@@ -597,10 +597,20 @@ and adjust preferences automatically"</string>
     <string name="confirm_restore_message">"Restore Camera's default settings?"</string>
     <string name="confirm_restore_title">Restore default settings</string>
     <string name="copy">Copy</string>
+    <string name="cta_mimoji_msg">欢迎您使用小米萌拍！您可使用本应用以实现拍照和视频录制功能。为提供基本服务，我们需要联网以及调用您的如下权限或功能，以收集必要的个人信息：</string>
+    <string name="cta_mimoji_perm_type">必要权限（用于该应用的基本服务与功能）</string>
+    <string name="cta_mimoji_user_links"><Data>请您阅读并同意&lt;a href =%1$s>《用户协议》&lt;/a>与&lt;a href =%2$s>《隐私政策》。&lt;/a></Data></string>
+    <string name="cta_mimoji_user_tips">如果您不同意调用以上必要权限，将导致本应用无法正常运行。如果您不同意调用以上可选权限，将导致该功能无法正常使用，但不影响您使用本应用的基本功能。您可随时前往“设置”>“权限管理”选择关闭以上权限调用以撤回您的同意。</string>
     <string name="cta_msg">Welcome to Camera! You can use this app to take photos and shoot videos. This app needs to connect to the internet and requires the following optional permissions:</string>
+    <string name="cta_perm_cam">使用摄像头</string>
+    <string name="cta_perm_cam_desc">用于拍摄照片</string>
     <string name="cta_perm_dec">For adding location info to photos and videos</string>
     <string name="cta_perm_loc">Location</string>
+    <string name="cta_perm_storage">读写设备上的照片</string>
+    <string name="cta_perm_storage_desc">用于存储和查看拍摄的照片</string>
     <string name="cta_perm_type">"Optional permissions (Used for additional features while you're using them)"</string>
+    <string name="cta_perm_voice">使用麦克风</string>
+    <string name="cta_perm_voice_desc">用于拍摄视频时录制声音</string>
     <string name="cta_user_tips"><Data>To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href =%1$s>User Agreement&lt;/a> and &lt;a href =%2$s>Privacy Policy&lt;/a>.</Data></string>
     <string name="custom_sound_art">Retro</string>
     <string name="custom_sound_default">Default</string>
@@ -774,7 +784,6 @@ and then create a shot where everyone looks best."</string>
     <string name="id_card_mode_use_hint_text_body">"Combine both sides of your ID in one image.
 Print the copy wirelessly on A4 paper."</string>
     <string name="id_card_mode_use_hint_text_title">Scan ID</string>
-    <string name="ijkplayer_dummy" />
     <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
     <string name="install_confirmed">Install</string>
     <string name="kaleidoscope_fragment_tab_name">Kaleidoscope</string>
@@ -865,6 +874,7 @@ in Portrait mode"</string>
 look larger on photos"</string>
     <string name="macro_mode_use_hint_text_title">Macro</string>
     <string name="makeup_reset_toast">Cleared makeup effects successfully</string>
+    <string name="manual_picture_style">照片风格</string>
     <string name="manually_raw_hint">RAW</string>
     <string name="masterfilter_description_title">滤镜介绍</string>
     <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
@@ -920,6 +930,9 @@ look larger on photos"</string>
     <string name="mimoji_detect_skincolor_failed">"Couldn't detect skin color"</string>
     <string name="mimoji_detect_tips">Keep your face inside the frame</string>
     <string name="mimoji_detect_unknow_failed">Unknown error</string>
+    <string name="mimoji_download_material_hint">新建/编辑拟人形象，需要下载资源包。</string>
+    <string name="mimoji_download_material_title">下载提醒</string>
+    <string name="mimoji_downloading">下载中</string>
     <string name="mimoji_ear">Ears</string>
     <string name="mimoji_earring">Earrings</string>
     <string name="mimoji_edit_abandon_alert">Discard all changes?</string>
@@ -1503,6 +1516,8 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_touchafaec_default">touch-on</string>
     <string name="pref_camera_touchafaec_entry_off">Off</string>
     <string name="pref_camera_touchafaec_entry_on">On</string>
+    <string name="pref_camera_track_focus_preferred_description">xxxxxxxxxxxxxxxxx</string>
+    <string name="pref_camera_track_focus_preferred_title">xxxx</string>
     <string name="pref_camera_ubifocus_title">Refocus</string>
     <string name="pref_camera_ultra_wide_ldc_description">Correct distorted objects automatically</string>
     <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in ultra wide shots</string>
@@ -1590,6 +1605,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_google_lens_summary">Point your camera at contact info, URLs, and QR codes to view available options</string>
     <string name="pref_google_lens_title">Lens suggestions</string>
     <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
+    <string name="pref_hdr10_hdr10plus_video_mode_description">Optimize colors for 4K (HDR10+) and 8K (HDR10) videos. This feature only works on HDR10+/HDR10 compatible devices.</string>
     <string name="pref_hdr10_video_mode_description">Optimize colors and contrast for 4K and 8K videos automatically. Optimized videos can only be played on HDR10 compatible devices.</string>
     <string name="pref_hdr10_video_mode_title">HDR10</string>
     <string name="pref_hdr10plus_video_mode_description">Optimize colors and adjust contrast for 4K and 8K videos. This feature only works on HDR10+ compatible devices.</string>
@@ -1646,6 +1662,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_skin_beautify_smooth_default">5</string>
     <string name="pref_skin_beautify_smooth_title">Skin</string>
     <string name="pref_userdefine_watermark_title">Custom watermark</string>
+    <string name="pref_video_ai_audio_single">22222</string>
     <string name="pref_video_autoexposure_default">1</string>
     <string name="pref_video_captrue_ability_title">Image capture while recording</string>
     <string name="pref_video_denoise_off">Off</string>
@@ -1717,6 +1734,9 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_watermark_title">Watermark</string>
     <string name="pref_wind_denoise_title">Wind filter</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="prek_b_j_o">00000</string>
+    <string name="prek_b_j_p">11111</string>
+    <string name="prep_video_ai_audio_single_desc_tip">33333</string>
     <string name="preparing_sd">Checking SD card…</string>
     <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
     <string name="pro_color_mode">Pro color</string>
@@ -1729,6 +1749,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="recommend_super_night">Try the Night mode</string>
     <string name="record_back_pressed_hint">Tap again to stop recording</string>
     <string name="required_permissions">android.permission.CAMERA;android.permission.RECORD_AUDIO;android.permission.READ_EXTERNAL_STORAGE;android.permission.WRITE_EXTERNAL_STORAGE;</string>
+    <string name="reset_manual_picture_style_toast">照片风格参数已重置</string>
     <string name="reset_manually_parameter_confirmed">OK</string>
     <string name="reset_manually_parameter_hint">Reset</string>
     <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
