@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ANT_set_title">set ant</string>
-    <string name="DSI_configuration_set">set DSI</string>
-    <string name="DSI_setting">DSI</string>
-    <string name="DSI_value_get">get DSI</string>
     <string name="FpTest">FpTest Run</string>
     <string name="FpTest_result">FpTest result:</string>
     <string name="SDCard">SD Card</string>
@@ -66,7 +62,6 @@
     <string name="algo_version">算法版本:</string>
     <string name="all_tilt_angle">全局倾斜度:</string>
     <string name="allow_gpu_maxfreq_summary">GPU overfreq experimental mode could introduce power issues or even more severe problems. However, they will be restored once you turn this mode off. Turn on GPU maxfreq mode?</string>
-    <string name="ant_setting">ant</string>
     <string name="app_name">CIT</string>
     <string name="app_name_far_frr">FRR/FAR测试</string>
     <string name="app_name_goodix">Goodix指纹测试</string>
@@ -84,7 +79,6 @@
     <string name="bad_pixel_num">全局坏点数:</string>
     <string name="bad_point_touch_sensor">通过平头橡胶头按压指纹模组</string>
     <string name="badpoint_category">坏点测试</string>
-    <string name="band_config_setting">BAND</string>
     <string name="battery_authentic">BatteryAuthentic</string>
     <string name="battery_dual_connector">Battery Second Connector</string>
     <string name="battery_id">Battery ID:</string>
@@ -136,7 +130,6 @@ Charger test end, please plug out the charger"</string>
     <string name="cit_OTG_waiting_in_charge">Connect USB OTG device now</string>
     <string name="cit_OTG_waiting_out">Please plug ont USB_OTG device，and reverse plug in</string>
     <string name="cit_Reserse_charge_check_title">Reverse charge test</string>
-    <string name="cit_SAR_TEST_TOOL">SAR TEST START</string>
     <string name="cit_abnormal_reboot_summary">Please wait...Reading stability data on this device.</string>
     <string name="cit_abnormal_reboot_title">Device Stability Data</string>
     <string name="cit_ac_charger_in">Charging via (USB_DCP)</string>
@@ -266,6 +259,7 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
     <string name="cit_camera_fast_check_title">Camera fast test</string>
     <string name="cit_camera_rearsub">Back secondary camera test in progress, please wait....</string>
     <string name="cit_camera_sdcard_error">"Can't take photo. SD card is full."</string>
+    <string name="cit_camerasfr_test">Parsing picture, please wait....</string>
     <string name="cit_charge_usb_dcp">Charging：USB_DCP</string>
     <string name="cit_charge_usb_hvdcp">Charging：USB_HVDCP</string>
     <string name="cit_charge_usb_pd">Charging：USB_PD</string>
@@ -326,7 +320,7 @@ and reverse plug in the charger"</string>
     <string name="cit_fm_audio_path_headset">Headphones</string>
     <string name="cit_fm_audio_path_speaker">Speaker</string>
     <string name="cit_fm_check_summary">"This will test the device's FM function
-Before test you have to insert the headset and turn off FM related applications"</string>
+Before test you have to insert the headset"</string>
     <string name="cit_fm_check_title">FM Radio</string>
     <string name="cit_fm_close">Close FM</string>
     <string name="cit_fm_not_supported">"This device doesn't support FM"</string>
@@ -502,10 +496,8 @@ When calibrating, make sure there's nothing between the sensor and your hand (e.
     <string name="cit_rgb_check_blue_light">RGB blue</string>
     <string name="cit_rgb_check_green_light">RGB green</string>
     <string name="cit_rgb_check_red_light">RGB red</string>
-    <string name="cit_sar_get_status_title">GET DSI VALUE</string>
     <string name="cit_sar_sensor_check_summary">Values for sar sensor channels should appear below, cover the button of the phone, if data changed, the function is good, Please be careful not to hold the device and keep the bottom clean of the cell phone!</string>
     <string name="cit_sar_sensor_check_title">SAR Sensor</string>
-    <string name="cit_sar_setting_config_title">SAR TEST SETTING</string>
     <string name="cit_sd_fail">An error occurred.</string>
     <string name="cit_sd_mount">Mount SD card</string>
     <string name="cit_sd_mount_sucess">SD card mounted</string>
@@ -679,22 +671,15 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
     <string name="cit_tool_bluetooth_not_on">Bluetooth is NOT enabled</string>
     <string name="cit_tool_bluetooth_off">Disable Bluetooth</string>
     <string name="cit_tool_bluetooth_on">Enable Bluetooth</string>
-    <string name="cit_tool_bluetooth_rse">Enter Bluetooth RSE Test Mode</string>
-    <string name="cit_tool_bluetooth_rse_chain">antenna:</string>
-    <string name="cit_tool_bluetooth_rse_channel">channel:</string>
-    <string name="cit_tool_bluetooth_rse_mode">mode:</string>
-    <string name="cit_tool_bluetooth_rse_power">Pwr/Lv:</string>
     <string name="cit_tool_bluetooth_tx_burst">TX: BR/EDR</string>
     <string name="cit_tool_bluetooth_tx_burst_run">RUN</string>
     <string name="cit_tool_bluetooth_tx_chain">antenna:</string>
     <string name="cit_tool_bluetooth_tx_channel">channel:</string>
-    <string name="cit_tool_bluetooth_tx_h">Enter Bluetooth carrier 2.480GHz Freq Test Mode</string>
-    <string name="cit_tool_bluetooth_tx_l">Enter Bluetooth carrier 2.402GHz Freq Test Mode</string>
+    <string name="cit_tool_bluetooth_tx_h">Enter Bluetooth BR/EDR 2.480GHz Freq Test Mode</string>
+    <string name="cit_tool_bluetooth_tx_l">Enter Bluetooth BR/EDR 2.402GHz Freq Test Mode</string>
     <string name="cit_tool_bluetooth_tx_level">Pwr/Lv:</string>
-    <string name="cit_tool_bluetooth_tx_m">Enter Bluetooth carrier 2.441GHz Freq Test Mode</string>
+    <string name="cit_tool_bluetooth_tx_m">Enter Bluetooth BR/EDR 2.441GHz Freq Test Mode</string>
     <string name="cit_tool_bluetooth_tx_power">Pwr/dBm:</string>
-    <string name="cit_tool_bluetooth_tx_rse">"TX: RSE     "</string>
-    <string name="cit_tool_bluetooth_tx_rse_run">RUN</string>
     <string name="cit_tool_bluetooth_tx_type">BR0/EDR1:</string>
     <string name="cit_tool_cal_accelerometer">Acc Calibration Tool</string>
     <string name="cit_tool_cal_camera">Camera Calibration Tool</string>
@@ -775,7 +760,6 @@ The second line shows the name and version number of Default MBN and Carrier MBN
     <string name="cit_tool_prx_drx_stop_test">Stop Test</string>
     <string name="cit_tool_prx_only">PRX</string>
     <string name="cit_tool_rf_ant">RF/Antenna tools</string>
-    <string name="cit_tool_sar_test_tool_title">SAR TEST TOOL</string>
     <string name="cit_tool_select_all">Select All</string>
     <string name="cit_tool_select_none">Select None</string>
     <string name="cit_tool_select_opposite">Select Opposite</string>
@@ -1008,8 +992,8 @@ the specified position"</string>
     <string name="frr_value">拒真率：</string>
     <string name="fw_cfg_reset">恢复默认固件和配置</string>
     <string name="fw_version">固件版本:</string>
-    <string name="get_DSI_result">DSI result</string>
     <string name="get_base_finger">Extract Image:get base finger</string>
+    <string name="get_dsi_tips">Get DSI</string>
     <string name="get_feature_time">提取特征耗时:</string>
     <string name="get_finger_data">Extract Image:sampling finger data</string>
     <string name="get_gsc_time">采集活体data耗时</string>
@@ -1195,7 +1179,6 @@ Click the Push Camera Button to see if the camera comes in"</string>
     <string name="push_camera">Push Camera</string>
     <string name="radio_boy">Man voice</string>
     <string name="radio_chinese">Chinese</string>
-    <string name="radio_configuration_set">set radio configuration</string>
     <string name="radio_english">English</string>
     <string name="radio_gril">Woman voice</string>
     <string name="radio_info_asdiv_switch_label">ASDiv Status:</string>
@@ -1235,7 +1218,6 @@ Click the Push Camera Button to see if the camera comes in"</string>
     <string name="radio_info_unknown">Unknown</string>
     <string name="radio_info_voice_network_type_label">Voice Network Type:</string>
     <string name="radio_no">Can not hear</string>
-    <string name="rat_config_setting">RAT</string>
     <string name="real_finger_touch_sensor">通过手指按压指纹模组</string>
     <string name="reboot_prompt">重启提示</string>
     <string name="reboot_prompt_detail">重启手机之后内存测试正常运行！</string>
@@ -1282,8 +1264,6 @@ After the value of CS0 is less than 500 and the value of CS2 greater than 5000
 Hold the other hand close to the bottom of the phone
 Look at the value of CS0
 The value of CS0 ranges from 3000 to 30000 , the pass button is highlight"</string>
-    <string name="sar_sensor_set">set sar sensor</string>
-    <string name="sar_sensor_setting">sar sensor state</string>
     <string name="sar_sensor_test_description">Sar Sensor Calibrate and Data Collect</string>
     <string name="sar_sensor_test_err_angle">The phone is not placed at the right angle</string>
     <string name="sar_sensor_test_next_step">Control baffle close to mobile phone</string>
@@ -1432,11 +1412,6 @@ Please click the appropriate button according to the number you hear"</string>
     <string name="test_spi_performance_title">SPI性能测试:</string>
     <string name="test_spi_title">SPI测试:</string>
     <string name="test_succeed">成功</string>
-    <string name="test_success_tips" formatted="false">成功条件: %s%d</string>
-    <string name="test_success_tips_float" formatted="false">成功条件: %s%s</string>
-    <string name="test_success_tips_multi_case" formatted="false">成功条件: %s%s or %s</string>
-    <string name="test_success_tips_multi_case_and" formatted="false">成功条件: %s%s %s</string>
-    <string name="test_success_tips_string" formatted="false">成功条件：%s%s</string>
     <string name="test_top_mic">Top MIC</string>
     <string name="test_top_speaker">top_speaker</string>
     <string name="test_unfinished">未完成</string>
@@ -1552,7 +1527,6 @@ Please click the appropriate button according to the number you hear"</string>
     <string name="tp_rawdate_summery">TP Rawdata(ITO) test,Do not touch the screen during the test</string>
     <string name="tp_version">TP Version:</string>
     <string name="transmitter_receiver_confirm">Did you hear the sound?</string>
-    <string name="tx_max_power_result">TX POWER</string>
     <string name="under_saturated_pixel_num">下饱和点个数:</string>
     <string name="unknown">未知</string>
     <string name="unlock">Unlock</string>

@@ -38,6 +38,8 @@
     <string name="bluetooth_sap_notif_ticker">Bluetooth SIM Access</string>
     <string name="bluetooth_sap_notif_title">Bluetooth SIM access</string>
     <string name="bluetooth_share_file_name">bluetooth_content_share</string>
+    <string name="bt_audio_share_notification_content">Tap to view options</string>
+    <string name="bt_audio_share_notification_title">Sharing audio</string>
     <string name="bt_enable_cancel">Cancel</string>
     <string name="bt_enable_line1">To use Bluetooth services, you must first turn on Bluetooth.</string>
     <string name="bt_enable_line2">Turn on Bluetooth now?</string>
@@ -74,8 +76,10 @@
     <string name="download_succ_ok">Open</string>
     <string name="download_success">%1$s Received complete.</string>
     <string name="download_title">File transfer</string>
+    <string name="email_ui_package">com.android.email</string>
     <string name="enabling_progress_content">Turning on Bluetooth…</string>
     <string name="enabling_progress_title">Please wait…</string>
+    <string name="exposure_notification_package">com.google.android.gms</string>
     <string name="inbound_history_title">Inbound transfers</string>
     <string name="inbound_noti_title">Bluetooth share: Received files</string>
     <string name="incoming_file_confirm_Notification_content">%1$s is ready to send %2$s</string>
@@ -99,6 +103,7 @@
     <string name="not_exist_file">No file</string>
     <string name="not_exist_file_desc">"The file doesn't exist. 
 "</string>
+    <string name="notice_audio_share_disconnected">No longer sharing audio due to interrupted connection</string>
     <string name="notification_received">Bluetooth share: Received %1$s</string>
     <string name="notification_received_fail">Bluetooth share: File %1$s not received</string>
     <string name="notification_receiving">Bluetooth share: Receiving %1$s</string>
@@ -174,7 +179,6 @@
     <string name="upload_fail_cancel">Close</string>
     <string name="upload_fail_line1">"The file wasn't sent to \"%1$s\"."</string>
     <string name="upload_fail_line1_2">File: %1$s</string>
-    <string name="upload_fail_ok">Try again</string>
     <string name="upload_line1">To: \"%1$s\"</string>
     <string name="upload_line3">File type: %1$s (%2$s)</string>
     <string name="upload_line5">Sending file…</string>
