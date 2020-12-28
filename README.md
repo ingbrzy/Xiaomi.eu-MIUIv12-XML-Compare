@@ -1,6 +1,6 @@
-[![MIUI12 logo](https://i.imgur.com/qLcFcYE.png)](https://xiaomi.eu/)
+[![MIUI12 logo](https://i.imgur.com/etEBUXw.png)](https://xiaomi.eu/)
 
-# MIUI 12 Daily XML changes by xiaomi.eu / miui.com
+# MIUI 12.5 Daily XML changes by xiaomi.eu / miui.com
 
 [![License: CC BY-NC-SA 3.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%203.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
