@@ -188,6 +188,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Checked in %d days in a row</item>
         <item quantity="one">Checked in %d time</item>
     </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"Try Voice changer now
+to get a %d-day free trial!"</item>
+    </plurals>
     <plurals name="gb_voice_changer_trial_gain_fail">
         <item quantity="other">"Couldn't receive a %d-day free trial"</item>
         <item quantity="one">"Couldn't receive a %d-day free trial"</item>
@@ -201,9 +205,9 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="one">Get a %d-day free trial</item>
     </plurals>
     <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
-        <item quantity="other">"Your subscriptions expired.
+        <item quantity="other">"Your subscription expired.
 You can get a %d-day free trial now!"</item>
-        <item quantity="one">"Your subscriptions expired.
+        <item quantity="one">"Your subscription expired.
 You can get a %d-day free trial now!"</item>
     </plurals>
     <plurals name="gb_voice_changer_user_tips_info">
@@ -301,6 +305,10 @@ You can get a %d-day free trial now!"</item>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Connect at least %d dots</item>
         <item quantity="one">Connect at least %d dot</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">Connect at least %s dots</item>
+        <item quantity="one">Connect at least %s dot</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">"Wait for %d seconds and try again. "</item>
@@ -567,7 +575,7 @@ You can get a %d-day free trial now!"</item>
         <item quantity="one">%d app autostarts frequently</item>
     </plurals>
     <plurals name="power_optimize_close_app_summary">
-        <item quantity="other">%d apps drains battery</item>
+        <item quantity="other">%d apps drain battery</item>
         <item quantity="one">%d app drains battery</item>
     </plurals>
     <plurals name="pp_times">
@@ -721,6 +729,14 @@ You can get a %d-day free trial now!"</item>
     <plurals name="uninstall_game_count_title">
         <item quantity="other">"Haven't added %d games"</item>
         <item quantity="one">"Haven't added %d game"</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">Connect at least %s dots</item>
+        <item quantity="one">Connect at least %s dot</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">Enter %s digits</item>
+        <item quantity="one">Enter %s digit</item>
     </plurals>
     <plurals name="videobox_settings_manager_apps_count">
         <item quantity="other">%d apps</item>
