@@ -29,17 +29,17 @@
         <item quantity="other">%d mins ago</item>
         <item quantity="one">1 min ago</item>
     </plurals>
-    <plurals name="clipboard_ai_allow_more">
-        <item quantity="other">Allowed %1$s to access items in the clipboard automatically %2$d times</item>
-        <item quantity="one">Allowed %1$s to access items in the clipboard automatically %2$d time</item>
+    <plurals name="download_canceled_title_multi">
+        <item quantity="other">Rejected %2$d files, including %1$s</item>
+        <item quantity="one">Rejected %2$d file, including %1$s</item>
     </plurals>
-    <plurals name="clipboard_read_ai_deny_more">
-        <item quantity="other">Blocked %2$d attempts to access to clipboard for %1$s</item>
-        <item quantity="one">Blocked %2$d attempt to access to clipboard for %1$s</item>
+    <plurals name="download_succeeded_title_multi">
+        <item quantity="other">Received %2$d files, including %1$s</item>
+        <item quantity="one">Received %2$d file, including %1$s</item>
     </plurals>
-    <plurals name="clipboard_read_allow_more">
-        <item quantity="other">%1$s accessed items in the clipboard %2$d times</item>
-        <item quantity="one">%1$s accessed items in the clipboard %2$d time</item>
+    <plurals name="download_title_multi">
+        <item quantity="other">%2$d files, including %1$s</item>
+        <item quantity="one">%2$d file, including %1$s</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Half an hour ago</item>
@@ -67,13 +67,5 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">1 minute ago</item>
-    </plurals>
-    <plurals name="perm_manager_suggest_allow_content">
-        <item quantity="other">"You've allowed %2$s to access the clipboard %1$d times already. Do you want to always allow %3$s to access the clipboard?"</item>
-        <item quantity="one">"You've allowed %2$s to access the clipboard %1$d time already. Do you want to always allow %3$s to access the clipboard?"</item>
-    </plurals>
-    <plurals name="perm_manager_suggest_deny_content">
-        <item quantity="other">"You've restricted access to the clipboard for %2$s %1$d times already. Restrict access to the clipboard for %3$s permanently?"</item>
-        <item quantity="one">"You've restricted access to the clipboard for %2$s %1$d time already. Restrict access to the clipboard for %3$s permanently?"</item>
     </plurals>
 </resources>
