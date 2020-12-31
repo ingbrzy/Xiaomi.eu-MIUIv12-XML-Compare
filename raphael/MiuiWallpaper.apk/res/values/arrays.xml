@@ -235,6 +235,11 @@
         <item>Wallpaper/Super wallpapers/Home</item>
         <item>Earth;Super wallpapers;Earth Edition;Wallpaper</item>
     </string-array>
+    <string-array name="settings_search_geometry">
+        <item>Geometry</item>
+        <item>Wallpaper/Super wallpapers/Geometry</item>
+        <item>Geometry;Abstract;Super wallpaper;Wallpaper</item>
+    </string-array>
     <string-array name="settings_search_mars">
         <item>The red planet</item>
         <item>Wallpaper/Super wallpapers/The red planet</item>
@@ -245,10 +250,20 @@
         <item>Wallpaper/Super wallpapers/Rings of Saturn</item>
         <item>Planet;Saturn;Super wallpaper;Wallpaper</item>
     </string-array>
+    <string-array name="settings_search_snowmountain">
+        <item>Snowy peaks</item>
+        <item>Wallpaper/Super wallpapers/Snowy peaks</item>
+        <item>Earth;Mountains;Super wallpaper;Wallpaper</item>
+    </string-array>
     <string-array name="settings_search_superwp">
         <item>Super wallpapers</item>
         <item>Wallpaper/Super wallpapers</item>
         <item>Super wallpapers;Wallpaper;Dynamic wallpaper;3D wallpaper</item>
+    </string-array>
+    <string-array name="settings_search_weather">
+        <item>Weather</item>
+        <item>Wallpaper/Super wallpapers/Weather</item>
+        <item>Weather;Weather info;Super wallpaper;Wallpaper</item>
     </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
@@ -278,17 +293,23 @@
         <item>@string/solar_term_winter_solstice</item>
     </string-array>
     <string-array name="super_wallpaper_list_complete_packages">
-        <item>com.miui.miwallpaper</item>
+        <item>com.miui.miwallpaper.snowmountain</item>
+        <item>com.miui.miwallpaper.geometry</item>
+        <item>com.miui.miwallpaper.saturn</item>
         <item>com.miui.miwallpaper.earth</item>
         <item>com.miui.miwallpaper.mars</item>
     </string-array>
     <string-array name="super_wallpaper_list_ids">
+        <item>snowmountain</item>
+        <item>geometry</item>
         <item>saturn</item>
         <item>earth</item>
         <item>mars</item>
     </string-array>
     <string-array name="super_wallpaper_list_packages">
         <item>com.miui.miwallpaper</item>
+        <item>com.miui.miwallpaper.geometry</item>
+        <item>com.miui.miwallpaper.saturn</item>
         <item>com.miui.miwallpaper.earth</item>
         <item>com.miui.miwallpaper.mars</item>
     </string-array>
@@ -298,11 +319,15 @@
         <item>0</item>
     </integer-array>
     <string-array name="super_wallpaper_list_summaries">
+        <item>@string/snowmountain_summary</item>
+        <item>@string/geometry_summary</item>
         <item>@string/saturn_summary</item>
         <item>@string/earth_summary</item>
         <item>@string/mars_summary</item>
     </string-array>
     <string-array name="super_wallpaper_list_titles">
+        <item>@string/snowmountain_title</item>
+        <item>@string/geometry_title</item>
         <item>@string/saturn_title</item>
         <item>@string/earth_title</item>
         <item>@string/mars_title</item>
@@ -329,6 +354,16 @@
     </string-array>
     <string-array name="super_wallpaper_res_scale_080_devices">
         <item>cmi</item>
+        <item>haydn</item>
+        <item>haydnin</item>
+        <item>star</item>
+        <item>starin</item>
+        <item>mars</item>
+        <item>marsin</item>
+        <item>renoir</item>
+        <item>renoirin</item>
+        <item>alioth</item>
+        <item>aliothin</item>
         <item>umi</item>
         <item>lmiin</item>
         <item>lmi</item>
@@ -369,6 +404,16 @@
         <item>klein</item>
         <item>cezanne</item>
         <item>venus</item>
+        <item>haydn</item>
+        <item>haydnin</item>
+        <item>star</item>
+        <item>starin</item>
+        <item>mars</item>
+        <item>marsin</item>
+        <item>renoir</item>
+        <item>renoirin</item>
+        <item>alioth</item>
+        <item>aliothin</item>
     </string-array>
     <string-array name="week_days">
         <item>@string/sunday</item>
