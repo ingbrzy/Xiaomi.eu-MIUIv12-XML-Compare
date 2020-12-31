@@ -163,6 +163,7 @@
     <string name="accessibility_pull_down_to_open_camera">Swipe down to open camera</string>
     <string name="accessibility_record_button">Record button</string>
     <string name="accessibility_reduce">Zoom out</string>
+    <string name="accessibility_reference_line_text">Reference line adjustment panel</string>
     <string name="accessibility_review_thumbnail">Most recent photo</string>
     <string name="accessibility_select_all">Select all</string>
     <string name="accessibility_select_all_end">Selected all</string>
@@ -198,6 +199,8 @@
     <string name="accessibility_video_capture_button">Button for taking photos while shooting videos</string>
     <string name="accessibility_video_pause_button">Paused recording video</string>
     <string name="accessibility_video_resume_button">Resumed recording video</string>
+    <string name="accessibility_video_sky_function_on">打开xxxxx功能</string>
+    <string name="accessibility_video_sky_function_panel_on">打开xxxxxxx功能面板</string>
     <string name="accessibility_whitebalance_custom_panel_on">Manual adjustments panel</string>
     <string name="accessibility_zoom_button">Zoom mode</string>
     <string name="ai">AI</string>
@@ -349,6 +352,8 @@ and adjust preferences automatically"</string>
     <string name="back_beryllium_india">0:POCO:SHOT ON POCO F1</string>
     <string name="back_bokeh_use_hint">Keep your subject within 1.5 meters for best effect</string>
     <string name="back_bomb">4:REDMI 10X PRO:AI QUAD CAMERA</string>
+    <string name="back_cannon">3:REDMI NOTE 9</string>
+    <string name="back_cannong_global">3:REDMI NOTE 9T</string>
     <string name="back_cas">4:MI 10 ULTRA</string>
     <string name="back_cepheus">3:SHOT ON MI 9:AI TRIPLE CAMERA</string>
     <string name="back_cepheus_mi_9_explorer">3:SHOT ON MI 9 EXPLORER:AI TRIPLE CAMERA</string>
@@ -375,10 +380,10 @@ and adjust preferences automatically"</string>
     <string name="back_excalibur_india">4:REDMI NOTE 9 PRO MAX:AI QUAD CAMERA</string>
     <string name="back_galahad">4:SHOT ON REDMI 9:AI QUAD CAMERA</string>
     <string name="back_gauguin">4:MI PHONE</string>
-    <string name="back_gauguin_global">4:MI PHONE</string>
+    <string name="back_gauguin_global">4:MI 10T LITE</string>
     <string name="back_gauguinin_india">4:MI PHONE</string>
     <string name="back_gauguininpro_pro_india">4:MI PHONE</string>
-    <string name="back_gauguinpro_pro">4:MI PHONE</string>
+    <string name="back_gauguinpro_pro">4:REDMI NOTE 9 PRO</string>
     <string name="back_gauguinpro_pro_global">4:MI PHONE</string>
     <string name="back_ginkgo">4:REDMI NOTE 8:AI QUAD CAMERA</string>
     <string name="back_gram">0:POCO:SHOT ON POCO M2 PRO</string>
@@ -492,12 +497,14 @@ and adjust preferences automatically"</string>
     <string name="cam_string_remote_camera_setup_wizard_title4">连接到：</string>
     <string name="cam_string_remote_camera_setup_wizard_title6">连接已断开，请重新连接</string>
     <string name="cam_string_video_cast_state_paused">暂停中</string>
+    <string name="cam_string_video_cast_title">多机联录</string>
     <string name="cam_strings_rcs_notification_description">相机图像远程传输服务</string>
     <string name="cam_strings_rcs_wifi_dialog_button_cancel">取消</string>
     <string name="cam_strings_rcs_wifi_dialog_button_open">断开</string>
     <string name="cam_strings_rcs_wifi_dialog_message">是否断开连接？</string>
     <string name="cam_strings_rcs_wifi_dialog_title">是否断开连接？</string>
     <string name="camcorder_tip_8k_max_video_duration">You can record up to 6 minutes in 8K</string>
+    <string name="camcorder_tip_current_max_video_duration">You can record up to %d minutes of video in the current resolution</string>
     <string name="camera_disabled">Camera has been disabled</string>
     <string name="camera_error_title">Camera error</string>
     <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
@@ -516,10 +523,10 @@ and adjust preferences automatically"</string>
     <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
     <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
     <string name="capture_back_pressed_hint">Tap again to exit</string>
-    <string name="capture_shortcut_long">Selfie</string>
     <string name="capture_shortcut_short">Selfie</string>
     <string name="ccc_temperature_warning_msg">Your device is overheated. Camera will be closed in %d seconds. Your photos or videos will be saved automatically.</string>
     <string name="ccc_temperature_warning_title">Device is overheated</string>
+    <string name="center_mark">Center mark</string>
     <string name="certificate_com_android_camera">27196e386b875e76adf700e7ea84e4c6eee33dfa</string>
     <string name="certificate_com_xiaomi_wearable">1da20e2bdfa678ae888e81e5ca0ec4744ebbbbbd</string>
     <string name="clear_saved_traces">清除已保存的跟踪记录</string>
@@ -663,8 +670,7 @@ and adjust preferences automatically"</string>
     <string name="dialog_ok_time">OK (%ds)</string>
     <string name="dirty_tip_toast">The lens is dirty. Wipe it clean.</string>
     <string name="do_not_remind_me">"Don't show again"</string>
-    <string name="doc_shortcut_long">Documents</string>
-    <string name="doc_shortcut_short">Documents</string>
+    <string name="doc_shortcut_short">Docs</string>
     <string name="document_blackwhite">B&amp;W</string>
     <string name="document_blur_warn">Text is blurred</string>
     <string name="document_mode_use_hint_text_body">"Line up and enhance
@@ -901,8 +907,20 @@ in Portrait mode"</string>
     <string name="macro_mode_use_hint_text_body">"Use Macro mode to make small objects
 look larger on photos"</string>
     <string name="macro_mode_use_hint_text_title">Macro</string>
+    <string name="magic_video_sky_effect_type_1">xxx</string>
+    <string name="magic_video_sky_effect_type_2">xxx</string>
+    <string name="magic_video_sky_effect_type_3">xxx</string>
+    <string name="magic_video_sky_effect_type_4">xxx</string>
+    <string name="magic_video_sky_effect_type_5">xxx</string>
+    <string name="magic_video_sky_fragment_tab_name">AIxxx</string>
+    <string name="makeup_effect_entry_cool_makeup">女蓝</string>
+    <string name="makeup_effect_entry_hardline_makeup">男刚</string>
+    <string name="makeup_effect_entry_neutral_makeup">中性</string>
+    <string name="makeup_effect_entry_nude_makeup">裸妆</string>
+    <string name="makeup_effect_entry_soft_makeup">男柔</string>
+    <string name="makeup_effect_entry_sweet_makeup">女粉</string>
     <string name="makeup_reset_toast">Cleared makeup effects successfully</string>
-    <string name="manual_picture_style">照片风格</string>
+    <string name="manual_picture_style">Parameters</string>
     <string name="manually_raw_hint">RAW</string>
     <string name="masterfilter_description_title">滤镜介绍</string>
     <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
@@ -1110,6 +1128,7 @@ look larger on photos"</string>
     <string name="parameter_lens_w">WIDE (wide angle lens)</string>
     <string name="parameter_log_format_description">This format records video with logarithmic function applied to the exposure curve in order to capture more details in highlights and shadows, giving you more options in post-processing.</string>
     <string name="parameter_log_format_title">LOG format</string>
+    <string name="parameter_manual_picturestyle_description">Saturation allows you to control the depth and intensity of colors, adjusting contrast brings out or minimizes the difference between light and dark, and sharpness renders the details along the outlines.</string>
     <string name="parameter_metering_description">Average metering takes into account all areas of your image, working best for evenly lit scenes. Center-weighted metering mainly focuses on the central area of the frame and gives due consideration to the brightness of the surrounding area, which is suitable for shooting subjects in the center of the frame. Spot metering only covers the area in one spot, giving you precise control over the exposure.</string>
     <string name="parameter_metering_title">Metering modes</string>
     <string name="parameter_peak_focus_description">"When you're focusing manually, use focus peaking to place a red highlight on in-focus area."</string>
@@ -1119,7 +1138,7 @@ look larger on photos"</string>
     <string name="parameter_videos_title">videos_title</string>
     <string name="parameter_wb_description">Besides the white balance presets (incandescent, daylight, fluorescent, cloudy), you can also set white balance to a custom value within the 2000–8000 Kelvin range.</string>
     <string name="parameter_wb_title">White balance</string>
-    <string name="parameter_zoom_slider_description">Drag the zoom slider up and down to change your shot smoothly from a long shot to a close-up.</string>
+    <string name="parameter_zoom_slider_description">Drag the zoom slider horizontally to change your shot smoothly from a long shot to a close-up.</string>
     <string name="parameter_zoom_slider_title">Zoom</string>
     <string name="path_settings">System apps/Camera/Settings</string>
     <string name="permission_camera">android.permission-group.CAMERA@1</string>
@@ -1490,6 +1509,11 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_recordlocation_entry_off">Off</string>
     <string name="pref_camera_recordlocation_entry_on">On</string>
     <string name="pref_camera_recordlocation_title">Save location info</string>
+    <string name="pref_camera_reference_capture_title">Reference line</string>
+    <string name="pref_camera_reference_capture_title_golden_section">Golden section</string>
+    <string name="pref_camera_reference_capture_title_jiugongge">Jiugongge</string>
+    <string name="pref_camera_reference_capture_title_left_golden_spiral">Left golden spiral</string>
+    <string name="pref_camera_reference_capture_title_right_golden_spiral">Right golden spiral</string>
     <string name="pref_camera_referenceline_title">Show gridlines</string>
     <string name="pref_camera_saturation_default">3</string>
     <string name="pref_camera_saturation_title">Saturation</string>
@@ -1654,7 +1678,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_more_mode_style_title">Camera modes</string>
     <string name="pref_mtk_video_quality_default">10</string>
     <string name="pref_multi_camera_dual_video_front">Front camera</string>
-    <string name="pref_multi_camera_dual_video_remote">远程相机</string>
+    <string name="pref_multi_camera_dual_video_remote">联机</string>
     <string name="pref_n_s_a">sound_s</string>
     <string name="pref_n_s_o_l">开启</string>
     <string name="pref_n_s_o_m">关闭</string>
@@ -1770,7 +1794,6 @@ Keep the subject sharp while blurring the background."</string>
     <string name="preparing_sd">Checking SD card…</string>
     <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
     <string name="pro_color_mode">Pro color</string>
-    <string name="professional_shortcut_long">Pro</string>
     <string name="professional_shortcut_short">Pro</string>
     <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
     <string name="recommend_macro_mode">Try the Macro mode</string>
@@ -1779,7 +1802,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="recommend_super_night">Try the Night mode</string>
     <string name="record_back_pressed_hint">Tap again to stop recording</string>
     <string name="required_permissions">android.permission.CAMERA;android.permission.RECORD_AUDIO;android.permission.READ_EXTERNAL_STORAGE;android.permission.WRITE_EXTERNAL_STORAGE;</string>
-    <string name="reset_manual_picture_style_toast">照片风格参数已重置</string>
+    <string name="reset_manual_picture_style_toast">Reset parameters successfully</string>
     <string name="reset_manually_parameter_confirmed">OK</string>
     <string name="reset_manually_parameter_hint">Reset</string>
     <string name="saving_trace">正在保存跟踪记录</string>
@@ -1889,9 +1912,11 @@ Keep the subject sharp while blurring the background."</string>
     <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
     <string name="ultra_ai_pixel_photography_close_tip">AI %s Ultra HD is off</string>
     <string name="ultra_ai_pixel_photography_open_tip">AI %s Ultra HD</string>
+    <string name="ultra_pixel_100mp">100MP</string>
     <string name="ultra_pixel_108mp">108MP</string>
     <string name="ultra_pixel_32mp">32MP</string>
     <string name="ultra_pixel_48mp">48MP</string>
+    <string name="ultra_pixel_50mp">50MP</string>
     <string name="ultra_pixel_64mp">64MP</string>
     <string name="ultra_pixel_photography_close_tip">%s Ultra HD is off</string>
     <string name="ultra_pixel_photography_open_tip">%s Ultra HD is on</string>
@@ -1932,6 +1957,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
     <string name="video_bokeh_blur">Blur</string>
     <string name="video_bokeh_color_point">Color spots</string>
     <string name="video_bokeh_spin">Spin</string>
+    <string name="video_bokeh_zoom">Zoom</string>
     <string name="video_bokeh_zoom_in">Zoom in</string>
     <string name="video_bokeh_zoom_out">Zoom out</string>
     <string name="video_camera_label">Camcorder</string>
@@ -1959,7 +1985,6 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
     <string name="video_hdr10_tip">HDR10</string>
     <string name="video_hdr10plus_tip">HDR10+</string>
     <string name="video_reach_size_limit">Size limit reached.</string>
-    <string name="video_shortcut_long">Video</string>
     <string name="video_shortcut_short">Video</string>
     <string name="video_tag_flag_title">Tag</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
