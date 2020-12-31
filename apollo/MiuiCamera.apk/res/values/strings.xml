@@ -597,10 +597,20 @@ and adjust preferences automatically"</string>
     <string name="confirm_restore_message">"Restore Camera's default settings?"</string>
     <string name="confirm_restore_title">Restore default settings</string>
     <string name="copy">Copy</string>
+    <string name="cta_mimoji_msg">欢迎您使用小米萌拍！您可使用本应用以实现拍照和视频录制功能。为提供基本服务，我们需要联网以及调用您的如下权限或功能，以收集必要的个人信息：</string>
+    <string name="cta_mimoji_perm_type">必要权限（用于该应用的基本服务与功能）</string>
+    <string name="cta_mimoji_user_links"><Data>请您阅读并同意&lt;a href =%1$s>《用户协议》&lt;/a>与&lt;a href =%2$s>《隐私政策》。&lt;/a></Data></string>
+    <string name="cta_mimoji_user_tips">如果您不同意调用以上必要权限，将导致本应用无法正常运行。如果您不同意调用以上可选权限，将导致该功能无法正常使用，但不影响您使用本应用的基本功能。您可随时前往“设置”>“权限管理”选择关闭以上权限调用以撤回您的同意。</string>
     <string name="cta_msg">Welcome to Camera! You can use this app to take photos and shoot videos. This app needs to connect to the internet and requires the following optional permissions:</string>
+    <string name="cta_perm_cam">使用摄像头</string>
+    <string name="cta_perm_cam_desc">用于拍摄照片</string>
     <string name="cta_perm_dec">For adding location info to photos and videos</string>
     <string name="cta_perm_loc">Location</string>
+    <string name="cta_perm_storage">读写设备上的照片</string>
+    <string name="cta_perm_storage_desc">用于存储和查看拍摄的照片</string>
     <string name="cta_perm_type">"Optional permissions (Used for additional features while you're using them)"</string>
+    <string name="cta_perm_voice">使用麦克风</string>
+    <string name="cta_perm_voice_desc">用于拍摄视频时录制声音</string>
     <string name="cta_user_tips"><Data>To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href =%1$s>User Agreement&lt;/a> and &lt;a href =%2$s>Privacy Policy&lt;/a>.</Data></string>
     <string name="custom_sound_art">Retro</string>
     <string name="custom_sound_default">Default</string>
@@ -1652,6 +1662,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_skin_beautify_smooth_default">5</string>
     <string name="pref_skin_beautify_smooth_title">Skin</string>
     <string name="pref_userdefine_watermark_title">Custom watermark</string>
+    <string name="pref_video_ai_audio_single">22222</string>
     <string name="pref_video_autoexposure_default">1</string>
     <string name="pref_video_captrue_ability_title">Image capture while recording</string>
     <string name="pref_video_denoise_off">Off</string>
@@ -1723,6 +1734,9 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_watermark_title">Watermark</string>
     <string name="pref_wind_denoise_title">Wind filter</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="prek_b_j_o">00000</string>
+    <string name="prek_b_j_p">11111</string>
+    <string name="prep_video_ai_audio_single_desc_tip">33333</string>
     <string name="preparing_sd">Checking SD card…</string>
     <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
     <string name="pro_color_mode">Pro color</string>

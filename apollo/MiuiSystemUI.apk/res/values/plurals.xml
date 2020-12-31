@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Opened Recents, available apps: %d.</item>
-        <item quantity="one">Opened Recents, available app: %d.</item>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
     </plurals>
-    <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
-        <item quantity="one">Opened Recents, available app: %d. Swipe up to remove, swipe down to lock.</item>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d min ago</item>
+        <item quantity="one">%d min ago</item>
     </plurals>
-    <plurals name="auto_disconnect_timer_tip">
-        <item quantity="other">Hanging up in %1$d seconds</item>
-        <item quantity="one">Hanging up in %1$d second</item>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d yr ago</item>
+        <item quantity="one">%d yr ago</item>
     </plurals>
-    <plurals name="fold_tips_title">
-        <item quantity="other">%d unimportant notifications</item>
-        <item quantity="one">%d unimportant notification</item>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s controls added.</item>
+        <item quantity="one">%s control added.</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
         <item quantity="other">Incorrect PIN code, %d attempts remaining</item>
@@ -69,16 +69,24 @@
         <item quantity="one">Remaining %1$d h %2$d m</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
-        <item quantity="other">Enter SIM PIN, you have %d remaining attempts.</item>
-        <item quantity="one">Enter SIM PIN, you have %d remaining attempt before you must contact your carrier to unlock your device.</item>
+        <item quantity="other">Enter SIM PIN. You have %d remaining attempts.</item>
+        <item quantity="one">Enter SIM PIN. You have %d remaining attempt before you must contact your carrier to unlock your device.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Enter SIM%1$d PIN, you have %2$d remaining attempts.</item>
+        <item quantity="one">Enter SIM%1$d PIN, you have %2$d remaining attempt before you must contact your carrier to unlock your device.</item>
     </plurals>
     <plurals name="kg_password_default_puk_message">
         <item quantity="other">SIM is now disabled. Enter PUK code to continue. You have %d remaining attempts before SIM becomes permanently unusable. Contact carrier for details.</item>
         <item quantity="one">SIM is now disabled. Enter PUK code to continue. You have %d remaining attempt before SIM becomes permanently unusable. Contact carrier for details.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Incorrect SIM PIN code. You have %d remaining attempts.</item>
-        <item quantity="one">Incorrect SIM PIN code. You have %d remaining attempt before you must contact your carrier to unlock your device.</item>
+        <item quantity="other">Incorrect SIM PIN code, you have %d remaining attempts.</item>
+        <item quantity="one">Incorrect SIM PIN code, you have %d remaining attempt before you must contact your carrier to unlock your device.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Incorrect SIM%1$d PIN code, you have %2$d remaining attempts.</item>
+        <item quantity="one">Incorrect SIM%1$d PIN code, you have %2$d remaining attempt before you must contact your carrier to unlock your device.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
         <item quantity="other">Incorrect SIM PUK code, you have %d remaining attempts before SIM becomes permanently unusable.</item>
@@ -96,25 +104,17 @@
         <item quantity="other">"Device hasn't been unlocked for %d hours. Confirm PIN."</item>
         <item quantity="one">"Device hasn't been unlocked for %d hour. Confirm PIN."</item>
     </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Try again in %d seconds.</item>
+        <item quantity="one">Try again in 1 second.</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d new notifications</item>
         <item quantity="one">%d new notification</item>
     </plurals>
-    <plurals name="notification_channels_list_desc_2_and_others">
-        <item quantity="other">%1$s, %2$s, and %3$d others</item>
-        <item quantity="one">%1$s, %2$s, and %3$d other</item>
-    </plurals>
     <plurals name="notification_group_overflow_description">
         <item quantity="other">%s more notifications inside.</item>
         <item quantity="one">%s more notification inside.</item>
-    </plurals>
-    <plurals name="notification_num_channels">
-        <item quantity="other">%d notification categories</item>
-        <item quantity="one">%d notification category</item>
-    </plurals>
-    <plurals name="notification_num_channels_desc">
-        <item quantity="other">1 out of %d notification categories from this app</item>
-        <item quantity="one">1 out of %d notification category from this app</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
         <item quantity="other">Try again in %d minutes</item>
@@ -124,13 +124,24 @@
         <item quantity="other">Try again in %d seconds</item>
         <item quantity="one">Try again in %d second</item>
     </plurals>
-    <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles above this bar are active</item>
-        <item quantity="one">%1$d toggle above this bar are active</item>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d devices</item>
+        <item quantity="one">%d device</item>
     </plurals>
-    <plurals name="view_realtime_clear">
-        <item quantity="other">Clear</item>
-        <item quantity="one">Clear</item>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="few">%d minutes</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">You can add up to %d users.</item>
+        <item quantity="one">Only one user can be created.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
         <item quantity="other">%1$d devices connected</item>
