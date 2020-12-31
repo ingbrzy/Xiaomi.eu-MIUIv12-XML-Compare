@@ -144,7 +144,7 @@
     <string name="adjust_traffic_carrier_summary_yesterday">Updated yesterday at %s</string>
     <string name="adjust_traffic_data">Set data usage</string>
     <string name="after_the_lock_screen">Lock apps together with the screen</string>
-    <string name="ai_allow_all">Notify when permission is used for all</string>
+    <string name="ai_allow_all">Decide for me in all cases</string>
     <string name="alarm_headsup_bottom">小米手机抢红包就是快</string>
     <string name="alarm_lock_screen_summary">一大波红包雨在路上...</string>
     <string name="alarm_lockscreen_btn">开始抢红包</string>
@@ -203,6 +203,10 @@
     <string name="app_behavior_about_content_no_link">"MIUI can show when apps launched other apps, autostarted, used permissions, and performed sensitive actions. Due to Android version compatibility issues, some of these records might not be accurate. If you find an app behavior record that isn't accurate, report it to us using the \"Services &amp; feedback\" app."</string>
     <string name="app_behavior_about_negative">Report inaccuracies</string>
     <string name="app_behavior_about_positive">Got it</string>
+    <string name="app_behavior_access_gallery">%1s accessed gallery</string>
+    <string name="app_behavior_access_gallery_single">This app accessed gallery</string>
+    <string name="app_behavior_access_sociality">%1s accessed messages in social media apps</string>
+    <string name="app_behavior_access_sociality_single">This app accessed messages in social media apps</string>
     <string name="app_behavior_allowed">Allow</string>
     <string name="app_behavior_audio">%1s recorded audio</string>
     <string name="app_behavior_audio_bg">%1s recorded audio in the background</string>
@@ -236,6 +240,8 @@
     <string name="app_behavior_contacts_bg">%1s accessed your contacts in the background</string>
     <string name="app_behavior_contacts_bg_single">This app accessed your contacts in the background</string>
     <string name="app_behavior_contacts_single">This app accessed your contacts</string>
+    <string name="app_behavior_delete_pic">%1s deleted items from Gallery</string>
+    <string name="app_behavior_delete_pic_single">This app deleted items from Gallery</string>
     <string name="app_behavior_denied">Restrict</string>
     <string name="app_behavior_desc_allow_once">Allowed at %1$s</string>
     <string name="app_behavior_desc_deny_once">Restricted at %1$s</string>
@@ -249,7 +255,7 @@
     <string name="app_behavior_key_location">Location</string>
     <string name="app_behavior_key_protect">Protect personal info</string>
     <string name="app_behavior_kill_process">@string/menu_item_force_stop</string>
-    <string name="app_behavior_link_start">Triggered start</string>
+    <string name="app_behavior_link_start">Chain start</string>
     <string name="app_behavior_list_load_more">Loading…</string>
     <string name="app_behavior_location">%1s accessed your location</string>
     <string name="app_behavior_location_bg">%1s accessed your location in the background</string>
@@ -311,8 +317,8 @@
     <string name="app_behavior_settings_category_privacy">Protect personal info</string>
     <string name="app_behavior_settings_perm_tips">Show an alert in status bar when apps access your location, record audio, or take photos</string>
     <string name="app_behavior_settings_privacy_tips">Receive notifications when apps access your contacts, call history, or perform other sensitive actions</string>
-    <string name="app_behavior_share_file">Share file</string>
-    <string name="app_behavior_share_picture">Share image</string>
+    <string name="app_behavior_share_file">Share files</string>
+    <string name="app_behavior_share_picture">Share images</string>
     <string name="app_behavior_sms_read">%1s read SMS</string>
     <string name="app_behavior_sms_read_single">This app read SMS</string>
     <string name="app_behavior_sms_send">%1s sent SMS</string>
@@ -1025,6 +1031,14 @@ All data on your device might be erased and your Lock screen password might be r
     <string name="dialog_roaming_warning_checkbox">"Don't show again"</string>
     <string name="dialog_roaming_warning_message">The carrier will charge you a fee after you turn on international data roaming. Turn on anyway?</string>
     <string name="dialog_roaming_warning_ok">Turn on</string>
+    <string name="dialog_skt_roaming_warning_cancel">Disagree</string>
+    <string name="dialog_skt_roaming_warning_message">"Read and agree to the conditions below to use data roaming. International data roaming charges may apply. Without a data roaming plan, significant charges may apply to apps that auto-update, such as apps related to social networking, email and weather.
+ * When you disagree to use data roaming, data roaming will be disabled.
+ * HD Voice is used as default on supported networks.
+ * 5G data roaming is available only in our partner networks.
+"</string>
+    <string name="dialog_skt_roaming_warning_ok">Agree</string>
+    <string name="dialog_skt_roaming_warning_title">Data roaming agreement</string>
     <string name="dialog_title_attention">Attention</string>
     <string name="dialog_title_auto_start_declare">About autostart</string>
     <string name="dialog_title_stop_virus_scan">Stop security scan</string>
@@ -1338,6 +1352,7 @@ medical card"</string>
     <string name="fast_open_list_open_title">允许在%s个应用中速抢</string>
     <string name="fast_open_noti_summary">%s给你发来一个红包</string>
     <string name="fast_open_summary">开启速抢模式后，收到红包新消息将打断当前使用应用切换到抢红包窗口。</string>
+    <string name="file_confirm_start_activity">"%s isn't allowed to access your Gallery and social media apps. This app wants to access files stored on this device to share items. Allow?"</string>
     <string name="finger_remind_message">Add your fingerprint first. Tap to open Settings.</string>
     <string name="fingerprint_identify_msg">Turn on fingerprint unlock</string>
     <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
@@ -1480,7 +1495,7 @@ medical card"</string>
     <string name="fw_blocked_join">" and "</string>
     <string name="fw_oversea">Block calls from abroad</string>
     <string name="fw_oversea_content">Block incoming calls from foreign phone numbers</string>
-    <string name="gallery_confirm_start_activity">%s is trying to access images through another app. Allow?</string>
+    <string name="gallery_confirm_start_activity">"%s isn't allowed to access your Gallery and social media apps. This app wants to access images stored on this device to share items. Allow?"</string>
     <string name="game_ad_recommendation">Everybody is playing</string>
     <string name="game_anti_disturb_msg">Game DND</string>
     <string name="game_booster">Game Turbo</string>
@@ -1675,7 +1690,6 @@ to get a 3-day free trial!"</string>
     <string name="gb_voice_changer_toast_window_new_tips">"Try Voice changer!
 Switch between different characters and special effects."</string>
     <string name="gb_voice_changer_toast_window_open">Turned on \"%s\" effect</string>
-    <string name="gb_voice_changer_toast_window_vip_expire">Your subscription is about to expire. Renew the subscription now to get benefits!</string>
     <string name="gb_voice_changer_trial_gender_dialog">Received a free trial successfully! Select gender to adjust effects and recommendations accordingly.</string>
     <string name="gb_voice_changer_trial_gender_dialog_title">Free trial</string>
     <string name="gb_voice_changer_trial_progress_dialog_message">Receiving a free trial…</string>
@@ -1685,7 +1699,7 @@ and explore our Voice changer!"</string>
     <string name="gb_voice_changer_user_status_no_login">Sign in to Mi Account</string>
     <string name="gb_voice_changer_user_status_remain_time">Expiration date: %s</string>
     <string name="gb_voice_changer_user_status_renew">Renew</string>
-    <string name="gb_voice_changer_user_tips_info_vip_expire">Your subscriptions expired. Renew the subscription now to get benefits!</string>
+    <string name="gb_voice_changer_user_tips_info_vip_expire">Your subscription expired. Renew the subscription now to get benefits!</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Record key moments
 of your gaming sessions"</string>
     <string name="gb_wonderful_video_cancel">Cancel</string>
@@ -1920,7 +1934,6 @@ Carrier may charge you additional fees if you use mobile data connection again."
     <string name="lockpattern_pattern_confirmed_header">New unlock pattern</string>
     <string name="lockpattern_pattern_entered_header">Pattern added</string>
     <string name="lockpattern_recording_inprogress">"Lift your finger when you're done"</string>
-    <string name="lockpattern_recording_intro_header">Connect at least 4 dots to create a pattern</string>
     <string name="lockpattern_retry_button_text">Draw again</string>
     <string name="lockpattern_settings_help_how_to_record">Draw a pattern</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">Too many unsuccessful attempts!</string>
@@ -2520,7 +2533,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permgroupdesc_sms">Read or send SMS</string>
     <string name="permgroupdesc_storage">Access photos or files on device</string>
     <string name="permission_action_accept">Accept</string>
-    <string name="permission_action_ai_prompt">Notify when permission is used</string>
+    <string name="permission_action_ai_prompt">Decide for me</string>
     <string name="permission_action_always">Always allow</string>
     <string name="permission_action_desc">Give permissions but return blank messages to the app to protect privacy</string>
     <string name="permission_action_desc_always">This permission can be used anytime</string>
@@ -3246,6 +3259,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="prompt_unknown">未知</string>
     <string name="protocol_exception_title">Network protocol diagnostics</string>
     <string name="protocol_loop_back_exception_summary">Local loop back test failed. To report this issue to MIUI, go to the Feedback app and send a log from your device.</string>
+    <string name="provision_back">Back</string>
+    <string name="provision_next">Next</string>
+    <string name="provision_skip_underline">Skip</string>
     <string name="qq_lucky_warning">QQ红包</string>
     <string name="qucick_replay_instrument">Use quick replies in the notifications of the selected messengers (e.g. WhatsApp, WeChat, QQ)</string>
     <string name="quick_optimize_checking">Scanning</string>
@@ -3267,13 +3283,16 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="reach_daily_limit_value_title">Daily data limit reached</string>
     <string name="read_all_sms">Read all</string>
     <string name="read_and_write_clipboard">Access and save items to the clipboard</string>
+    <string name="read_clipboard_ai_action_desc">Receive notifications whenever access is allowed or restricted</string>
     <string name="read_clipboard_ai_close_no">Not now</string>
     <string name="read_clipboard_ai_close_tip">"You will no longer receive notifications when apps access the clipboard. Instead, they'll be allowed to use this permission only while you're using the app. Adjust permissions?"</string>
     <string name="read_clipboard_ai_close_yes">Adjust</string>
-    <string name="read_clipboard_op_content">"Instead of giving the permission only when you're using the app, you'll receive a notification every time apps access your clipboard."</string>
+    <string name="read_clipboard_op_content">Receive notifications whenever access is allowed or restricted</string>
     <string name="read_clipboard_op_title">Notify when apps access items in the clipboard</string>
     <string name="read_clipboard_tip_content">This permission allows apps to read any content you copy, which may include private information (e.g. account details, bank card numbers, and passwords).</string>
     <string name="read_clipboard_tip_title">Accessing items in the clipboard</string>
+    <string name="real_location_off">Approximate location is on</string>
+    <string name="real_location_on">Approximate location is off</string>
     <string name="receive_now">Receive</string>
     <string name="recently_reject_message">Rejected installation of %1$s and %2$d other apps</string>
     <string name="recently_reject_message_one">Rejected %1$s installation request</string>
@@ -4175,9 +4194,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
     <string name="unlock_set_unlock_password_summary">Combine different characters</string>
     <string name="unlock_set_unlock_password_title">Password</string>
-    <string name="unlock_set_unlock_pattern_summary">Connect at least 4 dots</string>
     <string name="unlock_set_unlock_pattern_title">Pattern</string>
-    <string name="unlock_set_unlock_pin_summary">Enter 4 digits</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="usage_sorted_activity_lable">Data usage</string>
     <string name="usage_sorted_empty_text">Empty</string>
@@ -4260,6 +4277,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="videobox_settings_switch_desc">Special effects and features for video playback</string>
     <string name="videobox_settings_switch_title">Video toolbox</string>
     <string name="videobox_settings_title">Video toolbox</string>
+    <string name="view_traffic_detail">View details</string>
     <string name="virus_auto_update_engine">Auto updates: %s</string>
     <string name="virus_scan_process_pre">%</string>
     <string name="virus_update_tips_title">Warning</string>

@@ -178,6 +178,7 @@ You can sign in to your Mi Account using %s now."</string>
     <string name="diagnosis_log_sent_format">"Sent log successfully.
 ID:%s
 Send this code to the supervisor."</string>
+    <string name="download_file">Downloading %s…</string>
     <string name="empty_device_list_notice">No devices</string>
     <string name="ep_unsupported">"Can't sign in to Mi Account on your device"</string>
     <string name="error_dup_binded_email">This email address is already associated with another Mi Account.</string>
@@ -408,6 +409,7 @@ Send this code to the supervisor."</string>
     <string name="passport_login_instead_reg">Use this number</string>
     <string name="passport_login_instead_reg_with_email">Use this email</string>
     <string name="passport_login_other_account">Another account</string>
+    <string name="passport_login_other_phone">Use another account</string>
     <string name="passport_login_prompt">All Mi services. One Mi Account.</string>
     <string name="passport_login_recycle_account_no">No</string>
     <string name="passport_login_recycle_account_yes">Yes</string>
@@ -425,6 +427,10 @@ Send this code to the supervisor."</string>
     <string name="passport_prev">Back</string>
     <string name="passport_privacy_policy">Privacy Policy</string>
     <string name="passport_privacy_policy_required">Privacy Policy (mandatory)</string>
+    <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_input_email_register_prompt">Your personal data will be stored in accordance with the laws and regulations of the region you select.</string>
+    <string name="passport_provision_password_req_notice"><xliff id="min_pwd_len" refersto="8">%1$d</xliff>-<xliff id="max_pwd_len" refersto="16">%2$d</xliff> characters of at least <xliff id="min_pwd_type" refersto="2">%3$d</xliff> of the following types: letters, digits, special symbols</string>
     <string name="passport_pwd_generate_failure">"Couldn't generate password"</string>
     <string name="passport_pwd_generating">Generating…</string>
     <string name="passport_querying_phone_info">Requesting account info…</string>
@@ -461,6 +467,7 @@ Send this code to the supervisor."</string>
     <string name="passport_register_restricted_title">"Can't use this phone number"</string>
     <string name="passport_register_using_other_ways">Other ways to create account</string>
     <string name="passport_registered_phone_num">Phone: %s</string>
+    <string name="passport_registered_phone_num_v2">Phone number</string>
     <string name="passport_registered_phone_user_ID">User ID: %s</string>
     <string name="passport_registered_phone_user_name">Username: %s</string>
     <string name="passport_reject_recycle_account">Nope</string>
@@ -549,6 +556,9 @@ Send this code to the supervisor."</string>
     <string name="phone_num_use_for">Phone number is used for:</string>
     <string name="photoPickerNotFoundText">No photos available.</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="provision_back">Back</string>
+    <string name="provision_next">Next</string>
+    <string name="provision_skip_underline">Skip</string>
     <string name="push_notification_content">Get verification code</string>
     <string name="push_notification_title">You signed in to your Mi Account on an unknown device</string>
     <string name="push_notify_dialog_message">"An unknown device is used to sign in to your Mi Account. Enter this verification code on the device. If that wasn't you, change your Mi Account password right away. Don't disclose the verification code to other people."</string>
