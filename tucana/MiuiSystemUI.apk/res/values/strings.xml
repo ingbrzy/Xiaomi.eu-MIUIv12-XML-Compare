@@ -836,6 +836,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="fingerprint_not_identified_title">Enter password</string>
     <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
     <string name="fingerprint_try_again_text">Try again</string>
+    <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
     <string name="force_allow_on_external">Force allow apps to write on external storage</string>
     <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
     <string name="force_msaa">Force 4x MSAA</string>
@@ -1008,8 +1009,6 @@ only"</string>
     <string name="invalid_charger_text">Use the charger that came with your device</string>
     <string name="invalid_charger_title">"Can't charge via USB"</string>
     <string name="invalid_confirm_pin_hint">"PINs don't match"</string>
-    <string name="invalid_sim_pin_hint">PIN should contain 4 to 8 numbers</string>
-    <string name="invalid_sim_puk_hint">PUK should be at least 8 numbers long</string>
     <string name="keep_screen_on">"Don't lock screen"</string>
     <string name="keep_screen_on_summary">"Screen won't go to sleep while charging"</string>
     <string name="keyboard_key">\"</string>
@@ -1067,18 +1066,9 @@ only"</string>
     <string name="keyguard_charged">Charged</string>
     <string name="keyguard_charging_back_to_lockscreen">Back to Lock screen</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
-    <string name="keyguard_charging_info_battery_used_time_text">On battery</string>
-    <string name="keyguard_charging_info_drained_power_percent_text">Drained</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Today %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Yesterday %s</string>
-    <string name="keyguard_charging_info_last_charged_time_text">Last charge</string>
-    <string name="keyguard_charging_info_tip_text1">Keep your device at least 10% charged all the time to extend battery life.</string>
-    <string name="keyguard_charging_info_tip_text2">"Don't overcharge your device. Multiple shorter charges are better than an overnight charge."</string>
-    <string name="keyguard_charging_info_tip_text3">Avoid charging your device when the surrounding temperature is lower than 0℃.</string>
-    <string name="keyguard_charging_info_tip_text4">"Don't use your device actively while it's charging to avoid overheating."</string>
-    <string name="keyguard_charging_info_tip_text5">It takes longer for batteries to charge when they get hotter than usual.</string>
-    <string name="keyguard_charging_info_tip_text6">Turn the screen off and put your device away to cool it off.</string>
     <string name="keyguard_charging_normal_and_level_tip">Charging %d%%</string>
     <string name="keyguard_charging_quick_and_level_tip">Fast charging %d%%</string>
     <string name="keyguard_charging_super_quick_and_level_tip">Charging rapidly %d%%</string>
@@ -1515,7 +1505,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="output_title">Media output</string>
     <string name="overlay_display_devices_title">Simulate secondary displays</string>
     <string name="overview">Overview</string>
-    <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
+    <string name="owner_info_settings_edit_text_hint">"E.g., Joe's Android."</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1692,6 +1682,11 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_cellular_detail_data_usage">Data usage</string>
     <string name="quick_settings_cellular_detail_data_used">%s used</string>
     <string name="quick_settings_cellular_detail_data_warning">%s warning</string>
+    <string name="quick_settings_cellular_detail_dialog_message_turnoff">Mobile data(WCDMA/LTE)will be turned off. Unless you use WLAN, you will no longer be able to use apps that require a data connection. Sending or receiving multimedia messages will be restricted.</string>
+    <string name="quick_settings_cellular_detail_dialog_message_turnon">Mobile data will be turned on. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
+    <string name="quick_settings_cellular_detail_dialog_negative_button_cancel">Cancel</string>
+    <string name="quick_settings_cellular_detail_dialog_positive_button_ok">OK</string>
+    <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Turn off</string>
     <string name="quick_settings_cellular_detail_over_limit">Over limit</string>
     <string name="quick_settings_cellular_detail_remaining_data">Remaining data</string>
     <string name="quick_settings_cellular_detail_title">Mobile data</string>
@@ -2025,6 +2020,7 @@ Your phone may get too hot if you:
     <string name="time_unit_just_now">Just now</string>
     <string name="title_convert_fbe">Converting to file based encryption…</string>
     <string name="title_usb_accessory">USB accessory</string>
+    <string name="torch_high_temperature_warning">"Your device is overheated. Can't use torch now."</string>
     <string name="touch_filtered_warning">Because an app is obscuring a permission request, Settings can’t verify your response.</string>
     <string name="track_frame_time">Profile HWUI rendering</string>
     <string name="transition_animation_scale_title">Transition animation scale</string>
