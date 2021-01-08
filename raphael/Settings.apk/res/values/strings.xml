@@ -487,7 +487,6 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="always">Always</string>
     <string name="always_allow_bind_appwidgets_text">You’ve chosen to allow this app to create widgets and access their data.</string>
     <string name="always_running">Always running (%s)</string>
-    <string name="always_style">Always</string>
     <string name="amber_alerts_summary">Receive bulletins about child abductions</string>
     <string name="amber_alerts_title">AMBER alerts</string>
     <string name="ambient_display_category_triggers">When to show</string>
@@ -3638,6 +3637,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="instruction_privacy_password">This password protects the following items</string>
     <string name="instruction_title">Important safety information</string>
     <string name="insufficient_storage">Not enough storage space.</string>
+    <string name="intelligence_suppression_summary">Dynamically adjust the size of the area near the edges where accidental touch will be ignored based on your grip</string>
     <string name="intelligence_suppression_title">Auto (Recommended)</string>
     <string name="intent_sender_account_label">Account:</string>
     <string name="intent_sender_action_label">Action:</string>
@@ -4486,6 +4486,11 @@ You can't reverse this action."</string>
     <string name="miheadset_enhence_high">enhence high</string>
     <string name="miheadset_enhence_low">enhence low freq</string>
     <string name="miheadset_equalizer">Equalizer</string>
+    <string name="miheadset_fitness_check">fitness check</string>
+    <string name="miheadset_fitness_check_result_not_ok">fitness bad</string>
+    <string name="miheadset_fitness_check_result_ok">fitness ok</string>
+    <string name="miheadset_fitness_check_result_unkown">fitness unkown</string>
+    <string name="miheadset_fitness_check_start">fitness check start, pls wait</string>
     <string name="miheadset_formal">stand</string>
     <string name="miheadset_game_mode">Gaming mode</string>
     <string name="miheadset_game_mode_summary">Reduce audio delay while playing games</string>
@@ -5856,7 +5861,9 @@ Read and agree to %s before using this service."</string>
     <string name="recommend_item_3">Power bank</string>
     <string name="recommend_item_4">Earphones</string>
     <string name="recommend_item_title">Accessories</string>
+    <string name="recommend_text_wakeup_xiaoai">Settings</string>
     <string name="recommend_tip">Need other settings?</string>
+    <string name="recommend_tip_wakeup_xiaoai">Using buttons to interact with Mi AI requires turning off full screen gestures and selecting buttons as your navigation method.</string>
     <string name="recompute_size">Recomputing size…</string>
     <string name="regional_screen_shot">Partial screenshot</string>
     <string name="register_automatically">Automatic registration…</string>
@@ -6051,7 +6058,6 @@ This setting affects all users on this phone."</string>
     <string name="scanning_status_text_wifi_off_ble_on">Bluetooth scanning is on, WLAN scanning is off</string>
     <string name="scanning_status_text_wifi_on_ble_off">WLAN scanning is on, Bluetooth scanning is off</string>
     <string name="scanning_status_text_wifi_on_ble_on">Both WLAN and Bluetooth scanning are on</string>
-    <string name="scheduled_style">Scheduled</string>
     <string name="screen">Screen</string>
     <string name="screen_cancel">Cancel</string>
     <string name="screen_color_and_optimize">Colors &amp; contrast</string>
@@ -6441,6 +6447,7 @@ To use app pinning: \u0009
     <string name="search_sync_settings">Sync;Auto;WLAN only</string>
     <string name="search_system_app_settings">System apps</string>
     <string name="search_theme_settings_title">Themes;Theme;Personalization;Personalize</string>
+    <string name="search_title_font_settings">font size;font weight;font style</string>
     <string name="search_touch_assistant">Quick ball;Touch assistant</string>
     <string name="search_touch_sensitive_title">Glove mode;gloves;glove</string>
     <string name="search_trusted_credentials">Trusted credentials;App signature;App signatures;Credentials;Signature</string>
@@ -7382,6 +7389,9 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="switchNetworkToast">Connecting to mobile networks may generate additional fees</string>
     <string name="switch_access_service_on">Switch Access</string>
     <string name="switch_bootup_sound">Boot audio</string>
+    <string name="switch_headset_anti_lost">耳机防丢提醒</string>
+    <string name="switch_headset_anti_lost_summary">耳机离耳离盒一分钟后手机弹出防丢提醒</string>
+    <string name="switch_headset_anti_lost_title">耳机防丢</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
     <string name="switch_screen_button_order">Mirror buttons</string>
@@ -7444,7 +7454,6 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="tap_to_wake">Tap to wake</string>
     <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
     <string name="taplus_title">Taplus</string>
-    <string name="temporary_style">For 10 seconds after tapping</string>
     <string name="terms_title">Terms and conditions</string>
     <string name="testing">Testing</string>
     <string name="testing_phone_info">Phone information</string>
@@ -7565,6 +7574,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="traffic_none">None</string>
     <string name="transition_animation_scale_title">Transition animation scale</string>
     <string name="trigger_carrier_provisioning">Trigger Carrier Provisioning</string>
+    <string name="truetone_summary">Adjust colors to ambient light</string>
+    <string name="truetone_title">Adaptive colors</string>
     <string name="trust_lost_locks_screen_summary">If enabled, the device will lock when the last trust agent loses trust</string>
     <string name="trust_lost_locks_screen_title">Lock screen when trust is lost</string>
     <string name="trusted_credentials">Trusted credentials</string>
@@ -8245,6 +8256,7 @@ During a voice call, you can’t use the internet and some apps may not work."</
     <string name="wake_suppression_title">Small area</string>
     <string name="wakeup_and_sleep_settings_category_name">Lock screen settings</string>
     <string name="wakeup_for_keyguard_notification_title">Wake Lock screen for notifications</string>
+    <string name="wallet_header_title">Wallet &amp; payments</string>
     <string name="wallet_reset">You can remove your Mi Pay bank cards, transport cards, and key cards only in Mi Wallet. Open Mi Wallet now?</string>
     <string name="wallet_reset_cancel_btn">Skip</string>
     <string name="wallet_reset_ok_btn">Open</string>
@@ -8993,6 +9005,10 @@ Looks like credential storage isn't enabled."</string>
     <string name="write_system_settings">Modify system settings</string>
     <string name="wrong_pin_code_one">Incorrect SIM PIN code, you have 1 remaining attempt before you must contact your carrier to unlock your device.</string>
     <string name="wrong_pin_code_pukked">Incorrect SIM PIN code you must now contact your carrier to unlock your device.</string>
+    <string name="xiaoai_global_shortcut">General</string>
+    <string name="xiaoai_key_shortcut">Buttons</string>
+    <string name="xiaoai_other_shortcut">Other methods</string>
+    <string name="xiaoai_shortcut_settings_title">Trigger Mi AI using buttons and gestures</string>
     <string name="xiaomi_account">Mi Account</string>
     <string name="xiaomi_cloud_find_device">Find device</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
