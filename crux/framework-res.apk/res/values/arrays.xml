@@ -3,39 +3,16 @@
     <array name="carrier_properties" />
     <array name="common_nicknames" />
     <array name="config_allowedGlobalInstantAppSettings" />
-    <array name="config_allowedManagedServicesOnLowRamDevices" />
     <array name="config_allowedSecureInstantAppSettings" />
     <array name="config_allowedSystemInstantAppSettings" />
     <integer-array name="config_ambientBrighteningThresholds">
-        <item>5</item>
-        <item>5</item>
-        <item>10</item>
-        <item>30</item>
         <item>100</item>
-        <item>400</item>
-        <item>600</item>
-        <item>1000</item>
     </integer-array>
     <integer-array name="config_ambientDarkeningThresholds">
-        <item>800</item>
-        <item>800</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
+        <item>200</item>
     </integer-array>
-    <integer-array name="config_ambientThresholdLevels">
-        <item>2</item>
-        <item>10</item>
-        <item>30</item>
-        <item>100</item>
-        <item>800</item>
-        <item>2000</item>
-        <item>4000</item>
-    </integer-array>
-    <array name="config_apexBootImagePinnerServiceFiles" />
+    <array name="config_ambientThresholdLevels" />
+    <array name="config_ambientThresholdsOfPeakRefreshRate" />
     <integer-array name="config_apfEthTypeBlackList">
         <item>0x000088A2</item>
         <item>0x000088A4</item>
@@ -47,66 +24,7 @@
         <item>com.tencent.mm</item>
     </string-array>
     <array name="config_autoBrightnessButtonBacklightValues" />
-    <integer-array name="config_autoBrightnessDisplayValuesNits">
-        <item>5</item>
-        <item>9</item>
-        <item>16</item>
-        <item>24</item>
-        <item>31</item>
-        <item>35</item>
-        <item>48</item>
-        <item>61</item>
-        <item>83</item>
-        <item>87</item>
-        <item>87</item>
-        <item>87</item>
-        <item>88</item>
-        <item>88</item>
-        <item>88</item>
-        <item>89</item>
-        <item>89</item>
-        <item>89</item>
-        <item>90</item>
-        <item>90</item>
-        <item>91</item>
-        <item>91</item>
-        <item>91</item>
-        <item>92</item>
-        <item>92</item>
-        <item>93</item>
-        <item>95</item>
-        <item>96</item>
-        <item>98</item>
-        <item>98</item>
-        <item>100</item>
-        <item>101</item>
-        <item>102</item>
-        <item>104</item>
-        <item>105</item>
-        <item>107</item>
-        <item>108</item>
-        <item>110</item>
-        <item>111</item>
-        <item>113</item>
-        <item>114</item>
-        <item>116</item>
-        <item>117</item>
-        <item>119</item>
-        <item>120</item>
-        <item>142</item>
-        <item>164</item>
-        <item>190</item>
-        <item>216</item>
-        <item>243</item>
-        <item>272</item>
-        <item>302</item>
-        <item>313</item>
-        <item>386</item>
-        <item>430</item>
-        <item>434</item>
-        <item>445</item>
-        <item>445</item>
-    </integer-array>
+    <array name="config_autoBrightnessDisplayValuesNits" />
     <integer-array name="config_autoBrightnessGame">
         <item>90</item>
         <item>90</item>
@@ -168,125 +86,8 @@
         <item>2047</item>
     </integer-array>
     <array name="config_autoBrightnessKeyboardBacklightValues" />
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>42</item>
-        <item>80</item>
-        <item>154</item>
-        <item>222</item>
-        <item>266</item>
-        <item>350</item>
-        <item>490</item>
-        <item>604</item>
-        <item>644</item>
-        <item>716</item>
-        <item>764</item>
-        <item>808</item>
-        <item>812</item>
-        <item>814</item>
-        <item>816</item>
-        <item>818</item>
-        <item>824</item>
-        <item>828</item>
-        <item>832</item>
-        <item>834</item>
-        <item>838</item>
-        <item>840</item>
-        <item>846</item>
-        <item>852</item>
-        <item>856</item>
-        <item>864</item>
-        <item>884</item>
-        <item>898</item>
-        <item>912</item>
-        <item>916</item>
-        <item>932</item>
-        <item>944</item>
-        <item>958</item>
-        <item>972</item>
-        <item>988</item>
-        <item>1000</item>
-        <item>1014</item>
-        <item>1032</item>
-        <item>1044</item>
-        <item>1060</item>
-        <item>1072</item>
-        <item>1090</item>
-        <item>1100</item>
-        <item>1118</item>
-        <item>1130</item>
-        <item>1348</item>
-        <item>1566</item>
-        <item>1810</item>
-        <item>2056</item>
-        <item>2304</item>
-        <item>2568</item>
-        <item>2836</item>
-        <item>3200</item>
-        <item>3520</item>
-        <item>3800</item>
-        <item>4000</item>
-        <item>4095</item>
-        <item>4095</item>
-    </integer-array>
-    <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-        <item>35</item>
-        <item>40</item>
-        <item>45</item>
-        <item>50</item>
-        <item>55</item>
-        <item>60</item>
-        <item>65</item>
-        <item>70</item>
-        <item>75</item>
-        <item>80</item>
-        <item>85</item>
-        <item>90</item>
-        <item>95</item>
-        <item>100</item>
-        <item>120</item>
-        <item>140</item>
-        <item>160</item>
-        <item>180</item>
-        <item>200</item>
-        <item>220</item>
-        <item>240</item>
-        <item>260</item>
-        <item>280</item>
-        <item>300</item>
-        <item>320</item>
-        <item>340</item>
-        <item>360</item>
-        <item>380</item>
-        <item>400</item>
-        <item>420</item>
-        <item>440</item>
-        <item>460</item>
-        <item>480</item>
-        <item>500</item>
-        <item>700</item>
-        <item>900</item>
-        <item>1100</item>
-        <item>1300</item>
-        <item>1500</item>
-        <item>1700</item>
-        <item>1900</item>
-        <item>2200</item>
-        <item>2500</item>
-        <item>3000</item>
-        <item>3500</item>
-        <item>4000</item>
-        <item>4500</item>
-    </integer-array>
+    <array name="config_autoBrightnessLcdBacklightValues" />
+    <array name="config_autoBrightnessLevels" />
     <integer-array name="config_autoRotationTiltTolerance">
         <item>-25</item>
         <item>70</item>
@@ -298,17 +99,37 @@
         <item>65</item>
     </integer-array>
     <array name="config_availableColorModes" />
+    <array name="config_backGestureInsetScales">
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.33</item>
+        <item>1.66</item>
+    </array>
     <array name="config_batteryPackageTypeService" />
     <string-array name="config_batteryPackageTypeSystem">
         <item>com.android.providers.calendar</item>
         <item>com.android.providers.media</item>
         <item>com.android.systemui</item>
     </string-array>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
+    <array name="config_brightnessThresholdsOfPeakRefreshRate" />
     <integer-array name="config_calendarDateVibePattern">
         <item>125</item>
         <item>30</item>
     </integer-array>
     <string-array name="config_callBarringMMI">
+        <item>33</item>
+        <item>331</item>
+        <item>332</item>
+        <item>35</item>
+        <item>351</item>
+        <item>330</item>
+        <item>333</item>
+        <item>353</item>
+    </string-array>
+    <string-array name="config_callBarringMMI_for_ims">
         <item>33</item>
         <item>331</item>
         <item>332</item>
@@ -326,10 +147,15 @@
         <item>30</item>
     </integer-array>
     <array name="config_convert_to_emergency_number_map" />
-    <string-array name="config_defaultCellBroadcastReceiverPkgs">
-        <item>com.android.cellbroadcastreceiver</item>
-    </string-array>
     <array name="config_defaultFirstUserRestrictions" />
+    <array name="config_defaultImperceptibleKillingExemptionPkgs" />
+    <integer-array name="config_defaultImperceptibleKillingExemptionProcStates">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>12</item>
+    </integer-array>
     <integer-array name="config_defaultNotificationVibePattern">
         <item>0</item>
         <item>350</item>
@@ -364,6 +190,8 @@
     <string-array name="config_disabledUntilUsedPreinstalledImes">
         <item>com.android.inputmethod.latin</item>
     </string-array>
+    <array name="config_displayCompositionColorModes" />
+    <array name="config_displayCompositionColorSpaces" />
     <array name="config_displayWhiteBalanceAmbientColorTemperatures" />
     <array name="config_displayWhiteBalanceBaseThresholds">
         <item>0.0</item>
@@ -391,9 +219,24 @@
         <item>1.000000</item>
         <item>1.089058</item>
     </string-array>
+    <array name="config_displayWhiteBalanceHighLightAmbientBiases" />
+    <array name="config_displayWhiteBalanceHighLightAmbientBrightnesses" />
     <array name="config_displayWhiteBalanceIncreaseThresholds">
         <item>0.1</item>
     </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBiases">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBrightnesses">
+        <item>10.0</item>
+        <item>10.0</item>
+    </array>
+    <string-array name="config_display_no_service_when_sim_unready">
+        <item>DE</item>
+        <item>GB</item>
+        <item>JP</item>
+    </string-array>
     <string-array name="config_dropboxLowPriorityTags">
         <item>data_app_strictmode</item>
         <item>data_app_wtf</item>
@@ -404,10 +247,9 @@
         <item>system_server_strictmode</item>
         <item>system_server_wtf</item>
     </string-array>
-    <integer-array name="config_emergency_mcc_codes">
-        <item>404</item>
-        <item>405</item>
-    </integer-array>
+    <string-array name="config_emergency_iso_country_codes">
+        <item>in</item>
+    </string-array>
     <array name="config_ephemeralResolverPackage" />
     <array name="config_ethernet_interfaces" />
     <array name="config_face_acquire_biometricprompt_ignorelist" />
@@ -416,16 +258,22 @@
     <array name="config_face_acquire_vendor_biometricprompt_ignorelist" />
     <array name="config_face_acquire_vendor_enroll_ignorelist" />
     <array name="config_face_acquire_vendor_keyguard_ignorelist" />
+    <string-array name="config_forceQueryablePackages">
+        <item>com.android.settings</item>
+        <item>com.android.providers.settings</item>
+    </string-array>
     <string-array name="config_globalActionsList">
+        <item>emergency</item>
+        <item>lockdown</item>
         <item>power</item>
         <item>restart</item>
-        <item>lockdown</item>
         <item>logout</item>
         <item>bugreport</item>
-        <item>screenshot</item>
-        <item>emergency</item>
     </string-array>
     <array name="config_hideWhenDisabled_packageNames" />
+    <array name="config_highRefreshRateBlacklist" />
+    <array name="config_integrityRuleProviderPackages" />
+    <array name="config_jitzygoteBootImagePinnerServiceFiles" />
     <array name="config_keySystemUuidMapping" />
     <integer-array name="config_keyboardTapVibePattern">
         <item>5</item>
@@ -440,7 +288,9 @@
         <item>/system/framework/oat/arm/services.odex</item>
     </string-array>
     <array name="config_localPrivateDisplayPorts" />
-    <array name="config_locationExtraPackageNames" />
+    <string-array name="config_locationExtraPackageNames">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
     <string-array name="config_locationProviderPackageNames">
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
@@ -524,6 +374,7 @@
         <item>150</item>
         <item>100</item>
     </integer-array>
+    <array name="config_notificationMsgPkgsAllowedAsConvos" />
     <string-array name="config_notificationSignalExtractors">
         <item>com.android.server.notification.NotificationChannelExtractor</item>
         <item>com.android.server.notification.NotificationAdjustmentExtractor</item>
@@ -538,9 +389,11 @@
         <item>com.android.server.notification.CriticalNotificationExtractor</item>
     </string-array>
     <array name="config_oemUsbModeOverride" />
+    <array name="config_packagesExemptFromSuspension" />
     <string-array name="config_priorityOnlyDndExemptPackages">
         <item>com.android.dialer</item>
-        <item>com.tencent.mm</item>
+        <item>com.android.systemui</item>
+        <item>android</item>
     </string-array>
     <integer-array name="config_protectedNetworks">
         <item>10</item>
@@ -550,7 +403,59 @@
         <item>15</item>
     </integer-array>
     <array name="config_restrictedImagesServices" />
-    <array name="config_restrictedPreinstalledCarrierApps" />
+    <string-array name="config_ringtoneEffectMap">
+        <item>file:///system/media/audio/ringtones/AcousticGuitar.ogg|21</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Blues.ogg|22</item>
+        <item>file:///system/media/audio/ringtones/Candy.ogg|23</item>
+        <item>file:///system/media/audio/ringtones/Carousel.ogg|24</item>
+        <item>file:///system/media/audio/ringtones/Celesta.ogg|25</item>
+        <item>file:///system/media/audio/ringtones/Childhood.ogg|26</item>
+        <item>file:///system/media/audio/ringtones/Country.ogg|27</item>
+        <item>file:///system/media/audio/ringtones/Cowboy.ogg|28</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Echo.ogg|29</item>
+        <item>file:///system/media/audio/ringtones/Fairyland.ogg|30</item>
+        <item>file:///system/media/audio/ringtones/Fantasy.ogg|31</item>
+        <item>file:///system/media/audio/ringtones/FieldTrip.ogg|32</item>
+        <item>file:///system/media/audio/ringtones/Glee.ogg|33</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Glockenspiel.ogg|34</item>
+        <item>file:///system/media/audio/ringtones/IceLatte.ogg|35</item>
+        <item>file:///system/media/audio/ringtones/Kungfu.ogg|36</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Leisure.ogg|37</item>
+        <item>file:///system/media/audio/ringtones/Lollipop.ogg|38</item>
+        <item>file:///system/media/audio/ringtones/MIX.ogg|39</item>
+        <item>file:///system/media/audio/ringtones/Mi.ogg|40</item>
+        <item>file:///system/media/audio/ringtones/MiHouse.ogg|41</item>
+        <item>file:///system/media/audio/ringtones/MiJazz.ogg|42</item>
+        <item>file:///system/media/audio/ringtones/MiRemix.ogg|43</item>
+        <item>file:///system/media/audio/ringtones/MountainSpring.ogg|44</item>
+        <item>file:///system/media/audio/ringtones/Orange.ogg|45</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Raindrops.ogg|46</item>
+        <item>file:///system/media/audio/ringtones/SpaceAge.ogg|47</item>
+        <item>file:///system/media/audio/ringtones/ToyRobot.ogg|48</item>
+        <item>file:///system/media/audio/ringtones/Vigor.ogg|49</item>
+        <item>file:///system/media/audio/notifications/Bottle.ogg|50</item>
+        <item>file:///system/media/audio/notifications/Bubble.ogg|51</item>
+        <item>file:///system/media/audio/notifications/Bullfrog.ogg|52</item>
+        <item>file:///system/media/audio/notifications/Burst.ogg|53</item>
+        <item>file:///system/media/audio/notifications/Chirp.ogg|54</item>
+        <item>file:///system/media/audio/notifications/Clank.ogg|55</item>
+        <item>file:///system/media/audio/notifications/Crystal.ogg|56</item>
+        <item>file:///system/media/audio/notifications/FadeIn.ogg|57</item>
+        <item>file:///system/media/audio/notifications/FadeOut.ogg|58</item>
+        <item>file:///system/media/audio/notifications/Flute.ogg|59</item>
+        <item>file:///system/media/audio/notifications/Fresh.ogg|60</item>
+        <item>file:///system/media/audio/notifications/Frog.ogg|61</item>
+        <item>file:///system/media/audio/notifications/Guitar.ogg|62</item>
+        <item>file:///system/media/audio/notifications/Harp.ogg|63</item>
+        <item>file:///system/media/audio/notifications/IncomingMessage.ogg|64</item>
+        <item>file:///system/media/audio/notifications/MessageSent.ogg|65</item>
+        <item>file:///system/media/audio/notifications/Moment.ogg|66</item>
+        <item>file:///system/media/audio/notifications/NotificationXylophone.ogg|66</item>
+        <item>file:///system/media/audio/notifications/Potion.ogg|67</item>
+        <item>file:///system/media/audio/notifications/Radar.ogg|68</item>
+        <item>file:///system/media/audio/notifications/Spring.ogg|69</item>
+        <item>file:///system/media/audio/notifications/Swoosh.ogg|70</item>
+    </string-array>
     <string-array name="config_ringtoneEffectUris">
         <item>placeholder</item>
         <item>placeholder</item>
@@ -585,7 +490,7 @@
         <item>file:///system/media/audio/ringtones/Kungfu.ogg</item>
         <item>placeholder:file:///system/media/audio/ringtones/Leisure.ogg</item>
         <item>file:///system/media/audio/ringtones/Lollipop.ogg</item>
-        <item>file:///system/media/audio/ringtones/MIX.ogg</item>
+        <item>file:///system/media/audio/ringtones/MiMix2.ogg</item>
         <item>file:///system/media/audio/ringtones/Mi.ogg</item>
         <item>file:///system/media/audio/ringtones/MiHouse.ogg</item>
         <item>file:///system/media/audio/ringtones/MiJazz.ogg</item>
@@ -618,6 +523,91 @@
         <item>file:///system/media/audio/notifications/Radar.ogg</item>
         <item>file:///system/media/audio/notifications/Spring.ogg</item>
         <item>file:///system/media/audio/notifications/Swoosh.ogg</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>file:///system/media/audio/ringtones/Atlantis.ogg</item>
+        <item>file:///system/media/audio/ringtones/DigitalUniverse.ogg</item>
+        <item>file:///system/media/audio/ringtones/Reveries.ogg</item>
     </string-array>
     <integer-array name="config_safeModeEnabledVibePattern">
         <item>0</item>
@@ -628,12 +618,12 @@
         <item>600</item>
     </integer-array>
     <integer-array name="config_screenBrighteningThresholds">
-        <item>0</item>
+        <item>100</item>
     </integer-array>
     <array name="config_screenBrightnessBacklight" />
     <array name="config_screenBrightnessNits" />
     <integer-array name="config_screenDarkeningThresholds">
-        <item>0</item>
+        <item>200</item>
     </integer-array>
     <array name="config_screenThresholdLevels" />
     <integer-array name="config_scrollBarrierVibePattern">
@@ -700,8 +690,15 @@
         <item>7</item>
     </integer-array>
     <array name="config_tether_usb_regexs" />
-    <array name="config_tether_wifi_regexs" />
-    <array name="config_tether_wimax_regexs" />
+    <string-array name="config_tether_wifi_regexs">
+        <item>softap0</item>
+        <item>wigig0</item>
+        <item>wifi_br0</item>
+    </string-array>
+    <string-array name="config_toastCrossUserPackages">
+        <item>android</item>
+        <item>com.android.systemui</item>
+    </string-array>
     <array name="config_twoDigitNumberPattern" />
     <array name="config_usbHostBlacklist" />
     <integer-array name="config_virtualKeyVibePattern">
@@ -713,11 +710,11 @@
     <string-array name="config_vvmSmsFilterRegexes">
         <item>310004,310010,310012,310013,310590,310890,310910,311110,311270,311271,311272,311273,311274,311275,311276,311277,311278,311279,311280,311281,311282,311283,311284,311285,311286,311287,311288,311289,311390,311480,311481,311482,311483,311484,311485,311486,311487,311488,311489;^//VZWVVM.*</item>
     </string-array>
+    <array name="config_wakeonlan_supported_interfaces" />
     <string-array name="config_wearActivityModeRadios">
         <item>wifi</item>
     </string-array>
     <array name="config_wifi_dual_sap_interfaces" />
-    <array name="config_wifi_fatal_firmware_alert_error_code_list" />
     <array name="correct_brightness_game">
         <item>0.0733</item>
         <item>0.0733</item>
@@ -766,6 +763,7 @@
         <item>com.google.android.youtube</item>
         <item>com.sohu.sohuvideo</item>
     </string-array>
+    <array name="cross_profile_apps" />
     <array name="dial_string_replace" />
     <array name="disallowed_apps_managed_device" />
     <array name="disallowed_apps_managed_profile" />
@@ -1018,7 +1016,12 @@
         <item>com.android.providers.downloads.ui</item>
         <item>com.android.documentsui</item>
     </string-array>
-    <string-array name="resolver_target_actions">
+    <string-array name="resolver_target_actions_pin">
+        <item>@string/pin_target</item>
+        <item>@string/app_info</item>
+    </string-array>
+    <string-array name="resolver_target_actions_unpin">
+        <item>@string/unpin_target</item>
         <item>@string/app_info</item>
     </string-array>
     <array name="sim_colors">
@@ -1566,6 +1569,8 @@
         <item>com.tencent.tmgp.pubgmhd</item>
         <item>com.tencent.tmgp.sgame</item>
     </string-array>
+    <array name="vendor_allowed_personal_apps_org_owned_device" />
+    <array name="vendor_cross_profile_apps" />
     <array name="vendor_disallowed_apps_managed_device" />
     <array name="vendor_disallowed_apps_managed_profile" />
     <array name="vendor_disallowed_apps_managed_user" />

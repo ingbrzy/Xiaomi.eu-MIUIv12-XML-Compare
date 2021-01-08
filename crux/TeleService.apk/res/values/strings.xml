@@ -135,7 +135,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">This feature is experimental and may affect performance.</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Color correction allows you to adjust how colors are displayed on your device</string>
     <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
     <string name="accessibility_manual_zen_less_time">Less time.</string>
     <string name="accessibility_manual_zen_more_time">More time.</string>
@@ -148,10 +148,41 @@
     <string name="accessibility_wifi_signal_full">Wifi signal full.</string>
     <string name="accessibility_wifi_three_bars">Wifi three bars.</string>
     <string name="accessibility_wifi_two_bars">Wifi two bars.</string>
+    <string name="accessibility_work_profile_app_description">Work %s</string>
+    <string name="accessor_expires_text">Lease expires at %s</string>
+    <string name="accessor_info_title">Apps sharing data</string>
+    <string name="accessor_no_description_text">No description provided by the app.</string>
     <string name="active_input_method_subtypes">Active input methods</string>
+    <string name="adb_device_fingerprint_title_format">Device fingerprint: %1$s</string>
+    <string name="adb_device_forget">Forget</string>
     <string name="adb_keys_warning_message">Revoke access to USB debugging from all computers you’ve previously authorized?</string>
+    <string name="adb_pair_method_code_summary">Pair new devices using six digit code</string>
+    <string name="adb_pair_method_code_title">Pair device with pairing code</string>
+    <string name="adb_pair_method_qrcode_summary">Pair new devices using QR code scanner</string>
+    <string name="adb_pair_method_qrcode_title">Pair device with QR code</string>
+    <string name="adb_paired_devices_title">Paired devices</string>
+    <string name="adb_pairing_device_dialog_failed_msg">Make sure the device is connected to the same network.</string>
+    <string name="adb_pairing_device_dialog_failed_title">Pairing unsuccessful</string>
+    <string name="adb_pairing_device_dialog_pairing_code_label">Wi‑Fi pairing code</string>
+    <string name="adb_pairing_device_dialog_title">Pair with device</string>
+    <string name="adb_qrcode_pairing_device_failed_msg">Failed to pair the device. Either the QR code was incorrect, or the device is not connected to the same network.</string>
     <string name="adb_warning_message">USB debugging is intended for development purposes only. Use it to copy data between your computer and your device, install apps on your device without notification, and read log data.</string>
     <string name="adb_warning_title">Allow USB debugging?</string>
+    <string name="adb_wireless_connection_failed_message">Make sure %1$s is connected to the correct network</string>
+    <string name="adb_wireless_connection_failed_title">Connection unsuccessful</string>
+    <string name="adb_wireless_device_connected_summary">Currently connected</string>
+    <string name="adb_wireless_device_details_title">Device details</string>
+    <string name="adb_wireless_error">Error</string>
+    <string name="adb_wireless_ip_addr_preference_title">IP address &amp; Port</string>
+    <string name="adb_wireless_list_empty_off">To see and use available devices, turn on wireless debugging</string>
+    <string name="adb_wireless_no_network_msg">Please connect to a Wi‑Fi network</string>
+    <string name="adb_wireless_qrcode_pairing_description">Pair device over Wi‑Fi by scanning a QR code</string>
+    <string name="adb_wireless_qrcode_pairing_title">Scan QR code</string>
+    <string name="adb_wireless_qrcode_summary">Pair device over Wi‑Fi by scanning a QR code</string>
+    <string name="adb_wireless_settings">Wireless debugging</string>
+    <string name="adb_wireless_verifying_qrcode_text">Pairing device…</string>
+    <string name="adbwifi_warning_message">Wireless debugging is intended for development purposes only. Use it to copy data between your computer and your device, install apps on your device without notification, and read log data.</string>
+    <string name="adbwifi_warning_title">Allow wireless debugging?</string>
     <string name="add">Add</string>
     <string name="add_fdn_contact">Add fixed dialing number</string>
     <string name="add_sip_account">Add account</string>
@@ -222,6 +253,7 @@
     <string name="auto_answer_scenario_title">Auto-answer settings</string>
     <string name="auto_answer_setting_title">Auto-answer settings</string>
     <string name="auto_answer_summary_not_enabled">Off</string>
+    <string name="auto_connect_disable">Auto-connect is off</string>
     <string name="auto_record_yellowpage">Directory</string>
     <string name="auto_redial_pref_summary">Redial automatically if the line is busy</string>
     <string name="auto_redial_pref_title">Redial automatically</string>
@@ -244,6 +276,7 @@
     <string name="autoip_setting">Automatic IP settings</string>
     <string name="autoip_summary">Add an IP prefix for international numbers</string>
     <string name="autoip_support_local_numbers">Always use IP prefix</string>
+    <string name="available_via_app">Available via %1$s</string>
     <string name="available_via_carrier">Available via %1$s</string>
     <string name="available_via_passpoint">Available via %1$s</string>
     <string name="back">Back</string>
@@ -255,14 +288,22 @@
     <string name="bad_pin2_old">The old PIN2 you entered is incorrect.</string>
     <string name="bad_puk">The PUK you entered is incorrect.</string>
     <string name="bad_puk2">The PUK2 you entered is incorrect.</string>
+    <string name="band_mode_failed">Unsuccessful</string>
+    <string name="band_mode_loading">Loading Band List…</string>
+    <string name="band_mode_set">Set</string>
+    <string name="band_mode_succeeded">Successful</string>
+    <string name="band_mode_title">Set Radio Band Mode</string>
     <string name="battery_info_status_charging">Charging</string>
-    <string name="battery_info_status_charging_lower">charging</string>
+    <string name="battery_info_status_charging_fast">Charging rapidly</string>
+    <string name="battery_info_status_charging_slow">Charging slowly</string>
     <string name="battery_info_status_discharging">Not charging</string>
     <string name="battery_info_status_full">Full</string>
     <string name="battery_info_status_not_charging">"Plugged in, can't charge right now"</string>
     <string name="battery_info_status_unknown">Unknown</string>
     <string name="battery_meter_very_low_overlay_symbol">!</string>
     <string name="bf_news_settings">Business and Financial News</string>
+    <string name="blob_expires_text">Expires at %s</string>
+    <string name="blob_id_text">Shared data ID: %d</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
     <string name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
     <string name="bluetooth_active_battery_level">Active, %1$s battery</string>
@@ -286,6 +327,8 @@
     <string name="bluetooth_disconnecting">Disconnecting…</string>
     <string name="bluetooth_dun_profile_summary_connected">Connected to Dun Server</string>
     <string name="bluetooth_dun_profile_summary_use_for">Use for Dial-up Network access</string>
+    <string name="bluetooth_enable_gabeldorsche">Enable Gabeldorsche</string>
+    <string name="bluetooth_enable_gabeldorsche_summary">Enables the Bluetooth Gabeldorsche feature stack.</string>
     <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
     <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Connected to Hearing Aids</string>
@@ -345,8 +388,11 @@ Selection: Sample Rate"</string>
     <string name="bluetooth_select_a2dp_codec_type">Bluetooth Audio Codec</string>
     <string name="bluetooth_select_a2dp_codec_type_dialog_title">"Trigger Bluetooth Audio Codec
 Selection"</string>
+    <string name="bluetooth_select_a2dp_codec_type_help_info">Gray-out means not supported by phone or headset</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Select Bluetooth AVRCP Version</string>
     <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP Version</string>
+    <string name="bluetooth_select_map_version_dialog_title">Select Bluetooth MAP Version</string>
+    <string name="bluetooth_select_map_version_string">Bluetooth MAP Version</string>
     <string name="bluetooth_show_devices_without_names">Show Bluetooth devices without names</string>
     <string name="bluetooth_show_devices_without_names_summary">Bluetooth devices without names (MAC addresses only) will be displayed</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
@@ -361,6 +407,11 @@ Selection"</string>
     <string name="bugreport_in_power">Bug report shortcut</string>
     <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
     <string name="button_convert_fbe">Wipe and convert…</string>
+    <string name="cache_db_name">app_icons.db</string>
+    <string name="cached_apps_freezer_device_default">Device default</string>
+    <string name="cached_apps_freezer_disabled">Disabled</string>
+    <string name="cached_apps_freezer_enabled">Enabled</string>
+    <string name="cached_apps_freezer_reboot_dialog_text">Your device must be rebooted for this change to apply. Reboot now or cancel.</string>
     <string name="callEnded_pulled">Call transferred to another device.</string>
     <string name="callFailed_NetworkBusy">Network is busy. Please try your call again later.</string>
     <string name="callFailed_NetworkCongested">Network is congested. Contact your mobile operator for assistance.</string>
@@ -394,6 +445,7 @@ Selection"</string>
     <string name="callFailed_dsac_restricted">Calls restricted by access control.</string>
     <string name="callFailed_dsac_restricted_emergency">Emergency calls restricted by access control.</string>
     <string name="callFailed_dsac_restricted_normal">Normal calls restricted by access control.</string>
+    <string name="callFailed_emergency_call_over_wfc_not_available">Emergency calls over WLAN calling not available in this location.</string>
     <string name="callFailed_facility_rejected">Facility rejected</string>
     <string name="callFailed_fdn_only">Outgoing calls are restricted by FDN.</string>
     <string name="callFailed_imei_not_accepted">Unable to connect, please insert a valid SIM card.</string>
@@ -452,6 +504,7 @@ Selection"</string>
     <string name="callFailed_userBusy">Line busy</string>
     <string name="callFailed_user_not_member_of_CUG">User not member of CUG</string>
     <string name="callFailed_video_call_tty_enabled">Cannot make video calls when TTY is enabled.</string>
+    <string name="callFailed_wfc_service_not_available_in_this_location">WLAN calling is not available in this location.</string>
     <string name="callFailed_wifi_lost">WLAN connection lost. Call ended.</string>
     <string name="callUnanswered_forwarded">Call Unanswered and Forwarded</string>
     <string name="call_advanced_setting_title">Advanced settings</string>
@@ -473,12 +526,11 @@ Selection"</string>
     <string name="call_barring_baoicr_enabled">Disable blocking of outgoing international roaming?</string>
     <string name="call_barring_change_pwd">Change password</string>
     <string name="call_barring_change_pwd_description">Change call barring password</string>
-    <string name="call_barring_change_pwd_description_disabled">Cannot change call barring password.</string>
+    <string name="call_barring_change_pwd_description_disabled">Cannot change call barring password</string>
     <string name="call_barring_change_pwd_success">Password changed</string>
     <string name="call_barring_confirm_pwd">Confirm password</string>
     <string name="call_barring_deactivate_all">Deactivate all</string>
     <string name="call_barring_deactivate_all_description">Deactivate all call barring settings</string>
-    <string name="call_barring_deactivate_all_no_password">Deactivate all call barring settings?</string>
     <string name="call_barring_deactivate_success">Call barring deactivated</string>
     <string name="call_barring_new_pwd">New password</string>
     <string name="call_barring_old_pwd">Old password</string>
@@ -539,6 +591,8 @@ Selection"</string>
     <string name="card_title_on_hold">On hold</string>
     <string name="card_title_redialing">Redialing</string>
     <string name="carrier_info">Carrier info</string>
+    <string name="carrier_mmi_msg_title">%s Message</string>
+    <string name="carrier_provisioning">Carrier Provisioning Info</string>
     <string name="carrier_settings" />
     <string name="carrier_settings_euicc">Carrier</string>
     <string name="carrier_settings_euicc_summary">%1$s — %2$s</string>
@@ -547,6 +601,7 @@ Selection"</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Work</string>
     <string name="cb_sms_settings">Cell Broadcast SMS settings</string>
+    <string name="cbrs_data_switch_string">Cbrs Data</string>
     <string name="cdma_activate_device">Activate device</string>
     <string name="cdma_alert_message">"If you select another card as your default for mobile data, you won't be able to use your China Telecom UIM card (except in roaming)."</string>
     <string name="cdma_alert_title">UIM card must be default</string>
@@ -676,6 +731,8 @@ Selection"</string>
     <string name="config_default_data_sim">Settings</string>
     <string name="config_dialing_emergency_number_suffix" />
     <string name="config_disable_cdma_activation_code">false</string>
+    <string name="config_ims_mmtel_package" />
+    <string name="config_ims_rcs_package" />
     <string name="config_simUnlockUiClass">@null</string>
     <string name="config_simUnlockUiPackage">@null</string>
     <string name="config_world_mode" />
@@ -756,6 +813,7 @@ Selection"</string>
     <string name="debug_monitoring_category">Monitoring</string>
     <string name="debug_networking_category">Networking</string>
     <string name="debug_view_attributes">Enable view attribute inspection</string>
+    <string name="default_carrier_mmi_msg_title">Carrier Message</string>
     <string name="default_notification_description">Default sound (%1$s)</string>
     <string name="default_port">5060</string>
     <string name="default_preference_summary">@string/default_preference_summary_username</string>
@@ -764,6 +822,8 @@ Selection"</string>
     <string name="default_preference_summary_username">&lt;Not set></string>
     <string name="default_transport">UDP</string>
     <string name="delete">Delete</string>
+    <string name="delete_blob_confirmation_text">Are you sure you want to delete this shared data?</string>
+    <string name="delete_blob_text">Delete shared data</string>
     <string name="delete_fdn_contact">Delete fixed dialing number</string>
     <string name="deleting_fdn_contact">Deleting fixed dialing number…</string>
     <string name="description_concat_format">%1$s, %2$s</string>
@@ -800,7 +860,7 @@ Selection"</string>
     <string name="dial_emergency_error">"Can't call. %s is not an emergency number."</string>
     <string name="dial_related_setting_catory">Dialer</string>
     <string name="dialerKeyboardHintText">Use keyboard to dial</string>
-    <string name="dialer_default_class">com.android.dialer.DialtactsActivity</string>
+    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
     <string name="dialog_alert_title">Attention</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_network_priority_title">Priority network</string>
@@ -866,12 +926,18 @@ Selection"</string>
     <string name="domain_address">SipDomain</string>
     <string name="domain_address_title">Server</string>
     <string name="doneButton">Done</string>
+    <string name="dsds_dialog_cancel">Cancel</string>
+    <string name="dsds_dialog_confirm">Restart</string>
+    <string name="dsds_dialog_message">You need to restart your device to change this setting.</string>
+    <string name="dsds_dialog_title">Restart Device?</string>
+    <string name="dsds_switch_string">Enable DSDS</string>
     <string name="dtmf_tone_entries_long">Long</string>
     <string name="dtmf_tone_entries_normal">Normal</string>
     <string name="dtmf_tones_summary">Set the length of DTMF tones</string>
     <string name="dtmf_tones_title">DTMF tones</string>
     <string name="dual_4g_switch_summary">Allow 4G connectivity for both SIM slots</string>
     <string name="dual_4g_switch_title">Dual 4G</string>
+    <string name="eab_provisioned_switch_string">EAB/Presence Provisioned</string>
     <string name="ecm_exit_dialog">EcmExitDialog</string>
     <string name="edit_fdn_contact">Edit fixed dialing number</string>
     <string name="emergencyDialerIconLabel">Emergency Dialer</string>
@@ -898,6 +964,8 @@ Selection"</string>
     <string name="enable">Turn on</string>
     <string name="enable_adb">USB debugging</string>
     <string name="enable_adb_summary">Debug mode when USB is connected</string>
+    <string name="enable_adb_wireless">Wireless debugging</string>
+    <string name="enable_adb_wireless_summary">Debug mode when Wi‑Fi is connected</string>
     <string name="enable_antispam_strange_summary">Mute the first ring for calls from unknown numbers</string>
     <string name="enable_antispam_strange_title">Mute first ring</string>
     <string name="enable_disable_administrative">Administrative</string>
@@ -937,6 +1005,8 @@ Selection"</string>
     <string name="enable_sim_pin">Set SIM PIN</string>
     <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
     <string name="enable_terminal_title">Local terminal</string>
+    <string name="enable_verbose_vendor_logging">Enable verbose vendor logging</string>
+    <string name="enable_verbose_vendor_logging_summary">Include additional device-specific vendor logs in bug reports, which may contain private information, use more battery, and/or use more storage.</string>
     <string name="enable_vice_volte_if_dual_ct">Turn on VoLTE for the secondary SIM automatically when two China Telecom SIM cards are installed.</string>
     <string name="enable_video_calling_dialog_close">Close</string>
     <string name="enable_video_calling_dialog_msg">To turn on video calling, you need to enable Enhanced 4G LTE Mode in network settings.</string>
@@ -948,6 +1018,8 @@ Selection"</string>
     <string name="enhanced_4g_lte_mode_summary">Use LTE services to improve voice and other communications (recommended)</string>
     <string name="enhanced_4g_lte_mode_summary_o2">Use 4G services to improve voice and other communications (recommended)</string>
     <string name="enhanced_4g_lte_mode_title">Enhanced 4G LTE Mode</string>
+    <string name="enhanced_connectivity">Enhanced Connectivity</string>
+    <string name="enhanced_connectivity_summary">Enables the Enhanced Connectivity feature.</string>
     <string name="enter_callbarring_password">Enter call barring password (%d digits)</string>
     <string name="enter_input">USSD message must be between %1$d and %2$d characters. Please try again.</string>
     <string name="enter_pin2_text">PIN2</string>
@@ -1003,9 +1075,9 @@ Selection"</string>
     <string name="fiveg_sa_switch_open_dialog_title">Attention</string>
     <string name="fiveg_sa_switch_summary">Allow connecting to 5G networks in standalone mode</string>
     <string name="fiveg_sa_switch_title">SA mode</string>
-    <string name="fiveg_sa_switch_title_slot0">SIM 1 SA mode</string>
-    <string name="fiveg_sa_switch_title_slot1">SIM 2 SA mode</string>
-    <string name="fiveg_sa_switch_warning_toast">Please reboot the phone to take effect.</string>
+    <string name="fiveg_sa_switch_title_slot0">SIM %d SA mode</string>
+    <string name="fiveg_sa_switch_title_slot1">SIM %d SA mode</string>
+    <string name="fiveg_sa_switch_warning_toast">Reboot your device to apply changes</string>
     <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="fiveg_signal_strength1">5G Signal strength :</string>
     <string name="fiveg_switch_status1">5G switch status:</string>
@@ -1038,6 +1110,9 @@ Switch to the new provider anyway?"</string>
     <string name="gsm_umts_network_preferences_dialogtitle">Network mode</string>
     <string name="gsm_umts_network_preferences_title">Network mode</string>
     <string name="gsm_umts_options">GSM/UMTS Options</string>
+    <string name="guest_exit_guest">Remove guest</string>
+    <string name="guest_new_guest">Add guest</string>
+    <string name="guest_nickname">Guest</string>
     <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
     <string name="hac_mode_title">Hearing aids</string>
     <string name="handon_ringer_summary">Reduce ringer volume for incoming call when phone is raised.</string>
@@ -1045,6 +1120,8 @@ Switch to the new provider anyway?"</string>
     <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
     <string name="hdcp_checking_title">HDCP checking</string>
     <string name="help_feedback_label">Help &amp; feedback</string>
+    <string name="help_label">Help &amp; feedback</string>
+    <string name="help_url_imsi_protection" />
     <string name="home">Settings Home</string>
     <string name="ime_security_warning">This input method may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this input method?</string>
     <string name="immediately_destroy_activities">Don’t keep activities</string>
@@ -1057,6 +1134,7 @@ Switch to the new provider anyway?"</string>
     <string name="ims_reg_status_registered">Registered</string>
     <string name="ims_reg_title">IMS registration state</string>
     <string name="ims_settings">IMS Settings</string>
+    <string name="imsi_protection_warning">This network receives a unique ID that can be used to track device location. <annotation id="url">Learn more</annotation></string>
     <string name="inactive_app_active_summary">Active. Tap to toggle.</string>
     <string name="inactive_app_inactive_summary">Inactive. Tap to toggle.</string>
     <string name="inactive_apps_title">Standby apps</string>
@@ -1114,19 +1192,9 @@ Switch to the new provider anyway?"</string>
     <string name="ivr_type_settings">Data plan settings</string>
     <string name="ivr_type_settings_hint">Enter your data plan code</string>
     <string name="jump_to_mobile_network_setting">Mobile network settings</string>
-    <string name="kddi_sim_lock_status_allowed">Allowed</string>
-    <string name="kddi_sim_lock_status_code">Code</string>
-    <string name="kddi_sim_lock_status_default_code">-</string>
-    <string name="kddi_sim_lock_status_no_sim">No SIM card</string>
-    <string name="kddi_sim_lock_status_not_allowed">Not Allowed</string>
-    <string name="kddi_sim_lock_status_open_wifi_warning">WLAN connection is needed</string>
-    <string name="kddi_sim_lock_status_status">Status</string>
-    <string name="kddi_sim_lock_status_title">SIM card status</string>
-    <string name="kddi_sim_lock_status_update">SIM status update</string>
-    <string name="kddi_sim_lock_status_update_fail">Update failure</string>
-    <string name="kddi_sim_lock_status_update_success">Update successful</string>
     <string name="keep_screen_on">Stay awake</string>
     <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
+    <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_carrier_settings_euicc">carrier, esim, sim, euicc, switch carriers, add carrier</string>
     <string name="kr_emergency_111">National security (111)</string>
     <string name="kr_emergency_112">Police (112)</string>
@@ -1168,6 +1236,7 @@ Switch to the new provider anyway?"</string>
     <string name="labelNwService">Network service settings</string>
     <string name="label_available">Available networks</string>
     <string name="label_ndp">SIM network unlock PIN</string>
+    <string name="label_phoneid">Perso Locked for</string>
     <string name="label_puk2_code">Type PUK2 code</string>
     <string name="lable_all_incoming">All incoming calls</string>
     <string name="lable_all_out_except">International outgoing calls except to home PLMN</string>
@@ -1200,6 +1269,15 @@ Switch to the new provider anyway?"</string>
     <string name="lgu_msim_emm_cause_7_14">"SIM %d network doesn't provide mobile data services"</string>
     <string name="lgu_msim_emm_cause_8">"SIM %d couldn't register network. Visit a customer service center (+82-2-3416-7010)."</string>
     <string name="lgu_msim_emm_cause_others">"SIM %d can't connect to the network. Visit a customer service center (+82-2-3416-7010)."</string>
+    <string name="limited_service_alert_dialog_description"><b>Emergency calls via WLAN Calling</b>"
+Emergency calls are not possible via WLAN Calling. 
+
+The device switches automatically to a cellular network (2G/3G) to place an emergency call. 
+
+Emergency calls are only possible in areas with cellular coverage."</string>
+    <string name="limited_sim_function_notification_message">%1$s calls and data services may be blocked while using another SIM.</string>
+    <string name="limited_sim_function_notification_title">Limited SIM functionality</string>
+    <string name="limited_sim_function_with_phone_num_notification_message">%1$s calls and data services may be blocked while using %2$s.</string>
     <string name="list_language_dtitle">Languages</string>
     <string name="list_language_summary">Select the news language</string>
     <string name="list_language_title">Language</string>
@@ -1230,7 +1308,9 @@ Switch to the new provider anyway?"</string>
     <string name="managed_user_title">All work apps</string>
     <string name="manual_mode_disallowed_summary">Unavailable when connected to %1$s</string>
     <string name="media_category">Media</string>
-    <string name="media_transfer_this_device_name">This device</string>
+    <string name="media_transfer_this_device_name">Phone speaker</string>
+    <string name="media_transfer_wired_device_name">Wired audio device</string>
+    <string name="media_transfer_wired_usb_device_name">Wired headphone</string>
     <string name="menu_add">Add contact</string>
     <string name="menu_delete">Delete contact</string>
     <string name="menu_dial">Dial contact</string>
@@ -1239,8 +1319,8 @@ Switch to the new provider anyway?"</string>
     <string name="messageCFNRc">Number when unreachable</string>
     <string name="messageCFNRy">Number when unanswered</string>
     <string name="messageCFU">Always use this number</string>
-    <string name="messageCFU_kr" formatted="false">A network service that diverts all incoming calls and text messages to a specified number. You have to subscribe to this service. You will be charged with monthly fee. Contact the customer center (114+[Send]) to subscribe or unsubscribe from this service. Enter %s+[number to forward calls to][Send] to enable, or %s[Send] to disable.</string>
-    <string name="messageCW_kr" formatted="false">A free network service that allows you to answer a second call during a call, placing the first call on hold. Enter %s[Send] to enable, or %s[Send] to disable.</string>
+    <string name="messageCFU_kr">A network service that diverts all incoming calls and text messages to a specified number. You have to subscribe to this service. You will be charged with monthly fee. Contact the customer center (114+[Send]) to subscribe or unsubscribe from this service. Enter %1$s+[number to forward calls to][Send] to enable, or %2$s[Send] to disable.</string>
+    <string name="messageCW_kr">A free network service that allows you to answer a second call during a call, placing the first call on hold. Enter %1$s[Send] to enable, or %2$s[Send] to disable.</string>
     <string name="messageCallBarring">Enter password</string>
     <string name="message_decode_error">There was an error while decoding the message.</string>
     <string name="mhh_disable">Medical, Health, and Hospital disabled</string>
@@ -1392,6 +1472,8 @@ Switch to the new provider anyway?"</string>
     <string name="network_2G">2G</string>
     <string name="network_3G">3G</string>
     <string name="network_4G">4G (recommended)</string>
+    <string name="network_4G_pure">4G</string>
+    <string name="network_5G">5G</string>
     <string name="network_active">Active networks</string>
     <string name="network_available">Available networks</string>
     <string name="network_connected">Connected</string>
@@ -1403,11 +1485,13 @@ Switch to the new provider anyway?"</string>
     <string name="network_id">Network ID</string>
     <string name="network_info_message">Network message</string>
     <string name="network_lte">LTE (recommended)</string>
+    <string name="network_lte_pure">LTE</string>
     <string name="network_message">Network message</string>
     <string name="network_mode_updating_title">Network Type</string>
     <string name="network_operator_category">Network</string>
     <string name="network_operator_settings_class">com.android.phone.settings.MobileNetworkSetting</string>
     <string name="network_query_error">"Couldn't find networks. Try again."</string>
+    <string name="network_recommended">" (recommended)"</string>
     <string name="network_select_title">Network</string>
     <string name="network_settings_auto_select_title">Choose network manually?</string>
     <string name="network_settings_automatically_option">Automatically choose preferred network (%s)</string>
@@ -1440,6 +1524,7 @@ Using preferred network instead."</string>
     <string name="no_internet_available">To place a SIP call, check your internet connection first.</string>
     <string name="no_mobile_data">Mobile data is not available</string>
     <string name="no_mobile_data_roaming">Data roaming is not available</string>
+    <string name="no_rtt_when_roaming">Note: RTT is not available while roaming</string>
     <string name="no_vm_number">Missing voicemail number</string>
     <string name="no_vm_number_msg">No voicemail number is stored on the SIM card.</string>
     <string name="no_voip">"SIP calling isn't supported"</string>
@@ -1470,6 +1555,7 @@ Using preferred network instead."</string>
     <string name="number">Number</string>
     <string name="numerous_emergency_numbers_title">Emergency numbers</string>
     <string name="oem_preferred_feedback_reporter" />
+    <string name="oem_radio_info_label">OEM-specific Info/Settings</string>
     <string name="oem_unlock_enable">OEM unlocking</string>
     <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
     <string name="ok">OK</string>
@@ -1491,7 +1577,7 @@ Using preferred network instead."</string>
     <string name="onscreenShowDialpadText">Dialpad</string>
     <string name="onscreenSwapCallsText">Swap</string>
     <string name="onscreenVideoCallText">Video call</string>
-    <string name="open_miui">Turn on</string>
+    <string name="open_miui">Open</string>
     <string name="opened_dual_4g_confirm_prompt">Looks like you have a 4G only SIM card. Dual 4G was turned on automatically.</string>
     <string name="opened_dual_4g_confirm_prompt_with_sim">SIM %1$s only supports 4G. To make sure your SIM card works normally, dual 4G was turned on.</string>
     <string name="operator">Carrier</string>
@@ -1594,8 +1680,12 @@ Try again or call customer service for more options."</string>
     <string name="phone_accounts_settings_header">Settings</string>
     <string name="phone_entered_ecm_text">Entered Emergency Callback Mode</string>
     <string name="phone_in_ecm_call_notification_text">Data connection disabled</string>
+    <string name="phone_in_ecm_call_notification_text_without_data_restriction_hint">The phone is in emergency callback mode</string>
     <string name="phone_in_ecm_notification_complete_time">No data connection until %s</string>
+    <string name="phone_in_ecm_notification_complete_time_without_data_restriction_hint">Until %s</string>
     <string name="phone_in_ecm_notification_title">Emergency Callback Mode</string>
+    <string name="phone_index_label">Select phone index</string>
+    <string name="phone_info_label">Phone info</string>
     <string name="phone_report_title">Read incoming call info</string>
     <string name="picture_color_mode">Picture color mode</string>
     <string name="picture_color_mode_desc">Use sRGB</string>
@@ -1618,15 +1708,17 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="pin_progress_set_fdn_lock">Setting FDN lock state…</string>
     <string name="pin_progress_set_icc_lock">Setting ICC lock state…</string>
     <string name="pin_progress_unlock_icc">Unlocking SIM card…</string>
+    <string name="pin_puk_system_user_only">Only the owner of the device can enter PIN/PUK codes.</string>
+    <string name="ping_test_label">Run Ping Test</string>
     <string name="platform_carrier_config_package">com.android.carrierconfig</string>
-    <string name="platform_number_verification_package" />
+    <string name="platform_number_verification_package">com.google.android.gms</string>
     <string name="pointer_location">Pointer location</string>
     <string name="pointer_location_summary">Screen overlay showing current touch data</string>
     <string name="police_type_description">Police</string>
     <string name="port">Port</string>
     <string name="port_title">Port number</string>
     <string name="power_charging">%1$s - %2$s</string>
-    <string name="power_charging_duration">%1$s - %2$s until fully charged</string>
+    <string name="power_charging_duration">%1$s - %2$s until charged</string>
     <string name="power_discharge_by">Should last until about %1$s (%2$s)</string>
     <string name="power_discharge_by_enhanced">Should last until about %1$s based on your usage (%2$s)</string>
     <string name="power_discharge_by_only">Should last until about %1$s</string>
@@ -1634,18 +1726,18 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="power_discharge_by_only_short">Until %1$s</string>
     <string name="power_discharging_duration">About %1$s left (%2$s)</string>
     <string name="power_discharging_duration_enhanced">About %1$s left based on your usage (%2$s)</string>
-    <string name="power_remaining_charging_duration_only">%1$s left until fully charged</string>
+    <string name="power_remaining_charging_duration_only">%1$s left until charged</string>
     <string name="power_remaining_duration_only">About %1$s left</string>
     <string name="power_remaining_duration_only_enhanced">About %1$s left based on your usage</string>
     <string name="power_remaining_duration_only_short">%1$s</string>
-    <string name="power_remaining_duration_only_shutdown_imminent">Phone may shutdown soon</string>
-    <string name="power_remaining_duration_shutdown_imminent">Phone may shutdown soon (%1$s)</string>
-    <string name="power_remaining_less_than_duration">Less than %1$s remaining (%2$s)</string>
-    <string name="power_remaining_less_than_duration_only">Less than %1$s remaining</string>
-    <string name="power_remaining_more_than_subtext">More than %1$s remaining (%2$s)</string>
-    <string name="power_remaining_only_more_than_subtext">More than %1$s remaining</string>
+    <string name="power_remaining_duration_only_shutdown_imminent">Phone may shut down soon</string>
+    <string name="power_remaining_duration_shutdown_imminent">Phone may shut down soon (%1$s)</string>
+    <string name="power_remaining_less_than_duration">Less than %1$s left (%2$s)</string>
+    <string name="power_remaining_less_than_duration_only">Less than %1$s left</string>
+    <string name="power_remaining_more_than_subtext">More than %1$s left (%2$s)</string>
+    <string name="power_remaining_only_more_than_subtext">More than %1$s left</string>
     <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
-    <string name="power_suggestion_extend_battery">Extend battery life past %1$s</string>
+    <string name="power_suggestion_battery_run_out">Battery may run out by %1$s</string>
     <string name="prefered_network_type_3g_promp">You should turn off VoLTE before seleсting 3G as your preferred network type. Turn off now?</string>
     <string name="preference_auto_ip_summary_disable">Off</string>
     <string name="preference_category_ringtone">Ringtone &amp; Vibrate</string>
@@ -1670,6 +1762,7 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="preferred_network_mode_global_summary">Preferred network mode: Global</string>
     <string name="preferred_network_mode_gsm_only_summary">Preferred network mode: GSM only</string>
     <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: GSM / WCDMA</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary">Preferred network mode: LTE/CDMA/EvDo/GSM/WCDMA</string>
     <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferred network mode: CDMA+LTE/EVDO</string>
     <string name="preferred_network_mode_lte_cdma_summary">Preferred network mode: LTE / CDMA</string>
     <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
@@ -1681,6 +1774,17 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="preferred_network_mode_lte_tdscdma_summary">Preferred network mode: LTE / TDSCDMA</string>
     <string name="preferred_network_mode_lte_tdscdma_wcdma_summary">Preferred network mode: LTE/TDSCDMA/WCDMA</string>
     <string name="preferred_network_mode_lte_wcdma_summary">Preferred network mode: LTE / WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_cdma_evdo_gsm_wcdma_summary">Preferred network mode: NR/LTE/CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_cdma_evdo_summary">Preferred network mode: NR/LTE/CDMA/EvDo</string>
+    <string name="preferred_network_mode_nr_lte_gsm_wcdma_summary">Preferred network mode: NR/LTE/GSM/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_summary">Preferred network mode: NR / LTE</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_cdma_evdo_gsm_wcdma_summary">Preferred network mode: NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_gsm_summary">Preferred network mode: NR/LTE/TDSCDMA/GSM</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_gsm_wcdma_summary">Preferred network mode: NR/LTE/TDSCDMA/GSM/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_summary">Preferred network mode: NR/LTE/TDSCDMA</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_wcdma_summary">Preferred network mode: NR/LTE/TDSCDMA/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_wcdma_summary">Preferred network mode: NR/LTE/WCDMA</string>
+    <string name="preferred_network_mode_nr_only_summary">Preferred network mode: NR only</string>
     <string name="preferred_network_mode_summary">Change the network operating mode</string>
     <string name="preferred_network_mode_tdscdma_cdma_evdo_gsm_wcdma_summary">Preferred network mode: TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
     <string name="preferred_network_mode_tdscdma_gsm_summary">Preferred network mode: TDSCDMA / GSM</string>
@@ -1703,7 +1807,6 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_lm_cr">LTE/WCDMA/GSM auto</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_mx_at">4G/3G/2G (4G preferred)</string>
     <string name="preferred_network_type_pref_entries_5g_preferred">Prefer 5G</string>
-    <string name="preferred_network_type_pref_entries_5g_preferred_lm_cr">5G/LTE/WCDMA/GSM auto</string>
     <string name="preferred_network_type_pref_entries_5g_preferred_mx_at">5G/4G/3G/2G (5G/4G preferred)</string>
     <string name="preferred_network_type_pref_entries_auto">Automatic</string>
     <string name="preferred_network_type_pref_entries_global">Global</string>
@@ -1717,6 +1820,7 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="preferred_phone_account">Preferred calling account</string>
     <string name="preferred_wificall_title">Network preferences</string>
     <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="private_dns_broken">Private DNS server cannot be accessed</string>
     <string name="private_dns_mode_off">Off</string>
     <string name="private_dns_mode_opportunistic">Automatic</string>
     <string name="private_dns_mode_provider">Private DNS provider hostname</string>
@@ -1725,6 +1829,8 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="private_num">Private number</string>
     <string name="private_num_kr">Caller ID restricted</string>
     <string name="process_kernel_label">Android OS</string>
+    <string name="profile_connect_timeout_subtext">Problem connecting. Turn device off &amp; back on</string>
+    <string name="profile_info_settings_title">Profile info</string>
     <string name="progress_dialog_exiting_ecm">Exiting Emergency Callback mode</string>
     <string name="prompt_to_suggest_no_call_service_notification_content">"Can't make and receive calls. VoLTE service is off for your SIM (China Telecom) now."</string>
     <string name="prompt_to_suggest_no_call_service_notification_content2">"Can't make and receive calls. VoLTE service is off for SIM %d (China Telecom) now."</string>
@@ -1752,6 +1858,76 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
     <string name="puk_requested">Password incorrect. PIN now blocked. PUK requested.</string>
     <string name="puk_unlocked">Your SIM card has been unblocked. Your phone is unlocking…</string>
     <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="radioInfo_cid">CID</string>
+    <string name="radioInfo_data_connected">Connected</string>
+    <string name="radioInfo_data_connecting">Connecting</string>
+    <string name="radioInfo_data_disconnected">Disconnected</string>
+    <string name="radioInfo_data_suspended">Suspended</string>
+    <string name="radioInfo_display_asu">asu</string>
+    <string name="radioInfo_display_bytes">bytes</string>
+    <string name="radioInfo_display_dbm">dBm</string>
+    <string name="radioInfo_display_packets">pkts</string>
+    <string name="radioInfo_lac">LAC</string>
+    <string name="radioInfo_menu_getIMS">IMS Service Status</string>
+    <string name="radioInfo_menu_viewADN">View SIM Address Book</string>
+    <string name="radioInfo_menu_viewFDN">View Fixed Dialing Numbers</string>
+    <string name="radioInfo_menu_viewSDN">View Service Dialing Numbers</string>
+    <string name="radioInfo_phone_idle">Idle</string>
+    <string name="radioInfo_phone_offhook">Call in Progress</string>
+    <string name="radioInfo_phone_ringing">Ringing</string>
+    <string name="radioInfo_roaming_in">Roaming</string>
+    <string name="radioInfo_roaming_not">Not Roaming</string>
+    <string name="radioInfo_service_emergency">Emergency Calls Only</string>
+    <string name="radioInfo_service_in">In Service</string>
+    <string name="radioInfo_service_off">Radio Off</string>
+    <string name="radioInfo_service_out">Out of Service</string>
+    <string name="radioInfo_unknown">Unknown</string>
+    <string name="radio_info_band_mode_label">Select Radio Band</string>
+    <string name="radio_info_call_redirect_label">Call Redirect:</string>
+    <string name="radio_info_call_status_label">Voice Call Status:</string>
+    <string name="radio_info_cell_info_refresh_rate">Cell Info Refresh Rate:</string>
+    <string name="radio_info_cellinfo_label">All Cell Measurement Info:</string>
+    <string name="radio_info_current_network_label">Current Network:</string>
+    <string name="radio_info_data_connection_disable">Disable Data Connection</string>
+    <string name="radio_info_data_connection_enable">Enable Data Connection</string>
+    <string name="radio_info_data_network_type_label">Data Network Type:</string>
+    <string name="radio_info_dds">SubId of default data SIM:</string>
+    <string name="radio_info_dl_kbps">DL Bandwidth (kbps):</string>
+    <string name="radio_info_gprs_service_label">Data Service:</string>
+    <string name="radio_info_gsm_service_label">Voice Service:</string>
+    <string name="radio_info_http_client_test">HTTP Client Test:</string>
+    <string name="radio_info_imei_label">IMEI:</string>
+    <string name="radio_info_ims_feature_status_available">Available</string>
+    <string name="radio_info_ims_feature_status_unavailable">Unavailable</string>
+    <string name="radio_info_ims_reg_status">"IMS Registration: %1$s
+Voice over LTE: %2$s
+Voice over WLAN: %3$s
+Video Calling: %4$s
+UT Interface: %5$s"</string>
+    <string name="radio_info_ims_reg_status_not_registered">Not Registered</string>
+    <string name="radio_info_ims_reg_status_registered">Registered</string>
+    <string name="radio_info_ims_reg_status_title">IMS Status</string>
+    <string name="radio_info_imsi_label">IMSI:</string>
+    <string name="radio_info_message_waiting_label">Message Waiting:</string>
+    <string name="radio_info_phone_number_label">Phone Number:</string>
+    <string name="radio_info_phy_chan_config">LTE Physical Channel Configuration:</string>
+    <string name="radio_info_ping_hostname_v4">Ping Hostname(www.google.com) IPv4:</string>
+    <string name="radio_info_ping_hostname_v6">Ping Hostname(www.google.com) IPv6:</string>
+    <string name="radio_info_ppp_received_label">Data Received:</string>
+    <string name="radio_info_ppp_resets_label">Number of PPP Reset Since Boot:</string>
+    <string name="radio_info_ppp_sent_label">Data Sent:</string>
+    <string name="radio_info_radio_power">Mobile Radio Power</string>
+    <string name="radio_info_roaming_label">Roaming:</string>
+    <string name="radio_info_set_perferred_label">Set Preferred Network Type:</string>
+    <string name="radio_info_signal_location_label">Cell Location Info (deprecated):</string>
+    <string name="radio_info_signal_strength_label">Signal Strength:</string>
+    <string name="radio_info_smsc_label">SMSC:</string>
+    <string name="radio_info_smsc_refresh_label">Refresh</string>
+    <string name="radio_info_smsc_update_label">Update</string>
+    <string name="radio_info_subid">Current subId:</string>
+    <string name="radio_info_toggle_dns_check_label">Toggle DNS Check</string>
+    <string name="radio_info_ul_kbps">UL Bandwidth (kbps):</string>
+    <string name="radio_info_voice_network_type_label">Voice Network Type:</string>
     <string name="radio_off_during_emergency_call">Cannot enter airplane mode during an emergency call.</string>
     <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
     <string name="reading_settings">Reading settings…</string>
@@ -1818,8 +1994,10 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
     <string name="roaming_disable">Connect to data services when roaming</string>
     <string name="roaming_disable_kr">Data roaming and international roaming settings</string>
     <string name="roaming_enable">Connect to data services when roaming</string>
+    <string name="roaming_enabled_message">Roaming charges may apply. Tap to modify.</string>
     <string name="roaming_notification_content">You can add country codes automatically to make dialing more convenient.</string>
     <string name="roaming_notification_title">Looks like roaming is activated</string>
+    <string name="roaming_on_notification_title">Data roaming is on</string>
     <string name="roaming_reenable_message">Try using roaming to connect again.</string>
     <string name="roaming_user_package_summary_kr">"Purchase, cancel, and edit your roaming package. You won't be charged for using this menu while roaming."</string>
     <string name="roaming_user_package_title_kr">Use roaming package</string>
@@ -1902,6 +2080,12 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
     <string name="set_time_period">Set time period</string>
     <string name="settings_label">Network settings</string>
     <string name="settings_package">com.android.settings</string>
+    <string name="shared_data_delete_failure_text">There was an error deleting the shared data.</string>
+    <string name="shared_data_no_accessors_dialog_text">There are no leases acquired for this shared data. Would you like to delete it?</string>
+    <string name="shared_data_no_blobs_text">There is no shared data for this user.</string>
+    <string name="shared_data_query_failure_text">There was an error fetching shared data. Try again.</string>
+    <string name="shared_data_summary">View and modify shared data</string>
+    <string name="shared_data_title">Shared data</string>
     <string name="show_all_anrs">Show background ANRs</string>
     <string name="show_all_anrs_summary">Display App Not Responding dialog for background apps</string>
     <string name="show_hw_layers_updates">Show hardware layers updates</string>
@@ -2017,8 +2201,10 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
     <string name="stk_cc_ss_to_dial_video_error">SS request changed to video call</string>
     <string name="stk_cc_ss_to_ss_error">SS request modified to new SS request.</string>
     <string name="stk_cc_ss_to_ussd_error">SS request modified to USSD request.</string>
+    <string name="stk_name">USIM toolkit</string>
     <string name="stock_quotes_disable">Stock Quotes disabled</string>
     <string name="stock_quotes_enable">Stock Quotes enabled</string>
+    <string name="storage_category">Storage</string>
     <string name="strict_mode">Strict mode enabled</string>
     <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
     <string name="sum_call_barring_disabled">Off</string>
@@ -2050,6 +2236,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
     <string name="sum_voicemail_choose_provider">Choose voicemail service</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_empty" />
+    <string name="summary_separator">" / "</string>
     <string name="supp_service_additional_call_forwarded">Additional call forwarded.</string>
     <string name="supp_service_additional_ect_connected">Explicit call transfer complete.</string>
     <string name="supp_service_additional_ect_connecting">Explicit call transfer in progress.</string>
@@ -2073,7 +2260,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
     <string name="supp_service_over_ut_precautions_roaming">To use %s, make sure mobile data and data roaming are turned on. You can change these in mobile network settings.</string>
     <string name="supp_service_over_ut_precautions_roaming_dual_sim">To use %1$s, make sure mobile data and data roaming are turned on for SIM %2$d. You can change these in mobile network settings.</string>
     <string name="switch_dds_to_sub_alert">Set this card as your default data card.</string>
-    <string name="switch_dds_to_sub_alert_msg">Please switch mobile data to CT SIM</string>
+    <string name="switch_dds_to_sub_alert_msg">Please switch mobile data to SIM</string>
     <string name="switch_off">Off</string>
     <string name="switch_on">On</string>
     <string name="system_visual_voicemail_client" />
@@ -2081,6 +2268,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
     <string name="t9_indexing_method_title">T9 search input</string>
     <string name="t9_indexing_method_zhuyin">Zhuyin</string>
     <string name="t9_indexing_rebuilding_message">Rebuilding T9 indexes…</string>
+    <string name="tap_to_renew_subscription_and_connect">Tap to renew subscription and connect</string>
     <string name="tap_to_sign_up">Tap to sign up</string>
     <string name="technology_news_disable">Technology News disabled</string>
     <string name="technology_news_enable">Technology News enabled</string>
@@ -2155,6 +2343,7 @@ Next period starts in %2$d days (%3$s)"</string>
     <string name="transition_animation_scale_title">Transition animation scale</string>
     <string name="transport">Protocol</string>
     <string name="transport_title">Transport type</string>
+    <string name="trigger_carrier_provisioning">Trigger Carrier Provisioning</string>
     <string name="tts_default_lang_summary">Sets the language-specific voice for the spoken text</string>
     <string name="tts_default_lang_title">Language</string>
     <string name="tts_default_pitch_summary">Affects the tone of the synthesized speech</string>
@@ -2209,7 +2398,32 @@ Next period starts in %2$d days (%3$s)"</string>
     <string name="usb_audio_disable_routing">Disable USB audio routing</string>
     <string name="usb_audio_disable_routing_summary">Disable automatic routing to USB audio peripherals</string>
     <string name="use_system_language_to_select_input_method_subtypes">Use system languages</string>
+    <string name="user_add_profile_item_summary">You can restrict access to apps and content from your account</string>
+    <string name="user_add_profile_item_title">Restricted profile</string>
+    <string name="user_add_user_item_summary">Users have their own apps and content</string>
+    <string name="user_add_user_item_title">User</string>
+    <string name="user_add_user_message_long">"You can share this device with other people by creating additional users. Each user has their own space, which they can customize with apps, wallpaper, and so on. Users can also adjust device settings like Wi‑Fi that affect everyone.
+
+When you add a new user, that person needs to set up their space.
+
+Any user can update apps for all other users. Accessibility settings and services may not transfer to the new user."</string>
+    <string name="user_add_user_message_short">"When you add a new user, that person needs to set up their space.
+
+Any user can update apps for all other users."</string>
+    <string name="user_add_user_title">Add new user?</string>
+    <string name="user_add_user_type_title">Add</string>
     <string name="user_guest">Guest</string>
+    <string name="user_info_settings_title">User info</string>
+    <string name="user_need_lock_message">Before you can create a restricted profile, you’ll need to set up a screen lock to protect your apps and personal data.</string>
+    <string name="user_new_profile_name">New profile</string>
+    <string name="user_new_user_name">New user</string>
+    <string name="user_set_lock_button">Set lock</string>
+    <string name="user_setup_button_setup_later">Not now</string>
+    <string name="user_setup_button_setup_now">Set up now</string>
+    <string name="user_setup_dialog_message">Make sure the person is available to take the device and set up their space</string>
+    <string name="user_setup_dialog_title">Set up user now?</string>
+    <string name="user_setup_profile_dialog_message">Set up profile now?</string>
+    <string name="user_switch_to_user">Switch to %s</string>
     <string name="username">UserName</string>
     <string name="username_title">Username</string>
     <string name="ussdRunning">USSD code running…</string>
@@ -2220,6 +2434,8 @@ Next period starts in %2$d days (%3$s)"</string>
     <string name="v7_preference_on">ON</string>
     <string name="verify_apps_over_usb_summary">Check apps installed via ADB/ADT for harmful behavior.</string>
     <string name="verify_apps_over_usb_title">Verify apps over USB</string>
+    <string name="vibrating_for_outgoing_call_accepted_summary">Enable vibrating mode for outgoing call accepted</string>
+    <string name="vibrating_for_outgoing_call_accepted_title">Vibrating for outgoing call accepted</string>
     <string name="vice_card_data_in_use_alert">Additional data fees may be generated.</string>
     <string name="vice_slot_volte_data_switch_prompt">Your device will connect to a mobile data network using the secondary SIM during ongoing VoLTE calls. This may generate additional data fees. Contact your local carrier for details about your data plan.</string>
     <string name="vice_slot_volte_data_switch_summary">During VoLTE calls, device will connect to a mobile data network using the secondary SIM</string>
@@ -2278,6 +2494,7 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
     <string name="volte_provision_notification_activate">Activate</string>
     <string name="volte_provision_text">VoLTE calls provide better quality than regular calls. Send SMS to activate?</string>
     <string name="volte_provision_title">Activate VoLTE calls</string>
+    <string name="volte_provisioned_switch_string">VoLTE Provisioned</string>
     <string name="volte_switch_not_support_summary">"VoLTE calls aren't supported for the mobile data SIM card."</string>
     <string name="volte_switch_not_support_summary2">"VoLTE calls aren't supported by the carrier."</string>
     <string name="volte_switch_summary">Use VoLTE to improve the quality of voice calls</string>
@@ -2285,6 +2502,8 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
     <string name="volte_switch_title">Use VoLTE</string>
     <string name="volte_switch_title_ct">VoLTE</string>
     <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with VoLTE network coverage. VoLTE services are provided by the carrier.</string>
+    <string name="vonr_switch_summary">Use VoNR to improve the quality of voice calls</string>
+    <string name="vonr_switch_title">Use VoNR</string>
     <string name="vowifi_emergency_notification_channel">WLAN Calling emergency warning</string>
     <string name="vowifi_emergency_notification_content">Emergency calls in areas with cellular coverage only</string>
     <string name="vowifi_emergency_notification_title">Vodafone WLAN Calling</string>
@@ -2297,6 +2516,7 @@ Emergency calls are only possible in areas with cellular coverage."</string>
     <string name="vowifi_emergency_warning_title">Emergency calls via WLAN Calling</string>
     <string name="vowifi_welcome_notification_channel">wifiCallWelcomeNotification</string>
     <string name="vpn_settings_not_available">VPN settings are not available for this user</string>
+    <string name="vt_provisioned_switch_string">Video Calling Provisioned</string>
     <string name="vvm_unsupported_message_format">Unsupported message type, call %s to listen.</string>
     <string name="wait_for_debugger">Wait for debugger</string>
     <string name="wait_for_debugger_summary">Debugged application waits for debugger to attach before executing</string>
@@ -2319,6 +2539,7 @@ Emergency calls are only possible in areas with cellular coverage."</string>
     <string name="wapi_password_length_is_min">Password can not less than 8 characters in length</string>
     <string name="wapi_password_length_is_min_to_max">The password must be: 8-64 characters</string>
     <string name="wapi_yes">yes</string>
+    <string name="wfc_provisioned_switch_string">Wifi Calling Provisioned</string>
     <string name="wfcmode_mobile_preferred">Prefer mobile networks</string>
     <string name="wfcmode_wifi_only">WLAN only</string>
     <string name="wfcmode_wifi_preferred">Prefer WLAN</string>
@@ -2354,7 +2575,7 @@ If you select to prefer mobile networks, they will be used by default to make ph
     <string name="wifi_cant_connect">"Can't connect"</string>
     <string name="wifi_cant_connect_to_ap">"Can't connect to '%1$s'"</string>
     <string name="wifi_check_password_try_again">Check password and try again</string>
-    <string name="wifi_connected_no_internet">Connected, no internet</string>
+    <string name="wifi_connected_no_internet">No internet</string>
     <string name="wifi_coverage_extend">Enable Wi‑Fi Coverage Extend Feature</string>
     <string name="wifi_coverage_extend_summary">Enable extending Wi‑Fi coverage using Hotspot</string>
     <string name="wifi_disabled_by_recommendation_provider">Not connected due to low quality network</string>
@@ -2367,6 +2588,8 @@ If you select to prefer mobile networks, they will be used by default to make ph
     <string name="wifi_display_certification_summary">Show options for wireless display certification</string>
     <string name="wifi_dns1_hint">8.8.8.8</string>
     <string name="wifi_dns2_hint">8.8.4.4</string>
+    <string name="wifi_enhanced_mac_randomization">Wi‑Fi‑enhanced MAC randomization</string>
+    <string name="wifi_enhanced_mac_randomization_summary">When this mode is enabled, this device’s MAC address may change each time it connects to a network that has MAC randomization enabled.</string>
     <string name="wifi_fail_to_scan">"Can't scan for networks"</string>
     <string name="wifi_gateway_hint">192.168.1.1</string>
     <string name="wifi_hand_sel_wapi_cert">WAPI certificate</string>
@@ -2377,6 +2600,7 @@ If you select to prefer mobile networks, they will be used by default to make ph
     <string name="wifi_no_internet">No internet access</string>
     <string name="wifi_no_internet_no_reconnect">"Won't automatically connect"</string>
     <string name="wifi_not_in_range">Not in range</string>
+    <string name="wifi_passpoint_expired">Expired</string>
     <string name="wifi_remembered">Saved</string>
     <string name="wifi_scan_throttling">Wi‑Fi scan throttling</string>
     <string name="wifi_scan_throttling_summary">Reduces battery drain &amp; improves network performance</string>
@@ -2386,6 +2610,7 @@ If you select to prefer mobile networks, they will be used by default to make ph
     <string name="wifi_security_eap_wpa">WPA-Enterprise</string>
     <string name="wifi_security_eap_wpa2_wpa3">WPA2/WPA3-Enterprise</string>
     <string name="wifi_security_none">None</string>
+    <string name="wifi_security_none_owe">None/Enhanced Open</string>
     <string name="wifi_security_owe">Enhanced Open</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
@@ -2396,6 +2621,7 @@ If you select to prefer mobile networks, they will be used by default to make ph
     <string name="wifi_security_short_eap_suiteb">Suite-B-192</string>
     <string name="wifi_security_short_eap_wpa">WPA-EAP</string>
     <string name="wifi_security_short_eap_wpa2_wpa3">RSN-EAP</string>
+    <string name="wifi_security_short_none_owe">None/OWE</string>
     <string name="wifi_security_short_owe">OWE</string>
     <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_psk_sae">WPA2/WPA3</string>
@@ -2403,15 +2629,17 @@ If you select to prefer mobile networks, they will be used by default to make ph
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa2_wpa3">WPA2/WPA3</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2_wpa3">WPA/WPA2/WPA3</string>
     <string name="wifi_security_wapi_cert">WAPI-Cert</string>
     <string name="wifi_security_wapi_psk">WAPI-PSK</string>
-    <string name="wifi_security_wapi_psk_ascii">ASCII</string>
-    <string name="wifi_security_wapi_psk_hexadecimal">Hexadecimal</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA-Personal</string>
     <string name="wifi_security_wpa2">WPA2-Personal</string>
+    <string name="wifi_security_wpa2_wpa3">WPA2/WPA3-Personal</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2-Personal</string>
+    <string name="wifi_security_wpa_wpa2_wpa3">WPA/WPA2/WPA3-Personal</string>
     <string name="wifi_ssid_is_empty">Ssid field can not be left blank</string>
     <string name="wifi_ssid_length_is_max">Ssid can not exceed 32 characters in length</string>
     <string name="wifi_status_mac_randomized">MAC is randomized</string>

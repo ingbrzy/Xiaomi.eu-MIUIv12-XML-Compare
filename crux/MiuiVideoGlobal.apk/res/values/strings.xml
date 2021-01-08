@@ -36,6 +36,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="access_denied_info">Too many attempts. Wait a minute or two and try again.</string>
     <string name="account_bind_secure_email_title">Add recovery email</string>
     <string name="account_bind_secure_phone_title">Add recovery phone number</string>
     <string name="account_crop_user_avatar">Crop photo</string>
@@ -72,6 +73,8 @@
     <string name="activate_email_notice">Make sure to activate your account within 24 hours</string>
     <string name="activity_not_found_notice">"Can't find the app"</string>
     <string name="ad">Ad</string>
+    <string name="ad_bar_notification_setting_sub_title">Show events in the Notification shade</string>
+    <string name="ad_bar_notification_setting_title">Events</string>
     <string name="ad_buy">Purchase</string>
     <string name="ad_download">Download</string>
     <string name="ad_join">Join community</string>
@@ -159,6 +162,7 @@
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Subtitles</string>
     <string name="cast_unmute">Unmute</string>
+    <string name="catchplay_video">Catchplay</string>
     <string name="change_activate_email">Change email address</string>
     <string name="change_password">Change password</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
@@ -420,7 +424,7 @@ Send this code to the supervisor."</string>
     <string name="galleryplus_gallery_video_save_video">Creating video…</string>
     <string name="galleryplus_gallery_video_slow_edit">Slow-motion</string>
     <string name="galleryplus_gallery_view_tags">Show marks</string>
-    <string name="galleryplus_is_higher_definition">Opened HD preview</string>
+    <string name="galleryplus_is_higher_definition">HD preview</string>
     <string name="galleryplus_network_connect_check">"Couldn't connect to the network"</string>
     <string name="galleryplus_network_connect_confirm">Connect to Wi-Fi or turn on mobile data in the network settings.</string>
     <string name="galleryplus_network_error">"Couldn't connect to the network"</string>
@@ -430,6 +434,8 @@ Send this code to the supervisor."</string>
     <string name="galleryplus_online_cta_disagree">"Don't agree"</string>
     <string name="galleryplus_online_cta_title">Terms and conditions</string>
     <string name="galleryplus_online_video_loading">Just a sec…</string>
+    <string name="galleryplus_orientation_lock">Locked orientation successfully</string>
+    <string name="galleryplus_orientation_unlock">Screen orientation is unlocked</string>
     <string name="galleryplus_permission_content">Give Mi Video the required permissions to be able to use this feature.</string>
     <string name="galleryplus_permission_content2">"To be able to use this feature, go to Settings > Apps > Mi Video > App permissions and allow Mi Video to do the following:
 
@@ -491,6 +497,7 @@ Send this code to the supervisor."</string>
     <string name="history_local_video">Local</string>
     <string name="history_online_video">Online</string>
     <string name="hot">Popular</string>
+    <string name="i_know">Got it</string>
     <string name="id_namespace">hungama</string>
     <string name="identity">Identification</string>
     <string name="inconsistent_pwd">"Passwords don't match"</string>
@@ -513,6 +520,15 @@ for videos"</string>
     <string name="language_setting_tips">Select your language preferences to receive more relevant content recommendations. You can change your language preferences in Profile > Language.</string>
     <string name="language_setting_tips_dialog">You can select language preferences for content in Account > Language.</string>
     <string name="later">Later</string>
+    <string name="library_android_database_sqlcipher_author">Zetetic, LLC</string>
+    <string name="library_android_database_sqlcipher_authorWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_isOpenSource">true</string>
+    <string name="library_android_database_sqlcipher_libraryDescription">Android SQLite API based on SQLCipher</string>
+    <string name="library_android_database_sqlcipher_libraryName">SQLCipher for Android</string>
+    <string name="library_android_database_sqlcipher_libraryVersion">${clientVersionNumber}</string>
+    <string name="library_android_database_sqlcipher_libraryWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_licenseLink">https://www.zetetic.net/sqlcipher/license/</string>
+    <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
     <string name="library_roundedimageview_author">Vince Mi</string>
     <string name="library_roundedimageview_authorWebsite">https://github.com/vinc3m1</string>
     <string name="library_roundedimageview_isOpenSource">true</string>
@@ -702,8 +718,10 @@ for videos"</string>
     <string name="my_favorite_channels">My favorite channels</string>
     <string name="my_feedback_title">My feedback</string>
     <string name="need_update_app">Update Mi Video to use all its features</string>
-    <string name="network_connect_info">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="network_connect_info">"Couldn't connect to the network."</string>
+    <string name="network_error_info">A network error occurred. Check your network settings and try again.</string>
     <string name="network_failed">"Couldn't connect to the network"</string>
+    <string name="network_timeout_info">"Couldn't connect to the network. Try again."</string>
     <string name="neverthink_player_loading">Loading Neverthink video …</string>
     <string name="new_channel_tip">Take a look at new channels!</string>
     <string name="next">Next</string>
@@ -736,6 +754,7 @@ for videos"</string>
     <string name="off_tip_firework_recommend">"You won't receive personalized content recommendations from Firework"</string>
     <string name="ok">OK</string>
     <string name="on_tip_firework_recommend">"You'll receive personalized content recommendations from Firework"</string>
+    <string name="open_settings">Settings</string>
     <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Recent subscriptions</string>
     <string name="order_recently_updated">Recently updated</string>
@@ -984,6 +1003,7 @@ Increase the security of your account."</string>
     <string name="plus_menu_delete_popup_text">Delete now?</string>
     <string name="plus_menu_properties">Properties</string>
     <string name="plus_menu_rename">Rename</string>
+    <string name="plus_menu_rename_cant_empty">"Filename can't be empty"</string>
     <string name="plus_menu_rename_fail">"Filename can't contain \"/\""</string>
     <string name="plus_menu_share">Share</string>
     <string name="plus_mine_gallery">My albums</string>
@@ -1079,6 +1099,7 @@ Increase the security of your account."</string>
     <string name="plus_sort_type_time">Time</string>
     <string name="plus_tab_gallery">Folders</string>
     <string name="plus_tab_time">Timeline</string>
+    <string name="progressbar_title">Checking for security issues…</string>
     <string name="project_id">global-video-5cd70</string>
     <string name="psw_hint">Password</string>
     <string name="psw_sign_in">Sign in using password</string>
@@ -1119,6 +1140,7 @@ Increase the security of your account."</string>
     <string name="report_content_violence">Hate speech</string>
     <string name="report_fail">"Couldn't report. Try again."</string>
     <string name="report_success">Reported successfully</string>
+    <string name="request_camera_permission_message">"We shall protect your personal information in accordance with the relevant laws and regulations. This app needs the following permissions to work normally:&lt;br>&lt;br>&lt;b>Using camera (for setting your profile photo)&lt;/b>&lt;br>&lt;br>If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
     <string name="resend_active_email">Resend</string>
     <string name="resend_email_reach_limit_message">"You've requested too many verification emails. Make sure that the verification email isn't in your inbox's Spam folder."</string>
     <string name="resend_email_reach_limit_title">Too many attempts</string>
@@ -1217,6 +1239,7 @@ Increase the security of your account."</string>
     <string name="sync_favorites_limit">"There are more than 500 videos in your favorites. We'll have to delete some of the earlier videos to continue syncing."</string>
     <string name="sync_favorites_message">Sync favorites from this device to your account? Items that are no longer available will be removed.</string>
     <string name="sync_favorites_title">Sync favorites</string>
+    <string name="system_error_info">System is busy. Wait a minute or two and try again.</string>
     <string name="t_check_hide_file">Select items to hide</string>
     <string name="t_check_unhide_file">Select items to unhide</string>
     <string name="t_downloading">Downloading:</string>
@@ -1273,6 +1296,7 @@ Increase the security of your account."</string>
     <string name="ugc_no_net">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="ui_log_tip">Tap this area to hide, press and hold to clear old logs. Drag logs manually.</string>
     <string name="unknow">Unknown</string>
+    <string name="unknown_error_info">Unknown error</string>
     <string name="update">Update</string>
     <string name="update_email_address_dialog_message">You need to verify your identity before you update the recovery email.</string>
     <string name="update_email_address_dialog_title">Update recovery email</string>
