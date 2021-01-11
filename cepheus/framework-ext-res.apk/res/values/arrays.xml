@@ -192,6 +192,7 @@
     <array name="config_virtualKeyUpPattern" />
     <string-array name="empty_initial_attach_apn_plmn">
         <item>20205</item>
+        <item>20801</item>
         <item>20810</item>
         <item>20811</item>
         <item>20813</item>
@@ -1740,6 +1741,11 @@
         <item>com.miui.gallery</item>
         <item>com.android.systemui:sliderview</item>
         <item>com.android.camera</item>
+    </string-array>
+    <string-array name="process_camera_inhibit_list">
+        <item>com.google.android.providers.media.module</item>
+        <item>com.android.providers.media.module</item>
+        <item>com.google.android.gms.persistent</item>
     </string-array>
     <string-array name="process_disable_force_stop_list">
         <item>com.miui.securitycore</item>
