@@ -538,6 +538,8 @@ and adjust preferences automatically"</string>
     <string name="clone_video_mode">Video</string>
     <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
     <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
+    <string name="close_night_algo_toast_low_power">Charge your device to be able to set exposure</string>
+    <string name="close_night_algo_toast_thermal">Cool down your device to be able to set exposure</string>
     <string name="color_effect_entry_berry">Berries</string>
     <string name="color_effect_entry_blackgold">Gold vibes</string>
     <string name="color_effect_entry_blackgold_describe">This high-contrast filter retains only yellow and dark blue colors. Use it on well-lit streets of a night city.</string>
@@ -1050,6 +1052,10 @@ look larger on photos"</string>
     <string name="module_name_multi_camera">Multicam</string>
     <string name="module_name_new_slow_motion">Slow motion</string>
     <string name="module_name_panorama">Panorama</string>
+    <string name="module_name_pixel_108m">108M</string>
+    <string name="module_name_pixel_48m">48M</string>
+    <string name="module_name_pixel_50m">50M</string>
+    <string name="module_name_pixel_64m">64M</string>
     <string name="module_name_portrait">Portrait</string>
     <string name="module_name_professional">Pro</string>
     <string name="module_name_square">Square</string>
@@ -1378,7 +1384,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_hfr_entry_3x">90</string>
     <string name="pref_camera_hfr_entry_4x">120</string>
     <string name="pref_camera_hfr_entry_off">Off</string>
-    <string name="pref_camera_high_quality_preferred_description">Improve image quality using the smart algorithm. Image capture speed may decrease when this feature is on.</string>
+    <string name="pref_camera_high_quality_preferred_description">Improve the imaging effect through algorithms, and the photo-taking time will be longer. If a dark light environment is recognized, night scene shooting will be triggered</string>
     <string name="pref_camera_high_quality_preferred_title">Enhance image quality</string>
     <string name="pref_camera_histogram_entry_disable">Turn off</string>
     <string name="pref_camera_histogram_entry_enable">Turn on</string>
@@ -1702,6 +1708,8 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_skin_beautify_smooth_default">5</string>
     <string name="pref_skin_beautify_smooth_title">Skin</string>
     <string name="pref_smart_guide_title">Smart suggestions</string>
+    <string name="pref_super_night_se_summary">Recognizing a dark light environment will automatically trigger night shooting, and improve the imaging effect through algorithms</string>
+    <string name="pref_super_night_se_title">automatic night view</string>
     <string name="pref_userdefine_watermark_title">Custom watermark</string>
     <string name="pref_video_ai_audio_single">22222</string>
     <string name="pref_video_autoexposure_default">1</string>
