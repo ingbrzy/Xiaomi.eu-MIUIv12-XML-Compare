@@ -519,7 +519,7 @@
 
     move-result-object v1
 
-    const-string v3, "locked"
+    const-string/jumbo v3, "locked"
 
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
