@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Downloads</string>
-    <string name="auto_restart_under_wifi">WLAN will automatically download this file</string>
+    <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
     <string name="button_cancel_download">Cancel</string>
     <string name="button_download_now">Download now</string>
     <string name="button_queue_for_wifi">Queue</string>
@@ -15,7 +15,7 @@
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_content_limit0">Restrict downloads</string>
     <string name="dialog_content_limit_max">Unlimited</string>
-    <string name="dialog_data_limit_button1">Wait for WLAN</string>
+    <string name="dialog_data_limit_button1">Wait for Wi-Fi</string>
     <string name="dialog_data_limit_button2">Download</string>
     <string name="dialog_data_limit_msg1">%s of mobile data will be used to download this file. Download now?</string>
     <string name="dialog_data_limit_msg2">@string/dialog_tip_limit</string>
@@ -51,13 +51,13 @@
     <string name="notification_download_complete">Download complete.</string>
     <string name="notification_download_failed">Download unsuccessful.</string>
     <string name="notification_download_success_more">%1$d downloaded</string>
-    <string name="notification_need_wifi_for_size">Download size requires WLAN.</string>
+    <string name="notification_need_wifi_for_size">Download size requires Wi-Fi.</string>
     <string name="notification_paused_in_background">Paused in background.</string>
     <string name="notify_disabled_net_by_app">Internet connection restricted by Security app</string>
     <string name="notify_install_guide_forward_text">Open</string>
     <string name="notify_install_guide_msg">Installed successfully</string>
     <string name="notify_install_guide_title">Installed %s successfully</string>
-    <string name="notify_only_wifi_download">Waiting for WLAN</string>
+    <string name="notify_only_wifi_download">Waiting for Wi-Fi</string>
     <string name="paused_waiting_for_network">Waiting for network</string>
     <string name="permdesc_accessAllDownloads">Allows the app to view and modify all downloads initiated by any app in the system.</string>
     <string name="permdesc_downloadCacheNonPurgeable">"Allows the app to download files to the download cache, which can't be automatically deleted when the download manager needs more space."</string>
@@ -85,16 +85,16 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="task_already_exist">Task already exists</string>
     <string name="warning_tip_cancel">Download</string>
-    <string name="warning_tip_content">"You're no longer connected to WLAN. Using your mobile data connection to complete this download will increase your data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
+    <string name="warning_tip_content">"You're no longer connected to Wi-Fi. Using your mobile data connection to complete this download will increase your data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
     <string name="warning_tip_ok">Pause</string>
     <string name="warning_tip_title">Data usage warning</string>
     <string name="wifi_recommended_body">"Starting this %1$s download now may result in excessive usage of your mobile data connection, which can lead to charges by your mobile operator depending on your data plan.
 
-Tap %2$s to start this download the next time you're connected to a WLAN network."</string>
+Tap %2$s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_recommended_title">Queue for download later?</string>
-    <string name="wifi_required_body">"Connect to WLAN to complete this %1$s download. 
+    <string name="wifi_required_body">"Connect to Wi-Fi to complete this %1$s download. 
 
-Tap %2$s to start this download the next time you're connected to a WLAN network."</string>
+Tap %2$s to start this download the next time you're connected to a Wi-Fi network."</string>
     <string name="wifi_required_title">The file is too large to download using mobile data</string>
     <string name="xl_speedup_experience_notify_context">"Speed is boosted for every download when you're a Xunlei member"</string>
     <string name="xl_speedup_experience_notify_title">Xunlei membership</string>

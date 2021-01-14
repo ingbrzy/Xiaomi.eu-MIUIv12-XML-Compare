@@ -56,6 +56,15 @@
     <string name="category_select">Select</string>
     <string name="category_video">Videos</string>
     <string name="category_video_title">Videos</string>
+    <string name="channel_pc_edit">Edited on the computer</string>
+    <string name="channel_pc_upload">Uploaded from the computer</string>
+    <string name="channel_pc_view">Viewed on the computer</string>
+    <string name="channel_phone_edit">Edited on the phone</string>
+    <string name="channel_phone_upload">Uploaded from the phone</string>
+    <string name="channel_phone_view">Viewed on the phone</string>
+    <string name="channel_web_edit">Edited in the browser</string>
+    <string name="channel_web_upload">Uploaded in the browser</string>
+    <string name="channel_web_view">Viewed in the browser</string>
     <string name="clear_cache_success">Cleared successfully</string>
     <string name="cloud_gallery_to_pdf">Auto generated</string>
     <string name="cloud_storage_already_full">Cloud storage is full: %1$s/%2$s</string>
@@ -81,8 +90,12 @@
     <string name="create_pdf_manual">New PDF</string>
     <string name="current_speed_content">Current speed: %1$s</string>
     <string name="delete_file_success">Deleted successfully</string>
+    <string name="delete_operation_record">Delete this record?</string>
+    <string name="delete_operation_record_timeout">"Couldn't delete record. Wait a minute or two and try again."</string>
     <string name="delete_record_only">"The items to which selected records are referring won't be deleted."</string>
     <string name="delete_success">Deleted successfully</string>
+    <string name="detail_download_path">"Location: "</string>
+    <string name="detail_download_time">"Downloaded: "</string>
     <string name="dialog_content_delete_pdf_content">Delete this PDF now?</string>
     <string name="dialog_copy_storage_full_desc">"Can't copy items due to insufficient cloud storage space. Upgrade your plan to get more storage space."</string>
     <string name="dialog_copy_storage_full_title">"Can't copy"</string>
@@ -167,8 +180,8 @@
     <string name="file_sort_modify_time">Sort by date modified</string>
     <string name="file_sort_name">Sort by name</string>
     <string name="file_sort_size">Sort by size</string>
-    <string name="file_status_text">%1$s | %2$s %3$s: %4$s</string>
-    <string name="file_status_text_no_size">%1$s %2$s: %3$s</string>
+    <string name="file_status_text">%1$s | %2$s</string>
+    <string name="file_status_text_no_size">%1$s</string>
     <string name="file_upload_dialog_cancel">Cancel</string>
     <string name="file_upload_dialog_title">Select category</string>
     <string name="h5_ppt_to_pdf_introduce_title">About converting slides to PDF</string>
@@ -179,6 +192,7 @@
     <string name="image_preview_open_large_image">Open original image (%s)</string>
     <string name="image_preview_percent">%s%%</string>
     <string name="inner_storage_path">Internal storage</string>
+    <string name="jump_to_directory">Open folder</string>
     <string name="just_now">Just now</string>
     <string name="license_host_unreachable">"Your device isn't connected to cloud services. To view this item, visit %s on any connected device."</string>
     <string name="load_label_up_no_data">No more items to show</string>
@@ -232,6 +246,7 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="navigation_my">Profile</string>
     <string name="navigation_tips">500+</string>
     <string name="navigation_transport">Transfers</string>
+    <string name="no_recent_activity">No recent items here</string>
     <string name="not_set">Not set</string>
     <string name="not_support_upload_file_for_overseas_users">"Uploading isn't available outside of Mainland China"</string>
     <string name="notification_channel_remind">Reminders</string>
@@ -247,6 +262,7 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="operation_dialog_copy_message">Copying…</string>
     <string name="operation_dialog_create_folder_message">Creating folder…</string>
     <string name="operation_dialog_delete_message">Deleting…</string>
+    <string name="operation_dialog_jump_message">Opening folder…</string>
     <string name="operation_dialog_move_message">Moving…</string>
     <string name="operation_dialog_rename_message">Renaming…</string>
     <string name="operation_download">Download</string>
@@ -256,6 +272,7 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="operation_save">Save</string>
     <string name="operation_sure_to_delete">Delete now?</string>
     <string name="operation_transport_success">Added to transfers successfully</string>
+    <string name="operation_will_not_show_after_delete">The record will no longer appear here if you delete it.</string>
     <string name="pause_all">Pause all</string>
     <string name="pause_download">Paused</string>
     <string name="pause_upload">Paused</string>
@@ -276,6 +293,8 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="private_empty_sub_desc">Try moving files here or upload them directly.</string>
     <string name="private_folder_name">Private files</string>
     <string name="ptp_ai_recommend_empty_page">No auto generated PDFs here</string>
+    <string name="recent_file">Recent</string>
+    <string name="recent_jump_to_privacy_fail_notice">This file is private. Go back to the start page and pull down to view.</string>
     <string name="refresh_label_pull_to_refresh">Pull down to refresh</string>
     <string name="refresh_label_refreshed">Refreshed successfully</string>
     <string name="refresh_label_refreshing">Refreshing…</string>
@@ -370,7 +389,7 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="upload_metered_network_dialog_title">Using mobile data</string>
     <string name="uploading">Uploading</string>
     <string name="user_agreement_title">Mi Drive User Agreement</string>
-    <string name="user_protocol_and_privacy_protocol">"I've read and agreed to User Agreement and Privacy Policy."</string>
+    <string name="user_protocol_and_privacy_protocol"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>."</Data></string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="video_picker_title">Select videos</string>
