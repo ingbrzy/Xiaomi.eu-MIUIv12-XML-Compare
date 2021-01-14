@@ -254,6 +254,8 @@ Press 'Wipe and convert…' to continue."</string>
     <string name="external_source_trusted">Allowed</string>
     <string name="external_source_untrusted">Not allowed</string>
     <string name="failed_to_open_app_settings_toast">Failed to open settings for %1$s</string>
+    <string name="fast_connect_anti_lost_content">"新增耳机方丢提醒。
+请在设置中查看详情。"</string>
     <string name="fast_connect_b508_name">ZMI B508</string>
     <string name="fast_connect_bt_speaker2_name">MI Portable Speaker</string>
     <string name="fast_connect_device_battery">Battery</string>
@@ -271,9 +273,18 @@ Press 'Wipe and convert…' to continue."</string>
     <string name="fast_connect_device_title_connecting">Connecting…</string>
     <string name="fast_connect_device_title_find_headset">Find %1$s</string>
     <string name="fast_connect_device_title_find_headset_others">"Looks like this device isn't yours: %1$s"</string>
+    <string name="fast_connect_new_feture_anti_lost">Anti Lost</string>
+    <string name="fast_connect_new_feture_same_account">Same Account Without Pair</string>
+    <string name="fast_connect_new_feture_sound_normalizer">Sound Normalizer</string>
+    <string name="fast_connect_new_feture_title">New features</string>
     <string name="fast_connect_nzbt_name">ZMI NZBT01</string>
     <string name="fast_connect_nzbt_reset">Hold down the top button for %1$s seconds while power off</string>
     <string name="fast_connect_reset_common">Reset this device to be able to pair</string>
+    <string name="fast_connect_same_account_content">登陆小米帐号，耳机将自动保存至小米云服务，登陆此帐号的其他设备可以跳过配对过程直接连接耳机。</string>
+    <string name="fast_connect_same_accout_devices_connecting">正在通过小米云服务连接...</string>
+    <string name="fast_connect_same_accout_devices_title">This is your other device connected: %1$s</string>
+    <string name="fast_connect_sound_normalizer_content">"高清语音通话。
+高带宽传输协议。"</string>
     <string name="fast_connect_wbs_name">Mi wireless charger speaker</string>
     <string name="fast_connect_wbs_reset">Hold down the top button for %1$s seconds while power off</string>
     <string name="feiyu_vlog_name">Feiyu VLOG pocket</string>
@@ -311,8 +322,8 @@ Press 'Wipe and convert…' to continue."</string>
     <string name="headset_fw_error_failed">"Can't update. Firmware info is incorrect."</string>
     <string name="headset_fw_file_position_failed">"Couldn't access file"</string>
     <string name="headset_fw_file_readfailed">"Couldn't get update info"</string>
-    <string name="headset_loss_notify_summary">您的耳机使用后没有放进充电盒，请确认耳机是否丢失</string>
-    <string name="headset_loss_notify_title">耳机防丢提醒</string>
+    <string name="headset_loss_notify_summary">Looks like at least one of your earphones is not in the charging case. Take a look around!</string>
+    <string name="headset_loss_notify_title">Missing earphone alert</string>
     <string name="headset_read_fw_state">"Couldn't get update info"</string>
     <string name="headset_update_failed">"Couldn't update"</string>
     <string name="headset_update_ok">Done</string>
@@ -629,7 +640,7 @@ Press 'Wipe and convert…' to continue."</string>
     <string name="wifi_disabled_generic">Disabled</string>
     <string name="wifi_disabled_network_failure">IP Configuration Failure</string>
     <string name="wifi_disabled_password_failure">Authentication problem</string>
-    <string name="wifi_disabled_wifi_failure">WLAN Connection Failure</string>
+    <string name="wifi_disabled_wifi_failure">Wi-Fi Connection Failure</string>
     <string name="wifi_disconnected">Disconnected</string>
     <string name="wifi_display_certification">Wireless display certification</string>
     <string name="wifi_display_certification_summary">Show options for wireless display certification</string>
