@@ -168,6 +168,8 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Chinese Traditional Calendar</string>
     <string name="disabled">Not available</string>
+    <string name="dnd_popup_close_message">Got it</string>
+    <string name="dnd_popup_message">You can turn on DND mode to silence calls and notifications without turning off media sounds.</string>
     <string name="early_morning">Morning</string>
     <string name="earthly_branches_chen">辰</string>
     <string name="earthly_branches_chou">丑</string>
@@ -276,11 +278,12 @@
     <string name="miui_ringer_status_open">On</string>
     <string name="miui_ringer_total">DND</string>
     <string name="miui_ringer_total_description">Silence sounds and turn off vibration for all items except the alarm clock</string>
-    <string name="miui_toast_zen_dnd_to_off">DND is off now. Sounds and vibration are restored to normal.</string>
-    <string name="miui_toast_zen_standard_to_off">Silent mode is off now. Ringtones are restored to normal.</string>
+    <string name="miui_toast_zen_dnd_to_off">"Calls and notifications won't be silenced anymore"</string>
+    <string name="miui_toast_zen_standard_to_off">Silent mode is off</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Silent mode is off now. Ringtones, as well as notification and media sounds, will be played.</string>
-    <string name="miui_toast_zen_to_dnd">Switched to DND. Sounds are silenced and vibration is off now.</string>
-    <string name="miui_toast_zen_to_standard">Switched to Silent mode. Ringtones for calls and notifications are silenced now.</string>
+    <string name="miui_toast_zen_to_dnd">Calls and notifications will be silenced</string>
+    <string name="miui_toast_zen_to_dnd_when_lock">Calls and notifications will be silenced when the device is locked</string>
+    <string name="miui_toast_zen_to_standard">Silent mode is on</string>
     <string name="miui_toast_zen_to_standard_when_shield_media">Switched to Silent mode. Ringtones, as well as notification and media sounds, are silenced now.</string>
     <string name="miuix_appcompat_cloud_state_disabled">Sync with the cloud is off</string>
     <string name="miuix_appcompat_cloud_state_finished">Synced with the cloud successfully</string>
@@ -397,7 +400,7 @@
     <string name="quick_settings_pcmode_turn_off_description">"Your phone's display will be shown on the external monitor. Turn off PC mode?"</string>
     <string name="quick_settings_pcmode_turn_on_description">"Your computer's display will be shown on the external monitor. Turn on PC mode?"</string>
     <string name="quick_settings_scanner_label">Scanner</string>
-    <string name="quick_settings_tiles_default">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),pcmode,custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,freeformhang,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,custom(com.google.android.gms/.nearby.sharing.SharingTileService),screenbutton,wirelesspower,nfc,edit</string>
+    <string name="quick_settings_tiles_default">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),pcmode,custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,freeformhang,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,custom(com.google.android.gms/.nearby.sharing.SharingTileService),screenbutton,wirelesspower,nfc,custom(com.android.camera/com.xiaomi.camera.videocast.VideoCastTileService),edit</string>
     <string name="quick_settings_tiles_stock">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,pcmode,powermode,freeformhang,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode</string>
     <string name="quick_settings_wireless_label">Reverse wireless charging</string>
     <string name="reboot_info_auto_boot">Upcoming alarm: %s</string>
@@ -513,7 +516,8 @@ Long exposure to loud sounds can cause hearing problems."</string>
     <string name="wireless_charging_saver_message">Battery saver is on now. Keep reverse wireless charging available?</string>
     <string name="wireless_charging_saver_ok">Keep</string>
     <string name="wireless_charging_tips_disable">"Don't show again"</string>
-    <string name="wireless_charging_tips_message">Place devices that support Qi wireless charging (phones, accessories, etc.) on the back of this device.</string>
+    <string name="wireless_charging_tips_message">Place the device you want to charge wirelessly (e.g. phone, smartwatch, earphones) on the back of this phone. Make sure this phone is at least %d%% charged before using reverse wireless charging.</string>
+    <string name="wireless_charging_tips_sub_message">The other device must support Qi wireless charging standard.</string>
     <string name="wireless_charging_tips_title">Reverse wireless charging</string>
     <string name="yesterday">Yesterday</string>
 </resources>
