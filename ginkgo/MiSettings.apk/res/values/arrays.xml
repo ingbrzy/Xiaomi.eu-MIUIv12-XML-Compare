@@ -140,6 +140,18 @@
         <item>@string/chinese_symbol_animals_dog</item>
         <item>@string/chinese_symbol_animals_pig</item>
     </string-array>
+    <array name="coolsound_area_bg">
+        <item>@drawable/area_amazon_bg</item>
+        <item>@drawable/area_africa_bg</item>
+        <item>@drawable/area_australia_bg</item>
+        <item>@drawable/area_arctic_bg</item>
+    </array>
+    <string-array name="coolsound_area_mash_up">
+        <item>file:///system/media/audio/ui/AmazonAnimals_preview.ogg</item>
+        <item>file:///system/media/audio/ui/AfricaAnimals_preview.ogg</item>
+        <item>file:///system/media/audio/ui/AustraliaAnimals_preview.ogg</item>
+        <item>file:///system/media/audio/ui/ArcticAnimals_preview.ogg</item>
+    </string-array>
     <string-array name="coolsound_dynamic_source_calendar">
         <item>ui/Cicada_Notification_1.ogg,ui/Cicada_Notification_2.ogg,ui/Bird_Notification_1.ogg,ui/Bird_Notification_2.ogg</item>
         <item>ui/Water_Notification_Day.ogg,ui/Water_Notification_Evening.ogg,ui/Water_Notification_Midday.ogg,ui/Water_Notification_Night.ogg</item>
@@ -154,6 +166,12 @@
         <item></item>
         <item></item>
     </string-array>
+    <array name="coolsound_nature_area">
+        <item>@drawable/amazon_card_bg</item>
+        <item>@drawable/africa_card_bg</item>
+        <item>@drawable/australia_card_bg</item>
+        <item>@drawable/arctic_card_bg</item>
+    </array>
     <string-array name="coolsound_source_calendar">
         <item>ui/BirdCicada_preview.ogg</item>
         <item>ui/WaterDrop_preview.ogg</item>
@@ -164,9 +182,6 @@
     <string-array name="coolsound_source_notification">
         <item>ui/BirdCicada_preview.ogg</item>
         <item>ui/WaterDrop_preview.ogg</item>
-        <item>notifications/WindChime.ogg</item>
-        <item>notifications/NotificationXylophone.ogg</item>
-        <item>notifications/Guitar.ogg</item>
     </string-array>
     <string-array name="coolsound_source_ringtone">
         <item>ringtones/MiRemix.ogg</item>
@@ -206,6 +221,7 @@
         <item>citrus</item>
         <item>cannon</item>
         <item>lemon</item>
+        <item>rainbow</item>
     </string-array>
     <string-array name="earthly_branches">
         <item>@string/earthly_branches_zi</item>
@@ -371,6 +387,18 @@
         <item>@string/month_october_shortest</item>
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
+    </string-array>
+    <string-array name="nature_area_desc">
+        <item>@string/amazon_introduction</item>
+        <item>@string/africa_introduction</item>
+        <item>@string/australia_introduction</item>
+        <item>@string/arctic_introduction</item>
+    </string-array>
+    <string-array name="nature_area_title">
+        <item>@string/area_amazon</item>
+        <item>@string/area_africa</item>
+        <item>@string/area_australia</item>
+        <item>@string/area_arctic</item>
     </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
