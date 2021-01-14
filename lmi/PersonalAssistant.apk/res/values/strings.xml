@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
     <string name="abc_action_mode_done">Done</string>
@@ -8,6 +10,18 @@
     <string name="abc_activitychooserview_choose_application">Choose an app</string>
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
     <string name="abc_menu_delete_shortcut_label">delete</string>
@@ -327,6 +341,22 @@
     <string name="app_assist_sleep_redownload_dialog_content">去设置页下载音频</string>
     <string name="app_assist_sleep_redownload_dialog_title">音频未下载</string>
     <string name="app_assist_sleep_timer_cancel_hint">Stop</string>
+    <string name="app_auth_router_dialog_loading">Adding account…</string>
+    <string name="app_auth_setting_bind">Add</string>
+    <string name="app_auth_setting_bind_fail">"Couldn't add account"</string>
+    <string name="app_auth_setting_bind_fail_uninstall">"Couldn't add account. Install %s first."</string>
+    <string name="app_auth_setting_bind_success_title">Current %s account</string>
+    <string name="app_auth_setting_bind_summry">Mi Account: %s</string>
+    <string name="app_auth_setting_bind_title">Add %s account</string>
+    <string name="app_auth_setting_login">Sign in</string>
+    <string name="app_auth_setting_login_summry">Sign in and add your Alipay account to be able to use popular services</string>
+    <string name="app_auth_setting_login_title">Sign in to Mi Account</string>
+    <string name="app_auth_setting_service_title">Popular services</string>
+    <string name="app_auth_setting_unbind">Remove</string>
+    <string name="app_auth_setting_unbind_dialog_positive">Remove</string>
+    <string name="app_auth_setting_unbind_dialog_title">Remove %s account</string>
+    <string name="app_auth_setting_unbing_dialog_message">"You won't be able to use popular %s services after removing your account."</string>
+    <string name="app_auth_setting_unbing_dialog_negative">Keep</string>
     <string name="app_bluetooth_device_battery">%1$d%%</string>
     <string name="app_bluetooth_device_empty">没有设备连接</string>
     <string name="app_bluetooth_device_type">Bluetooth device</string>
@@ -490,7 +520,7 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_miot_title">Smart devices</string>
     <string name="app_miot_to_start">Add</string>
     <string name="app_miot_unit" />
-    <string name="app_name">com.xiaomi.smarthome.common.nativelib</string>
+    <string name="app_name">sdk</string>
     <string name="app_news_default_title">News</string>
     <string name="app_news_empty_text" />
     <string name="app_note_add">Add</string>
@@ -585,6 +615,8 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_pa_setting_service_surrounding_summary">Discover interesting places nearby</string>
     <string name="app_pa_setting_service_timetable">Class schedule</string>
     <string name="app_pa_setting_service_timetable_summary">Tap to schedule classes</string>
+    <string name="app_pa_setting_service_wufu">"Alipay's Five Blessings"</string>
+    <string name="app_pa_setting_service_wufu_summry">Gather your blessings by using the AR scanner</string>
     <string name="app_pa_setting_title">Settings</string>
     <string name="app_pa_setting_version">Version: %1$s</string>
     <string name="app_paycode_parent">Alipay</string>
@@ -711,6 +743,9 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_travel_train_status_outage">Canceled</string>
     <string name="app_travel_train_timetable">Train schedule</string>
     <string name="app_version_name">"App vault version: "</string>
+    <string name="app_wufu_card_button_bind">立即绑定</string>
+    <string name="app_wufu_card_title">支付宝集五福</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="apps">App suggestions</string>
     <string name="apps_label">Apps</string>
     <string name="arr_airport">Airport of destination</string>
@@ -785,6 +820,7 @@ You can also track express delivery on the official websites of delivery compani
     <string name="book_store">View books</string>
     <string name="book_tomorow">Tomorrow</string>
     <string name="book_update">Update is available</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
     <string name="btn_back">Back</string>
     <string name="btn_more">More</string>
     <string name="bus_code">Public transport</string>
@@ -861,6 +897,7 @@ You can also track express delivery on the official websites of delivery compani
     <string name="category_telephone_charge">Communications</string>
     <string name="category_tenement">Rent</string>
     <string name="category_traffic">Transport</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="check_network">Check network settings</string>
     <string name="check_network_retry">Check network settings and try again</string>
     <string name="chinese_day_1">初一</string>
@@ -944,6 +981,7 @@ You can also track express delivery on the official websites of delivery compani
     <string name="clock_alarm">Alarm</string>
     <string name="clock_parent">Clock</string>
     <string name="closed">Off</string>
+    <string name="collect_diagnosis_log">Collect diagnosis log</string>
     <string name="commute">Map suggestions</string>
     <string name="commute_address">Frequent addresses</string>
     <string name="commute_address_hint_home">Add home address</string>
@@ -1033,6 +1071,10 @@ You can also track express delivery on the official websites of delivery compani
     <string name="detail_action_settings">Open Settings</string>
     <string name="detail_action_share">Share</string>
     <string name="detail_title">Favorites</string>
+    <string name="diagnosis_log_send_failed">Diagnosis log sent failed.</string>
+    <string name="diagnosis_log_sent_format">"Diagnosis log has been sent.
+ID:%s
+Please send this code to the technician."</string>
     <string name="dialog_cancel_like">Deleted mark successfully</string>
     <string name="dialog_delete_cancel">Cancel</string>
     <string name="dialog_delete_delete">Delete</string>
@@ -1493,6 +1535,7 @@ Check your tracking number."</string>
     <string name="fmt_weekday_timezone">zW</string>
     <string name="focus">Follow status</string>
     <string name="focus_stocks">My companies</string>
+    <string name="for_diagnosis_usage_only">Use this info for diagnosis only.</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
@@ -2050,6 +2093,7 @@ Check your tracking number."</string>
     <string name="notification_title_fail">"Couldn't add payment"</string>
     <string name="notification_title_success">Added payment successfully</string>
     <string name="numbers">0123456789</string>
+    <string name="ok">OK</string>
     <string name="open_bluetooth">开启</string>
     <string name="open_bluetooth_now">蓝牙开启中...</string>
     <string name="open_bluetooth_tips">请开启蓝牙来允许\"手环\"连接到配件</string>
@@ -2057,6 +2101,13 @@ Check your tracking number."</string>
     <string name="park_assistant">Parking</string>
     <string name="passenger_name">"Passenger's name"</string>
     <string name="passenger_name_example">E.g. Debbie Smith</string>
+    <string name="passport_oauth_actionbar_title">Mi Account</string>
+    <string name="passport_oauth_sucess_tip">Authorized success</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
     <string name="pay_card_pack">Mi Pay</string>
     <string name="paycode_parent">Alipay</string>
     <string name="paycode_sdk_parent">Shortcut payment</string>
@@ -2211,7 +2262,9 @@ Check your tracking number."</string>
     <string name="select_team_confirm">提交</string>
     <string name="selected_shortcuts_title">Start page</string>
     <string name="send_action_title">Add to favorites</string>
+    <string name="send_diagnosis_log">Send diagnosis log</string>
     <string name="send_express">Express delivery</string>
+    <string name="sending">Sending…</string>
     <string name="service_unavailiable">Connect to the network and try again.</string>
     <string name="setting_address">Add frequent places</string>
     <string name="setting_authorization_canceled_dialog_cancel">Cancel</string>
@@ -2444,6 +2497,7 @@ Check your tracking number."</string>
     <string name="template_network_error_try_later">网络错误，请稍候再试</string>
     <string name="template_retry_button">重试</string>
     <string name="template_update_error">模板更新失败</string>
+    <string name="temporary_not_available">temporary not available</string>
     <string name="the_anniversary_of_lifting_martial_law">Anniversary of Lifting Martial Law</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
