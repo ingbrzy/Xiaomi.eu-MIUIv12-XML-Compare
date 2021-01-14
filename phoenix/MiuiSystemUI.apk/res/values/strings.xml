@@ -85,7 +85,7 @@
     <string name="accessibility_control_favorite_position">Favorited, position %d</string>
     <string name="accessibility_control_move">Move to position %d</string>
     <string name="accessibility_control_not_favorite">Unfavorited</string>
-    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
     <string name="accessibility_data_one_bar">Data one bar.</string>
     <string name="accessibility_data_saver_off">Data Saver is off</string>
     <string name="accessibility_data_saver_on">Data Saver is on</string>
@@ -142,7 +142,7 @@
     <string name="accessibility_no_signal">No signal.</string>
     <string name="accessibility_no_sim">No SIM.</string>
     <string name="accessibility_no_sims">No SIM card.</string>
-    <string name="accessibility_no_wifi">Disconnected from WLAN.</string>
+    <string name="accessibility_no_wifi">Disconnected from Wi-Fi.</string>
     <string name="accessibility_no_wimax">No WiMAX.</string>
     <string name="accessibility_not_connected">Not connected.</string>
     <string name="accessibility_notification_dismissed">Notification dismissed.</string>
@@ -261,13 +261,13 @@
     <string name="accessibility_vpn_on">VPN on.</string>
     <string name="accessibility_waiting_for_fingerprint">Waiting for fingerprint</string>
     <string name="accessibility_wifi_name">Connected to %s.</string>
-    <string name="accessibility_wifi_off">WLAN is off.</string>
-    <string name="accessibility_wifi_one_bar">WLAN one bar.</string>
+    <string name="accessibility_wifi_off">Wi-Fi is off.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi one bar.</string>
     <string name="accessibility_wifi_security_type_none">Open network</string>
     <string name="accessibility_wifi_security_type_secured">Secure network</string>
-    <string name="accessibility_wifi_signal_full">WLAN signal full.</string>
-    <string name="accessibility_wifi_three_bars">WLAN three bars.</string>
-    <string name="accessibility_wifi_two_bars">WLAN two bars.</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi signal full.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi three bars.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi two bars.</string>
     <string name="accessibility_wimax_one_bar">WiMAX one bar.</string>
     <string name="accessibility_wimax_signal_full">WiMAX signal full.</string>
     <string name="accessibility_wimax_three_bars">WiMAX three bars.</string>
@@ -447,6 +447,8 @@ Try again in %d seconds."</string>
     <string name="bluetooth_dun_profile_summary_use_for">Use for dial-up network access</string>
     <string name="bluetooth_enable_gabeldorsche">Enable Gabeldorsche</string>
     <string name="bluetooth_enable_gabeldorsche_summary">Enables the Bluetooth Gabeldorsche feature stack.</string>
+    <string name="bluetooth_enable_page_scan">enable bluetooth page scan</string>
+    <string name="bluetooth_enable_page_scan_summary">disable/enable page scan for Bluetooth test</string>
     <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
     <string name="bluetooth_headset_profile_summary_use_for">Used for phone audio</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Connected to hearing aid</string>
@@ -860,6 +862,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="fs_gesture_switch_recents_summary">Swipe from the bottom and pause</string>
     <string name="fsg_demo_back">Back</string>
     <string name="fsg_demo_go_on">Learn</string>
+    <string name="garbage_count">There are %1$s old instances</string>
     <string name="global_action_lock_message">Unlock your phone for more options</string>
     <string name="global_action_screenshot">Screenshot</string>
     <string name="go_to_web">Go to browser</string>
@@ -1257,6 +1260,7 @@ MMMM d"</string>
     <string name="media_transfer_wired_device_name">Wired audio device</string>
     <string name="media_transfer_wired_usb_device_name">Wired headphone</string>
     <string name="megabyte_per_second">MB/s</string>
+    <string name="memory_leak">Memory leak</string>
     <string name="menu_ime">Keyboard switcher</string>
     <string name="mic_active">Microphone Active</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Unlocked by Bluetooth device</string>
@@ -1287,8 +1291,8 @@ MMMM d"</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobile data</string>
     <string name="mobile_data_always_on">Always keep mobile data on</string>
-    <string name="mobile_data_always_on_summary">Always keep mobile data active, even when WLAN is active (for fast network switching).</string>
-    <string name="mobile_data_disable_message">You won’t have access to data or the internet through %s. Internet will only be available via WLAN.</string>
+    <string name="mobile_data_always_on_summary">Always keep mobile data active, even when Wi-Fi is active (for fast network switching).</string>
+    <string name="mobile_data_disable_message">You won’t have access to data or the internet through %s. Internet will only be available via Wi-Fi.</string>
     <string name="mobile_data_disable_message_default_carrier">your carrier</string>
     <string name="mobile_data_disable_title">Turn off mobile data?</string>
     <string name="mobile_data_text_format">%1$s — %2$s</string>
@@ -1475,8 +1479,8 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="output_none_found">No devices found</string>
     <string name="output_none_found_service_off">No devices found. Try turning on %1$s</string>
     <string name="output_service_bt">Bluetooth</string>
-    <string name="output_service_bt_wifi">Bluetooth and WLAN</string>
-    <string name="output_service_wifi">WLAN</string>
+    <string name="output_service_bt_wifi">Bluetooth and Wi-Fi</string>
+    <string name="output_service_wifi">Wi-Fi</string>
     <string name="output_title">Media output</string>
     <string name="overlay_display_devices_title">Simulate secondary displays</string>
     <string name="overview">Overview</string>
@@ -1657,7 +1661,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_cellular_detail_data_usage">Data usage</string>
     <string name="quick_settings_cellular_detail_data_used">%s used</string>
     <string name="quick_settings_cellular_detail_data_warning">%s warning</string>
-    <string name="quick_settings_cellular_detail_dialog_message_turnoff">Mobile data (WCDMA/LTE) will be turned off. Unless you use WLAN, you will no longer be able to use apps that require data connection. Sending or receiving multimedia messages will be restricted.</string>
+    <string name="quick_settings_cellular_detail_dialog_message_turnoff">Mobile data (WCDMA/LTE) will be turned off. Unless you use Wi-Fi, you will no longer be able to use apps that require data connection. Sending or receiving multimedia messages will be restricted.</string>
     <string name="quick_settings_cellular_detail_dialog_message_turnon">Mobile data will be turned on. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
     <string name="quick_settings_cellular_detail_dialog_negative_button_cancel">Cancel</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_ok">OK</string>
@@ -1755,12 +1759,12 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_user_new_user">New user</string>
     <string name="quick_settings_user_title">User</string>
     <string name="quick_settings_vibrate_label">Vibrate</string>
-    <string name="quick_settings_wifi_detail_empty_text">No WLAN networks available</string>
-    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_detail_empty_text">No Wi-Fi networks available</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_no_network">No Network</string>
     <string name="quick_settings_wifi_not_connected">Not Connected</string>
-    <string name="quick_settings_wifi_off_label">WLAN Off</string>
-    <string name="quick_settings_wifi_on_label">WLAN On</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_wifi_on_label">Wi-Fi On</string>
     <string name="quick_settings_wifi_secondary_label_transient">Turning on…</string>
     <string name="quick_settings_work_mode_label">Work profile</string>
     <string name="quick_step_accessibility_toggle_overview">Toggle Overview</string>
@@ -1940,7 +1944,7 @@ MMM d"</string>
     <string name="status_bar_settings_mute_label">MUTE</string>
     <string name="status_bar_settings_notifications">Notifications</string>
     <string name="status_bar_settings_settings_button">Settings</string>
-    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
     <string name="status_bar_use_physical_keyboard">Physical keyboard</string>
     <string name="status_bar_work">Work profile</string>
     <string name="status_unavailable">Not available</string>
@@ -2190,8 +2194,8 @@ Any user can update apps for all other users."</string>
     <string name="wifi_check_password_try_again">Check password and try again</string>
     <string name="wifi_connected_mac_randomization">Connected MAC randomization</string>
     <string name="wifi_connected_no_internet">No internet</string>
-    <string name="wifi_coverage_extend">Turn on WLAN coverage extension</string>
-    <string name="wifi_coverage_extend_summary">Extend WLAN coverage using hotspot</string>
+    <string name="wifi_coverage_extend">Turn on Wi-Fi coverage extension</string>
+    <string name="wifi_coverage_extend_summary">Extend Wi-Fi coverage using hotspot</string>
     <string name="wifi_debugging_allow">Allow</string>
     <string name="wifi_debugging_always">Always allow on this network</string>
     <string name="wifi_debugging_message">"Network Name (SSID)
@@ -2206,7 +2210,7 @@ Wi‑Fi Address (BSSID)
     <string name="wifi_disabled_generic">Disabled</string>
     <string name="wifi_disabled_network_failure">"Couldn't configure IP"</string>
     <string name="wifi_disabled_password_failure">Authentication problem</string>
-    <string name="wifi_disabled_wifi_failure">"Couldn't connect to WLAN"</string>
+    <string name="wifi_disabled_wifi_failure">"Couldn't connect to Wi-Fi"</string>
     <string name="wifi_disconnected">Disconnected</string>
     <string name="wifi_display_certification">Wireless display certification</string>
     <string name="wifi_display_certification_summary">Show options for wireless display certification</string>
@@ -2218,7 +2222,7 @@ Wi‑Fi Address (BSSID)
     <string name="wifi_gateway_hint">192.168.1.1</string>
     <string name="wifi_hand_sel_wapi_cert">WAPI certificate</string>
     <string name="wifi_ip_address_hint">192.168.1.128</string>
-    <string name="wifi_is_off">WLAN is off</string>
+    <string name="wifi_is_off">Wi-Fi is off</string>
     <string name="wifi_limited_connection">Limited connection</string>
     <string name="wifi_metered_label">Metered</string>
     <string name="wifi_network_prefix_length_hint">24</string>
@@ -2227,7 +2231,7 @@ Wi‑Fi Address (BSSID)
     <string name="wifi_not_in_range">Not in range</string>
     <string name="wifi_passpoint_expired">Expired</string>
     <string name="wifi_remembered">Saved</string>
-    <string name="wifi_scan_throttling">WLAN scan throttling</string>
+    <string name="wifi_scan_throttling">Wi-Fi scan throttling</string>
     <string name="wifi_scan_throttling_summary">Reduces battery drain &amp; improves network performance</string>
     <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_WAPI_PSK">WAPI PSK</string>
@@ -2279,8 +2283,8 @@ Wi‑Fi Address (BSSID)
     <string name="wifi_unmetered_label">Unmetered</string>
     <string name="wifi_unsaved_network_linking">SSID Bridging ‑ Auto Connection</string>
     <string name="wifi_unsaved_network_linking_summary">Enable auto connection attempts to a new WPA/WPA2‑PSK 5GHz SSID with current connected WPA/WPA2‑PSK 2GHz SSID credentials on SSID and BSSID partial match</string>
-    <string name="wifi_verbose_logging">Turn on WLAN verbose logging</string>
-    <string name="wifi_verbose_logging_summary">Increase WLAN logging level (show per SSID RSSI in WLAN picker)</string>
+    <string name="wifi_verbose_logging">Turn on Wi-Fi verbose logging</string>
+    <string name="wifi_verbose_logging_summary">Increase Wi-Fi logging level (show per SSID RSSI in Wi-Fi picker)</string>
     <string name="wifi_wapi_as_certificate">AS certificate</string>
     <string name="wifi_wapi_cert_mode_hand_text">Select manually</string>
     <string name="wifi_wapi_certification_dont_exist">"WAPI certificate doesn't exist. Add it first."</string>

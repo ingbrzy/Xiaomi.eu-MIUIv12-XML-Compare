@@ -51,7 +51,7 @@
     <string name="auto_backup_choose_empty">No backups.</string>
     <string name="auto_backup_choose_title">Choose items to back up</string>
     <string name="auto_backup_date">Days</string>
-    <string name="auto_backup_only_wifi">Only when connected to WLAN</string>
+    <string name="auto_backup_only_wifi">Only when connected to Wi-Fi</string>
     <string name="auto_backup_open">Back up automatically</string>
     <string name="auto_backup_progress">Backing up…</string>
     <string name="auto_backup_select_user_apps">Choose apps</string>
@@ -133,8 +133,8 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="confirm_exit_link_msg">"Leaving the app now will interrupt the ongoing transfer. You'll have to establish connection between the two devices again. Leave the app anyway?"</string>
     <string name="confirm_exit_link_title">Interrupting the transfer</string>
     <string name="connect_soft_ap_label">Connecting to new device…</string>
-    <string name="connect_wifi">Connect to WLAN</string>
-    <string name="connect_wifi_tip">"Couldn't connect to the network. Connect to WLAN to import items from iCloud."</string>
+    <string name="connect_wifi">Connect to Wi-Fi</string>
+    <string name="connect_wifi_tip">"Couldn't connect to the network. Connect to Wi-Fi to import items from iCloud."</string>
     <string name="contact_title">Contacts</string>
     <string name="copy">Copy</string>
     <string name="current_account">Hi %s</string>
@@ -245,8 +245,8 @@ Don't change or rename backup files."</string>
     <string name="icloud_login_title">Sign in to iCloud</string>
     <string name="icloud_need_sync">"To import data from iOS,r
 you should create an iCloud backup first."</string>
-    <string name="icloud_need_wifi_message">"You aren't connected to WLAN now. To import data from iCloud, connect to WLAN."</string>
-    <string name="icloud_need_wifi_title">Connect to WLAN</string>
+    <string name="icloud_need_wifi_message">"You aren't connected to Wi-Fi now. To import data from iCloud, connect to Wi-Fi."</string>
+    <string name="icloud_need_wifi_title">Connect to Wi-Fi</string>
     <string name="import_again">Import again</string>
     <string name="import_data_from_icloud">Import data from iCloud</string>
     <string name="import_from_xiaomi_account_hint1">"1.\u0009Download the Mi Talk app and sign in.
@@ -388,7 +388,7 @@ you should create an iCloud backup first."</string>
     <string name="notif_icloud_loaded_summary">Waiting…</string>
     <string name="notif_icloud_loading_summary">Loading data…</string>
     <string name="notif_icloud_logining">Signing in to iCloud on the old iOS device…</string>
-    <string name="notif_icloud_need_wifi_summary">Waiting for WLAN</string>
+    <string name="notif_icloud_need_wifi_summary">Waiting for Wi-Fi</string>
     <string name="notif_icloud_saved_summary">Imported successfully</string>
     <string name="notif_icloud_saving_summary">Restoring data…</string>
     <string name="notif_miasist_try_to_connect">Mi PC Suite is trying to connect to your device</string>
@@ -455,7 +455,7 @@ you should create an iCloud backup first."</string>
     <string name="save_finish_with_failing_items">"Transfer was interrupted.r
 The data which wasn't imported must be imported again."</string>
     <string name="saving_data">"Importing data from iCloud…r
-Don't turn off WLAN"</string>
+Don't turn off Wi-Fi"</string>
     <string name="saving_data_no_time">Restoring data…</string>
     <string name="saving_data_space_low">"Not enough storage space.r
 Free up at least %s."</string>
@@ -466,7 +466,7 @@ Free up at least %s."</string>
     <string name="sc_precondition_failed">You need to add an email address to your Mi Account first.</string>
     <string name="sc_request_timeout">Request timed out</string>
     <string name="sc_service_unavailable">"Xiaomi Cloud isn't available"</string>
-    <string name="sc_unaccess_password_file">"Can't find WLAN network password"</string>
+    <string name="sc_unaccess_password_file">"Can't find Wi-Fi network password"</string>
     <string name="sc_unauthorized">Sign in again</string>
     <string name="scan_soft_ap">Searching for the new device…</string>
     <string name="scan_soft_ap_label">Connect to the old device</string>
@@ -606,11 +606,11 @@ to download and install Mi Mover."</string>
     <string name="trans_install_guide_step1_title">Step 1</string>
     <string name="trans_install_guide_step2_content">After the installation is complete, tap \"Start\" below.</string>
     <string name="trans_install_guide_step2_title">Step 2</string>
-    <string name="trans_intro_desc_1">"On a Mi phone, connect to WLAN and tap \"I'm a recipient\". Select your iOS device, sign in to iCloud, and import data."</string>
+    <string name="trans_intro_desc_1">"On a Mi phone, connect to Wi-Fi and tap \"I'm a recipient\". Select your iOS device, sign in to iCloud, and import data."</string>
     <string name="trans_intro_desc_10">Tap \"Connect via QR code\" on the new device and scan the QR code to establish connection.</string>
     <string name="trans_intro_desc_3">Cancel the transfer, exit Mi Mover, and start over. Duplicate files will be overwritten during the new transfer.</string>
-    <string name="trans_intro_desc_4">"Mi Mover uses WLAN to transfer files. That's why you can't connect to the internet using WLAN on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using WLAN during transfers."</string>
-    <string name="trans_intro_desc_4_market">"Mi Mover uses WLAN to transfer files. That's why you can't connect to the internet using WLAN on either device during a transfer. You can still use mobile data, though."</string>
+    <string name="trans_intro_desc_4">"Mi Mover uses Wi-Fi to transfer files. That's why you can't connect to the internet using Wi-Fi on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using Wi-Fi during transfers."</string>
+    <string name="trans_intro_desc_4_market">"Mi Mover uses Wi-Fi to transfer files. That's why you can't connect to the internet using Wi-Fi on either device during a transfer. You can still use mobile data, though."</string>
     <string name="trans_intro_desc_5">Storage space on old devices is used for creating transfer packages. Make sure you have at least 500MB - 1GB of available storage on your old phone before you start a transfer.</string>
     <string name="trans_intro_desc_6">There are several reasons why that may happen: system and app version compatibility issues, network problems, compatibility issues specific to a particular device, etc.</string>
     <string name="trans_intro_desc_7">Some app profiles (e-banking, finance, etc.) are associated with specific device due to security reasons. Try clearing the app data or re-installing the app on a new device.</string>
@@ -633,7 +633,7 @@ to download and install Mi Mover."</string>
     <string name="trans_intro_question_10">"%d. Can't find the hotspot on the old device?"</string>
     <string name="trans_intro_question_2">%d. How do I use Mi Mover to move data from an Android device?</string>
     <string name="trans_intro_question_3">%d. What should I do if Mi Mover got stuck on a certain step?</string>
-    <string name="trans_intro_question_4">"%d. Why can't I use WLAN during transfers?"</string>
+    <string name="trans_intro_question_4">"%d. Why can't I use Wi-Fi during transfers?"</string>
     <string name="trans_intro_question_5">"%d. Why does Mi Mover tell me there isn't enough storage space on my old phone?"</string>
     <string name="trans_intro_question_6">"%d. Why aren't some apps transferred successfully?"</string>
     <string name="trans_intro_question_7">"%d. Why won't some apps start on a new device?"</string>
@@ -658,7 +658,7 @@ Free up storage space or transfer only important items."</string>
     <string name="trans_open_camera_failed_message">Reboot your device or check whether Mi Mover is allowed to use &lt;b>Camera&lt;/b>.</string>
     <string name="trans_open_camera_failed_title">"Couldn't connect to Camera"</string>
     <string name="trans_open_location_button">Turn on</string>
-    <string name="trans_open_location_message">Turn on location services to get the list of available WLAN networks.</string>
+    <string name="trans_open_location_message">Turn on location services to get the list of available Wi-Fi networks.</string>
     <string name="trans_open_location_title">Turn on location services</string>
     <string name="trans_operate_func_one">Method A</string>
     <string name="trans_operate_func_two">Method B</string>
@@ -688,7 +688,7 @@ Then tap \"Connect again\" to scan the QR code."</string>
     <string name="trans_progress_subdescript_waiting">Waiting to receive %s</string>
     <string name="trans_receiver">"I'm a recipient"</string>
     <string name="trans_receiver_time_remained">"%s remaining.
-Don't turn off WLAN Hotspot.
+Don't turn off Wi-Fi Hotspot.
 Keep devices close to each other."</string>
     <string name="trans_receiving_completed">Received successfully</string>
     <string name="trans_restoring">Restoring…</string>
@@ -716,7 +716,7 @@ Select only important items to make the transfer faster."</string>
     <string name="trans_sender_searching_ensurance">"Make sure the old device is on
 Waiting for the old device to connect…"</string>
     <string name="trans_sender_time_remained">"%s remaining.
-Don't turn off WLAN.
+Don't turn off Wi-Fi.
 Keep devices close to each other."</string>
     <string name="trans_sending_completed">Sent successfully</string>
     <string name="trans_show_qr_code_label">Connect old device</string>
@@ -731,7 +731,7 @@ Keep devices close to each other."</string>
 Did you like Mi Mover?"</string>
     <string name="trans_success_dialog_survey_title">We appreciate your feedback</string>
     <string name="trans_success_survey_hint">Fill in all fields first.</string>
-    <string name="trans_switching_5g">Switching to 5GHz WLAN…</string>
+    <string name="trans_switching_5g">Switching to 5GHz Wi-Fi…</string>
     <string name="trans_time_format_second">Less than 1 minute</string>
     <string name="trans_time_spent">Time spent: %s</string>
     <string name="trans_wait_trans_data">"Connected to the old device.
@@ -739,8 +739,8 @@ Waiting for the transfer…"</string>
     <string name="trans_waiting_ensurance">"Make sure the old device is on
 and Mi Mover is on"</string>
     <string name="trans_waiting_for_sender">Waiting for the old device to connect…</string>
-    <string name="trans_wlan_tips_message">"Don't turn off Wi-fi or switch to other WLAN networks during the transfer. Otherwise, Mi Mover won't be able to transfer data."</string>
-    <string name="trans_wlan_tips_title">"Don't turn off WLAN"</string>
+    <string name="trans_wlan_tips_message">"Don't turn off Wi-fi or switch to other Wi-Fi networks during the transfer. Otherwise, Mi Mover won't be able to transfer data."</string>
+    <string name="trans_wlan_tips_title">"Don't turn off Wi-Fi"</string>
     <string name="unit_byte">B</string>
     <string name="unknown_hint">Unknown</string>
     <string name="usb_backup_select_data_too_large">"Selected files are big. Make sure the USB drive has enough storage space.
@@ -766,7 +766,7 @@ Free up space or transfer only important items."</string>
 tap \"I'm a sender\" and select a hotspot to connect.
 Don't close the page before connection is established."</string>
     <string name="waiting">Just a sec…</string>
-    <string name="wifi_title">WLAN settings</string>
+    <string name="wifi_title">Wi-Fi settings</string>
     <string name="xiaomi_account_type">com.xiaomi</string>
     <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">"Couldn't start the download. Make sure Download Manager works normally."</string>
