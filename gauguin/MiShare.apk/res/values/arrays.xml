@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permissions">
+        <item>android.permission-group.STORAGE</item>
+        <item>android.permission-group.LOCATION</item>
+    </string-array>
+    <string-array name="permissions_desc">
+        <item>For accessing and saving images, apps, and other files, as well as transferring them</item>
+        <item>For transferring files using Bluetooth and Wi-Fi</item>
+    </string-array>
+    <string-array name="permissions_desc_china">
+        <item>For accessing and saving images, apps, and other files, as well as transferring them</item>
+        <item>For transferring files using Bluetooth and Wi-Fi</item>
+    </string-array>
+    <string-array name="permissions_desc_v12">
+        <item>For sending and receiving files</item>
+        <item>For transferring files using Bluetooth and Wi-Fi</item>
+        <item>For finding available devices nearby using Bluetooth</item>
+        <item>For finding available devices nearby and transferring files using Wi-Fi</item>
+    </string-array>
+    <string-array name="permissions_desc_v12_china">
+        <item>For sending and receiving files</item>
+        <item>For transferring files using Bluetooth and Wi-Fi</item>
+        <item>For finding available devices nearby using Bluetooth</item>
+        <item>For finding available devices nearby and transferring files using Wi-Fi</item>
+    </string-array>
+    <string-array name="permissions_v12">
+        <item>android.permission-group.STORAGE</item>
+        <item>android.permission-group.LOCATION</item>
+        <item>android.permission.BLUETOOTH_ADMIN</item>
+        <item>android.permission.CHANGE_WIFI_STATE</item>
+    </string-array>
+</resources>
