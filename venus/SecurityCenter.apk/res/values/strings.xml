@@ -69,10 +69,11 @@
     <string name="ac_firstUseApplock_subTitle">Use better system-level security tools</string>
     <string name="ac_firstUseApplock_title">Set a password to protect your apps</string>
     <string name="ac_mask_all_apps">Hide for all</string>
-    <string name="ac_notification_contentText">Tap to turn on</string>
-    <string name="ac_notification_contentTitle">Protect apps with App lock</string>
-    <string name="ac_post_notification_contentText">Get system-level protection</string>
-    <string name="ac_post_notification_contentTitle">Turn on App Lock</string>
+    <string name="ac_notification_action_text">Turn on</string>
+    <string name="ac_notification_contentText">Hide sensitive information using a password</string>
+    <string name="ac_notification_contentTitle">Try App lock!</string>
+    <string name="ac_post_notification_contentText">It can protect all kinds of sensitive apps</string>
+    <string name="ac_post_notification_contentTitle">Protect apps with App lock</string>
     <string name="ac_pre_notification_contentText">Protect your personal info</string>
     <string name="ac_pre_notification_contentTitle">Try App Lock</string>
     <string name="ac_recommend_guide_dialog_app_content">Use App lock with this app in order to protect your personal info and avoid data leaks.</string>
@@ -207,10 +208,10 @@
     <string name="app_behavior_about_content_no_link">"MIUI can show when apps launched other apps, autostarted, used permissions, and performed sensitive actions. Due to Android version compatibility issues, some of these records might not be accurate. If you find an app behavior record that isn't accurate, report it to us using the \"Services &amp; feedback\" app."</string>
     <string name="app_behavior_about_negative">Report inaccuracies</string>
     <string name="app_behavior_about_positive">Got it</string>
-    <string name="app_behavior_access_gallery">%1s accessed gallery</string>
-    <string name="app_behavior_access_gallery_single">This app accessed gallery</string>
-    <string name="app_behavior_access_sociality">%1s accessed messages in social media apps</string>
-    <string name="app_behavior_access_sociality_single">This app accessed messages in social media apps</string>
+    <string name="app_behavior_access_gallery">%1s accessed Gallery</string>
+    <string name="app_behavior_access_gallery_single">This app accessed Gallery</string>
+    <string name="app_behavior_access_sociality">%1s accessed social media apps</string>
+    <string name="app_behavior_access_sociality_single">This app accessed social media apps</string>
     <string name="app_behavior_allowed">Allow</string>
     <string name="app_behavior_audio">%1s recorded audio</string>
     <string name="app_behavior_audio_bg">%1s recorded audio in the background</string>
@@ -1721,6 +1722,19 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gb_ad_game_size">MB</string>
     <string name="gb_add_game_hint">Add items from the list of apps</string>
     <string name="gb_add_game_loading_tips">Just a sec…</string>
+    <string name="gb_adv_touch_adv_title">Classic mode (default)</string>
+    <string name="gb_adv_touch_custom1">Swipe response</string>
+    <string name="gb_adv_touch_custom2">Sensitivity to continuous taps</string>
+    <string name="gb_adv_touch_custom3">Aiming accuracy</string>
+    <string name="gb_adv_touch_custom4">Tap stability</string>
+    <string name="gb_adv_touch_custom_tip1">Higher swipe response increases the speed of reaction to this gesture, while lower swipe response makes the gesture more stable.</string>
+    <string name="gb_adv_touch_custom_tip2">Higher sensitivity to continuous taps increases the speed of reaction to this gesture, while lower sensitivity makes the gesture more stable.</string>
+    <string name="gb_adv_touch_custom_tip3">Higher aiming accuracy makes smaller swipes more precise, while lower aiming accuracy makes this gesture more stable.</string>
+    <string name="gb_adv_touch_custom_tip4">Higher tap stability makes taps more stable, while lower tap stability increases the accuracy of smaller swipes.</string>
+    <string name="gb_adv_touch_custom_title">Customize</string>
+    <string name="gb_adv_touch_mode_pro_tips">*This mode is designed for professional players. Regular players might find this mode inconvenient.</string>
+    <string name="gb_adv_touch_mode_select_title">Gestures</string>
+    <string name="gb_adv_touch_pro_title">Pro mode</string>
     <string name="gb_advance_settings_edge_gear1">None</string>
     <string name="gb_advance_settings_edge_gear2">Small</string>
     <string name="gb_advance_settings_edge_gear3">Medium</string>
@@ -1941,6 +1955,8 @@ of your gaming sessions"</string>
     <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Increase connection speed by 10%-20% when connected to Mi/Redmi routers</string>
     <string name="gtb_setting_item_title_smart_5g">5G network optimization</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi speed boost</string>
+    <string name="gtb_spring_festival_back_game">Back to game</string>
+    <string name="gtb_spring_festival_goto_gameturbo">View</string>
     <string name="gtb_wlan_speed_tips">Using Mi WiFi…</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Wrong carrier?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Your current carrier: "</string>
@@ -2293,7 +2309,7 @@ Your device is %d%% faster now."</string>
     <string name="menu_summary_power_manager_4">%s until full</string>
     <string name="menu_text_antispam">Blocklist</string>
     <string name="menu_text_antivirus">Security scan</string>
-    <string name="menu_text_deepclean_summary" formatted="false">%1s/%2s occupied</string>
+    <string name="menu_text_deepclean_summary">%1$s/%2$s occupied</string>
     <string name="menu_text_garbage_cleanup">Cleaner</string>
     <string name="menu_text_garbage_cleanup_danger">%s of trash</string>
     <string name="menu_text_license_manager">Permissions</string>
@@ -2501,6 +2517,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="notification_abnormal_consume_app_title">%s drains battery</string>
     <string name="notification_abnormal_consume_cpu">CPU resources are abused in the background</string>
     <string name="notification_abnormal_consume_wakelock">The system is kept awake in the background</string>
+    <string name="notification_antivirus_button_text">Scan</string>
+    <string name="notification_antivirus_message">Scan now to neutralize risks</string>
     <string name="notification_battery_consume_abnormal_title">Battery is being drained too fast</string>
     <string name="notification_battery_scan_consume_abnormal_summary">Tap to fix the problem</string>
     <string name="notification_battery_scan_consume_abnormal_title_set">%s is draining battery</string>
@@ -2521,6 +2539,15 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="notification_garbage_clean_size_new">Free up %s of storage</string>
     <string name="notification_garbage_cleanup_summary">Clear trash (%s) to speed up your device</string>
     <string name="notification_garbage_cleanup_title">Clear trash files</string>
+    <string name="notification_link_cleaner_2001">Clear %s of trash now</string>
+    <string name="notification_link_cleaner_2002">Clear trash to speed up your device</string>
+    <string name="notification_link_cleaner_2003">Less than %s of storage left. Free up storage space now.</string>
+    <string name="notification_link_cleaner_2004">Only %s of storage left. Free up storage space now.</string>
+    <string name="notification_link_cleaner_2005">Clear memory to speed up your device</string>
+    <string name="notification_link_cleaner_3001">Clear WeChat trash to speed up your device</string>
+    <string name="notification_link_cleaner_3002">Clear WeChat trash</string>
+    <string name="notification_link_cleaner_4000">Clear QQ trash</string>
+    <string name="notification_link_optimizemanage_1011">%d%% of memory is occupied. Clear now.</string>
     <string name="notification_low_battery_action_btn">Turn on</string>
     <string name="notification_low_battery_need_charge">Charge your device</string>
     <string name="notification_low_battery_open_save_mode">Turn on Battery saver</string>
@@ -2533,8 +2560,11 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="notification_low_storage_size_1p5_gb_hint">Clear trash to speed up your device</string>
     <string name="notification_mask_summary">"Don't display notification content for protected apps"</string>
     <string name="notification_mask_title">Hide notification content</string>
-    <string name="notification_masked_item">How to hide notification content?</string>
-    <string name="notification_masked_subtitle">Use App lock to hide notification content for selected apps</string>
+    <string name="notification_masked_item">Want to hide notification content?</string>
+    <string name="notification_masked_subtitle">App lock can do the job</string>
+    <string name="notification_optimize_button_text">Clear</string>
+    <string name="notification_optimize_message">Clear memory to boost speed</string>
+    <string name="notification_optimize_title">%d%% of memory is occupied</string>
     <string name="notification_power_consume_issue_summary">High power consumption</string>
     <string name="notification_power_consume_suggest_summary">Fix issues to save battery</string>
     <string name="notification_qq_clean_hint">Trash slows down your device</string>
@@ -3113,8 +3143,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_hide_app_form_desktop">Remove app icons from the Home screen</string>
     <string name="pp_icon_layout_status_bg_content_enable">Protected</string>
     <string name="pp_icon_layout_status_bg_content_unable">Off</string>
-    <string name="pp_interception_net_visit_content_manager">Protect Gallery and social media apps</string>
-    <string name="pp_interception_net_visit_content_manager_detail">Select which apps are allowed to access your photos, videos, and chat history</string>
+    <string name="pp_interception_net_visit_content_manager">Protect Gallery and files social media apps</string>
+    <string name="pp_interception_net_visit_content_manager_detail">Select which apps are allowed to access Gallery and the files from your social media apps</string>
     <string name="pp_local_msg">Location info</string>
     <string name="pp_manage_apps_location_information">Allow apps to access your location</string>
     <string name="pp_one_app_two_use">Use two accounts without signing out</string>
@@ -3137,7 +3167,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_prohibit_use_camera_in_background_detail">"Apps won't be able to use camera in the background by default"</string>
     <string name="pp_record_msg">Recording audio</string>
     <string name="pp_safe_box">Private space</string>
-    <string name="pp_safe_box_detail">To protect your privacy, MIUI allows you to control how apps access your photos and social media chat history.</string>
+    <string name="pp_safe_box_detail">"Private items are encrypted and stored on this device only. Other people won't be able to access them while they're using this device, and the device itself won't be allowed to access encrypted items and use them in any way."</string>
     <string name="pp_safe_box_summary">Privacy protection</string>
     <string name="pp_safe_input_pwd">Protect your passwords</string>
     <string name="pp_safe_keyboard">Secure keyboard</string>
@@ -3250,6 +3280,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="preference_key_module_garbage_cleanup">key_garbage_cleanup</string>
     <string name="preference_key_module_network_assistant">key_network_assistant</string>
     <string name="preference_key_module_power_center">module_power_center</string>
+    <string name="preference_key_online_service">key_online_service</string>
     <string name="preference_key_open_virus_cloud_scan">key_open_virus_cloud_scan</string>
     <string name="preference_key_open_virus_install_monitor">key_open_virus_install_monitor</string>
     <string name="preference_key_optimize_manage">key_module_optimize_manage</string>
@@ -4105,6 +4136,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="summary_mms">Block SMS spam automatically</string>
     <string name="summary_network_switch">Allow Security to connect to the internet</string>
     <string name="summary_never_flow_verify">"This number hasn't been verified with your carrier"</string>
+    <string name="summary_password_manager">Password manager allows you to encrypt your passwords and store them in the cloud</string>
     <string name="summary_payment_risk">"Looks like payment environment isn't secure"</string>
     <string name="summary_permission">Avoid unwanted payments and protect personal data</string>
     <string name="summary_permission_root">Looks like this device has root access. It may damage the security of your device.</string>
@@ -4364,6 +4396,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="title_network_switch">Network connection</string>
     <string name="title_of_app_manage">Apps</string>
     <string name="title_of_auto_launch_manage">Autostart</string>
+    <string name="title_password_manager">Turn on Password manager</string>
     <string name="title_payment_protection">Payments are secured</string>
     <string name="title_payment_risk">Payment risks found</string>
     <string name="title_permission_no">Permission manager off</string>
@@ -4576,6 +4609,15 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_video_effects_settings_liquid">Clarity</string>
     <string name="vb_video_effects_settings_stereo">Volume</string>
     <string name="vb_video_effects_srs_premium_sound">Sound</string>
+    <string name="vb_video_super_division">Upscale</string>
+    <string name="vb_video_super_division_desc">"Upscale resolution automatically when it's ≤720p.
+
+Using this feature increases power consumption.
+
+This feature doesn't work with motion smoothing.
+Turning one of the features on will turn the other off."</string>
+    <string name="vb_video_super_division_tips">"Not clear enough?
+Try upscaling resolution!"</string>
     <string name="video_repeat">Play again</string>
     <string name="videobox_hangup_tips_content">Your screen will be locked, but the app will still be running in the background when this feature is on. Press the Power button to turn the screen back on. Turn on this feature now?</string>
     <string name="videobox_hangup_tips_title">Attention</string>
@@ -4587,6 +4629,8 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="videobox_settings_manager_apps">Manage video apps</string>
     <string name="videobox_settings_switch_desc">Special effects and features for video playback</string>
     <string name="videobox_settings_switch_title">Video toolbox</string>
+    <string name="videobox_settings_timing">Binge alert</string>
+    <string name="videobox_settings_timing_desc">Receive an hourly binge alert reminding you to take a break</string>
     <string name="videobox_settings_title">Video toolbox</string>
     <string name="view_traffic_detail">View details</string>
     <string name="virus_auto_update_engine">Auto updates: %s</string>
