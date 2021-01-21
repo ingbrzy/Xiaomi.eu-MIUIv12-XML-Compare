@@ -85,7 +85,7 @@ to add cards"</string>
     <string name="altitude_range">Altitude</string>
     <string name="am">AM</string>
     <string name="androidx_camera_default_config_provider">androidx.camera.camera2.Camera2Config$DefaultProvider</string>
-    <string name="app_name">MiaoCourse</string>
+    <string name="app_name">ILogger</string>
     <string name="app_setting">Apps</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="audio_permission_dialog_desc">To analyze your sleep cycle and record talking and snoring, Xiaomi Health needs permission to record audio.</string>
@@ -469,6 +469,7 @@ Xiaomi Health will only notify you about important items."</string>
     <string name="dialog_keep">Keep</string>
     <string name="dialog_known">Got it</string>
     <string name="dialog_menstruation_purpose">Welcome to Xiaomi Health! \"Menstruation\" allows you to record periods, determine estimated dates of upcoming periods, and receive reminders. All the related data will be stored locally on your device, which allows you to manage it easily.</string>
+    <string name="dialog_new_version_title">An update is available</string>
     <string name="dialog_no_more_prompt">"Don't show again"</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_open">Allow</string>
@@ -488,6 +489,7 @@ Xiaomi Health will only notify you about important items."</string>
     <string name="dialog_user_agreement_purpose2">Welcome to Xiaomi Health! You can use this app to count your steps, analyze sleep, track periods, record weight, and more.</string>
     <string name="diastolic_pressure">Diastolic</string>
     <string name="disable">Off</string>
+    <string name="discard_update">No thanks</string>
     <string name="divider">/</string>
     <string name="divider_format1">%1$s/%2$s</string>
     <string name="divider_format2">%1$s-%2$s</string>
@@ -620,6 +622,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="feedback_need_permission_msg">Allow Xiaomi Health to write on external storage to be able to generate logs used for feedback.</string>
     <string name="feedback_permission_denied_msg">"Xiaomi Health can't save logs to external storage. Give Xiaomi Health the required permissions in the settings."</string>
     <string name="fewer">Little</string>
+    <string name="find_new_verision">Version %s is available now</string>
     <string name="finish">Finish</string>
     <string name="finish_stand">Yes</string>
     <string name="finish_stand2">Standing up</string>
@@ -831,6 +834,7 @@ Start over."</string>
     <string name="hr_strength_lowest">Lowest</string>
     <string name="hr_strength_mid">Medium</string>
     <string name="icon_content_description">Dialog Icon</string>
+    <string name="immediately_experience">Update</string>
     <string name="improve_step_target">You reach your goal too often. Try setting a higher one.</string>
     <string name="improve_your_health_default_tips">Exercise and get enough sleep to stay healthy.</string>
     <string name="inactivated">Not activated</string>
@@ -891,6 +895,7 @@ Start over."</string>
     <string name="light_sleep_time_normal_description">You have a sufficient amount of light sleep</string>
     <string name="load_failed">"Couldn't load items. Wait a minute or two and try again."</string>
     <string name="loading">Just a sec…</string>
+    <string name="location_perm_description">For tracking outdoor workouts and recording routes</string>
     <string name="location_permission_dialog_content">Allow Xiaomi Health to access your location in \"Xiaomi Health\" > \"Manage permissions\" to be able to track your outdoor workouts.</string>
     <string name="location_permission_dialog_negative">Not now</string>
     <string name="location_permission_dialog_positive">Allow</string>
@@ -919,6 +924,7 @@ Start over."</string>
     <string name="manual_record">Recorded manually</string>
     <string name="mark_end">Period ended</string>
     <string name="mark_start">Start</string>
+    <string name="marketSdkVersion">3.2.7</string>
     <string name="max_altitude">Highest altitude</string>
     <string name="max_heart_rate">Highest heart rate</string>
     <string name="max_high_pressure">Max systolic (upper)</string>
@@ -1349,7 +1355,7 @@ Start over."</string>
     <string name="share_card_title_free_training">Freestyle workout</string>
     <string name="share_card_title_high_interval_training">HIIT</string>
     <string name="share_card_title_indoor_rinding">Stationary bike %s</string>
-    <string name="share_card_title_indoor_running">Running %s</string>
+    <string name="share_card_title_indoor_running">Indoor run %s</string>
     <string name="share_card_title_open_swimming">Open water swim %s</string>
     <string name="share_card_title_outdoor_hiking">Hiking %s</string>
     <string name="share_card_title_outdoor_riding">Cycling %s</string>
@@ -1995,16 +2001,9 @@ Update now?"</string>
     <string name="welcome_start_use">Start</string>
     <string name="well">Good</string>
     <string name="write_strorage_perm_description">For saving the info about the issues you encounter</string>
-    <string name="xiaomi_update_sdk_bytes_unit">%1$sB</string>
-    <string name="xiaomi_update_sdk_connect_download_manager_fail">Connect Download Manager failed, please check the Download Manager state in the Application Management.</string>
-    <string name="xiaomi_update_sdk_dialog_message">"Introducing version %1$s
-Size: %2$s"</string>
-    <string name="xiaomi_update_sdk_dialog_message_diff">"Introducing version %1$s
-Delta update size: %2$s"</string>
-    <string name="xiaomi_update_sdk_dialog_title">%1$s update!</string>
-    <string name="xiaomi_update_sdk_external_storage_unavailable">Storage unavailable, please check the SD card.</string>
-    <string name="xiaomi_update_sdk_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_update_sdk_megabytes_unit">%1$sMB</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Not now</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">Update</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">An update is available</string>
     <string name="year">Year</string>
     <string name="yesterday">Yesterday</string>
     <string name="yoga">Yoga</string>
