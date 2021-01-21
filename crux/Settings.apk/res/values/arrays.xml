@@ -1902,12 +1902,12 @@
         <item>@string/dndm_vip_list_custom</item>
     </string-array>
     <string-array name="double_click_mode_entries">
-        <item>@string/miheadset_call_assist</item>
-        <item>@string/miheadset_play_pause</item>
-        <item>@string/miheadet_up_music</item>
         <item>@string/miheadset_next</item>
         <item>@string/miheadset_plus</item>
-        <item>@string/miheadset_minus</item>
+    </string-array>
+    <string-array name="double_key_mode_values">
+        <item>03</item>
+        <item>04</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Never</item>
@@ -2243,14 +2243,6 @@
         <item>key_combination_power_menu</item>
         <item>key_combination_power_back</item>
         <item>key_none</item>
-    </string-array>
-    <string-array name="key_mode_values">
-        <item>00</item>
-        <item>01</item>
-        <item>02</item>
-        <item>03</item>
-        <item>04</item>
-        <item>05</item>
     </string-array>
     <string-array name="key_popup_voice_choice">
         <item>popup_muqin_up.ogg</item>
@@ -3685,12 +3677,12 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>10</item>
     </string-array>
     <string-array name="triple_click_mode_entries">
-        <item>@string/miheadset_call_assist</item>
-        <item>@string/miheadset_play_pause</item>
         <item>@string/miheadet_up_music</item>
-        <item>@string/miheadset_next</item>
-        <item>@string/miheadset_plus</item>
         <item>@string/miheadset_minus</item>
+    </string-array>
+    <string-array name="triple_key_mode_values">
+        <item>02</item>
+        <item>05</item>
     </string-array>
     <string-array name="true_color_screen_optimize_summary">
         <item>Adjust colors based on the current lighting</item>
