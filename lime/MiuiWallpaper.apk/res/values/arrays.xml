@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alphabet_table">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="am_pms">
+        <item>@string/am</item>
+        <item>@string/pm</item>
+    </string-array>
+    <string-array name="chinese_days">
+        <item>@string/chinese_day_1</item>
+        <item>@string/chinese_day_2</item>
+        <item>@string/chinese_day_3</item>
+        <item>@string/chinese_day_4</item>
+        <item>@string/chinese_day_5</item>
+        <item>@string/chinese_day_6</item>
+        <item>@string/chinese_day_7</item>
+        <item>@string/chinese_day_8</item>
+        <item>@string/chinese_day_9</item>
+        <item>@string/chinese_day_10</item>
+        <item>@string/chinese_day_11</item>
+        <item>@string/chinese_day_12</item>
+        <item>@string/chinese_day_13</item>
+        <item>@string/chinese_day_14</item>
+        <item>@string/chinese_day_15</item>
+        <item>@string/chinese_day_16</item>
+        <item>@string/chinese_day_17</item>
+        <item>@string/chinese_day_18</item>
+        <item>@string/chinese_day_19</item>
+        <item>@string/chinese_day_20</item>
+        <item>@string/chinese_day_21</item>
+        <item>@string/chinese_day_22</item>
+        <item>@string/chinese_day_23</item>
+        <item>@string/chinese_day_24</item>
+        <item>@string/chinese_day_25</item>
+        <item>@string/chinese_day_26</item>
+        <item>@string/chinese_day_27</item>
+        <item>@string/chinese_day_28</item>
+        <item>@string/chinese_day_29</item>
+        <item>@string/chinese_day_30</item>
+    </string-array>
+    <string-array name="chinese_digits">
+        <item>@string/chinese_digit_zero</item>
+        <item>@string/chinese_digit_one</item>
+        <item>@string/chinese_digit_two</item>
+        <item>@string/chinese_digit_three</item>
+        <item>@string/chinese_digit_four</item>
+        <item>@string/chinese_digit_five</item>
+        <item>@string/chinese_digit_six</item>
+        <item>@string/chinese_digit_seven</item>
+        <item>@string/chinese_digit_eight</item>
+        <item>@string/chinese_digit_nine</item>
+        <item>@string/chinese_digit_ten</item>
+    </string-array>
+    <string-array name="chinese_leap_months">
+        <item>@string/empty</item>
+        <item>@string/chinese_leap</item>
+    </string-array>
+    <string-array name="chinese_months">
+        <item>@string/chinese_month_january</item>
+        <item>@string/chinese_month_february</item>
+        <item>@string/chinese_month_march</item>
+        <item>@string/chinese_month_april</item>
+        <item>@string/chinese_month_may</item>
+        <item>@string/chinese_month_june</item>
+        <item>@string/chinese_month_july</item>
+        <item>@string/chinese_month_august</item>
+        <item>@string/chinese_month_september</item>
+        <item>@string/chinese_month_october</item>
+        <item>@string/chinese_month_november</item>
+        <item>@string/chinese_month_december</item>
+    </string-array>
+    <string-array name="chinese_symbol_animals">
+        <item>@string/chinese_symbol_animals_mouse</item>
+        <item>@string/chinese_symbol_animals_cow</item>
+        <item>@string/chinese_symbol_animals_tiger</item>
+        <item>@string/chinese_symbol_animals_rabbit</item>
+        <item>@string/chinese_symbol_animals_dragon</item>
+        <item>@string/chinese_symbol_animals_snake</item>
+        <item>@string/chinese_symbol_animals_horse</item>
+        <item>@string/chinese_symbol_animals_sheep</item>
+        <item>@string/chinese_symbol_animals_monkey</item>
+        <item>@string/chinese_symbol_animals_chicken</item>
+        <item>@string/chinese_symbol_animals_dog</item>
+        <item>@string/chinese_symbol_animals_pig</item>
+    </string-array>
+    <string-array name="detailed_am_pms">
+        <item>@string/midnight</item>
+        <item>@string/early_morning</item>
+        <item>@string/morning</item>
+        <item>@string/noon</item>
+        <item>@string/afternoon</item>
+        <item>@string/evening</item>
+        <item>@string/night</item>
+    </string-array>
+    <string-array name="earthly_branches">
+        <item>@string/earthly_branches_zi</item>
+        <item>@string/earthly_branches_chou</item>
+        <item>@string/earthly_branches_yin</item>
+        <item>@string/earthly_branches_mao</item>
+        <item>@string/earthly_branches_chen</item>
+        <item>@string/earthly_branches_si</item>
+        <item>@string/earthly_branches_wu</item>
+        <item>@string/earthly_branches_wei</item>
+        <item>@string/earthly_branches_shen</item>
+        <item>@string/earthly_branches_you</item>
+        <item>@string/earthly_branches_xu</item>
+        <item>@string/earthly_branches_hai</item>
+    </string-array>
+    <string-array name="eras">
+        <item>@string/eras_bc</item>
+        <item>@string/eras_ad</item>
+    </string-array>
+    <string-array name="heavenly_stems">
+        <item>@string/heavenly_stems_jia</item>
+        <item>@string/heavenly_stems_yi</item>
+        <item>@string/heavenly_stems_bing</item>
+        <item>@string/heavenly_stems_ding</item>
+        <item>@string/heavenly_stems_wu</item>
+        <item>@string/heavenly_stems_ji</item>
+        <item>@string/heavenly_stems_geng</item>
+        <item>@string/heavenly_stems_xin</item>
+        <item>@string/heavenly_stems_ren</item>
+        <item>@string/heavenly_stems_gui</item>
+    </string-array>
+    <string-array name="months">
+        <item>@string/month_january</item>
+        <item>@string/month_february</item>
+        <item>@string/month_march</item>
+        <item>@string/month_april</item>
+        <item>@string/month_may</item>
+        <item>@string/month_june</item>
+        <item>@string/month_july</item>
+        <item>@string/month_august</item>
+        <item>@string/month_september</item>
+        <item>@string/month_october</item>
+        <item>@string/month_november</item>
+        <item>@string/month_december</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>@string/month_january_short</item>
+        <item>@string/month_february_short</item>
+        <item>@string/month_march_short</item>
+        <item>@string/month_april_short</item>
+        <item>@string/month_may_short</item>
+        <item>@string/month_june_short</item>
+        <item>@string/month_july_short</item>
+        <item>@string/month_august_short</item>
+        <item>@string/month_september_short</item>
+        <item>@string/month_october_short</item>
+        <item>@string/month_november_short</item>
+        <item>@string/month_december_short</item>
+    </string-array>
+    <string-array name="months_shortest">
+        <item>@string/month_january_shortest</item>
+        <item>@string/month_february_shortest</item>
+        <item>@string/month_march_shortest</item>
+        <item>@string/month_april_shortest</item>
+        <item>@string/month_may_shortest</item>
+        <item>@string/month_june_shortest</item>
+        <item>@string/month_july_shortest</item>
+        <item>@string/month_august_shortest</item>
+        <item>@string/month_september_shortest</item>
+        <item>@string/month_october_shortest</item>
+        <item>@string/month_november_shortest</item>
+        <item>@string/month_december_shortest</item>
+    </string-array>
+    <string-array name="region_support_mihome">
+        <item>CN</item>
+        <item>IN</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>SG</item>
+        <item>US</item>
+        <item>TR</item>
+    </string-array>
+    <string-array name="settings_search_earth">
+        <item>Home</item>
+        <item>Wallpaper/Super wallpapers/Home</item>
+        <item>Earth;Super wallpapers;Earth Edition;Wallpaper</item>
+    </string-array>
+    <string-array name="settings_search_geometry">
+        <item>Geometry</item>
+        <item>Wallpaper/Super wallpapers/Geometry</item>
+        <item>Geometry;Abstract;Super wallpaper;Wallpaper</item>
+    </string-array>
+    <string-array name="settings_search_mars">
+        <item>The red planet</item>
+        <item>Wallpaper/Super wallpapers/The red planet</item>
+        <item>Mars;Mars Edition;Super wallpapers;Wallpaper</item>
+    </string-array>
+    <string-array name="settings_search_saturn">
+        <item>Rings of Saturn</item>
+        <item>Wallpaper/Super wallpapers/Rings of Saturn</item>
+        <item>Planet;Saturn;Super wallpaper;Wallpaper</item>
+    </string-array>
+    <string-array name="settings_search_snowmountain">
+        <item>Snowy peaks</item>
+        <item>Wallpaper/Super wallpapers/Snowy peaks</item>
+        <item>Earth;Mountains;Super wallpaper;Wallpaper</item>
+    </string-array>
+    <string-array name="settings_search_superwp">
+        <item>Super wallpapers</item>
+        <item>Wallpaper/Super wallpapers</item>
+        <item>Super wallpapers;Wallpaper;Dynamic wallpaper;3D wallpaper</item>
+    </string-array>
+    <string-array name="settings_search_weather">
+        <item>Weather</item>
+        <item>Wallpaper/Super wallpapers/Weather</item>
+        <item>Weather;Weather info;Super wallpaper;Wallpaper</item>
+    </string-array>
+    <string-array name="solar_terms">
+        <item>@string/empty</item>
+        <item>@string/solar_term_slight_cold</item>
+        <item>@string/solar_term_great_cold</item>
+        <item>@string/solar_term_spring_begins</item>
+        <item>@string/solar_term_the_rains</item>
+        <item>@string/solar_term_insects_awaken</item>
+        <item>@string/solar_term_vernal_equinox</item>
+        <item>@string/solar_term_clear_and_bright</item>
+        <item>@string/solar_term_grain_rain</item>
+        <item>@string/solar_term_summer_begins</item>
+        <item>@string/solar_term_grain_buds</item>
+        <item>@string/solar_term_grain_in_ear</item>
+        <item>@string/solar_term_summer_solstice</item>
+        <item>@string/solar_term_slight_heat</item>
+        <item>@string/solar_term_great_heat</item>
+        <item>@string/solar_term_autumn_begins</item>
+        <item>@string/solar_term_stopping_the_heat</item>
+        <item>@string/solar_term_white_dews</item>
+        <item>@string/solar_term_autumn_equinox</item>
+        <item>@string/solar_term_cold_dews</item>
+        <item>@string/solar_term_hoar_frost_falls</item>
+        <item>@string/solar_term_winter_begins</item>
+        <item>@string/solar_term_light_snow</item>
+        <item>@string/solar_term_heavy_snow</item>
+        <item>@string/solar_term_winter_solstice</item>
+    </string-array>
+    <string-array name="super_wallpaper_list_complete_packages">
+        <item>com.miui.miwallpaper.snowmountain</item>
+        <item>com.miui.miwallpaper.geometry</item>
+        <item>com.miui.miwallpaper.saturn</item>
+        <item>com.miui.miwallpaper.earth</item>
+        <item>com.miui.miwallpaper.mars</item>
+    </string-array>
+    <string-array name="super_wallpaper_list_ids">
+        <item>snowmountain</item>
+        <item>geometry</item>
+        <item>saturn</item>
+        <item>earth</item>
+        <item>mars</item>
+    </string-array>
+    <string-array name="super_wallpaper_list_packages">
+        <item>com.miui.miwallpaper</item>
+        <item>com.miui.miwallpaper.geometry</item>
+        <item>com.miui.miwallpaper.saturn</item>
+        <item>com.miui.miwallpaper.earth</item>
+        <item>com.miui.miwallpaper.mars</item>
+    </string-array>
+    <integer-array name="super_wallpaper_list_presets">
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="super_wallpaper_list_summaries">
+        <item>@string/snowmountain_summary</item>
+        <item>@string/geometry_summary</item>
+        <item>@string/saturn_summary</item>
+        <item>@string/earth_summary</item>
+        <item>@string/mars_summary</item>
+    </string-array>
+    <string-array name="super_wallpaper_list_titles">
+        <item>@string/snowmountain_title</item>
+        <item>@string/geometry_title</item>
+        <item>@string/saturn_title</item>
+        <item>@string/earth_title</item>
+        <item>@string/mars_title</item>
+    </string-array>
+    <string-array name="super_wallpaper_res_scale_075_devices">
+        <item>andromeda</item>
+        <item>cepheus</item>
+        <item>crux</item>
+        <item>raphaelin</item>
+        <item>raphael</item>
+        <item>polaris</item>
+        <item>dipper</item>
+        <item>equuleus</item>
+        <item>perseus</item>
+        <item>ursa</item>
+        <item>beryllium</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>monetin</item>
+        <item>monet</item>
+        <item>vangogh</item>
+        <item>atom</item>
+        <item>bomb</item>
+    </string-array>
+    <string-array name="super_wallpaper_res_scale_080_devices">
+        <item>cmi</item>
+        <item>thyme</item>
+        <item>haydn</item>
+        <item>haydnin</item>
+        <item>star</item>
+        <item>starin</item>
+        <item>mars</item>
+        <item>marsin</item>
+        <item>renoir</item>
+        <item>renoirin</item>
+        <item>alioth</item>
+        <item>aliothin</item>
+        <item>umi</item>
+        <item>lmiin</item>
+        <item>lmi</item>
+        <item>lmipro</item>
+        <item>cas</item>
+        <item>venus</item>
+    </string-array>
+    <array name="super_wallpaper_res_scale_100_devices" />
+    <array name="super_wallpaper_res_scale_10_devices" />
+    <string-array name="support_super_wallpaper_devices">
+        <item>cmi</item>
+        <item>umi</item>
+        <item>lmiin</item>
+        <item>lmi</item>
+        <item>lmipro</item>
+        <item>cepheus</item>
+        <item>crux</item>
+        <item>raphaelin</item>
+        <item>raphael</item>
+        <item>polaris</item>
+        <item>dipper</item>
+        <item>equuleus</item>
+        <item>perseus</item>
+        <item>ursa</item>
+        <item>beryllium</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>monetin</item>
+        <item>monet</item>
+        <item>vangogh</item>
+        <item>atom</item>
+        <item>bomb</item>
+        <item>cas</item>
+        <item>surya</item>
+        <item>apollo</item>
+        <item>klein</item>
+        <item>cezanne</item>
+        <item>venus</item>
+        <item>haydn</item>
+        <item>haydnin</item>
+        <item>star</item>
+        <item>starin</item>
+        <item>mars</item>
+        <item>marsin</item>
+        <item>renoir</item>
+        <item>renoirin</item>
+        <item>alioth</item>
+        <item>aliothin</item>
+        <item>thyme</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+    <string-array name="week_days_short">
+        <item>@string/sunday_short</item>
+        <item>@string/monday_short</item>
+        <item>@string/tuesday_short</item>
+        <item>@string/wednesday_short</item>
+        <item>@string/thursday_short</item>
+        <item>@string/friday_short</item>
+        <item>@string/saturday_short</item>
+    </string-array>
+    <string-array name="week_days_shortest">
+        <item>@string/sunday_shortest</item>
+        <item>@string/monday_shortest</item>
+        <item>@string/tuesday_shortest</item>
+        <item>@string/wednesday_shortest</item>
+        <item>@string/thursday_shortest</item>
+        <item>@string/friday_shortest</item>
+        <item>@string/saturday_shortest</item>
+    </string-array>
+</resources>

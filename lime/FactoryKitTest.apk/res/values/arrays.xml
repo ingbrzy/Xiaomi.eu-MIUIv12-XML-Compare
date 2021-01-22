@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color">
+        <item>green</item>
+        <item>@string/LED_OFF</item>
+        <item>blue</item>
+        <item>@string/LED_OFF</item>
+        <item>red</item>
+        <item>@string/LED_OFF</item>
+    </string-array>
+    <string-array name="dir">
+        <item>/sys/class/leds/green/brightness</item>
+        <item>/sys/class/leds/blue/brightness</item>
+        <item>/sys/class/leds/red/brightness</item>
+    </string-array>
+    <string-array name="htccolor">
+        <item>green</item>
+        <item>@string/LED_OFF</item>
+        <item>red</item>
+        <item>@string/LED_OFF</item>
+    </string-array>
+    <string-array name="htcdir">
+        <item>/sys/class/leds/green/brightness</item>
+        <item>/sys/class/leds/red/brightness</item>
+    </string-array>
+    <string-array name="message">
+        <item>MB_00:电池容量</item>
+        <item>MB_01:电池的充电状态</item>
+        <item>MB_02:充电器类型</item>
+        <item>MB_03:电池电压</item>
+        <item>MB_04:电池电流</item>
+        <item>MB_05:电池温度</item>
+        <item>MB_06:电池的健康情况</item>
+        <item>MB_07:charger芯片的温度</item>
+        <item>MB_08:当前thermal控制等级</item>
+        <item>MU_00:充电器类型</item>
+        <item>MU_01:TypeC当前的模式</item>
+        <item>MU_02:CC引脚的方向</item>
+        <item>MM_00:AICL的结果</item>
+        <item>MM_01:USB入口电流</item>
+        <item>MP_00:Slave Charger的使能情况</item>
+        <item>MP_01:Slave Charger分配的电流比例</item>
+        <item>MP_02:FCC最大的电流</item>
+        <item>MF_00:电池内阻</item>
+        <item>MU_02:VBUS当前的电压</item>
+        <item>MU_03:最大的USB入口电流</item>
+        <item>MU_04:USB在位情况</item>
+        <item>MF_01:电量计反馈的实际电池容量</item>
+        <item>MF_02:电池的循环周期</item>
+        <item>MF_03:电池ID脚阻值</item>
+        <item>MP_03:Slave Charger的充电状态</item>
+        <item>MP_04:Slave Charger的最大电流</item>
+        <item>MM_02:Main Charger最高的充电电压</item>
+        <item>MM_03:FCC最大电流</item>
+        <item>MB_03:FCC最大电流</item>
+    </string-array>
+    <string-array name="onecolor">
+        <item>red</item>
+        <item>@string/LED_OFF</item>
+    </string-array>
+    <string-array name="path_for_mtk">
+        <item>/sys/class/power_supply/battery/capacity</item>
+        <item>/sys/class/power_supply/battery/status</item>
+        <item>/sys/class/power_supply/battery/type</item>
+        <item>/sys/class/power_supply/battery/BatterySenseVoltage</item>
+        <item>/sys/class/power_supply/battery/current_now</item>
+        <item>/sys/class/power_supply/battery/batt_temp</item>
+        <item>/sys/class/power_supply/battery/health</item>
+        <item>/sys/devices/platform/charger/charger_temp</item>
+        <item>/sys/class/power_supply/battery/charge_control_limit</item>
+        <item>/sys/class/power_supply/usb/type</item>
+        <item>/sys/class/power_supply/usb/typec_mode</item>
+        <item>/sys/class/power_supply/usb/typec_cc_orientation</item>
+        <item>/sys/devices/platform/charger/Aicl</item>
+        <item>/sys/class/power_supply/battery/current_now</item>
+        <item>/sys/class/power_supply/parallel/charging_enabled</item>
+        <item>/sys/class/qcom-battery/parallel_pct</item>
+        <item>sys/class/power_supply/charger/constant_charge_current_max</item>
+        <item>/sys/class/power_supply/battery/batt_type</item>
+        <item>sys/class/power_supply/battery/ChargerVoltage</item>
+        <item>sys/class/power_supply/battery/current_max</item>
+        <item>sys/class/power_supply/usb/online</item>
+        <item>/sys/class/power_supply/battery/capacity</item>
+        <item>/sys/class/power_supply/bms/cycle_count</item>
+        <item>/sys/class/power_supply/battery/batt_type</item>
+        <item>/sys/class/power_supply/parallel/status</item>
+        <item>/sys/class/power_supply/parallel/current_max</item>
+        <item>/sys/devices/platform/charger/ChargerVoltage_max</item>
+        <item>sys/class/power_supply/charger/constant_charge_current_max</item>
+        <item>sys/class/power_supply/charger/constant_charge_current_max</item>
+    </string-array>
+    <string-array name="path_for_qcom">
+        <item>/sys/class/power_supply/battery/capacity</item>
+        <item>/sys/class/power_supply/battery/status</item>
+        <item>/sys/class/power_supply/battery/charge_type</item>
+        <item>/sys/class/power_supply/battery/voltage_now</item>
+        <item>/sys/class/power_supply/battery/current_now</item>
+        <item>/sys/class/thermal/thermal_zone41/temp</item>
+        <item>/sys/class/power_supply/battery/health</item>
+        <item>/sys/class/power_supply/battery/temp</item>
+        <item>/sys/class/power_supply/battery/charge_control_limit</item>
+        <item>/sys/class/power_supply/usb/real_type</item>
+        <item>/sys/class/power_supply/usb/typec_mode</item>
+        <item>/sys/class/power_supply/usb/typec_cc_orientation</item>
+        <item>/sys/class/power_supply/main/input_current_settled</item>
+        <item>/sys/class/power_supply/main/input_current_settled</item>
+        <item>/sys/class/power_supply/parallel/charging_enabled</item>
+        <item>/sys/class/qcom-battery/parallel_pct</item>
+        <item>/sys/class/power_supply/battery/constant_charge_current_max</item>
+        <item>/sys/class/power_supply/bms/resistance</item>
+        <item>/sys/class/power_supply/usb/voltage_now</item>
+        <item>/sys/class/power_supply/usb/current_max</item>
+        <item>/sys/class/power_supply/usb/present</item>
+        <item>/sys/class/power_supply/bms/capacity</item>
+        <item>/sys/class/power_supply/bms/cycle_count</item>
+        <item>/sys/class/power_supply/bms/resistance_id</item>
+        <item>/sys/class/power_supply/parallel/status</item>
+        <item>/sys/class/power_supply/parallel/current_max</item>
+        <item>/sys/class/power_supply/main/voltage_max</item>
+        <item>/sys/class/power_supply/main/constant_charge_current_max</item>
+        <item>/sys/class/power_supply/battery/constant_charge_current_max</item>
+    </string-array>
+</resources>
