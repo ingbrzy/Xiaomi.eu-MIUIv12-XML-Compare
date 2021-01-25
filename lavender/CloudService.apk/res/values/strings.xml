@@ -83,6 +83,14 @@
     <string name="data_merge_dialog_title">Merge items</string>
     <string name="data_protection_title">Protect data</string>
     <string name="detect_sim_card">Search for SIM card</string>
+    <string name="device_activation_card_cannot_get_yet">"Couldn't get info. Try again in 3-5 days."</string>
+    <string name="device_activation_card_description">"First activation is registered when a device connects to the network (including but not limited to Wi-Fi and mobile networks) for the first time. It normally takes a while to register first activation, so it's better to wait for 3-5 days after connecting to the network before checking activation status.&lt;br>&lt;br>Device activation is the main factor in determining the validity period of our extended warranty. Check our &lt;a href=%1$s>Return, Exchange, and Repair Policy&lt;/a> for more details.&lt;br>&lt;br>Feel free to call our customer support hotline if you have any questions: 400-100-5678."</string>
+    <string name="device_activation_card_description_china">"First activation is registered when a device connects to the network (including but not limited to Wi-Fi and mobile networks) for the first time. It normally takes a while to register first activation, so it's better to wait for 3-5 days after connecting to the network before checking activation status.&lt;br>&lt;br> Check our &lt;a href=%1$s>Return, Exchange, and Repair Policy&lt;/a> for more details.&lt;br>&lt;br>Feel free to call our customer support hotline if you have any questions: 400-100-5678."</string>
+    <string name="device_activation_card_device_not_support">Not supported on this device</string>
+    <string name="device_activation_card_local_service_error">"Couldn't get info. Wait a minute or two and try again."</string>
+    <string name="device_activation_card_no_network_error">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="device_activation_card_title">First activation</string>
+    <string name="device_activation_page_title">Device activation</string>
     <string name="disable_find_device_error">"Can't turn off Find device. %1$s"</string>
     <string name="do_not_merge">Cancel</string>
     <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
@@ -532,8 +540,16 @@ Location info might not be reported when network connection is poor."</string>
     <string name="provision_next">Next</string>
     <string name="provision_skip_underline">Skip</string>
     <string name="provision_sync_items_loading">Preparing to sync items</string>
+    <string name="quick_service_after_sale_policy_title">Policy</string>
+    <string name="quick_service_after_sale_service_title">Services</string>
+    <string name="quick_service_authenticity_check_title">Authentication</string>
+    <string name="quick_service_maintenance_price_title">Repairs</string>
+    <string name="quick_service_title">Quick services</string>
     <string name="reading_status">Loading status…</string>
     <string name="reading_status_failure">"Couldn't load status."</string>
+    <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
+    <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
+    <string name="recommend_service_title">Recommended services</string>
     <string name="retain_data_high_quality_photo_waring_message">High quality images will be deleted from your Gallery after you sign out. Corresponding original files will still be stored in the cloud. You can also download original files before signing out.</string>
     <string name="retain_data_high_quality_photo_waring_title">"High quality images won't be available"</string>
     <string name="search_menu_title">Search</string>
@@ -696,7 +712,12 @@ Location info might not be reported when network connection is poor."</string>
     <string name="sync_off_confirm_content">"You won't be able to sync new passwords after turning off Password manager."</string>
     <string name="sync_off_confirm_title">Attention</string>
     <string name="sync_on">On</string>
+    <string name="sync_page_autofill_login">Sign in to Mi Account to use Password manager</string>
     <string name="sync_page_autofill_title">Password manager</string>
+    <string name="sync_page_route_message">Password manager allows you to encrypt your passwords and store them in the cloud. Turn on Password manager now?</string>
+    <string name="sync_page_route_not_now">No thanks</string>
+    <string name="sync_page_route_ok">Turn on</string>
+    <string name="sync_page_route_remember">"Don't show again"</string>
     <string name="sync_setting_title">Sync settings</string>
     <string name="sync_sub_1_intl_sms">An outgoing international SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
     <string name="sync_sub_1_sms">An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
