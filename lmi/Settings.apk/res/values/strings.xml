@@ -326,6 +326,8 @@ To switch between features, swipe up with 3 fingers and hold."</string>
     <string name="activating">Activating…</string>
     <string name="active_device_admin_msg">Device admin app</string>
     <string name="active_input_method_subtypes">Active input methods</string>
+    <string name="activity_check_context">"Your device is trying to connect to the internet now. This process might take longer than expected if you're using mobile data. You can go back and connect to a Wi-Fi network instead, or keep waiting until the mobile data connection is established."</string>
+    <string name="activity_check_title">Connecting to the internet</string>
     <string name="activity_not_found">Application is not installed on your phone.</string>
     <string name="activity_picker_label">Choose activity</string>
     <string name="activity_title_power_manager">Battery saver;Save battery</string>
@@ -1635,6 +1637,7 @@ This affects other apps or conversations that are allowed to bubble."</string>
     <string name="carrier_settings_euicc">Carrier</string>
     <string name="carrier_settings_title">Carrier settings</string>
     <string name="carrier_settings_version">Settings version</string>
+    <string name="carrier_test">carrier_common_dir</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Work</string>
     <string name="cdma_lte_data_service">Set up data service</string>
@@ -2414,6 +2417,12 @@ To try to fix this issue, you can stop %1$s and prevent it from running in the b
     <string name="dialog_background_check_ok">Turn off</string>
     <string name="dialog_background_check_title">Turn off background usage &amp; stop app?</string>
     <string name="dialog_backup_title">Back up items first?</string>
+    <string name="dialog_check_button_negative">Try again</string>
+    <string name="dialog_check_button_positive">Connect to Wi-Fi</string>
+    <string name="dialog_check_context">"Your device can't connect to the internet now.
+1. Tap \"Connect to Wi-Fi\" to select one of the available networks.
+2. If you want to use mobile data, tap \"Try again\" or remove and reinsert your SIM card."</string>
+    <string name="dialog_check_title">"Can't connect to the internet"</string>
     <string name="dialog_chose_item">Select an item to display</string>
     <string name="dialog_content_login">Sign in to your Mi Account to update?</string>
     <string name="dialog_location_message">"Your phone can't manage battery normally because %1$s keeps requesting your location when you're not using the app.
@@ -2447,6 +2456,10 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="dialog_title_color_calibration">Color correction preset</string>
     <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
     <string name="dialog_title_login">Sign in to your Mi Account</string>
+    <string name="dialog_wifi_button_negative">No</string>
+    <string name="dialog_wifi_button_positive">Yes</string>
+    <string name="dialog_wifi_context">You need to connect to the internet to set up your device. Unless you connect to Wi-Fi, mobile data might be used. Using mobile data might generate additional carrier fees. Use mobile data anyway?</string>
+    <string name="dialog_wifi_title">Using mobile data</string>
     <string name="dialog_yes">Yes</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app won't start until you unlock your device."</string>
@@ -3082,6 +3095,7 @@ For more details, contact your organization's admin."</string>
     <string name="font_settings_summary_cn">Fonts and text size</string>
     <string name="font_size_exhuge">Extra Huge</string>
     <string name="font_size_huge">Huge</string>
+    <string name="font_size_kddi">Medium</string>
     <string name="font_size_large">Larger</string>
     <string name="font_size_make_larger_desc">Make larger</string>
     <string name="font_size_make_smaller_desc">Make smaller</string>
@@ -4266,6 +4280,7 @@ as your First space PIN."</string>
     <string name="low_label">Low</string>
     <string name="low_storage_summary">Storage is low. %1$s used - %2$s free</string>
     <string name="macaddr_label">MAC addr:</string>
+    <string name="magic_window_name">Split window</string>
     <string name="mah">%d mAh</string>
     <string name="main_netcheck_summary">Test connection for networking issues</string>
     <string name="main_running_process_description">Main process in use.</string>
@@ -4482,6 +4497,7 @@ You can't reverse this action."</string>
     <string name="miheadset_closeAnc">Off</string>
     <string name="miheadset_connectHeadsetForFw">Connect earphones to view firmware version</string>
     <string name="miheadset_connect_play_music">Start playback automatically when earphones are connected</string>
+    <string name="miheadset_connect_toast_tips">Connect earphones first</string>
     <string name="miheadset_define_self">Custom</string>
     <string name="miheadset_disconnect">Disconnect</string>
     <string name="miheadset_disconnect_device">Disconnect this device?</string>
@@ -4492,22 +4508,22 @@ You can't reverse this action."</string>
     <string name="miheadset_enhence_high">Enhanced treble</string>
     <string name="miheadset_enhence_low">Enhanced bass</string>
     <string name="miheadset_equalizer">Equalizer</string>
-    <string name="miheadset_fitness_check">fitness detect</string>
-    <string name="miheadset_fitness_check_checking">detecting</string>
-    <string name="miheadset_fitness_check_continue">continue</string>
+    <string name="miheadset_fitness_check">Ear tip fit test</string>
+    <string name="miheadset_fitness_check_checking">Testing…</string>
+    <string name="miheadset_fitness_check_continue">Next</string>
     <string name="miheadset_fitness_check_done">Done</string>
-    <string name="miheadset_fitness_check_restart">Re-detect</string>
-    <string name="miheadset_fitness_check_result_dialog1">Please put the earphones in both ears, and then check the fit.</string>
-    <string name="miheadset_fitness_check_result_dialog2">Please end the call first, and then perform the fit test.</string>
-    <string name="miheadset_fitness_check_result_dialog_title">tips</string>
-    <string name="miheadset_fitness_check_result_not_ok">Poor fit</string>
-    <string name="miheadset_fitness_check_result_ok">fit well</string>
-    <string name="miheadset_fitness_check_result_summary1">The earplugs you are currently wearing fit well</string>
-    <string name="miheadset_fitness_check_result_summary2">Please re-adjust the position of the earplugs or replace the earplugs with other sizes before testing</string>
-    <string name="miheadset_fitness_check_start">start detect</string>
-    <string name="miheadset_fitness_check_summary1">Detect which size earplugs provide a comfortable wearing experience and the best acoustics</string>
-    <string name="miheadset_fitness_check_summary2">Please put the earphones in both ears and click start detect</string>
-    <string name="miheadset_fitness_check_summary3">Do not take off the headset</string>
+    <string name="miheadset_fitness_check_restart">Start over</string>
+    <string name="miheadset_fitness_check_result_dialog1">Place earphones in both ears before starting the test.</string>
+    <string name="miheadset_fitness_check_result_dialog2">End your current call before starting the test.</string>
+    <string name="miheadset_fitness_check_result_dialog_title">Attention</string>
+    <string name="miheadset_fitness_check_result_not_ok">Bad fit</string>
+    <string name="miheadset_fitness_check_result_ok">Good fit</string>
+    <string name="miheadset_fitness_check_result_summary1">This fit works great for you!</string>
+    <string name="miheadset_fitness_check_result_summary2">Adjust or try a different ear tip, and test again.</string>
+    <string name="miheadset_fitness_check_start">Start</string>
+    <string name="miheadset_fitness_check_summary1">Learn which ear tips provide the most comfortable fit and best acoustic performance.</string>
+    <string name="miheadset_fitness_check_summary2">Place earphones in both ears and tap \"Start\".</string>
+    <string name="miheadset_fitness_check_summary3">Keep the earphones in your ears.</string>
     <string name="miheadset_formal">Standard</string>
     <string name="miheadset_game_mode">Gaming mode</string>
     <string name="miheadset_game_mode_summary">Reduce audio delay while playing games</string>
@@ -4531,8 +4547,7 @@ You can't reverse this action."</string>
     <string name="miheadset_transparent">Transparency</string>
     <string name="miheadset_triple_click_key_mode">triple click key mode</string>
     <string name="miheadset_triple_click_key_mode_summary">triple click key map</string>
-    <string name="miheadset_unpair_device">pair cancel?</string>
-    <string name="miheadset_unpair_device_text">All devices associated with this Xiaomi account will remove</string>
+    <string name="miheadset_unpair_device_text">%1$s will be unpaired from all the devices associated with this Mi Account.</string>
     <string name="mipush_fake_channel_group_name">Mi Push</string>
     <string name="misc_files">Misc files</string>
     <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
