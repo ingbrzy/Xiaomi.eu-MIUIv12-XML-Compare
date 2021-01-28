@@ -320,6 +320,7 @@
     <string name="chat_item_msg_user_etc">etc.</string>
     <string name="check_setup_data">"    Validating server settings…"</string>
     <string name="choose_an_office365_international">International Edition</string>
+    <string name="choose_an_office365_provider">Choose an office365 service provider</string>
     <string name="choose_an_office365_sj">21Vianet Edition</string>
     <string name="choosertitle_sharevia">Share using</string>
     <string name="clear">Clear</string>
@@ -400,6 +401,7 @@
     <string name="conversation_quick_button_disapprove">Cancel</string>
     <string name="conversation_quick_button_received">Received</string>
     <string name="conversation_report_spam">Report spam</string>
+    <string name="conversation_report_un_spam">Not spam</string>
     <string name="conversation_spam_dig_msg">Mark this message as spam? The message will be moved to the \"Spam\" folder and its sender will be added to blocklist.</string>
     <string name="conversation_spam_tips">Mark this message as spam?</string>
     <string name="copied">Copied</string>
@@ -485,6 +487,7 @@
     <string name="elided_padding_token"> </string>
     <string name="email_feedback_uri" />
     <string name="email_netease">NetEase Mail</string>
+    <string name="email_no_snippet">[This message has no body text]</string>
     <string name="email_package_name">com.android.email</string>
     <string name="email_qq">QQ Mail</string>
     <string name="email_sina">Sina Mail</string>
@@ -618,6 +621,8 @@
     <string name="general_preference_text_zoom_normal">Normal</string>
     <string name="general_preference_text_zoom_small">Small</string>
     <string name="general_preference_text_zoom_tiny">Tiny</string>
+    <string name="general_preference_trash_contact">Spam screening</string>
+    <string name="general_preference_trash_contact_sum">Handling letters from senders who have been reported in large numbers</string>
     <string name="generic_attachment_problem">"Can't attach file."</string>
     <string name="get_database_exception">"Clear this app's data in Settings > System apps and try again."</string>
     <string name="get_oauth_code">Get code</string>
@@ -760,6 +765,16 @@ Please confirm whether the application password is turned on, if it is turned on
         Accepted:
         %s
     "</string>
+    <string name="meeting_allday">"
+        When:
+        %s
+        (all day)
+    "</string>
+    <string name="meeting_allday_recurring">"
+        When:
+        %s
+        (all day, recurring)
+    "</string>
     <string name="meeting_canceled">"
         Canceled:
         %s
@@ -768,6 +783,11 @@ Please confirm whether the application password is turned on, if it is turned on
         Declined:
         %s
     "</string>
+    <string name="meeting_recurring">"
+        When:
+        %s
+        (recurring)
+    "</string>
     <string name="meeting_responded_failed">No response</string>
     <string name="meeting_tentative">"
         Tentative:
@@ -775,6 +795,14 @@ Please confirm whether the application password is turned on, if it is turned on
     "</string>
     <string name="meeting_updated">"
         Updated:
+        %s
+    "</string>
+    <string name="meeting_when">"
+        When:
+        %s
+    "</string>
+    <string name="meeting_where">"
+        Where:
         %s
     "</string>
     <string name="megabytes">%s MB</string>
@@ -863,6 +891,7 @@ Try switching to a different email account."</string>
     <string name="notification_action_undo_archive">Archived</string>
     <string name="notification_action_undo_delete">Deleted</string>
     <string name="notification_action_undo_remove_label">Label removed</string>
+    <string name="notification_exchange_calendar_added">Exchange calendar added</string>
     <string name="notify_channel_new_mail">Notify about new messages</string>
     <string name="notify_channel_no_disterb">DND mode</string>
     <string name="notify_channel_permission_notice">Permissions required</string>
@@ -873,6 +902,7 @@ Try switching to a different email account."</string>
     <string name="ntes_do_not_sms_uplink">Send an SMS from the associated phone number and then tap \"Message sent\".</string>
     <string name="ntes_had_send">Message sent</string>
     <string name="ntes_had_send_to_content">"If you've already sent an SMS from the associated phone number, tap \"Message sent\" to continue."</string>
+    <string name="ntes_login_auth_too_much">您的验证码数量已达到5个上限，请使用网页登陆您的网易邮箱删除不用的验证码</string>
     <string name="ntes_login_error_message" formatted="false">"Can't get account info (Error %s). %s."</string>
     <string name="ntes_password_error_hint">"If errors occur while you're entering your password, close this page and open it again."</string>
     <string name="ntes_phone_send">Send a text message from the associated phone number</string>
@@ -1357,6 +1387,7 @@ Touch "<b>Sync Now</b> to sync mail once, or <b>Change Sync Settings</b> to set 
     <string name="wait_for_sync_title">Waiting for sync</string>
     <string name="wait_help_context">wait</string>
     <string name="wait_while_update_db">Updating database…</string>
+    <string name="web_view_load_error_tip">Some problems have occurred, and the body of this email cannot be displayed properly. If you encounter this problem, please add QQ group 952315061 to give us feedback.</string>
     <string name="webview_logout">You can try to sign in again</string>
     <string name="webview_logout_cancel">Not now</string>
     <string name="webview_logout_sure">Try again</string>
