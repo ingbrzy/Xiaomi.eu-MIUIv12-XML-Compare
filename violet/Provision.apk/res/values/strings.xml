@@ -95,7 +95,7 @@
     <string name="framework_introduction">Mi Services Framework allows you to use Mi Account, Mi Push, Mi Stats, and MIUI BI.</string>
     <string name="framwork_base_service">To provide you with these services, Mi Services Framework (Mi Account, Mi Push, Mi Stats, MIUI BI) needs to connect to the internet, access your location, phone number, IMEI, and IMSI, and allow your device to receive push notifications</string>
     <string name="game_introduction">Games plug-in allows you to sign in, create orders, complete payments, use coupons, and participate in promotion events.</string>
-    <string name="google_service_introduction">To be able to work normally, Google Play needs to connect to the internet, access your location, be able to record audio, make calls, access calendar events, call history, sensors, storage, camera, device info, and accounts.</string>
+    <string name="google_service_introduction">To be able to work normally, Google Play needs to connect to the internet, access your location, be able to send SMS and MMS, record audio, make calls, access calendar events, call history, sensors, storage, camera, device info, and accounts.</string>
     <string name="home_settings_miui_home">Classic</string>
     <string name="home_settings_poco_launcher">App drawer</string>
     <string name="home_settings_title">Select default launcher</string>
@@ -104,9 +104,12 @@
     <string name="input_method_category">"Choose the default keyboard that you'll use for writing messages, notes, and just about everything else. Note that you can install other third-party keyboards later."</string>
     <string name="input_method_setting">Choose keyboard</string>
     <string name="install_preinstall_app">Loading apps…</string>
+    <string name="item_contents_wwarning">"If your device goes missing, you won't be able to prevent other people from using it and accessing your data unless you set a screen lock. Skip anyway?"</string>
     <string name="item_fingerprint">Fingerprint</string>
     <string name="item_lock_screen_password">Only screen lock</string>
     <string name="item_lock_screen_password_only">Screen lock</string>
+    <string name="item_return">Set</string>
+    <string name="item_skip">Skip</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Sharing location information with emergency rescue agencies</string>
     <string name="language_picker_other_languages_title">More languages</string>
@@ -313,8 +316,9 @@ You must agree to Mint Keyboard Privacy Policy before using this feature."</stri
     <string name="terms_privacy_policy_input_method_facemoji">Facemoji Privacy Policy</string>
     <string name="terms_privacy_policy_input_method_kika">Kika Privacy Policy</string>
     <string name="title_fingerprint">Set password</string>
+    <string name="title_set_fingerprint">Screen lock</string>
     <string name="user_agreement">User Agreement</string>
-    <string name="user_agreement_declare">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Mi SIM Activation Service, Xiaomi Cloud, Find device, Home screen, Frequent phrases, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, Permissions Manager, and Updater will connect to the network. Smart services will connect to the network and access your location.</string>
+    <string name="user_agreement_declare">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Mi SIM Activation Service, Xiaomi Cloud, Backup Service, Find device, Home screen, Frequent phrases, Xiaomi Internet Communication Service, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, and Updater will connect to the network. Smart cards, Permissions Manager, and smart services will connect to the network and access your location.</string>
     <string name="voice_assist_advice">Mi AI allows you to use voice controls, but it consumes more power (+1% every hour).</string>
     <string name="voice_assist_condition">"You'll be able to use Mi AI in these cases:r
 1. When the screen is on.r
