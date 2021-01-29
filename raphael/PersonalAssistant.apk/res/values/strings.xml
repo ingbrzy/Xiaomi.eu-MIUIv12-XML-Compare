@@ -486,16 +486,15 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_health_card_step">"Today's steps:"</string>
     <string name="app_health_setting_key_default_duration">key_health_setting_default_duration</string>
     <string name="app_health_setting_key_title">key_health_setting_title</string>
-    <string name="app_health_setting_music_name_fire">炉火</string>
-    <string name="app_health_setting_music_name_forest">森林</string>
-    <string name="app_health_setting_music_name_night">夏夜</string>
-    <string name="app_health_setting_music_name_ocean">海洋</string>
-    <string name="app_health_setting_music_name_rain">夏雨</string>
-    <string name="app_health_setting_text_default_duration">默认播放时长</string>
-    <string name="app_health_setting_text_download_alert_message">当前处于移动网络，本次下载将消耗%1$s流量，是否继续下载</string>
-    <string name="app_health_setting_text_select_duration_dialog_title">请选择播放时长</string>
-    <string name="app_health_setting_text_sleep_aid_settings">助眠设置</string>
-    <string name="app_health_setting_text_title">健康管理</string>
+    <string name="app_health_setting_music_name_fire">Stove</string>
+    <string name="app_health_setting_music_name_forest">Forest</string>
+    <string name="app_health_setting_music_name_night">Summer night</string>
+    <string name="app_health_setting_music_name_ocean">Beach</string>
+    <string name="app_health_setting_music_name_rain">Drizzle</string>
+    <string name="app_health_setting_text_default_duration">Duration</string>
+    <string name="app_health_setting_text_download_alert_message">"Looks like you aren't connected to Wi-Fi. Use %1$s of mobile data to download items?"</string>
+    <string name="app_health_setting_text_sleep_aid_settings">Sleep</string>
+    <string name="app_health_setting_text_title">Health</string>
     <string name="app_health_setting_value_default_duration">10</string>
     <string name="app_label">App vault</string>
     <string name="app_memory_free">Available</string>
@@ -520,7 +519,7 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_miot_title">Smart devices</string>
     <string name="app_miot_to_start">Add</string>
     <string name="app_miot_unit" />
-    <string name="app_name">com.xiaomi.smarthome.common.nativelib</string>
+    <string name="app_name">sdk</string>
     <string name="app_news_default_title">News</string>
     <string name="app_news_empty_text" />
     <string name="app_note_add">Add</string>
@@ -676,12 +675,14 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_sports_fav_add">Add</string>
     <string name="app_sports_fav_cancel_club">Remove this club</string>
     <string name="app_sports_fav_cancel_league">Remove this league</string>
+    <string name="app_sports_fav_cancel_multi_league_content" formatted="false">"The club's schedule in %s and %s will no longer be pushed to you"</string>
     <string name="app_sports_fav_club">Concern club</string>
     <string name="app_sports_fav_league">Concern league</string>
     <string name="app_sports_fav_title">My concern</string>
     <string name="app_sports_more_match">More</string>
     <string name="app_sports_title">Sports</string>
     <string name="app_sports_title_all_leagues">All matches</string>
+    <string name="app_sports_title_tip">Match related data provided by a third party</string>
     <string name="app_stock_more_add_stock">Add</string>
     <string name="app_stock_name_hszs">Hang Sen</string>
     <string name="app_stock_name_nsdk">Nasdaq</string>
@@ -723,7 +724,7 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_switch_minus_flavor_to_old">确认切换到旧版本？</string>
     <string name="app_travel_btn_all_travel">All trips</string>
     <string name="app_travel_btn_flight_detail">Details</string>
-    <string name="app_travel_card_none">暂无</string>
+    <string name="app_travel_card_none">No data</string>
     <string name="app_travel_card_title">Trips</string>
     <string name="app_travel_card_title_add">Add</string>
     <string name="app_travel_card_title_dep_from">%s出发</string>
@@ -2069,7 +2070,6 @@ Check your tracking number."</string>
     <string name="night">Evening</string>
     <string name="no_connect">未配对</string>
     <string name="no_install">Not installed</string>
-    <string name="no_more_manual_edit">不想手动输入？</string>
     <string name="no_more_result">No more items</string>
     <string name="no_settings">Not set</string>
     <string name="noon">Midday</string>
@@ -2095,9 +2095,6 @@ Check your tracking number."</string>
     <string name="notification_title_success">Added payment successfully</string>
     <string name="numbers">0123456789</string>
     <string name="ok">OK</string>
-    <string name="open">打开</string>
-    <string name="open_alipay_fill_str">打开支付宝  自动填写</string>
-    <string name="open_alipay_fill_str_no_blank">打开支付宝自动填写</string>
     <string name="open_bluetooth">开启</string>
     <string name="open_bluetooth_now">蓝牙开启中...</string>
     <string name="open_bluetooth_tips">请开启蓝牙来允许\"手环\"连接到配件</string>
