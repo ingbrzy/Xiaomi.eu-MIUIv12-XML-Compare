@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accessibility_nfc_enabled">NFC enabled.</string>
+    <string name="action_confirm_url_open">Open link</string>
     <string name="android_beam">Android Beam</string>
+    <string name="antenna_blocked_alert_link" />
     <string name="app_name">Nfc Service</string>
     <string name="ask_nfc_tap">Tap another device to complete</string>
     <string name="beam_busy">Beam is currently busy. Try again when the previous transfer completes.</string>
@@ -29,6 +31,8 @@
     <string name="disconnecting_peripheral">Disconnecting %1$s</string>
     <string name="failed_to_enable_bt">Could not enable Bluetooth</string>
     <string name="nfcUserLabel">Nfc</string>
+    <string name="nfc_blocking_alert_message">Tap to learn how to fix.</string>
+    <string name="nfc_blocking_alert_title">NFC may be blocked</string>
     <string name="pair_no">No</string>
     <string name="pair_yes">Yes</string>
     <string name="pairing_peripheral">Pairing %1$s</string>
@@ -38,9 +42,13 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_unable_to_connect">Unable to connect to network</string>
     <string name="status_wifi_connected">Connected</string>
+    <string name="summary_confirm_url_open">Your phone received a link through NFC:</string>
+    <string name="tag_dispatch_failed">No supported application for this NFC Tag</string>
+    <string name="tag_read_error">NFC read error. Try again.</string>
     <string name="tap_again_to_complete">Tap again to complete with %1$s</string>
     <string name="tap_again_to_pay">Tap again to pay with %1$s</string>
     <string name="tap_to_beam">Tap to beam</string>
+    <string name="title_confirm_url_open">Open link?</string>
     <string name="title_connect_to_network">Connect to network</string>
     <string name="transaction_failure">"This transaction couldn't be completed with %1$s."</string>
     <string name="wifi_connect">Connect</string>
