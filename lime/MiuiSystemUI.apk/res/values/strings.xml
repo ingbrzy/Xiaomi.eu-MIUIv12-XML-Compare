@@ -112,6 +112,7 @@
     <string name="accessibility_display_daltonizer_preference_subtitle">This feature is experimental and may affect performance.</string>
     <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
     <string name="accessibility_divider">Split-screen divider</string>
+    <string name="accessibility_enter_lock_setting">Tap to open Wallpaper Carousel settings</string>
     <string name="accessibility_enter_lock_wallpaper">Tap to open Wallpaper Carousel</string>
     <string name="accessibility_ethernet_connected">Ethernet connected.</string>
     <string name="accessibility_ethernet_disconnected">Ethernet disconnected.</string>
@@ -123,6 +124,14 @@
     <string name="accessibility_home">Home</string>
     <string name="accessibility_ime_switch_button">Switch input method</string>
     <string name="accessibility_key">Custom navigation button</string>
+    <string name="accessibility_keyboard_delete_button">Delete</string>
+    <string name="accessibility_keyboard_letter_board_caps_lock_button">Caps lock</string>
+    <string name="accessibility_keyboard_letter_board_shift2number_button">Numbers</string>
+    <string name="accessibility_keyboard_letter_board_shift2symbol_button">Symbols</string>
+    <string name="accessibility_keyboard_ok_button">Enter</string>
+    <string name="accessibility_keyboard_symbol_board_shift2letter_button">Letters</string>
+    <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Symbols lock</string>
+    <string name="accessibility_keyguard_face_unlock_view">Face unlock</string>
     <string name="accessibility_left_control_center_button">Shortcut</string>
     <string name="accessibility_left_lock_screen_magazine_button">Wallpaper Carousel</string>
     <string name="accessibility_location_active">Location requests active</string>
@@ -862,6 +871,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="fs_gesture_switch_recents_summary">Swipe from the bottom and pause</string>
     <string name="fsg_demo_back">Back</string>
     <string name="fsg_demo_go_on">Learn</string>
+    <string name="garbage_count">There are %1$s old instances</string>
     <string name="global_action_lock_message">Unlock your phone for more options</string>
     <string name="global_action_screenshot">Screenshot</string>
     <string name="go_to_web">Go to browser</string>
@@ -889,6 +899,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="gxzw_use_password_to_unlock">Enter password</string>
     <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
     <string name="hdcp_checking_title">HDCP checking</string>
+    <string name="heads_up_snooze_toast">"Notifications from this app won't appear until you unlock your device again"</string>
     <string name="headset">Headset</string>
     <string name="heap_dump_tile_name">Dump SysUI Heap</string>
     <string name="help_feedback_label">Help &amp; feedback</string>
@@ -985,8 +996,6 @@ only"</string>
     <string name="invalid_charger_text">Use the charger that came with your device</string>
     <string name="invalid_charger_title">"Can't charge via USB"</string>
     <string name="invalid_confirm_pin_hint">"PINs don't match"</string>
-    <string name="invalid_sim_pin_hint">PIN should contain 4 to 8 numbers</string>
-    <string name="invalid_sim_puk_hint">PUK should be at least 8 numbers long</string>
     <string name="keep_screen_on">"Don't lock screen"</string>
     <string name="keep_screen_on_summary">"Screen won't go to sleep while charging"</string>
     <string name="keyboard_key">\"</string>
@@ -1044,18 +1053,9 @@ only"</string>
     <string name="keyguard_charged">Charged</string>
     <string name="keyguard_charging_back_to_lockscreen">Back to Lock screen</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
-    <string name="keyguard_charging_info_battery_used_time_text">On battery</string>
-    <string name="keyguard_charging_info_drained_power_percent_text">Drained</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Today %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Yesterday %s</string>
-    <string name="keyguard_charging_info_last_charged_time_text">Last charge</string>
-    <string name="keyguard_charging_info_tip_text1">Keep your device at least 10% charged all the time to extend battery life.</string>
-    <string name="keyguard_charging_info_tip_text2">"Don't overcharge your device. Multiple shorter charges are better than an overnight charge."</string>
-    <string name="keyguard_charging_info_tip_text3">Avoid charging your device when the surrounding temperature is lower than 0℃.</string>
-    <string name="keyguard_charging_info_tip_text4">"Don't use your device actively while it's charging to avoid overheating."</string>
-    <string name="keyguard_charging_info_tip_text5">It takes longer for batteries to charge when they get hotter than usual.</string>
-    <string name="keyguard_charging_info_tip_text6">Turn the screen off and put your device away to cool it off.</string>
     <string name="keyguard_charging_normal_and_level_tip">Charging %d%%</string>
     <string name="keyguard_charging_quick_and_level_tip">Fast charging %d%%</string>
     <string name="keyguard_charging_super_quick_and_level_tip">Charging rapidly %d%%</string>
@@ -1269,6 +1269,7 @@ MMMM d"</string>
     <string name="media_transfer_wired_device_name">Wired audio device</string>
     <string name="media_transfer_wired_usb_device_name">Wired headphone</string>
     <string name="megabyte_per_second">MB/s</string>
+    <string name="memory_leak">Memory leak</string>
     <string name="menu_ime">Keyboard switcher</string>
     <string name="mic_active">Microphone Active</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Unlocked by Bluetooth device</string>
@@ -1492,7 +1493,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="output_title">Media output</string>
     <string name="overlay_display_devices_title">Simulate secondary displays</string>
     <string name="overview">Overview</string>
-    <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
+    <string name="owner_info_settings_edit_text_hint">"E.g., Joe's Android."</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1669,7 +1670,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_cellular_detail_data_usage">Data usage</string>
     <string name="quick_settings_cellular_detail_data_used">%s used</string>
     <string name="quick_settings_cellular_detail_data_warning">%s warning</string>
-    <string name="quick_settings_cellular_detail_dialog_message_turnoff">Mobile data(WCDMA/LTE)will be turned off. Unless you use Wi-Fi, you will no longer be able to use apps that require a data connection. Sending or receiving multimedia messages will be restricted.</string>
+    <string name="quick_settings_cellular_detail_dialog_message_turnoff">Mobile data (WCDMA/LTE) will be turned off. Unless you use Wi-Fi, you will no longer be able to use apps that require data connection. Sending or receiving multimedia messages will be restricted.</string>
     <string name="quick_settings_cellular_detail_dialog_message_turnon">Mobile data will be turned on. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
     <string name="quick_settings_cellular_detail_dialog_negative_button_cancel">Cancel</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_ok">OK</string>
@@ -1767,6 +1768,12 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_user_new_user">New user</string>
     <string name="quick_settings_user_title">User</string>
     <string name="quick_settings_vibrate_label">Vibrate</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_accelerated">Boosting speed</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_cancel">Cancel</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Confirm</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_not_remind">"Don't show again"</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_prompt">Switching between networks</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_summary">Dual band Wi-Fi speed boost needs to use two different Wi-Fi bands. If you connect to a different main network, auxiliary connection will be lost.</string>
     <string name="quick_settings_wifi_detail_empty_text">No Wi-Fi networks available</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_no_network">No Network</string>
@@ -2324,6 +2331,10 @@ Looks like credential storage isn't enabled."</string>
     <string name="zen_mode_forever">Until you turn off</string>
     <string name="zen_mode_settings_summary_off">Never</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Turn on DND</string>
+    <string name="zen_mode_warnings_all_time_content">Notifications and calls will be silenced</string>
+    <string name="zen_mode_warnings_keyguard_content">Notifications and calls will be silenced when device is locked</string>
+    <string name="zen_mode_warnings_quit_immediately">Turn off</string>
+    <string name="zen_mode_warnings_title">DND is on</string>
     <string name="zen_priority_customize_button">Customize</string>
     <string name="zen_priority_introduction">"You won't be disturbed by sounds and vibrations, except from alarms, reminders, events, and callers you specify. You'll still hear anything you choose to play including music, videos, and games."</string>
     <string name="zen_silence_introduction">This blocks ALL sounds and vibrations, including from alarms, music, videos, and games.</string>

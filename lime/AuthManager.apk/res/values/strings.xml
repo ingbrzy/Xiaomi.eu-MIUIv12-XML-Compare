@@ -151,7 +151,9 @@
     <string name="app_name">Permissions</string>
     <string name="background_location_access_reminder_notification_content">This app can always access your location. Tap to change.</string>
     <string name="background_location_access_reminder_notification_title">%s has been using your location</string>
+    <string name="blur_location_is_on_tip">%1$s uses your approximate location. Keep using it instead of precise location?</string>
     <string name="blur_location_now_tip">Approximate location is on</string>
+    <string name="blur_location_title">Approximate location</string>
     <string name="chinese_day_1">初一</string>
     <string name="chinese_day_10">初十</string>
     <string name="chinese_day_11">十一</string>
@@ -237,6 +239,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Chinese Traditional Calendar</string>
+    <string name="date_time_picker_dialog_title">Set date and time</string>
     <string name="default_permission_description">perform unknown actions</string>
     <string name="early_morning">Morning</string>
     <string name="earthly_branches_chen">辰</string>
@@ -314,6 +317,8 @@
     <string name="go_behavior_record">App behavior history</string>
     <string name="go_perm_manager">Manage permissions</string>
     <string name="go_setting">Settings</string>
+    <string name="gold_master_dialog_reject">Restrict (%d)</string>
+    <string name="gold_master_dialog_title">%1$s wants to access your clipboard</string>
     <string name="grant_dialog_button_allow">Allow</string>
     <string name="grant_dialog_button_allow_always">Allow all the time</string>
     <string name="grant_dialog_button_allow_background">Allow all the time</string>
@@ -336,6 +341,7 @@
     <string name="heavenly_stems_wu">戊</string>
     <string name="heavenly_stems_xin">辛</string>
     <string name="heavenly_stems_yi">乙</string>
+    <string name="keep_blur_location">No</string>
     <string name="keep_notice_me">Keep notifying</string>
     <string name="location_settings">Location settings</string>
     <string name="location_warning">%1$s is a provider of location services for this device. Location access can be modified from location settings.</string>
@@ -347,10 +353,13 @@
     <string name="miuix_appcompat_cancel_description">Cancel</string>
     <string name="miuix_appcompat_confirm_description">Confirm</string>
     <string name="miuix_appcompat_delete_description">Delete</string>
+    <string name="miuix_appcompat_deselect_all">Deselect</string>
     <string name="miuix_appcompat_deselect_all_description">Deselect all</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Cancel</string>
     <string name="miuix_appcompat_search_input_description">Search</string>
+    <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
+    <string name="miuix_appcompat_select_item">Select items</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -482,6 +491,7 @@
     <string name="solar_term_winter_solstice">Winter solstice</string>
     <string name="static_cache_db_md5">ca8b2bf664b02208f1bbe2344e93a705</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_blur_location">Yes</string>
     <string name="storage_policy_notify_both_title">"%1$s isn't allowed to access Gallery and messages in social media apps"</string>
     <string name="storage_policy_notify_content">Tap to adjust permissions</string>
     <string name="storage_policy_notify_gallery_title">"%1$s isn't allowed to access Gallery"</string>

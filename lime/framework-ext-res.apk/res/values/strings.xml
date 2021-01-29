@@ -106,7 +106,7 @@
     <string name="bluetooth_enable_notification_content">%s turned on Bluetooth</string>
     <string name="bluetooth_enable_notification_title">Bluetooth is on</string>
     <string name="bluetooth_open">This app turned on Bluetooth</string>
-    <string name="bottom_bar_smallwindow_text">Release to add</string>
+    <string name="bottom_bar_smallwindow_text">Release to pin</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_sure">OK</string>
     <string name="button_text_cancel">Cancel</string>
@@ -144,17 +144,16 @@
     <string name="device_status_success">Sent successfully</string>
     <string name="device_status_waiting">Waiting…</string>
     <string name="device_type_pc">Computer</string>
-    <string name="dock_tip_floatwindow">Hold the bar and drag it to the edge of the screen to enter split-screen view.</string>
-    <string name="dock_tip_splitscreen_landscape_drag">Drag the bar horizontally to swap the positions of the two app windows.</string>
-    <string name="dock_tip_splitscreen_landscape_float">Hold and drag downwards to switch to a floating window.</string>
-    <string name="dock_tip_splitscreen_portrait_drag">Drag the bar vertically to swap the positions of the two app windows.</string>
-    <string name="dock_tip_splitscreen_portrait_float">Hold and drag to the left or right side of the screen to switch to a floating window.</string>
-    <string name="double_click_power_key">mi_pay</string>
+    <string name="disable_nfc">Turned off NFC for wireless charging</string>
+    <string name="disable_nfc_reverse">Turned off NFC for reverse wireless charging</string>
+    <string name="double_click_power_key">none</string>
     <string name="double_knock">none</string>
     <string name="eighthours">8 hours</string>
     <string name="enable_livetalk_summary">Save 70% on your calling charges</string>
     <string name="enable_livetalk_title">Turn on Top-up package</string>
     <string name="enable_midrop">Turn on</string>
+    <string name="enable_nfc">No longer charging. NFC is back on.</string>
+    <string name="enable_nfc_reverse">No longer reverse charging. NFC is back on.</string>
     <string name="fc_dialog_body">Send bug report to Mi for analysis? This report may contain Personally Identifiable Information. Your report will be used to help fix this bug and will never be shared in any commercial context.</string>
     <string name="fc_dialog_jump_to_preview">View summary</string>
     <string name="file_cannot_print">"Can't print this item."</string>
@@ -170,6 +169,8 @@
     <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Not now</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Turn on</string>
     <string name="fp_nav_center_action_choose_dlg_title">Turn on Quick tap</string>
+    <string name="freeform_exchange_tip">Release to open app</string>
+    <string name="freeform_exchange_tip2">Drag to the corner to cancel</string>
     <string name="frequent_email">Frequently used email</string>
     <string name="frequent_phrases">Frequent phrases</string>
     <string name="functions_are_being_developed">This feature will be available soon. Stay tuned!</string>
@@ -219,7 +220,6 @@
     <string name="miaudiovisual_notification_title">Audio and visual effects</string>
     <string name="miui">miui</string>
     <string name="miui_forbid_poweroff_when_device_locked">"Can't power off, device is locked."</string>
-    <string name="miui_multiwindow_not_support_split">%1$s does not support split-screen display.</string>
     <string name="miui_screen_ratio_hint">Screen ratio issues</string>
     <string name="miui_screen_ratio_hint_dont_show_again">"Don't show again"</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Go to Settings</string>
@@ -231,6 +231,7 @@
     <string name="miui_warning_tip_info">An error occurred in %1$s. Close this app now?</string>
     <string name="multi_file_name">%1$s，%2$s</string>
     <string name="name_with_ellipsize">%1$s…%2$s</string>
+    <string name="nearby_share">Nearby Share</string>
     <string name="notification_channel_hotspot">Hotspot notification</string>
     <string name="onehour">30 minutes</string>
     <string name="oneplus">OnePlus</string>
@@ -392,9 +393,6 @@
     <string name="three_gesture_down">screen_shot</string>
     <string name="throwing_print">Print</string>
     <string name="throwing_screen">Cast</string>
-    <string name="tip_close_screen_phone" />
-    <string name="tip_for_phone_and_camera" />
-    <string name="tip_use_front_camera" />
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="total">DND</string>
     <string name="total_description">Silence sounds and turn off vibration for all items except the alarm clock</string>

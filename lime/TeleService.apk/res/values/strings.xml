@@ -1074,10 +1074,7 @@ Selection"</string>
     <string name="fiveg_sa_switch_open_dialog_content">5G connection might be unstable in standalone mode, which might affect telephony services. Turn on SA mode anyway?</string>
     <string name="fiveg_sa_switch_open_dialog_title">Attention</string>
     <string name="fiveg_sa_switch_summary">Allow connecting to 5G networks in standalone mode</string>
-    <string name="fiveg_sa_switch_title">SA mode</string>
-    <string name="fiveg_sa_switch_title_slot0">SIM %d SA mode</string>
-    <string name="fiveg_sa_switch_title_slot1">SIM %d SA mode</string>
-    <string name="fiveg_sa_switch_warning_toast">Please reboot the phone to take effect.</string>
+    <string name="fiveg_sa_switch_warning_toast">Reboot your device to apply changes</string>
     <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="fiveg_signal_strength1">5G Signal strength :</string>
     <string name="fiveg_switch_status1">5G switch status:</string>
@@ -1577,7 +1574,7 @@ Using preferred network instead."</string>
     <string name="onscreenShowDialpadText">Dialpad</string>
     <string name="onscreenSwapCallsText">Swap</string>
     <string name="onscreenVideoCallText">Video call</string>
-    <string name="open_miui">Open</string>
+    <string name="open_miui">Turn on</string>
     <string name="opened_dual_4g_confirm_prompt">Looks like you have a 4G only SIM card. Dual 4G was turned on automatically.</string>
     <string name="opened_dual_4g_confirm_prompt_with_sim">SIM %1$s only supports 4G. To make sure your SIM card works normally, dual 4G was turned on.</string>
     <string name="operator">Carrier</string>
@@ -2071,6 +2068,8 @@ UT Interface: %5$s"</string>
     <string name="send_button">Send</string>
     <string name="send_keepalive">SendKeepAlive</string>
     <string name="send_keepalive_title">Send keep-alive</string>
+    <string name="sensor_answer_summary">Bring the phone to your ear to answer an incoming call automatically</string>
+    <string name="sensor_answer_title">Raise to answer</string>
     <string name="set_primary">SetPrimary</string>
     <string name="set_primary_summary">Used for outbound calls</string>
     <string name="set_primary_title">Set as primary account</string>
@@ -2205,6 +2204,7 @@ UT Interface: %5$s"</string>
     <string name="stk_cc_ss_to_dial_video_error">SS request changed to video call</string>
     <string name="stk_cc_ss_to_ss_error">SS request modified to new SS request.</string>
     <string name="stk_cc_ss_to_ussd_error">SS request modified to USSD request.</string>
+    <string name="stk_name">USIM toolkit</string>
     <string name="stock_quotes_disable">Stock Quotes disabled</string>
     <string name="stock_quotes_enable">Stock Quotes enabled</string>
     <string name="storage_category">Storage</string>
@@ -2486,7 +2486,7 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
     <string name="voicemail_provider">Service</string>
     <string name="voicemail_provider_summary">Choose voicemail service</string>
     <string name="voicemail_set_pin_dialog_title">Set PIN</string>
-    <string name="voicemail_settings">Voicemail Setup</string>
+    <string name="voicemail_settings">Voicemail settings</string>
     <string name="voicemail_settings_number_hint">Enter voice mailbox number</string>
     <string name="voicemail_settings_number_label">Voicemail number</string>
     <string name="voicemail_settings_number_title">Voicemail number</string>
