@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    const-string v1, "locationpolicy"
+    const-string/jumbo v1, "locationpolicy"
 
     invoke-static {v1, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
@@ -519,7 +519,7 @@
 
     move-result-object v1
 
-    const-string v3, "locked"
+    const-string/jumbo v3, "locked"
 
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
