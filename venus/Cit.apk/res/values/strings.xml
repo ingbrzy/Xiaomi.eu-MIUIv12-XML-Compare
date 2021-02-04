@@ -170,6 +170,7 @@ Please click the appropriate button according to the number you hear"</string>
     <string name="cit_fm_check_summary">"This will test the device's FM function
 Before test you have to insert the headset"</string>
     <string name="cit_fm_check_title">FM Radio</string>
+    <string name="cit_fold_hall_test_summary">Please fold the device and expand it. If the pass button becomes clickable, the test passes</string>
     <string name="cit_fp_fod_cali_title">Fod fingerprint calibration</string>
     <string name="cit_front_camera_check_title">Front camera</string>
     <string name="cit_front_dual_camera_check_title">Front Bokeh camera</string>
@@ -481,6 +482,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
     <string name="cit_tool_no_repeat">No repetition!</string>
     <string name="cit_tool_not_support">Not Supported</string>
     <string name="cit_tool_opt_fail_info_notify">Opt failed, need to reboot the phone for Non online mode.</string>
+    <string name="cit_tool_opt_standby">option standby ...</string>
     <string name="cit_tool_prx_drx">PRx+DRx</string>
     <string name="cit_tool_prx_drx_select_mode">Select Mode:</string>
     <string name="cit_tool_prx_drx_select_rat">Select RAT:</string>
@@ -556,7 +558,11 @@ test fail!"</string>
     <string name="cit_vibrator_check">Vibrator Test</string>
     <string name="cit_vibrator_check_summary">"Long or short vibrator occur randomly in the test
 Please select the correct button according to different vibration conditions"</string>
+    <string name="cit_vice_display_check_summary">"After the small screen display has been turned on and double-click to brighten the screen
+ Confirm that the colors are consistently displayed across the whole screen. Make sure there are no irregular bright spots and dark spots."</string>
     <string name="cit_vice_display_check_title">Vice Display</string>
+    <string name="cit_vice_touch_panel_test_summary">After the small screen display has been turned on and double-click to brighten the screen, you need to flip the screen and double-click the back small screen to light up the screen, and draw a cross on the small screen along the grid</string>
+    <string name="cit_vice_touch_panel_test_tips">Please confirm that the small screen display and double-click to turn on the screen in the small screen on the back have been turned on, click</string>
     <string name="cit_vice_touch_panel_test_title">Vice Touch sensor</string>
     <string name="cit_wifi_address_check_summary">Below is the address of the Wi-Fi network that the phone is currently connected to. Confirm that the info highlighted in green is correct.</string>
     <string name="cit_wifi_address_check_title">Wi-Fi Address</string>
@@ -570,11 +576,13 @@ Please select the correct button according to different vibration conditions"</s
     <string name="cit_x_tele_camera_check_title">Super Tele camera</string>
     <string name="continue_vibrator">Continue vibrator</string>
     <string name="current_angle">Current Angle:</string>
+    <string name="dispaly_sar_sensor_values">Display All Current Sensor Values</string>
     <string name="display_test_finish">Screen test completed</string>
     <string name="dsi_sar_on_off_tips">Dsi Sar On/Off Switch</string>
     <string name="enrol">Enrol</string>
     <string name="enrolCount">EnrolCount</string>
     <string name="enrolQuality">EnrolQuality</string>
+    <string name="failed_to_get_permission">Cloud control detection failed, and some functions lost</string>
     <string name="fingerprint_input_title">fingerprint input test</string>
     <string name="firstplug_mic_check_record_tip">Stop Record, After you plug in the headset confirm the result</string>
     <string name="fod_check_start_error">"Can not start the sensor check program
@@ -587,7 +595,18 @@ Base the test result click pass or fial button"</string>
 Test failed!"</string>
     <string name="fod_fingerprint_input_description">Fod fingerprint input test</string>
     <string name="fod_fingerprint_input_title">Fod fingerprint input test</string>
-    <string name="get_dsi_tips">Get DSI</string>
+    <string name="get_BLUETOOTH">BLUETOOTH</string>
+    <string name="get_BLUETOOTHPAN">BLUETOOTHPAN</string>
+    <string name="get_CABLE">CABLE</string>
+    <string name="get_HALLSENSOR">HALLSENSOR</string>
+    <string name="get_HOTSPOT">HOTSPOT</string>
+    <string name="get_MCC">MCC</string>
+    <string name="get_RECEIVER">RECEIVER</string>
+    <string name="get_SENSOR1">SENSOR1</string>
+    <string name="get_SENSOR2">SENSOR2</string>
+    <string name="get_USB">USB</string>
+    <string name="get_WIFI">WIFI</string>
+    <string name="get_dsi_tips">Current DSI Value</string>
     <string name="headset_plug_check_tip">Now play the tape, listen to the headset, please pull out the headset when you cloze testing</string>
     <string name="headset_press">Press</string>
     <string name="headset_record">Recording, please say something to the headset, and the recording will be stopped within 3 seconds</string>
@@ -670,6 +689,7 @@ After calibrate success, control the fixture close and away from the phone"</str
     <string name="slave_battery_authentic">Secondary Battery Authentic</string>
     <string name="speak_from_mic">Speaking to the MIC, the speaker playback. Judge whether there is sound.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="successfully_obtained_permission">Cloud control detection is successful, function takes effect</string>
     <string name="temperature">temperature</string>
     <string name="test_back_mic">Back MIC</string>
     <string name="test_bottom_speaker">bottom_speaker</string>

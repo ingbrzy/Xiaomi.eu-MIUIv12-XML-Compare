@@ -29,6 +29,7 @@
     <string name="Setting_lock">Settings</string>
     <string name="Settings_title_anti_spam">Blocklist settings</string>
     <string name="Settings_title_anti_virus">Security scan settings</string>
+    <string name="Settings_title_anti_virus_kddi">Security scan settings</string>
     <string name="Settings_title_garbage_cleanup">Cleaner settings</string>
     <string name="Settings_title_network_assistants">Data usage settings</string>
     <string name="Settings_title_power_center">Battery optimization settings</string>
@@ -100,6 +101,7 @@
     <string name="actionbar_button_up_description">Back</string>
     <string name="activity_title_antispam">Blocklist</string>
     <string name="activity_title_antivirus">Security scan</string>
+    <string name="activity_title_antivirus_kddi">Security scan</string>
     <string name="activity_title_apps_manager">Apps</string>
     <string name="activity_title_auto_start_manager">Autostart</string>
     <string name="activity_title_create_shortcut">Manage shortcuts</string>
@@ -190,9 +192,12 @@
     <string name="antivirus_privacy_dialog_cloudscan_description">"To detect and neutralize viruses more effectively, we'll upload the apps' package names and properties in order to scan them using a cloud engine."</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="antivirus_privacy_dialog_summary"><Data>This feature is powered by a third party antivirus engine. To learn more, read the &lt;a href=\"%1$s\">License Agreement&lt;/a> provided by the third party.</Data></string>
+    <string name="antivirus_privacy_dialog_summary_kddi"><Data>"When you're performing a security scan, your device model and scan results will be uploaded to %1$s servers and used in accordance with the corresponding &lt;a href=\"%2$s\">terms and conditions&lt;/a>.&lt;br/>&lt;br/>Read and agree to %3$s's terms and conditions before performing security scans.&lt;br/>&lt;br/>If you don't agree to upload data to %4$s servers, you can still use the virus definitions stored locally on your device."</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Privacy Policy</string>
     <string name="antivirus_privacy_dialog_title">Privacy Policy</string>
+    <string name="antivirus_privacy_dialog_title_kddi">Terms and conditions</string>
     <string name="antivirus_sec_network_unavailable">"Security can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
+    <string name="antivirus_third_privacy_title">Third party privacy policies</string>
     <string name="antivirus_toast_already_update">Up to date</string>
     <string name="antivirus_toast_network_unavailable">"Couldn't connect to the network"</string>
     <string name="antivirus_toast_update_failed">"Couldn't update"</string>
@@ -1059,6 +1064,7 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Chinese Traditional Calendar</string>
+    <string name="date_time_picker_dialog_title">Set date and time</string>
     <string name="day_overflow_tips">Daily data usage warning</string>
     <string name="debug_open_final_tip">Turn on USB debugging?</string>
     <string name="debug_open_title">This feature is intended for developers and might not be convenient for general users. Turning on USB debugging might bring about the following changes:</string>
@@ -1956,7 +1962,19 @@ of your gaming sessions"</string>
     <string name="gtb_setting_item_title_smart_5g">5G network optimization</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi speed boost</string>
     <string name="gtb_spring_festival_back_game">Back to game</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
     <string name="gtb_spring_festival_goto_gameturbo">View</string>
+    <string name="gtb_spring_festival_guide">"Switch to landscape mode
+to join our egg hunt!"</string>
+    <string name="gtb_spring_festival_guide_know">Got it</string>
+    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
+    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
+    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
+    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
+    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
+    <string name="gtb_spring_festival_push_join">Join</string>
+    <string name="gtb_spring_festival_push_see">View</string>
+    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
     <string name="gtb_wlan_speed_tips">Using Mi WiFi…</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Wrong carrier?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Your current carrier: "</string>
@@ -2309,6 +2327,7 @@ Your device is %d%% faster now."</string>
     <string name="menu_summary_power_manager_4">%s until full</string>
     <string name="menu_text_antispam">Blocklist</string>
     <string name="menu_text_antivirus">Security scan</string>
+    <string name="menu_text_antivirus_kddi">Security scan</string>
     <string name="menu_text_deepclean_summary">%1$s/%2$s occupied</string>
     <string name="menu_text_garbage_cleanup">Cleaner</string>
     <string name="menu_text_garbage_cleanup_danger">%s of trash</string>
@@ -2919,7 +2938,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_center_battery_duration">Remaining time</string>
     <string name="power_center_battery_duration_format">%1$s %2$s</string>
     <string name="power_center_battery_hardware">Hardware %s</string>
-    <string name="power_center_battery_health_poor_tip">Looks like battery health is low. Check your battery in an authorized service center</string>
+    <string name="power_center_battery_health_poor_tip">Looks like battery health is low. Check your battery in an authorized service center.</string>
     <string name="power_center_battery_health_summary">Fully charge and discharge your device %1$d-%2$d times to improve the accuracy of the battery health stats</string>
     <string name="power_center_battery_last">%s remaining</string>
     <string name="power_center_battery_level">%s charged</string>
@@ -3260,6 +3279,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="preference_key_about_privacy">key_about_privacy</string>
     <string name="preference_key_about_version">key_about_version</string>
     <string name="preference_key_antivirus_choose_engine">key_antivirus_choose_engine</string>
+    <string name="preference_key_antivirus_third_paryty_privacy">key_antivirus_third_party_privacy</string>
     <string name="preference_key_app_permission_control">key_app_permission_control</string>
     <string name="preference_key_app_permission_install_debug">key_app_permission_install_debug</string>
     <string name="preference_key_category_check_item">key_category_check_item</string>
@@ -3678,6 +3698,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="see_detail">Details</string>
     <string name="see_more_content">Update Games to see more highlights</string>
     <string name="select_province_and_city">Select location</string>
+    <string name="send">Send</string>
     <string name="send_msg_to_query">Send a text message to check</string>
     <string name="set_applock_password">Set password</string>
     <string name="set_complete">Set successfully</string>
