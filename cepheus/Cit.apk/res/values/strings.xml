@@ -753,6 +753,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
     <string name="cit_tool_no_repeat">No repetition!</string>
     <string name="cit_tool_not_support">Not Supported</string>
     <string name="cit_tool_opt_fail_info_notify">Opt failed, need to reboot the phone for Non online mode.</string>
+    <string name="cit_tool_opt_standby">option standby ...</string>
     <string name="cit_tool_prx_drx">PRx+DRx</string>
     <string name="cit_tool_prx_drx_select_mode">Select Mode:</string>
     <string name="cit_tool_prx_drx_select_rat">Select RAT:</string>
@@ -872,6 +873,7 @@ test fail!"</string>
     <string name="detail">详细失败数据：</string>
     <string name="detail_memory_pieces">请重启手机之后再进行测试</string>
     <string name="disable">关</string>
+    <string name="dispaly_sar_sensor_values">Display All Current Sensor Values</string>
     <string name="display_test_finish">Screen test completed</string>
     <string name="download_cfg_test_title">配置下载</string>
     <string name="download_fw_cfg_hint">注意：请将固件存放于/sdcard/fw目录中，配置文件存放于/sdcard/cfg目录中</string>
@@ -915,6 +917,7 @@ test fail!"</string>
     <string name="fail">Fail</string>
     <string name="failed">识别失败次数：</string>
     <string name="failed_prompt">失败提示</string>
+    <string name="failed_to_get_permission">Cloud control detection failed, and some functions lost</string>
     <string name="failed_to_test">FAILED TO TEST</string>
     <string name="far">FAR(False Accept Rate):</string>
     <string name="far_count">FAC(False Accept Count):</string>
@@ -992,8 +995,19 @@ the specified position"</string>
     <string name="frr_value">拒真率：</string>
     <string name="fw_cfg_reset">恢复默认固件和配置</string>
     <string name="fw_version">固件版本:</string>
+    <string name="get_BLUETOOTH">BLUETOOTH</string>
+    <string name="get_BLUETOOTHPAN">BLUETOOTHPAN</string>
+    <string name="get_CABLE">CABLE</string>
+    <string name="get_HALLSENSOR">HALLSENSOR</string>
+    <string name="get_HOTSPOT">HOTSPOT</string>
+    <string name="get_MCC">MCC</string>
+    <string name="get_RECEIVER">RECEIVER</string>
+    <string name="get_SENSOR1">SENSOR1</string>
+    <string name="get_SENSOR2">SENSOR2</string>
+    <string name="get_USB">USB</string>
+    <string name="get_WIFI">WIFI</string>
     <string name="get_base_finger">Extract Image:get base finger</string>
-    <string name="get_dsi_tips">Get DSI</string>
+    <string name="get_dsi_tips">Current DSI Value</string>
     <string name="get_feature_time">提取特征耗时:</string>
     <string name="get_finger_data">Extract Image:sampling finger data</string>
     <string name="get_gsc_time">采集活体data耗时</string>
@@ -1315,6 +1329,7 @@ After calibrate success, control the fixture close and away from the phone"</str
     <string name="success_extract_template">finished to extract template datas</string>
     <string name="success_get_finger_data">Extract Image:success to get finger data</string>
     <string name="success_to_test">SUCCESS TO TEST</string>
+    <string name="successfully_obtained_permission">Cloud control detection is successful, function takes effect</string>
     <string name="summary_erase_mem_pool_when_free">释放内存时将内存节点中有效空间清零</string>
     <string name="summary_forbidden_enroll_duplicate_fingers">同一个手指是否可以注册多个指纹模板</string>
     <string name="summary_forbidden_untrusted_enroll">注册时校验token失败则不允许注册</string>
