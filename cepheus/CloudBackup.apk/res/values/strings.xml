@@ -67,6 +67,7 @@ Try again"</string>
     <string name="btn_continue">Continue</string>
     <string name="btn_restore_abort">Cancel</string>
     <string name="btn_restore_cancel">Cancel</string>
+    <string name="btn_restore_cancel_app_app">"Don't restore WeChat data"</string>
     <string name="btn_restore_continue">Restore anyway</string>
     <string name="btn_restore_resume">Resume</string>
     <string name="btn_restore_retry">Try again</string>
@@ -118,6 +119,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_back_up_task">Backing up…</string>
     <string name="cloud_backup">Cloud backups</string>
     <string name="cloud_backup_derail_size_summary">Size: %s</string>
+    <string name="cloud_backup_detail_app_data">Back up WeChat data</string>
+    <string name="cloud_backup_detail_app_data_summary">Back up chat history, files, and other items</string>
     <string name="cloud_backup_detail_frequence">Backup schedule</string>
     <string name="cloud_backup_detail_frequence_every_7_day">Back up every %d days</string>
     <string name="cloud_backup_detail_frequence_every_day">Back up every day</string>
@@ -138,6 +141,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="confirm_cancel_restore_positive">Continue</string>
     <string name="confirm_cancel_restore_title">Cancel restoring?</string>
     <string name="confirm_restore">Restore</string>
+    <string name="confirm_restore_app_data">Overwriting app data</string>
+    <string name="confirm_restore_app_data_summary">Restoring WeChat data will overwrite the current version of app data on this device. Restore anyway?</string>
     <string name="confirm_restore_summary">Your Home screen will be relaunched. Backed up apps will be downloaded automatically.</string>
     <string name="confirm_restore_title">Restore</string>
     <string name="copy">Copy</string>
@@ -150,14 +155,17 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="desktop_wait_network">Waiting…</string>
     <string name="desktop_waiting">Waiting</string>
     <string name="device_delete_prompt">Delete backup of %s?</string>
+    <string name="dialog_backup_failed">"Couldn't back up"</string>
     <string name="dialog_btn_cancel_backup">Cancel</string>
     <string name="dialog_btn_next">Next</string>
     <string name="dialog_btn_overwrite_backup">Overwrite</string>
     <string name="dialog_btn_restore_skip">Restore later</string>
+    <string name="dialog_buy_cloud_space">Upgrade</string>
     <string name="dialog_cancel_backup_cancel">Cancel</string>
     <string name="dialog_cancel_backup_confirm">OK</string>
     <string name="dialog_cancel_backup_msg">Toggling the switch will terminate ongoing backups.</string>
     <string name="dialog_cancel_backup_title">Cancel the ongoing backup?</string>
+    <string name="dialog_cloud_space_not_enough">This backup requires %1$s of free cloud storage space. Upgrade your storage plan to back up items.</string>
     <string name="dialog_msg_overwrite_backup">Local backup is different from the one in Xiaomi Cloud. If you continue, current backup will overwrite the previous one.</string>
     <string name="dialog_msg_restore_require_wlan">Restoring backups requires connecting to Wi-Fi.</string>
     <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to Wi-Fi.</string>
@@ -178,7 +186,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="expand_button_title">Advanced</string>
     <string name="get_device_id_error">"Couldn't get device ID"</string>
     <string name="help_and_feedback">Help and feedback</string>
-    <string name="hint_restore_cross_space">Home screen layout might be displayed incorrectly if you transfer items between spaces.</string>
+    <string name="hint_restore_wechat_data">Note: WeChat data might not be restored due to compatibility issues in some cases.</string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Other launcher</string>
     <string name="home_restore_error">"Couldn't restore Home screen"</string>
@@ -201,7 +209,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="miuix_sbl_tracking_progress_labe_up_none">"That's all for now"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
-    <string name="msg_alert_cancel_restore">Restoring items. Stop now?</string>
+    <string name="msg_alert_cancel_restore">Items are being restored from Xiaomi Cloud. Cancel now?</string>
     <string name="msg_alert_restore_error">"Couldn't restore items from Xiaomi Cloud. Try again."</string>
     <string name="msg_restore_start_with_metered_network">"Your Home screen will be relaunched. Backed up apps will be downloaded automatically. &lt;br />&lt;b>&lt;font color='red'>%s of files will be downloaded.&lt;/font>&lt;/b>"</string>
     <string name="msg_restore_with_metered_network_hint">If you proceed to restore these items, mobile data will be used for downloading.</string>
@@ -250,6 +258,8 @@ Check your network settings and try again."</string>
     <string name="restore_app_order_title">Prioritize restored items</string>
     <string name="restore_cloud_backup_to_phone">Restore items from the cloud</string>
     <string name="restore_data_title">Restore data</string>
+    <string name="restore_detail_category_app_data">WeChat data</string>
+    <string name="restore_detail_category_app_data_summary">Chat history, files, and other items (%s)</string>
     <string name="restore_detail_category_apps">Home screen layout &amp; apps</string>
     <string name="restore_detail_category_settings">Settings</string>
     <string name="restore_detail_more">More</string>
@@ -264,14 +274,15 @@ Check your network settings and try again."</string>
     <string name="restore_home_failed">"Couldn't restore Home screen."</string>
     <string name="restore_home_screen_apps">Restore from the cloud backup</string>
     <string name="restore_init_description">Start restoring</string>
-    <string name="restore_network_pause">%s (Tap to resume)</string>
+    <string name="restore_network_pause">Paused to save mobile data. Tap to resume.</string>
     <string name="restore_network_unconnect">%s (Waiting for connection)</string>
     <string name="restore_task_cancelling">Canceling…</string>
     <string name="restore_task_in_process">Restoring…</string>
     <string name="restore_task_unfinished">"Couldn't restore"</string>
     <string name="restore_unfinished">Restoring, try again later</string>
+    <string name="restoring_app_data_title_no_progress">Restoring WeChat data…</string>
     <string name="restoring_data">Restoring data…</string>
-    <string name="restoring_file_title_no_progress">Restoring files…</string>
+    <string name="restoring_file_title_no_progress">Restoring apps…</string>
     <string name="restoring_home_screen_apps">Restoring from Xiaomi Cloud…</string>
     <string name="restoring_settings">Restoring Settings…</string>
     <string name="retry">Retry</string>
