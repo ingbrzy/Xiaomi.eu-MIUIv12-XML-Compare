@@ -153,7 +153,7 @@
     <string name="accessibility_preview_effect_button">Preview effect</string>
     <string name="accessibility_preview_expand">Zoom in</string>
     <string name="accessibility_preview_front">Front camera preview</string>
-    <string name="accessibility_preview_remote">远程预览</string>
+    <string name="accessibility_preview_remote">Dual phone recording preview</string>
     <string name="accessibility_preview_select_tip">Position %1$d</string>
     <string name="accessibility_preview_selected">Selected</string>
     <string name="accessibility_preview_shrink">Zoom out</string>
@@ -329,6 +329,7 @@ and adjust preferences automatically"</string>
     <string name="ambilight_tips_for_using_tripod">Use a tripod</string>
     <string name="app_name">JpegEncoder</string>
     <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
+    <string name="audio_map_summary_tip">Monitor the volume of the left and right channels in real time and adjust it using the slider</string>
     <string name="auto_hibernation_enter_tip">About to turn off screen…</string>
     <string name="autozoom_click_hint">"Tap an object to keep it in focus while it's moving. Stay at least 3 meters away for best effect."</string>
     <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
@@ -382,7 +383,7 @@ and adjust preferences automatically"</string>
     <string name="back_gauguin">4:MI PHONE</string>
     <string name="back_gauguin_global">4:MI 10T LITE</string>
     <string name="back_gauguinin_india">4:MI PHONE</string>
-    <string name="back_gauguininpro_pro_india">4:MI PHONE</string>
+    <string name="back_gauguininpro_pro_india">4:MI 10I</string>
     <string name="back_gauguinpro_pro">4:REDMI NOTE 9 PRO</string>
     <string name="back_gauguinpro_pro_global">4:MI PHONE</string>
     <string name="back_ginkgo">4:REDMI NOTE 8:AI QUAD CAMERA</string>
@@ -820,6 +821,7 @@ and then create a shot where everyone looks best."</string>
     <string name="hint_slow_motion">The video you shoot will be played slower.</string>
     <string name="hint_subtitle">"Dictate subtitles while you're shooting video"</string>
     <string name="hint_subtitle_prompt">You can dictate subtitles now</string>
+    <string name="histogram_summary_tip">Show real-time exposure feedback</string>
     <string name="hunt_dual_water_mark">Dual camera watermark will be added automatically.</string>
     <string name="id_card_mode_hint_back">Scan the back side of your ID</string>
     <string name="id_card_mode_hint_front">Scan the front side of your ID</string>
@@ -1013,6 +1015,7 @@ look larger on photos"</string>
     <string name="mimoji_eyebrow_shape">Eyebrow shape</string>
     <string name="mimoji_eyeglass">Glasses</string>
     <string name="mimoji_eyelash">Eyelashes</string>
+    <string name="mimoji_eyelid">Eyelids</string>
     <string name="mimoji_featured_face">Face</string>
     <string name="mimoji_fragment_tab_name">Sticker avatars</string>
     <string name="mimoji_freckle">Freckles</string>
@@ -1710,7 +1713,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_more_mode_style_title">Camera modes</string>
     <string name="pref_mtk_video_quality_default">10</string>
     <string name="pref_multi_camera_dual_video_front">Front camera</string>
-    <string name="pref_multi_camera_dual_video_remote">联机</string>
+    <string name="pref_multi_camera_dual_video_remote">Dual phone recording</string>
     <string name="pref_n_s_a">Audio settings</string>
     <string name="pref_n_s_o_l">On</string>
     <string name="pref_n_s_o_m">Off</string>
@@ -1828,6 +1831,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="prek_b_j_o">00000</string>
     <string name="prek_b_j_p">11111</string>
+    <string name="prep_video_ai_audio_new_desc_tip">55555</string>
     <string name="prep_video_ai_audio_single_desc_tip">33333</string>
     <string name="prep_video_ai_audio_unsupported_headset_desc_tips">44444</string>
     <string name="preparing_sd">Checking SD card…</string>
@@ -1841,14 +1845,14 @@ Keep the subject sharp while blurring the background."</string>
     <string name="recommend_soft_light_tip">Turn on flash</string>
     <string name="recommend_super_night">Try the Night mode</string>
     <string name="record_back_pressed_hint">Tap again to stop recording</string>
-    <string name="remote_online_connecting">Available devices</string>
+    <string name="remote_online_connecting">Select device to connect</string>
     <string name="remote_online_disconnect_confirmation">Cancel connecting to %1$s?</string>
     <string name="remote_online_exit_confirmation">Turn off Dual phone recording now?</string>
     <string name="remote_online_exit_connecting">Disconnect and exit Dual phone recording now?</string>
-    <string name="remote_online_guide">Turn on Dual phone recording on the other device using the Notification shade toggle.</string>
+    <string name="remote_online_guide">Turn on Dual phone recording on the other device using the Control center toggle.</string>
     <string name="remote_online_interrupted">Disconnected. Connect again to continue.</string>
     <string name="remote_online_introduction_i">"Dual phone recording allows combining feeds from two different devices into one video. You'll be able to preview both feeds and the final video on this device. Note that audio will only be recorded by this device."</string>
-    <string name="remote_online_introduction_ii">To make this feature work, the other Mi or Redmi device must support Dual phone recording. It can be turned on using the Notification shade toggle.</string>
+    <string name="remote_online_introduction_ii">To make this feature work, the other Mi or Redmi device must support Dual phone recording. It can be turned on using the Control center toggle.</string>
     <string name="remote_online_searching">Searching for devices…</string>
     <string name="remote_online_service_name">Dual phone recording</string>
     <string name="remote_online_unavailable">"Couldn't find devices nearby"</string>
@@ -1951,7 +1955,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="timer_burst_manu_param_interval">Interval without exposure</string>
     <string name="timer_burst_param_interval">Interval</string>
     <string name="timer_burst_param_total_count">Number of photos</string>
-    <string name="timerburst_pressed_hint">再按一次停止拍摄</string>
+    <string name="timerburst_pressed_hint">Tap again to stop</string>
     <string name="title_snap_double_confirm">Confirm again</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">"Can't burst shoot while audio capture is on"</string>
     <string name="toast_saving">Saving photos…</string>
@@ -2049,7 +2053,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">View Privacy Policy</string>
     <string name="vv_duartion_hint">%1$s | Segment %2$d | %3$ss</string>
-    <string name="vv_hint">You can shoot vlogs only in the landscape mode</string>
+    <string name="vv_hint">You can only shoot vlogs in the landscape mode</string>
     <string name="vv_mode_menu_item_name">VLOG</string>
     <string name="vv_stability_hint">Keep your device stable</string>
     <string name="vv_start">Shoot vlog</string>
