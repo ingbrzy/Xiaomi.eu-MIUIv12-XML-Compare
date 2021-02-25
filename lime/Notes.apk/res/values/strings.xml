@@ -137,8 +137,6 @@
     <string name="chinese_symbol_animals_snake">蛇</string>
     <string name="chinese_symbol_animals_tiger">虎</string>
     <string name="clearable_edittext_clear_description">Clear</string>
-    <string name="cloud_service_state_open_reminder">Turn on sync with cloud to sync notes.</string>
-    <string name="cloud_service_state_open_reminder_note_and_todo">Turn on sync with the cloud</string>
     <string name="cloud_trash_bin_title">Deleted notes in the cloud</string>
     <string name="confirm_cancel">"Don't agree"</string>
     <string name="confirm_ok">Agree</string>
@@ -693,6 +691,10 @@
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">Sun</string>
     <string name="sync_all_terms">%1$s, %2$s, and %3$s</string>
+    <string name="sync_desc_state_complete">Synced with the cloud</string>
+    <string name="sync_desc_state_complete_china">All %1$s have been synced</string>
+    <string name="sync_desc_state_disable">Turn on sync with the cloud</string>
+    <string name="sync_desc_state_running">Syncing with the cloud</string>
     <string name="sync_folder_todo">%1$s and %2$s</string>
     <string name="sync_note_folder">%1$s and %2$s</string>
     <string name="sync_note_todo">%1$s and %2$s</string>
@@ -801,10 +803,10 @@ Allow Notes to record audio."</string>
     <string name="todo_edit_btn_today">Today</string>
     <string name="todo_edit_btn_tomorrow">Tomorrow</string>
     <string name="todo_edit_text_hint">Enter task description</string>
-    <string name="todo_event_description_a_week_ago">1 week ago</string>
-    <string name="todo_event_description_a_week_later">In 1 week</string>
-    <string name="todo_event_description_day_after_tomorrow">In 2 days</string>
-    <string name="todo_event_description_day_before_yesterday">2 days ago</string>
+    <string name="todo_event_description_a_week_ago">%1$d week ago</string>
+    <string name="todo_event_description_a_week_later">In %1$d week</string>
+    <string name="todo_event_description_day_after_tomorrow">In %1$d days</string>
+    <string name="todo_event_description_day_before_yesterday">%1$d days ago</string>
     <string name="todo_event_description_today">Today</string>
     <string name="todo_event_description_tomorrow">Tomorrow</string>
     <string name="todo_event_description_yesterday">Yesterday</string>
@@ -864,7 +866,7 @@ Allow Notes to record audio."</string>
     <string name="toolbar_undo_description">Undo</string>
     <string name="toolbar_voice_description">Voice</string>
     <string name="trash_folder_name">Trash</string>
-    <string name="trash_folder_reminder">The notes you delete will be deleted permanently in 30 days.</string>
+    <string name="trash_folder_reminder">The notes you delete will be deleted permanently in %1$d days.</string>
     <string name="trash_folder_reminder_new">Notes are kept in the trash for %d days before being permanently deleted</string>
     <string name="tuesday">Tuesday</string>
     <string name="tuesday_short">Tue</string>
