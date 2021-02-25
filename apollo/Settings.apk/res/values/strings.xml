@@ -1207,6 +1207,8 @@ Here's what might be wrong:
     <string name="bluetooth_is_discoverable">Visible to all nearby Bluetooth devices (%1$s)</string>
     <string name="bluetooth_is_discoverable_always">On: This device is visible to all nearby Bluetooth devices</string>
     <string name="bluetooth_is_visible_message">%1$s is visible to nearby devices while Bluetooth settings is open.</string>
+    <string name="bluetooth_le_audio_profile_summary_connected">Connected to LE_AUDIO</string>
+    <string name="bluetooth_le_audio_profile_summary_use_for">Use for LE_AUDIO</string>
     <string name="bluetooth_left_name">Left</string>
     <string name="bluetooth_lock_voice_dialing">Lock voice dialing</string>
     <string name="bluetooth_lock_voice_dialing_summary">Prevent use of the bluetooth dialer when the screen is locked</string>
@@ -1285,6 +1287,7 @@ Here's what might be wrong:
     <string name="bluetooth_profile_headset">Phone calls</string>
     <string name="bluetooth_profile_hearing_aid">Hearing aid</string>
     <string name="bluetooth_profile_hid">Input device</string>
+    <string name="bluetooth_profile_le_audio">LE_AUDIO</string>
     <string name="bluetooth_profile_map">Used for accessing messages</string>
     <string name="bluetooth_profile_opp">File transfer</string>
     <string name="bluetooth_profile_pan">Internet access</string>
@@ -1429,7 +1432,7 @@ Selection"</string>
     <string name="bootloader_status_locked">Locked</string>
     <string name="bootloader_status_locked_info">This device is locked</string>
     <string name="bootloader_status_locked_summary">The phone is secured</string>
-    <string name="bootloader_status_privacy_dialog_message">Mi Unlock needs access to your Mi Account, CPU ID, IMSI to work normally. We collect, use, and process your data in accordance with our %s. Agree?</string>
+    <string name="bootloader_status_privacy_dialog_message"><Data>Mi Unlock needs access to your Mi Account, CPU ID, IMSI to work normally. Read and agree to our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. Agree?</Data></string>
     <string name="bootloader_status_privacy_dialog_no">Cancel</string>
     <string name="bootloader_status_privacy_dialog_title">Permissions required</string>
     <string name="bootloader_status_privacy_dialog_url_text">Privacy Policy</string>
@@ -1749,19 +1752,19 @@ This affects other apps or conversations that are allowed to bubble."</string>
     <string name="color_custom">\#%1$02X%2$02X%3$02X</string>
     <string name="color_cyan">Cyan</string>
     <string name="color_game_led_applications_title">Select apps</string>
-    <string name="color_game_led_applications_title_summary">You can restrict using LED light for individual apps</string>
+    <string name="color_game_led_applications_title_summary">Select individual apps that will work with LED light</string>
     <string name="color_game_led_battery_title">Keep on while charging</string>
-    <string name="color_game_led_charging_summary">Will be turned off when the battery is charged</string>
-    <string name="color_game_led_end_time">End time</string>
+    <string name="color_game_led_charging_summary">LED light will be turned off when the battery is charged</string>
+    <string name="color_game_led_end_time">End</string>
     <string name="color_game_led_game_mode_summary">Show effects for games when Game Turbo is on</string>
     <string name="color_game_led_game_mode_title">Use for Game Turbo</string>
     <string name="color_game_led_incall_pulse_title">Use for incoming calls</string>
-    <string name="color_game_led_notification_pulse_title">Pulse for notifications when the screen is off</string>
-    <string name="color_game_led_remind_title">Remind effects</string>
+    <string name="color_game_led_notification_pulse_title">Pulse for notifications on Always-on display</string>
+    <string name="color_game_led_remind_title">Effects</string>
     <string name="color_game_led_special_scene_title">Special effects</string>
-    <string name="color_game_led_start_time">Start time</string>
+    <string name="color_game_led_start_time">Start</string>
     <string name="color_game_led_summary">"Doesn't work in DND mode"</string>
-    <string name="color_game_led_time_title">LED light on time</string>
+    <string name="color_game_led_time_title">Schedule on time</string>
     <string name="color_game_led_title">LED light</string>
     <string name="color_gray">Gray</string>
     <string name="color_green">Green</string>
@@ -2440,8 +2443,8 @@ To try to fix this issue, you can stop %1$s and prevent it from running in the b
     <string name="dialog_check_button_negative">Try again</string>
     <string name="dialog_check_button_positive">Connect to Wi-Fi</string>
     <string name="dialog_check_context">"Your device can't connect to the internet now.
-1. Tap \"Connect to Wi-Fi\" to select one of the available networks.
-2. If you want to use mobile data, tap \"Try again\" or remove and reinsert your SIM card."</string>
+· Tap \"Connect to Wi-Fi\" to select one of the available networks.
+· If you want to use mobile data, tap \"Try again\" or remove and reinsert your SIM card."</string>
     <string name="dialog_check_title">"Can't connect to the internet"</string>
     <string name="dialog_chose_item">Select an item to display</string>
     <string name="dialog_content_login">Sign in to your Mi Account to update?</string>
@@ -2651,7 +2654,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="dpp_cannot_connect_target">"Can't connect to the target network"</string>
     <string name="dpp_connect_success">Connected successfully</string>
     <string name="dpp_not_support">"Can't share this network"</string>
-    <string name="dpp_qr_code_summary">Connect to a Wi-Fi network by scanning this QR code.</string>
+    <string name="dpp_qr_code_summary">Ask the other person to scan this QR code using the scanner in their Wi-Fi settings</string>
     <string name="dpp_qrcode_generator_summary">Scan this QR code with a device that supports Easy Connect</string>
     <string name="dpp_scanner_summary">Place QR code inside the frame</string>
     <string name="dpp_shared_fail">"Couldn't share Wi-Fi"</string>
@@ -2892,6 +2895,7 @@ For more details, contact your organization's admin."</string>
     <string name="expandable_under_keyguard_title">Show on Lock screen</string>
     <string name="experimental_category_title">Experimental</string>
     <string name="experimental_preference">(Experimental)</string>
+    <string name="expert_detail_content_description">View details</string>
     <string name="extended_power_menu">Extended power menu</string>
     <string name="exterior">Color scheme</string>
     <string name="external_code_size_label">USB storage app</string>
@@ -3905,6 +3909,8 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="last_time_used_label">Last time used</string>
     <string name="lattice_smartcover_title">Lattice front cover</string>
     <string name="launch_ai_shortcut">Mi AI shortcut</string>
+    <string name="launch_alipay_health_code">Alipay health code</string>
+    <string name="launch_alipay_health_code_auto_close">Alipay health code shortcut is no longer available. You can switch to a different shortcut.</string>
     <string name="launch_alipay_payment_code">Alipay payment code</string>
     <string name="launch_alipay_scanner">Alipay scanner</string>
     <string name="launch_by_default">Open by default</string>
@@ -3922,6 +3928,8 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="launch_notification_center">Notification shade</string>
     <string name="launch_recents">Launch Recents</string>
     <string name="launch_voice_assistant">Launch voice assistant</string>
+    <string name="launch_wechat_health_code">WeChat health code</string>
+    <string name="launch_wechat_health_code_auto_close">WeChat health code shortcut is no longer available. You can switch to a different shortcut.</string>
     <string name="launch_wechat_payment_code">WeChat payment code</string>
     <string name="launch_wechat_scanner">WeChat scanner</string>
     <string name="launch_wifi_text">View details</string>
@@ -4550,6 +4558,21 @@ You can't reverse this action."</string>
     <string name="miheadset_ignore">Unpair</string>
     <string name="miheadset_in_ear_check">Detect ear presence</string>
     <string name="miheadset_in_ear_check_summary">Pause and resume playback automatically as you wear or remove earphones</string>
+    <string name="miheadset_key_config_call_ai">Voice assistant</string>
+    <string name="miheadset_key_config_close">Off</string>
+    <string name="miheadset_key_config_close_summary">Turn off noise cancellation and transparency</string>
+    <string name="miheadset_key_config_gesture_control">Gestures</string>
+    <string name="miheadset_key_config_next_music">Next song</string>
+    <string name="miheadset_key_config_noise_control">Active noise control</string>
+    <string name="miheadset_key_config_noise_control_summary">Press and hold to switch between two selected active noise control modes</string>
+    <string name="miheadset_key_config_noise_summary">Block external sounds</string>
+    <string name="miheadset_key_config_press_left">Press and hold left earphone</string>
+    <string name="miheadset_key_config_press_right">Press and hold right earphone</string>
+    <string name="miheadset_key_config_trans_summary">Allow external sounds</string>
+    <string name="miheadset_key_config_triple_left">Triple tap left earphone</string>
+    <string name="miheadset_key_config_triple_right">Triple tap right earphone</string>
+    <string name="miheadset_key_config_volume_down">Volume down</string>
+    <string name="miheadset_key_config_volume_up">Volume up</string>
     <string name="miheadset_last_version">Firmware is up to date</string>
     <string name="miheadset_local_ota">Update</string>
     <string name="miheadset_minus">Volume down</string>
@@ -4602,6 +4625,7 @@ Continue to access additional settings."</string>
     <string name="miui_lab_install_drive_mode_title">Install Car mode</string>
     <string name="miui_lab_settings">MIUI lab</string>
     <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
+    <string name="miui_master_clear_prompt_battery_low">"Can't perform a factory reset when less than %1$s of battery is left. Charge your device before you continue."</string>
     <string name="miui_master_clear_summary">Erases all data on this device</string>
     <string name="miui_more_special_feature">Explore new features</string>
     <string name="miui_optimization_disabled">Turn off MIUI optimization</string>
@@ -8442,11 +8466,11 @@ Please review your service provider’s privacy policy."</string>
     <string name="wifi_ask_disable">%s wants to turn off Wi-Fi</string>
     <string name="wifi_ask_enable">%s wants to turn on Wi-Fi</string>
     <string name="wifi_assist">Wi-Fi assistant</string>
-    <string name="wifi_assistant">Select best networks automatically</string>
+    <string name="wifi_assistant">Stay connected</string>
     <string name="wifi_assistant_auto_confirm_data_help">You can turn this feature off in Settings > Wi-Fi > Wi-Fi assistant.</string>
     <string name="wifi_assistant_auto_confirm_data_message">"Use mobile data networks when your device can't connect to the internet via Wi-Fi."</string>
-    <string name="wifi_assistant_confirm_always">"Don't show again"</string>
-    <string name="wifi_assistant_confirm_connection_title">Select best networks automatically</string>
+    <string name="wifi_assistant_confirm_always">"Don't ask again"</string>
+    <string name="wifi_assistant_confirm_connection_title">"Can't connect to the internet"</string>
     <string name="wifi_assistant_data_prompt">Warn</string>
     <string name="wifi_assistant_data_prompt_summary">Show data usage warning when switching to mobile data</string>
     <string name="wifi_assistant_description">"Here's how this feature works:
@@ -8454,14 +8478,19 @@ Please review your service provider’s privacy policy."</string>
 2. If it turns out that all the available Wi-Fi connections are poor and mobile data is on, your device will select the best network connection available."</string>
     <string name="wifi_assistant_disconnect">Disconnect</string>
     <string name="wifi_assistant_explicitly_confirm_data_message">"Can't connect to the internet via Wi-Fi now. Switch to mobile data?"</string>
-    <string name="wifi_assistant_explicitly_confirm_disconnect">"Can't connect to the internet via Wi-Fi. Disconnect now?"</string>
-    <string name="wifi_assistant_explicitly_confirm_wifi_message">"Can't connect to the internet via Wi-Fi now. Switch to a different Wi-Fi network?"</string>
+    <string name="wifi_assistant_explicitly_confirm_disconnect">Disconnect from the Wi-Fi network?</string>
+    <string name="wifi_assistant_explicitly_confirm_wifi_message">Looks like there are other networks available. Switch networks?</string>
     <string name="wifi_assistant_keep_connection">No thanks</string>
+    <string name="wifi_assistant_keep_wifi_connection">No thanks</string>
     <string name="wifi_assistant_off">Off</string>
     <string name="wifi_assistant_ok">OK</string>
     <string name="wifi_assistant_on">On</string>
+    <string name="wifi_assistant_prompt">Stay connected</string>
+    <string name="wifi_assistant_prompt_button">Got it</string>
+    <string name="wifi_assistant_prompt_checkbox">Ask permission for using mobile data</string>
+    <string name="wifi_assistant_prompt_summary">"Your device will connect to other available Wi-Fi networks or use mobile data when your current Wi-Fi network can't connect to the internet."</string>
     <string name="wifi_assistant_setup_wifi_assistant">Set up</string>
-    <string name="wifi_assistant_summary">Select Wi-Fi or mobile data networks automatically when Wi-Fi connection is poor</string>
+    <string name="wifi_assistant_summary">"Connect to other available Wi-Fi networks or use mobile data when your current Wi-Fi network can't connect to the internet"</string>
     <string name="wifi_assistant_switch_data">Use mobile data</string>
     <string name="wifi_assistant_switch_wifi">Switch</string>
     <string name="wifi_auto_connect">Connect automatically</string>
@@ -8953,13 +8982,13 @@ you can use other users' networks, too."</string>
     <string name="wifi_tether_stopping">Turning off hotspot…</string>
     <string name="wifi_time_remaining">%1$s left</string>
     <string name="wifi_traffic_priority">Traffic mode</string>
-    <string name="wifi_traffic_priority_extreme">Extreme mode</string>
-    <string name="wifi_traffic_priority_extreme_summary">Prioritize the current apps over apps in the background</string>
+    <string name="wifi_traffic_priority_extreme">Fast connection</string>
+    <string name="wifi_traffic_priority_extreme_summary">"Give priority to the apps you're using while making the background download speed lower"</string>
     <string name="wifi_traffic_priority_off">Off</string>
     <string name="wifi_traffic_priority_on">On</string>
-    <string name="wifi_traffic_priority_regular">Regular mode</string>
-    <string name="wifi_traffic_priority_regular_summary">Share bandwidth between the current app and apps in the background</string>
-    <string name="wifi_traffic_priority_summary">Prioritize network traffic automatically</string>
+    <string name="wifi_traffic_priority_regular">Balanced</string>
+    <string name="wifi_traffic_priority_regular_summary">Allocate equal bandwidth to the apps and background downloads</string>
+    <string name="wifi_traffic_priority_summary">Allocate bandwidth to apps and background downloads</string>
     <string name="wifi_turned_on_message">Wi‑Fi turned on</string>
     <string name="wifi_type_approval" />
     <string name="wifi_type_approval_dialog_title">Regulatory information</string>
