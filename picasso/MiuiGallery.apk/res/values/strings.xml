@@ -167,7 +167,7 @@
     <string name="album_share_subtitle_requesting">Getting album info…</string>
     <string name="album_share_title_new_album">Share new album</string>
     <string name="album_show_local_only">Only show local albums</string>
-    <string name="album_show_local_only_summary">Turn on to view and delete photos on your device only</string>
+    <string name="album_show_local_only_summary">An option for deleting only local albums will become available when this feature is on</string>
     <string name="album_sort_type">Sorting order</string>
     <string name="album_sort_type_create_time_asc">From old to new</string>
     <string name="album_sort_type_create_time_desc">From new to old</string>
@@ -222,7 +222,8 @@
     <string name="authorize_to_device_failed">"Couldn't authorize"</string>
     <string name="authorize_watch_on_tv_failed">"Couldn't authorize to view on TV"</string>
     <string name="auto_backup_introduce">Sync photos and videos automatically (Mi Account is required)</string>
-    <string name="auto_download_media_title">Download photos from Xiaomi Cloud automatically</string>
+    <string name="auto_download_media_title">Download automatically</string>
+    <string name="auto_download_title">Select image quality</string>
     <string name="auto_update_face">Add photos automatically</string>
     <string name="auto_update_face_summary">Automatically match and add photos to Baby album</string>
     <string name="auto_update_off">Off</string>
@@ -292,6 +293,8 @@
     <string name="backup_pause_dialog_title">Pause sync</string>
     <string name="backup_pause_title">Sync is paused</string>
     <string name="backup_pending">Will be backed up automatically</string>
+    <string name="backup_settings">Sync with the cloud</string>
+    <string name="backup_settings_more">Additional settings</string>
     <string name="backup_stop">Stop backup</string>
     <string name="backup_sync_dialog_confirm">Turn on</string>
     <string name="backup_sync_dialog_tips">Turn on sync with the cloud to change settings.</string>
@@ -906,13 +909,23 @@
     <string name="close_dialog_desc">Close dialog box</string>
     <string name="cloud_authorize_to_share_to_device">Authorize viewing items on TVs associated with your Mi Account</string>
     <string name="cloud_authorizing_to_device">Authorizing…</string>
+    <string name="cloud_backup_enable_title">Sync</string>
+    <string name="cloud_backup_open_button">Turn on</string>
+    <string name="cloud_backup_space">Cloud storage</string>
+    <string name="cloud_backup_status_disable">Off</string>
+    <string name="cloud_backup_status_eneble">On</string>
+    <string name="cloud_backup_title">Sync with the cloud</string>
+    <string name="cloud_bacup_disable_button">Turn off sync</string>
+    <string name="cloud_bacup_disable_processing">Processing…</string>
     <string name="cloud_camera_display_name">Camera photos</string>
     <string name="cloud_cancel_authorizing_to_device">Canceling authorization…</string>
     <string name="cloud_guide_auto_backup_title">Choose albums to sync</string>
     <string name="cloud_guide_login_title">Back up photos and videos automatically</string>
     <string name="cloud_guide_welcome_title">Xiaomi Cloud</string>
-    <string name="cloud_privacy_with_ai_album">Privacy statement on automatic sync and image processing</string>
-    <string name="cloud_privacy_with_face">Privacy statement on automatic sync and face recognition</string>
+    <string name="cloud_login_ok">Got it</string>
+    <string name="cloud_login_settings_title">Sync settings</string>
+    <string name="cloud_privacy_with_ai_album">Features and privacy</string>
+    <string name="cloud_privacy_with_face">Features and privacy</string>
     <string name="cloud_screenshots_display_name">Screenshots</string>
     <string name="cloud_settings">Sync</string>
     <string name="cloud_storage_extend">Extend cloud space</string>
@@ -1725,6 +1738,7 @@ to personalize Gallery"</string>
     <string name="mi_9t">Mi 9T</string>
     <string name="mi_9t_pro">Mi 9T Pro</string>
     <string name="mi_drop">Mi Share</string>
+    <string name="mi_mover_working_desc">Mi Mover is transferring items…</string>
     <string name="mi_note_10">Mi Note 10</string>
     <string name="micloud_introduce">Sync photos and videos automatically (Mi Account is required)</string>
     <string name="midnight">Night</string>
@@ -2151,6 +2165,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="photo_purge_dialog_message_image">"You won't be able to restore items if you delete them. Delete anyway?"</string>
     <string name="photo_purge_dialog_message_video">"You won't be able to restore items if you delete them. Delete anyway?"</string>
     <string name="photo_save_to_msg">Saved to %s</string>
+    <string name="photo_size_not_support">"This image resolution isn't supported"</string>
     <string name="photo_vlog_menu_loading">@string/photo_print_menu_loading</string>
     <string name="photo_vlog_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_vlog_module_finish">Downloaded video editor successfully</string>
@@ -2435,6 +2450,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="security_share_subtitle_hide">Location info was removed</string>
     <string name="security_share_subtitle_no_hide">Contains location info</string>
     <string name="see_ignore_faces">"View people you've ignored"</string>
+    <string name="see_more_settings">Additional settings</string>
     <string name="select_all">Select all</string>
     <string name="select_image_operation">Adding photos</string>
     <string name="select_item_face">"Is this '%s'?"</string>
@@ -2476,7 +2492,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="share_public_url_text">"I've shared the album %1$s with you. View it at %2$s"</string>
     <string name="share_with_family">Share with family</string>
     <string name="sharer_quota_fulfiled">"You've already shared this album with the maximum number of people."</string>
-    <string name="show_cloud_albumlist_summary">Manage the albums you sync with the cloud</string>
+    <string name="show_cloud_albumlist_summary">"New items from selected albums won't be uploaded to the cloud after you turn off sync."</string>
     <string name="show_cloud_albumlist_title">@string/album_cloud_list_page_title</string>
     <string name="show_hidden_album_summary">View and manage hidden albums</string>
     <string name="show_hidden_album_title">View hidden albums</string>
@@ -2603,6 +2619,11 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="support_single_image">Select one image</string>
     <string name="support_single_video">Select one video</string>
     <string name="sync_album_in_proecess">Syncing album…</string>
+    <string name="sync_backup_disable_confirm_message_downloading">If you turn off sync now, the ongoing downloads of the original files stored in the cloud will be interrupted. High quality images stored on this device will no longer be available as well. Turn off anyway?</string>
+    <string name="sync_backup_disable_confirm_message_wait">High quality images stored on this device will no longer be available after you turn off sync. You can download original files from the cloud and turn off sync after that.</string>
+    <string name="sync_backup_disable_confirm_title">Turn off sync</string>
+    <string name="sync_backup_enable_confirm_message">When sync with the cloud is on, items from this device will be uploaded and merged with the items stored in the cloud.</string>
+    <string name="sync_backup_enable_confirm_title">Merge synced items</string>
     <string name="sync_battery_low">Low battery</string>
     <string name="sync_cloud_space_full">Not enough space in Xiaomi Cloud</string>
     <string name="sync_diabled_toast">Sync is off</string>
@@ -3012,6 +3033,8 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="vlog_filter_lanmei">Blueberry</string>
     <string name="vlog_filter_liulan">Mist</string>
     <string name="vlog_filter_luoma">Rome</string>
+    <string name="vlog_filter_master_close">Removed video effects</string>
+    <string name="vlog_filter_master_open">Applied video effects</string>
     <string name="vlog_filter_no_support_nums">"Skipped videos that don't support editing (%1$d)"</string>
     <string name="vlog_filter_nuanyang">Sunshine</string>
     <string name="vlog_filter_origin">None</string>
