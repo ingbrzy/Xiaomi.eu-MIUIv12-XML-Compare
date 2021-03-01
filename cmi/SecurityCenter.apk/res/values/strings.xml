@@ -200,7 +200,7 @@
     <string name="antivirus_third_privacy_title">Third party privacy policies</string>
     <string name="antivirus_toast_already_update">Up to date</string>
     <string name="antivirus_toast_network_unavailable">"Couldn't connect to the network"</string>
-    <string name="antivirus_toast_update_failed">"Couldn't update"</string>
+    <string name="antivirus_toast_update_failed">Our servers are busy. Wait a minute or two and try again.</string>
     <string name="antivirus_toast_update_success">Updated successfully</string>
     <string name="antivirus_toast_updating">Updating…</string>
     <string name="antivirus_update_btn_contiue">Continue</string>
@@ -467,17 +467,24 @@ You will not lose any app data."</string>
     <string name="app_manager_show_detail_infos">View all</string>
     <string name="app_manager_start_by">Started by %s</string>
     <string name="app_manager_system_mobile_disable">Turn off data</string>
+    <string name="app_manager_tab_app">Apps</string>
+    <string name="app_manager_tab_manager">Manage</string>
     <string name="app_manager_thumbnail_blur_summary">Blur app previews in Recents</string>
     <string name="app_manager_thumbnail_blur_title">Blur app previews</string>
     <string name="app_manager_title">Manage apps</string>
+    <string name="app_manager_to_appstore">Discover more apps</string>
     <string name="app_manager_total_size">Total</string>
     <string name="app_manager_uninstall">Uninstall</string>
+    <string name="app_manager_uninstall_button_text">Uninstall</string>
+    <string name="app_manager_uninstall_notify_title">Uninstall rarely used apps</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Uninstalling system apps may prevent some MIUI components from working properly. Uninstall anyway?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Uninstalling system apps</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Corresponding dual apps will be removed together with app data.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">Uninstalling dual app will remove all app data.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Uninstall dual app?</string>
     <string name="app_manager_unstall_application">Uninstall</string>
+    <string name="app_manager_update">Update</string>
+    <string name="app_manager_updater_notify_message">Update apps to access new features</string>
     <string name="app_managere_not_have_app">Empty</string>
     <string name="app_manger_des_separator">", "</string>
     <string name="app_mobile">Mobile data</string>
@@ -629,12 +636,12 @@ You will not lose any app data."</string>
     <string name="auto_task_edit_choose_condition_title">Select condition</string>
     <string name="auto_task_edit_choose_new_operation">Add action</string>
     <string name="auto_task_edit_choose_operation_title">Select action</string>
-    <string name="auto_task_edit_condition_summary">For example, \"At 23:00\"</string>
+    <string name="auto_task_edit_condition_summary_new">For example, \"At %s\"</string>
     <string name="auto_task_edit_condition_title">Add condition</string>
     <string name="auto_task_edit_my_custom_task">Enter task name</string>
     <string name="auto_task_edit_operation_summary">For example, \"Turn on Airplane mode\"</string>
-    <string name="auto_task_edit_step1">1.</string>
-    <string name="auto_task_edit_step2">2.</string>
+    <string name="auto_task_edit_step1_new">%d.</string>
+    <string name="auto_task_edit_step2_new">%d.</string>
     <string name="auto_task_edit_task_name">Name</string>
     <string name="auto_task_main_title">Automated tasks</string>
     <string name="auto_task_mamange_activity_title">Automated tasks</string>
@@ -643,7 +650,7 @@ You will not lose any app data."</string>
     <string name="auto_task_manager_group_title">My automated tasks</string>
     <string name="auto_task_notify_do_task_title">Automated task started</string>
     <string name="auto_task_notify_exit_task_title">Automated task ended</string>
-    <string name="auto_task_notify_task_cancel_count_down">Automated action will be canceled in 5 seconds</string>
+    <string name="auto_task_notify_task_cancel_count_down_new">Automated action will be canceled in %d seconds</string>
     <string name="auto_task_notify_task_cancel_do">Cancel action</string>
     <string name="auto_task_notify_task_canceled_summary">You can make and receive calls</string>
     <string name="auto_task_notify_task_canceled_summary2">"Looks like you're playing a game now."</string>
@@ -651,7 +658,7 @@ You will not lose any app data."</string>
     <string name="auto_task_notify_task_canceled_summary4">Canceled by First space</string>
     <string name="auto_task_notify_task_canceled_title">Action is canceled</string>
     <string name="auto_task_notify_task_continue_do">Start action</string>
-    <string name="auto_task_notify_task_count_down">Automated action will start in 5 seconds</string>
+    <string name="auto_task_notify_task_count_down_new">Automated action will start in %d seconds</string>
     <string name="auto_task_notify_task_exit_task">Cancel task</string>
     <string name="auto_task_operation_airplane_mode">Airplane mode</string>
     <string name="auto_task_operation_auto_brightness">Auto brightness</string>
@@ -869,6 +876,9 @@ You will not lose any app data."</string>
     <string name="card_main_xspace_summary">Create dual accounts for any app</string>
     <string name="card_main_xspace_title">Dual apps</string>
     <string name="card_tc_failed">"Couldn't calibrate"</string>
+    <string name="card_uninstall_button_text">Manage</string>
+    <string name="card_uninstall_summary">Uninstall rarely used apps to free up storage space</string>
+    <string name="card_uninstall_title_1">Uninstall rarely used apps</string>
     <string name="cd_back">Back</string>
     <string name="celcius_symbol">℃</string>
     <string name="cellular_data_auto_check">Check automatically</string>
@@ -1074,7 +1084,7 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
     <string name="deep_clean_never_memory_clean">Never</string>
     <string name="deep_power_save_item_summary_auto_brightness">Adjust screen brightness automatically to save battery</string>
     <string name="deep_power_save_item_summary_bluetooth">Turn off Bluetooth to save battery</string>
-    <string name="deep_power_save_item_summary_lock_screen_time">Put screen to sleep after 15 seconds of inactivity to save battery</string>
+    <string name="deep_power_save_item_summary_lock_screen_time_new">Put screen to sleep after %d seconds of inactivity to save battery</string>
     <string name="deep_power_save_item_title_auto_brightness">Turn on auto brightness</string>
     <string name="deep_power_save_item_title_bluetooth">Turn off Bluetooth</string>
     <string name="deep_power_save_item_title_lock_screen_time">Put screen to sleep</string>
@@ -1708,6 +1718,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gamebox_immersion_tips_content">Immersive mode restricts all SIM card functionality except for the mobile data connection. You will neither be interrupted by calls nor receive notifications about missed calls. All SIM card features will be restored when Immersive mode is turned off. Turn on Immersive mode?</string>
     <string name="gamebox_immersion_tips_title">Attention</string>
     <string name="gamebox_immerson_open">"Turning on Immersive mode, don't switch networks…"</string>
+    <string name="gamebox_macro">Combos</string>
     <string name="gamebox_manual_record">Record</string>
     <string name="gamebox_milink">Cast</string>
     <string name="gamebox_positive_button_text">OK (%1$ds)</string>
@@ -1797,6 +1808,9 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gb_first_window_summary">Boost speed and performance on a system level</string>
     <string name="gb_first_window_title">Game Turbo</string>
     <string name="gb_game_end_toast">Revisit the key moments of your games</string>
+    <string name="gb_game_macro_bubble_tips">Try combos</string>
+    <string name="gb_game_macro_toast_tips">"Try combos!
+Record sequences and use them anytime!"</string>
     <string name="gb_game_video_bottom_tips">Revisit key moments from your gaming sessions in Game Turbo. Videos will be deleted automatically after 7 days.</string>
     <string name="gb_game_video_item_tag">Key moment</string>
     <string name="gb_game_video_page_delete_success">Deleted successfully</string>
@@ -1826,6 +1840,20 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gb_new_feature">New feature</string>
     <string name="gb_operat_frequently">Not so fast!</string>
     <string name="gb_shortcut_pref_title">Home screen shortcut</string>
+    <string name="gb_shoulder_key">Shoulder buttons</string>
+    <string name="gb_shoulder_key_add_show_btn">Show virtual buttons during games</string>
+    <string name="gb_shoulder_key_add_tips">Move [L] and [R] buttons to any functional position and use them via shoulder buttons</string>
+    <string name="gb_shoulder_key_btn_cancel">Cancel</string>
+    <string name="gb_shoulder_key_btn_save_exit">Save</string>
+    <string name="gb_shoulder_key_circle_left">L</string>
+    <string name="gb_shoulder_key_circle_right">R</string>
+    <string name="gb_shoulder_key_dialog_txt">You can turn on Game Turbo by using shoulder buttons.</string>
+    <string name="gb_shoulder_key_guide_btn_done">Got it</string>
+    <string name="gb_shoulder_key_guide_btn_next">Next</string>
+    <string name="gb_shoulder_key_guide_tips">Configure shoulder buttons to play like a pro!</string>
+    <string name="gb_shoulder_key_guide_tips1">Open toolbox and configure shoulder buttons</string>
+    <string name="gb_shoulder_key_settings_guide_tips1">Move [L] and [R] buttons to any functional position to finish configuration</string>
+    <string name="gb_shoulder_key_settings_guide_tips2">Use shoulder buttons for the features you assigned to them during games</string>
     <string name="gb_sign_gift">Check in to get rewards</string>
     <string name="gb_sign_gift_button_text">Receive</string>
     <string name="gb_sign_notification_summary">Play games without network delay</string>
@@ -2114,7 +2142,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
     <string name="list_empty_text">Empty</string>
     <string name="load_only_under_wlan">Load using only Wi-Fi</string>
     <string name="loading">Just a sec…</string>
-    <string name="loading_text_format" formatted="false">Checking whether photos contain private info (%d/%d)…</string>
+    <string name="loading_text_format" formatted="false">Checking whether photos contain private info %d/%d</string>
     <string name="local_ip_exception_summary">"Couldn't get local IP address. To report this issue to MIUI, go to the Feedback app and send a log from your device."</string>
     <string name="lock_all_title">Lock all apps</string>
     <string name="lock_mode_title">Lock settings</string>
@@ -2514,7 +2542,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="network_traffic_warning_title">Data usage for system apps</string>
     <string name="networkchanged_exception_summary">Network connection has changed. Test again.</string>
     <string name="networkchanged_exception_title">Connection changed</string>
-    <string name="never">1 time</string>
+    <string name="never_new">%d time</string>
     <string name="news_change">Change</string>
     <string name="nickname">Nickname</string>
     <string name="night">Evening</string>
@@ -2970,8 +2998,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_center_list_item_deep_save_title">Advanced settings</string>
     <string name="power_center_list_item_haptic_feedback">Turn off haptic feedback</string>
     <string name="power_center_list_item_haptic_feedback_summary">"Gestures and system controls won't be accompanied by haptic feedback"</string>
-    <string name="power_center_list_item_set_lockscreen_time">Put screen to sleep after 30 seconds of inactivity</string>
     <string name="power_center_list_item_set_lockscreen_time_holder">Lock device after %d seconds of inactivity</string>
+    <string name="power_center_list_item_set_lockscreen_time_new">Put screen to sleep after %d seconds of inactivity</string>
     <string name="power_center_list_item_set_lockscreen_time_summary">Locking your device faster saves battery</string>
     <string name="power_center_list_item_wake_notification">"Don't wake screen for notifications"</string>
     <string name="power_center_list_item_wake_notification_summary">Incoming notifications will be displayed only when you turn the screen on</string>
@@ -3075,7 +3103,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_optimize_set_lockscreen_time_holder">Lock device after %d seconds of inactivity</string>
     <string name="power_phone">Voice calls</string>
     <string name="power_save_mode">Battery saver</string>
-    <string name="power_save_mode_auto_exit_summary">Turn off when battery is 60% or fully charged​</string>
+    <string name="power_save_mode_auto_exit_summary_new">Turn off when battery is %s or fully charged​</string>
     <string name="power_save_mode_auto_exit_title">Turn off when charged</string>
     <string name="power_save_mode_close_aod_display_summary">Turn off Always-on display when Battery saver is on</string>
     <string name="power_save_mode_close_aod_display_title">Turn off Always-on display</string>
@@ -4128,6 +4156,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="suggest_app_tolock_unmasked">Visible notifications</string>
     <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
     <string name="summary_app_lock_disable">Protect your data with App lock</string>
+    <string name="summary_app_update_new">Update apps to access new features</string>
     <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
     <string name="summary_background_connection">You restricted background connection for this app.</string>
     <string name="summary_block_calls_from_cantacts">Calls from contacts are blocked.</string>
@@ -4185,7 +4214,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="superpower_notification_summary">Turn on Ultra battery saver</string>
     <string name="superpower_notification_time_12">EEEE, MMMM dd</string>
     <string name="superpower_notification_time_24">EEEE, MMMM dd</string>
-    <string name="superpower_notification_title">Less than 10% of battery remaining</string>
+    <string name="superpower_notification_title_new">Less than %s of battery remaining</string>
     <string name="superpower_progress_content">Turning on Ultra battery saver…</string>
     <string name="superpower_progress_left_time">%1$dh %2$dm</string>
     <string name="superpower_progress_switch_home">Switching to Dark theme</string>
@@ -4199,9 +4228,9 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="superpower_savemode_limit3">Restrict power-consuming activity (sync, GPS, vibration, Always-on display, etc.)</string>
     <string name="superpower_savemode_limit4">Allow selected apps to work normally</string>
     <string name="superpower_settings">Ultra battery saver</string>
-    <string name="superpower_settins_autoenter_summary">Turn on Ultra battery saver automatically when the battery is only 10% charged</string>
+    <string name="superpower_settins_autoenter_summary_new">Turn on Ultra battery saver automatically when the battery is only %s charged</string>
     <string name="superpower_settins_autoenter_title">Turn on automatically</string>
-    <string name="superpower_settins_autoleave_summary">Turn off Ultra battery saver automatically when the battery is 50% charged</string>
+    <string name="superpower_settins_autoleave_summary_new">Turn off Ultra battery saver automatically when the battery is %s charged</string>
     <string name="superpower_settins_autoleave_title">Turn off automatically</string>
     <string name="superpower_settins_other">Additional settings</string>
     <string name="superpower_settins_switch_summary">Restricts most power-consuming features in order to leave basic functionality (e.g. calls, SMS, and selected apps) available as long as possible</string>
@@ -4270,6 +4299,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="tc_sms_report_get_success_notify_title">Received data usage report SMS</string>
     <string name="tc_sms_report_geting_sms">Getting SMS info…</string>
     <string name="tc_sms_report_notify_correction_body">Go to the Data usage app in Security Center and try again manually.</string>
+    <string name="tc_sms_report_notify_correction_business_hall">Calibrate again in Carrier Services</string>
     <string name="tc_sms_report_notify_correction_failure_title">"Can't update data usage info"</string>
     <string name="tc_sms_report_notify_get_failure_body">"Couldn't submit data usage report. Make sure that you're connected to a mobile network."</string>
     <string name="tc_sms_report_notify_get_failure_title">"Can't get data usage SMS"</string>
@@ -4529,6 +4559,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="traffic_setting_fragment_sms_content_tips">Write your message here</string>
     <string name="traffic_setting_fragment_title">Data usage query</string>
     <string name="traffic_setting_fragment_title_guide">Carriers and data plans</string>
+    <string name="traffic_to_limit_warning">"You've used up %s of your data limit"</string>
     <string name="traffic_usage_warning_body">"You've already used %s of mobile data this month."</string>
     <string name="traffic_usage_warning_limit">Data usage warning limit</string>
     <string name="traffic_usage_warning_title">Data usage warning</string>
@@ -4614,6 +4645,11 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_ve_settings_pic_border_stronger">Enhanced contours</string>
     <string name="vb_ve_settings_picture_stronger">Enhanced animations</string>
     <string name="vb_video_effects_display_style">Style</string>
+    <string name="vb_video_effects_dolby">Dolby Atmos</string>
+    <string name="vb_video_effects_dolby_dialog_enhancer">Enhanced dialogue</string>
+    <string name="vb_video_effects_dolby_headset">" (Earphones only)"</string>
+    <string name="vb_video_effects_dolby_open">Dolby Atmos is on</string>
+    <string name="vb_video_effects_dolby_stereo_expansion">Expanded stereo</string>
     <string name="vb_video_effects_setting_black_white">B&amp;W</string>
     <string name="vb_video_effects_setting_cinema">Cinema</string>
     <string name="vb_video_effects_setting_girl">Blush</string>
@@ -4656,6 +4692,7 @@ Try upscaling resolution!"</string>
     <string name="videobox_settings_timing_desc">Receive an hourly binge alert reminding you to take a break</string>
     <string name="videobox_settings_title">Video toolbox</string>
     <string name="view_traffic_detail">View details</string>
+    <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_auto_update_engine">Auto updates: %s</string>
     <string name="virus_scan_process_pre">%</string>
     <string name="virus_update_tips_title">Warning</string>
@@ -4777,6 +4814,22 @@ Try upscaling resolution!"</string>
     <string name="warningcenter_mijia_page_title">Alerts</string>
     <string name="warningcenter_mijia_search_keywords">Mi Home alerts</string>
     <string name="warningcenter_mijia_title">Alerts from smart home devices</string>
+    <string name="warningcenter_policeassist_charge_tips">*You might be charged for outcoming text messages. Contact your carrier to learn about rates.</string>
+    <string name="warningcenter_policeassist_close_btn">Turn off</string>
+    <string name="warningcenter_policeassist_flow_locating">Getting info…</string>
+    <string name="warningcenter_policeassist_flow_locfailed">"Couldn't share location"</string>
+    <string name="warningcenter_policeassist_flow_privacy">Privacy Policy</string>
+    <string name="warningcenter_policeassist_flow_send">Shared location with the police</string>
+    <string name="warningcenter_policeassist_flow_tips">Share your location</string>
+    <string name="warningcenter_policeassist_noti_content">Send a text message with your location automatically</string>
+    <string name="warningcenter_policeassist_noti_privacy">Tap to check Privacy Policy</string>
+    <string name="warningcenter_policeassist_noti_send">Shared your location with the police</string>
+    <string name="warningcenter_policeassist_noti_title">Share location during emergency calls</string>
+    <string name="warningcenter_policeassist_open_btn">Turn on</string>
+    <string name="warningcenter_policeassist_open_content">"Send your location info to the police using SMS or mobile data automatically while you're calling 110, 120, 119, 122, or 12122."</string>
+    <string name="warningcenter_policeassist_open_title">Share your location with the police during emergency calls</string>
+    <string name="warningcenter_policeassist_privacy"><Data>"I've read and agreed to &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="warningcenter_policeassist_title">Emergency location</string>
     <string name="warningcenter_smarthome">Mi Home</string>
     <string name="warningcenter_title">MIUI Warning Center</string>
     <string name="weChat_not_found">您的应用版本过低或者未安装</string>
