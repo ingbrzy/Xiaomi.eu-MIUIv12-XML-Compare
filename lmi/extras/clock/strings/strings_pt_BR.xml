@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE, d 'de' MMMM</string>
-    <string name="date_time_12">EEE, d 'de' MMMM</string>
-    <string name="desc_date_format">EEE, d 'de' MMMM</string>
-    <string name="desc_date_format_12">EEE, d 'de' MMMM</string>
-    <string name="desc_time">'current time' + #hour12+' '+ifelse(#minute,#minute,'oclock')+', toque duas vezes para abrir o Relógio'</string>
+    <string name="date_time">EEEE, d 'de' MMMM</string>
+    <string name="date_time_12">EEEE, d 'de' MMMM</string>
+    <string name="desc_date_format">EEEE, d 'de' MMMM</string>
+    <string name="desc_date_format_12">EEEE, d 'de' MMMM</string>
+    <string name="desc_time">'current time' + #hour12+' '+ifelse(#minute,#minute,'oclock')+', dois toques rápidos para abrir o Relógio'</string>
     <string name="weather_type_null">'Nenhum dado'</string>
     <string name="weather_type_0">Céu limpo</string>
     <string name="weather_type_1">Céu nublado</string>
