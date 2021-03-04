@@ -2366,6 +2366,7 @@ This setting affects all users of this device."</string>
     <string name="development_settings_summary">Set options for app development</string>
     <string name="development_settings_title">Developer options</string>
     <string name="device_actionbar_title">Mi 5</string>
+    <string name="device_activation_info">Device activation</string>
     <string name="device_admin_add_title">Device admin</string>
     <string name="device_admin_settings_title">Device admin settings</string>
     <string name="device_admin_status">This admin app is active and allows the app %1$s to perform the following operations:</string>
@@ -3380,6 +3381,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="headset_remove_message">Unpair device?</string>
     <string name="headset_remove_message_indicate">%1$s will be unpaired from all the devices associated with this Mi Account.</string>
     <string name="headset_settings_title">Sound effects</string>
+    <string name="headset_unsaved_device">Remove the device</string>
     <string name="headset_unsaved_devices">Used on other devices</string>
     <string name="hearing_aids_category">Hearing assistive tools</string>
     <string name="heavy_weight_stop_description">This app can’t safely be stopped. If you stop it, you may lose some of your current work.</string>
@@ -4500,6 +4502,10 @@ You can't reverse this action."</string>
     <string name="miheadset_LeftEar">Left</string>
     <string name="miheadset_RightEar">Right</string>
     <string name="miheadset_active">Energetic</string>
+    <string name="miheadset_ancClosed">Off</string>
+    <string name="miheadset_ancHigh">High</string>
+    <string name="miheadset_ancLow">Low</string>
+    <string name="miheadset_ancMedium">Medium</string>
     <string name="miheadset_anc_indicate">Connect and pair earphones</string>
     <string name="miheadset_audio_mode">Audio quality</string>
     <string name="miheadset_audio_mode_high">High</string>
@@ -4521,6 +4527,7 @@ You can't reverse this action."</string>
     <string name="miheadset_double_click_key_mode">Double tap</string>
     <string name="miheadset_double_click_left">Double tap the left earphone</string>
     <string name="miheadset_double_click_right">Double tap the right earphone</string>
+    <string name="miheadset_enhanceVoice">Enhance voice</string>
     <string name="miheadset_enhence_high">Enhanced treble</string>
     <string name="miheadset_enhence_low">Enhanced bass</string>
     <string name="miheadset_equalizer">Equalizer</string>
@@ -4551,8 +4558,8 @@ You can't reverse this action."</string>
     <string name="miheadset_key_config_close_summary">Turn off noise cancellation and transparency</string>
     <string name="miheadset_key_config_gesture_control">Gestures</string>
     <string name="miheadset_key_config_next_music">Next song</string>
-    <string name="miheadset_key_config_noise_control">Active noise control</string>
-    <string name="miheadset_key_config_noise_control_summary">Press and hold to switch between two selected active noise control modes</string>
+    <string name="miheadset_key_config_noise_control">Noise control</string>
+    <string name="miheadset_key_config_noise_control_summary">Press and hold to switch between two selected noise control modes</string>
     <string name="miheadset_key_config_noise_summary">Block external sounds</string>
     <string name="miheadset_key_config_press_left">Press and hold left earphone</string>
     <string name="miheadset_key_config_press_right">Press and hold right earphone</string>
@@ -4576,6 +4583,7 @@ You can't reverse this action."</string>
     <string name="miheadset_rename_device">Rename</string>
     <string name="miheadset_soft">Soft</string>
     <string name="miheadset_transparent">Transparency</string>
+    <string name="miheadset_transparentMode">Transparency</string>
     <string name="miheadset_triple_click_key_mode">Triple tap</string>
     <string name="miheadset_unpair_device_text">%1$s will be unpaired from all the devices associated with this Mi Account.</string>
     <string name="mipush_fake_channel_group_name">Mi Push</string>
@@ -4652,6 +4660,9 @@ Continue to access additional settings."</string>
     <string name="miui_sos_menu_add">Add</string>
     <string name="miui_sos_menu_edit">Edit</string>
     <string name="miui_sos_msg_call_log_prefix">"Here's my call history for the last hour:"</string>
+    <string name="miui_sos_pa_title">Emergency location</string>
+    <string name="miui_sos_pa_turn_off">Off</string>
+    <string name="miui_sos_pa_turn_on">On</string>
     <string name="miui_sos_play_voice">Play SOS message</string>
     <string name="miui_sos_remind_add">Add</string>
     <string name="miui_sos_remind_close">Emergency SOS mode is on. Turn it off along with all the related functionality?</string>
@@ -6883,6 +6894,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="sim_call_back_title">Call back from default SIM</string>
     <string name="sim_calls_always_use">Always use this for calls</string>
     <string name="sim_calls_ask_first_prefs_title">Ask every time</string>
+    <string name="sim_card_lock">SIM card status</string>
     <string name="sim_card_number_title">SIM %1$d</string>
     <string name="sim_card_select_title">Select SIM card</string>
     <string name="sim_cards_changed_message">SIM cards have changed</string>
@@ -7609,6 +7621,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="title_layout_current2_weight">Text size &amp; font weight</string>
     <string name="title_miui_music_mute_by_user">Silent mode</string>
     <string name="title_of_auto_launch_manage">Autostart</string>
+    <string name="title_special_features_health_global">Heart rate</string>
     <string name="to_close">Turn off</string>
     <string name="toast_apply_font_fail">"Can't set font"</string>
     <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
