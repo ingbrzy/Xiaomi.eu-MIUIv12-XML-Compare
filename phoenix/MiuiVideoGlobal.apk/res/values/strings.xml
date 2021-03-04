@@ -104,6 +104,8 @@
     <string name="alert_dialog_download_progress">"Downloading app: "</string>
     <string name="all">Show all</string>
     <string name="app_code">MOVIE-ANDROID-MIVIDEO</string>
+    <string name="app_description_content">"Mi Video is a system app that contains a local video player. You'll still be able to play video files after you remove the Home screen shortcut."</string>
+    <string name="app_description_title">Remove \"Mi Video\" from Home screen?</string>
     <string name="app_name">Mi Video</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_again">Agree</string>
@@ -114,6 +116,10 @@
     <string name="before_yestoday">2 days ago</string>
     <string name="bind_sign_in_title">Add Mi Account</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="brvah_app_name">Library</string>
+    <string name="brvah_load_end">没有更多数据</string>
+    <string name="brvah_load_failed">加载失败，请点我重试</string>
+    <string name="brvah_loading">正在加载中...</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_choose">Deselect</string>
     <string name="cancel_subscribe_tips">Unfollow now?</string>
@@ -274,6 +280,13 @@ ID:%s
 Send this code to the supervisor."</string>
     <string name="dialog_privacy_info_new2">"To be able to use its services, you must agree that %1$s will collect, process, and use your personal information. You'll be deemed to have read and agreed to our &lt;a href=%2$s>Privacy Policy&lt;/a> when you tap \"Agree\" below."</string>
     <string name="dialog_privacy_info_new3">"To be able to use this service, you need to allow %1$s to collect, process, and use your personal information in accordance with the Privacy Policy. By tapping \"Agree\" below, you're agreeing to Xiaomi's &lt;a href=%2$s>Privacy Policy&lt;/a> and &lt;a href=%3$s>User Agreement&lt;/a>. &lt;br/>&lt;br/>Tapping \"Agree\" also allows Mi Video to access the list of apps installed on your device. With this permission, Mi Video will be able to share items, understand whether an app is installed on your device, which version of an app is installed, and whether an app is secure."</string>
+    <string name="dialog_privacy_revoke_cancel">Cancel</string>
+    <string name="dialog_privacy_revoke_count_down">Withdraw (%1$ds)</string>
+    <string name="dialog_privacy_revoke_description">By toggling off the switch, you withdraw your consent to the Privacy Policy of Mi Video. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period as required by applicable laws. Your withdrawal of consent to the Privacy Policy will be held as refusing to accept online services based on collected personal information.</string>
+    <string name="dialog_privacy_revoke_fail">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
+    <string name="dialog_privacy_revoke_ok">Withdraw</string>
+    <string name="dialog_privacy_revoke_success">Withdrew successfully</string>
+    <string name="dialog_privacy_revoking">Withdrawing consent…</string>
     <string name="dialog_privacy_title">Authorization</string>
     <string name="dialog_revoke_privacy_info_new2">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from our servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
     <string name="dialog_revoke_privacy_title">Revoking authorization</string>
@@ -728,6 +741,7 @@ for videos"</string>
     <string name="next_step">Next</string>
     <string name="nick_name">Nickname</string>
     <string name="no_account">Not signed in</string>
+    <string name="no_history">No items here</string>
     <string name="no_longer_prompt">"Don't show again"</string>
     <string name="no_more_content">"That's all for now"</string>
     <string name="no_network_tips">"Can't use this feature now. Network access is restricted."</string>
@@ -1099,6 +1113,8 @@ Increase the security of your account."</string>
     <string name="plus_sort_type_time">Time</string>
     <string name="plus_tab_gallery">Folders</string>
     <string name="plus_tab_time">Timeline</string>
+    <string name="privacy_revoke_setting">By toggling off the switch, you withdraw your consent to the Privacy Policy of Mi Video.</string>
+    <string name="privacy_revoke_title">Withdrawal of consent</string>
     <string name="progressbar_title">Checking for security issues…</string>
     <string name="project_id">global-video-5cd70</string>
     <string name="psw_hint">Password</string>
@@ -1167,6 +1183,7 @@ Increase the security of your account."</string>
     <string name="screenrecord_cancel">Compatibility issues</string>
     <string name="screenrecord_nosupport_record">"Screen recorder isn't currently supported on this device."</string>
     <string name="search">Search</string>
+    <string name="search_bar_hint">Search videos</string>
     <string name="search_choose_language">Select language</string>
     <string name="search_choose_voice_language">Select the language used for voice search</string>
     <string name="search_hot_words">Popular</string>
@@ -1373,4 +1390,12 @@ Delta update size: %2$s"</string>
     <string name="xiaomi_update_sdk_megabytes_unit">%1$sMB</string>
     <string name="year">year</string>
     <string name="yesterday">Yesterday</string>
+    <string name="ytb_account">Accounts</string>
+    <string name="ytb_author_video">Videos</string>
+    <string name="ytb_login">Sign in</string>
+    <string name="ytb_login_btn">Sign in</string>
+    <string name="ytb_login_hint">Sign in to view your YouTube subscriptions</string>
+    <string name="ytb_logout">Sign out</string>
+    <string name="ytb_play_next">Up next</string>
+    <string name="ytb_subscribed">Subscriptions</string>
 </resources>
