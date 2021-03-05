@@ -338,6 +338,7 @@ and adjust preferences automatically"</string>
     <string name="auxiliary_close_status">Additional effects are off</string>
     <string name="auxiliary_exposure_feedback_status">Exposure verification is on</string>
     <string name="auxiliary_focus_peak_status">Focus peaking is on</string>
+    <string name="back_alioth">3:REDMI K40</string>
     <string name="back_andromeda">2:MI MIX 3 5G:AI DUAL CAMERA</string>
     <string name="back_apollo">3:REDMI K30S ULTRA</string>
     <string name="back_apollo_global">3:MI 10T</string>
@@ -390,6 +391,8 @@ and adjust preferences automatically"</string>
     <string name="back_gram">0:POCO:SHOT ON POCO M2 PRO</string>
     <string name="back_grus">3:SHOT ON MI 9 SE:AI TRIPLE CAMERA</string>
     <string name="back_grus_mi_9_se_brown_edition">3:MI 9 SE BROWN EDITION:AI TRIPLE CAMERA</string>
+    <string name="back_haydn">3:REDMI K40 PRO</string>
+    <string name="back_haydn_pro">3:REDMI K40 PRO+</string>
     <string name="back_hercules">3:SHOT ON MI 9:AI TRIPLE CAMERA</string>
     <string name="back_joyeuse">4:REDMI NOTE 9 PRO:AI QUAD CAMERA</string>
     <string name="back_joyeuse_india">4:REDMI NOTE 9 PRO MAX:AI QUAD CAMERA</string>
@@ -437,8 +440,8 @@ and adjust preferences automatically"</string>
     <string name="back_sirius">2:SHOT ON MI 8 SE:AI DUAL CAMERA</string>
     <string name="back_surya">4:POCO X3 NFC</string>
     <string name="back_thyme">4:MI PHONE</string>
-    <string name="back_toco">1:MI NOTE 10 LITE:AI QUAD CAMERA</string>
-    <string name="back_tocoin">1:SHOT ON MI 10i:AI QUAD CAMERA</string>
+    <string name="back_toco">4:MI NOTE 10 LITE:AI QUAD CAMERA</string>
+    <string name="back_tocoin">4:SHOT ON MI 10i:AI QUAD CAMERA</string>
     <string name="back_tucana">1:SHOT ON MI CC9 PRO:AI PENTA CAMERA</string>
     <string name="back_tucana_global">5:SHOT ON MI NOTE 10:AI PENTA CAMERA</string>
     <string name="back_tucana_global_pro">5:MI NOTE 10 PRO:AI PENTA CAMERA</string>
@@ -668,6 +671,7 @@ and adjust preferences automatically"</string>
     <string name="dialog_button_connect">Connect</string>
     <string name="dialog_button_disconnect">Exit</string>
     <string name="dialog_button_exit">Turn off</string>
+    <string name="dialog_button_goto">去设置</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_reject">Reject</string>
     <string name="dialog_button_scan">Search for devices</string>
@@ -711,10 +715,14 @@ scanned documents automatically"</string>
     <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
     <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
     <string name="dual_video_record_merged">Combined</string>
+    <string name="dual_video_record_remote">多机联录</string>
     <string name="dual_video_record_standalone">Separated</string>
     <string name="dual_video_user_guide_main_content">To create multicam videos, select two cameras on your device and shoot simultaneously. The recordings can be stored separately, or combined in a split view or picture-in-picture video.</string>
     <string name="dual_video_user_guide_main_title">Multicam video</string>
     <string name="dual_video_user_guide_merge_content">Shoot with two cameras simultaneously and combine recordings in a split view or picture-in-picture video.</string>
+    <string name="dual_video_user_guide_remote_content">多机联录功能支持两台手机在不同视角下录制影像，并合成为一个视频。可通过本机查看两台手机的录像预览和成片，同时仅支持本机录制声音。</string>
+    <string name="dual_video_user_guide_remote_p1">手机1</string>
+    <string name="dual_video_user_guide_remote_p2">手机2</string>
     <string name="dual_video_user_guide_standalone_content">Shoot with two cameras simultaneously and save both recordings as separate videos.</string>
     <string name="edit_blusher">Rouge</string>
     <string name="edit_chin">Chin</string>
@@ -1669,6 +1677,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_custom_feature_layout_title">Feature layout</string>
     <string name="pref_custom_shutter_sound_title">Sound</string>
     <string name="pref_custom_tint_title">Colors</string>
+    <string name="pref_customization_style">Custom style</string>
     <string name="pref_customization_title">Customize</string>
     <string name="pref_document_mode">Documents</string>
     <string name="pref_dual_camera_video">Dual video</string>
@@ -1837,6 +1846,8 @@ Keep the subject sharp while blurring the background."</string>
     <string name="preparing_sd">Checking SD card…</string>
     <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
     <string name="pro_color_mode">Pro color</string>
+    <string name="process_tips_1">xxxxx</string>
+    <string name="process_tips_2">YYYYY</string>
     <string name="professional_shortcut_short">Pro</string>
     <string name="prompt_desc">使用此功能将会消耗您约%sM流量数据，是否继续下载？</string>
     <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
@@ -1845,6 +1856,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="recommend_soft_light_tip">Turn on flash</string>
     <string name="recommend_super_night">Try the Night mode</string>
     <string name="record_back_pressed_hint">Tap again to stop recording</string>
+    <string name="remote_device_type_phone">小米手机</string>
     <string name="remote_online_connecting">Select device to connect</string>
     <string name="remote_online_disconnect_confirmation">Cancel connecting to %1$s?</string>
     <string name="remote_online_exit_confirmation">Turn off Dual phone recording now?</string>
@@ -1853,6 +1865,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="remote_online_interrupted">Disconnected. Connect again to continue.</string>
     <string name="remote_online_introduction_i">"Dual phone recording allows combining feeds from two different devices into one video. You'll be able to preview both feeds and the final video on this device. Note that audio will only be recorded by this device."</string>
     <string name="remote_online_introduction_ii">To make this feature work, the other Mi or Redmi device must support Dual phone recording. It can be turned on using the Control center toggle.</string>
+    <string name="remote_online_permission">需要将相机“定位”权限设置为“仅在使用中允许”，方可使用多机联录功能。</string>
     <string name="remote_online_searching">Searching for devices…</string>
     <string name="remote_online_service_name">Dual phone recording</string>
     <string name="remote_online_unavailable">"Couldn't find devices nearby"</string>
@@ -2053,7 +2066,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">View Privacy Policy</string>
     <string name="vv_duartion_hint">%1$s | Segment %2$d | %3$ss</string>
-    <string name="vv_hint">You can only shoot vlogs in the landscape mode</string>
+    <string name="vv_hint">You can only shoot vlogs in landscape mode</string>
     <string name="vv_mode_menu_item_name">VLOG</string>
     <string name="vv_stability_hint">Keep your device stable</string>
     <string name="vv_start">Shoot vlog</string>
