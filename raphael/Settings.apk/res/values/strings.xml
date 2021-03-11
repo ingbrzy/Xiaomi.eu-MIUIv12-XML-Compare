@@ -488,6 +488,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="allow_sound_title">Allow playing sound</string>
     <string name="allow_vibrate_title">Allow vibration</string>
     <string name="alpha_build">Alpha</string>
+    <string name="already_delete_system_app">Uninstalled system apps</string>
     <string name="always">Always</string>
     <string name="always_allow_bind_appwidgets_text">You’ve chosen to allow this app to create widgets and access their data.</string>
     <string name="always_running">Always running (%s)</string>
@@ -1484,6 +1485,10 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="bt_ldac_open_dialog_title">Turn on LDAC?</string>
     <string name="bt_ldac_pre_title">LDAC</string>
     <string name="bt_ldac_property">Properties</string>
+    <string name="bt_leaudio_open_dialog_summary">"You won't be able to connect multiple devices to your headset when LC3 is on. Other connected devices will be disconnected if you turn this feature on. Turn on LC3 anyway?"</string>
+    <string name="bt_leaudio_open_dialog_title">Attention</string>
+    <string name="bt_leaudio_pre_title">LC3</string>
+    <string name="bt_leaudio_summary">High-quality audio experience</string>
     <string name="bt_lhdc_declaration">When a Bluetooth device supports LHDC, it will be connected by default. LHDC allows to play high-quality audio and reduces latency during gaming, but also increases power consumption. Issues may occur during playback due to Bluetooth hardware limitations.</string>
     <string name="bt_lhdc_dialog_summary">LHDC allows to play high-quality audio and reduces latency during gaming, but also increases power consumption. This feature can be turned off in the Settings.</string>
     <string name="bt_lhdc_dialog_title">The current device supports LHDC, which has been connected by default:</string>
@@ -1742,6 +1747,7 @@ This affects other apps or conversations that are allowed to bubble."</string>
     <string name="cmcc_hardware_version">Hardware version</string>
     <string name="codec_low_latency_summary">Minimize latency during game audio and video synchronization</string>
     <string name="codec_low_latency_title">Low latency</string>
+    <string name="codec_low_latency_video_summary">Provide low-latency audio experience for games and videos, making sound and picture synchronization more natural.</string>
     <string name="color_black">Black</string>
     <string name="color_blue">Blue</string>
     <string name="color_calibration_none">This device</string>
@@ -2915,6 +2921,7 @@ For more details, contact your organization's admin."</string>
     <string name="face_data_input_ok_title">Added successfully</string>
     <string name="face_data_input_structure_title">3D face data</string>
     <string name="face_data_input_title">Add face data</string>
+    <string name="face_data_introduction_add">Start</string>
     <string name="face_data_introduction_msg">Face data can be used to unlock your device or verify your identity. Add Lock screen password before adding your face data.</string>
     <string name="face_data_introduction_next">Next</string>
     <string name="face_data_introduction_title">Face recognition</string>
@@ -2927,7 +2934,7 @@ For more details, contact your organization's admin."</string>
     <string name="face_data_manage_unlock_title">Unlock using face data</string>
     <string name="face_data_siggesstion_next">Next</string>
     <string name="face_data_siggesstion_next_time">Next (%ds)</string>
-    <string name="face_data_suggesstion_first">Security issues: Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with similar appearance.</string>
+    <string name="face_data_suggesstion_first">Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance.</string>
     <string name="face_data_suggesstion_second">"Make sure all parts of your face aren't covered by objects and are clearly visible. Your face should be well-lit as well."</string>
     <string name="face_intro_error_max">You’ve added the maximum number of faces</string>
     <string name="face_intro_error_unknown">Can’t add more faces</string>
@@ -3225,7 +3232,6 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
 
 When you turn on automatic backup, device and app data is periodically saved remotely. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages, and photos."</string>
     <string name="fullbackup_erase_dialog_message">Stop backing up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps), plus erase all copies on remote servers?</string>
-    <string name="function_description">About this feature</string>
     <string name="gadget_picker_title">Choose gadget</string>
     <string name="gadget_toggle_wifi">Updating Wi-Fi settings</string>
     <string name="gadget_wifi">Wi-Fi</string>
@@ -3384,6 +3390,8 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="header_category_wireless_networks">Wireless &amp; networks</string>
     <string name="header_data_and_synchronization">Data &amp; synchronization</string>
     <string name="headset_connectiong">Connecting…</string>
+    <string name="headset_notification_switch_summary">Show status on the Notification shade widget when earphones are connected</string>
+    <string name="headset_notification_switch_title">Notification shade widget</string>
     <string name="headset_remove_message">Unpair device?</string>
     <string name="headset_remove_message_indicate">%1$s will be unpaired from all the devices associated with this Mi Account.</string>
     <string name="headset_settings_title">Sound effects</string>
@@ -3755,6 +3763,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="keyboard_settings_title">Android keyboard</string>
     <string name="keyboard_shortcuts_helper">Keyboard shortcuts</string>
     <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
+    <string name="keyboard_skin_follow_system_enable">Switch to Dark mode together with the system</string>
     <string name="keyguard_advance_setting_title">Advanced settings</string>
     <string name="keyguard_security_setting_others">Others</string>
     <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
@@ -4604,6 +4613,8 @@ You can't reverse this action."</string>
     <string name="miui_allow_vibrate">Vibrations</string>
     <string name="miui_data_usage_menu_metered">Mobile hotspots</string>
     <string name="miui_experience_optimization">Turn on MIUI optimization</string>
+    <string name="miui_face_enroll_risk_warning_btn_cancel">Cancel</string>
+    <string name="miui_face_enroll_risk_warning_title_text">Attention</string>
     <string name="miui_face_enroll_success">"You can unlock this device using your face data now.
 Continue to access additional settings."</string>
     <string name="miui_input_method_settings">Input method settings</string>
@@ -5151,11 +5162,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
     <string name="notification_conversation_summary">%1$s • %2$s</string>
     <string name="notification_conversation_summary_low">No sound or vibration and appears lower in conversation section</string>
     <string name="notification_display_settings">Notification shade</string>
-    <string name="notification_fold_description1">Notifications folder was introduced in MIUI 9. This feature filters unimportant notifications and places them into a separate folder.</string>
-    <string name="notification_fold_description2">MIUI will remember which notifications you tap, and then use multiple criteria to determine whether they are important.</string>
-    <string name="notification_fold_description3">"If the notifications you consider important still go into the Notifications folder, make sure that you report such issues to us. We'd appreciate your feedback."</string>
-    <string name="notification_fold_footer_icon_summary">Show app icons when unimportant notifications are grouped</string>
-    <string name="notification_fold_footer_icon_title">Show app icons</string>
     <string name="notification_fold_summary">All unimportant notifications will appear in a separate folder</string>
     <string name="notification_fold_title">Notifications folder</string>
     <string name="notification_group_title">Notification category group</string>
@@ -7474,7 +7480,6 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="switch_access_service_on">Switch Access</string>
     <string name="switch_bootup_sound">Boot audio</string>
     <string name="switch_headset_anti_lost">Missing earphone alert</string>
-    <string name="switch_headset_anti_lost_summary">Receive an alert whenever one of your earphones is away from your ear or charging case for longer than a minute</string>
     <string name="switch_headset_anti_lost_title">Missing earphone alert</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
