@@ -226,6 +226,7 @@
     <string-array name="empty_initial_attach_apn_plmn">
         <item>20205</item>
         <item>20801</item>
+        <item>20802</item>
         <item>20810</item>
         <item>20811</item>
         <item>20813</item>
@@ -2183,9 +2184,5 @@
         <item>v:1,c:2,g:1</item>
         <item>v:1,c:2,g:1</item>
     </string-array>
-    <string-array name="white_list_pass_through_app">
-        <item>com.android.fileexplorer</item>
-        <item>com.miui.huanji</item>
-        <item>com.miui.backup</item>
-    </string-array>
+    <array name="white_list_pass_through_app" />
 </resources>
