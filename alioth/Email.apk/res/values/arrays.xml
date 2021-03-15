@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_providers">
+        <item>content://com.android.email.provider/uiaccts</item>
+    </string-array>
+    <string-array name="account_settings_check_frequency_entries">
+        <item>@string/account_setup_options_mail_check_frequency_never</item>
+        <item>@string/account_setup_options_mail_check_frequency_15min</item>
+        <item>@string/account_setup_options_mail_check_frequency_1hour</item>
+        <item>@string/account_setup_options_mail_check_frequency_4hour</item>
+        <item>@string/account_setup_options_mail_check_frequency_12hour</item>
+    </string-array>
+    <string-array name="account_settings_check_frequency_entries_imap_push">
+        <item>@string/account_setup_options_mail_check_frequency_imap_push</item>
+        <item>@string/account_setup_options_mail_check_frequency_never</item>
+        <item>@string/account_setup_options_mail_check_frequency_15min</item>
+        <item>@string/account_setup_options_mail_check_frequency_1hour</item>
+        <item>@string/account_setup_options_mail_check_frequency_4hour</item>
+        <item>@string/account_setup_options_mail_check_frequency_12hour</item>
+    </string-array>
+    <string-array name="account_settings_check_frequency_entries_push">
+        <item>@string/account_setup_options_mail_check_frequency_push</item>
+        <item>@string/account_setup_options_mail_check_frequency_never</item>
+        <item>@string/account_setup_options_mail_check_frequency_15min</item>
+        <item>@string/account_setup_options_mail_check_frequency_1hour</item>
+        <item>@string/account_setup_options_mail_check_frequency_4hour</item>
+        <item>@string/account_setup_options_mail_check_frequency_12hour</item>
+    </string-array>
+    <string-array name="account_settings_check_frequency_values">
+        <item>-1</item>
+        <item>15</item>
+        <item>60</item>
+        <item>240</item>
+        <item>720</item>
+    </string-array>
+    <string-array name="account_settings_check_frequency_values_push">
+        <item>-2</item>
+        <item>-1</item>
+        <item>15</item>
+        <item>60</item>
+        <item>240</item>
+        <item>720</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_entries">
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+        <item>@string/account_setup_options_mail_window_1quarter</item>
+        <item>@string/account_setup_options_mail_window_all</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_entries_eas">
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+        <item>@string/account_setup_options_mail_window_all</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_entries_exchange">
+        <item>@string/account_setup_options_mail_window_auto</item>
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+        <item>@string/account_setup_options_mail_window_all</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_entries_imap">
+        <item>@string/account_setup_options_mail_window_auto</item>
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+        <item>@string/account_setup_options_mail_window_1quarter</item>
+        <item>@string/account_setup_options_mail_window_all</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_entries_with_default">
+        <item>@string/account_setup_options_mail_window_default</item>
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+        <item>@string/account_setup_options_mail_window_all</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_values_eas">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_values_with_default">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="account_settings_message_load_imap_eas_entries">
+        <item>@string/account_setting_message_body_load_head_only</item>
+        <item>@string/account_setting_message_body_load_head_abstract</item>
+        <item>@string/account_setting_message_body_load_text</item>
+        <item>@string/account_setting_message_body_load_complete</item>
+    </string-array>
+    <string-array name="account_settings_message_load_imap_eas_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="account_settings_message_load_pop3_entries">
+        <item>@string/account_setting_message_body_load_head_only</item>
+        <item>@string/account_setting_message_body_load_complete</item>
+    </string-array>
+    <string-array name="account_settings_message_load_pop3_values">
+        <item>1</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="ad_address_list_ignore">
+        <item>do_not_reply@apple.com</item>
+        <item>order_acknowledgment@orders.apple.com</item>
+        <item>appstore@insideapple.apple.com</item>
+        <item>developer@insideapple.apple.com</item>
+        <item>noreply@email.apple.com</item>
+        <item>no_reply@icloud.gzdata.com.cn</item>
+        <item>no_reply@email.apple.com</item>
+    </string-array>
+    <string-array name="all_month_str">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="alphabet_chars">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+        <item>∅</item>
+    </string-array>
+    <string-array name="alphabet_chars2">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>Tonight</item>
+        <item>Tomorrow</item>
+        <item>Weekend</item>
+        <item>Next week</item>
+        <item>Next month</item>
+        <item>Pick date</item>
+    </string-array>
+    <array name="combined_view_account_colors">
+        <item>@color/combined_view_account_color_1</item>
+        <item>@color/combined_view_account_color_2</item>
+        <item>@color/combined_view_account_color_3</item>
+        <item>@color/combined_view_account_color_4</item>
+        <item>@color/combined_view_account_color_5</item>
+        <item>@color/combined_view_account_color_6</item>
+        <item>@color/combined_view_account_color_7</item>
+        <item>@color/combined_view_account_color_8</item>
+        <item>@color/combined_view_account_color_9</item>
+    </array>
+    <string-array name="default_quick_responses">
+        <item>@string/quick_1</item>
+        <item>@string/quick_2</item>
+        <item>@string/quick_3</item>
+        <item>@string/quick_4</item>
+    </string-array>
+    <string-array name="folder_drafts_name_array">
+        <item>@string/folder_drafts_name_en1</item>
+        <item>@string/folder_drafts_name_en2</item>
+        <item>@string/folder_drafts_name_cn0</item>
+        <item>@string/folder_drafts_name_cn1</item>
+        <item>@string/folder_drafts_name_cn2</item>
+    </string-array>
+    <string-array name="folder_junk_name_array">
+        <item>@string/folder_junk_name_en1</item>
+        <item>@string/folder_junk_name_en2</item>
+        <item>@string/folder_junk_name_en3</item>
+        <item>@string/folder_junk_name_en4</item>
+        <item>@string/folder_junk_name_cn0</item>
+        <item>@string/folder_junk_name_cn1</item>
+        <item>@string/folder_junk_name_cn2</item>
+    </string-array>
+    <string-array name="folder_sent_name_array">
+        <item>@string/folder_sent_name_en1</item>
+        <item>@string/folder_sent_name_en2</item>
+        <item>@string/folder_sent_name_en3</item>
+        <item>@string/folder_sent_name_en4</item>
+        <item>@string/folder_sent_name_cn0</item>
+        <item>@string/folder_sent_name_cn1</item>
+        <item>@string/folder_sent_name_cn2</item>
+        <item>@string/folder_sent_name_cn3</item>
+    </string-array>
+    <string-array name="folder_trash_name_array">
+        <item>@string/folder_trash_name_en1</item>
+        <item>@string/folder_trash_name_en2</item>
+        <item>@string/folder_trash_name_en3</item>
+        <item>@string/folder_trash_name_cn0</item>
+        <item>@string/folder_trash_name_cn1</item>
+        <item>@string/folder_trash_name_cn2</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_entries">
+        <item>@string/general_preference_text_zoom_tiny</item>
+        <item>@string/general_preference_text_zoom_small</item>
+        <item>@string/general_preference_text_zoom_normal</item>
+        <item>@string/general_preference_text_zoom_large</item>
+        <item>@string/general_preference_text_zoom_huge</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_values">
+        <item>tiny</item>
+        <item>small</item>
+        <item>normal</item>
+        <item>large</item>
+        <item>huge</item>
+    </string-array>
+    <string-array name="invoice_card_keyword">
+        <item>发票</item>
+    </string-array>
+    <string-array name="invoice_card_pdf_keyword">
+        <item>发票</item>
+        <item>invoice</item>
+    </string-array>
+    <string-array name="kids_arrays">
+        <item>@string/under_sixteen</item>
+        <item>@string/over_sixteen</item>
+    </string-array>
+    <string-array name="log_file_save_term_entries">
+        <item>@string/one_day</item>
+        <item>@string/three_day</item>
+        <item>@string/one_week</item>
+        <item>@string/one_month</item>
+        <item>@string/forever</item>
+    </string-array>
+    <string-array name="log_file_save_term_values">
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="menu_att_mgr_sort_string_array">
+        <item>Recently viewed</item>
+        <item>Format</item>
+        <item>Name</item>
+        <item>Sender</item>
+        <item>Date received</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>System</item>
+        <item>Frequently Used</item>
+        <item>All Folders</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Newer message</item>
+        <item>Older message</item>
+        <item>Inbox</item>
+    </string-array>
+    <string-array name="prefEntries_contact_add">
+        <item>All</item>
+        <item>Only senders</item>
+    </string-array>
+    <string-array name="prefValues_autoAdvance">
+        <item>newer</item>
+        <item>older</item>
+        <item>list</item>
+    </string-array>
+    <string-array name="prefValues_contact_add">
+        <item>contact_add</item>
+        <item>receiver_add</item>
+    </string-array>
+    <string-array name="quote_devider_text_array">
+        <item>@string/quote_divider_apple</item>
+        <item>@string/quote_divider_huawei_zh</item>
+        <item>@string/quote_divider_ipad_zh</item>
+        <item>@string/quote_divider_iphone_en</item>
+        <item>@string/quote_divider_ks_web</item>
+        <item>@string/quote_divider_qq_en</item>
+        <item>@string/quote_divider_qq_zh</item>
+        <item>@string/quote_divider_iphone_fwd_en</item>
+        <item>@string/quote_divider_iphone_fwd_zh</item>
+        <item>@string/quote_divider_1</item>
+        <item>@string/quote_divider_2</item>
+        <item>@string/quote_divider_3</item>
+        <item>@string/quote_divider_4</item>
+        <item>@string/quote_divider_5</item>
+        <item>@string/quote_divider_6</item>
+        <item>@string/quote_divider_7</item>
+        <item>@string/quote_divider_11</item>
+        <item>@string/quote_divider_12</item>
+    </string-array>
+    <string-array name="search_tabs_name_array">
+        <item>@string/search_tabs_name_recipient</item>
+        <item>@string/search_tabs_name_sender</item>
+        <item>@string/search_tabs_name_subject</item>
+        <item>@string/search_tabs_name_all</item>
+    </string-array>
+    <string-array name="send_inline_filter_array">
+        <item>@string/eas_outlook_email</item>
+        <item>@string/eas_hotmail_email</item>
+    </string-array>
+    <integer-array name="senders_lengths">
+        <item>27</item>
+        <item>27</item>
+    </integer-array>
+    <integer-array name="senders_with_attachment_lengths">
+        <item>25</item>
+        <item>25</item>
+    </integer-array>
+    <string-array name="signature_normal_string_array">
+        <item>Blog:</item>
+        <item>Site:</item>
+        <item>Email:</item>
+        <item>mobile:</item>
+        <item>Phone:</item>
+        <item>T:</item>
+        <item>www.</item>
+        <item>F:</item>
+        <item>E:</item>
+        <item>E-mail:</item>
+        <item>Tel:</item>
+        <item>Fax:</item>
+        <item>Mail:</item>
+        <item>QQ:</item>
+        <item>MSN:</item>
+    </string-array>
+    <string-array name="signature_normal_string_array_next">
+        <item>Address:</item>
+        <item>Tel:</item>
+        <item>Name:</item>
+        <item>Email:</item>
+        <item>Mobile:</item>
+        <item>WeChat:</item>
+        <item>Fax:</item>
+        <item>Postal Code:</item>
+    </string-array>
+    <string-array name="signature_special_string_array">
+        <item>Disclaimer:</item>
+        <item>Email Disclaimer</item>
+        <item>Sent via WPSMail</item>
+        <item>Sent from</item>
+        <item>Sent with</item>
+        <item>Thanks,</item>
+        <item>Best Regards</item>
+    </string-array>
+    <string-array name="signature_special_string_array_next">
+        <item>Thanks,</item>
+        <item>Best Regards</item>
+        <item>Sent from my</item>
+        <item>Original email</item>
+        <item>Sent from my</item>
+        <item>Sent from</item>
+        <item>From</item>
+        <item>This email</item>
+        <item>Disclaimer</item>
+        <item>Email Disclaimer</item>
+    </string-array>
+    <string-array name="smtp_host_prefixes">
+        <item>pop3</item>
+        <item>pop</item>
+        <item>imap</item>
+    </string-array>
+    <string-array name="special_text_colon_array">
+        <item>@string/special_text_colon_en</item>
+        <item>@string/special_text_colon_zh</item>
+    </string-array>
+    <string-array name="special_text_sender_array">
+        <item>@string/special_text_sender_zh</item>
+        <item>@string/special_text_sender_en</item>
+    </string-array>
+    <string-array name="special_text_wroted_array">
+        <item>@string/special_text_1</item>
+        <item>@string/special_text_2</item>
+        <item>@string/special_text_3</item>
+        <item>@string/special_text_4</item>
+        <item>@string/special_text_5</item>
+    </string-array>
+</resources>
