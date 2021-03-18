@@ -390,7 +390,7 @@ and adjust preferences automatically"</string>
     <string name="back_ginkgo">4:REDMI NOTE 8:AI QUAD CAMERA</string>
     <string name="back_gram">0:POCO:SHOT ON POCO M2 PRO</string>
     <string name="back_grus">3:SHOT ON MI 9 SE:AI TRIPLE CAMERA</string>
-    <string name="back_grus_mi_9_se_brown_edition">3:MI 9 SE BROWN EDITION:AI TRIPLE CAMERA</string>
+    <string name="back_grus_mi9_se_brown_edition">3:MI 9 SE BROWN EDITION:AI TRIPLE CAMERA</string>
     <string name="back_haydn">3:REDMI K40 PRO</string>
     <string name="back_haydn_pro">3:REDMI K40 PRO+</string>
     <string name="back_hercules">3:SHOT ON MI 9:AI TRIPLE CAMERA</string>
@@ -439,7 +439,7 @@ and adjust preferences automatically"</string>
     <string name="back_shiva">0:POCO:SHOT ON POCO M2</string>
     <string name="back_sirius">2:SHOT ON MI 8 SE:AI DUAL CAMERA</string>
     <string name="back_surya">4:POCO X3 NFC</string>
-    <string name="back_thyme">4:MI PHONE</string>
+    <string name="back_thyme">4:MI 10S</string>
     <string name="back_toco">4:MI NOTE 10 LITE:AI QUAD CAMERA</string>
     <string name="back_tocoin">4:SHOT ON MI 10i:AI QUAD CAMERA</string>
     <string name="back_tucana">1:SHOT ON MI CC9 PRO:AI PENTA CAMERA</string>
@@ -671,7 +671,7 @@ and adjust preferences automatically"</string>
     <string name="dialog_button_connect">Connect</string>
     <string name="dialog_button_disconnect">Exit</string>
     <string name="dialog_button_exit">Turn off</string>
-    <string name="dialog_button_goto">去设置</string>
+    <string name="dialog_button_goto">Settings</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_reject">Reject</string>
     <string name="dialog_button_scan">Search for devices</string>
@@ -1707,7 +1707,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_hdr10plus_video_mode_description">Optimize colors and adjust contrast for 4K and 8K videos. This feature only works on HDR10+ compatible devices.</string>
     <string name="pref_i_n_r_b">Smart noise reduction</string>
     <string name="pref_k_h">Live in-ear monitor</string>
-    <string name="pref_k_s_i">Play recorded sound into the earphones when they are connected</string>
+    <string name="pref_k_s_i">Monitor recorded sound using the earphones when they are connected</string>
     <string name="pref_lens_dirty_detect_summary">Receive a notification when the lens is dirty</string>
     <string name="pref_lens_dirty_detect_title">Notify about dirty lens</string>
     <string name="pref_live_duration_title">Live duration</string>
@@ -1840,7 +1840,9 @@ Keep the subject sharp while blurring the background."</string>
     <string name="prek_b_j_o">Recreate stereo surround effect</string>
     <string name="prek_b_j_p">Reduce the impact of wind on sound recording</string>
     <string name="prep_video_ai_audio_new_desc_tip">Sounds from the subject in focus are enhanced</string>
+    <string name="prep_video_ai_audio_new_desc_tip_alone">66666</string>
     <string name="prep_video_ai_audio_single_desc_tip">Sounds from behind the screen are filtered</string>
+    <string name="prep_video_ai_audio_single_desc_tip_alone">77777</string>
     <string name="prep_video_ai_audio_unsupported_headset_desc_tips">"Audio zoom doesn't work with live in-ear monitor and external mic"</string>
     <string name="preparing_sd">Checking SD card…</string>
     <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
@@ -1855,7 +1857,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="recommend_soft_light_tip">Turn on flash</string>
     <string name="recommend_super_night">Try the Night mode</string>
     <string name="record_back_pressed_hint">Tap again to stop recording</string>
-    <string name="remote_device_type_phone">小米手机</string>
+    <string name="remote_device_type_phone">Xiaomi</string>
     <string name="remote_online_connecting">Select device to connect</string>
     <string name="remote_online_disconnect_confirmation">Cancel connecting to %1$s?</string>
     <string name="remote_online_exit_confirmation">Turn off Dual phone recording now?</string>
@@ -1864,7 +1866,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="remote_online_interrupted">Disconnected. Connect again to continue.</string>
     <string name="remote_online_introduction_i">"Dual phone recording allows combining feeds from two different devices into one video. You'll be able to preview both feeds and the final video on this device. Note that audio will only be recorded by this device."</string>
     <string name="remote_online_introduction_ii">To make this feature work, the other Mi or Redmi device must support Dual phone recording. It can be turned on using the Control center toggle.</string>
-    <string name="remote_online_permission">需要将相机“定位”权限设置为“仅在使用中允许”，方可使用多机联录功能。</string>
+    <string name="remote_online_permission">"Change Camera's location permission to \"Allow only while using the app\" to be able to use dual phone recording."</string>
     <string name="remote_online_searching">Searching for devices…</string>
     <string name="remote_online_service_name">Dual phone recording</string>
     <string name="remote_online_unavailable">"Couldn't find devices nearby"</string>
