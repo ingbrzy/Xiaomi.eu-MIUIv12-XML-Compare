@@ -32,6 +32,10 @@
     <item type="array" name="android_config_virtualKeyVibePattern">@android:array/config_virtualKeyVibePattern</item>
     <item type="array" name="android_special_locale_codes">@android:array/special_locale_codes</item>
     <item type="array" name="android_special_locale_names">@android:array/special_locale_names</item>
+    <string-array name="application_lock_activity">
+        <item>com.android.settings/.PrivacyPasswordConfirmLockPattern</item>
+        <item>com.miui.securitycenter/com.miui.applicationlock.ConfirmAccessControl</item>
+    </string-array>
     <array name="boot_msg_text" />
     <array name="config_BrightnessCurvesLux" />
     <string-array name="config_France_Orange_IPV6_array">
@@ -570,6 +574,7 @@
     <string-array name="low_device_cpu_list">
         <item>msm8953</item>
         <item>msm8937</item>
+        <item>holi</item>
         <item>mt6768</item>
         <item>mt6765</item>
         <item>mt6833</item>
@@ -580,6 +585,7 @@
         <item>bengal</item>
         <item>msm8953</item>
         <item>msm8937</item>
+        <item>holi</item>
         <item>mt6768</item>
         <item>mt6765</item>
         <item>mt6833</item>
@@ -1800,6 +1806,7 @@
     </string-array>
     <string-array name="process_disable_trim_list">
         <item>com.miui.home</item>
+        <item>com.android.pcmode</item>
         <item>com.mi.android.globallauncher</item>
         <item>com.android.systemui</item>
         <item>com.miui.miwallpaper.miweatherwallpaper</item>
