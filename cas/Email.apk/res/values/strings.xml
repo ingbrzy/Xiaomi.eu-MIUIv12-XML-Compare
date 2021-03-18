@@ -30,9 +30,9 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="about_checking_update">checking update ...</string>
-    <string name="about_go_to_update">Go to update</string>
-    <string name="about_lasted_version">It is the latest edition</string>
+    <string name="about_checking_update">Checking for updates...</string>
+    <string name="about_go_to_update">To update</string>
+    <string name="about_lasted_version">Is the latest version</string>
     <string name="account_add_title">Select email service</string>
     <string name="account_cache_provider">Account Cache Provider</string>
     <string name="account_duplicate_dlg_message_fmt">"You're already using this username for the account \"%s\"."</string>
@@ -55,8 +55,8 @@
     <string name="account_security_title">Device security</string>
     <string name="account_security_verification">Account verification</string>
     <string name="account_set_up_change_type_note">If you need to switch between POP3 and IMAP settings, delete your account and create a new one with your desired settings.</string>
-    <string name="account_setting_general_summry">Set Email common functions</string>
-    <string name="account_setting_general_title">Function Settings</string>
+    <string name="account_setting_general_summry">Set email common functions</string>
+    <string name="account_setting_general_title">Function setting</string>
     <string name="account_setting_message_body_load_complete">Full message</string>
     <string name="account_setting_message_body_load_head_abstract">Email summary</string>
     <string name="account_setting_message_body_load_head_only">Header only</string>
@@ -83,7 +83,7 @@
     <string name="account_settings_notifications">Notifications</string>
     <string name="account_settings_notify_label">Email notifications</string>
     <string name="account_settings_notify_summary">Show notification when new email arrives</string>
-    <string name="account_settings_only_notify_inbox">Only push inbox mail</string>
+    <string name="account_settings_only_notify_inbox">Only notification reminder inbox mail</string>
     <string name="account_settings_param">Account settings</string>
     <string name="account_settings_preference_att_save_path">Default location for attachments</string>
     <string name="account_settings_preference_head_icon">Profile photos</string>
@@ -210,8 +210,8 @@
     <string name="allread">Read all</string>
     <string name="always_bcc_myself">Always Bcc self</string>
     <string name="app_name">Mail</string>
-    <string name="app_uninstall_content">Email is a MIUI system application. After uninstalling, you will not be able to add email accounts, send and receive emails, and synchronize email schedules.</string>
-    <string name="app_uninstall_title">Uninstall \"email\"?</string>
+    <string name="app_uninstall_content">"Mails is a system app. You won't be able to manage your email accounts, send and receive emails, or sync events after you uninstall the app."</string>
+    <string name="app_uninstall_title">Uninstall \"Mail\"?</string>
     <string name="application_mime_type">application/email-ls</string>
     <string name="appraise_des">Do you like our app?</string>
     <string name="appraise_good">Yes</string>
@@ -291,7 +291,7 @@
     <string name="bottom_bar_more_share">Share</string>
     <string name="bottom_bar_no_quickreply_toast">No quick reply</string>
     <string name="bytes">%s B</string>
-    <string name="calendar_remind_dialog_title">Remind later</string>
+    <string name="calendar_remind_dialog_title">Add to calendar</string>
     <string name="calendar_remind_gridview_pick_date">Pick date</string>
     <string name="calendar_skip_no_account_alert">"Couldn't find this account"</string>
     <string name="cancel">Cancel</string>
@@ -365,7 +365,7 @@
     <string name="contact_list_title">Contacts</string>
     <string name="contact_permission_error">"Access to phone's contacts restricted"</string>
     <string name="contact_select">Select contacts</string>
-    <string name="contain_view_all_body">View the full text of the message</string>
+    <string name="contain_view_all_body">View full email</string>
     <string name="content_description">%1$s about %2$s, %3$s on %4$s, %5$s</string>
     <string name="content_description_today">%1$s about %2$s, %3$s at %4$s, %5$s</string>
     <string name="contextmenu_add">Add to Contacts</string>
@@ -471,10 +471,10 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="drawer_contacts">Contacts</string>
     <string name="drawer_open">Open navigation drawer</string>
-    <string name="drive_card_button_tips">Copy the extracted code and get the shared content</string>
-    <string name="drive_card_code">extraction code</string>
-    <string name="drive_card_tips">Found sharing link from %s</string>
-    <string name="drive_card_title">Disk link</string>
+    <string name="drive_card_button_tips">Copy the extraction code and get the shared content</string>
+    <string name="drive_card_code">The extraction code is:</string>
+    <string name="drive_card_tips">Found a netdisk sharing link from %s</string>
+    <string name="drive_card_title">Netdisk link</string>
     <string name="dtend">Ends</string>
     <string name="dtstart">Starts</string>
     <string name="due">Due</string>
@@ -621,8 +621,8 @@
     <string name="general_preference_text_zoom_normal">Normal</string>
     <string name="general_preference_text_zoom_small">Small</string>
     <string name="general_preference_text_zoom_tiny">Tiny</string>
-    <string name="general_preference_trash_contact">Spam screening</string>
-    <string name="general_preference_trash_contact_sum">Handling letters from senders who have been reported in large numbers</string>
+    <string name="general_preference_trash_contact">Filter spam</string>
+    <string name="general_preference_trash_contact_sum">Filter emails from senders reported by multiple users</string>
     <string name="generic_attachment_problem">"Can't attach file."</string>
     <string name="get_database_exception">"Clear this app's data in Settings > System apps and try again."</string>
     <string name="get_oauth_code">Get code</string>
@@ -653,20 +653,20 @@
     <string name="info_item_hide">Delete</string>
     <string name="inline_picture_deleted">Downloading missing picture…</string>
     <string name="input_password_prompt">Enter your password</string>
-    <string name="install_mime_encrypt_cert">Install S/MIME Encryption Certificate</string>
-    <string name="install_mime_sign_cert">Install S/MIME Signature Certificate</string>
+    <string name="install_mime_encrypt_cert">Install S/MIME encryption certificate</string>
+    <string name="install_mime_sign_cert">Install S/MIME signing certificate</string>
     <string name="intent_account_manager_entry">com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY</string>
     <string name="intent_exchange_package">com.android.exchange</string>
     <string name="interact_with_server_error">"Couldn't connect to the server"</string>
     <string name="invalid_recipient">The address %s is invalid.</string>
     <string name="invalid_recipient_title">Recipient Error</string>
-    <string name="invoice_card_amount">amount</string>
-    <string name="invoice_card_buyer">buyer</string>
+    <string name="invoice_card_amount">Total amount charged</string>
+    <string name="invoice_card_buyer">Buyer</string>
     <string name="invoice_card_date">date</string>
-    <string name="invoice_card_open">open invoice</string>
-    <string name="invoice_card_save">save invoice</string>
-    <string name="invoice_card_seller">seller</string>
-    <string name="invoice_card_title">e-invoice</string>
+    <string name="invoice_card_open">Open the invoice</string>
+    <string name="invoice_card_save">Save the invoice</string>
+    <string name="invoice_card_seller">Seller</string>
+    <string name="invoice_card_title">Electronic invoice</string>
     <string name="kilobytes">%s KB</string>
     <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">No emails yet.</string>
@@ -695,13 +695,13 @@
     <string name="login_des_yangdex">Sign in to Yandex Mail</string>
     <string name="login_err_message">Use authorized passcodes to sign in to %1$s if you selected this option previously. Go to https://email.163.com/ to reset your password or passcode.</string>
     <string name="login_err_outlook_msg">"%s
-Please confirm whether the application password is turned on, if it is turned on, please go to the Microsoft website to reset the application password"</string>
+Hello, please confirm whether the application password is turned on, if it is turned on, please go to the Microsoft official website to reset the application password"</string>
     <string name="login_err_sina_message">Use authorized passcodes to sign in to %1$s if you selected this option previously. Go to https://mail.sina.com.cn/ to reset your password or passcode.</string>
     <string name="login_failed_ticker">%s signin unsuccessful.</string>
     <string name="login_failed_tip">"Contact us in WeChat to get help: "</string>
     <string name="login_failed_title">"Can't sign in"</string>
     <string name="login_mail">Sign in</string>
-    <string name="login_manual">Manual Setting</string>
+    <string name="login_manual">manual setting</string>
     <string name="login_qq_psw">Enter code manually</string>
     <string name="long_press_to_select_tip">Touch &amp; hold to select one conversation, then touch to select more.</string>
     <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
@@ -716,8 +716,8 @@ Please confirm whether the application password is turned on, if it is turned on
     <string name="mail_login_help_details2">2. Third party authorization codes can be used to sign in in third party email clients when POP3/IMAP/SMTP services are enabled.</string>
     <string name="mail_login_help_title">Email password/Third party client:</string>
     <string name="mail_outlook_login_tips">"You'll be redirected to Microsoft to enter password"</string>
-    <string name="mail_outlook_oauth_login">"Sign in with OAuth
-(Personal Outlook users cannot synchronize their calendars when logging in with OAuth)"</string>
+    <string name="mail_outlook_oauth_login">"Use more secure Oauth login
+ (Personal Outlook users cannot synchronize their calendars when logging in with OAuth)"</string>
     <string name="mail_outlook_psw_login">Sign in using password</string>
     <string name="mailbox_list_account_selector_combined_view">Combined account</string>
     <string name="mailbox_name_display_ad">Ads</string>
@@ -738,8 +738,8 @@ Please confirm whether the application password is turned on, if it is turned on
     <string name="mailbox_name_server_sent">Sent</string>
     <string name="mailbox_name_server_starred">Starred</string>
     <string name="mailbox_name_server_trash">Trash</string>
-    <string name="mailbox_setting_preference_sync_summary_close">Synchronization: Off</string>
-    <string name="mailbox_setting_preference_sync_summary_open">Synchronization: On</string>
+    <string name="mailbox_setting_preference_sync_summary_close">Sync: Off</string>
+    <string name="mailbox_setting_preference_sync_summary_open">Sync: On</string>
     <string name="mailbox_settings_activity_title">Sync settings</string>
     <string name="mailbox_settings_activity_title_with_mailbox">Sync settings (%s)</string>
     <string name="mailbox_settings_mailbox_sync_window_label">Sync mail from</string>
@@ -823,7 +823,7 @@ Please confirm whether the application password is turned on, if it is turned on
     <string name="menu_search">Search</string>
     <string name="menu_settings">Settings</string>
     <string name="merged_mailbox_compose_select_account">Select Account</string>
-    <string name="message_all_body">Full Text</string>
+    <string name="message_all_body">Full text of the email</string>
     <string name="message_body_load_set_description">Load emails when using mobile data</string>
     <string name="message_compose_insert_quick_response_list_title">Insert quick reply</string>
     <string name="message_count_spacer">  </string>
@@ -902,7 +902,7 @@ Try switching to a different email account."</string>
     <string name="ntes_do_not_sms_uplink">Send an SMS from the associated phone number and then tap \"Message sent\".</string>
     <string name="ntes_had_send">Message sent</string>
     <string name="ntes_had_send_to_content">"If you've already sent an SMS from the associated phone number, tap \"Message sent\" to continue."</string>
-    <string name="ntes_login_auth_too_much">您的验证码数量已达到5个上限，请使用网页登陆您的网易邮箱删除不用的验证码</string>
+    <string name="ntes_login_auth_too_much">"Can't add more than 5 verification codes. Sign in to your inbox on a computer and delete the codes you aren't using."</string>
     <string name="ntes_login_error_message" formatted="false">"Can't get account info (Error %s). %s."</string>
     <string name="ntes_password_error_hint">"If errors occur while you're entering your password, close this page and open it again."</string>
     <string name="ntes_phone_send">Send a text message from the associated phone number</string>
@@ -924,7 +924,7 @@ Try switching to a different email account."</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">Allow Mail to access storage, contacts, and calendar info in the Settings</string>
     <string name="open_external_storage_and_contacts_permission">Allow Mail to access storage and contacts in the Settings</string>
     <string name="open_notification_kingagent">Turn on burial point notifications</string>
-    <string name="open_pdf_error">Pdf file failed to open. Please download other PDF opening tools and try again later.</string>
+    <string name="open_pdf_error">"Couldn't open PDF. Install a PDF reader and try again."</string>
     <string name="optimization_suggestion">Optimization suggestions</string>
     <string name="others_mail">Other</string>
     <string name="others_mail_des">Other private or corporate email services</string>
@@ -970,17 +970,17 @@ Try switching to a different email account."</string>
     <string name="password_expired_ticker">Your lock screen PIN or password has expired.</string>
     <string name="pdf_has_signature_prompt_cancel">Open the original file</string>
     <string name="pdf_has_signature_prompt_confirm">Open copy</string>
-    <string name="pdf_has_signature_prompt_message">A signed copy of this attachment has been detected. Open or not？</string>
-    <string name="pdf_save_error">The body is too large, it cannot be exported as a PDF file</string>
-    <string name="pdf_save_no_body">Wait for the text to load successfully and try again</string>
+    <string name="pdf_has_signature_prompt_message">A signed copy of this attachment is detected, open it?</string>
+    <string name="pdf_save_error">Because the body is too large, it cannot be exported as a PDF file</string>
+    <string name="pdf_save_no_body">Please wait for the text to load successfully and try again</string>
     <string name="pdf_save_to">Saved to</string>
-    <string name="pdf_signature_create_title">Create signature</string>
-    <string name="pdf_signature_manager_max_count">Maximum number of signatures,Please delete the existing signature and try again</string>
-    <string name="pdf_signature_manager_title">Signature manager</string>
-    <string name="pdf_viewer_actionbar_more_other">Open by other app</string>
-    <string name="pdf_viewer_actionbar_more_wps">Open by WPS</string>
-    <string name="pdf_viewer_file_damage_toast">Pdf file is corrupted. Please check the file and try again</string>
-    <string name="pdf_viewer_new_email">New email</string>
+    <string name="pdf_signature_create_title">Draw your signature</string>
+    <string name="pdf_signature_manager_max_count">The maximum number of signatures that can be created has been reached. Please delete the existing signatures before creating them</string>
+    <string name="pdf_signature_manager_title">Signature management</string>
+    <string name="pdf_viewer_actionbar_more_other">Open with other apps</string>
+    <string name="pdf_viewer_actionbar_more_wps">Open with WPS</string>
+    <string name="pdf_viewer_file_damage_toast">The PDF file is damaged, please check the file and try again</string>
+    <string name="pdf_viewer_new_email">Send by mail</string>
     <string name="pdf_viewer_reply">Reply with this file</string>
     <string name="pdf_viewer_save_signature">Save signature</string>
     <string name="pdf_viewer_sign_file_damage_toast">The file does not exist</string>
@@ -993,8 +993,8 @@ Try switching to a different email account."</string>
     <string name="perference_setup_send_tag">Outgoing mail server</string>
     <string name="permission_access_provider_desc">Allows app to access your email, usernames, and passwords</string>
     <string name="permission_access_provider_label">Access user data</string>
-    <string name="permission_des_calendar">For syncing calendar events</string>
-    <string name="permission_des_contact">For accessing emails of your contacts in order to autocomplete recipients</string>
+    <string name="permission_des_calendar">It is used to synchronize your emails with schedule information to the calendar in time. It is strongly recommended to select Always Allow</string>
+    <string name="permission_des_contact">Used to instantly synchronize your email contacts to mobile contacts, it is strongly recommended to select Always Allow</string>
     <string name="permission_des_external_storage">For creating new emails, as well as saving and adding attachments</string>
     <string name="permission_read_attachment_desc">"Allows app to read your emails' attachments"</string>
     <string name="permission_read_attachment_label">Read attachments</string>
@@ -1215,7 +1215,7 @@ Wait until it's fully synced or view the message on your computer."</string>
     <string name="server_cet_issuer_no_trust">"The certificate's issuer is not a trusted organization."</string>
     <string name="server_cet_subject_cn">"Supported domain: "</string>
     <string name="server_cet_title">Certificate details</string>
-    <string name="server_log">服务协议</string>
+    <string name="server_log">Service Agreement</string>
     <string name="service_protocol_discribe"><u>"I've read and agree with \"WPS Mail Service Agreement\""</u></string>
     <string name="service_protocol_title">Service Agreement</string>
     <string name="set_network">Set network</string>
@@ -1241,7 +1241,7 @@ Wait until it's fully synced or view the message on your computer."</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
     <string name="single_new_message_notification_title">%1$s: %2$s</string>
-    <string name="sms_not_found_tip">Unable to start the system SMS application, please manually start the SMS application and send a verification SMS.</string>
+    <string name="sms_not_found_tip">"Couldn't open your default SMS messaging app. Open the app and send the verification SMS manually."</string>
     <string name="smtp_password_error">Password for outgoing mail server is incorrect</string>
     <string name="snip_pic">%1$s</string>
     <string name="sort_attachment">Sort by</string>
@@ -1297,11 +1297,11 @@ Wait until it's fully synced or view the message on your computer."</string>
     <string name="toast_bar_send_fail_remind">"Couldn't send email. Saved it to the \"Outgoing\" folder."</string>
     <string name="toast_bar_sync_failed_client_cert">"Couldn't sync due to a missing certificate. Tap to add the certificate again."</string>
     <string name="toast_bar_sync_failed_mi_authority">Sign in to authorize your device</string>
-    <string name="toastbar_calendar_and_contacts_permission_switch_allow_only_using">日程和联系人信息未能实时同步,请将相关权限设置为“始终允许”</string>
+    <string name="toastbar_calendar_and_contacts_permission_switch_allow_only_using">Schedule and Contact information was not real-time synchronization, the Contacts permission is set to</string>
     <string name="toastbar_calendar_and_contacts_permission_switch_close">To sync calendar info and contacts, give Mail the required permissions in the Settings</string>
-    <string name="toastbar_calendar_permission_switch_allow_only_using">邮件日程未能实时同步,请将日历权限设置为“始终允许”</string>
+    <string name="toastbar_calendar_permission_switch_allow_only_using">Mail failed to schedule real-time synchronization, set the calendar permissions are set to Always allow</string>
     <string name="toastbar_calendar_permission_switch_close">To receive calendar reminders, give Mail the required permissions in the Settings</string>
-    <string name="toastbar_contacts_permission_switch_allow_only_using">联系人信息未能实时同步,请联系人权限设置为设置为“始终允许”</string>
+    <string name="toastbar_contacts_permission_switch_allow_only_using">Contact information was not real-time synchronization, the Contacts permission is set to always allow</string>
     <string name="toastbar_contacts_permission_switch_close">To add contacts, give Mail the required permissions in the Settings</string>
     <string name="toastbar_local_calendar_and_contacts_sync_switch_close">Turn on calendar and contacts sync to sync calendar and contacts</string>
     <string name="toastbar_local_calendar_sync_switch_close">Turn on calendar sync to receive calendar reminders</string>
@@ -1315,11 +1315,11 @@ Wait until it's fully synced or view the message on your computer."</string>
     <string name="toolbar_part_symbol">Paragraph mark</string>
     <string name="topic_merge">Display settings</string>
     <string name="topic_merge_summary">Group by subject</string>
-    <string name="train_card_title">Train ticket purchased successfully</string>
-    <string name="train_card_title_alternate">Waiting for train ticket successfully</string>
-    <string name="train_card_title_change">Train ticket changed successfully</string>
-    <string name="train_card_title_change_arrival">Train ticket changed successfully</string>
-    <string name="train_card_title_refund">Successful refund of train ticket</string>
+    <string name="train_card_title">Ticket purchase was successful</string>
+    <string name="train_card_title_alternate">Ticket waitlist function was successful</string>
+    <string name="train_card_title_change">Ticket changed was successful</string>
+    <string name="train_card_title_change_arrival">Ticket changed was successful</string>
+    <string name="train_card_title_refund">Success ticket refund</string>
     <string name="train_travel_refund_info" formatted="false">退票费 ¥%s，应退票款 ¥%s</string>
     <string name="translation_loading">Just a sec…</string>
     <string name="translation_no_result">No results</string>
@@ -1361,12 +1361,12 @@ Remove account?"</string>
     <string name="upload_log_title">Send error logs to help us improve Mail</string>
     <string name="upload_log_yes">Send</string>
     <string name="uploading_logs">Just a sec…</string>
-    <string name="user_experience_content">请确认您已阅读并同意《用户体验计划》</string>
-    <string name="user_experience_log">用户体验计划</string>
-    <string name="user_experience_login">参加</string>
-    <string name="user_experience_logout">退出体验计划</string>
-    <string name="user_experience_positive">同意并继续</string>
-    <string name="user_experience_title">声明与条款</string>
+    <string name="user_experience_content">Please confirm that you have read and agree to the User Experience Program</string>
+    <string name="user_experience_log">User Experience Program</string>
+    <string name="user_experience_login">Join</string>
+    <string name="user_experience_logout">Exit the experience program</string>
+    <string name="user_experience_positive">Agree and continue</string>
+    <string name="user_experience_title">Declaration and terms</string>
     <string name="user_new_auth_code">Use a new code to sign in</string>
     <string name="user_privacy_settings">Privacy settings</string>
     <string name="user_privacy_settings_agreement_authorization">"(By tapping \"Agree\", you're giving Mail all the required permissions)"</string>
@@ -1387,11 +1387,11 @@ Touch "<b>Sync Now</b> to sync mail once, or <b>Change Sync Settings</b> to set 
     <string name="wait_for_sync_title">Waiting for sync</string>
     <string name="wait_help_context">wait</string>
     <string name="wait_while_update_db">Updating database…</string>
-    <string name="web_view_load_error_tip">Some problems have occurred, and the body of this email cannot be displayed properly. If you encounter this problem, please add QQ group 952315061 to give us feedback.</string>
+    <string name="web_view_load_error_tip">"The body of this email couldn't be displayed correctly. Report this problem to us in our QQ group (952315061)."</string>
     <string name="webview_logout">You can try to sign in again</string>
     <string name="webview_logout_cancel">Not now</string>
     <string name="webview_logout_sure">Try again</string>
-    <string name="webview_not_found">The page cannot be opened because the WebView component cannot be found.</string>
+    <string name="webview_not_found">"Couldn't open page due to missing WebView plug-in"</string>
     <string name="webview_sslerror_handle_cancel">Cancel</string>
     <string name="webview_sslerror_handle_continue">Continue</string>
     <string name="webview_sslerror_handle_hitmessage">A certificate error occurred, proceed anyway?</string>
@@ -1402,7 +1402,7 @@ Touch "<b>Sync Now</b> to sync mail once, or <b>Change Sync Settings</b> to set 
     <string name="wipe_account_fail_description">Allow</string>
     <string name="wipe_account_fail_title">"Couldn't delete personal info"</string>
     <string name="wps_card_button_tips">Open Kingsoft Document</string>
-    <string name="wps_card_tips">Found sharing link from \"%s\"</string>
+    <string name="wps_card_tips">Found a Kingsoft Document sharing link from %s</string>
     <string name="wps_card_title">Kingsoft Document</string>
     <string name="wrong_password">The password you entered is incorrect</string>
     <string name="xiaomi_email">Mail</string>
