@@ -1340,8 +1340,8 @@ Selection"</string>
     <string name="bluetooth_select_a2dp_codec_type_help_info">Gray-out means not supported by phone or headset</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Select Bluetooth AVRCP version</string>
     <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP version</string>
-    <string name="bluetooth_select_map_version_dialog_title">Select Bluetooth MAP Version</string>
-    <string name="bluetooth_select_map_version_string">Bluetooth MAP Version</string>
+    <string name="bluetooth_select_map_version_dialog_title">Select Bluetooth MAP version</string>
+    <string name="bluetooth_select_map_version_string">Bluetooth MAP version</string>
     <string name="bluetooth_settings">Bluetooth</string>
     <string name="bluetooth_settings_summary">Manage connections, set device name &amp; discoverability</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
@@ -1748,6 +1748,8 @@ This affects other apps or conversations that are allowed to bubble."</string>
     <string name="codec_low_latency_summary">Minimize latency during game audio and video synchronization</string>
     <string name="codec_low_latency_title">Low latency</string>
     <string name="codec_low_latency_video_summary">Provide low-latency audio experience for games and videos, making sound and picture synchronization more natural.</string>
+    <string name="codec_low_latency_zmi_summary">Reduce audio delay and improve sound effects for games automatically</string>
+    <string name="codec_low_latency_zmi_title">Low latency for games</string>
     <string name="color_black">Black</string>
     <string name="color_blue">Blue</string>
     <string name="color_calibration_none">This device</string>
@@ -4512,9 +4514,9 @@ You can't reverse this action."</string>
     <string name="miheadset_RightEar">Right</string>
     <string name="miheadset_active">Energetic</string>
     <string name="miheadset_ancClosed">Off</string>
-    <string name="miheadset_ancHigh">High</string>
-    <string name="miheadset_ancLow">Low</string>
-    <string name="miheadset_ancMedium">Medium</string>
+    <string name="miheadset_ancHigh">Airplane</string>
+    <string name="miheadset_ancLow">Office</string>
+    <string name="miheadset_ancMedium">Daily</string>
     <string name="miheadset_anc_indicate">Connect and pair earphones</string>
     <string name="miheadset_audio_mode">Audio quality</string>
     <string name="miheadset_audio_mode_high">High</string>
@@ -4562,6 +4564,7 @@ You can't reverse this action."</string>
     <string name="miheadset_ignore">Unpair</string>
     <string name="miheadset_in_ear_check">Detect ear presence</string>
     <string name="miheadset_in_ear_check_summary">Pause and resume playback automatically as you wear or remove earphones</string>
+    <string name="miheadset_key_config_ANC_list_title">Noise control</string>
     <string name="miheadset_key_config_call_ai">Voice assistant</string>
     <string name="miheadset_key_config_close">Off</string>
     <string name="miheadset_key_config_close_summary">Turn off noise cancellation and transparency</string>
