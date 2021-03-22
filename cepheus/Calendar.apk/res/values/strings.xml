@@ -138,7 +138,9 @@
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="calendar_account_settings">Account settings</string>
     <string name="calendar_import_source">Source</string>
+    <string name="calendar_privacy_policy">Privacy Policy</string>
     <string name="calendar_subscription_group_title">Calendar subscription</string>
+    <string name="calendar_user_agreement">User Agreement</string>
     <string name="can_not_create_long_event">Event name is too long</string>
     <string name="can_not_modify_allday_event">"Can't change all day event"</string>
     <string name="can_not_modify_event">"Can't change event"</string>
@@ -259,6 +261,7 @@
     <string name="cold_dews">寒露</string>
     <string name="cold_dews_tradition">寒露</string>
     <string name="content_confirm_close_chinese_calendar">All your events based on the Traditional Chinese calendar will be converted to the Gregorian calendar after you turn this feature off. Years and months of the Gregorian calendar will be used for repeated events.</string>
+    <string name="copy">Copy</string>
     <string name="copy_email">Copy email address</string>
     <string name="copy_number">Copy phone number</string>
     <string name="countdown_event_title">Countdown: %1$s</string>
@@ -416,6 +419,7 @@
     <string name="event_title">Title</string>
     <string name="event_view">View event</string>
     <string name="every_weekday">Monday to Friday</string>
+    <string name="expand_button_title">Advanced</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
@@ -490,13 +494,17 @@
     <string name="fools_day_tradition">愚人節</string>
     <string name="fortune_birthday">生日</string>
     <string name="fortune_card_caiwei">财位：</string>
-    <string name="fortune_card_set_bazi">设置运势</string>
+    <string name="fortune_card_comprehensive">整体运程：</string>
+    <string name="fortune_card_financial">财富运程：</string>
+    <string name="fortune_card_love">爱情运程：</string>
+    <string name="fortune_card_set_bazi">设置运程</string>
     <string name="fortune_card_set_bazi_simple">设置生辰</string>
     <string name="fortune_card_taohua">桃花：</string>
-    <string name="fortune_card_working">事业学业运势：</string>
+    <string name="fortune_card_working">事业运程：</string>
     <string name="fortune_card_zhengchong">正冲：</string>
     <string name="fortune_gender">性别</string>
-    <string name="fortune_label">黄历运势设置</string>
+    <string name="fortune_label">黄历运程设置</string>
+    <string name="fortune_love">爱情状况</string>
     <string name="fortune_name">称呼</string>
     <string name="fortune_name_hint">请输入你的称呼</string>
     <string name="fortune_no_name">请填写称呼</string>
@@ -575,6 +583,7 @@
     <string name="import_action">Import</string>
     <string name="import_birthday">Import birthday</string>
     <string name="import_help">Help</string>
+    <string name="import_lark_failed">服务异常，导入失败</string>
     <string name="import_text">Import</string>
     <string name="imported">Imported</string>
     <string name="insects_awaken">惊蛰</string>
@@ -750,10 +759,13 @@
     <string name="miuix_appcompat_cancel_description">Cancel</string>
     <string name="miuix_appcompat_confirm_description">Confirm</string>
     <string name="miuix_appcompat_delete_description">Delete</string>
+    <string name="miuix_appcompat_deselect_all">Deselect</string>
     <string name="miuix_appcompat_deselect_all_description">Deselect all</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Cancel</string>
     <string name="miuix_appcompat_search_input_description">Search</string>
+    <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
+    <string name="miuix_appcompat_select_item">Select items</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -894,6 +906,7 @@ Check network settings and try again."</string>
     <string name="no_visiable_calendar_select_account">Add account</string>
     <string name="no_visiable_calendar_title">Add account</string>
     <string name="noon">Midday</string>
+    <string name="not_set">Not set</string>
     <string name="notification_channel_description" />
     <string name="notification_channel_name">Regular reminders</string>
     <string name="notification_channel_name_no_sound">Silenced reminders</string>
@@ -936,6 +949,7 @@ Check network settings and try again."</string>
     <string name="pref_reminder_time">Reminder time</string>
     <string name="pref_title_alarm_remind">Alarm reminders</string>
     <string name="pref_title_no_remind">No reminders</string>
+    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="preferences_alarm_default_event_title">设置闹钟提醒</string>
     <string name="preferences_alarms_category_title">Alarm reminders</string>
     <string name="preferences_alarms_default_event">Select events</string>
@@ -969,6 +983,7 @@ Check network settings and try again."</string>
     <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">Start of the week</string>
     <string name="preferences_week_start_day_title">Start of the week</string>
+    <string name="prefsx_notify_sound_none">Silent</string>
     <string name="premission_description_agree">Allow this app to connect to the internet and grant the mandatory permissions listed above.</string>
     <string name="premission_description_calendar">For adding and displaying your events</string>
     <string name="premission_description_contact">For displaying birthdays of your contacts</string>
@@ -1206,8 +1221,10 @@ Check network settings and try again."</string>
     <string name="subscribing_card">Subscribed</string>
     <string name="subscription_service">订阅服务</string>
     <string name="subscription_service_unsupported">未同意联网权限，无法使用订阅服务</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_import_by_caldav">We support CalDAV accounts from Feishu and iCloud</string>
     <string name="summary_import_by_email">We support corporate Exchange accounts, QQ Mail, and Outlook</string>
+    <string name="summary_import_by_feishu">支持一键同步飞书日程</string>
     <string name="summary_import_by_local">We support ICS files</string>
     <string name="summary_import_by_url">Add URL subscription</string>
     <string name="summer_begins">立夏</string>
@@ -1314,6 +1331,7 @@ Check network settings and try again."</string>
     <string name="title_confirm_close_chinese_calendar">Turning off Chinese calendar</string>
     <string name="title_import_by_caldav">Import CalDAV account</string>
     <string name="title_import_by_email">Import via email</string>
+    <string name="title_import_by_feishu">飞书导入</string>
     <string name="title_import_by_local">Import calendar files</string>
     <string name="title_import_by_url">Import using URL</string>
     <string name="toast_block_by_other_work">Wait until the current task is completed and try again</string>
@@ -1417,6 +1435,8 @@ Check network settings and try again."</string>
     <string name="user_notice_button_ok">OK</string>
     <string name="user_notice_message">You must agree to our %1$s and %2$s before using Calendar. In order to provide accurate data on local public holidays, birthdays, credit card repayments, and planned trips, Calendar needs to access your location, contacts, and messages, as well as connect to the internet. Agree?</string>
     <string name="user_notice_title">Attention</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
     <string name="valentines_day">情人节</string>
     <string name="valentines_day_tradition">情人節</string>
     <string name="vernal_equinox">春分</string>
