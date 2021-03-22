@@ -854,6 +854,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
     <string name="fingerprint_try_again_text">Try again</string>
     <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
+    <string name="float_notification_snooze_strategy">Hide floating notifications temporarily</string>
     <string name="force_allow_on_external">Force allow apps to write on external storage</string>
     <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
     <string name="force_msaa">Force 4x MSAA</string>
@@ -1320,6 +1321,15 @@ MMMM d"</string>
     <string name="miui_notification_menu_title_not_allow">Restrict</string>
     <string name="miui_quick_settings_tiles_default">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit</string>
     <string name="miui_quick_settings_tiles_stock">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,powermode,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode,workmode</string>
+    <string name="miui_snooze_always_float">"Don't hide"</string>
+    <string name="miui_snooze_cancel">Cancel</string>
+    <string name="miui_snooze_default_time">For %d minute</string>
+    <string name="miui_snooze_to_settings">Settings</string>
+    <string name="miui_snooze_toast_hint_default">"Upcoming notifications will be hidden for %d minute. "</string>
+    <string name="miui_snooze_toast_hint_until_unlock_screen">"Upcoming notifications will be hidden until the device is locked. "</string>
+    <string name="miui_snooze_until_unlock_screen">Until locked</string>
+    <string name="miui_snooze_user_set_fail">Go to Settings > Notifications &amp; Control center for more options</string>
+    <string name="miui_snooze_user_set_success">Applied successfully. Go to Settings > Notifications &amp; Control center for more options.</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
