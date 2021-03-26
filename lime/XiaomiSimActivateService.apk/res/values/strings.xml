@@ -45,9 +45,9 @@
     <string name="activate_popup_confirm_failed_send_sms">Send again</string>
     <string name="activate_popup_confirm_failed_server">Try again</string>
     <string name="activate_popup_desc_2_intl_sim_cards">2 international text messages will be sent to activate %s. You will be charged by the carrier.</string>
-    <string name="activate_popup_desc_2_intl_sim_cards_msg">To activate %2$s, %1$d international SMS will be sent. Your carrier will charge you for these messages.</string>
+    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">To activate %2$s, &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>international paid SMS&lt;/b> will be sent. Your carrier will charge you for these messages.</string>
     <string name="activate_popup_desc_2_sim_cards">2 regular text messages will be sent to activate %s. You will be charged by the carrier.</string>
-    <string name="activate_popup_desc_2_sim_cards_msg">To activate %2$s, %1$d regular SMS will be sent. Your carrier will charge you for these messages.</string>
+    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">To activate %2$s, &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>domestic paid SMS&lt;/b> will be sent. Your carrier will charge you for these messages.</string>
     <string name="activate_popup_desc_all_gateway_failed_query_info">"Can't find your phone number. Make sure that your SIM card has been activated.
 Enter the phone number associated with your new SIM card to reactivate %s."</string>
     <string name="activate_popup_desc_all_gateway_failed_send_sms">"Couldn't send activation message. Make sure that your SIM card has been activated.
@@ -64,10 +64,10 @@ Enter the phone number associated with your new SIM card to reactivate %s."</str
     <string name="activate_popup_desc_find_device_postfix">An activation SMS may be sent after you switch SIM cards.</string>
     <string name="activate_popup_desc_find_device_postfix_msg">%1$s. To activate %3$s, enter the phone number of SIM %2$d. If you replace this SIM card, another activation SMS will be sent.</string>
     <string name="activate_popup_desc_intl_sim_card">International SMS will be sent to activate %s. You will be charged by the carrier.</string>
-    <string name="activate_popup_desc_intl_sim_card_msg">To activate %2$s, %1$d international SMS will be sent. Your carrier will charge you for this message.</string>
+    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">To activate %2$s, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>international paid SMS&lt;/b>will be sent. Your carrier will charge you for this message.</string>
     <string name="activate_popup_desc_mi_account_user_manual">%1$s. <Data>Refer to the &lt;a href=https://account.xiaomi.com/helpcenter/faq>Mi Account User Manual&lt;/a> if you have any questions.</Data></string>
     <string name="activate_popup_desc_mixed_sim_cards">2 text messages (regular and international) will be sent to activate %s. You will be charged by the carrier.</string>
-    <string name="activate_popup_desc_mixed_sim_cards_msg">To activate %3$s, %1$d regular and %2$d international SMS will be sent. Your carrier will charge you for these messages.</string>
+    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">To activate %3$s, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>domestic paid SMS&lt;/b> and &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>international paid SMS&lt;/b> will be sent. Your carrier will charge you for these messages.</string>
     <string name="activate_popup_desc_new_2_intl_sim_cards">"Looks like you've switched SIM cards. 2 international text messages will be sent to activate %s. You will be charged by the carrier."</string>
     <string name="activate_popup_desc_new_2_sim_cards">"Looks like you've switched SIM cards. 2 regular text messages will be sent to activate %s. You will be charged by the carrier."</string>
     <string name="activate_popup_desc_new_intl_sim_card">"Looks like you've switched SIM cards. International SMS will be sent to activate %s. You will be charged by the carrier."</string>
@@ -80,7 +80,7 @@ Enter the phone number associated with your new SIM card to reactivate %s."</str
     <string name="activate_popup_desc_sim_card">Regular SMS will be sent to activate %s. You will be charged by the carrier.</string>
     <string name="activate_popup_desc_sim_card_downlink">Enter current phone number to activate %s.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg">To activate %2$s, enter the phone number of SIM %1$d.</string>
-    <string name="activate_popup_desc_sim_card_msg">To activate %2$s, %1$d regular SMS will be sent. Your carrier will charge you for this message.</string>
+    <string name="activate_popup_desc_sim_card_msg_with_charge_hint">To activate %2$s, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>paid SMS&lt;/font> will be sent. Your carrier will charge you for this message.</string>
     <string name="activate_popup_desc_voip_privacy">Privacy Policy</string>
     <string name="activate_popup_desc_voip_privacy_prefix">"VoIP service supported by Weihui. View Weihui's"</string>
     <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s. To activate %3$s, enter the phone number of SIM %2$d. Technical support is provided in part by Weihuitel. Refer to the Weihuitel Privacy Policy for details.</string>
