@@ -1718,6 +1718,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
     <string name="gamebox_app_not_find">Install the app first.</string>
     <string name="gamebox_browser_not_find">Install Mi Browser first</string>
+    <string name="gamebox_collimator">Sight</string>
     <string name="gamebox_display_1">None</string>
     <string name="gamebox_display_2">Saturated</string>
     <string name="gamebox_display_3">Bright</string>
@@ -1746,6 +1747,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gamebox_qq_not_find">Install QQ and try again.</string>
     <string name="gamebox_recent_task_expand_fail">"Apps that work with shortcuts aren't installed"</string>
     <string name="gamebox_simcard">Switch SIM cards</string>
+    <string name="gamebox_time">Timer</string>
     <string name="gamebox_type_close">"Don't show"</string>
     <string name="gamebox_type_float">Fixed shortcut</string>
     <string name="gamebox_type_gesture">Swipe to show</string>
@@ -1797,6 +1799,10 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gb_advance_settings_vibration_4d_summary2">Vibrate during kills in the game</string>
     <string name="gb_audition_instruction">Press and hold to record (%1$s-%2$ss)</string>
     <string name="gb_audition_play_instruction">Use earphones for best effect</string>
+    <string name="gb_collimator_color">Color</string>
+    <string name="gb_collimator_size">Size</string>
+    <string name="gb_collimator_style">Type</string>
+    <string name="gb_collimator_toast">A sight makes aiming much more convenient</string>
     <string name="gb_create_icon_summary">Create Home screen shortcut</string>
     <string name="gb_cutoff">|</string>
     <string name="gb_description_image_button_answer">Answer</string>
@@ -1832,6 +1838,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gb_game_macro_bubble_tips">Try combos</string>
     <string name="gb_game_macro_toast_tips">"Try combos!
 Record sequences and use them anytime!"</string>
+    <string name="gb_game_time_toast">Timer is available now!</string>
     <string name="gb_game_video_bottom_tips">Revisit key moments from your gaming sessions in Game Turbo. Videos will be deleted automatically after 7 days.</string>
     <string name="gb_game_video_item_tag">Key moment</string>
     <string name="gb_game_video_page_delete_success">Deleted successfully</string>
@@ -1859,6 +1866,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
     <string name="gb_network_status_bad">A connection error occurred.</string>
     <string name="gb_new_feature">New feature</string>
+    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
     <string name="gb_operat_frequently">Not so fast!</string>
     <string name="gb_shortcut_pref_title">Home screen shortcut</string>
     <string name="gb_sign_gift">Check in to get rewards</string>
@@ -4547,7 +4555,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="traffic_limit_error_alert_title">Data limit reminder %s</string>
     <string name="traffic_limit_input">Data limit (mandatory)</string>
     <string name="traffic_none">None</string>
-    <string name="traffic_over_purchase_link">"You've reached your mobile plan's data usage limit.&lt;br/>If you go over your plan’s data usage limit, your carrier may charge you additional fees.&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up your balance.&lt;/U>&lt;/font>"</string>
+    <string name="traffic_over_purchase_link">"You've reached your mobile plan's data usage limit.&lt;br/>If you go over your plan's data usage limit, your carrier may charge you additional fees.&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up your balance.&lt;/U>&lt;/font>"</string>
     <string name="traffic_provider_no_sim">"SIM card isn't installed"</string>
     <string name="traffic_purchase_body">Tap to top up your balance.</string>
     <string name="traffic_setting_fragment_area">Locale</string>
@@ -4656,6 +4664,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_quick_func_screen_record">Record</string>
     <string name="vb_quick_func_screening">Cast</string>
     <string name="vb_settings">Settings</string>
+    <string name="vb_ve_settings_ai_stronger">AI</string>
     <string name="vb_ve_settings_display_style_tips">*These effects are applied to the whole screen</string>
     <string name="vb_ve_settings_pic_border_stronger">Enhanced contours</string>
     <string name="vb_ve_settings_picture_stronger">Enhanced animations</string>
@@ -4714,6 +4723,7 @@ Try upscaling resolution!"</string>
     <string name="virus_wait_network_dialog_message">"Your phone isn't connected to Wi-Fi now. Use mobile data connection?"</string>
     <string name="voltage_symbol">V</string>
     <string name="vtb_func_desc">About this feature</string>
+    <string name="vtb_func_display_style_desc0">AI can recognize people, animals, plants, sky, buildings, and other objects featured in videos and dynamically enhance them.</string>
     <string name="vtb_func_display_style_desc1">"Selected effects won't be applied to HDR videos on selected devices."</string>
     <string name="vtb_func_display_style_desc2">"These effects can't be applied to screenshots."</string>
     <string name="vtb_func_frc_desc0">Motion smoothing reduces blur and adds detail to moving objects. Using this feature increases power consumption.</string>
