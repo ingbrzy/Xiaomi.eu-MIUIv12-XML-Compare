@@ -403,7 +403,11 @@ To switch between features, swipe up with 3 fingers and hold."</string>
     <string name="add_fingerprint_toast_text">Put your finger on the sensor</string>
     <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the Home button of your device.</string>
     <string name="add_new">Add</string>
+    <string name="add_one_text_app_name_once">You can add one package at a time</string>
     <string name="add_rule">Add rules</string>
+    <string name="add_text_app_name">Add a testing app package</string>
+    <string name="add_text_app_name_here">Enter package name</string>
+    <string name="add_text_app_package_name">Add a testing app package</string>
     <string name="add_virtual_keyboard">Manage on-screen keyboards</string>
     <string name="adding_profile_owner_warning">"By proceeding, your user will be managed by your admin which may also be able to store associated data, in addition to your personal data.
 
@@ -4521,10 +4525,11 @@ You can't reverse this action."</string>
     <string name="micloud_service_title">Xiaomi Cloud</string>
     <string name="middle_function_key">Central area</string>
     <string name="miheadet_up_music">Previous track</string>
-    <string name="miheadset_Box">Box</string>
+    <string name="miheadset_Box">Case</string>
     <string name="miheadset_LeftEar">Left</string>
     <string name="miheadset_RightEar">Right</string>
     <string name="miheadset_active">Energetic</string>
+    <string name="miheadset_adaptive">Adaptive</string>
     <string name="miheadset_ancClosed">Off</string>
     <string name="miheadset_ancHigh">Airplane</string>
     <string name="miheadset_ancLow">Office</string>
@@ -5626,6 +5631,23 @@ Read and agree to %s before using this service."</string>
     <string name="power_usage_summary_title">Battery &amp; performance</string>
     <string name="power_usage_summary_title_new">Battery</string>
     <string name="power_wifi">Wi-Fi</string>
+    <string name="pre_install_app_browser">浏览器</string>
+    <string name="pre_install_app_camera">相机</string>
+    <string name="pre_install_app_gallery">相册</string>
+    <string name="pre_install_app_other">联网查看详细的预置应用信息</string>
+    <string name="pre_install_app_phone">电话服务</string>
+    <string name="pre_install_app_sms">短信</string>
+    <string name="pre_install_app_weather">天气</string>
+    <string name="pre_install_application">预置应用</string>
+    <string name="pre_install_category_appname">应用名称</string>
+    <string name="pre_install_category_question">常见问题</string>
+    <string name="pre_install_network_unavailable">当前未联网，请先联网</string>
+    <string name="pre_install_question_disable_summary">对于某些系统应用，您可以在应用的设置项中禁用应用部分扩展功能。如果需要恢复这些扩展功能，您可以再次到设置项中重新开启。</string>
+    <string name="pre_install_question_disable_title">如何禁用功能？</string>
+    <string name="pre_install_question_query_summary">您可以到设置-更多应用中，选择想要查看的应用，在应用信息里点击“查看权限详情”来查看软件所需权限。您也可以在桌面按菜单键然后长按应用快速进入应用信息页，然后直接点击查看权限详情。在用户的开机引导页面里您也可以快速查看所有的软件安装及所需权限列表信息。</string>
+    <string name="pre_install_question_query_title">如何查询软件安装及运行所需权限列表？</string>
+    <string name="pre_install_question_uninstall_summary">您可以到设置-更多应用中，选择支持卸载的应用并点击卸载。卸载系统预置组件可能导致系统部分功能无法正常使用或运行出现异常，建议谨慎操作。对于可卸载的第三方应用，您还可以在桌面上长按图标，然后拖拽到屏幕上方的垃圾桶卸载应用。</string>
+    <string name="pre_install_question_uninstall_title">如何卸载应用？</string>
     <string name="pre_installed_application">Pre-installed apps</string>
     <string name="pref_bg_network_title">Background connection</string>
     <string name="pref_button_light">Button lights</string>
@@ -8492,7 +8514,7 @@ Please review your service provider’s privacy policy."</string>
     <string name="wifi_assistant_auto_confirm_data_message">"Use mobile data networks when your device can't connect to the internet via Wi-Fi."</string>
     <string name="wifi_assistant_confirm_always">"Don't ask again"</string>
     <string name="wifi_assistant_confirm_connection_title">"Can't connect to the internet"</string>
-    <string name="wifi_assistant_data_prompt">Warn</string>
+    <string name="wifi_assistant_data_prompt">Show data usage warning</string>
     <string name="wifi_assistant_data_prompt_summary">Show data usage warning when switching to mobile data</string>
     <string name="wifi_assistant_description">"Here's how this feature works:
 1. When Wi-Fi connection is poor, your device will try to connect to other available Wi-Fi networks automatically.
@@ -8748,12 +8770,13 @@ Setting the network as hidden will not change your router settings."</string>
     <string name="wifi_link_turbo_customize">Custom apps</string>
     <string name="wifi_link_turbo_customize_summary">Select apps that will work with Wi-Fi assistant according to your preferences</string>
     <string name="wifi_link_turbo_list">Apps</string>
+    <string name="wifi_link_turbo_mode">Speed boost mode</string>
     <string name="wifi_link_turbo_no_app">No apps here yet.</string>
     <string name="wifi_link_turbo_off">Off</string>
     <string name="wifi_link_turbo_on">On</string>
     <string name="wifi_link_turbo_recommendation">Recommended apps</string>
     <string name="wifi_link_turbo_recommendation_summary">Receive recommendations based on data usage stats</string>
-    <string name="wifi_link_turbo_summary">Boost connection speed for selected apps using mobile data when Wi-Fi connection is poor</string>
+    <string name="wifi_link_turbo_summary">Use mobile data to boost connection speed. Using this feature may generate additional carrier fees.</string>
     <string name="wifi_menu_advanced">Advanced</string>
     <string name="wifi_menu_configure">Configure</string>
     <string name="wifi_menu_connect">Connect to network</string>
