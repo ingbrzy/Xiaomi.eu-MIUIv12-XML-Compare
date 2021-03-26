@@ -287,7 +287,9 @@
         <item>/system/framework/oat/arm/services.odex</item>
     </string-array>
     <array name="config_localPrivateDisplayPorts" />
-    <array name="config_locationExtraPackageNames" />
+    <string-array name="config_locationExtraPackageNames">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
     <string-array name="config_locationProviderPackageNames">
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
@@ -420,6 +422,7 @@
         <item>placeholder:file:///system/media/audio/ringtones/Leisure.ogg|37</item>
         <item>file:///system/media/audio/ringtones/Lollipop.ogg|38</item>
         <item>file:///system/media/audio/ringtones/MIX.ogg|39</item>
+        <item>file:///system/media/audio/ringtones/MiMix2.ogg|39</item>
         <item>file:///system/media/audio/ringtones/Mi.ogg|40</item>
         <item>file:///system/media/audio/ringtones/MiHouse.ogg|41</item>
         <item>file:///system/media/audio/ringtones/MiJazz.ogg|42</item>
