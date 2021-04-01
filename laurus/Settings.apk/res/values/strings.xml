@@ -1113,6 +1113,11 @@ Here's what might be wrong:
     <string name="bluetooth_max_connected_audio_devices_dialog_title">Select maximum number of connected Bluetooth audio devices</string>
     <string name="bluetooth_max_connected_audio_devices_string">Maximum connected Bluetooth audio devices</string>
     <string name="bluetooth_menu_advanced">Advanced</string>
+    <string name="bluetooth_message_access_dialog_content">"An untrusted Bluetooth device, %1$s, wants to access your messages.
+
+You haven’t connected to %2$s before."</string>
+    <string name="bluetooth_message_access_dialog_title">Allow access to messages?</string>
+    <string name="bluetooth_message_access_notification_content">Untrusted device wants to access your messages. Tap for details.</string>
     <string name="bluetooth_message_move_out_of_blacklist">Unblock %1$s now?</string>
     <string name="bluetooth_mi_fast_connect">Pair compatible devices</string>
     <string name="bluetooth_mi_fast_connect_summary">Connect to nearby devices using a simplified pairing process</string>
@@ -1157,6 +1162,11 @@ Here's what might be wrong:
     <string name="bluetooth_pan_user_profile_summary_connected">Connected to device for internet access</string>
     <string name="bluetooth_pb_acceptance_dialog_text">%1$s wants to access your contacts and call history. Give access to %2$s?</string>
     <string name="bluetooth_pb_remember_choice">Don’t ask again</string>
+    <string name="bluetooth_phonebook_access_dialog_content">"An untrusted Bluetooth device, %1$s, wants to access your contacts and call log. This includes data about incoming and outgoing calls.
+
+You haven’t connected to %2$s before."</string>
+    <string name="bluetooth_phonebook_access_dialog_title">Allow access to contacts and call log?</string>
+    <string name="bluetooth_phonebook_access_notification_content">Untrusted device wants to access your contacts and call log. Tap for details.</string>
     <string name="bluetooth_phonebook_request">Phone book access request</string>
     <string name="bluetooth_pin_values_hint">Usually 0000 or 1234</string>
     <string name="bluetooth_pin_values_hint_16_digits">Must be 16 digits</string>
@@ -4122,7 +4132,7 @@ There are other users present on this device.
     <string name="micloud_service_title">Xiaomi Cloud</string>
     <string name="middle_function_key">Central area</string>
     <string name="miheadet_up_music">Previous track</string>
-    <string name="miheadset_Box">Box</string>
+    <string name="miheadset_Box">Case</string>
     <string name="miheadset_LeftEar">Left</string>
     <string name="miheadset_RightEar">Right</string>
     <string name="miheadset_active">Energetic</string>
