@@ -287,7 +287,9 @@
         <item>/system/framework/oat/arm/services.odex</item>
     </string-array>
     <array name="config_localPrivateDisplayPorts" />
-    <array name="config_locationExtraPackageNames" />
+    <string-array name="config_locationExtraPackageNames">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
     <string-array name="config_locationProviderPackageNames">
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>

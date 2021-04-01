@@ -1916,16 +1916,24 @@
         <item>@string/miheadset_key_config_volume_up</item>
     </string-array>
     <string-array name="double_tone_entries_left_TWS01">
-        <item>@string/miheadset_key_config_call_ai</item>
+        <item>@string/miheadset_play_pause</item>
+        <item>@string/miheadset_key_config_next_music</item>
         <item>@string/miheadet_up_music</item>
     </string-array>
     <string-array name="double_tone_entries_right_TWS01">
         <item>@string/miheadset_play_pause</item>
         <item>@string/miheadset_key_config_next_music</item>
+        <item>@string/miheadet_up_music</item>
     </string-array>
     <string-array name="double_tone_entry_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="double_tone_entry_values_TWS01">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Never</item>
@@ -3728,16 +3736,28 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/miheadset_key_config_volume_down</item>
     </string-array>
     <string-array name="triple_tone_entries_left_TWS01">
-        <item>@string/miheadset_game_mode</item>
+        <item>@string/miheadset_key_config_next_music</item>
+        <item>@string/miheadet_up_music</item>
         <item>@string/miheadset_key_config_volume_up</item>
+        <item>@string/miheadset_key_config_volume_down</item>
     </string-array>
     <string-array name="triple_tone_entriess_right_TWS01">
         <item>@string/miheadset_key_config_next_music</item>
+        <item>@string/miheadet_up_music</item>
+        <item>@string/miheadset_key_config_volume_up</item>
         <item>@string/miheadset_key_config_volume_down</item>
     </string-array>
     <string-array name="triple_tone_entry_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="triple_tone_entry_values_TWS01">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="true_color_screen_optimize_summary">
         <item>Adjust colors based on the current lighting</item>
