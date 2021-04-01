@@ -280,11 +280,11 @@ ID:%s
 Send this code to the supervisor."</string>
     <string name="dialog_disagree_privacychange_info">"You won't be able to use Mi Video online streaming services if you don't agree to our Privacy Policy. Tap \"Cancel\" to go back or \"Don't agree\" to continue and use Mi Video as a local player only."</string>
     <string name="dialog_disagree_privacychange_title">"Don't agree?"</string>
-    <string name="dialog_privacy_change_info">"We've updated Mi Video Privacy Policy due to the adjustmets in the services we offer. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using the app."</string>
+    <string name="dialog_privacy_change_info">"We've updated Mi Video Privacy Policy due to the adjustments in the services we offer. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using the app."</string>
     <string name="dialog_privacy_change_title">Privacy Policy update</string>
     <string name="dialog_privacy_info_new2">"To be able to use its services, you must agree that %1$s will collect, process, and use your personal information. You'll be deemed to have read and agreed to our &lt;a href=%2$s>Privacy Policy&lt;/a> when you tap \"Agree\" below."</string>
     <string name="dialog_privacy_info_new3">"To be able to use this service, you need to allow %1$s to collect, process, and use your personal information in accordance with the Privacy Policy. By tapping \"Agree\" below, you're agreeing to Xiaomi's &lt;a href=%2$s>Privacy Policy&lt;/a> and &lt;a href=%3$s>User Agreement&lt;/a>. &lt;br/>&lt;br/>Tapping \"Agree\" also allows Mi Video to access the list of apps installed on your device. With this permission, Mi Video will be able to share items, understand whether an app is installed on your device, which version of an app is installed, and whether an app is secure."</string>
-    <string name="dialog_privacy_info_new4">"Welcome to Mi Video! This app provides the following services:&lt;br>&lt;/br> - Online streaming services&lt;br>&lt;/br>- A local video player&lt;br>&lt;/br>Mi Video needs to collect necessary personal information to provide you with the basic services. You can learn how we handle the information we collect in our Privacy Policy. You'll be able change the related settings in Settings > Passwords &amp;amp; security.&lt;br>&lt;/br>Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using Mi Video."</string>
+    <string name="dialog_privacy_info_new4">"Welcome to Mi Video! This app provides the following services:&lt;br>&lt;/br> - Online streaming services&lt;br>&lt;/br>- A local video player&lt;br>&lt;/br>Mi Video needs to collect necessary personal information to provide you with the basic services. You can learn how we handle the information we collect in our Privacy Policy. You'll be able to change the related settings in Settings > Passwords &amp;amp; security.&lt;br>&lt;/br>Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using Mi Video."</string>
     <string name="dialog_privacy_revoke_cancel">Cancel</string>
     <string name="dialog_privacy_revoke_count_down">Withdraw (%1$ds)</string>
     <string name="dialog_privacy_revoke_description">By toggling off the switch, you withdraw your consent to the Privacy Policy of Mi Video. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period as required by applicable laws. Your withdrawal of consent to the Privacy Policy will be held as refusing to accept online services based on collected personal information.</string>
@@ -292,7 +292,7 @@ Send this code to the supervisor."</string>
     <string name="dialog_privacy_revoke_ok">Withdraw</string>
     <string name="dialog_privacy_revoke_success">Withdrew successfully</string>
     <string name="dialog_privacy_revoking">Withdrawing consent…</string>
-    <string name="dialog_privacy_title">Authorization</string>
+    <string name="dialog_privacy_title">Terms and conditions</string>
     <string name="dialog_revoke_privacy_info_new2">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from our servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
     <string name="dialog_revoke_privacy_title">Revoking authorization</string>
     <string name="disagree">"Don't agree"</string>
@@ -1190,6 +1190,7 @@ Increase the security of your account."</string>
     <string name="screenrecord_nosupport_record">"Screen recorder isn't currently supported on this device."</string>
     <string name="search">Search</string>
     <string name="search_bar_hint">Search videos</string>
+    <string name="search_bar_video_download_hint">Search or enter URL</string>
     <string name="search_choose_language">Select language</string>
     <string name="search_choose_voice_language">Select the language used for voice search</string>
     <string name="search_hot_words">Popular</string>
@@ -1357,7 +1358,19 @@ Increase the security of your account."</string>
     <string name="v_txt_login">Sign in to sync your favorites</string>
     <string name="v_update">Update</string>
     <string name="video_already_download_tip">"You've already downloaded this item"</string>
+    <string name="video_download_btn">Download</string>
     <string name="video_download_fail">"Couldn't download video"</string>
+    <string name="video_download_fail_hint">"Couldn't download"</string>
+    <string name="video_download_floating_guide">Download videos for free</string>
+    <string name="video_download_forbidden">"Can't download from this website"</string>
+    <string name="video_download_network_error">Network error</string>
+    <string name="video_download_play_video_guide">First, play the video.</string>
+    <string name="video_download_play_video_guide2">Then tap the button to download.</string>
+    <string name="video_download_site_search">URL</string>
+    <string name="video_download_source">Web download</string>
+    <string name="video_download_start">Downloading…</string>
+    <string name="video_download_storage_error">Not enough storage space</string>
+    <string name="video_downloading">Downloading…</string>
     <string name="video_live_over">This session is over</string>
     <string name="video_noyet_download_tip">This video is still being downloaded</string>
     <string name="video_offline">This item is no longer available</string>
