@@ -203,7 +203,7 @@
 .end method
 
 .method static final addExtraServices(Landroid/content/Context;Z)V
-    .locals 7
+    .locals 8
 
     const-string/jumbo v0, "support_shoulder_key"
 
@@ -232,6 +232,14 @@
 
     invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
+    new-instance v0, Lcom/miui/server/MiuiInitServer;
+
+    invoke-direct {v0, p0}, Lcom/miui/server/MiuiInitServer;-><init>(Landroid/content/Context;)V
+
+    const-string v2, "MiuiInit"
+
+    invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+
     const-class v0, Lcom/android/server/SystemServiceManager;
 
     invoke-static {v0}, Lcom/android/server/LocalServices;->getService(Ljava/lang/Class;)Ljava/lang/Object;
@@ -240,196 +248,191 @@
 
     check-cast v0, Lcom/android/server/SystemServiceManager;
 
-    const-class v2, Lcom/miui/server/MiuiInitServer$Lifecycle;
+    if-eqz v0, :cond_1
+
+    const-class v2, Lcom/miui/server/BackupManagerService$Lifecycle;
 
     invoke-virtual {v0, v2}, Lcom/android/server/SystemServiceManager;->startService(Ljava/lang/Class;)Lcom/android/server/SystemService;
 
-    new-instance v0, Lcom/miui/server/BackupManagerService;
-
-    invoke-direct {v0, p0}, Lcom/miui/server/BackupManagerService;-><init>(Landroid/content/Context;)V
-
-    const-string v2, "MiuiBackup"
-
-    invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
-
+    :cond_1
     nop
 
     invoke-static {}, Lcom/android/server/location/LocationPolicyManagerService;->getDefaultService()Lcom/android/server/location/LocationPolicyManagerService;
 
-    move-result-object v0
+    move-result-object v2
 
-    const-string/jumbo v2, "locationpolicy"
+    const-string/jumbo v3, "locationpolicy"
 
-    invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v3, v2}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    new-instance v0, Lcom/miui/server/PerfShielderService;
+    new-instance v2, Lcom/miui/server/PerfShielderService;
 
-    invoke-direct {v0, p0}, Lcom/miui/server/PerfShielderService;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p0}, Lcom/miui/server/PerfShielderService;-><init>(Landroid/content/Context;)V
 
-    const-string/jumbo v2, "perfshielder"
+    const-string/jumbo v3, "perfshielder"
 
-    invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v3, v2}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    new-instance v0, Lcom/android/server/am/ProcessManagerService;
+    new-instance v2, Lcom/android/server/am/ProcessManagerService;
 
-    invoke-direct {v0, p0}, Lcom/android/server/am/ProcessManagerService;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p0}, Lcom/android/server/am/ProcessManagerService;-><init>(Landroid/content/Context;)V
 
-    const-string v2, "ProcessManager"
+    const-string v3, "ProcessManager"
 
-    invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v3, v2}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    new-instance v0, Lcom/miui/server/rtboost/SchedBoostService;
+    new-instance v2, Lcom/miui/server/rtboost/SchedBoostService;
 
-    invoke-direct {v0, p0}, Lcom/miui/server/rtboost/SchedBoostService;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p0}, Lcom/miui/server/rtboost/SchedBoostService;-><init>(Landroid/content/Context;)V
 
-    const-string v2, "SchedBoostService"
+    const-string v3, "SchedBoostService"
 
-    invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v3, v2}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    new-instance v0, Lcom/android/server/am/MiuiMemoryService;
+    new-instance v2, Lcom/android/server/am/MiuiMemoryService;
 
-    invoke-direct {v0, p0}, Lcom/android/server/am/MiuiMemoryService;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p0}, Lcom/android/server/am/MiuiMemoryService;-><init>(Landroid/content/Context;)V
 
-    const-string/jumbo v2, "miui.memory.service"
+    const-string/jumbo v3, "miui.memory.service"
 
-    invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v3, v2}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    new-instance v0, Lcom/miui/server/MiuiCldService;
+    new-instance v2, Lcom/miui/server/MiuiCldService;
 
-    invoke-direct {v0, p0}, Lcom/miui/server/MiuiCldService;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p0}, Lcom/miui/server/MiuiCldService;-><init>(Landroid/content/Context;)V
 
-    const-string/jumbo v2, "miui.cld.service"
+    const-string/jumbo v3, "miui.cld.service"
 
-    invoke-static {v2, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v3, v2}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
 
     invoke-static {p0}, Lcom/android/server/pc/MiuiPcService;->startService(Landroid/content/Context;)V
 
-    const/4 v0, 0x0
+    const/4 v2, 0x0
 
-    const/4 v2, 0x1
+    const/4 v3, 0x1
 
     :try_start_0
-    const-string v3, "com.miui.whetstone.server.WhetstoneActivityManagerService"
+    const-string v4, "com.miui.whetstone.server.WhetstoneActivityManagerService"
 
-    invoke-static {v3, v0}, Lmiui/util/ReflectionUtils;->findClass(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class;
-
-    move-result-object v3
-
-    new-array v4, v2, [Ljava/lang/Object;
-
-    aput-object p0, v4, v1
-
-    invoke-static {v3, v4}, Lmiui/util/ReflectionUtils;->tryNewInstance(Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v4, v2}, Lmiui/util/ReflectionUtils;->findClass(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object v4
 
-    check-cast v4, Landroid/os/IBinder;
+    new-array v5, v3, [Ljava/lang/Object;
 
-    const-string v5, "SERVICE"
+    aput-object p0, v5, v1
 
-    const-class v6, Ljava/lang/String;
-
-    invoke-static {v3, v5, v6}, Lmiui/util/ReflectionUtils;->tryGetStaticObjectField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Lmiui/util/ObjectReference;
+    invoke-static {v4, v5}, Lmiui/util/ReflectionUtils;->tryNewInstance(Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
-    if-eqz v4, :cond_1
+    check-cast v5, Landroid/os/IBinder;
 
-    if-eqz v5, :cond_1
+    const-string v6, "SERVICE"
 
-    invoke-virtual {v5}, Lmiui/util/ObjectReference;->get()Ljava/lang/Object;
+    const-class v7, Ljava/lang/String;
+
+    invoke-static {v4, v6, v7}, Lmiui/util/ReflectionUtils;->tryGetStaticObjectField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Lmiui/util/ObjectReference;
 
     move-result-object v6
 
-    check-cast v6, Ljava/lang/String;
+    if-eqz v5, :cond_2
 
-    invoke-static {v6, v4}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    if-eqz v6, :cond_2
+
+    invoke-virtual {v6}, Lmiui/util/ObjectReference;->get()Ljava/lang/Object;
+
+    move-result-object v7
+
+    check-cast v7, Ljava/lang/String;
+
+    invoke-static {v7, v5}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    :cond_1
+    :cond_2
     goto :goto_0
 
     :catch_0
-    move-exception v3
+    move-exception v4
 
-    invoke-virtual {v3}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
 
     :goto_0
-    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v4, 0x1a
+    const/16 v5, 0x1a
 
-    if-ge v3, v4, :cond_3
+    if-ge v4, v5, :cond_4
 
     :try_start_1
-    const-string v3, "com.miui.server.TidaService"
+    const-string v4, "com.miui.server.TidaService"
 
-    invoke-static {v3}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
-
-    move-result-object v3
-
-    new-array v4, v2, [Ljava/lang/Class;
-
-    const-class v5, Landroid/content/Context;
-
-    aput-object v5, v4, v1
-
-    invoke-virtual {v3, v4}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-static {v4}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v4
 
-    const-string v5, "SERVICE_NAME"
+    new-array v5, v3, [Ljava/lang/Class;
 
-    invoke-virtual {v3, v5}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    const-class v6, Landroid/content/Context;
+
+    aput-object v6, v5, v1
+
+    invoke-virtual {v4, v5}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v5
 
-    if-eqz v4, :cond_2
+    const-string v6, "SERVICE_NAME"
 
-    if-eqz v5, :cond_2
+    invoke-virtual {v4, v6}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
-    new-array v2, v2, [Ljava/lang/Object;
+    move-result-object v6
 
-    aput-object p0, v2, v1
+    if-eqz v5, :cond_3
 
-    invoke-virtual {v4, v2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    if-eqz v6, :cond_3
+
+    new-array v3, v3, [Ljava/lang/Object;
+
+    aput-object p0, v3, v1
+
+    invoke-virtual {v5, v3}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/os/IBinder;
 
-    invoke-virtual {v5, v0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v6, v2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    move-result-object v0
+    move-result-object v2
 
-    check-cast v0, Ljava/lang/String;
+    check-cast v2, Ljava/lang/String;
 
-    invoke-static {v0, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v2, v1}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
-    :cond_2
+    :cond_3
     goto :goto_1
 
     :catch_1
-    move-exception v0
+    move-exception v1
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    :cond_3
+    :cond_4
     :goto_1
     invoke-static {}, Lcom/android/server/display/ScreenEffectService;->startScreenEffectService()V
 
     invoke-static {}, Lcom/android/server/MiuiFgThread;->initialMiuiFgThread()V
 
-    sget-boolean v0, Lcom/miui/enterprise/settings/EnterpriseSettings;->ENTERPRISE_ACTIVATED:Z
+    sget-boolean v1, Lcom/miui/enterprise/settings/EnterpriseSettings;->ENTERPRISE_ACTIVATED:Z
 
-    if-eqz v0, :cond_4
+    if-eqz v1, :cond_5
 
     invoke-static {p0}, Lcom/miui/server/enterprise/EnterpriseManagerService;->init(Landroid/content/Context;)V
 
-    :cond_4
+    :cond_5
     invoke-static {p0}, Lcom/xiaomi/mirror/service/MirrorService;->init(Landroid/content/Context;)V
 
     return-void
