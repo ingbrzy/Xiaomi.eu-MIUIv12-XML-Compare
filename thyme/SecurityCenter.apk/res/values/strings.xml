@@ -2893,7 +2893,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permission_instruction_dont_disturb">This permission allows apps to turn DND mode on and off.</string>
     <string name="permission_instruction_draw_overlay">This permission allows apps to display floating windows over any other interface on your device, which may affect the normal use of other apps. Malicious apps might use this permission to read or collect private information (e.g. passwords) through transparent floating windows.</string>
     <string name="permission_instruction_external_storage">This permission allows apps to access photos, media, and files on your device. Be careful with this permission to avoid unnecessary disclosure of private information.</string>
-    <string name="permission_instruction_gallery">To protect your privacy, MIUI lets you decide whether you allow the apps which have storage permissions to access Gallery.</string>
+    <string name="permission_instruction_gallery">"If you allow apps to access files in their own folders, MIUI lets you decide whether you also want these apps to access the items in your Gallery in order to protect your privacy. As the apps with Android API level 29 or higher already support storage partitions, this switch won't be provided for them."</string>
     <string name="permission_instruction_get_accounts">This permission allows apps to access the list of accounts stored on your device. This list might contain all your personal accounts created by installed apps, as well as the accounts from social media platforms and communication tools.</string>
     <string name="permission_instruction_install_shortcuts">This permission allows apps to create Home screen shortcuts.</string>
     <string name="permission_instruction_install_unknown_source">This permission allows apps to install other apps on your device. Malicious apps use this permission to install apps without your confirmation.</string>
@@ -2920,8 +2920,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permission_instruction_send_payment_sms">This permission allows apps to send paid text messages.</string>
     <string name="permission_instruction_send_sms">This permission allows apps to send text messages, which may generate additional fees. Malicious apps might use this permission to send paid messages without your consent.</string>
     <string name="permission_instruction_show_locked">This permission allows apps to display items on your Lock screen. Malicious apps might use this permission to show you annoying ads.</string>
-    <string name="permission_instruction_sociality">To protect your privacy, MIUI lets you decide whether you allow the apps which have storage permissions to access your messages in social media apps.</string>
-    <string name="permission_instruction_storage">To protect your privacy, MIUI lets you decide whether you allow the apps which have storage permissions to access Gallery and your messages in social media apps.</string>
+    <string name="permission_instruction_sociality">"If you allow apps to access files in their own folders, MIUI lets you decide whether you also want these apps to access the files generated in social media apps in order to protect your privacy. As the apps with Android API level 29 or higher already support storage partitions, this switch won't be provided for them."</string>
+    <string name="permission_instruction_storage">"If you allow apps to access files in their own folders, MIUI lets you decide whether you also want these apps to access the items in your Gallery and files generated in social media apps in order to protect your privacy. As the apps with Android API level 29 or higher already support storage partitions, this switch won't be provided for them."</string>
     <string name="permission_instruction_touch_pay">This permission allows apps to perform contactless payments.</string>
     <string name="permission_instruction_use_sip">This permission allows apps to use SIP video services.</string>
     <string name="permission_instruction_vr_assistant">This permission allows apps to use VR assistant services.</string>
@@ -3064,6 +3064,15 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_center_time_to_boot">Power on time</string>
     <string name="power_center_time_to_shutdown">Power off time</string>
     <string name="power_center_title">Battery</string>
+    <string name="power_center_unoffical_battery_button">Find an authorized service provider</string>
+    <string name="power_center_unoffical_battery_dialog">Unauthorized battery warning</string>
+    <string name="power_center_unoffical_battery_dialog_positive">Learn more</string>
+    <string name="power_center_unoffical_battery_dialog_summary">Looks like an unauthorized battery is installed in this device. Charging power will be lowered to protect your device. Using unauthorized batteries may result in battery swelling, overheating, and leakage. It may also cause fire or other hazards. Find an authorized service provider to replace your battery.</string>
+    <string name="power_center_unoffical_battery_noti_summary">Your current battery might pose security risks</string>
+    <string name="power_center_unoffical_battery_summary1">This device was equipped with a built-in battery that should only be replaced by an authorized service provider.</string>
+    <string name="power_center_unoffical_battery_summary2">Replacing the battery elsewhere may damage this device. Using unauthorized batteries may result in battery swelling, overheating, and leakage. It may also cause fire or other hazards. Do not use unauthorized batteries.</string>
+    <string name="power_center_unoffical_battery_tip">"Health info isn't available for this unauthorized battery. Tap to learn about security risks."</string>
+    <string name="power_center_unoffical_battery_title">Risks caused by using unauthorized batteries</string>
     <string name="power_center_used_time_Introduction">Time on battery since it was last charged past %s</string>
     <string name="power_consume_hardware_total_format">Hardware: %s</string>
     <string name="power_consume_other">Other</string>
