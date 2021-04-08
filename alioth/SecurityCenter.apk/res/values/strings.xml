@@ -885,6 +885,13 @@ You will not lose any app data."</string>
     <string name="celcius_symbol">℃</string>
     <string name="cellular_data_auto_check">Check automatically</string>
     <string name="cellular_package_daily_input">Enter</string>
+    <string name="cetus_invisible_mode">Incognito</string>
+    <string name="cetus_invisible_mode_description_card">Suspend permissions</string>
+    <string name="cetus_invisible_mode_description_switch">Turn on to suspend microphone, camera, and location-related permissions for all apps</string>
+    <string name="cetus_invisible_mode_warn_all">"You're incognito. Microphone, camera, and location permissions are suspended."</string>
+    <string name="cetus_invisible_mode_warn_camera">"You're incognito. Camera permissions are suspended."</string>
+    <string name="cetus_invisible_mode_warn_location">"You're incognito. Location permissions are suspended."</string>
+    <string name="cetus_invisible_mode_warn_record_audio">"You're incognito. Microphone permissions are suspended."</string>
     <string name="charger_detect_button_ok">Got it</string>
     <string name="charger_detect_info1">Check whether the power adapter and cable are properly connected.</string>
     <string name="charger_detect_info2">"Charging may also slow down if you're using non-standard or old power adapters and cables."</string>
@@ -2886,7 +2893,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permission_instruction_dont_disturb">This permission allows apps to turn DND mode on and off.</string>
     <string name="permission_instruction_draw_overlay">This permission allows apps to display floating windows over any other interface on your device, which may affect the normal use of other apps. Malicious apps might use this permission to read or collect private information (e.g. passwords) through transparent floating windows.</string>
     <string name="permission_instruction_external_storage">This permission allows apps to access photos, media, and files on your device. Be careful with this permission to avoid unnecessary disclosure of private information.</string>
-    <string name="permission_instruction_gallery">To protect your privacy, MIUI lets you decide whether you allow the apps which have storage permissions to access Gallery.</string>
+    <string name="permission_instruction_gallery">"If you allow apps to access files in their own folders, MIUI lets you decide whether you also want these apps to access the items in your Gallery in order to protect your privacy. As the apps with Android API level 29 or higher already support storage partitions, this switch won't be provided for them."</string>
     <string name="permission_instruction_get_accounts">This permission allows apps to access the list of accounts stored on your device. This list might contain all your personal accounts created by installed apps, as well as the accounts from social media platforms and communication tools.</string>
     <string name="permission_instruction_install_shortcuts">This permission allows apps to create Home screen shortcuts.</string>
     <string name="permission_instruction_install_unknown_source">This permission allows apps to install other apps on your device. Malicious apps use this permission to install apps without your confirmation.</string>
@@ -2913,8 +2920,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permission_instruction_send_payment_sms">This permission allows apps to send paid text messages.</string>
     <string name="permission_instruction_send_sms">This permission allows apps to send text messages, which may generate additional fees. Malicious apps might use this permission to send paid messages without your consent.</string>
     <string name="permission_instruction_show_locked">This permission allows apps to display items on your Lock screen. Malicious apps might use this permission to show you annoying ads.</string>
-    <string name="permission_instruction_sociality">To protect your privacy, MIUI lets you decide whether you allow the apps which have storage permissions to access your messages in social media apps.</string>
-    <string name="permission_instruction_storage">To protect your privacy, MIUI lets you decide whether you allow the apps which have storage permissions to access Gallery and your messages in social media apps.</string>
+    <string name="permission_instruction_sociality">"If you allow apps to access files in their own folders, MIUI lets you decide whether you also want these apps to access the files generated in social media apps in order to protect your privacy. As the apps with Android API level 29 or higher already support storage partitions, this switch won't be provided for them."</string>
+    <string name="permission_instruction_storage">"If you allow apps to access files in their own folders, MIUI lets you decide whether you also want these apps to access the items in your Gallery and files generated in social media apps in order to protect your privacy. As the apps with Android API level 29 or higher already support storage partitions, this switch won't be provided for them."</string>
     <string name="permission_instruction_touch_pay">This permission allows apps to perform contactless payments.</string>
     <string name="permission_instruction_use_sip">This permission allows apps to use SIP video services.</string>
     <string name="permission_instruction_vr_assistant">This permission allows apps to use VR assistant services.</string>
@@ -3021,6 +3028,11 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_center_list_item_wake_notification">"Don't wake screen for notifications"</string>
     <string name="power_center_list_item_wake_notification_summary">Incoming notifications will be displayed only when you turn the screen on</string>
     <string name="power_center_main_percent_formatted">%s%%</string>
+    <string name="power_center_night_charge_noti_subtitle">The battery will be fully charged by %s</string>
+    <string name="power_center_night_charge_noti_title">Optimized charging is on</string>
+    <string name="power_center_night_charge_protection">Optimized charging</string>
+    <string name="power_center_night_charge_protection_setting">View more options in Security > Battery.</string>
+    <string name="power_center_night_charge_protection_summary">To reduce battery aging, MIUI learns from your daily charging routine in order to reduce unnecessary continuous charging</string>
     <string name="power_center_one_key_save">Optimize</string>
     <string name="power_center_ontime_boot">Power on time</string>
     <string name="power_center_ontime_shutdown">Power off time</string>
@@ -3052,6 +3064,15 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_center_time_to_boot">Power on time</string>
     <string name="power_center_time_to_shutdown">Power off time</string>
     <string name="power_center_title">Battery</string>
+    <string name="power_center_unoffical_battery_button">Find an authorized service provider</string>
+    <string name="power_center_unoffical_battery_dialog">Unauthorized battery warning</string>
+    <string name="power_center_unoffical_battery_dialog_positive">Learn more</string>
+    <string name="power_center_unoffical_battery_dialog_summary">Looks like an unauthorized battery is installed in this device. Charging power will be lowered to protect your device. Using unauthorized batteries may result in battery swelling, overheating, and leakage. It may also cause fire or other hazards. Find an authorized service provider to replace your battery.</string>
+    <string name="power_center_unoffical_battery_noti_summary">Your current battery might pose security risks</string>
+    <string name="power_center_unoffical_battery_summary1">This device was equipped with a built-in battery that should only be replaced by an authorized service provider.</string>
+    <string name="power_center_unoffical_battery_summary2">Replacing the battery elsewhere may damage this device. Using unauthorized batteries may result in battery swelling, overheating, and leakage. It may also cause fire or other hazards. Do not use unauthorized batteries.</string>
+    <string name="power_center_unoffical_battery_tip">"Health info isn't available for this unauthorized battery. Tap to learn about security risks."</string>
+    <string name="power_center_unoffical_battery_title">Risks caused by using unauthorized batteries</string>
     <string name="power_center_used_time_Introduction">Time on battery since it was last charged past %s</string>
     <string name="power_consume_hardware_total_format">Hardware: %s</string>
     <string name="power_consume_other">Other</string>
@@ -3060,6 +3081,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_consume_rank_title">Power usage</string>
     <string name="power_consume_software_total_format">Apps: %s</string>
     <string name="power_customize_giveup_change">Discard changes?</string>
+    <string name="power_dailog_night_charge_protection_done">Got it</string>
+    <string name="power_dailog_night_charge_protection_summary">Looks like your battery is fully charged most of the time, which may speed up its aging. MIUI turned on optimized charging for you to avoid such problems.</string>
     <string name="power_dialog_cancel">Cancel</string>
     <string name="power_dialog_ok">OK</string>
     <string name="power_dialog_super_save_msg">"Ultra battery saver restricts most power-consuming features and decreases your device's performance in order to leave basic functionality (e.g. calls, SMS, and connecting to the network) available as long as possible. Turn on Ultra battery saver?"</string>
@@ -4137,6 +4160,12 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="storage_available_total_size">%1$s out of %2$s available</string>
     <string name="storage_available_total_size1">Occupied: %1$s | Total: %2$s</string>
     <string name="storage_category_title">Additional options</string>
+    <string name="storage_clear_available_total_size">%1$s/%3$s occupied | %2$s available</string>
+    <string name="storage_clear_cache">Free up %s</string>
+    <string name="storage_clear_cache_deep">Free up storage</string>
+    <string name="storage_clear_cache_large">Free up %s</string>
+    <string name="storage_clear_more_tools">More cleaning tools</string>
+    <string name="storage_clear_video">Clear video cache</string>
     <string name="storage_deepclean_entry">Deep clean</string>
     <string name="storage_dialog_unmountable">"This ^1 is corrupted.
 
