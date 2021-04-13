@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_repeat_type">
+        <item>Once</item>
+        <item>Every day</item>
+        <item>Legal workdays</item>
+        <item>Weekdays</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Once</item>
+        <item>Every day</item>
+        <item>Weekdays</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="alarm_repeat_type_no_workdays_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="alarm_repeat_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="alphabet_table">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="always_enabled_app_list">
+        <item>com.android.providers.applications</item>
+        <item>com.android.providers.calendar</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.drm</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.providers.telephony</item>
+        <item>com.android.providers.userdictionary</item>
+        <item>com.miui.providers.userbook</item>
+        <item>com.miui.providers.weather</item>
+        <item>com.miui.yellowpage</item>
+        <item>com.miui</item>
+        <item>com.google.android.packageinstaller</item>
+        <item>com.miui.core</item>
+    </string-array>
+    <string-array name="am_pms">
+        <item>@string/am</item>
+        <item>@string/pm</item>
+    </string-array>
+    <string-array name="app_behavior_type_menu">
+        <item>All records</item>
+        <item>Autostart</item>
+        <item>Chain start</item>
+        <item>Using permissions</item>
+        <item>Sensitive actions</item>
+    </string-array>
+    <string-array name="applock_password_types">
+        <item>Pattern</item>
+        <item>PIN</item>
+        <item>Password</item>
+    </string-array>
+    <string-array name="cellular_data_unit">
+        <item>GB</item>
+        <item>MB</item>
+    </string-array>
+    <string-array name="cellular_package_type">
+        <item>Monthly plan</item>
+        <item>Unlimited</item>
+        <item>Daily plan</item>
+    </string-array>
+    <string-array name="chinese_days">
+        <item>@string/chinese_day_1</item>
+        <item>@string/chinese_day_2</item>
+        <item>@string/chinese_day_3</item>
+        <item>@string/chinese_day_4</item>
+        <item>@string/chinese_day_5</item>
+        <item>@string/chinese_day_6</item>
+        <item>@string/chinese_day_7</item>
+        <item>@string/chinese_day_8</item>
+        <item>@string/chinese_day_9</item>
+        <item>@string/chinese_day_10</item>
+        <item>@string/chinese_day_11</item>
+        <item>@string/chinese_day_12</item>
+        <item>@string/chinese_day_13</item>
+        <item>@string/chinese_day_14</item>
+        <item>@string/chinese_day_15</item>
+        <item>@string/chinese_day_16</item>
+        <item>@string/chinese_day_17</item>
+        <item>@string/chinese_day_18</item>
+        <item>@string/chinese_day_19</item>
+        <item>@string/chinese_day_20</item>
+        <item>@string/chinese_day_21</item>
+        <item>@string/chinese_day_22</item>
+        <item>@string/chinese_day_23</item>
+        <item>@string/chinese_day_24</item>
+        <item>@string/chinese_day_25</item>
+        <item>@string/chinese_day_26</item>
+        <item>@string/chinese_day_27</item>
+        <item>@string/chinese_day_28</item>
+        <item>@string/chinese_day_29</item>
+        <item>@string/chinese_day_30</item>
+    </string-array>
+    <string-array name="chinese_digits">
+        <item>@string/chinese_digit_zero</item>
+        <item>@string/chinese_digit_one</item>
+        <item>@string/chinese_digit_two</item>
+        <item>@string/chinese_digit_three</item>
+        <item>@string/chinese_digit_four</item>
+        <item>@string/chinese_digit_five</item>
+        <item>@string/chinese_digit_six</item>
+        <item>@string/chinese_digit_seven</item>
+        <item>@string/chinese_digit_eight</item>
+        <item>@string/chinese_digit_nine</item>
+        <item>@string/chinese_digit_ten</item>
+    </string-array>
+    <string-array name="chinese_leap_months">
+        <item>@string/empty</item>
+        <item>@string/chinese_leap</item>
+    </string-array>
+    <string-array name="chinese_months">
+        <item>@string/chinese_month_january</item>
+        <item>@string/chinese_month_february</item>
+        <item>@string/chinese_month_march</item>
+        <item>@string/chinese_month_april</item>
+        <item>@string/chinese_month_may</item>
+        <item>@string/chinese_month_june</item>
+        <item>@string/chinese_month_july</item>
+        <item>@string/chinese_month_august</item>
+        <item>@string/chinese_month_september</item>
+        <item>@string/chinese_month_october</item>
+        <item>@string/chinese_month_november</item>
+        <item>@string/chinese_month_december</item>
+    </string-array>
+    <string-array name="chinese_symbol_animals">
+        <item>@string/chinese_symbol_animals_mouse</item>
+        <item>@string/chinese_symbol_animals_cow</item>
+        <item>@string/chinese_symbol_animals_tiger</item>
+        <item>@string/chinese_symbol_animals_rabbit</item>
+        <item>@string/chinese_symbol_animals_dragon</item>
+        <item>@string/chinese_symbol_animals_snake</item>
+        <item>@string/chinese_symbol_animals_horse</item>
+        <item>@string/chinese_symbol_animals_sheep</item>
+        <item>@string/chinese_symbol_animals_monkey</item>
+        <item>@string/chinese_symbol_animals_chicken</item>
+        <item>@string/chinese_symbol_animals_dog</item>
+        <item>@string/chinese_symbol_animals_pig</item>
+    </string-array>
+    <string-array name="clean_cached_process_white_list">
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.virtualsim</item>
+        <item>com.android.keyguard</item>
+        <item>com.android.keychain</item>
+        <item>com.miui.systemAdSolution</item>
+        <item>com.miui.msa.global</item>
+        <item>com.miui.securitycore</item>
+        <item>com.miui.personalassistant</item>
+        <item>com.android.updater</item>
+        <item>com.miui.analytics</item>
+        <item>com.miui.cleanmaster</item>
+        <item>com.miui.cleaner</item>
+    </string-array>
+    <string-array name="contact_infotype_entries">
+        <item>@string/name</item>
+        <item>@string/nickname</item>
+        <item>@string/phone</item>
+        <item>@string/email</item>
+        <item>@string/organization</item>
+        <item>@string/im</item>
+        <item>@string/sip_phone</item>
+        <item>@string/birthday</item>
+        <item>@string/website</item>
+        <item>@string/address</item>
+        <item>@string/note</item>
+    </string-array>
+    <string-array name="daily_brand">
+        <item>Custom</item>
+        <item>Mi Fan card</item>
+        <item>Xiao Tiansheng card</item>
+        <item>Tencent King card</item>
+    </string-array>
+    <string-array name="daily_rent_card_brands">
+        <item>Custom</item>
+        <item>Mi Mobile</item>
+        <item>Mi Fan card</item>
+        <item>Tianshen card</item>
+        <item>Tencent card</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>"Yesterday (mobile data) "</item>
+        <item>"Today (mobile data) "</item>
+        <item>"Last month (mobile data) "</item>
+        <item>"This month (mobile data) "</item>
+        <item>"Yesterday (Wi-Fi) "</item>
+        <item>"Today (Wi-Fi) "</item>
+        <item>"Last month (Wi-Fi) "</item>
+        <item>"This month (Wi-Fi) "</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>"Yesterday "</item>
+        <item>"Today "</item>
+        <item>"Last month "</item>
+        <item>"This month "</item>
+    </string-array>
+    <string-array name="date_of_traffic_cmcc">
+        <item>"This week "</item>
+        <item>"Today "</item>
+        <item>"This month "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"Yesterday: "</item>
+        <item>"Today: "</item>
+        <item>"Last month: "</item>
+        <item>"This month: "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix_cmcc">
+        <item>"This week: "</item>
+        <item>"Today: "</item>
+        <item>"This month: "</item>
+    </string-array>
+    <string-array name="debug_open_intercept">
+        <item>It will be possible to access and edit files on your device using a computer.</item>
+        <item>Installing apps on your device without your explicit permission will be allowed.</item>
+        <item>"You'll be able to monitor and record your screen content remotely."</item>
+        <item>It will be possible to access the detailed information about your device.</item>
+    </string-array>
+    <string-array name="detailed_am_pms">
+        <item>@string/midnight</item>
+        <item>@string/early_morning</item>
+        <item>@string/morning</item>
+        <item>@string/noon</item>
+        <item>@string/afternoon</item>
+        <item>@string/evening</item>
+        <item>@string/night</item>
+    </string-array>
+    <string-array name="earthly_branches">
+        <item>@string/earthly_branches_zi</item>
+        <item>@string/earthly_branches_chou</item>
+        <item>@string/earthly_branches_yin</item>
+        <item>@string/earthly_branches_mao</item>
+        <item>@string/earthly_branches_chen</item>
+        <item>@string/earthly_branches_si</item>
+        <item>@string/earthly_branches_wu</item>
+        <item>@string/earthly_branches_wei</item>
+        <item>@string/earthly_branches_shen</item>
+        <item>@string/earthly_branches_you</item>
+        <item>@string/earthly_branches_xu</item>
+        <item>@string/earthly_branches_hai</item>
+    </string-array>
+    <string-array name="eras">
+        <item>@string/eras_bc</item>
+        <item>@string/eras_ad</item>
+    </string-array>
+    <string-array name="ew_emergency_blood_type_arrays">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="ew_emergency_organ_donation_arrays">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="gb_adv_touch_custom_level">
+        <item>Lowest</item>
+        <item>Low</item>
+        <item>Regular</item>
+        <item>High</item>
+        <item>Highest</item>
+    </string-array>
+    <string-array name="heavenly_stems">
+        <item>@string/heavenly_stems_jia</item>
+        <item>@string/heavenly_stems_yi</item>
+        <item>@string/heavenly_stems_bing</item>
+        <item>@string/heavenly_stems_ding</item>
+        <item>@string/heavenly_stems_wu</item>
+        <item>@string/heavenly_stems_ji</item>
+        <item>@string/heavenly_stems_geng</item>
+        <item>@string/heavenly_stems_xin</item>
+        <item>@string/heavenly_stems_ren</item>
+        <item>@string/heavenly_stems_gui</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
+    </string-array>
+    <string-array name="lock_mode">
+        <item>When device is locked</item>
+        <item>When device is locked or after exiting app</item>
+        <item>When device is locked​ or in 1 minute after exiting app</item>
+    </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="luckymoney_sound">
+        <item>静音</item>
+        <item>金币</item>
+        <item>红包来了</item>
+    </string-array>
+    <string-array name="mi_service_traffic_type">
+        <item>"Mobile usage "</item>
+        <item>"Wi-Fi usage "</item>
+    </string-array>
+    <string-array name="miui_optimization_close_intercept">
+        <item>Important: Multiple system apps might stop working properly.</item>
+        <item>Text layouts, accounts, and content might not be displayed correctly.</item>
+    </string-array>
+    <string-array name="months">
+        <item>@string/month_january</item>
+        <item>@string/month_february</item>
+        <item>@string/month_march</item>
+        <item>@string/month_april</item>
+        <item>@string/month_may</item>
+        <item>@string/month_june</item>
+        <item>@string/month_july</item>
+        <item>@string/month_august</item>
+        <item>@string/month_september</item>
+        <item>@string/month_october</item>
+        <item>@string/month_november</item>
+        <item>@string/month_december</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>@string/month_january_short</item>
+        <item>@string/month_february_short</item>
+        <item>@string/month_march_short</item>
+        <item>@string/month_april_short</item>
+        <item>@string/month_may_short</item>
+        <item>@string/month_june_short</item>
+        <item>@string/month_july_short</item>
+        <item>@string/month_august_short</item>
+        <item>@string/month_september_short</item>
+        <item>@string/month_october_short</item>
+        <item>@string/month_november_short</item>
+        <item>@string/month_december_short</item>
+    </string-array>
+    <string-array name="months_shortest">
+        <item>@string/month_january_shortest</item>
+        <item>@string/month_february_shortest</item>
+        <item>@string/month_march_shortest</item>
+        <item>@string/month_april_shortest</item>
+        <item>@string/month_may_shortest</item>
+        <item>@string/month_june_shortest</item>
+        <item>@string/month_july_shortest</item>
+        <item>@string/month_august_shortest</item>
+        <item>@string/month_september_shortest</item>
+        <item>@string/month_october_shortest</item>
+        <item>@string/month_november_shortest</item>
+        <item>@string/month_december_shortest</item>
+    </string-array>
+    <integer-array name="om_app_background_restrict">
+        <item>0</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="om_occupy_memory_percent">
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
+    <string-array name="operate_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
+    <string-array name="operate_memory_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="over_limit_traffic_waring_style">
+        <item>Show warning</item>
+        <item>Warn and turn off mobile data</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <integer-array name="pc_choice_dialog_battery_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="pc_disconnect_data_time_choice_items">
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="pc_settings_thermal_entries">
+        <item>Default</item>
+        <item>Prioritize performance</item>
+    </string-array>
+    <string-array name="pc_settings_thermal_summaries">
+        <item>Using default temperature control mode</item>
+        <item>Prioritizing performance</item>
+    </string-array>
+    <integer-array name="pc_time_choice_items">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="perm_intercept_notification">
+        <item>Read all your notifications, including the content of your text messages and other items that might contain personal information</item>
+        <item>Restrict notification permissions for some apps</item>
+        <item>Simulate tapping notifications and open apps</item>
+        <item>Turn DND mode on and off</item>
+    </string-array>
+    <string-array name="perm_intercept_statitics">
+        <item>Collect the data about your interests and behavior by learning what apps you use and how often you use them</item>
+        <item>Access your carrier-related and language settings, as well as other details</item>
+    </string-array>
+    <string-array name="perm_intercept_unknown_source">
+        <item>"Third party apps that aren't verified might cause multiple problems and decrease system stability."</item>
+        <item>Some third party apps may contain malware that puts your personal data at risk.</item>
+    </string-array>
+    <string-array name="priority_storage_entries">
+        <item>Internal storage</item>
+        <item>External storage</item>
+    </string-array>
+    <string-array name="priority_storage_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="roaming_network_type">
+        <item>Always</item>
+        <item>For exceptions only</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="sms_report_type">
+        <item>Data Usage</item>
+        <item>Phone balance</item>
+    </string-array>
+    <string-array name="solar_terms">
+        <item>@string/empty</item>
+        <item>@string/solar_term_slight_cold</item>
+        <item>@string/solar_term_great_cold</item>
+        <item>@string/solar_term_spring_begins</item>
+        <item>@string/solar_term_the_rains</item>
+        <item>@string/solar_term_insects_awaken</item>
+        <item>@string/solar_term_vernal_equinox</item>
+        <item>@string/solar_term_clear_and_bright</item>
+        <item>@string/solar_term_grain_rain</item>
+        <item>@string/solar_term_summer_begins</item>
+        <item>@string/solar_term_grain_buds</item>
+        <item>@string/solar_term_grain_in_ear</item>
+        <item>@string/solar_term_summer_solstice</item>
+        <item>@string/solar_term_slight_heat</item>
+        <item>@string/solar_term_great_heat</item>
+        <item>@string/solar_term_autumn_begins</item>
+        <item>@string/solar_term_stopping_the_heat</item>
+        <item>@string/solar_term_white_dews</item>
+        <item>@string/solar_term_autumn_equinox</item>
+        <item>@string/solar_term_cold_dews</item>
+        <item>@string/solar_term_hoar_frost_falls</item>
+        <item>@string/solar_term_winter_begins</item>
+        <item>@string/solar_term_light_snow</item>
+        <item>@string/solar_term_heavy_snow</item>
+        <item>@string/solar_term_winter_solstice</item>
+    </string-array>
+    <string-array name="sort_title">
+        <item>Sort by status</item>
+        <item>Sort by app name</item>
+        <item>Sort by usage frequency</item>
+        <item>Sort by used storage</item>
+        <item>Sort by installation time</item>
+    </string-array>
+    <string-array name="sort_type">
+        <item>Status</item>
+        <item>App name</item>
+        <item>Usage frequency</item>
+        <item>Used storage</item>
+        <item>Installation time</item>
+    </string-array>
+    <string-array name="st_antispam_callwait_setting">
+        <item>@string/open_callwait</item>
+        <item>@string/close_callwait</item>
+    </string-array>
+    <string-array name="st_antispam_choose_methods_black">
+        <item>@string/st_antispam_bw_man_add</item>
+        <item>@string/st_antispam_bw_head_add</item>
+        <item>@string/st_antispam_bw_pick_add</item>
+        <item>@string/st_antispam_black_adress_add</item>
+    </string-array>
+    <string-array name="st_antispam_choose_methods_black_international">
+        <item>@string/st_antispam_bw_man_add</item>
+        <item>@string/st_antispam_bw_head_add</item>
+        <item>@string/st_antispam_bw_pick_add</item>
+    </string-array>
+    <string-array name="st_antispam_choose_methods_white">
+        <item>@string/st_antispam_bw_man_add</item>
+        <item>@string/st_antispam_bw_head_add</item>
+        <item>@string/st_antispam_bw_pick_add</item>
+        <item>@string/st_antispam_bw_adress_add</item>
+    </string-array>
+    <string-array name="st_antispam_choose_methods_white_international">
+        <item>@string/st_antispam_bw_man_add</item>
+        <item>@string/st_antispam_bw_head_add</item>
+        <item>@string/st_antispam_bw_pick_add</item>
+    </string-array>
+    <string-array name="st_antispam_handle_methods">
+        <item>@string/st_antispam_des_anti</item>
+        <item>@string/st_antispam_des_smart_anti</item>
+        <item>@string/st_antispam_des_permit</item>
+        <item>@string/st_antispam_des_uesless</item>
+        <item>@string/st_antispam_des_permit_nokeyword</item>
+    </string-array>
+    <string-array name="st_antispam_handle_methods_mms">
+        <item>@string/st_antispam_des_anti</item>
+        <item>@string/st_antispam_des_smart_anti</item>
+        <item>@string/st_antispam_des_permit</item>
+    </string-array>
+    <string-array name="st_antispam_handle_methods_normal">
+        <item>@string/st_antispam_des_anti</item>
+        <item>@string/st_antispam_des_smart_anti</item>
+        <item>@string/st_antispam_des_permit_nokeyword</item>
+    </string-array>
+    <string-array name="st_antispam_handle_methods_normal_intl">
+        <item>@string/st_antispam_des_anti</item>
+        <item>@string/st_antispam_des_permit_nokeyword</item>
+    </string-array>
+    <string-array name="st_antispam_handle_methods_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="st_antispam_handle_methods_value_intl">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="st_antispam_mode_backsound_defined">
+        <item>@string/st_title_back_sound_busy</item>
+        <item>@string/st_title_back_sound_none</item>
+        <item>@string/st_title_back_sound_closed</item>
+        <item>@string/st_title_back_sound_stop</item>
+    </string-array>
+    <string-array name="st_antispam_mode_defined">
+        <item>@string/st_antispam_mode_smart</item>
+        <item>@string/st_antispam_mode_blacklist</item>
+        <item>@string/st_antispam_mode_only_contacts</item>
+        <item>@string/st_antispam_mode_only_whitelist</item>
+        <item>@string/st_antispam_mode_only_all_deny</item>
+    </string-array>
+    <string-array name="st_antispam_mode_defined_international">
+        <item>@string/st_antispam_mode_blacklist</item>
+        <item>@string/st_antispam_mode_only_contacts</item>
+        <item>@string/st_antispam_mode_only_whitelist</item>
+        <item>@string/st_antispam_mode_only_all_deny</item>
+    </string-array>
+    <string-array name="st_antispam_mode_defined_state">
+        <item>@string/st_antispam_mode_smart_state</item>
+        <item>@string/st_antispam_mode_blacklist_state</item>
+        <item>@string/st_antispam_mode_only_contacts_state</item>
+        <item>@string/st_antispam_mode_only_whitelist_state</item>
+        <item>@string/st_antispam_mode_only_all_deny_state</item>
+    </string-array>
+    <string-array name="st_antispam_mode_defined_state_international">
+        <item>@string/st_antispam_mode_blacklist_state</item>
+        <item>@string/st_antispam_mode_only_contacts_state</item>
+        <item>@string/st_antispam_mode_only_whitelist_state</item>
+        <item>@string/st_antispam_mode_only_all_deny_state</item>
+    </string-array>
+    <string-array name="st_antispam_mode_defined_sum">
+        <item>@string/st_antispam_mode_smart_sum</item>
+        <item>@string/st_antispam_mode_blacklist_sum</item>
+        <item>@string/st_antispam_mode_only_contacts_sum</item>
+        <item>@string/st_antispam_mode_only_whitelist_sum</item>
+        <item>@string/st_antispam_mode_only_all_deny_sum</item>
+    </string-array>
+    <string-array name="st_antispam_mode_defined_sum_international">
+        <item>@string/st_antispam_mode_blacklist_sum</item>
+        <item>@string/st_antispam_mode_only_contacts_sum</item>
+        <item>@string/st_antispam_mode_only_whitelist_sum</item>
+        <item>@string/st_antispam_mode_only_all_deny_sum</item>
+    </string-array>
+    <string-array name="st_antispam_notification_show_types">
+        <item>@string/antispam_notificaiton_type_show_all</item>
+        <item>@string/antispam_notificaiton_type_show_except_blacklist</item>
+        <item>@string/antispam_notificaiton_type_show_none</item>
+    </string-array>
+    <string-array name="st_antispam_notification_show_types_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tether_limit_warn_type">
+        <item>Turn off and notify</item>
+        <item>Only notify</item>
+    </string-array>
+    <string-array name="title_app_info">
+        <item>Installation source</item>
+        <item>Installation time</item>
+        <item>Last update source</item>
+        <item>Last update time</item>
+    </string-array>
+    <string-array name="traffic_package_type">
+        <item>Monthly data plan</item>
+        <item>Daily data plan</item>
+        <item>Unlimited data plan</item>
+    </string-array>
+    <string-array name="traffic_type">
+        <item>"Mobile data usage "</item>
+        <item>"Wi-Fi usage "</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+    <string-array name="week_days_short">
+        <item>@string/sunday_short</item>
+        <item>@string/monday_short</item>
+        <item>@string/tuesday_short</item>
+        <item>@string/wednesday_short</item>
+        <item>@string/thursday_short</item>
+        <item>@string/friday_short</item>
+        <item>@string/saturday_short</item>
+    </string-array>
+    <string-array name="week_days_shortest">
+        <item>@string/sunday_shortest</item>
+        <item>@string/monday_shortest</item>
+        <item>@string/tuesday_shortest</item>
+        <item>@string/wednesday_shortest</item>
+        <item>@string/thursday_shortest</item>
+        <item>@string/friday_shortest</item>
+        <item>@string/saturday_shortest</item>
+    </string-array>
+</resources>

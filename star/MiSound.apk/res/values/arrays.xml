@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="audio_visual_img_raw">
+        <item>@drawable/audio_visual_1_2</item>
+        <item>@drawable/audio_visual_2_2</item>
+        <item>@drawable/audio_visual_3_2</item>
+        <item>@drawable/audio_visual_4_2</item>
+    </array>
+    <string-array name="dax_geq_preset_values">
+        <item>0,0,0,0,0,0,0,0,0,0</item>
+        <item>4,1,-2,-0.25,0,-2,0,-2,0.5,4</item>
+        <item>0,0,0,-1,-1,-3,-0.5,0,0,0</item>
+        <item>-2,-0.5,-5,-1,0,0,-0.5,-3,-0.5,0</item>
+        <item>0,0,0,0,0.5,3,1,6,2,6</item>
+        <item>3,0,-3,-0.5,-0.5,-3,-0.5,0,0,2</item>
+        <item>2,2,-6,-2,3,1,0,1,0,2</item>
+        <item>3,1,-1,0,-0.5,-3,-0.5,0,0,0</item>
+        <item>2,0,0,-1.25,-1,-4,0,0,0,0</item>
+    </string-array>
+    <array name="dax_geq_select_image">
+        <item>@drawable/dax_geq_custom</item>
+        <item>@drawable/dax_geq_rock</item>
+        <item>@drawable/dax_geq_jazz</item>
+        <item>@drawable/dax_geq_pop</item>
+        <item>@drawable/dax_geq_classical</item>
+        <item>@drawable/dax_geq_hiphop</item>
+        <item>@drawable/dax_geq_blues</item>
+        <item>@drawable/dax_geq_electronic</item>
+        <item>@drawable/dax_geq_metal</item>
+    </array>
+    <string-array name="dax_geq_select_text">
+        <item>@string/eq_auto</item>
+        <item>@string/eq_rock</item>
+        <item>@string/eq_jazz</item>
+        <item>@string/eq_pop</item>
+        <item>@string/eq_classical</item>
+        <item>@string/eq_hiphop</item>
+        <item>@string/eq_blues</item>
+        <item>@string/eq_electronic</item>
+        <item>@string/eq_metal</item>
+    </string-array>
+    <string-array name="dax_profile_titles">
+        <item>@string/dolby_dax_profile_dynamic</item>
+        <item>@string/music_headset_scenario_video</item>
+        <item>@string/music_headset_scenario_music</item>
+        <item>@string/music_headset_scenario_vocal</item>
+    </string-array>
+    <string-array name="dax_profile_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_names">
+        <item>@string/eq_flat</item>
+        <item>@string/eq_rock</item>
+        <item>@string/eq_jazz</item>
+        <item>@string/eq_pop</item>
+        <item>@string/eq_classical</item>
+        <item>@string/eq_hiphop</item>
+        <item>@string/eq_blues</item>
+        <item>@string/eq_electronic</item>
+        <item>@string/eq_country</item>
+        <item>@string/eq_dance</item>
+        <item>@string/eq_metal</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_values">
+        <item>0,0,0,0,0,0,0</item>
+        <item>4,2,-2,0,-2,-2,4</item>
+        <item>0,0,0,-2,-3,0,0</item>
+        <item>0,-3,-5,0,0,-3,0</item>
+        <item>0,0,0,0,3,6,6</item>
+        <item>3,3,-3,0,-3,0,2</item>
+        <item>2,4,-6,4,0,1,2</item>
+        <item>3,3,-1,0,-3,0,0</item>
+        <item>0,0,-2,-2,2,2,0</item>
+        <item>0,4,2,0,-2,-2,4</item>
+        <item>2,0,0,-2,-4,0,0</item>
+    </string-array>
+    <string-array name="scenario_selector_titles">
+        <item>@string/music_headset_scenario_intelligent</item>
+        <item>@string/music_headset_scenario_music</item>
+        <item>@string/music_headset_scenario_video</item>
+        <item>@string/music_headset_scenario_vocal</item>
+    </string-array>
+    <string-array name="scenario_selector_values">
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="sound_effect_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="support_sound_version">
+        <item>4.1.2</item>
+        <item>4.21.2</item>
+        <item>4.11.2</item>
+        <item>4.29.2</item>
+        <item>4.19.2</item>
+        <item>4.9.2</item>
+    </string-array>
+    <string-array name="switch_sound_effect">
+        <item>@string/sound_effect_original</item>
+        <item>@string/sound_effect_room</item>
+        <item>@string/sound_effect_hall</item>
+        <item>@string/sound_effect_theater</item>
+    </string-array>
+</resources>
