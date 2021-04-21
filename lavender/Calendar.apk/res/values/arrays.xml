@@ -358,6 +358,14 @@
         <item>1</item>
         <item>0</item>
     </integer-array>
+    <string-array name="fortune_love">
+        <item>恋爱中</item>
+        <item>单身</item>
+    </string-array>
+    <integer-array name="fortune_love_values">
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
     <string-array name="fortune_random_birthday">
         <item>1992-01-01</item>
         <item>2013-02-04</item>
@@ -542,6 +550,11 @@
         <item>Off</item>
         <item>For all events</item>
         <item>For time-sensitive events</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_popup_new_summary">
+        <item></item>
+        <item></item>
+        <item>@string/preferences_popup_alert_smart_summary_new</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Always</item>
