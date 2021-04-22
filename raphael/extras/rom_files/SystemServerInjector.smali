@@ -49,7 +49,7 @@
 
     invoke-static {v0}, Lcom/android/server/SystemServerInjector;->addDeviceName(Ljava/lang/String;)V
 
-    const-string v0, "lavender"
+    const-string/jumbo v0, "lavender"
 
     invoke-static {v0}, Lcom/android/server/SystemServerInjector;->addDeviceName(Ljava/lang/String;)V
 
