@@ -29,12 +29,20 @@
         <item quantity="other">%d mins ago</item>
         <item quantity="one">1 min ago</item>
     </plurals>
+    <plurals name="download_canceled_title_multi">
+        <item quantity="other">Rejected %2$d files, including %1$s</item>
+        <item quantity="one">Rejected %2$d file, including %1$s</item>
+    </plurals>
+    <plurals name="download_succeeded_title_multi">
+        <item quantity="other">Received %2$d files, including %1$s</item>
+        <item quantity="one">Received %2$d file, including %1$s</item>
+    </plurals>
+    <plurals name="download_title_multi">
+        <item quantity="other">%2$d files, including %1$s</item>
+        <item quantity="one">%2$d file, including %1$s</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Half an hour ago</item>
-    </plurals>
-    <plurals name="health_description_title_suffix">
-        <item quantity="other">" steps"</item>
-        <item quantity="one">" step"</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">In 1 hour</item>
