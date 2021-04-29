@@ -268,6 +268,10 @@
         <item quantity="other">%1$d videos waiting to sync</item>
         <item quantity="one">%1$d video waiting to sync</item>
     </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">%d photo</item>
+    </plurals>
     <plurals name="photo_count_format">
         <item quantity="other">Total %1$d items</item>
         <item quantity="one">Total %1$d item</item>
@@ -488,6 +492,14 @@
         <item quantity="other">%d items</item>
         <item quantity="one">%d item</item>
     </plurals>
+    <plurals name="synced_photo_count">
+        <item quantity="other">Synced %d photos</item>
+        <item quantity="one">Synced %d photo</item>
+    </plurals>
+    <plurals name="synced_videos_count">
+        <item quantity="other">Synced %d videos</item>
+        <item quantity="one">Synced %d video</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">"You won't be able to restore %d selected items if you delete them. Delete anyway?"</item>
         <item quantity="one">"You won't be able to restore %d selected item if you delete it. Delete anyway?"</item>
@@ -511,5 +523,9 @@
     <plurals name="video_count_format">
         <item quantity="other">%1$d files</item>
         <item quantity="one">%1$d file</item>
+    </plurals>
+    <plurals name="videos_count">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">%d video</item>
     </plurals>
 </resources>

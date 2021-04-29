@@ -63,6 +63,15 @@
         <item>@string/am</item>
         <item>@string/pm</item>
     </string-array>
+    <array name="assume_strong_biometrics_prefixes" />
+    <array name="buffer_size_values">
+        <item>@null</item>
+        <item>64K</item>
+        <item>128K</item>
+        <item>256K</item>
+        <item>512K</item>
+        <item>1M</item>
+    </array>
     <string-array name="chinese_days">
         <item>@string/chinese_day_1</item>
         <item>@string/chinese_day_2</item>
@@ -140,6 +149,18 @@
         <item>@string/chinese_symbol_animals_dog</item>
         <item>@string/chinese_symbol_animals_pig</item>
     </string-array>
+    <string-array name="crypto_fingerprint_fallback_prefixes">
+        <item>SM-G95</item>
+        <item>SM-G96</item>
+        <item>SM-G97</item>
+        <item>SM-N95</item>
+        <item>SM-N96</item>
+        <item>SM-N97</item>
+        <item>SM-A20</item>
+    </string-array>
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
     <string-array name="detailed_am_pms">
         <item>@string/midnight</item>
         <item>@string/early_morning</item>
@@ -167,12 +188,6 @@
         <item>@string/eras_bc</item>
         <item>@string/eras_ad</item>
     </string-array>
-    <string-array name="font_size_scale">
-        <item>0.86</item>
-        <item>1.0</item>
-        <item>1.2</item>
-        <item>1.21</item>
-    </string-array>
     <string-array name="heavenly_stems">
         <item>@string/heavenly_stems_jia</item>
         <item>@string/heavenly_stems_yi</item>
@@ -185,18 +200,16 @@
         <item>@string/heavenly_stems_ren</item>
         <item>@string/heavenly_stems_gui</item>
     </string-array>
-    <string-array name="mi_stat_cancel_survey_key">
-        <item>overall_experience_cancel</item>
-        <item>transfer_duration_cancel</item>
-        <item>simplicity_of_the_process_cancel</item>
-        <item>clarity_of_instructions_cancel</item>
-        <item>this_feature_is_useful_cancel</item>
-    </string-array>
-    <string-array name="mi_stat_success_survey_key">
-        <item>overall_rating</item>
-        <item>duration_of_transfer</item>
-        <item>simplicity_of_the_process</item>
-        <item>clarity_of_instructions</item>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-G97</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SM-N97</item>
+        <item>SC-01M</item>
+        <item>SCV45</item>
     </string-array>
     <string-array name="months">
         <item>@string/month_january</item>
@@ -240,6 +253,26 @@
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
     </string-array>
+    <string-array name="settings_search_mirror">
+        <item>MIUI+ Beta</item>
+        <item>Connection &amp; sharing/MIUI+ Beta</item>
+        <item>Screen Combo;Duet;Multiscreen;Duo;Computer;Mirror;MIUI+</item>
+    </string-array>
+    <string-array name="settings_tips_message">
+        <item>"1. Turn off portable hotspot, Mi Share, or casting on your mobile device before using this feature.
+2. Turn off Wi-Fi on both your mobile device and computer.
+3. Make sure your mobile device is close to your computer. You won't be able to connect devices if they are in different places."</item>
+        <item>Your computer uses Bluetooth to detect nearby mobile devices that have been previously connected. Check whether Bluetooth is turned on on your mobile device.</item>
+        <item>"Mobile devices can't sync data with computers when the screen is locked. By default, this app doesn't allow locking the screen when your mobile device is connected to a computer. You can change this in the Settings."</item>
+        <item>"1. Compatible mobile devices: Mi 11, Mi 10 Ultra, Mi 10 Pro, Mi 10, Mi 9 Pro 5G, Mi 9, Redmi K30s Ultra, Redmi K20 Pro, Redmi K30 Pro. If you're redirected to our official website after scanning the QR code, your device isn't supported yet.
+2. Compatible computers: 小米笔记本Pro 15 增强版, 小米笔记本Pro 15.6 2020款, Redmi G 游戏本, RedmiBook 16, RedmiBook 14 II, RedmiBook Air 13. Download MIUI+ Beta for your computer here: https://plus.miui.com."</item>
+    </string-array>
+    <string-array name="settings_tips_title">
+        <item>"Can't connect using QR code?"</item>
+        <item>"Can't find mobile devices using your computer?"</item>
+        <item>"Can't lock your mobile device?"</item>
+        <item>Compatibility</item>
+    </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
         <item>@string/solar_term_slight_cold</item>
@@ -266,26 +299,6 @@
         <item>@string/solar_term_light_snow</item>
         <item>@string/solar_term_heavy_snow</item>
         <item>@string/solar_term_winter_solstice</item>
-    </string-array>
-    <string-array name="trans_cancel_survey_title">
-        <item>Overall experience</item>
-        <item>Transfer duration</item>
-        <item>Simplicity of the process</item>
-        <item>Clarity of instructions</item>
-        <item>This feature is useful</item>
-    </string-array>
-    <string-array name="trans_succeed_rating_hint">
-        <item>Very dissatisfied</item>
-        <item>Somewhat dissatisfied</item>
-        <item>Neutral</item>
-        <item>Somewhat satisfied</item>
-        <item>Very satisfied</item>
-    </string-array>
-    <string-array name="trans_succeed_survey_title">
-        <item>Overall rating</item>
-        <item>Duration of transfer</item>
-        <item>Simplicity of the process</item>
-        <item>Clarity of instructions</item>
     </string-array>
     <string-array name="week_days">
         <item>@string/sunday</item>
