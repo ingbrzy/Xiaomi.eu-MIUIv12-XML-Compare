@@ -140,8 +140,76 @@
         <item>@string/chinese_symbol_animals_dog</item>
         <item>@string/chinese_symbol_animals_pig</item>
     </string-array>
-    <string-array name="config_allowFloatPackages">
-        <item>com.google.android.apps.messaging</item>
+    <string-array name="config_canSendSubstituteNotificationPackages">
+        <item>com.xiaomi.xmsf</item>
+        <item>com.android.systemui</item>
+        <item>com.android.keyguard</item>
+        <item>com.android.phone</item>
+        <item>com.miui.systemAdSolution</item>
+        <item>com.miui.msa.global</item>
+        <item>com.miui.notification</item>
+        <item>android</item>
+        <item>com.miui.hybrid</item>
+    </string-array>
+    <string-array name="config_xmsfNotificationChannel">
+        <item>84</item>
+        <item>61</item>
+        <item>72</item>
+        <item>213</item>
+        <item>102</item>
+        <item>233</item>
+        <item>54</item>
+        <item>96</item>
+        <item>VoIP</item>
+        <item>Reminder</item>
+        <item>FloatAndKeyguard</item>
+    </string-array>
+    <string-array name="detailed_am_pms">
+        <item>@string/midnight</item>
+        <item>@string/early_morning</item>
+        <item>@string/morning</item>
+        <item>@string/noon</item>
+        <item>@string/afternoon</item>
+        <item>@string/evening</item>
+        <item>@string/night</item>
+    </string-array>
+    <string-array name="drop_down_menu">
+        <item>Sort by time received</item>
+        <item>Sort by number of notifications</item>
+        <item>Apps that can show notifications</item>
+        <item>"Apps that can't show notifications"</item>
+    </string-array>
+    <string-array name="earthly_branches">
+        <item>@string/earthly_branches_zi</item>
+        <item>@string/earthly_branches_chou</item>
+        <item>@string/earthly_branches_yin</item>
+        <item>@string/earthly_branches_mao</item>
+        <item>@string/earthly_branches_chen</item>
+        <item>@string/earthly_branches_si</item>
+        <item>@string/earthly_branches_wu</item>
+        <item>@string/earthly_branches_wei</item>
+        <item>@string/earthly_branches_shen</item>
+        <item>@string/earthly_branches_you</item>
+        <item>@string/earthly_branches_xu</item>
+        <item>@string/earthly_branches_hai</item>
+    </string-array>
+    <string-array name="eras">
+        <item>@string/eras_bc</item>
+        <item>@string/eras_ad</item>
+    </string-array>
+    <string-array name="heavenly_stems">
+        <item>@string/heavenly_stems_jia</item>
+        <item>@string/heavenly_stems_yi</item>
+        <item>@string/heavenly_stems_bing</item>
+        <item>@string/heavenly_stems_ding</item>
+        <item>@string/heavenly_stems_wu</item>
+        <item>@string/heavenly_stems_ji</item>
+        <item>@string/heavenly_stems_geng</item>
+        <item>@string/heavenly_stems_xin</item>
+        <item>@string/heavenly_stems_ren</item>
+        <item>@string/heavenly_stems_gui</item>
+    </string-array>
+    <string-array name="local_white_list">
         <item>com.google.android.talk</item>
         <item>com.tencent.mm</item>
         <item>com.tencent.qq</item>
@@ -230,75 +298,6 @@
         <item>com.xiaomi.calendar</item>
         <item>com.miui.core</item>
         <item>com.ss.android.lark.kami</item>
-    </string-array>
-    <string-array name="config_canSendSubstituteNotificationPackages">
-        <item>com.xiaomi.xmsf</item>
-        <item>com.android.systemui</item>
-        <item>com.android.keyguard</item>
-        <item>com.android.phone</item>
-        <item>com.miui.systemAdSolution</item>
-        <item>com.miui.msa.global</item>
-        <item>com.miui.notification</item>
-        <item>android</item>
-        <item>com.miui.hybrid</item>
-    </string-array>
-    <string-array name="config_xmsfNotificationChannel">
-        <item>84</item>
-        <item>61</item>
-        <item>72</item>
-        <item>213</item>
-        <item>102</item>
-        <item>233</item>
-        <item>54</item>
-        <item>96</item>
-        <item>VoIP</item>
-        <item>Reminder</item>
-        <item>FloatAndKeyguard</item>
-    </string-array>
-    <string-array name="detailed_am_pms">
-        <item>@string/midnight</item>
-        <item>@string/early_morning</item>
-        <item>@string/morning</item>
-        <item>@string/noon</item>
-        <item>@string/afternoon</item>
-        <item>@string/evening</item>
-        <item>@string/night</item>
-    </string-array>
-    <string-array name="drop_down_menu">
-        <item>Sort by time received</item>
-        <item>Sort by number of notifications</item>
-        <item>Apps that can show notifications</item>
-        <item>"Apps that can't show notifications"</item>
-    </string-array>
-    <string-array name="earthly_branches">
-        <item>@string/earthly_branches_zi</item>
-        <item>@string/earthly_branches_chou</item>
-        <item>@string/earthly_branches_yin</item>
-        <item>@string/earthly_branches_mao</item>
-        <item>@string/earthly_branches_chen</item>
-        <item>@string/earthly_branches_si</item>
-        <item>@string/earthly_branches_wu</item>
-        <item>@string/earthly_branches_wei</item>
-        <item>@string/earthly_branches_shen</item>
-        <item>@string/earthly_branches_you</item>
-        <item>@string/earthly_branches_xu</item>
-        <item>@string/earthly_branches_hai</item>
-    </string-array>
-    <string-array name="eras">
-        <item>@string/eras_bc</item>
-        <item>@string/eras_ad</item>
-    </string-array>
-    <string-array name="heavenly_stems">
-        <item>@string/heavenly_stems_jia</item>
-        <item>@string/heavenly_stems_yi</item>
-        <item>@string/heavenly_stems_bing</item>
-        <item>@string/heavenly_stems_ding</item>
-        <item>@string/heavenly_stems_wu</item>
-        <item>@string/heavenly_stems_ji</item>
-        <item>@string/heavenly_stems_geng</item>
-        <item>@string/heavenly_stems_xin</item>
-        <item>@string/heavenly_stems_ren</item>
-        <item>@string/heavenly_stems_gui</item>
     </string-array>
     <string-array name="lock_screen_display_rules_no_password">
         <item>Show notification content</item>
