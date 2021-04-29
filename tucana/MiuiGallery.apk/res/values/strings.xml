@@ -284,7 +284,7 @@
     <string name="backup_no_wifi_btn_text">Use data</string>
     <string name="backup_no_wifi_desc">You can resume sync while using mobile data</string>
     <string name="backup_no_wifi_title">Sync will resume after you connect to Wi-Fi</string>
-    <string name="backup_only_in_wifi">Only use Wi‑Fi to sync photos and videos</string>
+    <string name="backup_only_in_wifi">Only use Wi-Fi to sync photos and videos</string>
     <string name="backup_only_in_wifi_summary">Never use mobile data to sync photos or videos</string>
     <string name="backup_only_wifi_dialog_message">Use mobile data to sync photos and videos?</string>
     <string name="backup_pause">Pause backup</string>
@@ -917,6 +917,10 @@
     <string name="cloud_bacup_disable_processing">Processing…</string>
     <string name="cloud_camera_display_name">Camera photos</string>
     <string name="cloud_cancel_authorizing_to_device">Canceling authorization…</string>
+    <string name="cloud_full_space_tip_message">Upgrade your cloud storage plan to be able to sync all your photos and videos to the cloud.</string>
+    <string name="cloud_full_space_tip_negative">Not now</string>
+    <string name="cloud_full_space_tip_positive">Upgrade</string>
+    <string name="cloud_full_space_tip_title">Insufficient cloud storage</string>
     <string name="cloud_guide_auto_backup_title">Choose albums to sync</string>
     <string name="cloud_guide_login_title">Back up photos and videos automatically</string>
     <string name="cloud_guide_welcome_title">Xiaomi Cloud</string>
@@ -1269,6 +1273,7 @@ are available"</string>
     <string name="filter_category_texture">Lilt</string>
     <string name="filter_category_travel">Travel</string>
     <string name="filter_food_caramel">Caramel</string>
+    <string name="filter_food_orangeflavor">Tangerine</string>
     <string name="filter_general_blackice">Black ice</string>
     <string name="filter_general_blackwhite">B&amp;W</string>
     <string name="filter_general_delicious">Food</string>
@@ -1279,6 +1284,7 @@ are available"</string>
     <string name="filter_general_lilt">Lilt</string>
     <string name="filter_general_movie">Cinema</string>
     <string name="filter_general_nature">Nature</string>
+    <string name="filter_general_past">Yore</string>
     <string name="filter_general_pink">Pink</string>
     <string name="filter_general_portrait">Portrait</string>
     <string name="filter_general_rise">Rise</string>
@@ -1322,15 +1328,18 @@ are available"</string>
     <string name="filter_popular_coldsmoke">Cool mist</string>
     <string name="filter_popular_comic">Anime</string>
     <string name="filter_popular_dream">Reverie</string>
+    <string name="filter_popular_gingertea">Ginger</string>
     <string name="filter_popular_hill">Hills</string>
     <string name="filter_popular_humanity">Documentary</string>
     <string name="filter_popular_icesnow">Snowfall</string>
     <string name="filter_popular_kamakura">Kamakura</string>
     <string name="filter_popular_lnk">Ink</string>
+    <string name="filter_popular_mango">Mango</string>
     <string name="filter_popular_purple">Purple</string>
     <string name="filter_popular_shallow_summer">June</string>
     <string name="filter_popular_smokegreen">Sage</string>
     <string name="filter_popular_watergreen">Emerald</string>
+    <string name="filter_popular_windchime">Chime</string>
     <string name="filter_popular_wintersun">Midwinter</string>
     <string name="filter_portrait_greyish">Ash</string>
     <string name="filter_portrait_hint">Color focus</string>
@@ -1409,6 +1418,7 @@ are available"</string>
     <string name="filter_sky_yunmeng">Fantasy</string>
     <string name="filter_sky_yunxu">Cirrus</string>
     <string name="filter_texture_shadow">Dusk</string>
+    <string name="filter_travel_charlotte">Charlotte</string>
     <string name="finish_create_baby_album_toast">Created an album for \"%s\" in Xiaomi Cloud</string>
     <string name="finish_fill_baby">Create</string>
     <string name="first_time_add_video_to_secret_tips">Update Gallery to be able to add videos to private album</string>
@@ -1756,6 +1766,7 @@ to personalize Gallery"</string>
     <string name="mi_note_10">Mi Note 10</string>
     <string name="micloud_introduce">Sync photos and videos automatically (Mi Account is required)</string>
     <string name="midnight">Night</string>
+    <string name="mishare_all_devices">All devices</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -2396,7 +2407,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="search_backup_now">Turn on</string>
     <string name="search_backup_sub_title">Turn on to find more images</string>
     <string name="search_backup_title">Sync with the cloud</string>
-    <string name="search_clear_histories">Clear</string>
+    <string name="search_clear_histories">Clear search history</string>
     <string name="search_connection_error">"Couldn't connect to the network"</string>
     <string name="search_connection_error_and_set">Tap to check network settings</string>
     <string name="search_empty_title">Find photos with specific people, places, and objects in your Gallery</string>
@@ -2665,6 +2676,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="sync_off_title">Turn on sync with the cloud to back up photos and videos automatically</string>
     <string name="sync_pending_title">Will be synced automatically</string>
     <string name="sync_state_unknow">Getting info</string>
+    <string name="synced_photo_video_count">Synced %1$s and %2$s</string>
     <string name="synced_title">Backed up photos and videos successfully</string>
     <string name="syncing_gprs_title">Using mobile data to back up items</string>
     <string name="syncing_metadata_title">Syncing Xiaomi Cloud data</string>
