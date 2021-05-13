@@ -86,6 +86,7 @@
         <item>camellian</item>
         <item>davinci</item>
         <item>biloba</item>
+        <item>willow</item>
     </string-array>
     <string-array name="config_alwaysEnableMms_off_array">
         <item>ch</item>
@@ -2032,7 +2033,9 @@
     </string-array>
     <array name="screen_resolution_supported" />
     <string-array name="start_from_freeform_black_list_activity">
-        <item>com.netease.cloudmusic.activity.LockScreenActivity</item>
+        <item>com.tencent.qqmusic/.business.lockscreennew.LockScreenActivity</item>
+        <item>com.netease.cloudmusic/.activity.LockScreenActivity</item>
+        <item>com.ximalaya.ting.android/.host.activity.LockScreenActivity</item>
         <item>com.miui.todo.feature.remind.TodoAlarmAlertActivity</item>
     </string-array>
     <integer-array name="vibration_recorder_major_action">

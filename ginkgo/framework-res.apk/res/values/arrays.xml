@@ -410,12 +410,14 @@
         <item>bugreport</item>
     </string-array>
     <string-array name="config_gpsParameters">
+        <item>SUPL_HOST=supl.qxwz.com</item>
+        <item>SUPL_PORT=7275</item>
         <item>SUPL_VER=0x20000</item>
         <item>SUPL_MODE=3</item>
         <item>SUPL_ES=0</item>
-        <item>LPP_PROFILE=3</item>
-        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
-        <item>A_GLONASS_POS_PROTOCOL_SELECT=0x2</item>
+        <item>LPP_PROFILE=0</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=0</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0xF</item>
         <item>GPS_LOCK=0</item>
     </string-array>
     <array name="config_hideWhenDisabled_packageNames" />
