@@ -34,6 +34,7 @@
     <string name="alert_message_delete_local_record">Delete this recording?</string>
     <string name="alert_message_delete_record">Deleting the recording from your device will also delete this recording from Xiaomi Cloud. Delete now?</string>
     <string name="alert_message_delete_record_title">Delete recording?</string>
+    <string name="all_record">All recordings</string>
     <string name="am">AM</string>
     <string name="app_name">Recorder</string>
     <string name="app_record">App recordings</string>
@@ -201,6 +202,7 @@
 
  3.怎么能让录音转的文字更精准？
  录音转文字目前仅支持普通话转写，转写结果的准确度会受到距离、环境、说话人口音等问题的影响，准确率可能会有较大差别，如果希望转文字更精准，可以选择离手机更近、说普通话的方式。"</string>
+    <string name="fm_record">Radio</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">dd</string>
@@ -367,9 +369,12 @@
     <string name="network_unavailable_tip">Connect to the network and try again.</string>
     <string name="new_record_name">New recording</string>
     <string name="night">Evening</string>
+    <string name="no_content">No items here yet</string>
     <string name="no_file">Empty</string>
     <string name="no_network">"Couldn't connect to the network"</string>
+    <string name="no_playback_file">Select a recording to view details</string>
     <string name="noon">Midday</string>
+    <string name="normal_settings_pref_title">General settings</string>
     <string name="not_set">Not set</string>
     <string name="notification_message_all_paused">Waiting for Wi-Fi connection.</string>
     <string name="notification_playback">Playing…</string>
@@ -407,6 +412,7 @@
     <string name="order_item_duration">Duration: %s</string>
     <string name="order_item_number">Order number: %s</string>
     <string name="order_item_price">%s CNY</string>
+    <string name="other_settings_pref_title">Additional settings</string>
     <string name="path_soundrecorder_setting">System apps/Recorder</string>
     <string name="pause">Pause</string>
     <string name="pay_error_cancel">Payment was canceled</string>
@@ -417,19 +423,19 @@
     <string name="pm">PM</string>
     <string name="preference_clear_data">Clear data</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
-    <string name="preference_enable_earpiece_summary">Use receiver speaker for external playback</string>
-    <string name="preference_enable_earpiece_title">Use receiver to play audio</string>
+    <string name="preference_enable_earpiece_summary">Play audio using the earpiece speaker</string>
+    <string name="preference_enable_earpiece_title">Earpiece mode</string>
     <string name="preference_led_indicator">Lock screen notifications</string>
-    <string name="preference_led_indicator_prompt">While recording, show status bar shortcut and pulse notification light</string>
+    <string name="preference_led_indicator_prompt">Show a blue indicator on the Lock screen and flash LED light while recording</string>
     <string name="preference_online_orders">Online orders</string>
     <string name="preference_recog_faqs">Online transcribing FAQ</string>
     <string name="preference_recog_terms">Terms of Service</string>
-    <string name="preference_record_desktop_indicator_summary">Show a blue indicator on the Home screen when Recorder is working in the background</string>
+    <string name="preference_record_desktop_indicator_summary">Show a blue indicator on the Home screen while recording</string>
     <string name="preference_record_desktop_indicator_title">Home screen indicator</string>
     <string name="preference_record_scenes_dialog_title">Choose recording type</string>
     <string name="preference_scenes">Recording type</string>
     <string name="preference_silent_mode">Mute ringer when recording</string>
-    <string name="preference_status_bar_indicator_prompt">Show status bar shortcut while recording</string>
+    <string name="preference_status_bar_indicator_prompt">Show a blue indicator on the Lock screen while recording</string>
     <string name="preference_tip_rename">Name recordings manually</string>
     <string name="privacy_policy_title">Privacy Policy</string>
     <string name="recognition_button_add_to_queue">Add to queue</string>
@@ -515,6 +521,7 @@
     <string name="record_name_minute" />
     <string name="record_quliaty_preference_title">Recording quality</string>
     <string name="record_resotre">Recover records</string>
+    <string name="recorder_record">Audio</string>
     <string name="recording">Recording</string>
     <string name="recording_quality_high">High quality</string>
     <string name="recording_quality_low">Low quality</string>
@@ -536,6 +543,7 @@
     <string name="reg_error_server">A server error occurred. Report it to us and try again.</string>
     <string name="reg_error_upload_audio">"Couldn't upload file, try again."</string>
     <string name="reg_error_upload_order">"Couldn't upload, try again."</string>
+    <string name="remind_settings_pref_title">Notifications</string>
     <string name="remove_icon_description_content">"Recorder is a system app. You won't be able to manage recordings after you remove the Home screen shortcut."</string>
     <string name="remove_icon_description_title">Remove \"Recorder\" from Home screen?</string>
     <string name="rename">Rename</string>
@@ -553,7 +561,7 @@
     <string name="save_record_dialog_title">Save recording</string>
     <string name="search_app">Recorder</string>
     <string name="search_empty">"Couldn't find results"</string>
-    <string name="search_enable_earpiece_title">Use receiver to play audio</string>
+    <string name="search_enable_earpiece_title">Earpiece mode</string>
     <string name="search_hint">Search</string>
     <string name="search_led_indicator">Lock screen notifications</string>
     <string name="search_led_indicator_prompt">While recording, show status bar shortcut and pulse notification light at Lock screen</string>
@@ -612,6 +620,7 @@
     <string name="sunday">Sunday</string>
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">Sun</string>
+    <string name="tap_to_record">Tap the button to start recording</string>
     <string name="text_btn_backward_3_seconds">3 seconds back</string>
     <string name="text_btn_complete">Stop</string>
     <string name="text_btn_forward_3_seconds">3 seconds forward</string>
