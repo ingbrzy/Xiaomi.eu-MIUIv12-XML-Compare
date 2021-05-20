@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="access_denied_info">Too many attempts. Wait a minute or two and try again.</string>
     <string name="account">Account</string>
     <string name="account_and_cloud">Account</string>
     <string name="account_bind_secure_email_title">Add recovery email</string>
@@ -451,6 +452,9 @@ Send this code to the supervisor."</string>
     <string name="discount">%1$s折</string>
     <string name="dislike_comment_success">Removed like</string>
     <string name="doc_filter">Docs</string>
+    <string name="doing_login">Signing in…</string>
+    <string name="doing_query_account">Checking account info…</string>
+    <string name="doing_register">Creating account…</string>
     <string name="download">Download</string>
     <string name="download_added_to_list">Added to download list</string>
     <string name="download_allow_switch">Download using mobile data</string>
@@ -802,6 +806,15 @@ Send this code to the supervisor."</string>
     <string name="ktv_playlist">KTV playlist</string>
     <string name="label_recording">Recording: %s</string>
     <string name="latest_song">Play history (%d)</string>
+    <string name="library_android_database_sqlcipher_author">Zetetic, LLC</string>
+    <string name="library_android_database_sqlcipher_authorWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_isOpenSource">true</string>
+    <string name="library_android_database_sqlcipher_libraryDescription">Android SQLite API based on SQLCipher</string>
+    <string name="library_android_database_sqlcipher_libraryName">SQLCipher for Android</string>
+    <string name="library_android_database_sqlcipher_libraryVersion">${clientVersionNumber}</string>
+    <string name="library_android_database_sqlcipher_libraryWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_licenseLink">https://www.zetetic.net/sqlcipher/license/</string>
+    <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
     <string name="like_comment_failed">"Couldn't like comment"</string>
     <string name="like_comment_success">Liked</string>
     <string name="list">Channels</string>
@@ -843,8 +856,13 @@ Send this code to the supervisor."</string>
     <string name="local_page_song_download_history">Downloads</string>
     <string name="local_page_subscribe_radio">Listen to FM</string>
     <string name="login">Sign in</string>
+    <string name="login_by_local_phone_long_text">Sign in now</string>
+    <string name="login_by_local_phone_short_text">Sign in</string>
+    <string name="login_other">Another Mi Account</string>
+    <string name="login_register_by_local_phone_long_text">Create account</string>
     <string name="login_tip">Not signed in</string>
     <string name="login_tips">Sign in to get relevant recommendations</string>
+    <string name="login_with_sns">Other ways to sign in</string>
     <string name="logout_account">Sign out</string>
     <string name="look_more">查看更多</string>
     <string name="lrc_search_failed">"Couldn't find lyrics"</string>
@@ -1000,9 +1018,11 @@ Send this code to the supervisor."</string>
     <string name="nav_online_billboard">Charts</string>
     <string name="nav_online_playlist">Playlists</string>
     <string name="network_error_and_retry">"Couldn't connect, tap to try again"</string>
+    <string name="network_error_info">A network error occurred. Check your network settings and try again.</string>
     <string name="network_failure">Check your connection and try again.</string>
     <string name="network_request_error">"Can't connect to the network"</string>
     <string name="network_settings_error">"Can't connect to the network"</string>
+    <string name="network_timeout_info">"Couldn't connect to the network. Try again."</string>
     <string name="never_subscribe_radio">Remove this station from favorites/</string>
     <string name="new_comment">最新评论(%s条)</string>
     <string name="new_frequency">New frequency</string>
@@ -1092,7 +1112,7 @@ Send this code to the supervisor."</string>
     <string name="open_online_service_tip">Turned on online services successfully</string>
     <string name="open_order_dialog">正在获取订单信息...</string>
     <string name="open_service">Turn on</string>
-    <string name="open_settings">Go to settings</string>
+    <string name="open_settings">Settings</string>
     <string name="open_vip_fail">会员开通失败，请稍后重试(%s)</string>
     <string name="optimize_all_until_optimized">Applying new cover and lyrics…</string>
     <string name="optimize_all_until_scanned">Wait until Music finishes checking storage for songs.</string>
@@ -1281,6 +1301,7 @@ Send this code to the supervisor."</string>
     <string name="privacy_tip_title">Use Xunlei Accelerator?</string>
     <string name="program">Program</string>
     <string name="program_title">Programs</string>
+    <string name="progressbar_title">Checking for security issues…</string>
     <string name="project_device">Mi Phone</string>
     <string name="project_device_bs">My Black Shark</string>
     <string name="psw_hint">Password</string>
@@ -1307,6 +1328,8 @@ Send this code to the supervisor."</string>
     <string name="recommended_no_file_size_download_in_mobile">Use your mobile data connection to download this file?</string>
     <string name="refresh">刷新</string>
     <string name="refresh_fail_msg">请尝试点击刷新。若订单状态长时间获取失败，请通过“会员办理页-常见问题-页面底部联系方式”反馈。</string>
+    <string name="register_by_local_phone_long_text">Create account</string>
+    <string name="register_by_local_phone_short_text">Create account</string>
     <string name="remain_prefix">%1$s remaining</string>
     <string name="remaining">Remaining this month:</string>
     <string name="remove">Remove</string>
@@ -1317,7 +1340,10 @@ Send this code to the supervisor."</string>
     <string name="reply_comment_hint">Reply to %s:</string>
     <string name="report">Report</string>
     <string name="report_comment_success">"We'll review your report. Thanks for your feedback."</string>
-    <string name="request_camera_permission_message">This service need to ask your permission follows, we will strictly abide by relevant laws to protect your personal information: &lt;br>&lt;br>&lt;b> Access Camera: experience real-time recording services for setting Avatar &lt;/b>&lt;br>&lt;br> If you do not agree to call the above permissions, this function will not work properly, but it will not affect your use of the basic functions of this application. You can choose to turn off the above permission call in the system settings to withdraw your consent.</string>
+    <string name="request_camera_permission_message">"We shall protect your personal information in accordance with the relevant laws and regulations. This app needs the following permissions to work normally:&lt;br>&lt;br>&lt;b>Using camera (for setting your profile photo)&lt;/b>&lt;br>&lt;br>If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
+    <string name="request_error_invalid_token">"Couldn't verify"</string>
+    <string name="request_error_network">A network error occurred. Check your network settings and try again.</string>
+    <string name="request_error_unknown">A system error occurred. Go back and try again.</string>
     <string name="required_permissions">android.permission.READ_PHONE_STATE;android.permission.GET_ACCOUNTS;android.permission.READ_EXTERNAL_STORAGE;android.permission.WRITE_EXTERNAL_STORAGE;</string>
     <string name="resend_active_email">Resend</string>
     <string name="resend_email_reach_limit_message">"You've requested too many verification emails. Make sure that the verification email isn't in your inbox's Spam folder."</string>
@@ -1423,6 +1449,7 @@ Send this code to the supervisor."</string>
     <string name="sign_in">Signing in</string>
     <string name="sign_in_progress">Signing in…</string>
     <string name="sign_in_title">Sign in with your Mi Account</string>
+    <string name="skip_query_account">Skip</string>
     <string name="sleep_close">Close</string>
     <string name="sleep_custom">Custom</string>
     <string name="sleep_mode">Sleep timer</string>
@@ -1502,6 +1529,7 @@ Send this code to the supervisor."</string>
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">Sun</string>
     <string name="swipe_to_load_head_complete_fail">"Couldn't refresh. Try again."</string>
+    <string name="system_error_info">System is busy. Wait a minute or two and try again.</string>
     <string name="tab_album">Albums</string>
     <string name="tab_all_list">All</string>
     <string name="tab_artist">Artists</string>
@@ -1686,6 +1714,7 @@ Send this code to the supervisor."</string>
     <string name="under_way_msg">会员发放有可能延迟1-5分钟。若长时间未发放，请通过“联系客服-页面底部联系方式”反馈。</string>
     <string name="unknown_album_name">Unknown album</string>
     <string name="unknown_artist_name">Unknown artist</string>
+    <string name="unknown_error_info">Unknown error</string>
     <string name="unknown_program_name">Unknown program</string>
     <string name="unread_message_count">%s message unread</string>
     <string name="update_email_address_dialog_message">You need to verify your identity before you update the recovery email.</string>
@@ -1697,9 +1726,14 @@ Send this code to the supervisor."</string>
     <string name="upgrade_music_message">Updates are ready. Restart to update.</string>
     <string name="upload_error_log">Upload log</string>
     <string name="use_again">"Don't cancel"</string>
+    <string name="user_agreement_hint_default"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy.&lt;/a>"</Data></string>
+    <string name="user_agreement_hint_with_mobile"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">User Agreement&lt;/a>, &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, and &lt;a href=\"%3$s\">Terms and conditions of China Mobile verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_with_telecom"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">User Agreement&lt;/a>, &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, and &lt;a href=\"%3$s\">Terms and conditions of eSurfing account verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_with_unicom"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">User Agreement&lt;/a>, &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, and &lt;a href=\"%3$s\">Terms and conditions of China Unicom verification services&lt;/a>."</Data></string>
     <string name="user_avatar_update_title">Change profile photo</string>
     <string name="user_avatar_uploading">Just a sec…</string>
     <string name="user_id_hint">Email/Phone/Mi Account ID</string>
+    <string name="user_name_phone_number">Phone number</string>
     <string name="usercenter_store_button_text">Redeem</string>
     <string name="usercenter_task_check_in">Check in task</string>
     <string name="usercenter_task_complete_toast">Completed：%1$s</string>
