@@ -56,10 +56,12 @@
     <string name="app_label">Downloads</string>
     <string name="app_name">blur</string>
     <string name="app_size">%1$s</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_activity_title">Xunlei Account</string>
     <string name="auth_fail">"Couldn't get authorization"</string>
     <string name="average_speed">Average speed</string>
     <string name="bind_xunlei_account">Added Xunlei account %1$s</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="bt_download">Download</string>
     <string name="bt_path_not_exit">"This path doesn't exist"</string>
     <string name="bt_restart_dialog_message">Restart all downloads in the BT folder?</string>
@@ -72,6 +74,8 @@
     <string name="cancel">Cancel</string>
     <string name="cancel_running_download">Cancel</string>
     <string name="cancle">Cancel</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="chinese_day_1">初一</string>
     <string name="chinese_day_10">初十</string>
     <string name="chinese_day_11">十一</string>
@@ -146,6 +150,7 @@
     <string name="clearable_edittext_clear_description">Clear</string>
     <string name="close">Close</string>
     <string name="close_ad">Close AD</string>
+    <string name="collect_diagnosis_log">Collect diagnosis log</string>
     <string name="complete_time">Completed</string>
     <string name="confirm">OK</string>
     <string name="confirm_delete_downloads_message">%d downloads will be deleted.</string>
@@ -167,6 +172,10 @@
     <string name="deselect_all">Deselect all</string>
     <string name="deselect_subfile_all">Deselect all</string>
     <string name="determine">OK</string>
+    <string name="diagnosis_log_send_failed">Diagnosis log sent failed.</string>
+    <string name="diagnosis_log_sent_format">"Diagnosis log has been sent.
+ID:%s
+Please send this code to the technician."</string>
     <string name="dialog_btn_cancel">Cancel</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Network settings</string>
@@ -281,6 +290,8 @@
     <string name="extend">More</string>
     <string name="extra_ad_title">You may also like</string>
     <string name="extract_file">Unpacking file…</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="fastest_speed">Top speed</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_exist_hint">This file already exists</string>
@@ -339,6 +350,7 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">zW T</string>
     <string name="fmt_weekday_timezone">zW</string>
+    <string name="for_diagnosis_usage_only">Use this info for diagnosis only.</string>
     <string name="force_touch_newdownload">New download</string>
     <string name="force_touch_rank">Rankings</string>
     <string name="force_touch_search">Search the web</string>
@@ -366,6 +378,7 @@
     <string name="heavenly_stems_wu">戊</string>
     <string name="heavenly_stems_xin">辛</string>
     <string name="heavenly_stems_yi">乙</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="high_speed_channel">Xunlei accelerator (paid):  </string>
     <string name="high_speed_tryout">Download speed is low, become a Xunlei member</string>
     <string name="high_speed_tryout_percent">Speed boosted by %1$s, become a Xunlei member</string>
@@ -473,6 +486,7 @@
     <string name="month_september_shortest">Sep</string>
     <string name="more">More</string>
     <string name="morning">Morning</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="net_error">"Can't connect to network, try again"</string>
     <string name="network_error">"Can't connect to the network"</string>
     <string name="new_add">New download</string>
@@ -498,6 +512,7 @@ across all your devices with Xunlei"</string>
     <string name="notify_install_guide_title">Installed %s successfully</string>
     <string name="notify_not_support">"Such notifications aren't supported, update now"</string>
     <string name="notify_only_wifi_download">Waiting for Wi-Fi</string>
+    <string name="ok">OK</string>
     <string name="one_month">1 month</string>
     <string name="only_support_torrent">Only torrent files are supported</string>
     <string name="open">Open</string>
@@ -510,7 +525,14 @@ across all your devices with Xunlei"</string>
     <string name="other">Other</string>
     <string name="other_filter">Other</string>
     <string name="package_filter">Packages</string>
+    <string name="passport_oauth_actionbar_title">Mi Account</string>
+    <string name="passport_oauth_sucess_tip">Authorized success</string>
+    <string name="password_toggle_content_description">Show password</string>
     <string name="path_no_available">"This path isn't available"</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
     <string name="pause_download">Pause</string>
     <string name="paused">Paused</string>
     <string name="paused_by_app">Paused</string>
@@ -618,6 +640,8 @@ across all your devices with Xunlei"</string>
     <string name="select_subfile_all">Select all</string>
     <string name="selected_count">Selected %1$d out of %2$d</string>
     <string name="send">Send</string>
+    <string name="send_diagnosis_log">Send diagnosis log</string>
+    <string name="sending">Sending…</string>
     <string name="setting_close_debug">Turned Debug mode off</string>
     <string name="setting_debug_fail">"Couldn't enter Debug mode"</string>
     <string name="setting_open_debug">Debug mode turned on. Tap here 6 times to turn Debug mode off.</string>
@@ -731,6 +755,7 @@ across all your devices with Xunlei"</string>
     <string name="task_detail">Tasks</string>
     <string name="task_detail_notfound_confirm">OK</string>
     <string name="task_fail">"Couldn't complete operation"</string>
+    <string name="temporary_not_available">temporary not available</string>
     <string name="terabyteShort">TB</string>
     <string name="test_speed">Test</string>
     <string name="test_speed_detail">Details</string>
