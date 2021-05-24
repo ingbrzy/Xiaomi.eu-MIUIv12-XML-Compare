@@ -1754,6 +1754,9 @@
         <item>zh_HK</item>
     </string-array>
     <string-array name="package_static_white_list">
+        <item>com.miui.personalassistant</item>
+    </string-array>
+    <string-array name="package_static_white_list_base">
         <item>android</item>
         <item>com.miui.home</item>
         <item>com.mi.android.globallauncher</item>
@@ -1789,6 +1792,7 @@
         <item>com.magiear.handsfree.assistant</item>
         <item>com.xiaomi.mi_connect_service</item>
     </string-array>
+    <array name="package_static_white_list_lite" />
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
         <item>com.miui.gallery</item>
@@ -2003,7 +2007,8 @@
         <item>com.xiaomi.channel</item>
         <item>com.xiaomi.channel:remote</item>
     </string-array>
-    <string-array name="process_static_white_list">
+    <array name="process_static_white_list" />
+    <string-array name="process_static_white_list_base">
         <item>com.lbe.security.miui</item>
         <item>com.miui.virtualsim:authentication</item>
         <item>com.miui.touchassistant:float</item>
@@ -2012,6 +2017,7 @@
         <item>com.miui.greenguard</item>
         <item>com.miui.aod</item>
     </string-array>
+    <array name="process_static_white_list_lite" />
     <string-array name="screen_key_long_press_default_action">
         <item>voice_assistant</item>
         <item>none</item>
