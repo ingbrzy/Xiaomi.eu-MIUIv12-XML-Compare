@@ -438,6 +438,9 @@
         <item>com.google.android.youtube</item>
         <item>com.gbits.atm.mi</item>
     </string-array>
+    <string-array name="freeform_black_list_for_pad">
+        <item>com.android.mms</item>
+    </string-array>
     <string-array name="freeform_caption_insets_height_to_zero_list">
         <item>com.ss.android.article.news</item>
         <item>com.ss.android.article.lite</item>
@@ -460,6 +463,7 @@
         <item>com.blizzard.wtcg.hearthstone</item>
         <item>com.supercell.clashroyale.mi</item>
         <item>com.chaoxing.mobile</item>
+        <item>cn.wps.moffice_eng.xiaomi.lite</item>
     </string-array>
     <string-array name="high_device_cpu_list">
         <item>kona</item>
@@ -561,7 +565,6 @@
     </string-array>
     <string-array name="list_about_support_landscape_video">
         <item>com.youku.phone</item>
-        <item>tv.danmaku.bili</item>
         <item>com.qiyi.video</item>
         <item>com.tencent.qqlive</item>
         <item>com.miui.video</item>
@@ -1755,6 +1758,9 @@
         <item>zh_HK</item>
     </string-array>
     <string-array name="package_static_white_list">
+        <item>com.miui.personalassistant</item>
+    </string-array>
+    <string-array name="package_static_white_list_base">
         <item>android</item>
         <item>com.miui.home</item>
         <item>com.mi.android.globallauncher</item>
@@ -1790,6 +1796,7 @@
         <item>com.magiear.handsfree.assistant</item>
         <item>com.xiaomi.mi_connect_service</item>
     </string-array>
+    <array name="package_static_white_list_lite" />
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
         <item>com.miui.gallery</item>
@@ -2004,7 +2011,8 @@
         <item>com.xiaomi.channel</item>
         <item>com.xiaomi.channel:remote</item>
     </string-array>
-    <string-array name="process_static_white_list">
+    <array name="process_static_white_list" />
+    <string-array name="process_static_white_list_base">
         <item>com.lbe.security.miui</item>
         <item>com.miui.virtualsim:authentication</item>
         <item>com.miui.touchassistant:float</item>
@@ -2013,6 +2021,7 @@
         <item>com.miui.greenguard</item>
         <item>com.miui.aod</item>
     </string-array>
+    <array name="process_static_white_list_lite" />
     <string-array name="screen_key_long_press_default_action">
         <item>voice_assistant</item>
         <item>none</item>
