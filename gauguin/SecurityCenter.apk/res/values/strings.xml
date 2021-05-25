@@ -1396,34 +1396,31 @@ You must understand that this feature is provided for your reference only. The w
     <string name="ew_main_warning_list">View warnings</string>
     <string name="ew_main_warning_list_tips">View</string>
     <string name="ew_main_warning_list_title">View warning history</string>
-    <string name="ew_monitor_content">地震监测是手机通过低功耗传感器感应到地震波后，系统快速通过AI算法测算地震信息，并第一时间向受影响地区群众发出预警，为更多人争取避险时间，保障人身安全。</string>
-    <string name="ew_monitor_exit">退出地震监测志愿者</string>
-    <string name="ew_monitor_exit_content">地震监测志愿者帮助更多人更快获取地震信息。感谢您（NO.%s）为地震监测做出的贡献，您确认退出地震监测志愿者吗？</string>
-    <string name="ew_monitor_exit_title">提示</string>
-    <string name="ew_monitor_have_been">我已成为</string>
-    <string name="ew_monitor_info_title">地震监测是什么？</string>
-    <string name="ew_monitor_join_number">加入人数</string>
-    <string name="ew_monitor_join_path">加入路径：小米手机-手机管家-地震预警-地震监测志愿者</string>
-    <string name="ew_monitor_my_content">地震监测是手机通过低功耗传感器感应到地震波后，系统快速通过AI算法测算地震信息，并第一时间向受影响地区群众发出预警，为更多人争取避险时间，保障人身安全。</string>
-    <string name="ew_monitor_number_prex">NO.%s</string>
-    <string name="ew_monitor_open">立即加入</string>
-    <string name="ew_monitor_read_privacy"><Data>已阅读并同意&lt;a href=\"%1$s\">《隐私政策》&lt;/a></Data></string>
-    <string name="ew_monitor_share">发送给朋友</string>
-    <string name="ew_monitor_slogan">"加入地震监测
-共建平安中国"</string>
-    <string name="ew_monitor_summary1">"手机
-也是地震监测仪"</string>
-    <string name="ew_monitor_summary2">"报送地震消息
-共建监测网络"</string>
-    <string name="ew_monitor_summary3">"帮助更多人
-更快获取地震信息"</string>
-    <string name="ew_monitor_support">小米与成都高新减灾研究所联合研发</string>
-    <string name="ew_monitor_support_rom">*部分小米/Redmi手机及MIUI版本支持此功能</string>
-    <string name="ew_monitor_thanks_tips">"感谢您成为第%s位
-地震监测志愿者"</string>
-    <string name="ew_monitor_title">地震监测志愿者</string>
-    <string name="ew_monitor_title_spilt">"地震监测
-志愿者"</string>
+    <string name="ew_monitor_content">Your mobile device can become part of the earthquake early warning network. After its sensors detect seismic waves, the data will be analyzed by the AI algorithm and early warnings will be issued to the people in the affected areas.</string>
+    <string name="ew_monitor_exit">Unenroll</string>
+    <string name="ew_monitor_exit_content">Hi Volunteer NO. %s! Your device can monitor seismic activity and collect data that would help issue early earthquake warnings. Unenroll anyway?</string>
+    <string name="ew_monitor_exit_title">Attention</string>
+    <string name="ew_monitor_have_been">"I'm proud to be an "</string>
+    <string name="ew_monitor_info_title">How does it work?</string>
+    <string name="ew_monitor_join_number">Number of volunteers</string>
+    <string name="ew_monitor_join_path">Join the program using a Xiaomi device: Security > Earthquake warning > Earthquake monitoring volunteer.</string>
+    <string name="ew_monitor_my_content">My mobile device is part of the earthquake early warning network. After its sensors detect seismic waves, the data will be analyzed by the AI algorithm and early warnings will be issued to the people in the affected areas.</string>
+    <string name="ew_monitor_number_prex">NO. %s</string>
+    <string name="ew_monitor_open">Join</string>
+    <string name="ew_monitor_read_privacy"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="ew_monitor_share">Share</string>
+    <string name="ew_monitor_slogan">"Join our earthquake
+monitoring program"</string>
+    <string name="ew_monitor_summary1">Use your device for seismic monitoring.</string>
+    <string name="ew_monitor_summary2">Report earthquake alert-related information.</string>
+    <string name="ew_monitor_summary3">Help more people get earthquake alerts faster.</string>
+    <string name="ew_monitor_support">Technical support provided by Chengdu Hi-tech Disaster Reduction Institute</string>
+    <string name="ew_monitor_support_rom">*This feature is supported by selected Xiaomi/Redmi devices and MIUI versions.</string>
+    <string name="ew_monitor_thanks_tips">"Thank you for becoming the earthquake
+monitoring volunteer NO. %s!"</string>
+    <string name="ew_monitor_title">Earthquake monitoring volunteer</string>
+    <string name="ew_monitor_title_spilt">"Earthquake monitoring
+volunteer"</string>
     <string name="ew_not_support_area">"Warnings aren't supported in this area"</string>
     <string name="ew_push_message">Estimated intensity: %s. Expect slight shaking near you.</string>
     <string name="ew_push_title">Earthquake warning for %s</string>
@@ -1468,6 +1465,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="exit_dialog_release_memory_positive_button">Close</string>
     <string name="exit_dialog_release_memory_title"><Data>Speed up your device by &lt;font color=#0099ff>%d%%&lt;/font></Data></string>
     <string name="exit_dialog_release_storage_message">More than 80% of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
+    <string name="exit_dialog_release_storage_message_new">More than %s of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
     <string name="exit_dialog_release_storage_positive_button">Free up space</string>
     <string name="exit_dialog_release_storage_title">Free up space</string>
     <string name="exit_dialog_scan_message">"Your device's performance score is lower than 75 points. Optimize now?"</string>
@@ -4788,6 +4786,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_settings">Settings</string>
     <string name="vb_ve_settings_ai_stronger">AI</string>
     <string name="vb_ve_settings_display_style_tips">*These effects are applied to the whole screen</string>
+    <string name="vb_ve_settings_display_style_tips_new">*Effects will be applied to video playback area only</string>
     <string name="vb_ve_settings_pic_border_stronger">Enhanced contours</string>
     <string name="vb_ve_settings_picture_stronger">Enhanced animations</string>
     <string name="vb_video_effects_display_style">Style</string>
