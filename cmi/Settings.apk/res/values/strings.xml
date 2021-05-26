@@ -2201,17 +2201,9 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="dark_color_summary_lcd">"Use darker color palette for system backgrounds and compatible apps. Dark mode can help you to relieve eye strain when you're using your device in the dark."</string>
     <string name="dark_color_summary_oled">Use darker color palette for system backgrounds and compatible apps. Dark mode reduces power consumption and helps to relieve eye strain.</string>
     <string name="dark_mode_apps_header">Individual apps</string>
-    <string name="dark_mode_auto_time_summary">Turn on Dark mode for a custom period</string>
-    <string name="dark_mode_auto_time_title">Custom period</string>
     <string name="dark_mode_contrast">Adjust contrast automatically</string>
     <string name="dark_mode_contrast_hint">Adjust colors and lower contrast automatically when brightness is reduced</string>
-    <string name="dark_mode_day_night_mode_summary">Switch to Dark mode after sunset automatically</string>
-    <string name="dark_mode_day_night_mode_title">Good night with dark mode</string>
     <string name="dark_mode_font_background_title">Adjust text and backgrounds automatically</string>
-    <string name="dark_mode_sunrise_sunset_notify_summary">Dark Mode sunrise-sunset notify summary</string>
-    <string name="dark_mode_sunrise_sunset_notify_title">Dark Mode sunrise-sunset notify title</string>
-    <string name="dark_mode_time_settings">Schedule Dark mode</string>
-    <string name="dark_mode_time_settings_summary">Dark mode time settings summary</string>
     <string name="dark_theme_slice_subtitle">Helps extend battery life</string>
     <string name="dark_theme_slice_title">Try Dark theme</string>
     <string name="dark_ui_activation_off_auto">Turn off until sunset</string>
@@ -7373,6 +7365,7 @@ Double tap to open Recents."</string>
     <string name="smart_battery_manager_title">Battery Manager</string>
     <string name="smart_battery_summary">Limit battery for apps that you don’t use often</string>
     <string name="smart_battery_title">Manage apps automatically</string>
+    <string name="smart_home_select_smart_device">App for managing smart home devices</string>
     <string name="smart_home_title">Smart home</string>
     <string name="smart_home_value_none">None</string>
     <string name="smart_home_value_unknown">Unknown</string>
@@ -8279,8 +8272,11 @@ Your saved fingerprints will also be removed from this profile and you won't be 
     <string name="uplmn_list_setting_add_plmn">New PLMN</string>
     <string name="uplmn_settings_summary">Define the preferred PLMNs in priority order</string>
     <string name="uplmn_settings_title">User Controlled PLMN</string>
-    <string name="upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
-    <string name="upload_debug_log_title">Send diagnostic data automatically</string>
+    <string name="upload_debug_log_detail">"Help improve your MIUI device experience by automatically sending diagnostic, device, and app usage data to Xiaomi. This will help improve battery life, MIUI system and app stability, and more.
+The data you'll send will contain general information about your device and how you use it (e.g. battery level, system and app activity, and errors). The data will be used to improve MIUI devices.
+Turning off this feature doesn't affect your device's ability to send the information needed for essential services such as system updates and security."</string>
+    <string name="upload_debug_log_summary">Share data to help improve MIUI</string>
+    <string name="upload_debug_log_title">Usage and diagnostics</string>
     <string name="usage">Usage</string>
     <string name="usage_access">Usage access</string>
     <string name="usage_access_description">Usage access allows an app to track what other apps you’re using and how often, as well as your carrier, language settings, and other details.</string>
