@@ -375,6 +375,11 @@
     <string name="app_behavior_warning_location_title">%1s is accessing your location</string>
     <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content.</string>
     <string name="app_check_no_issue">Looks like there are no battery issues. Cool!</string>
+    <string name="app_classification_activity_label">All apps</string>
+    <string name="app_classification_recent_add">Recent</string>
+    <string name="app_classification_search_all">All</string>
+    <string name="app_classification_search_hint">Search for apps</string>
+    <string name="app_classification_suggest_app">Suggestions</string>
     <string name="app_detail">Details</string>
     <string name="app_error_tip_for_launcher">"Your device's hardware components or Android system version may cause compatibility issues and make some apps misbehave, freeze, or be force stopped. If you encounter such issues, share your feedback with the app developers."</string>
     <string name="app_error_tip_for_store">"Your device's hardware components or Android system version may cause compatibility issues which may result in failing to install some apps. If you encounter such issues or some apps misbehave, freeze, or are being force stopped, ​wait until the app developers fix bugs and try installing the app again."</string>
@@ -530,6 +535,18 @@ You will not lose any app data."</string>
     <string name="app_permission_use_neccesary">Required permissions</string>
     <string name="app_permission_use_no_neccesary">Optional permissions</string>
     <string name="app_permission_use_title">Permissions</string>
+    <string name="app_predict_black_list_empty">No items here yet</string>
+    <string name="app_predict_black_list_setting_title">App suggestions blocklist</string>
+    <string name="app_predict_folder_name">Search</string>
+    <string name="app_predict_loading_text">Just a sec…</string>
+    <string name="app_predict_search_title">All apps</string>
+    <string name="app_predict_setting_black_list">Blocklist</string>
+    <string name="app_predict_setting_black_list_message">"Block apps you don't want to see among suggestions"</string>
+    <string name="app_predict_setting_privacy">Privacy Policy</string>
+    <string name="app_predict_setting_switch_message">Receive app suggestions based on your usage habits</string>
+    <string name="app_predict_setting_switch_title">Personalize suggestions</string>
+    <string name="app_predict_setting_title">App suggestions</string>
+    <string name="app_predict_widget_name_2x4">App suggestions</string>
     <string name="app_right">小米公司官方出品</string>
     <string name="app_running_tip_dialog_negative">Cancel</string>
     <string name="app_running_tip_dialog_positive">OK</string>
@@ -1077,6 +1094,8 @@ You will not lose any app data."</string>
     <string name="daily_pkg_traffic">Peak data limit</string>
     <string name="data_booster_desc">Deactivate other SIM slots to keep the connection stable</string>
     <string name="data_booster_title">Stabilize data connection</string>
+    <string name="data_local_processing_and_storage">Data stored and processed locally</string>
+    <string name="data_local_processing_and_storage_detail">"Your input will be stored and processed on this device and won't be uploaded to the cloud."</string>
     <string name="data_network_blocked_notification_title">No internet connection</string>
     <string name="data_usage_correction_timeout_title">Data usage sync timed out</string>
     <string name="data_usage_disabled_dialog">"You've reached your plan's data usage limit. If you go over your limit, your carrier may charge you additional fees."</string>
@@ -1167,6 +1186,8 @@ All data on your device might be erased and your Lock screen password might be r
     <string name="dialog_title_auto_start_declare">About autostart</string>
     <string name="dialog_title_stop_virus_scan">Stop security scan</string>
     <string name="disable_air_mode">Turn Airplane mode off first</string>
+    <string name="disable_sensitive_permissions">Sensitive permissions restricted</string>
+    <string name="disable_sensitive_permissions_detail">"Your keyboard won't be able to use privacy-related permissions (e.g. access contacts or location info)."</string>
     <string name="dlg_add_blacklist">Block this number?</string>
     <string name="dlg_add_blacklist_title">Add to blocklist</string>
     <string name="dlg_add_keyword">Add keywords</string>
@@ -1396,34 +1417,31 @@ You must understand that this feature is provided for your reference only. The w
     <string name="ew_main_warning_list">View warnings</string>
     <string name="ew_main_warning_list_tips">View</string>
     <string name="ew_main_warning_list_title">View warning history</string>
-    <string name="ew_monitor_content">地震监测是手机通过低功耗传感器感应到地震波后，系统快速通过AI算法测算地震信息，并第一时间向受影响地区群众发出预警，为更多人争取避险时间，保障人身安全。</string>
-    <string name="ew_monitor_exit">退出地震监测志愿者</string>
-    <string name="ew_monitor_exit_content">地震监测志愿者帮助更多人更快获取地震信息。感谢您（NO.%s）为地震监测做出的贡献，您确认退出地震监测志愿者吗？</string>
-    <string name="ew_monitor_exit_title">提示</string>
-    <string name="ew_monitor_have_been">我已成为</string>
-    <string name="ew_monitor_info_title">地震监测是什么？</string>
-    <string name="ew_monitor_join_number">加入人数</string>
-    <string name="ew_monitor_join_path">加入路径：小米手机-手机管家-地震预警-地震监测志愿者</string>
-    <string name="ew_monitor_my_content">地震监测是手机通过低功耗传感器感应到地震波后，系统快速通过AI算法测算地震信息，并第一时间向受影响地区群众发出预警，为更多人争取避险时间，保障人身安全。</string>
-    <string name="ew_monitor_number_prex">NO.%s</string>
-    <string name="ew_monitor_open">立即加入</string>
-    <string name="ew_monitor_read_privacy"><Data>已阅读并同意&lt;a href=\"%1$s\">《隐私政策》&lt;/a></Data></string>
-    <string name="ew_monitor_share">发送给朋友</string>
-    <string name="ew_monitor_slogan">"加入地震监测
-共建平安中国"</string>
-    <string name="ew_monitor_summary1">"手机
-也是地震监测仪"</string>
-    <string name="ew_monitor_summary2">"报送地震消息
-共建监测网络"</string>
-    <string name="ew_monitor_summary3">"帮助更多人
-更快获取地震信息"</string>
-    <string name="ew_monitor_support">小米与成都高新减灾研究所联合研发</string>
-    <string name="ew_monitor_support_rom">*部分小米/Redmi手机及MIUI版本支持此功能</string>
-    <string name="ew_monitor_thanks_tips">"感谢您成为第%s位
-地震监测志愿者"</string>
-    <string name="ew_monitor_title">地震监测志愿者</string>
-    <string name="ew_monitor_title_spilt">"地震监测
-志愿者"</string>
+    <string name="ew_monitor_content">Your mobile device can become part of the earthquake early warning network. After its sensors detect seismic waves, the data will be analyzed by the AI algorithm and early warnings will be issued to the people in the affected areas.</string>
+    <string name="ew_monitor_exit">Unenroll</string>
+    <string name="ew_monitor_exit_content">Hi Volunteer NO. %s! Your device can monitor seismic activity and collect data that would help issue early earthquake warnings. Unenroll anyway?</string>
+    <string name="ew_monitor_exit_title">Attention</string>
+    <string name="ew_monitor_have_been">"I'm proud to be an "</string>
+    <string name="ew_monitor_info_title">How does it work?</string>
+    <string name="ew_monitor_join_number">Number of volunteers</string>
+    <string name="ew_monitor_join_path">Join the program using a Xiaomi device: Security > Earthquake warning > Earthquake monitoring volunteer.</string>
+    <string name="ew_monitor_my_content">My mobile device is part of the earthquake early warning network. After its sensors detect seismic waves, the data will be analyzed by the AI algorithm and early warnings will be issued to the people in the affected areas.</string>
+    <string name="ew_monitor_number_prex">NO. %s</string>
+    <string name="ew_monitor_open">Join</string>
+    <string name="ew_monitor_read_privacy"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="ew_monitor_share">Share</string>
+    <string name="ew_monitor_slogan">"Join our earthquake
+monitoring program"</string>
+    <string name="ew_monitor_summary1">Use your device for seismic monitoring.</string>
+    <string name="ew_monitor_summary2">Report earthquake alert-related information.</string>
+    <string name="ew_monitor_summary3">Help more people get earthquake alerts faster.</string>
+    <string name="ew_monitor_support">Technical support provided by Chengdu Hi-tech Disaster Reduction Institute</string>
+    <string name="ew_monitor_support_rom">*This feature is supported by selected Xiaomi/Redmi devices and MIUI versions.</string>
+    <string name="ew_monitor_thanks_tips">"Thank you for becoming the earthquake
+monitoring volunteer NO. %s!"</string>
+    <string name="ew_monitor_title">Earthquake monitoring volunteer</string>
+    <string name="ew_monitor_title_spilt">"Earthquake monitoring
+volunteer"</string>
     <string name="ew_not_support_area">"Warnings aren't supported in this area"</string>
     <string name="ew_push_message">Estimated intensity: %s. Expect slight shaking near you.</string>
     <string name="ew_push_title">Earthquake warning for %s</string>
@@ -1468,6 +1486,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="exit_dialog_release_memory_positive_button">Close</string>
     <string name="exit_dialog_release_memory_title"><Data>Speed up your device by &lt;font color=#0099ff>%d%%&lt;/font></Data></string>
     <string name="exit_dialog_release_storage_message">More than 80% of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
+    <string name="exit_dialog_release_storage_message_new">More than %s of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
     <string name="exit_dialog_release_storage_positive_button">Free up space</string>
     <string name="exit_dialog_release_storage_title">Free up space</string>
     <string name="exit_dialog_scan_message">"Your device's performance score is lower than 75 points. Optimize now?"</string>
@@ -2170,6 +2189,7 @@ to join our egg hunt!"</string>
     <string name="image_protect_recover_success">Restored successfully</string>
     <string name="image_protect_tips_title">Deleting photos</string>
     <string name="image_protect_total_activity_label">Receive notifications about deleted photos</string>
+    <string name="ime_security_warning">%1$s may record everything you type, including passwords and other sensitive information. Use it anyway?</string>
     <string name="in_delete">Deleting…</string>
     <string name="in_recover">Restoring…</string>
     <string name="info_and_call">Calls and messaging</string>
@@ -2473,6 +2493,7 @@ Your device is %d%% faster now."</string>
     <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Remove from exceptions</string>
     <string name="menu_white">Add to exceptions</string>
+    <string name="mi_ime_not_used">Use a keyboard authorized by Xiaomi</string>
     <string name="mi_pay_lucky">小米钱包</string>
     <string name="mi_service_app_detail">Data usage details</string>
     <string name="mi_service_traffic_detail">Framework details</string>
@@ -2587,6 +2608,7 @@ Your device is %d%% faster now."</string>
     <string name="net_delay_title">Delay</string>
     <string name="net_overdue">Session ended</string>
     <string name="network_assistant_privacy">To keep track of data usage by app, we collect information such as package names, Wi-Fi and mobile data usage, peak and off-peak data usage, and when Wi-Fi and mobile data is on. This information is stored locally on your device.</string>
+    <string name="network_assistant_privacy_title">Send app and network usage and diagnostic data</string>
     <string name="network_blocked_connected_open_wifi">Connected to public network</string>
     <string name="network_blocked_notification_summary">Test network</string>
     <string name="network_blocked_switch_wifi">Switch networks</string>
@@ -2757,6 +2779,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="numeric_settings_help_how_to_record">How to set PIN</string>
     <string name="oaid_reset_content_tip">If you turn off virtual ID now, some apps might stop working properly, a part of your app data might be lost or become unusable.</string>
     <string name="oaid_reset_final_tip">Turn off virtual ID anyway?</string>
+    <string name="offline_voice_input">Offline voice input</string>
+    <string name="offline_voice_input_detail">"You won't need the internet for voice input."</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
     <string name="old_sdk_deny_warning">"The app isn't compatible with the latest Android permission requirements. Denied permissions may affect the way this app works."</string>
@@ -3331,6 +3355,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_optional_protection_function">Optional protection measures</string>
     <string name="pp_permission_action_virtual_detail">Grant permissions but give apps blank files instead of personal info</string>
     <string name="pp_permission_settings">Permissions</string>
+    <string name="pp_privacy_input_tips">Protect your keyboard</string>
     <string name="pp_privacy_lab_blur_location">Approximate location</string>
     <string name="pp_privacy_lab_blur_location_summary">Depersonalize your location info allowing apps to access your approximate location</string>
     <string name="pp_privacy_lab_clipboard">Protect clipboard</string>
@@ -3555,6 +3580,13 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="privacy_guide_permission_use_text">MIUI will count and display the number of times an app uses sensitive permissions, including location, contact, call history, and storage access, as well as recording audio. You can learn how many times each app uses these permissions and determine whether you need to adjust your permission settings.</string>
     <string name="privacy_hide_other_permissions">Hide other permissions</string>
     <string name="privacy_informed_title">Stats</string>
+    <string name="privacy_input_icon_layout_status_bg_content_enable">Protected</string>
+    <string name="privacy_input_mode">Secure input</string>
+    <string name="privacy_input_mode_img_detail">Works with keyboards authorized by Xiaomi</string>
+    <string name="privacy_input_mode_version_supported">Update your keyboard to be able to use this feature</string>
+    <string name="privacy_input_model_guide_choose">Download offline voice input</string>
+    <string name="privacy_input_model_guide_text">"This feature protects your privacy while you're entering text. When this feature is on, some of the network-based functionality (e.g. personalization options, emoji, predictive typing) won't be available."</string>
+    <string name="privacy_input_model_tips">"Secure input is on. Your keyboard can't display pop-up windows or access contacts, location info, and call history."</string>
     <string name="privacy_location_info_summary">Manage access to your location</string>
     <string name="privacy_location_info_title">Location info</string>
     <string name="privacy_look_all_permission_status">All permissions</string>
@@ -3705,6 +3737,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="prompt_input_time_illegal">"Can't set this time, change it and try again"</string>
     <string name="prompt_safe">安全</string>
     <string name="prompt_unknown">未知</string>
+    <string name="protect_data_security">Isolated data</string>
+    <string name="protect_data_security_detail">The data generated by the keyboard will be isolated and inaccessible by other apps.</string>
+    <string name="protect_screen_information">Your screen is protected</string>
+    <string name="protect_screen_information_detail">"You won't be able to take a screenshot or record your screen while you're typing."</string>
     <string name="protocol_exception_title">Network protocol diagnostics</string>
     <string name="protocol_loop_back_exception_summary">Local loop back test failed. To report this issue to MIUI, go to the Feedback app and send a log from your device.</string>
     <string name="provision_back">Back</string>
@@ -3788,6 +3824,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="risk_app_install_item_des">Version: %1$s</string>
     <string name="risk_app_install_manager">Apps with possible risks</string>
     <string name="risk_count_suffix" />
+    <string name="risk_tip">Risk detected</string>
     <string name="roaming_allow_network_dialog_title">Allow mobile data roaming?</string>
     <string name="roaming_limit_dialog_message">Reached daily roaming data limit.</string>
     <string name="roaming_limit_network_notification_body">Tap to view available data networks</string>
@@ -3870,6 +3907,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="set_complete">Set successfully</string>
     <string name="set_location">Set location</string>
     <string name="set_mixed_password_name">Set password</string>
+    <string name="set_now">Settings</string>
     <string name="set_numeric_password_name">Set PIN</string>
     <string name="set_package_tips">"We'll send a free SMS to your carrier to check your data plan. The information you provide will be encrypted and uploaded to our servers in order to compose this message."</string>
     <string name="set_package_tips_detail">"The information uploaded to Xiaomi servers will include your carrier's details, as well as your phone number, IMEI, and Mi Account."</string>
@@ -4207,6 +4245,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="status_bar_network_flow_setup_data_plan">"   Setup data plan >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_retain_btn">Keep</string>
+    <string name="stop_collecting_data">"Keyboard won't learn your habits"</string>
+    <string name="stop_collecting_data_detail">"The keyboard won't collect data for improving predictive typing and suggesting frequent phrases based on your habits."</string>
     <string name="stop_milink_connect">Stopped casting</string>
     <string name="storage_activity_title">Storage space</string>
     <string name="storage_app_detail_activity_title">Occupied space</string>
@@ -4768,6 +4808,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="usbsharenet_exception_title">Test shared internet over USB</string>
     <string name="usbsharenet_pc_exception_summary">"Can't connect to the internet using shared USB connection. Check your computer's internet connection."</string>
     <string name="use_immediately">Use</string>
+    <string name="use_other_ime_warn">Third party keyboards may record everything you type, including passwords and other sensitive information.</string>
     <string name="user_define_title">Add rules</string>
     <string name="user_guide">Swipe up to discover more fresh games</string>
     <string name="user_guide_title">Joystick Picks</string>
@@ -4788,6 +4829,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_settings">Settings</string>
     <string name="vb_ve_settings_ai_stronger">AI</string>
     <string name="vb_ve_settings_display_style_tips">*These effects are applied to the whole screen</string>
+    <string name="vb_ve_settings_display_style_tips_new">*Effects will be applied to video playback area only</string>
     <string name="vb_ve_settings_pic_border_stronger">Enhanced contours</string>
     <string name="vb_ve_settings_picture_stronger">Enhanced animations</string>
     <string name="vb_video_effects_display_style">Style</string>
