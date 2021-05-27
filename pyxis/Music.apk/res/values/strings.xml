@@ -95,7 +95,7 @@
     <string name="app_description_content">"Music is a system app that contains an audio player and allows you to manage audio files. You'll still be able to play audio files after you remove the Home screen shortcut."</string>
     <string name="app_description_title">Remove \"Music\" from Home screen?</string>
     <string name="app_label">Downloads</string>
-    <string name="app_name">SdkCommon</string>
+    <string name="app_name">Preference</string>
     <string name="app_permission_confirm">Got it</string>
     <string name="app_permission_optional">Optional permissions</string>
     <string name="app_permission_require">Mandatory permissions</string>
@@ -149,8 +149,9 @@
     <string name="cancel_running_download">Cancel</string>
     <string name="cannot_download_to_sdcard_hint">"Can't download items to SD card due to copyright restrictions. Items will be downloaded to internal storage instead."</string>
     <string name="change_download_quality">Change download quality</string>
-    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
-    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
     <string name="chart_first_song">1.%s</string>
     <string name="chart_second_song">2.%s</string>
     <string name="chart_third_song">3.%s</string>
@@ -225,9 +226,11 @@
     <string name="chinese_symbol_animals_sheep">羊</string>
     <string name="chinese_symbol_animals_snake">蛇</string>
     <string name="chinese_symbol_animals_tiger">虎</string>
+    <string name="chip_text">Chip text</string>
     <string name="choose_download_quality">Choose download quality</string>
     <string name="choose_music_lang_pref">Preferred languages for songs</string>
     <string name="choose_stream_quality">Choose streaming quality</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="clearable_edittext_clear_description">Clear</string>
     <string name="click_and_watch_video_tip">Tap to play music video</string>
     <string name="click_to_add_album_cover_and_lyric">Tap to add album cover and lyrics</string>
@@ -239,7 +242,10 @@
     <string name="columbus_player_close_video">CLOSE VIDEO</string>
     <string name="columbus_player_install_now">INSTALL NOW</string>
     <string name="columbus_player_learn_more">Learn More</string>
-    <string name="com.crashlytics.android.build_id">09a45533056d4aa685f10a985a7cf798</string>
+    <string name="columbus_player_speed_title">Skip Video?</string>
+    <string name="columbus_player_speed_video">Skip VIDEO</string>
+    <string name="columbus_player_unit_sec">sec</string>
+    <string name="com.crashlytics.android.build_id">cec99137564f4bd2adfff4f4e9360d81</string>
     <string name="comment_format" formatted="false">%s: %s</string>
     <string name="common_google_play_services_enable_button">Enable</string>
     <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -473,6 +479,7 @@
     <string name="equalizer">Equalizer</string>
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
+    <string name="error_icon_content_description">Error</string>
     <string name="error_message_no_internet_connection">Could not connect to internet. Please check your internet connection and try again.</string>
     <string name="error_message_something_went_wrong">Something went wrong please try again.</string>
     <string name="error_not_support">Not supported</string>
@@ -522,6 +529,7 @@
     <string name="exo_track_unknown">Unknown</string>
     <string name="expand_button_title">Advanced</string>
     <string name="expired">Expired</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="facebook_app_id">1310336955745219</string>
@@ -686,6 +694,7 @@
     <string name="hungama_subscribe_positive_button">Buy PRO membership</string>
     <string name="hungama_subscribe_title">PRO membership</string>
     <string name="i_know">OK</string>
+    <string name="icon_content_description">Dialog Icon</string>
     <string name="id_namespace">hungama</string>
     <string name="impunity_declaration_content">You must read and agree with our &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=en\">User Agreement&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=en\">Privacy Policy&lt;/a> before using the product.</string>
     <string name="impunity_declaration_ignore">"Don't show again"</string>
@@ -719,6 +728,7 @@
     <string name="is_scanning">Checking storage…</string>
     <string name="is_scanning_support_online">"Checking storage…
 (In the meantime, you can stream music online)"</string>
+    <string name="item_view_role_description">Tab</string>
     <string name="joox_account_bind_mi_account">Add Mi Account</string>
     <string name="joox_account_cancel_login">Cancel</string>
     <string name="joox_account_continue_login">Sign in</string>
@@ -752,6 +762,7 @@
     <string name="joox_auth_title_vip_expired">Membership expired</string>
     <string name="joox_auth_title_vip_function">VIP features</string>
     <string name="joox_category_artist">Artists</string>
+    <string name="joox_category_chart">Charts</string>
     <string name="joox_category_playlist">Playlists</string>
     <string name="joox_category_vip">Fan Center</string>
     <string name="joox_download_tab_title">JOOX</string>
@@ -803,6 +814,8 @@
     <string name="lyric_label">Lyrics</string>
     <string name="lyric_open_other_connect">Download lyrics using mobile network</string>
     <string name="lyric_setting">Lyrics settings</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
     <string name="max_sleep_time">%d</string>
     <string name="menu_title_pause_all">Pause all</string>
     <string name="menu_title_resume_all">Start all</string>
@@ -893,7 +906,41 @@
     <string name="more_share">Share</string>
     <string name="more_splendid_contents">More</string>
     <string name="morning">AM</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select a Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select a Date Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
     <string name="mulit_choice_management">Manage multiple items</string>
     <string name="music_browser_label">Music</string>
     <string name="music_filter">Filter audio files</string>
@@ -909,6 +956,8 @@
     <string name="my_playlist_create_self_playlist">Create playlists with your favorite songs</string>
     <string name="my_playlist_set_to_private">Make private</string>
     <string name="my_playlist_set_to_public">Make public</string>
+    <string name="nav_app_bar_navigate_up_description">Navigate up</string>
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
     <string name="network_disable">"Couldn't connect to the network"</string>
     <string name="network_error_and_retry">"Couldn't connect, tap to try again"</string>
     <string name="network_request_error">"Can't connect to the network"</string>
@@ -1064,9 +1113,7 @@
 Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before using Mi Music.
 If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you."</Data></string>
     <string name="privacy_request_subtitle">"Welcome to Mi Music! This app provides the following services:
-
 - A local audio player
-
 - Online streaming services"</string>
     <string name="privacy_request_title">Terms and conditions</string>
     <string name="pro_member">PRO member</string>
@@ -1338,7 +1385,7 @@ Be Happy"</string>
     <string name="title_command_mode">Command mode</string>
     <string name="title_online_fm_recommend">Featured FM</string>
     <string name="title_online_recommend">Featured playlists</string>
-    <string name="title_recently_played">Recently played</string>
+    <string name="title_recently_played">Recently Played</string>
     <string name="title_search_history">Search history</string>
     <string name="title_search_hot">Popular</string>
     <string name="toast_cant_collect_mine_playlist">"Can't add your own playlists to favorites"</string>
