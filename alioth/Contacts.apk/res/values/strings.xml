@@ -81,6 +81,7 @@
     <string name="bh_back">Back</string>
     <string name="bh_bill_balance">Balance</string>
     <string name="bh_bill_charge">Top up balance</string>
+    <string name="bh_bills_info_label">Details</string>
     <string name="bh_bugreport">Business feedback</string>
     <string name="bh_business_hall_is_here">Carrier services are here</string>
     <string name="bh_business_style">Select interface</string>
@@ -93,6 +94,10 @@
     <string name="bh_cannot_action">"Couldn't use %1$s. Install the corresponding app first."</string>
     <string name="bh_cannot_fetch_num">Unknown phone number</string>
     <string name="bh_cannot_login_miacount">"Couldn't sign in to Mi Account"</string>
+    <string name="bh_card_order_detail">Order info</string>
+    <string name="bh_card_order_name">Service package</string>
+    <string name="bh_card_order_pay_price">Amount paid</string>
+    <string name="bh_card_order_price">Price</string>
     <string name="bh_charge_confirm">Add %2$s CNY to %1$s?</string>
     <string name="bh_charge_continue">Top up</string>
     <string name="bh_charge_number">Topping up %1$s</string>
@@ -100,6 +105,9 @@
     <string name="bh_close_traffic_package">Close carrier plan details</string>
     <string name="bh_cmcc">China Mobile</string>
     <string name="bh_confirm">OK</string>
+    <string name="bh_connect_address">"Recipient's name"</string>
+    <string name="bh_connect_name">Recipient</string>
+    <string name="bh_connect_number">"Recipient's phone number"</string>
     <string name="bh_contact_number">%1$s from your contacts</string>
     <string name="bh_ct">China Telecom</string>
     <string name="bh_cu">China Unicom</string>
@@ -113,6 +121,8 @@
     <string name="bh_edit_saved_phone_number">Edit tag for the saved number</string>
     <string name="bh_edit_sim_num">Edit SIM phone number</string>
     <string name="bh_exchange_number">Change number</string>
+    <string name="bh_express_name">Delivery service</string>
+    <string name="bh_express_number">Package number</string>
     <string name="bh_fetch_balance">Check balance</string>
     <string name="bh_flow_exceed">Went over limit</string>
     <string name="bh_funtion_desc">Welcome to Mi Carrier Services! You can use this app to check your phone balance, purchase call minutes and mobile data, and more. This app needs to connect to the network to be able to work normally.</string>
@@ -136,16 +146,20 @@
     <string name="bh_net_error">A network error occurred</string>
     <string name="bh_no_sim">"SIM card isn't installed"</string>
     <string name="bh_no_sim_inserted">"SIM card isn't installed"</string>
+    <string name="bh_none">None</string>
     <string name="bh_not_contact">"Couldn't find results"</string>
     <string name="bh_notice">Attention</string>
     <string name="bh_online_service">Online support</string>
     <string name="bh_option_agree_dec">Allow Mi Carrier Services to connect to the internet and grant the required permissions before using the app.</string>
+    <string name="bh_order_detail">Order details</string>
     <string name="bh_order_id">Order ID</string>
     <string name="bh_order_loading">Just a sec…</string>
     <string name="bh_order_pay">Payment</string>
+    <string name="bh_order_status">Order status</string>
     <string name="bh_order_time">Transaction time</string>
     <string name="bh_other_charge">Other phone number</string>
     <string name="bh_other_operator">Other carriers</string>
+    <string name="bh_other_traffic">Other phone number</string>
     <string name="bh_pay_fail_desc">"Couldn't connect to the network. Go back and complete payment again."</string>
     <string name="bh_pay_fee">Ampunt</string>
     <string name="bh_pay_success_desc">Your balance might be credited with a delay</string>
@@ -181,8 +195,18 @@
     <string name="bh_tag_phones">Frequently used phone numbers</string>
     <string name="bh_tags_number_exceed">"Can't save more phone numbers"</string>
     <string name="bh_tb">TB</string>
+    <string name="bh_text_buy_time">Order created</string>
+    <string name="bh_text_charge_name">Amount</string>
+    <string name="bh_text_no_order">No orders here</string>
+    <string name="bh_text_operator">Carrier</string>
+    <string name="bh_text_order_id">Order number</string>
+    <string name="bh_text_paid_fee">Order amount</string>
+    <string name="bh_text_phone_num">Phone number</string>
+    <string name="bh_text_traffic_package">Data package</string>
     <string name="bh_time_before">%1$s %2$s ago</string>
+    <string name="bh_toast_copy">Copied successfully</string>
     <string name="bh_toast_start_intent_failed">"Couldn't find an app to handle this action"</string>
+    <string name="bh_traffic_charge">Get mobile data</string>
     <string name="bh_traffic_service">More services</string>
     <string name="bh_traffic_surplus">Remaining data</string>
     <string name="bh_traffic_title">Get data</string>
@@ -193,7 +217,6 @@
     <string name="bh_will_open">Opening %1$s…</string>
     <string name="bh_wrong_number_hint">Enter a valid phone number</string>
     <string name="bh_yuan">CNY</string>
-    <string name="bills_info_label">Details</string>
     <string name="bind_simcard_default">Default SIM for calls</string>
     <string name="bind_simcard_menu">Set default SIM for calls</string>
     <string name="bind_simcard_no_dual">"Couldn't find dual SIM"</string>
@@ -973,6 +996,7 @@ Reason: \"%s\""</string>
     <string name="night">Evening</string>
     <string name="nine_letter">WXYZ</string>
     <string name="noAccounts">To create groups you need an account.</string>
+    <string name="no_contact_selected">Select a contact to view details</string>
     <string name="no_contacts_dialog_message">"Contacts may be stored on your SIM card. Try importing them from your SIM card to your device's internal storage and then try again."</string>
     <string name="no_contacts_dialog_title">"Can't find contacts"</string>
     <string name="no_phone_no_shortcut">"Can't create shortcuts for contacts without phone numbers"</string>
@@ -1124,6 +1148,7 @@ Reason: \"%s\""</string>
     <string name="remove_duplicate">"MIUI will help you find and merge duplicate contacts.
 
  To begin, tap the Merge icon at the bottom of your screen."</string>
+    <string name="residual_time_description">%1$sday%2$shour</string>
     <string name="residual_time_description2">%1$dh</string>
     <string name="residual_time_description3">%1$dm</string>
     <string name="residual_time_description4">%1$dd</string>
@@ -1300,9 +1325,9 @@ Reason: \"%s\""</string>
     <string name="t9_search_empty_send_sms">Send message</string>
     <string name="t9_search_empty_video_call">Video call</string>
     <string name="t9_search_guide_pinyin_title1">Enter numbers to find contacts</string>
-    <string name="t9_search_guide_pinyin_title2" formatted="false">Enter %d and %d to search for ebbie mith</string>
+    <string name="t9_search_guide_pinyin_title2" formatted="false">Enter %d and %d to search for Debbie Smith</string>
     <string name="t9_search_guide_zhuyin_title1">Enter numbers to find contacts</string>
-    <string name="t9_search_guide_zhuyin_title2" formatted="false">Enter %d and %d to search for eff ax</string>
+    <string name="t9_search_guide_zhuyin_title2" formatted="false">Enter %d and %d to search for Jeff Max</string>
     <string name="take_new_photo">Take new photo</string>
     <string name="take_photo">Take photo</string>
     <string name="text_msim_balance">Used today</string>
