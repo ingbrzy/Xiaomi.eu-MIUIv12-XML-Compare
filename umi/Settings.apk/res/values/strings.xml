@@ -2201,9 +2201,14 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="dark_color_summary_lcd">"Use darker color palette for system backgrounds and compatible apps. Dark mode can help you to relieve eye strain when you're using your device in the dark."</string>
     <string name="dark_color_summary_oled">Use darker color palette for system backgrounds and compatible apps. Dark mode reduces power consumption and helps to relieve eye strain.</string>
     <string name="dark_mode_apps_header">Individual apps</string>
+    <string name="dark_mode_auto_time_summary">Turn Dark mode on and off at scheduled time</string>
+    <string name="dark_mode_auto_time_title">Custom</string>
     <string name="dark_mode_contrast">Adjust contrast automatically</string>
     <string name="dark_mode_contrast_hint">Adjust colors and lower contrast automatically when brightness is reduced</string>
+    <string name="dark_mode_day_night_mode_summary">Switch to Dark mode at sunset and turn it off at sunrise</string>
+    <string name="dark_mode_day_night_mode_title">Sunset to sunrise</string>
     <string name="dark_mode_font_background_title">Adjust text and backgrounds automatically</string>
+    <string name="dark_mode_time_settings">Schedule Dark mode</string>
     <string name="dark_theme_slice_subtitle">Helps extend battery life</string>
     <string name="dark_theme_slice_title">Try Dark theme</string>
     <string name="dark_ui_activation_off_auto">Turn off until sunset</string>
@@ -5575,8 +5580,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
     <string name="notifications_title">Notifications</string>
     <string name="now">Reboot now</string>
     <string name="number_of_device_admins_none">No active apps</string>
-    <string name="oaid_apps_summary">设置是否允许应用获取虚拟身份ID</string>
-    <string name="oaid_apps_title">虚拟身份ID授权管理</string>
+    <string name="oaid_apps_summary">Allow or restrict access for individual apps</string>
+    <string name="oaid_apps_title">Manage virtual ID</string>
     <string name="oaid_string">"Current virtual ID:
 %1s"</string>
     <string name="oem_lock_info_message">Please restart the device to enable device protection feature.</string>
@@ -6629,8 +6634,9 @@ To use app pinning: \u0009
     <string name="screen_saturation">Saturation</string>
     <string name="screen_shot">Take a screenshot</string>
     <string name="screen_timeout">Sleep</string>
+    <string name="screen_timeout_subtitle">Displaying static content for extended periods of time may make colors uneven</string>
     <string name="screen_timeout_summary">After %1$s of inactivity</string>
-    <string name="screen_timeout_title">Sleep mode</string>
+    <string name="screen_timeout_title">Lock screen automatically</string>
     <string name="screen_usage_summary">Amount of time screen has been on since full charge</string>
     <string name="screen_zoom_big">L</string>
     <string name="screen_zoom_conversation_icon_alex">A</string>
@@ -7846,6 +7852,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="switch_headset_anti_lost_title">Missing earphone alert</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
+    <string name="switch_power_sound">Charging sound</string>
     <string name="switch_screen_button_order">Mirror buttons</string>
     <string name="switch_screen_button_order_desc">Mirror Back and Menu buttons</string>
     <string name="switch_select_to_speak_on">Select to Speak</string>
@@ -8017,6 +8024,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="thursday">Thursday</string>
     <string name="thursday_short">Thu</string>
     <string name="thursday_shortest">Thu</string>
+    <string name="time_floating_window">Floating clock</string>
+    <string name="time_floating_window_summary">Show the clock in the floating window above other apps</string>
     <string name="time_format_category_title">Time format</string>
     <string name="time_picker_dialog_title">Set time</string>
     <string name="time_picker_label_hour">H</string>
