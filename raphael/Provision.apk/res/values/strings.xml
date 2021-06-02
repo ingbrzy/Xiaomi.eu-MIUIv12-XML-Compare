@@ -161,6 +161,7 @@
     <string name="disagreement_exit_app">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to sign out or restrict permissions in the Settings in such cases."</string>
     <string name="disagreement_function">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this feature. You can choose not to use this feature in such cases."</string>
     <string name="disagreement_location_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service."</string>
+    <string name="disagreement_terminate_miuidaemon">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service. You can choose not to use this service or restrict permissions in the Settings in such cases. Note that we will use the permissions only when you start transferring data from your device when its screen is damaged."</string>
     <string name="disagreement_terminate_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall, sign out, or restrict permissions in the Settings in such cases."</string>
     <string name="download_introduction">\"Downloads\" is using Xunlei to download items on your device. This tool works for GetApps, system updates, themes, videos, and browser downloads.</string>
     <string name="early_morning">Morning</string>
@@ -396,8 +397,12 @@
     <string name="other_settings_enhanced_lockscreen_summary_index">End User Licence Agreement</string>
     <string name="other_settings_location">Location</string>
     <string name="other_settings_location_summary">Allow apps to access your location</string>
-    <string name="other_settings_upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
-    <string name="other_settings_upload_debug_log_title">Send diagnostic data automatically</string>
+    <string name="other_settings_upload_debug_log_detail">"Help improve your MIUI device experience by automatically sending diagnostic, device, and app usage data to Xiaomi. This will help improve battery life, MIUI system and app stability, and more.
+The data you'll send will contain general information about your device and how you use it (e.g. battery level, system and app activity, and errors). The data will be used to improve MIUI devices.
+Turning off this feature doesn't affect your device's ability to send the information needed for essential services such as system updates and security.
+You can control this feature from Settings > Passwords &amp; security > Privacy > Usage and diagnostics."</string>
+    <string name="other_settings_upload_debug_log_summary">Help improve your MIUI device experience by automatically sending diagnostic, device, and app usage data to Xiaomi. This will help improve battery life, MIUI system and app stability, and more.</string>
+    <string name="other_settings_upload_debug_log_title">Send usage and diagnostic data</string>
     <string name="other_settings_user_experience">User Experience Program</string>
     <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us. View details</string>
     <string name="other_settings_user_experience_summary_index">View details</string>
@@ -471,6 +476,7 @@
     <string name="provision_skip_underline">Skip</string>
     <string name="recorder_introduction">You can use this app to record audio and back up recordings to the cloud.</string>
     <string name="require_authority_statement">To allow us to provide you with basic services, you need to grant the following permissions in order for us to collect your personal information:</string>
+    <string name="require_miuidaemon_authority_statement">To allow us to provide you with this service, you need to grant the following permissions in order for us to collect your personal information:</string>
     <string name="require_network_authority_statement">To allow us to provide you with basic services, you need to connect to the internet and grant the following permissions in order for us to collect your personal information:</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>

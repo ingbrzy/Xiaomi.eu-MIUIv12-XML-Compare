@@ -338,7 +338,7 @@ and adjust preferences automatically"</string>
     <string name="ambilight_tips_for_longtime_using_tripod">Use a tripod to capture a longer exposure</string>
     <string name="ambilight_tips_for_suggest_using_tripod">Use a tripod</string>
     <string name="ambilight_tips_for_using_tripod">Use a tripod</string>
-    <string name="app_name">veeditor</string>
+    <string name="app_name">vecommon</string>
     <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
     <string name="audio_map_summary_tip">Monitor the volume of the left and right channels in real time and adjust it using the slider</string>
     <string name="auto_hibernation_enter_tip">About to turn off screen…</string>
@@ -359,6 +359,7 @@ and adjust preferences automatically"</string>
     <string name="back_apollo_pro_global">3:MI 10T PRO</string>
     <string name="back_apollo_pro_india">3:MI 10T PRO</string>
     <string name="back_apricot">3:SHOT ON REDMI 10X:AI TRIPLE CAMERA</string>
+    <string name="back_ares">3:REDMI K40 GAMING</string>
     <string name="back_atom">3:SHOT ON REDMI 10X:AI TRIPLE CAMERA</string>
     <string name="back_banana">4:REDMI 10X PRO:AI QUAD CAMERA</string>
     <string name="back_begonia">4:REDMI NOTE 8 PRO:AI QUAD CAMERA</string>
@@ -430,6 +431,7 @@ and adjust preferences automatically"</string>
     <string name="back_lmiin_india">4:REDMI K30 PRO 5G:AI QUAD CAMERA</string>
     <string name="back_lmiinpro_pro_india">4:REDMI K30 PRO 5G ZOOM:AI QUAD CAMERA</string>
     <string name="back_lmipro_pro">4:REDMI K30 PRO ZOOM:AI QUAD CAMERA</string>
+    <string name="back_maltose">4:REDMI NOTE 10S</string>
     <string name="back_mars">3:MI 11 PRO</string>
     <string name="back_merlin">4:SHOT ON REDMI 10X:AI QUAD CAMERA</string>
     <string name="back_merlin_global">4:REDMI NOTE 9:AI QUAD CAMERA</string>
@@ -457,6 +459,9 @@ and adjust preferences automatically"</string>
     <string name="back_raphaelin">3:REDMI K20 PRO:AI TRIPLE CAMERA</string>
     <string name="back_renoir">3:MI 11 LITE</string>
     <string name="back_renoir_global">3:MI 11 LITE 5G</string>
+    <string name="back_rosemary">4:REDMI NOTE 10S</string>
+    <string name="back_secret">4:REDMI NOTE 10S</string>
+    <string name="back_secretin">4:REDMI NOTE 10S</string>
     <string name="back_shiva">0:POCO:SHOT ON POCO M2</string>
     <string name="back_shiva_india_reloaded">0:POCO:POCO M2 RELOADED</string>
     <string name="back_sirius">2:SHOT ON MI 8 SE:AI DUAL CAMERA</string>
@@ -653,6 +658,7 @@ and adjust preferences automatically"</string>
     <string name="clone_start_capture">Start cloning</string>
     <string name="clone_too_much_movement_stop">You moved the device too far. Stopped capturing for now.</string>
     <string name="clone_video_mode">Video</string>
+    <string name="close">Close</string>
     <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
     <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
     <string name="close_night_algo_toast_low_power">Charge your device to be able to set exposure</string>
@@ -790,11 +796,12 @@ scanned documents automatically"</string>
     <string name="document_mode_use_hint_text_title">Scan documents</string>
     <string name="document_origin">Original</string>
     <string name="document_strengthen">Enhanced</string>
-    <string name="dolly_zoom_capture_tip1">Place your subject into the frame and keep the device at least %d meter away</string>
-    <string name="dolly_zoom_capture_tip2">Move the device away from your subject steadily</string>
+    <string name="dolly_zoom_capture_tip1">Place your subject into the frame</string>
+    <string name="dolly_zoom_capture_tip2">Keep your subject in the center and move the device away steadily</string>
     <string name="dolly_zoom_capture_tip3">Lost track of the subject. Start over.</string>
     <string name="dolly_zoom_capture_tip4">You moved the device too far away. Start over.</string>
     <string name="dolly_zoom_capture_tip5">"Couldn't save video"</string>
+    <string name="dolly_zoom_capture_tip6">Move your subject to the center of the frame</string>
     <string name="dolly_zoom_guide_tip1">"Make sure there's enough space between your subject and the background."</string>
     <string name="dolly_zoom_guide_tip10">And more!</string>
     <string name="dolly_zoom_guide_tip2">Try to avoid large areas of solid color.</string>
@@ -820,15 +827,15 @@ scanned documents automatically"</string>
     <string name="dual_video_record_remote">Dual phone recording</string>
     <string name="dual_video_record_standalone">Separated</string>
     <string name="dual_video_user_guide_main_content">To create multicam videos, select two cameras on your device and shoot simultaneously. The recordings can be stored separately, or combined in a split view or picture-in-picture video.</string>
-    <string name="dual_video_user_guide_main_content_new">"多摄同开功能可同时开启多个摄像头，支持录制任意两个视角的画面，并可选择“双拼”或“同录”两种不同的形式。
-在开启“多机联录”功能后，可连接另一台手机的摄像头，两台手机获取的画面可合成“双拼”视频。"</string>
+    <string name="dual_video_user_guide_main_content_new">"Multicam videos are shot with multiple cameras simultaneously.
+Dual phone recording also allows you to connect to the other device and create a multicam video by selecting \"Combined\"."</string>
     <string name="dual_video_user_guide_main_title">Multicam video</string>
     <string name="dual_video_user_guide_merge_content">Shoot with two cameras simultaneously and combine recordings in a split view or picture-in-picture video.</string>
-    <string name="dual_video_user_guide_merge_content_new">同时录制两个视角下的影像，并合成为一段视频；可选择大小窗构图或等比构图。</string>
-    <string name="dual_video_user_guide_remote_content">"Dual phone recording allows combining feeds from two different devices into one video. You'll be able to preview both feeds and the final video on this device. Note that audio will only be recorded by this device."</string>
+    <string name="dual_video_user_guide_merge_content_new">Two recordings can be combined in a split view or picture-in-picture video.</string>
+    <string name="dual_video_user_guide_remote_content">"Combine feeds from two different devices into one video. You'll be able to preview both feeds and the final video on this device. Note that audio will only be recorded by this device."</string>
     <string name="dual_video_user_guide_remote_p">Phone %d</string>
     <string name="dual_video_user_guide_standalone_content">Shoot with two cameras simultaneously and save both recordings as separate videos.</string>
-    <string name="dual_video_user_guide_standalone_content_new">同时录制和保存两个视角下拍摄的两段视频。</string>
+    <string name="dual_video_user_guide_standalone_content_new">Simultaneously recorded videos can be also separated and saved as two files.</string>
     <string name="early_morning">Morning</string>
     <string name="earthly_branches_chen">辰</string>
     <string name="earthly_branches_chou">丑</string>
@@ -1100,7 +1107,7 @@ in Portrait mode"</string>
     <string name="live_sticker_updating">Updating…</string>
     <string name="live_workspace_title">Drafts</string>
     <string name="live_workspace_title_edit">Select items to delete</string>
-    <string name="location_access_allow">Allow</string>
+    <string name="location_access_allow">Agree</string>
     <string name="location_permission_des">Remember locations for photos and videos</string>
     <string name="location_permission_not_ask_again">Allow Camera to access your location in the Settings.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Allow</string>
@@ -1362,8 +1369,8 @@ look larger on photos"</string>
     <string name="network_access_user_notice_title">Connecting to the internet</string>
     <string name="network_connection_failed">"Couldn't connect"</string>
     <string name="network_connection_ongoing">Connecting…</string>
-    <string name="network_connection_prerequisites">Turn on Bluetooth and Wi-Fi to be able to use Dual phone recording.</string>
-    <string name="network_connection_prerequisites_china">Turn on Bluetooth and Wi-Fi to be able to use Dual phone recording.</string>
+    <string name="network_connection_prerequisites">Turn on Bluetooth and Wi-Fi in Control center to be able to use Dual phone recording.</string>
+    <string name="network_connection_prerequisites_china">Turn on Bluetooth and Wi-Fi in Control center to be able to use Dual phone recording.</string>
     <string name="network_connection_rejected">Rejected</string>
     <string name="network_connection_timed_out">Connection timed out</string>
     <string name="night">Evening</string>
@@ -1562,7 +1569,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_device_watermark_title">Device watermark</string>
     <string name="pref_camera_dual_enable_title">Turn on dual camera</string>
     <string name="pref_camera_dual_sat_enable_title">Turn on dual SAT camera</string>
-    <string name="pref_camera_dynamic_frame_rate_summary">Frame rate will be lowered automatically in low light conditions to improve video quality</string>
+    <string name="pref_camera_dynamic_frame_rate_summary">Frame rate will be lowered automatically in low light or high temperature conditions to improve video quality</string>
     <string name="pref_camera_dynamic_frame_rate_title">Adjust frame rate to low light</string>
     <string name="pref_camera_eis_entry_normal">Steady video</string>
     <string name="pref_camera_eis_entry_off">Off</string>
@@ -1877,7 +1884,6 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_video_show_faceview_title">Show face frame in Video mode</string>
     <string name="pref_camera_video_tag">Allow tagging videos</string>
     <string name="pref_camera_video_tag_description">Tap \"Tag\" while shooting a video to be able to go back to tagged moments during playback</string>
-    <string name="pref_camera_volumekey_function_default">timer</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Shutter</string>
     <string name="pref_camera_volumekey_function_entry_timer">Shutter countdown</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volume</string>
@@ -1958,7 +1964,6 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_lens_dirty_detect_summary">Receive a notification when the lens is dirty</string>
     <string name="pref_lens_dirty_detect_title">Notify about dirty lens</string>
     <string name="pref_live_duration_title">Live duration</string>
-    <string name="pref_live_volumekey_function_default">volume</string>
     <string name="pref_manual_exposure_title">S</string>
     <string name="pref_manual_exposure_title_abbr">S</string>
     <string name="pref_menu_ai_ultra_pixel_photography">AI %s</string>
@@ -1984,7 +1989,6 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_popup_camera_title">Pop-up camera</string>
     <string name="pref_priority_storage_title">Save to SD card</string>
     <string name="pref_privacy_title">Privacy Policy</string>
-    <string name="pref_pro_video_volumekey_function_default">shutter</string>
     <string name="pref_qc_focus_position_title">F</string>
     <string name="pref_qc_focus_position_title_abbr">F</string>
     <string name="pref_retain_camera_common_mode_summary">Open Camera at the previously used mode instead of switching to \"Photo\"</string>
@@ -2078,7 +2082,6 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3-second interval)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
     <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
-    <string name="pref_video_volumekey_function_default">shutter</string>
     <string name="pref_watermark_off">Off</string>
     <string name="pref_watermark_on">On</string>
     <string name="pref_watermark_title">Watermark</string>
@@ -2134,6 +2137,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="search_menu_title">Search</string>
     <string name="search_settings">Camera settings;Quality;Image quality;Image location;Picture location;Face detection;Camera sound</string>
     <string name="see_qrcode_detals">View QR code details</string>
+    <string name="send">Send</string>
     <string name="settings_camera_detect_card_description">Display a shortcut whenever the AI camera detects an ID card</string>
     <string name="settings_camera_detect_description_doc">Display a shortcut whenever the AI camera detects a document or presentation slide</string>
     <string name="settings_camera_near_range_description">Remove blurring when focusing on flat surfaces very close up</string>
@@ -2280,6 +2284,10 @@ Keep the subject sharp while blurring the background."</string>
     <string name="timbre_lady">Lady</string>
     <string name="timbre_normal">Original</string>
     <string name="timbre_robot">Robot</string>
+    <string name="time_freeze_action_end_tip">点击按钮结束静止</string>
+    <string name="time_freeze_action_start_tip">点击按钮背景静止</string>
+    <string name="time_freeze_adjust_button_title">调整效果</string>
+    <string name="time_freeze_clipbox_tint">静止</string>
     <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
     <string name="time_picker_dialog_title">Set time</string>
     <string name="time_picker_label_hour">H</string>

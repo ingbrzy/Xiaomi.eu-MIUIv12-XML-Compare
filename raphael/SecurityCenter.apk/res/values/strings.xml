@@ -375,6 +375,11 @@
     <string name="app_behavior_warning_location_title">%1s is accessing your location</string>
     <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content.</string>
     <string name="app_check_no_issue">Looks like there are no battery issues. Cool!</string>
+    <string name="app_classification_activity_label">All apps</string>
+    <string name="app_classification_recent_add">Recent</string>
+    <string name="app_classification_search_all">All</string>
+    <string name="app_classification_search_hint">Search for apps</string>
+    <string name="app_classification_suggest_app">Suggestions</string>
     <string name="app_detail">Details</string>
     <string name="app_error_tip_for_launcher">"Your device's hardware components or Android system version may cause compatibility issues and make some apps misbehave, freeze, or be force stopped. If you encounter such issues, share your feedback with the app developers."</string>
     <string name="app_error_tip_for_store">"Your device's hardware components or Android system version may cause compatibility issues which may result in failing to install some apps. If you encounter such issues or some apps misbehave, freeze, or are being force stopped, ​wait until the app developers fix bugs and try installing the app again."</string>
@@ -530,6 +535,18 @@ You will not lose any app data."</string>
     <string name="app_permission_use_neccesary">Required permissions</string>
     <string name="app_permission_use_no_neccesary">Optional permissions</string>
     <string name="app_permission_use_title">Permissions</string>
+    <string name="app_predict_black_list_empty">No items here yet</string>
+    <string name="app_predict_black_list_setting_title">App suggestions blocklist</string>
+    <string name="app_predict_folder_name">Search</string>
+    <string name="app_predict_loading_text">Just a sec…</string>
+    <string name="app_predict_search_title">All apps</string>
+    <string name="app_predict_setting_black_list">Blocklist</string>
+    <string name="app_predict_setting_black_list_message">"Block apps you don't want to see among suggestions"</string>
+    <string name="app_predict_setting_privacy">Privacy Policy</string>
+    <string name="app_predict_setting_switch_message">Receive app suggestions based on your usage habits</string>
+    <string name="app_predict_setting_switch_title">Personalize suggestions</string>
+    <string name="app_predict_setting_title">App suggestions</string>
+    <string name="app_predict_widget_name_2x4">App suggestions</string>
     <string name="app_right">小米公司官方出品</string>
     <string name="app_running_tip_dialog_negative">Cancel</string>
     <string name="app_running_tip_dialog_positive">OK</string>
@@ -589,6 +606,8 @@ You will not lose any app data."</string>
     <string name="applock_header_text_less_than_half">Too small. Drag a bit further.</string>
     <string name="applock_lock_all">Lock all</string>
     <string name="applock_login_and_add_account">Sign in &amp; add</string>
+    <string name="applock_mixtype_hidepwd_icon">Hide</string>
+    <string name="applock_mixtype_showpwd_icon">Show</string>
     <string name="applock_no_account_login">"You aren't signed in to your Mi Account"</string>
     <string name="applock_not_add_account"><u>Not now</u></string>
     <string name="applock_not_login_account">"You aren't signed in"</string>
@@ -1011,6 +1030,7 @@ You will not lose any app data."</string>
     <string name="cmcc_app_check_dialog_positive">Restart now</string>
     <string name="cmcc_app_check_dialog_title">System repaired</string>
     <string name="cmd_lucky_float">摇一摇</string>
+    <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
     <string name="comprehensive_protection_measures">Comprehensive protection</string>
     <string name="confirmSecondSpacePassword">Confirm Second space password</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
@@ -1074,6 +1094,8 @@ You will not lose any app data."</string>
     <string name="daily_pkg_traffic">Peak data limit</string>
     <string name="data_booster_desc">Deactivate other SIM slots to keep the connection stable</string>
     <string name="data_booster_title">Stabilize data connection</string>
+    <string name="data_local_processing_and_storage">Data stored and processed locally</string>
+    <string name="data_local_processing_and_storage_detail">"Your input will be stored and processed on this device and won't be uploaded to the cloud."</string>
     <string name="data_network_blocked_notification_title">No internet connection</string>
     <string name="data_usage_correction_timeout_title">Data usage sync timed out</string>
     <string name="data_usage_disabled_dialog">"You've reached your plan's data usage limit. If you go over your limit, your carrier may charge you additional fees."</string>
@@ -1116,6 +1138,7 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
     <string name="deep_power_save_item_title_lock_screen_time">Put screen to sleep</string>
     <string name="deep_save_memory_clean_summary">Clear cache when you lock device to prevent apps from using battery</string>
     <string name="deep_save_ontime_boot_shutdown_summary">Schedule time to turn device on and off</string>
+    <string name="default_web_client_id">436805358632-1au5ms49utfaeginkj9m0muaescgnt0p.apps.googleusercontent.com</string>
     <string name="delete">Delete</string>
     <string name="delete_all_sms">Delete all</string>
     <string name="delete_from_manual_item_white_list">Remove from exceptions</string>
@@ -1163,6 +1186,8 @@ All data on your device might be erased and your Lock screen password might be r
     <string name="dialog_title_auto_start_declare">About autostart</string>
     <string name="dialog_title_stop_virus_scan">Stop security scan</string>
     <string name="disable_air_mode">Turn Airplane mode off first</string>
+    <string name="disable_sensitive_permissions">Sensitive permissions restricted</string>
+    <string name="disable_sensitive_permissions_detail">"Your keyboard won't be able to use privacy-related permissions (e.g. access contacts or location info)."</string>
     <string name="dlg_add_blacklist">Block this number?</string>
     <string name="dlg_add_blacklist_title">Add to blocklist</string>
     <string name="dlg_add_keyword">Add keywords</string>
@@ -1392,34 +1417,31 @@ You must understand that this feature is provided for your reference only. The w
     <string name="ew_main_warning_list">View warnings</string>
     <string name="ew_main_warning_list_tips">View</string>
     <string name="ew_main_warning_list_title">View warning history</string>
-    <string name="ew_monitor_content">地震监测是手机通过低功耗传感器感应到地震波后，系统快速通过AI算法测算地震信息，并第一时间向受影响地区群众发出预警，为更多人争取避险时间，保障人身安全。</string>
-    <string name="ew_monitor_exit">退出地震监测志愿者</string>
-    <string name="ew_monitor_exit_content">地震监测志愿者帮助更多人更快获取地震信息。感谢您（NO.%s）为地震监测做出的贡献，您确认退出地震监测志愿者吗？</string>
-    <string name="ew_monitor_exit_title">提示</string>
-    <string name="ew_monitor_have_been">我已成为</string>
-    <string name="ew_monitor_info_title">地震监测是什么？</string>
-    <string name="ew_monitor_join_number">加入人数</string>
-    <string name="ew_monitor_join_path">加入路径：小米手机-手机管家-地震预警-地震监测志愿者</string>
-    <string name="ew_monitor_my_content">地震监测是手机通过低功耗传感器感应到地震波后，系统快速通过AI算法测算地震信息，并第一时间向受影响地区群众发出预警，为更多人争取避险时间，保障人身安全。</string>
-    <string name="ew_monitor_number_prex">NO.%s</string>
-    <string name="ew_monitor_open">立即加入</string>
-    <string name="ew_monitor_read_privacy"><Data>已阅读并同意&lt;a href=\"%1$s\">《隐私政策》&lt;/a></Data></string>
-    <string name="ew_monitor_share">发送给朋友</string>
-    <string name="ew_monitor_slogan">"加入地震监测
-共建平安中国"</string>
-    <string name="ew_monitor_summary1">"手机
-也是地震监测仪"</string>
-    <string name="ew_monitor_summary2">"报送地震消息
-共建监测网络"</string>
-    <string name="ew_monitor_summary3">"帮助更多人
-更快获取地震信息"</string>
-    <string name="ew_monitor_support">小米与成都高新减灾研究所联合研发</string>
-    <string name="ew_monitor_support_rom">*部分小米/Redmi手机及MIUI版本支持此功能</string>
-    <string name="ew_monitor_thanks_tips">"感谢您成为第%s位
-地震监测志愿者"</string>
-    <string name="ew_monitor_title">地震监测志愿者</string>
-    <string name="ew_monitor_title_spilt">"地震监测
-志愿者"</string>
+    <string name="ew_monitor_content">Your mobile device can become part of the earthquake early warning network. After its sensors detect seismic waves, the data will be analyzed by the AI algorithm and early warnings will be issued to the people in the affected areas.</string>
+    <string name="ew_monitor_exit">Unenroll</string>
+    <string name="ew_monitor_exit_content">Hi Volunteer NO. %s! Your device can monitor seismic activity and collect data that would help issue early earthquake warnings. Unenroll anyway?</string>
+    <string name="ew_monitor_exit_title">Attention</string>
+    <string name="ew_monitor_have_been">"I'm proud to be an "</string>
+    <string name="ew_monitor_info_title">How does it work?</string>
+    <string name="ew_monitor_join_number">Number of volunteers</string>
+    <string name="ew_monitor_join_path">Join the program using a Xiaomi device: Security > Earthquake warning > Earthquake monitoring volunteer.</string>
+    <string name="ew_monitor_my_content">My mobile device is part of the earthquake early warning network. After its sensors detect seismic waves, the data will be analyzed by the AI algorithm and early warnings will be issued to the people in the affected areas.</string>
+    <string name="ew_monitor_number_prex">NO. %s</string>
+    <string name="ew_monitor_open">Join</string>
+    <string name="ew_monitor_read_privacy"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="ew_monitor_share">Share</string>
+    <string name="ew_monitor_slogan">"Join our earthquake
+monitoring program"</string>
+    <string name="ew_monitor_summary1">Use your device for seismic monitoring.</string>
+    <string name="ew_monitor_summary2">Report earthquake alert-related information.</string>
+    <string name="ew_monitor_summary3">Help more people get earthquake alerts faster.</string>
+    <string name="ew_monitor_support">Technical support provided by Chengdu Hi-tech Disaster Reduction Institute</string>
+    <string name="ew_monitor_support_rom">*This feature is supported by selected Xiaomi/Redmi devices and MIUI versions.</string>
+    <string name="ew_monitor_thanks_tips">"Thank you for becoming the earthquake
+monitoring volunteer NO. %s!"</string>
+    <string name="ew_monitor_title">Earthquake monitoring volunteer</string>
+    <string name="ew_monitor_title_spilt">"Earthquake monitoring
+volunteer"</string>
     <string name="ew_not_support_area">"Warnings aren't supported in this area"</string>
     <string name="ew_push_message">Estimated intensity: %s. Expect slight shaking near you.</string>
     <string name="ew_push_title">Earthquake warning for %s</string>
@@ -1449,6 +1471,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="examination_score_80_100">A few items can be optimized</string>
     <string name="examination_score_80_60">Some items can be optimized</string>
     <string name="examination_score_has_virus">Some suspicious apps were detected.</string>
+    <string name="exception_checking">Checking…</string>
     <string name="exception_dialog_message">"Data usage stats couldn't be calculated due to an error. Without accurate stats Security won't be able to monitor data usage. Reboot to restore this feature?"</string>
     <string name="exception_dialog_ok_button">Reboot</string>
     <string name="exception_notify_message">"Couldn't calculate data stats due to an error. Reboot to restore."</string>
@@ -1463,6 +1486,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="exit_dialog_release_memory_positive_button">Close</string>
     <string name="exit_dialog_release_memory_title"><Data>Speed up your device by &lt;font color=#0099ff>%d%%&lt;/font></Data></string>
     <string name="exit_dialog_release_storage_message">More than 80% of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
+    <string name="exit_dialog_release_storage_message_new">More than %s of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
     <string name="exit_dialog_release_storage_positive_button">Free up space</string>
     <string name="exit_dialog_release_storage_title">Free up space</string>
     <string name="exit_dialog_scan_message">"Your device's performance score is lower than 75 points. Optimize now?"</string>
@@ -1766,6 +1790,7 @@ You must understand that this feature is provided for your reference only. The w
     <string name="gamebooster_lowbattery_notification_summary">Charge your device before it turns off.</string>
     <string name="gamebooster_lowbattery_notification_title">Battery is lower than 5%%</string>
     <string name="gamebooster_main_activity_back">Back</string>
+    <string name="gamebooster_network_dialog_cn_message">"You can't use Game Turbo when Security isn't allowed to connect to the internet and access your location. Allow now?"</string>
     <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of Game Turbo?</string>
     <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
     <string name="gamebox_app_not_find">Install the app first.</string>
@@ -1921,6 +1946,24 @@ Record sequences and use them anytime!"</string>
     <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
     <string name="gb_operat_frequently">Not so fast!</string>
     <string name="gb_shortcut_pref_title">Home screen shortcut</string>
+    <string name="gb_shoulder_key">Shoulder buttons</string>
+    <string name="gb_shoulder_key_add_show_btn">Show virtual buttons during games</string>
+    <string name="gb_shoulder_key_add_tips">Move [L] and [R] buttons to any functional position and use them via shoulder buttons</string>
+    <string name="gb_shoulder_key_btn_cancel">Cancel</string>
+    <string name="gb_shoulder_key_btn_save_exit">Save</string>
+    <string name="gb_shoulder_key_circle_left">L</string>
+    <string name="gb_shoulder_key_circle_right">R</string>
+    <string name="gb_shoulder_key_dialog_message">"You can use both shoulder buttons simultaneously to start Game Turbo when you aren't playing games."</string>
+    <string name="gb_shoulder_key_dialog_txt">You can turn on Game Turbo by using shoulder buttons.</string>
+    <string name="gb_shoulder_key_guide_btn_done">Got it</string>
+    <string name="gb_shoulder_key_guide_btn_next">Next</string>
+    <string name="gb_shoulder_key_guide_tips">Configure shoulder buttons to play like a pro!</string>
+    <string name="gb_shoulder_key_guide_tips1">Open toolbox and configure shoulder buttons</string>
+    <string name="gb_shoulder_key_settings_guide_tips1">Move [L] and [R] buttons to any functional position to finish configuration</string>
+    <string name="gb_shoulder_key_settings_guide_tips2">Use shoulder buttons for the features you assigned to them during games</string>
+    <string name="gb_shoulder_key_settings_summary">"Use both shoulder buttons to start Game Turbo when you aren't playing games"</string>
+    <string name="gb_shoulder_key_settings_title">Use shoulder buttons for Game Turbo</string>
+    <string name="gb_shoulder_key_settings_title_new">Quick start Game Turbo</string>
     <string name="gb_sign_gift">Check in to get rewards</string>
     <string name="gb_sign_gift_button_text">Receive</string>
     <string name="gb_sign_notification_summary">Play games without network delay</string>
@@ -1930,7 +1973,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_signed_title">Checked in this month</string>
     <string name="gb_sound_audition">Try</string>
     <string name="gb_storage_game_dialog_button_timer">%ds</string>
-    <string name="gb_storage_game_dialog_message">您下载的游戏将自动收录至游戏加速内，桌面不再显示游戏图标。您确定开启收纳功能吗？</string>
+    <string name="gb_storage_game_dialog_message">"You can store games in Game Turbo automatically. They won't appear on the Home screen if you turn on this feature. Turn on now?"</string>
     <string name="gb_storage_game_uninstall">Uninstall games</string>
     <string name="gb_storage_summary">"Don't show the games that were added to the gamebox on the Home screen"</string>
     <string name="gb_storage_title">Remove added games from Home screen</string>
@@ -1987,6 +2030,7 @@ of your gaming sessions"</string>
     <string name="gb_xunyou_gift_type_one">Xunyou 1-day boost</string>
     <string name="gb_xunyou_gift_type_three">Xunyou 3-day boost</string>
     <string name="gb_xunyou_gift_type_two">Xunyou 2-day boost</string>
+    <string name="gcm_defaultSenderId">436805358632</string>
     <string name="gdpr_msg"><Data>"To be able to detect security risks and protect your data, we need to collect the necessary amount of information about your device. Read and agree to our &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Privacy Policy&lt;/a> before using our services. In case you don't allow us to collect such information, you'll still be able to use this app, but some features won't be available to you. "</Data></string>
     <string name="ge">个</string>
     <string name="get_detail_by_click">Tap to view details</string>
@@ -2000,6 +2044,8 @@ of your gaming sessions"</string>
     <string name="go_to">Proceed</string>
     <string name="go_to_send">Send</string>
     <string name="go_to_setting_fingerprint">Settings</string>
+    <string name="google_api_key">AIzaSyCLTk-WlTTx8UwHK2EdapM_Pu-CiQHYaio</string>
+    <string name="google_app_id">1:436805358632:android:6a6f70fc95cb7011dfd11d</string>
     <string name="google_base_app_fail">"Couldn't download. Check whether Security is allowed to connect to the internet."</string>
     <string name="google_base_app_install_choice">The application requires Google Services Framework to work normally, download and install it?</string>
     <string name="google_base_app_installed">Installed successfully</string>
@@ -2008,6 +2054,8 @@ of your gaming sessions"</string>
     <string name="google_base_app_timeout">Session timed out. Wait a minute or two and try again.</string>
     <string name="google_base_app_title">Installing Google services</string>
     <string name="google_base_app_toast">Google Services Framework is being installed in the background. Wait a minute or two and try again.</string>
+    <string name="google_crash_reporting_api_key">AIzaSyCLTk-WlTTx8UwHK2EdapM_Pu-CiQHYaio</string>
+    <string name="google_storage_bucket">security-center-89b35.appspot.com</string>
     <string name="group_have_hongbao">来自“%1$s”%2$d个红包</string>
     <string name="gs_advanced_setting_summary">Settings for individual games</string>
     <string name="gs_advanced_setting_title">Additional settings</string>
@@ -2141,6 +2189,7 @@ to join our egg hunt!"</string>
     <string name="image_protect_recover_success">Restored successfully</string>
     <string name="image_protect_tips_title">Deleting photos</string>
     <string name="image_protect_total_activity_label">Receive notifications about deleted photos</string>
+    <string name="ime_security_warning">%1$s may record everything you type, including passwords and other sensitive information. Use it anyway?</string>
     <string name="in_delete">Deleting…</string>
     <string name="in_recover">Restoring…</string>
     <string name="info_and_call">Calls and messaging</string>
@@ -2444,6 +2493,7 @@ Your device is %d%% faster now."</string>
     <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Remove from exceptions</string>
     <string name="menu_white">Add to exceptions</string>
+    <string name="mi_ime_not_used">Use a keyboard authorized by Xiaomi</string>
     <string name="mi_pay_lucky">小米钱包</string>
     <string name="mi_service_app_detail">Data usage details</string>
     <string name="mi_service_traffic_detail">Framework details</string>
@@ -2558,6 +2608,7 @@ Your device is %d%% faster now."</string>
     <string name="net_delay_title">Delay</string>
     <string name="net_overdue">Session ended</string>
     <string name="network_assistant_privacy">To keep track of data usage by app, we collect information such as package names, Wi-Fi and mobile data usage, peak and off-peak data usage, and when Wi-Fi and mobile data is on. This information is stored locally on your device.</string>
+    <string name="network_assistant_privacy_title">Send app and network usage and diagnostic data</string>
     <string name="network_blocked_connected_open_wifi">Connected to public network</string>
     <string name="network_blocked_notification_summary">Test network</string>
     <string name="network_blocked_switch_wifi">Switch networks</string>
@@ -2726,8 +2777,12 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="numeric_recording_intro_header">Enter password</string>
     <string name="numeric_retry_button_text">Cancel</string>
     <string name="numeric_settings_help_how_to_record">How to set PIN</string>
+    <string name="oaid_apps_title">Manage virtual ID</string>
     <string name="oaid_reset_content_tip">If you turn off virtual ID now, some apps might stop working properly, a part of your app data might be lost or become unusable.</string>
     <string name="oaid_reset_final_tip">Turn off virtual ID anyway?</string>
+    <string name="oaid_tips_content">Virtual IDs (OAID) can be used for tracking your behavior and personalizing ads for you. You can select which apps are allowed to access your virtual ID. Note that if you restrict access, ad recommendations might become irrelevant or apps might not be able to work normally.</string>
+    <string name="offline_voice_input">Offline voice input</string>
+    <string name="offline_voice_input_detail">"You won't need the internet for voice input."</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
     <string name="old_sdk_deny_warning">"The app isn't compatible with the latest Android permission requirements. Denied permissions may affect the way this app works."</string>
@@ -2862,6 +2917,10 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_battery_history_show_imei">IMEI:</string>
     <string name="pc_battery_history_total_consumption_title">Total power consumption</string>
     <string name="pc_battery_history_usetime_title">Active</string>
+    <string name="pc_hidemode_normal">Balanced</string>
+    <string name="pc_hidemode_performance">Performance</string>
+    <string name="pc_hidemode_performance_title">Performance mode</string>
+    <string name="pc_hidemode_power_save">Power</string>
     <string name="pc_install_manager">Install via USB</string>
     <string name="pc_main_activity_back">Back</string>
     <string name="pc_main_battery_text_day">Added %1$sm, about %2$sd remaining</string>
@@ -2873,6 +2932,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_main_power_manager_hour_minute">%1$sh %2$sm until fully charged</string>
     <string name="pc_main_sub_battery_text_day_hour">%1$sd %2$sh remaining</string>
     <string name="pc_main_sub_battery_text_hour_minute">%1$sh %2$sm remaining</string>
+    <string name="pc_performance_mode_dialog_summary">Your device will be able to work for %s in Performance mode. Note that Performance mode increases power consumption and might lead to overheating.</string>
+    <string name="pc_performance_mode_dialog_title">Performance mode</string>
     <string name="pc_search_keywords_battery">Battery</string>
     <string name="pc_search_keywords_battery_save">Battery saver</string>
     <string name="pc_search_keywords_battery_use">Battery usage</string>
@@ -3302,6 +3363,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_optional_protection_function">Optional protection measures</string>
     <string name="pp_permission_action_virtual_detail">Grant permissions but give apps blank files instead of personal info</string>
     <string name="pp_permission_settings">Permissions</string>
+    <string name="pp_privacy_input_tips">Protect your keyboard</string>
     <string name="pp_privacy_lab_blur_location">Approximate location</string>
     <string name="pp_privacy_lab_blur_location_summary">Depersonalize your location info allowing apps to access your approximate location</string>
     <string name="pp_privacy_lab_clipboard">Protect clipboard</string>
@@ -3526,6 +3588,13 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="privacy_guide_permission_use_text">MIUI will count and display the number of times an app uses sensitive permissions, including location, contact, call history, and storage access, as well as recording audio. You can learn how many times each app uses these permissions and determine whether you need to adjust your permission settings.</string>
     <string name="privacy_hide_other_permissions">Hide other permissions</string>
     <string name="privacy_informed_title">Stats</string>
+    <string name="privacy_input_icon_layout_status_bg_content_enable">Protected</string>
+    <string name="privacy_input_mode">Secure input</string>
+    <string name="privacy_input_mode_img_detail">Works with keyboards authorized by Xiaomi</string>
+    <string name="privacy_input_mode_version_supported">Update your keyboard to be able to use this feature</string>
+    <string name="privacy_input_model_guide_choose">Download offline voice input</string>
+    <string name="privacy_input_model_guide_text">"This feature protects your privacy while you're entering text. When this feature is on, some of the network-based functionality (e.g. personalization options, emoji, predictive typing) won't be available."</string>
+    <string name="privacy_input_model_tips">"Secure input is on. Your keyboard can't display pop-up windows or access contacts, location info, and call history."</string>
     <string name="privacy_location_info_summary">Manage access to your location</string>
     <string name="privacy_location_info_title">Location info</string>
     <string name="privacy_look_all_permission_status">All permissions</string>
@@ -3669,12 +3738,17 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Media server</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
+    <string name="project_id">security-center-89b35</string>
     <string name="promotion">Ad</string>
     <string name="prompt_all">Ask for all</string>
     <string name="prompt_danger">危险</string>
     <string name="prompt_input_time_illegal">"Can't set this time, change it and try again"</string>
     <string name="prompt_safe">安全</string>
     <string name="prompt_unknown">未知</string>
+    <string name="protect_data_security">Isolated data</string>
+    <string name="protect_data_security_detail">The data generated by the keyboard will be isolated and inaccessible by other apps.</string>
+    <string name="protect_screen_information">Your screen is protected</string>
+    <string name="protect_screen_information_detail">"You won't be able to take a screenshot or record your screen while you're typing."</string>
     <string name="protocol_exception_title">Network protocol diagnostics</string>
     <string name="protocol_loop_back_exception_summary">Local loop back test failed. To report this issue to MIUI, go to the Feedback app and send a log from your device.</string>
     <string name="provision_back">Back</string>
@@ -3758,6 +3832,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="risk_app_install_item_des">Version: %1$s</string>
     <string name="risk_app_install_manager">Apps with possible risks</string>
     <string name="risk_count_suffix" />
+    <string name="risk_tip">Risk detected</string>
     <string name="roaming_allow_network_dialog_title">Allow mobile data roaming?</string>
     <string name="roaming_limit_dialog_message">Reached daily roaming data limit.</string>
     <string name="roaming_limit_network_notification_body">Tap to view available data networks</string>
@@ -3840,6 +3915,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="set_complete">Set successfully</string>
     <string name="set_location">Set location</string>
     <string name="set_mixed_password_name">Set password</string>
+    <string name="set_now">Settings</string>
     <string name="set_numeric_password_name">Set PIN</string>
     <string name="set_package_tips">"We'll send a free SMS to your carrier to check your data plan. The information you provide will be encrypted and uploaded to our servers in order to compose this message."</string>
     <string name="set_package_tips_detail">"The information uploaded to Xiaomi servers will include your carrier's details, as well as your phone number, IMEI, and Mi Account."</string>
@@ -4177,6 +4253,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="status_bar_network_flow_setup_data_plan">"   Setup data plan >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_retain_btn">Keep</string>
+    <string name="stop_collecting_data">"Keyboard won't learn your habits"</string>
+    <string name="stop_collecting_data_detail">"The keyboard won't collect data for improving predictive typing and suggesting frequent phrases based on your habits."</string>
     <string name="stop_milink_connect">Stopped casting</string>
     <string name="storage_activity_title">Storage space</string>
     <string name="storage_app_detail_activity_title">Occupied space</string>
@@ -4513,7 +4591,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="timeshow_h_int">%dh</string>
     <string name="timeshow_m">%dm</string>
     <string name="timeshow_s">%ds</string>
-    <string name="tips">提示</string>
+    <string name="tips">Attention</string>
     <string name="tips_dialog_title">"Don't know your limit"</string>
     <string name="tips_message">"To view your data plan's details, dial %2$s (%1$s)."</string>
     <string name="tips_of_app_manage">Delete rarely used apps to save storage</string>
@@ -4738,6 +4816,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="usbsharenet_exception_title">Test shared internet over USB</string>
     <string name="usbsharenet_pc_exception_summary">"Can't connect to the internet using shared USB connection. Check your computer's internet connection."</string>
     <string name="use_immediately">Use</string>
+    <string name="use_other_ime_warn">Third party keyboards may record everything you type, including passwords and other sensitive information.</string>
     <string name="user_define_title">Add rules</string>
     <string name="user_guide">Swipe up to discover more fresh games</string>
     <string name="user_guide_title">Joystick Picks</string>
@@ -4758,6 +4837,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_settings">Settings</string>
     <string name="vb_ve_settings_ai_stronger">AI</string>
     <string name="vb_ve_settings_display_style_tips">*These effects are applied to the whole screen</string>
+    <string name="vb_ve_settings_display_style_tips_new">*Effects will be applied to video playback area only</string>
     <string name="vb_ve_settings_pic_border_stronger">Enhanced contours</string>
     <string name="vb_ve_settings_picture_stronger">Enhanced animations</string>
     <string name="vb_video_effects_display_style">Style</string>
@@ -4981,6 +5061,9 @@ Try upscaling resolution!"</string>
     <string name="write_clipboard_tip_title">Saving items to the clipboard</string>
     <string name="wrong_password">Incorrect password</string>
     <string name="xiaomi_privacy_protection_measures">Privacy protection measures</string>
+    <string name="xspace_warning_dialog_button">Got it</string>
+    <string name="xspace_warning_dialog_message">Due to the restrictions introduced in Android %d, all dual apps will only be able to access the photos and videos generated and saved within the corresponding dual app itself.</string>
+    <string name="xspace_warning_dialog_title">Attention</string>
     <string name="xunyou_net_booster">Network speed boost</string>
     <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>
     <string name="xunyou_pay_webview">Xunyou services</string>
