@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <integer-array name="agate_boost_params">
+        <item>0x00400000</item>
+        <item>2000000</item>
+        <item>0x00400100</item>
+        <item>2600000</item>
+        <item>0x00400200</item>
+        <item>3000000</item>
+        <item>0x01000000</item>
+        <item>0</item>
+        <item>0x00C00000</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="agatein_boost_params">
+        <item>0x00400000</item>
+        <item>2000000</item>
+        <item>0x00400100</item>
+        <item>2600000</item>
+        <item>0x00400200</item>
+        <item>3000000</item>
+        <item>0x01000000</item>
+        <item>0</item>
+        <item>0x00C00000</item>
+        <item>0</item>
+    </integer-array>
     <array name="ai_scene_drawables">
         <item>@drawable/ic_new_ai_scene_off</item>
         <item>@drawable/ic_ai_scene_doc</item>
