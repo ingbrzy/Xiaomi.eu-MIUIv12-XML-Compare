@@ -1704,10 +1704,14 @@ This affects other apps or conversations that are allowed to bubble."</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="charge_animation_style_lollipop">Flow</string>
+    <string name="charge_animation_style_none">Off</string>
     <string name="charge_animation_style_summary">Choose your preferred lock screen charging animation style</string>
     <string name="charge_animation_style_title">Charging animation</string>
+    <string name="charge_animation_style_video">Glow</string>
+    <string name="charge_animation_style_wave">Wave</string>
     <string name="charge_length_format">%1$s ago</string>
-    <string name="charging_sounds_title">Charging sounds</string>
+    <string name="charging_sounds_title">Charging sounds and vibration</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Check for updates</string>
     <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
@@ -5561,8 +5565,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
     <string name="notifications_title">Notifications</string>
     <string name="now">Reboot now</string>
     <string name="number_of_device_admins_none">No active apps</string>
-    <string name="oaid_apps_summary">设置是否允许应用获取虚拟身份ID</string>
-    <string name="oaid_apps_title">虚拟身份ID授权管理</string>
+    <string name="oaid_apps_summary">Allow or restrict access for individual apps</string>
+    <string name="oaid_apps_title">Manage virtual ID</string>
     <string name="oaid_string">"Current virtual ID:
 %1s"</string>
     <string name="oem_lock_info_message">Please restart the device to enable device protection feature.</string>
@@ -6394,6 +6398,7 @@ Restart your device and try again."</string>
     <string name="ringtones_category_preference_title">Ringtones</string>
     <string name="ringtones_install_custom_sound_content">This file will be copied to the %s folder</string>
     <string name="ringtones_install_custom_sound_title">Add custom sound?</string>
+    <string name="risk_tip">Risk detected</string>
     <string name="roaming">Roaming</string>
     <string name="roaming_alert_title">Allow data roaming?</string>
     <string name="roaming_check_price_warning">Check with your network provider for pricing.</string>
@@ -6614,8 +6619,9 @@ To use app pinning: \u0009
     <string name="screen_saturation">Saturation</string>
     <string name="screen_shot">Take a screenshot</string>
     <string name="screen_timeout">Sleep</string>
+    <string name="screen_timeout_subtitle">Displaying static content for extended periods of time may make colors uneven</string>
     <string name="screen_timeout_summary">After %1$s of inactivity</string>
-    <string name="screen_timeout_title">Sleep mode</string>
+    <string name="screen_timeout_title">Lock screen automatically</string>
     <string name="screen_usage_summary">Amount of time screen has been on since full charge</string>
     <string name="screen_zoom_big">L</string>
     <string name="screen_zoom_conversation_icon_alex">A</string>
@@ -6897,6 +6903,7 @@ To use app pinning: \u0009
     <string name="secspace_fod_use_password">Enter password</string>
     <string name="secure_keyguard_business_title">Set screen lock</string>
     <string name="secure_lock_encryption_warning">Because you’ve turned on an accessibility service, your device won’t use your screen lock to enhance data encryption.</string>
+    <string name="security_center_title">Security</string>
     <string name="security_dashboard_summary">Screen lock, fingerprint</string>
     <string name="security_dashboard_summary_face">Screen lock, face unlock</string>
     <string name="security_dashboard_summary_no_fingerprint">Screen lock</string>
@@ -7830,6 +7837,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="switch_headset_anti_lost_title">Missing earphone alert</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
+    <string name="switch_power_sound">Charging sound</string>
     <string name="switch_screen_button_order">Mirror buttons</string>
     <string name="switch_screen_button_order_desc">Mirror Back and Menu buttons</string>
     <string name="switch_select_to_speak_on">Select to Speak</string>
@@ -8000,6 +8008,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="thursday">Thursday</string>
     <string name="thursday_short">Thu</string>
     <string name="thursday_shortest">Thu</string>
+    <string name="time_floating_window">Floating clock</string>
+    <string name="time_floating_window_summary">Show the clock in the floating window above other apps</string>
     <string name="time_format_category_title">Time format</string>
     <string name="time_picker_dialog_title">Set time</string>
     <string name="time_picker_label_hour">H</string>
