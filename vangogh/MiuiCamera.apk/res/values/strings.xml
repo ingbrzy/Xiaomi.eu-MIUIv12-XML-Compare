@@ -338,7 +338,7 @@ and adjust preferences automatically"</string>
     <string name="ambilight_tips_for_longtime_using_tripod">Use a tripod to capture a longer exposure</string>
     <string name="ambilight_tips_for_suggest_using_tripod">Use a tripod</string>
     <string name="ambilight_tips_for_using_tripod">Use a tripod</string>
-    <string name="app_name">veeditor</string>
+    <string name="app_name">vecommon</string>
     <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
     <string name="audio_map_summary_tip">Monitor the volume of the left and right channels in real time and adjust it using the slider</string>
     <string name="auto_hibernation_enter_tip">About to turn off screen…</string>
@@ -431,6 +431,7 @@ and adjust preferences automatically"</string>
     <string name="back_lmiin_india">4:REDMI K30 PRO 5G:AI QUAD CAMERA</string>
     <string name="back_lmiinpro_pro_india">4:REDMI K30 PRO 5G ZOOM:AI QUAD CAMERA</string>
     <string name="back_lmipro_pro">4:REDMI K30 PRO ZOOM:AI QUAD CAMERA</string>
+    <string name="back_maltose">4:REDMI NOTE 10S</string>
     <string name="back_mars">3:MI 11 PRO</string>
     <string name="back_merlin">4:SHOT ON REDMI 10X:AI QUAD CAMERA</string>
     <string name="back_merlin_global">4:REDMI NOTE 9:AI QUAD CAMERA</string>
@@ -458,6 +459,9 @@ and adjust preferences automatically"</string>
     <string name="back_raphaelin">3:REDMI K20 PRO:AI TRIPLE CAMERA</string>
     <string name="back_renoir">3:MI 11 LITE</string>
     <string name="back_renoir_global">3:MI 11 LITE 5G</string>
+    <string name="back_rosemary">4:REDMI NOTE 10S</string>
+    <string name="back_secret">4:REDMI NOTE 10S</string>
+    <string name="back_secretin">4:REDMI NOTE 10S</string>
     <string name="back_shiva">0:POCO:SHOT ON POCO M2</string>
     <string name="back_shiva_india_reloaded">0:POCO:POCO M2 RELOADED</string>
     <string name="back_sirius">2:SHOT ON MI 8 SE:AI DUAL CAMERA</string>
@@ -654,6 +658,7 @@ and adjust preferences automatically"</string>
     <string name="clone_start_capture">Start cloning</string>
     <string name="clone_too_much_movement_stop">You moved the device too far. Stopped capturing for now.</string>
     <string name="clone_video_mode">Video</string>
+    <string name="close">Close</string>
     <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
     <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
     <string name="close_night_algo_toast_low_power">Charge your device to be able to set exposure</string>
@@ -791,11 +796,12 @@ scanned documents automatically"</string>
     <string name="document_mode_use_hint_text_title">Scan documents</string>
     <string name="document_origin">Original</string>
     <string name="document_strengthen">Enhanced</string>
-    <string name="dolly_zoom_capture_tip1">Place your subject into the frame and keep the device at least %d meter away</string>
-    <string name="dolly_zoom_capture_tip2">Move the device away from your subject steadily</string>
+    <string name="dolly_zoom_capture_tip1">Place your subject into the frame</string>
+    <string name="dolly_zoom_capture_tip2">Keep your subject in the center and move the device away steadily</string>
     <string name="dolly_zoom_capture_tip3">Lost track of the subject. Start over.</string>
     <string name="dolly_zoom_capture_tip4">You moved the device too far away. Start over.</string>
     <string name="dolly_zoom_capture_tip5">"Couldn't save video"</string>
+    <string name="dolly_zoom_capture_tip6">Move your subject to the center of the frame</string>
     <string name="dolly_zoom_guide_tip1">"Make sure there's enough space between your subject and the background."</string>
     <string name="dolly_zoom_guide_tip10">And more!</string>
     <string name="dolly_zoom_guide_tip2">Try to avoid large areas of solid color.</string>
@@ -1101,7 +1107,7 @@ in Portrait mode"</string>
     <string name="live_sticker_updating">Updating…</string>
     <string name="live_workspace_title">Drafts</string>
     <string name="live_workspace_title_edit">Select items to delete</string>
-    <string name="location_access_allow">Allow</string>
+    <string name="location_access_allow">Agree</string>
     <string name="location_permission_des">Remember locations for photos and videos</string>
     <string name="location_permission_not_ask_again">Allow Camera to access your location in the Settings.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Allow</string>
@@ -1563,7 +1569,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_device_watermark_title">Device watermark</string>
     <string name="pref_camera_dual_enable_title">Turn on dual camera</string>
     <string name="pref_camera_dual_sat_enable_title">Turn on dual SAT camera</string>
-    <string name="pref_camera_dynamic_frame_rate_summary">Frame rate will be lowered automatically in low light conditions to improve video quality</string>
+    <string name="pref_camera_dynamic_frame_rate_summary">Frame rate will be lowered automatically in low light or high temperature conditions to improve video quality</string>
     <string name="pref_camera_dynamic_frame_rate_title">Adjust frame rate to low light</string>
     <string name="pref_camera_eis_entry_normal">Steady video</string>
     <string name="pref_camera_eis_entry_off">Off</string>
@@ -2131,6 +2137,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="search_menu_title">Search</string>
     <string name="search_settings">Camera settings;Quality;Image quality;Image location;Picture location;Face detection;Camera sound</string>
     <string name="see_qrcode_detals">View QR code details</string>
+    <string name="send">Send</string>
     <string name="settings_camera_detect_card_description">Display a shortcut whenever the AI camera detects an ID card</string>
     <string name="settings_camera_detect_description_doc">Display a shortcut whenever the AI camera detects a document or presentation slide</string>
     <string name="settings_camera_near_range_description">Remove blurring when focusing on flat surfaces very close up</string>
@@ -2277,6 +2284,10 @@ Keep the subject sharp while blurring the background."</string>
     <string name="timbre_lady">Lady</string>
     <string name="timbre_normal">Original</string>
     <string name="timbre_robot">Robot</string>
+    <string name="time_freeze_action_end_tip">点击按钮结束静止</string>
+    <string name="time_freeze_action_start_tip">点击按钮背景静止</string>
+    <string name="time_freeze_adjust_button_title">调整效果</string>
+    <string name="time_freeze_clipbox_tint">静止</string>
     <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
     <string name="time_picker_dialog_title">Set time</string>
     <string name="time_picker_label_hour">H</string>
