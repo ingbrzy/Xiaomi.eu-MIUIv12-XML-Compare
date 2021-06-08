@@ -537,7 +537,13 @@ You will not lose any app data."</string>
     <string name="app_permission_use_title">Permissions</string>
     <string name="app_predict_black_list_empty">No items here yet</string>
     <string name="app_predict_black_list_setting_title">App suggestions blocklist</string>
+    <string name="app_predict_dialog_button">Add to Home screen</string>
+    <string name="app_predict_dialog_message">AI will suggest apps that you might need at the moment</string>
+    <string name="app_predict_dialog_success">Added to Home screen successfully</string>
     <string name="app_predict_folder_name">Search</string>
+    <string name="app_predict_guide_button">Add</string>
+    <string name="app_predict_guide_message">AI will suggest apps that you might need at the moment</string>
+    <string name="app_predict_guide_title">Smart app suggestions</string>
     <string name="app_predict_loading_text">Just a sec…</string>
     <string name="app_predict_search_title">All apps</string>
     <string name="app_predict_setting_black_list">Blocklist</string>
@@ -2042,6 +2048,7 @@ of your gaming sessions"</string>
     <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
     <string name="gmscore_support_service">Basic Google services</string>
     <string name="go_to">Proceed</string>
+    <string name="go_to_mi_sim">Tap to use Mi SIM.</string>
     <string name="go_to_send">Send</string>
     <string name="go_to_setting_fingerprint">Settings</string>
     <string name="google_api_key">AIzaSyCLTk-WlTTx8UwHK2EdapM_Pu-CiQHYaio</string>
@@ -2497,6 +2504,7 @@ Your device is %d%% faster now."</string>
     <string name="mi_pay_lucky">小米钱包</string>
     <string name="mi_service_app_detail">Data usage details</string>
     <string name="mi_service_traffic_detail">Framework details</string>
+    <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
     <string name="mian_page_primary_txt">Overseas roaming</string>
     <string name="midnight">Night</string>
     <string name="midrop_post_notification_contentText">Transfer files at speeds up to 50 Mbps in Mi Drop.</string>
@@ -3313,6 +3321,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_setting_super_save_summary_text">Restrict most system features to save battery</string>
     <string name="power_setting_warm_configure">Temperature control</string>
     <string name="power_setting_warm_performance_tip">Scenarios that require high power consumption will raise the temperature of your device above the levels of the default temperature control mode.</string>
+    <string name="power_setting_wireless_reverse_charging_fg_control_title">Charging limit</string>
     <string name="power_setting_wireless_reverse_charging_summary">Charge compatible devices wirelessly</string>
     <string name="power_setting_wireless_reverse_charging_title">Reverse wireless charging</string>
     <string name="power_settings_category_title">Battery indicator</string>
@@ -3325,6 +3334,17 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_superpower_title_systemui_highpower">Remaining time</string>
     <string name="power_superpower_title_systemui_lowpower">Connect charger</string>
     <string name="power_wifi">Wi-Fi</string>
+    <string name="power_wireless_need_update_text">Updating…</string>
+    <string name="power_wireless_update_button_text">Update</string>
+    <string name="power_wireless_update_dialog_button">Got it</string>
+    <string name="power_wireless_update_dialog_message">Charge your device at least to %s to be able to update wireless charging firmware.</string>
+    <string name="power_wireless_update_dialog_title">Low battery</string>
+    <string name="power_wireless_update_driver">Firmware updates</string>
+    <string name="power_wireless_update_notification_button">View</string>
+    <string name="power_wireless_update_notification_subtitle">Update firmware to improve the stability of wireless charging</string>
+    <string name="power_wireless_update_notification_title">Wireless charging update</string>
+    <string name="power_wireless_update_text">Up to date</string>
+    <string name="power_wireless_update_tv_text">"Updating firmware 6 Don't turn off device."</string>
     <string name="pp_app_behavior_record_detail">Record all app behavior</string>
     <string name="pp_app_del_img_intercept_detail">Receive notifications when apps delete items from Gallery without your permission</string>
     <string name="pp_app_gets_dangerous_permission_reminder">Receive notifications when apps use high-risk permissions</string>
@@ -3925,6 +3945,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="setting_alarm_summary">各大平台官方红包活动闹钟提醒</string>
     <string name="setting_online_service">Online services</string>
     <string name="setting_privacy_password">Add pattern</string>
+    <string name="setting_wireless_reverse_charging_fg_control_summary">Stop reverse wireless charging when the battery of this device reaches %s</string>
+    <string name="setting_wireless_reverse_charging_summary">Place the device that supports Qi wireless charging (e.g. phone or wearable device) on the center of the back of this device</string>
     <string name="settings">Data usage settings</string>
     <string name="settings_battery_consume_abnormal_summary">Receive notifications when battery is being drained fast</string>
     <string name="settings_battery_consume_abnormal_title">Battery drain notifications</string>
@@ -4348,6 +4370,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="suggest_app_tolock_masked">Content hidden</string>
     <string name="suggest_app_tolock_unmasked">Visible notifications</string>
     <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
+    <string name="suggest_to_use_mi_sim">suggest_to_use_mi_sim</string>
     <string name="summary_app_lock_disable">Protect your data with App lock</string>
     <string name="summary_app_update_new">Update apps to access new features</string>
     <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
