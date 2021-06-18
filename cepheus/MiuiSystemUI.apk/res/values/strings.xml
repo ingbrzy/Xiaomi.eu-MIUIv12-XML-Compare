@@ -134,7 +134,6 @@
     <string name="accessibility_keyguard_face_unlock_view">Face unlock</string>
     <string name="accessibility_left_control_center_button">Shortcut</string>
     <string name="accessibility_left_lock_screen_magazine_button">Wallpaper Carousel</string>
-    <string name="accessibility_left_xmyzl_button" />
     <string name="accessibility_location_active">Location requests active</string>
     <string name="accessibility_long_click_tile">Open settings</string>
     <string name="accessibility_manage_notification">Manage notifications</string>
@@ -839,7 +838,6 @@ If you resume, charges may apply for data usage."</string>
     <string name="development_settings_not_available">"Developer options aren't available for this user"</string>
     <string name="development_settings_summary">Set options for app development</string>
     <string name="development_settings_title">Developer options</string>
-    <string name="device_locked_without_biometric">Biometric detection cannot be performed due to the use of three-party one-key screen lock function</string>
     <string name="device_services">Device Services</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app won't start until you unlock your device."</string>
@@ -1163,7 +1161,7 @@ Keep showing them?"</string>
     <string name="input_lockscreen_password_hint_text">Enter password</string>
     <string name="input_lockscreen_pattern_hint_text">Draw pattern</string>
     <string name="input_lockscreen_pin_hint_text">Enter PIN</string>
-    <string name="input_password_after_boot_msg">Confirming your screen lock is required when the device reboots</string>
+    <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">"Can't switch between spaces when Ultra battery saver is on"</string>
@@ -1479,15 +1477,12 @@ MMMM d"</string>
     <string name="miui_notification_menu_more_setting">More</string>
     <string name="miui_notification_menu_msg_fold">Group all notifications from %1$s together?</string>
     <string name="miui_notification_menu_msg_not_allow">Restrict all notifications from %1$s?</string>
-    <string name="miui_notification_menu_msg_unfold">Display %1$s notifications separately?</string>
     <string name="miui_notification_menu_setting_success">Done</string>
     <string name="miui_notification_menu_snooze">Snooze</string>
     <string name="miui_notification_menu_snooze_title">@string/miui_notification_menu_snooze</string>
     <string name="miui_notification_menu_title_aggregate_feedback">@string/miui_notification_menu_aggregate_feedback</string>
     <string name="miui_notification_menu_title_fold">@string/miui_notification_menu_fold</string>
     <string name="miui_notification_menu_title_not_allow">Restrict</string>
-    <string name="miui_notification_menu_title_unfold">@string/miui_notification_menu_unfold</string>
-    <string name="miui_notification_menu_unfold">Mark as important</string>
     <string name="miui_quick_settings_tiles_default">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.miui.screenrecorder/.service.QuickService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),pcmode,custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,freeformhang,vibrate,hotspot,sync,custom(com.google.android.gms/.nearby.sharing.SharingTileService),screenbutton,wirelesspower,nfc,edit</string>
     <string name="miui_quick_settings_tiles_stock">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,pcmode,powermode,freeformhang,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,dolbyatomssound,edit,drivemode</string>
     <string name="miui_screen_rotation_freeze_message">Locked screen orientation in landscape mode</string>
@@ -1500,7 +1495,6 @@ MMMM d"</string>
     <string name="miui_snooze_until_unlock_screen">Until locked</string>
     <string name="miui_snooze_user_set_fail">Go to Settings > Notifications &amp; Control center for more options</string>
     <string name="miui_snooze_user_set_success">Applied successfully. Go to Settings > Notifications &amp; Control center for more options.</string>
-    <string name="miui_unimportant_notifications">Unimportant notifications</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -1656,7 +1650,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="mr_dialog_transferable_header">Play on a group</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
-    <string name="msim_set_sub_not_supported_phone_in_call">"Can't set during call"</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="mtrl_picker_cancel">Cancel</string>
     <string name="mtrl_picker_confirm">Save</string>
@@ -1748,7 +1741,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="open_lock_screen_magazine_hint_text">Swipe right for more options</string>
     <string name="open_remote_center_hint_text">Swipe right to view shortcuts</string>
     <string name="open_saver_setting_action">Settings</string>
-    <string name="open_xmyzl_hint_text" />
     <string name="orb_search_action">Search Action</string>
     <string name="osu_completing_sign_up">Completing sign-up…</string>
     <string name="osu_connect_failed">"Can't connect"</string>
@@ -2043,9 +2035,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_user_new_user">New user</string>
     <string name="quick_settings_user_title">User</string>
     <string name="quick_settings_vibrate_label">Vibrate</string>
-    <string name="quick_settings_vowifi_label">Wi-Fi Calling</string>
-    <string name="quick_settings_vowifi_sim1_label">Wi-Fi Calling SIM1</string>
-    <string name="quick_settings_vowifi_sim2_label">Wi-Fi Calling SIM2</string>
     <string name="quick_settings_wifi_detail_dual_wifi_accelerated">Boosting speed</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_cancel">Cancel</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Confirm</string>
@@ -2190,8 +2179,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="show_silently">Show notifications silently</string>
     <string name="show_touches">Show taps</string>
     <string name="show_touches_summary">Show visual feedback for taps</string>
-    <string name="shut_down_password_forget_password_suggesstion_one_content"><Data>Press and hold the &lt;font color=#e6e6e6>[Power]&lt;/font> and &lt;font color=#e6e6e6>[Volume +]&lt;/font> buttons until you see &lt;img src=\"\">.</Data></string>
-    <string name="shut_down_password_forget_password_suggesstion_two_content"><Data>Select &lt;font color=#e6e6e6>[Wipe data]&lt;/font> and tap &lt;font color=#e6e6e6>[Reboot]&lt;/font> after that.</Data></string>
     <string name="sim_state_locked_dialog_title">Invalid SIM card</string>
     <string name="sim_state_locked_puk_dialog_message">"You've entered an incorrect PUK code at least %d times. Your SIM card is invalid now. Replace this SIM card with another one."</string>
     <string name="simulate_color_space">Simulate color space</string>
