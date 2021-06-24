@@ -566,6 +566,7 @@ You will not lose any app data."</string>
     <string name="app_running_tip_dialog_text">Quit %1$s to prevent it from running in the background. This will speed up your device and reduce power consumption.</string>
     <string name="app_running_tip_dialog_title">Quit app</string>
     <string name="app_running_tip_uninstall">Uninstall this app</string>
+    <string name="app_settings_link">Additional settings in the app</string>
     <string name="app_statusbar_audio_now">Recording audio</string>
     <string name="app_statusbar_camera_now">Taking photos</string>
     <string name="app_statusbar_location_now">Location</string>
@@ -1051,6 +1052,8 @@ You will not lose any app data."</string>
     <string name="confirm_fingerprint_msg">Verify your fingerprint</string>
     <string name="confirm_leave">No thanks</string>
     <string name="confirm_open">Turn on</string>
+    <string name="confirm_open_shut_down_password_content">Set a screen lock before turning on shutdown confirmation.</string>
+    <string name="confirm_open_shut_down_password_title">Set screen lock</string>
     <string name="confirm_prompt_all_permission">Ask for permissions for all apps?</string>
     <string name="confirm_reject_all_permission">Restrict all apps from using this feature?</string>
     <string name="confirm_take">Get</string>
@@ -3833,7 +3836,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="report_warning_title">Attention</string>
     <string name="required_permissions">Mandatory permissions</string>
     <string name="required_permissions_desc">These permissions are required to make the basic features and services of this app available.</string>
-    <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a factory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
+    <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all important items and perform a factory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
     <string name="reset_data_dialog_ok">Factory reset</string>
     <string name="reset_data_title">"Can't restore password"</string>
     <string name="result_autoscan_header">Payment monitoring</string>
@@ -3895,6 +3898,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="sc_system_risk_fix_info_xspace">"Can't solve this in Second space. Try again in First space."</string>
     <string name="sc_warning_updater_not_found">"Couldn't find the Updater app."</string>
     <string name="scan_installed_games">Checking installed games…</string>
+    <string name="scan_open_shut_down_password_content">Protect your device from unauthorized access</string>
+    <string name="scan_open_shut_down_password_title">Shutdown confirmation</string>
     <string name="scan_status_risk">Risky</string>
     <string name="scan_status_safe">Secure</string>
     <string name="scanning_bar_number">%d%%</string>
@@ -3981,6 +3986,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="show_traffic_dialog_message">Your data usage info will be displayed in the Notification shade. You can turn this feature on or off anytime in Data usage > Settings.</string>
     <string name="show_traffic_dialog_title">Show usage in Notification shade</string>
     <string name="showpattern">Show pattern</string>
+    <string name="shut_down_password_content">If you lose your device, shutdown confirmation will protect it from being powered off by whoever finds it.</string>
     <string name="shutdown_cancel_reminder">"Didn't power off"</string>
     <string name="shutdown_cancel_reminder_detail">"Device didn't power off because you were in the middle of a call"</string>
     <string name="shutdown_cancel_reminder_detail2">"Looks like you're playing a game now. Scheduled power off is canceled."</string>
@@ -4417,7 +4423,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="suggest_app_tolock_masked">Content hidden</string>
     <string name="suggest_app_tolock_unmasked">Visible notifications</string>
     <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
-    <string name="suggest_to_use_mi_sim">suggest_to_use_mi_sim</string>
+    <string name="suggest_to_use_mi_sim">Use Mi Sim to prevent you from generating additional carrier fees.</string>
     <string name="summary_app_lock_disable">Protect your data with App lock</string>
     <string name="summary_app_update_new">Update apps to access new features</string>
     <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
@@ -4824,6 +4830,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="traffic_setting_fragment_title_guide">Carriers and data plans</string>
     <string name="traffic_to_limit_warning">"You've used up %s of your data limit"</string>
     <string name="traffic_usage_warning_body">"You've already used %s of mobile data this month."</string>
+    <string name="traffic_usage_warning_body_go_to_mi_sim">"You've already used %s of mobile data this month,Tap to use Mi SIM."</string>
     <string name="traffic_usage_warning_limit">Data usage warning limit</string>
     <string name="traffic_usage_warning_title">Data usage warning</string>
     <string name="traffic_warning_purchase_title">Mobile data usage warning</string>
@@ -4943,6 +4950,8 @@ This feature doesn't work with motion smoothing.
 Turning one of the features on will turn the other off."</string>
     <string name="vb_video_super_division_tips">"Not clear enough?
 Try upscaling resolution!"</string>
+    <string name="verify_shut_down_password_content">Require confirming screen lock if your device is powered off while locked</string>
+    <string name="verify_shut_down_password_title">Shutdown confirmation</string>
     <string name="video_repeat">Play again</string>
     <string name="videobox_hangup_tips_content">Your screen will be locked, but the app will still be running in the background when this feature is on. Press the Power button to turn the screen back on. Turn on this feature now?</string>
     <string name="videobox_hangup_tips_title">Attention</string>
