@@ -2431,6 +2431,7 @@ This setting affects all users of this device."</string>
     <string name="default_calendar_app_title">Calendar app</string>
     <string name="default_contacts_app_title">Contacts app</string>
     <string name="default_digital_assistant_title">Default digital assistant app</string>
+    <string name="default_document_title">Documents</string>
     <string name="default_emergency_app">Emergency app</string>
     <string name="default_for_calls">Default for calls</string>
     <string name="default_for_calls_and_sms">Default for calls &amp; SMS</string>
@@ -2748,6 +2749,11 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="dock_sounds_enable_summary_on">Play sound when inserting or removing phone from dock</string>
     <string name="dock_sounds_enable_title">Dock insert sound</string>
     <string name="docking_sounds_title">Docking sounds</string>
+    <string name="document_default_status">Select</string>
+    <string name="document_excel_title">Excel</string>
+    <string name="document_pdf_title">PDF</string>
+    <string name="document_powerpoint_title">PowerPoint</string>
+    <string name="document_word_title">Word</string>
     <string name="does_not_exist">App doesn’t exist.</string>
     <string name="domain_url_section_title">Installed apps</string>
     <string name="domain_urls_apps_summary_off">No app opening supported links</string>
@@ -3081,6 +3087,7 @@ For more details, contact your organization's admin."</string>
     <string name="face_intro_error_max">You’ve added the maximum number of faces</string>
     <string name="face_intro_error_unknown">Can’t add more faces</string>
     <string name="face_lock_screen_setup_skip_dialog_text">By protecting your phone with a screen lock option, no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up face unlock. To go back, tap Cancel.</string>
+    <string name="face_password_unlock">Face data &amp; screen lock</string>
     <string name="face_unlock">Face unlock</string>
     <string name="face_unlock_be_on_the_screen">Hold the device in front of your face</string>
     <string name="face_unlock_by_notification_screen_on_msg">You can unlock the device using face data whenever the screen lights up for incoming notifications. This may drain the battery faster.</string>
@@ -3172,6 +3179,7 @@ For more details, contact your organization's admin."</string>
     <string name="fingerprint_enable_keyguard_toggle_title">screen lock</string>
     <string name="fingerprint_enroll_button_add">Add another</string>
     <string name="fingerprint_enroll_button_next">Next</string>
+    <string name="fingerprint_face_password_unlock">Fingerprints, face data, and screen lock</string>
     <string name="fingerprint_first_open_screen_password_face_tittle">Face (set Lock screen password first)</string>
     <string name="fingerprint_first_open_screen_password_tittle">Fingerprint (set Lock screen password first)</string>
     <string name="fingerprint_for_keyguard_disabled">Fingerprint has been disabled by security settings.</string>
@@ -3196,6 +3204,7 @@ For more details, contact your organization's admin."</string>
     <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
     <string name="fingerprint_not_recognized">Not recognized</string>
     <string name="fingerprint_others_title">Other</string>
+    <string name="fingerprint_password_unlock">Fingerprints &amp; screen lock</string>
     <string name="fingerprint_payment">Fingerprint payments</string>
     <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title">See notifications quickly</string>
@@ -4169,6 +4178,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="launch_noapp_dialog_replace">Settings</string>
     <string name="launch_notification_center">Notification shade</string>
     <string name="launch_recents">Launch Recents</string>
+    <string name="launch_smarthome">Xiaomi Quick Connect</string>
     <string name="launch_voice_assistant">Launch voice assistant</string>
     <string name="launch_wechat_health_code">WeChat health code</string>
     <string name="launch_wechat_health_code_auto_close">WeChat health code shortcut is no longer available. You can switch to a different shortcut.</string>
@@ -5680,6 +5690,35 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="owner_info_settings_title">Lock screen signature</string>
     <string name="owner_space">First space</string>
     <string name="packages_subtitle">Included packages</string>
+    <string name="pad_backup_summary">Back up and restore items on this device</string>
+    <string name="pad_backup_title">Mobile device</string>
+    <string name="pad_computer_backup_summary">Back up and restore items using a computer</string>
+    <string name="pad_how_backup_content">"You can save backups locally or to the cloud. Local backups can be stored on your mobile device, computer, or USB drive.
+
+Mobile device
+Save your system settings, accounts, app data, and other items in a separate file stored on your device (MIUI-backup-AllBackup). Note: Performing a factory reset will delete such backups permanently. Remember to copy backups to your computer.
+
+Computer
+Create a backup on this device, then go to MIUI-backup-AllBackup and copy the backup to your computer via USB cable.
+
+USB drive
+Save your system settings, accounts, app data, and other items to a USB drive.
+
+Xiaomi Cloud
+Sync your contacts, photos, videos, the list of your apps, system settings, and Home screen layout with the cloud."</string>
+    <string name="pad_how_restore_backup_content">"Here's how you can restore items that were backed up using different methods:
+
+Mobile device
+Tap \"Mobile device\" find the option to restore items and select the backup to continue.
+
+Computer
+Copy the backup from your computer to MIUI-backup-AllBackup via USB cable and restore items from your mobile device.
+
+USB drive
+Copy the backup from your USB drive to MIUI-backup-AllBackup and select the option to restore items from a USB drive to continue.
+
+Xiaomi Cloud
+Open Xiaomi Cloud and restore items from there."</string>
     <string name="page_layout_1">Sunday, August 16</string>
     <string name="page_layout_10">Settings</string>
     <string name="page_layout_11">Weather</string>
@@ -5772,6 +5811,7 @@ Read and agree to %s before using this service."</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="password_turned_off_text">Password has been turned off</string>
     <string name="password_turned_on_text">Password has been turned on</string>
+    <string name="password_unlock">Screen lock</string>
     <string name="password_unlock_title">Screen lock</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
