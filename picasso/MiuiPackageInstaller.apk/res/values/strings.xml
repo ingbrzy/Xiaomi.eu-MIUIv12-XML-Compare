@@ -48,6 +48,7 @@
     <string name="am">AM</string>
     <string name="anonymous_source_continue">Continue</string>
     <string name="anonymous_source_warning">Your phone and personal data are more vulnerable to attack by unknown apps. By installing this app, you agree that you are responsible for any damage to your phone or loss of data that may result from its use.</string>
+    <string name="anonymous_source_warning_tablet">Your devices and personal data are more vulnerable to attack by unknown apps. By installing this app, you agree that you are responsible for any damage to your devices or loss of data that may result from its use.</string>
     <string name="app_install_failed_button_text">Search for apps</string>
     <string name="app_name">Package installer</string>
     <string name="app_name_unknown">Unknown</string>
@@ -309,8 +310,10 @@ Alternatively, you can turn off Lite mode and try again."</string>
     <string name="install_failed_blocked">The package was blocked from being installed.</string>
     <string name="install_failed_conflict">The package conflicts with an existing package by the same name.</string>
     <string name="install_failed_incompatible">"This app isn't compatible with your phone."</string>
+    <string name="install_failed_incompatible_tablet">"This app isn't compatible with your device."</string>
     <string name="install_failed_invalid_apk">The package appears to be corrupt.</string>
     <string name="install_failed_msg">"%1$s couldn't be installed on your phone."</string>
+    <string name="install_failed_msg_tablet">"%1$s couldn't be installed on your device."</string>
     <string name="install_failed_system_incompatible">"This app isn't compatible with MIUI"</string>
     <string name="install_finished_notification_summary">Tap to free up storage space</string>
     <string name="install_finished_notification_title">Installed %1$s successfully. You can free up %2$s of storage space.</string>
@@ -680,12 +683,10 @@ Alternatively, you can turn off Lite mode and try again."</string>
     <string name="uninstalling">Uninstalling…</string>
     <string name="unknown">Unknown</string>
     <string name="unknown_apps_admin_dlg_text">"Your administrator doesn't allow installation of apps obtained from unknown sources."</string>
-    <string name="unknown_apps_dlg_text">For security, your phone is set to block installation of apps obtained from unknown sources.</string>
     <string name="unknown_installer">Unidentified PC tools</string>
     <string name="unlike">No thanks</string>
     <string name="untrusted_external_source_always_click">Always allow</string>
     <string name="untrusted_external_source_title">Allow \"%1$s\" to install apps?</string>
-    <string name="untrusted_external_source_warning">"For your security, your phone isn't allowed to install unknown apps from this source."</string>
     <string name="untrusted_external_source_warning_summary">"Your device and personal data are vulnerable to attacks by the apps installed from unknown sources. By allowing to install apps from this source, you agree to accept responsibility for any damage or data loss that might occur while you're using these apps."</string>
     <string name="user_is_not_allowed_dlg_text">The current user is not allowed to perform this uninstallation.</string>
     <string name="user_is_not_allowed_dlg_title">Not allowed</string>
