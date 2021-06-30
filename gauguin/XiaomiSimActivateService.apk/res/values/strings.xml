@@ -85,12 +85,14 @@ Enter the phone number associated with your new SIM card to reactivate %s."</str
     <string name="activate_popup_desc_failed_phone_error">The phone number you entered is invalid.</string>
     <string name="activate_popup_desc_failed_query_info">"Can't find your phone number. Make sure that your SIM card has been activated."</string>
     <string name="activate_popup_desc_failed_query_info_msg">"Couldn't check phone number. Make sure SIM %d works properly and try again."</string>
+    <string name="activate_popup_desc_failed_query_info_msg_one_sim">"Couldn't check phone number. Make sure your SIM card works properly and try again."</string>
     <string name="activate_popup_desc_failed_receive_sms">Make sure the phone number you entered is correct and that your SIM card has been activated.</string>
     <string name="activate_popup_desc_failed_send_sms">"Couldn't send activation message. Make sure that your SIM card has been activated."</string>
     <string name="activate_popup_desc_failed_server">Check your network connection and try again.</string>
     <string name="activate_popup_desc_failed_server_msg">A server error occurred. Check your network settings and try again.</string>
     <string name="activate_popup_desc_find_device_postfix">An activation SMS may be sent after you switch SIM cards.</string>
     <string name="activate_popup_desc_find_device_postfix_msg">%1$s. To activate \"%3$s\", enter the phone number of SIM %2$d. If you replace this SIM card, another activation SMS will be sent.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s. To activate \"%2$s\", enter your phone number. If you replace this SIM card, another activation SMS will be sent.</string>
     <string name="activate_popup_desc_intl_sim_card">International SMS will be sent to activate %s. You will be charged by the carrier.</string>
     <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">To activate \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>international paid SMS&lt;/b> will be sent. Your carrier will charge you for this message.</string>
     <string name="activate_popup_desc_mi_account_user_manual">%1$s. <Data>Refer to the &lt;a href=https://account.xiaomi.com/helpcenter/faq>Mi Account User Manual&lt;/a> if you have any questions.</Data></string>
@@ -108,11 +110,14 @@ Enter the phone number associated with your new SIM card to reactivate %s."</str
     <string name="activate_popup_desc_sim_card">Regular SMS will be sent to activate %s. You will be charged by the carrier.</string>
     <string name="activate_popup_desc_sim_card_downlink">Enter current phone number to activate %s.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg">To activate \"%2$s\", enter the phone number of SIM %1$d.</string>
+    <string name="activate_popup_desc_sim_card_downlink_msg_one_sim">To activate %s, enter your phone number.</string>
     <string name="activate_popup_desc_sim_card_msg_with_charge_hint">To activate \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>paid SMS&lt;/font> will be sent. Your carrier will charge you for this message.</string>
     <string name="activate_popup_desc_voip_privacy">Privacy Policy</string>
     <string name="activate_popup_desc_voip_privacy_prefix">"VoIP service supported by Weihui. View Weihui's"</string>
     <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s. To activate \"%3$s\", enter the phone number of SIM %2$d. Technical support is provided in part by Weihuitel. Refer to the Weihuitel Privacy Policy for details.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s. To activate \"%2$s\", enter your phone number. Technical support is provided in part by Weihuitel. Refer to the Weihuitel Privacy Policy for details.</string>
     <string name="activate_popup_failed_send_sms_desc">"Couldn't send activation SMS. Make sure SIM %d works properly and try again."</string>
+    <string name="activate_popup_failed_send_sms_desc_one_sim">"Couldn't send activation SMS. Make sure your SIM card works properly and try again."</string>
     <string name="activate_popup_title_all_gateway_failed_query_info">"Can't find number"</string>
     <string name="activate_popup_title_all_gateway_failed_send_sms">"Couldn't send SMS"</string>
     <string name="activate_popup_title_error_device_id">Invalid IMEI</string>
@@ -132,6 +137,7 @@ Enter the phone number associated with your new SIM card to reactivate %s."</str
     <string name="activate_status_desc_acquire_phone_number_server_error">Server error occurred while verifying phone number</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info">"Couldn't verify phone number"</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip">"Couldn't verify phone number. Make sure SIM %d works properly and try again."</string>
+    <string name="activate_status_desc_acquire_phone_number_server_no_info_tip_one_sim">"Couldn't verify phone number. Make sure your SIM card works properly and try again."</string>
     <string name="activate_status_desc_checking_xiaomi_account">Checking for Mi Account…</string>
     <string name="activate_status_desc_checking_xiaomi_account_server_error">Server error occurred while checking for Mi Account</string>
     <string name="activate_status_desc_completed_with_sms_sent">Sent SMS to activate SIM</string>
@@ -152,6 +158,7 @@ Enter the phone number associated with your new SIM card to reactivate %s."</str
     <string name="activate_status_desc_request_activation_sms">Requesting activation SMS…</string>
     <string name="activate_status_desc_request_activation_sms_server_error">Server error occurred while requesting an activation SMS.</string>
     <string name="activate_status_desc_request_activation_sms_server_error_tip">"Couldn't receive activation SMS. Make sure SIM %d works properly and try again."</string>
+    <string name="activate_status_desc_request_activation_sms_server_error_tip_one_sim">"Couldn't receive activation SMS. Make sure your SIM card works properly and try again."</string>
     <string name="activate_status_desc_sending_sms">Sending activation SMS…</string>
     <string name="activate_status_desc_sending_sms_fail">"Couldn't send activation SMS to gateway"</string>
     <string name="activate_status_desc_sms_sent">Sent activation SMS successfully</string>
@@ -264,9 +271,11 @@ Enter the phone number associated with your new SIM card to reactivate %s."</str
     <string name="error_network_io">A network error occurred</string>
     <string name="error_network_io_tip">Check your network settings and try again</string>
     <string name="error_no_get_send_sms_permission">Allow SIM %d to send SMS first.</string>
+    <string name="error_no_get_send_sms_permission_one_sim">Allow sending SMS first.</string>
     <string name="error_no_send_sms_permission">Xiaomi SIM Activation Service needs permission to send SMS</string>
     <string name="error_sim_not_in_service">"Can't activate SIM card. Make sure your balance is sufficient."</string>
     <string name="error_sim_not_in_service_tip">"SIM %d can't connect to the network. Make sure SIM card works properly and try again."</string>
+    <string name="error_sim_not_in_service_tip_one_sim">"Can't connect to the network. Make sure your SIM card works properly and try again."</string>
     <string name="evening">Afternoon</string>
     <string name="explain_activate_feature_server_title">Activate \"%s\"</string>
     <string name="explain_activate_register_xiaomi_account_title">Create Mi Account</string>
