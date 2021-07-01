@@ -48,6 +48,7 @@
     <string name="am">AM</string>
     <string name="anonymous_source_continue">Continue</string>
     <string name="anonymous_source_warning">Your phone and personal data are more vulnerable to attack by unknown apps. By installing this app, you agree that you are responsible for any damage to your phone or loss of data that may result from its use.</string>
+    <string name="anonymous_source_warning_tablet">Your devices and personal data are more vulnerable to attack by unknown apps. By installing this app, you agree that you are responsible for any damage to your devices or loss of data that may result from its use.</string>
     <string name="app_install_failed_button_text">Search for apps</string>
     <string name="app_name">Package installer</string>
     <string name="app_name_unknown">Unknown</string>
@@ -60,7 +61,6 @@
     <string name="app_permissions_group_summary">%1$d of %2$d apps allowed</string>
     <string name="app_store_install_hint">Install now</string>
     <string name="app_store_installing_message">Installing…</string>
-    <string name="app_store_missing_message">"Looks like you haven't installed our official App Store. Install it now?"</string>
     <string name="app_store_missing_title">"App Store isn't installed"</string>
     <string name="application_detail_tips">App details and required permissions</string>
     <string name="auto_startup_dialog_msg">This app can start without your permission.</string>
@@ -289,6 +289,7 @@ All your previous user data will be saved."</string>
     <string name="install_confirm_dialog_title">Attention</string>
     <string name="install_confirm_question">Do you want to install this application? It will get access to:</string>
     <string name="install_confirm_question_des_10">"If you're willing to take the risks and want to proceed with the installation, authorize the installation in Security > Manage apps > Permissions > Apps with possible risks. If you can't find \"Apps with possible risks\", update your Security app and try again."</string>
+    <string name="install_confirm_question_des_10_tablet">"If you're willing to take the risks and want to proceed with the installation, authorize the installation in Security > Manage apps > Permissions > Apps with possible risks. If you can't find \"Apps with possible risks\", update your Security app and try again."</string>
     <string name="install_confirm_question_no_perms">"Do you want to install this app? It doesn't require any special permissions."</string>
     <string name="install_confirm_question_update">"Do you want to install an update to this existing app? The existing app data won't be lost. The updated application will get access to:"</string>
     <string name="install_confirm_question_update_no_perms">"Do you want to install an update to this existing app? The existing app data won't be lost. It does not require any special permissions."</string>
@@ -309,8 +310,10 @@ Alternatively, you can turn off Lite mode and try again."</string>
     <string name="install_failed_blocked">The package was blocked from being installed.</string>
     <string name="install_failed_conflict">The package conflicts with an existing package by the same name.</string>
     <string name="install_failed_incompatible">"This app isn't compatible with your phone."</string>
+    <string name="install_failed_incompatible_tablet">"This app isn't compatible with your device."</string>
     <string name="install_failed_invalid_apk">The package appears to be corrupt.</string>
     <string name="install_failed_msg">"%1$s couldn't be installed on your phone."</string>
+    <string name="install_failed_msg_tablet">"%1$s couldn't be installed on your device."</string>
     <string name="install_failed_system_incompatible">"This app isn't compatible with MIUI"</string>
     <string name="install_finished_notification_summary">Tap to free up storage space</string>
     <string name="install_finished_notification_title">Installed %1$s successfully. You can free up %2$s of storage space.</string>
@@ -543,7 +546,6 @@ Alternatively, you can turn off Lite mode and try again."</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="privacyPerms">Privacy</string>
     <string name="privacy_relative">Privacy</string>
-    <string name="reboot_time">Getting ready to reboot… (%1$s)</string>
     <string name="replace_app_des_text">Replace the app with this version?</string>
     <string name="review_button_cancel">Cancel</string>
     <string name="review_button_continue">Continue</string>
@@ -567,6 +569,7 @@ Alternatively, you can turn off Lite mode and try again."</string>
  "<li>When an app contains viruses.</li>"
  "<li>Installation package comes from an unknown source.</li></string>
     <string name="settings_warning_dialog_msg">"Your phone is prone to security risks. You won't be prompted to install secure app versions if you turn this feature off. Turn off anyway?"</string>
+    <string name="settings_warning_dialog_msg_tablet">"Your device is prone to security risks. You won't be prompted to install secure app versions if you turn this feature off. Turn off anyway?"</string>
     <string name="settings_warning_dialog_title">Attention</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
@@ -680,13 +683,12 @@ Alternatively, you can turn off Lite mode and try again."</string>
     <string name="uninstalling">Uninstalling…</string>
     <string name="unknown">Unknown</string>
     <string name="unknown_apps_admin_dlg_text">"Your administrator doesn't allow installation of apps obtained from unknown sources."</string>
-    <string name="unknown_apps_dlg_text">For security, your phone is set to block installation of apps obtained from unknown sources.</string>
     <string name="unknown_installer">Unidentified PC tools</string>
     <string name="unlike">No thanks</string>
     <string name="untrusted_external_source_always_click">Always allow</string>
     <string name="untrusted_external_source_title">Allow \"%1$s\" to install apps?</string>
-    <string name="untrusted_external_source_warning">"For your security, your phone isn't allowed to install unknown apps from this source."</string>
     <string name="untrusted_external_source_warning_summary">"Your device and personal data are vulnerable to attacks by the apps installed from unknown sources. By allowing to install apps from this source, you agree to accept responsibility for any damage or data loss that might occur while you're using these apps."</string>
+    <string name="untrusted_external_source_warning_summary_tablet">"Your device and personal data are vulnerable to attacks by the apps installed from unknown sources. By allowing to install apps from this source, you agree to accept responsibility for any damage or data loss that might occur while you're using these apps."</string>
     <string name="user_is_not_allowed_dlg_text">The current user is not allowed to perform this uninstallation.</string>
     <string name="user_is_not_allowed_dlg_title">Not allowed</string>
     <string name="v7_preference_off">OFF</string>
