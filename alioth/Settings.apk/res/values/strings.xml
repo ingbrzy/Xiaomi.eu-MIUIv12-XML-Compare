@@ -2186,7 +2186,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="custom_color">Custom</string>
     <string name="custom_gesture_title">Custom gestures</string>
     <string name="custom_wifi_name_title">Edit Wi-Fi name</string>
-    <string name="customize_knock_gesture" />
+    <string name="customize_knock_gesture">Custom knuckle gestures</string>
     <string name="cutout_mode_always">Always show notch</string>
     <string name="cutout_mode_default">Auto</string>
     <string name="cutout_mode_settings_title">Some apps may be displayed incorrectly if you customize the way notch is displayed.</string>
@@ -2765,7 +2765,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="done_button">Done</string>
     <string name="double_click_power_key">Double press the Power button</string>
     <string name="double_click_volume_down_when_lock">Double press Volume down when the screen is locked</string>
-    <string name="double_knock" />
+    <string name="double_knock">Knuckle double tap</string>
     <string name="double_tap_power_for_camera_suggestion_title">Open camera quickly</string>
     <string name="double_tap_power_for_camera_summary">To quickly open camera, press the power button twice. Works from any screen.</string>
     <string name="double_tap_power_for_camera_title">Quickly open camera</string>
@@ -3536,6 +3536,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="gxzw_anim_rhythm">Rhythm</string>
     <string name="gxzw_anim_star">Starlight</string>
     <string name="gxzw_anim_title">Fingerprint animation</string>
+    <string name="gxzw_anim_unlock_effect">%s fingerprint animation</string>
     <string name="gxzw_aod_show_summary">Raise the device or tap the screen to make the fingerprint icon appear. This feature increases system power consumption.</string>
     <string name="gxzw_aod_show_tittle">Show fingerprint icon when the screen is off</string>
     <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
@@ -3972,6 +3973,12 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="item_system_app">System apps</string>
     <string name="join_two_items">%1$s and %2$s</string>
     <string name="join_two_unrelated_items">%1$s, %2$s</string>
+    <string name="kddi_nfc_category_title">NFC/Osaifu-keitai</string>
+    <string name="kddi_nfc_disabled_summary">Unavailable because NFC/Osaifu-keitai is turned off</string>
+    <string name="kddi_nfc_quick_toggle_summary">Enable NFC/Osaifu-keitai function</string>
+    <string name="kddi_nfc_quick_toggle_title">NFC/Osaifu-keitai</string>
+    <string name="kddi_nfc_secure_settings_title">Lock while on lock screen</string>
+    <string name="kddi_nfc_secure_toggle_summary">Allow NFC/Osaifu-keitai function while the screen is unlocked</string>
     <string name="keep_legacy_fingerprint">Keep</string>
     <string name="keep_screen_on">"Don't lock screen"</string>
     <string name="keep_screen_on_summary">"Screen won't go to sleep while charging"</string>
@@ -4134,17 +4141,17 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="kid_space_settings">Kid space</string>
     <string name="kilobyteShort">KB</string>
     <string name="kilobyte_per_second">KB/s</string>
-    <string name="knock_edge_area_invalid" />
-    <string name="knock_guide_dialog_title" />
-    <string name="knock_guide_drive_desc" />
-    <string name="knock_guide_launch_desc" />
-    <string name="knock_guide_set_screenshot" />
-    <string name="knock_guide_set_voiceassist" />
-    <string name="knock_guide_sub_title" />
-    <string name="knock_guide_title" />
-    <string name="knock_long_press_horizontal_slid" />
-    <string name="knock_slide_shape" />
-    <string name="knock_slide_v" />
+    <string name="knock_edge_area_invalid">"This gesture doesn't work near screen edges"</string>
+    <string name="knock_guide_dialog_title">Select an action for this gesture. You can change it later in Settings > Additional settings > Button shortcuts.</string>
+    <string name="knock_guide_drive_desc">Take screenshots while driving</string>
+    <string name="knock_guide_launch_desc">Trigger Mi AI when your phone is lying on the table</string>
+    <string name="knock_guide_set_screenshot">Screenshot</string>
+    <string name="knock_guide_set_voiceassist">Mi AI</string>
+    <string name="knock_guide_sub_title">You can trigger Mi AI or take screenshots by tapping the screen with your knuckle</string>
+    <string name="knock_guide_title">Knuckle double tap</string>
+    <string name="knock_long_press_horizontal_slid">Press and swipe horizontally with a knuckle</string>
+    <string name="knock_slide_shape">Draw a circle with a knuckle</string>
+    <string name="knock_slide_v">Draw V with a knuckle</string>
     <string name="label_available">Available networks</string>
     <string name="label_mi_stats">Mi analytics</string>
     <string name="language_and_input_for_work_category_title">Work profile keyboards &amp; tools</string>
@@ -4563,7 +4570,8 @@ as your First space PIN."</string>
     <string name="low_label">Low</string>
     <string name="low_storage_summary">Storage is low. %1$s used - %2$s free</string>
     <string name="macaddr_label">MAC addr:</string>
-    <string name="magic_window_name">Parallel windows</string>
+    <string name="magic_list_empty_text">No apps compatible with this feature now</string>
+    <string name="magic_window_name">Optimize apps for landscape view</string>
     <string name="mah">%d mAh</string>
     <string name="main_netcheck_summary">Test connection for networking issues</string>
     <string name="main_running_process_description">Main process in use.</string>
@@ -6395,6 +6403,7 @@ Restart your device and try again."</string>
     <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to undo this action."</string>
     <string name="reset_network_final_desc_esim">Reset all network settings and erase downloaded SIMs? You can’t undo this action.</string>
     <string name="reset_network_title">Reset Wi-Fi, mobile networks, and Bluetooth</string>
+    <string name="reset_network_title_noSim">Reset Wi-Fi and Bluetooth</string>
     <string name="reset_network_wifi">Wi-Fi</string>
     <string name="reset_remove_data_hint">All the items listed above will be erased permanently. Back up all important items to your computer or Xiaomi Cloud before you continue.</string>
     <string name="reset_second_space_passwd">Reset Second space password</string>
@@ -8659,7 +8668,7 @@ Tap the plus to add words."</string>
     <string name="vibrate_when_ringing_option_always_vibrate">Always vibrate</string>
     <string name="vibrate_when_ringing_option_never_vibrate">Never vibrate</string>
     <string name="vibrate_when_ringing_option_ramping_ringer">Vibrate first then ring gradually</string>
-    <string name="vibrate_when_ringing_title">Vibrate for calls</string>
+    <string name="vibrate_when_ringing_title">Vibrate while ringing</string>
     <string name="video_calling_settings_title">Carrier video calling</string>
     <string name="video_tool_box_title">Video toolbox</string>
     <string name="view_saved_network">To view, choose saved network</string>
@@ -8724,6 +8733,9 @@ Tap the plus to add words."</string>
     <string name="voice_service_preference_section_title">Voice input services</string>
     <string name="voicemail_number_not_set">&lt;Not set></string>
     <string name="voip_assistant_settings">VoIP assistant</string>
+    <string name="voip_assistant_settings_off">Off</string>
+    <string name="voip_assistant_settings_on">On</string>
+    <string name="voip_assistant_settings_summary">Record VoIP calls and use voiceprint optimization</string>
     <string name="volte_5G_limited_text">"This also turns off your 5G connection.
 During a voice call, you can’t use the internet and some apps may not work."</string>
     <string name="volte_5G_limited_title">Turn off VoLTE?</string>
