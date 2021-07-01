@@ -260,7 +260,7 @@
     <string name="app_behavior_contacts_single">This app accessed your contacts</string>
     <string name="app_behavior_dashboard_desc">Activity within last %d hours</string>
     <string name="app_behavior_dashboard_total_usage_title">View all records</string>
-    <string name="app_behavior_dashboard_usage">App behavior</string>
+    <string name="app_behavior_dashboard_usage">Permission usage</string>
     <string name="app_behavior_dashboard_usage_list_title">View by permission</string>
     <string name="app_behavior_dashboard_usage_unit">%1$s / %2$s</string>
     <string name="app_behavior_delete_pic">%1s deleted items from Gallery</string>
@@ -268,9 +268,13 @@
     <string name="app_behavior_denied">Restrict</string>
     <string name="app_behavior_desc_allow_once">Allowed at %1$s</string>
     <string name="app_behavior_desc_allowed">Allowed</string>
+    <string name="app_behavior_desc_allowed_at">Allowed at %s</string>
     <string name="app_behavior_desc_allowed_on_background">Allowed in the background</string>
+    <string name="app_behavior_desc_allowed_on_background_at">Allowed in the background at %s</string>
     <string name="app_behavior_desc_denied">Denied</string>
+    <string name="app_behavior_desc_denied_at">Denied at %s</string>
     <string name="app_behavior_desc_denied_on_background">Denied in the background</string>
+    <string name="app_behavior_desc_denied_on_background_at">Denied in the background at %s</string>
     <string name="app_behavior_desc_deny_once">Restricted at %1$s</string>
     <string name="app_behavior_desc_other_perm_allowed">Latest activity: %s</string>
     <string name="app_behavior_desc_other_perm_denied">Activity within last %d hours</string>
@@ -1648,6 +1652,7 @@ volunteer"</string>
     <string name="first_aid_card_wifi_or_flow_title">"Can't connect to the internet"</string>
     <string name="first_aid_dialog_msg_stop_scan">Stop scanning now?</string>
     <string name="first_aid_dialog_title_stop_scan">Stop scanning</string>
+    <string name="first_aid_exception_sub_title">These items will be ignored during scans</string>
     <string name="first_aid_item1_content">Performance</string>
     <string name="first_aid_item2_content">Network</string>
     <string name="first_aid_item3_content">Settings</string>
@@ -2116,6 +2121,8 @@ of your gaming sessions"</string>
     <string name="gs_show_way_vertical">Vertical</string>
     <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
     <string name="gs_slip_gamebox_detail">Use slider or swipe from the top side edge of the screen to make the shortcut panel appear</string>
+    <string name="gtb_brightness_dialog_right_btn">Keep on</string>
+    <string name="gtb_brightness_dialog_sub_message">*You can turn this feature on and off in the Settings.</string>
     <string name="gtb_dialog_btn_close">Turn off</string>
     <string name="gtb_dialog_btn_open">Turn on</string>
     <string name="gtb_dialog_hint_smart_5g">You can turn this feature on and off in Game Turbo > Settings.</string>
@@ -2125,6 +2132,7 @@ of your gaming sessions"</string>
     <string name="gtb_exit_game_to_home">Back to Home screen</string>
     <string name="gtb_setting_item_summary_smart_5g">Whenever Game Turbo detects a 5G network, it can connect your device to the best network available to reduce network delay</string>
     <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Increase connection speed by 10%-20% when connected to Mi/Redmi routers</string>
+    <string name="gtb_setting_item_title_brightness">Lower screen brightness automatically</string>
     <string name="gtb_setting_item_title_smart_5g">5G network optimization</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi speed boost</string>
     <string name="gtb_spring_festival_back_game">Back to game</string>
@@ -2401,7 +2409,7 @@ to respond"</string>
     <string name="manual_input_free_traffic">Set off-peak data usage</string>
     <string name="manual_input_traffic">Set data usage</string>
     <string name="manual_item_white_list_summary">Prevent selected items from being optimized</string>
-    <string name="manual_item_white_list_title">Exceptions</string>
+    <string name="manual_item_white_list_title">Scan exceptions</string>
     <string name="mark_agent">Block reported agencies</string>
     <string name="mark_agent_block">Reported as agency</string>
     <string name="mark_agent_block_large">Agencies</string>
@@ -2939,6 +2947,11 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_battery_history_show_imei">IMEI:</string>
     <string name="pc_battery_history_total_consumption_title">Total power consumption</string>
     <string name="pc_battery_history_usetime_title">Active</string>
+    <string name="pc_hidemode_normal">Balanced</string>
+    <string name="pc_hidemode_normal_title">Balanced</string>
+    <string name="pc_hidemode_performance">Performance</string>
+    <string name="pc_hidemode_performance_title">Performance mode</string>
+    <string name="pc_hidemode_power_save">Power</string>
     <string name="pc_install_manager">Install via USB</string>
     <string name="pc_main_activity_back">Back</string>
     <string name="pc_main_battery_text_day">Added %1$sm, about %2$sd remaining</string>
@@ -2950,6 +2963,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_main_power_manager_hour_minute">%1$sh %2$sm until fully charged</string>
     <string name="pc_main_sub_battery_text_day_hour">%1$sd %2$sh remaining</string>
     <string name="pc_main_sub_battery_text_hour_minute">%1$sh %2$sm remaining</string>
+    <string name="pc_performance_mode_dialog_summary">Your device will be able to work for %s in Performance mode. Note that Performance mode increases power consumption and might lead to overheating.</string>
+    <string name="pc_performance_mode_dialog_title">Performance mode</string>
     <string name="pc_search_keywords_battery">Battery</string>
     <string name="pc_search_keywords_battery_save">Battery saver</string>
     <string name="pc_search_keywords_battery_use">Battery usage</string>
