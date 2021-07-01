@@ -57,6 +57,18 @@
         <item quantity="other">Denied %2$d times at %1$s</item>
         <item quantity="one">Denied %2$d time at %1$s</item>
     </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">Allowed %3$d times between %1$s and %2$s</item>
+        <item quantity="one">Allowed %3$d time between %1$s and %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">Used for %1$d minutes</item>
+        <item quantity="one">Used for %1$d minute</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">Used for %1$d minutes until %2$s</item>
+        <item quantity="one">Used for %1$d minute until %2$s</item>
+    </plurals>
     <plurals name="app_behavior_desc_virtual">
         <item quantity="other">Returned %3$d blank messages between %1$s and %2$s</item>
         <item quantity="one">Returned %3$d blank message between %1$s and %2$s</item>
@@ -278,6 +290,14 @@ You can get a %d-day free trial now!"</item>
     <plurals name="gb_voice_changer_user_tips_info">
         <item quantity="other">Get a %d-day free trial</item>
         <item quantity="one">Get a %d-day free trial</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">This feature lowers screen brightness after %d minutes of inactivity automatically to save power. Keep this feature on?</item>
+        <item quantity="one">This feature lowers screen brightness after %d minute of inactivity automatically to save power. Keep this feature on?</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">Lower screen brightness automatically to save power after %d minutes of inactivity</item>
+        <item quantity="one">Lower screen brightness automatically to save power after %d minute of inactivity</item>
     </plurals>
     <plurals name="gtb_spring_festival_colored_egg">
         <item quantity="other">"Congrats! You've unlocked %s Easter eggs."</item>
