@@ -95,8 +95,6 @@
     <string name="autofill_save_sub_message">"You'll be able to manage saved passwords in Settings > Passwords &amp; security > %s."</string>
     <string name="autofill_save_title">Save passwords automatically</string>
     <string name="autofill_service_name">Manage passwords</string>
-    <string name="back_double_tap">none</string>
-    <string name="back_triple_tap">none</string>
     <string name="battery_authentic_failed_button">Got it</string>
     <string name="battery_authentic_failed_title">Attention</string>
     <string name="blackshark">Black Shark</string>
@@ -158,8 +156,6 @@
     <string name="dock_tip_splitscreen_landscape_float">Hold and drag downwards to switch to a floating window.</string>
     <string name="dock_tip_splitscreen_portrait_drag">Drag the bar vertically to swap the positions of the two app windows.</string>
     <string name="dock_tip_splitscreen_portrait_float">Hold and drag to the left or right side of the screen to switch to a floating window.</string>
-    <string name="double_click_power_key">none</string>
-    <string name="double_knock">none</string>
     <string name="eighthours">8 hours</string>
     <string name="enable_livetalk_summary">Save 70% on your calling charges</string>
     <string name="enable_livetalk_title">Turn on Top-up package</string>
@@ -207,9 +203,6 @@
     <string name="international_livetalk_enable">Using top-up package for international calls</string>
     <string name="key_btn_ok">OK</string>
     <string name="key_btn_space">Space</string>
-    <string name="knock_gesture_v">none</string>
-    <string name="knock_long_press_horizontal_slid">none</string>
-    <string name="knock_slide_shape">none</string>
     <string name="livetalk_not_enable">Top-up package off</string>
     <string name="location_usage_restricted_body">Tap to allow.</string>
     <string name="location_usage_restricted_title">Background location restricted</string>
@@ -217,10 +210,6 @@
     <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
     <string name="lockscreen_access_pattern_detected">Pattern completed</string>
     <string name="lockscreen_access_pattern_start">Pattern started</string>
-    <string name="long_press_home_key">launch_voice_assistant</string>
-    <string name="long_press_menu_key">show_menu</string>
-    <string name="long_press_menu_key_when_lock">turn_on_torch</string>
-    <string name="long_press_power_key">none</string>
     <string name="magic_window_toast">App Multiplier enabled.</string>
     <string name="maml_component_customization_title">Settings</string>
     <string name="meizu">Meizu</string>
@@ -324,7 +313,9 @@
     <string name="screen_button_notification_title">Navigation buttons are turned off</string>
     <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
     <string name="screen_on_proximity_sensor_hint_has_navigation_bar">To turn this feature off, press the Volume up button.</string>
+    <string name="screen_on_proximity_sensor_hint_has_navigation_bar_for_kddi">To turn this feature off, press the Volume up button.</string>
     <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>
+    <string name="screen_on_proximity_sensor_summary_for_kddi">"Don't cover the ambient light sensor"</string>
     <string name="screen_on_proximity_sensor_title">Pocket mode</string>
     <string name="screen_paper_mode_enter_toast">Reading mode is on. To turn this feature off, go to Settings > Display > Reading mode.</string>
     <string name="screen_rotation_freeze_message">Auto-rotate disabled.</string>
@@ -360,6 +351,10 @@
     <string name="slavewifi_disconnect">Disconnect</string>
     <string name="slavewifi_notification_title">Using dual band Wi-Fi</string>
     <string name="slavewifi_settings">Tap to change settings</string>
+    <string name="small_freeform_enter_warning">Floating window</string>
+    <string name="small_freeform_exit_tip">Close floating window</string>
+    <string name="small_freeform_memory_toast_app_type">"Can't open now. This app requires too much memory to be able to work."</string>
+    <string name="small_freeform_memory_toast_game_type">"Can't open now. This game requires too much memory to be able to work."</string>
     <string name="smartisan">Smartisan</string>
     <string name="smartisan_phone">Smartisan</string>
     <string name="softap_notifif_summary">%d connected</string>
@@ -423,7 +418,6 @@
     <string name="takeback_camera_front_failed">"Couldn't close front camera. Try again."</string>
     <string name="talk_back_water_mark_string1">TalkBack is on</string>
     <string name="talk_back_water_mark_string2">Press and hold \"Volume+\" and \"Volume-\" for 3 seconds to turn off</string>
-    <string name="three_gesture_down">screen_shot</string>
     <string name="throwing_print">Print</string>
     <string name="throwing_screen">Cast</string>
     <string name="tip_close_screen_phone" />
