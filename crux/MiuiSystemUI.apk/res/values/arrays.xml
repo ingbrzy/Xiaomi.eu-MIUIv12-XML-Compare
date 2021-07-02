@@ -1014,10 +1014,22 @@
         <item>com.android.systemui.accessibility.SystemActions</item>
         <item>com.android.systemui.toast.ToastUI</item>
         <item>com.android.systemui.controlcenter.ControlCenter</item>
-        <item>com.android.systemui.statusbar.notification.NotificationCenter</item>
     </string-array>
     <string-array name="config_systemUIServiceComponentsPerUser">
         <item>com.android.systemui.util.NotificationChannels</item>
+    </string-array>
+    <string-array name="config_xmsfNotificationChannel">
+        <item>84</item>
+        <item>61</item>
+        <item>72</item>
+        <item>213</item>
+        <item>102</item>
+        <item>233</item>
+        <item>54</item>
+        <item>96</item>
+        <item>VoIP</item>
+        <item>Reminder</item>
+        <item>FloatAndKeyguard</item>
     </string-array>
     <array name="data_type_name_cus_reg_key" />
     <array name="data_type_name_cus_reg_value" />
@@ -1167,6 +1179,142 @@
         <item>com.google.android.dialer</item>
     </string-array>
     <array name="kg_wrong_puk_code_message_list" />
+    <string-array name="local_white_list">
+        <item>com.google.android.talk</item>
+        <item>com.tencent.mm</item>
+        <item>com.tencent.qq</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.tim</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.whatsapp</item>
+        <item>com.facebook.orca</item>
+        <item>com.bbm</item>
+        <item>jp.naver.line.android</item>
+        <item>com.bsb.hike</item>
+        <item>com.hike.chat.stickers</item>
+        <item>org.telegram.messenger</item>
+        <item>com.viber.voip</item>
+        <item>com.vkontakte.android</item>
+        <item>com.imo.android.imoim</item>
+        <item>com.snapchat.android</item>
+        <item>com.facebook.mlite</item>
+        <item>com.alibaba.android.rimet</item>
+        <item>com.android.calendar</item>
+        <item>com.google.android.gm</item>
+        <item>com.android.email</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>ru.mail.mailapp</item>
+        <item>com.yahoo.mobile.client.android.mail</item>
+        <item>com.tencent.androidqqmail</item>
+        <item>com.android.deskclock</item>
+        <item>com.miui.yellowpage</item>
+        <item>com.android.mms</item>
+        <item>com.android.phone</item>
+        <item>com.android.server.telecom</item>
+        <item>com.android.updater</item>
+        <item>com.android.settings</item>
+        <item>com.android.bluetooth</item>
+        <item>com.jeejen.family.miui</item>
+        <item>com.miui.networkassistant</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.securitycore</item>
+        <item>com.lbe.security.miui</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.miui.home</item>
+        <item>com.miui.personalassistant</item>
+        <item>com.miui.packageinstaller</item>
+        <item>com.xiaomi.account</item>
+        <item>com.android.cts.verifier</item>
+        <item>android</item>
+        <item>com.fihtdc.fqc</item>
+        <item>com.mi.AutoTest</item>
+        <item>com.android.cellbroadcastreceiver</item>
+        <item>com.android.htmlviewer</item>
+        <item>com.xiaomi.drivemode</item>
+        <item>com.miui.greenguard</item>
+        <item>com.xiaomi.mipicks</item>
+        <item>com.xiaomi.smarthome</item>
+        <item>com.kiteguard</item>
+        <item>com.xiaomi.discover</item>
+        <item>com.orange.phone</item>
+        <item>com.miui.userguide</item>
+        <item>com.miui.systemAdSolution</item>
+        <item>com.miui.hybrid.accessory</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.baidao.ytxaegis</item>
+        <item>com.xiaomi.gameboosterglobal</item>
+        <item>com.mi.health</item>
+        <item>com.google.android.dialer</item>
+        <item>com.miui.miservice</item>
+        <item>com.miui.mishare.connectivity</item>
+        <item>com.mi.oa</item>
+        <item>com.miui.huanji</item>
+        <item>com.amazon.dee.app</item>
+        <item>com.xiaomi.misettings</item>
+        <item>com.google.android.apps.vega</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.miui.cleanmaster</item>
+        <item>com.xiaomi.market</item>
+        <item>com.miui.voiceassist</item>
+        <item>com.orange.conecta.es</item>
+        <item>com.miui.cloudservice</item>
+        <item>miui.test.cases</item>
+        <item>com.ss.android.lark</item>
+        <item>com.miui.notes</item>
+        <item>com.xiaomi.vipaccount</item>
+        <item>com.xiaomi.mitv.phone.tvassistant</item>
+        <item>com.miui.backup</item>
+        <item>com.miui.thirdappassistant</item>
+        <item>com.xiaomi.calendar</item>
+        <item>com.miui.core</item>
+        <item>com.ss.android.lark.kami</item>
+        <item>com.xiaomi.mi_connect_service</item>
+        <item>com.xiaomi.mirror</item>
+        <item>com.miui.voicetrigger</item>
+        <item>com.skype.rover</item>
+        <item>com.xiaomi.youpin</item>
+        <item>com.xiaomi.bluetooth</item>
+        <item>com.miui.tsmclient</item>
+        <item>com.blackshark.bsamagent</item>
+        <item>com.blackshark.discovery</item>
+        <item>com.blackshark.market</item>
+        <item>com.blackshark.flutter_toolbox</item>
+        <item>com.ume.browser.hs</item>
+        <item>com.blackshark.aftersaleservice</item>
+        <item>com.blackshark.ota</item>
+        <item>com.blackshark.msgtransfer</item>
+        <item>com.tencent.southpole.appstore</item>
+        <item>com.blackshark.gamedock</item>
+        <item>com.zeusis.HydraService</item>
+        <item>com.blackshark.HydraAlpha</item>
+        <item>com.blackshark.shoulderkey</item>
+        <item>com.blackshark.performancemaster</item>
+        <item>com.xiaomi.aiasst.service</item>
+        <item>com.miui.audiomonitor</item>
+        <item>com.android.emailhd</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.xiaomi.simactivate.service</item>
+        <item>com.xiaomi.midrop</item>
+        <item>com.android.providers.settings</item>
+        <item>com.xiaomi.finddevice</item>
+        <item>com.miui.backup.transfer</item>
+        <item>com.miui.cloudbackup</item>
+        <item>com.miui.screenrecorder</item>
+        <item>com.android.fileexplorer</item>
+        <item>com.xiaomi.mitv.smartshare</item>
+        <item>com.miui.gallery</item>
+        <item>com.miui.freeform</item>
+        <item>com.tencent.wework</item>
+        <item>com.sankuai.xmpp</item>
+        <item>com.yiqixie.kem</item>
+        <item>com.blackshark.performancemaster</item>
+        <item>com.blackshark.bsperipheral</item>
+        <item>com.blackshark.push</item>
+        <item>com.piggylab.toybox</item>
+        <item>com.piggylab.holdon</item>
+        <item>com.miui.bugreport</item>
+        <item>com.android.systemui</item>
+    </string-array>
     <array name="locale_carrier_names" />
     <string-array name="lockscreen_num_pad_klondike">
         <item>+</item>
