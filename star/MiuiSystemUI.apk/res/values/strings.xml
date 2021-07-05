@@ -839,9 +839,9 @@ If you resume, charges may apply for data usage."</string>
     <string name="development_settings_not_available">"Developer options aren't available for this user"</string>
     <string name="development_settings_summary">Set options for app development</string>
     <string name="development_settings_title">Developer options</string>
-    <string name="device_locked_without_biometric">Biometric detection cannot be performed due to the use of three-party one-key screen lock function</string>
-    <string name="device_locked_without_biometric_face">Biometric detection cannot be performed due to the use of three-party one-key screen lock function</string>
-    <string name="device_locked_without_biometric_finger">Biometric detection cannot be performed due to the use of three-party one-key screen lock function</string>
+    <string name="device_locked_without_biometric">"Can't unlock this device with fingerprints or face data when you're using a third party screen lock"</string>
+    <string name="device_locked_without_biometric_face">"Can't unlock this device with face data when you're using a third party screen lock"</string>
+    <string name="device_locked_without_biometric_finger">"Can't unlock this device with fingerprints when you're using a third party screen lock"</string>
     <string name="device_services">Device Services</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app won't start until you unlock your device."</string>
@@ -945,18 +945,24 @@ If you resume, charges may apply for data usage."</string>
     <string name="fingerprint_add_text">The fingerprint interface was updated. Add your fingerprint again.</string>
     <string name="fingerprint_add_title">Add fingerprint</string>
     <string name="fingerprint_again_identified_msg">Your fingerprint is active now. Use it to unlock the device, or enter password.</string>
-    <string name="fingerprint_again_identified_msg_password">The fingerprint function has been restored Can use fingerprint or complex password to unlock</string>
-    <string name="fingerprint_again_identified_msg_pattern">The fingerprint function has been restored can be unlocked with fingerprint or graphic password</string>
-    <string name="fingerprint_again_identified_msg_pin">The fingerprint function has been restored can be unlocked with fingerprint or digital password</string>
+    <string name="fingerprint_again_identified_msg_password">"Your fingerprint is active now.
+Use it to unlock the device, or enter your password."</string>
+    <string name="fingerprint_again_identified_msg_pattern">"Your fingerprint is active now.
+Use it to unlock the device, or draw your pattern."</string>
+    <string name="fingerprint_again_identified_msg_pin">"Your fingerprint is active now.
+Use it to unlock the device, or enter your PIN."</string>
     <string name="fingerprint_dialog_touch_sensor">Touch the fingerprint sensor</string>
     <string name="fingerprint_enter_second_psw_msg">Enter Second space password after rebooting device to be able to use fingerprint recognition</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">"Can't enter Second space while in Lite mode"</string>
     <string name="fingerprint_enter_second_psw_title">Enter Second space password</string>
     <string name="fingerprint_not_identified_msg">Too many unsuccessful attempts. Enter password now or try using your fingerprint in a few seconds.</string>
     <string name="fingerprint_not_identified_msg_lock">Too many unsuccessful attempts. Enter password now.</string>
-    <string name="fingerprint_not_identified_msg_password">Fingerprint verification failed the maximum number of times, Please try again later or use a complex password to unlock</string>
-    <string name="fingerprint_not_identified_msg_pattern">Please fail fingerprint verification up to the maximum number of times, please try again later or use graphic password to perform</string>
-    <string name="fingerprint_not_identified_msg_pin">Fingerprint verification has failed the maximum number of times. Please try again later or use a digital password to unlock</string>
+    <string name="fingerprint_not_identified_msg_password">"Too many unsuccessful attempts.
+Enter your password to unlock."</string>
+    <string name="fingerprint_not_identified_msg_pattern">"Too many unsuccessful attempts.
+Draw your pattern to unlock."</string>
+    <string name="fingerprint_not_identified_msg_pin">"Too many unsuccessful attempts.
+Enter your PIN to unlock."</string>
     <string name="fingerprint_not_identified_title">Enter password</string>
     <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
     <string name="fingerprint_try_again_text">Try again</string>
@@ -1280,6 +1286,7 @@ only"</string>
     <string name="keyguard_indication_trust_unlocked_plugged_in">"%1$s
 %2$s"</string>
     <string name="keyguard_instructions_when_pattern_disabled">Press Menu to unlock.</string>
+    <string name="keyguard_invalid_sim_puk_hint">PUK code must contain %1$d digits.</string>
     <string name="keyguard_left_mi_wallet">Mi Wallet</string>
     <string name="keyguard_left_remotecentral">Mi Remote</string>
     <string name="keyguard_left_smarthome">Mi Home</string>
