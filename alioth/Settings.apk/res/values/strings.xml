@@ -650,6 +650,7 @@ Change settings now?"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by">This app can access your accounts. Controlled by %1$s</string>
     <string name="app_settings_link">Additional settings in the app</string>
     <string name="app_switch_key">Recents</string>
+    <string name="app_uninstall_sounds_enable_title">Play sound when uninstalling apps</string>
     <string name="app_usage_cycle">Mobile data usage cycle</string>
     <string name="app_usage_preference">App usage preferences</string>
     <string name="app_version">Version</string>
@@ -2464,7 +2465,7 @@ This setting affects all users of this device."</string>
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
     <string name="delete_rule">Delete rules</string>
     <string name="delete_saved_network">Delete saved networks</string>
-    <string name="delete_sound_effect">\"Delete\" sound</string>
+    <string name="delete_sound_effect">Play sound when deleting items</string>
     <string name="deleted_apps">Deleted apps</string>
     <string name="deletion_helper_automatic_title">Automatic</string>
     <string name="deletion_helper_manual_title">Manual</string>
@@ -2885,6 +2886,11 @@ You can view generated logs in File Manager."</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary">Track all GNSS constellations and frequencies with no duty cycling</string>
     <string name="enable_gpu_debug_layers">Enable GPU debug layers</string>
     <string name="enable_gpu_debug_layers_summary">Allow loading GPU debug layers for debugging apps</string>
+    <string name="enable_local_backup">Turn on</string>
+    <string name="enable_local_backup_cancel">Cancel</string>
+    <string name="enable_local_backup_message">Turn this feature on to be able to save backups on this device and copy them to your computer or USB storage device. Turn on now?</string>
+    <string name="enable_local_backup_ok">OK</string>
+    <string name="enable_local_backup_title">Local backups</string>
     <string name="enable_mms_notification_channel_title">MMS message</string>
     <string name="enable_mms_notification_summary">Tap to allow MMS messaging on %1$s when mobile data is off</string>
     <string name="enable_mobile_data_when_opening_hotspot">Turn on mobile data connection too?</string>
@@ -3446,7 +3452,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="gadget_picker_title">Choose gadget</string>
     <string name="gadget_toggle_wifi">Updating Wi-Fi settings</string>
     <string name="gadget_wifi">Wi-Fi</string>
-    <string name="gallery_privacy_password_role_instruction">Your private photos will be stored here.</string>
+    <string name="gallery_privacy_password_role_instruction">To view the items you made private, swipe down in \"Albums\".</string>
     <string name="game_booster">Game;Games;Turbo;Gaming;Gaming mode</string>
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Game Controller</string>
@@ -3583,7 +3589,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="hardware_info">Model &amp; hardware</string>
     <string name="hardware_revision">Hardware version</string>
     <string name="hardware_version">Hardware version</string>
-    <string name="has_screenshot_sound">Screenshot sound</string>
+    <string name="has_screenshot_sound">Play sound when taking screenshots</string>
     <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
     <string name="hdcp_checking_title">HDCP checking</string>
     <string name="hdmi_3d_display_enable_summary">Support 3D games</string>
@@ -3975,10 +3981,10 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="join_two_unrelated_items">%1$s, %2$s</string>
     <string name="kddi_nfc_category_title">NFC/Osaifu-keitai</string>
     <string name="kddi_nfc_disabled_summary">Unavailable because NFC/Osaifu-keitai is turned off</string>
-    <string name="kddi_nfc_quick_toggle_summary">Enable NFC/Osaifu-keitai function</string>
+    <string name="kddi_nfc_quick_toggle_summary">Turn on NFC/Osaifu-keitai functionality</string>
     <string name="kddi_nfc_quick_toggle_title">NFC/Osaifu-keitai</string>
-    <string name="kddi_nfc_secure_settings_title">Lock while on lock screen</string>
-    <string name="kddi_nfc_secure_toggle_summary">Allow NFC/Osaifu-keitai function while the screen is unlocked</string>
+    <string name="kddi_nfc_secure_settings_title">Lock while on Lock screen</string>
+    <string name="kddi_nfc_secure_toggle_summary">Keep NFC/Osaifu-keitai on only when the device is unlocked</string>
     <string name="keep_legacy_fingerprint">Keep</string>
     <string name="keep_screen_on">"Don't lock screen"</string>
     <string name="keep_screen_on_summary">"Screen won't go to sleep while charging"</string>
@@ -4266,6 +4272,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="local_backup_section_summary_new">Back up accounts, app data, system settings, and more</string>
     <string name="local_backup_section_title">Local backups</string>
     <string name="local_backup_section_title_new">On this device</string>
+    <string name="local_backup_usestatus_title">Local backups are off</string>
     <string name="locale_default">Default</string>
     <string name="locale_not_translated">May not be available in some apps</string>
     <string name="locale_remove_menu">Remove</string>
@@ -4411,6 +4418,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="lock_settings_title">Device security</string>
     <string name="lock_settings_with_fingerprint">Lock screen &amp; password</string>
     <string name="lock_setup">Setup is complete.</string>
+    <string name="lock_sound_effect_enable_title">Play sound when locking device</string>
     <string name="lock_sounds_enable_title">Screen locking sounds</string>
     <string name="lockdown_settings_summary">Display power button option that turns off Smart Lock, biometric unlocking, and notifications on the lock screen</string>
     <string name="lockdown_settings_title">Show lockdown option</string>
@@ -4551,6 +4559,7 @@ as your First space PIN."</string>
     <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with the cloud.</string>
     <string name="login_account_dialog_title">Sign in with Mi Account</string>
     <string name="login_account_summary">Manage accounts, cloud services, payments, and more</string>
+    <string name="login_account_summary_temp">Manage accounts, cloud services, and more</string>
     <string name="login_action">Sign in</string>
     <string name="long_press_back_key">Long press the Back button</string>
     <string name="long_press_buttom_key">Long press Home on the Lock screen</string>
@@ -4769,6 +4778,7 @@ You can't reverse this action."</string>
     <string name="mi_transfer">Mi Mover</string>
     <string name="mi_upi_settings">Mi Pay Account</string>
     <string name="micloud_service_summary">Sync the list of apps, back up system settings and Home screen layout</string>
+    <string name="micloud_service_summary_temp">Sync photos, videos, contacts, and more</string>
     <string name="micloud_service_title">Xiaomi Cloud</string>
     <string name="middle_function_key">Central area</string>
     <string name="midnight">Night</string>
@@ -5321,6 +5331,8 @@ Select your operating system:"</string>
     <string name="nfc_disabled_summary">Unavailable because NFC is turned off</string>
     <string name="nfc_disclaimer_content">NFC exchanges data between this device and other nearby devices or targets, such as payment terminals, access readers, and interactive ads or tags.</string>
     <string name="nfc_disclaimer_title">Turn on NFC</string>
+    <string name="nfc_dnd_mode_summary">Respond to NFC tags with a limited amount of NDEF tags</string>
+    <string name="nfc_dnd_mode_title">NFC DND</string>
     <string name="nfc_how_it_works_content">Set up a payment app. Then just hold the back of your phone up to any terminal with the contactless symbol.</string>
     <string name="nfc_how_it_works_got_it">Got it</string>
     <string name="nfc_how_it_works_title">Paying at the terminal</string>
@@ -7454,6 +7466,7 @@ Double tap to open Recents."</string>
     <string name="sms_received_sound_dialog_title">Select sound for received messages</string>
     <string name="sms_received_sound_title">Message received</string>
     <string name="snooze_options_title">Allow notification snoozing</string>
+    <string name="softbank_apn_lock_toast">APN is locked. Cannot edit.</string>
     <string name="software_version">Software version</string>
     <string name="solar_term_autumn_begins">Autumn begins</string>
     <string name="solar_term_autumn_equinox">Autumn equinox</string>
@@ -7514,6 +7527,7 @@ For sharing your location with emergency contacts
 If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to turn off or not use Emergency SOS in such cases.
 Before using our services, read and agree to our %s."</string>
     <string name="sos_privacy_dialog_title">Terms and Conditions</string>
+    <string name="sos_privacy_policy">Privacy Policy</string>
     <string name="sound_assist_summary">Customize your sound settings</string>
     <string name="sound_assist_title">Sound assistant</string>
     <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
@@ -7860,6 +7874,17 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="style_and_wallpaper_settings_title">Styles &amp; wallpapers</string>
     <string name="style_suggestion_summary">Try different styles, wallpapers, and more</string>
     <string name="style_suggestion_title">Customize your phone</string>
+    <string name="stylus_ota_check_update">Check for updates</string>
+    <string name="stylus_ota_current_firmware_version">Firmware version</string>
+    <string name="stylus_ota_downloading_firmware">Downloading firmware</string>
+    <string name="stylus_ota_firmware_update">Update firmware</string>
+    <string name="stylus_ota_hardware_version">Hardware version</string>
+    <string name="stylus_ota_latest">Up to date</string>
+    <string name="stylus_ota_model">Model</string>
+    <string name="stylus_ota_new_version">Update</string>
+    <string name="stylus_ota_serial_number">Serial number</string>
+    <string name="stylus_ota_update">Update</string>
+    <string name="stylus_ota_updating">Updating</string>
     <string name="subscription_available">Available</string>
     <string name="sudFontSecondary">google-sans</string>
     <string name="sudFontSecondaryMedium">google-sans-medium</string>
@@ -7910,12 +7935,12 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="swipe_up_to_switch_apps_title">2-button navigation</string>
     <string name="switchNetworkToast">Connecting to mobile networks may generate additional fees</string>
     <string name="switch_access_service_on">Switch Access</string>
-    <string name="switch_bootup_sound">Boot audio</string>
+    <string name="switch_bootup_sound">Play audio at startup</string>
     <string name="switch_headset_anti_lost">Missing earphone alert</string>
     <string name="switch_headset_anti_lost_title">Missing earphone alert</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
-    <string name="switch_power_sound">Charging sound</string>
+    <string name="switch_power_sound">Play sound when charger is connected</string>
     <string name="switch_screen_button_order">Mirror buttons</string>
     <string name="switch_screen_button_order_desc">Mirror Back and Menu buttons</string>
     <string name="switch_select_to_speak_on">Select to Speak</string>
@@ -8328,6 +8353,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unlock_set_unlock_summary">Set a screen lock</string>
     <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings > Security.</string>
+    <string name="unlock_sound_effect_enable_title">Play sound when unlocking device</string>
     <string name="unlock_type_category_title">Recognition method</string>
     <string name="unlogin_account_summary">All Mi services. One Mi Account.</string>
     <string name="unlogin_account_title">Sign in to Mi Account</string>

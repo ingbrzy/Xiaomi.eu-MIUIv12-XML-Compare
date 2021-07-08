@@ -42,7 +42,7 @@
     <string name="app_name">CIT</string>
     <string name="audio_spk_cal_wait">Calibration, please...</string>
     <string name="audio_spk_def">Calibrate the speakers, please</string>
-    <string name="back_mic_check_record_tip">Recording, please say something to MIC at the back of the phone</string>
+    <string name="back_mic_check_record_tip">Recording, please say something to MIC at the back of the device</string>
     <string name="battery_authentic">Battery Authentic</string>
     <string name="battery_dual_connector">BatteryDualConnector</string>
     <string name="battery_id">Battery ID</string>
@@ -80,7 +80,7 @@ Charger test end, please plug out the charger"</string>
     <string name="cit_accdata_sensor_check_title">Accelerometer</string>
     <string name="cit_accdata_sensor_second_screen_check_title">Second Screen Accelerometer</string>
     <string name="cit_accelermeter_sensor_cali_title">Acceleration sensor calibration test</string>
-    <string name="cit_accelermeter_sensor_check_summary">"Move the device quickly in one direction. X，Y，Z coordinate values are displayed below. (when phone is in motion: X is represents left/right, y represents front/back, z represents up and down).
+    <string name="cit_accelermeter_sensor_check_summary">"Move the device quickly in one direction. X，Y，Z coordinate values are displayed below. (when device is in motion: X is represents left/right, y represents front/back, z represents up and down).
 Before you calibrate the device, place it on a flat surface."</string>
     <string name="cit_action_off">Off</string>
     <string name="cit_action_on">On</string>
@@ -97,7 +97,7 @@ Before you calibrate the device, place it on a flat surface."</string>
     <string name="cit_audio_lb_mainmic_to_earpiece_title">Main mic speaker feedback test</string>
     <string name="cit_audio_lb_summary_mainmic_to_earpiece">"Main microphone to receiver feedback test.
 
-Hold the phone as if you are making a call, speak to main microphone, you should hear voice from receiver"</string>
+Hold the device as if you are making a call, speak to main microphone, you should hear voice from receiver"</string>
     <string name="cit_audio_spk_cal_valueF0">F0:</string>
     <string name="cit_audio_spk_cal_valueRe">Re:</string>
     <string name="cit_audio_spk_cal_valueT">Temp:</string>
@@ -149,7 +149,7 @@ Hold the phone as if you are making a call, speak to main microphone, you should
 and reverse plug in the charger"</string>
     <string name="cit_charger_test_tips_electric">Current project needs to test charging current value greater than 1A</string>
     <string name="cit_charger_test_tips_hvdcp">Current project needs to test USB_HVDCP</string>
-    <string name="cit_charger_test_tips_pd">Current machine need to test USB_PD</string>
+    <string name="cit_charger_test_tips_pd">Current device need to test USB_PD</string>
     <string name="cit_charger_waiting_in">Connect charger</string>
     <string name="cit_charger_waiting_out">Disconnect charger now</string>
     <string name="cit_depth_camera_check_title">Depth camera</string>
@@ -238,7 +238,7 @@ Before test you have to insert the headset"</string>
     <string name="cit_lcdlight_brightness_min">MIN</string>
     <string name="cit_led_selected">Current selected：</string>
     <string name="cit_leds_check_title">Notification light (LED)</string>
-    <string name="cit_light_sensor_check_summary">DAC value should appear below,please test for light sensor(The machine that supports the rear DAC needs to test the rear DAC sensor at the same time, so that the value meets the range of 200 luxes.)</string>
+    <string name="cit_light_sensor_check_summary">DAC value should appear below,please test for light sensor</string>
     <string name="cit_light_sensor_check_title">Light sensor</string>
     <string name="cit_macro_camera_check_title">Macro camera</string>
     <string name="cit_magnetic_info_hint">Please rotate the device like 8 shape</string>
@@ -248,9 +248,9 @@ Before test you have to insert the headset"</string>
     <string name="cit_main_board_top_speaker_test_title">Top speaker test on Main Board</string>
     <string name="cit_main_camera_check_title">Rear camera</string>
     <string name="cit_nfc_check_enable_tip">Init NFC Test Environment</string>
-    <string name="cit_nfc_check_summary">"Please click the button to init NFC,and then put the card on the top of the back of the phone. 
+    <string name="cit_nfc_check_summary">"Please click the button to init NFC,and then put the card on the top of the back of the device. 
 Do not turn off the screen during the test"</string>
-    <string name="cit_nfc_check_tip">put the card on the top of the back of the phone</string>
+    <string name="cit_nfc_check_tip">put the card on the top of the back of the device</string>
     <string name="cit_nfc_check_title">NFC test</string>
     <string name="cit_no_sim_check_title">No Sim Card</string>
     <string name="cit_otg_not_supported">"This device doesn't support OTG testing"</string>
@@ -262,11 +262,11 @@ Do not turn off the screen during the test"</string>
     <string name="cit_power_check_title">Battery indicator</string>
     <string name="cit_pressure_sensor_check_summary">Value for pressure should appear below</string>
     <string name="cit_pressure_sensor_check_title">Pressure sensor</string>
-    <string name="cit_proximity_data_check_summary">"Infrared distance sensor: Cover the phone distance sensor with your hand, and then leave the distance sensor. 
- Ultrasonic distance sensor: Please simulate picking up the phone to answer the call 
+    <string name="cit_proximity_data_check_summary">"Infrared distance sensor: Cover the distance sensor with your hand, and then leave the distance sensor. 
+ Ultrasonic distance sensor: Please simulate the action of answering the device 
  If the lower test area shows a value of 0.0 when approaching, and a 5.0 value shows when it is far away, the test is successful, otherwise the test fails."</string>
     <string name="cit_proximity_sensor_cali_title">Proximity sensor calibration test</string>
-    <string name="cit_proximity_sensor_check_summary">"Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device.
+    <string name="cit_proximity_sensor_check_summary">"Cover the proximity sensor (located at the top of the device near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device.
 When calibrating, make sure there's nothing between the sensor and your hand (e.g. protective screen cover or gloves)."</string>
     <string name="cit_proximity_sensor_check_title">Proximity sensor</string>
     <string name="cit_rear_dual_camera_check_title">Bokeh camera</string>
@@ -490,7 +490,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
     <string name="cit_tool_modem_feature_config_default">current faeture config as default</string>
     <string name="cit_tool_modem_mbn">Change Modem Config</string>
     <string name="cit_tool_modem_mbn_config_load_and_active">MBN config loading and activing tool</string>
-    <string name="cit_tool_modem_mbn_opt_fail_notfiy">opt failed, pls reboot the phone to retry</string>
+    <string name="cit_tool_modem_mbn_opt_fail_notfiy">opt failed, pls reboot the device to retry</string>
     <string name="cit_tool_modem_offline_log">Open/Close Offline Log</string>
     <string name="cit_tool_modem_rf_ant_test">Modem rf ant Test Setting</string>
     <string name="cit_tool_modem_test_clr">set the default value of code</string>
@@ -510,7 +510,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
     <string name="cit_tool_nfc_test_title">NFC test tool</string>
     <string name="cit_tool_no_repeat">No repetition!</string>
     <string name="cit_tool_not_support">Not Supported</string>
-    <string name="cit_tool_opt_fail_info_notify">Opt failed, need to reboot the phone for Non online mode.</string>
+    <string name="cit_tool_opt_fail_info_notify">Opt failed, need to reboot the device for Non online mode.</string>
     <string name="cit_tool_opt_standby">option standby ...</string>
     <string name="cit_tool_prx_drx">PRx+DRx</string>
     <string name="cit_tool_prx_drx_select_mode">Select Mode:</string>
@@ -598,7 +598,7 @@ Please select the correct button according to different vibration conditions"</s
     <string name="cit_vice_touch_panel_test_summary">After the small screen display has been turned on and double-click to brighten the screen, you need to flip the screen and double-click the back small screen to light up the screen, and draw a cross on the small screen along the grid</string>
     <string name="cit_vice_touch_panel_test_tips">Please confirm that the small screen display and double-click to turn on the screen in the small screen on the back have been turned on, click</string>
     <string name="cit_vice_touch_panel_test_title">Vice Touch sensor</string>
-    <string name="cit_wifi_address_check_summary">Below is the address of the Wi-Fi network that the phone is currently connected to. Confirm that the info highlighted in green is correct.</string>
+    <string name="cit_wifi_address_check_summary">Below is the address of the Wi-Fi network that the device is currently connected to. Confirm that the info highlighted in green is correct.</string>
     <string name="cit_wifi_address_check_title">Wi-Fi Address</string>
     <string name="cit_wifi_address_error">"Couldn't get Wi-Fi address. Make sure that Wi-Fi is enabled."</string>
     <string name="cit_wifi_ap_scan_check_summary">Below is the Wi-Fi AP info of the devices in the area that were detected. Confirm that the info highlighted in green is correct.</string>
@@ -629,7 +629,7 @@ Base the test result click pass or fial button"</string>
 Test failed!"</string>
     <string name="fod_fingerprint_input_description">Fod fingerprint input test</string>
     <string name="fod_fingerprint_input_title">Fod fingerprint input test</string>
-    <string name="front_mic_check_record_tip">Recording, please say something to MIC at the front of the phone</string>
+    <string name="front_mic_check_record_tip">Recording, please say something to MIC at the front of the device</string>
     <string name="get_BLUETOOTH">BLUETOOTH</string>
     <string name="get_BLUETOOTHPAN">BLUETOOTHPAN</string>
     <string name="get_CABLE">CABLE</string>
@@ -652,7 +652,7 @@ Test failed!"</string>
     <string name="keyboard">KEY</string>
     <string name="keyboard_vibrator_test">Keyboard test</string>
     <string name="lcminfo">LCM information</string>
-    <string name="main_mic_check_record_tip">Recording, please say something to MIC at the main of the phone</string>
+    <string name="main_mic_check_record_tip">Recording, please say something to MIC at the main of the device</string>
     <string name="mic1_spk_loop">Mic speak Loop</string>
     <string name="mic_check_rm_headset_tip">First remove the headset and record the sound.</string>
     <string name="mic_tip">Please make a noise on the MIC. After you plug in the headset, listen to the headset for a sound</string>
@@ -709,16 +709,16 @@ Please plug out the charger and reverse plug in."</string>
     <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
     <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
     <string name="sar_sensor_collect_data">Start Collect Data</string>
-    <string name="sar_sensor_collect_test_summary">"Rotate the phone, put it to the fixture
+    <string name="sar_sensor_collect_test_summary">"Rotate the device, put it to the fixture
 Click the Start data acquisition button
-Control the fixture close and away from the phone"</string>
+Control the fixture close and away from the device"</string>
     <string name="sar_sensor_data_check_description">Sar Sensor Data Collect</string>
-    <string name="sar_sensor_test_err_angle">The phone is not placed at the right angle</string>
-    <string name="sar_sensor_test_next_step">Control baffle close to mobile phone</string>
+    <string name="sar_sensor_test_err_angle">The device is not placed at the right angle</string>
+    <string name="sar_sensor_test_next_step">Control baffle close to the device</string>
     <string name="sar_sensor_test_success">Sar Sensor test success</string>
-    <string name="sar_sensor_test_summary">"Rotate the phone, put it to the fixture
+    <string name="sar_sensor_test_summary">"Rotate the device, put it to the fixture
 Click the Start Calibrate button
-After calibrate success, control the fixture close and away from the phone"</string>
+After calibrate success, control the fixture close and away from the device"</string>
     <string name="sar_sensor_test_timeout">Sar Sensor test timeout</string>
     <string name="search_menu_title">Search</string>
     <string name="set_dsi_tips">Set DSI</string>
@@ -737,12 +737,12 @@ Please click the appropriate button according to the number you hear"</string>
     <string name="test_top_mic">Top MIC</string>
     <string name="test_top_speaker">top_speaker</string>
     <string name="testing">AutoTest Running...</string>
-    <string name="tips_not_placed_right_angle">Phone not placed right angle</string>
+    <string name="tips_not_placed_right_angle">The device not placed right angle</string>
     <string name="tips_show_current_angle">Show current angle</string>
     <string name="tips_show_current_sar_sensor_data">Show current sensor data</string>
     <string name="top_left_high_speaker">Left side top tweeter test</string>
     <string name="top_left_low_speaker">Left side top woofer test</string>
-    <string name="top_mic_check_record_tip">Recording, please say something to MIC at the top of the phone</string>
+    <string name="top_mic_check_record_tip">Recording, please say something to MIC at the top of the device</string>
     <string name="top_right_high_speaker">Right side top tweeter test</string>
     <string name="top_right_low_speaker">Right side top woofer test</string>
     <string name="touch_auto">Touch panel self test ongoing, please wait....</string>
