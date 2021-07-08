@@ -629,6 +629,7 @@ You will not lose any app data."</string>
     <string name="applock_no_account_login">"You aren't signed in to your Mi Account"</string>
     <string name="applock_not_add_account"><u>Not now</u></string>
     <string name="applock_not_login_account">"You aren't signed in"</string>
+    <string name="applock_numeric_pwd_type_line">Total number of digits in the password: %1$d. Entered digits: %2$d.</string>
     <string name="applock_operate_faceunlock_summary">Unlock apps by simply looking at the screen</string>
     <string name="applock_operate_faceunlock_title">Use face data</string>
     <string name="applock_operate_fingerprint_summary">App lock supports adding multiple fingerprints</string>
@@ -2964,7 +2965,10 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_main_sub_battery_text_day_hour">%1$sd %2$sh remaining</string>
     <string name="pc_main_sub_battery_text_hour_minute">%1$sh %2$sm remaining</string>
     <string name="pc_performance_mode_dialog_summary">Your device will be able to work for %s in Performance mode. Note that Performance mode increases power consumption and might lead to overheating.</string>
+    <string name="pc_performance_mode_dialog_summary2">Device performance will improve. This might increase power consumption and lead to overheating issues. Turn on anyway?</string>
     <string name="pc_performance_mode_dialog_title">Performance mode</string>
+    <string name="pc_performance_mode_noti_summary">Performance mode might increase power consumption and lead to overheating issues</string>
+    <string name="pc_performance_mode_noti_title">Improved device performance</string>
     <string name="pc_search_keywords_battery">Battery</string>
     <string name="pc_search_keywords_battery_save">Battery saver</string>
     <string name="pc_search_keywords_battery_use">Battery usage</string>
@@ -3368,6 +3372,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_wireless_update_notification_title">Wireless charging update</string>
     <string name="power_wireless_update_text">Up to date</string>
     <string name="power_wireless_update_tv_text">"Updating firmware… Don't turn off device."</string>
+    <string name="pp_anti_track_summary">"Don't allow tracking your activity"</string>
+    <string name="pp_antitrack_detail">Apps can track your activity through personal identifiers, location info, and other types of personal information shared with them. Tracking your activity in different apps and websites allows them to personalize ads and recommend relevant content to you.</string>
     <string name="pp_app_behavior_record_detail">Record all app behavior</string>
     <string name="pp_app_del_img_intercept_detail">Receive notifications when apps delete items from Gallery without your permission</string>
     <string name="pp_app_gets_dangerous_permission_reminder">Receive notifications when apps use high-risk permissions</string>
@@ -3379,6 +3385,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_app_reads_clipboard_smart_reminder_detail">"MIUI will decide whether apps are allowed to access your clipboard. When they do, you'll receive a notification."</string>
     <string name="pp_app_warning_permission_tips">Receive notifications about app behavior</string>
     <string name="pp_app_warning_permission_tips_detail">Receive notifications when apps access your location, record audio, or use camera</string>
+    <string name="pp_block_mac">Restrict access to MAC address</string>
+    <string name="pp_block_mac_summary">Access to your MAC address is restricted by default for all apps.</string>
     <string name="pp_call_phone_msg">Call history</string>
     <string name="pp_capability_approved_title">"Our privacy protection measures were tested and certified by the industry's leading experts."</string>
     <string name="pp_chain_start_is_prohibited">Restrict chain start</string>
@@ -3395,14 +3403,19 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_hide_app_form_desktop">Remove app icons from the Home screen</string>
     <string name="pp_icon_layout_status_bg_content_enable">Protected</string>
     <string name="pp_icon_layout_status_bg_content_unable">Off</string>
+    <string name="pp_identifier_protection">Protect personal identifiers</string>
     <string name="pp_interception_net_visit_content_manager">Protect Gallery and files social media apps</string>
     <string name="pp_interception_net_visit_content_manager_detail">Select which apps are allowed to access Gallery and the files from your social media apps</string>
     <string name="pp_local_msg">Location info</string>
     <string name="pp_manage_apps_location_information">Allow apps to access your location</string>
+    <string name="pp_manage_track">Monitor trackers</string>
+    <string name="pp_manage_track_summary">Detect and disable various types of trackers embedded in apps. Such trackers might share your personal identifiers by accessing and saving items to internal storage or use shared SDKs for tracking your activity.</string>
     <string name="pp_one_app_two_use">Use two accounts without signing out</string>
     <string name="pp_one_phone_two_space">Use one device as two</string>
     <string name="pp_only_allow_permission_during_this_run">Allow apps to use permissions once</string>
     <string name="pp_only_allow_permission_during_this_run_detail">You can allow to use the permissions related to location, recording audio, and contacts only once. These permissions will be restricted again shortly after the app is closed.</string>
+    <string name="pp_operator_get_number">Require approval for accessing phone number</string>
+    <string name="pp_operator_get_number_summary">Apps will ask for your permission when they want to access your phone number for signing in.</string>
     <string name="pp_optional_protection_function">Optional protection measures</string>
     <string name="pp_permission_action_virtual_detail">Grant permissions but give apps blank files instead of personal info</string>
     <string name="pp_permission_settings">Permissions</string>
@@ -3411,6 +3424,10 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_privacy_lab_blur_location_summary">Depersonalize your location info allowing apps to access your approximate location</string>
     <string name="pp_privacy_lab_clipboard">Protect clipboard</string>
     <string name="pp_privacy_lab_clipboard_summary">Allow MIUI to decide whether an app can access the clipboard and receive notifications when it does</string>
+    <string name="pp_privacy_lab_operator_get_number">Require approval for accessing phone number</string>
+    <string name="pp_privacy_lab_operator_get_number_summary">Require apps to ask for your permission when they want to access your phone number for signing in</string>
+    <string name="pp_privacy_lab_operator_introduction">Attention</string>
+    <string name="pp_privacy_lab_operator_introduction_summary">"Apps may store your phone number if it has been obtained before. Changing this permission won't delete the phone numbers obtained previously."</string>
     <string name="pp_privacy_protection">Protection</string>
     <string name="pp_privacy_protection_function">Privacy protection features</string>
     <string name="pp_privacy_protection_lab">Privacy protection lab</string>
@@ -3438,6 +3455,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_storage_msg">Storage</string>
     <string name="pp_understanding_privacy">Awareness</string>
     <string name="pp_virtual_identity_manager">Virtual ID</string>
+    <string name="pp_virtual_identity_summary">A virtual ID (OAID) can be provided to apps instead of your real identifier. It protects your privacy and allows you to control how apps track your behavior.</string>
     <string name="pref_about_traffic_title">Data usage settings</string>
     <string name="pref_adjust_data_usage">Carrier message template</string>
     <string name="pref_adjust_data_usage_summary">After you changed the calibration template, MIUI will use it to get data usage stats from your carrier</string>
@@ -3757,7 +3775,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="privacy_search_key_5">Special permissions</string>
     <string name="privacy_search_key_6">Permissions notifications</string>
     <string name="privacy_search_key_7">Location info</string>
-    <string name="privacy_search_key_8">Privacy mask</string>
+    <string name="privacy_search_key_8">Do not track</string>
     <string name="privacy_search_key_9">Virtual ID</string>
     <string name="privacy_show_other_permissions">Show other permissions</string>
     <string name="privacy_show_password">Show passwords</string>
