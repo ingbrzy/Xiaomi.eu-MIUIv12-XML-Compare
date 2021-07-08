@@ -466,6 +466,7 @@
         <item>-44</item>
     </integer-array>
     <string-array name="config_allowFloatPackages">
+        <item>com.android.nfc</item>
         <item>com.android.emailhd</item>
         <item>com.kddi.cs.app001</item>
         <item>com.kddi.android.smartpass</item>
@@ -740,6 +741,7 @@
         <item>400</item>
     </integer-array>
     <string-array name="config_canCustomNotificationAppIcon">
+        <item>com.android.nfc</item>
         <item>com.xiaomi.bluetooth</item>
         <item>com.miui.securitycenter</item>
         <item>com.miui.bugreport</item>
@@ -759,6 +761,7 @@
         <item>android</item>
     </string-array>
     <string-array name="config_canShowBadgePackages">
+        <item>com.android.nfc</item>
         <item>com.android.emailhd</item>
         <item>com.kddi.cs.app001</item>
         <item>com.kddi.android.smartpass</item>
@@ -1170,16 +1173,18 @@
         <item>com.netease.mobimail</item>
     </string-array>
     <string-array name="keep_screen_on_when_large_area_touch">
-        <item>com.google.android.dialer</item>
         <item>com.android.incallui</item>
         <item>com.tencent.mobileqq</item>
         <item>com.tencent.qqlite</item>
         <item>com.tencent.mm</item>
         <item>com.android.deskclock</item>
         <item>com.google.android.dialer</item>
+        <item>com.whatsapp</item>
+        <item>com.skype.raider</item>
     </string-array>
     <array name="kg_wrong_puk_code_message_list" />
     <string-array name="local_white_list">
+        <item>com.android.nfc</item>
         <item>com.google.android.talk</item>
         <item>com.tencent.mm</item>
         <item>com.tencent.qq</item>
