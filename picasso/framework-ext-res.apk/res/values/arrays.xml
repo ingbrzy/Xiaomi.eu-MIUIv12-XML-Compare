@@ -1839,6 +1839,9 @@
         <item>com.google.android.inputmethod.latin</item>
         <item>com.google.android.googlequicksearchbox:search</item>
         <item>com.google.android.gms.persistent</item>
+        <item>com.tencent.android.qqdownloader</item>
+        <item>com.tencent.android.qqdownloader:cloud</item>
+        <item>com.tencent.android.qqdownloader:daemon</item>
     </string-array>
     <string-array name="process_disable_force_stop_list">
         <item>com.miui.securitycore</item>
@@ -1852,6 +1855,90 @@
     </string-array>
     <string-array name="process_display_size_black_list">
         <item>com.xiaomi.smarthome</item>
+    </string-array>
+    <string-array name="process_display_size_protect_list">
+        <item>com.android.settings:remote</item>
+        <item>com.android.providers.calendar</item>
+        <item>com.android.vending:download_service</item>
+        <item>com.qualcomm.telephony</item>
+        <item>com.xiaomi.mi_connect_service</item>
+        <item>com.qualcomm.qti.autoregistration</item>
+        <item>com.android.externalstorage</item>
+        <item>com.android.htmlviewer</item>
+        <item>com.qualcomm.qti.performancemode</item>
+        <item>com.google.android.configupdater</item>
+        <item>com.android.vending</item>
+        <item>com.miui.micloudsync</item>
+        <item>com.xiaomi.simactivate.service</item>
+        <item>com.mfashiongallery.emag</item>
+        <item>com.miui.sysopt</item>
+        <item>com.xiaomi.finddevice:securitypush</item>
+        <item>com.google.android.gms.unstable</item>
+        <item>com.miui.securitycore.remote</item>
+        <item>com.xiaomi.market:guard</item>
+        <item>com.google.android.syncadapters.contacts</item>
+        <item>com.xiaomi.oobhelper</item>
+        <item>com.miui.cloudservice</item>
+        <item>com.qualcomm.qti.smq</item>
+        <item>com.modemdebug</item>
+        <item>com.qti.diagservices</item>
+        <item>com.qualcomm.qti.poweroffalarm</item>
+        <item>com.qti.ltebc</item>
+        <item>android.process.acore</item>
+        <item>com.android.permissioncontroller</item>
+        <item>android.process.media</item>
+        <item>com.lbe.security.miui</item>
+        <item>com.google.process.gapps</item>
+        <item>com.miui.core</item>
+        <item>com.miui.virtualsim:authentication</item>
+        <item>com.miui.touchassistant:float</item>
+        <item>com.miui.securitycenter.remote</item>
+        <item>com.miui.greenguard</item>
+        <item>android</item>
+        <item>com.xiaomi.joyose</item>
+        <item>com.miui.bugreport</item>
+        <item>com.android.bluetooth</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.xiaomi.xmsf</item>
+        <item>com.google.android.marvin.talkback</item>
+        <item>org.simalliance.openmobileapi.service</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.qualcomm.qcrilmsgtunnel</item>
+        <item>com.qualcomm.uimremoteclient</item>
+        <item>com.android.vpndialogs</item>
+        <item>com.qti.service.colorservice</item>
+        <item>com.qti.snapdragon.sdk.display</item>
+        <item>com.xiaomi.bluetooth</item>
+        <item>com.xiaomi.metoknlp</item>
+        <item>com.android.updater</item>
+        <item>com.xiaomi.location.fused</item>
+        <item>android.process.acore</item>
+        <item>com.miui.wmsvc</item>
+        <item>com.xiaomi.mimobile.cloudsim</item>
+        <item>com.miui.tsmclient</item>
+        <item>com.magiear.handsfree.assistant</item>
+        <item>com.xiaomi.mi_connect_service</item>
+        <item>com.miui.screenrecorder</item>
+        <item>com.miui.hybrid</item>
+        <item>com.qualcomm.qti.biometrics.fingerprint.service</item>
+        <item>com.google.android.gms.ui</item>
+        <item>com.miui.voiceassist:voice_trigger</item>
+        <item>com.qualcomm.qti.lpa</item>
+    </string-array>
+    <string-array name="process_fg_service_check_list">
+        <item>com.miui.screenrecorder</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.android.deskclock</item>
+        <item>com.miui.backup</item>
+        <item>com.miui.mishare.connectivity</item>
+        <item>com.miui.notes</item>
+        <item>com.milink.service</item>
+        <item>com.xiaomi.mirror</item>
+    </string-array>
+    <string-array name="process_light_speed_protect_list">
         <item>com.android.camera</item>
         <item>com.taobao.taobao</item>
         <item>com.tencent.mm</item>
@@ -1955,88 +2042,6 @@
         <item>com.taobao.trip</item>
         <item>com.immomo.momo</item>
     </string-array>
-    <string-array name="process_display_size_protect_list">
-        <item>com.android.settings:remote</item>
-        <item>com.android.providers.calendar</item>
-        <item>com.android.vending:download_service</item>
-        <item>com.qualcomm.telephony</item>
-        <item>com.xiaomi.mi_connect_service</item>
-        <item>com.qualcomm.qti.autoregistration</item>
-        <item>com.android.externalstorage</item>
-        <item>com.android.htmlviewer</item>
-        <item>com.qualcomm.qti.performancemode</item>
-        <item>com.google.android.configupdater</item>
-        <item>com.android.vending</item>
-        <item>com.miui.micloudsync</item>
-        <item>com.xiaomi.simactivate.service</item>
-        <item>com.mfashiongallery.emag</item>
-        <item>com.miui.sysopt</item>
-        <item>com.xiaomi.finddevice:securitypush</item>
-        <item>com.google.android.gms.unstable</item>
-        <item>com.miui.securitycore.remote</item>
-        <item>com.xiaomi.market:guard</item>
-        <item>com.google.android.syncadapters.contacts</item>
-        <item>com.xiaomi.oobhelper</item>
-        <item>com.miui.cloudservice</item>
-        <item>com.qualcomm.qti.smq</item>
-        <item>com.modemdebug</item>
-        <item>com.qti.diagservices</item>
-        <item>com.qualcomm.qti.poweroffalarm</item>
-        <item>com.qti.ltebc</item>
-        <item>android.process.acore</item>
-        <item>com.android.permissioncontroller</item>
-        <item>android.process.media</item>
-        <item>com.lbe.security.miui</item>
-        <item>com.google.process.gapps</item>
-        <item>com.miui.core</item>
-        <item>com.miui.virtualsim:authentication</item>
-        <item>com.miui.touchassistant:float</item>
-        <item>com.miui.securitycenter.remote</item>
-        <item>com.miui.greenguard</item>
-        <item>android</item>
-        <item>com.xiaomi.joyose</item>
-        <item>com.miui.bugreport</item>
-        <item>com.android.bluetooth</item>
-        <item>com.android.providers.contacts</item>
-        <item>com.android.providers.media</item>
-        <item>com.android.providers.downloads</item>
-        <item>com.xiaomi.xmsf</item>
-        <item>com.google.android.marvin.talkback</item>
-        <item>org.simalliance.openmobileapi.service</item>
-        <item>com.qualcomm.wfd.service</item>
-        <item>com.miui.powerkeeper</item>
-        <item>com.qualcomm.qcrilmsgtunnel</item>
-        <item>com.qualcomm.uimremoteclient</item>
-        <item>com.android.vpndialogs</item>
-        <item>com.qti.service.colorservice</item>
-        <item>com.qti.snapdragon.sdk.display</item>
-        <item>com.xiaomi.bluetooth</item>
-        <item>com.xiaomi.metoknlp</item>
-        <item>com.android.updater</item>
-        <item>com.xiaomi.location.fused</item>
-        <item>android.process.acore</item>
-        <item>com.miui.wmsvc</item>
-        <item>com.xiaomi.mimobile.cloudsim</item>
-        <item>com.miui.tsmclient</item>
-        <item>com.magiear.handsfree.assistant</item>
-        <item>com.xiaomi.mi_connect_service</item>
-        <item>com.miui.screenrecorder</item>
-        <item>com.miui.hybrid</item>
-        <item>com.qualcomm.qti.biometrics.fingerprint.service</item>
-        <item>com.google.android.gms.ui</item>
-        <item>com.miui.voiceassist:voice_trigger</item>
-        <item>com.qualcomm.qti.lpa</item>
-    </string-array>
-    <string-array name="process_fg_service_check_list">
-        <item>com.miui.screenrecorder</item>
-        <item>com.android.soundrecorder</item>
-        <item>com.android.deskclock</item>
-        <item>com.miui.backup</item>
-        <item>com.miui.mishare.connectivity</item>
-        <item>com.miui.notes</item>
-        <item>com.milink.service</item>
-        <item>com.xiaomi.mirror</item>
-    </string-array>
     <string-array name="process_secretly_protect_list">
         <item>com.tencent.mm</item>
         <item>com.google.android.gms</item>
@@ -2066,6 +2071,24 @@
         <item>com.netease.cloudmusic/.activity.LockScreenActivity</item>
         <item>com.ximalaya.ting.android/.host.activity.LockScreenActivity</item>
         <item>com.miui.todo.feature.remind.TodoAlarmAlertActivity</item>
+    </string-array>
+    <string-array name="tmpfs_pkg_list">
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.hxh</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.netease.hyxd.mi</item>
+        <item>com.netease.onmyoji.mi</item>
+        <item>com.netease.mc.mi</item>
+        <item>com.netease.mrzh.mi</item>
+        <item>com.aligames.kuang.kybc.mi</item>
+        <item>com.imangi.templerun2</item>
+        <item>com.jingdong.app.mall</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.taobao.taobao</item>
+        <item>com.outfit7.talkingtomgoldrun.mi</item>
+        <item>com.happyelements.AndroidAnimal</item>
     </string-array>
     <integer-array name="vibration_recorder_major_action">
         <item>0</item>
