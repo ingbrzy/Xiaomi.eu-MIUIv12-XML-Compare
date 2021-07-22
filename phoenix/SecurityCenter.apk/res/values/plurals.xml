@@ -810,6 +810,18 @@ You can get a %d-day free trial now!"</item>
         <item quantity="other">Deleted %d viruses</item>
         <item quantity="one">Deleted %d virus</item>
     </plurals>
+    <plurals name="sim_lock_puk_dialog_message">
+        <item quantity="other">You have only %d attempt left to verify your SIM PUK. If you reach the limit for entering incorrect PUKs, your SIM card will be canceled. Continue anyway?</item>
+        <item quantity="one">You have only %d attempt left to verify your SIM PUK. If you reach the limit for entering incorrect PUKs, your SIM card will be canceled. Continue anyway?</item>
+    </plurals>
+    <plurals name="simlock_set_pin_error">
+        <item quantity="other">The PIN you entered is incorrect. %d attempts left.</item>
+        <item quantity="one">The PIN you entered is incorrect. %d attempt left.</item>
+    </plurals>
+    <plurals name="simlock_set_puk_error">
+        <item quantity="other">Enter SIM PUK. %d attempts left.</item>
+        <item quantity="one">Enter SIM PUK. %d attempt left.</item>
+    </plurals>
     <plurals name="sp_monitored_apps_count">
         <item quantity="other">%s payment apps are protected</item>
         <item quantity="one">%s payment app is protected</item>
