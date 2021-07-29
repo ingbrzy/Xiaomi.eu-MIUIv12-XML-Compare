@@ -355,8 +355,8 @@ You can get a %d-day free trial now!"</item>
         <item quantity="one">%d app found</item>
     </plurals>
     <plurals name="hints_scan_danger_result_with_number">
-        <item quantity="other">%d risks found, fix now</item>
-        <item quantity="one">%d risk found, fix now</item>
+        <item quantity="other">%d risks detected</item>
+        <item quantity="one">%d risk detected</item>
     </plurals>
     <plurals name="hints_traffic_disable_title">
         <item quantity="other">Tracking data usage for %d apps</item>
@@ -795,8 +795,8 @@ You can get a %d-day free trial now!"</item>
         <item quantity="one">Found %d unofficial app</item>
     </plurals>
     <plurals name="result_virus_header">
-        <item quantity="other">Found %d viruses and insecure apps</item>
-        <item quantity="one">Found %d virus app</item>
+        <item quantity="other">%d malicious apps detected</item>
+        <item quantity="one">%d malicious app detected</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
         <item quantity="other">Search %d apps</item>
@@ -895,6 +895,10 @@ Take a break!"</item>
     <plurals name="view_num">
         <item quantity="other">%1$d views</item>
         <item quantity="one">%1$d view</item>
+    </plurals>
+    <plurals name="virus_clear_dialog_content">
+        <item quantity="other">Clear %d selected apps?</item>
+        <item quantity="one">Clear %d selected app?</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Dangerous apps: %d</item>
