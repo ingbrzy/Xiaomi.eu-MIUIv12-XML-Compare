@@ -102,6 +102,7 @@
     <string name="chinese_symbol_animals_snake">蛇</string>
     <string name="chinese_symbol_animals_tiger">虎</string>
     <string name="clearable_edittext_clear_description">Clear</string>
+    <string name="clipboard_tip">Copied from %1$s</string>
     <string name="close">Close</string>
     <string name="confirm_device_credential_password">Use password</string>
     <string name="copy">Copy</string>
@@ -139,8 +140,8 @@
     <string name="earthly_branches_zi">子</string>
     <string name="empty" />
     <string name="enable_wifi_alert_cancel">Cancel</string>
-    <string name="enable_wifi_alert_message">MIUI+ Beta connects devices using Wi-Fi. Turn on Wi-Fi now?</string>
-    <string name="enable_wifi_alert_message_china">MIUI+ Beta connects devices using Wi-Fi. Turn on Wi-Fi now?</string>
+    <string name="enable_wifi_alert_message">MIUI+ connects devices using Wi-Fi. Turn on Wi-Fi now?</string>
+    <string name="enable_wifi_alert_message_china">MIUI+ connects devices using Wi-Fi. Turn on Wi-Fi now?</string>
     <string name="enable_wifi_alert_ok">Turn on</string>
     <string name="enable_wifi_alert_title">Turn on Wi-Fi</string>
     <string name="enable_wifi_alert_title_china">Turn on Wi-Fi</string>
@@ -210,6 +211,7 @@
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
+    <string name="fullscreen_sink_activity_label">My phone</string>
     <string name="generic_error_no_device_credential">No PIN, pattern, or password set.</string>
     <string name="generic_error_no_keyguard">This device does not support PIN, pattern, or password.</string>
     <string name="generic_error_user_canceled">Authentication canceled by user.</string>
@@ -301,6 +303,7 @@
     <string name="notify_connected_title">Connected to %1$s</string>
     <string name="ok">OK</string>
     <string name="open_folder">Show</string>
+    <string name="permission_access_nearby_device">访问附近设备</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="privacy_all_purpose">Welcome to MIUI+ Beta! You can use this app to connect your phone to a computer and combine two devices into one working station.</string>
@@ -324,6 +327,7 @@
     <string name="send">Send</string>
     <string name="settings_connect">How to connect</string>
     <string name="settings_connect_more_help"><u>Help</u></string>
+    <string name="settings_connect_pc_group">Work with your computer</string>
     <string name="settings_connect_summary1">Download and install MIUI+ Beta on your computer: https://plus.miui.com.</string>
     <string name="settings_connect_summary2">Scan the QR code on the computer screen with your mobile device. You can use multiple system apps (e.g. Scanner, Camera, Mi Browser) to do that.</string>
     <string name="settings_connect_title1">Step 1</string>
@@ -338,6 +342,7 @@
     <string name="settings_feature_characteristics_title_3">Connect automatically</string>
     <string name="settings_feature_dnd_summary">Silence notifications when your device is connected to a computer</string>
     <string name="settings_feature_dnd_title">DND</string>
+    <string name="settings_feature_intro">About this feature</string>
     <string name="settings_feature_keep_screen_summary">Keep your device unlocked to prevent unexpected disconnections</string>
     <string name="settings_feature_keep_screen_title">"Don't lock screen"</string>
     <string name="settings_history">Connection history</string>
@@ -350,12 +355,15 @@
     <string name="settings_home">MIUI+ Beta</string>
     <string name="settings_home_device_disconnect">Disconnect</string>
     <string name="settings_home_device_group">Connected device</string>
-    <string name="settings_home_sub_title">Combine your phone and comuter into one working station</string>
-    <string name="settings_home_tips">"Screen Combo places a copy of your phone's screen on a connected computer, allowing you to transfer files and interact with your mobile device there."</string>
+    <string name="settings_how_use">Using handoff</string>
     <string name="settings_log_options">Logs</string>
     <string name="settings_more_help">Help</string>
+    <string name="settings_pc_history_title">Connection history</string>
+    <string name="settings_pc_trusted_title">Connect automatically</string>
+    <string name="settings_pc_use_tile">About this feature</string>
     <string name="settings_privacy_policy">Privacy Policy</string>
     <string name="settings_scanner_button">Scanner</string>
+    <string name="settings_scanner_summary">Connect to MIUI+ using a QR code</string>
     <string name="settings_trusted">Connect automatically</string>
     <string name="settings_trusted_delete">Remove</string>
     <string name="settings_trusted_delete_dialog_msg">"You won't be able to connect to this device automatically after you remove it from the list."</string>
@@ -363,6 +371,7 @@
     <string name="settings_trusted_device_group">Devices that connect automatically</string>
     <string name="settings_trusted_device_none">No devices here</string>
     <string name="settings_trusted_tips">Connect to selected nearby devices automatically when Bluetooth and Wi-Fi are on</string>
+    <string name="settings_trusted_tips_china">Connect to selected nearby devices automatically when Bluetooth and Wi-Fi are on</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -370,6 +379,10 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="softap_notification_action">Connect</string>
+    <string name="softap_notification_message">No Wi-Fi networks available. Connect to this hotspot?</string>
+    <string name="softap_notification_message_china">No Wi-Fi networks available. Connect to this hotspot?</string>
+    <string name="softap_notification_title">"Connect to %1$s's hotspot"</string>
     <string name="solar_term_autumn_begins">Autumn begins</string>
     <string name="solar_term_autumn_equinox">Autumn equinox</string>
     <string name="solar_term_clear_and_bright">Clear and bright</string>
