@@ -276,6 +276,10 @@
         <item quantity="other">Total %1$d items</item>
         <item quantity="one">Total %1$d item</item>
     </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Rotate %d degrees</item>
+        <item quantity="one">Rotate %d degree</item>
+    </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d days</item>
         <item quantity="one">%d day</item>
@@ -472,13 +476,33 @@
         <item quantity="other">Optimized %d photos</item>
         <item quantity="one">Optimized %d photo</item>
     </plurals>
+    <plurals name="slim_complete_photo_count_v2">
+        <item quantity="other">Optimized %d photos</item>
+        <item quantity="one">Optimized %d photo</item>
+    </plurals>
+    <plurals name="slim_complete_video_count">
+        <item quantity="other">Optimized %d videos</item>
+        <item quantity="one">Optimized %d video</item>
+    </plurals>
     <plurals name="slim_exit_dialog_message">
         <item quantity="other">"%d photos haven't been optimized. Stop now?"</item>
         <item quantity="one">"%d photo hasn't been optimized. Stop now?"</item>
     </plurals>
+    <plurals name="slim_photo_count">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">%d photo</item>
+    </plurals>
     <plurals name="slim_remain_photo_count">
         <item quantity="other">%d photos left</item>
         <item quantity="one">%d photo left</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count_v2">
+        <item quantity="other">%d items left to optimize</item>
+        <item quantity="one">%d item left to optimize</item>
+    </plurals>
+    <plurals name="slim_videos_count">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">"Haven't backed up %d photos and videos"</item>
@@ -502,6 +526,10 @@
     <plurals name="synced_videos_count">
         <item quantity="other">Synced %d videos</item>
         <item quantity="one">Synced %d video</item>
+    </plurals>
+    <plurals name="talkback_album_item_content">
+        <item quantity="other">%1$s, %2$s items</item>
+        <item quantity="one">%1$s, %2$s item</item>
     </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">"You won't be able to restore %d selected items if you delete them. Delete anyway?"</item>
