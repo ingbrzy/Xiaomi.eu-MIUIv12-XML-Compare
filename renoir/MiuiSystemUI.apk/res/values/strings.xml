@@ -966,8 +966,6 @@ Enter your PIN to unlock."</string>
     <string name="fingerprint_not_identified_title">Enter password</string>
     <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
     <string name="fingerprint_try_again_text">Try again</string>
-    <string name="fiveg_sa_switch_summary">Use SA network on secondary SIM (only for testing)</string>
-    <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
     <string name="float_notification_snooze_strategy">Hide floating notifications temporarily</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -1243,6 +1241,7 @@ only"</string>
     <string name="keyguard_charged">Charged</string>
     <string name="keyguard_charging_back_to_lockscreen">Back to Lock screen</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
+    <string name="keyguard_charging_double_fast_and_level_tip">Boosting charging speed %s</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Today %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Yesterday %s</string>
@@ -1522,7 +1521,7 @@ MMMM d"</string>
     <string name="mobile_data">Mobile data</string>
     <string name="mobile_data_always_on">Always keep mobile data on</string>
     <string name="mobile_data_always_on_summary">Always keep mobile data active, even when Wi-Fi is active (for fast network switching).</string>
-    <string name="mobile_data_disable_message">You won’t have access to data or the internet through %s. Internet will only be available via Wi-Fi.</string>
+    <string name="mobile_data_disable_message">"You won't have access to data or the internet through %s. Internet will only be available via Wi-Fi."</string>
     <string name="mobile_data_disable_message_default_carrier">your carrier</string>
     <string name="mobile_data_disable_title">Turn off mobile data?</string>
     <string name="mobile_data_text_format">%1$s — %2$s</string>
