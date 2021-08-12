@@ -822,6 +822,11 @@ You will not lose any app data."</string>
     <string name="battery_status_unknown">Unknown error</string>
     <string name="battery_temperature_title">Temperature</string>
     <string name="begin_date">Usage reset date</string>
+    <string name="behavior_widget_get_installed_apps">Accessed apps</string>
+    <string name="behavior_widget_get_location">Accessed location</string>
+    <string name="behavior_widget_read_clipboard">Accessed clipboard</string>
+    <string name="behavior_widget_read_contact">Accessed contacts</string>
+    <string name="behavior_widget_read_write_external_storage">Accessed files</string>
     <string name="best_booster_status">Gaming speed is the best available now.</string>
     <string name="best_warning_dialog_button">我知道了</string>
     <string name="best_warning_dialog_message">"温馨提示：使用小米红包助手后，会提升您抢红包的速度。但如果您手太快，姿势太迅猛，每次都率先抢到红包，&lt;font color='#e56255'>有一定几率会被微信误认为使用了自动抢红包插件&lt;/font>，影响您后面使用红包功能。所以，有时候，高抬贵手略控制节奏，抢红包风味更佳。红包虽好，可不要贪多哟～"</string>
@@ -1837,7 +1842,7 @@ volunteer"</string>
     <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of Game Turbo?</string>
     <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
     <string name="gamebox_app_not_find">Install the app first.</string>
-    <string name="gamebox_brightness">亮度</string>
+    <string name="gamebox_brightness">Brightness</string>
     <string name="gamebox_browser_not_find">Install Mi Browser first</string>
     <string name="gamebox_collimator">Sight</string>
     <string name="gamebox_display_1">None</string>
@@ -1863,13 +1868,13 @@ volunteer"</string>
     <string name="gamebox_immerson_open">"Turning on Immersive mode, don't switch networks…"</string>
     <string name="gamebox_macro">Combos</string>
     <string name="gamebox_manual_record">Record</string>
-    <string name="gamebox_mem_clean">内存清理</string>
+    <string name="gamebox_mem_clean">Clear memory</string>
     <string name="gamebox_milink">Cast</string>
     <string name="gamebox_positive_button_text">OK (%1$ds)</string>
     <string name="gamebox_qq_not_find">Install QQ and try again.</string>
     <string name="gamebox_recent_task_expand_fail">"Apps that work with shortcuts aren't installed"</string>
-    <string name="gamebox_screenrecord">录屏</string>
-    <string name="gamebox_screenshot">截屏</string>
+    <string name="gamebox_screenrecord">Record</string>
+    <string name="gamebox_screenshot">Screenshot</string>
     <string name="gamebox_simcard">Switch SIM cards</string>
     <string name="gamebox_time">Timer</string>
     <string name="gamebox_type_close">"Don't show"</string>
@@ -1995,11 +2000,11 @@ Record sequences and use them anytime!"</string>
     <string name="gb_ngtb_gpu">GPU</string>
     <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
     <string name="gb_operat_frequently">Not so fast!</string>
-    <string name="gb_performance_balance">均衡模式</string>
-    <string name="gb_performance_high">性能模式</string>
-    <string name="gb_performance_mode">游戏模式</string>
-    <string name="gb_performance_tips">"性能模式可提升手机性能，
-也会增加耗电和发热，不建议长期使用"</string>
+    <string name="gb_performance_balance">Balanced</string>
+    <string name="gb_performance_high">Performance</string>
+    <string name="gb_performance_mode">Gaming mode</string>
+    <string name="gb_performance_tips">"Using performance mode for a long time
+may drain battery and lead to overheating"</string>
     <string name="gb_shortcut_pref_title">Home screen shortcut</string>
     <string name="gb_shoulder_key">Shoulder buttons</string>
     <string name="gb_shoulder_key_add_show_btn">Show virtual buttons during games</string>
@@ -2036,14 +2041,14 @@ Record sequences and use them anytime!"</string>
     <string name="gb_storage_game_uninstall">Uninstall games</string>
     <string name="gb_storage_summary">"Don't show the games that were added to the gamebox on the Home screen"</string>
     <string name="gb_storage_title">Remove added games from Home screen</string>
-    <string name="gb_turbo_collimator_subtitle">自带射击微镜</string>
-    <string name="gb_turbo_macro_subtitle">轻松实现神级操作</string>
+    <string name="gb_turbo_collimator_subtitle">Use aiming device</string>
+    <string name="gb_turbo_macro_subtitle">Perform high-level actions</string>
     <string name="gb_turbo_new_flag">NEW</string>
-    <string name="gb_turbo_shoulder_subtitle">设置专属操控</string>
-    <string name="gb_turbo_time_subtitle">辅助记录游戏时间</string>
-    <string name="gb_turbo_voice_subtitle">语音开麦搞怪秀</string>
-    <string name="gb_turbo_wonder_subtitle">智能录制精彩操作</string>
-    <string name="gb_voice_change_audition_tip">仅试听</string>
+    <string name="gb_turbo_shoulder_subtitle">Set up gaming controls</string>
+    <string name="gb_turbo_time_subtitle">Time your sessions</string>
+    <string name="gb_turbo_voice_subtitle">Spice up your conversations</string>
+    <string name="gb_turbo_wonder_subtitle">Record key moments</string>
+    <string name="gb_voice_change_audition_tip">Demo</string>
     <string name="gb_voice_change_settinged">Voice changer is on</string>
     <string name="gb_voice_changer_cartoon">Cartoon</string>
     <string name="gb_voice_changer_dialog_upgrade_vip">Renew your subscription to be able to use real-time feedback.</string>
@@ -2085,8 +2090,8 @@ and explore our Voice changer!"</string>
     <string name="gb_voice_changer_user_status_remain_time">Expiration date: %s</string>
     <string name="gb_voice_changer_user_status_renew">Renew</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Your subscription expired. Renew the subscription now to get benefits!</string>
-    <string name="gb_voice_changer_user_vip_expired">已过期</string>
-    <string name="gb_voice_changer_user_vip_remain_time">到期时间：%s</string>
+    <string name="gb_voice_changer_user_vip_expired">Expired</string>
+    <string name="gb_voice_changer_user_vip_remain_time">Expiry date: %s</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Record key moments
 of your gaming sessions"</string>
     <string name="gb_wonderful_video_cancel">Cancel</string>
@@ -2174,15 +2179,17 @@ of your gaming sessions"</string>
     <string name="gtb_dialog_title_smart_5g">5G network optimization</string>
     <string name="gtb_exit_game_to_gtb">Open gamebox</string>
     <string name="gtb_exit_game_to_home">Back to Home screen</string>
-    <string name="gtb_guide_finish">跳过</string>
-    <string name="gtb_guide_gtb_button_done">完成</string>
-    <string name="gtb_guide_gtb_community_desc">汇聚高手攻略、精彩瞬间</string>
-    <string name="gtb_guide_gtb_community_title">游戏社区</string>
-    <string name="gtb_guide_gtb_func_desc">体验更多游戏乐趣</string>
-    <string name="gtb_guide_gtb_func_title">游戏助手</string>
-    <string name="gtb_guide_gtb_line_new">唤出全新GAME TURBO，获得最佳游戏体验</string>
-    <string name="gtb_guide_small_window_app_desc">一步实现边聊边玩</string>
-    <string name="gtb_guide_small_window_app_title">小窗应用</string>
+    <string name="gtb_guide_finish">Skip</string>
+    <string name="gtb_guide_gtb_button_done">Done</string>
+    <string name="gtb_guide_gtb_community_desc">Share your experience with fellow gamers</string>
+    <string name="gtb_guide_gtb_community_title">Community</string>
+    <string name="gtb_guide_gtb_func_desc">Step up your game</string>
+    <string name="gtb_guide_gtb_func_title">Game Turbo</string>
+    <string name="gtb_guide_gtb_game_effected">Applied</string>
+    <string name="gtb_guide_gtb_game_new">New</string>
+    <string name="gtb_guide_gtb_line_new">Step up your game with all-new Game Turbo!</string>
+    <string name="gtb_guide_small_window_app_desc">"Use other apps while you're playing"</string>
+    <string name="gtb_guide_small_window_app_title">Floating windows</string>
     <string name="gtb_setting_item_summary_smart_5g">Whenever Game Turbo detects a 5G network, it can connect your device to the best network available to reduce network delay</string>
     <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Increase connection speed by 10%-20% when connected to Mi/Redmi routers</string>
     <string name="gtb_setting_item_title_brightness">Lower screen brightness automatically</string>
@@ -5299,7 +5306,7 @@ Try upscaling resolution!"</string>
     <string name="warningcenter_policeassist_noti_send">Shared your location with the police</string>
     <string name="warningcenter_policeassist_noti_title">Share location during emergency calls</string>
     <string name="warningcenter_policeassist_open_btn">Turn on</string>
-    <string name="warningcenter_policeassist_open_content">"Send your location info to the police using SMS or mobile data automatically while you're calling 110, 120, 119, 122, or 12122."</string>
+    <string name="warningcenter_policeassist_open_content">"Send your location info to the police using SMS or mobile data automatically while you're calling 110, 120, 119, or 122."</string>
     <string name="warningcenter_policeassist_open_title">Share your location with the police during emergency calls</string>
     <string name="warningcenter_policeassist_privacy"><Data>"I've read and agreed to &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>."</Data></string>
     <string name="warningcenter_policeassist_title">Emergency location</string>
