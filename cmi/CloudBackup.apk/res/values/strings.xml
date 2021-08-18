@@ -64,8 +64,8 @@
     <string name="backup_warning_reason_app_usage_denied">"Couldn't sync data.
 Permissions required."</string>
     <string name="backup_warning_reason_cloud_space_not_enough">"Can't back up"</string>
-    <string name="backup_warning_reason_disk_space_not_enough">"Not enough storage
-Can't back up"</string>
+    <string name="backup_warning_reason_disk_space_not_enough">"Can't back up.
+Not enough storage space."</string>
     <string name="backup_warning_reason_network_error">"Network error
 Can't back up"</string>
     <string name="backup_warning_reason_no_server_response">"Connection was interrupted
@@ -165,7 +165,7 @@ Try again"</string>
     <string name="cloud_app_backup_success">Backed up apps successfully</string>
     <string name="cloud_app_check_data">Talking to Xiaomi Cloud…</string>
     <string name="cloud_app_current_device">Current device</string>
-    <string name="cloud_app_dont_restore">Set up as new device</string>
+    <string name="cloud_app_dont_restore">Use as a new device</string>
     <string name="cloud_app_no_data">No backups</string>
     <string name="cloud_app_no_network">"Can't connect to the network"</string>
     <string name="cloud_app_other_devices">Other devices</string>
@@ -220,7 +220,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="confirm_cancel_restore_title">Cancel restoring?</string>
     <string name="confirm_restore">Restore</string>
     <string name="confirm_restore_app_data">Overwriting app data</string>
-    <string name="confirm_restore_app_data_summary">Restoring WeChat data will overwrite the current version of app data on this device. Restore anyway?</string>
+    <string name="confirm_restore_app_data_summary">Looks like WeChat has already generated data on this device. Overwrite it with the data from the backup?</string>
     <string name="confirm_restore_summary">Your Home screen will be relaunched. Backed up apps will be downloaded automatically.</string>
     <string name="confirm_restore_title">Restore</string>
     <string name="copy">Copy</string>
@@ -238,6 +238,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="desktop_wait_network">Waiting…</string>
     <string name="desktop_waiting">Waiting</string>
     <string name="device_delete_prompt">Delete backup of %s?</string>
+    <string name="dialog_app_usage_consent_message">This feature needs to access app usage data to be able to estimate the size of WeChat backups.</string>
+    <string name="dialog_app_usage_consent_title">Allow accessing app usage data</string>
     <string name="dialog_app_usage_denied">Give Backup \"Usage access\" permission in the Settings to be able to back up items.</string>
     <string name="dialog_backup_failed">"Couldn't back up"</string>
     <string name="dialog_btn_cancel_backup">Cancel</string>
@@ -246,6 +248,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="dialog_btn_next">Next</string>
     <string name="dialog_btn_overwrite_backup">Overwrite</string>
     <string name="dialog_btn_restore_skip">Restore later</string>
+    <string name="dialog_button_agree">Allow</string>
+    <string name="dialog_button_disagree">"Don't allow"</string>
     <string name="dialog_buy_cloud_space">Upgrade</string>
     <string name="dialog_cancel_backup_cancel">Cancel</string>
     <string name="dialog_cancel_backup_confirm">OK</string>
@@ -267,6 +271,12 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="download_meta_failed">"Couldn't load data."</string>
     <string name="download_settings">Downloading Home screen settings %s%%</string>
     <string name="download_settings_fail">"Couldn't download Home screen settings"</string>
+    <string name="dump_app_data_record_complete_msg">File locations: %s</string>
+    <string name="dump_app_data_record_complete_title">Backed up WeChat data successfully</string>
+    <string name="dump_app_data_record_not_found_msg">"Looks like you haven't backed up WeChat data before"</string>
+    <string name="dump_app_data_record_not_found_title">"Couldn't find WeChat backups"</string>
+    <string name="dump_app_data_record_running_msg" />
+    <string name="dump_app_data_record_running_title">Backing up WeChat data…</string>
     <string name="early_morning">Morning</string>
     <string name="earthly_branches_chen">辰</string>
     <string name="earthly_branches_chou">丑</string>
@@ -505,6 +515,8 @@ Check your network settings and try again."</string>
     <string name="restore_init_description">Start restoring</string>
     <string name="restore_network_pause">Paused to save mobile data. Tap to resume.</string>
     <string name="restore_network_unconnect">%s (Waiting for connection)</string>
+    <string name="restore_prepare_item_type_enable">Available backups</string>
+    <string name="restore_prepare_item_type_other">Other backups</string>
     <string name="restore_task_cancelling">Canceling…</string>
     <string name="restore_task_in_process">Restoring…</string>
     <string name="restore_task_unfinished">"Couldn't restore"</string>
@@ -520,8 +532,8 @@ Check your network settings and try again."</string>
     <string name="saturday_shortest">Sat</string>
     <string name="search_menu_title">Search</string>
     <string name="selected">Selected</string>
-    <string name="self_device_main_space">"This phone's First space"</string>
-    <string name="self_device_second_space">"This phone's Second space"</string>
+    <string name="self_device_main_space">First space</string>
+    <string name="self_device_second_space">Second space</string>
     <string name="send">Send</string>
     <string name="settings_backup">System settings</string>
     <string name="size_unknown">Unknown size</string>
