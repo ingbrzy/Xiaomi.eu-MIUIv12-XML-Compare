@@ -238,6 +238,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="desktop_wait_network">Waiting…</string>
     <string name="desktop_waiting">Waiting</string>
     <string name="device_delete_prompt">Delete backup of %s?</string>
+    <string name="dialog_app_usage_consent_message">This feature needs to access app usage data to be able to estimate the size of WeChat backups.</string>
+    <string name="dialog_app_usage_consent_title">Allow accessing app usage data</string>
     <string name="dialog_app_usage_denied">Give Backup \"Usage access\" permission in the Settings to be able to back up items.</string>
     <string name="dialog_backup_failed">"Couldn't back up"</string>
     <string name="dialog_btn_cancel_backup">Cancel</string>
@@ -246,6 +248,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="dialog_btn_next">Next</string>
     <string name="dialog_btn_overwrite_backup">Overwrite</string>
     <string name="dialog_btn_restore_skip">Restore later</string>
+    <string name="dialog_button_agree">Allow</string>
+    <string name="dialog_button_disagree">"Don't allow"</string>
     <string name="dialog_buy_cloud_space">Upgrade</string>
     <string name="dialog_cancel_backup_cancel">Cancel</string>
     <string name="dialog_cancel_backup_confirm">OK</string>
@@ -267,6 +271,12 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="download_meta_failed">"Couldn't load data."</string>
     <string name="download_settings">Downloading Home screen settings %s%%</string>
     <string name="download_settings_fail">"Couldn't download Home screen settings"</string>
+    <string name="dump_app_data_record_complete_msg">File locations: %s</string>
+    <string name="dump_app_data_record_complete_title">Backed up WeChat data successfully</string>
+    <string name="dump_app_data_record_not_found_msg">"Looks like you haven't backed up WeChat data before"</string>
+    <string name="dump_app_data_record_not_found_title">"Couldn't find WeChat backups"</string>
+    <string name="dump_app_data_record_running_msg" />
+    <string name="dump_app_data_record_running_title">Backing up WeChat data…</string>
     <string name="early_morning">Morning</string>
     <string name="earthly_branches_chen">辰</string>
     <string name="earthly_branches_chou">丑</string>
