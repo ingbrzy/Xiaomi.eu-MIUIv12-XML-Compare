@@ -225,6 +225,10 @@
         <item>Back up important settings, including Wi-Fi and display</item>
         <item>"Lock your device remotely if it's lost"</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_pad">
+        <item>Sync your photos, notes, recordings, and more</item>
+        <item>"Lock your device remotely if it's lost"</item>
+    </string-array>
     <string-array name="micloud_entrance_subtitleArray_v2">
         <item>Sync your contacts, messages, notes, calendar, and more</item>
         <item>Back up apps, Home screen layout, and wallpaper</item>
@@ -235,6 +239,10 @@
         <item>Sync app data</item>
         <item>Back up Home screen layout</item>
         <item>Back up system settings</item>
+        <item>Find device</item>
+    </string-array>
+    <string-array name="micloud_entrance_titleArray_pad">
+        <item>Sync app data</item>
         <item>Find device</item>
     </string-array>
     <string-array name="months">
@@ -383,12 +391,22 @@
         <item>Restore contacts, photos, messages, and more</item>
         <item>Trash;Deleted items;Trash bin;Restore;Cloud services;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_recycle_bin_pad">
+        <item>Deleted items in Xiaomi Cloud</item>
+        <item>Restore photos, notes, and more</item>
+        <item>Trash;Deleted items;Trash bin;Restore;Cloud services;Xiaomi Cloud</item>
+    </string-array>
     <string-array name="settings_search_restore_device">
         <item>Restore items from Xiaomi Cloud</item>
         <item>Download backed up items to your device</item>
         <item>Cloud;Back up;Backup;Restore;Cloud services;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_security">
+        <item>Security cloud sync</item>
+        <item>Turn on sync</item>
+        <item>Security;Cloud;Xiaomi Cloud;Sync;Cloud services</item>
+    </string-array>
+    <string-array name="settings_search_security_pad">
         <item>Security cloud sync</item>
         <item>Turn on sync</item>
         <item>Security;Cloud;Xiaomi Cloud;Sync;Cloud services</item>
@@ -406,6 +424,11 @@
     <string-array name="settings_search_sync_manage">
         <item>Xiaomi Cloud. All Mi services in one place.</item>
         <item>Access your photos, contacts, messages, and devices from anywhere</item>
+        <item>Insufficient storage;Membership;Storage;Storage space;Cloud;Sync;Cloud services;Xiaomi Cloud;Trash;Deleted items;Security</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage_pad">
+        <item>Xiaomi Cloud. All Mi services in one place.</item>
+        <item>Access your photos, notes, and devices from anywhere</item>
         <item>Insufficient storage;Membership;Storage;Storage space;Cloud;Sync;Cloud services;Xiaomi Cloud;Trash;Deleted items;Security</item>
     </string-array>
     <string-array name="settings_search_wlan">
