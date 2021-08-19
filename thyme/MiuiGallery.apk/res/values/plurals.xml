@@ -141,6 +141,10 @@
         <item quantity="other">%d videos</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="cloud_storage_warn_title_link">
+        <item quantity="other">"Couldn't sync %d items due to insufficient cloud storage"</item>
+        <item quantity="one">"Couldn't sync %d item due to insufficient cloud storage"</item>
+    </plurals>
     <plurals name="collage_select_image_dynamic_range">
         <item quantity="other">Collages can contain %1$d-%2$d photos</item>
         <item quantity="one">Collages can contain %1$d-%2$d photo</item>
@@ -192,6 +196,10 @@
     <plurals name="download_retry_message">
         <item quantity="other">"Couldn't download %1$d files, check network connection and try again"</item>
         <item quantity="one">"Couldn't download %1$d file, check network connection and try again"</item>
+    </plurals>
+    <plurals name="downloading_title_link">
+        <item quantity="other">Downloading items from the cloud (%2$d/%1$d)</item>
+        <item quantity="one">Downloading items from the cloud (%2$d/%1$d)</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">Total %d photos</item>
@@ -516,9 +524,6 @@
         <item quantity="other">%d items</item>
         <item quantity="one">%d item</item>
     </plurals>
-    <plurals name="synced_immerse_title">
-        <item quantity="other">%1$d个照片,%2$d个视频同步成功</item>
-    </plurals>
     <plurals name="synced_photo_count">
         <item quantity="other">Synced %d photos</item>
         <item quantity="one">Synced %d photo</item>
@@ -526,6 +531,14 @@
     <plurals name="synced_videos_count">
         <item quantity="other">Synced %d videos</item>
         <item quantity="one">Synced %d video</item>
+    </plurals>
+    <plurals name="syncing_gprs_title_link">
+        <item quantity="other">Syncing %d items using mobile data</item>
+        <item quantity="one">Syncing %d item using mobile data</item>
+    </plurals>
+    <plurals name="syncing_title_link">
+        <item quantity="other">Syncing %d items</item>
+        <item quantity="one">Syncing %d item</item>
     </plurals>
     <plurals name="talkback_album_item_content">
         <item quantity="other">%1$s, %2$s items</item>
