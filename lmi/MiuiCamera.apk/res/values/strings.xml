@@ -99,15 +99,15 @@
     <string name="accessibility_flash_on">Flash is on</string>
     <string name="accessibility_flash_screen_halo">补光环,开启状态</string>
     <string name="accessibility_flash_torch">Flash is on, torch mode</string>
-    <string name="accessibility_focus_face_pos_bottom">靠近底部边缘</string>
-    <string name="accessibility_focus_face_pos_left">靠近左侧边缘</string>
-    <string name="accessibility_focus_face_pos_left_bottom">靠近底部左侧边缘</string>
-    <string name="accessibility_focus_face_pos_left_top">靠近顶部左侧边缘</string>
-    <string name="accessibility_focus_face_pos_mid">居中</string>
-    <string name="accessibility_focus_face_pos_right">靠近右侧边缘</string>
-    <string name="accessibility_focus_face_pos_right_bottom">靠近底部右侧边缘</string>
-    <string name="accessibility_focus_face_pos_right_top">靠近顶部右侧边缘</string>
-    <string name="accessibility_focus_face_pos_top">靠近顶部边缘</string>
+    <string name="accessibility_focus_face_pos_bottom">Located near the lower edge of the frame</string>
+    <string name="accessibility_focus_face_pos_left">Located near the left edge of the frame</string>
+    <string name="accessibility_focus_face_pos_left_bottom">Located near the lower left corner of the frame</string>
+    <string name="accessibility_focus_face_pos_left_top">Located near the upper left corner of the frame</string>
+    <string name="accessibility_focus_face_pos_mid">Located near the center of the frame</string>
+    <string name="accessibility_focus_face_pos_right">Located near the right edge of the frame</string>
+    <string name="accessibility_focus_face_pos_right_bottom">Located near the lower right corner of the frame</string>
+    <string name="accessibility_focus_face_pos_right_top">Located near the upper right corner of the frame</string>
+    <string name="accessibility_focus_face_pos_top">Located near the upper edge of the frame</string>
     <string name="accessibility_focus_status">%1$sX zoom</string>
     <string name="accessibility_foucs_peak">Peak value</string>
     <string name="accessibility_front_preview_status">Front camera preview</string>
@@ -339,7 +339,7 @@ and adjust preferences automatically"</string>
     <string name="ambilight_tips_for_longtime_using_tripod">Use a tripod to capture a longer exposure</string>
     <string name="ambilight_tips_for_suggest_using_tripod">Use a tripod</string>
     <string name="ambilight_tips_for_using_tripod">Use a tripod</string>
-    <string name="app_name">veeditor</string>
+    <string name="app_name">logProvider</string>
     <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
     <string name="audio_map_summary_tip">Monitor the volume of the left and right channels in real time and adjust it using the slider</string>
     <string name="auto_hibernation_enter_tip">About to turn off screen…</string>
@@ -350,6 +350,7 @@ and adjust preferences automatically"</string>
     <string name="auxiliary_close_status">Additional effects are off</string>
     <string name="auxiliary_exposure_feedback_status">Exposure verification is on</string>
     <string name="auxiliary_focus_peak_status">Focus peaking is on</string>
+    <string name="back_XIG02">3:REDMI NOTE 10 JE</string>
     <string name="back_alioth">3:REDMI K40</string>
     <string name="back_alioth_global">3:POCO F3</string>
     <string name="back_aliothin">3:MI 11X</string>
@@ -426,6 +427,7 @@ and adjust preferences automatically"</string>
     <string name="back_haydn_pro_global">3:MI 11i</string>
     <string name="back_haydnin_pro_india">3:MI 11X PRO</string>
     <string name="back_hercules">3:SHOT ON MI 9:AI TRIPLE CAMERA</string>
+    <string name="back_iris">3:REDMI NOTE 10 JE</string>
     <string name="back_joyeuse">4:REDMI NOTE 9 PRO:AI QUAD CAMERA</string>
     <string name="back_joyeuse_india">4:REDMI NOTE 9 PRO MAX:AI QUAD CAMERA</string>
     <string name="back_karna">4:POCO X3</string>
@@ -452,6 +454,7 @@ and adjust preferences automatically"</string>
     <string name="back_merlin_india">4:REDMI NOTE 9:AI QUAD CAMERA</string>
     <string name="back_merlinnfc_global">4:REDMI NOTE 9:AI QUAD CAMERA</string>
     <string name="back_monet">4:MI10 LITE 5G:AI QUAD CAMERA</string>
+    <string name="back_odin">3:XIAOMI MIX 4</string>
     <string name="back_onc">2:SHOT ON REDMI Y3:AI DUAL CAMERA</string>
     <string name="back_onc_global_lite">2:SHOT ON REDMI 7:AI DUAL CAMERA</string>
     <string name="back_onc_india_lite">2:SHOT ON REDMI 7:AI DUAL CAMERA</string>
@@ -540,6 +543,7 @@ and adjust preferences automatically"</string>
     <string name="beauty_makeups_toughman">Bronze</string>
     <string name="beauty_mo_fe">xxx</string>
     <string name="beauty_mo_ma">xxx</string>
+    <string name="beauty_mo_or">xxx</string>
     <string name="beauty_mode_reset_toast">Cleared remodeling effects successfully</string>
     <string name="beauty_ne">xxx</string>
     <string name="beauty_no_t">xxxxxx</string>
@@ -846,11 +850,13 @@ scanned documents automatically"</string>
     <string name="dolly_zoom_guide_tip9">Alleyways.</string>
     <string name="dolly_zoom_guide_video_title1">Magic zoom</string>
     <string name="dolly_zoom_guide_video_title2">Scenes</string>
+    <string name="download_alert">"Can't edit during ongoing downloads"</string>
     <string name="download_cancel_hint">Cancel downloading %1$s?</string>
     <string name="download_confirm">Download</string>
     <string name="download_hint">%1$s MB of mobile data will be used to download items. Download anyway?</string>
     <string name="download_in_progress">Downloading…</string>
     <string name="download_title">Data usage warning</string>
+    <string name="download_waiting">Pending…</string>
     <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
     <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
     <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
@@ -1525,6 +1531,7 @@ the background on your photos"</string>
 and brings out the people in the front."</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Try Portrait mode.
 Keep the subject sharp while blurring the background."</string>
+    <string name="pre_volume_gain_adjust">增益调节</string>
     <string name="pref_960_watermark_title">960FPS watermark</string>
     <string name="pref_a_c_f">Sonograph</string>
     <string name="pref_advance_settings">Additional settings</string>
@@ -2451,6 +2458,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
     <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
     <string name="video_hdr10_tip">HDR10</string>
     <string name="video_hdr10plus_tip">HDR10+</string>
+    <string name="video_overheat_tip_content">Looks like your device is too hot. Try shooting video in lower resolution.</string>
     <string name="video_reach_size_limit">Size limit reached.</string>
     <string name="video_shortcut_short">Video</string>
     <string name="video_tag_flag_title">Tag</string>
@@ -2467,6 +2475,7 @@ to record and edit videos on the go"</string>
     <string name="vv_use_hint_text_title">VLOG</string>
     <string name="wait">Just a sec…</string>
     <string name="warm_prompt">温馨提示</string>
+    <string name="watermark_count_format" formatted="false">%d/%d</string>
     <string name="watermark_tab_city">City</string>
     <string name="watermark_tab_festival">Holiday</string>
     <string name="watermark_tab_general">General</string>
