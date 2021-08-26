@@ -30,6 +30,9 @@
     <string name="accessibility_back">Back</string>
     <string name="accessibility_desc_close">Close</string>
     <string name="accessibility_desc_edit">Edit</string>
+    <string name="accessibility_description_hours">Hours</string>
+    <string name="accessibility_description_minutes">Minutes</string>
+    <string name="accessibility_description_seconds">Seconds</string>
     <string name="accessibility_menu">Menu</string>
     <string name="accessibility_quick_settings_page">Page %1$d of %2$d</string>
     <string name="accessibility_volume_collapse">Collapse</string>
@@ -38,7 +41,7 @@
     <string name="afternoon">Afternoon</string>
     <string name="already_in_small_freeform">Some apps are opened in floating windows</string>
     <string name="am">AM</string>
-    <string name="app_name">systemui-controls</string>
+    <string name="app_name">System UI Plug-in</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
@@ -270,6 +273,8 @@
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="kddi_miui_toast_zen_standard_to_off">"Silent mode is off now. Calls and notifications won't be silenced."</string>
+    <string name="kddi_miui_toast_zen_to_standard">Switched to Silent mode. Calls and notifications will be silenced now.</string>
     <string name="loading">Status unknown</string>
     <string name="material_slider_range_end">Range end,</string>
     <string name="material_slider_range_start">Range start,</string>
@@ -289,9 +294,11 @@
     <string name="miui_ringer_total">DND</string>
     <string name="miui_ringer_total_description">Silence sounds and turn off vibration for all items except the alarm clock</string>
     <string name="miui_toast_zen_dnd_to_off">"Calls and notifications won't be silenced anymore"</string>
+    <string name="miui_toast_zen_dnd_to_off_T">Notifications are no longer silenced</string>
     <string name="miui_toast_zen_standard_to_off">Silent mode is off</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Silent mode is off now. Ringtones, as well as notification and media sounds, will be played.</string>
     <string name="miui_toast_zen_to_dnd">Calls and notifications will be silenced</string>
+    <string name="miui_toast_zen_to_dnd_T">Notifications will be silenced</string>
     <string name="miui_toast_zen_to_dnd_when_lock">Calls and notifications will be silenced when the device is locked</string>
     <string name="miui_toast_zen_to_standard">Silent mode is on</string>
     <string name="miui_toast_zen_to_standard_when_shield_media">Switched to Silent mode. Ringtones, as well as notification and media sounds, are silenced now.</string>
@@ -410,8 +417,9 @@
     <string name="quick_settings_pcmode_turn_off_description">"Your phone's display will be shown on the external monitor. Turn off PC mode?"</string>
     <string name="quick_settings_pcmode_turn_on_description">"Your computer's display will be shown on the external monitor. Turn on PC mode?"</string>
     <string name="quick_settings_scanner_label">Scanner</string>
-    <string name="quick_settings_tiles_default">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,custom(com.miui.screenrecorder/.service.QuickService),scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),pcmode,custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,freeformhang,vibrate,hotspot,sync,custom(com.google.android.gms/.nearby.sharing.SharingTileService),screenbutton,wirelesspower,nfc,dolbyatomssound,edit</string>
-    <string name="quick_settings_tiles_stock">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,pcmode,powermode,freeformhang,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,dolbyatomssound,edit,drivemode,hearingassisttile</string>
+    <string name="quick_settings_tiles_default">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,custom(com.miui.screenrecorder/.service.QuickService),scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),pcmode,custom(com.miui.mishare.connectivity/.tile.MiShareTileService),uwb_shp,custom(com.xiaomi.aiasst.vision/.control.translation.AiTranslateTileService),powermode,freeformhang,vibrate,hotspot,sync,custom(com.google.android.gms/.nearby.sharing.SharingTileService),screenbutton,wirelesspower,nfc,dolbyatomssound,edit</string>
+    <string name="quick_settings_tiles_stock">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,scanner,papermode,night,quietmode,batterysaver,extremebatterysaver,pcmode,uwb_shp,powermode,freeformhang,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,dolbyatomssound,edit,drivemode,hearingassisttile</string>
+    <string name="quick_settings_uwbsh_label">Xiaomi Magic Control</string>
     <string name="quick_settings_wireless_label">Reverse wireless charging</string>
     <string name="reboot_info_auto_boot">Upcoming alarm: %s</string>
     <string name="reboot_info_shutdown_alarm">Shutdown alarm: %s</string>
