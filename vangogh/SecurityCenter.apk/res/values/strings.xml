@@ -608,6 +608,7 @@ You will not lose any app data."</string>
     <string name="applock_add_account_setting">Account &amp; privacy</string>
     <string name="applock_add_account_tips">"With Mi Account, you'll be able to restore your App lock if you forget it."</string>
     <string name="applock_add_account_title">Add your Mi Account</string>
+    <string name="applock_add_account_title_part">Add your Mi Account to be able to reset password</string>
     <string name="applock_already_add_account">Current account: %s</string>
     <string name="applock_app_recommend_lock_title">You can lock the following apps</string>
     <string name="applock_bind_account_dialog_content">Your Mi Account is the only way to restore your App lock in case you forget it. Sign in to add your Mi Account.</string>
@@ -618,6 +619,8 @@ You will not lose any app data."</string>
     <string name="applock_exit_account_info">Account will be removed automatically when you sign out</string>
     <string name="applock_face_unlock_summary">Unlock apps using face data</string>
     <string name="applock_face_unlock_title">Face unlock</string>
+    <string name="applock_fingerprint_detect">Use fingerprint</string>
+    <string name="applock_fingerprint_unlock">Use fingerprint</string>
     <string name="applock_function_base_settings">App lock</string>
     <string name="applock_function_pwd_settings">Password</string>
     <string name="applock_go_to">Settings</string>
@@ -637,6 +640,7 @@ You will not lose any app data."</string>
     <string name="applock_guide_tip3">Hide notification content.</string>
     <string name="applock_guide_tip3_global">Hide notification content.</string>
     <string name="applock_guide_title">Protect your privacy with App lock</string>
+    <string name="applock_gulide_third_part">Account will be removed when you sign out</string>
     <string name="applock_header_text_less_than_half">Too small. Drag a bit further.</string>
     <string name="applock_lock_all">Lock all</string>
     <string name="applock_login_and_add_account">Sign in &amp; add</string>
@@ -644,6 +648,7 @@ You will not lose any app data."</string>
     <string name="applock_mixtype_showpwd_icon">Show</string>
     <string name="applock_no_account_login">"You aren't signed in to your Mi Account"</string>
     <string name="applock_not_add_account"><u>Not now</u></string>
+    <string name="applock_not_add_account_normal">"Don't add account"</string>
     <string name="applock_not_login_account">"You aren't signed in"</string>
     <string name="applock_numeric_pwd_type_line">Total number of digits in the password: %1$d. Entered digits: %2$d.</string>
     <string name="applock_operate_faceunlock_summary">Unlock apps by simply looking at the screen</string>
@@ -859,6 +864,7 @@ You will not lose any app data."</string>
     <string name="boot_time_day">On in %1$dd at %2$s</string>
     <string name="boot_time_day_tomorrow">On tomorrow at %1$s</string>
     <string name="bottom_func_guide_default_text">More features</string>
+    <string name="bottom_notice_title">Swipe up to open toolbox</string>
     <string name="btn_back">Back</string>
     <string name="btn_finish_diagnostic">OK</string>
     <string name="btn_start_diagnostic">Test network</string>
@@ -1076,6 +1082,8 @@ You will not lose any app data."</string>
     <string name="cmcc_app_check_dialog_title">System repaired</string>
     <string name="cmd_lucky_float">摇一摇</string>
     <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
+    <string name="commonly_used_func_card_title">Common features</string>
+    <string name="commonly_used_func_edit_too_many_func">"Can't add more items"</string>
     <string name="comprehensive_protection_measures">Comprehensive protection</string>
     <string name="confirmSecondSpacePassword">Confirm Second space password</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
@@ -1355,6 +1363,7 @@ contact"</string>
     <string name="ew_alert_earthquake_level_title">Estimated magnitude</string>
     <string name="ew_alert_emergency_text">"Show
 medical card"</string>
+    <string name="ew_alert_emergency_text_single">Show medical card</string>
     <string name="ew_alert_help_earthquake_title">Seismic wave arrived</string>
     <string name="ew_alert_help_place_navigation">Navigate</string>
     <string name="ew_alert_help_place_text">If necessary, go to the nearest shelter to ensure safety and get the necessary assistance.</string>
@@ -2587,6 +2596,7 @@ Your device is %d%% faster now."</string>
     <string name="mi_service_app_detail">Data usage details</string>
     <string name="mi_service_traffic_detail">Framework details</string>
     <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
+    <string name="mi_sim_link_custom">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>%2$s&lt;/U>&lt;/font>"</string>
     <string name="mian_page_primary_txt">Overseas roaming</string>
     <string name="midnight">Night</string>
     <string name="midrop_post_notification_contentText">Transfer files at speeds up to 50 Mbps in Mi Drop.</string>
@@ -3007,6 +3017,19 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_battery_history_show_imei">IMEI:</string>
     <string name="pc_battery_history_total_consumption_title">Total power consumption</string>
     <string name="pc_battery_history_usetime_title">Active</string>
+    <string name="pc_fast_charge_notifi_action_text_off">Stop</string>
+    <string name="pc_fast_charge_notifi_action_text_on">Boost</string>
+    <string name="pc_fast_charge_notifi_power_threshold_title">Set battery level for reminders</string>
+    <string name="pc_fast_charge_notifi_summary">Charging up to %s faster than usual…</string>
+    <string name="pc_fast_charge_notifi_summary_on">This feature might heat up your device</string>
+    <string name="pc_fast_charge_notifi_switch_summary">Notify about boosting charging speed when the supplied %dW charger is connected and the battery is below the set level</string>
+    <string name="pc_fast_charge_notifi_switch_title">Notify about boosting</string>
+    <string name="pc_fast_charge_notifi_title">%dW charging</string>
+    <string name="pc_fast_charge_notifi_title_on">Stop boosting charging speed</string>
+    <string name="pc_fast_charge_switch_summary">"Turn on to speed up the charging process. MIUI will prioritize charging speed while ensuring your device's safety. The lower your battery is, the faster it will be charged. This feature might heat up your device."</string>
+    <string name="pc_fast_charge_switch_title">Boost charging speed</string>
+    <string name="pc_fast_charge_switch_toast_message">Changes will be applied next time you charge this device</string>
+    <string name="pc_fast_charge_title">Boost charging speed</string>
     <string name="pc_hidemode_normal">Balanced</string>
     <string name="pc_hidemode_normal_title">Balanced</string>
     <string name="pc_hidemode_performance">Performance</string>
@@ -3159,6 +3182,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="phone_manage_special_title">Special features</string>
     <string name="phone_manage_system_tool_summary">Useful system-level tools</string>
     <string name="phone_manage_system_tool_title">Tools</string>
+    <string name="phone_manager_edit_commonly_used_func_title">Edit common features</string>
+    <string name="phone_manager_title">Toolbox</string>
     <string name="pkg_traffic">Set data usage limit</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">Triggered start</string>
@@ -3270,6 +3295,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_center_super_wireless_charge_dialog_summary">"This mode increases the fan speed of the wireless charger's cooler. Keep this mode on to charge your device faster, or turn it off if you think the noise is too loud."</string>
     <string name="power_center_super_wireless_charge_dialog_summary2">Go to Security > Battery > Settings for more options.</string>
     <string name="power_center_super_wireless_charge_dialog_title">Quick wireless charging</string>
+    <string name="power_center_super_wireless_charge_enter_noti_summary">无线充电器风扇转速提高，充电速度更快</string>
+    <string name="power_center_super_wireless_charge_enter_noti_title">可开启极速无线充电模式</string>
     <string name="power_center_super_wireless_charge_noti_summary">Tap to open Settings</string>
     <string name="power_center_super_wireless_charge_noti_switch">Notify about quick wireless charging</string>
     <string name="power_center_super_wireless_charge_noti_title">Quick wireless charging is on</string>
@@ -3501,6 +3528,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_private_photo_album_detail">Encrypt and protect items with a screen lock</string>
     <string name="pp_prohibit_use_camera_in_background">Restrict using camera in the background</string>
     <string name="pp_prohibit_use_camera_in_background_detail">"Apps won't be able to use camera in the background by default"</string>
+    <string name="pp_read_phone_info_summary">Access SIM info</string>
     <string name="pp_record_msg">Recording audio</string>
     <string name="pp_safe_box">Private space</string>
     <string name="pp_safe_box_detail">"Private items are encrypted and stored on this device only. Other people won't be able to access them while they're using this device, and the device itself won't be allowed to access encrypted items and use them in any way."</string>
@@ -3510,6 +3538,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pp_safe_save_pwd_and_account">Store passwords in a secure environment</string>
     <string name="pp_safe_share_img_detail">Share photos without location info and metadata</string>
     <string name="pp_smart_manager_pwd">Passwords</string>
+    <string name="pp_sms_and_contacts">Contacts and messaging</string>
     <string name="pp_special_permission_settings">Special permissions</string>
     <string name="pp_special_permission_settings_detail">Control how apps use special permissions</string>
     <string name="pp_storage_msg">Storage</string>
@@ -4023,8 +4052,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="security_bottom_guide_to_pm_text">Release to open utilities</string>
     <string name="security_center_slogan">Keep your device fast and secure</string>
     <string name="security_guide_bubble_text">Open</string>
-    <string name="security_guide_summary">One-stop spot for tools and services</string>
-    <string name="security_guide_title">MIUI Utility Kit</string>
+    <string name="security_guide_summary">All tools in one place</string>
+    <string name="security_guide_title">Toolbox</string>
     <string name="security_protection_bottom_slogon">Security at its best</string>
     <string name="security_protection_title">Security</string>
     <string name="security_scan_optimizing">Optimizing…</string>
@@ -4097,6 +4126,18 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
     <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
     <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
     <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
+    <string name="sim_car_absent__tip">Confirm screen lock to turn off Lost mode</string>
+    <string name="sim_car_absent_intercept_action">Confirm screen lock (%d)</string>
+    <string name="sim_car_absent_intercept_action_last">Confirm screen lock</string>
+    <string name="sim_car_absent_intercept_item_summary">Find device is on. Confirming screen lock is required to turn off device or remove SIM card.</string>
+    <string name="sim_car_absent_intercept_item_summary_last">Find device is on. Confirming screen lock is required to turn off device or remove SIM card. Lost mode was activated.</string>
+    <string name="sim_car_absent_intercept_item_title">Protection mechanisms were triggered</string>
+    <string name="sim_car_absent_intercept_summary">SIM card was removed. Confirm screen lock to be able to use this device.</string>
+    <string name="sim_car_absent_intercept_title">Confirm screen lock</string>
+    <string name="sim_car_absent_summary">Confirm screen lock to be able to use this device.</string>
+    <string name="sim_car_absent_title">This device is lost</string>
+    <string name="sim_card_absent_intercept_tip">"If you don't confirm screen lock, Lost mode will be activated."</string>
+    <string name="sim_card_absent_warning_voice">SIM card was removed. Confirm screen lock.</string>
     <string name="sim_location_error_dialog_message">"The SIM you're using is from %1$s. This is different from the location you set manually (%2$s). Change SIM location to %3$s?"</string>
     <string name="sim_location_error_notify_message">Tap to change SIM location.</string>
     <string name="sim_location_error_notify_title">SIM card error</string>
