@@ -2,6 +2,7 @@
 <resources>
     <array name="carrier_properties" />
     <array name="common_nicknames" />
+    <array name="config_accessibility_allowed_install_source" />
     <array name="config_allowedGlobalInstantAppSettings" />
     <array name="config_allowedSecureInstantAppSettings" />
     <array name="config_allowedSystemInstantAppSettings" />
@@ -39,12 +40,15 @@
         <item>-25</item>
         <item>65</item>
     </integer-array>
+    <string-array name="config_autoTimeSourcesPriority">
+        <item>network</item>
+        <item>telephony</item>
+    </string-array>
     <array name="config_availableColorModes" />
     <array name="config_backGestureInsetScales">
-        <item>0.75</item>
+        <item>0.6</item>
         <item>1.0</item>
         <item>1.33</item>
-        <item>1.66</item>
     </array>
     <array name="config_batteryPackageTypeService" />
     <string-array name="config_batteryPackageTypeSystem">
@@ -54,6 +58,7 @@
     </string-array>
     <string-array name="config_biometric_sensors">
         <item>0:2:15</item>
+        <item>1:8:255</item>
     </string-array>
     <array name="config_brightnessThresholdsOfPeakRefreshRate" />
     <integer-array name="config_calendarDateVibePattern">
@@ -87,6 +92,8 @@
         <item>125</item>
         <item>30</item>
     </integer-array>
+    <array name="config_companionDeviceCerts" />
+    <array name="config_companionDevicePackages" />
     <array name="config_convert_to_emergency_number_map" />
     <array name="config_defaultFirstUserRestrictions" />
     <array name="config_defaultImperceptibleKillingExemptionPkgs" />
@@ -126,6 +133,7 @@
     </string-array>
     <array name="config_default_vm_number" />
     <array name="config_deviceSpecificSystemServices" />
+    <array name="config_device_state_postures" />
     <array name="config_disableApkUnlessMatchedSku_skus_list" />
     <array name="config_disableApksUnlessMatchedSku_apk_list" />
     <string-array name="config_disabledUntilUsedPreinstalledImes">
@@ -199,6 +207,7 @@
     <array name="config_face_acquire_vendor_biometricprompt_ignorelist" />
     <array name="config_face_acquire_vendor_enroll_ignorelist" />
     <array name="config_face_acquire_vendor_keyguard_ignorelist" />
+    <array name="config_foldedDeviceStates" />
     <string-array name="config_forceQueryablePackages">
         <item>com.android.settings</item>
         <item>com.android.providers.settings</item>
@@ -209,12 +218,15 @@
         <item>power</item>
         <item>restart</item>
         <item>logout</item>
+        <item>screenshot</item>
         <item>bugreport</item>
     </string-array>
     <array name="config_hideWhenDisabled_packageNames" />
+    <array name="config_highAmbientBrightnessThresholdsOfFixedRefreshRate" />
+    <array name="config_highDisplayBrightnessThresholdsOfFixedRefreshRate" />
     <array name="config_highRefreshRateBlacklist" />
     <array name="config_integrityRuleProviderPackages" />
-    <array name="config_jitzygoteBootImagePinnerServiceFiles" />
+    <array name="config_keep_warming_services" />
     <array name="config_keySystemUuidMapping" />
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
@@ -228,6 +240,7 @@
         <item>/system/framework/oat/arm/services.odex</item>
     </string-array>
     <array name="config_localPrivateDisplayPorts" />
+    <array name="config_locationDriverAssistancePackageNames" />
     <string-array name="config_locationExtraPackageNames">
         <item>com.google.android.gms.location.history</item>
     </string-array>
@@ -252,6 +265,12 @@
         <item>-102</item>
         <item>-44</item>
     </integer-array>
+    <integer-array name="config_mappedColorModes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
     <array name="config_minimumBrightnessCurveLux">
         <item>0.0</item>
         <item>2000.0</item>
@@ -274,9 +293,6 @@
         <item>com.xiaomi.xmsf</item>
         <item>com.google.android.dialer</item>
         <item>com.android.phone:demo_Version</item>
-        <item>com.android.nfc</item>
-        <item>com.android.nfc:tag_dispatch</item>
-        <item>com.xiaomi.finddevice</item>
     </string-array>
     <array name="config_mobile_hotspot_provision_app" />
     <array name="config_mobile_tcp_buffers" />
@@ -332,9 +348,11 @@
         <item>com.android.server.notification.CriticalNotificationExtractor</item>
     </string-array>
     <array name="config_oemUsbModeOverride" />
+    <array name="config_optionalIpSecAlgorithms" />
     <array name="config_packagesExemptFromSuspension" />
     <string-array name="config_priorityOnlyDndExemptPackages">
         <item>com.android.dialer</item>
+        <item>com.android.server.telecom</item>
         <item>com.android.systemui</item>
         <item>android</item>
     </string-array>
@@ -345,64 +363,17 @@
         <item>14</item>
         <item>15</item>
     </integer-array>
-    <array name="config_restrictedImagesServices" />
-    <string-array name="config_ringtoneEffectMap">
-        <item>file:///system/media/audio/ringtones/AcousticGuitar.ogg|21</item>
-        <item>placeholder:file:///system/media/audio/ringtones/Blues.ogg|22</item>
-        <item>file:///system/media/audio/ringtones/Candy.ogg|23</item>
-        <item>file:///system/media/audio/ringtones/Carousel.ogg|24</item>
-        <item>file:///system/media/audio/ringtones/Celesta.ogg|25</item>
-        <item>file:///system/media/audio/ringtones/Childhood.ogg|26</item>
-        <item>file:///system/media/audio/ringtones/Country.ogg|27</item>
-        <item>file:///system/media/audio/ringtones/Cowboy.ogg|28</item>
-        <item>placeholder:file:///system/media/audio/ringtones/Echo.ogg|29</item>
-        <item>file:///system/media/audio/ringtones/Fairyland.ogg|30</item>
-        <item>file:///system/media/audio/ringtones/Fantasy.ogg|31</item>
-        <item>file:///system/media/audio/ringtones/FieldTrip.ogg|32</item>
-        <item>file:///system/media/audio/ringtones/Glee.ogg|33</item>
-        <item>placeholder:file:///system/media/audio/ringtones/Glockenspiel.ogg|34</item>
-        <item>file:///system/media/audio/ringtones/IceLatte.ogg|35</item>
-        <item>file:///system/media/audio/ringtones/Kungfu.ogg|36</item>
-        <item>placeholder:file:///system/media/audio/ringtones/Leisure.ogg|37</item>
-        <item>file:///system/media/audio/ringtones/Lollipop.ogg|38</item>
-        <item>file:///system/media/audio/ringtones/MIX.ogg|39</item>
-        <item>file:///system/media/audio/ringtones/MiMix2.ogg|39</item>
-        <item>file:///system/media/audio/ringtones/Mi.ogg|40</item>
-        <item>file:///system/media/audio/ringtones/MiHouse.ogg|41</item>
-        <item>file:///system/media/audio/ringtones/MiJazz.ogg|42</item>
-        <item>file:///system/media/audio/ringtones/MiRemix.ogg|43</item>
-        <item>file:///system/media/audio/ringtones/MountainSpring.ogg|44</item>
-        <item>file:///system/media/audio/ringtones/Orange.ogg|45</item>
-        <item>file:///system/media/audio/ringtones/SpaceAge.ogg|47</item>
-        <item>file:///system/media/audio/ringtones/ToyRobot.ogg|48</item>
-        <item>file:///system/media/audio/ringtones/Vigor.ogg|49</item>
-        <item>file:///system/media/audio/notifications/WindChime.ogg|46</item>
-        <item>file:///system/media/audio/notifications/Bottle.ogg|50</item>
-        <item>file:///system/media/audio/notifications/Bubble.ogg|51</item>
-        <item>file:///system/media/audio/notifications/Bullfrog.ogg|52</item>
-        <item>file:///system/media/audio/notifications/Burst.ogg|53</item>
-        <item>file:///system/media/audio/notifications/Chirp.ogg|54</item>
-        <item>file:///system/media/audio/notifications/Clank.ogg|55</item>
-        <item>file:///system/media/audio/notifications/Crystal.ogg|56</item>
-        <item>file:///system/media/audio/notifications/FadeIn.ogg|57</item>
-        <item>file:///system/media/audio/notifications/FadeOut.ogg|58</item>
-        <item>file:///system/media/audio/notifications/Flute.ogg|59</item>
-        <item>file:///system/media/audio/notifications/Fresh.ogg|60</item>
-        <item>file:///system/media/audio/notifications/Frog.ogg|61</item>
-        <item>file:///system/media/audio/notifications/Guitar.ogg|62</item>
-        <item>file:///system/media/audio/notifications/Harp.ogg|63</item>
-        <item>file:///system/media/audio/notifications/IncomingMessage.ogg|64</item>
-        <item>file:///system/media/audio/notifications/MessageSent.ogg|65</item>
-        <item>file:///system/media/audio/notifications/Moment.ogg|66</item>
-        <item>file:///system/media/audio/notifications/NotificationXylophone.ogg|67</item>
-        <item>file:///system/media/audio/notifications/Potion.ogg|68</item>
-        <item>file:///system/media/audio/notifications/Radar.ogg|69</item>
-        <item>file:///system/media/audio/notifications/Spring.ogg|70</item>
-        <item>file:///system/media/audio/notifications/Swoosh.ogg|71</item>
-        <item>file:///system/media/audio/ringtones/Atlantis.ogg|154</item>
-        <item>file:///system/media/audio/ringtones/DigitalUniverse.ogg|155</item>
-        <item>file:///system/media/audio/ringtones/Reveries.ogg|156</item>
+    <string-array name="config_reduceBrightColorsCoefficients">
+        <item>-0.000000000000001</item>
+        <item>-0.955555555555554</item>
+        <item>1.000000000000000</item>
     </string-array>
+    <string-array name="config_reduceBrightColorsCoefficientsNonlinear">
+        <item>-0.4429953456</item>
+        <item>-0.2434077725</item>
+        <item>0.9809063061</item>
+    </string-array>
+    <array name="config_restrictedImagesServices" />
     <array name="config_ringtoneEffectUris" />
     <integer-array name="config_safeModeEnabledVibePattern">
         <item>0</item>
@@ -491,7 +462,8 @@
         <item>com.android.systemui</item>
     </string-array>
     <array name="config_twoDigitNumberPattern" />
-    <array name="config_usbHostBlacklist" />
+    <array name="config_udfps_sensor_props" />
+    <array name="config_usbHostDenylist" />
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
         <item>10</item>
@@ -501,11 +473,9 @@
     <string-array name="config_vvmSmsFilterRegexes">
         <item>310004,310010,310012,310013,310590,310890,310910,311110,311270,311271,311272,311273,311274,311275,311276,311277,311278,311279,311280,311281,311282,311283,311284,311285,311286,311287,311288,311289,311390,311480,311481,311482,311483,311484,311485,311486,311487,311488,311489;^//VZWVVM.*</item>
     </string-array>
-    <array name="config_wakeonlan_supported_interfaces" />
     <string-array name="config_wearActivityModeRadios">
         <item>wifi</item>
     </string-array>
-    <array name="config_wifi_dual_sap_interfaces" />
     <array name="correct_brightness_game">
         <item>0.0733</item>
         <item>0.0733</item>
@@ -553,6 +523,10 @@
         <item>com.miui.videoplayer</item>
         <item>com.google.android.youtube</item>
         <item>com.sohu.sohuvideo</item>
+    </string-array>
+    <string-array name="crossSimSpnFormats">
+        <item>@string/crossSimFormat_spn</item>
+        <item>@string/crossSimFormat_spn_cross_sim_calling</item>
     </string-array>
     <array name="cross_profile_apps" />
     <array name="dial_string_replace" />
@@ -675,6 +649,7 @@
         <item>Other</item>
         <item>Custom</item>
     </string-array>
+    <array name="policy_exempt_apps" />
     <string-array name="postalAddressTypes">
         <item>Home</item>
         <item>Work</item>
@@ -794,12 +769,14 @@
     <string-array name="required_apps_managed_profile">
         <item>com.android.contacts</item>
         <item>com.android.settings</item>
+        <item>com.android.systemui</item>
         <item>com.android.providers.downloads</item>
         <item>com.android.providers.downloads.ui</item>
         <item>com.android.documentsui</item>
     </string-array>
     <string-array name="required_apps_managed_user">
         <item>com.android.settings</item>
+        <item>com.android.systemui</item>
         <item>com.android.contacts</item>
         <item>com.android.dialer</item>
         <item>com.android.stk</item>
@@ -921,6 +898,7 @@
         <item>ca-FR</item>
         <item>ca-IT</item>
         <item>ce-RU</item>
+        <item>ceb-PH</item>
         <item>cgg-UG</item>
         <item>chr-US</item>
         <item>cs-CZ</item>
@@ -936,15 +914,18 @@
         <item>de-LI</item>
         <item>de-LU</item>
         <item>dje-NE</item>
+        <item>doi-IN</item>
         <item>dsb-DE</item>
         <item>dua-CM</item>
         <item>dyo-SN</item>
         <item>dz-BT</item>
+        <item>dz-BT-u-nu-latn</item>
         <item>ebu-KE</item>
         <item>ee-GH</item>
         <item>ee-TG</item>
         <item>el-CY</item>
         <item>el-GR</item>
+        <item>en-AE</item>
         <item>en-AG</item>
         <item>en-AI</item>
         <item>en-AS</item>
@@ -1082,10 +1063,42 @@
         <item>fa-AF-u-nu-latn</item>
         <item>fa-IR</item>
         <item>fa-IR-u-nu-latn</item>
-        <item>ff-CM</item>
-        <item>ff-GN</item>
-        <item>ff-MR</item>
-        <item>ff-SN</item>
+        <item>ff-Adlm-BF</item>
+        <item>ff-Adlm-BF-u-nu-latn</item>
+        <item>ff-Adlm-CM</item>
+        <item>ff-Adlm-CM-u-nu-latn</item>
+        <item>ff-Adlm-GH</item>
+        <item>ff-Adlm-GH-u-nu-latn</item>
+        <item>ff-Adlm-GM</item>
+        <item>ff-Adlm-GM-u-nu-latn</item>
+        <item>ff-Adlm-GN</item>
+        <item>ff-Adlm-GN-u-nu-latn</item>
+        <item>ff-Adlm-GW</item>
+        <item>ff-Adlm-GW-u-nu-latn</item>
+        <item>ff-Adlm-LR</item>
+        <item>ff-Adlm-LR-u-nu-latn</item>
+        <item>ff-Adlm-MR</item>
+        <item>ff-Adlm-MR-u-nu-latn</item>
+        <item>ff-Adlm-NE</item>
+        <item>ff-Adlm-NE-u-nu-latn</item>
+        <item>ff-Adlm-NG</item>
+        <item>ff-Adlm-NG-u-nu-latn</item>
+        <item>ff-Adlm-SL</item>
+        <item>ff-Adlm-SL-u-nu-latn</item>
+        <item>ff-Adlm-SN</item>
+        <item>ff-Adlm-SN-u-nu-latn</item>
+        <item>ff-Latn-BF</item>
+        <item>ff-Latn-CM</item>
+        <item>ff-Latn-GH</item>
+        <item>ff-Latn-GM</item>
+        <item>ff-Latn-GN</item>
+        <item>ff-Latn-GW</item>
+        <item>ff-Latn-LR</item>
+        <item>ff-Latn-MR</item>
+        <item>ff-Latn-NE</item>
+        <item>ff-Latn-NG</item>
+        <item>ff-Latn-SL</item>
+        <item>ff-Latn-SN</item>
         <item>fi-FI</item>
         <item>fil-PH</item>
         <item>fo-DK</item>
@@ -1138,6 +1151,7 @@
         <item>fr-YT</item>
         <item>fur-IT</item>
         <item>fy-NL</item>
+        <item>ga-GB</item>
         <item>ga-IE</item>
         <item>gd-GB</item>
         <item>gl-ES</item>
@@ -1157,6 +1171,7 @@
         <item>hsb-DE</item>
         <item>hu-HU</item>
         <item>hy-AM</item>
+        <item>ia-001</item>
         <item>ig-NG</item>
         <item>ii-CN</item>
         <item>in-ID</item>
@@ -1164,10 +1179,12 @@
         <item>it-CH</item>
         <item>it-IT</item>
         <item>it-SM</item>
+        <item>it-VA</item>
         <item>iw-IL</item>
         <item>ja-JP</item>
         <item>jgo-CM</item>
         <item>jmc-TZ</item>
+        <item>jv-ID</item>
         <item>ka-GE</item>
         <item>kab-DZ</item>
         <item>kam-KE</item>
@@ -1203,6 +1220,7 @@
         <item>luo-KE</item>
         <item>luy-KE</item>
         <item>lv-LV</item>
+        <item>mai-IN</item>
         <item>mas-KE</item>
         <item>mas-TZ</item>
         <item>mer-KE</item>
@@ -1210,23 +1228,31 @@
         <item>mg-MG</item>
         <item>mgh-MZ</item>
         <item>mgo-CM</item>
+        <item>mi-NZ</item>
         <item>mk-MK</item>
         <item>ml-IN</item>
         <item>mn-MN</item>
+        <item>mni-IN</item>
+        <item>mni-IN-u-nu-latn</item>
         <item>mr-IN</item>
+        <item>mr-IN-u-nu-latn</item>
         <item>ms-BN</item>
+        <item>ms-ID</item>
         <item>ms-MY</item>
         <item>ms-SG</item>
         <item>mt-MT</item>
         <item>my-MM</item>
         <item>my-MM-u-nu-latn</item>
         <item>mzn-IR</item>
+        <item>mzn-IR-u-nu-latn</item>
         <item>naq-NA</item>
         <item>nb-NO</item>
         <item>nb-SJ</item>
         <item>nd-ZW</item>
         <item>ne-IN</item>
+        <item>ne-IN-u-nu-latn</item>
         <item>ne-NP</item>
+        <item>ne-NP-u-nu-latn</item>
         <item>nl-AW</item>
         <item>nl-BE</item>
         <item>nl-BQ</item>
@@ -1244,13 +1270,21 @@
         <item>os-GE</item>
         <item>os-RU</item>
         <item>pa-Arab-PK</item>
+        <item>pa-Arab-PK-u-nu-latn</item>
         <item>pa-Guru-IN</item>
+        <item>pcm-NG</item>
         <item>pl-PL</item>
         <item>ps-AF</item>
+        <item>ps-AF-u-nu-latn</item>
+        <item>ps-PK</item>
+        <item>ps-PK-u-nu-latn</item>
         <item>pt-AO</item>
         <item>pt-BR</item>
+        <item>pt-CH</item>
         <item>pt-CV</item>
+        <item>pt-GQ</item>
         <item>pt-GW</item>
+        <item>pt-LU</item>
         <item>pt-MO</item>
         <item>pt-MZ</item>
         <item>pt-PT</item>
@@ -1272,9 +1306,15 @@
         <item>ru-UA</item>
         <item>rw-RW</item>
         <item>rwk-TZ</item>
+        <item>sa-IN</item>
         <item>sah-RU</item>
         <item>saq-KE</item>
+        <item>sat-IN</item>
+        <item>sat-IN-u-nu-latn</item>
         <item>sbp-TZ</item>
+        <item>sd-Arab-PK</item>
+        <item>sd-Arab-PK-u-nu-latn</item>
+        <item>sd-Deva-IN</item>
         <item>se-FI</item>
         <item>se-NO</item>
         <item>se-SE</item>
@@ -1301,6 +1341,7 @@
         <item>sr-Latn-ME</item>
         <item>sr-Latn-RS</item>
         <item>sr-Latn-XK</item>
+        <item>su-ID</item>
         <item>sv-AX</item>
         <item>sv-FI</item>
         <item>sv-SE</item>
@@ -1315,10 +1356,13 @@
         <item>te-IN</item>
         <item>teo-KE</item>
         <item>teo-UG</item>
+        <item>tg-TJ</item>
         <item>th-TH</item>
+        <item>tk-TM</item>
         <item>to-TO</item>
         <item>tr-CY</item>
         <item>tr-TR</item>
+        <item>tt-RU</item>
         <item>twq-NE</item>
         <item>tzm-MA</item>
         <item>ug-CN</item>
@@ -1328,11 +1372,13 @@
         <item>ur-PK</item>
         <item>ur-PK-u-nu-arabext</item>
         <item>uz-Arab-AF</item>
+        <item>uz-Arab-AF-u-nu-latn</item>
         <item>uz-Cyrl-UZ</item>
         <item>uz-Latn-UZ</item>
         <item>vi-VN</item>
         <item>vun-TZ</item>
         <item>wae-CH</item>
+        <item>wo-SN</item>
         <item>xog-UG</item>
         <item>yav-CM</item>
         <item>yo-BJ</item>
@@ -1360,11 +1406,11 @@
         <item>com.tencent.tmgp.pubgmhd</item>
         <item>com.tencent.tmgp.sgame</item>
     </string-array>
-    <array name="vendor_allowed_personal_apps_org_owned_device" />
     <array name="vendor_cross_profile_apps" />
     <array name="vendor_disallowed_apps_managed_device" />
     <array name="vendor_disallowed_apps_managed_profile" />
     <array name="vendor_disallowed_apps_managed_user" />
+    <array name="vendor_policy_exempt_apps" />
     <array name="vendor_required_apps_managed_device" />
     <array name="vendor_required_apps_managed_profile" />
     <array name="vendor_required_apps_managed_user" />
