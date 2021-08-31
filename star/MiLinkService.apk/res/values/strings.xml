@@ -31,7 +31,7 @@
     <string name="actionbar_button_up_description">Back</string>
     <string name="afternoon">Afternoon</string>
     <string name="am">AM</string>
-    <string name="app_name">Casting</string>
+    <string name="app_name">clientSDK</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -157,8 +157,8 @@
     <string name="dialog_miplay_permission_positive">Settings</string>
     <string name="dialog_miplay_permission_title">Permissions required</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on Wi-Fi to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message"><Data>1. Connect both your phone and TV to the same Wi-Fi network.&lt;br>&lt;br>2. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
-    <string name="dialog_no_device_message_china"><Data>1. Connect both your phone and TV to the same Wi-Fi network.&lt;br>&lt;br>2. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same Wi-Fi network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same Wi-Fi network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Stream photos, videos, or music</string>
     <string name="dialog_open_wifi_bt">Turn on</string>
@@ -166,17 +166,17 @@
 View help if you have problems connecting."</string>
     <string name="dialog_recent_connected">Recent</string>
     <string name="dialog_retry">Try again</string>
-    <string name="dialog_scan_message">"1. Connect both your phone and TV to the same Wi-Fi network.
+    <string name="dialog_scan_message">"%1$d. Connect both your mobile device and TV to the same Wi-Fi network.
 
-2. On some TV models, this feature is only available when screen mirroring is on. View \"Help\" to learn more."</string>
-    <string name="dialog_scan_message_china">"1. Connect both your phone and TV to the same Wi-Fi network.
+%2$d. View \"Help\" to learn more."</string>
+    <string name="dialog_scan_message_china">"%1$d. Connect both your mobile device and TV to the same Wi-Fi network.
 
-2. On some TV models, this feature is only available when screen mirroring is on. View \"Help\" to learn more."</string>
+%2$d. View \"Help\" to learn more."</string>
     <string name="dialog_scanning_device">Searching for devices nearby…</string>
     <string name="dialog_scanning_precondition">Turn on Wi-Fi and Bluetooth on your phone to use Wireless Display.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on Wi-Fi, Bluetooth, and location services to be able to use casting. Turn on now?</string>
     <string name="dialog_scanning_precondition_new_global">Turn on Wi-Fi, Bluetooth, and location services to be able to use casting. Turn on now?</string>
-    <string name="dialog_select_tv">Select device (%d)</string>
+    <string name="dialog_select_tv">Select device (%1$d)</string>
     <string name="dialog_show_help">Help</string>
     <string name="disconnect">Stop casting</string>
     <string name="early_morning">Morning</string>
@@ -201,56 +201,56 @@ View help if you have problems connecting."</string>
     <string name="file_read_des">For displaying photos and other files on external monitors</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
-    <string name="fmt_date_day">dd</string>
+    <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
-    <string name="fmt_date_long_month_day">MMMM dd</string>
+    <string name="fmt_date_long_month_day">MMMM d</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">MMMM dd, yyyy</string>
-    <string name="fmt_date_numeric_day">dd</string>
-    <string name="fmt_date_numeric_month">MM</string>
+    <string name="fmt_date_long_year_month_day">MMMM d, yyyy</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">M/d</string>
     <string name="fmt_date_numeric_year">yyyy</string>
     <string name="fmt_date_numeric_year_month">M/yyyy</string>
     <string name="fmt_date_numeric_year_month_day">M/d/yyyy</string>
-    <string name="fmt_date_short_month">MM</string>
-    <string name="fmt_date_short_month_day">MM/dd</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">MMM d</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_short_year_month_day">MMM d, yyyy</string>
     <string name="fmt_date_time">D T</string>
-    <string name="fmt_date_time_timezone">zD T</string>
-    <string name="fmt_date_timezone">zD</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">hh:mm a</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S a</string>
-    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss a</string>
-    <string name="fmt_time_12hour_pm">hh a</string>
-    <string name="fmt_time_24hour">HH</string>
+    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"HH 'o''clock'"</string>
     <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
+    <string name="fmt_time_24hour_minute_second">HH:mm:ss</string>
     <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
-    <string name="fmt_time_timezone">zT</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'min'"</string>
+    <string name="fmt_time_minute_second">"m'min' s's'"</string>
+    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
+    <string name="fmt_time_second">"s's'"</string>
+    <string name="fmt_time_second_millis">"s.S's'"</string>
+    <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">DW</string>
-    <string name="fmt_weekday_date_time">DW T</string>
-    <string name="fmt_weekday_date_time_timezone">zDW T</string>
-    <string name="fmt_weekday_date_timezone">zDW</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
-    <string name="fmt_weekday_time_timezone">zW T</string>
-    <string name="fmt_weekday_timezone">zW</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
@@ -286,30 +286,34 @@ View help if you have problems connecting."</string>
     <string name="help_page_text_02">What is casting?</string>
     <string name="help_page_text_03">"Casting is projecting the items from your phone's screen on a bigger external monitor. It allows you to share images and videos with your friends and family without using mobile data."</string>
     <string name="help_page_text_04">How do I cast items on a bigger screen?</string>
-    <string name="help_page_text_05">Step 1: Check your devices and network environment</string>
-    <string name="help_page_text_06">"1. You don't need to connect to the internet if you want to cast something from a Mi phone to a Mi TV.
-2. If you can't establish connection between the two devices, try connecting both of them to the same Wi-Fi network."</string>
-    <string name="help_page_text_06_global">"1. Mi TVs, Mi Boxes, and Mi Projectors:
-Connect both your phone and external monitor to the same Wi-Fi network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
-Note: Older Mi TVs might not support casting across different networks.
-2. If you're using TVs, set-top boxes, or projectors of other brands, connect both your phone and external monitor to the same Wi-Fi network.
+    <string name="help_page_text_05">Step %1$d: Check your devices and network environment</string>
+    <string name="help_page_text_06">"%1$d. Xiaomi TVs, set-top boxes, projectors:
+Connect both your mobile device and external monitor to the same Wi-Fi network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
+Note: Older TV models might not support casting across different networks.
+%2$d. If you're using TVs, set-top boxes, or projectors of other brands, connect both your mobile device and external monitor to the same Wi-Fi network.
 If the two devices can't be connected to the same network, turn on Miracast on your external monitor. The naming of Miracast functionality might vary."</string>
-    <string name="help_page_text_08">Step 2: Turn on casting</string>
+    <string name="help_page_text_06_global">"%1$d. Xiaomi TVs, set-top boxes, projectors:
+Connect both your mobile device and external monitor to the same Wi-Fi network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
+Note: Older TV models might not support casting across different networks.
+%2$d. If you're using TVs, set-top boxes, or projectors of other brands, connect both your mobile device and external monitor to the same Wi-Fi network.
+If the two devices can't be connected to the same network, turn on Miracast on your external monitor. The naming of Miracast functionality might vary."</string>
+    <string name="help_page_text_08">Step %1$d: Turn on casting</string>
     <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both Wi-Fi and Bluetooth for a more stable connection."</string>
-    <string name="help_page_text_10">If you want to cast items from Gallery or Mi Video, you can use built-in casting features in these apps.</string>
-    <string name="help_page_text_11">Step 3: Select device</string>
+    <string name="help_page_text_09_global">"Tap the \"Cast\" toggle on your device's Notification shade. Turn on both Wi-Fi and Bluetooth for a more stable connection."</string>
+    <string name="help_page_text_10">If you want to cast photos, videos, games, or presentations, you can use built-in casting features in the corresponding apps.</string>
+    <string name="help_page_text_11">Step %1$d: Select device</string>
     <string name="help_page_text_12">Select an external device from the list of the available devices to start casting.</string>
     <string name="help_page_text_13">"Can't connect to an external device?"</string>
-    <string name="help_page_text_14">"1. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
-Connect both your phone and the external monitor (e.g. your TV) to the same Wi-Fi network, or connect the external monitor to your phone's hotspot. If there aren't any Wi-Fi networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your phone and the external monitor, and turn on Miracast on your TV. 
-2. If you're casting on a Xiaomi device for the first time, you need to complete verification. 
-3. If you want to use a non-Xiaomi device, but can't find it in the list of available devices, try the following:
-Connect both your phone and the external monitor (e.g. your TV) to the same Wi-Fi network, or connect the external monitor to your phone's hotspot. If this doesn't help, install the LeEco casting app on your TV and follow the instructions."</string>
-    <string name="help_page_text_14_global">"1. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
-Connect both your phone and the external monitor (e.g. your TV) to the same Wi-Fi network, or connect the external monitor to your phone's hotspot. If there aren't any Wi-Fi networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your phone and the external monitor, and turn on Miracast on your TV.
-2. If you're casting on a Xiaomi device for the first time, you need to complete verification.
-3. If you want to use a non-Xiaomi device, but can't find it in the list of available devices, try the following:
-Connect both your phone and the external monitor (e.g. your TV) to the same Wi-Fi network, or connect the external monitor to your phone's hotspot."</string>
+    <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
+Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
+%2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
+%3$d. If you want to use a non-Xiaomi device, but can't find it in the list of available devices, try the following:
+Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If this doesn't help, install the HappyCast app on your TV and follow the instructions."</string>
+    <string name="help_page_text_14_global">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
+Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
+%2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
+%3$d. If you want to use a non-Xiaomi device, but can't find it in the list of available devices, try the following:
+Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot."</string>
     <string name="help_page_text_15">Miracast functionality on different devices</string>
     <string name="help_page_text_16">Mi TV/Mi Projector</string>
     <string name="help_page_text_17">"You can project items from your Mi phone on most Mi TV models with Bluetooth capabilities without turning on Miracast manually.
@@ -352,14 +356,15 @@ If you need to turn on Miracast, press the [MENU] button and select My apps > Ca
     <string name="help_page_text_52">First, make sure that Miracast functionality is supported on your device. On some of the models, you can turn this feature on in Settings > Networks > Multiple screens > Wireless Display.</string>
     <string name="help_page_text_53">LeEco customer support: 10109000</string>
     <string name="help_page_text_55">"If you can't connect to the network, make sure your external monitor supports Miracast functionality and it's turned on. On some models, this feature is called Wireless Display, Screen Mirroring, or Multiple screens. View the information below to learn how to turn on Miracast.
-4. If you encounter any issues, you can report them using our \"Services &amp; feedback\" app."</string>
+%1$d. If you encounter any issues, you can report them using our \"Services &amp; feedback\" app."</string>
     <string name="help_page_text_55_global">"If you can't connect to the network, make sure your external monitor supports Miracast functionality and it's turned on. On some models, this feature is called Wireless Display, Screen Mirroring, or Multiple screens.
-4. If you encounter any issues, you can report them using our \"Services &amp; feedback\" app."</string>
+%1$d. If you encounter any issues, you can report them using our \"Services &amp; feedback\" app."</string>
     <string name="help_page_text_end">"If the brand of your device isn't listed here, contact the manufacturer to learn more about casting functionality."</string>
     <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
     <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
     <string name="midnight">Night</string>
     <string name="mipaly_server_exit_touping">请先退出当前投屏</string>
+    <string name="miplay_service_timeout_toast">连接超时，请稍后重试</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -510,6 +515,7 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="sdk_name">lebo</string>
     <string name="search_menu_title">Search</string>
     <string name="send">Send</string>
+    <string name="service_name">MiplayAudio</string>
     <string name="small_window">Minimize window</string>
     <string name="small_window_not_supported">"Can't minimize this app while it's being cast"</string>
     <string name="solar_term_autumn_begins">Autumn begins</string>
