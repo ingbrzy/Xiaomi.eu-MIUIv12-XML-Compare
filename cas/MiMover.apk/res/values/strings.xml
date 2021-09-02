@@ -69,6 +69,7 @@
     <string name="button_return">Back</string>
     <string name="button_scanning">Scanning…</string>
     <string name="button_send">Send</string>
+    <string name="calendar_permission_desc">将日程信息迁移至新手机</string>
     <string name="calllog">Call history</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_moving_dialog_message">Stop importing now?</string>
@@ -177,10 +178,13 @@ Visit https://appleid.apple.com/#!&amp;page=signin to turn off"</string>
     <string name="connection_tips_other_title">If your old device is a third party Android phone:</string>
     <string name="connection_tips_owner_message">Mi Mover is pre-installed on all devices running MIUI 11. If you have an older MIUI version, you can download the latest version of Mi Mover in GetApps or use this link: %1$s.</string>
     <string name="connection_tips_owner_title">If your old device is a Mi phone:</string>
+    <string name="contact_records_permission_desc">将通话记录迁移至新手机</string>
     <string name="contacts">Contacts</string>
+    <string name="contacts_permission_desc">将联系人迁移至新手机</string>
     <string name="copy">Copy</string>
     <string name="current_user_not_supported_summary">Current system settings restrict transferring data using Mi Mover.</string>
     <string name="current_user_not_supported_title">"Can't transfer items"</string>
+    <string name="data_read_white_permission_desc">用于将旧手机数据迁移至新手机</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -428,6 +432,7 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="launcher">Home screen layout</string>
     <string name="less_than_1_minute">Less than 1 minute</string>
     <string name="loading_data">Just a sec…</string>
+    <string name="location_permission_desc">用于搜索附近的手机</string>
     <string name="location_permission_request">For connecting to other devices nearby</string>
     <string name="login">Sign in</string>
     <string name="login_failed">"Couldn't sign in. Try again."</string>
@@ -456,6 +461,7 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="manual_connection_content3">3. Enter this password on the old device to connect.</string>
     <string name="manual_connection_summary2">"If you can't find this hotspot, refresh the list of the available Wi-Fi networks and try again."</string>
     <string name="manual_connection_title">Connect to the old device manually</string>
+    <string name="marketSdkVersion">3.2.9</string>
     <string name="message_request_package_stats_perm">Mi Mover needs this permission to learn what apps are installed on a device and transfer these apps to another one.</string>
     <string name="midnight">Night</string>
     <string name="miui_need_location_permission_summary">"Allow Mi Mover to access your location in order to find devices nearby. You won't be able to use Mi Mover unless you grant this permission."</string>
@@ -530,6 +536,7 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="month_september_shortest">Sep</string>
     <string name="more">More</string>
     <string name="morning">Morning</string>
+    <string name="msg_permission_desc">将短信迁移至新手机</string>
     <string name="name_password_not_consistent">"The Apple ID and password you entered don't match"</string>
     <string name="need_location_permission_confirm">Settings</string>
     <string name="need_location_permission_summary">Allow Mi Mover to access your location to be able to find devices nearby.</string>
@@ -641,10 +648,13 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="permission_call_log_title">Accessing call history</string>
     <string name="permission_contacts_summary">For transferring contacts to your new device</string>
     <string name="permission_contacts_title">Accessing contacts</string>
+    <string name="permission_grant_request">迁移此项数据需要授予“%1$s”权限，请点击底部“去设置”前往授权</string>
     <string name="permission_locale_summary">For connecting nearby devices</string>
     <string name="permission_locale_title">Accessing location</string>
     <string name="permission_message_summary">For transferring messages to your new device</string>
     <string name="permission_message_title">Accessing SMS content</string>
+    <string name="permission_request_title">请授予“%1$s”权限</string>
+    <string name="permission_setting_button">去设置</string>
     <string name="permission_storage_summary">For transferring files and photos to your new device</string>
     <string name="permission_storage_title">Accessing and saving files and photos stored on your device</string>
     <string name="permission_wifi_summary">For transferring items to your new device</string>
@@ -674,6 +684,13 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="receiver_finish_title">"You're all set!"</string>
     <string name="reconnect">Connect again</string>
     <string name="recreate_soft_ap_tips">Tap the button below to try again.</string>
+    <string name="request_all_permission_content">"为了实现数据的迁移，需要您授权以下权限，点击底部按钮前往授权
+-获取定位信息
+-读取联系人
+-读取通话记录
+-读取短信
+-读写外部存储"</string>
+    <string name="request_all_permission_title">请授予数据迁移的所有必要权限</string>
     <string name="restore_data_to_device_content">"Your items were synced with Xiaomi Cloud.
 Sign in to your Mi Account to restore them."</string>
     <string name="restore_data_to_device_title">Restore items to this device</string>
@@ -917,15 +934,8 @@ Download and install Mi Mover."</string>
     <string name="wednesday">Wednesday</string>
     <string name="wednesday_short">Wed</string>
     <string name="wednesday_shortest">Wed</string>
-    <string name="xiaomi_update_sdk_bytes_unit">%1$sB</string>
-    <string name="xiaomi_update_sdk_connect_download_manager_fail">Connect Download Manager failed, please check the Download Manager state in the Application Management.</string>
-    <string name="xiaomi_update_sdk_dialog_message">"Introducing version %1$s
-Size: %2$s"</string>
-    <string name="xiaomi_update_sdk_dialog_message_diff">"Introducing version %1$s
-Delta update size: %2$s"</string>
-    <string name="xiaomi_update_sdk_dialog_title">%1$s update!</string>
-    <string name="xiaomi_update_sdk_external_storage_unavailable">Storage unavailable, please check the SD card.</string>
-    <string name="xiaomi_update_sdk_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_update_sdk_megabytes_unit">%1$sMB</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Not now</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">Update</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">An update is available</string>
     <string name="yesterday">Yesterday</string>
 </resources>
