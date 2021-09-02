@@ -303,6 +303,12 @@
         <item>-1.0dip</item>
         <item>0.0dip</item>
     </array>
+    <string-array name="miui_lite_fancy_icon_app">
+        <item>com.android.calendar</item>
+        <item>com.miui.weather2</item>
+        <item>com.android.deskclock</item>
+        <item>com.xiaomi.calendar</item>
+    </string-array>
     <string-array name="months">
         <item>@string/month_january</item>
         <item>@string/month_february</item>
@@ -412,6 +418,14 @@
         <item>7</item>
         <item>8</item>
         <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_provider_blacklist">
+        <item>content://com.android.thememanager.theme_lockwallpaper</item>
+        <item>content://com.android.thememanager.theme_lock_live_wallpaper</item>
+        <item>content://com.android.thememanager.theme_lock_video_wallpaper</item>
+        <item>content://com.android.thememanager.set_lockwallpaper</item>
+        <item>content://com.android.thememanager.loopwallpaper</item>
+        <item>content://com.miui.home.none_provider</item>
     </string-array>
     <string-array name="wallpaper_scroll_entries">
         <item>Theme default</item>
