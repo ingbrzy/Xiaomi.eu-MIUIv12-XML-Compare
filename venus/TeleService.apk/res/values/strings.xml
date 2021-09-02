@@ -60,6 +60,7 @@
     <string name="accessor_no_description_text">No description provided by the app.</string>
     <string name="actionbar_button_up_description">Back</string>
     <string name="active_input_method_subtypes">Active input methods</string>
+    <string name="activity_title_fakecell">Protection from fake base stations</string>
     <string name="adb_device_fingerprint_title_format">Device fingerprint: %1$s</string>
     <string name="adb_device_forget">Forget</string>
     <string name="adb_keys_warning_message">Revoke access to USB debugging from all computers you’ve previously authorized?</string>
@@ -861,6 +862,7 @@ Selection"</string>
     <string name="description_image_button_two">two</string>
     <string name="description_image_button_zero">zero</string>
     <string name="description_voicemail_button">voicemail</string>
+    <string name="detect_fakecell">Recognize SMS from fake base stations</string>
     <string name="dev_logpersist_clear_warning_message">When we no longer are monitoring with the persistent logger, we are required to erase the logger data resident on your device.</string>
     <string name="dev_logpersist_clear_warning_title">Clear logger persistent storage?</string>
     <string name="dev_settings_warning_message">These settings are intended for development use only. They can cause your device and the applications on it to break or misbehave.</string>
@@ -1175,6 +1177,8 @@ Selection"</string>
     <string name="fmt_weekday_timezone">W z</string>
     <string name="fold_answer_pref_summary">Fold the device to accept an incoming call automatically</string>
     <string name="fold_answer_pref_title">Fold to accept calls</string>
+    <string name="forbidden_fakecell">"Don't connect to fake base stations"</string>
+    <string name="forbidden_fakecell_summary">Prevent your phone from connecting to fake base stations</string>
     <string name="forbidden_network">(forbidden)</string>
     <string name="force_allow_on_external">Force allow apps on external</string>
     <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
@@ -1534,10 +1538,10 @@ Switch to the new provider anyway?"</string>
     <string name="mobile_data_status_roaming_turned_on_subtext">Data roaming is turned on</string>
     <string name="mobile_data_status_roaming_with_plan_subtext">Currently roaming, data plan is active</string>
     <string name="mobile_data_status_roaming_without_plan_subtext">Currently roaming, need data plan</string>
-    <string name="mobile_geo_location_config_summary">Mark abnormal locations of network signals to improve user communication experience</string>
-    <string name="mobile_geo_location_config_title">Fixed-point network quality optimization</string>
+    <string name="mobile_geo_location_config_summary">Mark locations where network signal abnormalities occur to improve call quality</string>
+    <string name="mobile_geo_location_config_title">Fixed-point network optimization</string>
     <string name="mobile_intelligent_connection_title">Mobile network intelligent optimization</string>
-    <string name="mobile_network_dual_card_optimizationmobile_title">Mobile network dual card optimization</string>
+    <string name="mobile_network_dual_card_optimizationmobile_title">Dual SIM &amp; mobile networks</string>
     <string name="mobile_network_settings_class">com.android.settings.network.telephony.MobileNetworkActivity</string>
     <string name="mobile_network_settings_not_available">Mobile network settings are not available for this user</string>
     <string name="mobile_network_settings_package">com.android.settings</string>
@@ -1774,6 +1778,7 @@ Please contact your operators"</string>
     <string name="not_allowed">"Your SIM card doesn't allow a connection to this network."</string>
     <string name="not_default_data_content_description">Not set to use data</string>
     <string name="not_set">Not set</string>
+    <string name="not_support_forbidden_fakecell">"Your device doesn't support chip level protection from fake base stations."</string>
     <string name="not_voice_capable">Voice calling not supported</string>
     <string name="notice_header" />
     <string name="notification_channel_demo">Demo device</string>
@@ -2233,6 +2238,9 @@ UT Interface: %5$s"</string>
     <string name="respond_via_sms_setting_summary">Edit pre-written text responses</string>
     <string name="respond_via_sms_setting_title">Quick responses</string>
     <string name="response_error">Unexpected response from network.</string>
+    <string name="restart_details">Turning this feature on or off requires rebooting your device. Reboot now?</string>
+    <string name="restart_later">Later</string>
+    <string name="restart_now">Reboot now</string>
     <string name="restaurants_disable">Restaurants disabled</string>
     <string name="restaurants_enable">Restaurants enabled</string>
     <string name="retail_demo_reset_message">Enter password to perform factory reset in demo mode</string>
@@ -2554,6 +2562,7 @@ Please confirm your default calling account setting."</string>
     <string name="supp_service_over_ut_precautions_dual_sim">To use %1$s, make sure mobile data is turned on for SIM %2$d. You can change this in mobile network settings.</string>
     <string name="supp_service_over_ut_precautions_roaming">To use %s, make sure mobile data and data roaming are turned on. You can change these in mobile network settings.</string>
     <string name="supp_service_over_ut_precautions_roaming_dual_sim">To use %1$s, make sure mobile data and data roaming are turned on for SIM %2$d. You can change these in mobile network settings.</string>
+    <string name="support_forbidden_fakecell">Note: Restricting connection to fake base stations may lower the signal in areas with poor coverage.</string>
     <string name="switch_dds_to_sub_alert">Set this card as your default data card.</string>
     <string name="switch_off">Off</string>
     <string name="switch_on">On</string>
