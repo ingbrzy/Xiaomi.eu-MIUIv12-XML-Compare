@@ -36,7 +36,6 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="access_denied_info">Too many attempts. Wait a minute or two and try again.</string>
     <string name="account_bind_secure_email_title">Add recovery email</string>
     <string name="account_bind_secure_phone_title">Add recovery phone number</string>
     <string name="account_crop_user_avatar">Crop photo</string>
@@ -80,6 +79,8 @@
     <string name="ad_download">Download</string>
     <string name="ad_join">Join community</string>
     <string name="ad_more">More</string>
+    <string name="add_local_shortcut_add">+Add</string>
+    <string name="add_local_shortcut_des">Add “My Video” to desktop to easily watch your local videos.</string>
     <string name="add_search_channel_link">URL</string>
     <string name="add_search_channel_name">Name</string>
     <string name="add_search_channel_tip">Search for \"%s\" on the target website, then copy and paste URL here.</string>
@@ -250,6 +251,7 @@
     <string name="choose_to_signin">Yes</string>
     <string name="choose_to_signup">"No, I'll create one"</string>
     <string name="clearable_edittext_clear_description">Clear</string>
+    <string name="click_to_open_pip">Tap to switch to picture-in-picture</string>
     <string name="click_to_reload_more">Tap to load more</string>
     <string name="click_to_retry">Try again</string>
     <string name="close">Close</string>
@@ -390,6 +392,8 @@ Send this code to the supervisor."</string>
     <string name="download_complete">Downloaded</string>
     <string name="download_delete_tip">Delete selected items?</string>
     <string name="download_delete_title">Delete</string>
+    <string name="download_guide_click_icon_to_website_or_enter_url">Tap a shortcut to open a website or enter URL</string>
+    <string name="download_guide_known">Got it</string>
     <string name="download_paused">Paused</string>
     <string name="download_pending">Pending…</string>
     <string name="download_power_off_tips">"This feature isn't available now"</string>
@@ -617,10 +621,14 @@ Send this code to the supervisor."</string>
     <string name="galleryplus_permission_content">Give Mi Video the required permissions to be able to use this feature.</string>
     <string name="galleryplus_permission_content_opt">Mi Video needs permissions to work normally. Clear all app data in the Settings and open the app again.</string>
     <string name="galleryplus_permission_content_xms">Mi Video needs permissions to work normally. Go to Settings and give Mi Video the required permissions.</string>
-    <string name="galleryplus_permission_open_settings">Settings</string>
-    <string name="galleryplus_permission_refuse">No thanks</string>
-    <string name="galleryplus_permission_retry">Permissions</string>
+    <string name="galleryplus_permission_open_settings">去开启</string>
+    <string name="galleryplus_permission_refuse">取消</string>
+    <string name="galleryplus_permission_retry">去开启</string>
+    <string name="galleryplus_permission_storage_content_reshowable">%s需请求读写手机存储权限，若需使用该功能请授权</string>
+    <string name="galleryplus_permission_storage_content_unreshowable">%s需请求读写手机存储权限，若需要使用该功能，请点击“设置”，进入应用详情页，在“权限”中，开启设备权限</string>
+    <string name="galleryplus_permission_storage_title">读写设备上的照片及文件</string>
     <string name="galleryplus_permission_title">Attention</string>
+    <string name="galleryplus_permission_video_player">视频播放功能</string>
     <string name="galleryplus_play_speed">%1$.1fX</string>
     <string name="galleryplus_restore_play_speed">Playing at the regular speed now</string>
     <string name="galleryplus_save_cancel_toast">Tap \"Back\" again to cancel saving video</string>
@@ -683,7 +691,7 @@ Send this code to the supervisor."</string>
     <string name="history_local_video">Local</string>
     <string name="history_online_video">Online</string>
     <string name="hot">Popular</string>
-    <string name="i_know">Got it</string>
+    <string name="i_know">OK</string>
     <string name="id_namespace">hungama</string>
     <string name="identity">Identification</string>
     <string name="inconsistent_pwd">"Passwords don't match"</string>
@@ -706,15 +714,6 @@ for videos"</string>
     <string name="language_setting_tips">Select your language preferences to receive more relevant content recommendations. You can change your language preferences in Profile > Language.</string>
     <string name="language_setting_tips_dialog">You can select language preferences for content in Account > Language.</string>
     <string name="later">Later</string>
-    <string name="library_android_database_sqlcipher_author">Zetetic, LLC</string>
-    <string name="library_android_database_sqlcipher_authorWebsite">https://www.zetetic.net/sqlcipher/</string>
-    <string name="library_android_database_sqlcipher_isOpenSource">true</string>
-    <string name="library_android_database_sqlcipher_libraryDescription">Android SQLite API based on SQLCipher</string>
-    <string name="library_android_database_sqlcipher_libraryName">SQLCipher for Android</string>
-    <string name="library_android_database_sqlcipher_libraryVersion">${clientVersionNumber}</string>
-    <string name="library_android_database_sqlcipher_libraryWebsite">https://www.zetetic.net/sqlcipher/</string>
-    <string name="library_android_database_sqlcipher_licenseLink">https://www.zetetic.net/sqlcipher/license/</string>
-    <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
     <string name="library_roundedimageview_author">Vince Mi</string>
     <string name="library_roundedimageview_authorWebsite">https://github.com/vinc3m1</string>
     <string name="library_roundedimageview_isOpenSource">true</string>
@@ -746,6 +745,7 @@ for videos"</string>
     <string name="local_video_notification_btn">Watch in Mi Video</string>
     <string name="local_video_notification_title">A new local video found</string>
     <string name="local_video_number_of_selected">Selected %1$d/%2$d</string>
+    <string name="local_video_shortcut_name">My videos</string>
     <string name="local_video_size">Size</string>
     <string name="local_video_space">Occupied: %s</string>
     <string name="local_video_time">Duration</string>
@@ -884,6 +884,7 @@ for videos"</string>
     <string name="lv_video_null">No videos</string>
     <string name="lv_volume">Volume</string>
     <string name="manage">Manage</string>
+    <string name="mediation_ad">AD</string>
     <string name="mediation_ad_can_not_share">"Can't share this video"</string>
     <string name="mi_video">Mi Video</string>
     <string name="midnight">Night</string>
@@ -992,9 +993,7 @@ for videos"</string>
     <string name="my_feedback_title">My feedback</string>
     <string name="need_update_app">Update Mi Video to use all its features</string>
     <string name="network_connect_info">"Couldn't connect to the network."</string>
-    <string name="network_error_info">A network error occurred. Check your network settings and try again.</string>
     <string name="network_failed">"Couldn't connect to the network"</string>
-    <string name="network_timeout_info">"Couldn't connect to the network. Try again."</string>
     <string name="neverthink_player_loading">Loading Neverthink video …</string>
     <string name="new_channel_tip">Take a look at new channels!</string>
     <string name="next">Next</string>
@@ -1033,7 +1032,7 @@ for videos"</string>
     <string name="off_tip_firework_recommend">"You won't receive personalized content recommendations from Firework"</string>
     <string name="ok">OK</string>
     <string name="on_tip_firework_recommend">"You'll receive personalized content recommendations from Firework"</string>
-    <string name="open_settings">Settings</string>
+    <string name="open_settings">Go to settings</string>
     <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Recent subscriptions</string>
     <string name="order_recently_updated">Recently updated</string>
@@ -1072,6 +1071,8 @@ for videos"</string>
     <string name="ovp_favor">Favorites</string>
     <string name="ovp_favor_null">No items here.</string>
     <string name="ovp_feedback_title">Mi Video feedback</string>
+    <string name="ovp_hint_new">New</string>
+    <string name="ovp_hint_the_latest_version">Up to date</string>
     <string name="ovp_home_folder_is_null_jump_upfolder_tip">"Couldn't find media file. Jumped to the upper-level folder."</string>
     <string name="ovp_home_item_camera">Gallery</string>
     <string name="ovp_home_item_download">Downloads</string>
@@ -1087,6 +1088,7 @@ for videos"</string>
     <string name="ovp_local_videos_title">Local videos</string>
     <string name="ovp_navigation_category">Category</string>
     <string name="ovp_navigation_content">Content cooperation</string>
+    <string name="ovp_navigation_darkmode">Dark mode</string>
     <string name="ovp_navigation_favorites">Favorites</string>
     <string name="ovp_navigation_feedback">Feedback</string>
     <string name="ovp_navigation_history">History</string>
@@ -1096,6 +1098,7 @@ for videos"</string>
     <string name="ovp_navigation_notice">Notifications</string>
     <string name="ovp_navigation_setting">Settings</string>
     <string name="ovp_navigation_subscribe">Subscription</string>
+    <string name="ovp_navigation_version_update">Check for updates</string>
     <string name="ovp_player_cached_error_btn">Online videos</string>
     <string name="ovp_player_cached_error_hint_info">"Can't play local videos now"</string>
     <string name="ovp_player_plugin_dlg_neg_btn">Close</string>
@@ -1380,9 +1383,9 @@ Increase the security of your account."</string>
     <string name="plus_tab_gallery">Folders</string>
     <string name="plus_tab_time">Timeline</string>
     <string name="pm">PM</string>
+    <string name="popup_click_for_download_video">Download video</string>
     <string name="privacy_revoke_setting">By toggling off the switch, you withdraw your consent to the Privacy Policy of Mi Video.</string>
     <string name="privacy_revoke_title">Withdrawal of consent</string>
-    <string name="progressbar_title">Checking for security issues…</string>
     <string name="project_id">global-video-5cd70</string>
     <string name="psw_hint">Password</string>
     <string name="psw_sign_in">Sign in using password</string>
@@ -1397,6 +1400,14 @@ Increase the security of your account."</string>
     <string name="pw_channels">Channels</string>
     <string name="qq_application_id" />
     <string name="qq_login_protocol_scheme">com.xiaomi.passport.ui</string>
+    <string name="question_click_bottom_tab">You can also tap a shortcut to open a website.</string>
+    <string name="question_click_with_light">Tap the download button after it lights up.</string>
+    <string name="question_edit_url_here">Search or enter URL here.</string>
+    <string name="question_how_to_download_video">How can I download videos?</string>
+    <string name="question_known">Got it</string>
+    <string name="question_look_video_here">Downloaded videos will be saved here.</string>
+    <string name="question_next">Next</string>
+    <string name="question_step">Skip</string>
     <string name="read_and_agree">Agree</string>
     <string name="recommend_channels">Recommended channels</string>
     <string name="recommend_online_switch">Online recommendations</string>
@@ -1423,7 +1434,7 @@ Increase the security of your account."</string>
     <string name="report_content_violence">Hate speech</string>
     <string name="report_fail">"Couldn't report. Try again."</string>
     <string name="report_success">Reported successfully</string>
-    <string name="request_camera_permission_message">"We shall protect your personal information in accordance with the relevant laws and regulations. This app needs the following permissions to work normally:&lt;br>&lt;br>&lt;b>Using camera (for setting your profile photo)&lt;/b>&lt;br>&lt;br>If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
+    <string name="request_camera_permission_message">This service need to ask your permission follows, we will strictly abide by relevant laws to protect your personal information: &lt;br>&lt;br>&lt;b> Access Camera: experience real-time recording services for setting Avatar &lt;/b>&lt;br>&lt;br> If you do not agree to call the above permissions, this function will not work properly, but it will not affect your use of the basic functions of this application. You can choose to turn off the above permission call in the system settings to withdraw your consent.</string>
     <string name="resend_active_email">Resend</string>
     <string name="resend_email_reach_limit_message">"You've requested too many verification emails. Make sure that the verification email isn't in your inbox's Spam folder."</string>
     <string name="resend_email_reach_limit_title">Too many attempts</string>
@@ -1554,7 +1565,6 @@ Increase the security of your account."</string>
     <string name="sync_favorites_limit">"There are more than 500 videos in your favorites. We'll have to delete some of the earlier videos to continue syncing."</string>
     <string name="sync_favorites_message">Sync favorites from this device to your account? Items that are no longer available will be removed.</string>
     <string name="sync_favorites_title">Sync favorites</string>
-    <string name="system_error_info">System is busy. Wait a minute or two and try again.</string>
     <string name="t_check_hide_file">Select items to hide</string>
     <string name="t_check_unhide_file">Select items to unhide</string>
     <string name="t_downloading">Downloading:</string>
@@ -1575,6 +1585,7 @@ Increase the security of your account."</string>
     <string name="t_password_null">"Password can't be blank"</string>
     <string name="t_password_wrong">The password you entered is incorrect. Try again.</string>
     <string name="t_start_download">Starting to download:</string>
+    <string name="tab_name_download">Downloads</string>
     <string name="tab_name_local">Local</string>
     <string name="tab_name_me">Profile</string>
     <string name="tab_name_moment">Moments</string>
@@ -1660,7 +1671,6 @@ Increase the security of your account."</string>
     <string name="ui_common_title_back">Back</string>
     <string name="ui_log_tip">Tap this area to hide, press and hold to clear old logs. Drag logs manually.</string>
     <string name="unknow">Unknown</string>
-    <string name="unknown_error_info">Unknown error</string>
     <string name="update">Update</string>
     <string name="update_email_address_dialog_message">You need to verify your identity before you update the recovery email.</string>
     <string name="update_email_address_dialog_title">Update recovery email</string>
