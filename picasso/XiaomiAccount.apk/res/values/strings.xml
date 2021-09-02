@@ -31,6 +31,7 @@
     <string name="access_token_expired_warning">Weibo Account has expired</string>
     <string name="access_token_invalid_warning">Weibo Account is invalid</string>
     <string name="account">Account</string>
+    <string name="account_and_password">Password</string>
     <string name="account_bind_devices">Devices</string>
     <string name="account_bind_secure_email_title">Add email</string>
     <string name="account_bind_secure_phone_title">Add phone number</string>
@@ -75,7 +76,11 @@
     <string name="account_user_name_dialog_title">Enter username</string>
     <string name="account_user_other_info">More sources</string>
     <string name="account_user_phone">Recovery phone</string>
+    <string name="account_user_phone_show">Phone: %s</string>
     <string name="account_user_region">Region</string>
+    <string name="account_verify_guide_bind_mail_desc">Add a recovery email</string>
+    <string name="account_verify_guide_bind_phone_desc">Add a recovery phone</string>
+    <string name="account_verify_guide_set_password_desc">Set a password</string>
     <string name="account_xiaomi_service">Services</string>
     <string name="action_add_phone">Add phone number</string>
     <string name="action_retry">Try again</string>
@@ -287,6 +292,7 @@ Send this code to the supervisor."</string>
     <string name="facebook_app_id">2263965750590514</string>
     <string name="facebook_login">Sign in with Facebook</string>
     <string name="failed_dup_secure_phone_number">This phone number is already associated with another Mi Account</string>
+    <string name="family_share">Family sharing</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Find device</string>
     <string name="find_device_access_denied">"Can't get status, access denied"</string>
@@ -316,6 +322,7 @@ Send this code to the supervisor."</string>
     <string name="find_device_set_lost_model">Lost mode</string>
     <string name="find_device_title">Find device</string>
     <string name="find_device_unknown_error">"Can't get device status. Wait a minute or two and try again."</string>
+    <string name="find_equipment">Find device</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -372,6 +379,7 @@ Send this code to the supervisor."</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
+    <string name="get_back_password">Reset password</string>
     <string name="get_back_pwd">Resetting password</string>
     <string name="get_device_list_failed">"Can't get devices"</string>
     <string name="get_identity_auth_url_failed">"Couldn't verify ID"</string>
@@ -423,6 +431,7 @@ Send this code to the supervisor."</string>
     <string name="mi_finance">My finances</string>
     <string name="mi_finance_info">Bonuses for new users</string>
     <string name="mi_health">Xiaomi Health</string>
+    <string name="mi_member">Mi Community</string>
     <string name="mi_vip_info">View privileges</string>
     <string name="midnight">Night</string>
     <string name="mipay">Pay</string>
@@ -433,6 +442,8 @@ Send this code to the supervisor."</string>
     <string name="mipay_indentity_done">Verified</string>
     <string name="mipay_others">Other</string>
     <string name="mipay_transit_card">Transport card</string>
+    <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_alphabet_indexer_name">Index bar</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -447,6 +458,7 @@ Send this code to the supervisor."</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -503,14 +515,18 @@ Send this code to the supervisor."</string>
     <string name="my_device_title">Current device</string>
     <string name="need_install_wechat">Install WeChat first</string>
     <string name="night">Evening</string>
+    <string name="no_install">Not installed</string>
     <string name="no_network_btn">Refresh</string>
     <string name="no_network_title">"Can't connect to the network."</string>
+    <string name="no_password_set">Not set</string>
     <string name="no_phone">No phone number</string>
     <string name="no_response_retry">No response, try again.</string>
     <string name="no_sim_card_or_unactivated">"SIM card isn't installed or activated"</string>
     <string name="nobind">Not connected</string>
     <string name="noon">Midday</string>
     <string name="not_set">Not set</string>
+    <string name="notify_bind_security_phone">Add a recovery phone</string>
+    <string name="notify_complete_security_info">Add recovery info</string>
     <string name="notify_network_restricted_content_bg_network">"Mi Account's internet access is restricted. Tap to allow."</string>
     <string name="notify_network_restricted_content_hidden_state">"Mi Account's background activity is restricted. Tap to allow."</string>
     <string name="notify_network_restricted_content_mobile_network">"Mi Account's internet access is restricted. Tap to allow."</string>
@@ -782,6 +798,7 @@ Send this code to the supervisor."</string>
     <string name="permission_group_phone">Phone</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Storage</string>
+    <string name="personal_info_desc">Photo, nickname, and more</string>
     <string name="phone_num_use_for">Phone number is used for:</string>
     <string name="photoPickerNotFoundText">No photos available.</string>
     <string name="pm">PM</string>
@@ -828,6 +845,7 @@ Send this code to the supervisor."</string>
     <string name="search_user_detail_path">Settings/Mi Account/Personal info</string>
     <string name="search_user_detail_top_key_words">Personal info,Change Profile photo,Change Username,Change Nickname,Change Birthday,Change Gender</string>
     <string name="select_all">Select all</string>
+    <string name="self_account_info">Personal info</string>
     <string name="send">Send</string>
     <string name="send_diagnosis_log">Send diagnosis log</string>
     <string name="send_email_activate_message">Verification email sent</string>
@@ -921,6 +939,7 @@ Send this code to the supervisor."</string>
     <string name="the_united_nations_day">United Nations Day</string>
     <string name="the_valentines_day">"Valentine's Day"</string>
     <string name="the_water_lantern_festival">Water Lantern Festival</string>
+    <string name="third_party_login">Third-party accounts</string>
     <string name="thursday">Thursday</string>
     <string name="thursday_short">Thu</string>
     <string name="thursday_shortest">Thu</string>
