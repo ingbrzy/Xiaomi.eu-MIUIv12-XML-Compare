@@ -1272,6 +1272,7 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %1$s.</string>
     <string name="bluetooth_pairing_request">Pair with %1$s?</string>
     <string name="bluetooth_pairing_shares_phonebook">Allow access to your contacts and call history</string>
+    <string name="bluetooth_pairing_shares_phonebook_not_support_voice">Allow to access contacts</string>
     <string name="bluetooth_pairing_toast_add_to_blackfile">Blocked successfully. You can manage blocked items in \"Additional settings\".</string>
     <string name="bluetooth_pairing_will_share_phonebook">Pairing grants access to your contacts and call history when connected.</string>
     <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local internet connection with device</string>
@@ -2502,7 +2503,7 @@ This setting affects all users of this device."</string>
     <string name="device_admin_status">This admin app is active and allows the app %1$s to perform the following operations:</string>
     <string name="device_admin_warning">Activating this admin app will allow the app %1$s to perform the following operations:</string>
     <string name="device_admin_warning_simplified">This device will be managed and monitored by %1$s.</string>
-    <string name="device_available_memory">Available storage</string>
+    <string name="device_available_memory">"Available storage "</string>
     <string name="device_battery">Battery</string>
     <string name="device_build_id">Version number</string>
     <string name="device_camera">Camera</string>
@@ -2557,7 +2558,7 @@ This setting affects all users of this device."</string>
     <string name="device_status_activity_title">Status</string>
     <string name="device_status_summary">Phone number, signal, etc.</string>
     <string name="device_theme">Device theme</string>
-    <string name="device_total_memory">Total storage</string>
+    <string name="device_total_memory">"Total storage "</string>
     <string name="device_usage_list_summary">Device usage since full charge</string>
     <string name="devices_title">Devices</string>
     <string name="dial_application_title">Dial</string>
@@ -2576,6 +2577,8 @@ To try to fix this issue, you can stop %1$s and prevent it from running in the b
     <string name="dialog_check_title">"Can't connect to the internet"</string>
     <string name="dialog_chose_item">Select an item to display</string>
     <string name="dialog_content_login">Sign in to your Mi Account to update?</string>
+    <string name="dialog_esim_button_negative">Cancel</string>
+    <string name="dialog_esim_button_positive">OK</string>
     <string name="dialog_location_message">"Your phone can't manage battery normally because %1$s keeps requesting your location when you're not using the app.
 
 To fix this issue, you can turn off location for this app."</string>
@@ -2589,6 +2592,12 @@ To fix this issue, you can turn off location for this app."</string>
     <string name="dialog_restrict_all_wlan_title">Restrict Wi-Fi connection</string>
     <string name="dialog_restrict_negative">Restrict</string>
     <string name="dialog_restrict_positive">Cancel</string>
+    <string name="dialog_softbank_esim_wipe_cancel">Cancel</string>
+    <string name="dialog_softbank_esim_wipe_info">All eSIM data will be cleared if you continue. Continue anyway?</string>
+    <string name="dialog_softbank_esim_wipe_ok">Continue</string>
+    <string name="dialog_softbank_esim_wipe_title">Clear eSIM data</string>
+    <string name="dialog_softbank_esime_context">This device needs to connect to the internet to be able to activate eSIM. Skip eSIM activation as well?</string>
+    <string name="dialog_softbank_esime_title">Skip eSIM activation</string>
     <string name="dialog_speaker_auto_clean_button">Got it</string>
     <string name="dialog_speaker_auto_clean_content">"Clearing takes 30 seconds. Don't leave this page. Maximize sound volume for best effect."</string>
     <string name="dialog_speaker_auto_clean_title">Attention</string>
