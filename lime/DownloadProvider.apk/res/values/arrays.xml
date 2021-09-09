@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="account_user_gender_name">
-        <item>Male</item>
-        <item>Female</item>
-    </string-array>
     <string-array name="alphabet_table">
-        <item>\#</item>
         <item>A</item>
         <item>B</item>
         <item>C</item>
@@ -32,6 +27,7 @@
         <item>X</item>
         <item>Y</item>
         <item>Z</item>
+        <item>\#</item>
     </string-array>
     <string-array name="alphabet_table_with_starred">
         <item>!</item>
@@ -171,34 +167,6 @@
         <item>@string/eras_bc</item>
         <item>@string/eras_ad</item>
     </string-array>
-    <string-array name="freq_entries">
-        <item>" "</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>.</item>
-    </string-array>
-    <array name="freq_entryValues">
-        <item>@drawable/fm_number_empty</item>
-        <item>@drawable/fm_number_0</item>
-        <item>@drawable/fm_number_1</item>
-        <item>@drawable/fm_number_2</item>
-        <item>@drawable/fm_number_3</item>
-        <item>@drawable/fm_number_4</item>
-        <item>@drawable/fm_number_5</item>
-        <item>@drawable/fm_number_6</item>
-        <item>@drawable/fm_number_7</item>
-        <item>@drawable/fm_number_8</item>
-        <item>@drawable/fm_number_9</item>
-        <item>@drawable/fm_number_point</item>
-    </array>
     <string-array name="heavenly_stems">
         <item>@string/heavenly_stems_jia</item>
         <item>@string/heavenly_stems_yi</item>
@@ -253,18 +221,6 @@
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
     </string-array>
-    <string-array name="sleep_duration_values">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
-    </string-array>
-    <string-array name="sleep_duration_values_seconds">
-        <item>900</item>
-        <item>1800</item>
-        <item>2700</item>
-        <item>3600</item>
-    </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
         <item>@string/solar_term_slight_cold</item>
@@ -292,175 +248,6 @@
         <item>@string/solar_term_heavy_snow</item>
         <item>@string/solar_term_winter_solstice</item>
     </string-array>
-    <integer-array name="vibration_recorder_major_action">
-        <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>5</item>
-        <item>10</item>
-        <item>-3</item>
-        <item>10</item>
-        <item>15</item>
-        <item>10</item>
-        <item>-3</item>
-        <item>10</item>
-        <item>25</item>
-        <item>10</item>
-        <item>-3</item>
-        <item>10</item>
-        <item>35</item>
-        <item>10</item>
-        <item>-3</item>
-        <item>10</item>
-        <item>40</item>
-        <item>10</item>
-        <item>-3</item>
-        <item>30</item>
-        <item>120</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>150</item>
-        <item>50</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>5</item>
-    </integer-array>
-    <integer-array name="vibration_recorder_minor_action">
-        <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>120</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>5</item>
-    </integer-array>
-    <integer-array name="vibration_recorder_rewind">
-        <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>5</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>5</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>5</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>5</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>5</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>5</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>5</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>50</item>
-        <item>-3</item>
-        <item>5</item>
-        <item>120</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>150</item>
-        <item>60</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>5</item>
-        <item>0</item>
-        <item>10</item>
-    </integer-array>
-    <integer-array name="vibration_recorder_slider">
-        <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>120</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>150</item>
-        <item>60</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>5</item>
-    </integer-array>
-    <integer-array name="vibration_torch_off">
-        <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>120</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>5</item>
-    </integer-array>
-    <integer-array name="vibration_torch_on">
-        <item>0</item>
-        <item>0</item>
-        <item>5</item>
-        <item>90</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>150</item>
-        <item>50</item>
-        <item>8</item>
-        <item>-5</item>
-        <item>5</item>
-        <item>0</item>
-        <item>5</item>
-    </integer-array>
-    <array name="vibration_virtual_key_up" />
     <string-array name="week_days">
         <item>@string/sunday</item>
         <item>@string/monday</item>
