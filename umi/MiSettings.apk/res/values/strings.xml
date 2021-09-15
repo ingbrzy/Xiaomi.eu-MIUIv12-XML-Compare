@@ -209,6 +209,8 @@
     <string name="created_successfully">Created successfully</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Set</string>
+    <string name="customize_radio_btn_summary">Prefer selected refresh rate</string>
+    <string name="customize_radio_btn_title">Custom</string>
     <string name="dall_sheep">Dall sheep</string>
     <string name="dart_frog_info">Its bright blue skin and poisonous glands are defense mechanisms to potential predators.</string>
     <string name="date_picker_label_day" />
@@ -218,7 +220,11 @@
     <string name="date_time_picker_dialog_title">Set date and time</string>
     <string name="dc_light_hint_enable_title">Attention</string>
     <string name="dc_light_hint_normal">DC dimming might affect the way some items are displayed.</string>
+    <string name="dc_light_hint_normal_anit">Anti-flicker mode might affect the way some items are displayed.</string>
+    <string name="dc_light_hint_normal_other">Anti-flicker mode might affect refresh rate and the way some items are displayed.</string>
     <string name="dc_light_hint_other">DC dimming might affect refresh rate and the way some items are displayed.</string>
+    <string name="dc_light_hint_unnormal_low">Low light anti-flicker mode might affect the way some items are displayed.</string>
+    <string name="dc_light_hint_unnormal_other">Low light anti-flicker mode might affect refresh rate and the way some items are displayed.</string>
     <string name="dc_lignt_enable_hint">Anti-flicker mode will set screen refresh rate to 60 Hz. Switch to Anti-flicker mode?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Tap to grant permissions to be able to view stats</string>
@@ -372,13 +378,19 @@ aren't generated in Second space"</string>
     <string name="focus_mode_timer_pick_dialog_title">Enter duration</string>
     <string name="focus_time_exception_tip">Looks like system time changed. Turned off Focus mode.</string>
     <string name="follow_sim1">Apply SIM 1 settings</string>
+    <string name="fps_high">High</string>
     <string name="fps_nature_summary">Maximum refresh rate keeps everything crisp and clear</string>
     <string name="fps_nature_title">Maximum</string>
+    <string name="fps_normal">Standard</string>
+    <string name="fps_radio_btn_title">Refresh rate</string>
+    <string name="fps_save_battery_tips">Battery saver is on. Refresh rate set to %d Hz.</string>
     <string name="fps_smooth_summary">High refresh rate adds more clarity to details</string>
     <string name="fps_smooth_title">High</string>
     <string name="fps_standard_summary">Standard refresh rate saves battery</string>
     <string name="fps_standard_title">Standard</string>
     <string name="fps_user_tip">- These demo animations are played at low speed for your reference. Actual performance might look different based on varying factors.</string>
+    <string name="fps_user_tip_footer">"%1$d. For you to understand the difference between higher and lower refresh rates, demos are played slower here. It might be harder for you to notice the difference during regular use.
+%2$d. In some cases, refresh rate might be adjusted dynamically based on what items are displayed."</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
@@ -414,11 +426,14 @@ aren't generated in Second space"</string>
     <string name="heavenly_stems_yi">乙</string>
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">High screen refresh rate. Higher power consumption.</string>
+    <string name="high_fps_tip_footer">Using higher refresh rates makes viewing experience smoother but consumes more power.</string>
     <string name="hippopotamus">Hippo</string>
     <string name="hsv_space_color">HSV color space</string>
     <string name="hsv_space_color_hue">Hue</string>
     <string name="hsv_space_color_saturation">Saturation</string>
     <string name="hsv_space_color_value">Value</string>
+    <string name="intelligent_radio_btn_summary">Adjust the refresh rate dynamically based on scenarios to balance performance with power consumtion</string>
+    <string name="intelligent_radio_btn_title">Auto (recommended)</string>
     <string name="intelligent_recognition_item_summary">Use a designated ringtone for calls from delivery and taxi services. This feature will work when %s is set as your default ringtone.</string>
     <string name="intelligent_recognition_item_title">Identify services</string>
     <string name="item_anura">Anura</string>
@@ -459,6 +474,8 @@ aren't generated in Second space"</string>
     <string name="lion_info">Lions are fierce and powerful predators. They live in groups and have a strong sense of territory.</string>
     <string name="lock_summary">Protect your personal info</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
+    <string name="low_flicker_mode">Low light</string>
+    <string name="low_flicker_mode_summary">Prevent flickering in low light conditions to reduce eye strain</string>
     <string name="low_fps_description">Low screen refresh rate. Lower power consumption.</string>
     <string name="low_light_preview">Low light preview</string>
     <string name="lynx">Lynx</string>
@@ -560,6 +577,7 @@ aren't generated in Second space"</string>
     <string name="noon">Midday</string>
     <string name="normal_mode">Regular</string>
     <string name="normal_mode_summary">"Don't reduce flicker in low light conditions"</string>
+    <string name="normal_mode_summary_new">Allow flickering in low light conditions</string>
     <string name="north_white_rhinoceros">White rhinoceros</string>
     <string name="norway_lemmings">Norway lemmings</string>
     <string name="norway_lemmings_info">The Norway lemming dwells in tundra and fells, and prefers to live near water.</string>
@@ -677,6 +695,8 @@ aren't generated in Second space"</string>
     <string name="solar_term_winter_solstice">Winter solstice</string>
     <string name="southern_elephant_seal">Southern elephant seal</string>
     <string name="southern_ground_hornbill">Ground hornbill</string>
+    <string name="split_page_authorization">Welcome to Screen time! Here you can set screen time limits and view stats. Tap \"Start\" to turn this feature on.</string>
+    <string name="split_page_start">Start</string>
     <string name="spotted_hyaena">Spotted hyena</string>
     <string name="spotted_hyaena_info">Hyenas are nocturnal predators with the most complex social behaviours.</string>
     <string name="spur_winged_plover">Spur-winged lapwing</string>
