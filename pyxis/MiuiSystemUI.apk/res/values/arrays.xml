@@ -256,7 +256,7 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3</item>
+        <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
     </string-array>
@@ -269,7 +269,7 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3</item>
+        <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
         <item>Enable optional codecs</item>
@@ -581,6 +581,7 @@
         <item>com.miui.core</item>
         <item>com.ss.android.lark.kami</item>
         <item>com.turkcell.bip</item>
+        <item>com.kakao.talk</item>
     </string-array>
     <string-array name="config_allowKeyguardPackages">
         <item>com.android.emailhd</item>
@@ -820,6 +821,7 @@
         <item>com.ss.android.lark</item>
         <item>cn.xuexi.android</item>
         <item>com.turkcell.bip</item>
+        <item>com.kakao.talk</item>
     </string-array>
     <string-array name="config_charge_supportWirelessStrongSuper">
         <item>cas</item>
@@ -1048,6 +1050,7 @@
         <item>8</item>
         <item>9</item>
         <item>10</item>
+        <item>11</item>
     </integer-array>
     <string-array name="data_type_name_default_value">
         <item></item>
@@ -1061,6 +1064,7 @@
         <item></item>
         <item>LTE</item>
         <item>5G</item>
+        <item>5G+</item>
     </string-array>
     <array name="data_type_name_mcc_key" />
     <array name="data_type_name_mcc_mnc_key" />
