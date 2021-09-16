@@ -284,6 +284,7 @@ Send this code to the supervisor."</string>
     <string name="mibi_bill_menu_delete_item">Delete</string>
     <string name="mibi_bill_record">Transactions</string>
     <string name="mibi_bill_record_empty">No records.</string>
+    <string name="mibi_bill_record_month_mibi">%1$s</string>
     <string name="mibi_btn_agree">Agree</string>
     <string name="mibi_btn_back">Return</string>
     <string name="mibi_btn_count_down_auto">Inquire after %1$d seconds</string>
@@ -297,6 +298,7 @@ Send this code to the supervisor."</string>
     <string name="mibi_btn_recharge_large">Top-up</string>
     <string name="mibi_btn_recharge_other">Top-up</string>
     <string name="mibi_btn_recharge_success_quick">Top-up complete</string>
+    <string name="mibi_btn_return_home">Return Home</string>
     <string name="mibi_business_title">Other services</string>
     <string name="mibi_button_bind_phone">Bind now</string>
     <string name="mibi_button_call">Call</string>
@@ -325,14 +327,14 @@ Send this code to the supervisor."</string>
     <string name="mibi_deduct_success">Automatic payment protocol activated</string>
     <string name="mibi_deduct_success_sub">Deduction method:%1$s</string>
     <string name="mibi_deduct_type">Payment method</string>
-    <string name="mibi_denomination_mibi_unit">MI</string>
+    <string name="mibi_denomination_mibi_unit">Mi</string>
     <string name="mibi_denomination_money_unit">CNY</string>
     <string name="mibi_detail_consume_account">Purchase ID</string>
     <string name="mibi_detail_consume_amount">Amount</string>
     <string name="mibi_detail_consume_name">Product</string>
     <string name="mibi_detail_consume_order">Payment ID</string>
     <string name="mibi_detail_consume_time">Time</string>
-    <string name="mibi_detail_consume_title">Payment records</string>
+    <string name="mibi_detail_consume_title">Consumption order</string>
     <string name="mibi_detail_giftcard_activity">Promotion</string>
     <string name="mibi_detail_giftcard_expired_time">Expiration date</string>
     <string name="mibi_detail_giftcard_theme">Purchase themes</string>
@@ -344,7 +346,7 @@ Send this code to the supervisor."</string>
     <string name="mibi_detail_recharge_method">Method</string>
     <string name="mibi_detail_recharge_order">Top-up Order No.</string>
     <string name="mibi_detail_recharge_time">Time</string>
-    <string name="mibi_detail_recharge_title">Top-up records</string>
+    <string name="mibi_detail_recharge_title">Recharge order</string>
     <string name="mibi_direct_pay_novalid_method">No valid payment method.</string>
     <string name="mibi_direct_payment_title">Order info</string>
     <string name="mibi_enter_failed">Open failed</string>
@@ -380,8 +382,10 @@ Please check your local date and try again."</string>
     <string name="mibi_fee">%1$s Mi Coins</string>
     <string name="mibi_forget_password"><u>Forgot password</u></string>
     <string name="mibi_format_bill_date">yyyy/M/d</string>
+    <string name="mibi_format_bill_time">yyyy-MM-dd HH:mm</string>
     <string name="mibi_format_date">MMM. dd, yyyy</string>
     <string name="mibi_format_time">MMM dd, yyyy hh:mmaa</string>
+    <string name="mibi_format_time_giftcard">yyyy-MM-dd HH:mm:ss</string>
     <string name="mibi_frozen">Frozen</string>
     <string name="mibi_frozen_prim">Account frozen</string>
     <string name="mibi_frozen_sub">Abnormal activity detected</string>
@@ -400,7 +404,9 @@ Please check your local date and try again."</string>
     <string name="mibi_giftcard_discount">Coupons</string>
     <string name="mibi_giftcard_discount_detail">Coupon(spend%1$sMi Coins)</string>
     <string name="mibi_giftcard_discount_detail2">(Spend %1$s Mi Coins to redeem)</string>
+    <string name="mibi_giftcard_discount_detail3">Spend %1$s Mi Coins to redeem</string>
     <string name="mibi_giftcard_empty_detail">No %1$s coupons.</string>
+    <string name="mibi_giftcard_expire_soon">Expire soon</string>
     <string name="mibi_giftcard_has_expired">Expired on %1$s</string>
     <string name="mibi_giftcard_has_unavailable">Expired</string>
     <string name="mibi_giftcard_has_used">Redeemed</string>
@@ -415,6 +421,7 @@ Please check your local date and try again."</string>
     <string name="mibi_giftcard_use_now">Redeem</string>
     <string name="mibi_giftcard_used">Redeemed</string>
     <string name="mibi_giftcard_vaild_util">vaild util %1$s</string>
+    <string name="mibi_giftcard_valid_time_last">Expires in %1$s days</string>
     <string name="mibi_giftcard_will_expire">Expires on %1$s</string>
     <string name="mibi_giftcard_with_num"><Data>&lt;font color=#FF7700>&lt;xliff:g id=value>%1$d&lt;/xliff:g> Mi Coin coupon available&lt;/font></Data></string>
     <string name="mibi_header_network_error">"Couldn't connect to network."</string>
@@ -426,6 +433,7 @@ Please check your local date and try again."</string>
     <string name="mibi_is_what">What can you buy with Mi Coins?</string>
     <string name="mibi_label_balance">Balance</string>
     <string name="mibi_label_giftcard">Giftcard</string>
+    <string name="mibi_label_giftcard_with_num">Giftcard(%1$s)</string>
     <string name="mibi_label_pay_remain">Amount due: %1$s Mi Coins</string>
     <string name="mibi_license_message_span">Mi Coin User Agreement</string>
     <string name="mibi_license_title">Terms and conditions</string>
@@ -469,6 +477,8 @@ Please check your local date and try again."</string>
     <string name="mibi_order_balance_lable">Mi Coins</string>
     <string name="mibi_order_balance_lable_append">Mi Coins + coupon</string>
     <string name="mibi_order_balance_title">My Mi Coins</string>
+    <string name="mibi_order_discount_giftcard_title">Coupons(Use one at a time)</string>
+    <string name="mibi_order_mibi_to_money_rate">1 Mi Coin = 1 RMB</string>
     <string name="mibi_order_no_use_balance">Nonuse</string>
     <string name="mibi_order_pay_back">Confirm</string>
     <string name="mibi_order_pay_type">Payment method</string>
@@ -486,9 +496,10 @@ Please check your local date and try again."</string>
     <string name="mibi_pay_grid_error_denomination">Amount must be between Mi Coins %1$s and %2$s.</string>
     <string name="mibi_pay_success_summary">"You've paid %1$s Mi Coins"</string>
     <string name="mibi_pay_success_with_recharge_summary">%1$s Mi Coins recharged，%2$s Mi Coins paied</string>
-    <string name="mibi_payment_recharge_group_title">Choose top-up method</string>
+    <string name="mibi_payment_recharge_group_title">Choose method</string>
     <string name="mibi_payment_success_title">Payment received</string>
     <string name="mibi_payment_with_login_title">Verify Mi Account</string>
+    <string name="mibi_paymnet_failed_title">Fransaction Failed</string>
     <string name="mibi_paytool_alipay">Alipay</string>
     <string name="mibi_paytool_app_not_installed">"You haven't installed %1$s. Download and install it now?"</string>
     <string name="mibi_paytool_error_install">Failed to install %1$s mobile security plugin</string>
@@ -501,6 +512,10 @@ Please check your local date and try again."</string>
     <string name="mibi_paytool_weixin">WeChat</string>
     <string name="mibi_permanently_denied_perm_camera">Allow camera in Settings to use the features.</string>
     <string name="mibi_permanently_denied_perm_send_sms">Allow send SMS messages in Settings to use the features.</string>
+    <string name="mibi_prepaid_card_hint">All recharges are one-time recharges, and the selected face value must be consistent with the recharge card. A wrong selection will result in loss of funds.</string>
+    <string name="mibi_prepaid_card_hint_input_card_num">Please enter the card number</string>
+    <string name="mibi_prepaid_card_hint_input_pwd">Please enter the password</string>
+    <string name="mibi_prepaid_card_info">Recharge Card Information</string>
     <string name="mibi_prepaid_card_order_info">%1$s top-up card: CNY %2$s</string>
     <string name="mibi_prepaid_carriers_picker_hint">Select carrier</string>
     <string name="mibi_prepaid_dialog_content">Any loss caused by the discrepancy between the card number, face value, password and the actual information shall be borne by you. Double check the information you provide before you proceed.</string>
@@ -555,7 +570,7 @@ Customer service center：400-100-3399"</string>
     <string name="mibi_progress_warning_waiting">"Payment hasn't reached your account yet."</string>
     <string name="mibi_prompt_info_button_hint">Attention(%d)</string>
     <string name="mibi_prompt_info_button_text">OK</string>
-    <string name="mibi_prompt_info_for_first_use"><Data>"&lt;font color=#ff7700>Mi Coin can't be used to buy hardware products on Mi.com.&lt;/font>"</Data></string>
+    <string name="mibi_prompt_info_for_first_use">"Mi Coin can't be used to buy hardware products on Mi.com."</string>
     <string name="mibi_prompt_info_title">Tips</string>
     <string name="mibi_push_register_fail">Register push fail.</string>
     <string name="mibi_push_register_success">Register push success.</string>
@@ -565,19 +580,24 @@ Customer service center：400-100-3399"</string>
     <string name="mibi_push_set_alias_success">Set alias \"%1$s\" success.</string>
     <string name="mibi_push_unset_alias_fail">Unset alias fail for %1$s.</string>
     <string name="mibi_push_unset_alias_success">Unset alias \"%1$s\" success.</string>
+    <string name="mibi_recharge_amount_list_mibi_unit">Mi</string>
     <string name="mibi_recharge_grid_error_denomination">Amount must be between Mi Coins %1$s and %2$s.</string>
     <string name="mibi_recharge_grid_item_more">More</string>
-    <string name="mibi_recharge_grid_mibi_picker_hint">Choose amount</string>
+    <string name="mibi_recharge_grid_mibi_picker_hint">Choose amount(1 Mi Coin = 1 RMB)</string>
     <string name="mibi_recharge_grid_money_picker_hint">Select amount</string>
+    <string name="mibi_recharge_input_amount_hint">Please enter the amount</string>
     <string name="mibi_recharge_label">Top-up</string>
     <string name="mibi_recharge_mibi_title">Mi Coin</string>
+    <string name="mibi_recharge_more_channels_title">More</string>
     <string name="mibi_recharge_novalid_method">No valid top-up method.</string>
     <string name="mibi_recharge_other">View other methods</string>
+    <string name="mibi_recharge_other_amount">Other amount</string>
     <string name="mibi_recharge_push_notification_prime_title">%1$d added %2$s Mi Coins to your account</string>
     <string name="mibi_recharge_push_notification_sub_title">Top-up complete.</string>
     <string name="mibi_recharge_value_money">Purchase CNY %s worth of Mi Coins</string>
     <string name="mibi_recharge_value_money_special_unit">Purchase %1$s %2$s worth of Mi Coins</string>
     <string name="mibi_recharge_warn_text">"You can't buy physical goods using Mi Coins."</string>
+    <string name="mibi_return">Return</string>
     <string name="mibi_scan_prompt_number">Scan %1$s prepaid card number</string>
     <string name="mibi_scan_prompt_password">Scan %1$s prepaid card password</string>
     <string name="mibi_scan_prompt_voucher">Scan Mi Coin password</string>
@@ -610,12 +630,15 @@ Customer service center：400-100-3399"</string>
     <string name="mibi_voucher_card_text">Please scratch off the coat</string>
     <string name="mibi_voucher_error_password">Code invalid.</string>
     <string name="mibi_voucher_input_password_prompt">Enter code</string>
+    <string name="mibi_voucher_password">Mi Coin Card Password</string>
     <string name="mibi_web_login">Login</string>
     <string name="mibi_web_login_app_description">Login %1$s</string>
     <string name="mibi_web_login_description">Login</string>
     <string name="mibi_web_login_waiting">Please wait…</string>
     <string name="mibi_web_sso_login_fail">You need to sign in again</string>
     <string name="midnight">Night</string>
+    <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_alphabet_indexer_name">Index bar</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -630,6 +653,7 @@ Customer service center：400-100-3399"</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
