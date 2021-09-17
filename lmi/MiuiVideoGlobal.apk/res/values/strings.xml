@@ -79,8 +79,8 @@
     <string name="ad_download">Download</string>
     <string name="ad_join">Join community</string>
     <string name="ad_more">More</string>
-    <string name="add_local_shortcut_add">+Add</string>
-    <string name="add_local_shortcut_des">Add “My Video” to desktop to easily watch your local videos.</string>
+    <string name="add_local_shortcut_add">Add</string>
+    <string name="add_local_shortcut_des">Add \"My videos\" to Home screen to access local video files in a single tap.</string>
     <string name="add_search_channel_link">URL</string>
     <string name="add_search_channel_name">Name</string>
     <string name="add_search_channel_tip">Search for \"%s\" on the target website, then copy and paste URL here.</string>
@@ -367,6 +367,12 @@ Mi Video Team"</string>
     <string name="diagnosis_log_sent_format">"Sent logs successfully.
 ID:%s
 Send this code to the supervisor."</string>
+    <string name="dialog_app_comment_cancel">Cancel</string>
+    <string name="dialog_app_comment_default_content">How do you feel about Mi Video?</string>
+    <string name="dialog_app_comment_ok">OK</string>
+    <string name="dialog_app_comment_select_feedback">Could you give us your feedback as well?</string>
+    <string name="dialog_app_comment_select_praise">Nice! Rate Mi Video in Play Store as well?</string>
+    <string name="dialog_app_comment_title">Rate our app</string>
     <string name="dialog_disagree_privacychange_info">"You won't be able to use Mi Video online streaming services if you don't agree to our Privacy Policy. Tap \"Cancel\" to go back or \"Don't agree\" to continue and use Mi Video as a local player only."</string>
     <string name="dialog_disagree_privacychange_title">"Don't agree?"</string>
     <string name="dialog_privacy_change_info">"We've updated Mi Video Privacy Policy due to the adjustments in the services we offer. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using the app."</string>
@@ -611,6 +617,12 @@ Send this code to the supervisor."</string>
     <string name="galleryplus_network_connect_confirm">Connect to Wi-Fi or turn on mobile data in the network settings.</string>
     <string name="galleryplus_network_error">"Couldn't connect to the network"</string>
     <string name="galleryplus_network_not_wifi">Using mobile data to stream videos may generate additional carrier fees</string>
+    <string name="galleryplus_notification_linkvideo_subtitle1" formatted="false">Manage files %$s Add subtitles %$s Cast videos %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle2">Protect your private videos with a password %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle3">Download videos from TikTok, Instagram, and Twitter %$s</string>
+    <string name="galleryplus_notification_linkvideo_title1">%$s Check out all the cool features of Mi Video!</string>
+    <string name="galleryplus_notification_linkvideo_title2">%$s Tap to manage your videos</string>
+    <string name="galleryplus_notification_linkvideo_title3">%1$s Download videos for free %2$s Manage files</string>
     <string name="galleryplus_online_cta">Mi Video needs to connect to the internet to work normally. Agree?</string>
     <string name="galleryplus_online_cta_agree">Agree</string>
     <string name="galleryplus_online_cta_disagree">"Don't agree"</string>
@@ -621,14 +633,13 @@ Send this code to the supervisor."</string>
     <string name="galleryplus_permission_content">Give Mi Video the required permissions to be able to use this feature.</string>
     <string name="galleryplus_permission_content_opt">Mi Video needs permissions to work normally. Clear all app data in the Settings and open the app again.</string>
     <string name="galleryplus_permission_content_xms">Mi Video needs permissions to work normally. Go to Settings and give Mi Video the required permissions.</string>
-    <string name="galleryplus_permission_open_settings">去开启</string>
-    <string name="galleryplus_permission_refuse">取消</string>
-    <string name="galleryplus_permission_retry">去开启</string>
-    <string name="galleryplus_permission_storage_content_reshowable">%s需请求读写手机存储权限，若需使用该功能请授权</string>
-    <string name="galleryplus_permission_storage_content_unreshowable">%s需请求读写手机存储权限，若需要使用该功能，请点击“设置”，进入应用详情页，在“权限”中，开启设备权限</string>
-    <string name="galleryplus_permission_storage_title">读写设备上的照片及文件</string>
+    <string name="galleryplus_permission_open_settings">Settings</string>
+    <string name="galleryplus_permission_refuse">Cancel</string>
+    <string name="galleryplus_permission_retry">Settings</string>
+    <string name="galleryplus_permission_storage_content_reshowable_video_player">To be able to use local video player, allow this app to access storage first.</string>
+    <string name="galleryplus_permission_storage_content_unreshowable_video_player">To be able to use local video player, allow this app to access storage in the \"Permissions\" section of the Settings.</string>
+    <string name="galleryplus_permission_storage_title">Storage access required</string>
     <string name="galleryplus_permission_title">Attention</string>
-    <string name="galleryplus_permission_video_player">视频播放功能</string>
     <string name="galleryplus_play_speed">%1$.1fX</string>
     <string name="galleryplus_restore_play_speed">Playing at the regular speed now</string>
     <string name="galleryplus_save_cancel_toast">Tap \"Back\" again to cancel saving video</string>
@@ -733,6 +744,7 @@ for videos"</string>
     <string name="local_video_create_a_new_playlist">New playlist</string>
     <string name="local_video_date">Date</string>
     <string name="local_video_dialog_default">Default</string>
+    <string name="local_video_edit_playlist">Edit playlist</string>
     <string name="local_video_from_a_to_z">A to Z</string>
     <string name="local_video_from_big_to_small">Big to small</string>
     <string name="local_video_from_long_to_short">Long to short</string>
@@ -1096,6 +1108,7 @@ for videos"</string>
     <string name="ovp_navigation_language">Language</string>
     <string name="ovp_navigation_localvideo">Local</string>
     <string name="ovp_navigation_notice">Notifications</string>
+    <string name="ovp_navigation_score">Rate our app</string>
     <string name="ovp_navigation_setting">Settings</string>
     <string name="ovp_navigation_subscribe">Subscription</string>
     <string name="ovp_navigation_version_update">Check for updates</string>
@@ -1612,6 +1625,7 @@ Increase the security of your account."</string>
     <string name="the_forth_day">Fourth day of Chinese New Year</string>
     <string name="the_hksar_establishment_day">Hong Kong SAR Establishment Day</string>
     <string name="the_international_womens_day">"Women's Day"</string>
+    <string name="the_item_choosed_tint">%s selected</string>
     <string name="the_laba_festival">Laba Festival</string>
     <string name="the_labour_day">Labor Day</string>
     <string name="the_lantern_festival">Lantern Festival</string>
@@ -1661,6 +1675,7 @@ Increase the security of your account."</string>
     <string name="tool_bar_notification_setting_title">Notification shade toolbar</string>
     <string name="top_bar_game_desc">Discover lots of fresh games here</string>
     <string name="top_bar_game_title">Gaming channel</string>
+    <string name="trending_scroll_load_more">Swipe up for more videos</string>
     <string name="tuesday">Tuesday</string>
     <string name="tuesday_short">Tue</string>
     <string name="tuesday_shortest">Tue</string>
