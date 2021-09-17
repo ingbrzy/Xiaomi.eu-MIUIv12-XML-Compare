@@ -506,6 +506,8 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="config_defaultNetworkScorerPackageName" />
     <string name="config_defaultOnDeviceSpeechRecognitionService" />
     <string name="config_defaultPictureInPictureScreenEdgeInsets">16x16</string>
+    <string name="config_defaultProfcollectReportUploaderAction" />
+    <string name="config_defaultProfcollectReportUploaderApp" />
     <string name="config_defaultRingtoneVibrationSound">/product/media/audio/ui/AttentionalHaptics.ogg</string>
     <string name="config_defaultRotationResolverService" />
     <string name="config_defaultSearchUiService" />
@@ -534,7 +536,6 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="config_dozeTapSensorType" />
     <string name="config_dozeUdfpsLongPressSensorType" />
     <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
-    <string name="config_emergency_apn">sos</string>
     <string name="config_emergency_call_number">112</string>
     <string name="config_emergency_dialer_package">com.android.phone</string>
     <string name="config_ethernet_iface_regex">eth\\d</string>
@@ -605,7 +606,7 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="config_secondaryLocationTimeZoneProviderPackageName" />
     <string name="config_sensorUseStartedActivity">com.android.systemui/com.android.systemui.sensorprivacy.SensorUseStartedActivity</string>
     <string name="config_servicesExtensionPackage">android.ext.services</string>
-    <string name="config_signalXPath">M22,16.41L20.59,15l-2.09,2.09L16.41,15L15,16.41l2.09,2.09L15,20.59L16.41,22l2.09-2.08L20.59,22L22,20.59l-2.08-2.09 L22,16.41z</string>
+    <string name="config_signalAttributionPath">M20,10h2v8h-2z M20,20h2v2h-2z</string>
     <string name="config_slicePermissionComponent">com.android.systemui/com.android.systemui.SlicePermissionActivity</string>
     <string name="config_somnambulatorComponent">com.android.systemui/com.android.systemui.Somnambulator</string>
     <string name="config_systemActivityRecognizer" />
@@ -873,9 +874,9 @@ using %s"</string>
     <string name="face_name_template">Face %d</string>
     <string name="face_or_screen_lock_app_setting_name">Use face or screen lock</string>
     <string name="face_or_screen_lock_dialog_default_subtitle">Use your face or screen lock to continue</string>
-    <string name="face_recalibrate_notification_content">To improve recognition, please re-enroll your face</string>
+    <string name="face_recalibrate_notification_content">Tap to delete your face model, then add your face again</string>
     <string name="face_recalibrate_notification_name">Face Unlock</string>
-    <string name="face_recalibrate_notification_title">Re-enroll your face</string>
+    <string name="face_recalibrate_notification_title">Issue with Face Unlock</string>
     <string name="face_setup_notification_content">Unlock your phone by looking at it</string>
     <string name="face_setup_notification_title">Set up Face Unlock</string>
     <string name="faceunlock_multiple_failures">Maximum Face Unlock attempts exceeded</string>
@@ -899,6 +900,7 @@ If you have questions, contact your organization's admin."</string>
     <string name="find_previous">Find previous</string>
     <string name="fingerprint_acquired_already_enrolled">Try another fingerprint</string>
     <string name="fingerprint_acquired_imager_dirty">Clean the sensor</string>
+    <string name="fingerprint_acquired_immobile">Change the position of your finger slightly each time</string>
     <string name="fingerprint_acquired_insufficient">"Couldn't process fingerprint. Please try again."</string>
     <string name="fingerprint_acquired_partial">Partial fingerprint detected</string>
     <string name="fingerprint_acquired_too_bright">Too bright</string>
@@ -908,6 +910,7 @@ If you have questions, contact your organization's admin."</string>
     <string name="fingerprint_app_setting_name">Use fingerprint</string>
     <string name="fingerprint_authenticated">Fingerprint authenticated</string>
     <string name="fingerprint_dialog_default_subtitle">Use your fingerprint to continue</string>
+    <string name="fingerprint_error_bad_calibration">Can’t use fingerprint sensor. Visit a repair provider</string>
     <string name="fingerprint_error_canceled">Fingerprint operation canceled.</string>
     <string name="fingerprint_error_hw_not_available">Fingerprint hardware not available.</string>
     <string name="fingerprint_error_hw_not_present">This device does not have a fingerprint sensor.</string>
@@ -923,6 +926,9 @@ If you have questions, contact your organization's admin."</string>
     <string name="fingerprint_name_template">Finger %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Use fingerprint or screen lock</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Use your fingerprint or screen lock to continue</string>
+    <string name="fingerprint_recalibrate_notification_content">Visit a repair provider.</string>
+    <string name="fingerprint_recalibrate_notification_name">Fingerprint Unlock</string>
+    <string name="fingerprint_recalibrate_notification_title">Can’t use fingerprint sensor</string>
     <string name="fingerprint_setup_notification_content">Tap to add a fingerprint</string>
     <string name="fingerprint_setup_notification_title">Set up more ways to unlock</string>
     <string name="fingerprints">Fingerprints:</string>
@@ -1509,7 +1515,6 @@ Enhanced notifications can access notification content, including personal infor
     <string name="number_picker_increment_button">Increase</string>
     <string name="number_picker_increment_scroll_action">Slide up to increase and down to decrease.</string>
     <string name="number_picker_increment_scroll_mode">%s touch &amp; hold.</string>
-    <string name="offline_location_time_zone_detection_service_attribution">Time Zone Detector (No connectivity)</string>
     <string name="ok">OK</string>
     <string name="old_app_action">Go back to %1$s</string>
     <string name="older">Older</string>
@@ -1702,6 +1707,8 @@ Enhanced notifications can access notification content, including personal infor
     <string name="permgrouplab_storage">Files and media</string>
     <string name="permission">Permission</string>
     <string name="permission_remember_choice">Remember</string>
+    <string name="permission_request_notification_for_app_with_subtitle">"Permission requested by %1$s
+for account %2$s."</string>
     <string name="permission_request_notification_title">Permission requested</string>
     <string name="permission_request_notification_with_subtitle">"Permission requested
 for account %s."</string>

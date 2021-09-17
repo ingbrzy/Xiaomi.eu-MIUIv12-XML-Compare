@@ -484,6 +484,7 @@ Selection"</string>
     <string name="call_recording_setting">Call recording</string>
     <string name="call_settings">Call settings</string>
     <string name="call_settings_admin_user_only">Call settings can only be changed by the admin user.</string>
+    <string name="call_settings_package_name">com.android.phone</string>
     <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
     <string name="call_settings_title_font_family">sans-serif-light</string>
     <string name="call_settings_with_label">Settings (%s)</string>
@@ -1115,6 +1116,7 @@ Selection"</string>
     <string name="fiveg_sa_switch_open_dialog_content">5G connection might be unstable in standalone mode, which might affect telephony services. Turn on SA mode anyway?</string>
     <string name="fiveg_sa_switch_open_dialog_title">Attention</string>
     <string name="fiveg_sa_switch_summary">Allow connecting to 5G networks in standalone mode</string>
+    <string name="fiveg_sa_switch_title">Use SA network</string>
     <string name="fiveg_sa_switch_warning_toast">Reboot your device to apply changes</string>
     <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="fiveg_signal_strength1">5G Signal strength :</string>
@@ -1220,6 +1222,10 @@ Switch to the new provider anyway?"</string>
     <string name="guest_exit_guest">Remove guest</string>
     <string name="guest_new_guest">Add guest</string>
     <string name="guest_nickname">Guest</string>
+    <string name="guest_reset_guest">Reset guest</string>
+    <string name="guest_reset_guest_confirm_button">Reset</string>
+    <string name="guest_reset_guest_dialog_title">Reset guest?</string>
+    <string name="guest_resetting">Resetting guest…</string>
     <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
     <string name="hac_mode_title">Hearing aids</string>
     <string name="handon_ringer_summary">Reduce ringer volume for incoming call when phone is raised.</string>
@@ -1265,6 +1271,11 @@ Switch to the new provider anyway?"</string>
     <string name="incall_error_out_of_service_wfc">Mobile network is not available. Connect to a wireless network to make a call.</string>
     <string name="incall_error_outgoing_call_failed">"Couldn't make call"</string>
     <string name="incall_error_power_off">Turn off Airplane mode to make a call.</string>
+    <string name="incall_error_power_off_thermal"><b>Phone too hot</b>"
+
+Can't complete this call. Try again when your phone cools down.
+
+You can still make emergency calls."</string>
     <string name="incall_error_power_off_wfc">Turn off airplane mode or connect to a wireless network to make a call.</string>
     <string name="incall_error_promote_wfc">Enable Wi-Fi calling to make a call.</string>
     <string name="incall_error_supp_service_conference">Unable to merge calls.</string>
@@ -3053,7 +3064,7 @@ Credential storage might not enable"</string>
     <string name="wifitrackerlib_wifi_mbo_assoc_disallowed_max_num_sta_associated">Network is over capacity. Try again later.</string>
     <string name="wifitrackerlib_wifi_mbo_oce_assoc_disallowed_insufficient_rssi">Weak signal. Try moving closer to the router.</string>
     <string name="wifitrackerlib_wifi_metered_label">Metered</string>
-    <string name="wifitrackerlib_wifi_network_not_found">Network not compatible with this device</string>
+    <string name="wifitrackerlib_wifi_network_not_found">"Can't connect. Try again later."</string>
     <string name="wifitrackerlib_wifi_no_internet">No internet access</string>
     <string name="wifitrackerlib_wifi_no_internet_no_reconnect">Won’t automatically connect</string>
     <string name="wifitrackerlib_wifi_passpoint_expired">Expired</string>

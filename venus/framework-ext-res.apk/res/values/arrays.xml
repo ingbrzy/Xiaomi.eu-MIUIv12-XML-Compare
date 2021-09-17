@@ -25,6 +25,33 @@
         <item>40554</item>
         <item>40497</item>
     </string-array>
+    <string-array name="allowed_package_common">
+        <item>com.google.android.gms</item>
+        <item>com.google.android.gsf</item>
+        <item>com.google.android.packageinstaller</item>
+        <item>com.android.packageinstaller</item>
+        <item>com.android.managedprovisioning</item>
+        <item>com.miui.packageinstaller</item>
+        <item>com.miui.cloudbackup</item>
+        <item>com.miui.analytics</item>
+        <item>com.miui.systemAdSolution</item>
+        <item>com.miui.msa.global</item>
+        <item>com.miui.home</item>
+        <item>com.xiaomi.discover</item>
+        <item>com.xiaomi.mipicks</item>
+        <item>com.xiaomi.mihomemanager</item>
+        <item>com.xiaomi.glgm</item>
+        <item>com.facebook.system</item>
+        <item>com.mediatek.backuprestore</item>
+        <item>com.ironsource.appcloud.oobe.hutchison</item>
+        <item>com.miui.huanji</item>
+    </string-array>
+    <string-array name="allowed_package_international">
+        <item>de.telekom.tsc</item>
+        <item>com.android.settings</item>
+        <item>fr.bouyguestelecom.agent.custo</item>
+    </string-array>
+    <array name="allowed_package_operator" />
     <item type="array" name="android_common_nicknames">@android:array/common_nicknames</item>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
@@ -64,6 +91,100 @@
         <item>3</item>
         <item>4</item>
     </integer-array>
+    <string-array name="config_autobrightness_game_application_array">
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.happyelements.AndroidAnimal</item>
+        <item>com.tencent.gamehelper.smoba</item>
+        <item>com.minitech.miniworld.TMobile.mi</item>
+        <item>com.qqgame.hlddz</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>cn.jj</item>
+        <item>com.tencent.tmgp.cod</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.taomee.molenew.mi</item>
+        <item>com.ztgame.bob</item>
+        <item>com.tencent.qqgame.xq</item>
+        <item>com.cnvcs.xiangqi</item>
+        <item>com.netease.mc.mi</item>
+        <item>com.tencent.qt.qtl</item>
+        <item>com.meta.box</item>
+        <item>com.tencent.tgp</item>
+        <item>com.tencent.djcity</item>
+        <item>com.qqgame.happymj</item>
+    </string-array>
+    <string-array name="config_autobrightness_image_application_array">
+        <item>com.mt.mtxx.mtxx</item>
+        <item>com.gorgeous.lite</item>
+        <item>com.meitu.meiyancamera</item>
+        <item>com.xt.retouch</item>
+        <item>com.kwai.m2u</item>
+        <item>com.campmobile.snowcamera</item>
+        <item>com.lemon.faceu</item>
+        <item>com.benqu.wuta</item>
+        <item>com.xhey.xcamera</item>
+        <item>com.android.camera</item>
+        <item>com.miui.gallery</item>
+    </string-array>
+    <string-array name="config_autobrightness_map_application_array">
+        <item>com.autonavi.minimap</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.sdu.didi.psnger</item>
+        <item>com.tencent.map</item>
+        <item>com.jingyao.easybike</item>
+        <item>com.didapinche.booking</item>
+        <item>com.sdu.didi.gsui</item>
+    </string-array>
+    <string-array name="config_autobrightness_reader_application_array">
+        <item>com.dragon.read</item>
+        <item>com.kmxs.reader</item>
+        <item>com.tencent.weread</item>
+        <item>com.shuqi.controller</item>
+        <item>com.lechuan.mdwz</item>
+        <item>com.qq.reader</item>
+        <item>com.qidian.QDReader</item>
+        <item>com.cootek.crazyreader</item>
+        <item>com.lwby.breader.ad</item>
+        <item>com.jjwxc.reader</item>
+        <item>com.lechuan.mdxs</item>
+        <item>com.chaozh.iReaderFree</item>
+        <item>com.duokan.free</item>
+        <item>com.duokan.reader</item>
+    </string-array>
+    <string-array name="config_autobrightness_video_application_array">
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.smile.gifmaker</item>
+        <item>com.qiyi.video</item>
+        <item>com.tencent.qqlive</item>
+        <item>com.ss.android.ugc.aweme.lite</item>
+        <item>com.kuaishou.nebula</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.youku.phone</item>
+        <item>com.ss.android.article.video</item>
+        <item>com.ss.android.ugc.live</item>
+        <item>com.tencent.weishi</item>
+        <item>com.baidu.haokan</item>
+        <item>com.hunantv.imgo.activity</item>
+        <item>com.le123.ysdq</item>
+        <item>com.babycloud.hanju</item>
+        <item>com.zhongduomei.rrmj.society</item>
+        <item>tv.pps.mobile</item>
+        <item>com.qiyi.video.lite</item>
+        <item>com.cctv.yangshipin.app.androidp</item>
+        <item>cn.cntv</item>
+        <item>com.ss.android.ugc.livelite</item>
+        <item>com.miui.video</item>
+        <item>com.xingin.xhs</item>
+        <item>com.lemon.lv</item>
+        <item>air.tv.douyu.android</item>
+        <item>com.duowan.kiwi</item>
+        <item>com.kwai.videoeditor</item>
+        <item>com.duowan.mobile</item>
+        <item>com.bokecc.dance</item>
+        <item>com.netease.edu.ucmooc</item>
+        <item>com.tencent.qqsports</item>
+        <item>com.yuncheapp.android.pearl</item>
+    </string-array>
     <array name="config_bcbc_brt_change_node">
         <item>0.048852</item>
         <item>0.073278</item>
@@ -1845,6 +1966,16 @@
         <item>com.miui.gallery</item>
         <item>com.android.systemui:sliderview</item>
         <item>com.android.camera</item>
+    </string-array>
+    <string-array name="process_camera_inhibit_list">
+        <item>com.google.android.providers.media.module</item>
+        <item>com.android.providers.media.module</item>
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.googlequicksearchbox:search</item>
+        <item>com.google.android.gms.persistent</item>
+        <item>com.tencent.android.qqdownloader</item>
+        <item>com.tencent.android.qqdownloader:cloud</item>
+        <item>com.tencent.android.qqdownloader:daemon</item>
     </string-array>
     <string-array name="process_disable_force_stop_list">
         <item>com.miui.securitycore</item>

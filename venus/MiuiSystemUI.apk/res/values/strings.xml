@@ -627,6 +627,8 @@ Selection"</string>
     <string name="calendar_component_name" />
     <string name="camera_hint">Swipe from icon for camera</string>
     <string name="camera_label">open camera</string>
+    <string name="camera_recording_announcement">Camera is recording</string>
+    <string name="camera_stopped_recording_announcement">Camera stopped recording</string>
     <string name="cancel">Cancel</string>
     <string name="carrier_network_change_mode">Carrier network changing</string>
     <string name="category_personal">Personal</string>
@@ -1136,6 +1138,10 @@ Enter your PIN to unlock."</string>
     <string name="guest_notification_remove_action">REMOVE GUEST</string>
     <string name="guest_notification_text">To delete apps and data, remove guest user</string>
     <string name="guest_notification_title">Guest user</string>
+    <string name="guest_reset_guest">Reset guest</string>
+    <string name="guest_reset_guest_confirm_button">Reset</string>
+    <string name="guest_reset_guest_dialog_title">Reset guest?</string>
+    <string name="guest_resetting">Resetting guest…</string>
     <string name="guest_wipe_session_dontwipe">Yes, continue</string>
     <string name="guest_wipe_session_message">Do you want to continue your session?</string>
     <string name="guest_wipe_session_title">Welcome back, guest!</string>
@@ -1349,6 +1355,7 @@ only"</string>
     <string name="keyguard_enter_your_password">Enter your password</string>
     <string name="keyguard_enter_your_pattern">Enter your pattern</string>
     <string name="keyguard_enter_your_pin">Enter your PIN</string>
+    <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
     <string name="keyguard_fancy_colon" />
     <string name="keyguard_indication_charging_time">%2$s • Charging • Full in %1$s</string>
     <string name="keyguard_indication_charging_time_fast">%2$s • Charging rapidly • Full in %1$s</string>
@@ -1397,6 +1404,7 @@ only"</string>
     <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
     <string name="keyguard_try_fingerprint">Use fingerprint to open</string>
     <string name="keyguard_unlock">Swipe up to open</string>
+    <string name="keyguard_unlock_press">Press to open</string>
     <string name="keyguard_widget_12_hours_format">h:mm</string>
     <string name="keyguard_widget_24_hours_format">kk:mm</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
@@ -1597,6 +1605,10 @@ MMMM d"</string>
     <string name="menu_ime">Keyboard switcher</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Microphone Active</string>
+    <string name="mic_and_camera_recording_announcement">Camera and Microphone are recording</string>
+    <string name="mic_camera_stopped_recording_announcement">Camera and Microphone stopped recording</string>
+    <string name="mic_recording_announcement">Microphone is recording</string>
+    <string name="mic_stopped_recording_announcement">Microphone stopped recording</string>
     <string name="midnight">Night</string>
     <string name="missed_call">Missed call</string>
     <string name="miui_clock_city_name_local">Local</string>
@@ -1604,16 +1616,16 @@ MMMM d"</string>
     <string name="miui_clock_fancy_colon"></string>
     <string name="miui_digital_clock_dot">:</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Unlocked by Bluetooth device</string>
-    <string name="miui_lock_screen_date">EEEE, MMMM d</string>
-    <string name="miui_lock_screen_date_12">EEEE, MMMM d</string>
+    <string name="miui_lock_screen_date">EEEE MM/dd</string>
+    <string name="miui_lock_screen_date_12">EEEE MM/dd</string>
     <string name="miui_lock_screen_date_two_lines">"EEEE
-MMMM d"</string>
+MM/dd"</string>
     <string name="miui_lock_screen_date_two_lines_12">"EEEE
-MMMM d"</string>
+MM/dd"</string>
     <string name="miui_lock_screen_large_date">"EEE
-M/dd"</string>
+MM/dd"</string>
     <string name="miui_lock_screen_large_date_12">"EEE
-M/dd"</string>
+MM/dd"</string>
     <string name="miui_notification_menu_aggregate_feedback">Feedback</string>
     <string name="miui_notification_menu_allow">Allow</string>
     <string name="miui_notification_menu_feedback_success">Thanks for your feedback!</string>
@@ -1856,13 +1868,14 @@ If you have questions, contact %2$s."</string>
     <string name="nav_bar_layout">Layout</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s sent an image</string>
-    <string name="new_notification_text_content_description">%1$s sent a message</string>
+    <string name="new_notification_text_content_description">%1$s sent a message: %2$s</string>
+    <string name="new_status_content_description">%1$s has a status update: %2$s</string>
     <string name="new_story_status">New story</string>
     <string name="new_story_status_content_description">%1$s shared a new story</string>
     <string name="night">Evening</string>
     <string name="no_application">Nothing</string>
     <string name="no_auto_saver_action">No thanks</string>
-    <string name="no_conversations_text">Check back here once you get some messages</string>
+    <string name="no_conversations_text">Your recent conversations will show up here</string>
     <string name="no_shortcut">%1$s doesn’t support conversation features</string>
     <string name="no_tiles_add">No tiles to add</string>
     <string name="noon">Midday</string>
@@ -1988,8 +2001,10 @@ If you have questions, contact %2$s."</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="paused_by_dnd">Paused by Do Not Disturb</string>
     <string name="people_tile_description">See recent messages, missed calls, and status updates</string>
     <string name="people_tile_title">Conversation</string>
+    <string name="person_available">Available</string>
     <string name="phone_hint">Swipe from icon for phone</string>
     <string name="phone_label">open phone</string>
     <string name="phone_locked_foget_password">Forgot password?</string>
@@ -2130,7 +2145,7 @@ If you have questions, contact %2$s."</string>
     <string name="qs_rearrange">Rearrange Quick Settings</string>
     <string name="qs_status_phone_muted">Phone muted</string>
     <string name="qs_status_phone_vibrate">Phone on vibrate</string>
-    <string name="quick_controls_title">Home controls</string>
+    <string name="quick_controls_title">Device controls</string>
     <string name="quick_settings">Quick Settings</string>
     <string name="quick_settings_autobrightness_label">Auto brightness</string>
     <string name="quick_settings_batterysaver_label">Battery saver</string>
@@ -2260,7 +2275,7 @@ If you have questions, contact %2$s."</string>
     <string name="quick_settings_tiles_default">internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,mictoggle,cameratoggle</string>
     <string name="quick_settings_tiles_old_mode">cell,wifi,bt,flashlight,batterysaver,screenshot,edit</string>
     <string name="quick_settings_tiles_retail_mode">night,dark,dnd,flashlight,rotation,location</string>
-    <string name="quick_settings_tiles_stock">internet,wifi,cell,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,mictoggle,cameratoggle,location,hotspot,inversion,saver,dark,work,night,reverse,reduce_brightness</string>
+    <string name="quick_settings_tiles_stock">internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,mictoggle,cameratoggle,location,hotspot,inversion,saver,dark,work,night,reverse,reduce_brightness</string>
     <string name="quick_settings_tiles_super_save">cell,wifi,bt,gps,vibrate</string>
     <string name="quick_settings_time_label">Time</string>
     <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
@@ -2288,9 +2303,9 @@ If you have questions, contact %2$s."</string>
     <string name="quick_settings_work_mode_label">Work apps</string>
     <string name="quick_step_accessibility_toggle_overview">Toggle Overview</string>
     <string name="rapid_charge_mode_tip">Quick charge</string>
+    <string name="reboot_info_auto_boot_global">Upcoming alarm: %s</string>
+    <string name="reboot_info_shutdown_alarm_global">Shutdown alarm: %s</string>
     <string name="recent_conversations">Recent conversations</string>
-    <string name="recents_quick_scrub_onboarding">Drag right to quickly switch apps</string>
-    <string name="recents_swipe_up_onboarding">Swipe up to switch apps</string>
     <string name="regrettable_lack_of_easter_egg">¯\\_(ツ)_/¯</string>
     <string name="remaining_length_format">%1$s left</string>
     <string name="remote_input_image_insertion_text">sent an image</string>
@@ -2810,7 +2825,8 @@ Any user can update apps for all other users."</string>
     <string name="wallet_error_generic">There was a problem getting your cards, please try again later</string>
     <string name="wallet_lockscreen_settings_label">Lock screen settings</string>
     <string name="wallet_secondary_label_device_locked">Unlock to use</string>
-    <string name="wallet_secondary_label_no_card">Not set up</string>
+    <string name="wallet_secondary_label_no_card">Add a card</string>
+    <string name="wallet_secondary_label_updating">Updating</string>
     <string name="wallet_title">Wallet</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Release to view details</string>
     <string name="wapi_all_sel_mode">Select mode</string>
@@ -2965,7 +2981,7 @@ Credential storage might not enable"</string>
     <string name="wifitrackerlib_wifi_mbo_assoc_disallowed_max_num_sta_associated">Network is over capacity. Try again later.</string>
     <string name="wifitrackerlib_wifi_mbo_oce_assoc_disallowed_insufficient_rssi">Weak signal. Try moving closer to the router.</string>
     <string name="wifitrackerlib_wifi_metered_label">Metered</string>
-    <string name="wifitrackerlib_wifi_network_not_found">Network not compatible with this device</string>
+    <string name="wifitrackerlib_wifi_network_not_found">"Can't connect. Try again later."</string>
     <string name="wifitrackerlib_wifi_no_internet">No internet access</string>
     <string name="wifitrackerlib_wifi_no_internet_no_reconnect">Won’t automatically connect</string>
     <string name="wifitrackerlib_wifi_passpoint_expired">Expired</string>
