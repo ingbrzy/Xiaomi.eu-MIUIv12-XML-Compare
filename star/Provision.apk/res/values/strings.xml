@@ -127,7 +127,7 @@
     <string name="clearable_edittext_clear_description">Clear</string>
     <string name="clock_introduction">You can use this app to view time, as well as use timer, world clock, stopwatch, set alarms, and more.</string>
     <string name="close">Close</string>
-    <string name="close_location_service_setting">You can choose turn off location access in Settings > Privacy protection > Manage or restrict permissions for individual apps in Security.</string>
+    <string name="close_location_service_setting">You can choose turn off location access in Settings > Additional settings > Privacy or restrict permissions for individual apps in Security.</string>
     <string name="cm_terms_content">"In order to improve the services provided to you, the mobile network operator of your choice may upload your personal data and the info about this device to its servers using Wi-Fi networks or mobile data connection. This information will only be used for statistical purposes in order to improve the quality of the services and provide more personalized content. This information won't be used to identify you personally and won't be disclosed to third parties."</string>
     <string name="cm_terms_title">Mobile Network Operator Agreement</string>
     <string name="compass_introduction">You can use this app for navigation, as well as viewing coordinates, atmospheric pressure, and altitude.</string>
@@ -361,19 +361,18 @@
     <string name="msim_setting_default_data">Data SIM</string>
     <string name="msim_setting_default_voice">Default SIM for calls</string>
     <string name="multisim_settings_category">SIM card settings</string>
-    <string name="multisim_settings_sb_title">1 SIM card detected</string>
     <string name="multisim_settings_title">2 SIM cards detected</string>
     <string name="navigation_picker_gesture_guide">Gesture guide</string>
     <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
     <string name="navigation_picker_radio_text_virtual_key">Buttons</string>
     <string name="next">Next</string>
     <string name="next_fingerprint">Next</string>
-    <string name="ng_haokan_glance_user_agreement">https://hksocial-cdn.levect.com/html/app_h5_user_agreement_ms.html</string>
-    <string name="ng_haokan_privacy_policy">https://hksocial-cdn.levect.com/html/privacy_policy_ms.html</string>
+    <string name="ng_haokan_privacy_policy">https://92.haokan.mobi/lockscreen/mi/privacy_policy</string>
+    <string name="ng_haokan_user_agreement">https://92.haokan.mobi/lockscreen/mi/user_agreement</string>
     <string name="ng_id_glance_privacy_policy">https://in.api.glance.inmobi.com/api/v0/glance/xiaomi/privacy?lang=%1$s_region=%2$s</string>
     <string name="ng_id_glance_user_agreement">https://in.api.glance.inmobi.com/api/v0/glance/xiaomi/eula?lang=%1$s_region=%2$s</string>
-    <string name="ng_mailru_privacy_policy">https://help.mail.ru/feed/policy</string>
-    <string name="ng_mailru_user_agreement">https://help.mail.ru/feed/UA</string>
+    <string name="ng_mailru_privacy_policy">https://help.mail.ru/legal/terms/pulse/privacy</string>
+    <string name="ng_mailru_user_agreement">https://help.mail.ru/legal/terms/pulse/terms</string>
     <string name="ng_wuli_privacy_policy">https://news.lockscreenapi.com/sl/fiyuYz</string>
     <string name="ng_wuli_user_agreement">https://news.lockscreenapi.com/sl/BfMnQf</string>
     <string name="ng_xiaomi_privacy_policy">https://h5.app.intl.miui.com/gallery/privacy.html?lang=%1$s_%2$s</string>
@@ -513,7 +512,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="service_policy"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a >.</Data></string>
     <string name="service_policy_download"><Data>Before using our services, read and agree to &lt;a href=%1$s>Xunlei Privacy Policy&lt;/a >.</Data></string>
     <string name="service_privacy_index">Privacy Policy</string>
-    <string name="service_security_over_r"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a > before using Security.&lt;br/>&lt;br/>In accordance with Android 11 standards, a one-time permission will be withdrawn within 5 seconds after the corresponding app stops running. If you open the app during this short period of time, the permission will be withdrawn then.</Data></string>
+    <string name="service_security_over_r"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a >.&lt;br/>&lt;br/>In accordance with Android R standards, a one-time permission will be withdrawn within a set period of time (around &lt;xliff:g example=5 seconds id=short>%2$s&lt;/xliff:g>) after the corresponding app stops running. If you open the app during this short period of time, the permission will be withdrawn then.</Data></string>
     <string name="servicestate_title">Statement on basic services</string>
     <string name="setting_locale">Setting region…</string>
     <string name="shut_down">Shut down</string>
@@ -523,11 +522,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="sim_card_detecting_title">Checking for SIM card…</string>
     <string name="sim_card_detection">Insert SIM card</string>
     <string name="sim_card_detection_info">To insert your SIM card, read the instructions that came with your device.</string>
-    <string name="sim_card_detection_info_sb">"Insert a SIM card before you continue. Find device and sync-related functionality won't be fully available to you if you create an account without a SIM card. This device supports eSIM. "</string>
-    <string name="sim_card_detection_info_sb_esim">Tap to activate eSim.</string>
     <string name="sim_card_detection_mobile_not_available">"SIM card couldn't connect to the network"</string>
-    <string name="sim_card_detection_sb_esim">Activate eSIM></string>
-    <string name="sim_card_detection_sb_nonactivated">Not activated</string>
     <string name="sim_dectection_next">Continue</string>
     <string name="sim_redetection">Check again</string>
     <string name="sim_scard_detecting_check_mobile_not_available">"Your SIM card couldn't connect to a valid carrier network. Make sure you have sufficient funds on your balance and try to connect again."</string>

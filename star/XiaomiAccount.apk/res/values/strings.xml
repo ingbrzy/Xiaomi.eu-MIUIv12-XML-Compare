@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_device_info">View device details</string>
+    <string name="accept">Allow</string>
     <string name="access_token_expired_warning">Weibo Account has expired</string>
     <string name="access_token_invalid_warning">Weibo Account is invalid</string>
     <string name="account">Account</string>
@@ -109,6 +110,7 @@
 You can sign in to your Mi Account using %s now."</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="button_unbind">Disconnect</string>
+    <string name="cancel">Cancel</string>
     <string name="change_activate_email">Change email address</string>
     <string name="change_email_address">Change email address</string>
     <string name="change_password">Change password</string>
@@ -252,6 +254,7 @@ You can sign in to your Mi Account using %s now."</string>
     <string name="delete_device_btn">Remove</string>
     <string name="delete_device_failed">"Can't remove device"</string>
     <string name="delete_device_notice">"After device is removed, it will be signed out of your Mi Account automatically. You won't be able use this device to access the photos, messages, or other content stored in your account."</string>
+    <string name="deny">Deny</string>
     <string name="device_delete_success_message">"If you didn't sign in on this device, change your password immediately."</string>
     <string name="device_delete_success_title">Signed out</string>
     <string name="device_list__header">My devices</string>
@@ -277,6 +280,7 @@ Send this code to the supervisor."</string>
     <string name="earthly_branches_zi">子</string>
     <string name="empty" />
     <string name="empty_device_list_notice">No devices</string>
+    <string name="enable">Settings</string>
     <string name="ep_unsupported">"Can't sign in to Mi Account on your device"</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
@@ -387,6 +391,7 @@ Send this code to the supervisor."</string>
     <string name="get_phone_verifycode_exceed_limit">Too many verification codes have been sent to this number. Wait 24 hours and try again.</string>
     <string name="google">Google</string>
     <string name="google_login">Sign in with Google</string>
+    <string name="goto_accept">OK</string>
     <string name="guest_account_label">Mi Guest Account</string>
     <string name="health_action_activate">Activate</string>
     <string name="health_action_install">Install</string>
@@ -559,6 +564,7 @@ Send this code to the supervisor."</string>
     <string name="passport_activing_account">Activating…</string>
     <string name="passport_adding_account">Adding account…</string>
     <string name="passport_area_code_hot">FREQUENTLY USED</string>
+    <string name="passport_area_code_others">Use a different prefix</string>
     <string name="passport_area_code_title">Country code</string>
     <string name="passport_auto_generate_pwd">Generate secure password</string>
     <string name="passport_back">Back</string>
@@ -756,6 +762,7 @@ Send this code to the supervisor."</string>
     <string name="passport_title_reg">Create an account</string>
     <string name="passport_trust_device">Add this device to verified devices</string>
     <string name="passport_trying_read_verify_code_sms">Getting verification code…</string>
+    <string name="passport_tz_invalid">Security risks found. This device may have been rooted or flashed. Try other sign-in options.</string>
     <string name="passport_uplink_reg">Use phone number</string>
     <string name="passport_uplink_send_sms_hint">"Tap \"Send\" after you're redirected to the page with a composed message."</string>
     <string name="passport_uplink_slot1_reg">Use SIM 1</string>
@@ -794,10 +801,14 @@ Send this code to the supervisor."</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_desc_read_sms">For auto-filling verification codes</string>
+    <string name="permission_desc_write_external_storage">For uploading logs for feedback</string>
     <string name="permission_group_contacts">Contacts</string>
     <string name="permission_group_phone">Phone</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Storage</string>
+    <string name="permission_read_sms">Access messages</string>
+    <string name="permission_write_external_storage">Access and save items to storage</string>
     <string name="personal_info_desc">Photo, nickname, and more</string>
     <string name="phone_num_use_for">Phone number is used for:</string>
     <string name="photoPickerNotFoundText">No photos available.</string>
@@ -816,6 +827,12 @@ Send this code to the supervisor."</string>
     <string name="recycle_phone_notification_title">Mi Account security risk</string>
     <string name="removing_account">Signing out…</string>
     <string name="replace_binded_phone">Replace phone</string>
+    <string name="request_open_permission">Permissions required</string>
+    <string name="request_use_camera_message">"Allow Mi Account to access your phone's camera?"</string>
+    <string name="request_use_camera_title">Access camera</string>
+    <string name="request_use_gallery_message">Allow Mi Account to access Gallery?</string>
+    <string name="request_use_gallery_title">Access Gallery</string>
+    <string name="request_use_writing_clipboard_message">To copy your Mi Account ID, allow Mi Account to save items to the clipboard.</string>
     <string name="resend_active_email">Resend</string>
     <string name="resend_email_reach_limit_message">"You've requested too many verification emails. Make sure that the verification email isn't in your inbox's Spam folder."</string>
     <string name="resend_email_reach_limit_title">"Can't send email"</string>
@@ -972,6 +989,8 @@ Send this code to the supervisor."</string>
     <string name="used_cloud_storage_info">Used %s</string>
     <string name="user_avatar_update_title">Change profile photo</string>
     <string name="user_avatar_uploading">Just a sec…</string>
+    <string name="user_instruction_all_purpose">Welcome to Mi Account! You can create an account, sign in, and access services provided by Xiaomi and its affiliated companies, such as Mi. com, Xiaomi Cloud, and GetApps. You can get Mi Coins, buy virtual goods, and enjoy value-added services including games, themes, and ebooks.</string>
+    <string name="user_instruction_tip">To be able to sign in, read and agree to terms and conditions.</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="vip_account_settings">VIP Settings</string>
