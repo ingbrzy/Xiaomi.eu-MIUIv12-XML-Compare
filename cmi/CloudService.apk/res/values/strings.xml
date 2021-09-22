@@ -620,10 +620,6 @@
     <string name="micloud_upgrade_member">Get storage</string>
     <string name="micloud_upgrade_storage">Upgrade storage plan</string>
     <string name="micloud_user_space_title">Storage space</string>
-    <string name="micloud_warn_full_sum">"New items won't be synced with Xiaomi Cloud."</string>
-    <string name="micloud_warn_full_title">Out of space</string>
-    <string name="micloud_warn_low_sum">Your Xiaomi Cloud is 90% full.</string>
-    <string name="micloud_warn_low_title">Almost out of space</string>
     <string name="micloud_web_discription_place_holder">Visit %1$s on your computer to manage your data.</string>
     <string name="micloud_wipe_data_confirm_label">Delete synced items from this device?</string>
     <string name="micloud_wipe_data_confirm_title">Some items from the following apps are synced with Xiaomi Cloud. You can delete them from this device still keeping them in the cloud.</string>
@@ -731,6 +727,15 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
     <string name="no_sim">"Couldn't find SIM card"</string>
     <string name="noon">Midday</string>
     <string name="not_set">Not set</string>
+    <string name="noti_quota_button_text">Upgrade</string>
+    <string name="noti_quota_full_sum">Upgrade your storage plan to continue syncing items.</string>
+    <string name="noti_quota_full_sum_without_button">Get more storage space to continue syncing items.</string>
+    <string name="noti_quota_full_title">Cloud storage is full</string>
+    <string name="noti_quota_full_title_without_button">Cloud storage is full</string>
+    <string name="noti_quota_low_sum">Upgrade your storage plan to continue syncing items.</string>
+    <string name="noti_quota_low_sum_without_button">Get more storage space to continue syncing items.</string>
+    <string name="noti_quota_low_title">Not enough cloud storage</string>
+    <string name="noti_quota_low_title_without_button">Not enough cloud storage</string>
     <string name="notification_sync_fail_title">"Couldn't sync passwords"</string>
     <string name="notification_update_key_text">Password manager passcode changed. Verify the new passcode.</string>
     <string name="pay_info_dialog_confirm_to_pay">Pay %s</string>
@@ -802,7 +807,7 @@ Location info might not be reported when network connection is poor."</string>
     <string name="send">Send</string>
     <string name="share_cancel">Share canceled</string>
     <string name="share_failed">"Couldn't share"</string>
-    <string name="share_location_app_name">Find</string>
+    <string name="share_location_app_name">Find Device</string>
     <string name="share_location_dialog_confirm">Got it</string>
     <string name="share_location_dialog_content">Now you can use the Home screen shortcut to access settings faster.</string>
     <string name="share_location_dialog_title">Attention</string>
