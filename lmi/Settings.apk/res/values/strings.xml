@@ -1289,9 +1289,9 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_phonebook_request">Phone book access request</string>
     <string name="bluetooth_pin_values_hint">Usually 0000 or 1234</string>
     <string name="bluetooth_pin_values_hint_16_digits">Must be 16 digits</string>
-    <string name="bluetooth_plugins_check_summary">Check updates of bluetooth plugins</string>
-    <string name="bluetooth_plugins_check_summary_new">Found new version of bluetooth plugin</string>
-    <string name="bluetooth_plugins_check_title">Check bluetooth plugins</string>
+    <string name="bluetooth_plugins_check_summary">Connect to the network to check for updates</string>
+    <string name="bluetooth_plugins_check_summary_new">An update is available</string>
+    <string name="bluetooth_plugins_check_title">Update Bluetooth plug-in</string>
     <string name="bluetooth_pref_summary">Allow your phone to communicate with nearby Bluetooth devices</string>
     <string name="bluetooth_preference_connected_devices">Connected devices</string>
     <string name="bluetooth_preference_device_settings">Device settings</string>
@@ -3581,6 +3581,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="gxzw_quick_open_title">Shortcuts</string>
     <string name="handy_mode">One-handed mode</string>
     <string name="handy_mode_enable">One-handed mode</string>
+    <string name="handy_mode_no_touch_assistant">"One-handed mode will only work if you're using buttons for system navigation. You can switch between gestures and buttons in the \"System navigation\" section of the Settings."</string>
     <string name="handy_mode_size">Screen size</string>
     <string name="handy_mode_tips">Swipe left or right from the Home button to pull the screen closer to one side.</string>
     <string name="handy_mode_tips_full_screen">"When you're using full screen gestures, you can turn on one-handed mode using Quick ball. You can also switch to using buttons instead of full screen gestures."</string>
@@ -3659,6 +3660,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="headset_remove_message_indicate">%1$s will be unpaired from all the devices associated with this Mi Account.</string>
     <string name="headset_sbc">SBC</string>
     <string name="headset_settings_title">Sound effects</string>
+    <string name="headset_spatial_audio">Spatial audio</string>
     <string name="headset_toast_tip_disconnect_others">The headset cannot be set up at this time, your headset may be connected to another phone</string>
     <string name="headset_unsaved_device">Remove the device</string>
     <string name="headset_unsaved_devices">Used on other devices</string>
@@ -3857,6 +3859,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="imei_information_summary">IMEI relative information</string>
     <string name="imei_information_title">IMEI information</string>
     <string name="imei_multi_sim">IMEI (sim slot %1$d)</string>
+    <string name="imei_multi_sim_softbank">IMEI %1$d</string>
     <string name="immediately_destroy_activities">"Don't keep activities"</string>
     <string name="immediately_destroy_activities_summary">End every activity as soon as the user leaves it</string>
     <string name="importance_default">Default</string>
@@ -3944,6 +3947,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="input_methods_settings_title">Text input</string>
     <string name="input_pattern_hint_text">Draw your unlock pattern</string>
     <string name="input_settings">Input settings</string>
+    <string name="insert_sim_card_and_try_again">Insert your SIM card and try again.</string>
     <string name="install_all_warning">Your phone and personal data are more vulnerable to attack by unknown apps. By installing apps from this source, you agree that you are responsible for any damage to your phone or loss of data that may result from their use.</string>
     <string name="install_applications">Unknown sources</string>
     <string name="install_applications_title">Allow all app sources</string>
@@ -4034,6 +4038,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="keyboard_and_input_methods_category">Keyboard</string>
     <string name="keyboard_assistance_category">Keyboard assistance</string>
     <string name="keyboard_disconnected">Not connected</string>
+    <string name="keyboard_funtion_key">Function key</string>
     <string name="keyboard_layout_default_label">Default</string>
     <string name="keyboard_layout_dialog_setup_button">Set up keyboard layouts</string>
     <string name="keyboard_layout_dialog_switch_hint">To switch, press Control-Spacebar</string>
@@ -7432,6 +7437,7 @@ Possibly incorrect PIN."</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
     <string name="sim_status_title">SIM status</string>
     <string name="sim_status_title_sim_slot">SIM status (sim slot %1$d)</string>
+    <string name="sim_status_title_sim_softbank">SIM status %1$d</string>
     <string name="simulate_color_space">Simulate color space</string>
     <string name="single_key_use">Single button</string>
     <string name="single_key_use_summary">"Use the Home button for functions performed by the other 2 buttons.
@@ -7658,6 +7664,7 @@ A trusted credential installed on your device is making this possible."</string>
     <string name="status_msid_number">MSID</string>
     <string name="status_number">Phone number</string>
     <string name="status_number_sim_slot">Phone number (sim slot %1$d)</string>
+    <string name="status_number_sim_softbank">Phone number %1$d</string>
     <string name="status_number_sim_status">Phone number on SIM</string>
     <string name="status_operator">Network</string>
     <string name="status_prl_version">PRL version</string>
@@ -7920,6 +7927,11 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="style_and_wallpaper_settings_title">Styles &amp; wallpapers</string>
     <string name="style_suggestion_summary">Try different styles, wallpapers, and more</string>
     <string name="style_suggestion_title">Customize your phone</string>
+    <string name="stylus_connect_fail">"Couldn't connect. Attach again."</string>
+    <string name="stylus_connect_fail_no_battery">Charge your stylus now</string>
+    <string name="stylus_connect_fail_no_reason">"Couldn't connect"</string>
+    <string name="stylus_connect_fail_not_open_gps">"Couldn't connect. Turn on location services and try again."</string>
+    <string name="stylus_connecting">Connecting…</string>
     <string name="stylus_ota_check_failed_battery">"Couldn't check. The battery of your stylus is running low."</string>
     <string name="stylus_ota_check_failed_info">"Couldn't check firmware version. Attach your stylus again."</string>
     <string name="stylus_ota_check_update">Check for updates</string>
@@ -8425,6 +8437,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
     <string name="unrestricted_app_title">Unrestricted data usage</string>
     <string name="unrestricted_data_saver">Unrestricted data</string>
     <string name="unsupported_setting_summary">Setting isn’t supported on this phone</string>
+    <string name="unsupported_usim_card">Unsupported USIM card.</string>
     <string name="update_new_version">An update is available</string>
     <string name="update_progress_for_updates">Updating (%s)</string>
     <string name="updating_settings">Updating settings…</string>
