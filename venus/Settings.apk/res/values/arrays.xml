@@ -484,6 +484,31 @@
         <item>60</item>
         <item>90</item>
     </string-array>
+    <string-array name="ba_disable_timeout">
+        <item>@string/short_time</item>
+        <item>@string/long_time</item>
+        <item>@string/always_on</item>
+    </string-array>
+    <string-array name="ba_disable_timeout_value">
+        <item>short_time</item>
+        <item>long_time</item>
+        <item>always_on</item>
+    </string-array>
+    <string-array name="ba_security_settings_entries">
+        <item>@string/ba_low_security_level</item>
+        <item>@string/ba_mid_security_level</item>
+        <item>@string/ba_high_security_level</item>
+    </string-array>
+    <string-array name="ba_security_settings_summaries">
+        <item>@string/ba_low_security_level_summary</item>
+        <item>@string/ba_mid_security_level_summary</item>
+        <item>@string/ba_high_security_level_summary</item>
+    </string-array>
+    <string-array name="ba_security_settings_values">
+        <item>0</item>
+        <item>4</item>
+        <item>16</item>
+    </string-array>
     <array name="background_style1">
         <item>@drawable/rounded_ripple</item>
     </array>
@@ -582,6 +607,7 @@
         <item>3</item>
         <item>3</item>
     </integer-array>
+    <array name="bcast_channel_selection" />
     <string-array name="bearer_entries">
         <item>Unspecified</item>
         <item>LTE</item>
