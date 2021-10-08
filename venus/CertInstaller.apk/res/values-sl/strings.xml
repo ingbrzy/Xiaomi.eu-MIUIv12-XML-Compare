@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="action_missing_private_key">Za nameščanje certifikata je potreben zasebni ključ</string>
+  <string name="action_missing_user_cert">Za nameščanje zasebnega ključa je potreben certifikat</string>
+  <string name="app_name">Namestitvena aplikacija za potrdilo</string>
+  <string name="ca_cert_is_added">CA certifikat je nameščen</string>
+  <string name="ca_certificate">CA certifikat</string>
+  <string name="cert_is_added">%s je nameščen.</string>
+  <string name="cert_missing_error">Namestitev ni uspela ker ni bilo mogoče najti datoteke s potrdilom.</string>
+  <string name="cert_not_saved">"Potrdilo ni nameščeno."</string>
+  <string name="cert_read_error">"Namestitev ni uspela ker ni bilo mogoče prebrati datoteke s potrdilom."</string>
+  <string name="cert_temp_error">Trenutno ni uspelo. Poskusite kasneje.</string>
+  <string name="cert_too_large_error">"Namestitev ni uspela ker je potrdilo preveliko."</string>
+  <string name="certificate">Certifikat</string>
+  <string name="certificate_capabilities_warning">Pozor: izdajatelj tega certifikata lahko pregleduje ves promet iz naprave in vanjo.</string>
+  <string name="certificate_name">Ime certifikata</string>
+  <string name="credential_info">V tem paketu je:</string>
+  <string name="credential_name">"Ime potrdila:"</string>
+  <string name="credential_password">"Za ekstrahiranje potrdil vnesite geslo."</string>
+  <string name="credential_usage_label">Uporaba poverilnice:</string>
+  <string name="done_label">Končano</string>
+  <string name="extracting_pkcs12">Ekstrahiranje ...</string>
+  <string name="install_done">Poverilnice za %1$s so dodane med shranjena omrežja WiFi.</string>
+  <string name="install_done_title">Poverilnice nameščene</string>
+  <string name="invalid_cert">"Potrdilo ni veljavno."</string>
+  <string name="invalid_certificate_close_button">Zapri</string>
+  <string name="invalid_certificate_message">Ta datoteka se ne more uporabiti kot %1$s</string>
+  <string name="invalid_certificate_title">Te datoteke ne morete uporabiti</string>
+  <string name="n_cacrts">"CA certifikati: %d"</string>
+  <string name="name_char_error">"Vnesite ime ki vsebuje samo črke in številke."</string>
+  <string name="name_credential_dialog_title">"Ime potrdila"</string>
+  <string name="name_empty_error">Vnesite ime.</string>
+  <string name="no_cert_file_found">Na zunanjem pomnilniku ni bilo mogoče najti datotek s potrdilom.</string>
+  <string name="no_cert_to_saved">Ni potrdila za namestitev.</string>
+  <string name="one_cacrt">eno overjeno potrdilo</string>
+  <string name="one_usercrt">eno uporabniško potrdilo</string>
+  <string name="one_userkey">en uporabniški ključ</string>
+  <string name="one_wapi_ascrt">en WAPI AS certifikat</string>
+  <string name="one_wapi_usercrt">en WAPI user certifikat</string>
+  <string name="only_primary_user_allowed">Samo lastnik sme namestiti potrdila.</string>
+  <string name="p12_description">Potrdila v shrambi ključev PKCS12</string>
+  <string name="password_empty_error">Vnesite geslo.</string>
+  <string name="password_error">Vnesite pravilno geslo.</string>
+  <string name="pick_file_title">Izberite potrdilo</string>
+  <string name="pkcs12_file_password_dialog_title">Ekstrahiraj iz %s</string>
+  <string name="pkcs12_password_dialog_title">Izvozi potrdilo</string>
+  <string name="redirect_ca_certificate_close_button">Zapri</string>
+  <string name="redirect_ca_certificate_message">CA certifikati lahko ogrozijo vašo zasebnost in jih je potrebno namestiti v nastavitvah</string>
+  <string name="redirect_ca_certificate_title">Namestitev CA certifikata ni uspela</string>
+     <string name="redirect_ca_certificate_with_app_info_message">Ta certifikat od %1$s mora biti nameščen v Nastavitvah. Potrdila CA namestite samo iz organizacij, ki jim zaupate.</string>
+  <string name="sdcard_not_present">"Zunanji pomnilnik ni na voljo."</string>
+  <string name="select_certificate_usage_title">Izberite vrsto certifikata</string>
+  <string name="storage_error">"Potrdila ni bilo mogoče shraniti. Če želite poskusiti znova se dotaknite možnosti V redu."</string>
+  <string name="unable_to_save_cert">"Potrdila ni bilo mogoče shraniti. Shramba poverilnic ni omogočena ali pravilno inicializirana."</string>
+  <string name="user_cert_is_added">Uporabniško potrdilo je nameščeno</string>
+  <string name="user_certificate">Uporabniško potrdilo za VPN in aplikacije</string>
+  <string name="userkey_type">Algoritem:</string>
+  <string name="wifi_cancel_label">Prekliči</string>
+  <string name="wifi_cert_is_added">Certifikat za WiFi je nameščen</string>
+  <string name="wifi_certificate">Certifikat za WiFi</string>
+  <string name="wifi_config_text">"Ime: %1$s
+FQDN: %2$s
+Združenja za gostovanja: %3$s
+Področje: %4$s
+Način preverjanja pristnosti: EAP-%5$s
+"</string>
+  <string name="wifi_detail_label">Podrobnosti</string>
+  <string name="wifi_detail_title">Podrobnosti za %s</string>
+  <string name="wifi_dismiss_label">Opusti</string>
+  <string name="wifi_install_label">Namesti</string>
+  <string name="wifi_installer_detail">Namestite poverilnice za WiFi, če se želite povezati v razpoložljiva omrežja preko %1$s.</string>
+  <string name="wifi_installer_download_error">Prenesena datoteka ima težave in je ni mogoče namestiti. Preverite ali ste datoteko prenesli iz pravega vira.</string>
+  <string name="wifi_installer_fail">Poverilnic za WiFi ni mogoče namestiti. Poskusite prenesti datoteko znova.</string>
+  <string name="wifi_installer_fail_no_wifi">Vklopite WiFi in poskusite znova.</string>
+  <string name="wifi_installer_fail_no_wifi_title">Namestitev je bila preklicana</string>
+  <string name="wifi_installer_fail_title">Namestitev ni mogoča</string>
+  <string name="wifi_installing_label">Nameščanje</string>
+  <string name="wifi_no_config">Brez</string>
+  <string name="wifi_sim_config_text">"SIM: %s
+"</string>
+  <string name="wifi_title">Profil za WiFi</string>
+  <string name="wifi_tls_config_text">"Potrdilo odjemalca:
+%1$s
+Ključ: %2$s
+"</string>
+  <string name="wifi_trust_config_text">"Potrdilo zaupanja:
+%s
+"</string>
+  <string name="wifi_ttls_config_text">"Uporabniško ime: %s
+"</string>
+</resources>

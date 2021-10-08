@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Менеджэр спампоўвання</string>
+    <string name="button_cancel_download">Скасаваць</string>
+    <string name="button_queue_for_wifi">Чарга</string>
+    <string name="button_start_now">Пачаць прама цяпер</string>
+    <string name="download_error">Не атрымалася</string>
+    <string name="download_no_application_title">Не атрымлiваецца адкрыць файл</string>
+    <string name="download_queued">У чарзе</string>
+    <string name="download_remaining">Засталося %s</string>
+    <string name="download_running">У працэсе</string>
+    <string name="download_unknown_title">&lt;Без назвы></string>
+    <string name="notification_download_complete">Спампаванне завершана</string>
+    <string name="notification_download_failed">Не атрымалася спампаваць.</string>
+    <string name="notification_need_wifi_for_size">Для спампавання патрабуецца сетка Wi-Fi</string>
+    <string name="notification_paused_in_background">Прыпынена ў фон. рэжыме</string>
+    <string name="permdesc_accessAllDownloads">Дазваляе прыкладанню праглядаць і змяняць усе спампоўкi, пачатыя любым сiстэмным прыкладаннем.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Дазваляе прыкладанню спампоўваць файлы ў кэш-памяць, якую нельга ачысцiць аўтаматычна, калі менеджэру спампавання спатрэбіцца больш месца на дыске.</string>
+    <string name="permdesc_downloadCompletedIntent">Дазваляе прыкладанню адпраўляць апавяшчэннi аб завершаных спампаваннях. Шкоднасныя прыкладаннi могуць выкарыстоўваць гэта, каб негатыўна паўсплываць на іншыя прыкладаннi для спампавання файлаў.</string>
+    <string name="permdesc_downloadManager">Дазваляе прыкладанню атрымлiваць доступ да менеджэра спампавання i выкарыстоўваць яго для спампавання файлаў. Шкоднасныя прыкладаннi могуць выкарыстоўваць гэта, каб сарваць загрузку і закрыць доступ да прыватнай інфармацыі.</string>
+    <string name="permdesc_downloadManagerAdvanced">Дазваляе прыкладанню атрымлiваць доступ да пашыраных функцый менеджэра спампавання. Шкоднасныя прыкладаннi могуць выкарыстоўваць гэта, каб сарваць загрузку і закрыць доступ да прыватнай інфармацыі.</string>
+    <string name="permdesc_downloadWithoutNotification">Дазваляе прыкладанню спампоўваць файлы праз менеджэр спампавання, не кажучы пра гэта карыстальнiку.</string>
+    <string name="permdesc_seeAllExternal">Дазваляе прыкладанюе бачыць усе спампоўкі на SD-карце, незалежна ад таго, праз якое прыкладанне яны былi спампаваны.</string>
+    <string name="permlab_accessAllDownloads">Доступ да ўсіх сістэмных спамповак</string>
+    <string name="permlab_downloadCacheNonPurgeable">Зарэзерваваць месца ў кэшы спампоўкі</string>
+    <string name="permlab_downloadCompletedIntent">Адпраўляць апавяшчэнні аб спампоўцы.</string>
+    <string name="permlab_downloadManager">Доступ да менеджэра спампоўванняў.</string>
+    <string name="permlab_downloadManagerAdvanced">Пашыраныя функцыі менеджэра спампоўванняў.</string>
+    <string name="permlab_downloadWithoutNotification">спампоўваць файлы без апавяшчэння</string>
+    <string name="permlab_seeAllExternal">Прагледзець усе спампоўкі на USB-назапашвальнiк</string>
+    <string name="root_downloads">Спампоўкі</string>
+    <string name="wifi_recommended_body">"Спампаванне файла памерам %1$s  можа скараціць тэрмін службы акумулятара або прывесці да празмернага выкарыстання мабільнага падлучэння дадзеных, за што вашым мабiльным аператарам можа спаганяцца дадатковая плата.
+
+Дакранiцеся да надпiсу %2$s, каб пачаць спампаванне, калi з'явiцца падлучэнне да сеткi Wi-Fi."</string>
+    <string name="wifi_recommended_title">Стаць у чаргу, каб спампаваць пазней?</string>
+    <string name="wifi_required_body">"Каб завяршыць спампаванне файла памерам %1$s , патрабуецца падлучэнне да сеткi Wi-Fi. 
+
+Дакранiцеся да надпiсу %2$s , каб пачаць спампаванне, калi будзе даступна сетка Wi-Fi."</string>
+    <string name="wifi_required_title">Спампоўка занадта вялікая для сеткі аператара</string>
+</resources>

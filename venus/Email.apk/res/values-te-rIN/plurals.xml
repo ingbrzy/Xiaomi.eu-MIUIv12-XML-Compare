@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 గంటల క్రితం</item>
+        <item quantity="one">1 గంట క్రితం</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 గంటల క్రితం</item>
+        <item quantity="one">1 గంటల క్రితం</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">అర గంట క్రితం</item>
+        <item quantity="one">అర గంట క్రితం</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">1 గంటలో</item>
+        <item quantity="one">1 గంటలో</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">అర గంటలో</item>
+        <item quantity="one">అర గంటలో</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">వెంటనే</item>
+        <item quantity="one">వెంటనే</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d నిమిషాల్లో</item>
+        <item quantity="one">1 నిమిషంలో</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">ఇప్పుడే</item>
+        <item quantity="one">ఇప్పుడే</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d నిమి క్రితం</item>
+        <item quantity="one">1 నిమి క్రితం</item>
+    </plurals>
+    <plurals name="actionbar_large_unread_count">
+        <item quantity="other">%1$d+ చదవనివి</item>
+        <item quantity="one">%1$d+ చదవనిది</item>
+    </plurals>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">%1$d చదవనివి</item>
+        <item quantity="one">%1$d చదవనిది</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">ఈ %1$d సంభాషణలను ఆర్కైవ్ చేయాలా?</item>
+        <item quantity="one">ఈ సంభాషణను ఆర్కైవ్ చేయాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">ఈ %1$d సంభాషణలను తొలగించాలా?</item>
+        <item quantity="one">ఈ సంభాషణను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation_with_sub">
+        <item quantity="other">ఈ సంభాషణలు విలీనమైన అంశాలను కలిగి ఉన్నాయి. ఏదేమైనా వాటిని తొలగించాలా?</item>
+        <item quantity="one">ఈ సంభాషణ విలీనమైన అంశాలను కలిగి ఉంది. ఏదేమైనా దాన్ని తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_draft">
+        <item quantity="other">%1$d డ్రాఫ్ట్‌లని తొలగించాలా?</item>
+        <item quantity="one">%1$d డ్రాఫ్ట్‌ని తొలగించాలా?</item>
+    </plurals>
+    <plurals name="contact_num_selected">
+        <item quantity="other">%d పరిచయాలు జోడించబడ్డాయి</item>
+        <item quantity="one">%d పరిచయం జోడించబడింది</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> ఆర్కైవ్ చేయబడ్డాయి.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> ఆర్కైవ్ చేయబడింది.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> తొలగించబడ్డాయి.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> తొలగించబడింది.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">మారిన ఫోల్డర్‌లు.</item>
+        <item quantity="one">మారిన ఫోల్డర్.</item>
+    </plurals>
+    <plurals name="conversation_msg_header_count">
+        <item quantity="other">+%1$d ఇతర వ్యక్తులు</item>
+        <item quantity="one">+%1$d ఇతర వ్యక్తి</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> మ్యూట్ చేయబడ్డాయి</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> మ్యూట్ చేయబడింది.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b>" 'ముఖ్యమైన' ఫోల్డర్ నుంచి తొలగించబడ్డాయి"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" 'ముఖ్యమైన' ఫోల్డర్ నుంచి తొలగించబడింది"</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b>" 'స్పామ్' ఫోల్డర్ నుంచి తొలగించబడ్డాయి"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" 'స్పామ్' ఫోల్డర్ నుంచి తొలగించబడింది"</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&lt;b>%1$d&lt;/b> సందేశాలు స్పామ్‌గా నివేదించబడ్డాయి</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> సందేశం స్పామ్‌గా నివేదించబడింది</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> స్పామ్‌గా గుర్తించబడ్డాయి</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> స్పామ్‌గా గుర్తించబడింది</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">%d రోజులు</item>
+        <item quantity="one">%d రోజు</item>
+    </plurals>
+    <plurals name="day_after">
+        <item quantity="other">%d రోజుల్లో</item>
+        <item quantity="one">%d రోజులో</item>
+    </plurals>
+    <plurals name="day_before">
+        <item quantity="other">%d రోజుల క్రితం</item>
+        <item quantity="one">%d రోజు క్రితం</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">డ్రాఫ్ట్‌లు</item>
+        <item quantity="one">డ్రాఫ్ట్</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d సందేశాలు శాశ్వతంగా తొలగించబడతాయి.</item>
+        <item quantity="one">%1$d సందేశం శాశ్వతంగా తొలగించబడుతుంది.</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">అర గంట క్రితం</item>
+        <item quantity="one">అర గంట క్రితం</item>
+    </plurals>
+    <plurals name="hide_atts_remaining">
+        <item quantity="other">%1$d జోడింపులని దాచిపెట్టు</item>
+        <item quantity="one">%1$d జోడింపుని దాచిపెట్టు</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1 గంటలో</item>
+        <item quantity="one">1 గంటలో</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">అర గంటలో</item>
+        <item quantity="one">అర గంటలో</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">వెంటనే</item>
+        <item quantity="one">వెంటనే</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d నిమిషాల్లో</item>
+        <item quantity="one">1 నిమిషంలో</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">ఇప్పుడే</item>
+        <item quantity="one">ఇప్పుడే</item>
+    </plurals>
+    <plurals name="local_search_result">
+        <item quantity="other">సింక్ అయిన సందేశాల్లో %s ఫలితాలు</item>
+        <item quantity="one">సింక్ అయిన సందేశాల్లో %s ఫలితం</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d అంశాలు ఎంచుకోబడ్డాయి</item>
+        <item quantity="one">%d అంశం ఎంచుకోబడింది</item>
+    </plurals>
+    <plurals name="more_atts_remaining">
+        <item quantity="other">%1$d జోడింపులు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">%1$d జోడింపు మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">%1$d కొత్త సందేశాలను చూపు.</item>
+        <item quantity="one">%1$d కొత్త సందేశాన్ని చూపు.</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d కొత్త సందేశాలు</item>
+        <item quantity="one">%1$d కొత్త సందేశం</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d నిమిషాల క్రితం</item>
+        <item quantity="one">1 నిమిషం క్రితం</item>
+    </plurals>
+    <plurals name="num_selected">
+        <item quantity="other">%d ఎంచుకోబడ్డాయి</item>
+        <item quantity="one">%d ఎంచుకోబడింది</item>
+    </plurals>
+    <plurals name="number_of_day_after">
+        <item quantity="other">%1$d రోజుల తరువాత</item>
+        <item quantity="one">%1$d రోజు తరువాత</item>
+    </plurals>
+    <plurals name="number_of_day_before">
+        <item quantity="other">%1$d రోజుల ముందు</item>
+        <item quantity="one">%1$d రోజు ముందు</item>
+    </plurals>
+    <plurals name="number_of_hour_after">
+        <item quantity="other">%1$d గంటల తరువాత</item>
+        <item quantity="one">%1$d గంట తరువాత</item>
+    </plurals>
+    <plurals name="number_of_hour_before">
+        <item quantity="other">%1$d గంటల ముందు</item>
+        <item quantity="one">%1$d గంట ముందు</item>
+    </plurals>
+    <plurals name="number_of_minute_after">
+        <item quantity="other">%1$d నిమిషాల తరువాత</item>
+        <item quantity="one">%1$d నిమిషం తరువాత</item>
+    </plurals>
+    <plurals name="number_of_minute_before">
+        <item quantity="other">%1$d నిమిషాల ముందు</item>
+        <item quantity="one">%1$d నిమిషం ముందు</item>
+    </plurals>
+    <plurals name="number_of_second_after">
+        <item quantity="other">%1$d సెకన్ల తరువాత</item>
+        <item quantity="one">%1$d సెకను తరువాత</item>
+    </plurals>
+    <plurals name="number_of_second_before">
+        <item quantity="other">%1$d సెకన్ల ముందు</item>
+        <item quantity="one">%1$d సెకను ముందు</item>
+    </plurals>
+    <plurals name="number_of_week_after">
+        <item quantity="other">%1$d వారాల తరువాత</item>
+        <item quantity="one">%1$d వారం తరువాత</item>
+    </plurals>
+    <plurals name="number_of_week_before">
+        <item quantity="other">%1$d వారాల ముందు</item>
+        <item quantity="one">%1$d వారం ముందు</item>
+    </plurals>
+    <plurals name="remote_search_result">
+        <item quantity="other">అన్ని ఖాతాల్లో %s ఫలితాలు</item>
+        <item quantity="one">అన్ని ఖాతాల్లో %s ఫలితం</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d పాత సందేశాలు</item>
+        <item quantity="one">%1$d పాత సందేశం</item>
+    </plurals>
+    <plurals name="unsent_messages_in_outbox">
+        <item quantity="other">%2$sలో %1$s పంపబడని సందేశాలు</item>
+        <item quantity="one">%2$sలో %1$s పంపబడని సందేశం</item>
+    </plurals>
+</resources>

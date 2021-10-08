@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_missing_private_key">برای نصب گواهی به کلید خصوصی نیاز است</string>
+    <string name="action_missing_user_cert">برای نصب کلید خصوصی، به گواهی نیاز است</string>
+    <string name="app_name">نصب‌کننده گواهی</string>
+    <string name="ca_cert_is_added">گواهینامه مرکز صدور گواهی نصب شد</string>
+    <string name="ca_certificate">گواهینامه مرکز صدور گواهی</string>
+    <string name="cert_missing_error">نصب نشد زیرا فایل گواهی‌نامه یافت نشد.</string>
+    <string name="cert_not_saved">گواهی نصب نشده است.</string>
+    <string name="cert_read_error">نصب نشد زیرا فایل گواهی‌نامه خوانده نشد.</string>
+    <string name="cert_temp_error">خطای موقت. لطفاً بعداً دوباره امتحان کنید.</string>
+    <string name="cert_too_large_error">نصب نشد زیرا اندازه گواهی‌نامه خیلی بزرگ است.</string>
+    <string name="certificate">گواهی</string>
+    <string name="certificate_capabilities_warning">توجه: صادرکننده این گواهینامه ممکن است همه ترافیک ورودی و خروجی به دستگاه را بررسی کند.</string>
+    <string name="certificate_name">نام گواهینامه</string>
+    <string name="credential_info">این بسته شامل این موارد است:</string>
+    <string name="credential_password">گذرواژه را برای استخراج گواهینامه‌ها وارد کنید.</string>
+    <string name="credential_usage_label">استفاده از اطلاعات کاربری:</string>
+    <string name="done_label">تمام</string>
+    <string name="extracting_pkcs12">درحال استخراج…</string>
+    <string name="install_done">‏اطلاعات کاربری %1$s به شبکه‌های ذخیره‌شده Wi-Fi اضافه شد.</string>
+    <string name="install_done_title">اطلاعات کاربری نصب شد</string>
+    <string name="invalid_cert">مجوز نامعتبر است.</string>
+    <string name="invalid_certificate_close_button">بستن</string>
+    <string name="invalid_certificate_message">از این فایل نمی‌توانید به‌عنوان %1$s استفاده کنید</string>
+    <string name="invalid_certificate_title">استفاده از این فایل ممکن نیست</string>
+    <string name="n_cacrts">‏%d گواهی CA</string>
+    <string name="name_char_error">نامی را که فقط شامل عدد و نویسه باشد تایپ کنید.</string>
+    <string name="name_credential_dialog_title">نام‌گذاری این گواهینامه</string>
+    <string name="name_empty_error">نامی تایپ کنید.</string>
+    <string name="no_cert_to_saved">هیچ گواهی برای نصب موجود نیست.</string>
+    <string name="one_cacrt">‏یک گواهی CA</string>
+    <string name="one_usercrt">یک گواهی کاربری</string>
+    <string name="one_userkey">یک کلید کاربری</string>
+    <string name="only_primary_user_allowed">فقط مالک این دستگاه می‌تواند مجوزها را نصب کند.</string>
+    <string name="p12_description">‏گواهی‌ها در حافظه کلید PKCS12.</string>
+    <string name="password_empty_error">گذرواژه را تایپ کنید.</string>
+    <string name="password_error">گذرواژه صحیح را تایپ کنید.</string>
+    <string name="pick_file_title">انتخاب یک گواهی‌نامه</string>
+    <string name="pkcs12_file_password_dialog_title">‏اجرا از %s</string>
+    <string name="pkcs12_password_dialog_title">استخراج گواهی</string>
+    <string name="redirect_ca_certificate_close_button">بستن</string>
+    <string name="redirect_ca_certificate_title">گواهینامه‌های مرکز صدور گواهی را در «تنظیمات» نصب کنید</string>
+    <string name="redirect_ca_certificate_with_app_info_message">این گواهینامه از %1$s باید در «تنظیمات» نصب شود. «گواهینامه‌های مرکز صدور گواهی» را فقط از سازمان‌هایی که مورداعتمادتان هستند نصب کنید.</string>
+    <string name="select_certificate_usage_title">یک نوع گواهینامه انتخاب کنید</string>
+    <string name="unable_to_save_cert">گواهی‌نامه ذخیره نشد. حافظه اطلاعات کاربری فعال نیست یا به‌درستی راه‌اندازی نشده است.</string>
+    <string name="user_cert_is_added">گواهینامه کاربر نصب شد</string>
+    <string name="user_certificate">‏گواهینامه کاربر برنامه و VPN</string>
+    <string name="userkey_type">الگوریتم:</string>
+    <string name="wifi_cancel_label">لغو</string>
+    <string name="wifi_cert_is_added">‏گواهینامه Wi-Fi نصب شد</string>
+    <string name="wifi_certificate">‏گواهینامه Wi-Fi</string>
+    <string name="wifi_config_text">"‏نام: %1$s
+FQDN: %2$s
+کنسرسیوم فراگردی: %3$s
+دامنه: %4$s
+روش نویسنده: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">جزئیات</string>
+    <string name="wifi_detail_title">‏جزئیات برای %s</string>
+    <string name="wifi_dismiss_label">رد کردن</string>
+    <string name="wifi_install_label">نصب</string>
+    <string name="wifi_installer_detail">‏اطلاعات کاربری Wi-Fi را نصب کنید تا به شبکه‌هایی که ازطریق %1$s در دسترس‌اند متصل شوید.</string>
+    <string name="wifi_installer_download_error">فایل بارگیری شده مشکل دارد و نمی‌تواند نصب شود. مطمئن شوید که فایل را از منبع درستی بارگیری کرده‌اید.</string>
+    <string name="wifi_installer_fail">‏نصب اطلاعات کاربری Wi-Fi انجام نشد. دوباره فایل را بارگیری کنید.</string>
+    <string name="wifi_installer_fail_no_wifi">‏Wi-Fi را روشن کنید و دوباره امتحان کنید.</string>
+    <string name="wifi_installer_fail_no_wifi_title">نصب لغو شد</string>
+    <string name="wifi_installer_fail_title">نصب ممکن نیست</string>
+    <string name="wifi_installing_label">در حال نصب</string>
+    <string name="wifi_no_config">هیچ‌کدام</string>
+    <string name="wifi_sim_config_text">"‏سیم‌کارت: %s
+"</string>
+    <string name="wifi_title">‏نمایه Wi-Fi</string>
+    <string name="wifi_tls_config_text">"‏گواهی کلاینت:
+%1$s
+کلید: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"‏گواهی قابل اعتماد:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"‏نام کاربر: %s
+"</string>
+</resources>

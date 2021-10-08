@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Nedlastinger</string>
+    <string name="button_cancel_download">Avbryt</string>
+    <string name="button_queue_for_wifi">Kø</string>
+    <string name="button_start_now">Start nå</string>
+    <string name="download_error">Kunne ikke laste ned</string>
+    <string name="download_filesize_unknown">Ukjent</string>
+    <string name="download_no_application_title">Kan ikke åpne fil</string>
+    <string name="download_queued">I kø</string>
+    <string name="download_remaining">%s gjenstår</string>
+    <string name="download_running">Laster ned</string>
+    <string name="download_unknown_title">&lt;Uten navn></string>
+    <string name="notif_title_file_size">%1$d totalt</string>
+    <string name="notif_title_single_downloading">Laster ned %1$s</string>
+    <string name="notification_dld_msg">Administrer apper som lastes ned</string>
+    <string name="notification_download_complete">Nedlasting vellykket.</string>
+    <string name="notification_download_failed">Kunne ikke laste ned elementer.</string>
+    <string name="notification_need_wifi_for_size">Nedlastingsstørrelse krever Wi-Fi.</string>
+    <string name="notification_paused_in_background">Pauset i bakgrunnen.</string>
+    <string name="paused_waiting_for_network">Venter på nettverk</string>
+    <string name="permdesc_accessAllDownloads">Tillater appen å vise og endre alle nedlastinger som er startet av en hvilken som helst app.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Tillater appen å laste ned filer til nedlastingsbufferen, som ikke kan slettes automatisk når nedlastingsbehandleren trenger mer plass.</string>
+    <string name="permdesc_downloadCompletedIntent">Lar appen sende varsler om fullførte nedlastinger. Ondsinnede apper kan bruke dette til å forvirre andre apper som laster ned filer.</string>
+    <string name="permdesc_downloadManager">Lar appen få tilgang til Nedlastinger og bruke den til å laste ned filer. Ondsinnede apper kan bruke dette til å forstyrre nedlastinger og få tilgang til privat informasjon.</string>
+    <string name="permdesc_downloadManagerAdvanced">Lar appen få tilgang til de avanserte funksjonene til Nedlastinger. Ondsinnede apper kan bruke dette til å forstyrre nedlastinger og få tilgang til privat informasjon.</string>
+    <string name="permdesc_downloadWithoutNotification">Tillater appen å laste ned filer uten å varsle brukeren.</string>
+    <string name="permdesc_seeAllExternal">Lar appen se alle nedlastingene til SD-kortet, uansett hvilken app som lastet dem ned.</string>
+    <string name="permlab_accessAllDownloads">Få tilgang til alle systemnedlastinger</string>
+    <string name="permlab_downloadCacheNonPurgeable">Reserver plass i nedlastingsbufferen</string>
+    <string name="permlab_downloadCompletedIntent">Send nedlastingsvarsler.</string>
+    <string name="permlab_downloadManager">Tilgang til Nedlastinger.</string>
+    <string name="permlab_downloadManagerAdvanced">Avanserte funksjoner for Nedlastinger.</string>
+    <string name="permlab_downloadWithoutNotification">Last ned filer uten varsel</string>
+    <string name="permlab_seeAllExternal">Se alle nedlastinger til USB-lagring</string>
+    <string name="root_downloads">Nedlastinger</string>
+    <string name="wifi_recommended_body">"Starting av denne %1$s nedlastingen nå kan redusere batterilevetiden din og/eller resultere i overforbruk av mobildatatilkoblingen din, som videre kan føre til ekstrakostnader fra operatøren din (avhengig av ditt abonnement).
+
+Trykk %2$s for å starte denne nedlastingen neste gang du er tilkoblet et trådløst nettverk."</string>
+    <string name="wifi_recommended_title">Sette i kø for nedlasting senere?</string>
+    <string name="wifi_required_body">"Koble til Wi-Fi for å fullføre denne %1$s nedlastingen
+
+Trykk%2$s for å starte denne nedlastingen neste gang du er tilkoblet et Wi-Fi-nettverk."</string>
+    <string name="wifi_required_title">Filen er for stor til å laste ned over mobildata</string>
+</resources>

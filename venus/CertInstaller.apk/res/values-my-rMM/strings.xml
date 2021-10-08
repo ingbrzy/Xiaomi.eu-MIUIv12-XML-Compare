@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">အသိအမှတ်ပြုလက်မှတ်ထည့်သွင်းခြင်း</string>
+    <string name="cert_missing_error">အသိအမှတ်ပြုလက်မှတ် မတွေ့သောကြောင့် ထည့်သွင်းခြင်း မပြုနိုင်ပါ</string>
+    <string name="cert_not_saved">အသိအမှတ်ပြုလက်မှတ်အား မထည့်သွင်းထားပါ</string>
+    <string name="cert_read_error">အသိအမှတ်ပြုလက်မှတ်ဖိုင်အား ဖတ်မရသောကြောင့် ထည့်သွင်းခြင်း မပြုနိုင်ပါ</string>
+    <string name="cert_too_large_error">အသိအမှတ်ပြုလက်မှတ်ဖိုင် အရွယ် ကြီးသောကြောင့် ထည့်သွင်းခြင်း မပြုနိုင်ပါ</string>
+    <string name="credential_info">packageထဲတွင် ပါဝင်သည်မှာ:</string>
+    <string name="credential_password">အသိအမှတ်ပြုလက်မှတ် များ ထုတ်ယူရန် စကားဝှက်ရိုက်ထည့်ပါ</string>
+    <string name="credential_usage_label">Credential အသုံးပြုပုံ:</string>
+    <string name="done_label">လုပ်ပြီး</string>
+    <string name="extracting_pkcs12">ထုတ်လုပ်နေစဉ်...</string>
+    <string name="install_done">သိမ်းဆည်းထားသော ဝိုင်ဖိုင်ကွန်ယက်များသို့ %1$s အထောက်အထားများ ထည့်ပြီး၏။</string>
+    <string name="install_done_title">အထောက်အထားများ သွင်းယူပြီး၏</string>
+    <string name="invalid_cert">အသိအမှတ်ပြုလက်မှတ်မှာ အသုံးပြုမရပါ</string>
+    <string name="n_cacrts">%d CA အသိအမှတ်ပြုလက်မှတ်များ</string>
+    <string name="name_char_error">စာလုံးနှင့် ဂဏန်းများသာ ပါသော အမည်ရိုက်ထည့်ရန်</string>
+    <string name="name_credential_dialog_title">အသိအမှတ်ပြုလက်မှတ်အမည်တပ်ခြင်း</string>
+    <string name="name_empty_error">အမည်တစ်ခုရိုက်ထည့်ရန်</string>
+    <string name="no_cert_to_saved">အသိအမှတ်ပြုလက်မှတ်ထည့်သွင်းရန်မရှိပါ</string>
+    <string name="one_cacrt">CAအသိအမှတ်ပြုလက်မှတ်တစ်ခု</string>
+    <string name="one_usercrt">အသုံးပြုသူတစ်ဦး၏အသိအမှတ်ပြုလက်မှတ်တစ်ခု</string>
+    <string name="one_userkey">အသုံးပြုသူတစ်ဦး၏ကီးတစ်ခု</string>
+    <string name="only_primary_user_allowed">ဤစက်ပိုင်ရှင်မှသာ အသိအမှတ်ပြုလက်မှတ် များ ထည့်သွင်းနိုင်ပါလိမ့်မည်</string>
+    <string name="p12_description">PKCS12ကီးစတိုးထဲမှ အသိအမှတ်ပြုလက်မှတ်များ</string>
+    <string name="password_empty_error">စကားဝှက် ရိုက်ထည့်ရန်</string>
+    <string name="password_error">မှန်ကန်သော စကားဝှက်ရိုက်ထည့်ရန်</string>
+    <string name="pick_file_title">အသိအမှတ်ပြုလက်မှတ် တစ်ခု ရွေးချယ်ရန်</string>
+    <string name="pkcs12_file_password_dialog_title">%sမှ ထုတ်ယူခြင်း</string>
+    <string name="pkcs12_password_dialog_title">ထုတ်ယူထားသည့် အသိအမှတ်ပြုလက်မှတ်</string>
+    <string name="unable_to_save_cert">အသိအမှတ်ပြုလက်မှတ်အား သိမ်းဆည်းလို့ မရပါ။ ယုံကြည်စိတ်ချရသောသိုလှောင်ရာနေရာ ဖွင့်မထားခြင်း သို့ စတင်ခြင်း မပြုလုပ်ထားပါ</string>
+    <string name="wifi_cancel_label">ဖျက်သိမ်းရန်</string>
+    <string name="wifi_config_text">"အမည်: %1$s
+FQDN: %2$s
+Roaming Consortiums: %3$s
+Realm: %4$s
+Auth method: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">အသေးစိတ်</string>
+    <string name="wifi_detail_title">%s အတွက်သေးစိတ်</string>
+    <string name="wifi_dismiss_label">ပယ်ရန်</string>
+    <string name="wifi_install_label">တပ်ဆင်ရန်</string>
+    <string name="wifi_installer_detail">%1$s မှတဆင့် ရနိုင်သော ကွန်ယက်များအား ချိတ်ဆက်ရန် ဝိုင်ဖိုင်အထောက်အထားများ သွင်းယူပါ</string>
+    <string name="wifi_installer_download_error">ဒေါင်းလုပ်ရယူထားသော ဖိုင်များတွင် ပြဿနာရှိပြီး သွင်းယူမရနိုင်ပါ။ ဖိုင်အား မှန်ကန်သောနေရာမှ ဒေါင်းလုပ်ရယူထားကြောင်း သေချာပါစေ။</string>
+    <string name="wifi_installer_fail">ဝိုင်ဖိုင် အထောက်အထားများအား သွင်းယွင်းနိုင်ခြင်းမရှိပါ။ ဖိုင်အား ထပ်မံ၍ ဒေါင်းလုပ်ရယူပါ။</string>
+    <string name="wifi_installer_fail_no_wifi">ဝိုင်ဖိုင်ကို ဖွင့်ကာ ထပ်မံကြိုးစားပါ။</string>
+    <string name="wifi_installer_fail_no_wifi_title">ထည့်သွင်းခြင်း ပယ်ဖျက်လိုက်ပါပြီ</string>
+    <string name="wifi_installer_fail_title">မထည့်သွင်းနိုင်ပါ</string>
+    <string name="wifi_installing_label">တပ်ဆင်နေ</string>
+    <string name="wifi_no_config">မရှိ</string>
+    <string name="wifi_sim_config_text">"SIM: %s
+"</string>
+    <string name="wifi_title">ဝိုင်ဖိုင် ပရိုဖိုင်</string>
+    <string name="wifi_tls_config_text">"အသုံးပြုသူ လက်မှတ်:
+%1$s
+သော့: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"ယုံကြည်ခြင်း လက်မှတ်:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"အသုံးပြုသူ အမည်: %s
+"</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="action_missing_private_key">Khóa riêng tư yêu cầu cài đặt một chứng chỉ</string>
+	<string name="action_missing_user_cert">Chứng chỉ yêu cầu cài đặt một khóa riêng tư</string>
+    <string name="app_name">Trình cài đặt Chứng chỉ</string>
+	<string name="ca_cert_is_added">Đã cài đặt chứng chỉ CA</string>
+	<string name="ca_certificate">Chứng chỉ CA</string>
+    <string name="cert_is_added">%s đã được cài đặt.</string>
+    <string name="cert_missing_error">Không thể cài đặt vì không thể định vị tệp chứng chỉ.</string>
+    <string name="cert_not_saved">Chứng chỉ không được cài đặt.</string>
+    <string name="cert_read_error">Không thể cài đặt vì không thể đọc tệp chứng chỉ.</string>
+	<string name="cert_temp_error">Tạm thời thất bại. Vui lòng thử lại sau.</string>
+    <string name="cert_too_large_error">Không thể cài đặt vì kích thước chứng chỉ quá lớn.</string>
+	<string name="certificate">Chứng chỉ</string>
+	<string name="certificate_capabilities_warning">Lưu ý: Nhà phát hành chứng chỉ này có thể kiểm tra tất cả lưu lượng đến và đi từ thiết bị</string>
+	<string name="certificate_name">Tên chứng chỉ</string>
+    <string name="credential_info">Gói chứa:</string>
+    <string name="credential_name">Tên chứng chỉ:</string>
+    <string name="credential_password">Nhập mật khẩu để trích xuất các chứng chỉ.</string>
+    <string name="credential_usage_label">Sử dụng bản xác thực:</string>
+    <string name="done_label">XONG</string>
+    <string name="extracting_pkcs12">Đang trích xuất…</string>
+    <string name="install_done">Thông tin xác thực %1$s đã được thêm vào mạng Wi-Fi đã lưu.</string>
+    <string name="install_done_title">Đã cài đặt thông tin xác thực</string>
+    <string name="invalid_cert">Chứng chỉ không hợp lệ.</string>
+	<string name="invalid_certificate_close_button">Đóng</string>
+	<string name="invalid_certificate_message">"Tệp tin này không thể sử dụng như một %1$s"</string>
+	<string name="invalid_certificate_title">"Không thể sử dụng tệp tin này"</string>
+    <string name="n_cacrts">%d chứng chỉ CA</string>
+    <string name="name_char_error">Nhập tên chỉ chứa chữ cái và số.</string>
+    <string name="name_credential_dialog_title">Đặt tên chứng chỉ</string>
+    <string name="name_empty_error">Nhập tên.</string>
+    <string name="no_cert_file_found">Không tìm thấy tệp chứng chỉ nào trong bộ nhớ USB.</string>
+    <string name="no_cert_to_saved">Không có chứng chỉ để cài đặt.</string>
+    <string name="one_cacrt">một chứng chỉ CA</string>
+    <string name="one_usercrt">một chứng chỉ người dùng</string>
+    <string name="one_userkey">một khóa người dùng</string>
+	<string name="one_wapi_ascrt">Một chứng chỉ WAPI AS</string>
+	<string name="one_wapi_usercrt">Một chứng chỉ người dùng WAPI</string>
+    <string name="only_primary_user_allowed">Chỉ chủ sở hữu thiết bị này mới có thể cài đặt các chứng chỉ.</string>
+    <string name="p12_description">Chứng chỉ trong kho khóa PKCS12.</string>
+    <string name="password_empty_error">Nhập mật khẩu.</string>
+    <string name="password_error">Nhập mật khẩu đúng.</string>
+    <string name="pick_file_title">Chọn chứng chỉ</string>
+    <string name="pkcs12_file_password_dialog_title">Trích xuất từ %s</string>
+    <string name="pkcs12_password_dialog_title">Trích xuất chứng chỉ</string>
+	<string name="redirect_ca_certificate_close_button">Đóng</string>
+	<string name="redirect_ca_certificate_message">Chứng chỉ CA có thể khiến sự riêng tư của bạn gặp nguy hiểm và cần phải cài đặt trong Cài đặt</string>
+	<string name="redirect_ca_certificate_title">"Không thể cài đặt chứng chỉ CA"</string>
+	<string name="redirect_ca_certificate_with_app_info_message">Chứng chỉ này từ %1$s cần được cài đặt trong Cài đặt. Chỉ cài đặt chứng chỉ CA từ tổ chức bạn tin tưởng.</string>
+    <string name="sdcard_not_present">Bộ nhớ USB không khả dụng.</string>
+	<string name="select_certificate_usage_title">Chọn loại chứng chỉ</string>
+    <string name="storage_error">Không thể lưu chứng chỉ. Chạm OK để thử lại.</string>
+    <string name="unable_to_save_cert">Không thể lưu chứng chỉ. Bộ nhớ thông tin xác thực chưa được bật hoặc khởi tạo đúng cách.</string>
+	<string name="user_cert_is_added">Đã cài đặt chứng chỉ người dùng</string>
+	<string name="user_certificate">VPN &amp; chứng chỉ ứng dụng người dùng</string>
+	<string name="userkey_type">Thuật toán:</string>
+    <string name="wifi_cancel_label">Hủy</string>
+	<string name="wifi_cert_is_added">Đã cài đặt chứng chỉ Wi-Fi</string>
+	<string name="wifi_certificate">Chứng chỉ Wi-Fi</string>
+    <string name="wifi_config_text">"Tên: %1$s
+FQDN: %2$s
+Tổ chức chuyển vùng: %3$s
+Vùng: %4$s
+Phương pháp xác thực: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">Chi tiết</string>
+    <string name="wifi_detail_title">Chi tiết dành cho %s</string>
+    <string name="wifi_dismiss_label">Loại bỏ</string>
+    <string name="wifi_install_label">Cài đặt</string>
+    <string name="wifi_installer_detail">Cài đặt thông tin xác thực Wi-Fi để kết nối với mạng có sẵn qua %1$s.</string>
+    <string name="wifi_installer_download_error">Tệp đã tải xuống gặp sự cố và không thể cài đặt được. Hãy đảm bảo bạn đã tải xuống tệp từ đúng nguồn.</string>
+    <string name="wifi_installer_fail">Không thể cài đặt thông tin xác thực Wi-Fi. Hãy thử tải tệp xuống một lần nữa.</string>
+    <string name="wifi_installer_fail_no_wifi">Bật Wi-Fi và thử lại.</string>
+    <string name="wifi_installer_fail_no_wifi_title">Đã hủy cài đặt</string>
+    <string name="wifi_installer_fail_title">Không thể cài đặt</string>
+    <string name="wifi_installing_label">Đang cài đặt</string>
+    <string name="wifi_no_config">Không có</string>
+    <string name="wifi_title">Cấu hình Wi-Fi</string>
+    <string name="wifi_tls_config_text">"Chứng chỉ ứng dụng khách:
+%1$s
+Khóa: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"Tin tưởng chứng chỉ:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"Tên người dùng: %s
+"</string>
+</resources>

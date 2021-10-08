@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow_backup_button_label">Создать резервную копию данных</string>
+    <string name="allow_restore_button_label">Восстановить данные</string>
+    <string name="backup_confirm_text">"Запрошено резервное копирование всех данных на подключенном компьютере. Разрешить?
+
+Если вы не запрашивали этого, не разрешайте выполнение операции."</string>
+    <string name="backup_confirm_title">Полное резервное копирование</string>
+    <string name="backup_enc_password_optional">Чтобы зашифровать все резервные данные, введите пароль:</string>
+    <string name="backup_enc_password_required">На устройстве включено шифрование. Оно будет применено и к резервной копии данных. Введите пароль.</string>
+    <string name="backup_enc_password_text">Введите пароль для шифрования всех резервных данных. Если поле останется пустым, будет использован текущий пароль:</string>
+    <string name="current_password_text">Введите пароль для резервного копирования:</string>
+    <string name="deny_backup_button_label">Не создавать резервную копию</string>
+    <string name="deny_restore_button_label">Не восстанавливать</string>
+    <string name="device_encryption_backup_text">Введите пароль для шифрования устройства и архива резервных копий.</string>
+    <string name="device_encryption_restore_text">Введите пароль для шифрования устройства.</string>
+    <string name="restore_confirm_text">"Подключенный компьютер запрашивает восстановление всех данных. Разрешить?
+
+Если вы не запрашивали этого, не разрешайте выполнение операции, т. к. она заменит все данные на этом устройстве."</string>
+    <string name="restore_confirm_title">Полное восстановление</string>
+    <string name="restore_enc_password_text">Если восстановленные данные зашифрованы, введите пароль:</string>
+    <string name="toast_backup_ended">Резервное копирование завершено</string>
+    <string name="toast_backup_started">Резервное копирование…</string>
+    <string name="toast_restore_ended">Восстановление завершено</string>
+    <string name="toast_restore_started">Синхронизация</string>
+    <string name="toast_timeout">Время ожидания истекло</string>
+</resources>

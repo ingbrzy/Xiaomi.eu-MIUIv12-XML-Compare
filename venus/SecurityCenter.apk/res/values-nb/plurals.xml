@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">om %d min</item>
+        <item quantity="one">om 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
+    </plurals>
+    <plurals name="add_game_notification_title">
+        <item quantity="other">Lag til %d spill</item>
+        <item quantity="one">Lag til %d spill</item>
+    </plurals>
+    <plurals name="app_behavior_desc_allow">
+        <item quantity="other">Tillatt %3$d ganger mellom %1$s og %2$s</item>
+        <item quantity="one">Tillatt %3$d gang mellom %1$s og %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_allow_minute">
+        <item quantity="other">Tillatt %2$d ganger kl. %1$s</item>
+        <item quantity="one">Tillatt %2$d gang kl. %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_deny">
+        <item quantity="other">Begrenset %3$d ganger mellom %1$s og %2$s</item>
+        <item quantity="one">Begrenset %3$d gang mellom %1$s og %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_deny_minute">
+        <item quantity="other">Avslått %2$d ganger på %1$s</item>
+        <item quantity="one">Avslått %2$d gang på %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_virtual">
+        <item quantity="other">Returnerte %3$d tomme meldinger mellom %1$s og %2$s</item>
+        <item quantity="one">Returnerte %3$d tom melding mellom %1$s og %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_virtual_minute">
+        <item quantity="other">Returnerte %2$d tom meldinger kl %1$s</item>
+        <item quantity="one">Returnerte %2$d tom melding kl %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_notification_audio_more">
+        <item quantity="other">%2$d apper inkludert %1$1s tar opp lyd</item>
+        <item quantity="one">%2$d app inkludert %1$1s tar opp lyd</item>
+    </plurals>
+    <plurals name="app_behavior_notification_camera_more">
+        <item quantity="other">%2$d apper inkludert %1$1s tar bilder</item>
+        <item quantity="one">%2$d app inkludert %1$1s tar bilder</item>
+    </plurals>
+    <plurals name="app_behavior_notification_location_more">
+        <item quantity="other">%2$d apper inkludert %1$1s har tilgang til plasseringen din</item>
+        <item quantity="one">%2$d app inkludert %1$1s har tilgang til plasseringen din</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_off">
+        <item quantity="other">Du vil ikke bli varslet om sensitive handlinger utført av %1$d apper</item>
+        <item quantity="one">Du vil ikke bli varslet om sensitive handlinger utført av %1$d app</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_on">
+        <item quantity="other">Du vil bli varslet om sensitive handlinger utført av %1$d apper</item>
+        <item quantity="one">Du vil bli varslet om sensitive handlinger utført av %1$d app</item>
+    </plurals>
+    <plurals name="app_behavior_wakepath_multiple">
+        <item quantity="other">%1$1s startet %2$d apper</item>
+        <item quantity="one">%1$1s startet %2$d app</item>
+    </plurals>
+    <plurals name="app_behavior_wakepath_multiple_single">
+        <item quantity="other">Denne appen startet %1$d andre apper</item>
+        <item quantity="one">Denne appen startet %1$d annen app</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_accept">
+        <item quantity="other">Gitt %d tillatelser</item>
+        <item quantity="one">Gitt %d tillatelse</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_ask">
+        <item quantity="other">Be om %d tillatelser</item>
+        <item quantity="one">Be om %d tillatelser</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d ganger</item>
+        <item quantity="one">%d gang</item>
+    </plurals>
+    <plurals name="app_manager_uninstall_notify_summary">
+        <item quantity="other">Avinstaller %d apper</item>
+        <item quantity="one">Avinstaller %d app</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">Bruk for %d dager siden</item>
+        <item quantity="one">Bruk for %d dag siden</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">Brukt for %d måneder siden</item>
+        <item quantity="one">Brukt for %d måned siden</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">Brukt for %d år siden</item>
+        <item quantity="one">Brukt for %d år siden</item>
+    </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">Du kan bruke Applås med %1$s apper</item>
+        <item quantity="one">Du kan bruke Applås med %1$s app</item>
+    </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">Du kan beskytte minst %s apper</item>
+        <item quantity="one">Du kan beskytte minst %s app</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s apper blir beskyttet med Applås</item>
+        <item quantity="one">%s app blir beskyttet med Applås</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apper kan kobles til nettverket i bakgrunnen</item>
+        <item quantity="one">%d apper kan kobles til nettverket i bakgrunnen</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d apper kan ikke kobles til nettverket i bakgrunnen</item>
+        <item quantity="one">%d apper kan ikke kobles til nettverket i bakgrunnen</item>
+    </plurals>
+    <plurals name="cache_check_content">
+        <item quantity="other">Beskytter %d apper</item>
+        <item quantity="one">Beskytter %d app</item>
+    </plurals>
+    <plurals name="card_uninstall_title">
+        <item quantity="other">&lt;Data>Du kan avinstallere &lt;font color=#F22424>%d&lt;/font> apper&lt;/Data></item>
+        <item quantity="one">&lt;Data>Du kan avinstallere &lt;font color=#F22424>%d&lt;/font> app&lt;/Data></item>
+    </plurals>
+    <plurals name="daily_sim_over_limit_dialog_message">
+        <item quantity="other">"Du har allerede brukt %s i daglige datagrenser.
+
+Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterligere data."</item>
+        <item quantity="one">"Du har allerede brukt %s i daglige datagrense.
+
+Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterligere data."</item>
+    </plurals>
+    <plurals name="daily_sim_over_limit_notify_title">
+        <item quantity="other">Du har allerede brukt %s i daglige datagrenser.</item>
+        <item quantity="one">Du har allerede brukt %s i daglige datagrense.</item>
+    </plurals>
+    <plurals name="deep_clean_auto_memory_clean">
+        <item quantity="other">Om %1$d minutter</item>
+        <item quantity="one">Om %1$d minutt</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spol %d sekunder fremover</item>
+        <item quantity="one">Spol %d sekund fremover</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spol %d sekunder bakover</item>
+        <item quantity="one">Spol %d sekund bakover</item>
+    </plurals>
+    <plurals name="find_applications">
+        <item quantity="other">Søk i %d apper</item>
+        <item quantity="one">Søk i %d app</item>
+    </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d personvern-relaterte risikoer</item>
+        <item quantity="one">%d personvern-relatert risiko</item>
+    </plurals>
+    <plurals name="first_aid_result_summary_exception">
+        <item quantity="other">%1$d problemer krever optimalisering</item>
+        <item quantity="one">%1$d problem krever optimalisering</item>
+    </plurals>
+    <plurals name="found_apps_title">
+        <item quantity="other">%d apper funnet</item>
+        <item quantity="one">%d app funnet</item>
+    </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d funksjoner</item>
+        <item quantity="one">%d funksjon</item>
+    </plurals>
+    <plurals name="fw_blocked_count_call">
+        <item quantity="other">%1$d anrop fra %2$s og andre</item>
+        <item quantity="one">%1$d anrop fra %2$s</item>
+    </plurals>
+    <plurals name="fw_blocked_count_call_one">
+        <item quantity="other">%1$d anrop fra %2$s og andre</item>
+        <item quantity="one">%1$d anrop fra %2$s</item>
+    </plurals>
+    <plurals name="fw_blocked_count_sms">
+        <item quantity="other">%d meldinger</item>
+        <item quantity="one">%d melding</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="gb_ad_people_play">
+        <item quantity="other">%1$d personer spiller</item>
+        <item quantity="one">%1$d person spiller</item>
+    </plurals>
+    <plurals name="gb_ad_ten_thousand_people_play">
+        <item quantity="other">%1$d personer spiller</item>
+        <item quantity="one">%1$d person spiller</item>
+    </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">Avinstaller %2$d spill (inkludert %1$s)</item>
+        <item quantity="one">Avinstaller %2$d spill (inkludert %1$s)</item>
+    </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">Lagret %d AI-opptak i Spillturbo</item>
+        <item quantity="one">Lagret %d AI-opptak i Spillturbo</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">%d sek</item>
+        <item quantity="one">%d sek</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">Sjekket inn %d ganger på rad</item>
+        <item quantity="one">Sjekket inn %d gang</item>
+    </plurals>
+    <plurals name="gb_toolbox_guide_known">
+        <item quantity="other">Skjønner (%d s)</item>
+        <item quantity="one">Skjønner (%d s)</item>
+    </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"Prøv Stemmeskifter nå
+for å få en %d-dagers gratis prøveversjon!"</item>
+        <item quantity="one">"Prøv Stemmeskifter nå
+for å få en %d-dags gratis prøveversjon!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">Kunne ikke motta en %d-dagers gratis prøveversjon</item>
+        <item quantity="one">Kunne ikke motta en %d-dags gratis prøveversjon</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">Mottok en %d-dagers gratis prøveversjon</item>
+        <item quantity="one">Mottok en %d-dags gratis prøveversjon</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">Få en %d-dagers gratis prøveversjon</item>
+        <item quantity="one">Få en %d-dags gratis prøveversjon</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"Abonnementet ditt har utløpt.
+Du kan få en %d-dagers gratis prøveversjon nå!"</item>
+        <item quantity="one">"Abonnementet ditt har utløpt.
+Du kan få en %d-dags gratis prøveversjon nå!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">Få en %d-dagers gratis prøveversjon</item>
+        <item quantity="one">Få en %d-dags gratis prøveversjon</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="hide_txt_hint_with_blank_2">
+        <item quantity="other">    +%1$d tegn til</item>
+        <item quantity="one">    +%1$d tegn til</item>
+    </plurals>
+    <plurals name="hints_apps_perm_count">
+        <item quantity="other">%d tilaltelser</item>
+        <item quantity="one">%d tilaltelser</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title">
+        <item quantity="other">%d apper har ikke tillatelse til å autostarte</item>
+        <item quantity="one">%d app har ikke tillatelse til å autostarte</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title">
+        <item quantity="other">%d apper kan autostarte</item>
+        <item quantity="one">%d app kan autostarte</item>
+    </plurals>
+    <plurals name="hints_get_root_disable_title">
+        <item quantity="other">%d apper har ikke rottilgang</item>
+        <item quantity="one">%d apper har ikke rottilgang</item>
+    </plurals>
+    <plurals name="hints_get_root_enable_title">
+        <item quantity="other">%d apper har rottilgang</item>
+        <item quantity="one">%d app har rottilgang</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_risk_number">
+        <item quantity="other">%d farer,</item>
+        <item quantity="one">%d fare,</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_virus_number">
+        <item quantity="other">%d trojanere</item>
+        <item quantity="one">%d trojan</item>
+    </plurals>
+    <plurals name="hints_permission_apps_count">
+        <item quantity="other">%d apper</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="hints_roaming_disable_title">
+        <item quantity="other">%d apper kan ikke bruke dataroaming</item>
+        <item quantity="one">%d app kan ikke bruke dataroaming</item>
+    </plurals>
+    <plurals name="hints_roaming_enable_title">
+        <item quantity="other">%d apper kan bruke dataroaming</item>
+        <item quantity="one">%d apper kan bruke dataroaming</item>
+    </plurals>
+    <plurals name="hints_roaming_found_app_count_title">
+        <item quantity="other">%d apper funnet</item>
+        <item quantity="one">%d apper funnet</item>
+    </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d risikoer funnet, fiks nå</item>
+        <item quantity="one">%d risiko funnet, fiks nå</item>
+    </plurals>
+    <plurals name="hints_traffic_disable_title">
+        <item quantity="other">Sporer databruk for %d apper</item>
+        <item quantity="one">Sporer databruk for %d app</item>
+    </plurals>
+    <plurals name="hints_traffic_enable_title">
+        <item quantity="other">Sporer ikke databruk for %d apper</item>
+        <item quantity="one">Sporer ikke databruk for %d app</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">om %d minutter</item>
+        <item quantity="one">om 1 minutt</item>
+    </plurals>
+    <plurals name="install_game_count_title">
+        <item quantity="other">Lagt til %d spill</item>
+        <item quantity="one">Lagt til %d spill</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">Du kan beskytte %d elementer</item>
+        <item quantity="one">Du kan beskytte %d element</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minutt</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Forbind minst %d prikker</item>
+        <item quantity="one">Forbind minst %d prikk</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">Forbind minst %s prikker</item>
+        <item quantity="one">Forbind minst %s prikk</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">"Vent i %d sekunder og prøv igjen. "</item>
+        <item quantity="one">Vent i %d sekunder og prøv igjen.</item>
+    </plurals>
+    <plurals name="manual_white_list_header">
+        <item quantity="other">%d unntak</item>
+        <item quantity="one">%d unntak</item>
+    </plurals>
+    <plurals name="marked_by_others">
+        <item quantity="other">%d andre brukere merket det som</item>
+        <item quantity="one">%d andre brukere merket det som</item>
+    </plurals>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d meldinger eller anrop ble blokkert</item>
+        <item quantity="one">%d melding eller anrop ble blokkert</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">Enheten har ikke blitt skannet på %d dager</item>
+        <item quantity="one">Enheten har ikke blitt skannet på %d dag</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d apper inneholder virus eller skadelig programvare</item>
+        <item quantity="one">%d app inneholder virus eller skadelig programvare</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">%d oppdateringer er tilgjengelige</item>
+        <item quantity="one">%d oppdatering er tilgjengelig</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">Skriv inn minst %d tegn</item>
+        <item quantity="one">Skriv inn minst %d tegn</item>
+    </plurals>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>
+        <item quantity="one">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>
+    </plurals>
+    <plurals name="network_restrict_count">
+        <item quantity="other">"Nettverkstilgangen er begrenset for &lt;font color='#ff0000'>%d:&lt;/font> apper"</item>
+        <item quantity="one">"Nettverkstilgangen er begrenset for &lt;font color='#ff0000'>%d:&lt;/font> app"</item>
+    </plurals>
+    <plurals name="notification_antivirus_title">
+        <item quantity="other">%d dager uten sikkerhetsskanninger</item>
+        <item quantity="one">%d dag uten sikkerhetsskanninger</item>
+    </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">Tappet %2$d%% av batteriet i løpet av de siste %1$d minuttene</item>
+        <item quantity="one">Tappet %2$d%% av batteriet i løpet av det siste %1$d minuttet</item>
+    </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%2$d apper, inkludert %1$s, tapper batteri</item>
+        <item quantity="one">%2$d app, inkludert %1$s, tapper batteri</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Slett %d installasjonspakker</item>
+        <item quantity="one">Slett %d installasjonspakke</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">Slett %d gjenværende APK-er</item>
+        <item quantity="one">Slett %d gjenværende APK</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d problemer med batteribruk</item>
+        <item quantity="one">%d problem med batteribruk</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">Optimer %d elementer for å spare batteri</item>
+        <item quantity="one">Optimer %d element for å spare batteri</item>
+    </plurals>
+    <plurals name="notification_title_cmcc_app_check">
+        <item quantity="other">%d dager siden siste sjekk</item>
+        <item quantity="one">%d dag siden siste sjekk</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
+    </plurals>
+    <plurals name="number_locked">
+        <item quantity="other">%d apper låst</item>
+        <item quantity="one">%d app låst</item>
+    </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d apper</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">%d varsler ble skjult</item>
+        <item quantity="one">%d varsling ble skjult</item>
+    </plurals>
+    <plurals name="number_to_lock">
+        <item quantity="other">%d apper ikke låst</item>
+        <item quantity="one">%d apper ikke låst</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">%d varsler er synlige</item>
+        <item quantity="one">%d varsling er synlige</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">Skriv inn minst %d sifre</item>
+        <item quantity="one">Skriv inn minst %d siffer</item>
+    </plurals>
+    <plurals name="om_locked_apps_title">
+        <item quantity="other">%d låste apper</item>
+        <item quantity="one">%d låst app</item>
+    </plurals>
+    <plurals name="om_running_apps_num">
+        <item quantity="other">%d apper</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="optimize_result_button_add_score">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+%d</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d apper tapper batteri</item>
+        <item quantity="one">%d app tapper batteri</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">" t"</item>
+        <item quantity="one">" t"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s dager</item>
+        <item quantity="one">%s dag</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minutt</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">%s dager til den er fulladet</item>
+        <item quantity="one">%s dag til den er fulladet</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">%s timer til den er fulladet</item>
+        <item quantity="one">%s time til den er fulladet</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">%s minutter til den er fulladet</item>
+        <item quantity="one">%s minutt til den er fulladet</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">%s dager gjenstår</item>
+        <item quantity="one">%s dag gjenstår</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">%s timer gjenstår</item>
+        <item quantity="one">%s time gjenstår</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">%s minutter gjenstår</item>
+        <item quantity="one">%s minutt gjenstår</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">%d timer gjenstår</item>
+        <item quantity="one">%d time gjenstår</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">%d minutter gjenstår</item>
+        <item quantity="one">%d minutt gjenstår</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">%d minutter siden siste lading</item>
+        <item quantity="one">%d minutt siden siste lading</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">%d sekunder siden siste lading</item>
+        <item quantity="one">%d sekund siden siste lading</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">Lastet ned av %1$d personer</item>
+        <item quantity="one">Lastet ned av %1$d personer</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">Lastet ned av %1$d personer</item>
+        <item quantity="one">Lastet ned av %1$d personer</item>
+    </plurals>
+    <plurals name="power_20s_shutdown">
+        <item quantity="other">Enheten din slås av om %d sek</item>
+        <item quantity="one">Enheten din slås av om %d sek</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">ganger</item>
+        <item quantity="one">gang</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d problemer med batteribruk</item>
+        <item quantity="one">%d problem med batteribruk</item>
+    </plurals>
+    <plurals name="power_center_battery_day">
+        <item quantity="other">"%d dager "</item>
+        <item quantity="one">"%d days "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">"  t"</item>
+        <item quantity="one">"  t"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">"  min"</item>
+        <item quantity="one">"  min"</item>
+    </plurals>
+    <plurals name="power_center_battery_hour">
+        <item quantity="other">"%d timer "</item>
+        <item quantity="one">"%d time "</item>
+    </plurals>
+    <plurals name="power_center_battery_minute">
+        <item quantity="other">"%d min "</item>
+        <item quantity="one">"%d min "</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">Reparer %d problemer med batteribruk</item>
+        <item quantity="one">Reparer %d problem med batteribruk</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">Du kan reparere %d problemer med batteribruk</item>
+        <item quantity="one">Du kan reparere %d problem med batteribruk</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d elementer kan optimeres"</item>
+        <item quantity="one">" %d element kan optimeres"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">Optimer %d elementer for å spare batteri</item>
+        <item quantity="one">Optimer %d element for å spare batteri</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">Du kan optimere %d elementer for å spare batteri</item>
+        <item quantity="one">Du kan optimere %d element for å spare batteri</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+    </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">Legg til %d minutter</item>
+        <item quantity="one">Legg til %d minutt</item>
+    </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">elementer</item>
+        <item quantity="one">element</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">%s dager gjenstår</item>
+        <item quantity="one">%s dag gjenstår</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">%s timer gjenstår</item>
+        <item quantity="one">%s time gjenstår</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">%s minutter gjenstår</item>
+        <item quantity="one">%s minutt gjenstår</item>
+    </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">Skjønner (%ds)</item>
+        <item quantity="one">Skjønner (%ds)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">Enheten din vil slås av om %d sekunder. Koble til lader.</item>
+        <item quantity="one">Enheten din vil slås av om %d sekund. Koble til lader.</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d apper starter ofte automatisk</item>
+        <item quantity="one">%d app starter ofte automatisk</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d apper tapper batteri</item>
+        <item quantity="one">%d app tapper batteri</item>
+    </plurals>
+    <plurals name="privacy_apps_disable_header_title">
+        <item quantity="other">%d appikoner er skjulte</item>
+        <item quantity="one">%d appikon er skjult</item>
+    </plurals>
+    <plurals name="privacy_apps_enable_header_title">
+        <item quantity="other">%d appikoner er ikke skjulte</item>
+        <item quantity="one">%d appikon er ikke skjult</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">%s apper har permanent tilgang</item>
+        <item quantity="one">%s app har permanent tilgang</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s ganger</item>
+        <item quantity="one">%s gang</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">%d apper</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">%d tillatelser med høy risiko gitt</item>
+        <item quantity="one">%d tillatelse med høy risiko gitt</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">%d risikable apper funnet</item>
+        <item quantity="one">%d risikabel app funnet</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">%d risikoer for å avsløre oppdaget plasseringsinformasjon</item>
+        <item quantity="one">%d risiko for å avsløre oppdaget plasseringsinformasjon</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">%d risikoer oppdaget</item>
+        <item quantity="one">%d risiko oppdaget</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">%d mulige risikoer funnet</item>
+        <item quantity="one">%d mulig risiko funnet</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">%d bilder kan inneholde informasjon som er privat eller sensitiv</item>
+        <item quantity="one">%d bilde kan inneholde informasjon som er privat eller sensitiv</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">%d funksjoner som beskytter personvernet ditt, er deaktivert</item>
+        <item quantity="one">%d funksjon som beskytter personvernet ditt, er deaktivert</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">%d sensitive tillatelser gitt</item>
+        <item quantity="one">%d sensitiv tillatelse gitt</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">Avinstaller %d apper</item>
+        <item quantity="one">Avinstaller %d app</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">%d elementer trenger ekstra beskyttelse</item>
+        <item quantity="one">%d element trenger ekstra beskyttelse</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_count">
+        <item quantity="other">%d batteriproblemer</item>
+        <item quantity="one">%d batteriproblemer</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_found">
+        <item quantity="other">Funnet %d batteriproblem</item>
+        <item quantity="one">Funnet %d batteriproblem</item>
+    </plurals>
+    <plurals name="quick_optimize_suggest_issue_found">
+        <item quantity="other">Funnet %d batteriproblem, fiks dem</item>
+        <item quantity="one">Funnet %d batteriproblem, fiks dem</item>
+    </plurals>
+    <plurals name="quick_optimize_summary_text">
+        <item quantity="other">Løst %d batteriproblem</item>
+        <item quantity="one">Løst %d batteriproblem</item>
+    </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">Tilbakestill til fabrikkinnstillinger (%ds)</item>
+        <item quantity="one">Tilbakestill til fabrikkinnstillinger (%ds)</item>
+    </plurals>
+    <plurals name="result_sign_header">
+        <item quantity="other">Fant %d uoffisielle apper</item>
+        <item quantity="one">Fant %d uoffisielle app</item>
+    </plurals>
+    <plurals name="result_virus_header">
+        <item quantity="other">Fant %d virus og usikre apper</item>
+        <item quantity="one">Fant %d virus app</item>
+    </plurals>
+    <plurals name="search_app_count_txt_na">
+        <item quantity="other">Søk %d apper</item>
+        <item quantity="one">Søk %d apper</item>
+    </plurals>
+    <plurals name="section_clear_acc_item_right_tips">
+        <item quantity="other">%d låste apper venter på å bli tømt</item>
+        <item quantity="one">%d låste app venter på å bli tømt</item>
+    </plurals>
+    <plurals name="section_security_defend_item_right_tips">
+        <item quantity="other">Slettet %d virus</item>
+        <item quantity="one">Slettet %d virus</item>
+    </plurals>
+    <plurals name="sp_monitored_apps_count">
+        <item quantity="other">%s betalingsapper er beskyttet</item>
+        <item quantity="one">%s betalingsapp er beskyttet</item>
+    </plurals>
+    <plurals name="sp_monitored_apps_list_group_disable">
+        <item quantity="other">%s apper er ikke beskyttet</item>
+        <item quantity="one">%s app er ikke beskyttet</item>
+    </plurals>
+    <plurals name="sp_monitored_apps_list_group_enable">
+        <item quantity="other">%s apper er beskyttet</item>
+        <item quantity="one">%s app er beskyttet</item>
+    </plurals>
+    <plurals name="sp_settings_exception_count">
+        <item quantity="other">%d elementer</item>
+        <item quantity="one">%d element</item>
+    </plurals>
+    <plurals name="st_show_num_keyword">
+        <item quantity="other">%d nøkkelord</item>
+        <item quantity="one">%d nøkkelord</item>
+    </plurals>
+    <plurals name="st_show_num_number">
+        <item quantity="other">%d nummer</item>
+        <item quantity="one">%d nummer</item>
+    </plurals>
+    <plurals name="summary_app_update">
+        <item quantity="other">Oppdateringer tilgjengelig for %d apper.</item>
+        <item quantity="one">Oppdateringer tilgjengelig for %d app.</item>
+    </plurals>
+    <plurals name="summary_flow_verify">
+        <item quantity="other">Har ikke synkronisert operatørens statistikk over databruk på %d dager</item>
+        <item quantity="one">Har ikke synkronisert operatørens statistikk over databruk på %d dag</item>
+    </plurals>
+    <plurals name="system_check_content">
+        <item quantity="other">%1$d enheter sikre</item>
+        <item quantity="one">%1$d enhet sikre</item>
+    </plurals>
+    <plurals name="title_app_update_cn">
+        <item quantity="other">&lt;Data>Oppdater &lt;font color=#F22424>%d&lt;/font> apper&lt;/Data></item>
+        <item quantity="one">&lt;Data>Oppdater &lt;font color=#F22424>%d&lt;/font> app&lt;/Data></item>
+    </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">Fjernet %d virus</item>
+        <item quantity="one">Fjernet %d virus</item>
+    </plurals>
+    <plurals name="traffic_setting_app_count">
+        <item quantity="other">%d apper</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="uninstall_game_count_title">
+        <item quantity="other">Har ikke lagt til %d spill</item>
+        <item quantity="one">Har ikke lagt til %d spill</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">Forbind minst %s prikker</item>
+        <item quantity="one">Forbind minst %s prikk</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">Angi %s sifre</item>
+        <item quantity="one">Angi %s siffer</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">%d apper</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$d visninger</item>
+        <item quantity="one">%1$d visning</item>
+    </plurals>
+    <plurals name="white_list_risk_app_header">
+        <item quantity="other">Farlige apper: %d</item>
+        <item quantity="one">Farlige apper: %d</item>
+    </plurals>
+    <plurals name="white_list_trojan_header">
+        <item quantity="other">Trojanere: %d</item>
+        <item quantity="one">Trojan: %d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow_backup_button_label">Copia de seguridad de mis datos</string>
+    <string name="allow_restore_button_label">Restaurar mis datos</string>
+    <string name="backup_confirm_text">"Se ha solicitado una copia de seguridad completa de todos los datos en una computadora de escritorio conectada. ¿Deseas permitirla?
+
+Si tú no has solicitado la copia de seguridad, no permitas que se realice la operación."</string>
+    <string name="backup_confirm_title">Realización de la copia de seguridad completa</string>
+    <string name="backup_enc_password_optional">Si deseas encriptar los datos de la copia de seguridad completa, introduce una contraseña a continuación:</string>
+    <string name="backup_enc_password_required">Dado que el dispositivo está encriptado, es necesario que encriptes la copia de seguridad. Ingresa una contraseña a continuación:</string>
+    <string name="backup_enc_password_text">Introduce una contraseña para encriptar los datos de la copia de seguridad completa. Si dejas este campo en blanco, se utilizará tu contraseña actual de copia de seguridad:</string>
+    <string name="current_password_text">Introduce tu contraseña actual de copia de seguridad a continuación:</string>
+    <string name="deny_backup_button_label">No realizar una copia de seguridad</string>
+    <string name="deny_restore_button_label">No restaurar</string>
+    <string name="device_encryption_backup_text">Introduce tu contraseña de encriptación del dispositivo a continuación. Esta contraseña también se utilizará para encriptar la copia de seguridad.</string>
+    <string name="device_encryption_restore_text">Introduce tu contraseña de encriptación del dispositivo a continuación:</string>
+    <string name="restore_confirm_text">"Se ha solicitado una restauración completa de todos los datos de una computadora de escritorio conectada. ¿Deseas permitirla?
+
+Si tú no has solicitado la restauración, no permitas que se realice la operación. Esto reemplazaría los datos actuales del dispositivo."</string>
+    <string name="restore_confirm_title">Restauración completa</string>
+    <string name="restore_enc_password_text">Si los datos de recuperación están encriptados, vuelve a introducir la contraseña a continuación:</string>
+    <string name="toast_backup_ended">La realización de la copia de seguridad finalizó.</string>
+    <string name="toast_backup_started">Iniciando copia de seguridad...</string>
+    <string name="toast_restore_ended">La restauración finalizó.</string>
+    <string name="toast_restore_started">Iniciando restauración...</string>
+    <string name="toast_timeout">Se agotó el tiempo de espera para la operación.</string>
+</resources>

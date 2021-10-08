@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Aktualizácia</string>
+  <string name="battery_islow">Pripojte nabíjačku</string>
+  <string name="battery_islow_desc">Batéria je príliš slabá na inštaláciu novej verzie ROM, pripojte nabíjačku a skúste to znova neskôr!</string>
+  <string name="btn_changelog">Zoznam zmien</string>
+  <string name="btn_download">Stiahnuť novú verziu (%1$s)</string>
+  <string name="btn_error">Nastala chyba, stiahnuť znova?</string>
+  <string name="btn_install">Skontr. MD5 a inštalovať</string>
+  <string name="btn_no">Zrušiť</string>
+  <string name="btn_ok">OK</string>
+  <string name="btn_pause">Zastaviť</string>
+  <string name="btn_share">Zdieľať</string>
+  <string name="btn_stop">Ukončiť</string>
+  <string name="btn_wrong_md5">Chyba MD5, stlačte pre vymazanie ZIP!</string>
+  <string name="btn_yes">Áno</string>
+  <string name="channel_downloading">Priebeh sťahovania</string>
+    <string name="channel_service">Služby Aktualizácie</string>
+  <string name="channel_update">Dostupná nová verzia MIUI</string>
+  <string name="check_new_version">Skontrolovať</string>
+  <string name="default_filedownloader_notification_content">Prebieha sťahovanie aktualizácie...</string>
+  <string name="default_filedownloader_notification_title">Nová verzia MIUI</string>
+  <string name="dialog_3g_desc">Sťahovanie novej verzie MIUI cez mobilné dáta môže navýšiť vaše mesačné poplatky. Odporúča sa pripojiť na Wi-Fi.</string>
+  <string name="dialog_3g_title">Upozornenie!</string>
+  <string name="dialog_btn_3g">Pokračovať</string>
+  <string name="dialog_btn_wifi">Prepnúť na Wi-Fi</string>
+  <string name="dialog_stop_desc">Ste si istý, že chcete ukončiť sťahovanie?</string>
+  <string name="dialog_stop_title">Zastaviť sťahovanie?</string>
+  <string name="dialog_twrp">Vaše interné úložisko je zašifrované. Po reštarte do TWRP, zadajte vaše heslo na odomknutie zariadenia pre dešifrovanie úložiska.</string>      
+    
+    <string name="downgrade_warning">Pokúšate sa nainštalovať staršiu verziu MIUI! Inštalácia je zablokovaná aby nedošlo k poškodeniu systému!</string>
+  <string name="download_done">Stiahnuté!</string>
+  <string name="download_fail">Nastala chyba počas sťahovania!</string>
+  <string name="download_fail_desc">MD5 Sum nie je zhodné...</string>
+  <string name="downloading">Sťahovanie...</string>
+  <string name="downloading_desc">Prebieha sťahovanie, skontrolujte priebeh v roletke.</string>
+  <string name="fetching_data">Pripravuje sa spustenie sťahovania...</string>
+  <string name="install_desc">"Zariadenie sa reštartuje do TWRP a nainštaluje súbor: %1$s
+Vaše dáta nebudú vymazané."</string>
+  <string name="install_title">Chcete pokračovať?</string>
+  <string name="menu_title_current_version_log">Informácie o aktualizácii</string>
+  <string name="menu_title_pick_rom_file">Vybrať ZIP z úložiska</string>
+  <string name="menu_title_recovery">Reštartovať do TWRP recovery</string>    
+    <string name="menu_title_show_notifications">Zobraziť upozornenia</string>
+  <string name="message_checkbox">Nezobrazovať oznámenia od miuios.cz</string>
+  <string name="message_checkbox_device">Viac nezobrazovať</string>
+  <string name="message_title">Oznámenie!</string>
+  <string name="new_version">Nová verzia MIUI!</string>
+  <string name="no_info">Informácie nie sú dostupné</string>
+  <string name="no_mirror">Server je momentálne nedostupný, skúste to neskôr...</string>
+  <string name="no_network">Žiaden prístup k sieti.</string>
+  <string name="no_update">Nie je dostupná nová verzia MIUI alebo nastala chyba na serveri. Skontrolujte miuios.cz pre stiahnutie novej verzie.</string>
+  <string name="no_xioamieu">"Nepoužívate MIUI ROM od miuios.cz alebo xiaomi.eu!
+ Aktualizácia nie je pre vás dostupná!"</string>
+  <string name="notif_cancel">Zrušiť</string>
+  <string name="notif_install">Inštalovať</string>
+  <string name="notif_new_summary">Zobraziť podrobnosti</string>
+  <string name="notif_new_title">Dostupná nová verzia!</string>
+    <string name="notif_service_summary">Podržte pre deaktivovanie upozornenia</string>
+    <string name="notif_service_title">Aplikácia Aktualizácia beží na pozadí</string>
+  <string name="notifications_switch">Upozorniť na novú verziu</string>
+  <string name="permdesc_cache_filesystem">Povoliť aplikácií zápis do /cache.</string>
+  <string name="permdesc_reboot">Povoliť aplikácií reštartovať zariadenie.</string>
+  <string name="permlab_cache_filesystem">Prístup ku Cache</string>
+  <string name="permlab_reboot">Povoliť reštartovanie</string>
+  <string name="pick_not_found">Nebol nájdený žiaden správca súborov.</string>
+  <string name="pick_title">Vybrať:</string>
+  <string name="recovery_desc">Zariadenie sa reštartuje do TWRP Recovery. Pokračovať?</string>
+  <string name="server_error">Chyba servera, aplikácia nemusí pracovať správne!</string>
+  <string name="share_desc">MIUI verzia bola aktualizovaná na %1$s, pozrite si zoznam zmien na: https://xiaomi.eu/community/link-forums/rom-downloads.73/</string>
+  <string name="share_title">Zdieľať</string>
+  <string name="stable">Stabilná</string>
+  <string name="version">Nainštalovaná verzia</string>
+  <string name="weekly">Týždenná</string>
+  <string name="wifi_recommended">Pripojte sa na Wi-fi sieť pre stiahnutie aktualizácie!</string>    
+</resources>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">לעולם אל תשבית עבור %d יישומים</item>
+        <item quantity="one">לעולם אל תשבית עבור יישום %d</item>
+        <item quantity="two">לעולם אל תשבית עבור %d יישומים</item>
+        <item quantity="many">לעולם אל תשבית עבור %d יישומים</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">השבת תמיד עבור %d יישומים</item>
+        <item quantity="one">השבת תמיד עבור יישום %d</item>
+        <item quantity="two">השבת תמיד עבור %d יישומים</item>
+        <item quantity="many">השבת תמיד עבור %d יישומים</item>
+    </plurals>
+    <plurals name="auto_startup_count">
+        <item quantity="other">הרשאת הפעלה אוטומטית ניתנה ל-%d יישומים</item>
+        <item quantity="one">הרשאת הפעלה אוטומטית ניתנה ליישום %d</item>
+        <item quantity="two">הרשאת הפעלה אוטומטית ניתנה ל-%d יישומים</item>
+        <item quantity="many">הרשאת הפעלה אוטומטית ניתנה ל-%d יישומים</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d יישומים יכולים להתחבר לרשת</item>
+        <item quantity="one">יישום %d יכול להתחבר לרשת</item>
+        <item quantity="two">%d יישומים יכולים להתחבר לרשת</item>
+        <item quantity="many">%d יישומים יכולים להתחבר לרשת</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d יישומים לא יכולים להתחבר לרשת</item>
+        <item quantity="one">יישום %d לא יכול להתחבר לרשת</item>
+        <item quantity="two">%d יישומים לא יכולים להתחבר לרשת</item>
+        <item quantity="many">%d יישומים לא יכולים להתחבר לרשת</item>
+    </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">%d מכשירים זמינים</item>
+        <item quantity="one">מכשיר זמין %d</item>
+        <item quantity="two">%d מכשירים זמינים</item>
+        <item quantity="many">%d מכשירים זמינים</item>
+    </plurals>
+    <plurals name="color_game_led_freq_entries">
+        <item quantity="other">כל %d שניות</item>
+        <item quantity="one">כל שנייה %d</item>
+        <item quantity="two">כל %d שניות</item>
+        <item quantity="many">כל %d שניות</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d התקנים</item>
+        <item quantity="one">התקן %d</item>
+        <item quantity="two">%d התקנים</item>
+        <item quantity="many">%d התקנים</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">החיבור הוגבל עבור %s יישומים</item>
+        <item quantity="one">החיבור הוגבל עבור יישום %s</item>
+        <item quantity="two">החיבור הוגבל עבור %s יישומים</item>
+        <item quantity="many">החיבור הוגבל עבור %s יישומים</item>
+    </plurals>
+    <plurals name="free_wifi_connected_count">
+        <item quantity="other">%1$d אנשים מחוברים</item>
+        <item quantity="one">אדם %1$d מחובר</item>
+        <item quantity="two">%1$d אנשים מחוברים</item>
+        <item quantity="many">%1$d אנשים מחוברים</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">תוכל להקיש עד %d תווים</item>
+        <item quantity="one">תוכל להקיש עד %d תוו</item>
+        <item quantity="two">תוכל להקיש עד %d תווים</item>
+        <item quantity="many">תוכל להקיש עד %d תווים</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">הזן %d תוים לכל הפחות</item>
+        <item quantity="one">הזן %d תוו לכל הפחות</item>
+        <item quantity="two">הזן %d תוים לכל הפחות</item>
+        <item quantity="many">הזן %d תוים לכל הפחות</item>
+    </plurals>
+    <plurals name="lockpassword_pin_fixed_length">
+        <item quantity="other">קוד ה-PIN צריך להכיל %d ספרות</item>
+        <item quantity="one">קוד ה-PIN צריך להכיל ספרה %d</item>
+        <item quantity="two">קוד ה-PIN צריך להכיל %d ספרות</item>
+        <item quantity="many">קוד ה-PIN צריך להכיל %d ספרות</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">ניתן להזין עד %d ספרות</item>
+        <item quantity="one">ניתן להזין ספרה אחת בלבד (%d)</item>
+        <item quantity="two">ניתן להזין עד %d ספרות</item>
+        <item quantity="many">ניתן להזין עד %d ספרות</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">הזן את %d הספרות האחרונות</item>
+        <item quantity="one">הזן את הספרה האחרונה (%d)</item>
+        <item quantity="two">הזן את %d הספרות האחרונות</item>
+        <item quantity="many">הזן את %d הספרות האחרונות</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">חבר לפחות %d נקודות. נסה שוב.</item>
+        <item quantity="one">חבר לפחות נקודה %d. נסה שוב.</item>
+        <item quantity="two">חבר לפחות %d נקודות. נסה שוב.</item>
+        <item quantity="many">חבר לפחות %d נקודות. נסה שוב.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">יותר מדי ניסיונות שגויים. נסה שוב בעוד %d שניות.</item>
+        <item quantity="one">יותר מדי ניסיונות שגויים. נסה שוב בעוד שנייה %d.</item>
+        <item quantity="two">יותר מדי ניסיונות שגויים. נסה שוב בעוד %d שניות.</item>
+        <item quantity="many">יותר מדי ניסיונות שגויים. נסה שוב בעוד %d שניות.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">חכה %d שניות ונסה שוב.</item>
+        <item quantity="one">חכה שנייה %d ונסה שוב.</item>
+        <item quantity="two">חכה %d שניות ונסה שוב.</item>
+        <item quantity="many">חכה %d שניות ונסה שוב.</item>
+    </plurals>
+    <plurals name="miui_sos_emergency_contacts_quantity">
+        <item quantity="other">%d נוספו</item>
+        <item quantity="one">%d נוסף</item>
+        <item quantity="two">%d נוספו</item>
+        <item quantity="many">%d נוספו</item>
+    </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">ה-Wi-Fi יופעל באופן אוטומטי כאשר המכשיר שלך יזהה רשתות שמורות בקרבת מקום, ויכבה לאחר %d דקות אם לא ייווצר חיבור</item>
+        <item quantity="one">ה-Wi-Fi יופעל באופן אוטומטי כאשר המכשיר שלך יזהה רשתות שמורות בקרבת מקום, ויכבה לאחר דקה אחת (%d) אם לא ייווצר חיבור</item>
+        <item quantity="two">ה-Wi-Fi יופעל באופן אוטומטי כאשר המכשיר שלך יזהה רשתות שמורות בקרבת מקום, ויכבה לאחר %d דקות אם לא ייווצר חיבור</item>
+        <item quantity="many">ה-Wi-Fi יופעל באופן אוטומטי כאשר המכשיר שלך יזהה רשתות שמורות בקרבת מקום, ויכבה לאחר %d דקות אם לא ייווצר חיבור</item>
+    </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">%d פריטים נבחרו</item>
+        <item quantity="one">פריט %d נבחר</item>
+        <item quantity="two">%d פריטים נבחרו</item>
+        <item quantity="many">%d פריטים נבחרו</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">הינך נמצא %1$d צעדים לפני כניסה ל-CIT.</item>
+        <item quantity="one">הינך נמצא צעד %1$d לפני כניסה ל-CIT.</item>
+        <item quantity="two">הינך נמצא %1$d צעדים לפני כניסה ל-CIT.</item>
+        <item quantity="many">הינך נמצא %1$d צעדים לפני כניסה ל-CIT.</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">אתה נמצא במרחק של (%1$d) צעדים מפתיחת פרטי מכשיר.</item>
+        <item quantity="one">אתה נמצא במרחק של צעד אחד (%1$d) מפתיחת פרטי מכשיר.</item>
+        <item quantity="two">אתה נמצא במרחק של (%1$d) צעדים מפתיחת פרטי מכשיר.</item>
+        <item quantity="many">אתה נמצא במרחק של (%1$d) צעדים מפתיחת פרטי מכשיר.</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">הינך נמצא %1$d צעדים לפני דיווח על שגיאה.</item>
+        <item quantity="one">הינך נמצא צעד %1$d לפני דיווח על שגיאה.</item>
+        <item quantity="two">הינך נמצא %1$d צעדים לפני דיווח על שגיאה.</item>
+        <item quantity="many">הינך נמצא %1$d צעדים לפני דיווח על שגיאה.</item>
+    </plurals>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">%d יישומים לא יכולים להציג התראות</item>
+        <item quantity="one">יישום %d לא יכול להציג התראות</item>
+        <item quantity="two">%d יישומים לא יכולים להציג התראות</item>
+        <item quantity="many">%d יישומים לא יכולים להציג התראות</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">%d יישומים יכולים להציג התראות</item>
+        <item quantity="one">יישום %d יכול להציג התראות</item>
+        <item quantity="two">%d יישומים יכולים להציג התראות</item>
+        <item quantity="many">%d יישומים יכולים להציג התראות</item>
+    </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">לקבל התראה בכל פעם כשאחת מהאוזניות שלך לא נמצאת באוזן או במארז הטעינה במשך יותר מ-%d דקות</item>
+        <item quantity="one">לקבל התראה בכל פעם כשאחת מהאוזניות שלך לא נמצאת באוזן או במארז הטעינה במשך יותר מדקה %d</item>
+        <item quantity="two">לקבל התראה בכל פעם כשאחת מהאוזניות שלך לא נמצאת באוזן או במארז הטעינה במשך יותר מ-%d דקות</item>
+        <item quantity="many">לקבל התראה בכל פעם כשאחת מהאוזניות שלך לא נמצאת באוזן או במארז הטעינה במשך יותר מ-%d דקות</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_today">
+        <item quantity="other">לא נעול %d פעמים</item>
+        <item quantity="one">לא נעול פעם %d</item>
+        <item quantity="two">לא נעול %d פעמים</item>
+        <item quantity="many">לא נעול %d פעמים</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_week">
+        <item quantity="other">לא נעול %d פעמים</item>
+        <item quantity="one">לא נעול פעם %d</item>
+        <item quantity="two">לא נעול %d פעמים</item>
+        <item quantity="many">לא נעול %d פעמים</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_today">
+        <item quantity="other">קיבלת %d התראות</item>
+        <item quantity="one">קיבלת %d התראה</item>
+        <item quantity="two">קיבלת %d התראות</item>
+        <item quantity="many">קיבלת %d התראות</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_week">
+        <item quantity="other">קיבלת %d התראות</item>
+        <item quantity="one">קיבלת %d התראה</item>
+        <item quantity="two">קיבלת %d התראות</item>
+        <item quantity="many">קיבלת %d התראות</item>
+    </plurals>
+    <plurals name="usage_state_hour">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">%d שעה</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="usage_state_hour24">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה %d</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="usage_state_hour_text">
+        <item quantity="other">"  שעות"</item>
+        <item quantity="one">"  שעה"</item>
+        <item quantity="two">"  שעות"</item>
+        <item quantity="many">"  שעות"</item>
+    </plurals>
+    <plurals name="usage_state_minute">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="usage_state_miunte_text">
+        <item quantity="other">"  דקות"</item>
+        <item quantity="one">"  דקה"</item>
+        <item quantity="two">"  דקות"</item>
+        <item quantity="many">"  דקות"</item>
+    </plurals>
+    <plurals name="usage_state_noti_count">
+        <item quantity="other">%d התראות</item>
+        <item quantity="one">%d התראה</item>
+        <item quantity="two">%d התראות</item>
+        <item quantity="many">%d התראות</item>
+    </plurals>
+    <plurals name="usage_state_unlock_count">
+        <item quantity="other">%d פעמים</item>
+        <item quantity="one">%d פעם</item>
+        <item quantity="two">%d פעמים</item>
+        <item quantity="many">%d פעמים</item>
+    </plurals>
+    <plurals name="usage_state_week_day_hour">
+        <item quantity="other">סופישבוע: %d שעות</item>
+        <item quantity="one">סופישבוע: %d שעה</item>
+        <item quantity="two">סופישבוע: %d שעות</item>
+        <item quantity="many">סופישבוע: %d שעות</item>
+    </plurals>
+    <plurals name="usage_state_week_day_minute">
+        <item quantity="other">סופישבוע: %d דקות</item>
+        <item quantity="one">סופישבוע: %d דקה</item>
+        <item quantity="two">סופישבוע: %d דקות</item>
+        <item quantity="many">סופישבוע: %d דקות</item>
+    </plurals>
+    <plurals name="usage_state_work_day_hour">
+        <item quantity="other">ימי חול: %d שעות</item>
+        <item quantity="one">ימי חול: %d שעה</item>
+        <item quantity="two">ימי חול: %d שעות</item>
+        <item quantity="many">ימי חול: %d שעות</item>
+    </plurals>
+    <plurals name="usage_state_work_day_minute">
+        <item quantity="other">ימי חול: %d דקות</item>
+        <item quantity="one">ימי חול: %d דקה</item>
+        <item quantity="two">ימי חול: %d דקות</item>
+        <item quantity="many">ימי חול: %d דקות</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_hour">
+        <item quantity="other">" שעות"</item>
+        <item quantity="one">" שעה"</item>
+        <item quantity="two">" שעות"</item>
+        <item quantity="many">" שעות"</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_min">
+        <item quantity="other">" דקות"</item>
+        <item quantity="one">" דקה"</item>
+        <item quantity="two">" דקות"</item>
+        <item quantity="many">" דקות"</item>
+    </plurals>
+    <plurals name="virus_scan_app_find_risk">
+        <item quantity="other">%d סיכונים נמצאו</item>
+        <item quantity="one">סיכון %d נמצא</item>
+        <item quantity="two">%d סיכונים נמצאו</item>
+        <item quantity="many">%d סיכונים נמצאו</item>
+    </plurals>
+    <plurals name="wifi_share_count">
+        <item quantity="other">%d רשתות שותפו</item>
+        <item quantity="one">רשת %d שותפה</item>
+        <item quantity="two">%d רשתות שותפו</item>
+        <item quantity="many">%d רשתות שותפו</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">מחוברים %1$d מכשירים</item>
+        <item quantity="one">מחובר מכשיר %1$d</item>
+        <item quantity="two">מחוברים %1$d מכשירים</item>
+        <item quantity="many">מחוברים %1$d מכשירים</item>
+    </plurals>
+</resources>

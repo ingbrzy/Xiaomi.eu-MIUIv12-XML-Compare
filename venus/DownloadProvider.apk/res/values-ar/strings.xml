@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">التنزيلات</string>
+    <string name="button_cancel_download">إلغاء</string>
+    <string name="button_queue_for_wifi">صف</string>
+    <string name="button_start_now">ابدأ الآن</string>
+    <string name="download_error">تعذر التنزيل</string>
+    <string name="download_filesize_unknown">غير معروف</string>
+    <string name="download_no_application_title">لا يمكن فتح الملف</string>
+    <string name="download_queued">في قائمة الانتظار</string>
+    <string name="download_remaining">%s متبقية</string>
+    <string name="download_running">جارٍ التنزيل</string>
+    <string name="download_unknown_title">&lt;بدون عنوان></string>
+    <string name="notif_title_file_size">إجمالي %1$d</string>
+    <string name="notif_title_single_downloading">جارٍ تنزيل %1$s</string>
+    <string name="notification_dld_msg">إدارة التطبيقات التي يتم تنزيلها</string>
+    <string name="notification_download_complete">تم التنزيل بنجاح.</string>
+    <string name="notification_download_failed">تعذر تنزيل العناصر.</string>
+    <string name="notification_need_wifi_for_size">حجم التنزيل يتطلب Wi-Fi.</string>
+    <string name="notification_paused_in_background">تم الإيقاف مؤقتا في الخلفية.</string>
+    <string name="paused_waiting_for_network">في إنتظار الشبكة</string>
+    <string name="permdesc_accessAllDownloads">السماح للتطبيق بعرض و تعديل جميع التنزيلات الأساسية بإي تطبيق في النظام.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">السماح للتطبيق بتنزيل الملفات إلى ذاكرة التخزين المؤقت للتنزيل التي لا يمكن حذفها تلقائيا عند حاجة مدير التنزيل إلى مساحة أكبر.</string>
+    <string name="permdesc_downloadCompletedIntent">السماح للتطبيق إرسال إشعارات حول التنزيلات المكتملة. يمكن للتطبيقات الضارة استخدام هذا للتشويش على التطبيقات الأخرى التي تقوم بتزيل الملفات.</string>
+    <string name="permdesc_downloadManager">السماح للتطبيق الوصول إلى مدير التنزيلات واستخدامة في تنزيل الملفات. يمكن للتطبيقات الضارة استخدام هذا لتعطيل التنزيلات والوصول إلى المعلومات الخاصة.</string>
+    <string name="permdesc_downloadManagerAdvanced">السماح للتطبيق الوصول إلى الميزات المتقدمة للتنزيلات. يمكن للتطبيقات الضارة استخدام هذا لتعطيل التنزيلات والوصول إلى المعلومات الخاصة.</string>
+    <string name="permdesc_downloadWithoutNotification">السماح للتطبيقات بتنزيل الملفات بدون أي إشعارات تظهر للمستخدم.</string>
+    <string name="permdesc_seeAllExternal">السماح للتطبيق بمشاهدة كل التنزيلات في بطاقة الذاكرة SD، بغض النظر عن التطبيق الذي قام بتنزيلها.</string>
+    <string name="permlab_accessAllDownloads">الوصول إلى جميع تنزيلات النظام</string>
+    <string name="permlab_downloadCacheNonPurgeable">حجز مساحة في ذاكرة التخزين المؤقت للتنزيل</string>
+    <string name="permlab_downloadCompletedIntent">إرسال إشعارات التنزيل.</string>
+    <string name="permlab_downloadManager">الوصول للتنزيلات.</string>
+    <string name="permlab_downloadManagerAdvanced">الميزات المتقدمة للتنزيلات.</string>
+    <string name="permlab_downloadWithoutNotification">تنزيل الملفات بدون أي إشعارات</string>
+    <string name="permlab_seeAllExternal">مشاهدة كل التنزيلات إلى وحدة تخزين USB</string>
+    <string name="root_downloads">التنزيلات</string>
+    <string name="wifi_recommended_body">"قد يؤدي بدء هذا %1$s التنزيل الآن إلى التقليل من عمر البطارية و/أو يؤدي إلى الاستخدام المفرط لاتصال بيانات الهاتف مما قد يسبب إلى تحمل رسوم إضافية من شركة الاتصالات طبقا لخطة بياناتك.
+
+انقر على %2$s لبدء هذا التنزيل في المرة التالية التي تتصل فيها بشبكة Wi-Fi."</string>
+    <string name="wifi_recommended_title">الانتظار للتنزيل لاحقا؟</string>
+    <string name="wifi_required_body">"اتصل بشبكة Wi-Fi لإكمال تنزيل %1$s. 
+
+انقر على %2$s لبدء هذا التنزيل في المرة القادمة عند اتصالك بشبكة Wi-Fi."</string>
+    <string name="wifi_required_title">الملف كبير جدا للتنزيل بإستخدام بيانات الهاتف</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Обновление</string>
+    <string name="battery_islow">&lt;font color=#f37981>Подключите зарядное устройство&lt;/font></string>
+    <string name="battery_islow_desc">Уровень заряда аккумулятора слишком низкий для безопасной установки zip-файла, подключите зарядное устройство и попробуйте позже!</string>
+    <string name="btn_changelog">Список изменений</string>
+    <string name="btn_download">Загрузка (%1$s)</string>
+    <string name="btn_error">Произошла ошибка, повторить попытку?</string>
+    <string name="btn_install">Проверить MD5 и установить</string>
+    <string name="btn_no">Отмена</string>
+    <string name="btn_ok">ОК</string>
+    <string name="btn_pause">Приостановить</string>
+    <string name="btn_share">Поделиться</string>
+    <string name="btn_stop">Остановить</string>
+    <string name="btn_wrong_md5">Неверный MD5. Нажмите, чтобы удалить ZIP!</string>
+    <string name="btn_yes">Да</string>
+    <string name="channel_downloading">Прогресс загрузки</string>
+    <string name="channel_service">Фоновая служба обновления</string>
+    <string name="channel_update">Доступна новая версия</string>
+    <string name="check_new_version">Проверить</string>
+    <string name="default_filedownloader_notification_content">Идет загрузка файла.</string>
+    <string name="default_filedownloader_notification_title">Загрузчик файлов</string>
+    <string name="dialog_3g_desc">Помните, что использование мобильных данных для загрузки прошивки может привести к повышенному расходу вашего траффика.</string>
+    <string name="dialog_3g_title">Внимание!</string>
+    <string name="dialog_btn_3g">Все равно продолжить</string>
+    <string name="dialog_btn_wifi">Переключиться на Wi-Fi</string>
+    <string name="dialog_stop_desc">Вы можете приостановить или остановить загрузку, сделайте выбор сейчас.</string>
+    <string name="dialog_stop_title">Остановить загрузку?</string>
+    <string name="dialog_twrp">Внутреннее хранилище зашифровано. После перезагрузки устройства в Recovery, введите пароль разблокировки устройства.</string>
+    <string name="downgrade_warning">Понижение версии прошивки недоступно!</string>
+    <string name="download_chlog">%1$s</string>
+    <string name="download_done">Успешно загружено!</string>
+    <string name="download_fail">Ошибка во время загрузки!</string>
+    <string name="download_fail_desc">Контрольная сумма MD5 не совпадает…</string>
+    <string name="download_md5">MD5: %1$s</string>
+    <string name="downloading">Загрузка:</string>
+    <string name="downloading_desc">Идет загрузка, проверьте статус в области уведомлений.</string>
+    <string name="fetching_data">Получение ссылки для скачивания, пожалуйста, подождите…</string>
+    <string name="install_desc">"Устройство перезагрузится в Recovery и установит выбранный файл: %1$s
+Все данные будут сохранены."</string>
+    <string name="install_title">Вы уверены, что хотите продолжить?</string>
+    <string name="menu_title_current_version_log">Что нового?</string>
+    <string name="menu_title_pick_rom_file">Выбрать пакет обновления</string>
+    <string name="menu_title_recovery">Перезагрузка в Recovery</string>
+    <string name="menu_title_show_notifications">Показывать уведомления</string>
+    <string name="message_checkbox">Не показывать сообщения от Xiaomi.eu</string>
+    <string name="message_checkbox_device">Больше не показывать</string>
+    <string name="message_title">ПРИМЕЧАНИЕ!</string>
+    <string name="new_desc">%1$s</string>
+    <string name="new_version">Найдена новая версия!</string>
+    <string name="no_info">Информация недоступна.</string>
+    <string name="no_mirror">Все зеркала в данный момент отключены, попробуйте позже…</string>
+    <string name="no_network">Сеть недоступна.</string>
+    <string name="no_update">Установлена последняя версия</string>
+    <string name="no_xioamieu">"Установлена прошивка не от xiaomi.eu!
+Обновления недоступны!"</string>
+    <string name="notif_cancel">Отмена</string>
+    <string name="notif_install">Установка</string>
+    <string name="notif_new_summary">Нажмите, чтобы получить подробную информацию</string>
+    <string name="notif_new_title">Доступна новая версия!</string>
+    <string name="notif_service_summary">Для отключения уведомления нажмите и удерживайте его</string>
+    <string name="notif_service_title">Приложение запущено в фоновом режиме…</string>
+    <string name="notifications_switch">Показать уведомления</string>
+    <string name="permdesc_cache_filesystem">Разрешить приложению записывать в /cache.</string>
+    <string name="permdesc_reboot">Разрешить приложению перезагрузить устройство.</string>
+    <string name="permlab_cache_filesystem">Доступ к Cache</string>
+    <string name="permlab_reboot">Разрешить перезагрузку</string>
+    <string name="pick_not_found">Не найден подходящий файловый менеджер.</string>
+    <string name="pick_title">Использовать:</string>
+    <string name="recovery_desc">Устройство сейчас будет перезагружено в Recovery. Продолжить?</string>
+    <string name="server_error">Сервер не доступен, приложение может работать некорректно!</string>
+    <string name="share_desc">Ваша версия MIUI была обновлена до %1$s, информация о последних изменениях:  %2$s</string>
+    <string name="share_title">Поделиться с</string>
+    <string name="stable">стабильная</string>
+    <string name="unit" formatted="false">%1$s %</string>
+    <string name="version">Текущая версия:</string>
+    <string name="weekly">еженедельная</string>
+    <string name="wifi_recommended">Отсутствует Wi-Fi соединение</string>
+</resources>

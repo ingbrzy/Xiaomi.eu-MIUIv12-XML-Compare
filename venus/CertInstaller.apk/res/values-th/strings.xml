@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_missing_private_key">ต้องใช้คีย์ส่วนตัวเพื่อติดตั้งใบรับรอง</string>
+    <string name="action_missing_user_cert">ต้องใช้ใบรับรองเพื่อติดตั้งคีย์ส่วนตัว</string>
+    <string name="app_name">โปรแกรมติดตั้งใบรับรอง</string>
+    <string name="ca_cert_is_added">ติดตั้งใบรับรอง CA แล้ว</string>
+    <string name="ca_certificate">ใบรับรอง CA</string>
+    <string name="cert_missing_error">ไม่สามารถติดตั้งได้เนื่องจากไม่พบไฟล์ใบรับรอง</string>
+    <string name="cert_not_saved">ไม่ได้ติดตั้งใบรับรอง</string>
+    <string name="cert_read_error">ไม่สามารถติดตั้งได้เนื่องจากไม่สามารถอ่านไฟล์ใบรับรอง</string>
+    <string name="cert_temp_error">ใช้งานไม่ได้ชั่วคราว โปรดลองอีกครั้งภายหลัง</string>
+    <string name="cert_too_large_error">ไม่สามารถติดตั้งเนื่องจากใบรับรองมีขนาดใหญ่เกินไป</string>
+    <string name="certificate">ใบรับรอง</string>
+    <string name="certificate_capabilities_warning">หมายเหตุ: ผู้ออกใบรับรองนี้อาจตรวจสอบการเข้าชมทั้งหมดที่เข้าและออกจากอุปกรณ์</string>
+    <string name="certificate_name">ชื่อใบรับรอง</string>
+    <string name="credential_info">แพ็กเกจประกอบด้วย:</string>
+    <string name="credential_password">ป้อนรหัสผ่านเพื่อคลายข้อมูลใบรับรอง</string>
+    <string name="credential_usage_label">การใช้ข้อมูลรับรอง:</string>
+    <string name="done_label">เสร็จสิ้น</string>
+    <string name="extracting_pkcs12">กำลังคลายข้อมูล...</string>
+    <string name="install_done">เพิ่มข้อมูลรับรองของ %1$s ไปยังเครือข่าย Wi-Fi ที่บันทึกไว้แล้ว</string>
+    <string name="install_done_title">ติดตั้งข้อมูลรับรองแล้ว</string>
+    <string name="invalid_cert">ใบรับรองไม่ถูกต้อง</string>
+    <string name="invalid_certificate_close_button">ปิด</string>
+    <string name="invalid_certificate_message">ใช้ไฟล์นี้เป็น %1$s ไม่ได้</string>
+    <string name="invalid_certificate_title">ใช้ไฟล์นี้ไม่ได้</string>
+    <string name="n_cacrts">%d ใบรับรอง CA</string>
+    <string name="name_char_error">พิมพ์ชื่อที่ประกอบด้วยตัวอักษรและตัวเลขเท่านั้น</string>
+    <string name="name_credential_dialog_title">ตั้งชื่อใบรับรอง</string>
+    <string name="name_empty_error">พิมพ์ชื่อ</string>
+    <string name="no_cert_to_saved">ไม่มีใบรับรองให้ติดตั้ง</string>
+    <string name="one_cacrt">หนึ่งใบรับรอง CA</string>
+    <string name="one_usercrt">ใบรับรองสำหรับผู้ใช้หนึ่งราย</string>
+    <string name="one_userkey">คีย์ผู้ใช้หนึ่งคีย์</string>
+    <string name="only_primary_user_allowed">เฉพาะเจ้าของอุปกรณ์นี้ที่สามารถติดตั้งใบรับรอง</string>
+    <string name="p12_description">ใบรับรองในแหล่งเก็บคีย์ PKCS12</string>
+    <string name="password_empty_error">พิมพ์รหัสผ่าน</string>
+    <string name="password_error">พิมพ์รหัสผ่านที่ถูกต้อง</string>
+    <string name="pick_file_title">เลือกใบรับรอง</string>
+    <string name="pkcs12_file_password_dialog_title">คลายจาก %s</string>
+    <string name="pkcs12_password_dialog_title">แยกข้อมูลใบรับรอง</string>
+    <string name="redirect_ca_certificate_close_button">ปิด</string>
+    <string name="redirect_ca_certificate_title">ติดตั้งใบรับรอง CA ในการตั้งค่า</string>
+    <string name="redirect_ca_certificate_with_app_info_message">ต้องติดตั้งใบรับรองนี้จาก %1$s ในการตั้งค่า ติดตั้งใบรับรอง CA จากองค์กรที่คุณไว้วางใจเท่านั้น</string>
+    <string name="select_certificate_usage_title">เลือกประเภทใบรับรอง</string>
+    <string name="unable_to_save_cert">ไม่สามารถบันทึกใบรับรอง ที่เก็บข้อมูลรับรองไม่ได้เปิดการใช้งานหรือไม่ได้เริ่มการทำงานอย่างถูกต้อง</string>
+    <string name="user_cert_is_added">ติดตั้งใบรับรองผู้ใช้แล้ว</string>
+    <string name="user_certificate">ใบรับรองผู้ใช้ VPN และแอป</string>
+    <string name="userkey_type">อัลกอริทึม:</string>
+    <string name="wifi_cancel_label">ยกเลิก</string>
+    <string name="wifi_cert_is_added">ติดตั้งใบรับรอง Wi‑Fi แล้ว</string>
+    <string name="wifi_certificate">ใบรับรอง Wi‑Fi</string>
+    <string name="wifi_config_text">"ชื่อ: %1$s
+FQDN: %2$s
+กลุ่มผู้ให้บริการโรมมิ่ง: %3$s
+Realm: %4$s
+วิธีการตรวจสอบสิทธิ์: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">รายละเอียด</string>
+    <string name="wifi_detail_title">รายละเอียดสำหรับ %s</string>
+    <string name="wifi_dismiss_label">ปิด</string>
+    <string name="wifi_install_label">ติดตั้ง</string>
+    <string name="wifi_installer_detail">ติดตั้งข้อมูลรับรอง Wi-Fi เพื่อเชื่อมต่อกับเครือข่ายที่ให้บริการผ่าน %1$s</string>
+    <string name="wifi_installer_download_error">ไฟล์ที่ดาวน์โหลดมามีปัญหาและไม่สามารถติดตั้งได้ โปรดตรวจสอบว่าคุณได้ดาวน์โหลดไฟล์จากแหล่งที่มาที่ถูกต้อง</string>
+    <string name="wifi_installer_fail">ไม่สามารถติดตั้งข้อมูลรับรอง Wi-Fi โปรดลองดาวน์โหลดไฟล์อีกครั้ง</string>
+    <string name="wifi_installer_fail_no_wifi">เปิด Wi-Fi และลองอีกครั้ง</string>
+    <string name="wifi_installer_fail_no_wifi_title">ยกเลิกการติดตั้งแล้ว</string>
+    <string name="wifi_installer_fail_title">ไม่สามารถติดตั้ง</string>
+    <string name="wifi_installing_label">กำลังติดตั้ง</string>
+    <string name="wifi_no_config">ไม่มี</string>
+    <string name="wifi_sim_config_text">"ซิม: %s
+"</string>
+    <string name="wifi_title">โปรไฟล์ Wi-Fi</string>
+    <string name="wifi_tls_config_text">"ใบรับรองไคลเอ็นต์:
+%1$s
+คีย์: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"ใบรับรองที่น่าเชื่อถือ:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"ชื่อผู้ใช้: %s
+"</string>
+</resources>

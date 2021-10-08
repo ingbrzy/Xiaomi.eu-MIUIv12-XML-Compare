@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actualitzador</string>
+    <string name="battery_islow">&lt;font color=#f37981&gt;Connecteu el carregador&lt;/font&gt;</string>
+    <string name="battery_islow_desc">El nivell de la bateria és massa baix per instal·lar el fitxer zip amb seguretat, connecteu el carregador i torneu-ho a provar més tard!</string>
+    <string name="btn_changelog">Registre de canvis</string>
+    <string name="btn_download">Baixa (%1$s)</string>
+    <string name="btn_error">S\'ha produït un error, voleu tornar-ho a provar?</string>
+    <string name="btn_install">Comprova MD5 i instal·la</string>
+    <string name="btn_no">Cancel·la</string>
+    <string name="btn_ok">D\'acord</string>
+    <string name="btn_pause">Pausa</string>
+    <string name="btn_share">Comparteix</string>
+    <string name="btn_stop">Atura</string>
+    <string name="btn_wrong_md5">MD5 dolent, feu clic per suprimir la ROM!</string>
+    <string name="btn_yes">Sí</string>
+    <string name="channel_downloading">Baixada en curs</string>
+    <string name="channel_service">Servei d\'actualització en segon pla</string>
+    <string name="channel_update">Nova versió disponible</string>
+    <string name="check_new_version">Comprova</string>
+    <string name="dialog_3g_desc">Tingueu en compte que l\'ús de dades mòbils per baixar ROM pot tenir una quota important del vostre paquet.</string>
+    <string name="dialog_3g_title">Avís!</string>
+    <string name="dialog_btn_3g">Continua de totes maneres</string>
+    <string name="dialog_btn_wifi">Canvia a Wi-Fi</string>
+    <string name="dialog_stop_desc">Podeu pausar o aturar la baixada, feu la vostra elecció.</string>
+    <string name="dialog_stop_title">Voleu aturar la baixada?</string>
+    <string name="dialog_twrp">El vostre emmagatzematge intern està xifrat. Després de reiniciar el dispositiu per recuperar-lo, introduïu la contrasenya de desbloqueig del dispositiu per continuar.</string>
+    <string name="downgrade_warning">S\'ha detectat i bloquejat la versió anterior mitjançant OTA. Per no deixar-vos trencar el sistema!</string>
+    <string name="download_done">S\'ha baixat correctament!</string>
+    <string name="download_fail">S\'ha produït un error durant la baixada!</string>
+    <string name="download_fail_desc">La suma MD5 no coincideix…</string>
+    <string name="downloading">S\'està baixant:</string>
+    <string name="downloading_desc">Baixada en curs, comproveu l\'estat en l\'àrea de notificació.</string>
+    <string name="fetching_data">S\'està obtenint l\'enllaç de baixada, espereu…</string>
+    <string name="install_desc">El dispositiu es reiniciarà per recuperar i instal·lar el fitxer triat: <b>%1$s</b>\"
+Les dades no s’esborraran.\"</string>
+    <string name="install_title">Esteu segurs de continuar?</string>
+    <string name="menu_title_current_version_log">Que hi ha de nou?</string>
+    <string name="menu_title_pick_rom_file">Trieu el paquet d’actualització</string>
+    <string name="menu_title_recovery">Reinicia en mode de recuperació</string>
+    <string name="menu_title_show_notifications">Mostra les notificacions</string>
+    <string name="message_checkbox">Oculta els futurs missatges de l\'equip de Xiaomi.eu</string>
+    <string name="message_checkbox_device">No mostrar de nou</string>
+    <string name="message_title">NOTA!</string>
+    <string name="new_version">S\'ha trobat una nova versió!</string>
+    <string name="no_info">No hi ha informació disponible.</string>
+    <string name="no_mirror">Actualment tots els miralls estan fora de línia, proveu-ho més tard…</string>
+    <string name="no_network">No hi ha accés a la xarxa.</string>
+    <string name="no_update">Esteu al dia!</string>
+    <string name="no_xioamieu">"No utilitzeu una Rom MIUI creada per l'equip de Xiaomi.eu!
+Les actualitzacions no estan disponibles per a vosaltres!"</string>
+    <string name="notif_cancel">Cancel·la</string>
+    <string name="notif_install">Instal·la</string>
+    <string name="notif_new_summary">Toqueu per obtenir detalls</string>
+    <string name="notif_new_title">Nova versió disponible!</string>
+    <string name="notif_service_summary">Mantingueu premut per desactivar la notificació de \"Servei en segon pla\"!</string>
+    <string name="notif_service_title">Aplicació s\'està executant en segon pla…</string>
+    <string name="notifications_switch">Mostra les notificacions</string>
+    <string name="permdesc_cache_filesystem">Permet a l\'aplicació escriure arxius a /cache.</string>
+    <string name="permdesc_reboot">Permet que l\'aplicació reiniciï el dispositiu.</string>
+    <string name="permlab_cache_filesystem">Accés a la memòria cau</string>
+    <string name="permlab_reboot">Accés al reinci</string>
+    <string name="pick_not_found">No s\'ha trobat cap gestor de fitxers adequat.</string>
+    <string name="pick_title">Trieu amb:</string>
+    <string name="recovery_desc">Ara el dispositiu es reiniciarà en mode recuperació, si no coneixeu el mode, cancel·leu les accions futures. Voleu continuar?</string>
+    <string name="server_error">El servidor no respon, pot ser que l\'aplicació no funcioni correctament!</string>
+    <string name="share_desc">La vostra versió MIUI s\'ha actualitzat a %1$s, comproveu la llista de canvis a: %2$s</string>
+    <string name="share_title">Comparteix amb</string>
+    <string name="stable">Estable</string>
+    <string name="version">Instal·lat actualment:</string>
+    <string name="weekly">Beta setmanal</string>
+    <string name="wifi_recommended">No hi ha connexió Wi-Fi per començar a baixar de manera segura!</string>
+</resources>

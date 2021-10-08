@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="allow_backup_button_label">Skopiuj moje dane</string>
+  <string name="allow_restore_button_label">Przywróć moje dane</string>
+  <string name="backup_confirm_text">"Zażądano wykonania pełnej kopii zapasowej wszystkich danych na podłączonym komputerze stacjonarnym. Czy chcesz na to zezwolić?
+
+Jeśli żądanie utworzenia kopii zapasowej nie pochodzi od Ciebie, nie zezwalaj na kontynuowanie tej operacji."</string>
+  <string name="backup_confirm_title">Pełna kopia zapasowa</string>
+  <string name="backup_enc_password_optional">Jeśli chcesz zaszyfrować pełną kopię zapasową, wprowadź poniżej hasło:</string>
+  <string name="backup_enc_password_required">Ponieważ Twoje urządzenie jest zaszyfrowane, musisz zaszyfrować swoją kopię zapasową. Wprowadź poniżej hasło:</string>
+  <string name="backup_enc_password_text">Wpisz hasło do zaszyfrowania pełnej kopii zapasowej. Jeśli pozostawisz puste pole, zostanie użyte aktualne hasło kopii zapasowej:</string>
+  <string name="current_password_text">Wpisz poniżej aktualne hasło kopii zapasowej:</string>
+  <string name="deny_backup_button_label">Nie twórz kopii zapasowej</string>
+  <string name="deny_restore_button_label">Nie przywracaj</string>
+  <string name="device_encryption_backup_text">Wpisz poniżej hasło szyfrowania urządzenia. Służy ono również do szyfrowania archiwum kopii zapasowych.</string>
+  <string name="device_encryption_restore_text">Wpisz poniżej hasło szyfrowania urządzenia.</string>
+  <string name="restore_confirm_text">"Zażądano pełnego przywrócenia wszystkich danych z połączonego komputera stacjonarnego. Czy chcesz na to zezwolić?
+
+Jeśli żądanie przywrócenia nie pochodzi od Ciebie, nie zezwalaj na kontynuowanie tej operacji. Spowoduje to zastąpienie wszelkich danych znajdujących się aktualnie w urządzeniu."</string>
+  <string name="restore_confirm_title">Pełne przywracanie</string>
+  <string name="restore_enc_password_text">Jeśli przywracane dane są zaszyfrowane, wpisz poniżej hasło:</string>
+  <string name="toast_backup_ended">Utworzono kopię zapasową</string>
+  <string name="toast_backup_started">Tworzenie kopii zapasowej...</string>
+  <string name="toast_restore_ended">Przywracanie zakończone</string>
+  <string name="toast_restore_started">Przywracanie...</string>
+  <string name="toast_timeout">Operacja przekroczyła czas oczekiwania</string>
+</resources>

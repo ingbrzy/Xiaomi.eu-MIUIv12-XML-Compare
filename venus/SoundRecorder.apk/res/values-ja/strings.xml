@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="alert_message_clear_records">"選択した録音を削除しますか？"</string>
+  <string name="alert_message_delete_local_record">この録音を削除しますか？</string>
+  <string name="alert_message_delete_record">"端末から録音を削除すると、Xiaomi Cloudからもこの録音が削除されます。今すぐ削除しますか？"</string>
+  <string name="alert_message_delete_record_title">"録音を削除しますか？"</string>
+  <string name="app_name">"レコーダー"</string>
+  <string name="back">"戻る"</string>
+  <string name="button_queue_for_wifi">"待機"</string>
+  <string name="button_start_now">"ダウンロード"</string>
+  <string name="call_record">Recorded calls</string>
+  <string name="call_record_list_group_all">すべて</string>
+  <string name="call_record_list_group_connected">接続済み</string>
+  <string name="call_record_list_group_unconnected">未接続</string>
+  <string name="clear_records">"同期した録音を削除"</string>
+  <string name="cloud_record_open">"録音を同期"</string>
+  <string name="cloud_record_tip">"Xiaomi Cloudと録音を同期します"</string>
+  <string name="cloud_service_state_open_reminder">"Xiaomi Cloudとの同期をオンにして、録音したファイルを同期します。"</string>
+  <string name="cloud_status_full_dialog_cancel">"後で"</string>
+  <string name="cloud_status_full_dialog_msg">"Your cloud storage is full, can't sync recordings. Upgrade your account to get more storage space."</string>
+  <string name="cloud_status_full_dialog_ok">Upgrade</string>
+  <string name="cloud_status_full_dialog_title">Xiaomi Cloudストレージがいっぱいです</string>
+  <string name="data_connection_body">"モバイルデータ接続を使用してこのファイルをダウンロードすると、データ使用量が増加します。データ使用量の制限を超えた場合は、キャリアによっては追加料金が発生する場合があります。"</string>
+  <string name="data_connection_button_text">OK</string>
+  <string name="data_connection_title">"データ使用の警告"</string>
+  <string name="delete">"削除"</string>
+  <string name="delete_dialog_message">"録音を削除しますか？"</string>
+  <string name="deleting_message">"削除中…"</string>
+  <string name="details">"詳細"</string>
+  <string name="dialog_content_storage_full">"端末のストレージに十分な空き領域がないため、録音を停止しました。"</string>
+  <string name="dialog_privacy_revoke_tips">"権限を取り消すとアプリはデータの収集を停止し、すべての関連データがサーバーから削除されます。これによりアプリは事実上使用できなくなる可能性があります。アカウントのセキュリティを確保するには、Xiaomi Cloudサービスの権限を取り消す前に i.mi.com にログインしてください。"</string>
+  <string name="dialog_title_storage_full">"十分な空き領域がありません"</string>
+  <string name="download">Download</string>
+  <string name="duration_format_hour">"%s時間"</string>
+  <string name="duration_format_minute">"%s分"</string>
+  <string name="duration_format_second">"%s秒"</string>
+  <string name="empty_recognition_tip">Empty</string>
+  <string name="err_msg_abandon">Order was abandoned</string>
+  <string name="err_msg_complete">Order was completed</string>
+  <string name="err_msg_convert_fail">"Couldn't convert"</string>
+  <string name="err_msg_convert_processing">Converting…</string>
+  <string name="err_msg_convert_queue">Waiting to convert…</string>
+  <string name="err_msg_convert_success">Converted successfully</string>
+  <string name="err_msg_create">Created order</string>
+  <string name="err_msg_delete">Order was deleted</string>
+  <string name="err_msg_expired">Order expired</string>
+  <string name="err_msg_pending_value">Estimating cost…</string>
+  <string name="err_msg_pengding_pay">Waiting for payment…</string>
+  <string name="err_msg_processing">Processing…</string>
+  <string name="err_msg_refuse">"Couldn't transcribe"</string>
+  <string name="err_msg_transcript_fail">"Couldn't transcribe"</string>
+  <string name="err_msg_transcript_processing">Transcribing…</string>
+  <string name="err_msg_transcript_queue">Waiting to transcribe…</string>
+  <string name="err_msg_transcript_success">Transcribed successfully</string>
+  <string name="error_app_internal">"他のアプリが既に録音機能を使用していないかを確認します。"</string>
+  <string name="error_app_internal_title">"音声録音のエラー"</string>
+  <string name="error_file_access">"ファイルが存在しない、または破損しています"</string>
+  <string name="error_filename_illegal_char">"ファイル名に無効な文字が含まれています。"</string>
+  <string name="error_filename_too_long">"ファイル名が長すぎます。"</string>
+  <string name="error_sdcard_access">"SDカードにアクセスできません"</string>
+  <string name="error_sdcard_unmounted">"今すぐSDカードを挿入してください"</string>
+  <string name="export_to_note">"エクスポート"</string>
+  <string name="faq">"常见问题：
+
+ 1.订单包含哪些状态？
+ 订单包含转写中、已完成、转写失败三种状态，订单转写完成后，转写的文字会显示在相应的录音文件中，可点开录音文件查看。
+
+ 2.转写失败什么时候退款？
+ 转写失败的订单，会自动办理退款，退款会在5个工作日内返回您原支付账号，请及时留意支付账户账单，以便核实退款到账情况，如果逾期未到账，请拨打客服热线（400-100-5678）与我们联系。
+
+ 3.怎么能让录音转的文字更精准？
+ 录音转文字目前仅支持普通话转写，转写结果的准确度会受到距离、环境、说话人口音等问题的影响，准确率可能会有较大差别，如果希望转文字更精准，可以选择离手机更近、说普通话的方式。"</string>
+  <string name="head_set_tip_dialog_msg">"特定のプリセット(例：音楽、音声)で録音するときには、イヤホンを取り外してください。"</string>
+  <string name="head_set_tip_dialog_ok">OK</string>
+  <string name="head_set_tip_dialog_title">"内蔵マイクを使用"</string>
+  <string name="invalid_argument">"無効な引数"</string>
+  <string name="keywords_search_call_record">Record calls;Record call;Call recording;Call recordings</string>
+  <string name="keywords_search_record">New recording;Add recording;Recording;Recordings;Transcript;Transcribe;Recorder;Speech recorder;Sound recorder;Recorder app;Recording app;How do I record;How to record sound;Where is recorder;MIUI Recorder</string>
+  <string name="keywords_search_record_list">Recorder;Transcript;Transcripts;Record;Share recording;Share recordings;Recording;Recordings</string>
+  <string name="loading_order_list">読み込み中…</string>
+  <string name="loading_order_list_empty">No orders here.</string>
+  <string name="low_battery_error">"Less than 5% battery remaining. Stop and save your recording to make sure it isn't lost."</string>
+  <string name="low_battery_error_confirm">OK</string>
+  <string name="low_battery_error_title">Low battery</string>
+  <string name="lyric_item_point_count">%1$d to %2$d</string>
+  <string name="mark_point_list_title">Marks</string>
+  <string name="menu">"メニュー"</string>
+  <string name="message_file_size_error">Recording has reached the maximum length supported by %s</string>
+  <string name="mi_account_msg">Sign in with Mi Account to transcribe files in the cloud and get first 60 minutes free.</string>
+  <string name="mi_account_ok">ログイン</string>
+  <string name="mi_account_title">Miアカウントでログイン</string>
+  <string name="network_tip_dialog_cancel">"同意しない"</string>
+  <string name="network_tip_dialog_content">"レコーダーが正常に動作するには、インターネットへの接続が必要です。同意しますか？"</string>
+  <string name="network_tip_dialog_ok">"同意する"</string>
+  <string name="network_tip_dialog_title">"インターネット接続が必要です"</string>
+  <string name="network_unavailable_tip">ネットワークに接続して、もう一度お試しください。</string>
+  <string name="new_record_name">New recording</string>
+  <string name="no_file">"ファイルはありません"</string>
+  <string name="notification_message_all_paused">"Wi-Fi接続を待っています。"</string>
+  <string name="notification_playback">"再生中…"</string>
+  <string name="notification_recording">"録音中…"</string>
+  <string name="notification_recording_ticker">Phone muted</string>
+  <string name="notification_stopped">"録音を停止しました"</string>
+  <string name="notification_title_all_paused">Download paused</string>
+  <string name="offline_recognize_progress">Transcribing offline %s…</string>
+  <string name="offline_recognize_transfer_format">Transcribing…</string>
+  <string name="online_recognize_btn">Transcribe</string>
+  <string name="online_recognize_desp">Your recording will be uploaded to the server for cost estimation and transcribing.</string>
+  <string name="online_recognize_duration_limite">(Starting from 10 minutes)</string>
+  <string name="online_recognize_fail">"Couldn't transcribe"</string>
+  <string name="online_recognize_login_fail">"Couldn't sign in"</string>
+  <string name="online_recognize_order_audio_price">%s CNY</string>
+  <string name="online_recognize_order_create">Sign in</string>
+  <string name="online_recognize_order_duration_key">Duration</string>
+  <string name="online_recognize_order_pay">Pay and view results</string>
+  <string name="online_recognize_order_progress_done">Transcribe</string>
+  <string name="online_recognize_order_progress_pay">Pay</string>
+  <string name="online_recognize_order_progress_upload">Upload</string>
+  <string name="online_recognize_order_service_type_key">Service type</string>
+  <string name="online_recognize_order_service_type_value">Online audio transcribing</string>
+  <string name="online_recognize_order_title">Confirm order</string>
+  <string name="online_recognize_order_total_price_key">Total</string>
+  <string name="online_recognize_order_unit_price_key">Price</string>
+  <string name="online_recognize_order_unit_price_value">%s CNY/hour</string>
+  <string name="online_recognize_order_upload">Confirm and upload</string>
+  <string name="online_recognize_order_uploading">Uploading %s…</string>
+  <string name="online_recognize_other_order_upload">Wait until current uploads are complete and try again.</string>
+  <string name="online_recognize_progress">Transcribing %s…</string>
+  <string name="online_recognize_running">Transcribing…</string>
+  <string name="online_recognize_service_unavailable">"Service isn't available now. Wait a minute or two and try again."</string>
+  <string name="order_item_duration">Duration: %s</string>
+  <string name="order_item_number">Order number: %s</string>
+  <string name="order_item_price">%s CNY</string>
+  <string name="path_soundrecorder_setting">"システムアプリ/レコーダー"</string>
+  <string name="pause">Pause</string>
+  <string name="pay_error_cancel">Payment was canceled</string>
+  <string name="pay_error_null">"Couldn't complete payment. Check your account."</string>
+  <string name="pay_error_unknown">不明なエラー</string>
+  <string name="playback_delete_records">"録音を削除"</string>
+  <string name="playback_share_records">"録音を共有"</string>
+  <string name="preference_enable_earpiece_summary">Use receiver speaker for external playback</string>
+  <string name="preference_enable_earpiece_title">Use receiver to play audio</string>
+  <string name="preference_led_indicator">"ロック画面の通知"</string>
+  <string name="preference_led_indicator_prompt">"録音中に、通知LEDの点滅と通知領域にショートカットを表示します"</string>
+  <string name="preference_online_orders">Online orders</string>
+  <string name="preference_recog_faqs">Online transcribing FAQ</string>
+  <string name="preference_recog_terms">利用規約</string>
+  <string name="preference_record_scenes_dialog_title">"録音タイプを選択"</string>
+  <string name="preference_scenes">"録音タイプ"</string>
+  <string name="preference_silent_mode">"録音中は着信音をミュート"</string>
+  <string name="preference_status_bar_indicator_prompt">録音中はステータスバーにショートカットを表示</string>
+  <string name="preference_tip_rename">"手動で録音に名前を付ける"</string>
+  <string name="privacy_policy_title">"プライバシーポリシー"</string>
+  <string name="recognition_error_cancel">"キャンセルしました"</string>
+  <string name="recognition_error_code">Error code: %d</string>
+  <string name="recognition_error_download_cancel">"後で"</string>
+  <string name="recognition_error_download_data_msg">Download transcribing engine to make this service available. This download requires approximately 20MB of your mobile data.</string>
+  <string name="recognition_error_download_fail">"ダウンロードできませんでした。ネットワーク設定を確認してもう一度お試しください。"</string>
+  <string name="recognition_error_download_msg">Download transcribing engine to make this service available.</string>
+  <string name="recognition_error_download_ok">"ダウンロード"</string>
+  <string name="recognition_error_download_title">No transcribing engine</string>
+  <string name="recognition_error_downloading">"ダウンロード中 "</string>
+  <string name="recognition_error_engine">Transcribing engine error</string>
+  <string name="recognition_error_engine_singleton">Transcribing engine is busy</string>
+  <string name="recognition_error_format">"無効な音声フォーマット"</string>
+  <string name="recognition_error_internal">"内部エラー"</string>
+  <string name="recognition_error_stopped">Transcribing stopped</string>
+  <string name="recognition_error_unknown">An unknown error occurred. Report it to us and try again.</string>
+  <string name="recognition_process_dialog_body">Other recordings (%s) are being transcribed now. Stop the ongoing tasks and start a new one?</string>
+  <string name="recognition_process_dialog_cancel">Queue</string>
+  <string name="recognition_process_dialog_confirm">Force start</string>
+  <string name="recognition_process_dialog_title">Ongoing tasks</string>
+  <string name="recognition_status_downloaded">Downloaded transcribing engine successfully</string>
+  <string name="recognition_status_downloading">"ダウンロード中 "</string>
+  <string name="recognition_status_init">"Preparing "</string>
+  <string name="recognition_terms">"尊敬的用户，您好！
+
+ 欢迎在小米录音机使用语音转文字服务，该服务由安徽听见科技有限公司提供，能够快速将录音整理成文字，解决日常会议、教育培训、媒体传播等各种场景下的语音转文字问题，提升工作效率。
+
+ 语音转文字服务为有偿服务，收费策略如下：
+
+ 音频时长\u0009\u0009\u0009\u0009\u0009收费价格(原价)
+ 不足10分钟\u0009\u0009\u00093.3元
+ 10分钟及以上\u0009音频时长/1小时*19.8 元
+
+ 为了更好地使用语音转文字服务，您还需要了解以下内容：
+ 1.未经您的允许，听见科技不会向第三方公开或传播您的信息、录音及文字稿件内容。
+ 2.若非因听见科技原因，如因天灾、盗窃、抢劫、黑客攻击等不可抗力造成信息泄露的，听见科技不承担法律责任。听见科技在下述情况下不再承担保密义务，包括但不限于：
+ （1）因非听见科技原因，文稿内容被公开的
+ （2）法律法规要求、行政司法机关要求、或其他有权机关要求披露的
+ 3.上述条款在听见科技完成语音转文字服务后三年内有效。
+ 4.用户保证其使用听见科技提供的语音转文字服务转写的录音内容，不违反当地相关法律、法规、政策的规定；不涉及有损中华人民共和国国家安全和利益的信息；也不涉及任何反动、色情、迷信、赌博、诽谤他人等违法信息；且不会侵犯任何人的合法权益，包括但不限于知识产权、名誉权、肖像权、商业秘密等。用户因违反上述条款所引起的纠纷、赔偿责任等一律由用户自行承担，若由此给听见科技造成损失的，用户应当承担赔偿责任。"</string>
+  <string name="recognize_choose_dialog_offline">Transcribe for free</string>
+  <string name="recognize_choose_dialog_offline_desp">Transcribe recordings without connecting to the internet</string>
+  <string name="recognize_choose_dialog_online">Transcribe in the cloud</string>
+  <string name="recognize_choose_dialog_online_desp">Get accurate transcripts fast</string>
+  <string name="recognize_choose_dialog_online_free_duration">Get first 60 minutes free</string>
+  <string name="recognize_choose_dialog_online_price">%s CNY/hour</string>
+  <string name="recognize_choose_dialog_service_desp">Transcribing services are provided by iflyrec.com</string>
+  <string name="recognize_choose_dialog_service_intruction">Terms of Service</string>
+  <string name="recognize_choose_dialog_title">Select transcription method</string>
+  <string name="recognize_extra_price_desp">(Exclusive offer for Mi users)</string>
+  <string name="record">Record</string>
+  <string name="record_back_pressed_hint">"録音を停止するには、戻るをもう一度タップ"</string>
+  <string name="record_download">"Xiaomi Cloudからダウンロード"</string>
+  <string name="record_download_complete">"ダウンロード済み"</string>
+  <string name="record_download_msg">"録音は、ダウンロードが完了した後でのみ再生できます。"</string>
+  <string name="record_download_msg_reload">"この録音は存在しません。"</string>
+  <string name="record_downloading_notification">"ダウンロード中…"</string>
+  <string name="record_downloading_notification_complete">"ダウンロード完了"</string>
+  <string name="record_downloading_notification_count">%d downloading</string>
+  <string name="record_format_preference_title">"録音フォーマット"</string>
+  <string name="record_list">"録音"</string>
+  <string name="record_list_call">"録音した通話"</string>
+  <string name="record_list_category_title_format">MMMM yyyy</string>
+  <string name="record_list_cloud">"同期済みの録音"</string>
+  <string name="record_list_cloud_call">"同期済みの録音した通話"</string>
+  <string name="record_list_cloud_fm">"同期済みのFM録音"</string>
+  <string name="record_list_fm">"FM録音"</string>
+  <string name="record_list_item_recognize_text">Text</string>
+  <string name="record_mark_point">Mark %s</string>
+  <string name="record_name_hour">.</string>
+  <string name="record_quliaty_preference_title">"録音の品質"</string>
+  <string name="record_resotre">Recover records</string>
+  <string name="recording">Recording</string>
+  <string name="recording_quality_high">"高品質"</string>
+  <string name="recording_quality_low">"低品質"</string>
+  <string name="recording_quality_standard">"標準品質"</string>
+  <string name="recording_stopped">Stopped</string>
+  <string name="reg_error_audio_exist">This file already exists.</string>
+  <string name="reg_error_audio_large">"Audio files can't be bigger than 500MB."</string>
+  <string name="reg_error_audio_short">Audio file is too small.</string>
+  <string name="reg_error_business">"Couldn't transcribe file. Report this error to us and try again."</string>
+  <string name="reg_error_client">An app data error occurred. Report it to us and try again.</string>
+  <string name="reg_error_create_order">"Couldn't create order, try again."</string>
+  <string name="reg_error_ifly_account">An account error occurred, try again.</string>
+  <string name="reg_error_price">A cost estimation error occurred. Report it to us and try again.</string>
+  <string name="reg_error_server">A server error occurred. Report it to us and try again.</string>
+  <string name="reg_error_upload_audio">"Couldn't upload file, try again."</string>
+  <string name="reg_error_upload_order">"Couldn't upload, try again."</string>
+  <string name="rename">"名前を変更"</string>
+  <string name="rename_dialog_title">"録音の名前を変更"</string>
+  <string name="rename_duplicate">"同じ名前で別の録音が既に存在します。"</string>
+  <string name="rename_fail_tip">"名前を変更できません、この名前のファイルは既に存在します。"</string>
+  <string name="rename_no_more_tip">"二度と表示しない"</string>
+  <string name="retry">"再試行"</string>
+  <string name="runtime_permission_ungranted">"アクセス権限が許可されていないため、レコーダーを使用できません"</string>
+  <string name="search_app">"レコーダー"</string>
+  <string name="search_empty">何も見つかりませんでした</string>
+  <string name="search_enable_earpiece_title">Use receiver to play audio</string>
+  <string name="search_hint">検索</string>
+  <string name="search_led_indicator">"ロック画面の通知"</string>
+  <string name="search_led_indicator_prompt">"録音中に、ロック画面で通知LEDの点滅と通知領域にショートカットを表示します"</string>
+  <string name="search_quliaty_title">"録音の品質"</string>
+  <string name="search_scenes">"録音タイプ"</string>
+  <string name="search_silent_mode">"録音中は着信音をミュート"</string>
+  <string name="search_tip_rename">"手動で録音に名前を付ける"</string>
+  <string name="service_instructions">iflyrec.com について</string>
+  <string name="share">"共有"</string>
+  <string name="share_dialog_title">"共有方法"</string>
+  <string name="shortcut_records">録音中</string>
+  <string name="shortcut_start_record">録音を開始</string>
+  <string name="shortcut_stop_record">録音を停止</string>
+  <string name="sound_recorder_settings">"設定"</string>
+  <string name="speech_recognition_complete">Transcribed</string>
+  <string name="speech_recognition_running_tip">"Processing "</string>
+  <string name="start">"再開"</string>
+  <string name="status_bar_back">"レコーダーに戻るにはタップ"</string>
+  <string name="status_bar_recording">"録音中…"</string>
+  <string name="status_bar_recording_pause">"レコーダーの一時停止"</string>
+  <string name="text_btn_backward_3_seconds">3秒戻る</string>
+  <string name="text_btn_complete">"停止"</string>
+  <string name="text_btn_forward_3_seconds">3秒進む</string>
+  <string name="text_btn_list">Recordings</string>
+  <string name="text_btn_mark">Mark</string>
+  <string name="text_btn_pause">"一時停止"</string>
+  <string name="text_btn_play">"再生"</string>
+  <string name="text_btn_recognize">Transcribe</string>
+  <string name="text_btn_recognize_pending">"Pending "</string>
+  <string name="text_btn_recording">"録音"</string>
+  <string name="text_btn_wave">Wave</string>
+  <string name="text_finish">"確認"</string>
+  <string name="text_play_speed_0_5">0.5X playback speed</string>
+  <string name="text_play_speed_1_0">Regular playback speed</string>
+  <string name="text_play_speed_1_5">1.5X playback speed</string>
+  <string name="text_play_speed_2_0">2X playback speed</string>
+  <string name="toast_max_record_time">%1$s can record for about %2$s</string>
+  <string name="toast_uninstall_fileexplorer">"File Managerがインストールされていません"</string>
+  <string name="usage_description">Transcribing audio and syncing items with the cloud</string>
+  <string name="webview_check_network">ネットワーク設定</string>
+  <string name="webview_data_error">エラーが発生しました</string>
+  <string name="webview_locating_fail">現在地が見つかりませんでした</string>
+  <string name="webview_network_access_denied">ネットワークアクセスが拒否されました</string>
+  <string name="webview_network_unavaliable">ネットワークに接続できません</string>
+  <string name="webview_service_unavailiable">サービスは利用できません</string>
+  <string name="webview_try_again">再試行</string>
+  <string name="wifi_recommended_body" formatted="false">"モバイルデータ接続を使用してこのファイル(%s)をダウンロードすると、データ使用量が増加します。データ使用量の制限を超えた場合は、キャリアによっては追加料金が発生する場合があります。 ファイルをダウンロードするためにWi-Fi接続を待つには、%sをタップ。"</string>
+  <string name="wifi_recommended_title">"データ使用の警告"</string>
+</resources>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_other">باشقا</string>
+    <string name="actionbar_button_up_description">قايتىش</string>
+    <string name="afternoon">چ ك</string>
+    <string name="am">چ ب</string>
+    <string name="app_name">ئېكرانغا يوللاش مۇلازىمىتى</string>
+    <string name="app_pkg_name">com.milink.service</string>
+    <string name="app_ver_code">1</string>
+    <string name="app_ver_name">1.0</string>
+    <string name="audio_record_des">ئاۋازنى يىغىپ چوڭ ئېكران ئۈسكۈنىسىدە قويۇش</string>
+    <string name="casting_tips">ئېكرانغا يوللاۋاتىدۇ...</string>
+    <string name="clearable_edittext_clear_description">تازىلاش</string>
+    <string name="close">تاقاش</string>
+    <string name="close_hotspot_hint">قىزىق نۇقتىنى تاقىغاندىن كېيىن ئېكرانغا يوللاڭ</string>
+    <string name="close_slave_wifi_hint">ياردەمچى WLAN نى تاقىغاندىن كېيىن ئاندىن ئېكرانغا يوللاڭ</string>
+    <string name="close_slave_wifi_hint_china">ياردەمچى WLAN نى تاقىغاندىن كېيىن ئاندىن ئېكرانغا يوللاڭ</string>
+    <string name="console_guide_btn_got_it">بىلدىم</string>
+    <string name="console_guide_subtitle_hang_up">ئېكران ئۆچكەندىن كېيىن، مەزمۇننى يەنىلا چوڭ ئېكرانغا يوللايدۇ،بۇ ئىقتىدار ئېكرانغا يوللىغاندىكى يانفون سەرپىياتىنى تۆۋەنلىتىدۇ</string>
+    <string name="console_guide_subtitle_private">ئېكرانغا يوللىغاندا،چوڭ ئېكراندا لەيلىمە ئۇقتۇرۇش، كەلگەن تېلېفون،كىچىك كۆزنەك قاتارلىق شەخس ئۇچۇرىنى ئۆز ئىچىگە ئالغان مەزمۇن كۆرۈنمەيدۇ</string>
+    <string name="console_guide_subtitle_small_window">ئېكرانغا يوللىغان مەزمۇننى كىچىك كۆزنەككە كىچىكلىتىدۇ،يانفوننى نورمال ئىشلەتكىلى بولىدۇ چوڭ ئېكران ئۈسكۈنىسىگە يوللانمايدۇ</string>
+    <string name="date_picker_label_day">كۈن</string>
+    <string name="date_picker_label_month">ئاي</string>
+    <string name="date_picker_label_year">يىل</string>
+    <string name="date_picker_lunar">قەمەرىيە كالېندارى</string>
+    <string name="date_time_picker_dialog_title">چېسلا ۋە ۋاقىت تەڭشەش</string>
+    <string name="device_desc_trust">ئىشەنچىلىك ئۈسكۈنە</string>
+    <string name="dialog_can_not_find_device">ئىشلەتكۈدەك ئۈسكۈنە تېپىلمىدى</string>
+    <string name="dialog_cancle">بىكار قىلىش</string>
+    <string name="dialog_connect_fail">ئۇلىنىش مەغلۇپ بولدى</string>
+    <string name="dialog_connect_retry">چېكىپ قايتا سىناڭ</string>
+    <string name="dialog_connect_verify_perssion">بۇ قېتىملىق ئېكرانغا يوللاشنى تېلېۋېزوردا ھوقۇقلاندۇرۇش كېرەك</string>
+    <string name="dialog_connect_verify_perssion_fail">تېلىۋېزور ئېكرانغا يوللاشنى قوغداش مەغلۇپ بولدى،سەل تۇرۇپ قايتا سىناڭ</string>
+    <string name="dialog_connected">ئۇلاندى</string>
+    <string name="dialog_connecting">ئۇلىنىۋاتىدۇ</string>
+    <string name="dialog_location_permission_message">ئېكرانغا يوللاش ئىقتىدارى ئۈسكۈنىنىڭ ئورۇن ئۇچۇرىغا مۇھتاج، بۇنىڭ ئارقىلىق ئەتراپتىدىكى ئېكرانغا يوللىغىلى بولىدىغان ئۈسكۈنە ئۇچۇرىغا ئېرىشىدۇ، بۇ ئېكرانغا يوللاش ئىقتىدارىنىڭ نورمال ئىشلىتىلىشى ئۈچۈن ئىنتايىن مۇھىم. [ئىزچىل رۇخسەت] نى ئېچىپ ئورۇنغا ئېرىشىشنى تەۋسىيە قىلىمىز، بولمىسا ئىقتىداردا بىنورماللىق كۆرۈلىشى مۇمكىن.</string>
+    <string name="dialog_location_permission_title">ئورۇن ئۇچۇر ھوقۇقىنى ئىلتىماس قىلىش</string>
+    <string name="dialog_miplay_permission_message">يانفونىڭىز ئېكرانغا يوللاشنى ھوقۇقلاندۇرمىغان، [ھوقۇق باشقۇرۇش] دىن ئۈنگە ئېلىش، ھۆججەت ئوقۇش، ئورۇن بەلگىلەشنى ئېچىپ، ئېكرانغا يوللاشنى نورمال ئىشلىتىشكە كاپالەتلىك قىلىڭ</string>
+    <string name="dialog_miplay_permission_positive">ھوقۇققا ئېرىشىش</string>
+    <string name="dialog_miplay_permission_title">ئېكرانغا يوللاش مۇلازىمىتى ھوقۇققا ئېرىشمىگەن</string>
+    <string name="dialog_nfc_cast_wifi_off">NFC نى ئىشلىتىپ تەگكۈزۈپ ئېكرانغا يوللىغاندا، WLAN ئىقتىدارىنى ئېچىش كېرەك، ھازىرلا ئاچامسىز؟</string>
+    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. تېلېۋېزور بىلەن يانفوننى ئوخشاش بىر WLAN غا ئۇلاڭ&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. قىسمەن تېلېۋېزوردا تەسۋىر ھاسىللاش ئىقتىدارىنى ئاچقاندىن كېيىن ئاندىن ئىزدەپ تاپقىلى بولىدۇ، تەپسىلاتىنى &lt;a href=milink://com.milink.service/specification>ياردەمدىن كۆرۈڭ&lt;/a>&lt;/Data></string>
+    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. تېلېۋېزور بىلەن يانفوننى ئوخشاش بىر WLAN غا ئۇلاڭ&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. قىسمەن تېلېۋېزوردا تەسۋىر ھاسىللاش ئىقتىدارىنى ئاچقاندىن كېيىن ئاندىن ئىزدەپ تاپقىلى بولىدۇ، تەپسىلاتىنى &lt;a href=milink://com.milink.service/specification>ياردەمدىن كۆرۈڭ&lt;/a>&lt;/Data></string>
+    <string name="dialog_ok">ماقۇل</string>
+    <string name="dialog_only_suport_content">پەقەت رەسىم،سىن،مۇزىكىنى ئېكرانغا يوللاشنى قوللايدۇ</string>
+    <string name="dialog_open_wifi_bt">ھازىرلا ئېچىش</string>
+    <string name="dialog_please_make_sure_tv_ok_or_help">"ئۈسكۈنە سىمسىز ئېكرانغا يوللاش ئىقتىدارىنى ئاچتىمۇ تەكشۈرۈڭ،
+ باشقا مەسىلىلەرنى ياردەمدىن كۆرۈڭ"</string>
+    <string name="dialog_recent_connected">يېقىندا ئۇلىغان</string>
+    <string name="dialog_retry">قايتا سىناش</string>
+    <string name="dialog_scan_message">"%1$d. تېلېۋېزور بىلەن يانفوننى ئوخشاش بىر WLAN غا ئۇلاڭ
+
+ %2$d. قىسمەن تېلېۋېزوردا تەسۋىر ھاسىللاش ئىقتىدارىنى ئاچقاندىن كېيىن ئاندىن ئىزدەپ تاپقىلى بولىدۇ، تەپسىلاتىنى ياردەمدىن كۆرۈڭ"</string>
+    <string name="dialog_scan_message_china">"%1$d. تېلېۋېزور بىلەن يانفوننى ئوخشاش بىر WLAN غا ئۇلاڭ
+
+ %2$d. قىسمەن تېلېۋېزوردا تەسۋىر ھاسىللاش ئىقتىدارىنى ئاچقاندىن كېيىن ئاندىن ئىزدەپ تاپقىلى بولىدۇ، تەپسىلاتىنى ياردەمدىن كۆرۈڭ"</string>
+    <string name="dialog_scanning_device">ئەتراپتىكى ئۈسكۈنىنى ئىزدەۋاتىدۇ</string>
+    <string name="dialog_scanning_precondition">ئېكرانغا يوللاشنى ئىشلەتكەندە،WLAN ۋە كۆكچىش ئىقتىدارىنى ئېچىش كېرەك،ئاچامسىز؟</string>
+    <string name="dialog_scanning_precondition_new_china">ئېكرانغا يوللاش ئىقتىدارىنى ئىشلەتكەندە، WLAN، كۆكچىش ۋە ئورۇن ئۇچۇرى ئىقتىدارىنى ئېچىش كېرەك، يۇقارقى ئىقتىدارلارنى ئاچامسىز؟</string>
+    <string name="dialog_scanning_precondition_new_global">ئېكرانغا يوللاش ئىقتىدارىنى ئىشلەتكەندە، WLAN، كۆكچىش ۋە ئورۇن ئۇچۇرى ئىقتىدارىنى ئېچىش كېرەك، يۇقارقى ئىقتىدارلارنى ئاچامسىز؟</string>
+    <string name="dialog_select_tv">ئۈسكۈنىنى تاللاڭ(%1$d)</string>
+    <string name="dialog_show_help">ياردەم</string>
+    <string name="disconnect">ئېكرانغا يوللاشنى ئاخىرلاشتۇرۇش</string>
+    <string name="early_morning">سەھەر</string>
+    <string name="empty" />
+    <string name="enable_screen_projection_summary">يانفون كۆرۈنمە يۈزىنى تېلېۋېزور قاتارلىق چوڭ ئېكران ئۈسكۈنىسىگە يوللايدۇ</string>
+    <string name="eras_ad">مىلادى</string>
+    <string name="eras_bc">مىلادىدىن بۇرۇنقى</string>
+    <string name="evening">گۇگۇم</string>
+    <string name="file_read_des">يانفوندىكى رەسىم ۋە ھۆججەتنى ئوقۇپ ئېكرانغا يوللايدۇ</string>
+    <string name="fmt_date">D</string>
+    <string name="fmt_date_day">d日</string>
+    <string name="fmt_date_long_month">M-ئاي</string>
+    <string name="fmt_date_long_month_day">M-ئاينىڭ d-كۈنى</string>
+    <string name="fmt_date_long_year_month">yyyy-يىل M-ئاي</string>
+    <string name="fmt_date_long_year_month_day">yyyy-يىل M-ئاينىڭ d-كۈنى</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">M</string>
+    <string name="fmt_date_numeric_month_day">M-d</string>
+    <string name="fmt_date_numeric_year">yyyy</string>
+    <string name="fmt_date_numeric_year_month">yyyy-M</string>
+    <string name="fmt_date_numeric_year_month_day">yyyy-M-d</string>
+    <string name="fmt_date_short_month">M月</string>
+    <string name="fmt_date_short_month_day">M-ئاينىڭ d-كۈنى</string>
+    <string name="fmt_date_short_year_month">yyyy-يىل M-ئاي</string>
+    <string name="fmt_date_short_year_month_day">yyyy-يىل M-ئاينىڭ d-كۈنى</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">zD T</string>
+    <string name="fmt_date_timezone">zD</string>
+    <string name="fmt_date_year">yyyy-يىل</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">h سائەت</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">aah:mm</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ss</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">aah:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_pm">aah:mm:ss</string>
+    <string name="fmt_time_12hour_pm">aah点</string>
+    <string name="fmt_time_24hour">H سائەت</string>
+    <string name="fmt_time_24hour_minute">Hh:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:s</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">S دەقىقە</string>
+    <string name="fmt_time_minute">m مىنۇت</string>
+    <string name="fmt_time_minute_second">m مىنۇت s سېكۇنت</string>
+    <string name="fmt_time_minute_second_millis">m مىنۇت s.S سېكۇنت</string>
+    <string name="fmt_time_second">s سېكۇنت</string>
+    <string name="fmt_time_second_millis">s.S سېكۇنت</string>
+    <string name="fmt_time_timezone">zT</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">DW</string>
+    <string name="fmt_weekday_date_time">DW T</string>
+    <string name="fmt_weekday_date_time_timezone">zDW T</string>
+    <string name="fmt_weekday_date_timezone">zDW</string>
+    <string name="fmt_weekday_long">EEEE</string>
+    <string name="fmt_weekday_short">EEEE</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">zW T</string>
+    <string name="fmt_weekday_timezone">zW</string>
+    <string name="friday">جۈمە</string>
+    <string name="friday_short">جۈمە</string>
+    <string name="friday_shortest">جۈمە</string>
+    <string name="global_privacy">ماددىلار ۋە بايانات</string>
+    <string name="global_privacy_detail">&lt;Data>بىزنىڭ &lt;a href=%1$s>«ئىشلەتكۈچى كېلىشىمى»&lt;/a>ۋە&lt;a href=%2$s> «شەخسىي مەخپىيەتلىك سىياسىتى»نى ئوقۇپ قوشۇلۇڭ&lt;/a>. &lt;br>ئەگەر سىز يۇقارقى مۇلازىمەتلەرنى ئېچىشقا قوشۇلمىسىڭىز،بۇ مەھسۇلاتنىڭ ئەلالاشتۇرۇپ تېزلىتىش،ئەپ قۇلۇپى،ئاۋارىگەرچىلكنى توسۇش ئىقتىدارىنى ئىشلىتىلەيسىز.&lt;/Data></string>
+    <string name="global_privacy_explain">ئېكرانغا يوللاشنى ئىشلەتكىنىڭىزنى قارشى ئالىمىز. بۇ مەھسۇلات سىزنى تۆۋەندىكى مۇلازىمەتلەر بىلەن تەمىنلەيدۇ:</string>
+    <string name="global_privacy_feature">كىچىك ئېكراندا يوللاش، ئۆچۈك ئېكراندا يوللاش، شەخسىيەتنى قوغداش</string>
+    <string name="global_privacy_main">يانفون ئېكراننى تېلېۋېزور/تېلېۋېزور قۇتىسى/پرويېكسىيە قاتارلىق چوڭ ئېكرانلىق ئۈسكۈنىلەرگە يوللايدۇ</string>
+    <string name="global_privacy_negative">قوشۇلمايمەن</string>
+    <string name="global_privacy_positive">قوشۇلىمەن</string>
+    <string name="global_privacy_tip">&lt;Data>ئېكرانغا يوللاش سۈپىتىنى ئەلالاشتۇرۇش ئىقتىدارىنى تەمىنلەش ئۈچۈن ،سىزنىڭ زۆرۈر بولغان شەخس ئۇچۇرىڭىزنى يىغىشقا مۇھتاجمىز،تەپسىلىي قائىدىسىنى بىزنىڭ&lt;a href=%1$s> «شەخسىي مەخپىيەتلىك سىياسىتى»دىن كۆرۈڭ&lt;/a>. سىز خالىغان چاغدا ئەپتىكىتەڭشەكتىن ئالاقىدار تەڭشەكنى ئۆزگەرتسىڭىز بولىدۇ.&lt;/Data></string>
+    <string name="hang_up">ئۆچۈك ئېكراندا يوللاش</string>
+    <string name="hang_up_alert_dialog_content">ئېكران ئۆچكەندە،ئېكرانغا يوللاش ئۈزۈلۈپ قالمايدۇ،يانفون ئۆچۈك ئېكران ھالىتىگە كىرىپ توك مىقدارىنى تىجەيدۇ. توك مەنبە كونۇپكىسىنى بىر قېتىم چەكسىڭىز ئۆچۈك ئېكران ھالىتىدىن چېكىنىدۇ</string>
+    <string name="hang_up_alert_dialog_neg">بىكار قىلىش</string>
+    <string name="hang_up_alert_dialog_pos">ماقۇل</string>
+    <string name="hang_up_alert_dialog_title">ئۆچۈك ئېكراندا كۆرسىتىشكە كىرمەكچى</string>
+    <string name="help_page_text_01">ئېكرانغا يوللاش ياردىمى</string>
+    <string name="help_page_text_02">ئېكرانغا يوللاش دېگەن نېمە؟</string>
+    <string name="help_page_text_03">يانفون ئېكرانى ياكى مەزمۇنىنى ( مەسىلەن رەسىم،سىن)،تېلېۋېزور،پرويېكسىيە قاتارلىق چوڭ ئېكرانلىق ئۈسكۈنىگە يوللاش. تېز سۈرئەتتە ئېكرانغا يوللاش ئىقتىدارىنى ئىشلىتىپ،تېخىمۇ ياخشى كۆرۈش ھېسسىياتىغا ئېرىشىدۇ،رەسىم ئويۇن قاتارلىقلارنى ھەمبەھىرلەشنى قوللايدۇ،ئىشلىتىش جەريانىدا نورمىدىن سىرت ئېقىم ئىسراپ بولمايدۇ.</string>
+    <string name="help_page_text_04">ئېكرانغا قانداق ئەقلىي يوللايدۇ؟</string>
+    <string name="help_page_text_05">%1$d-قەدەم ئۈسكۈنە ۋە تور مۇھىتىنى جەزملەڭ</string>
+    <string name="help_page_text_06">"%1$d. شياۋمى ماركىسىدىكى تېلىۋېزور،تېلىۋېزور قۇتىسى ياكى پرويېكسىيەسى
+ تېخىمۇ تېز ئۇلىنىش سۈرئىتىگە ئېرىشىش ئۈچۈن،يانفون بىلەن چوڭ ئېكران ئۈسكۈنىسىنى ئوخشاش بىر رايون تورىغا ئۇلاڭ(WLAN). ئوخشاش بولمىغان (WLAN)رايون تورى ئاستىدا، ئۈسكۈنىنى بايقاش ۋاقتى ئۇزۇنراق بولىشى مۇمكىن، تەقەززالىق بىلەن ساقلاڭ. 
+ دىققەت: قىسمەن كونا تىپتىكى تېلىۋېزور ئوخشاش بولمىغان رايون تورىدا(WLAN) ئېكرانغا يوللاشنى قوللىماسلىقى مۇمكىن. 
+%2$d. باشقا ماركىدىكى تېلىۋېزور،تېلىۋېزور قۇتىسى ياكى پرويېكسىيەسى يانفون بىلەن چوڭ ئېكران ئۈسكۈنىسىنى ئوخشاش بىر رايون تورىغا ئۇلايدۇ （WLAN）
+ ئەگەر ئۈسكۈنىنى ئوخشاش بىر رايون تورىغا ئۇلىغىلى بولمىسا، چوڭ ئېكران ئۈسكۈنىسىنىڭ [ Miracast تەسۋىر چۈشۈرۈش] نى ئېچىڭ. ئوخشىمىغان ماركىدىكى تېلىۋېزوردا، بۇ ئىسىم ئوخشاش بولماسلىقى مۇمكىن، بۇ بەتنىڭ ئاستىغا سىيرىپ چۈشۈرۈپ تەپسىلاتىنى چۈشەنسىڭىز بولىدۇ."</string>
+    <string name="help_page_text_06_global">"%1$d. شياۋمى ماركىسىدىكى تېلىۋېزور،تېلىۋېزور قۇتىسى ياكى پرويېكسىيەسى
+ تېخىمۇ تېز ئۇلىنىش سۈرئىتىگە ئېرىشىش ئۈچۈن،يانفون بىلەن چوڭ ئېكران ئۈسكۈنىسىنى ئوخشاش بىر رايون تورىغا ئۇلاڭ(WLAN). ئوخشاش بولمىغان (WLAN)رايون تورى ئاستىدا، ئۈسكۈنىنى بايقاش ۋاقتى ئۇزۇنراق بولىشى مۇمكىن، تەقەززالىق بىلەن ساقلاڭ. 
+ دىققەت: قىسمەن كونا تىپتىكى تېلىۋېزور ئوخشاش بولمىغان رايون تورىدا(WLAN) ئېكرانغا يوللاشنى قوللىماسلىقى مۇمكىن. 
+%2$d. باشقا ماركىدىكى تېلىۋېزور،تېلىۋېزور قۇتىسى ياكى پرويېكسىيەسى يانفون بىلەن چوڭ ئېكران ئۈسكۈنىسىنى ئوخشاش بىر رايون تورىغا ئۇلايدۇ （WLAN）
+ ئەگەر ئۈسكۈنىنى ئوخشاش بىر رايون تورىغا ئۇلىغىلى بولمىسا، چوڭ ئېكران ئۈسكۈنىسىنىڭ [ Miracast تەسۋىر چۈشۈرۈش] نى ئېچىڭ. ئوخشىمىغان ماركىدىكى تېلىۋېزوردا، بۇ ئىسىم ئوخشاش بولماسلىقى مۇمكىن، بۇ بەتنىڭ ئاستىغا سىيرىپ چۈشۈرۈپ تەپسىلاتىنى چۈشەنسىڭىز بولىدۇ."</string>
+    <string name="help_page_text_08">%1$d-قەدەم،ئېكرانغا يوللاش ئىقتىدارىنى ئېچىڭ</string>
+    <string name="help_page_text_09">يانفوندا ئۇقتۇرۇش سىتونىنى ئاستىغا سىيرىپ،\"ئېكرانغا يوللاش\" نى ئېچىڭ. تېخىمۇ مۇقىم ئۇلىنىش ئۈچۈن،\"كۆكچىش\" ۋە \"WLAN سىمسىز تورى\" نى ئېچىشىڭىزنى تەۋسىيە قىلىمىز.</string>
+    <string name="help_page_text_09_global">يانفوندا ئۇقتۇرۇش بالدىقىنى ئاستىغا سىيرىپ،\"ئېكرانغا يوللاش\" نى ئېچىڭ. تېخىمۇ مۇقىم ئۇلىنىش ئۈچۈن،\"كۆكچىش\" ۋە \"WLAN سىمسىز تورى\" نى ئېچىشىڭىزنى تەۋسىيە قىلىمىز.</string>
+    <string name="help_page_text_10">ئالبوم،ئويۇن ۋە PPT ھۆججىتىدە، ئېكرانغا يوللاش ئىقتىدارىنى بىۋاستە ئىشلەتسىڭىز بولىدۇ</string>
+    <string name="help_page_text_11">%1$d-قەدەم، ئۈسكۈنە تاللاڭ</string>
+    <string name="help_page_text_12">ئىزدىگەن ئۈسكۈنە تىزىملىكىدىن، ئېكرانغا يوللايدىغان ئۈسكۈنىنى تاللاپ، ئېكرانغا يوللاشنى تاماملاڭ</string>
+    <string name="help_page_text_13">ئۇلىنىشتىن مەسىلە چىقتى؟</string>
+    <string name="help_page_text_14">"%1$d. شياۋمى ئۈسكۈنىسى ئېكرانىغا يوللاپ،لېكىن ئۈسكۈنىنى تاپالمىغاندا،تۆۋەندىكى تەدبىرلەرنى ئىشلەتسىڭىز بولىدۇ：
+ يانفون بىلەن تېلېۋېزورنى ئوخشاش بىر رايون تورىغا （WLAN）ئۇلاڭ، ياكى تېلېۋېزورنى يانفون قىزىق نۇقتىسىغا ئۇلاڭ؛ئوخشاش رايون تورىدا （WLAN）بولمىغاندا،تېلېۋېزور ئەپ تىزىملىكىدىن [ سىمسىز ئېكرانغا يوللاش] نىڭ ئەڭ يېڭى نەشىر ئىكەنلىكىنى جەزملەڭ؛ئوخشاش رايون تورىدا（WLAN） بولمىغاندا،كۆكچىش ئىقتىدارى ئېچىلغانمۇ تەكشۈرۈڭ، تېلېۋېزوردىن [ سىمسىز ئېكرانغا يوللاش] ئەپىنى تېپىپ ھەمدە 「Miracast」 ئىقتىدارىنى ئېچىڭ.
+%2$d. تۇنجى قېتىم شياۋمى ئۈسكۈنىسى ئېكرانىغا يوللىغاندا،تېلىۋېزوردىن دەلىللەش كېرەك.
+%3$d. باشقا ئۈسكۈنە ئېكرانىغا يوللىغاندا، لېكىن ئۈسكۈنىنى تاپالمىغاندا، تۆۋەندىكى ئۇسۇللارنى ئىشلەتسىڭىز بولىدۇ：
+ ئىككىسىنى ئوخشاش بىر رايون تورىغا（WLAN） ئۇلاڭ، ياكى تېلىۋېزور يانفون قىزىق نۇقتىسىغا ئۇلانسۇن،ئەگەر ئوخشاش بىر رايون تورىغا（WLAN） ئۇلانغاندىن كېيىن، ئۈسكۈنىنى يەنىلا تاپالمىسا، تېلىۋېزور ئەپ دۇكىنىدىن، يېڭىلىسىز ياكى ئەڭ يېڭى نەشىردىكى 「لېبو ئېكرانغا يوللاش」تېلىۋېزور ئەپىنى چۈشۈرۈڭ."</string>
+    <string name="help_page_text_14_global">"%1$d. شياۋمى ئۈسكۈنىسى ئېكرانىغا يوللاپ،لېكىن ئۈسكۈنىنى تاپالمىغاندا،تۆۋەندىكى تەدبىرلەرنى ئىشلەتسىڭىز بولىدۇ：
+ يانفون بىلەن تېلېۋېزورنى ئوخشاش بىر رايون تورىغا （WLAN）ئۇلاڭ، ياكى تېلېۋېزورنى يانفون قىزىق نۇقتىسىغا ئۇلاڭ؛ئوخشاش رايون تورىدا （WLAN）بولمىغاندا،تېلېۋېزور ئەپ تىزىملىكىدىن [ سىمسىز ئېكرانغا يوللاش] نىڭ ئەڭ يېڭى نەشىر ئىكەنلىكىنى جەزملەڭ؛ئوخشاش رايون تورىدا（WLAN） بولمىغاندا،كۆكچىش ئىقتىدارى ئېچىلغانمۇ تەكشۈرۈڭ، تېلېۋېزوردىن [ سىمسىز ئېكرانغا يوللاش] ئەپىنى تېپىپ ھەمدە 「Miracast」 ئىقتىدارىنى ئېچىڭ.
+%2$d. تۇنجى قېتىم شياۋمى ئۈسكۈنىسى ئېكرانىغا يوللىغاندا،تېلىۋېزوردىن دەلىللەش كېرەك.
+%3$d. باشقا ئۈسكۈنە ئېكرانىغا يوللىغاندا، لېكىن ئۈسكۈنىنى تاپالمىغاندا، تۆۋەندىكى ئۇسۇللارنى ئىشلەتسىڭىز بولىدۇ：
+ ئىككىسىنى ئوخشاش بىر رايون تورىغا（WLAN） ئۇلاڭ، ياكى تېلىۋېزور يانفون قىزىق نۇقتىسىغا ئۇلانسۇن،ئەگەر ئوخشاش بىر رايون تورىغا（WLAN） ئۇلانغاندىن كېيىن، ئۈسكۈنىنى يەنىلا تاپالمىسا، تېلىۋېزور ئەپ دۇكىنىدىن، يېڭىلىسىز ياكى ئەڭ يېڭى نەشىردىكى 「لېبو ئېكرانغا يوللاش」تېلىۋېزور ئەپىنى چۈشۈرۈڭ."</string>
+    <string name="help_page_text_15">ئوخشىمىغان ماركىدىكى تېلېۋېزوردا Miracast نى ئېچىش</string>
+    <string name="help_page_text_16">شياۋمى سىنى/پرويىكسىيە</string>
+    <string name="help_page_text_17">"شياۋمى يانفونى كۆپ قىسىمدىكى كۆكچىش ئىقتىدارى بار شياۋمى تېلېۋېزورىغا بىۋاستە ئۇلىنىدۇ،قولدا Miracast ئىقتىدارىنى ئېچىشنىڭ ھاجىتى يوق. 
+ ئەگەر Miracast ئىقتىدارىنى قولدا ئاچماقچى بولسىڭىز،تىزگىنەكنىڭ[ تىزىملىك] كونۇپكىسىنى باسسىڭىز بولىدۇ،تېلېۋېزور ئېكرانىدا ئەپلىرىم > سىمسىز ئېكرانغا يوللاش> شياۋمى/ئاندرويد Miracast"</string>
+    <string name="help_page_text_17_1">شياۋمى مۇلازىم تېلېفونى ：400-100-5678</string>
+    <string name="help_page_text_18">سەنشىڭ تېلېۋېزورى</string>
+    <string name="help_page_text_19">چوڭ ئېكرانلىق ئۈسكۈنىڭىز Miracast كېلىشىمىنى قوللامدۇ جەزملەڭ،قىسمەن يانفون تىپىدىكىلەر [پروگرامما مەنبەسى] كونۇپكىسىنى بېسىپ، [Screen Mirroring] نى تاللاپ ئاچسا بولىدۇ؛قىسمەن تىپتىكىلەرنىڭ بۇ ئىقتىدارى ئوچۇق بولىدۇ،مەشغۇلات قىلىش ھاجەتسىز</string>
+    <string name="help_page_text_20">سەنشىڭ مۇلازىم تېلېفونى: 400-810-5858</string>
+    <string name="help_page_text_21">LG تېلېۋېزورى</string>
+    <string name="help_page_text_22">چوڭ ئېكران ئۈسكۈنىڭىز Miracast كېلىشىمىنى قوللامدۇ جەزملەڭ،قىسمەن تىپلاردا بۇ ئىقتىدارى ئوچۇق بولىدۇ. ئېچىش ھاجەتسىز</string>
+    <string name="help_page_text_23">LG مۇلازىم تېلېفونى：400-819-9999</string>
+    <string name="help_page_text_24">فېيلىپۇ تېلېۋېزورى</string>
+    <string name="help_page_text_25">چوڭ ئېكران ئۈسكۈنىڭىز Miracast كېلىشىمىنى قوللامدۇ جەزملەڭ،قىسمەن تىپلاردا بۇ ئىقتىدارى ئوچۇق بولىدۇ.</string>
+    <string name="help_page_text_26">فېيلىپۇ مۇلازىم تېلېفونى：400-880-0008</string>
+    <string name="help_page_text_27">گۈەنجيې</string>
+    <string name="help_page_text_28">ئاۋۋال چوڭ ئېكران ئۈسكۈنىڭىز Miracast كېلىشىمىنى قوللامدۇ جەزملەڭ،قىسمەن تىپتىكىلەرنى تېلېۋېزور تىزگىنىكىنىڭ [ تىزىملىك] كونۇپكىسىدىن، تەڭشەك > ئۇلىنىش > سىملىق تور ياكى سىمسىز تور > كۆپ ئېكران ئالاقىسى > دىن ئېچىڭ</string>
+    <string name="help_page_text_29">گۈەنجيې مۇلازىم تېلېفونى：400-887-8007</string>
+    <string name="help_page_text_30">خەيشىن</string>
+    <string name="help_page_text_31">ئاۋۋال ئۈسكۈنىڭىزنىڭ Miracast كېلىشىمىنى قوللايدىغانلىقىنى جەزملەڭ،قىسمەن تىپتىكىلەرنىڭ تېلېۋېزور تىزگىنەك [ئەقلىي] كونۇپكىدىن،ئېكران يوللاش ياردەمچىسى > سىمسىز كۆرسىتىش؛بەزى تىپتىكىلەردە Hi ئېكرانغا يوللاشنى چېكىپ > ئويۇنننى ئېكرانغا يوللاش > ئاندرويد。</string>
+    <string name="help_page_text_32">خەيشىن مۇلازىم تېلېفونى：400-611-1111</string>
+    <string name="help_page_text_33">چۇاڭۋېي</string>
+    <string name="help_page_text_34">ئاۋۋال چوڭ ئېكران ئۈسكۈنىڭىزنىڭ Miracast كېلىشىمىنى قوللايدىغانلىقىنى جەزملەڭ،قىسمەن تىپتىكىلەردە ئېكراندا تاللىسىڭىز بولىدۇ ئەپ > ئەيتوۋيىن > ئاندرويد ئۈسكۈنىسى> دىن Miracast تەسۋىر ھاسىل قىلىشقا كىرىڭ</string>
+    <string name="help_page_text_35">چۇاڭۋېي مۇلازىم تېلېفونى：95105555</string>
+    <string name="help_page_text_36">سونى</string>
+    <string name="help_page_text_37">چوڭ ئېكرانلىق ئۈسكۈنىڭىز Miracast كېلىشىمىنى قوللامدۇ جەزملەڭ،قىسمەن يانفون تىپىدىكىلەر [پروگرامما مەنبەسى] كونۇپكىسىنى بېسىپ، [Screen Mirroring] نى تاللاپ ئاچسا بولىدۇ؛قىسمەن تىپتىكىلەرنىڭ تور >WLAN Direct تەڭشىكىدىن ئاچسا بولىدۇ؛ قىسمەن تىپتىكىلەرنىڭ بۇ ئىقتىدارى ئوچۇق بولىدۇ،مەشغۇلات قىلىش ھاجەتسىز</string>
+    <string name="help_page_text_38">سونى مۇلازىم تېلېفونى：400-810-9000</string>
+    <string name="help_page_text_39">سوڭشيا</string>
+    <string name="help_page_text_40">ئاۋۋال چوڭ ئېكران ئۈسكۈنىڭىزنىڭ Miracast كېلىشىمىنى قوللايدىغانلىقىنى جەزملەڭ،قىسمەن تىپتىكىلەر تېلېۋېزوردىن ئەپ > تەسۋىر ھاسىللاش ئىقتىدارىنى تاللىسا بولىدۇ</string>
+    <string name="help_page_text_41">سوڭشيا مۇلازىم تېلېفونى：400-881-1315</string>
+    <string name="help_page_text_42">چاڭخۇڭ</string>
+    <string name="help_page_text_43">ئاۋۋال چوڭ ئېكران ئۈسكۈنىڭىزنىڭ Miracast كېلىشىمىنى قوللايدىغانلىقىنى جەزملەڭ،قىسمەن تىپتىكىلەرنىڭ بۇ ئىقتىدارى تېلېۋېزوردىن سىستېما > سىستېما قورالى > كۆپ ئېكران ئالاقىسى > ئېكران تەسۋىر ھاسىللاشتا.</string>
+    <string name="help_page_text_44">چاڭخۇڭ مۇلازىم تېلېفونى ：400-811-1666</string>
+    <string name="help_page_text_45">TCL</string>
+    <string name="help_page_text_46">ئاۋۋال چوڭ ئېكران ئۈسكۈنىڭىزنىڭ Miracast كېلىشىمىنى قوللايدىغانلىقىنى جەزملەڭ،قىسمەن تىپتىكىلەر تېلېۋېزوردىن ئەپ > سىمسىز ئۇلاش ئىقتىدارىنى تاللىسا بولىدۇ</string>
+    <string name="help_page_text_47">TCL مۇلازىم تېلېفونى：400-812-3456</string>
+    <string name="help_page_text_48">ئاۋديەن پرويېكسىيەسى</string>
+    <string name="help_page_text_49">ئاۋۋال پرويېكسىيەنىڭ Miracast كېلىشىمىنى قوللايدىغانلىقىنى جەزملەڭ،پرويېكسىيەدىن ئەپلىرىم > WiFi Display نى تاللاڭ.</string>
+    <string name="help_page_text_50">ئاۋديەن پرويېكسىيە مۇلازىم تېلېفونى ：400-810-5858</string>
+    <string name="help_page_text_51">لېشى</string>
+    <string name="help_page_text_52">ئاۋۋال پرويېكسىيەنىڭ Miracast كېلىشىمىنى قوللايدىغانلىقىنى جەزملەڭ،قىسمەن تىپتىكىلەرنىڭ تېلىۋېزوردىن تەڭشەك > تور > كۆپ ئېكران ئالاقىسى > سىمسىز كۆرسىتىشدىن تاللىسىڭىز بولىدۇ</string>
+    <string name="help_page_text_53">لېشى مۇلازىم تېلېفونى: 10109000</string>
+    <string name="help_page_text_55">"تورسىز مۇھىتتا ئېكرانغا يوللىغاندا،چوڭ ئېكران ياكى تېلىۋېزورنىڭ Miracast تەسۋىر چۈشۈرۈشنى قوللايدىغانلىقىنى جەزملەڭ،ھەمدە بۇ ئىقتىدارنى ئېچىڭ. قىسمەن ئۈسكۈنىلەر سىمسىز كۆرسىتىش. ئېكران تەسۋىرى،كۆپ ئېكرانلىق ئالاقە ۋە تەسۋىر چۈشۈرۈش ئىقتىدارى دېيىلىدۇ. تۆۋەندىكى ئۇچۇرلاردىن پايدىلىنىپ تېلىۋېزورنىڭ Mirocast ئىقتىدارىنى ئېچىڭ. 
+%1$d. باشقا مەسىلىلەرگە يولۇقسىڭىز،[ئىشلەتكۈچى ئىنكاسى] ئارقىلىق مەسىلە ۋە پىكىرىڭىزنى تاپشۇرۇڭ"</string>
+    <string name="help_page_text_55_global">"تورسىز مۇھىتتا ئېكرانغا يوللىغاندا،چوڭ ئېكران ياكى تېلىۋېزورنىڭ Miracast تەسۋىر چۈشۈرۈشنى قوللايدىغانلىقىنى جەزملەڭ،ھەمدە بۇ ئىقتىدارنى ئېچىڭ. قىسمەن ئۈسكۈنىلەر سىمسىز كۆرسىتىش. ئېكران تەسۋىرى،كۆپ ئېكرانلىق ئالاقە ۋە تەسۋىر چۈشۈرۈش ئىقتىدارى دېيىلىدۇ. 
+ %1$d. باشقا مەسىلىلەرگە يولۇقسىڭىز،[ئىشلەتكۈچى ئىنكاسى] ئارقىلىق مەسىلە ۋە پىكىرىڭىزنى تاپشۇرۇڭ"</string>
+    <string name="help_page_text_end">ئەگەر تېلېۋېزور ئۈسكۈنىڭىز بولمىسا،تېلېۋېزور ماركىسى سودىگىرىدىن ياردەمگە ئېرىشسىڭىز بولىدۇ.</string>
+    <string name="keyguard_security_setting_privacy_policy">شەخسىي مەخپىيەتلىك سىياسىتى</string>
+    <string name="midnight">يېرىم كېچە</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">ھەممىنى تاللىماسلىق</string>
+    <string name="miuix_appcompat_action_mode_select_all">ھەممىنى تاللاش</string>
+    <string name="miuix_appcompat_action_mode_title_empty">تاللاش</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">باشقىلىرى</string>
+    <string name="miuix_appcompat_cancel_description">بىكار قىلىش</string>
+    <string name="miuix_appcompat_confirm_description">جەزملەش</string>
+    <string name="miuix_appcompat_delete_description">ئۆچۈرۈش</string>
+    <string name="miuix_appcompat_deselect_all">ھەممىنى تاللىماسلىق</string>
+    <string name="miuix_appcompat_deselect_all_description">ھەممىنى تاللىماسلىق</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">بىكار قىلىش</string>
+    <string name="miuix_appcompat_search_input_description">ئىزدەش</string>
+    <string name="miuix_appcompat_select_all">ھەممىنى تاللاش</string>
+    <string name="miuix_appcompat_select_all_description">ﮬﻪﻣﻤﯩﻨﻰ ﺗﺎﻟﻼﺵ</string>
+    <string name="miuix_appcompat_select_item">تۈر تاللاڭ</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ئاستىغا سىيرىپ يېڭىلاڭ</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">يېڭـىلاندى</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">يېڭىلىنىۋاتىدۇ</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">قويۇۋېتىپ يېڭىلاش</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">تۈگىدى</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">تۈگەپ قالدى</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">يۈكلىنىۋاتىدۇ...</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">يۈكلەنمىدى</string>
+    <string name="monday">دۈشەنبە</string>
+    <string name="monday_short">دۈشەنبە</string>
+    <string name="monday_shortest">دۈشەنبە</string>
+    <string name="month_april">4-ئاي</string>
+    <string name="month_april_short">ئاپرېل</string>
+    <string name="month_april_shortest">ئاپرېل</string>
+    <string name="month_august">8-ئاي</string>
+    <string name="month_august_short">ئاۋغۇست</string>
+    <string name="month_august_shortest">ئاۋغۇست</string>
+    <string name="month_december">12-ئاي</string>
+    <string name="month_december_short">دېكابىر</string>
+    <string name="month_december_shortest">دېكابىر</string>
+    <string name="month_february">2-ئاي</string>
+    <string name="month_february_short">فېۋرال</string>
+    <string name="month_february_shortest">فېۋرال</string>
+    <string name="month_january">1-ئاي</string>
+    <string name="month_january_short">يانۋار</string>
+    <string name="month_january_shortest">يانۋار</string>
+    <string name="month_july">7-ئاي</string>
+    <string name="month_july_short">ئىيۇل</string>
+    <string name="month_july_shortest">ئىيۇل</string>
+    <string name="month_june">6-ئاي</string>
+    <string name="month_june_short">ئىيۇن</string>
+    <string name="month_june_shortest">ئىيۇن</string>
+    <string name="month_march">3-ئاي</string>
+    <string name="month_march_short">مارت</string>
+    <string name="month_march_shortest">مارت</string>
+    <string name="month_may">5-ئاي</string>
+    <string name="month_may_short">ماي</string>
+    <string name="month_may_shortest">ماي</string>
+    <string name="month_november">11-ئاي</string>
+    <string name="month_november_short">نويابىر</string>
+    <string name="month_november_shortest">نويابىر</string>
+    <string name="month_october">10-ئاي</string>
+    <string name="month_october_short">ئۆكتەبىر</string>
+    <string name="month_october_shortest">ئۆكتەبىر</string>
+    <string name="month_september">9-ئاي</string>
+    <string name="month_september_short">سېنتەبىر</string>
+    <string name="month_september_shortest">سېنتەبىر</string>
+    <string name="more">باشقىلىرى</string>
+    <string name="morning">چ ب</string>
+    <string name="nfc_connect_failed_toast">ئېكرانغا يوللانمىدى،قايتا سىناڭ</string>
+    <string name="night">كەچ</string>
+    <string name="noon">چۈش</string>
+    <string name="normal_device_desc">ئۇلاپ بولغان ئۈسكۈنە، لېكىن ئىشەنچلىك ئۈسكۈنە ئەمەس</string>
+    <string name="normal_device_desc_limit">ئۇلىنىپ باققان شياۋمى ئۈسكۈنىسى، لېكىن ئىشىنىدىغان ئۈسكۈنە قىلمىغان</string>
+    <string name="normal_device_none">تېخى ھېچقانداق ئۈسكۈنىگە ئۇلىنىپ باقمىغان</string>
+    <string name="normal_device_title">ئىشەنچلىك ئۈسكۈنە ئەمەس</string>
+    <string name="notification_cast_desc">ئېكرانغا يوللىنۋاتىدۇ</string>
+    <string name="notification_desc_scanning">ئەتراپتىكى ئۈسكۈنىنى ئىزدەۋاتىدۇ</string>
+    <string name="notification_rc_title">شياۋمى ئېكرانغا يوللىغۇچ</string>
+    <string name="notification_show_more">چېكىپ باشقا ئىقتىدارلارنى كۆرۈڭ</string>
+    <string name="open_game_accelerate">ئويۇن تېزلىتىشنى ئېچىش</string>
+    <string name="p2p_location_des">يانفون بىلەن چوڭ ئېكران ئۈسكۈنىسىنى ئۇلاش</string>
+    <string name="path_setting_cast">ئۇلىنىش ۋە ئورتاقلىشىش/ئېكرانغا يوللاش</string>
+    <string name="path_setting_cast_demo">ئۇلىنىش ۋە ئورتاقلىشىش/ئېكرانغا يوللاش/ئۈلگە</string>
+    <string name="path_setting_cast_demo_document">ئۇلىنىش ۋە ئورتاقلىشىش/ئېكرانغا يوللاش/ئۈلگە/ھۆججەت يوللاش</string>
+    <string name="path_setting_cast_demo_gallery">ئۇلىنىش ۋە ئورتاقلىشىش/ئېكرانغا يوللاش/ئۈلگە/ئالبوم يوللاش</string>
+    <string name="path_setting_cast_demo_game">ئۇلىنىش ۋە ئورتاقلىشىش/ئېكرانغا يوللاش/ئۈلگە/ئويۇننى يوللاش</string>
+    <string name="path_setting_cast_feature">ئۇلىنىش ۋە ئورتاقلىشىش/ئېكرانغا يوللاش/ئالاھىدە ئىقتىدار</string>
+    <string name="path_setting_cast_help">ئۇلىنىش ۋە ئورتاقلىشىش/ئېكرانغا يوللاش/ئېكرانغا يوللاش ياردىمى</string>
+    <string name="pm">چ ك</string>
+    <string name="privacy_agree">قوشۇلىمەن</string>
+    <string name="privacy_detail">&lt;Data> ئەپنىڭ تورغا ئۇلىنىشى ھەمدە يۇقارقى زۆرۈر ھوقۇقلارغا قوشۇلۇڭ، بىزنىڭ &lt;a href=%1$s> « ئىشلەتكۈچى كېلىشىمى» &lt;/a> ۋە &lt;a href=%2$s> « شەخسىي مەخپىيەتلىك سىياسىتى» گە قوشۇلۇڭ&lt;/a>، ئىشلەتكۈچى ئىمتىيازىڭىز ھەمدە ئالاقىدار سانلىق مەلۇماتنى بىر تەرەپ قىلىش ئۇسۇلىنى چۈشىنىڭ. &lt;/Data></string>
+    <string name="privacy_detail_extra">&lt;Data> قىسمەن ئېكرانغا يوللاش ئىقتىدارىنى ئۈچىنچى تەرەپ شىركىتى لېبو ئېكرانغا يوللاش تەمىنلىگەن، شۇڭا &lt;a href=%1$s> « لېبو ئېكرانغا يوللاش شەخسىي مەخپىيەتلىك سىياسىتى» &lt;/a> ۋە &lt;a href=%2$s> «لېبو ئېكرانغا يوللاش قانۇن باياناتى» نى ئوقۇپ قوشۇلۇڭ &lt;/a>&lt;/Data></string>
+    <string name="privacy_explain">ئېكرانغا يوللاشنى ئىشلىتىشىڭىزنى قارشى ئالىمىز، سىز بۇ يۇمشاق دېتالنى ئىشلىتىپ يان تېلېفون كۆرۈنۈشىنى تېلېۋىزور / تېلېۋىزور قۇتىسى / پرويېكسىيە قاتارلىق چوڭ ئېكران ئۈسكۈنىلىرىگە ماس قەدەمدە ئىشلەتسىڭىز بولىدۇ. مەزكۇر ئەپنى ئىشلىتىش جەريانىدا، بىز تورغا ئۇلايمىز ھەمدە سىزگە تۆۋەندىكى ھوقۇقلارنى ئىلتىماس قىلىمىز:</string>
+    <string name="privacy_negative">چېكىنىش</string>
+    <string name="privacy_permission_ble">كۆكچىشنى ئېچىش/تاقاش</string>
+    <string name="privacy_permission_ble_desc">كۆكچىشنى ئىشلىتىپ ئەتراپتىكى ئېكرانغا يوللاشقا بولىدىغان ئۈسكۈنىنى ئىزدەيدۇ</string>
+    <string name="privacy_permission_location">ئۈسكۈنىنڭ ئورۇن ئۇچۇرىغا ئېرىشىش</string>
+    <string name="privacy_permission_location_desc">ئەتراپتىكى ئېكرانغا يوللاشقا بولىدىغان ئۈسكۈنە ئۇچۇرىغا ئېرىشىش</string>
+    <string name="privacy_permission_necessary">زۆرۈر ھوقۇق</string>
+    <string name="privacy_permission_necessary_desc">بۇ ئەپنىڭ ئاساسىي مۇلازىمىتى ۋە ئىقتىدارىغا ئىشلىتىلىدۇ</string>
+    <string name="privacy_permission_nfc">NFC</string>
+    <string name="privacy_permission_nfc_desc">NFC نى ئىشلىتىپ ئېكرانغا يوللىماقچى بولغان ئۈسكۈنىگە باغلاڭ</string>
+    <string name="privacy_permission_optional">تاللاشقا بولىدىغان ھوقۇق</string>
+    <string name="privacy_permission_optional_desc">قوشۇمچە ئىقتىدارغا ئىشلىتىلىدۇ، سىز مۇناسىۋەتلىك ئىقتىدارنى ئىشلەتكەندە سىزگە ئىلتىماس قىلىدۇ</string>
+    <string name="privacy_permission_wlan">WLAN نى ئېچىش/تاقاش</string>
+    <string name="privacy_permission_wlan_china">WLAN نى ئېچىش/تاقاش</string>
+    <string name="privacy_permission_wlan_desc">WLAN نى ئىشلىتىپ ئەتراپتىكى ئېكرانغا يوللاشقا بولىدىغان ئۈسكۈنىنى ئىزدەيدۇ</string>
+    <string name="privacy_permission_wlan_desc_china">WLAN نى ئىشلىتىپ ئەتراپتىكى ئېكرانغا يوللاشقا بولىدىغان ئۈسكۈنىنى ئىزدەيدۇ</string>
+    <string name="privacy_positive">قوشۇلىمەن</string>
+    <string name="privacy_text_1">"&lt;Data>ئېكرانغا يوللاش ئىقتىدارىنى ئىشلەتكىنىڭىزنى قارشى ئالىمىز. بۇ ئەپنى ئىشلىتىپ يانفون ئېكرانىنى تېلېۋېزور/تېلېۋېزور قۇتىسى/پرويېكسىيە قاتارلىق چوڭ ئېكرانلىق ئۈسكۈنىگە يولللىيالايسىز. 
+ بىز ئالاقىدار قانۇن-نىزامغا قاتتىق بويسۇنۇپ شەخس ئۇچۇرىڭىزنى قوغدايمىز. قىسمەن ئېكرانغا يوللاش ئىقتىدارىنى ئۈچىنچى تەرەپ لېبو ئېكرانغا يوللاش شىركىتى قوللايدۇ،ھەمدە &lt;a href=%1$s>«لېبو ئېكرانغا يوللاش شەخسىيەت سىياسىتى» &lt;/a> ۋە &lt;a href=%2$s> « لېبو ئېكرانغا يوللاش قانۇن باياناتى» نى ياخشى ئوقۇڭ&lt;/a>.
+ ئاساسىي مۇلازىمەت بىلەن تەمىنلەش ئۈچنۈ، تورغا ئۇلاش ۋە تۆۋەندىكى ھوقۇق ياكى ئىقتىدارلارنى ئىشلىتىپ، زۆرۈر بولغان شەخس ئۇچۇرىنى يىغىشىمىز مۇمكىن:&lt;/Data>"</string>
+    <string name="privacy_text_2">"&lt;Data> ئەگەر يۇقارقى زۆرۈر ھوقۇقلارغا قوشۇلمىسىڭىز، ياكى يۇقارقى ئۇچۇرلارنى ئىشلىتىپ يىغىشىمىزغا قوشۇلمىسىڭىز، ئەپنى نورمال ئىشلىتەلمەسلىكنى كەلتۈرۈپ چىقىرىدۇ
+بۇ ئەپنى ئۆچۈرۈش/چېكىنىش /تەڭشەك> ھوقۇق باشقۇرۇش دىن تاقاپ ئاخىرلاشتۇرسىڭىز بولىدۇ. &lt;a href=%1$s> « ئىشلەتكۈچى كېلىشىمى»&lt;/a> ۋە &lt;a href=%2$s> « شەخسىي مەخپىيەتلىك سىياسىتى» نى ئوقۇپ قوشۇلۇڭ &lt;/a>&lt;/Data>"</string>
+    <string name="privacy_text_pemission">"• ئۈسكۈنىدىكى رەسىم ۋە ھۆججەتنى ئوقۇپ يېزىش
+ يانفوندىكى مەزمۇننى ئېكرانغا يوللاشقا ئىشلىتىلىدۇ؛
+•سۆزلىشىشنى ئۈنگە ئېلىش ۋە يەرلىكتە ئۈنگە ئېلىش
+ يانفون ئاۋازىنى ئېكرانغا يوللاش؛
+•يانفون نومۇرى،IMEI ۋە IMSI غا ئېرىشىش：
+ئوخشىمىغان ئۈسكۈنىنى ئايرىشقا ئىشلىتىلىدۇ؛
+•ئۈسكۈنىنىڭ ئورۇن بەلگىلەش ئۇچۇرىغا ئېرىشىش：
+ كۆكچىشنى قوزغىتىش ھەمدە ئەتراپتىكى ئۈسكۈنىنى بايقاشقا ئىشلىتىلىدۇ."</string>
+    <string name="privacy_title">بىلىشكە تېگىشلىك ئىشلار</string>
+    <string name="private_protect">مەخپىيەتلىكنى قوغداش</string>
+    <string name="required_permissions">android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_BACKGROUND_LOCATION;android.permission.READ_PHONE_STATE;android.permission.READ_EXTERNAL_STORAGE;android.permission.RECORD_AUDIO;</string>
+    <string name="san_wait_msg_1">ئۈسكۈنىڭىز سىمسىز ئېكرانغا يوللاش ئىقتىدارىنى ئېچىش كېرەك</string>
+    <string name="san_wait_msg_2">ئۈسكۈنە ئىزدەش ئۈچۈن ئازراق ۋاقىت كېتىدۇ</string>
+    <string name="san_wait_msg_3">نىشان ئۈسكۈنە بىلەن يانفون ئوخشاش بىر رايون تورىدا بولغاندا،ئاسانلا تاپالايدۇ</string>
+    <string name="san_wait_msg_4">ئۈسكۈنىنى تاپالمىغاندا،ياردەمنى كۆرسىڭىز بولىدۇ</string>
+    <string name="saturday">شەنبە</string>
+    <string name="saturday_short">شەنبە</string>
+    <string name="saturday_shortest">شەنبە</string>
+    <string name="screen_projection">ئېكرانغا يوللاش</string>
+    <string name="screen_projection_characteristics">ئالاھىدە ئىقتىدار</string>
+    <string name="screen_projection_characteristics_off_screen_summary">ئېكران ئۆچكەندىن كېيىن، مەزمۇننى يەنىلا چوڭ ئېكرانغا يوللايدۇ،بۇ ئىقتىدار ئېكرانغا يوللىغاندىكى يانفون سەرپىياتىنى تۆۋەنلىتىدۇ</string>
+    <string name="screen_projection_characteristics_off_screen_title">ئۆچۈك ئېكراندا يوللاش</string>
+    <string name="screen_projection_characteristics_privacy_protect_summary">ئېكرانغا يوللىغاندا،چوڭ ئېكراندا لەيلىمە ئۇقتۇرۇش، كەلگەن تېلېفون،كىچىك كۆزنەك قاتارلىق شەخس ئۇچۇرىنى ئۆز ئىچىگە ئالغان مەزمۇن كۆرۈنمەيدۇ</string>
+    <string name="screen_projection_characteristics_privacy_protect_title">مەخپىيەتلىكنى قوغداش</string>
+    <string name="screen_projection_characteristics_small_window_summary">ئېكرانغا يوللىغان مەزمۇننى كىچىك كۆزنەككە كىچىكلىتىدۇ،يانفوننى نورمال ئىشلەتكىلى بولىدۇ چوڭ ئېكران ئۈسكۈنىسىگە يوللانمايدۇ</string>
+    <string name="screen_projection_characteristics_small_window_title">كىچىك كۆزنەكتە ئېكرانغا يوللاش</string>
+    <string name="screen_projection_example_document_summary">PPT ھۆججىتىنى چوڭ ئېكرانغا ماس قەدەملەپ، ئوخشاش ۋاقىتتا يانفوندا بەت ئۆرىگىلى ۋە ئىزاھاتنى كۆرگىلى بولىدۇ. ھۆججەت > ئارخىپتىن بۇ ئىقتىدارنى ئىشلەتسىڭىز بولىدۇ</string>
+    <string name="screen_projection_example_document_title">ھۆججەتنى ئېكرانغا يوللاش</string>
+    <string name="screen_projection_example_gallery_summary">ئالبۇمدىكى رەسىم ۋە سىننى چوڭ ئېكرانغا ماس قەدەملەيدۇ. ئالبۇم > رەسىم بېتىنىڭ سول ئاستى تەرەپتىكى \" يوللاش\" تىزىملىكىدىن بۇ ئىقتىدارنى ئىشلەتسىڭىز بولىدۇ</string>
+    <string name="screen_projection_example_gallery_title">ئالبۇمنى ئېكرانغا يوللاش</string>
+    <string name="screen_projection_example_game_summary">ئويۇن كۆرۈنۈشىنى چوڭ ئېكرانغا ماس قەدەملەپ يوللايدۇ. ئويۇن سول ئۈستى تەرەپتىن ئويۇن قوراللىرىنى سىيرىپ چىقىپ \" ئويۇننى ئېكرانغا يوللاش\" ئىقتىدارىنى ئىشلەتسىڭىز بولىدۇ. بۇ ئىقتىداردا ئويۇن تېزلىتىشنى ئېچىش كېرەك</string>
+    <string name="screen_projection_example_game_title">ئويۇننى ئېكرانغا يوللاش</string>
+    <string name="screen_projection_help">ئېكرانغا يوللاش ياردىمى</string>
+    <string name="screen_projection_sample_summary">ھۆججەت،ئويۇن ۋە ئالبۇمدا ئېكرانغا يوللاشنى ئىشلىتىش</string>
+    <string name="screen_projection_sample_title">ئېكرانغا يوللاش كۆرسەتمىسى</string>
+    <string name="screen_projection_title">ئېكرانغا يوللاشنى ئېچىش</string>
+    <string name="send">ئەۋەتىش</string>
+    <string name="small_window">كىچىك كۆزنەكتە ئېكرانغا يوللاش</string>
+    <string name="small_window_not_supported">نۆۋەتتە ئەپ كىچىك كۆزنەكتە ئېكرانغا يوللاشنى قوللىمايدۇ</string>
+    <string name="status_bar_in_casting">ئېكرانغا يوللاۋاتىدۇ</string>
+    <string name="status_bar_in_casting_long">بۇ يەرنى چېكىپ باشقا ئېكرانغا يوللاش ئىقتىدارىنى ئىشلىتىڭ</string>
+    <string name="sunday">يەكشەنبە</string>
+    <string name="sunday_short">يەكشەنبە</string>
+    <string name="sunday_shortest">يەكشەنبە</string>
+    <string name="synergy_casting">ئېكران ھالقىپ ھەمكارلاشقاندا ئېكرانغا يوللاشنى ئىشلەتكىلى بولمايدۇ</string>
+    <string name="the_anniversary_of_lifting_martial_law">ھەربىي ھالەت خاتىرە كۈنى</string>
+    <string name="the_anti_aggression_day">تاجاۋۇزچىلىققا قارشى كۈن</string>
+    <string name="the_arbor_day">كۆچەت تىكىش بايرىمى</string>
+    <string name="the_armed_forces_day">ئارمىيە بايرىمى</string>
+    <string name="the_armys_day">ئارمىيە بايرىمى</string>
+    <string name="the_childrens_day">بالىلار بايرىمى</string>
+    <string name="the_chinese_youth_day">ياشلار بايرىمى</string>
+    <string name="the_christmas_day">روژدېستۋو بايرىمى</string>
+    <string name="the_double_ninth_festival">ياشانغانلار بايرىمى</string>
+    <string name="the_dragon_boat_festival">تاڭزۇڭزا</string>
+    <string name="the_easter_day">پاسخا بايرىمى</string>
+    <string name="the_eve_of_the_spring_festival">ھارپا كېچىسى</string>
+    <string name="the_fifth_day">5</string>
+    <string name="the_fools_day">ئالداش بايرىمى</string>
+    <string name="the_forth_day">4</string>
+    <string name="the_hksar_establishment_day">شىياڭگاڭ، ئاۋمىن قۇرۇلغان كۈن</string>
+    <string name="the_international_womens_day">ئاياللار بايرىمى</string>
+    <string name="the_laba_festival">لابا بايرىمى</string>
+    <string name="the_labour_day">ئەمگەكچىلەر بايرىمى</string>
+    <string name="the_lantern_festival">پانۇس چاغىنى</string>
+    <string name="the_mid_autumn_festival">تاۋۇز چاغىنى</string>
+    <string name="the_national_day">دۆلەت بايرىمى</string>
+    <string name="the_national_father_day">دۆلەت ئاتىسى كۈنى</string>
+    <string name="the_new_years_day">يېڭى يىل بايرىمى</string>
+    <string name="the_night_of_sevens">7-ئاينىڭ 7-كۈنى</string>
+    <string name="the_partys_day">پارتىيە بايرىمى</string>
+    <string name="the_peace_day">تىنچلىق خاتىرە كۈنى</string>
+    <string name="the_retrocession_day">گۇاڭفۇ بايرىمى</string>
+    <string name="the_second_day">2</string>
+    <string name="the_seventh_day">7</string>
+    <string name="the_sixth_day">6</string>
+    <string name="the_spirit_festival">جۇڭيۈەن بايرىمى</string>
+    <string name="the_spring_festival">چاغان</string>
+    <string name="the_teachers_day">ئوقۇتقۇچىلار بايرىمى</string>
+    <string name="the_third_day">3</string>
+    <string name="the_tw_childrens_day">بالىلار بايرىمى</string>
+    <string name="the_tw_youth_day">ياشلار بايرىمى</string>
+    <string name="the_united_nations_day">ب د ت كۈنى</string>
+    <string name="the_valentines_day">ئاشىق-مەشۇقلار بايرىمى</string>
+    <string name="the_water_lantern_festival">شىيايۈەن بايرىمى</string>
+    <string name="thursday">پەيشەنبە</string>
+    <string name="thursday_short">پەيشەنبە</string>
+    <string name="thursday_shortest">پەيشەنبە</string>
+    <string name="tile_label">ئېكرانغا يوللاش</string>
+    <string name="time_picker_dialog_title">ۋاقىت تەڭشەش</string>
+    <string name="time_picker_label_hour">سائەت</string>
+    <string name="time_picker_label_minute">مىنۇت</string>
+    <string name="title_activity_permission">PermissionActivity</string>
+    <string name="toast_guide_show_more">باشقىلىرىنى چۈشىنىش</string>
+    <string name="toast_guide_title">بۇ يەردە ئادەمنى ھاياجانلاندۇرىدىغان يېڭى ئىقتىدارلار بار</string>
+    <string name="toast_invisible_mode">ھازىر يوشۇرۇن ھالەتتە، ئېكرانغا يوللاشنى قوللىمايدۇ</string>
+    <string name="toast_msg_for_multi_window">ئېكران ئايرىش ھالىتىدە بۇ ئىقتىدارىنى ئىشلەتكىلى بولمايدۇ</string>
+    <string name="toast_msg_for_small_window">ئېكرانغا يوللىماقچى بولغان ئەپنى ئاچقاندىن كېيىن،\"كىچىك كۆزنەكتە ئېكرانغا يوللاش\"نى ئىشلىتىڭ،ئېكرانغا يوللانغان ئەپ ئۈزۈلمەيدۇ،يانفون باشقا ئەپلەرنى مەشغۇلات قىلسا بولىدۇ</string>
+    <string name="toast_nfc_dont_move">يانفونىڭىزنى يۆتكىمەڭ</string>
+    <string name="toast_title_for_small_window">ئەپتە\" كىچىك كۆزنەكتە ئېكرانغا يوللاش\" ئىقتىدارىنى ئېچىڭ</string>
+    <string name="toast_turn_off_hotspot_before_cast">قىزىق نۇقتىنى تاقىغاندىن كېيىن ئېكرانغا يوللاڭ</string>
+    <string name="today">بۈگۈن</string>
+    <string name="tomorrow">ئەتە</string>
+    <string name="trust_device_desc">ئىشەنچىلىك ئۈسكۈنە ئەتراپتا كۆرۈنگەندە، ئاۋۋال بۇ ئۈسكۈنە ئېكرانىغا يوللىنىدۇ</string>
+    <string name="trust_device_dialog_desc">&lt;Data> %s نى ئىشىنىدىغان ئۈسكۈنە قىلغاندىن كېيىن، ئۈسكۈنە ئەتراپتا كۆرۈنگەندە، بۇ ئۈسكۈنىگە ئالدىنئالا يوللىنىدۇ. &lt;br>&lt;br> سىز ئېكرانغا يوللاش تەڭشىكىدىن&lt;a href=milink://com.milink.service/trust>باشقۇرسىڭىز بولىدۇ&lt;/a>&lt;/Data></string>
+    <string name="trust_device_dialog_pos">ئىشىنىدىغان قىلىش</string>
+    <string name="trust_device_dialog_title">ئىشىنىدىغان ئۈسكۈنە قىلامسىز؟</string>
+    <string name="trust_device_manager">ئىشىنىدىغان ئۈسكۈنىنى باشقۇرۇش</string>
+    <string name="trust_device_none">تېخى ھېچقانداق ئۈسكۈنە قوشمىغان</string>
+    <string name="trust_device_title">ئىشەنچىلىك ئۈسكۈنە</string>
+    <string name="tuesday">سەيشەنبە</string>
+    <string name="tuesday_short">سەيشەنبە</string>
+    <string name="tuesday_shortest">سەيشەنبە</string>
+    <string name="wednesday">چارشەنبە</string>
+    <string name="wednesday_short">چارشەنبە</string>
+    <string name="wednesday_shortest">چارشەنبە</string>
+    <string name="yesterday">تۈنۈگۈن</string>
+</resources>

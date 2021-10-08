@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_missing_private_key">Privat nøkkel er nødvendig for å installere et sertifikat</string>
+    <string name="action_missing_user_cert">Sertifikat er nødvendig for å installere en privat nøkkel</string>
+    <string name="app_name">Installasjonsprogram for sertifikat</string>
+    <string name="ca_cert_is_added">CA-sertifikatet er installert</string>
+    <string name="ca_certificate">CA-sertifikat</string>
+    <string name="cert_missing_error">Kunne ikke installere fordi sertifikatfilen ikke ble funnet.</string>
+    <string name="cert_not_saved">Sertifikatet ble ikke installert.</string>
+    <string name="cert_read_error">Kunne ikke installere fordi sertifikatfilen ikke kunne leses.</string>
+    <string name="cert_temp_error">Midlertidig feil. Prøv igjen senere.</string>
+    <string name="cert_too_large_error">Kunne ikke installere fordi sertifikatet er for stort.</string>
+    <string name="certificate">Sertifikat</string>
+    <string name="certificate_capabilities_warning">Merk: Utstederen av dette sertifikatet kan inspisere all trafikk til og fra enheten.</string>
+    <string name="certificate_name">Sertifikatnavn</string>
+    <string name="credential_info">Pakken inneholder:</string>
+    <string name="credential_password">Skriv inn passordet for å hente ut sertifikatene.</string>
+    <string name="credential_usage_label">Bruk av legitimasjon:</string>
+    <string name="done_label">FERDIG</string>
+    <string name="extracting_pkcs12">Henter …</string>
+    <string name="install_done">%1$s-legitimasjonen er lagt til i lagrede Wi-Fi-nettverk.</string>
+    <string name="install_done_title">Legitimasjonen er installert</string>
+    <string name="invalid_cert">Sertifikatet er ugyldig.</string>
+    <string name="invalid_certificate_close_button">Lukk</string>
+    <string name="invalid_certificate_message">Denne filen kan ikke brukes som %1$s</string>
+    <string name="invalid_certificate_title">Kan ikke bruke denne filen</string>
+    <string name="n_cacrts">%d instanssertifikater</string>
+    <string name="name_char_error">Skriv inn et navn som bare inneholder bokstaver og tall.</string>
+    <string name="name_credential_dialog_title">Gi dette sertifikatet et navn</string>
+    <string name="name_empty_error">Skriv inn et navn.</string>
+    <string name="no_cert_to_saved">Ingen sertifikater å installere.</string>
+    <string name="one_cacrt">ett CA-sertifikat</string>
+    <string name="one_usercrt">ett brukersertifikat</string>
+    <string name="one_userkey">én brukernøkkel</string>
+    <string name="only_primary_user_allowed">Bare eieren av denne enheten kan installere sertifikater.</string>
+    <string name="p12_description">Sertifikater i PKCS12-keystore.</string>
+    <string name="password_empty_error">Skriv inn passordet.</string>
+    <string name="password_error">Skriv inn riktig passord.</string>
+    <string name="pick_file_title">Valg av sertifikat</string>
+    <string name="pkcs12_file_password_dialog_title">Hent fra %s</string>
+    <string name="pkcs12_password_dialog_title">Pakk ut sertifikatet</string>
+    <string name="redirect_ca_certificate_close_button">Lukk</string>
+    <string name="redirect_ca_certificate_title">Installer CA-sertifikater i innstillingene</string>
+    <string name="redirect_ca_certificate_with_app_info_message">Dette sertifikatet fra %1$s må installeres i innstillingene. Installer bare CA-sertifikater fra organisasjoner du stoler på.</string>
+    <string name="select_certificate_usage_title">Velg en sertifikattype</string>
+    <string name="unable_to_save_cert">Kunne ikke lagre sertifikatet. Legitimasjonslageret er ikke aktivert eller riktig initialisert.</string>
+    <string name="user_cert_is_added">Brukersertifikatet er installert</string>
+    <string name="user_certificate">Brukersertifikat for VPN og app</string>
+    <string name="userkey_type">Algoritme:</string>
+    <string name="wifi_cancel_label">Avbryt</string>
+    <string name="wifi_cert_is_added">Wi‑Fi-sertifikatet er installert</string>
+    <string name="wifi_certificate">Wi‑Fi-sertifikat</string>
+    <string name="wifi_config_text">"Navn: %1$s
+FQDN: %2$s
+Roamegrupper: %3$s
+Område: %4$s
+Autoriseringstype: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">Detaljer</string>
+    <string name="wifi_detail_title">Detaljer for %s</string>
+    <string name="wifi_dismiss_label">Avvis</string>
+    <string name="wifi_install_label">Installer</string>
+    <string name="wifi_installer_detail">Installer Wi-Fi-legitimasjon for å koble til nettverk via %1$s.</string>
+    <string name="wifi_installer_download_error">Den nedlastede filen har problemer og kan ikke installeres. Sørg for at du laster ned filen fra den riktige kilden.</string>
+    <string name="wifi_installer_fail">Kan ikke installere Wi-Fi-legitimasjonen. Prøv å laste ned filen på nytt.</string>
+    <string name="wifi_installer_fail_no_wifi">Slå på Wi-Fi og prøv på nytt.</string>
+    <string name="wifi_installer_fail_no_wifi_title">Installasjonen er avbrutt</string>
+    <string name="wifi_installer_fail_title">Kan ikke installere</string>
+    <string name="wifi_installing_label">Installerer …</string>
+    <string name="wifi_no_config">Ingen</string>
+    <string name="wifi_sim_config_text">"SIM-kort: %s
+"</string>
+    <string name="wifi_title">Wi-Fi-profil</string>
+    <string name="wifi_tls_config_text">"Klientsertifikat:
+%1$s
+Nøkkel: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"Forvaltningsbevis:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"Brukernavn: %s
+"</string>
+</resources>

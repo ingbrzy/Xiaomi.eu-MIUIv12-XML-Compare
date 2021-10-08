@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Изтеглени</string>
+    <string name="button_cancel_download">Отмяна</string>
+    <string name="button_queue_for_wifi">Опашка</string>
+    <string name="button_start_now">Стартирай сега</string>
+    <string name="download_error">Неуспешно изтегляне</string>
+    <string name="download_filesize_unknown">Непознат</string>
+    <string name="download_no_application_title">Файлът не може да се отвори</string>
+    <string name="download_queued">Чакащи</string>
+    <string name="download_remaining">%s остават</string>
+    <string name="download_running">Изтегля се</string>
+    <string name="download_unknown_title">&lt;Без име></string>
+    <string name="notif_title_file_size">Общо: %1$d</string>
+    <string name="notif_title_single_downloading">Изтегляне: %1$s</string>
+    <string name="notification_dld_msg">Управление на изтеглените приложения</string>
+    <string name="notification_download_complete">Изтеглянето е успешно.</string>
+    <string name="notification_download_failed">Елементите не можаха да се изтеглят.</string>
+    <string name="notification_need_wifi_for_size">Изтеглянето изисква Wi-Fi.</string>
+    <string name="notification_paused_in_background">На пауза във фонов режим.</string>
+    <string name="paused_waiting_for_network">В очакване на мрежа</string>
+    <string name="permdesc_accessAllDownloads">Разрешете на приложението да преглежда и променя всички изтегляния, извършени от което и да е приложение в системата.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Разрешете на приложението да изтегля в кешираните файлове, които биват автоматично изтрити, когато мениджър изтегляне се нуждае от повече място.</string>
+    <string name="permdesc_downloadCompletedIntent">Разрешава на приложението да изпраща известия за завършени изтегляния. Злонамерените приложения могат да използват това, за да объркат други приложения, които изтеглят файлове.</string>
+    <string name="permdesc_downloadManager">Разрешава на приложението да има достъп до Изтегляния и да го използва, за да изтегля файлове. Злонамерените приложения могат да използват това, за да нарушат изтеглянията и да имат достъп до лична информация.</string>
+    <string name="permdesc_downloadManagerAdvanced">Разрешава на приложението да има достъп до разширените функции на Изтеглянията. Злонамерените приложения могат да използват това, за да нарушат изтеглянията и да имат достъп до лична информация.</string>
+    <string name="permdesc_downloadWithoutNotification">Позволете на приложението да изтегля файлове без да ви известява.</string>
+    <string name="permdesc_seeAllExternal">Разрешава на приложението да вижда всички изтегляния на SD картата, независимо от това, кое приложение ги изтегля.</string>
+    <string name="permlab_accessAllDownloads">Достъп до всички системни изтегляния</string>
+    <string name="permlab_downloadCacheNonPurgeable">Резервирай пространство в изтегления кеш</string>
+    <string name="permlab_downloadCompletedIntent">Изпращане на известия за изтегляне.</string>
+    <string name="permlab_downloadManager">Достъп до Изтегляния.</string>
+    <string name="permlab_downloadManagerAdvanced">Разширени функции на Изтегляния.</string>
+    <string name="permlab_downloadWithoutNotification">Изтегли файловете без известия</string>
+    <string name="permlab_seeAllExternal">Преглед на всички изтегляния в USB хранилището</string>
+    <string name="root_downloads">Изтегляния</string>
+    <string name="wifi_recommended_body">"Стартирането на това%1$sизтегляне сега може да скъси живота на батерията и/или да доведе до прекомерно използване на мобилната връзка за данни, което може да доведе до таксуване от мобилния ви оператор в зависимост от плана Ви за данни.
+
+Докоснете%2$sза да стартирате това изтегляне следващия път, когато сте свързани с Wi-Fi мрежа."</string>
+    <string name="wifi_recommended_title">На опашка за изтегляне по-късно?</string>
+    <string name="wifi_required_body">"Свържете се с Wi-Fi, за да завършите това%1$sизтегляне.
+
+Докоснете%2$sза да стартирате това изтегляне следващия път, когато сте свързани с Wi-Fi мрежа."</string>
+    <string name="wifi_required_title">Файлът е твърде голям за изтегляне през моб. данни</string>
+</resources>

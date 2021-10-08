@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow_backup_button_label">Sauvegarder mes données</string>
+    <string name="allow_restore_button_label">Restaurer mes données</string>
+    <string name="backup_confirm_text">"Vous avez demandé une sauvegarde complète de l'ensemble des données vers un ordinateur connecté. Voulez-vous l'autoriser ?
+
+Si vous n'avez pas demandé la sauvegarde vous-même, n'autorisez pas la poursuite de l'opération."</string>
+    <string name="backup_confirm_title">Sauvegarde complète</string>
+    <string name="backup_enc_password_optional">"Si vous souhaitez chiffrer l'ensemble des données de sauvegarde, veuillez saisir un mot de passe ci-dessous :"</string>
+    <string name="backup_enc_password_required">Votre appareil est chiffré. Vous devez donc chiffrer votre sauvegarde. Veuillez saisir un mot de passe ci-dessous :</string>
+    <string name="backup_enc_password_text">"Veuillez saisir un mot de passe à utiliser pour chiffrer les données de sauvegarde complète. Si ce champ n'est pas renseigné, votre mot de passe de sauvegarde actuel sera utilisé :"</string>
+    <string name="current_password_text">Veuillez saisir votre mot de passe de sauvegarde actuel ci-dessous :</string>
+    <string name="deny_backup_button_label">Ne pas sauvegarder</string>
+    <string name="deny_restore_button_label">Ne pas restaurer</string>
+    <string name="device_encryption_backup_text">"Veuillez saisir le mot de passe de chiffrement de l'appareil ci-dessous. Il permettra également de chiffrer les archives de sauvegarde."</string>
+    <string name="device_encryption_restore_text">"Veuillez saisir le mot de passe de chiffrement de l'appareil ci-dessous."</string>
+    <string name="restore_confirm_text">"Vous avez demandé une restauration complète de l'ensemble des données à partir d'un ordinateur connecté. Voulez-vous l'autoriser ?
+
+        Si vous n'avez pas demandé vous-même la restauration, n'autorisez pas sa poursuite. Cette opération remplacera toutes les données actuellement sur l'appareil !"</string>
+    <string name="restore_confirm_title">Restauration complète</string>
+    <string name="restore_enc_password_text">Si les données de restauration sont chiffrées, veuillez saisir le mot de passe ci-dessous :</string>
+    <string name="toast_backup_ended">Sauvegarde terminée.</string>
+    <string name="toast_backup_started">Démarrage de la sauvegarde…</string>
+    <string name="toast_restore_ended">Restauration terminée.</string>
+    <string name="toast_restore_started">Démarrage de la restauration…</string>
+    <string name="toast_timeout">"L'opération a expiré."</string>
+</resources>

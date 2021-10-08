@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">מנהל ההורדות</string>
+    <string name="button_cancel_download">ביטול</string>
+    <string name="button_queue_for_wifi">תור</string>
+    <string name="button_start_now">התחל כעת</string>
+    <string name="download_error">נכשל</string>
+    <string name="download_no_application_title">לא ניתן לפתוח את הקובץ</string>
+    <string name="download_queued">בתור</string>
+    <string name="download_remaining">%s נותרו</string>
+    <string name="download_running">מתבצע</string>
+    <string name="download_unknown_title">‏&lt;ללא כותרת></string>
+    <string name="notification_download_complete">ההורדה הסתיימה.</string>
+    <string name="notification_download_failed">ההורדה נכשלה.</string>
+    <string name="notification_need_wifi_for_size">‏גודל ההורדה מחייב חיבור Wi-Fi</string>
+    <string name="notification_paused_in_background">מושהה ברקע.</string>
+    <string name="permdesc_accessAllDownloads">מאפשר לאפליקציה להציג ולשנות את כל ההורדות שהופעלו על ידי אפליקציה כלשהי במערכת.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">מאפשר לאפליקציה להוריד קבצים לקובץ השמור של הורדות שלא ניתן למחוק באופן אוטומטי כאשר דרוש למנהל ההורדות שטח נוסף.</string>
+    <string name="permdesc_downloadCompletedIntent">מאפשר לאפליקציה לשלוח התראות לגבי הורדות שהסתיימו. אפליקציות זדוניות עלולות לנצל אפשרות זו כדי לבלבל אפליקציות אחרות המורידות קבצים.</string>
+    <string name="permdesc_downloadManager">מאפשר לאפליקציה לגשת למנהל ההורדות ולהשתמש בו לצורך הורדת קבצים. אפליקציות זדוניות עלולות לנצל אפשרות זו כדי לשבש הורדות ולגשת למידע פרטי.</string>
+    <string name="permdesc_downloadManagerAdvanced">מאפשר לאפליקציה לגשת לפונקציות המתקדמות של מנהל ההורדות. אפליקציות זדוניות עלולות לנצל אפשרות זו כדי לשבש הורדות ולגשת למידע פרטי.</string>
+    <string name="permdesc_downloadWithoutNotification">מאפשר לאפליקציה להוריד קבצים דרך מנהל ההורדות מבלי להציג התראות כלשהן בפני המשתמש.</string>
+    <string name="permdesc_seeAllExternal">‏מאפשר לאפליקציה לראות את כל ההורדות לכרטיס ה-SD, בלי קשר לאפליקציה שהורידה אותן.</string>
+    <string name="permlab_accessAllDownloads">גישה לכל הורדות המערכת</string>
+    <string name="permlab_downloadCacheNonPurgeable">שמור מקום בקובץ השמור של ההורדות</string>
+    <string name="permlab_downloadCompletedIntent">שלח התראות על הורדות.</string>
+    <string name="permlab_downloadManager">גישה למנהל ההורדות.</string>
+    <string name="permlab_downloadManagerAdvanced">פונקציות מתקדמות של מנהל ההורדות.</string>
+    <string name="permlab_downloadWithoutNotification">הורד קבצים ללא התראה</string>
+    <string name="permlab_seeAllExternal">‏הצג את כל ההורדות לאמצעי אחסון מסוג USB</string>
+    <string name="root_downloads">הורדות</string>
+    <string name="wifi_recommended_body">"‏הפעלת הורדה זו (%1$s ) עשויה לקצר את חיי הסוללה שלך ו/או לגרום לניצול מופרז של חיבור הנתונים הנייד שלך, אשר עשוי להיות כרוך בחיוב מצד ספק השירות הנייד שלך, בהתאם לתוכנית הנתונים הרלוונטית.
+
+גע ב-%2$s כדי להתחיל בהורדה בפעם הבאה שתתחבר לרשת Wi-Fi."</string>
+    <string name="wifi_recommended_title">להוסיף לתור כדי להוריד מאוחר יותר?</string>
+    <string name="wifi_required_body">"‏עליך להשתמש ב-Wi-Fi כדי להשלים את ההורדה שגודלה %1$s . 
+ 
+ גע ב-%2$s  כדי להפעיל את ההורדה בפעם הבאה שתתחבר לרשת Wi-Fi."</string>
+    <string name="wifi_required_title">ההורדה גדולה מדי לרשת המפעיל</string>
+</resources>

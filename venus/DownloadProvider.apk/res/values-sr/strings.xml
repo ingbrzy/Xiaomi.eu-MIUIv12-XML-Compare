@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Преузимања</string>
+    <string name="button_cancel_download">Откажи</string>
+    <string name="button_queue_for_wifi">Ред чекања</string>
+    <string name="button_start_now">Почни сад</string>
+    <string name="download_error">Преузимање није могуће</string>
+    <string name="download_filesize_unknown">Непознато</string>
+    <string name="download_no_application_title">Не могу да отворим фајл</string>
+    <string name="download_queued">На чекању</string>
+    <string name="download_remaining">Још %s</string>
+    <string name="download_running">Преузимање</string>
+    <string name="download_unknown_title">&lt;Без наслова></string>
+    <string name="notif_title_file_size">%1$d укупно</string>
+    <string name="notif_title_single_downloading">Преузимање %1$s</string>
+    <string name="notification_dld_msg">Управљај апликацијама које су преузете</string>
+    <string name="notification_download_complete">Преузимање је успешно.</string>
+    <string name="notification_download_failed">Не могу преузети ставкe.</string>
+    <string name="notification_need_wifi_for_size">Потребан Wi-Fi за величину преузимања.</string>
+    <string name="notification_paused_in_background">Паузиран у позадини.</string>
+    <string name="paused_waiting_for_network">Чекање на мрежу</string>
+    <string name="permdesc_accessAllDownloads">Дозволи апликацију да прегледа и уреди сва преузимања покренута од стране било које апликације.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Дозвољава апликацији да преузима фајлове на кеш, који неће бити аутоматски обрисани када Менаџер преузимања захтева више простора.</string>
+    <string name="permdesc_downloadCompletedIntent">Дозволити апликацију да пошаљу обавештења о довршеним преузимањима. Опасне апликације могле би да то користе за збуњење других апликација која преузимају датотеке.</string>
+    <string name="permdesc_downloadManager">Дозволити апликацију приступ управљачу преузимања и његово коришћење да преузме датотеке. Опасне апликације могле би да га користе за обустављање преузимања и да приступе приватним информацијама.</string>
+    <string name="permdesc_downloadManagerAdvanced">Омогућава апликацију приступ напредним функцијaмa менаџерa коришћењa. Опасне апликације могy тo користи за обустављање преузимања и приступ приватним информацијама.</string>
+    <string name="permdesc_downloadWithoutNotification">Дозволи апликацију да преузми датотеке без икаквих обавештења приказаних кориснику.</string>
+    <string name="permdesc_seeAllExternal">Дозволити апликацију да прикаже сва преузимања на SD картици, без обзира на апликацију која је их преузела.</string>
+    <string name="permlab_accessAllDownloads">Приступ свим системским преузимањима</string>
+    <string name="permlab_downloadCacheNonPurgeable">Резервиши простор у кешу за преузимање</string>
+    <string name="permlab_downloadCompletedIntent">Пошаљи обавештења о преузимању.</string>
+    <string name="permlab_downloadManager">Приступ преузимањима.</string>
+    <string name="permlab_downloadManagerAdvanced">Напредне функције Преузимањa.</string>
+    <string name="permlab_downloadWithoutNotification">Преузимање датотека без обавештења</string>
+    <string name="permlab_seeAllExternal">Прикажи сва преузимања на USB складиште</string>
+    <string name="root_downloads">Преузето</string>
+    <string name="wifi_recommended_body">"Покретање овог %1$s преузимањa може да ускрати живот ваше батерије и/или резултирати претерану употребу везе мобилних података, што може да доведе ваш оператер да вам наплати додатне трошкове зависно од вашег плана података.
+
+Додирните %2$s да почнeте ово преузимање следећи пут бићете повезани са Wi-Fi мрежом."</string>
+    <string name="wifi_recommended_title">Ставити у ред чекања за преузимање?</string>
+    <string name="wifi_required_body">"Повежите на Wi-Fi да завршите ово %1$s преузимање. 
+
+Додирните %2$s да почнeте ово преузимање следећи пут бићете повезани са Wi-Fi мрежом."</string>
+    <string name="wifi_required_title">Фајл је превелик да би био преузет преко мобилних података</string>
+</resources>

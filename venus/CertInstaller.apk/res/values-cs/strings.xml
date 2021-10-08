@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Instalační program certifikátu</string>
+  <string name="cert_is_added">%s byla nainstalována</string>
+  <string name="cert_missing_error">Instalace se nezdařila. Certifikát nebyl nalezen</string>
+  <string name="cert_not_saved">Certifikát nebyl nainstalován</string>
+  <string name="cert_read_error">Instalace se nezdařila. Certifikát nelze přečíst</string>
+  <string name="cert_too_large_error">Instalace se nezdařila. Certifikát je příliš velký</string>
+  <string name="credential_info">Balíček obsahuje:</string>
+  <string name="credential_name">Název certifikátu:</string>
+  <string name="credential_password">Chcete-li extrahovat certifikát, zadejte heslo.</string>
+  <string name="credential_usage_label">Použití pověření:</string>
+  <string name="done_label">HOTOVO</string>
+  <string name="extracting_pkcs12">Rozbalování\u2026</string>
+  <string name="install_done">Pověření rozhraní %1$s byla přidána do uložených sítí Wi-Fi.</string>
+  <string name="install_done_title">Pověření byla nainstalována</string>
+  <string name="invalid_cert">Certifikát je neplatný.</string>
+  <string name="n_cacrts">Počet CA certifikátů: %d</string>
+  <string name="name_char_error">Zadejte název obsahující pouze písmena a čísla.</string>
+  <string name="name_credential_dialog_title">Název certifikátu</string>
+  <string name="name_empty_error">Zadejte prosím jméno.</string>
+  <string name="no_cert_file_found">V paměti USB nebyl nalezen žádný soubor certifikátu</string>
+  <string name="no_cert_to_saved">Žádný certifikát k instalaci</string>
+  <string name="one_cacrt">Jeden certifikát CÚ</string>
+  <string name="one_usercrt">Jeden uživatelský certifikát</string>
+  <string name="one_userkey">Jeden uživatelský klíč</string>
+  <string name="only_primary_user_allowed">Certifikáty může instalovat pouze vlastník tohoto zařízení.</string>
+  <string name="p12_description">Certifikáty s klíčem PKCS12</string>
+  <string name="password_empty_error">Zadejte heslo.</string>
+  <string name="password_error">Zadejte správné heslo</string>
+  <string name="pick_file_title">Vybrat certifikát</string>
+  <string name="pkcs12_file_password_dialog_title">Extrahovat z %s</string>
+  <string name="pkcs12_password_dialog_title">Extrahovat certifikát</string>
+  <string name="sdcard_not_present">Paměť USB není k dispozici</string>
+  <string name="storage_error">Certifikát se nepodařilo uložit. Klepněte na tlačítko OK a opakujte akci</string>
+  <string name="unable_to_save_cert">Certifikát nelze uložit. Úložiště není dostupné nebo není připojeno</string>
+  <string name="wifi_cancel_label">Zrušit</string>
+  <string name="wifi_config_text">"Název: %1$s
+Přesně stanovený název domény (FQDN): %2$s
+Roamingové konsorcium: %3$s
+Oblast: %4$s
+Metoda ověření totožnosti: EAP-%5$s
+"</string>
+  <string name="wifi_detail_label">Podrobné informace</string>
+  <string name="wifi_detail_title">Podrobné informace o síti %s</string>
+  <string name="wifi_dismiss_label">Odmítnout</string>
+  <string name="wifi_install_label">Instalovat</string>
+  <string name="wifi_installer_detail">Nainstaluje pověření sítě Wi-Fi na připojení k sítím dostupným prostřednictvím zařízení %1$s.</string>
+  <string name="wifi_installer_download_error">Ve staženém souboru se vyskytly problémy a nedá se nainstalovat. Zkontrolujte, zda jste jej stáhli ze správného zdroje.</string>
+  <string name="wifi_installer_fail">Pověření do sítě Wi-Fi nelze nainstalovat. Zkuste znovu stáhnout soubor.</string>
+  <string name="wifi_installer_fail_no_wifi">Zapněte Wi-Fi a zkuste to znovu.</string>
+  <string name="wifi_installer_fail_no_wifi_title">Instalace byla zrušena</string>
+  <string name="wifi_installer_fail_title">Nelze nainstalovat</string>
+  <string name="wifi_installing_label">Instalace</string>
+  <string name="wifi_no_config">Žádné</string>
+  <string name="wifi_sim_config_text">"SIM karta: %s
+"</string>
+  <string name="wifi_title">Profil Wi-Fi</string>
+  <string name="wifi_tls_config_text">"Certifikát klienta:
+%1$s
+Klíč: %2$s
+"</string>
+  <string name="wifi_trust_config_text">"Certifikát důvěryhodnosti:
+%s
+"</string>
+  <string name="wifi_ttls_config_text">"Uživatelské jméno: %s
+"</string>
+</resources>
