@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aborted_intent_actions">
+        <item>com.miui.whetstone.kloserver.BROWSER_ABORTED</item>
+    </string-array>
+    <string-array name="aborted_packages">
+        <item>com.android.browser</item>
+    </string-array>
+    <string-array name="aborted_types">
+        <item>am_crash</item>
+        <item>am_kill</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="am_pms">
+        <item>@string/am</item>
+        <item>@string/pm</item>
+    </string-array>
+    <string-array name="chinese_days">
+        <item>@string/chinese_day_1</item>
+        <item>@string/chinese_day_2</item>
+        <item>@string/chinese_day_3</item>
+        <item>@string/chinese_day_4</item>
+        <item>@string/chinese_day_5</item>
+        <item>@string/chinese_day_6</item>
+        <item>@string/chinese_day_7</item>
+        <item>@string/chinese_day_8</item>
+        <item>@string/chinese_day_9</item>
+        <item>@string/chinese_day_10</item>
+        <item>@string/chinese_day_11</item>
+        <item>@string/chinese_day_12</item>
+        <item>@string/chinese_day_13</item>
+        <item>@string/chinese_day_14</item>
+        <item>@string/chinese_day_15</item>
+        <item>@string/chinese_day_16</item>
+        <item>@string/chinese_day_17</item>
+        <item>@string/chinese_day_18</item>
+        <item>@string/chinese_day_19</item>
+        <item>@string/chinese_day_20</item>
+        <item>@string/chinese_day_21</item>
+        <item>@string/chinese_day_22</item>
+        <item>@string/chinese_day_23</item>
+        <item>@string/chinese_day_24</item>
+        <item>@string/chinese_day_25</item>
+        <item>@string/chinese_day_26</item>
+        <item>@string/chinese_day_27</item>
+        <item>@string/chinese_day_28</item>
+        <item>@string/chinese_day_29</item>
+        <item>@string/chinese_day_30</item>
+    </string-array>
+    <string-array name="chinese_digits">
+        <item>@string/chinese_digit_zero</item>
+        <item>@string/chinese_digit_one</item>
+        <item>@string/chinese_digit_two</item>
+        <item>@string/chinese_digit_three</item>
+        <item>@string/chinese_digit_four</item>
+        <item>@string/chinese_digit_five</item>
+        <item>@string/chinese_digit_six</item>
+        <item>@string/chinese_digit_seven</item>
+        <item>@string/chinese_digit_eight</item>
+        <item>@string/chinese_digit_nine</item>
+        <item>@string/chinese_digit_ten</item>
+    </string-array>
+    <string-array name="chinese_leap_months">
+        <item>@string/empty</item>
+        <item>@string/chinese_leap</item>
+    </string-array>
+    <string-array name="chinese_months">
+        <item>@string/chinese_month_january</item>
+        <item>@string/chinese_month_february</item>
+        <item>@string/chinese_month_march</item>
+        <item>@string/chinese_month_april</item>
+        <item>@string/chinese_month_may</item>
+        <item>@string/chinese_month_june</item>
+        <item>@string/chinese_month_july</item>
+        <item>@string/chinese_month_august</item>
+        <item>@string/chinese_month_september</item>
+        <item>@string/chinese_month_october</item>
+        <item>@string/chinese_month_november</item>
+        <item>@string/chinese_month_december</item>
+    </string-array>
+    <string-array name="chinese_symbol_animals">
+        <item>@string/chinese_symbol_animals_mouse</item>
+        <item>@string/chinese_symbol_animals_cow</item>
+        <item>@string/chinese_symbol_animals_tiger</item>
+        <item>@string/chinese_symbol_animals_rabbit</item>
+        <item>@string/chinese_symbol_animals_dragon</item>
+        <item>@string/chinese_symbol_animals_snake</item>
+        <item>@string/chinese_symbol_animals_horse</item>
+        <item>@string/chinese_symbol_animals_sheep</item>
+        <item>@string/chinese_symbol_animals_monkey</item>
+        <item>@string/chinese_symbol_animals_chicken</item>
+        <item>@string/chinese_symbol_animals_dog</item>
+        <item>@string/chinese_symbol_animals_pig</item>
+    </string-array>
+    <string-array name="deepclean_lock_screen_white_list">
+        <item>com.miui.home</item>
+        <item>com.kugou.android</item>
+        <item>com.tencent.qqmusic</item>
+        <item>com.sds.android.ttpod</item>
+        <item>cn.kuwo.player</item>
+        <item>com.ting.mp3.android</item>
+        <item>com.duomi.android</item>
+        <item>fm.xiami.main</item>
+        <item>cmccwm.mobilemusic</item>
+        <item>fm.qingting.qtradio</item>
+        <item>com.yinyuetai.ui</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.yibasan.lizhifm</item>
+        <item>com.douban.radio</item>
+        <item>bubei.tingshu</item>
+        <item>com.ximalaya.ting.android</item>
+        <item>com.ophone.reader.ui</item>
+        <item>cn.kuwo.tingshu</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.tencent.map</item>
+        <item>com.autonavi.cmccmap</item>
+        <item>com.autonavi.xmgd.navigator</item>
+        <item>com.baidu.BaiduMap.pad</item>
+        <item>com.baidu.navi</item>
+        <item>com.uu.uunavi</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.sogou.map.android.maps</item>
+        <item>com.lltskb.lltskb</item>
+        <item>cld.navi.mainframe</item>
+    </string-array>
+    <string-array name="deepclean_normal_white_list">
+        <item>com.miui.home</item>
+        <item>com.android.systemui</item>
+        <item>android</item>
+        <item>com.miui.whetstone</item>
+        <item>com.android.phone</item>
+        <item>com.miui.bugreport</item>
+        <item>com.android.keyguard</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.google.android.music</item>
+        <item>com.android.bluetooth</item>
+        <item>com.miui.networkassistant</item>
+        <item>com.android.updater</item>
+        <item>com.android.providers.contacts</item>
+    </string-array>
+    <string-array name="detailed_am_pms">
+        <item>@string/midnight</item>
+        <item>@string/early_morning</item>
+        <item>@string/morning</item>
+        <item>@string/noon</item>
+        <item>@string/afternoon</item>
+        <item>@string/evening</item>
+        <item>@string/night</item>
+    </string-array>
+    <string-array name="disable_trim_apps">
+        <item>android</item>
+        <item>com.miui.home</item>
+    </string-array>
+    <string-array name="earthly_branches">
+        <item>@string/earthly_branches_zi</item>
+        <item>@string/earthly_branches_chou</item>
+        <item>@string/earthly_branches_yin</item>
+        <item>@string/earthly_branches_mao</item>
+        <item>@string/earthly_branches_chen</item>
+        <item>@string/earthly_branches_si</item>
+        <item>@string/earthly_branches_wu</item>
+        <item>@string/earthly_branches_wei</item>
+        <item>@string/earthly_branches_shen</item>
+        <item>@string/earthly_branches_you</item>
+        <item>@string/earthly_branches_xu</item>
+        <item>@string/earthly_branches_hai</item>
+    </string-array>
+    <string-array name="eras">
+        <item>@string/eras_bc</item>
+        <item>@string/eras_ad</item>
+    </string-array>
+    <string-array name="filter_broadcasts">
+        <item>android.net.conn.CONNECTIVITY_CHANGE</item>
+    </string-array>
+    <string-array name="heavenly_stems">
+        <item>@string/heavenly_stems_jia</item>
+        <item>@string/heavenly_stems_yi</item>
+        <item>@string/heavenly_stems_bing</item>
+        <item>@string/heavenly_stems_ding</item>
+        <item>@string/heavenly_stems_wu</item>
+        <item>@string/heavenly_stems_ji</item>
+        <item>@string/heavenly_stems_geng</item>
+        <item>@string/heavenly_stems_xin</item>
+        <item>@string/heavenly_stems_ren</item>
+        <item>@string/heavenly_stems_gui</item>
+    </string-array>
+    <string-array name="light_sleep_process_list">
+        <item>com.tencent.mm/com.tencent.mm:push</item>
+        <item>com.tencent.mobileqq/com.tencent.mobileqq:MSF</item>
+    </string-array>
+    <string-array name="months">
+        <item>@string/month_january</item>
+        <item>@string/month_february</item>
+        <item>@string/month_march</item>
+        <item>@string/month_april</item>
+        <item>@string/month_may</item>
+        <item>@string/month_june</item>
+        <item>@string/month_july</item>
+        <item>@string/month_august</item>
+        <item>@string/month_september</item>
+        <item>@string/month_october</item>
+        <item>@string/month_november</item>
+        <item>@string/month_december</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>@string/month_january_short</item>
+        <item>@string/month_february_short</item>
+        <item>@string/month_march_short</item>
+        <item>@string/month_april_short</item>
+        <item>@string/month_may_short</item>
+        <item>@string/month_june_short</item>
+        <item>@string/month_july_short</item>
+        <item>@string/month_august_short</item>
+        <item>@string/month_september_short</item>
+        <item>@string/month_october_short</item>
+        <item>@string/month_november_short</item>
+        <item>@string/month_december_short</item>
+    </string-array>
+    <string-array name="months_shortest">
+        <item>@string/month_january_shortest</item>
+        <item>@string/month_february_shortest</item>
+        <item>@string/month_march_shortest</item>
+        <item>@string/month_april_shortest</item>
+        <item>@string/month_may_shortest</item>
+        <item>@string/month_june_shortest</item>
+        <item>@string/month_july_shortest</item>
+        <item>@string/month_august_shortest</item>
+        <item>@string/month_september_shortest</item>
+        <item>@string/month_october_shortest</item>
+        <item>@string/month_november_shortest</item>
+        <item>@string/month_december_shortest</item>
+    </string-array>
+    <string-array name="persist_service">
+        <item>com.miui.powerkeeper/.PowerKeeperBackgroundService</item>
+        <item>com.miui.klorobotrelease/.service.FeedbackBackgroundService</item>
+        <item>com.miui.klo.bugreport/.service.FeedbackBackgroundService</item>
+        <item>com.miui.whetstone/.net.MiuiDnsService</item>
+        <item>com.miui.systemAdSolution/.splashscreen.SplashScreenService</item>
+        <item>com.xiaomi.metok/.MetokClService</item>
+    </string-array>
+    <string-array name="promotelevel_high">
+        <item>com.miui.touchassistant</item>
+    </string-array>
+    <array name="promotelevel_middle" />
+    <string-array name="promotelevel_normal">
+        <item>com.miui.klo.bugreport</item>
+        <item>com.miui.voip</item>
+        <item>com.xiaomi.upnp</item>
+        <item>com.xiaomi.miplay</item>
+        <item>com.miui.virtualsim</item>
+    </string-array>
+    <string-array name="push_service_list">
+        <item>com.tencent.mobileqq/com.tencent.mobileqq.msf.service.MsfService</item>
+        <item>com.tencent.mm/com.tencent.mm.booter.CoreService</item>
+    </string-array>
+    <string-array name="service_black_list">
+        <item>com.igexin.sdk.PushService</item>
+    </string-array>
+    <string-array name="sleep_mode_disable_rtc_start">
+        <item>com.miui.analytics</item>
+        <item>com.securespaces.android.agent</item>
+        <item>com.xiaomi.xmsf</item>
+        <item>com.xiaomi.finddevice</item>
+        <item>com.miui.core</item>
+        <item>com.miui.klo.bugreport</item>
+        <item>com.tencent.mm</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.eg.android.AlipayGphone</item>
+    </string-array>
+    <string-array name="sleepclean_normal_kill_list">
+        <item>com.xiaomi.hm.health</item>
+    </string-array>
+    <string-array name="sleepclean_system_forcestop_list">
+        <item>com.miui.gallery</item>
+        <item>com.android.email</item>
+    </string-array>
+    <string-array name="sleepclean_white_list">
+        <item>android</item>
+        <item>com.android.systemui</item>
+        <item>com.miui.miwallpaper</item>
+        <item>com.android.mms</item>
+        <item>com.miui.home</item>
+        <item>com.miui.touchassistant</item>
+        <item>com.google.android.marvin.talkback</item>
+        <item>com.miui.powerkeeper</item>
+    </string-array>
+    <string-array name="sleepstart_white_list">
+        <item>com.android.incallui</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.android.phone</item>
+        <item>com.android.mms</item>
+        <item>com.android.bluetooth</item>
+        <item>com.qti.cbwidget</item>
+        <item>com.miui.touchassistant</item>
+        <item>com.google.android.marvin.talkback</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.settings</item>
+        <item>com.miui.securitycenter</item>
+    </string-array>
+    <string-array name="solar_terms">
+        <item>@string/empty</item>
+        <item>@string/solar_term_slight_cold</item>
+        <item>@string/solar_term_great_cold</item>
+        <item>@string/solar_term_spring_begins</item>
+        <item>@string/solar_term_the_rains</item>
+        <item>@string/solar_term_insects_awaken</item>
+        <item>@string/solar_term_vernal_equinox</item>
+        <item>@string/solar_term_clear_and_bright</item>
+        <item>@string/solar_term_grain_rain</item>
+        <item>@string/solar_term_summer_begins</item>
+        <item>@string/solar_term_grain_buds</item>
+        <item>@string/solar_term_grain_in_ear</item>
+        <item>@string/solar_term_summer_solstice</item>
+        <item>@string/solar_term_slight_heat</item>
+        <item>@string/solar_term_great_heat</item>
+        <item>@string/solar_term_autumn_begins</item>
+        <item>@string/solar_term_stopping_the_heat</item>
+        <item>@string/solar_term_white_dews</item>
+        <item>@string/solar_term_autumn_equinox</item>
+        <item>@string/solar_term_cold_dews</item>
+        <item>@string/solar_term_hoar_frost_falls</item>
+        <item>@string/solar_term_winter_begins</item>
+        <item>@string/solar_term_light_snow</item>
+        <item>@string/solar_term_heavy_snow</item>
+        <item>@string/solar_term_winter_solstice</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+    <string-array name="week_days_short">
+        <item>@string/sunday_short</item>
+        <item>@string/monday_short</item>
+        <item>@string/tuesday_short</item>
+        <item>@string/wednesday_short</item>
+        <item>@string/thursday_short</item>
+        <item>@string/friday_short</item>
+        <item>@string/saturday_short</item>
+    </string-array>
+    <string-array name="week_days_shortest">
+        <item>@string/sunday_shortest</item>
+        <item>@string/monday_shortest</item>
+        <item>@string/tuesday_shortest</item>
+        <item>@string/wednesday_shortest</item>
+        <item>@string/thursday_shortest</item>
+        <item>@string/friday_shortest</item>
+        <item>@string/saturday_shortest</item>
+    </string-array>
+</resources>

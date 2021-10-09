@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_corpora">
+        <item>web</item>
+        <item>tips</item>
+        <item>com.android.quicksearchbox/.xiaomi.XiaomiSearch</item>
+        <item>com.android.quicksearchbox/.applications.ApplicationLauncher</item>
+        <item>com.android.quicksearchbox/.provider.AppIndexActivity</item>
+        <item>com.android.browser/.BookmarkSearchActivity</item>
+        <item>com.xiaomi.providers.appindex/.MainActivity</item>
+        <item>com.android.fileexplorer/.FileExplorerTabActivity</item>
+    </string-array>
+    <string-array name="default_corpora_suggest_uris">
+        <item>content://com.android.contacts/search_suggest_query</item>
+    </string-array>
+    <array name="hidden_corpora" />
+</resources>
