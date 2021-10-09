@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2017 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor:
+          ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+          Furniel (c) 2013-2017
+          Android Localizer (aiLocalizer)
+        -->
+<resources>
+  <string name="band_mode_failed">Nie udało się</string>
+  <string name="band_mode_loading">Ładuję listę pasm…</string>
+  <string name="band_mode_set">Ustaw</string>
+  <string name="band_mode_succeeded">Udało się</string>
+  <string name="band_mode_title">Ustawianie trybu pasma radiowego</string>
+  <string name="call_barring_change_pwd_description_disabled">Nie można zmienić hasła blokady połączeń</string>
+  <string name="carrier_mmi_msg_title">Wiadomość od operatora %s</string>
+  <string name="carrier_provisioning">Informacje o obsłudze administracyjnej operatora</string>
+  <string name="cbrs_data_switch_string">Dane CBRS</string>
+  <string name="default_carrier_mmi_msg_title">Wiadomość od operatora</string>
+  <string name="dsds_dialog_cancel">Anuluj</string>
+  <string name="dsds_dialog_confirm">Uruchom ponownie</string>
+  <string name="dsds_dialog_message">Musisz ponownie uruchomić urządzenie, by to zmienić.</string>
+  <string name="dsds_dialog_title">Uruchomić urządzenie ponownie?</string>
+  <string name="dsds_switch_string">Włącz DSDS</string>
+  <string name="eab_provisioned_switch_string">Obsługa EAB/obecności włączona</string>
+  <string name="limited_service_alert_dialog_description"><b>Połączenia alarmowe poprzez Wi-Fi Calling</b>"
+Nie można wykonywać połączeń alarmowych poprzez Wi-Fi Calling. 
+
+Aby wykonać takie połączenie, urządzenie automatycznie przełączy się na sieci komórkowe (2G/3G).
+
+Połączenia alarmowe są możliwe wyłącznie na obszarach z zasięgiem sieci komórkowej."</string>
+  <string name="media_transfer_wired_usb_device_name">Słuchawki przewodowe</string>
+  <string name="network_recommended">" (zalecane)"</string>
+  <string name="no_rtt_when_roaming">Uwaga: funkcja RTT jest niedostępna podczas roamingu</string>
+  <string name="not_a_valid_port">Numer portu powinien mieć wartość od 1000 do 65 534.</string>
+  <string name="oem_radio_info_label">Informacje/ustawienia specyficzne dla producenta OEM</string>
+  <string name="phone_in_ecm_call_notification_text_without_data_restriction_hint">Telefon jest w trybie alarmowego połączenia zwrotnego</string>
+  <string name="phone_in_ecm_notification_complete_time_without_data_restriction_hint">Do %s</string>
+  <string name="phone_index_label">Wybierz indeks telefonu</string>
+  <string name="phone_info_label">Informacje o telefonie</string>
+  <string name="pin_puk_system_user_only">Kody PIN/PUK może wpisać tylko właściciel urządzenia.</string>
+  <string name="ping_test_label">Przeprowadź test pingu</string>
+  <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary">Preferowany tryb sieci: LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_cdma_evdo_gsm_wcdma_summary">Preferowany tryb sieci: NR/LTE/CDMA/EvDo/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_cdma_evdo_summary">Preferowany tryb sieci: NR/LTE/CDMA/EvDo</string>
+  <string name="preferred_network_mode_nr_lte_gsm_wcdma_summary">Preferowany tryb sieci: NR/LTE/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_summary">Preferowany tryb sieci: NR/LTE</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_cdma_evdo_gsm_wcdma_summary">Preferowany tryb sieci: LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_gsm_summary">Preferowany tryb sieci: NR/LTE/TDSCDMA/GSM</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_gsm_wcdma_summary">Preferowany tryb sieci: LTE/TDSCDMA/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_summary">Preferowany tryb sieci: NR/LTE/TDSCDMA</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_wcdma_summary">Preferowany tryb sieci: LTE/TDSCDMA/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_wcdma_summary">Preferowany tryb sieci: NR/LTE/WCDMA</string>
+  <string name="preferred_network_mode_nr_only_summary">Preferowany tryb sieci: tylko NR</string>
+  <string name="radioInfo_cid">CID</string>
+  <string name="radioInfo_data_connected">Połączono</string>
+  <string name="radioInfo_data_connecting">Łączę</string>
+  <string name="radioInfo_data_disconnected">Odłączono</string>
+  <string name="radioInfo_data_suspended">Zawieszone</string>
+  <string name="radioInfo_display_asu">asu</string>
+  <string name="radioInfo_display_bytes">B</string>
+  <string name="radioInfo_display_dbm">dBm</string>
+  <string name="radioInfo_display_packets">– pakiety</string>
+  <string name="radioInfo_lac">LAC</string>
+  <string name="radioInfo_menu_getIMS">Stan usługi IMS</string>
+  <string name="radioInfo_menu_viewADN">Wyświetl książkę adresową z karty SIM</string>
+  <string name="radioInfo_menu_viewFDN">Wyświetl ustalone numery</string>
+  <string name="radioInfo_menu_viewSDN">Wyświetl numery usług</string>
+  <string name="radioInfo_phone_idle">Brak</string>
+  <string name="radioInfo_phone_offhook">Połączenie w toku</string>
+  <string name="radioInfo_phone_ringing">Dzwonię</string>
+  <string name="radioInfo_roaming_in">Roaming</string>
+  <string name="radioInfo_roaming_not">Brak roamingu</string>
+  <string name="radioInfo_service_emergency">Tylko połączenia alarmowe</string>
+  <string name="radioInfo_service_in">Działa</string>
+  <string name="radioInfo_service_off">Radio wyłączone</string>
+  <string name="radioInfo_service_out">Nie działa</string>
+  <string name="radioInfo_unknown">Brak informacji</string>
+  <string name="radio_info_band_mode_label">Wybierz pasmo radiowe</string>
+  <string name="radio_info_call_redirect_label">Przekierowanie połączeń:</string>
+  <string name="radio_info_call_status_label">Stan połączenia głosowego:</string>
+  <string name="radio_info_cell_info_refresh_rate">Częstotliwość odświeżania informacji o sieci komórkowej:</string>
+  <string name="radio_info_cellinfo_label">Wszystkie informacje pomiarowe z sieci komórkowej:</string>
+  <string name="radio_info_current_network_label">Obecna sieć:</string>
+  <string name="radio_info_data_connection_disable">Wyłącz transmisję danych</string>
+  <string name="radio_info_data_connection_enable">Włącz transmisję danych</string>
+  <string name="radio_info_data_network_type_label">Typ sieci danych:</string>
+  <string name="radio_info_dds">Identyfikator domyślnej karty SIM do transmisji danych:</string>
+  <string name="radio_info_dl_kbps">Przepustowość kanału DL (kb/s):</string>
+  <string name="radio_info_gprs_service_label">Usługa transmisji danych:</string>
+  <string name="radio_info_gsm_service_label">Usługa połączeń głosowych:</string>
+  <string name="radio_info_http_client_test">Test klienta HTTP:</string>
+  <string name="radio_info_imei_label">IMEI:</string>
+  <string name="radio_info_ims_feature_status_available">Dostępne</string>
+  <string name="radio_info_ims_feature_status_unavailable">Brak dostępu</string>
+  <string name="radio_info_ims_reg_status">Rejestracja w usłudze IMS: %1$s\nVoice over LTE: %2$s\nVoice over WiFi: %3$s\nRozmowy wideo: %4$s\nInterfejs UT: %5$s</string>
+  <string name="radio_info_ims_reg_status_not_registered">Niezarejestrowane</string>
+  <string name="radio_info_ims_reg_status_registered">Zarejestrowane</string>
+  <string name="radio_info_ims_reg_status_title">Stan IMS</string>
+  <string name="radio_info_message_waiting_label">Wiadomość oczekująca:</string>
+  <string name="radio_info_phone_number_label">Numer telefonu:</string>
+  <string name="radio_info_phy_chan_config">Konfiguracja kanału fizycznego LTE:</string>
+  <string name="radio_info_ping_hostname_v4">Ping nazwa_hosta(www.google.pl) IPv4:</string>
+  <string name="radio_info_ping_hostname_v6">Ping nazwa_hosta(www.google.pl) IPv6:</string>
+  <string name="radio_info_ppp_received_label">Dane odebrane:</string>
+  <string name="radio_info_ppp_resets_label">Liczba operacji resetowania PPP od momentu uruchomienia:</string>
+  <string name="radio_info_ppp_sent_label">Dane wysłane:</string>
+  <string name="radio_info_radio_power">Moc sygnału komórkowego</string>
+  <string name="radio_info_roaming_label">Roaming:</string>
+  <string name="radio_info_set_perferred_label">Ustaw preferowany typ sieci:</string>
+  <string name="radio_info_signal_location_label">Informacje o lokalizacji z sieci komórkowej (wycofane):</string>
+  <string name="radio_info_signal_strength_label">Siła sygnału:</string>
+  <string name="radio_info_smsc_label">SMSC:</string>
+  <string name="radio_info_smsc_refresh_label">Odśwież</string>
+  <string name="radio_info_smsc_update_label">Aktualizacja</string>
+  <string name="radio_info_subid">Aktualny identyfikator:</string>
+  <string name="radio_info_toggle_dns_check_label">Przełącz sprawdzanie DNS</string>
+  <string name="radio_info_ul_kbps">Przepustowość kanału UL (kb/s):</string>
+  <string name="radio_info_voice_network_type_label">Typ sieci dla połączeń głosowych:</string>
+  <string name="vibrating_for_outgoing_call_accepted_summary">Włączenie akceptacji wibracji dla wychodzącego połączenia</string>
+  <string name="vibrating_for_outgoing_call_accepted_title">Akceptacja wibracji dla wychodzącego połączenia</string>
+  <string name="volte_provisioned_switch_string">Obsługa głosu przez LTE włączona</string>
+  <string name="vt_provisioned_switch_string">Możliwość prowadzenia rozmów wideo</string>
+  <string name="wfc_provisioned_switch_string">Możliwość prowadzenia rozmów przez Wi-Fi</string>
+</resources>

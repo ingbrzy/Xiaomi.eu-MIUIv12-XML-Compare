@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_missing_private_key">Tanúsítvány telepítéséhez privát kulcs szükséges</string>
+    <string name="action_missing_user_cert">Privát kulcs telepítéséhez tanúsítvány szükséges</string>
+    <string name="app_name">Tanúsítványtelepítő</string>
+    <string name="ca_cert_is_added">CA-tanúsítvány telepítve</string>
+    <string name="ca_certificate">CA-tanúsítvány</string>
+    <string name="cert_missing_error">Nem lehet telepíteni, mert a tanúsítványfájl nem található.</string>
+    <string name="cert_not_saved">A tanúsítvány nincs telepítve.</string>
+    <string name="cert_read_error">Nem lehet telepíteni, mert a tanúsítványfájl nem olvasható.</string>
+    <string name="cert_temp_error">Ideiglenes hiba. Próbálja újra.</string>
+    <string name="cert_too_large_error">Nem lehet telepíteni, mert a tanúsítvány mérete túl nagy.</string>
+    <string name="certificate">Tanúsítvány</string>
+    <string name="certificate_capabilities_warning">Megjegyzés: A tanúsítvány kibocsátója megvizsgálhatja az eszközre érkező és az eszközről kimenő összes forgalmat.</string>
+    <string name="certificate_name">Tanúsítvány neve</string>
+    <string name="credential_info">A csomag tartalma:</string>
+    <string name="credential_password">Adja meg a jelszót a tanúsítványok kibontásához.</string>
+    <string name="credential_usage_label">Hitelesítési adatok használata:</string>
+    <string name="done_label">KÉSZ</string>
+    <string name="extracting_pkcs12">Kibontás...</string>
+    <string name="install_done">A(z) %1$s hitelesítési adatai hozzáadva a mentett Wi-Fi-hálózatokhoz.</string>
+    <string name="install_done_title">Hitelesítési adatok telepítve</string>
+    <string name="invalid_cert">Ez a tanúsítvány érvénytelen.</string>
+    <string name="invalid_certificate_close_button">Bezárás</string>
+    <string name="invalid_certificate_message">Ez a fájl nem használható a következőképp: %1$s</string>
+    <string name="invalid_certificate_title">Ez a fájl nem használható</string>
+    <string name="n_cacrts">%d CA tanúsítvány</string>
+    <string name="name_char_error">Csak betűket és számokat tartalmazó nevet adjon meg.</string>
+    <string name="name_credential_dialog_title">Tanúsítvány elnevezése</string>
+    <string name="name_empty_error">Írjon be egy nevet.</string>
+    <string name="no_cert_to_saved">Nincs telepíthető tanúsítvány.</string>
+    <string name="one_cacrt">egy CA tanúsítvány</string>
+    <string name="one_usercrt">egy felhasználói tanúsítvány</string>
+    <string name="one_userkey">egy felhasználói kulcs</string>
+    <string name="only_primary_user_allowed">Csak az eszköz tulajdonosa telepíthet tanúsítványokat.</string>
+    <string name="p12_description">Tanúsítványok a PKCS12 kulcstárban.</string>
+    <string name="password_empty_error">Írja be a jelszót.</string>
+    <string name="password_error">Adja meg a helyes jelszót.</string>
+    <string name="pick_file_title">Válasszon egy tanúsítványt</string>
+    <string name="pkcs12_file_password_dialog_title">Kiolvasás innen: %s</string>
+    <string name="pkcs12_password_dialog_title">Tanúsítvány kibontása</string>
+    <string name="redirect_ca_certificate_close_button">Bezárás</string>
+    <string name="redirect_ca_certificate_title">CA-tanúsítványok telepítése a Beállításokban</string>
+    <string name="redirect_ca_certificate_with_app_info_message">Ez a tanúsítvány a(z) %1$s alkalmazástól származik, és a Beállításokban kell telepíteni. Csak megbízható szervezettől származó CA-tanúsítványt telepítsen.</string>
+    <string name="select_certificate_usage_title">Válasszon tanúsítványtípust</string>
+    <string name="unable_to_save_cert">Nem lehet menteni a tanúsítványt. A hitelesítési adatok tárolója nincs engedélyezve vagy megfelelően inicializálva.</string>
+    <string name="user_cert_is_added">Felhasználói tanúsítvány telepítve</string>
+    <string name="user_certificate">VPN- és appfelhasználói tanúsítvány</string>
+    <string name="userkey_type">Algoritmus:</string>
+    <string name="wifi_cancel_label">Mégse</string>
+    <string name="wifi_cert_is_added">Wi‑Fi-tanúsítvány telepítve</string>
+    <string name="wifi_certificate">Wi‑Fi-tanúsítvány</string>
+    <string name="wifi_config_text">"Név: %1$s
+FQDN: %2$s
+Barangolási konzorciumok: %3$s
+Tartomány: %4$s
+Hitelesítési mód: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">Részletek</string>
+    <string name="wifi_detail_title">%s részletei</string>
+    <string name="wifi_dismiss_label">Elvetés</string>
+    <string name="wifi_install_label">Telepítés</string>
+    <string name="wifi_installer_detail">Telepítse a Wi-Fi-hitelesítési adatokat, hogy csatlakozhasson a(z) %1$s elérhető hálózataihoz.</string>
+    <string name="wifi_installer_download_error">A letöltött fájllal problémák vannak, és azt nem lehet telepíteni. Győződjön meg arról, hogy a megfelelő forrásból töltötte le a fájlt.</string>
+    <string name="wifi_installer_fail">Nem lehet telepíteni a Wi-Fi-hitelesítési adatokat. Próbálkozzon a fájl újbóli letöltésével.</string>
+    <string name="wifi_installer_fail_no_wifi">Kapcsolja be a Wi-Fi-t, és próbálja újra.</string>
+    <string name="wifi_installer_fail_no_wifi_title">Telepítés megszakítva</string>
+    <string name="wifi_installer_fail_title">Nem lehet telepíteni</string>
+    <string name="wifi_installing_label">Telepítés folyamatban</string>
+    <string name="wifi_no_config">Nincs</string>
+    <string name="wifi_sim_config_text">"SIM kártya: %s
+"</string>
+    <string name="wifi_title">Wi-Fi-profil</string>
+    <string name="wifi_tls_config_text">"Ügyféltanúsítvány:
+%1$s
+Kulcs: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"Megbízható tanúsítvány:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"Felhasználónév: %s
+"</string>
+</resources>

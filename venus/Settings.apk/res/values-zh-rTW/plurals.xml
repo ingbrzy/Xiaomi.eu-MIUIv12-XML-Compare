@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1小時前</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">半小時前</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">1小時後</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">半小時後</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">馬上</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d分鐘後</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">剛剛</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d分鐘前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">%d 天前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d 分鐘前</item>
+        <item quantity="one">%d 分鐘前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d 年前</item>
+        <item quantity="one">%d 年前</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">有 %1$d 個應用程式可完整存取你的裝置</item>
+        <item quantity="one">有 1 個應用程式可完整存取你的裝置</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s 秒</item>
+        <item quantity="one">%1$s 秒</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">長 (%1$s 秒)</item>
+        <item quantity="one">長 (%1$s 秒)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">中 (%1$s 秒)</item>
+        <item quantity="one">中 (%1$s 秒)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">短 (%1$s 秒)</item>
+        <item quantity="one">短 (%1$s 秒)</item>
+    </plurals>
+    <plurals name="app_launch_supported_links_title">
+        <item quantity="other">%d 個支援的連結</item>
+        <item quantity="one">%d 個支援的連結</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_message">
+        <item quantity="other">這些連結已通過驗證，將自動在這個應用程式中開啟。</item>
+        <item quantity="one">這個連結已通過驗證，將自動在這個應用程式中開啟。</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_title">
+        <item quantity="other">%d 個已通過驗證的連結</item>
+        <item quantity="one">%d 個已通過驗證的連結</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">應用程式要求處理 %d 個連結</item>
+        <item quantity="one">應用程式要求處理 %d 個連結</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">已針對 %d 個應用程式關閉這項設定</item>
+        <item quantity="one">已針對 %d 個應用程式關閉這項設定</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">在%d個應用程式下不自動隱藏螢幕按鍵</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">在%d個應用程式下自動隱藏螢幕按鍵</item>
+    </plurals>
+    <plurals name="auto_startup_count">
+        <item quantity="other">允許%d個應用程式自啟動</item>
+    </plurals>
+    <plurals name="autofill_passwords_count">
+        <item quantity="other">%1$d 個密碼</item>
+        <item quantity="one">%1$d 個密碼</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">有 %1$d 個應用程式受到限制</item>
+        <item quantity="one">有 %1$d 個應用程式受到限制</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">要限制 %1$d 個應用程式嗎？</item>
+        <item quantity="one">要限制應用程式嗎？</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">這些應用程式無法在背景執行</item>
+        <item quantity="one">這個應用程式無法在背景執行</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">有 %2$d 個應用程式最近受到限制</item>
+        <item quantity="one">有 %1$s 個應用程式最近受到限制</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">有 %2$d 個應用程式在背景耗用大量電力</item>
+        <item quantity="one">有 %1$s 個應用程式在背景耗用大量電力</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">限制 %1$d 個應用程式</item>
+        <item quantity="one">限制 %1$d 個應用程式</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d個應用允許後台上網</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d個應用禁止後台上網</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">剩下 %d 天</item>
+        <item quantity="one">剩下 %d 天</item>
+    </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">可用裝置(%d)</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d台裝置</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">已允許 %1$d 個應用程式在數據節省模式開啟時不受任何數據用量限制</item>
+        <item quantity="one">已允許 1 個應用程式在數據節省模式開啟時不受任何數據用量限制</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">相機應用程式</item>
+        <item quantity="one">相機應用程式</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">電子郵件用戶端應用程式</item>
+        <item quantity="one">電子郵件用戶端應用程式</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">電話應用程式</item>
+        <item quantity="one">電話應用程式</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">已刪除 %d 個類別</item>
+        <item quantity="one">已刪除 %d 個類別</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">要移除所選語言嗎？</item>
+        <item quantity="one">要移除所選語言嗎？</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">%d 個應用程式可開啟支援的連結</item>
+        <item quantity="one">1 個應用程式可開啟支援的連結</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">最少有 %d 個 CA 憑證</item>
+        <item quantity="one">最少有 %d 個 CA 憑證</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d 次嘗試</item>
+        <item quantity="one">%d 次嘗試</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d 個應用程式</item>
+        <item quantity="one">%d 個應用程式</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">最少有 %d 個應用程式</item>
+        <item quantity="one">最少有 %d 個應用程式</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">%s個應用已禁止上網</item>
+    </plurals>
+    <plurals name="free_wifi_connected_count">
+        <item quantity="other">%1$d人線上</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s 小時</item>
+        <item quantity="one">1 小時</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">已連結 %d 個應用程式</item>
+        <item quantity="one">已連結 %d 個應用程式</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">在 %2$d 個應用程式中，共有 %1$d 個已取得位置資訊存取權</item>
+        <item quantity="one">在 %2$d 個應用程式中，共有 %1$d 個已取得位置資訊存取權</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">已開啟 - %1$d 個應用程式已取得位置資訊存取權</item>
+        <item quantity="one">已開啟 - %1$d 個應用程式已取得位置資訊存取權</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">必須包含至少 %d 個字母</item>
+        <item quantity="one">必須包含至少 1 個字母</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">必須包含至少 %d 個小寫字母</item>
+        <item quantity="one">必須包含至少 1 個小寫字母</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">必須包含至少 %d 個非字母的字元</item>
+        <item quantity="one">必須包含至少 1 個非字母的字元</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">至少必須包含 %d 個非數值字元</item>
+        <item quantity="one">至少必須包含 1 個非數值字元</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">必須包含至少 %d 個數字</item>
+        <item quantity="one">必須包含至少 1 個數字</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">必須包含至少 %d 個特殊符號</item>
+        <item quantity="one">必須包含至少 1 個特殊符號</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">必須包含至少 %d 個大寫字母</item>
+        <item quantity="one">必須包含至少 1 個大寫字母</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">最多僅支援 %d 個字元</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">請至少輸入 %d 個字元</item>
+    </plurals>
+    <plurals name="lockpassword_pin_fixed_length">
+        <item quantity="other">數字密碼必須包含%d個數字</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">最多僅支援%d 位數字</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">請至少輸入%d 個數字</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">嘗試解鎖失敗次數過多。 請在 %d 秒後重試。</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">%d 秒後重試。</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d 個應用程式可以讀取通知</item>
+        <item quantity="one">%d 個應用程式可以讀取通知</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d 個信任的代理程式正在運作</item>
+        <item quantity="one">1 個信任的代理程式正在運作</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">過去 %2$s內有 %1$d 個應用程式使用了記憶體</item>
+        <item quantity="one">過去 %2$s內有 1 個應用程式使用了記憶體</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s 分鐘</item>
+        <item quantity="one">1 分鐘</item>
+    </plurals>
+    <plurals name="miui_sos_emergency_contacts_quantity">
+        <item quantity="other">已增加%d 位</item>
+    </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">在已保存的網路（例如您的家庭網路）附近時自動開啟WLAN，%d分鐘未連線則關閉</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">已選擇%d個</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d 張 SIM 卡</item>
+        <item quantity="one">%1$d 張 SIM 卡</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 則新通知</item>
+        <item quantity="one">%d 則新通知</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d 項限制</item>
+        <item quantity="one">1 項限制</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d 個類別</item>
+        <item quantity="one">%d 個類別</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d 則通知</item>
+        <item quantity="one">%d 則通知</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">停用 %d 個應用程式的通知功能</item>
+        <item quantity="one">停用 1 個應用程式的通知功能</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">已關閉 %d 個類別</item>
+        <item quantity="one">已關閉 %d 個類別</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">每天大約 %d 則通知</item>
+        <item quantity="one">每天大約 %d 則通知</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">每週大約 %d 則通知</item>
+        <item quantity="one">每週大約 %d 則通知</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d 個使用中的應用程式</item>
+        <item quantity="one">%d 個使用中的應用程式</item>
+    </plurals>
+    <plurals name="number_of_urls">
+        <item quantity="other">%d 個網址</item>
+        <item quantity="one">%d 個網址</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s 個應用程式</item>
+        <item quantity="one">1 個應用程式</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">已取得 %d 項權限</item>
+        <item quantity="one">已取得 %d 項權限</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d 個應用程式無法正常運作</item>
+        <item quantity="one">%1$s 無法正常運作</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">多個應用程式正在消耗大量電池電力</item>
+        <item quantity="one">「%1$s」正在消耗大量電池電力</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d 項列印工作</item>
+        <item quantity="one">1 項列印工作</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d 個列印服務已啟用</item>
+        <item quantity="one">1 個列印服務已啟用</item>
+    </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d 個重要對話</item>
+        <item quantity="one">%d 個重要對話</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">限制 %1$d 個應用程式的電池用量</item>
+        <item quantity="one">限制 %1$d 個應用程式的電池用量</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">還有其他 %d 項權限</item>
+        <item quantity="one">還有其他 %d 項權限</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">已授予 %1$d 項權限 (共 %2$d 項)</item>
+        <item quantity="one">已授予 %1$d 項權限 (共 %2$d 項)</item>
+    </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">已選擇%d項</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s 秒</item>
+        <item quantity="one">1 秒</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">已新增 %1$d 個指紋</item>
+        <item quantity="one">已新增 1 個指紋</item>
+    </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">查看全部 %1$d 個應用程式</item>
+        <item quantity="one">查看所有應用程式</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">顯示 %d 個隱藏項目</item>
+        <item quantity="one">顯示 %d 個隱藏項目</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">您只需完成剩餘的 %1$d 個步驟，即可進入cit。</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">只要再 %1$d 個步驟即可啟用開發人員設定。</item>
+        <item quantity="one">只要再 %1$d 個步驟即可啟用開發人員設定。</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">已儲存 %1$d 個助聽器</item>
+        <item quantity="one">已儲存 %1$d 個助聽器</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">您只需完成剩餘的 %1$d 個步驟，即可進入電話資訊。</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">只需 %1$d 步操作即可抓取日誌。</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d 個應用程式不受數據用量限制</item>
+        <item quantity="one">1 個應用程式不受數據用量限制</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">設為信任的憑證或移除憑證</item>
+        <item quantity="one">設為信任的憑證或移除憑證</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s 已為你的工作資料夾安裝多個憑證授權單位憑證，這些憑證將能監控你的工作網路活動，包括電子郵件、應用程式和安全的網站。
+
+如要進一步瞭解這些憑證，請與你的管理員聯絡。"</item>
+        <item quantity="one">"%s 已為你的工作資料夾安裝憑證授權單位憑證，該憑證將能監控你的工作網路活動，包括電子郵件、應用程式和安全的網站。
+
+如要進一步瞭解這個憑證，請與你的管理員聯絡。"</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s 已在你的裝置上安裝多個憑證授權單位憑證，這些憑證將能監控你的裝置網路活動，包括電子郵件、應用程式和安全的網站。
+
+如要進一步瞭解這些憑證，請與你的管理員聯絡。"</item>
+        <item quantity="one">"%s 已在你的裝置上安裝憑證授權單位憑證，該憑證將能監控你的裝置網路活動，包括電子郵件、應用程式和安全的網站。
+
+如要進一步瞭解這個憑證，請與你的管理員聯絡。"</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">查看憑證</item>
+        <item quantity="one">查看憑證</item>
+    </plurals>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">禁止%d個App推送通知</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">允許%d個App推送通知</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">另外 %1$d 個建議</item>
+        <item quantity="one">另外 1 個建議</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d 個建議</item>
+        <item quantity="one">1 個建議</item>
+    </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">耳機離耳離盒%d分鐘後手機彈出防丟提醒</item>
+    </plurals>
+    <plurals name="unused_apps_summary">
+        <item quantity="other">%d 個未使用的應用程式</item>
+        <item quantity="one">%d 個未使用的應用程式</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d 個項目</item>
+        <item quantity="one">1 個項目</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_today">
+        <item quantity="other">今日共解鎖%d次</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_week">
+        <item quantity="other">近7日共解鎖%d次</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_today">
+        <item quantity="other">今日共通知%d條</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_week">
+        <item quantity="other">近7日共通知%d條</item>
+    </plurals>
+    <plurals name="usage_state_hour">
+        <item quantity="other">%d小時</item>
+    </plurals>
+    <plurals name="usage_state_hour24">
+        <item quantity="other">%d(時)</item>
+    </plurals>
+    <plurals name="usage_state_hour_text">
+        <item quantity="other">小時</item>
+    </plurals>
+    <plurals name="usage_state_minute">
+        <item quantity="other">%d分鐘</item>
+    </plurals>
+    <plurals name="usage_state_miunte_text">
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="usage_state_noti_count">
+        <item quantity="other">%d條</item>
+    </plurals>
+    <plurals name="usage_state_unlock_count">
+        <item quantity="other">%d次</item>
+    </plurals>
+    <plurals name="usage_state_week_day_hour">
+        <item quantity="other">周 末:%d小時</item>
+    </plurals>
+    <plurals name="usage_state_week_day_minute">
+        <item quantity="other">周 末:%d分鐘</item>
+    </plurals>
+    <plurals name="usage_state_work_day_hour">
+        <item quantity="other">工作日:%d小時</item>
+    </plurals>
+    <plurals name="usage_state_work_day_minute">
+        <item quantity="other">工作日:%d分鐘</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_hour">
+        <item quantity="other">小時</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_min">
+        <item quantity="other">分鐘</item>
+    </plurals>
+    <plurals name="virus_scan_app_find_risk">
+        <item quantity="other">發現%d個軟體有風險，建議移除</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d 個網路</item>
+        <item quantity="one">1 個網路</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d 個網路和訂閱項目</item>
+        <item quantity="one">1 個網路和訂閱項目</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d 項訂閱內容</item>
+        <item quantity="one">1 項訂閱內容</item>
+    </plurals>
+    <plurals name="wifi_share_count">
+        <item quantity="other">我累計分享了%d個公共網路</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">已連線 %1$d 個裝置</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM 卡的 PIN 碼輸入錯誤，你還可以再試 %d 次。</item>
+        <item quantity="one">SIM 卡的 PIN 碼輸入錯誤，你還可以再試 %d 次。如果仍然失敗，就必須請電信業者為裝置解鎖。</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">變更為僅允許鬧鐘模式：持續 %1$d 小時，結束時間為%2$s</item>
+        <item quantity="one">變更為僅允許鬧鐘模式：持續 1 小時，結束時間為%2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">變更為僅允許鬧鐘模式：持續 %1$d 分鐘，結束時間為%2$s</item>
+        <item quantity="one">變更為僅允許鬧鐘模式：持續 1 分鐘，結束時間為%2$s</item>
+    </plurals>
+</resources>

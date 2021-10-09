@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">%s分間の緊急コールバックモードになります。このモード中は、データ接続するアプリケーションは使用できません。今すぐ終了しますか？</item>
+        <item quantity="one">%s分間の緊急コールバックモードになります。このモード中は、データ接続するアプリケーションは使用できません。今すぐ終了しますか？</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">"選択したアクションは、緊急コールバックモードの間は利用できません。携帯電話は、%s分間このモードになります。今すぐ終了しますか？"</item>
+        <item quantity="one">"選択したアクションは、緊急コールバックモードの間は利用できません。携帯電話は、%s分間このモードになります。今すぐ終了しますか？"</item>
+    </plurals>
+    <plurals name="auto_answer_summary_delay">
+        <item quantity="other">待ち時間: %d秒</item>
+        <item quantity="one">待ち時間: %d秒</item>
+    </plurals>
+    <plurals name="call_record_add_white_list_over_reminder">
+        <item quantity="other">%s人まで追加できます、もう一度選択してください。</item>
+        <item quantity="one">%s人まで追加できます、もう一度選択してください。</item>
+    </plurals>
+    <plurals name="call_record_auto_whitelist_summary">
+        <item quantity="other">%d件の番号</item>
+        <item quantity="one">%d件の番号</item>
+    </plurals>
+    <plurals name="call_remove_exception_numbers_confirm">
+        <item quantity="other">%d件の番号が削除されます。</item>
+        <item quantity="one">%d件の番号が削除されます。</item>
+    </plurals>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s分間データ接続できません</item>
+        <item quantity="one">%s分間データ接続できません</item>
+    </plurals>
+    <plurals name="pin_attempts">
+        <item quantity="other">試行できるのはあと%d回です。</item>
+        <item quantity="one">試行できるのはあと%d回です。</item>
+    </plurals>
+</resources>

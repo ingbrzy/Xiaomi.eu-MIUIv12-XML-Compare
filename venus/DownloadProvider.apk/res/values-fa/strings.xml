@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Download Manager</string>
+    <string name="button_cancel_download">لغو</string>
+    <string name="button_queue_for_wifi">صف</string>
+    <string name="button_start_now">اکنون شروع شود</string>
+    <string name="download_error">ناموفق</string>
+    <string name="download_no_application_title">فایل باز نمی‌شود</string>
+    <string name="download_queued">در صف</string>
+    <string name="download_remaining">%s باقیمانده</string>
+    <string name="download_running">در حال انجام</string>
+    <string name="download_unknown_title">‏&lt;بدون عنوان></string>
+    <string name="notification_download_complete">بارگیری کامل شد.</string>
+    <string name="notification_download_failed">بارگیری ناموفق بود.</string>
+    <string name="notification_need_wifi_for_size">‏برای این حجم از بارگیری به Wi-Fi نیاز است.</string>
+    <string name="notification_paused_in_background">در پس‌زمینه موقتاً متوقف شد.</string>
+    <string name="permdesc_accessAllDownloads">به برنامه اجازه می‌دهد تمام بارگیری‌های شروع شده توسط هر برنامه‌ای را در سیستم مشاهده کرده و تغییر دهد.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">‏به برنامه اجازه می‌دهد فایل‌ها را در حافظهٔ پنهان بارگیری کند، تا هنگامی که Download Manager به فضای بیشتری احتیاج دارد، به‌طور خودکار حذف نشوند.+</string>
+    <string name="permdesc_downloadCompletedIntent">به برنامه اجازه می‌دهد اعلان‌های مربوط به بارگیریهای کامل شده را ارسال کند. برنامه‌های مضر می‌توانند از این امکان استفاده کرده و برای سایر برنامه‌هایی که فایل‌ها را بارگیری می‌کنند، مشکلاتی را ایجاد کنند.</string>
+    <string name="permdesc_downloadManager">‏به برنامه اجازه می‌دهد تا به download manager دسترسی داشته باشد و از آن برای بارگیری فایل‌ها استفاده کند. برنامه‌های مضر می‌توانند از این امکان استفاده کرده و برای بارگیریها مشکل ایجاد کنند و به اطلاعات خصوصی دسترسی داشته باشند.</string>
+    <string name="permdesc_downloadManagerAdvanced">‏به برنامه اجازه می‌دهد تا به عملکردهای پیشرفته download manager دسترسی داشته باشد. برنامه‌های مضر می‌توانند از این امکان استفاده کرده و برای بارگیری‌ها مشکل ایجاد کنند و به اطلاعات خصوصی دسترسی داشته باشند.</string>
+    <string name="permdesc_downloadWithoutNotification">‏به برنامه اجازه می‌دهد فایل‌ها را از طریق Download Manager، بدون نمایش اعلان به کاربر بارگیری کند.</string>
+    <string name="permdesc_seeAllExternal">‏به برنامه اجازه می‌دهد بدون در نظر گرفتن اینکه کدام برنامه بارگیری را انجام داده است، تمام بارگیریهای موجود در کارت SD را مشاهده کند.</string>
+    <string name="permlab_accessAllDownloads">دسترسی به همه بارگیری‌های سیستم</string>
+    <string name="permlab_downloadCacheNonPurgeable">رزرو فضا در حافظه موقت بارگیری</string>
+    <string name="permlab_downloadCompletedIntent">اعلان‌های بارگیری ارسال شود.</string>
+    <string name="permlab_downloadManager">‏دسترسی به Download Manager.</string>
+    <string name="permlab_downloadManagerAdvanced">‏عملکرد پیشرفته Download Manager.</string>
+    <string name="permlab_downloadWithoutNotification">بارگیری فایل‌ها بدون اطلاع</string>
+    <string name="permlab_seeAllExternal">‏مشاهدهٔ همه بارگیری‌ها در حافظهٔ USB</string>
+    <string name="root_downloads">بارگیری‌ها</string>
+    <string name="wifi_recommended_body">"‏شروع بارگیری %1$s  سبب کم شدن طول عمر باتری و/یا استفاده بیش از حد از اتصال داده تلفن همراه می‌شود که بسته به قرارداد ارائه داده شما ممکن است از طرف اپراتور تلفن هزینه‌هایی برای شما در نظر گرفته شود. 
+
+%2$s را لمس کنید تا در اتصال بعدی به شبکه Wi-Fi، این بارگیری شروع شود."</string>
+    <string name="wifi_recommended_title">برای بارگیری در فرصتی دیگر در صف گذاشته شود؟</string>
+    <string name="wifi_required_body">"‏برای تکمیل این بارگیری %1$s  باید از Wi-Fi استفاده کنید. در اتصال بعدی به شبکه Wi-Fi و برای شروع بارگیری، 
+
+لمس%2$s  کنید."</string>
+    <string name="wifi_required_title">بارگیری برای شبکه اپراتور بسیار بزرگ است</string>
+</resources>

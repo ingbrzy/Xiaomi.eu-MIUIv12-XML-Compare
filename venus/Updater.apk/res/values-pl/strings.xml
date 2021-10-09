@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aktualizacje</string>
+    <string name="battery_islow">&lt;font color=#f37981>Podłącz ładowarkę&lt;/font></string>
+    <string name="battery_islow_desc">Za niski poziom baterii do bezpiecznej instalacji ROMu, podłącz ładowarkę i spróbuj ponownie później!</string>
+    <string name="btn_changelog">Lista zmian</string>
+    <string name="btn_download">Pobierz (%1$s)</string>
+    <string name="btn_error">Błąd pobierania, ponowić?</string>
+    <string name="btn_install">Sprawdź MD5 i Zainstaluj</string>
+    <string name="btn_no">Anuluj</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_pause">Wstrzymaj</string>
+    <string name="btn_share">Udostępnij</string>
+    <string name="btn_stop">Przerwij</string>
+    <string name="btn_wrong_md5">Błędna suma MD5, usuń ROM!</string>
+    <string name="btn_yes">Tak</string>
+    <string name="channel_downloading">Powiadomienie o pobieraniu</string>
+    <string name="channel_service">Usługa Aktualizacji w tle</string>
+    <string name="channel_update">Powiadomienie o nowej wersji</string>
+    <string name="check_new_version">Sprawdź dostępność aktualizacji</string>
+    <string name="dialog_3g_desc">Używanie Internetu Mobilnego do pobierania ROMów znaczaco wpłynie na wykorzystanie pakietu.</string>
+    <string name="dialog_3g_title">Uwaga!</string>
+    <string name="dialog_btn_3g">Kontynuuj</string>
+    <string name="dialog_btn_wifi">Przełącz na Wi-Fi</string>
+    <string name="dialog_stop_desc">Zdecyduj Wstrzymać czy Przerwać pobieranie.</string>
+    <string name="dialog_stop_title">Zatrzymać pobieranie?</string>
+    <string name="dialog_twrp">Pamięć wewnętrzna jest zaszyfrowana, po restarcie do recovery wprowadź aktualny wzór, PIN bądź hasło ekranu blokady w zależności, z którego zabezpieczenia korzystasz.</string>
+    <string name="downgrade_warning">Zablokowano instalację starszej wersji przez OTA, w celu uniknięcia uszodzenia systemu!</string>
+    <string name="download_done">Pomyślnie pobrano ROM!</string>
+    <string name="download_fail">Błąd podczas pobierania!</string>
+    <string name="download_fail_desc">Suma MD5 nie jest zgodna…</string>
+    <string name="downloading">Pobieranie:</string>
+    <string name="downloading_desc">Trwa pobieranie ROMu, postęp sprawdzisz po rozwinięciu paska statusu.</string>
+    <string name="fetching_data">Generowanie linku, proszę czekać…</string>
+    <string name="install_desc">Telefon przejdzie do recovery i zainstaluje wybrany plik: <b>%1$s</b>"
+Dane nie zostaną skasowane."</string>
+    <string name="install_title">Czy na pewno chcesz przejść do instalacji?</string>
+    <string name="menu_title_current_version_log">Co nowego?</string>
+    <string name="menu_title_pick_rom_file">Zainstaluj aktualizację z pliku .zip</string>
+    <string name="menu_title_recovery">Uruchom w Recovery</string>
+    <string name="menu_title_show_notifications">Pokazuj powiadomienia</string>
+    <string name="message_checkbox">Ukryj przyszłe wiadomości od ekipy Xiaomi.eu</string>
+    <string name="message_checkbox_device">Nie pokazuj ponownie</string>
+    <string name="message_title">INFORMACJA!</string>
+    <string name="new_version">Znaleziono nową wersję!</string>
+    <string name="no_info">Brak danych.</string>
+    <string name="no_mirror">Wszystkie mirrory obecnie niedostępne, spróbuj później…</string>
+    <string name="no_network">Brak dostępu do Internetu.</string>
+    <string name="no_update">Masz najnowszą dostępną wersję!</string>
+    <string name="no_xioamieu">"Nie używasz Romu MIUIPolska!
+Aktualizacje nie są dla Ciebie dostępne!"</string>
+    <string name="notif_cancel">Anuluj</string>
+    <string name="notif_install">Zainstaluj</string>
+    <string name="notif_new_summary">Kliknij by uzyskać szczegóły</string>
+    <string name="notif_new_title">Dostępna nowa wersja!</string>
+    <string name="notif_service_summary">Przytrzymaj by wyłączyć powiadomienia Usługi!</string>
+    <string name="notif_service_title">Usługa Aktualizacje działa w tle…</string>
+    <string name="notifications_switch">Pokazuj powiadomienia</string>
+    <string name="permdesc_cache_filesystem">Pozwala zapisywać pliki w pamięci podręcznej.</string>
+    <string name="permdesc_reboot">Pozwala restartować urządzenie.</string>
+    <string name="permlab_cache_filesystem">Dostęp do /cache</string>
+    <string name="permlab_reboot">Restartowanie urządzenia</string>
+    <string name="pick_not_found">Nie znaleziono Menadżera Plików.</string>
+    <string name="pick_title">Wybierz ROM używając:</string>
+    <string name="recovery_desc">Urządzenie przejdzie do trybu Recovery jeżeli nie wiesz do czego ono służy anuluj działanie. Kontynuować?</string>
+    <string name="server_error">Serwer nie odpowiada, aplikacja może nie działać poprawnie!</string>
+    <string name="share_desc">Zaktualizowano MIUI do wersji %1$s, sprawdź listę zmian na: %2$s</string>
+    <string name="share_title">Udostępnij przez</string>
+    <string name="stable">Stabilna</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="version">Zainstalowana wersja:</string>
+    <string name="weekly">Rozwojowa</string>
+    <string name="wifi_recommended">Nie jesteś połączony z WiFi, spróbuj ponownie będąc w zasięgu sieci WiFi!</string>
+</resources>

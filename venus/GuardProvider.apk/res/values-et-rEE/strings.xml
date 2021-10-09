@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AVL">AVL</string>
+    <string name="Avast">Avast</string>
+    <string name="DesAVL">AVL</string>
+    <string name="DesAvast">Avast</string>
+    <string name="DesMi">Mi</string>
+    <string name="DesTencent">Tencent</string>
+    <string name="Mi">Mi</string>
+    <string name="Tencent">Tencent</string>
+    <string name="app_name">MIUI turvalisuskomponendid</string>
+    <string name="avast_dialog_cloudscan" />
+    <string name="avast_dialog_dbupdate" />
+    <string name="avast_dialog_header">See omadus krüpteerib ja laeb teie seadme ID üles Avasti serveritesse (%s).</string>
+    <string name="avast_dialog_policy">Privaatsuspoliitika</string>
+    <string name="avast_dialog_title">Avasti Privaatsuspoliitika</string>
+    <string name="avast_dialog_url">http://api.sec.miui.com/policy/proxy?p=avast&amp;l=en_US</string>
+    <string name="avast_virus_type_adware_description">Viirus on reklaamvara. See muudab automaatselt reklaame.</string>
+    <string name="avast_virus_type_cryportor_description">Viirus on krüptor. See kasutab ohtlikku tarkvara, mida antakse edasi iseennast talletusruumis paljundada.</string>
+    <string name="avast_virus_type_dropper_description">Viirus on tilguti. See kannab koodi, mis laeb alla teisi ohtlikke viiruseid.</string>
+    <string name="avast_virus_type_exploit_description">Viirus on turvaauk. See kasutab ära lutikaid või haavatavusi teie süsteemis, et põhjustada soovimatut või ootamatut käitumist.</string>
+    <string name="avast_virus_type_heuristic_description">Viirus tõkestatakse kasutades spetsiifilist heuristikat. Spetsiifilise heuristika analüüs ütleb, kui tegemist on viirusega.</string>
+    <string name="avast_virus_type_joke_description">Viirus on nali. See loob mõndu häirivaid või humoorikaid efekte. Tavaliselt põhjustab see vähem kahju kui muud viirused.</string>
+    <string name="avast_virus_type_pup_description">Viirus on potentsiaalselt soovimatu programm (PUP). See on programm, mis võib olla kahjulik (nuhkvara, reklaamvara jne), hoolimata faktist, et kasutaja annab loa selle alla laadimiseks.</string>
+    <string name="avast_virus_type_rootkit_description">Viirus on tüvikomplekt. See on tarkvaratüüp, mis on loodud fakti varjamiseks, et operatsioonisüsteem on juba kompromiteeritud. Seda kasutatakse kontrolli saavutamiseks seadme üle peitudes sügavale süsteemi sisse. Tüvikomplekt lubab viirustel ja pahavaral “nähtavas kohas varjuda“ näidates end kui vajalikke faile, millest tavaline viirusvastane tarkvara üle vaatab.</string>
+    <string name="avast_virus_type_spyware_description">Viirus on nuhkvara. See on tarkvara, mis kogub salaja kasutajainfot läbi kasutaja internetiühenduse ilma tema teadmata.</string>
+    <string name="avast_virus_type_suspicious_description">Sage kahtlane tüüp. Viirustõrjesüsteem üritab seda klassifitseerida.</string>
+    <string name="avast_virus_type_tool_description">Viirus on potsentsiaalselt PUP-i sarnane kuri tööriist.</string>
+    <string name="avast_virus_type_trjan_description">Tegemist on troojaviirusega. See on pahavara, mis on loodud tagama mitteautoriseeritud otseses ligipääsu kasutaja seadmele. Troojaviirustel ei ole tavaliselt võimet iseend viiruste kombel paljundada. Siiski, need võivad viia muude pahavarade alla laadimiseni teie seadmesse, andmevarguseni või muude pahatahtlike tegevusteni.</string>
+    <string name="avast_virus_type_unknown_description">Tundmatu viirustüüp.</string>
+    <string name="avast_virus_type_worm_description">Viirus on uss. See on üksik eraldiseisev pahavara, mis paljundab end, et levida teistesse seadmetesse. See kasutab ära faile või informatsiooni, et kanda edasi teie süsteemi omadusi (nt võrgud), see saab rännata ilma inimtegevuseta. Ussid põhjustavad peaaegu alati võrgule vähemalt mingit kahju.</string>
+    <string name="avl_dialog_cloudscan" />
+    <string name="avl_dialog_dbupdate" />
+    <string name="avl_dialog_header">See omadus krüpteerib ja laeb teie seadme ID AVL serveritesse (%s).</string>
+    <string name="avl_dialog_policy">Privaatsuspoliitika</string>
+    <string name="avl_dialog_title">AVL Privaatsuspoliitika</string>
+    <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
+    <string name="hello_world">Tere maailm!</string>
+    <string name="menu_settings">Seaded</string>
+    <string name="size_byte">B</string>
+    <string name="size_giga_byte">GB</string>
+    <string name="size_kilo_byte">KB</string>
+    <string name="size_mega_byte">MB</string>
+    <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">TB</string>
+    <string name="tencent_dialog_cloudscan">Lae üles ja skanneeri rakenduse nimesid ja detaile, kasutades võrgu viirustõrjeid.</string>
+    <string name="tencent_dialog_dbupdate">Uuenda automaatselt viirusetõrjet</string>
+    <string name="tencent_dialog_header">See omadus krüpteerib ja laeb teie seadme ID üles Tencenti serveritesse (%s).</string>
+    <string name="tencent_dialog_policy">Privaatsuspoliitika</string>
+    <string name="tencent_dialog_title">Tencenti privaatsuspoliitika</string>
+    <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

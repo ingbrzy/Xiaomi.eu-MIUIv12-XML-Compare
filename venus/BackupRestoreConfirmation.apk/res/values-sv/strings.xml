@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow_backup_button_label">Säkerhetskopiera data</string>
+    <string name="allow_restore_button_label">Återställ mina data</string>
+    <string name="backup_confirm_text">"En fullständig säkerhetskopia av alla data till en ansluten dator har begärts. Vill du tillåta detta?
+
+Om du inte själv begärde säkerhetskopian ska du inte tillåta detta."</string>
+    <string name="backup_confirm_title">Fullständig säkerhetskopiering</string>
+    <string name="backup_enc_password_optional">Om du vill kryptera alla säkerhetskopierade data anger du ett lösenord nedan:</string>
+    <string name="backup_enc_password_required">Eftersom enheten är krypterad måste du kryptera säkerhetskopierade data. Ange lösenordet nedan:</string>
+    <string name="backup_enc_password_text">Ange ett lösenord för kryptering av alla säkerhetskopierade data. Om det här lämnas tomt kommer ditt nuvarande lösenord för säkerhetskopior att användas:</string>
+    <string name="current_password_text">Ange det aktuella lösenordet för säkerhetskopian nedan:</string>
+    <string name="deny_backup_button_label">Säkerhetskopiera inte</string>
+    <string name="deny_restore_button_label">Återställ inte</string>
+    <string name="device_encryption_backup_text">Ange lösenordet för enhetskryptering nedan. Lösenordet kommer även att användas för att kryptera säkerhetskopian.</string>
+    <string name="device_encryption_restore_text">Ange lösenordet för enhetskryptering nedan.</string>
+    <string name="restore_confirm_text">"En fullständig återställning av alla data från en ansluten dator har begärts. Vill du tillåta detta? 
+ 
+ Om du inte själv har begärt återställningen ska du inte tillåta den. Alla data som finns på enheten kommer då att ersättas!"</string>
+    <string name="restore_confirm_title">Fullständig återställning</string>
+    <string name="restore_enc_password_text">Om återställda data är krypterade anger du lösenordet nedan:</string>
+    <string name="toast_backup_ended">Säkerhetskopieringen har slutförts</string>
+    <string name="toast_backup_started">Säkerhetskopieringen har startat ...</string>
+    <string name="toast_restore_ended">Återställningen har avslutats</string>
+    <string name="toast_restore_started">Återställningen har startat ...</string>
+    <string name="toast_timeout">Tidsgränsen för åtgärden har överskridits</string>
+</resources>

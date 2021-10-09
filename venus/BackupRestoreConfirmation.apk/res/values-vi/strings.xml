@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow_backup_button_label">Sao lưu dữ liệu của tôi</string>
+    <string name="allow_restore_button_label">Khôi phục dữ liệu của tôi</string>
+    <string name="backup_confirm_text">"Đã yêu cầu sao lưu đầy đủ toàn bộ dữ liệu tới máy tính được kết nối. Bạn có muốn cho phép điều này xảy ra không?
+
+Nếu không phải bản thân bạn yêu cầu sao lưu, đừng cho phép thao tác này tiếp tục."</string>
+    <string name="backup_confirm_title">Sao lưu hoàn toàn</string>
+    <string name="backup_enc_password_optional">Nếu bạn muốn mã hóa toàn bộ dữ liệu sao lưu, hãy nhập mật khẩu bên dưới:</string>
+    <string name="backup_enc_password_required">Vì thiết bị của bạn được mã hóa nên bạn phải mã hóa bản sao lưu của mình. Vui lòng nhập mật khẩu bên dưới:</string>
+    <string name="backup_enc_password_text">Vui lòng nhập mật khẩu dùng để mã hóa toàn bộ dữ liệu sao lưu. Nếu trường này bị bỏ trống, mật khẩu sao lưu hiện tại của bạn sẽ được sử dụng:</string>
+    <string name="current_password_text">Vui lòng nhập mật khẩu sao lưu hiện tại của bạn bên dưới:</string>
+    <string name="deny_backup_button_label">Không sao lưu</string>
+    <string name="deny_restore_button_label">Không khôi phục</string>
+    <string name="device_encryption_backup_text">Vui lòng nhập mật khẩu mã hóa thiết bị của bạn bên dưới. Mật khẩu này cũng được sử dụng để mã hóa kho lưu trữ sao lưu.</string>
+    <string name="device_encryption_restore_text">Vui lòng nhập mật khẩu mã hóa thiết bị của bạn bên dưới.</string>
+    <string name="restore_confirm_text">"Đã yêu cầu khôi phục đầy đủ toàn bộ dữ liệu từ máy tính được kết nối. Bạn có muốn cho phép điều này xảy ra không?
+
+Nếu không phải bản thân bạn yêu cầu khôi phục, đừng cho phép thao tác này tiếp tục. Thao tác này sẽ thay thế mọi dữ liệu hiện tại trên thiết bị!"</string>
+    <string name="restore_confirm_title">Khôi phục hoàn toàn</string>
+    <string name="restore_enc_password_text">Nếu dữ liệu khôi phục được mã hóa, vui lòng nhập mật khẩu bên dưới:</string>
+    <string name="toast_backup_ended">Đã hoàn thành sao lưu</string>
+    <string name="toast_backup_started">Đang bắt đầu sao lưu…</string>
+    <string name="toast_restore_ended">Đã kết thúc quá trình khôi phục</string>
+    <string name="toast_restore_started">Đang bắt đầu khôi phục…</string>
+    <string name="toast_timeout">Hết thời gian thao tác</string>
+</resources>

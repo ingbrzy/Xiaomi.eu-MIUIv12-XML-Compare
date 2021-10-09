@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Letöltések</string>
+    <string name="button_cancel_download">Mégse</string>
+    <string name="button_queue_for_wifi">Sorba állítás</string>
+    <string name="button_start_now">Indítás most</string>
+    <string name="download_error">Nem sikerült letölteni</string>
+    <string name="download_filesize_unknown">Ismeretlen</string>
+    <string name="download_no_application_title">A fájlt nem lehet megnyitni</string>
+    <string name="download_queued">Várakozik</string>
+    <string name="download_remaining">%s van hátra</string>
+    <string name="download_running">Letöltés</string>
+    <string name="download_unknown_title">&lt;Névtelen></string>
+    <string name="notif_title_file_size">%1$d összesen</string>
+    <string name="notif_title_single_downloading">%1$s letöltése</string>
+    <string name="notification_dld_msg">A letöltött alkalmazások kezelése</string>
+    <string name="notification_download_complete">Sikeresen letöltve.</string>
+    <string name="notification_download_failed">Nem sikerült az elemek letöltése.</string>
+    <string name="notification_need_wifi_for_size">A letöltéshez Wi-Fi szükséges.</string>
+    <string name="notification_paused_in_background">A háttérben megállítva.</string>
+    <string name="paused_waiting_for_network">Várakozás hálózatra</string>
+    <string name="permdesc_accessAllDownloads">Engedélyezi az alkalmazásnak, hogy hozzáférjen és módosítson bármely alkalmazás által elindított letöltést.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Engedélyezi az alkalmazásnak, hogy letöltse a fájlokat a letöltési gyorsítótárba, ami nem törlődik automatikusan, ha a letöltéskezelőnek több helyre lenne szüksége.</string>
+    <string name="permdesc_downloadCompletedIntent">Megengedi az alkalmazásnak, hogy értesítéseket küldjön az elkészült letöltésekről. A rosszindulatú alkalmazások ezt kihasználhatják más alkalmazások letöltéseinek megzavarására.</string>
+    <string name="permdesc_downloadManager">Megengedi az alkalmazásnak, hogy hozzáférjen a letöltésvezérlőhöz és azon keresztül töltsön le. A rosszindulatú alkalmazások ezt kihasználhatják a letöltések megszakítására és a személyes adatokhoz való hozzáférésre.</string>
+    <string name="permdesc_downloadManagerAdvanced">Megengedi az alkalmazásnak, hogy hozzáférjen a letöltésvezérlő haladó funkcióihoz. A rosszindulatú alkalmazások ezt kihasználhatják a letöltések megszakítására és a személyes adatokhoz való hozzáférésre.</string>
+    <string name="permdesc_downloadWithoutNotification">Engedélyezi az alkalmazásnak, hogy fájlokat töltsön le a felhasználó értesítése nélkül.</string>
+    <string name="permdesc_seeAllExternal">Megengedi az alkalmazásnak, hogy megjelenítse az összes letöltést az SD-kártyán, függetlenül attól, hogy melyik alkalmazás töltötte le.</string>
+    <string name="permlab_accessAllDownloads">Hozzáférés a rendszer összes letöltéséhez</string>
+    <string name="permlab_downloadCacheNonPurgeable">Hely fenntartása a letöltési gyorsítótárban</string>
+    <string name="permlab_downloadCompletedIntent">Letöltési értesítések küldése.</string>
+    <string name="permlab_downloadManager">Letöltések elérése.</string>
+    <string name="permlab_downloadManagerAdvanced">Letöltések haladó funkciói.</string>
+    <string name="permlab_downloadWithoutNotification">Fájlok letöltése értesítés nélkül</string>
+    <string name="permlab_seeAllExternal">Az összes letöltés megjelenítése az USB háttértáron</string>
+    <string name="root_downloads">Letöltések</string>
+    <string name="wifi_recommended_body">"Ekkora fájl (%1$s ) letöltése lerövidíti az akkumulátor élettartamát és/vagy a mobiladat-kapcsolat túlzott használatához vezet, ami az Ön tervezett adatfogalmától függően újabb költségeket okozhat mobilszámláján.
+
+Érintse meg itt %2$s, hogy akkor kezdődjön a letöltés, amikor legközelebb Wi-Fi-kapcsolata lesz."</string>
+    <string name="wifi_recommended_title">Várólistához adja és letölti később?</string>
+    <string name="wifi_required_body">"Kapcsolódjon Wi-Fi-re eme %1$s letöltéshez.
+
+Érintse meg a %2$s-t, hogy a letöltés akkor kezdődjön el, amikor legközelebb csatlakozik Wi-Fi-hálózathoz."</string>
+    <string name="wifi_required_title">A fájl túl nagy a mobiladat-kapcsolaton való letöltéshez</string>
+</resources>

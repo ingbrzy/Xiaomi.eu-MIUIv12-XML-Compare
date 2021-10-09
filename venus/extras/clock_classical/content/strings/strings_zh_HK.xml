@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_time">M月d日 E</string>
+    <string name="date_time_12">M月d日 Eaa</string>
+    <string name="desc_date_format">M月d日 EEEE</string>
+    <string name="desc_date_format_12">M月d日 Eaa</string>
+    <string name="desc_time">#hour+\'點\'+ifelse(#minute,#minute+\'分\',\'整\')+\', \'+int(#month+1)+\'月\'+#date+\'日\'+\', \'+\'週\'+int(#day_of_week-1)+\', \'+#weather_temperature+\'度\'+\', \'+@weather_description</string>
+</resources>

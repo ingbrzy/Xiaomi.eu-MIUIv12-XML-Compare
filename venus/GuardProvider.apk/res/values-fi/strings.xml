@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AVL">AVL</string>
+    <string name="Avast">Avast</string>
+    <string name="DesAVL">AVL</string>
+    <string name="DesAvast">Avast</string>
+    <string name="DesMi">Mi</string>
+    <string name="DesTencent">Tencent</string>
+    <string name="Mi">Mi</string>
+    <string name="Tencent">Tencent</string>
+    <string name="app_name">MIUI turvallisuus komponentit</string>
+    <string name="avast_dialog_cloudscan" />
+    <string name="avast_dialog_dbupdate" />
+    <string name="avast_dialog_header">Tämä toiminto salaa ja lähettää laitteesi ID-numeron Avastin palvelimille (%s).</string>
+    <string name="avast_dialog_policy">Tietosuojakäytäntö</string>
+    <string name="avast_dialog_title">Avastin tietosuojakäytäntö</string>
+    <string name="avast_dialog_url">http://api.sec.miui.com/policy/proxy?p=avast&amp;l=en_US</string>
+    <string name="avast_virus_type_adware_description">Virus on mainosohjelma. Se tekee mainoksia automaattisesti.</string>
+    <string name="avast_virus_type_cryportor_description">Virus on kryptori. Se on haittaohjelma, joka lähetetään toistamalla itsensä tallennustilassa.</string>
+    <string name="avast_virus_type_dropper_description">Virus on tiputuslaite. Se sisältää koodin, joka asentaa muita haittaohjelmia.</string>
+    <string name="avast_virus_type_exploit_description">Virus on hyödyntävä. Se hyödyntää järjestelmässä olevia vikoja tai haavoittuvuuksia aiheuttaakseen tahattoman tai ennakoimattoman käyttäytymisen.</string>
+    <string name="avast_virus_type_heuristic_description">Infektio johtuu erityisestä heuristisesta käytöstä. Erityinen heuristinen analyysi kertoo, että se on virus.</string>
+    <string name="avast_virus_type_joke_description">Virus on vitsi. Se aiheuttaa ärsyttäviä tai humoristisia vaikutuksia. Se yleensä aiheuttaa vähemmän vahinkoa kuin muut virukset.</string>
+    <string name="avast_virus_type_pup_description">Virus on mahdollisesti ei-toivottu ohjelma (PUP). Se on ohjelma, joka voi olla haitallinen (vakoiluohjelmat, mainosohjelmat jne.), huolimatta sitä tosiasiaa, että käyttäjät antavat hyväksynnän sen lataamiselle.</string>
+    <string name="avast_virus_type_rootkit_description">Virus on piilohallintaohjelma. Se on eräänlainen ohjelmisto, jonka tarkoituksena on kätkeä se, että käyttöjärjestelmä on vaarantunut. Sitä käytetään hallitsemaan laitetta piilottamalla se syvälle järjestelmään. Piilohallintaohjelma sallii virusten ja haittaohjelmien \"piiloutua tavallisessa näkemyksessä\" piilottamalla tarpeellisina tiedostoina, jotka normaalissa virustorjuntaohjelmassa unohdetaan.</string>
+    <string name="avast_virus_type_spyware_description">Virus on vakoiluohjelma. Se on ohjelmisto, joka kerää salaa käyttäjän tietoja käyttäjän internet-yhteyden kautta ilman hänen tietämystään.</string>
+    <string name="avast_virus_type_suspicious_description">Yleinen epäilyttävä tyyppi. Virustentorjuntajärjestelmä yrittää luokitella sen.</string>
+    <string name="avast_virus_type_tool_description">Virus on potentiaalisesti paha työkalu, joka muistuttaa PUP: ia.</string>
+    <string name="avast_virus_type_trjan_description">Virus on troijalainen. Se on haittaohjelma, joka on suunniteltu tarjoamaan luvatonta etäkäyttöä käyttäjän laitteelle. Troijalaisilla ei normaalisti ole kykyä uusia itseään, kuten virukset. Ne voivat kuitenkin johtaa siihen, että laitteeseen asentuu muita haittaohjelmia, tietoja varastetaan tai muita haitallisia toimintoja.</string>
+    <string name="avast_virus_type_unknown_description">Tuntematon infektion tyyppi.</string>
+    <string name="avast_virus_type_worm_description">Virus on mato. Se on itsenäinen haittaohjelma, joka uusii itseään, jotta se voidaan levittää muihin laitteisiin. Se hyödyntää järjestelmän tiedostoja tai tiedonsiirto-ominaisuuksia (esimerkiksi verkkoja), se voi matkustaa ilman ihmisen toimintaa. Madoista aiheutuu lähes aina haittaa verkolle.</string>
+    <string name="avl_dialog_cloudscan" />
+    <string name="avl_dialog_dbupdate" />
+    <string name="avl_dialog_header">Tämä toiminto salaa ja lähettää laitteesi ID-numeron AVL:n palvelimille (%s).</string>
+    <string name="avl_dialog_policy">Tietosuojakäytäntö</string>
+    <string name="avl_dialog_title">AVL:n tietosuojakäytäntö</string>
+    <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
+    <string name="hello_world">Hei maailma!</string>
+    <string name="menu_settings">Asetukset</string>
+    <string name="size_byte">t</string>
+    <string name="size_giga_byte">Gt</string>
+    <string name="size_kilo_byte">Kt</string>
+    <string name="size_mega_byte">Mt</string>
+    <string name="size_peta_byte">Pt</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">Tt</string>
+    <string name="tencent_dialog_cloudscan">Lähetä ja skannaa sovellusten nimet ja tiedot käyttäen internetistä haettuja virustunnisteita.</string>
+    <string name="tencent_dialog_dbupdate">Päivitä virustunnisteet automaattisesti</string>
+    <string name="tencent_dialog_header">Tämä toiminto salaa ja lähettää laitteesi ID-numeron Tencentin palvelimille (%s).</string>
+    <string name="tencent_dialog_policy">Tietosuojakäytäntö</string>
+    <string name="tencent_dialog_title">Tencentin tietosuojakäytäntö</string>
+    <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

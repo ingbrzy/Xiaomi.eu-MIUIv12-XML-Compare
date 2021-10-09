@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_missing_private_key">Απαιτείται ιδιωτικό κλειδί για την εγκατάσταση κάποιου πιστοποιητικού</string>
+    <string name="action_missing_user_cert">Απαιτείται πιστοποιητικό για την εγκατάσταση κάποιου ιδιωτικού κλειδιού</string>
+    <string name="app_name">Πρόγραμμα εγκατάστασης πιστοποιητικών</string>
+    <string name="ca_cert_is_added">Εγκαταστάθηκε πιστοποιητικό CA</string>
+    <string name="ca_certificate">Πιστοποιητικό CA</string>
+    <string name="cert_missing_error">"Δεν ήταν δυνατή η εγκατάσταση, επειδή δεν ήταν δυνατό να εντοπιστεί το αρχείο πιστοποιητικού."</string>
+    <string name="cert_not_saved">Το πιστοποιητικό δεν έχει εγκατασταθεί.</string>
+    <string name="cert_read_error">"Δεν ήταν δυνατή η εγκατάσταση, επειδή δεν ήταν δυνατό να γίνει ανάγνωση του αρχείου πιστοποιητικού."</string>
+    <string name="cert_temp_error">Προσωρινή αποτυχία. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="cert_too_large_error">"Δεν ήταν δυνατή η εγκατάσταση, επειδή το μέγεθος του πιστοποιητικού είναι πολύ μεγάλο."</string>
+    <string name="certificate">Πιστοποιητικό</string>
+    <string name="certificate_capabilities_warning">Σημείωση: Ο εκδότης αυτού του πιστοποιητικού μπορεί να επιθεωρήσει όλη την επισκεψιμότητα από και προς τη συσκευή.</string>
+    <string name="certificate_name">Όνομα πιστοποιητικού</string>
+    <string name="credential_info">Το πακέτο περιέχει:</string>
+    <string name="credential_password">Πληκτρολογήστε τον κωδικό πρόσβασης για να γίνει εξαγωγή των πιστοποιητικών.</string>
+    <string name="credential_usage_label">Χρήση διαπιστευτηρίων:</string>
+    <string name="done_label">ΤΕΛΟΣ</string>
+    <string name="extracting_pkcs12">Εξαγωγή...</string>
+    <string name="install_done">Τα διαπιστευτήρια %1$s προστέθηκαν στα αποθηκευμένα δίκτυα Wi-Fi.</string>
+    <string name="install_done_title">Τα διαπιστευτήρια εγκαταστάθηκαν</string>
+    <string name="invalid_cert">Το πιστοποιητικό δεν είναι έγκυρο.</string>
+    <string name="invalid_certificate_close_button">Κλείσιμο</string>
+    <string name="invalid_certificate_message">"Αυτό το αρχείο δεν μπορεί να χρησιμοποιηθεί ως %1$s"</string>
+    <string name="invalid_certificate_title">"Δεν μπορείτε να χρησιμοποιήσετε αυτό το αρχείο"</string>
+    <string name="n_cacrts">Πιστοποιητικά αρχών πιστοποίησης %d</string>
+    <string name="name_char_error">Πληκτρολογήστε ένα όνομα που περιέχει μόνο γράμματα και αριθμούς.</string>
+    <string name="name_credential_dialog_title">Ονομάστε αυτό το πιστοποιητικό</string>
+    <string name="name_empty_error">Πληκτρολογήστε ένα όνομα.</string>
+    <string name="no_cert_to_saved">Δεν υπάρχει πιστοποιητικό προς εγκατάσταση.</string>
+    <string name="one_cacrt">πιστοποιητικό μίας αρχής πιστοποίησης</string>
+    <string name="one_usercrt">πιστοποιητικό για ένα χρήστη</string>
+    <string name="one_userkey">κλειδί για ένα χρήστη</string>
+    <string name="only_primary_user_allowed">Μόνο ο κάτοχος αυτής της συσκευής μπορεί να εγκαταστήσει πιστοποιητικά.</string>
+    <string name="p12_description">Πιστοποιητικά στο χώρο αποθήκευσης κλειδιών PKCS12.</string>
+    <string name="password_empty_error">Πληκτρολογήστε τον κωδικό πρόσβασης.</string>
+    <string name="password_error">Πληκτρολογήστε το σωστό κωδικό πρόσβασης.</string>
+    <string name="pick_file_title">Επιλογή πιστοποιητικού</string>
+    <string name="pkcs12_file_password_dialog_title">Εξαγωγή από %s</string>
+    <string name="pkcs12_password_dialog_title">Εξαγωγή πιστοποιητικού</string>
+    <string name="redirect_ca_certificate_close_button">Κλείσιμο</string>
+    <string name="redirect_ca_certificate_title">Εγκαταστήστε πιστοποιητικά CA στις Ρυθμίσεις</string>
+    <string name="redirect_ca_certificate_with_app_info_message">Η εγκατάσταση αυτού του πιστοποιητικού από την εφαρμογή %1$s πρέπει να πραγματοποιηθεί στις Ρυθμίσεις. Εγκαθιστάτε πιστοποιητικά CA μόνο από οργανισμούς που εμπιστεύεστε.</string>
+    <string name="select_certificate_usage_title">Επιλογή τύπου πιστοποιητικών</string>
+    <string name="unable_to_save_cert">"Δεν ήταν δυνατή η αποθήκευση του πιστοποιητικού. Ο αποθηκευτικός χώρος διαπιστευτηρίων δεν είναι ενεργοποιημένος ή δεν έχει προετοιμαστεί σωστά."</string>
+    <string name="user_cert_is_added">Εγκαταστάθηκε πιστοποιητικό χρήστη</string>
+    <string name="user_certificate">Πιστοποιητικό χρήστη VPN και εφαρμογής</string>
+    <string name="userkey_type">Αλγόριθμος:</string>
+    <string name="wifi_cancel_label">Ακύρωση</string>
+    <string name="wifi_cert_is_added">Εγκαταστάθηκε πιστοποιητικό Wi‑Fi</string>
+    <string name="wifi_certificate">Πιστοποιητικό Wi‑Fi</string>
+    <string name="wifi_config_text">"Όνομα: %1$s
+FQDN: %2$s
+Consortium περιαγωγής: %3$s
+Realm: %4$s
+Μέθοδος εξουσιοδότησης: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">Λεπτομέρειες</string>
+    <string name="wifi_detail_title">Λεπτομέρειες για %s</string>
+    <string name="wifi_dismiss_label">Παράβλεψη</string>
+    <string name="wifi_install_label">Εγκατάσταση</string>
+    <string name="wifi_installer_detail">Εγκαταστήστε διαπιστευτήρια Wi-Fi για να συνδεθείτε σε δίκτυα που είναι διαθέσιμα μέσω του %1$s.</string>
+    <string name="wifi_installer_download_error">"Υπάρχουν προβλήματα με το ληφθέν αρχείο και δεν μπορεί να εγκατασταθεί. Βεβαιωθείτε ότι κατεβάσατε το αρχείο από τη σωστή πηγή."</string>
+    <string name="wifi_installer_fail">"Δεν είναι δυνατή η εγκατάσταση διαπιστευτηρίων Wi-Fi. Δοκιμάστε να κατεβάσετε ξανά το αρχείο."</string>
+    <string name="wifi_installer_fail_no_wifi">Ενεργοποιήστε το Wi-Fi και δοκιμάστε ξανά.</string>
+    <string name="wifi_installer_fail_no_wifi_title">Η εγκατάσταση ακυρώθηκε</string>
+    <string name="wifi_installer_fail_title">"Δεν είναι δυνατή η εγκατάσταση"</string>
+    <string name="wifi_installing_label">Εγκατάσταση</string>
+    <string name="wifi_no_config">Κανένα</string>
+    <string name="wifi_sim_config_text">"SIM: %s
+"</string>
+    <string name="wifi_title">Προφίλ Wi-Fi</string>
+    <string name="wifi_tls_config_text">"Πιστοποιητικό πελάτη:
+%1$s
+Κλειδί: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"Πιστοποιητικό αξιοπιστίας:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"Όνομα χρήστη: %s
+"</string>
+</resources>

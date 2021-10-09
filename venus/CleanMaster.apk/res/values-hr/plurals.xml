@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <plurals name="a_hour_ago">
+        <item quantity="other">prije 1 sat</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">prije 1 sat</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Prije pola sata</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Za 1 sat</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Za pola sata</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Odmah</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Upravo sada</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">prije %d min</item>
+        <item quantity="one">prije 1 min</item>
+    </plurals>
+	 <plurals name="app_usage_day">
+         <item quantity="other">"Nije korišteno %d dana"</item>
+         <item quantity="one">"Nije korišteno %d dan"</item>
+     </plurals>
+     <plurals name="app_usage_month">
+         <item quantity="other">"Nije korišteno %d mjeseci"</item>
+         <item quantity="one">"Nije korišteno %d mjesec"</item>
+     </plurals>
+     <plurals name="app_usage_year">
+         <item quantity="other">"Nije korišteno %d godina"</item>
+         <item quantity="one">"Nije korišteno %d godinu"</item>
+     </plurals>	 
+	<plurals name="clean_long_msg_p1">
+        <item quantity="other">"Čišćenje %1$d datoteka (%2$d%%)
+"</item>
+        <item quantity="one">"Čišćenje %1$d datoteke (%2$d%%)
+"</item>
+     </plurals>
+     <plurals name="clean_long_msg_p2">
+        <item quantity="other">%1$d stavki/sek. | Preostalo vrijeme: %2$s</item>
+        <item quantity="one">%1$d stavka/sek. | Preostalo vrijeme: %2$s</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Prije %1$d dana</item>
+        <item quantity="zero">Prije %1$d dana</item>
+        <item quantity="one">Prije %1$d dan</item>
+        <item quantity="two">Prije %1$d dana</item>
+        <item quantity="few">Prije %1$d dana</item>
+        <item quantity="many">Prije %1$d dana</item>
+    </plurals>
+	<plurals name="dc_group_title_normal">
+        <item quantity="other">Napravite %1$d koraka za oslobađanje %2$s</item>
+        <item quantity="one">Napravite %1$d korak za oslobađanje %2$s</item>
+    </plurals>
+    <plurals name="dc_item_summary_apk">
+        <item quantity="other">Možete izbrisati &lt;font color=#0097FF>%d&lt;/font> instalacijskih paketa</item>
+        <item quantity="one">Možete izbrisati &lt;font color=#0097FF>%d&lt;/font> instalacijski paket</item>
+    </plurals>
+    <plurals name="dc_item_summary_app_data">
+        <item quantity="other">Možete izbrisati podatke za &lt;font color=#0097FF>%d&lt;/font> aplikacija</item>
+        <item quantity="one">Možete izbrisati podatke za &lt;font color=#0097FF>%d&lt;/font> aplikaciju</item>
+    </plurals>
+    <plurals name="dc_item_summary_image">
+        <item quantity="other">Možete izbrisati &lt;font color=#0097FF>%d&lt;/font> nepotrebnih fotografija</item>
+        <item quantity="one">Možete izbrisati &lt;font color=#0097FF>%d&lt;/font> nepotrebnu fotografiju</item>
+    </plurals>
+    <plurals name="dc_item_summary_large_file">
+        <item quantity="other">Možete izbrisati &lt;font color=#0097FF>%d&lt;/font> velikih datoteka</item>
+        <item quantity="one">Možete izbrisati &lt;font color=#0097FF>%d&lt;/font> veliku datoteku</item>
+    </plurals>
+    <plurals name="dc_item_summary_uninstall_app">
+        <item quantity="other">Možete deinstalirati &lt;font color=#0097FF>%d&lt;/font> rijetko korištenih aplikacija</item>
+        <item quantity="one">Možete deinstalirati &lt;font color=#0097FF>%d&lt;/font> rijetko korištenu aplikaciju</item>
+    </plurals>
+    <plurals name="dc_item_summary_video">
+        <item quantity="other">Možete izbrisati &lt;font color=#0097FF>%d&lt;/font> videozapisa</item>
+        <item quantity="one">Možete izbrisati &lt;font color=#0097FF>%d&lt;/font> videozapis</item>
+    </plurals>
+    <plurals name="deepclean_apk_summary">
+        <item quantity="other">Pronađeno aplikacija: %d, možete izbrisati nepotrebne.</item>
+        <item quantity="one">Pronađena %d aplikacija, ovu možete izbrisati.</item>
+     </plurals>
+    <plurals name="deepclean_app_summary">
+        <item quantity="other">Instalirano %d aplik., možete izbrisati rijetko korištene aplikacije</item>
+        <item quantity="one">Instalirana %d aplik., ovu možete izbrisati</item>
+    </plurals>
+    <plurals name="deepclean_cache_summary">
+        <item quantity="other">Možete izbrisati nevažne podatke za %d aplik.</item>
+        <item quantity="one">Možete izbrisati nevažne podatke za %d aplik.</item>
+    </plurals>
+		<plurals name="deepclean_install_info_desc1">
+         <item quantity="other">Instalirano aplikacija: %d</item>
+         <item quantity="one">Instalirana %d aplikacija</item>
+    </plurals>
+    <plurals name="deepclean_large_summary">
+        <item quantity="other">Pronađeno %d velikih datoteka, možete izbrisati nevažne</item>
+        <item quantity="one">Pronađena %d velika datoteka, ovu možete izbrisati</item>
+    </plurals>
+    <plurals name="deepclean_similar_summary">
+        <item quantity="other">Pronađeno %d fotografija, možete izbrisati duplikate ili suvišne</item>
+        <item quantity="one">Pronađena %d fotografija, možete izbrisati duplikate ili suvišne </item>
+    </plurals>
+     <plurals name="deepclean_video_summary">
+        <item quantity="other">Pronađeno %d videozapisa, možete izbrisati nepotrebne.​</item>
+        <item quantity="one">Pronađen %d videozapis, ovaj možete izbrisati.</item>
+	</plurals>		
+	 <plurals name="dialog_content_delete_image_confirm">
+         <item quantity="other">Izbrisati %d fotografiju?</item>
+         <item quantity="one">Izbrisati %d fotografija?</item>
+     </plurals>
+     <plurals name="dialog_content_delete_image_from_all_devices_confirm">
+         <item quantity="other">Izbrisati %1$s fotografija sa svih uređaja ?</item>
+         <item quantity="one">Izbrisati %1$s fotografiju sa svih uređaja ?</item>
+     </plurals>
+	<plurals name="every_x_day">
+        <item quantity="other">Svakih %d dana</item>
+        <item quantity="one">Svaki %d dan</item>
+    </plurals>
+	<plurals name="global_wa_clean_finish_audio">
+        <item quantity="other">&lt;Data>Oslobođeno &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (dovoljno za &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> pjesama)&lt;/Data></item>
+        <item quantity="one">&lt;Data>Oslobođeno &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (dovoljno za &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> pjesmu)&lt;/Data></item>
+    </plurals>
+    <plurals name="global_wa_clean_finish_picture">
+        <item quantity="other">&lt;Data>Oslobođeno &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (dovoljno za &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> fotografija)&lt;/Data></item>
+        <item quantity="one">&lt;Data>Oslobođeno &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (dovoljno za &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> fotografiju)&lt;/Data></item>
+    </plurals>
+    <plurals name="global_wa_image">
+        <item quantity="other">%1$d stavki</item>
+        <item quantity="one">%1$d stavka</item>
+    </plurals>
+    <plurals name="global_wa_video">
+        <item quantity="other">%1$d stavki</item>
+        <item quantity="one">%1$d stavka</item>
+    </plurals>
+    <plurals name="global_wa_voice">
+        <item quantity="other">&lt;Data>Pronađeno &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> glasovnih poruka&lt;/Data></item>
+        <item quantity="one">&lt;Data>Pronađena &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> glasovna poruka&lt;/Data></item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Prije pola sata</item>
+    </plurals>
+    <plurals name="hint_similar_image_header_left">
+        <item quantity="other">Skupina: %d</item>
+        <item quantity="one">%d skupina</item>
+    </plurals>
+     <plurals name="hour">
+        <item quantity="other">%1$d sati</item>
+        <item quantity="one">%1$d sat</item>
+     </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Prije %1$d sati</item>
+        <item quantity="zero">Prije %1$d sati</item>
+        <item quantity="one">Prije %1$d sat</item>
+        <item quantity="two">Prije %1$d sata</item>
+        <item quantity="few">Prije %1$d sati</item>
+        <item quantity="many">Prije %1$d sati</item>
+    </plurals>
+    <plurals name="in_a_hour">
+         <item quantity="other">Za 1 sat</item>
+     </plurals>
+     <plurals name="in_half_hour">
+         <item quantity="other">Za pola sata</item>
+     </plurals>
+     <plurals name="in_less_than_one_minute">
+         <item quantity="other">Odmah</item>
+     </plurals>
+     <plurals name="in_num_minutes">
+         <item quantity="other">za %d min</item>
+         <item quantity="one">za 1 minutu</item>
+    </plurals>
+	 <plurals name="install_find_application">
+        <item quantity="other">Traži među %d aplikacija</item>
+        <item quantity="one">Traži među %d aplikacije</item>
+    </plurals>
+    <plurals name="install_find_application_num">
+        <item quantity="other">Pronađeno %d aplikacija</item>
+        <item quantity="one">Pronađena %d aplikacija</item>
+    </plurals>
+    <plurals name="last_x_day">
+        <item quantity="other">Zadnjih %d dana</item>
+        <item quantity="one">Zadnji %d dan</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Upravo sada</item>
+    </plurals>
+    <plurals name="million">
+        <item quantity="other">Preuzelo %1$d osoba</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">Prije %1$d min.</item>
+        <item quantity="zero">Prije %1$d min.</item>
+        <item quantity="one">Prije %1$d min.</item>
+        <item quantity="two">Prije %1$d min.</item>
+        <item quantity="few">Prije %1$d min.</item>
+        <item quantity="many">Prije %1$d min.</item>
+    </plurals>
+     <plurals name="minute">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+     </plurals>
+	<plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">odabrano %d stavki</item>
+        <item quantity="one">odabrana %d stavka</item>
+     </plurals>
+	<plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Izbriši %d instalacijskih paketa</item>
+        <item quantity="one">Izbriši %d instalacijski paket</item>
+    </plurals>	
+	<plurals name="num_minutes_ago">
+        <item quantity="other">prije %d min</item>
+        <item quantity="one">prije 1 minutu</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">Preuzelo %1$d osoba</item>
+		<item quantity="one">Preuzela %1$d osoba</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">Preuzelo %1$d osoba</item>
+		<item quantity="one">Preuzela %1$d osoba</item>
+    </plurals>
+	 <plurals name="resutl_function_install_app_summary">
+	 <item quantity="other">"&lt;font color=#ff0000 >%d&lt;/font> aplikacija nije korišteno duže vrijeme. Pogledaj."</item>
+	 <item quantity="one">"&lt;font color=#ff0000 >%d&lt;/font> aplikacija nije korišteno duže vrijeme. Pogledaj."</item>
+      </plurals>
+	 <plurals name="rs_clean_size_hint_image">
+        <item quantity="other">Dovoljno za %d fotografija</item>
+        <item quantity="one">Dovoljno za %d fotografiju</item>
+    </plurals>
+    <plurals name="rs_clean_size_hint_song">
+        <item quantity="other">Dovoljno za %d pjesama</item>
+        <item quantity="one">Dovoljno za %d pjesmu</item>
+    </plurals>
+     <plurals name="second">
+        <item quantity="other">%1$d sek</item>
+        <item quantity="one">%1$d sek</item>
+     </plurals>	
+     <plurals name="video_clean_scan_app_result">
+        <item quantity="other">%d aplikacija s predmemoriranim videozapisima</item>
+        <item quantity="one">%d aplikacija s predmemoriranim videozapisima</item>
+    </plurals>
+	<plurals name="view_num">
+        <item quantity="other">%1$s pregleda</item>
+        <item quantity="one">%1$s pregled</item>
+     </plurals>	
+    <plurals name="wechat_copy_video_failed_dialog_msg">
+        <item quantity="other">"Ne mogu izvesti %d videozapisa. Oslobodite nešto prostora i pokušajte ponovno."</item>
+        <item quantity="one">"Ne mogu izvesti %d videozapis. Oslobodite nešto prostora i pokušajte ponovno."</item>
+     </plurals>
+     <plurals name="wechat_empty_files">
+        <item quantity="other">(%1$d praznih datoteka)</item>
+        <item quantity="one">(%1$d prazna datoteka)</item>
+     </plurals>
+	<plurals name="wechat_video_time_p1">
+        <item quantity="other">%1$s:</item>
+		<item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="wechat_video_time_p2">
+        <item quantity="other">%1$s</item>
+		<item quantity="one">%1$s:</item>
+    </plurals>
+	<plurals name="whatsapp_delete_files">
+        <item quantity="other">Izbrisati stavke: %1$d?</item>
+        <item quantity="one">Izbrisati %1$d stavku?</item>
+    </plurals>
+	<plurals name="whatsapp_file_audio_dec">
+        <item quantity="other">%1$s audio datoteka</item>
+        <item quantity="one">%1$s audio datoteka</item>
+    </plurals>
+</resources>

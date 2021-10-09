@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_received_successfully">
+        <item quantity="other">تم استلام %2$d ملف من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d ملف من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d ملف من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d ملفات من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d ملفات من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d ملف من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d ملف</item>
+        <item quantity="zero">%1$d ملف</item>
+        <item quantity="one">%1$d ملف</item>
+        <item quantity="two">%1$d ملفات</item>
+        <item quantity="few">%1$d ملفات</item>
+        <item quantity="many">%1$d ملف</item>
+    </plurals>
+    <plurals name="image_received_successfully">
+        <item quantity="other">تم استلام %2$d صور من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d صورة من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d صورة من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d صور من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d صورة من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d صور من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d حزمة تثبيت (%3$s) من %1$s</item>
+        <item quantity="zero">%2$d حزمة تثبيت (%3$s) من %1$s</item>
+        <item quantity="one">%2$d حزمة تثبيت (%3$s) من %1$s</item>
+        <item quantity="two">%2$d حزم تثبيت (%3$s) من %1$s</item>
+        <item quantity="few">%2$d حزم تثبيت (%3$s) من %1$s</item>
+        <item quantity="many">%2$d حزمة تثبيت (%3$s) من %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">تم استلام %2$d حزمة تثبيت (%3$s) من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d حزمة تثبيت (%3$s) من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d حزمة تثبيت (%3$s) من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d حزم تثبيت (%3$s) من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d حزم تثبيت (%3$s) من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d حزمة تثبيت (%3$s) من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">جارٍ استلام %2$d حزمة تثبيت (%3$s) من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d حزمة تثبيت (%3$s) من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d حزمة تثبيت (%3$s) من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d حزم تثبيت (%3$s) من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d حزم تثبيت (%3$s) من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d حزمة تثبيت (%3$s) من %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d ملف صوتي (%3$s) من %1$s</item>
+        <item quantity="zero">%2$d ملف صوتي (%3$s) من %1$s</item>
+        <item quantity="one">%2$d ملف صوتي (%3$s) من %1$s</item>
+        <item quantity="two">%2$d ملفات صوتية (%3$s) من %1$s</item>
+        <item quantity="few">%2$d ملفات صوتية (%3$s) من %1$s</item>
+        <item quantity="many">%2$d ملف صوتي (%3$s) من %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">تم استلام %2$d ملف صوتي (%3$s) من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d ملف صوتي (%3$s) من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d ملف صوتي (%3$s) من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d ملفات صوتية (%3$s) من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d ملفات صوتية (%3$s) من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d ملف صوتي (%3$s) من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">جارٍ استلام %2$d ملف صوتي (%3$s) من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d ملف صوتي (%3$s) من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d ملف صوتي (%3$s) من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d ملفات صوتية (%3$s) من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d ملفات صوتية (%3$s) من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d ملف صوتي (%3$s) من %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d ملف %3$s (%4$s) من %1$s</item>
+        <item quantity="zero">%2$d ملف %3$s (%4$s) من %1$s</item>
+        <item quantity="one">%2$d ملف %3$s (%4$s) من %1$s</item>
+        <item quantity="two">%2$d ملفات %3$s (%4$s) من %1$s</item>
+        <item quantity="few">%2$d ملفات %3$s (%4$s) من %1$s</item>
+        <item quantity="many">%2$d ملف %3$s (%4$s) من %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">تم استلام %2$d ملف %3$s (%4$s) من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d ملف %3$s (%4$s) من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d ملف %3$s (%4$s) من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d ملفات %3$s (%4$s) من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d ملفات %3$s (%4$s) من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d ملف %3$s (%4$s) من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">جارٍ استلام %2$d ملف %3$s (%4$s) من …%1$s</item>
+        <item quantity="zero">جارٍ استلام %2$d ملف %3$s (%4$s) من …%1$s</item>
+        <item quantity="one">جارٍ استلام %2$d ملف %3$s (%4$s) من …%1$s</item>
+        <item quantity="two">جارٍ استلام %2$d ملفات %3$s (%4$s) من …%1$s</item>
+        <item quantity="few">جارٍ استلام %2$d ملفات %3$s (%4$s) من …%1$s</item>
+        <item quantity="many">جارٍ استلام %2$d ملف %3$s (%4$s) من …%1$s</item>
+    </plurals>
+    <plurals name="send_file_success_detail_files">
+        <item quantity="other">تم إرسال %1$s ملف بنجاح</item>
+        <item quantity="zero">تم إرسال %1$s ملف بنجاح</item>
+        <item quantity="one">تم إرسال %1$s ملف بنجاح</item>
+        <item quantity="two">تم إرسال %1$s ملفات بنجاح</item>
+        <item quantity="few">تم إرسال %1$s ملفات بنجاح</item>
+        <item quantity="many">تم إرسال %1$s ملف بنجاح</item>
+    </plurals>
+    <plurals name="send_file_success_detail_files_content">
+        <item quantity="other">تم نقل %1$d ملف إلى %2$s</item>
+        <item quantity="zero">تم نقل %1$d ملف إلى %2$s</item>
+        <item quantity="one">تم نقل %1$d ملف إلى %2$s</item>
+        <item quantity="two">تم نقل %1$d ملفات إلى %2$s</item>
+        <item quantity="few">تم نقل %1$d ملفات إلى %2$s</item>
+        <item quantity="many">تم نقل %1$d ملف إلى %2$s</item>
+    </plurals>
+    <plurals name="send_file_success_detail_images">
+        <item quantity="other">تم إرسال %1$s صورة بنجاح</item>
+        <item quantity="zero">تم إرسال %1$s صورة بنجاح</item>
+        <item quantity="one">تم إرسال %1$s صورة بنجاح</item>
+        <item quantity="two">تم إرسال %1$s صور بنجاح</item>
+        <item quantity="few">تم إرسال %1$s صور بنجاح</item>
+        <item quantity="many">تم إرسال %1$s صورة بنجاح</item>
+    </plurals>
+    <plurals name="send_file_success_detail_images_content">
+        <item quantity="other">تم نقل %1$d صورة إلى %2$s</item>
+        <item quantity="zero">تم نقل %1$d صورة إلى %2$s</item>
+        <item quantity="one">تم نقل %1$d صورة إلى %2$s</item>
+        <item quantity="two">تم نقل %1$d صور إلى %2$s</item>
+        <item quantity="few">تم نقل %1$d صور إلى %2$s</item>
+        <item quantity="many">تم نقل %1$d صورة إلى %2$s</item>
+    </plurals>
+    <plurals name="send_files_to_device_files">
+        <item quantity="other">جارٍ إعداد إرسال %2$d ملف إلى %1$s…</item>
+        <item quantity="zero">جارٍ إعداد إرسال %2$d ملف إلى %1$s…</item>
+        <item quantity="one">جارٍ إعداد إرسال %2$d ملف إلى %1$s…</item>
+        <item quantity="two">جارٍ إعداد إرسال %2$d ملفات إلى %1$s…</item>
+        <item quantity="few">جارٍ إعداد إرسال %2$d ملفات إلى %1$s…</item>
+        <item quantity="many">جارٍ إعداد إرسال %2$d ملف إلى %1$s…</item>
+    </plurals>
+    <plurals name="send_files_to_device_images">
+        <item quantity="other">جارٍ إعداد إرسال %2$d صورة إلى %1$s…</item>
+        <item quantity="zero">جارٍ إعداد إرسال %2$d صورة إلى %1$s…</item>
+        <item quantity="one">جارٍ إعداد إرسال %2$d صورة إلى %1$s…</item>
+        <item quantity="two">جارٍ إعداد إرسال %2$d صور إلى %1$s…</item>
+        <item quantity="few">جارٍ إعداد إرسال %2$d صور إلى %1$s…</item>
+        <item quantity="many">جارٍ إعداد إرسال %2$d صورة إلى %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d صورة من %1$s</item>
+        <item quantity="zero">%2$d صورة من %1$s</item>
+        <item quantity="one">%2$d صورة من %1$s</item>
+        <item quantity="two">%2$d صور من %1$s</item>
+        <item quantity="few">%2$d صور من %1$s</item>
+        <item quantity="many">%2$d صورة من %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">تم استلام %2$d صورة من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d صورة من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d صورة من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d صور من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d صور من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d صورة من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">جارٍ استلام %2$d صورة من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d صورة من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d صورة من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d صور من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d صور من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d صورة من %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d صورة أو فيديو من %1$s</item>
+        <item quantity="zero">%2$d صورة أو فيديو من %1$s</item>
+        <item quantity="one">%2$d صورة أو فيديو من %1$s</item>
+        <item quantity="two">%2$d صور أو فيديوهات من %1$s</item>
+        <item quantity="few">%2$d صور أو فيديوهات من %1$s</item>
+        <item quantity="many">%2$d صورة أو فيديو من %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">تم استلام %2$d صورة أو فيديو من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d صورة أو فيديو من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d صورة أو فيديو من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d صور أو فيديوهات من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d صور أو فيديوهات من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d صورة أو فيديو من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">جارٍ استلام %2$d صورة أو فيديو من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d صورة أو فيديو من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d صورة أو فيديو من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d صور أو فيديوهات من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d صور أو فيديوهات من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d صورة أو فيديو من %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d ملف من %1$s</item>
+        <item quantity="zero">%2$d ملف من %1$s</item>
+        <item quantity="one">%2$d ملف من %1$s</item>
+        <item quantity="two">%2$d ملفات من %1$s</item>
+        <item quantity="few">%2$d ملفات من %1$s</item>
+        <item quantity="many">%2$d ملف من %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">تم استلام %2$d ملف من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d ملف من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d ملف من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d ملفات من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d ملفات من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d ملف من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">جارٍ استلام %2$d ملف من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d ملف من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d ملف من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d ملفات من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d ملفات من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d ملف من %1$s…</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d فيديو من %1$s</item>
+        <item quantity="zero">%2$d فيديو من %1$s</item>
+        <item quantity="one">%2$d فيديو من %1$s</item>
+        <item quantity="two">%2$d فيديوهات من %1$s</item>
+        <item quantity="few">%2$d فيديوهات من %1$s</item>
+        <item quantity="many">%2$d فيديو من %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">تم استلام %2$d فيديو من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d فيديو من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d فيديو من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d فيديوهات من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d فيديوهات من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d فيديو من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">جارٍ استلام %2$d فيديو من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d فيديو من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d فيديو من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d فيديوهات من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d فيديوهات من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d فيديو من %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d أرشيف (%3$s) من %1$s</item>
+        <item quantity="zero">%2$d أرشيف (%3$s) من %1$s</item>
+        <item quantity="one">%2$d أرشيف (%3$s) من %1$s</item>
+        <item quantity="two">%2$d أرشيفات (%3$s) من %1$s</item>
+        <item quantity="few">%2$d أرشيفات (%3$s) من %1$s</item>
+        <item quantity="many">%2$d أرشيف (%3$s) من %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">تم استلام %2$d أرشيف (%3$s) من %1$s بنجاح</item>
+        <item quantity="zero">تم استلام %2$d أرشيف (%3$s) من %1$s بنجاح</item>
+        <item quantity="one">تم استلام %2$d أرشيف (%3$s) من %1$s بنجاح</item>
+        <item quantity="two">تم استلام %2$d أرشيفات (%3$s) من %1$s بنجاح</item>
+        <item quantity="few">تم استلام %2$d أرشيفات (%3$s) من %1$s بنجاح</item>
+        <item quantity="many">تم استلام %2$d أرشيف (%3$s) من %1$s بنجاح</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">جارٍ استلام %2$d أرشيف (%3$s) من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d أرشيف (%3$s) من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d أرشيف (%3$s) من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d أرشيف (%3$s) من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d أرشيف (%3$s) من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d أرشيف (%3$s) من %1$s…</item>
+    </plurals>
+    <plurals name="someone_send_file_to_you_files">
+        <item quantity="other">يرسل %1$s إليك %2$d ملف…</item>
+        <item quantity="zero">يرسل %1$s إليك %2$d ملف…</item>
+        <item quantity="one">يرسل %1$s إليك %2$d ملف…</item>
+        <item quantity="two">يرسل %1$s إليك %2$d ملفات…</item>
+        <item quantity="few">يرسل %1$s إليك %2$d ملفات…</item>
+        <item quantity="many">يرسل %1$s إليك %2$d ملف…</item>
+    </plurals>
+    <plurals name="someone_send_file_to_you_images">
+        <item quantity="other">يرسل %1$s إليك %2$d صورة…</item>
+        <item quantity="zero">يرسل %1$s إليك %2$d صورة…</item>
+        <item quantity="one">يرسل %1$s إليك %2$d صورة…</item>
+        <item quantity="two">يرسل %1$s إليك %2$d صور…</item>
+        <item quantity="few">يرسل %1$s إليك %2$d صور…</item>
+        <item quantity="many">يرسل %1$s إليك %2$d صورة…</item>
+    </plurals>
+    <plurals name="someone_send_somefile_files">
+        <item quantity="other">يرسل %1$s إليك %2$d ملف…</item>
+        <item quantity="zero">يرسل %1$s إليك %2$d ملف…</item>
+        <item quantity="one">يرسل %1$s إليك %2$d ملف…</item>
+        <item quantity="two">يرسل %1$s إليك %2$d ملفات…</item>
+        <item quantity="few">يرسل %1$s إليك %2$d ملفات…</item>
+        <item quantity="many">يرسل %1$s إليك %2$d ملف…</item>
+    </plurals>
+    <plurals name="someone_send_somefile_images">
+        <item quantity="other">يرسل %1$s إليك %2$d صورة…</item>
+        <item quantity="zero">يرسل %1$s إليك %2$d صورة…</item>
+        <item quantity="one">يرسل %1$s إليك %2$d صورة…</item>
+        <item quantity="two">يرسل %1$s إليك %2$d صور…</item>
+        <item quantity="few">يرسل %1$s إليك %2$d صور…</item>
+        <item quantity="many">يرسل %1$s إليك %2$d صورة…</item>
+    </plurals>
+    <plurals name="start_receive_files_files">
+        <item quantity="other">جارٍ استلام %2$d ملف من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d ملف من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d ملف من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d ملفات من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d ملفات من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d ملف من %1$s…</item>
+    </plurals>
+    <plurals name="start_receive_files_images">
+        <item quantity="other">جارٍ استلام %2$d صورة من %1$s…</item>
+        <item quantity="zero">جارٍ استلام %2$d صورة من %1$s…</item>
+        <item quantity="one">جارٍ استلام %2$d صورة من %1$s…</item>
+        <item quantity="two">جارٍ استلام %2$d صور من %1$s…</item>
+        <item quantity="few">جارٍ استلام %2$d صور من %1$s…</item>
+        <item quantity="many">جارٍ استلام %2$d صورة من %1$s…</item>
+    </plurals>
+    <plurals name="start_send_files_to_device_files">
+        <item quantity="other">جارٍ إرسال %2$d ملف إلى %1$s…</item>
+        <item quantity="zero">جارٍ إرسال %2$d ملف إلى %1$s…</item>
+        <item quantity="one">جارٍ إرسال %2$d ملف إلى %1$s…</item>
+        <item quantity="two">جارٍ إرسال %2$d ملفات إلى %1$s…</item>
+        <item quantity="few">جارٍ إرسال %2$d ملفات إلى %1$s…</item>
+        <item quantity="many">جارٍ إرسال %2$d ملف إلى %1$s…</item>
+    </plurals>
+    <plurals name="start_send_files_to_device_images">
+        <item quantity="other">جارٍ إرسال %2$d صور إلى %1$s…</item>
+        <item quantity="zero">جارٍ إرسال %2$d صورة إلى %1$s…</item>
+        <item quantity="one">جارٍ إرسال %2$d صورة إلى %1$s…</item>
+        <item quantity="two">جارٍ إرسال %2$d صورة إلى %1$s…</item>
+        <item quantity="few">جارٍ إرسال %2$d صورة إلى %1$s…</item>
+        <item quantity="many">جارٍ إرسال %2$d صور إلى %1$s…</item>
+    </plurals>
+    <plurals name="success_receive_file_files">
+        <item quantity="other">تم استلام %2$d ملف من %1$s. انقر للعرض.</item>
+        <item quantity="zero">تم استلام %2$d ملف من %1$s. انقر للعرض.</item>
+        <item quantity="one">تم استلام %2$d ملف من %1$s. انقر للعرض.</item>
+        <item quantity="two">تم استلام %2$d ملفات من %1$s. انقر للعرض.</item>
+        <item quantity="few">تم استلام %2$d ملفات من %1$s. انقر للعرض.</item>
+        <item quantity="many">تم استلام %2$d ملف من %1$s. انقر للعرض.</item>
+    </plurals>
+    <plurals name="success_receive_file_images">
+        <item quantity="other">تم استلام %2$d صورة من %1$s. انقر للعرض.</item>
+        <item quantity="zero">تم استلام %2$d صورة من %1$s. انقر للعرض.</item>
+        <item quantity="one">تم استلام %2$d صورة من %1$s. انقر للعرض.</item>
+        <item quantity="two">تم استلام %2$d صور من %1$s. انقر للعرض.</item>
+        <item quantity="few">تم استلام %2$d صور من %1$s. انقر للعرض.</item>
+        <item quantity="many">تم استلام %2$d صورة من %1$s. انقر للعرض.</item>
+    </plurals>
+    <plurals name="successfully_sent_files">
+        <item quantity="other">تم إرسال %2$d ملف إلى %1$s بنجاح</item>
+        <item quantity="zero">تم إرسال %2$d ملف إلى %1$s بنجاح</item>
+        <item quantity="one">تم إرسال %2$d ملف إلى %1$s بنجاح</item>
+        <item quantity="two">تم إرسال %2$d ملفات إلى %1$s بنجاح</item>
+        <item quantity="few">تم إرسال %2$d ملفات إلى %1$s بنجاح</item>
+        <item quantity="many">تم إرسال %2$d ملف إلى %1$s بنجاح</item>
+    </plurals>
+    <plurals name="successfully_sent_images">
+        <item quantity="other">تم إرسال %2$d صورة إلى %1$s بنجاح</item>
+        <item quantity="zero">تم إرسال %2$d صورة إلى %1$s بنجاح</item>
+        <item quantity="one">تم إرسال %2$d صورة إلى %1$s بنجاح</item>
+        <item quantity="two">تم إرسال %2$d صور إلى %1$s بنجاح</item>
+        <item quantity="few">تم إرسال %2$d صور إلى %1$s بنجاح</item>
+        <item quantity="many">تم إرسال %2$d صورة إلى %1$s بنجاح</item>
+    </plurals>
+</resources>

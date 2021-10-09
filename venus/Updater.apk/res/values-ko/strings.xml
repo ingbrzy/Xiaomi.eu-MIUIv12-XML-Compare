@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">업데이트</string>
+    <string name="battery_islow">&lt;font color=#f37981&gt;충전기 연결 필요&lt;/font&gt;</string>
+    <string name="battery_islow_desc">ROM 파일을 안전하게 설치하기 위해 충전기를 연결하고 나중에 다시 시도하세요!</string>
+    <string name="btn_changelog">변경내역</string>
+    <string name="btn_download">다운로드 (%1$s)</string>
+    <string name="btn_error">오류 발생, 다시 시도하시겠습니까?</string>
+    <string name="btn_install">MD5 확인 &amp; 설치</string>
+    <string name="btn_no">취소</string>
+    <string name="btn_ok">확인</string>
+    <string name="btn_pause">일시중지</string>
+    <string name="btn_share">공유</string>
+    <string name="btn_stop">중단</string>
+    <string name="btn_wrong_md5">잘못된 MD5, 클릭하여 ROM을 제거하세요!</string>
+    <string name="btn_yes">확인</string>
+    <string name="channel_downloading">다운로드 진행 상태</string>
+    <string name="channel_service">업데이트 백그라운드 서비스</string>
+    <string name="channel_update">새로운 버전 발견</string>
+    <string name="check_new_version">업데이트 확인</string>
+    <string name="default_filedownloader_notification_content">파일을 다운로드 중입니다.</string>
+    <string name="default_filedownloader_notification_title">파일 다운로드</string>
+    <string name="dialog_3g_desc">모바일 데이터로 ROM을 다운로드하면 상당량의 패킷이 사용됩니다.</string>
+    <string name="dialog_3g_title">경고!</string>
+    <string name="dialog_btn_3g">그래도 계속</string>
+    <string name="dialog_btn_wifi">Wi-Fi로 전환</string>
+    <string name="dialog_stop_desc">다운로드를 일시중지하거나 중단할 수 있습니다. 선택하세요.</string>
+    <string name="dialog_stop_title">다운로드 중단?</string>
+    <string name="dialog_twrp">내부 저장소가 암호화되어 있습니다. 복구 모드로 다시 시작하면 기기의 잠금해제 비밀번호를 입력하세요.</string>
+    <string name="download_done">다운로드 완료!</string>
+    <string name="download_fail">다운로드 실패!</string>
+    <string name="download_fail_desc">MD5가 일치하지 않습니다…</string>
+    <string name="downloading">다운로드 중:</string>
+    <string name="downloading_desc">다운로드 중입니다. 알림 영역에서 진행 상태를 확인하세요.</string>
+    <string name="fetching_data">다운로드 링크를 가져오는 중입니다. 잠시만 기다리세요…</string>
+    <string name="install_desc">
+        <b>%1$s</b>
+    </string>
+    <string name="install_title">계속하시겠습니까?</string>
+    <string name="menu_title_current_version_log">새 소식</string>
+    <string name="menu_title_pick_rom_file">업데이트 패키지 선택</string>
+    <string name="menu_title_recovery">복구 모드로 다시 시작</string>
+    <string name="menu_title_show_notifications">알림 표시</string>
+    <string name="message_checkbox">다음부터 Xiaomi.eu 팀의 메시지 숨기기</string>
+    <string name="message_checkbox_device">다시 보지 않기</string>
+    <string name="message_title">알림!</string>
+    <string name="new_version">새로운 버전을 발견했습니다!</string>
+    <string name="no_info">정보가 없습니다.</string>
+    <string name="no_mirror">현재 모든 미러가 오프라인 상태입니다. 나중에 다시 시도하세요…</string>
+    <string name="no_network">네트워크에 연결할 수 없습니다.</string>
+    <string name="no_update">최신 버전입니다!</string>
+    <string name="no_xioamieu">"Xiaomi.eu 팀이 제작한 MIUI ROM이 아닙니다!
+업데이트를 사용할 수 없습니다!"</string>
+    <string name="notif_cancel">취소</string>
+    <string name="notif_install">설치</string>
+    <string name="notif_new_summary">자세한 내용을 보려면 탭하세요.</string>
+    <string name="notif_new_title">새로운 버전 발견!</string>
+    <string name="notif_service_summary">\"백그라운드 서비스\" 알림을 끄려면 길게 누르세요!</string>
+    <string name="notif_service_title">앱이 백그라운드에서 실행 중…</string>
+    <string name="notifications_switch">알림 표시</string>
+    <string name="permdesc_cache_filesystem">앱이 /cache 경로에 파일을 쓸 수 있게 합니다.</string>
+    <string name="permdesc_reboot">앱이 기기를 다시 시작하도록 허용합니다.</string>
+    <string name="permlab_cache_filesystem">캐시 권한</string>
+    <string name="permlab_reboot">다시 시작 권한</string>
+    <string name="pick_not_found">적합한 파일 탐색기를 찾을 수 없습니다.</string>
+    <string name="pick_title">설치 파일 선택</string>
+    <string name="recovery_desc">복구 모드에 대해 잘 모른다면 취소 버튼을 누르세요. 확인 버튼을 누르면 기기가 복구 모드로 다시 시작됩니다. 계속하시겠습니까?</string>
+    <string name="server_error">서버가 응답하지 않아 앱이 제대로 작동하지 않을 수 있습니다! </string>
+    <string name="share_desc">MIUI 버전이 %1$s로 업데이트되었습니다! 최신 변경내역 확인: %2$s </string>
+    <string name="share_title">공유</string>
+    <string name="stable">안정 ROM</string>
+    <string name="version">현재 설치된 버전:</string>
+    <string name="weekly">주간 ROM</string>
+    <string name="wifi_recommended">Wi-Fi가 연결되어있지 않아서 안전하게 다운로드를 시작할 수 없습니다!</string>
+</resources>

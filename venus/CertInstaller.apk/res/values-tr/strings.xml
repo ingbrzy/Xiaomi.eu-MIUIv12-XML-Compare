@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="action_missing_private_key">Sertifika yüklemek için özel anahtar gerekiyor</string>
+  <string name="action_missing_user_cert">Özel anahtar yüklemek için sertifika gerekli</string>
+  <string name="app_name">Sertifika Yükleyici</string>
+  <string name="ca_cert_is_added">CA sertifikası yüklendi</string>
+  <string name="ca_certificate">CA sertifikası</string>
+  <string name="cert_is_added">%s yüklendi.</string>
+  <string name="cert_missing_error">Sertifika dosyası bulunamadığından yüklenemedi.</string>
+  <string name="cert_not_saved">Sertifika yüklü değil.</string>
+  <string name="cert_read_error">Sertifika dosyası okunamadığından yüklenemedi.</string>
+  <string name="cert_temp_error">Geçici arıza. Lütfen daha sonra tekrar deneyiniz.</string>
+  <string name="cert_too_large_error">Sertifika boyutu çok büyük olduğundan yüklenemedi.</string>
+  <string name="certificate">Sertifika</string>
+  <string name="certificate_capabilities_warning">Not: Bu sertifikayı veren kuruluş, cihaza giden ve cihazdan gelen tüm trafiği denetleyebilir.</string>
+  <string name="certificate_name">Sertifika adı</string>
+  <string name="credential_info">Paket şunları içerir:</string>
+  <string name="credential_name">Sertifika adı:</string>
+  <string name="credential_password">Sertifikaları ayıklamak için şifreyi yazın.</string>
+  <string name="credential_usage_label">Kimlik bilgisi kullanımı:</string>
+  <string name="done_label">TAMAM</string>
+  <string name="extracting_pkcs12">Ayıklanıyor…</string>
+  <string name="install_done">%1$s kimlik bilgileri kaydedilen WLAN ağlarına eklendi.</string>
+  <string name="install_done_title">Kimlik bilgileri yüklendi</string>
+  <string name="invalid_cert">Sertifika geçersiz.</string>
+  <string name="invalid_certificate_close_button">Kapat</string>
+  <string name="invalid_certificate_message">Bu dosya %1$s olarak kullanılamaz</string>
+  <string name="invalid_certificate_title">Bu dosya kullanılamıyor</string>
+  <string name="n_cacrts">%d CA sertifikası</string>
+  <string name="name_char_error">Sadece harf ve sayı içeren bir ad yazın.</string>
+  <string name="name_credential_dialog_title">Bu sertifikayı adlandırın</string>
+  <string name="name_empty_error">Bir ad yazın.</string>
+  <string name="no_cert_to_saved">Yüklenecek sertifika yok.</string>
+  <string name="one_cacrt">bir CA sertifikası</string>
+  <string name="one_usercrt">bir kullanıcı sertifikası</string>
+  <string name="one_userkey">bir kullanıcı anahtarı</string>
+  <string name="only_primary_user_allowed">Sadece bu cihazın sahibi sertifika yükleyebilir.</string>
+  <string name="p12_description">PKCS12 anahtar deposundaki sertifikalar.</string>
+  <string name="password_empty_error">Şifreyi yazın.</string>
+  <string name="password_error">Doğru şifreyi yazın.</string>
+  <string name="pick_file_title">Bir sertifika seçin</string>
+  <string name="pkcs12_file_password_dialog_title">%s konumundan ayıkla</string>
+  <string name="pkcs12_password_dialog_title">Sertifikayı ayıkla</string>
+  <string name="redirect_ca_certificate_close_button">Kapat</string>
+  <string name="redirect_ca_certificate_message">CA sertifikaları gizliliğinizi riske atabilir ve Ayarlar\'a yüklenmesi gerekir</string>
+  <string name="redirect_ca_certificate_title">CA sertifikalarını Ayarlar\'da yükleyin</string>
+  <string name="redirect_ca_certificate_with_app_info_message">%1$s tarafından sağlanan bu sertifika Ayarlar\'da yüklenmelidir. Yalnızca güvendiğiniz kuruluşlardan CA sertifikaları yükleyin.</string>
+  <string name="select_certificate_usage_title">Bir sertifika türü seçin</string>
+  <string name="unable_to_save_cert">Sertifika kaydedilemedi. Kimlik bilgisi deposu etkinleştirilmedi veya düzgün şekilde başlatılmadı.</string>
+  <string name="user_cert_is_added">Kullanıcı sertifikası yüklendi</string>
+  <string name="user_certificate">VPN &amp; uygulama kullanıcı sertifikası</string>
+  <string name="userkey_type">Algoritma:</string>
+  <string name="wifi_cancel_label">İptal</string>
+  <string name="wifi_cert_is_added">Wi-Fi sertifikası yüklendi</string>
+  <string name="wifi_certificate">Wi‑Fi sertifikası</string>
+  <string name="wifi_config_text">"Adı: %1$s
+FQDN: %2$s
+Dolaşım Konsorsiyumları: %3$s
+Alan: %4$s
+Yetkilendirme yöntemi: EAP-%5$s
+"</string>
+  <string name="wifi_detail_label">Ayrıntılar</string>
+  <string name="wifi_detail_title">%s ayrıntıları</string>
+  <string name="wifi_dismiss_label">Kapat</string>
+  <string name="wifi_install_label">Yükle</string>
+  <string name="wifi_installer_detail">%1$s üzerinden kullanılabilir ağlara bağlanmak için WLAN kimlik bilgilerini yükleyin.</string>
+  <string name="wifi_installer_download_error">İndirilen dosyada sorunlar var ve yüklenemiyor. Dosyayı doğru kaynaktan indirdiğinizden emin olun.</string>
+  <string name="wifi_installer_fail">WLAN kimlik bilgileri yüklenemiyor. Dosyayı yeniden indirmeyi deneyin.</string>
+  <string name="wifi_installer_fail_no_wifi">WLAN\'ı açın ve yeniden deneyin.</string>
+  <string name="wifi_installer_fail_no_wifi_title">Yükleme iptal edildi</string>
+  <string name="wifi_installer_fail_title">Yüklenemiyor</string>
+  <string name="wifi_installing_label">Yükleniyor</string>
+  <string name="wifi_no_config">Yok</string>
+  <string name="wifi_sim_config_text">"SIM: %s
+"</string>
+  <string name="wifi_title">WLAN Profile</string>
+  <string name="wifi_tls_config_text">"İstemci sertifikası:
+%1$s
+Anahtar: %2$s
+"</string>
+  <string name="wifi_trust_config_text">"Güvenli sertifika:
+%s
+"</string>
+  <string name="wifi_ttls_config_text">"Kullanıcı adı: %s
+"</string>
+</resources>

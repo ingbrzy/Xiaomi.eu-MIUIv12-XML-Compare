@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow_backup_button_label">Copia de seguridad de mis datos</string>
+    <string name="allow_restore_button_label">Restaurar mis datos</string>
+    <string name="backup_confirm_text">"Se ha solicitado una copia de seguridad completa de todos los datos en un ordenador conectado. ¿Quieres permitir la copia de seguridad?
+
+No debes permitir la copia de seguridad si no has realizado tú la solicitud."</string>
+    <string name="backup_confirm_title">Copia de seguridad completa</string>
+    <string name="backup_enc_password_optional">Si quieres cifrar los datos de la copia de seguridad completa, introduce la contraseña a continuación:</string>
+    <string name="backup_enc_password_required">Tu dispositivo está cifrado, por lo que debes cifrar tu copia de seguridad. Introduce una contraseña a continuación:</string>
+    <string name="backup_enc_password_text">Introduce la contraseña que quieras usar para cifrar los datos de la copia de seguridad completa. Si dejas este campo en blanco, se usará tu contraseña de copia de seguridad actual:</string>
+    <string name="current_password_text">Introduce a continuación la contraseña actual de copia de seguridad:</string>
+    <string name="deny_backup_button_label">No hacer copia de seguridad</string>
+    <string name="deny_restore_button_label">No restaurar</string>
+    <string name="device_encryption_backup_text">Introduce a continuación la contraseña de cifrado del dispositivo. Esta contraseña se usará también para cifrar el archivo de copia de seguridad.</string>
+    <string name="device_encryption_restore_text">Introduce a continuación la contraseña de cifrado del dispositivo.</string>
+    <string name="restore_confirm_text">"Se ha solicitado una restauración completa de todos los datos desde un ordenador conectado. ¿Quieres permitir la restauración?
+
+No debes permitir la restauración si no has realizado tú la solicitud. Se sustituirán los datos actuales del dispositivo."</string>
+    <string name="restore_confirm_title">Restauración completa</string>
+    <string name="restore_enc_password_text">Si los datos de restauración están cifrados, introduce la contraseña a continuación:</string>
+    <string name="toast_backup_ended">Copia de seguridad finalizada</string>
+    <string name="toast_backup_started">Iniciando copia de seguridad...</string>
+    <string name="toast_restore_ended">Restauración finalizada</string>
+    <string name="toast_restore_started">Iniciando restauración...</string>
+    <string name="toast_timeout">Tiempo de espera de operación agotado</string>
+</resources>

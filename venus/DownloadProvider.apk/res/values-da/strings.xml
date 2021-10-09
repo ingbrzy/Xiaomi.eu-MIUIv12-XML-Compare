@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Download</string>
+    <string name="button_cancel_download">Annuller</string>
+    <string name="button_queue_for_wifi">Kø</string>
+    <string name="button_start_now">Start nu</string>
+    <string name="download_error">Kunne ikke downloade</string>
+    <string name="download_filesize_unknown">Ukendt</string>
+    <string name="download_no_application_title">Kan ikke åbne fil</string>
+    <string name="download_queued">I kø</string>
+    <string name="download_remaining">%s tilbage</string>
+    <string name="download_running">Downloader</string>
+    <string name="download_unknown_title">&lt;Uden overskrift></string>
+    <string name="notif_title_file_size">%1$d i alt</string>
+    <string name="notif_title_single_downloading">Downloader %1$s</string>
+    <string name="notification_dld_msg">Administrer apps, der bliver downloadet</string>
+    <string name="notification_download_complete">Downloadet med succes.</string>
+    <string name="notification_download_failed">Kunne ikke download emner.</string>
+    <string name="notification_need_wifi_for_size">Downloadets størrelse kræver Wi-Fi.</string>
+    <string name="notification_paused_in_background">Sat på pause i baggrunden.</string>
+    <string name="paused_waiting_for_network">Venter på netværk</string>
+    <string name="permdesc_accessAllDownloads">Tillader, at appen kan se og ændre alle downloads, der er startet af enhver app.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Tillader, at appen kan downloade filer til download-cachen, som ikke kan slettes automatisk, når download-manageren har brug for mere plads.</string>
+    <string name="permdesc_downloadCompletedIntent">Tillader, at appen sender meddelelser om færdiggjorte downloads. Ondsindede apps kan bruge dette til at forvirre andre apps, der henter filer.</string>
+    <string name="permdesc_downloadManager">Tillader, at appen får adgang til downloads og bruger den til at downloade filer. Ondsindede apps kan bruge dette til at forstyrre downloads og få adgang til privat information.</string>
+    <string name="permdesc_downloadManagerAdvanced">Giver appen adgang til de avancerede funktioner i download. Ondsindede apps kan bruge dette til at forstyrre downloads og få adgang til privat information.</string>
+    <string name="permdesc_downloadWithoutNotification">Tillader, at appen kan downloade filer uden nogen beskeder vist til brugeren.</string>
+    <string name="permdesc_seeAllExternal">Tillader, at appen kan se alle downloads til SD-kortet, uanset hvilken app der downloadede dem.</string>
+    <string name="permlab_accessAllDownloads">Få adgang til alle systemdownloads</string>
+    <string name="permlab_downloadCacheNonPurgeable">Reserver plads i download-cachen</string>
+    <string name="permlab_downloadCompletedIntent">Send downloadmeddelelser.</string>
+    <string name="permlab_downloadManager">Få adgang til download.</string>
+    <string name="permlab_downloadManagerAdvanced">Avancerede funktioner i download.</string>
+    <string name="permlab_downloadWithoutNotification">Download filer uden meddelelse</string>
+    <string name="permlab_seeAllExternal">Se alle downloads til USB-lagring</string>
+    <string name="root_downloads">Download</string>
+    <string name="wifi_recommended_body">"Ved at starte denne %1$s download nu kan det forkorte dit batteris levetid og/eller resultere i overdrevent brug af din mobile dataforbindelse, hvilket kan lede til ekstra gebyrer fra din teleudbyder, afhængigt af din dataplan.
+
+Ttryk på %2$s for at starte denne download næste gang du er tilsluttet et Wi-Fi-netværk."</string>
+    <string name="wifi_recommended_title">Sæt i kø for at downloade senere?</string>
+    <string name="wifi_required_body">"Tilslut til Wi-Fi for at færdiggøre dette %1$s download. 
+
+Tryk %2$s for at starte denne download, næste gang du er tilsluttet til et Wi-Fi-netværk."</string>
+    <string name="wifi_required_title">Filen er for stor til at downloade ved hjælp af mobildata.</string>
+</resources>

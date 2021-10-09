@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Nedladdningar</string>
+    <string name="button_cancel_download">Avbryt</string>
+    <string name="button_queue_for_wifi">Kö</string>
+    <string name="button_start_now">Börja nu</string>
+    <string name="download_error">Det gick inte att ladda ner</string>
+    <string name="download_filesize_unknown">Okänd</string>
+    <string name="download_no_application_title">Kan inte öppna filen</string>
+    <string name="download_queued">Köad</string>
+    <string name="download_remaining">%s återstår</string>
+    <string name="download_running">Laddar ned</string>
+    <string name="download_unknown_title">&lt;Okänd></string>
+    <string name="notif_title_file_size">%1$d totalt</string>
+    <string name="notif_title_single_downloading">Laddar ned %1$s</string>
+    <string name="notification_dld_msg">Hantera appar som håller på att laddas ner</string>
+    <string name="notification_download_complete">Nedladdning lyckades.</string>
+    <string name="notification_download_failed">Kunde inte ladda ned objekten.</string>
+    <string name="notification_need_wifi_for_size">Nedladdningsstorlek kräver Wi-Fi.</string>
+    <string name="notification_paused_in_background">Pausad i bakgrunden.</string>
+    <string name="paused_waiting_for_network">Väntar på nätverk</string>
+    <string name="permdesc_accessAllDownloads">Tillåter appen att visa och ändra alla nedladdningar som är initierad av någon app i systemet.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Tillåt appen att ladda ner filer till nedladdningscachen som kan automatiskt rensas om nedladdningshanteraren behöver mer utrymme.</string>
+    <string name="permdesc_downloadCompletedIntent">Tillåt appen att skicka notifikationer när nedladdningen är klar. Skadliga appar kan använda detta för lura andra appar att laddar ner filer.</string>
+    <string name="permdesc_downloadManager">Tillåt appen att få tillgång till Nedladdningshanteraren och använda den för att ladda ner filer. Skadliga appar kan använda detta för avbryta nedladdningar och få tillgång till privat information.</string>
+    <string name="permdesc_downloadManagerAdvanced">Tillåt appen att få tillgång till nedladdningshanteraren och använda den för att ladda ner filer. Skadliga appar kan använda detta för avbryta nedladdningar och få tillgång till privat information.</string>
+    <string name="permdesc_downloadWithoutNotification">Tillåt appen att ladda ner filer utan att några notifikationer visas för användaren.</string>
+    <string name="permdesc_seeAllExternal">Tillåter appen att visa alla nedladdningar gjorda till SD-kortet oavsett vilken app som har laddat ner dem.</string>
+    <string name="permlab_accessAllDownloads">Få tillgång till alla systemnedladdningar</string>
+    <string name="permlab_downloadCacheNonPurgeable">Reservera utrymme i nedladdningscachen</string>
+    <string name="permlab_downloadCompletedIntent">Skicka notifikationer för nedladdningar.</string>
+    <string name="permlab_downloadManager">Få tillgång till Nedladdningshanteraren.</string>
+    <string name="permlab_downloadManagerAdvanced">Avancerade funktioner för Nedladdningar.</string>
+    <string name="permlab_downloadWithoutNotification">Ladda ner filer utan notifikationer</string>
+    <string name="permlab_seeAllExternal">Visa alla nedladdningar till USB-lagringen</string>
+    <string name="root_downloads">Nedladdningar</string>
+    <string name="wifi_recommended_body">"Att starta denna %1$s nedladdning nu kan förkorta livslängden på ditt batteri och/eller resultera i överdriven användning av din mobildata vilket kan leda till avgifter från din operatör beroende på ditt abonnemang.
+
+Tryck %2$s för att starta nedladdningen nästa gång du är ansluten till Wi-Fi nätverk."</string>
+    <string name="wifi_recommended_title">Köa för nedladdning senare?</string>
+    <string name="wifi_required_body">"Anslut till Wi-Fi för att slutföra denna %1$s nedladdning. 
+
+Tryck %2$s för att starta denna nedladdning nästa gång du är ansluten till Wi-Fi."</string>
+    <string name="wifi_required_title">Filen är för stor för att ladda ner med mobildata</string>
+</resources>

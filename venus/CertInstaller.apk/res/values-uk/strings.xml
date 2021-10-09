@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_missing_private_key">Щоб установити сертифікат, потрібен секретний ключ</string>
+    <string name="action_missing_user_cert">Щоб установити секретний ключ, потрібен сертифікат</string>
+    <string name="app_name">Прогр. встан. серт-тів</string>
+    <string name="ca_cert_is_added">Сертифікат ЦС установлено</string>
+    <string name="ca_certificate">Сертифікат ЦС</string>
+    <string name="cert_missing_error">"Не вдалося встановити, оскільки неможливо знайти файл сертифіката."</string>
+    <string name="cert_not_saved">Сертифікат не встановлено.</string>
+    <string name="cert_read_error">"Не вдалося встановити, оскільки неможливо зчитати файл сертифіката."</string>
+    <string name="cert_temp_error">Тимчасова помилка. Повторіть спробу.</string>
+    <string name="cert_too_large_error">"Не вдалося встановити, оскільки розмір сертифіката завеликий."</string>
+    <string name="certificate">Сертифікат</string>
+    <string name="certificate_capabilities_warning">Примітка. Видавець цього сертифіката може перевіряти весь трафік із пристрою.</string>
+    <string name="certificate_name">Назва сертифіката</string>
+    <string name="credential_info">Пакет містить:</string>
+    <string name="credential_password">Введіть пароль, щоб видобути сертифікати.</string>
+    <string name="credential_usage_label">Використання облікових даних:</string>
+    <string name="done_label">ГОТОВО</string>
+    <string name="extracting_pkcs12">Видобування...</string>
+
+
+  <string name="fmt_date_long_month">MMMM</string>
+  <string name="fmt_date_long_month_day">d MMMM</string>
+  <string name="fmt_date_long_year_month">MMMM, yyyy</string>
+  <string name="fmt_date_long_year_month_day">d MMMM, yyyy</string>
+  <string name="fmt_date_numeric_month_day">d.M.</string>
+  <string name="fmt_date_numeric_year">yyyy</string>
+  <string name="fmt_date_numeric_year_month">M-yyyy</string>
+  <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d MMM</string>
+  <string name="fmt_date_short_year_month">MMM, yyyy</string>
+  <string name="fmt_date_short_year_month_day">d MMM, yyyy</string>
+    <string name="install_done">Облікові дані для мережі \"%1$s\" додано до збережених мереж Wi-Fi.</string>
+    <string name="install_done_title">Облікові дані встановлено</string>
+    <string name="invalid_cert">Сертифікат недійсний.</string>
+    <string name="invalid_certificate_close_button">Закрити</string>
+    <string name="invalid_certificate_message">"Цей файл не можна використовувати з такою ціллю (%1$s)"</string>
+    <string name="invalid_certificate_title">"Не вдається використати цей файл"</string>
+    <string name="n_cacrts">%d сертифікати ЦА</string>
+    <string name="name_char_error">Введіть назву, яка містить лише літери та цифри.</string>
+    <string name="name_credential_dialog_title">Дайте назву цьому сертифікату</string>
+    <string name="name_empty_error">Введіть назву.</string>
+    <string name="no_cert_to_saved">Немає сертиф. для встановл.</string>
+    <string name="one_cacrt">один сертифікат ЦС</string>
+    <string name="one_usercrt">один сертифікат корист.</string>
+    <string name="one_userkey">один ключ корист.</string>
+    <string name="only_primary_user_allowed">Лише власник цього пристрою може встановлювати сертифікати.</string>
+    <string name="p12_description">Сертиф-ти в сховищі ключів PKCS12.</string>
+    <string name="password_empty_error">Введіть пароль.</string>
+    <string name="password_error">Введіть правильний пароль.</string>
+    <string name="pick_file_title">Вибрати сертифікат</string>
+    <string name="pkcs12_file_password_dialog_title">Отримати з %s</string>
+    <string name="pkcs12_password_dialog_title">Отримати сертифікат</string>
+    <string name="redirect_ca_certificate_close_button">Закрити</string>
+    <string name="redirect_ca_certificate_title">Установіть сертифікат центру сертифікації в налаштуваннях</string>
+    <string name="redirect_ca_certificate_with_app_info_message">Сертифікат додатка %1$s потрібно встановити в налаштуваннях. Установлюйте сертифікати ЦС тільки від тих організацій, яким довіряєте.</string>
+    <string name="select_certificate_usage_title">Виберіть тип сертифіката</string>
+    <string name="unable_to_save_cert">"Не вдалося зберегти сертифікат. Сховище облікових даних не ввімкнено або не ініціалізовано належним чином."</string>
+    <string name="user_cert_is_added">Сертифікат користувача встановлено</string>
+    <string name="user_certificate">VPN і сертифікат користувача</string>
+    <string name="userkey_type">Алгоритм:</string>
+    <string name="wifi_cancel_label">Скасувати</string>
+    <string name="wifi_cert_is_added">Сертифікат Wi‑Fi установлено</string>
+    <string name="wifi_certificate">Сертифікат Wi‑Fi</string>
+    <string name="wifi_config_text">"Назва: %1$s
+FQDN: %2$s
+Консорціуми з питань роумінгу: %3$s
+Країна: %4$s
+Метод автентифікації: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">Деталі</string>
+    <string name="wifi_detail_title">%s: деталі</string>
+    <string name="wifi_dismiss_label">Закрити</string>
+    <string name="wifi_install_label">Установити</string>
+    <string name="wifi_installer_detail">Установіть облікові дані для Wi-Fi, щоб під’єднуватися до доступних мереж через мережу \"%1$s\".</string>
+    <string name="wifi_installer_download_error">"Не вдається встановити завантажений файл. Переконайтеся, що ви завантажили його з потрібного джерела."</string>
+    <string name="wifi_installer_fail">"Не вдається встановити облікові дані для Wi-Fi. Завантажте файл знову."</string>
+    <string name="wifi_installer_fail_no_wifi">Увімкніть Wi-Fi та повторіть спробу.</string>
+    <string name="wifi_installer_fail_no_wifi_title">Встановлення скасовано</string>
+    <string name="wifi_installer_fail_title">"Не встановлено"</string>
+    <string name="wifi_installing_label">Встановлення</string>
+    <string name="wifi_no_config">Немає</string>
+    <string name="wifi_sim_config_text">"SIM: %s
+"</string>
+    <string name="wifi_title">Профіль мережі Wi-Fi</string>
+    <string name="wifi_tls_config_text">"Сертифікат клієнта:
+%1$s
+Ключ: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"Сертифікат довіреної особи чи компанії:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"Ім’я користувача: %s
+"</string>
+</resources>  

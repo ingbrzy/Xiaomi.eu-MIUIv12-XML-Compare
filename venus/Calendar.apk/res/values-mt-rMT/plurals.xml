@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Ndays">
+        <item quantity="other">%d(-il) jum qabel</item>
+        <item quantity="one">jum (%d) qabel</item>
+        <item quantity="few">%d ijiem qabel</item>
+        <item quantity="many">%d(-il) jum qabel</item>
+    </plurals>
+    <plurals name="Ndays_after_at">
+        <item quantity="other">Fi żmien %1$d(-il) jum - %2$s</item>
+        <item quantity="one">"F'jum wieħed (%1$d) - %2$s"</item>
+        <item quantity="few">Fi żmien %1$d ijiem - %2$s</item>
+        <item quantity="many">Fi żmien %1$d(-il) jum - %2$s</item>
+    </plurals>
+    <plurals name="Ndays_ago_at">
+        <item quantity="other">%1$d(-il) jum qabel fil-%2$s</item>
+        <item quantity="one">Jum %1$d qabel fil-%2$s</item>
+        <item quantity="few">%1$d ijiem qabel fil-%2$s</item>
+        <item quantity="many">%1$d(-il) jum qabel fil-%2$s</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d(-il) siegħa qabel</item>
+        <item quantity="one">siegħa (%d) qabel</item>
+        <item quantity="few">%d siegħat qabel</item>
+        <item quantity="many">%d(-il) siegħa qabel</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d(-il) minuta qabel</item>
+        <item quantity="one">minuta (%d) qabel</item>
+        <item quantity="few">%d minuti qabel</item>
+        <item quantity="many">%d(-il) minuta qabel</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other">%d(-il) ġimgħa qabel</item>
+        <item quantity="one">Ġimgħa (%d) qabel</item>
+        <item quantity="few">%d ġimgħat qabel</item>
+        <item quantity="many">%d(-il) ġimgħa qabel</item>
+    </plurals>
+    <plurals name="a_hour_ago">
+        <item quantity="other">(-il) siegħa ilu</item>
+        <item quantity="one">Siegħa ilu</item>
+        <item quantity="few">Sigħat ilu</item>
+        <item quantity="many">(-il) siegħa ilu</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">(-il) siegħa ilu</item>
+        <item quantity="one">Siegħa ilu</item>
+        <item quantity="few">Sigħat ilu</item>
+        <item quantity="many">(-il) siegħa ilu</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Nofs siegħa ilu</item>
+        <item quantity="one">Nofs siegħa ilu</item>
+        <item quantity="few">Nofs siegħa ilu</item>
+        <item quantity="many">Nofs siegħa ilu</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Siegħa oħra</item>
+        <item quantity="one">Siegħa oħra</item>
+        <item quantity="few">Siegħa oħra</item>
+        <item quantity="many">Siegħa oħra</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Nofs siegħa oħra</item>
+        <item quantity="one">Nofs siegħa oħra</item>
+        <item quantity="few">Nofs siegħa oħra</item>
+        <item quantity="many">Nofs siegħa oħra</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Minnufih</item>
+        <item quantity="one">Minnufih</item>
+        <item quantity="few">Minnufih</item>
+        <item quantity="many">Minnufih</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d(-il) min oħra</item>
+        <item quantity="one">min oħra</item>
+        <item quantity="few">%d min oħra</item>
+        <item quantity="many">%d(-il) min oħra</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Issa</item>
+        <item quantity="one">Issa</item>
+        <item quantity="few">Issa</item>
+        <item quantity="many">Issa</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d(-il) min ilu</item>
+        <item quantity="one">Min ilu</item>
+        <item quantity="few">%d min ilu</item>
+        <item quantity="many">%d(-il) min ilu</item>
+    </plurals>
+    <plurals name="anniversary_day">
+        <item quantity="other">%1$s(-il) jum</item>
+        <item quantity="one">jum (%1$s)</item>
+        <item quantity="few">%1$s ijiem</item>
+        <item quantity="many">%1$s(-il) jum</item>
+    </plurals>
+    <plurals name="anniversary_notify_before_3_day_title">
+        <item quantity="other">Anniversarju: %3$d ijiem oħra jkunu għaddew %2$d(-il) sena minn dal-avveniment: %1$s</item>
+        <item quantity="one">Anniversarju: %3$d ijiem oħra tkun għaddiet sena %2$d minn dal-avveniment: %1$s</item>
+        <item quantity="few">Anniversarju: %3$d ijiem oħra jkunu għaddew %2$d snin minn dal-avveniment: %1$s</item>
+        <item quantity="many">Anniversarju: %3$d ijiem oħra jkunu għaddew %2$d(-il) sena minn dal-avveniment: %1$s</item>
+    </plurals>
+    <plurals name="anniversary_notify_title">
+        <item quantity="other">Anniversarju: %2$d(-il) sena minn %1$s</item>
+        <item quantity="one">Anniversarju: sena (%2$d) minn %1$s</item>
+        <item quantity="few">Anniversarju: %2$d snin minn %1$s</item>
+        <item quantity="many">Anniversarju: %2$d(-il) sena minn %1$s</item>
+    </plurals>
+    <plurals name="anniversary_year">
+        <item quantity="other">%1$s(-il) sena</item>
+        <item quantity="one">sena (%1$s)</item>
+        <item quantity="few">%1$s snin</item>
+        <item quantity="many">%1$s(-il) sena</item>
+    </plurals>
+    <plurals name="birthday_event_description_days_ago">
+        <item quantity="other">%1$d(-il) jum minn</item>
+        <item quantity="one">jum (%1$d) minn</item>
+        <item quantity="few">%1$d ijiem minn</item>
+        <item quantity="many">%1$d(-il) jum minn</item>
+    </plurals>
+    <plurals name="birthday_event_description_days_later">
+        <item quantity="other">%1$d(-il) jum sa</item>
+        <item quantity="one">jum (%1$d) sa</item>
+        <item quantity="few">%1$d ijiem sa</item>
+        <item quantity="many">%1$d(-il) jum sa</item>
+    </plurals>
+    <plurals name="birthday_notification_age_term">
+        <item quantity="other">%1$s(-il) sena</item>
+        <item quantity="one">sena (%1$s)</item>
+        <item quantity="few">%1$s snin</item>
+        <item quantity="many">%1$s(-il) sena</item>
+    </plurals>
+    <plurals name="countdown_day">
+        <item quantity="other">fadal%1$s(-il) jum</item>
+        <item quantity="one">fadal jum (%1$s)</item>
+        <item quantity="few">fadal%1$s ijiem</item>
+        <item quantity="many">fadal%1$s(-il) jum</item>
+    </plurals>
+    <plurals name="date_calculate_days_after">
+        <item quantity="other">%1$d(-il) jum wara</item>
+        <item quantity="one">jum wara (%1$d)</item>
+        <item quantity="few">%1$d ijiem wara</item>
+        <item quantity="many">%1$d(-il) jum wara</item>
+    </plurals>
+    <plurals name="date_calculate_days_ago">
+        <item quantity="other">%1$d(-il) jum qabel</item>
+        <item quantity="one">jum qabel (%1$d)</item>
+        <item quantity="few">%1$d ijiem qabel</item>
+        <item quantity="many">%1$d(-il) jum qabel</item>
+    </plurals>
+    <plurals name="date_calculate_direction_backward">
+        <item quantity="other">%1$d(-il) jum wara</item>
+        <item quantity="one">jum wara (%1$d)</item>
+        <item quantity="few">%1$d ijiem wara</item>
+        <item quantity="many">%1$d(-il) jum wara</item>
+    </plurals>
+    <plurals name="date_calculate_direction_forward">
+        <item quantity="other">%1$d(-il) jum qabel</item>
+        <item quantity="one">jum qabel (%1$d)</item>
+        <item quantity="few">%1$d ijiem qabel</item>
+        <item quantity="many">%1$d(-il) jum qabel</item>
+    </plurals>
+    <plurals name="day_index">
+        <item quantity="other">%1$d(-il) jum</item>
+        <item quantity="one">Jum %1$d</item>
+        <item quantity="few">%1$d ijiem</item>
+        <item quantity="many">%1$d(-il) jum</item>
+    </plurals>
+    <plurals name="edit_date_calculate_days_error_hint">
+        <item quantity="other">"Tista' ddaħħal sa' %1$d(-il) jum"</item>
+        <item quantity="one">"Tista' ddaħħal sa' jum wieħed (%1$d)"</item>
+        <item quantity="few">"Tista' ddaħħal sa' %1$d ijiem"</item>
+        <item quantity="many">"Tista' ddaħħal sa' %1$d(-il) jum"</item>
+    </plurals>
+    <plurals name="event_reminders_to_max">
+        <item quantity="other">"Jista' jwaqqaf sa' %d(-il) tifkira"</item>
+        <item quantity="one">"Jista' jwaqqaf sa' tfakkira %d"</item>
+        <item quantity="few">"Tista' toħloq sa' %d tfakkiriet"</item>
+        <item quantity="many">"Jista' jwaqqaf sa' %d(-il) tifkira"</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Nofs siegħa ilu</item>
+        <item quantity="one">Nofs siegħa ilu</item>
+        <item quantity="few">Nofs siegħa ilu</item>
+        <item quantity="many">Nofs siegħa ilu</item>
+    </plurals>
+    <plurals name="hide_completed_notes">
+        <item quantity="other">Aħbi l-biċċiet tax-xogħol lesti: %d</item>
+        <item quantity="one">Aħbi l-biċċiet tax-xogħol lesti: %d</item>
+        <item quantity="few">Aħbi l-biċċiet tax-xogħol lesti: %d</item>
+        <item quantity="many">Aħbi l-biċċiet tax-xogħol lesti: %d</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Siegħa oħra</item>
+        <item quantity="one">Siegħa oħra</item>
+        <item quantity="few">Siegħa oħra</item>
+        <item quantity="many">Siegħa oħra</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Nofs siegħa oħra</item>
+        <item quantity="one">Nofs siegħa oħra</item>
+        <item quantity="few">Nofs siegħa oħra</item>
+        <item quantity="many">Nofs siegħa oħra</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Minnufih</item>
+        <item quantity="one">Minnufih</item>
+        <item quantity="few">Minnufih</item>
+        <item quantity="many">Minnufih</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d(-il) minuta oħra</item>
+        <item quantity="one">minuta oħra</item>
+        <item quantity="few">%d minuti oħra</item>
+        <item quantity="many">%d(-il) minuta oħra</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Issa</item>
+        <item quantity="one">Issa</item>
+        <item quantity="few">Issa</item>
+        <item quantity="many">Issa</item>
+    </plurals>
+    <plurals name="mesens_card_title_day_in_predict">
+        <item quantity="other">Jum numru %1$d (mistenni)</item>
+        <item quantity="one">Jum numru %1$d (mistenni)</item>
+        <item quantity="few">Jum numru %1$d (mistenni)</item>
+        <item quantity="many">Jum numru %1$d (mistenni)</item>
+    </plurals>
+    <plurals name="mesens_card_title_days">
+        <item quantity="other">Jum numru %1$d</item>
+        <item quantity="one">Jum numru %1$d</item>
+        <item quantity="few">Jum numru %1$d</item>
+        <item quantity="many">Jum numru %1$d</item>
+    </plurals>
+    <plurals name="mesens_card_title_predict_date">
+        <item quantity="other">Il-period li jmiss se jibda %1$d(-il) jum ieħor</item>
+        <item quantity="one">Il-period li jmiss se jibda jum %1$d ieħor</item>
+        <item quantity="few">Il-period li jmiss se jibda %1$d ijiem oħra</item>
+        <item quantity="many">Il-period li jmiss se jibda %1$d(-il) jum ieħor</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d oġġett magħżul</item>
+        <item quantity="one">Oġġett %d magħżul</item>
+        <item quantity="few">%d oġġett magħżulin</item>
+        <item quantity="many">%d-il oġġett magħżula</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+%d</item>
+        <item quantity="few">+%d</item>
+        <item quantity="many">+%d</item>
+    </plurals>
+    <plurals name="n_attendees">
+        <item quantity="other">%1$d个邀请对象</item>
+        <item quantity="one">1个邀请对象</item>
+        <item quantity="few">%1$d个邀请对象</item>
+        <item quantity="many">%1$d个邀请对象</item>
+    </plurals>
+    <plurals name="notes_custom_repeat_days">
+        <item quantity="other">(-il) jum</item>
+        <item quantity="one">jum</item>
+        <item quantity="few">jiem</item>
+        <item quantity="many">(-il) jum</item>
+    </plurals>
+    <plurals name="notes_custom_repeat_weeks">
+        <item quantity="other">(-il) ġimgħa</item>
+        <item quantity="one">ġimgħa</item>
+        <item quantity="few">ġimgħat</item>
+        <item quantity="many">(-il) ġimgħa</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d(-il) minuta ilu</item>
+        <item quantity="one">Minuta ilu</item>
+        <item quantity="few">%d minuti ilu</item>
+        <item quantity="many">%d(-il) minuta ilu</item>
+    </plurals>
+    <plurals name="num_picker_hint">
+        <item quantity="other">" (-il) jum"</item>
+        <item quantity="one">" jum"</item>
+        <item quantity="few">" jiem"</item>
+        <item quantity="many">" (-il) jum"</item>
+    </plurals>
+    <plurals name="repeat_custom_prompt">
+        <item quantity="other">kull %1$s - %2$s</item>
+        <item quantity="one">kull %1$s - %2$s</item>
+        <item quantity="few">kull %1$s - %2$s</item>
+        <item quantity="many">kull %1$s - %2$s</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_day_multiple">
+        <item quantity="other">%1$d(-il) jum</item>
+        <item quantity="one">jum (%1$d)</item>
+        <item quantity="few">%1$d ijiem</item>
+        <item quantity="many">%1$d(-il) jum</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_month_multiple">
+        <item quantity="other">%1$d(-il) xahar</item>
+        <item quantity="one">xahar (%1$d)</item>
+        <item quantity="few">%1$d xhur</item>
+        <item quantity="many">%1$d(-il) xahar</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_week_multiple">
+        <item quantity="other">%1$d(-il) ġimgħa</item>
+        <item quantity="one">ġimgħa (%1$d)</item>
+        <item quantity="few">%1$d ġimgħat</item>
+        <item quantity="many">%1$d(-il) ġimgħa</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_year_multiple">
+        <item quantity="other">%1$d(-il) sena</item>
+        <item quantity="one">sena (%1$d )</item>
+        <item quantity="few">%1$d snin</item>
+        <item quantity="many">%1$d(-il) sena</item>
+    </plurals>
+    <plurals name="show_completed_notes">
+        <item quantity="other">Uri l-biċċiet tax-xogħol lesti: %d</item>
+        <item quantity="one">Uri l-biċċiet tax-xogħol lesti: %d</item>
+        <item quantity="few">Uri l-biċċiet tax-xogħol lesti: %d</item>
+        <item quantity="many">Uri l-biċċiet tax-xogħol lesti: %d</item>
+    </plurals>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Ma rreġistrajtx il-period għal %1$d(-il) jum. Irreġistra l-periods tiegħek biex tikseb stimi iktar eżatti.</item>
+        <item quantity="one">Ma rreġistrajtx il-period għal jum %1$d. Irreġistra l-periods tiegħek biex tikseb stimi iktar eżatti.</item>
+        <item quantity="few">Ma rreġistrajtx il-period għal %1$d ijiem. Irreġistra l-periods tiegħek biex tikseb stimi iktar eżatti.</item>
+        <item quantity="many">Ma rreġistrajtx il-period għal %1$d(-il) jum. Irreġistra l-periods tiegħek biex tikseb stimi iktar eżatti.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Dal-period idum għal %1$d(-il) jum</item>
+        <item quantity="one">Dal-period idum għal jum %1$d</item>
+        <item quantity="few">Dal-period idum għal %1$d ijiem</item>
+        <item quantity="many">Dal-period idum għal %1$d(-il) jum</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">"Jum %1$d ta' daċ-ċiklu menstruwali"</item>
+        <item quantity="one">"Jum %1$d ta' daċ-ċiklu menstruwali"</item>
+        <item quantity="few">"Jum %1$d ta' daċ-ċiklu menstruwali"</item>
+        <item quantity="many">"Jum %1$d ta' daċ-ċiklu menstruwali"</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">Jum numru %1$d tal-period</item>
+        <item quantity="one">Jum numru %1$d tal-period</item>
+        <item quantity="few">Jum numru %1$d tal-period</item>
+        <item quantity="many">Jum numru %1$d tal-period</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d(-il) jum sakemm jibda l-period li jmiss</item>
+        <item quantity="one">Jum %1$d sakemm jibda l-period li jmiss</item>
+        <item quantity="few">%1$d ijiemsakemm jibda l-period li jmiss</item>
+        <item quantity="many">%1$d(-il) jum sakemm jibda l-period li jmiss</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">Jum tal-period (kif stmat): %1$d</item>
+        <item quantity="one">Jum tal-period (kif stmat): %1$d</item>
+        <item quantity="few">Jum tal-period (kif stmat): %1$d</item>
+        <item quantity="many">Jum tal-period (kif stmat): %1$d</item>
+    </plurals>
+    <plurals name="travel_eta_advice">
+        <item quantity="other">%2$sminuta sewqan sa %1$s.</item>
+        <item quantity="one">Minuta %2$s sewqan sa %1$s.</item>
+        <item quantity="few">%2$s minuti sewqan sa %1$s.</item>
+        <item quantity="many">%2$sil-minuta sewqan sa %1$s.</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">ĠIMGĦA %d</item>
+        <item quantity="one">GIMGĦA %d</item>
+        <item quantity="few">GIMGĦA %d</item>
+        <item quantity="many">ĠIMGĦA %d</item>
+    </plurals>
+    <plurals name="work_days">
+        <item quantity="other">%d(-il) jum tax-xogħol</item>
+        <item quantity="one">jum tax-xogħol wieħed (%d)</item>
+        <item quantity="few">%d ijiem tax-xogħol</item>
+        <item quantity="many">%d(-il) jum tax-xogħol</item>
+    </plurals>
+</resources>

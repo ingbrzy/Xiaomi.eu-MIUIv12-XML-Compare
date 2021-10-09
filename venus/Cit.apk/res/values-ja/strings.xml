@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="SDCard">SDカード</string>
+  <string name="SD_INTERNAL_SDCard_mounted">内部SDカードを検出</string>
+  <string name="SD_INTERNAL_SDCard_unmounted">内部SDカードが使用不可</string>
+  <string name="SD_SDCard_available_szie">空き容量</string>
+  <string name="SD_SDCard_mounted">SDカードを検出</string>
+  <string name="SD_SDCard_total_size">合計容量</string>
+  <string name="SD_SDCard_unmounted">SDカードが使用不可</string>
+  <string name="button_ok">OK</string>
+  <string name="camerainfo">カメラ情報</string>
+  <string name="cit_OTG_plugin_check_summary">When OTG device is connected, the text \"USB OTG device detected\" should be displayed below.</string>
+  <string name="cit_OTG_plugin_check_title">OTG(検出済み)</string>
+  <string name="cit_OTG_plugout_check_summary">When OTG device is removed, the text \"USB OTG device removed\" should be displayed below.</string>
+  <string name="cit_OTG_plugout_check_title">OTG(未検出)</string>
+  <string name="cit_OTG_waiting_in">Connect USB OTG device now</string>
+  <string name="cit_OTG_waiting_out">Disconnect USB OTG device now</string>
+  <string name="cit_ac_charger_in">Charging via AC</string>
+  <string name="cit_ac_charger_out">AC charger disconnected</string>
+  <string name="cit_accelermeter_sensor_check_summary">"Move the device quickly in one direction. X，Y，Z coordinate values are displayed below. (when phone is in motion: X is represents left/right, y represents front/back, z represents up and down).
+Before you calibrate the device, place it on a flat surface."</string>
+  <string name="cit_accelermeter_sensor_check_title">加速度センサー</string>
+  <string name="cit_apk_signature_failed">apk signature FAILED</string>
+  <string name="cit_apk_signature_passed">apk signature PASSED</string>
+  <string name="cit_aud_current_state">Current State:</string>
+  <string name="cit_aud_spk_vendor">Speaker Vendor:</string>
+  <string name="cit_aud_spkcal">Calibrate</string>
+  <string name="cit_aud_test_result">テスト結果:</string>
+  <string name="cit_audio_cali_TEMP">Temp:</string>
+  <string name="cit_audio_cali_done">Calibration Done!</string>
+  <string name="cit_audio_cali_failed">Calibration Failed, please Retry!</string>
+  <string name="cit_audio_cali_fast_test_title">Speaker amplifier calibration fast test</string>
+  <string name="cit_audio_cali_file_existed">Music file do not exist,can not do calibration!</string>
+  <string name="cit_audio_cali_playing">Check Calibrated Data</string>
+  <string name="cit_audio_cali_summary">Calibrate Speaker PA</string>
+  <string name="cit_audio_cali_title">Speaker PA Calibration Test</string>
+  <string name="cit_audio_calibrating">Calibration is ongoing...</string>
+  <string name="cit_audio_get_temp_fail">Get temp data Failed!</string>
+  <string name="cit_audio_lb_backmic_to_speaker_title">背面マイクの反応テスト</string>
+  <string name="cit_audio_lb_frontmic_to_speaker_title">前面マイクの反応テスト</string>
+  <string name="cit_audio_lb_mainmic_to_earpiece_title">メインマイクの反応テスト</string>
+  <string name="cit_audio_lb_phonecall_title">Simulation call test</string>
+  <string name="cit_audio_lb_summary_backmic_to_speaker">"Back microphone to speaker feedback test. 
+
+Turn the phone, Speak to back microphone , you should hear voice in speaker"</string>
+  <string name="cit_audio_lb_summary_frontmic_to_speaker">"Front microphone to speaker feedback test. 
+
+Speak to front microphone , you should hear voice in speaker"</string>
+  <string name="cit_audio_lb_summary_mainmic_to_earpiece">"Main microphone to receiver feedback test.
+
+Hold the phone as if you are making a call, speak to main microphone, you should hear voice from reveiver"</string>
+  <string name="cit_audio_lb_summary_phonecall">"Simulation call test.
+
+Hold the phone as if you are making a call, Speak to main microphone, you should hear voice in the receiver. do the test in silent environment"</string>
+  <string name="cit_audio_lb_summary_topmic_to_speaker">"Top microphone to speaker feedback test.
+
+Speak to top microphone , you should hear voice in speaker"</string>
+  <string name="cit_audio_lb_topmic_to_speaker_title">Top mic speaker feedback test</string>
+  <string name="cit_audio_left_caldata">"Left PA Calibrated Data:
+"</string>
+  <string name="cit_audio_left_calfail">Left PA Calibrated Failed!</string>
+  <string name="cit_audio_loopback_check_one_title">メインマイクレシーバーの反応テスト</string>
+  <string name="cit_audio_loopback_check_summary_first">"Main microphone receiver feedback test
+
+Hold the phone as if you are making a call, speak into the microphone and should hear your voice in the receiver."</string>
+  <string name="cit_audio_loopback_check_summary_second">"Secondary microphone speaker feedback test.
+
+Turn the phone so that the headphone input is facing downward. Speak into the receiver. You should hear your voice played through the external speaker."</string>
+  <string name="cit_audio_loopback_check_two_title">サブマイクレシーバーの反応テスト</string>
+  <string name="cit_audio_loopback_dualmic_earpiece_title">騒音軽減テスト</string>
+  <string name="cit_audio_loopback_next">次へ</string>
+  <string name="cit_audio_loopback_previous">前へ</string>
+  <string name="cit_audio_loopback_summary_dualmic_earpiece">"Ambient noise reduction test
+
+Hold the phone as if you're answering a call, speak in to the microphone. You should hear your voice with reduced noise in the background played through the receiver."</string>
+  <string name="cit_audio_right_caldata">"Right PA Calibrated Data:
+"</string>
+  <string name="cit_audio_right_calfail">Right PA Calibrated Failed!</string>
+  <string name="cit_battery_check_summary">デバイスのバッテリー統計</string>
+  <string name="cit_battery_check_title">バッテリー情報</string>
+  <string name="cit_battery_temp_fail">バッテリーの温度は異常です (値=%d)</string>
+  <string name="cit_battery_temp_pass">バッテリーの温度は正常です</string>
+  <string name="cit_batterylight_blue">Blue</string>
+  <string name="cit_batterylight_green">Green</string>
+  <string name="cit_batterylight_red">Red</string>
+  <string name="cit_batterylight_rgb">Battery light</string>
+  <string name="cit_blue_tooth_address_check_summary">The Bluetooth address of this device should be displayed below.</string>
+  <string name="cit_blue_tooth_address_check_title">Bluetoothアドレスを取得</string>
+  <string name="cit_blue_tooth_scan_check_summary">Below is the info of the Bluetooth devices that were detected nearby.</string>
+  <string name="cit_blue_tooth_scan_check_title">Bluetoothスキャン</string>
+  <string name="cit_blue_torch_on">Turn on blue flash light</string>
+  <string name="cit_bluetooth_address_open_error">"Couldn't get Bluetooth address. An error occurred while opening Bluetooth device."</string>
+  <string name="cit_bluetooth_not_support">このデバイスはBluetoothをサポートしていません</string>
+  <string name="cit_bluetooth_scan_retry">Scan again</string>
+  <string name="cit_bluetooth_scanning">Scanning for nearby Bluetooth devices (this should take about 4 seconds)…</string>
+  <string name="cit_bluetooth_scanning_bluetooth_done">"Done. Didn't find any Bluetooth devices nearby."</string>
+  <string name="cit_bluetooth_scanning_bluetooth_error">An error occurred while scanning for Bluetooth devices.</string>
+  <string name="cit_bluetooth_scanning_opening_bluetooth">Opening Bluetooth device…</string>
+  <string name="cit_build_finger_failed">build fingerprint FAILED</string>
+  <string name="cit_build_finger_passed">build fingerprint PASSED</string>
+  <string name="cit_button_light_off">Buttons light off</string>
+  <string name="cit_button_light_on">Buttons light on</string>
+  <string name="cit_calibration_fail">Calibration failed</string>
+  <string name="cit_calibration_pass">Calibration passed</string>
+  <string name="cit_camera_calibration_summary">"テスト手順:
+
+1.Tap the calibration button below to enter Camera interface
+2.Press Back button to exit the camera interface
+3.There will be a calibration pass label to indicate the ois has been calibrated"</string>
+  <string name="cit_camera_fast_check_title">Camera fast test</string>
+  <string name="cit_camera_sdcard_error">写真を撮影できません。SDカードがいっぱいです。</string>
+  <string name="cit_charger_plugin_check_summary">When USB charger is connected the text \"Charging via USB/AC\" should be displayed below.</string>
+  <string name="cit_charger_plugin_check_title">充電器(接続済み)</string>
+  <string name="cit_charger_plugout_check_summary">When USB charger is disconnected the text \"USB/AC charger disconnected\" should be displayed below.</string>
+  <string name="cit_charger_plugout_check_title">充電器(未接続)</string>
+  <string name="cit_charger_waiting_in">Connect charger</string>
+  <string name="cit_charger_waiting_out">Disconnect charger now</string>
+  <string name="cit_display_check_summary">Confirm that the required bmp file is on the SD card. Confirm that the colors are consistently displayed across the whole screen. Make sure there are no irregular bright spots and dark spots.</string>
+  <string name="cit_display_check_title">ディスプレイ</string>
+  <string name="cit_display_continue">テストを開始するには画面をタッチ</string>
+  <string name="cit_exit_test_summary">終了すると、関連するすべてのテキストデータが消去されます。</string>
+  <string name="cit_exit_test_title">テストを終了</string>
+  <string name="cit_fail">不合格</string>
+  <string name="cit_fast_screen_touch_check_title">Fast touch screen check test</string>
+  <string name="cit_finger_check_title">指紋認証テスト(FPC)</string>
+  <string name="cit_flash_life_check_summary">Device flash life time estimation</string>
+  <string name="cit_flash_life_check_title">Flash life</string>
+  <string name="cit_fm_audio_path">Configure audio path</string>
+  <string name="cit_fm_audio_path_headset">Headphones</string>
+  <string name="cit_fm_audio_path_speaker">Speaker</string>
+  <string name="cit_fm_check_summary">"This will test the device's FM function."</string>
+  <string name="cit_fm_check_title">FMラジオ</string>
+  <string name="cit_fm_close">Close FM</string>
+  <string name="cit_fm_not_supported">このデバイスはFMをサポートしていません</string>
+  <string name="cit_fm_open_1">Start FM - 88.5</string>
+  <string name="cit_fm_open_2">Start FM - 107.9</string>
+  <string name="cit_fm_open_bluetooth">Opening Bluetooth…</string>
+  <string name="cit_fm_start_service">Start audio</string>
+  <string name="cit_fpc_checkerboard_test">CHECKERBOARD TEST</string>
+  <string name="cit_fpc_selftest">SELF-TEST</string>
+  <string name="cit_fpc_sensor_check_summary">FPC sensor test, press the button and wait for the pass info highlighted in green is correct.</string>
+  <string name="cit_fpc_sensor_check_title">FPC fingerprint sensor</string>
+  <string name="cit_front_camera_check_summary">"テスト手順:
+
+1.Tap the Camera button below to enter front Camera interface
+2.Tap the shutter button
+3.Tap the Check icon. The system will save the photo automatically.
+4.The photo you took should be displayed below. Tap Delete to complete the test."</string>
+  <string name="cit_front_camera_check_title">フロントカメラ</string>
+  <string name="cit_get_signature_failed">get signature FAILED</string>
+  <string name="cit_gps_check_summary">"GPSに対応する情報は以下に表示されます。"</string>
+  <string name="cit_gps_check_title">GPS</string>
+  <string name="cit_gps_disabled">"GPSは停止しています
+
+GPSを起動するには画面をタッチ…"</string>
+  <string name="cit_gps_first_fix_time">Fixed_time: %s</string>
+  <string name="cit_gps_location">Location: %s</string>
+  <string name="cit_gps_satellite_count">Satellite count: %d</string>
+  <string name="cit_gps_satellite_prn">Prn: %s</string>
+  <string name="cit_gps_satellite_snr">Snr: %s</string>
+  <string name="cit_gyroscope_sensor_check_summary">Values for X，Y，Z, coordinates should appear below</string>
+  <string name="cit_gyroscope_sensor_check_title">ジャイロスコープ</string>
+  <string name="cit_headset_button_check_summary">When headphones are connected, press the buttons on the headphone remote (often located on the cord). The corresponding text on screen should turn green.</string>
+  <string name="cit_headset_button_check_title">Headphone buttons</string>
+  <string name="cit_headset_button_click">ヘッドセットのボタンを押してください</string>
+  <string name="cit_headset_button_current">現在のボタン: %s</string>
+  <string name="cit_headset_button_fast_forward">早送り</string>
+  <string name="cit_headset_button_next">次へ</string>
+  <string name="cit_headset_button_pass">合格</string>
+  <string name="cit_headset_button_play_pause">再生/一時停止</string>
+  <string name="cit_headset_button_previous">前に戻る</string>
+  <string name="cit_headset_button_rewind">巻き戻し</string>
+  <string name="cit_headset_button_stop">停止</string>
+  <string name="cit_headset_button_unknown">不明</string>
+  <string name="cit_headset_loopback_check_summary">"While wearing the headphones, connect them to the device. Speak into the headphone microphone (often located on the cord). You should hear your voice in the headphone's speakers."</string>
+  <string name="cit_headset_loopback_check_title">Headphone mic feedback test</string>
+  <string name="cit_headset_plug_detect_summary">When headphones are connected, the text \"Headphones detected\" should be displayed below.</string>
+  <string name="cit_headset_plug_detect_title">Headphone detection (connect)</string>
+  <string name="cit_headset_plug_finish">Headphones detected</string>
+  <string name="cit_headset_plug_hint">Connect headphones now</string>
+  <string name="cit_headset_pull_detect_summary">When headphones are disconnected, the text \"Headphones have been disconnected\" should be displayed below</string>
+  <string name="cit_headset_pull_detect_title">Headphone detection (disconnect)</string>
+  <string name="cit_headset_pull_finish">Headphones have been disconnected</string>
+  <string name="cit_headset_pull_hint">Disconnect headphones now</string>
+  <string name="cit_hide_menu">隠しメニュー</string>
+  <string name="cit_kayboard_volume_down">Button: VOLUME DOWN</string>
+  <string name="cit_kayboard_volume_up">Button: VOLUME UP</string>
+  <string name="cit_keyboard_back">Button: BACK</string>
+  <string name="cit_keyboard_current">Current keyboard: %s</string>
+  <string name="cit_keyboard_menu">Button: MENU</string>
+  <string name="cit_keyboard_test_summary">When you push the buttons, the corresponding text on screen should turn green (note: the Home and the Power buttons are not included in the test).</string>
+  <string name="cit_keyboard_test_title">ボタン</string>
+  <string name="cit_label">ハードウェアテスト</string>
+  <string name="cit_lcdlight_brightness">バックライト</string>
+  <string name="cit_lcdlight_brightness_max">最大</string>
+  <string name="cit_lcdlight_brightness_min">最小</string>
+  <string name="cit_leds_check_summary">Backlight, notification light, and flash light (rear), should respond when corresponding button is pressed.</string>
+  <string name="cit_leds_check_title">通知ライト(LED)</string>
+  <string name="cit_light_sensor_check_summary">DAC value should appear below</string>
+  <string name="cit_light_sensor_check_title">明るさセンサー</string>
+  <string name="cit_magnetic_sensor_check_summary">Values for X，Y，Z, coordinates should appear below</string>
+  <string name="cit_magnetic_sensor_check_title">磁気センサー</string>
+  <string name="cit_main_camera_check_summary">"テスト手順:
+
+1.Tap the Camera button below to enter rear Camera interface
+2.Make sure the flash is enabled
+3.Tap the shutter button
+4.Tap the Check icon. The system will save the photo automatically.
+5.The photo you took should be displayed below. Tap Delete to complete the test."</string>
+  <string name="cit_main_camera_check_title">リアカメラ</string>
+  <string name="cit_name">ハードウェアテスト</string>
+  <string name="cit_nfc_check_summary">カードを端末の背面に置いてください</string>
+  <string name="cit_nfc_check_title">NFCテスト</string>
+  <string name="cit_not_available">このテスト項目はこのバージョンのMIUIでは実行できません。</string>
+  <string name="cit_notificationlight">通知ライト</string>
+  <string name="cit_notificationlight_off">Notification light off</string>
+  <string name="cit_notificationlight_on">Notification light on</string>
+  <string name="cit_otg_not_supported">"This device doesn't support OTG testing"</string>
+  <string name="cit_pass">合格</string>
+  <string name="cit_play_sd_mp3_hifi_summary">"Confirm that there's a file named \"music.mp3\" stored on the SD card. The file \"music.mp3\" should be played through the device's HIFI path when you open this test."</string>
+  <string name="cit_play_sd_mp3_hifi_title">SDカードに保存されているMP3(HiWi)を再生</string>
+  <string name="cit_play_sd_mp3_summary">"Confirm that there's a file named \"music.mp3\" stored on the SD card. The file \"music.mp3\" should be played through the device's external speakers when you open this test."</string>
+  <string name="cit_play_sd_mp3_title">SDカードに保存されているMP3を再生</string>
+  <string name="cit_playing_sd_mp3">music.mp3を再生中…</string>
+  <string name="cit_pointer_location_title">タッチセンサー</string>
+  <string name="cit_power_check_summary">The amount of battery charge should be expressed as a percentage below.</string>
+  <string name="cit_power_check_title">バッテリー残量表示</string>
+  <string name="cit_pressure_sensor_check_summary">Value for pressure should appear below</string>
+  <string name="cit_pressure_sensor_check_title">圧力センサー</string>
+  <string name="cit_proximity_sensor_check_summary">"Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device.
+When calibrating, make sure there's nothing between the sensor and your hand (e.g. protective screen cover or gloves)."</string>
+  <string name="cit_proximity_sensor_check_title">近接センサー</string>
+  <string name="cit_rear_dual_camera_check_title">Rear dual camera</string>
+  <string name="cit_rear_sub_camera_check_title">Rear sub camera</string>
+  <string name="cit_recovery_signature_failed">recovery signature FAILED</string>
+  <string name="cit_recovery_signature_passed">recovery signature PASSED</string>
+  <string name="cit_reset_check_summary">This test will reboot the device. All previous test data will be lost.</string>
+  <string name="cit_reset_check_title">再起動テスト</string>
+  <string name="cit_reset_test">テスト</string>
+  <string name="cit_sd_fail">エラーが発生しました。</string>
+  <string name="cit_sd_mount">SDカードをマウント</string>
+  <string name="cit_sd_mount_sucess">SDカードをマウントしました</string>
+  <string name="cit_sd_mp3_not_existed">"There is no file on the SD card called \"music.mp3\"
+After you place \"music.mp3\" in the SD card's directory, tap the display to play."</string>
+  <string name="cit_sd_plugged_in">SD card detected, remove SD card now</string>
+  <string name="cit_sd_plugged_out">SD card has been removed, insert SD card now</string>
+  <string name="cit_sd_plugin_check_summary">The text \"SD card detected, remove SD card now\" should be displayed below.</string>
+  <string name="cit_sd_plugin_check_title">SDカード(検出済み)</string>
+  <string name="cit_sd_plugout_check_summary">When you remove the SD card, the text \"SD card has been removed, insert SD card now\" should be displayed below.</string>
+  <string name="cit_sd_plugout_check_title">SDカード(未検出)</string>
+  <string name="cit_sd_unmount">Unmount SD card</string>
+  <string name="cit_sd_unmount_sucess">SD card unmounted</string>
+  <string name="cit_signature_check_label">signature check:</string>
+  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below, only two SIM cards simultaneously exist and has correct status can pass</string>
+  <string name="cit_sim_check_title">SIMカード</string>
+  <string name="cit_sim_error_unknown">不明</string>
+  <string name="cit_sim_network_operator">Network service provider:</string>
+  <string name="cit_sim_network_operator_name">Network service provider name:</string>
+  <string name="cit_sim_network_type">Network type:</string>
+  <string name="cit_sim_serial_number">SIM card number:</string>
+  <string name="cit_sim_sim_country">国名:</string>
+  <string name="cit_sim_sim_operator">SIM card operator number:</string>
+  <string name="cit_sim_sim_operator_name">キャリア名:</string>
+  <string name="cit_sim_state_absent">No SIM card detected</string>
+  <string name="cit_sim_state_network_locked">Network PIN locked</string>
+  <string name="cit_sim_state_pin_required">PIN required</string>
+  <string name="cit_sim_state_puk_required">PUK required</string>
+  <string name="cit_sim_state_ready">SIM card ready</string>
+  <string name="cit_sim_state_unkown">不明</string>
+  <string name="cit_start_calibration">Calibrate</string>
+  <string name="cit_stop_calibration">Stop calibrating</string>
+  <string name="cit_tool">その他のツール</string>
+  <string name="cit_tool_bluetooth">Bluetooth test tool</string>
+  <string name="cit_tool_bluetooth_dut">Enter Bluetooth Test Mode</string>
+  <string name="cit_tool_bluetooth_le_tx_ch19">Enter Bluetooth LE 2.440GHz Freq Test Mode</string>
+  <string name="cit_tool_bluetooth_le_tx_h">Enter Bluetooth LE 2.480GHz Freq Test Mode</string>
+  <string name="cit_tool_bluetooth_le_tx_l">Enter Bluetooth LE 2.402GHz Freq Test Mode</string>
+  <string name="cit_tool_bluetooth_not_on">Bluetooth is NOT enabled</string>
+  <string name="cit_tool_bluetooth_off">Disable Bluetooth</string>
+  <string name="cit_tool_bluetooth_on">Enable Bluetooth</string>
+  <string name="cit_tool_bluetooth_tx_h">Enter Bluetooth BR/EDR 2.480GHz Freq Test Mode</string>
+  <string name="cit_tool_bluetooth_tx_l">Enter Bluetooth BR/EDR 2.402GHz Freq Test Mode</string>
+  <string name="cit_tool_bluetooth_tx_m">Enter Bluetooth BR/EDR 2.441GHz Freq Test Mode</string>
+  <string name="cit_tool_cal_camera">Camera Calibration Tool</string>
+  <string name="cit_tool_enable_3A_log">Enable 3A log Switch</string>
+  <string name="cit_tool_enable_display_3A_log">Enable Display 3A log</string>
+  <string name="cit_tool_log">Get logs</string>
+  <string name="cit_tool_log_bugreport">Bug report</string>
+  <string name="cit_tool_log_dmesg">DMESG</string>
+  <string name="cit_tool_log_file_not_exist">%s does not exist</string>
+  <string name="cit_tool_log_generate_bugreport">Creating bug report…</string>
+  <string name="cit_tool_log_kmsg">Last kernel log</string>
+  <string name="cit_tool_log_logcat">ADB log</string>
+  <string name="cit_tool_log_modem">Modem log</string>
+  <string name="cit_tool_log_no_sdcard">SDカードを挿入してください</string>
+  <string name="cit_tool_log_ril">RIL log</string>
+  <string name="cit_tool_log_toast">Log saved to %s</string>
+  <string name="cit_tool_log_toast_generate_bugreport">Creating bug report… (this takes about 1 minute)</string>
+  <string name="cit_tool_modem">MODEM test tools</string>
+  <string name="cit_tool_modem_bugreport">Force MODEM Coredump</string>
+  <string name="cit_tool_modem_exit_ftm">Exit FTM mode</string>
+  <string name="cit_tool_modem_mbn">Change Modem Config</string>
+  <string name="cit_tool_modem_offline_log">Open/Close Offline Log</string>
+  <string name="cit_tool_nfc">NFC test tools</string>
+  <string name="cit_tool_nfc_st">Nfc ST:</string>
+  <string name="cit_tool_nfc_st_confreq">freq:</string>
+  <string name="cit_tool_nfc_st_run">Run</string>
+  <string name="cit_tool_nfc_st_stop">停止</string>
+  <string name="cit_tool_wifi">Wi-Fi test tool</string>
+  <string name="cit_tool_wifi_exit">Exit</string>
+  <string name="cit_tool_wifi_rx_ap">Rx: AP</string>
+  <string name="cit_tool_wifi_rx_ap_name">MT</string>
+  <string name="cit_tool_wifi_rx_chan">Rx: Channel</string>
+  <string name="cit_tool_wifi_rx_count_error">Output value is not a number</string>
+  <string name="cit_tool_wifi_rx_error">An error occurred while running the program</string>
+  <string name="cit_tool_wifi_rx_exit">Rx:exit</string>
+  <string name="cit_tool_wifi_rx_run">Run</string>
+  <string name="cit_tool_wifi_rx_stop">停止</string>
+  <string name="cit_tool_wifi_rxbg_test">Rx: a/b/g</string>
+  <string name="cit_tool_wifi_rxbg_test_channel">channel:</string>
+  <string name="cit_tool_wifi_rxn_test">Rx: n</string>
+  <string name="cit_tool_wifi_rxn_test_bw">bandwidth:</string>
+  <string name="cit_tool_wifi_rxn_test_channel">channel:</string>
+  <string name="cit_tool_wifi_tx_ac">Tx: ac</string>
+  <string name="cit_tool_wifi_tx_bg">Tx: a/b/g</string>
+  <string name="cit_tool_wifi_tx_bg_chan">channel:</string>
+  <string name="cit_tool_wifi_tx_bg_txpr">txpower:</string>
+  <string name="cit_tool_wifi_tx_bg_txrt">datarate:</string>
+  <string name="cit_tool_wifi_tx_n">Tx: n</string>
+  <string name="cit_tool_wifi_tx_n_bandwidth">bandwidth:</string>
+  <string name="cit_tool_wifi_tx_n_chan">channel:</string>
+  <string name="cit_tool_wifi_tx_n_txpr">txpower:</string>
+  <string name="cit_tool_wifi_tx_n_txrt">datarate: MCS</string>
+  <string name="cit_tool_wifi_tx_st">Tx: ST</string>
+  <string name="cit_tool_wifi_tx_st_chan">channel:</string>
+  <string name="cit_tool_wifi_txrx_chain_selection">Select antenna</string>
+  <string name="cit_torch_modify">Modify flash light</string>
+  <string name="cit_torch_off">Turn off flash light</string>
+  <string name="cit_torch_on">Turn on flash light</string>
+  <string name="cit_touch_calib_fail">Touch Calibration failed, Please retry</string>
+  <string name="cit_touch_calib_instruction">start calibration</string>
+  <string name="cit_touch_calib_pass">Touch Calibration pass, Please use it normally</string>
+  <string name="cit_touch_calib_summary">Next step will do touch calibration, press confirm button and do not touch screen after it, wait for calibration success hint</string>
+  <string name="cit_touch_calib_title">Touch Calibration</string>
+  <string name="cit_usb_OTG_in">USB OTG device detected</string>
+  <string name="cit_usb_OTG_out">USB OTG device removed</string>
+  <string name="cit_usb_charger_in">Charging via USB</string>
+  <string name="cit_usb_charger_out">USB charger disconnected</string>
+  <string name="cit_version_check_summary">Below is OS version info. Confirm that the info highlighted in green is correct.</string>
+  <string name="cit_version_check_title">バージョン情報を確認する</string>
+  <string name="cit_vga_camera_capture">カメラ</string>
+  <string name="cit_vga_camera_capture_fail">写真の撮影に失敗しました</string>
+  <string name="cit_vga_camera_delete">削除</string>
+  <string name="cit_vga_camera_deleted">写真を削除しました</string>
+  <string name="cit_vibrator_check_summary">See if vibration (long and short) is functioning normally</string>
+  <string name="cit_vibrator_check_title">バイブレーション</string>
+  <string name="cit_vibrator_don_don_chat">Don-Don-Chat</string>
+  <string name="cit_vibrator_haptic">Haptic</string>
+  <string name="cit_vibrator_load_down_pattern">Down Pattern</string>
+  <string name="cit_vibrator_load_up_pattern">Up Pattern</string>
+  <string name="cit_vibrator_long">Long vibration</string>
+  <string name="cit_vibrator_play_touch_pattern">Vibration</string>
+  <string name="cit_vibrator_short">Short vibration</string>
+  <string name="cit_vibrator_show_advanced">高度なオプションを表示</string>
+  <string name="cit_wifi_address_check_summary">Below is the address of the WLAN network that the phone is currently connected to. Confirm that the info highlighted in green is correct.</string>
+  <string name="cit_wifi_address_check_title">Wi-Fiアドレス</string>
+  <string name="cit_wifi_address_error">Wi-Fiアドレスが取得できませんでした。Wi-Fiが有効になっていることを確認してください。</string>
+  <string name="cit_wifi_ap_scan_check_summary">Below is the WLAN AP info of the devices in the area that were detected. Confirm that the info highlighted in green is correct.</string>
+  <string name="cit_wifi_ap_scan_check_title">WiFiアクセスポイントスキャン</string>
+  <string name="cit_wifi_ap_scan_retry">再スキャン中…</string>
+  <string name="cit_wifi_ap_scanning">スキャン中…</string>
+  <string name="cit_wifi_fail_to_scan">"ネットワークをスキャンできませんでした"</string>
+  <string name="cit_wifi_state_refresh">更新</string>
+  <string name="cit_yellow_torch_on">Turn on yellow flash light</string>
+  <string name="error_app_internal">内部アプリケーションエラー</string>
+  <string name="error_app_unsupported">Unsupported format</string>
+  <string name="error_sdcard_access">Unable to access system space!</string>
+  <string name="keyboard">KEY</string>
+  <string name="lcminfo">LCM information</string>
+  <string name="magnetic_info_hint">8の字を描くように端末を振ってください</string>
+  <string name="mic1_spk_loop">Mic speak Loop</string>
+  <string name="mic1test">MIC1</string>
+  <string name="micphone_test">MIC＆ SPK</string>
+  <string name="nfc_disable_tip">NFCの機能をオンにしてください</string>
+  <string name="remove_headset_and_starttest">Please remove headset and press start to test</string>
+  <string name="speak_from_mic">Speaking to the MIC, the speaker playback. Judge whether there is sound.</string>
+  <string name="start">開始</string>
+  <string name="testagain">You can Press key HOME to test again</string>
+  <string name="testing">AutoTest Running...</string>
+  <string name="touch_auto">Touch panel self test ongoing, please wait....</string>
+  <string name="tp_color">TP Color:</string>
+  <string name="tp_version">TP Version:</string>
+  <string name="waiting">Waiting for 4s.</string>
+</resources>

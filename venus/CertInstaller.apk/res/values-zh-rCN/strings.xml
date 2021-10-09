@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_missing_private_key">需要提供私钥才能安装证书</string>
+    <string name="action_missing_user_cert">需要提供证书才能安装私钥</string>
+    <string name="app_name">证书安装程序</string>
+    <string name="ca_cert_is_added">已安装 CA 证书</string>
+    <string name="ca_certificate">CA 证书</string>
+    <string name="cert_missing_error">无法安装该证书，因为找不到证书文件。</string>
+    <string name="cert_not_saved">未安装该证书。</string>
+    <string name="cert_read_error">无法安装该证书，因为无法读取证书文件。</string>
+    <string name="cert_temp_error">出现临时错误。请稍后重试。</string>
+    <string name="cert_too_large_error">无法安装该证书，因为证书尺寸过大。</string>
+    <string name="certificate">证书</string>
+    <string name="certificate_capabilities_warning">注：此证书的颁发者可能会检查进出设备的所有流量。</string>
+    <string name="certificate_name">证书名称</string>
+    <string name="credential_info">该数据包包含：</string>
+    <string name="credential_password">键入密码以提取证书。</string>
+    <string name="credential_usage_label">凭据用途：</string>
+    <string name="done_label">完成</string>
+    <string name="extracting_pkcs12">正在提取...</string>
+    <string name="install_done">%1$s凭据已添加到 WLAN 已保存的网络。</string>
+    <string name="install_done_title">已安装凭据</string>
+    <string name="invalid_cert">该证书无效。</string>
+    <string name="invalid_certificate_close_button">关闭</string>
+    <string name="invalid_certificate_message">无法将此文件用作%1$s</string>
+    <string name="invalid_certificate_title">无法使用此文件</string>
+    <string name="n_cacrts">%d 个 CA 证书</string>
+    <string name="name_char_error">键入仅包含字母和数字的名称。</string>
+    <string name="name_credential_dialog_title">为此证书命名</string>
+    <string name="name_empty_error">键入名称。</string>
+    <string name="no_cert_to_saved">没有可安装的证书。</string>
+    <string name="one_cacrt">1 个 CA 证书</string>
+    <string name="one_usercrt">一个用户证书</string>
+    <string name="one_userkey">一个用户密钥</string>
+    <string name="only_primary_user_allowed">只有设备的机主才能安装证书。</string>
+    <string name="p12_description">PKCS12 密钥库中的证书。</string>
+    <string name="password_empty_error">键入密码。</string>
+    <string name="password_error">键入正确的密码。</string>
+    <string name="pick_file_title">选择证书</string>
+    <string name="pkcs12_file_password_dialog_title">从 %s 提取</string>
+    <string name="pkcs12_password_dialog_title">提取证书</string>
+    <string name="redirect_ca_certificate_close_button">关闭</string>
+    <string name="redirect_ca_certificate_title">在“设置”中安装 CA 证书</string>
+    <string name="redirect_ca_certificate_with_app_info_message">必须在“设置”中安装这个由%1$s提供的证书。请只安装您信任的机构所提供的 CA 证书。</string>
+    <string name="select_certificate_usage_title">选择证书类型</string>
+    <string name="unable_to_save_cert">无法保存该证书。未启用或未正确初始化凭据存储。</string>
+    <string name="user_cert_is_added">已安装用户证书</string>
+    <string name="user_certificate">VPN 和应用用户证书</string>
+    <string name="userkey_type">算法：</string>
+    <string name="wifi_cancel_label">取消</string>
+    <string name="wifi_cert_is_added">已安装 WLAN 证书</string>
+    <string name="wifi_certificate">WLAN 证书</string>
+    <string name="wifi_config_text">"名称：%1$s
+FQDN：%2$s
+Roaming Consortiums：%3$s
+Realm：%4$s
+身份验证方式：EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">详细信息</string>
+    <string name="wifi_detail_title">%s的详细信息</string>
+    <string name="wifi_dismiss_label">关闭</string>
+    <string name="wifi_install_label">安装</string>
+    <string name="wifi_installer_detail">安装 WLAN 凭据即可通过%1$s连接到可用网络。</string>
+    <string name="wifi_installer_download_error">下载的文件存在问题，无法安装。请确保您是从正确的来源下载文件。</string>
+    <string name="wifi_installer_fail">无法安装 WLAN 凭据。请尝试重新下载文件。</string>
+    <string name="wifi_installer_fail_no_wifi">请开启 WLAN，然后重试。</string>
+    <string name="wifi_installer_fail_no_wifi_title">安装已取消</string>
+    <string name="wifi_installer_fail_title">无法安装</string>
+    <string name="wifi_installing_label">正在安装</string>
+    <string name="wifi_no_config">无</string>
+    <string name="wifi_sim_config_text">"SIM：%s
+"</string>
+    <string name="wifi_title">WLAN 配置文件</string>
+    <string name="wifi_tls_config_text">"客户端证书：
+%1$s
+密钥：%2$s
+"</string>
+    <string name="wifi_trust_config_text">"信任证书：
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"用户名：%s
+"</string>
+</resources>

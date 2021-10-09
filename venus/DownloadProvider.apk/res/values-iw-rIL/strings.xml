@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">הורדות</string>
+    <string name="button_cancel_download">ביטול</string>
+    <string name="button_queue_for_wifi">העברה לתור</string>
+    <string name="button_start_now">התחל כעת</string>
+    <string name="download_error">לא ניתן היה להוריד</string>
+    <string name="download_filesize_unknown">לא ידוע</string>
+    <string name="download_no_application_title">לא ניתן לפתוח את הקובץ</string>
+    <string name="download_queued">בתור</string>
+    <string name="download_remaining">%s נותרו</string>
+    <string name="download_running">מוריד</string>
+    <string name="download_unknown_title">&lt;ללא שם></string>
+    <string name="notif_title_file_size">%1$d סה\"כ</string>
+    <string name="notif_title_single_downloading">מוריד את %1$s</string>
+    <string name="notification_dld_msg">נהל יישומים שהורדו כרגע</string>
+    <string name="notification_download_complete">ירד בהצלחה.</string>
+    <string name="notification_download_failed">לא ניתן היה להוריד את הפריטים.</string>
+    <string name="notification_need_wifi_for_size">גודל ההורדה מצריך חיבור לרשת אלחוטית.</string>
+    <string name="notification_paused_in_background">ההורדה הושהתה ברקע.</string>
+    <string name="paused_waiting_for_network">ממתין לרשת</string>
+    <string name="permdesc_accessAllDownloads">מאפשר ליישום לצפות ולשנות את כל ההורדות אשר בוצעו על ידי כל יישום שהוא במערכת.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">מאפשר ליישום להוריד קבצים אל מטמון ההורדה, אשר אינו יכול להימחק באופן אוטומטי כאשר מנהל ההורדות זקוק לשטח אחסון נוסף.</string>
+    <string name="permdesc_downloadCompletedIntent">מאפשר ליישום לשלוח התראות אודות הורדות שהושלמו. יישומים זדוניים עלולים להשתמש בזה על מנת לבלבל יישומים אחרים אשר מורידים קבצים.</string>
+    <string name="permdesc_downloadManager">"מאפשר ליישום לגשת ליישום ה'הורדות' ולהשתמש בו להורדת קבצים. יישומים זדוניים עלולים להשתמש בו על מנת להפריע להורדות ולגשת לפרטיך האישיים."</string>
+    <string name="permdesc_downloadManagerAdvanced">"מאפשר ליישום לגשת להגדרות המתקדמות של יישום ה'הורדות'. יישומים זדוניים עלולים להשתמש בו על מנת להפריע להורדות ולגשת לפרטיך האישיים."</string>
+    <string name="permdesc_downloadWithoutNotification">מאפשר ליישום להוריד קבצים ללא מתן התראה למשתמש.</string>
+    <string name="permdesc_seeAllExternal">מאפשר ליישום לצפות בכל ההורדות בכרטיס הזכרון, ללא קשר ליישום שהוריד אותן.</string>
+    <string name="permlab_accessAllDownloads">גישה לכל ההורדות של המערכת</string>
+    <string name="permlab_downloadCacheNonPurgeable">שמירת מקום במטמון ההורדה</string>
+    <string name="permlab_downloadCompletedIntent">שליחת התראות אודות הורדות.</string>
+    <string name="permlab_downloadManager">"גישה ל'הורדות'."</string>
+    <string name="permlab_downloadManagerAdvanced">"תכונות מתקדמות של 'הורדות'."</string>
+    <string name="permlab_downloadWithoutNotification">הורדת קבצים ללא התראה</string>
+    <string name="permlab_seeAllExternal">צפיה בכל ההורדות באחסון ה-USB</string>
+    <string name="root_downloads">הורדות</string>
+    <string name="wifi_recommended_body">"התחלת הורדה זו %1$s כעת עשויה לקצר את חיי הסוללה שלך ו/או להוביל לשימוש מופרז בחיבור הנתונים הסלולריים שלך, אשר עשוי להוביל לחיובים נוספים על ידי ספק הרשת שלך בהתאם לחבילת הנתונים שלך.
+
+לחץ על %2$s על מנת להתחיל הורדה זו בפעם הבאה שתהיה מחובר לרשת האלחוטית."</string>
+    <string name="wifi_recommended_title">להוסיף לתור?</string>
+    <string name="wifi_required_body">"התחבר לרשת אלחוטית על מנת להשלים את %1$s הורדה זו. 
+
+לחץ על %2$s על מנת להתחיל הורדה זו בפעם הבאה שתהיה מחובר לרשת אלחוטית."</string>
+    <string name="wifi_required_title">הקובץ גדול מידי מכדי לרדת באמצעות נתונים סלולריים</string>
+</resources>

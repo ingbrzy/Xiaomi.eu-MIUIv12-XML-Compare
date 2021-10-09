@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">دانلودها</string>
+    <string name="button_cancel_download">لغو</string>
+    <string name="button_queue_for_wifi">افزودن‌به‌نوبت</string>
+    <string name="button_start_now">اکنون آغاز شود</string>
+    <string name="download_error">دانلود نشد</string>
+    <string name="download_filesize_unknown">ناشناخته</string>
+    <string name="download_no_application_title">نمی‌توان فایل را باز کرد</string>
+    <string name="download_queued">به صف افزوده شد</string>
+    <string name="download_remaining">%s مورد مانده</string>
+    <string name="download_running">در حال دانلود</string>
+    <string name="download_unknown_title">&lt;بدون نام></string>
+    <string name="notif_title_file_size">%1$d کل</string>
+    <string name="notif_title_single_downloading">درحال دانلود %1$s</string>
+    <string name="notification_dld_msg">برنامه‌هایی که درحال دانلود هستند را مدیریت کنید</string>
+    <string name="notification_download_complete">با موفقیت دانلود شد.</string>
+    <string name="notification_download_failed">نمی‌توان موارد را دانلود کرد.</string>
+    <string name="notification_need_wifi_for_size">اندازه دانلود نیازمند Wi-Fi است.</string>
+    <string name="notification_paused_in_background">در پس‌زمینه مکث شده است.</string>
+    <string name="paused_waiting_for_network">در انتظار شبکه</string>
+    <string name="permdesc_accessAllDownloads">به برنامه اجازه می‌دهد تا همه دانلودهایی که توسط هر برنامه‌ای در سیستم آغاز شده است را تغییر و نمایش دهد.</string>
+    <string name="permdesc_downloadCacheNonPurgeable">به برنامه اجازه می‌دهد تا هنگامی که مدیریت دانلود به فضای بیشتری نیاز دارد، فایل‌ها را در حافظه پنهان دانلود ذخیره نماید. این فایل‌ها نمی‌توانند به صورت خودکار حذف شوند.</string>
+    <string name="permdesc_downloadCompletedIntent">به برنامه اجازه می‌دهد تا اعلان‌های کامل شدن دانلودها را ارسال کند. برنامه‌های مخرب می‌توانند از این برنامه برای گیج کردن برنامه‌های دیگری که فایل‌ها را دانلود می‌کنند استفاده کنند.</string>
+    <string name="permdesc_downloadManager">به برنامه اجازه می‌دهد تا به دانلودها دسترسی پیدا کرده و برای دانلود فایل‌ها از آن استفاده کند. برنامه‌های مخرب می‌توانند از این برنامه برای اختلال دانلود‌ها استفاده کرده و به اطلاعات شخصی دسترسی پیدا کنند.</string>
+    <string name="permdesc_downloadManagerAdvanced">به برنامه اجازه دسترسی به ویژگی‌های پیشرفته دانلودها را می‌دهد. برنامه‌های مخرب می‌توانند از این برای اختلال دانلودها استفاده کرده و به اطلاعات شخصی دسترسی پیدا کنند.</string>
+    <string name="permdesc_downloadWithoutNotification">به برنامه اجازه دانلود فایل‌ها بدون نمایش هرگونه اعلان به کاربر را می‌دهد.</string>
+    <string name="permdesc_seeAllExternal">به برنامه اجازه می‌دهد تا همه دانلودها را بدون در نظر گرفتن این‌که کدام برنامه آن‌ها را دانلود کرده است در کارت SD ببیند.</string>
+    <string name="permlab_accessAllDownloads">دسترسی به دانلودهای کل سیستم</string>
+    <string name="permlab_downloadCacheNonPurgeable">گرفتن فضا در حافظه پنهان دانلود</string>
+    <string name="permlab_downloadCompletedIntent">ارسال اعلان‌های دانلود.</string>
+    <string name="permlab_downloadManager">دسترسی به دانلودها.</string>
+    <string name="permlab_downloadManagerAdvanced">ویژگی‌های پیشرفته دانلودها.</string>
+    <string name="permlab_downloadWithoutNotification">دانلود فایل‌ها بدون اعلان</string>
+    <string name="permlab_seeAllExternal">دیدن همه دانلود‌ها در حافظه USB</string>
+    <string name="root_downloads">دانلودها</string>
+    <string name="wifi_recommended_body">"آغاز کردن این %1$s دانلود ممکن است عمر باتری شما را کاهش داده و/یا باعث استفاده بیش از حد اینترنت همراه شما شود که می‌تواند موجب افزایش هزینه توسط شرکت مخابراتی بر اساس طرح اینترنت همراه شما گردد.
+
+ %2$s را زده تا این دانلود در زمان بعدی که شما به یک شبکه Wi-Fi وصل شدید آغاز شود."</string>
+    <string name="wifi_recommended_title">بعداً برای دانلود به نوبت افزوده شود؟</string>
+    <string name="wifi_required_body">"به Wi-Fi وصل شده تا این %1$s دانلود کامل شود. 
+
+روی %2$s زده تا این دانلود پس از اتصال بعدی شما به یک شبکه Wi-Fi آغاز شود."</string>
+    <string name="wifi_required_title">برنامه برای دانلود با اینترنت همراه بسیار بزرگ است</string>
+</resources>

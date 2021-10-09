@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Час назад</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Час назад</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Полчаса назад</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Через час</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Через полчаса</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Сейчас</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">Через %d мин.</item>
+        <item quantity="one">Через 1 мин.</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Только что</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">1 мин. назад</item>
+    </plurals>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d дней назад</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d минут назад</item>
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d лет назад</item>
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d года назад</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d приложений имеют полный доступ к устройству</item>
+        <item quantity="one">1 приложение имеет полный доступ к устройству</item>
+        <item quantity="few">%1$d приложения имеют полный доступ к устройству</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s секунд</item>
+        <item quantity="one">%1$s секунда</item>
+        <item quantity="few">%1$s секунды</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Сверхкраткая задержка (%1$d мсек.)</item>
+        <item quantity="one">Сверхкраткая задержка (%1$d мсек.)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Долгая задержка (%1$d мсек.)</item>
+        <item quantity="one">Долгая задержка (%1$d мсек.)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Средняя (%1$s секунд)</item>
+        <item quantity="one">Средняя (%1$s секунда)</item>
+        <item quantity="few">Средняя (%1$s секунды)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Короткая задержка (%1$d мсек.)</item>
+        <item quantity="one">Короткая задержка (%1$d мсек.)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Очень долгая задержка (%1$d мсек.)</item>
+        <item quantity="one">Очень долгая задержка (%1$d мсек.)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Очень короткая задержка (%1$d мсек.)</item>
+        <item quantity="one">Очень короткая задержка (%1$d мсек.)</item>
+    </plurals>
+    <plurals name="app_launch_supported_links_title">
+        <item quantity="other">%d поддерживаемых ссылок</item>
+        <item quantity="one">%d поддерживаемая ссылка</item>
+        <item quantity="few">%d поддерживаемые ссылки</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_message">
+        <item quantity="other">Эти ссылки проверены и автоматически открыты в приложении.</item>
+        <item quantity="one">Эта ссылка проверена и автоматически открыта в приложении.</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_title">
+        <item quantity="other">%d проверенных ссылок</item>
+        <item quantity="one">%d проверенная ссылка</item>
+        <item quantity="few">%d проверенные ссылки</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">Приложению требуется обработать %d ссылок</item>
+        <item quantity="one">Приложению требуется обработать %d ссылку</item>
+        <item quantity="few">Приложению требуется обработать %d ссылки</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">Отключены для %d приложений</item>
+        <item quantity="one">Отключены для %d приложения</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">Никогда не отключать для %d приложений</item>
+        <item quantity="one">Никогда не отключать для %d приложения</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">Всегда отключать для %d приложений</item>
+        <item quantity="one">Всегда отключать для %d приложения</item>
+    </plurals>
+    <plurals name="auto_startup_count">
+        <item quantity="other">%d приложений с автозапуском</item>
+        <item quantity="one">%d приложение с автозапуском</item>
+        <item quantity="few">%d приложения с автозапуском</item>
+    </plurals>
+    <plurals name="autofill_passwords_count">
+        <item quantity="other">%1$d паролей</item>
+        <item quantity="one">%1$d пароль</item>
+        <item quantity="few">%1$d пароля</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">Ограничена работа %1$d приложений</item>
+        <item quantity="one">Ограничена работа %1$d приложения</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">Ограничить работу %1$d приложений?</item>
+        <item quantity="one">Ограничить работу приложения?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Эти приложения не могут работать в фоновом режиме</item>
+        <item quantity="one">Это приложение не может работать в фоновом режиме</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">Была ограничена работа %2$d приложений</item>
+        <item quantity="one">Была ограничена работа %1$s</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d приложений сильно расходуют батарею в фоновом режиме</item>
+        <item quantity="one">%1$s приложение сильно расходует батарею в фоновом режиме</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">Ограничение работы %1$d приложений</item>
+        <item quantity="one">Ограничение работы %1$d приложения</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d приложений с подключением к сети в фоновом режиме</item>
+        <item quantity="one">%d приложение с подключением к сети в фоновом режиме</item>
+        <item quantity="few">%d приложения с подключением к сети в фоновом режиме</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d приложений без подключения к сети в фоновом режиме</item>
+        <item quantity="one">%d приложение без подключения к сети в фоновом режиме</item>
+        <item quantity="few">%d приложения без подключения к сети в фоновом режиме</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">Осталось %d дней</item>
+        <item quantity="one">Остался %d день</item>
+        <item quantity="few">Осталось %d дня</item>
+    </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">%d доступных устройств</item>
+        <item quantity="few">%d доступных устройства</item>
+        <item quantity="one">%d доступное устройство</item>
+    </plurals>
+    <plurals name="color_game_led_freq_entries">
+        <item quantity="other">Каждые %d сек.</item>
+        <item quantity="one">Каждую %d сек.</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d приложений может использовать мобильный интернет без ограничений в режиме экономии трафика</item>
+        <item quantity="one">%1$d приложение может использовать мобильный интернет без ограничений в режиме экономии трафика</item>
+        <item quantity="few">%1$d приложения могут использовать мобильный интернет без ограничений в режиме экономии трафика</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Камеры</item>
+        <item quantity="one">Камеры</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Почтовые клиенты</item>
+        <item quantity="one">Почтовые клиенты</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Телефоны</item>
+        <item quantity="one">Телефоны</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">Удалено %d категорий</item>
+        <item quantity="one">Удалена %d категория</item>
+        <item quantity="few">Удалено %d категории</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Удалить выбранные языки?</item>
+        <item quantity="one">Удалить выбранные языки?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">Поддерживаемые ссылки можно открыть в %d приложениях</item>
+        <item quantity="one">Поддерживаемые ссылки можно открыть в %d приложении</item>
+        <item quantity="few">Поддерживаемые ссылки можно открыть в %d приложениях</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Не менее %d сертификатов ЦС</item>
+        <item quantity="one">Не менее %d сертификата ЦС</item>
+        <item quantity="few">Не менее %d сертификатов ЦС</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d попыток</item>
+        <item quantity="one">%d попытка</item>
+        <item quantity="few">%d попытки</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d приложений</item>
+        <item quantity="one">%d приложение</item>
+        <item quantity="few">%d приложения</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Не менее %d приложений</item>
+        <item quantity="one">Не менее %d приложения</item>
+        <item quantity="few">Не менее %d приложений</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Ограничено подключение для %s приложений</item>
+        <item quantity="one">Ограничено подключение для %s приложения</item>
+        <item quantity="few">Ограничено подключение для %s приложений</item>
+    </plurals>
+    <plurals name="free_wifi_connected_count">
+        <item quantity="other">%1$d подключений</item>
+        <item quantity="one">%1$d подключение</item>
+        <item quantity="few">%1$d подключения</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Полчаса назад</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s часа</item>
+        <item quantity="one">%s час</item>
+        <item quantity="few">%s часа</item>
+        <item quantity="many">%s часов</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Через час</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Через полчаса</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Сейчас</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">через %d минут</item>
+        <item quantity="one">через 1 минуту</item>
+        <item quantity="few">через %d минуты</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d приложений подключено</item>
+        <item quantity="one">%d приложение подключено</item>
+        <item quantity="few">%d приложения подключено</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Только что</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d из %2$d приложений имеют доступ к местоположению</item>
+        <item quantity="one">%1$d из %2$d приложений имеют доступ к местоположению</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Вкл. - %1$d приложений имеют доступ к местоположению</item>
+        <item quantity="one">Вкл. - %1$d приложение имеет доступ к местоположению</item>
+        <item quantity="few">Вкл. - %1$d приложения имеют доступ к местоположению</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Используйте как минимум %d букв</item>
+        <item quantity="one">Используйте как минимум %d букву</item>
+        <item quantity="few">Используйте как минимум %d буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Используйте как минимум %d строчных букв</item>
+        <item quantity="one">Используйте как минимум %d строчную букву</item>
+        <item quantity="few">Используйте как минимум %d строчные буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Используйте как минимум %d небуквенных символов</item>
+        <item quantity="one">Используйте как минимум %d небуквенный символ</item>
+        <item quantity="few">Используйте как минимум %d небуквенных символа</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">Используйте как минимум %d нечисловых символов</item>
+        <item quantity="one">Используйте как минимум %d нечисловой символ</item>
+        <item quantity="few">Используйте как минимум %d нечисловых символа</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Используйте как минимум %d цифр</item>
+        <item quantity="one">Используйте как минимум %d цифру</item>
+        <item quantity="few">Используйте как минимум %d цифры</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Используйте как минимум %d специальных символов</item>
+        <item quantity="one">Используйте как минимум %d специальный символ</item>
+        <item quantity="few">Используйте как минимум %d специальных символа</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Используйте как минимум %d заглавных букв</item>
+        <item quantity="one">Используйте как минимум %d заглавную букву</item>
+        <item quantity="few">Используйте как минимум %d заглавные буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">Можно ввести не более %d символов</item>
+        <item quantity="one">Можно ввести не более %d символа</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Введите не менее %d символов</item>
+        <item quantity="one">Введите не менее %d символа</item>
+    </plurals>
+    <plurals name="lockpassword_pin_fixed_length">
+        <item quantity="other">Код должен содержать %d цифр</item>
+        <item quantity="one">Код должен содержать %d цифру</item>
+        <item quantity="few">Код должен содержать %d цифры</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">Можно ввести до %d цифр</item>
+        <item quantity="one">Можно ввести до %d цифры</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">Введите не менее %d цифр</item>
+        <item quantity="one">Введите не менее %d цифры</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Соедините не менее %d точек</item>
+        <item quantity="one">Соедините не менее %d точки</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Слишком много неудачных попыток. Повторите через %d сек.</item>
+        <item quantity="one">Слишком много неудачных попыток. Повторите через %d сек.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Подождите %d сек. и повторите попытку</item>
+        <item quantity="one">Подождите %d сек. и повторите попытку</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d приложений с доступом к уведомлениям</item>
+        <item quantity="one">%d приложение с доступом к уведомлениям</item>
+        <item quantity="few">%d приложения с доступом к уведомлениям</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d активных промежуточных агентов</item>
+        <item quantity="one">%d активный промежуточный агент</item>
+        <item quantity="few">%d активных промежуточных агента</item>
+    </plurals>
+    <plurals name="master_clear_with_account_summary">
+        <item quantity="other">Будет сброшено %1$d аккаунтов</item>
+        <item quantity="one">Будет сброшен %1$d аккаунт</item>
+        <item quantity="few">Будет сброшено %1$d аккаунта</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">За %2$s память использовали %1$d приложений</item>
+        <item quantity="one">За %2$s память использовало %1$d приложение</item>
+        <item quantity="few">За %2$s память использовали %1$d приложения</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s минут</item>
+        <item quantity="one">%s минута</item>
+        <item quantity="few">%s минуты</item>
+    </plurals>
+    <plurals name="miui_sos_emergency_contacts_quantity">
+        <item quantity="other">%d добавлено</item>
+        <item quantity="one">%d добавлен</item>
+    </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">Wi-Fi будет автоматически включен при обнаружении сохраненных сетей поблизости, и выключен через %d минут, если соединение не установлено</item>
+        <item quantity="one">Wi-Fi будет автоматически включен при обнаружении сохраненных сетей поблизости, и выключен через %d минуту, если соединение не установлено</item>
+        <item quantity="few">Wi-Fi будет автоматически включен при обнаружении сохраненных сетей поблизости, и выключен через %d минуты, если соединение не установлено</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">Выбрано %d объектов</item>
+        <item quantity="one">Выбран %d объект</item>
+        <item quantity="few">Выбрано %d объекта</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d новых уведомлений</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+     </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d ограничений</item>
+        <item quantity="one">%1$d ограничение</item>
+        <item quantity="few">%1$d ограничения</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d каналов уведомлений.</item>
+        <item quantity="one">%1$d канал уведомлений.</item>
+        <item quantity="few">%1$d канала уведомлений.</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d категорий</item>
+        <item quantity="one">%d категория</item>
+        <item quantity="few">%d категории</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d уведомлений</item>
+        <item quantity="one">%d уведомление</item>
+        <item quantity="few">%d уведомления</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">Отключены для %d приложений</item>
+        <item quantity="one">Отключены для %d приложения</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">Отключено %d категорий</item>
+        <item quantity="one">Отключена %d категория</item>
+        <item quantity="few">Отключено %d категории</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d уведомлений в день</item>
+        <item quantity="one">~%d уведомление в день</item>
+        <item quantity="few">~%d уведомления в день</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d уведомлений в неделю</item>
+        <item quantity="one">~%d уведомление в неделю</item>
+        <item quantity="few">~%d уведомления в неделю</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d минут назад</item>
+        <item quantity="one">1 минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d активных приложений</item>
+        <item quantity="one">%d активное приложение</item>
+        <item quantity="few">%d активных приложения</item>
+    </plurals>
+    <plurals name="number_of_urls">
+        <item quantity="other">%d URL-адресов</item>
+        <item quantity="one">%d URL-адрес</item>
+        <item quantity="few">%d URL-адреса</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s приложений</item>
+        <item quantity="one">1 приложение</item>
+        <item quantity="few">%s приложения</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Предоставлено %d разрешений</item>
+        <item quantity="one">Предоставлено %d разрешение</item>
+        <item quantity="few">Предоставлено %d разрешения</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d приложений работают ненормально</item>
+        <item quantity="one">%1$s работает ненормально</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Приложения расходуют батарею</item>
+        <item quantity="one">%1$s расходует батарею</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d заданий печати</item>
+        <item quantity="one">%1$d задание печати</item>
+        <item quantity="few">%1$d задания печати</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">Включено %1$d служб печати</item>
+        <item quantity="one">Включена %1$d служба печати</item>
+        <item quantity="few">Включены %1$d службы печати</item>
+    </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d приоритетных диалогов</item>
+        <item quantity="one">%d приоритетный диалог</item>
+        <item quantity="few">%d приоритетных диалога</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">Ограничено использование батареи для %1$d приложений</item>
+        <item quantity="one">Ограничено использование батареи для %1$d приложения</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">Ещё %d разрешений</item>
+        <item quantity="one">Ещё %d разрешение</item>
+        <item quantity="few">Ещё %d разрешения</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Предоставлены %1$d разрешений из %2$d</item>
+        <item quantity="one">Предоставлено %1$d разрешение из %2$d</item>
+        <item quantity="few">Предоставлены %1$d разрешения из %2$d</item>
+    </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">Выбрано %d элементов</item>
+        <item quantity="one">Выбран %d элемент</item>
+        <item quantity="few">Выбрано %d элемента</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s секунд</item>
+        <item quantity="one">%s секунда</item>
+        <item quantity="few">%s секунды</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Настроено %1$d отпечатков</item>
+        <item quantity="one">Настроен %1$d отпечаток</item>
+        <item quantity="few">Настроено %1$d отпечатка</item>
+    </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">Просмотр всех %1$d приложений</item>
+        <item quantity="one">Просмотр приложений</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Показать %d скрытых объектов</item>
+        <item quantity="one">Показать %d скрытый объект</item>
+        <item quantity="few">Показать %d скрытых объекта</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d переключателей появятся в шторке уведомлений</item>
+        <item quantity="one">%1$d переключатель появится в шторке уведомлений</item>
+        <item quantity="few">%1$d переключателя появятся в шторке уведомлений</item>
+    </plurals>
+    <plurals name="show_audio_logcat_countdown">
+        <item quantity="other">Осталось %1$d шагов до получения журнала аудио</item>
+        <item quantity="one">Остался %1$d шаг до получения журнала аудио</item>
+        <item quantity="few">Осталось %1$d шага до получения журнала аудио</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d подключенных устройств</item>
+        <item quantity="one">%1$d подключенное устройство</item>
+        <item quantity="few">%1$d подключенных устройства</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">Осталось %1$d шагов до открытия инженерного меню</item>
+        <item quantity="one">Остался %1$d шаг до открытия инженерного меню</item>
+        <item quantity="few">Осталось %1$d шага до открытия инженерного меню</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы почти у цели. Осталось %1$d шагов.</item>
+        <item quantity="one">Вы почти у цели. Остался %1$d шаг.</item>
+        <item quantity="few">Вы почти у цели. Осталось %1$d шага.</item>
+    </plurals>
+    <plurals name="show_gps_logcat_countdown">
+        <item quantity="other">Осталось %1$d шагов до получения журнала GPS</item>
+        <item quantity="one">Остался %1$d шаг до получения журнала GPS</item>
+        <item quantity="few">Осталось %1$d шага до получения журнала GPS</item>
+    </plurals>
+    <plurals name="show_modem_logcat_countdown">
+        <item quantity="other">Осталось %1$d шагов до получения журнала модема</item>
+        <item quantity="one">Остался %1$d шаг до получения журнала модема</item>
+        <item quantity="few">Осталось %1$d шага до получения журнала модема</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other"> Сохранено %1$d слуховых аппаратов</item>
+        <item quantity="one">Сохранен %1$d слуховой аппарат</item>
+        <item quantity="few"> Сохранено %1$d слуховых аппарата</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">Осталось %1$d шагов до открытия информации о телефоне</item>
+        <item quantity="one">Остался %1$d шаг до открытия информации о телефоне</item>
+        <item quantity="few">Осталось %1$d шага до открытия информации о телефоне</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">Осталось %1$d шагов до отправки отчета об ошибках</item>
+        <item quantity="one">Остался %1$d шаг до отправки отчета об ошибках</item>
+        <item quantity="few">Осталось %1$d шага до отправки отчета об ошибках</item>
+    </plurals>
+    <plurals name="show_reset_countdown">
+        <item quantity="other">Осталось %1$d шагов до сброса к заводским настройкам</item>
+        <item quantity="one">Остался %1$d шаг до сброса к заводским настройкам</item>
+        <item quantity="few">Осталось %1$d шага до сброса к заводским настройкам</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d приложений без ограничений мобильного интернета</item>
+        <item quantity="one">%d приложение без ограничений мобильного интернета</item>
+        <item quantity="few">%d приложения без ограничений мобильного интернета</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Одобрите или удалите сертификаты</item>
+        <item quantity="one">Одобрите или удалите сертификаты</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"Администратор домена %s установил сертификаты ЦС для рабочего профиля. Это позволяет ему отслеживать ваши действия в рабочей сети, включая использование электронной почты и приложений, а также просмотр веб-сайтов.
+
+За дополнительной информацией обращайтесь к администратору."</item>
+        <item quantity="one">"Администратор домена %s установил сертификаты ЦС для рабочего профиля. Это позволяет ему отслеживать ваши действия в рабочей сети, включая использование электронной почты и приложений, а также просмотр веб-сайтов.
+
+За дополнительной информацией обращайтесь к администратору."</item>
+        <item quantity="few">"Администратор домена %s установил сертификаты ЦС для рабочего профиля. Это позволяет ему отслеживать ваши действия в рабочей сети, включая использование электронной почты и приложений, а также просмотр веб-сайтов.
+
+За дополнительной информацией обращайтесь к администратору."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"Администратор домена %s установил сертификаты ЦС на вашем устройстве. Это позволяет ему отслеживать ваши действия в сети, включая использование электронной почты и приложений, а также просмотр веб-сайтов.
+
+За дополнительной информацией обращайтесь к администратору."</item>
+        <item quantity="one">"Администратор домена %s установил сертификаты ЦС на вашем устройстве. Это позволяет ему отслеживать ваши действия в сети, включая использование электронной почты и приложений, а также просмотр веб-сайтов.
+
+За дополнительной информацией обращайтесь к администратору."</item>
+        <item quantity="few">"Администратор домена %s установил сертификаты ЦС на вашем устройстве. Это позволяет ему отслеживать ваши действия в сети, включая использование электронной почты и приложений, а также просмотр веб-сайтов.
+
+За дополнительной информацией обращайтесь к администратору."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Проверить сертификаты</item>
+        <item quantity="one">Проверить сертификаты</item>
+    </plurals>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">%d приложений без показа уведомлений</item>
+        <item quantity="one">%d приложение без показа уведомлений</item>
+        <item quantity="few">%d приложения без показа уведомлений</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">%d приложений с показом уведомлений</item>
+        <item quantity="one">%d приложение с показом уведомлений</item>
+        <item quantity="few">%d приложения с показом уведомлений</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d рекомендаций</item>
+        <item quantity="one">+1 рекомендация</item>
+        <item quantity="few">+%1$d рекомендация</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d рекомендаций</item>
+        <item quantity="one">1 рекомендация</item>
+        <item quantity="few">%1$d рекомендация</item>
+    </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Оповещать, когда один из наушников находится вне уха или кейса больше %d минут.</item>
+        <item quantity="one">Оповещать, когда один из наушников находится вне уха или кейса больше %d минуты.</item>
+    </plurals>
+    <plurals name="unused_apps_summary">
+        <item quantity="other">%d неиспользуемых приложений</item>
+        <item quantity="one">%d неиспользуемое приложение</item>
+        <item quantity="few">%d неиспользуемых приложения</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d объектов</item>
+        <item quantity="one">%d объект</item>
+        <item quantity="few">%d объекта</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_today">
+        <item quantity="other">Разблокирован %d раз</item>
+        <item quantity="one">Разблокирован %d раз</item>
+        <item quantity="few">Разблокирован %d раза</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_week">
+        <item quantity="other">Разблокирован %d раз</item>
+        <item quantity="one">Разблокирован %d раз</item>
+        <item quantity="few">Разблокирован %d раза</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_today">
+        <item quantity="other">Получено %d уведомлений</item>
+        <item quantity="one">Получено %d уведомление</item>
+        <item quantity="few">Получено %d уведомления</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_week">
+        <item quantity="other">Получено %d уведомлений</item>
+        <item quantity="one">Получено %d уведомление</item>
+        <item quantity="few">Получено %d уведомления</item>
+    </plurals>
+    <plurals name="usage_state_hour">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d ч.</item>
+    </plurals>
+    <plurals name="usage_state_hour24">
+        <item quantity="other">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+    </plurals>
+    <plurals name="usage_state_hour_text">
+        <item quantity="other"> ч.</item>
+        <item quantity="one"> ч.</item>
+    </plurals>
+    <plurals name="usage_state_minute">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+    </plurals>
+    <plurals name="usage_state_miunte_text">
+        <item quantity="other">" мин."</item>
+        <item quantity="one">" мин."</item>
+    </plurals>
+    <plurals name="usage_state_noti_count">
+        <item quantity="other">%d уведомлений</item>
+        <item quantity="one">%d уведомление</item>
+        <item quantity="few">%d уведомления</item>
+    </plurals>
+    <plurals name="usage_state_unlock_count">
+        <item quantity="other">%d раз</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d раза</item>
+    </plurals>
+    <plurals name="usage_state_week_day_hour">
+        <item quantity="other">Выходные дни: %d часов</item>
+        <item quantity="one">Выходные дни: %d час</item>
+        <item quantity="few">Выходные дни: %d часа</item>
+    </plurals>
+    <plurals name="usage_state_week_day_minute">
+        <item quantity="other">Выходные дни: %d минут</item>
+        <item quantity="one">Выходные дни: %d минута</item>
+        <item quantity="few">Выходные дни: %d минуты</item>
+    </plurals>
+    <plurals name="usage_state_work_day_hour">
+        <item quantity="other">Рабочие дни: %d часов</item>
+        <item quantity="one">Рабочие дни: %d час</item>
+        <item quantity="few">Рабочие дни: %d часа</item>
+    </plurals>
+    <plurals name="usage_state_work_day_minute">
+        <item quantity="other">Рабочие дни: %d минут</item>
+        <item quantity="one">Рабочие дни: %d минута</item>
+        <item quantity="few">Рабочие дни: %d минуты</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_hour">
+        <item quantity="other">" ч. "</item>
+        <item quantity="one">" ч. "</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_min">
+        <item quantity="other">" мин."</item>
+        <item quantity="one">" мин."</item>
+    </plurals>
+    <plurals name="virus_scan_app_find_risk">
+        <item quantity="other">Найдено %d угроз</item>
+        <item quantity="one">Найдена %d угроза</item>
+        <item quantity="few">Найдено %d угрозы</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d сетей</item>
+        <item quantity="one">%d сеть</item>
+        <item quantity="few">%d сети</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d сетей и подписок</item>
+        <item quantity="one">1 сеть и подписка</item>
+        <item quantity="few">%d сети и подписки</item>
+   </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d подписок</item>
+        <item quantity="one">1 подписка</item>
+        <item quantity="few">%d подписки</item>
+    </plurals>
+    <plurals name="wifi_share_count">
+        <item quantity="other">%d общих сетей</item>
+        <item quantity="one">%d общая сеть</item>
+        <item quantity="few">%d общие сети</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Подключено %1$d устройств</item>
+        <item quantity="one">Подключено %1$d устройство</item>
+        <item quantity="few">Подключено %1$d устройства</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Неверный PIN-код. Осталось %d попыток.</item>
+        <item quantity="one">Неверный PIN-код. Осталась %d попытка. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
+        <item quantity="few">Неверный PIN-код. Осталось %d попытки.</item>
+    </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">Уведомления от %1$d приложений могут изменить режим \"Не беспокоить\"</item>
+        <item quantity="zero">Нет приложений, которые могут изменить режим \"Не беспокоить\"</item>
+        <item quantity="one">Уведомления от 1 приложения могут изменить режим \"Не беспокоить\"</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d контактов</item>
+        <item quantity="one">1 контакт</item>
+        <item quantity="few">%d контакта</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d диалогов</item>
+        <item quantity="one">1 диалог</item>
+        <item quantity="few">%d диалога</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d часов</item>
+        <item quantity="one">1 час</item>
+        <item quantity="few">%d часа</item>
+    </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s могут прерывать режим</item>
+        <item quantity="one">%s может прерывать режим</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d вкл.</item>
+        <item quantity="one">%d вкл.</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d расписаний могут включаться автоматически</item>
+        <item quantity="one">1 расписание может включаться автоматически</item>
+        <item quantity="few">%d расписания могут включаться автоматически</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">еще %d контактов</item>
+        <item quantity="one">еще 1 контакт</item>
+        <item quantity="few">еще %d контакта</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Изменение сигнала только в течение %1$d часов до %2$s</item>
+        <item quantity="one">Изменение сигнала только в течение %1$d часа до %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Изменение сигнала только в течение %1$d минут до %2$s</item>
+        <item quantity="one">Изменение сигнала только в течение %1$d минуты до %2$s</item>
+    </plurals>
+</resources>

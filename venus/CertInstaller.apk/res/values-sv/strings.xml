@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_missing_private_key">En privat nyckel krävs för att installera certifikat</string>
+    <string name="action_missing_user_cert">Certifikat krävs för att installera en privat nyckel</string>
+    <string name="app_name">Installationsprogram för certifikat</string>
+    <string name="ca_cert_is_added">CA-certifikatet har installerats</string>
+    <string name="ca_certificate">CA-certifikat</string>
+    <string name="cert_missing_error">Det gick inte att installera eftersom certifikatfilen inte hittades.</string>
+    <string name="cert_not_saved">Certifikatet är inte installerat.</string>
+    <string name="cert_read_error">Det gick inte att installera eftersom certifikatfilen inte kunde läsas.</string>
+    <string name="cert_temp_error">Tillfälligt fel. Försök igen senare.</string>
+    <string name="cert_too_large_error">Det gick inte att installera eftersom certifikatet är för stort.</string>
+    <string name="certificate">Certifikat</string>
+    <string name="certificate_capabilities_warning">Obs! Certifikatets utfärdare kan granska all trafik till och från enheten.</string>
+    <string name="certificate_name">Certifikatnamn</string>
+    <string name="credential_info">Paketet innehåller:</string>
+    <string name="credential_password">Ange lösenordet om du vill extrahera certifikaten.</string>
+    <string name="credential_usage_label">Användning av användaruppgifter:</string>
+    <string name="done_label">KLAR</string>
+    <string name="extracting_pkcs12">Extraheras ...</string>
+    <string name="install_done">Användaruppgifter för %1$s har lagts till för sparade Wi-Fi-nätverk.</string>
+    <string name="install_done_title">Användaruppgifter har installerats</string>
+    <string name="invalid_cert">Certifikatet är ogiltigt.</string>
+    <string name="invalid_certificate_close_button">Stäng</string>
+    <string name="invalid_certificate_message">Den här filen går inte att använda som %1$s</string>
+    <string name="invalid_certificate_title">Det går inte att använda den här filen</string>
+    <string name="n_cacrts">%d CA-certifikat</string>
+    <string name="name_char_error">Ange ett namn som endast innehåller bokstäver och siffror.</string>
+    <string name="name_credential_dialog_title">Ange ett namn på certifikatet</string>
+    <string name="name_empty_error">Ange ett namn.</string>
+    <string name="no_cert_to_saved">Det finns inget certifikat att installera.</string>
+    <string name="one_cacrt">ett CA-certifikat</string>
+    <string name="one_usercrt">ett användarcertifikat</string>
+    <string name="one_userkey">en användarnyckel</string>
+    <string name="only_primary_user_allowed">Endast ägaren av den här enheten kan installera certifikat.</string>
+    <string name="p12_description">Certifikat i PKCS12-nyckellager.</string>
+    <string name="password_empty_error">Ange lösenordet.</string>
+    <string name="password_error">Ange rätt lösenord.</string>
+    <string name="pick_file_title">Välj ett certifikat</string>
+    <string name="pkcs12_file_password_dialog_title">Extrahera från %s</string>
+    <string name="pkcs12_password_dialog_title">Extrahera certifikat</string>
+    <string name="redirect_ca_certificate_close_button">Stäng</string>
+    <string name="redirect_ca_certificate_title">Installera CA-certifikat i inställningarna</string>
+    <string name="redirect_ca_certificate_with_app_info_message">Det här certifikatet från %1$s måste installeras i inställningarna. Installera endast CA-certifikat från organisationer du litar på.</string>
+    <string name="select_certificate_usage_title">Välj typ av certifikat</string>
+    <string name="unable_to_save_cert">Det gick inte att spara certifikatet. Uppgiftslagring har inte aktiverats eller så har funktionen inte initierats på rätt sätt.</string>
+    <string name="user_cert_is_added">Användarcertifikatet har installerats</string>
+    <string name="user_certificate">VPN- och appanvändarcertifikat</string>
+    <string name="userkey_type">Algoritm:</string>
+    <string name="wifi_cancel_label">Avbryt</string>
+    <string name="wifi_cert_is_added">Wi-Fi-certifikatet har installerats</string>
+    <string name="wifi_certificate">Wi‑Fi-certifikat</string>
+    <string name="wifi_config_text">"Namn: %1$s
+FQDN: %2$s
+Roamingkonsortium: %3$s
+Sfär: %4$s
+Auktoriseringsmetod: EAP-%5$s
+"</string>
+    <string name="wifi_detail_label">Information</string>
+    <string name="wifi_detail_title">Information för %s</string>
+    <string name="wifi_dismiss_label">Avvisa</string>
+    <string name="wifi_install_label">Installera</string>
+    <string name="wifi_installer_detail">Installera Wi-Fi-användaruppgifter och anslut till nätverk som är tillgängliga via %1$s.</string>
+    <string name="wifi_installer_download_error">Det går inte att installera den nedladdade filen på grund av problem med den. Kontrollera att du laddade ned filen från rätt källa.</string>
+    <string name="wifi_installer_fail">Det går inte att installera användaruppgifter för Wi-Fi. Testa att ladda ned filen igen.</string>
+    <string name="wifi_installer_fail_no_wifi">Aktivera Wi-Fi och försök igen.</string>
+    <string name="wifi_installer_fail_no_wifi_title">Installationen avbröts</string>
+    <string name="wifi_installer_fail_title">Det gick inte att installera</string>
+    <string name="wifi_installing_label">Installerar</string>
+    <string name="wifi_no_config">Inga</string>
+    <string name="wifi_sim_config_text">"SIM: %s
+"</string>
+    <string name="wifi_title">Wi-Fi-profil</string>
+    <string name="wifi_tls_config_text">"Klientcertifikat:
+%1$s
+Nyckel: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"Förtroendecertifikat:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"Användarnamn: %s
+"</string>
+</resources>

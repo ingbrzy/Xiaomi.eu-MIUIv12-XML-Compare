@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="action_missing_private_key">Private key required to install a certificate</string>
+  <string name="action_missing_user_cert">Certificate required to install a private key</string>
+  <string name="app_name">"証明書インストーラ"</string>
+  <string name="cert_is_added">"%sがインストールされています。"</string>
+  <string name="cert_missing_error">"インストールできませんでした。証明書ファイルが見つかりませんでした。"</string>
+  <string name="cert_not_saved">"証明書はインストールされていません。"</string>
+  <string name="cert_read_error">"インストールできませんでした。証明書ファイルが読み取れませんでした。"</string>
+  <string name="cert_too_large_error">"インストールできませんでした。証明書のサイズが大きすぎます。"</string>
+  <string name="credential_info">"パッケージの内容:"</string>
+  <string name="credential_name">"証明書名:"</string>
+  <string name="credential_password">"証明書を抽出するためのパスワードを入力します。"</string>
+  <string name="credential_usage_label">"認証情報の使用:"</string>
+  <string name="done_label">"完了"</string>
+  <string name="extracting_pkcs12">"抽出しています..."</string>
+  <string name="install_done">"%1$sの認証情報をWi-Fi保存済みネットワークに追加しました。"</string>
+  <string name="install_done_title">"認証情報のインストール完了"</string>
+  <string name="invalid_cert">"証明書が無効です。"</string>
+  <string name="n_cacrts">"CA証明書%d件"</string>
+  <string name="name_char_error">"文字と数字だけを含んだ名前を入力してください。"</string>
+  <string name="name_credential_dialog_title">"証明書の名前を指定する"</string>
+  <string name="name_empty_error">"名前を入力してください。"</string>
+  <string name="no_cert_to_saved">"インストールする証明書がありません。"</string>
+  <string name="one_cacrt">"CA証明書1件"</string>
+  <string name="one_usercrt">"ユーザー証明書1件"</string>
+  <string name="one_userkey">"ユーザーキー1個"</string>
+  <string name="one_wapi_ascrt">"WAPI AS証明書1件"</string>
+  <string name="one_wapi_usercrt">"WAPIユーザー証明書1件"</string>
+  <string name="only_primary_user_allowed">"証明書をインストールできるのはこの端末の所有者だけです。"</string>
+  <string name="p12_description">"PKCS12キーストアでの証明書。"</string>
+  <string name="password_empty_error">"パスワードを入力してください。"</string>
+  <string name="password_error">"正しいパスワードを入力してください。"</string>
+  <string name="pick_file_title">"証明書の選択"</string>
+  <string name="pkcs12_file_password_dialog_title">"%sから抽出"</string>
+  <string name="pkcs12_password_dialog_title">"証明書を抽出"</string>
+  <string name="storage_error">"証明書を保存できませんでした。[OK]をタップしてやり直してください。"</string>
+  <string name="unable_to_save_cert">"証明書を保存できませんでした。認証情報ストレージが無効か、適切に初期化されていません。"</string>
+  <string name="userkey_type">アルゴリズム:</string>
+  <string name="wifi_cancel_label">"キャンセル"</string>
+  <string name="wifi_config_text">"名前: %1$s
+FQDN: %2$s
+ローミングコンソーシアム: %3$s
+レルム: %4$s
+認証方式: EAP-%5$s
+"</string>
+  <string name="wifi_detail_label">"詳細"</string>
+  <string name="wifi_detail_title">"%sの詳細"</string>
+  <string name="wifi_dismiss_label">"閉じる"</string>
+  <string name="wifi_install_label">"インストール"</string>
+  <string name="wifi_installer_detail">"%1$sを経由して利用可能なネットワークに接続するにはWi-Fi認証情報をインストールしてください。"</string>
+  <string name="wifi_installer_download_error">"ダウンロードしたファイルは問題があるためインストールできません。正しいソースからファイルをダウンロードしたことをご確認ください。"</string>
+  <string name="wifi_installer_fail">"Wi-Fi認証情報をインストールできません。ファイルのダウンロードをもう一度お試しください。"</string>
+  <string name="wifi_installer_fail_no_wifi">"Wi-FiをONにしてもう一度お試しください。"</string>
+  <string name="wifi_installer_fail_no_wifi_title">"インストールをキャンセルしました"</string>
+  <string name="wifi_installer_fail_title">"インストールできません"</string>
+  <string name="wifi_installing_label">"インストール中"</string>
+  <string name="wifi_no_config">"なし"</string>
+  <string name="wifi_sim_config_text">"SIM: %s\n"</string>
+  <string name="wifi_title">"Wi-Fiプロフィール"</string>
+  <string name="wifi_tls_config_text">"クライアント証明書:
+%1$s
+キー: %2$s
+"</string>
+  <string name="wifi_trust_config_text">"信用できる証明書:
+%s
+"</string>
+  <string name="wifi_ttls_config_text">"ユーザー名: %s
+"</string>
+</resources>

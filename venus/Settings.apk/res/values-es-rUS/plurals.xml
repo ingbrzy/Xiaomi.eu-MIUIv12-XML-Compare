@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="one">Hace 1 hora</item>
+        <item quantity="other">Hace 1 hora</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">Hace 1 hora</item>
+        <item quantity="other">Hace 1 hora</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">Hace media hora</item>
+        <item quantity="other">Hace media hora</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">En 1 hora</item>
+        <item quantity="other">En 1 hora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">En media hora</item>
+        <item quantity="other">En media hora</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Inmediatamente</item>
+        <item quantity="other">Inmediatamente</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">en %d mins</item>
+        <item quantity="one">en 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Justo ahora</item>
+        <item quantity="other">Justo ahora</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Hace %d minutos</item>
+        <item quantity="one">Hace 1 minuto</item>
+    </plurals>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Hace %d días</item>
+        <item quantity="one">Hace %d día</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Hace %d min</item>
+        <item quantity="one">Hace %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Hace %d años</item>
+        <item quantity="one">Hace %d año</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d apps tienen acceso completo a tu dispositivo</item>
+        <item quantity="one">1 app tiene acceso completo a tu dispositivo</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s segundos</item>
+        <item quantity="one">%1$s segundo</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Largo (%1$s segundos)</item>
+        <item quantity="one">Largo (%1$s segundo)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Medio (%1$s segundos)</item>
+        <item quantity="one">Medio (%1$s segundo)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Breve (%1$s segundos)</item>
+        <item quantity="one">Breve (%1$s segundo)</item>
+    </plurals>
+    <plurals name="app_launch_supported_links_title">
+        <item quantity="other">%d enlaces compatibles</item>
+        <item quantity="one">%d enlace compatible</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_message">
+        <item quantity="other">Estos enlaces se verifican y se abren automáticamente en esta aplicación.</item>
+        <item quantity="one">Este enlace se verifica y se abre automáticamente en esta aplicación.</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_title">
+        <item quantity="other">%d enlaces verificados</item>
+        <item quantity="one">%d enlace verificado</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">La app indica que procesa %d vínculos</item>
+        <item quantity="one">La app indica que procesa %d vínculo</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">Desactivadas para %d apps</item>
+        <item quantity="one">Desactivadas para %d app</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">Nunca desactivar para %d aplicaciones</item>
+        <item quantity="one">Nunca desactivar para %d aplicacione</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">Desactivar siempre para %d aplicaciones</item>
+        <item quantity="one">Desactivar siempre para %d aplicaciones</item>
+    </plurals>
+    <plurals name="auto_startup_count">
+        <item quantity="other">%d aplicaciones pueden iniciarse automáticamente</item>
+        <item quantity="one">%d aplicación puede iniciarse automáticamente</item>
+    </plurals>
+    <plurals name="autofill_passwords_count">
+        <item quantity="other">%1$d contraseñas</item>
+        <item quantity="one">%1$d contraseña</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d apps restringidas</item>
+        <item quantity="one">%1$d app restringida</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">¿Restringir %1$d apps?</item>
+        <item quantity="one">¿Restringir la app?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">"Estas apps no se pueden ejecutar en segundo plano"</item>
+        <item quantity="one">"Esta app no se puede ejecutar en segundo plano"</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">Se restringieron recientemente %2$d apps</item>
+        <item quantity="one">Se restringió recientemente %1$s</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d apps consumen mucho en segundo plano</item>
+        <item quantity="one">%1$s consume mucho en segundo plano</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">Restringir %1$d apps</item>
+        <item quantity="one">Restringir %1$d app</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d aplicaciones se pueden conectar a la red</item>
+        <item quantity="one">%d aplicación se puede conectar a la red</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">"%d aplicaciones no se pueden conectar a la red"</item>
+        <item quantity="one">"%d aplicación no se puede conectar a la red"</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">Quedan %d días</item>
+        <item quantity="one">Queda %d día</item>
+    </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">%d dispositivos disponibles</item>
+        <item quantity="one">%d dispositivo disponible</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d dispositivos</item>
+        <item quantity="one">%d dispositivo</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d apps tienen permiso para usar datos sin restricción cuando se activa el Ahorro de datos</item>
+        <item quantity="one">1 app tiene permiso para usar datos sin restricción cuando se activa el Ahorro de datos</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Apps de cámara</item>
+        <item quantity="one">App de cámara</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Apps de correo electrónico</item>
+        <item quantity="one">App de correo electrónico</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Apps de teléfono</item>
+        <item quantity="one">App de teléfono</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d categorías borradas</item>
+        <item quantity="one">%d categoría borrada</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">¿Quitar los idiomas seleccionados?</item>
+        <item quantity="one">¿Quitar el idioma seleccionado?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">%d apps que abren vínculos compatibles</item>
+        <item quantity="one">1 app que abre vínculos compatibles</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Al menos %d certificados de CA</item>
+        <item quantity="one">Al menos %d certificado de CA</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d intentos</item>
+        <item quantity="one">%d intento</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Al menos %d apps</item>
+        <item quantity="one">Al menos %d app</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Conexión restringida para %s aplicaciones</item>
+        <item quantity="one">Conexión restringida para %s aplicación</item>
+    </plurals>
+    <plurals name="free_wifi_connected_count">
+        <item quantity="other">%1$d personas conectadas</item>
+        <item quantity="one">%1$d persona conectada</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">Hace media hora</item>
+        <item quantity="other">Hace media hora</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s horas</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">En 1 hora</item>
+        <item quantity="other">En 1 hora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">En media hora</item>
+        <item quantity="other">En media hora</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Inmediatamente</item>
+        <item quantity="other">Inmediatamente</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">en %d minutos</item>
+        <item quantity="one">en 1 minuto</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d apps conectadas</item>
+        <item quantity="one">%d app conectada</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Justo ahora</item>
+        <item quantity="other">Justo ahora</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">Apps con acceso a la ubicación: %1$d de %2$d</item>
+        <item quantity="one">Apps con acceso a la ubicación: %1$d de %2$d</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Encendido: %1$d apps tienen acceso a la ubicación</item>
+        <item quantity="one">Encendido: %1$d app tiene acceso a la ubicación</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Debe tener al menos %d letras</item>
+        <item quantity="one">Debe tener al menos 1 letra</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Debe tener al menos %d letras en minúscula</item>
+        <item quantity="one">Debe tener al menos 1 letra en minúscula</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Debe tener al menos %d caracteres que no sean letras</item>
+        <item quantity="one">Debe tener al menos 1 carácter que no sea una letra</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">Debe tener al menos %d caracteres no numéricos</item>
+        <item quantity="one">Debe tener al menos 1 carácter no numérico</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Debe tener al menos %d dígitos</item>
+        <item quantity="one">Debe tener al menos 1 dígito</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Debe tener al menos %d símbolos especiales</item>
+        <item quantity="one">Debe tener al menos 1 símbolo especial</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Debe tener al menos %d letras en mayúscula</item>
+        <item quantity="one">Debe tener al menos 1 letra en mayúscula</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">Puede ingresar hasta %d caracteres</item>
+        <item quantity="one">Puede ingresar hasta %d caracter</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Ingrese al menos %d caracteres</item>
+        <item quantity="one">Ingrese al menos %d caracter</item>
+    </plurals>
+    <plurals name="lockpassword_pin_fixed_length">
+        <item quantity="other">El PIN debe tener %d dígitos</item>
+        <item quantity="one">El PIN debe tener %d dígito</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">Puede ingresar hasta %d dígitos</item>
+        <item quantity="one">Puede ingresar hasta %d dígito</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">Ingrese al menos %d dígitos</item>
+        <item quantity="one">Ingrese al menos %d dígito</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Conecte al menos %d puntos. Vuelva a intentarlo.</item>
+        <item quantity="one">Conecte al menos %d punto. Vuelva a intentarlo.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Demasiados intentos fallidos. Vuelva a intentarlo en %d segundos.</item>
+        <item quantity="one">Demasiados intentos fallidos. Vuelva a intentarlo en %d segundo.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Espere %d segundos y vuelva a intentarlo.</item>
+        <item quantity="one">Espere %d segundo y vuelva a intentarlo.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d aplicaciones pueden leer notificaciones</item>
+        <item quantity="one">%d aplicación puede leer notificaciones</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d agentes de confianza activos</item>
+        <item quantity="one">1 agente de confianza activo</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d aplicaciones usaron la memoria en las últimas %2$s.</item>
+        <item quantity="one">1 aplicación usó la memoria en las últimas %2$s.</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s minutos</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="miui_sos_emergency_contacts_quantity">
+        <item quantity="other">%d agregados</item>
+        <item quantity="one">%d agregado</item>
+    </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">La conexión Wi-Fi se activará automáticamente cuando su dispositivo detecte redes guardadas cercanas y se apagará después de %d minutos si no se establece ninguna conexión.</item>
+        <item quantity="one">La conexión Wi-Fi se activará automáticamente cuando su dispositivo detecte redes guardadas cercanas y se apagará después de %d minuto si no se establece ninguna conexión.</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementos seleccionados</item>
+        <item quantity="one">%d elemento seleccionado</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuevas notificaciones</item>
+        <item quantity="one">%d nueva notificación</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d restricciones</item>
+        <item quantity="one">1 restricción</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d categorías</item>
+        <item quantity="one">%d categoría</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d notificaciones</item>
+        <item quantity="one">%d notificación</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">Desactivadas para %d apps</item>
+        <item quantity="one">Desactivadas para 1 app</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d categorías desactivadas</item>
+        <item quantity="one">%d categoría desactivada</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">Aproximadamente %d notificaciones por día</item>
+        <item quantity="one">Aproximadamente %d notificación por día</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">Aproximadamente %d notificaciones por semana</item>
+        <item quantity="one">Aproximadamente %d notificación por semana</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Hace %d minutos</item>
+        <item quantity="one">Hace 1 minuto</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d apps activas</item>
+        <item quantity="one">%d app activa</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s apps</item>
+        <item quantity="one">1 app</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d permisos otorgados</item>
+        <item quantity="one">%d permiso otorgado</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d apps no funcionan correctamente</item>
+        <item quantity="one">%1$s no funciona correctamente</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">apps agotan la batería</item>
+        <item quantity="one">%1$s agota la batería</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d trabajos de impresión</item>
+        <item quantity="one">1 trabajo de impresión</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d servicios de impresión activados</item>
+        <item quantity="one">1 servicio de impresión activado</item>
+    </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d conversaciones prioritarias</item>
+        <item quantity="one">%d conversación prioritaria</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">Limitando el uso de batería de %1$d apps</item>
+        <item quantity="one">Limitando el uso de batería de %1$d app</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d permisos adicionales</item>
+        <item quantity="one">%d permiso adicional</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d permisos de %2$d otorgados</item>
+        <item quantity="one">%1$d permiso de %2$d otorgado</item>
+    </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">%d elementos seleccionados</item>
+        <item quantity="one">%d elemento seleccionado</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s segundos</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d huellas digitales configuradas</item>
+        <item quantity="one">%1$d huella digital configurada</item>
+    </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">Ver todas las %1$d apps</item>
+        <item quantity="one">Ver todas las apps</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Mostrar %d elementos ocultos</item>
+        <item quantity="one">Mostrar %d elemento oculto</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">"Está a %1$d pasos de acceder a CIT."</item>
+        <item quantity="one">"Está a %1$d paso de acceder a CIT."</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Estás a %1$d pasos de ser desarrollador.</item>
+        <item quantity="one">Estás a %1$d paso de ser desarrollador.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d audífonos guardados</item>
+        <item quantity="one">%1$d audífono guardado</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">"Está a %1$d paso de acceder a la información del dispositivo."</item>
+        <item quantity="one">"Está a %1$d paso de acceder a la información del dispositivo."</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">"Está a %1$d pasos de reportar un error."</item>
+        <item quantity="one">"Está a %1$d paso de reportar un error."</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d apps pueden usar datos sin restricción</item>
+        <item quantity="one">1 app puede usar datos sin restricción</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Confiar o quitar certificados</item>
+        <item quantity="one">Confiar o quitar certificado</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s instaló autoridades de certificación para tu perfil de trabajo que permiten controlar la actividad de tu red de trabajo, lo que incluye los correos electrónicos, las apps y los sitios web seguros.
+
+Comunícate con el administrador para obtener más información sobre las certificaciones."</item>
+        <item quantity="one">"%s instaló una autoridad de certificación para tu perfil de trabajo que permite controlar la actividad de tu red de trabajo, lo que incluye los correos electrónicos, las apps y los sitios web seguros.
+
+Comunícate con el administrador para obtener más información sobre la certificación."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s instaló autoridades de certificación en tu dispositivo que permiten controlar la actividad de red en él, lo que incluye los correos electrónicos, las apps y los sitios web seguros.
+
+Comunícate con el administrador para obtener más información sobre las certificaciones."</item>
+        <item quantity="one">"%s instaló una autoridad de certificación en tu dispositivo que permite controlar la actividad de red en él, lo que incluye los correos electrónicos, las apps y los sitios web seguros.
+
+Comunícate con el administrador para obtener más información sobre la certificación."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Revisar certificados</item>
+        <item quantity="one">Revisar certificado</item>
+    </plurals>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">"%d aplicaciones no pueden mostrar notificaciones"</item>
+        <item quantity="one">"%d aplicación no puede mostrar notificaciones"</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">%d aplicaciones pueden mostrar notificaciones</item>
+        <item quantity="one">%d aplicación puede mostrar notificaciones</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">%1$d sugerencias más</item>
+        <item quantity="one">1 sugerencia más</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d sugerencias</item>
+        <item quantity="one">1 sugerencia</item>
+    </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Reciba una alerta cada vez que uno de sus audífonos esté lejos de su oído o del estuche de carga durante más de %d minutos</item>
+        <item quantity="one">Reciba una alerta cada vez que uno de sus audífonos esté lejos de su oído o del estuche de carga durante más de %d minuto</item>
+    </plurals>
+    <plurals name="unused_apps_summary">
+        <item quantity="other">%d aplicaciones no utilizadas</item>
+        <item quantity="one">%d aplicación no utilizada</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d elementos</item>
+        <item quantity="one">1 elemento</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_today">
+        <item quantity="other">Desbloqueado %d veces</item>
+        <item quantity="one">Desbloqueado %d vez</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_week">
+        <item quantity="other">Desbloqueado %d veces</item>
+        <item quantity="one">Desbloqueado %d vez</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_today">
+        <item quantity="other">%d notificaciones recibidas</item>
+        <item quantity="one">%d notificación recibida</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_week">
+        <item quantity="other">%d notificaciones recibidas</item>
+        <item quantity="one">%d notificación recibida</item>
+    </plurals>
+    <plurals name="usage_state_hour">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="usage_state_hour24">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="usage_state_hour_text">
+        <item quantity="other">" h"</item>
+        <item quantity="one">" h"</item>
+    </plurals>
+    <plurals name="usage_state_minute">
+        <item quantity="other">%d mins</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="usage_state_miunte_text">
+        <item quantity="other">" mins"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
+    <plurals name="usage_state_noti_count">
+        <item quantity="other">%d notificaciones</item>
+        <item quantity="one">%d notificación</item>
+    </plurals>
+    <plurals name="usage_state_unlock_count">
+        <item quantity="other">%d veces</item>
+        <item quantity="one">%d vez</item>
+    </plurals>
+    <plurals name="usage_state_week_day_hour">
+        <item quantity="other">Fines de semana: %d horas</item>
+        <item quantity="one">Fines de semana: %d hora</item>
+    </plurals>
+    <plurals name="usage_state_week_day_minute">
+        <item quantity="other">Fines de semana: %d minutos</item>
+        <item quantity="one">Fines de semana: %d minuto</item>
+    </plurals>
+    <plurals name="usage_state_work_day_hour">
+        <item quantity="other">Entre semana: %d horas</item>
+        <item quantity="one">Entre semana: %d hora</item>
+    </plurals>
+    <plurals name="usage_state_work_day_minute">
+        <item quantity="other">Entre semana: %d minutos</item>
+        <item quantity="one">Entre semana: %d minuto</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_hour">
+        <item quantity="other">" hrs"</item>
+        <item quantity="one">" h"</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_min">
+        <item quantity="other">" mins"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
+    <plurals name="virus_scan_app_find_risk">
+        <item quantity="other">%d riesgos encontrados</item>
+        <item quantity="one">%d riesgo encontrado</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d redes</item>
+        <item quantity="one">1 red</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d redes y suscripciones</item>
+        <item quantity="one">1 red y suscripción</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d suscripciones</item>
+        <item quantity="one">1 suscripción</item>
+    </plurals>
+    <plurals name="wifi_share_count">
+        <item quantity="other">%d redes compartidas</item>
+        <item quantity="one">%d red compartida</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d dispositivos conectados</item>
+        <item quantity="one">%1$d dispositivo conectado</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">El código PIN de la tarjeta SIM es incorrecto. Tienes %d intentos más.</item>
+        <item quantity="one">El código PIN de la tarjeta SIM es incorrecto. Tienes %d intento más antes de que debas comunicarte con el proveedor para desbloquear el dispositivo.</item>
+    </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">%s pueden interrumpir</item>
+        <item quantity="one">%s puede interrumpir</item>
+    </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s pueden interrumpir</item>
+        <item quantity="one">%s puede interrumpir</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">Se establecieron %d programas</item>
+        <item quantity="one">Se estableció 1 programa</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d programas se pueden actualizar automáticamente</item>
+        <item quantity="one">1 programa se puede actualizar automáticamente</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">%d más</item>
+        <item quantity="one">1 más</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Cambiar a solo alarmas durante %1$d horas hasta la hora %2$s</item>
+        <item quantity="one">Cambiar a solo alarmas durante una hora hasta la hora %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Cambiar a solo alarmas durante %1$d minutos hasta la hora %2$s</item>
+        <item quantity="one">Cambiar a solo alarmas durante un minuto hasta la hora %2$s</item>
+    </plurals>
+</resources>

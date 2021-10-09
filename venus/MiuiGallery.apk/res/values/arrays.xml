@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>White</item>
+        <item>Dark blue</item>
+        <item>Light blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Brown</item>
+        <item>Gray</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Select image</item>
+        <item>Transparent background</item>
+    </string-array>
+    <string-array name="activities_title">
+        <item>Special day</item>
+        <item>Day to remember</item>
+        <item>Vibrant moments</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="am_pms">
+        <item>@string/am</item>
+        <item>@string/pm</item>
+    </string-array>
+    <string-array name="baby_sexy">
+        <item>Boy</item>
+        <item>Girl</item>
+    </string-array>
+    <string-array name="baby_sexy_value">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string-array name="backup_automatically_key_words">
+        <item>Back up photos</item>
+        <item>Sync photos with the cloud</item>
+    </string-array>
+    <integer-array name="backup_pause_hours">
+        <item>2</item>
+        <item>12</item>
+    </integer-array>
+    <string-array name="card_last_week_day">
+        <item>Last Monday</item>
+        <item>Last Tuesday</item>
+        <item>Last Wednesday</item>
+        <item>Last Thursday</item>
+        <item>Last Friday</item>
+    </string-array>
+    <string-array name="chinese_days">
+        <item>@string/chinese_day_1</item>
+        <item>@string/chinese_day_2</item>
+        <item>@string/chinese_day_3</item>
+        <item>@string/chinese_day_4</item>
+        <item>@string/chinese_day_5</item>
+        <item>@string/chinese_day_6</item>
+        <item>@string/chinese_day_7</item>
+        <item>@string/chinese_day_8</item>
+        <item>@string/chinese_day_9</item>
+        <item>@string/chinese_day_10</item>
+        <item>@string/chinese_day_11</item>
+        <item>@string/chinese_day_12</item>
+        <item>@string/chinese_day_13</item>
+        <item>@string/chinese_day_14</item>
+        <item>@string/chinese_day_15</item>
+        <item>@string/chinese_day_16</item>
+        <item>@string/chinese_day_17</item>
+        <item>@string/chinese_day_18</item>
+        <item>@string/chinese_day_19</item>
+        <item>@string/chinese_day_20</item>
+        <item>@string/chinese_day_21</item>
+        <item>@string/chinese_day_22</item>
+        <item>@string/chinese_day_23</item>
+        <item>@string/chinese_day_24</item>
+        <item>@string/chinese_day_25</item>
+        <item>@string/chinese_day_26</item>
+        <item>@string/chinese_day_27</item>
+        <item>@string/chinese_day_28</item>
+        <item>@string/chinese_day_29</item>
+        <item>@string/chinese_day_30</item>
+    </string-array>
+    <string-array name="chinese_digits">
+        <item>@string/chinese_digit_zero</item>
+        <item>@string/chinese_digit_one</item>
+        <item>@string/chinese_digit_two</item>
+        <item>@string/chinese_digit_three</item>
+        <item>@string/chinese_digit_four</item>
+        <item>@string/chinese_digit_five</item>
+        <item>@string/chinese_digit_six</item>
+        <item>@string/chinese_digit_seven</item>
+        <item>@string/chinese_digit_eight</item>
+        <item>@string/chinese_digit_nine</item>
+        <item>@string/chinese_digit_ten</item>
+    </string-array>
+    <string-array name="chinese_holiday_last_year">
+        <item>"Last Chinese New Year's Eve"</item>
+        <item>Last Chinese New Year</item>
+        <item>Last Lantern Festival</item>
+        <item>Last Dragon Boat Festival</item>
+        <item>Last Qixi Festival</item>
+        <item>Last Mid-Autumn Festival</item>
+    </string-array>
+    <string-array name="chinese_holiday_past_year">
+        <item>"Chinese New Year's Eve through the years"</item>
+        <item>Chinese New Year through the years</item>
+        <item>Lantern Festival through the years</item>
+        <item>Dragon Boat Festival through the years</item>
+        <item>Qixi Festival through the years</item>
+        <item>Mid-Autumn Festival through the years</item>
+    </string-array>
+    <string-array name="chinese_leap_months">
+        <item>@string/empty</item>
+        <item>@string/chinese_leap</item>
+    </string-array>
+    <string-array name="chinese_months">
+        <item>@string/chinese_month_january</item>
+        <item>@string/chinese_month_february</item>
+        <item>@string/chinese_month_march</item>
+        <item>@string/chinese_month_april</item>
+        <item>@string/chinese_month_may</item>
+        <item>@string/chinese_month_june</item>
+        <item>@string/chinese_month_july</item>
+        <item>@string/chinese_month_august</item>
+        <item>@string/chinese_month_september</item>
+        <item>@string/chinese_month_october</item>
+        <item>@string/chinese_month_november</item>
+        <item>@string/chinese_month_december</item>
+    </string-array>
+    <string-array name="chinese_symbol_animals">
+        <item>@string/chinese_symbol_animals_mouse</item>
+        <item>@string/chinese_symbol_animals_cow</item>
+        <item>@string/chinese_symbol_animals_tiger</item>
+        <item>@string/chinese_symbol_animals_rabbit</item>
+        <item>@string/chinese_symbol_animals_dragon</item>
+        <item>@string/chinese_symbol_animals_snake</item>
+        <item>@string/chinese_symbol_animals_horse</item>
+        <item>@string/chinese_symbol_animals_sheep</item>
+        <item>@string/chinese_symbol_animals_monkey</item>
+        <item>@string/chinese_symbol_animals_chicken</item>
+        <item>@string/chinese_symbol_animals_dog</item>
+        <item>@string/chinese_symbol_animals_pig</item>
+    </string-array>
+    <string-array name="color_value">
+        <item>\#FFFFFFFF</item>
+        <item>\#FF3D3D3D</item>
+        <item>\#FFFF4F57</item>
+        <item>\#FFFF6A56</item>
+        <item>\#FFFF8832</item>
+        <item>\#FFFACE34</item>
+        <item>\#FFDFAB47</item>
+        <item>\#FFD9FF86</item>
+        <item>\#FF85F573</item>
+        <item>\#FF93FDD7</item>
+        <item>\#FF3AE1EB</item>
+        <item>\#FF69B7FF</item>
+        <item>\#FF47A6FE</item>
+        <item>\#FF94ADEF</item>
+        <item>\#FFF4AFFF</item>
+        <item>\#FFEC46EF</item>
+        <item>\#FF6C7B,#FFA683</item>
+        <item>\#FF6C7B,#FFC683</item>
+        <item>\#FF6A87,#DBA7E9</item>
+        <item>\#59F2F7,#30C9FD</item>
+        <item>\#7DB0FC,#FD9EA2</item>
+        <item>\#F973B7,#95A3FB</item>
+        <item>\#3DAAFB,#60DBFA</item>
+        <item>\#98E6CB,#82A2E8</item>
+        <item>\#8C96FE,#47B6FE</item>
+        <item>\#7DE7A1,#A3DD7A</item>
+        <item>\#F2ED75,#82E8E8</item>
+        <item>\#FEAC92,#AFB1D4</item>
+        <item>\#6CB8FF,#FFEEB4</item>
+    </string-array>
+    <string-array name="detailed_am_pms">
+        <item>@string/midnight</item>
+        <item>@string/early_morning</item>
+        <item>@string/morning</item>
+        <item>@string/noon</item>
+        <item>@string/afternoon</item>
+        <item>@string/evening</item>
+        <item>@string/night</item>
+    </string-array>
+    <string-array name="doodle_color_selector_array">
+        <item>\#FFFFFF</item>
+        <item>\#3D3D3D</item>
+        <item>\#F5330F</item>
+        <item>\#FF6A56</item>
+        <item>\#FF8832</item>
+        <item>\#FACE34</item>
+        <item>\#DFAB47</item>
+        <item>\#D9FF86</item>
+        <item>\#85F573</item>
+        <item>\#93FDD7</item>
+        <item>\#3AE1EB</item>
+        <item>\#69B7FF</item>
+        <item>\#187BFD</item>
+        <item>\#94ADEF</item>
+        <item>\#865AFF</item>
+        <item>\#F4AFFF</item>
+        <item>\#EC46EF</item>
+    </string-array>
+    <string-array name="earthly_branches">
+        <item>@string/earthly_branches_zi</item>
+        <item>@string/earthly_branches_chou</item>
+        <item>@string/earthly_branches_yin</item>
+        <item>@string/earthly_branches_mao</item>
+        <item>@string/earthly_branches_chen</item>
+        <item>@string/earthly_branches_si</item>
+        <item>@string/earthly_branches_wu</item>
+        <item>@string/earthly_branches_wei</item>
+        <item>@string/earthly_branches_shen</item>
+        <item>@string/earthly_branches_you</item>
+        <item>@string/earthly_branches_xu</item>
+        <item>@string/earthly_branches_hai</item>
+    </string-array>
+    <string-array name="eras">
+        <item>@string/eras_bc</item>
+        <item>@string/eras_ad</item>
+    </string-array>
+    <string-array name="frame_color_selector_array">
+        <item>\#FFFFFF</item>
+        <item>\#3D3D3D</item>
+        <item>\#636363</item>
+        <item>\#FF8832</item>
+        <item>\#FACE34</item>
+        <item>\#D9FF86</item>
+        <item>\#85F573</item>
+        <item>\#93FDD7</item>
+        <item>\#3AE1EB</item>
+        <item>\#69B7FF</item>
+        <item>\#47A6FE</item>
+        <item>\#865AFF</item>
+        <item>\#F4AFFF</item>
+        <item>\#FFC86B</item>
+        <item>\#BFE1E8</item>
+        <item>\#8AA5D5</item>
+        <item>\#B7B2D1</item>
+        <item>\#FFD1D1</item>
+        <item>\#975B50</item>
+        <item>\#7D6456</item>
+        <item>\#8F7C5D</item>
+        <item>\#5E7966</item>
+        <item>\#6A7D81</item>
+        <item>\#5C687F</item>
+        <item>\#5B576F</item>
+        <item>\#937373</item>
+    </string-array>
+    <string-array name="heavenly_stems">
+        <item>@string/heavenly_stems_jia</item>
+        <item>@string/heavenly_stems_yi</item>
+        <item>@string/heavenly_stems_bing</item>
+        <item>@string/heavenly_stems_ding</item>
+        <item>@string/heavenly_stems_wu</item>
+        <item>@string/heavenly_stems_ji</item>
+        <item>@string/heavenly_stems_geng</item>
+        <item>@string/heavenly_stems_xin</item>
+        <item>@string/heavenly_stems_ren</item>
+        <item>@string/heavenly_stems_gui</item>
+    </string-array>
+    <string-array name="holiday_last_year">
+        <item>"Last New Year's Day"</item>
+        <item>"Last Valentine's Day"</item>
+        <item>Last Labor Day</item>
+        <item>"Last Children's Day"</item>
+        <item>Last National Day</item>
+        <item>Last Christmas</item>
+    </string-array>
+    <string-array name="holiday_past_year">
+        <item>"New Year's Day through the years"</item>
+        <item>"Valentine's Day through the years"</item>
+        <item>Labor Day through the years</item>
+        <item>"Children's Day through the years"</item>
+        <item>National Day through the years</item>
+        <item>Christmas through the years</item>
+    </string-array>
+    <string-array name="last_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="last_week_baby_title">
+        <item>Time to play</item>
+        <item>"Kiddo's weekend"</item>
+        <item>The little one</item>
+    </string-array>
+    <string-array name="last_weekend_title">
+        <item>My weekends</item>
+        <item>Bits of life</item>
+        <item>Weekend memories</item>
+    </string-array>
+    <string-array name="last_year_group_people">
+        <item>New friends and old pals</item>
+        <item>"Last year's get-togethers"</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Leisure</item>
+        <item>Breeze</item>
+        <item>Dreams</item>
+        <item>Clouds</item>
+        <item>Thoughts</item>
+        <item>Buds</item>
+        <item>Metamorphosis</item>
+        <item>Depth</item>
+        <item>Reflections</item>
+        <item>Minimalist</item>
+        <item>Mystery</item>
+        <item>Fog</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Turn backgrounds into sketches</item>
+        <item>Watercolor style backgrounds</item>
+        <item>Cyberpunk retro</item>
+        <item>Misplaced vertical segments</item>
+        <item>Hazy blur</item>
+        <item>Futuristic feel</item>
+    </string-array>
+    <string-array name="magic_effects_icon">
+        <item>magic_special_sketch</item>
+        <item>magic_special_watercolour</item>
+        <item>magic_special_rbg</item>
+        <item>magic_special_window_shades</item>
+        <item>magic_special_window_fog</item>
+        <item>magic_special_fault_style</item>
+    </string-array>
+    <string-array name="magic_effects_icon_thumb">
+        <item>magic_special_thumb_sketch</item>
+        <item>magic_special_thumb_watercolour</item>
+        <item>magic_special_thumb_rbg</item>
+        <item>magic_special_thumb_window_shades</item>
+        <item>magic_special_thumb_window_fog</item>
+        <item>magic_special_thumb_fault_style</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Sketch</item>
+        <item>Watercolor</item>
+        <item>RGB</item>
+        <item>Blinds</item>
+        <item>Foggy window</item>
+        <item>Tech</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Colored outline</item>
+        <item>Dashed outline</item>
+        <item>Fluorescent outline</item>
+        <item>Colored shadow</item>
+        <item>Electric wave</item>
+        <item>Current</item>
+        <item>Waves</item>
+        <item>Particles</item>
+        <item>Text</item>
+        <item>Wings</item>
+        <item>Angel</item>
+    </string-array>
+    <string-array name="magic_id_photo_edit_hint_mm_array">
+        <item>10-120</item>
+        <item>10-120</item>
+    </string-array>
+    <string-array name="magic_id_photo_edit_hint_px_array">
+        <item>100-1024</item>
+        <item>100-1024</item>
+    </string-array>
+    <string-array name="magic_idp_color_common">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>General</item>
+        <item>Travel</item>
+        <item>Work</item>
+        <item>Documents</item>
+        <item>Education</item>
+        <item>Exams</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Social security</item>
+        <item>Statement of health</item>
+        <item>Medical insurance</item>
+        <item>ID</item>
+        <item>Residence permit</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates_value">
+        <item>358×441+26×32</item>
+        <item>295×413+25×35</item>
+        <item>358×441+26×32</item>
+        <item>358×441+26×32</item>
+        <item>358×441+26×32</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>One cun</item>
+        <item>Teo cuns</item>
+        <item>Smaller one cun</item>
+        <item>Smaller two cuns</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common_value">
+        <item>100-1024+25-87</item>
+        <item>295×413+25×35</item>
+        <item>413×579+35×49</item>
+        <item>260×378+22×32</item>
+        <item>413×531+35×45</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Admission application</item>
+        <item>Student network</item>
+        <item>Student network for primary schools</item>
+        <item>Student network profile</item>
+        <item>University admission</item>
+        <item>NCEE</item>
+        <item>Resume</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education_value">
+        <item>295×413+25×35</item>
+        <item>472×630+80×107</item>
+        <item>300×420+25×36</item>
+        <item>390×480+33×41</item>
+        <item>413×531+35×45</item>
+        <item>390×567+33×48</item>
+        <item>295×413+25×35</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>College English Test 1</item>
+        <item>College English Test 2</item>
+        <item>College English Test 3</item>
+        <item>Putonghua Proficiency Test 1</item>
+        <item>Putonghua Proficiency Test 2</item>
+        <item>Degree English Test</item>
+        <item>PET for colleges</item>
+        <item>PETS Level 3</item>
+        <item>National Computer Rank Examination 1</item>
+        <item>National Computer Rank Examination 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination_value">
+        <item>144×192+12×16</item>
+        <item>240×320+20×27</item>
+        <item>150×200+13×17</item>
+        <item>144×192+12×16</item>
+        <item>390×567+33×48</item>
+        <item>140×180+12×15</item>
+        <item>295×413+25×35</item>
+        <item>144×192+33×48</item>
+        <item>240×320+20×27</item>
+        <item>144×192+33×48</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Primary and secondary school teacher certification</item>
+        <item>Teacher certification</item>
+        <item>"Driver's license"</item>
+        <item>Guide permit</item>
+        <item>Electronic guide permit</item>
+        <item>National judicial examination</item>
+        <item>Electronic first-class constructor certificate</item>
+        <item>Second-class constructor certificate</item>
+        <item>Junior accounting title examination</item>
+        <item>Certified public accountant</item>
+        <item>Beijing guide permit</item>
+        <item>Intermediate accounting title examination</item>
+        <item>Senior accounting title examination</item>
+        <item>Accounting qualification certificate</item>
+        <item>Certified public accountant examination</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession_value">
+        <item>295×413+25×35</item>
+        <item>180×240+15×20</item>
+        <item>260×378+22×32</item>
+        <item>285×385+23×33</item>
+        <item>413×626+35×53</item>
+        <item>413×626+35×53</item>
+        <item>295×413+25×35</item>
+        <item>215×300+18×25</item>
+        <item>295×413+25×35</item>
+        <item>178×220+15×19</item>
+        <item>413×531+35×45</item>
+        <item>114×156+10×13</item>
+        <item>114×156+10×13</item>
+        <item>500×700+42×59</item>
+        <item>295×413+25×35</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>United States</item>
+        <item>Vietnam</item>
+        <item>Japan</item>
+        <item>Hong Kong and Macau</item>
+        <item>South Korea</item>
+        <item>Thailand (tourist)</item>
+        <item>Thailand (on arrival)</item>
+        <item>India</item>
+        <item>Israel</item>
+        <item>Taiwan</item>
+        <item>Malaysia</item>
+        <item>New Zealand</item>
+        <item>Italy</item>
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>Iceland</item>
+        <item>Kenya</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa_value">
+        <item>600×600+51×51</item>
+        <item>413×531+35×45</item>
+        <item>531×531+45×45</item>
+        <item>390×567+33×48</item>
+        <item>413×531+35×45</item>
+        <item>413×531+35×45</item>
+        <item>472×708+40×60</item>
+        <item>591×591+51×51</item>
+        <item>591×591+51×51</item>
+        <item>413×531+35×45</item>
+        <item>413×531+35×45</item>
+        <item>900×1200+76×102</item>
+        <item>413×472+35×40</item>
+        <item>472×472+40×40</item>
+        <item>413×531+40×50</item>
+        <item>413×531+40×50</item>
+        <item>591×591+50×50</item>
+    </string-array>
+    <string-array name="magic_system_model">
+        <item>Mi 10</item>
+        <item>Mi 10 Pro</item>
+        <item>Mi 11</item>
+        <item>Mi 11 Pro</item>
+    </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Move</item>
+        <item>Copy</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="month_last_year">
+        <item>Last January</item>
+        <item>Last February</item>
+        <item>Last March</item>
+        <item>Last April</item>
+        <item>Last May</item>
+        <item>Last June</item>
+        <item>Last July</item>
+        <item>Last August</item>
+        <item>Last September</item>
+        <item>Last October</item>
+        <item>Last November</item>
+        <item>Last December</item>
+    </string-array>
+    <string-array name="months">
+        <item>@string/month_january</item>
+        <item>@string/month_february</item>
+        <item>@string/month_march</item>
+        <item>@string/month_april</item>
+        <item>@string/month_may</item>
+        <item>@string/month_june</item>
+        <item>@string/month_july</item>
+        <item>@string/month_august</item>
+        <item>@string/month_september</item>
+        <item>@string/month_october</item>
+        <item>@string/month_november</item>
+        <item>@string/month_december</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>@string/month_january_short</item>
+        <item>@string/month_february_short</item>
+        <item>@string/month_march_short</item>
+        <item>@string/month_april_short</item>
+        <item>@string/month_may_short</item>
+        <item>@string/month_june_short</item>
+        <item>@string/month_july_short</item>
+        <item>@string/month_august_short</item>
+        <item>@string/month_september_short</item>
+        <item>@string/month_october_short</item>
+        <item>@string/month_november_short</item>
+        <item>@string/month_december_short</item>
+    </string-array>
+    <string-array name="months_shortest">
+        <item>@string/month_january_shortest</item>
+        <item>@string/month_february_shortest</item>
+        <item>@string/month_march_shortest</item>
+        <item>@string/month_april_shortest</item>
+        <item>@string/month_may_shortest</item>
+        <item>@string/month_june_shortest</item>
+        <item>@string/month_july_shortest</item>
+        <item>@string/month_august_shortest</item>
+        <item>@string/month_september_shortest</item>
+        <item>@string/month_october_shortest</item>
+        <item>@string/month_november_shortest</item>
+        <item>@string/month_december_shortest</item>
+    </string-array>
+    <string-array name="owner_relation">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Paternal grandfather</item>
+        <item>Paternal grandmother</item>
+        <item>Maternal grandfather</item>
+        <item>Maternal grandmother</item>
+    </string-array>
+    <string-array name="owner_relation_value">
+        <item>father</item>
+        <item>mother</item>
+        <item>grandfather</item>
+        <item>grandmother</item>
+        <item>maternalGrandfather</item>
+        <item>maternalGrandmother</item>
+    </string-array>
+    <string-array name="parties_title">
+        <item>Together</item>
+        <item>Good times</item>
+        <item>In unison</item>
+    </string-array>
+    <string-array name="recent_group_people">
+        <item>Together</item>
+        <item>Bonds and ties</item>
+    </string-array>
+    <string-array name="relation_with_me">
+        <item>Me</item>
+        <item>Child</item>
+        <item>Family</item>
+        <item>Colleagues</item>
+        <item>Classmates</item>
+        <item>Friends</item>
+        <item>Ungrouped</item>
+    </string-array>
+    <string-array name="relation_with_me_value">
+        <item>myself</item>
+        <item>child</item>
+        <item>family</item>
+        <item>collegue</item>
+        <item>classmate</item>
+        <item>friend</item>
+        <item>unknown</item>
+    </string-array>
+    <string-array name="search_voice_assistant_suggestion">
+        <item>帮我找出身份证的照片</item>
+        <item>我想看在三亚拍的照片</item>
+        <item>找出有小米文字的图片</item>
+        <item>搜索去年春节的照片</item>
+        <item>帮我搜我和妈妈上个月在海边的合影</item>
+    </string-array>
+    <string-array name="season">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Autumn</item>
+        <item>Winter</item>
+    </string-array>
+    <string-array name="season_last_year">
+        <item>Last spring</item>
+        <item>Last summer</item>
+        <item>Last autumn</item>
+        <item>Last winter</item>
+    </string-array>
+    <string-array name="sharer_relation_addressive">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Paternal grandfather</item>
+        <item>Paternal grandmother</item>
+        <item>Maternal grandfather</item>
+        <item>Maternal grandmother</item>
+    </string-array>
+    <string-array name="solar_terms">
+        <item>@string/empty</item>
+        <item>@string/solar_term_slight_cold</item>
+        <item>@string/solar_term_great_cold</item>
+        <item>@string/solar_term_spring_begins</item>
+        <item>@string/solar_term_the_rains</item>
+        <item>@string/solar_term_insects_awaken</item>
+        <item>@string/solar_term_vernal_equinox</item>
+        <item>@string/solar_term_clear_and_bright</item>
+        <item>@string/solar_term_grain_rain</item>
+        <item>@string/solar_term_summer_begins</item>
+        <item>@string/solar_term_grain_buds</item>
+        <item>@string/solar_term_grain_in_ear</item>
+        <item>@string/solar_term_summer_solstice</item>
+        <item>@string/solar_term_slight_heat</item>
+        <item>@string/solar_term_great_heat</item>
+        <item>@string/solar_term_autumn_begins</item>
+        <item>@string/solar_term_stopping_the_heat</item>
+        <item>@string/solar_term_white_dews</item>
+        <item>@string/solar_term_autumn_equinox</item>
+        <item>@string/solar_term_cold_dews</item>
+        <item>@string/solar_term_hoar_frost_falls</item>
+        <item>@string/solar_term_winter_begins</item>
+        <item>@string/solar_term_light_snow</item>
+        <item>@string/solar_term_heavy_snow</item>
+        <item>@string/solar_term_winter_solstice</item>
+    </string-array>
+    <string-array name="spinner_list">
+        <item>px</item>
+        <item>mm</item>
+    </string-array>
+    <string-array name="sports_title">
+        <item>Moving forward</item>
+        <item>Full of energy</item>
+    </string-array>
+    <string-array name="text_style">
+        <item>@string/text_edit_dialog_style_bold</item>
+        <item>@string/text_edit_dialog_style_stroke</item>
+        <item>@string/text_edit_dialog_style_shadow</item>
+        <item>@string/text_edit_dialog_style_align_left</item>
+        <item>@string/text_edit_dialog_style_align_center</item>
+        <item>@string/text_edit_dialog_style_align_right</item>
+    </string-array>
+    <string-array name="three_month_baby_title">
+        <item>They grow so fast</item>
+        <item>"Kiddo's photos"</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+    <string-array name="week_days_short">
+        <item>@string/sunday_short</item>
+        <item>@string/monday_short</item>
+        <item>@string/tuesday_short</item>
+        <item>@string/wednesday_short</item>
+        <item>@string/thursday_short</item>
+        <item>@string/friday_short</item>
+        <item>@string/saturday_short</item>
+    </string-array>
+    <string-array name="week_days_shortest">
+        <item>@string/sunday_shortest</item>
+        <item>@string/monday_shortest</item>
+        <item>@string/tuesday_shortest</item>
+        <item>@string/wednesday_shortest</item>
+        <item>@string/thursday_shortest</item>
+        <item>@string/friday_shortest</item>
+        <item>@string/saturday_shortest</item>
+    </string-array>
+    <string-array name="weekend_title">
+        <item>Past weekends</item>
+        <item>Days to remember</item>
+        <item>Daily events</item>
+        <item>Ordinary &amp; Extraordinary</item>
+    </string-array>
+</resources>

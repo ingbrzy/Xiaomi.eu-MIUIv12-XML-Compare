@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Instalador de certificado</string>
+  <string name="ca_cert_is_added">Certificado CA instalado</string>
+  <string name="ca_certificate">Certificado CA</string>
+  <string name="cert_missing_error">A instalação não pôde ser concluída, pois não foi possível localizar o arquivo do certificado.</string>
+  <string name="cert_not_saved">O certificado não está instalado.</string>
+  <string name="cert_read_error">A instalação não pôde ser concluída, pois não foi possível ler o arquivo do certificado.</string>
+  <string name="cert_temp_error">Falha temporária. Por favor, tente novamente mais tarde.</string>
+  <string name="cert_too_large_error">Não foi possível concluir a instalação, pois o tamanho do certificado é muito grande.</string>
+  <string name="certificate">Certificado</string>
+  <string name="certificate_capabilities_warning">Observação: o emissor deste certificado pode inspecionar todo o tráfego de e para o dispositivo.</string>
+  <string name="certificate_name">Nome do certificado</string>
+  <string name="credential_info">O pacote contém:</string>
+  <string name="credential_name">Nome do certificado:</string>
+  <string name="credential_password">Digite a senha para extrair os certificados.</string>
+  <string name="credential_usage_label">Uso da credencial:</string>
+  <string name="done_label">CONCLUÍDO</string>
+  <string name="extracting_pkcs12">Extraindo…</string>
+  <string name="install_done">As credenciais de %1$s foram adicionadas a redes Wi-Fi salvas.</string>
+  <string name="install_done_title">Credenciais instaladas</string>
+  <string name="invalid_cert">O certificado é inválido.</string>
+  <string name="invalid_certificate_close_button">Fechar</string>
+  <string name="invalid_certificate_message">"Este arquivo não pode ser usado como um %1$s"</string>
+  <string name="invalid_certificate_title">"Não é possível usar este arquivo"</string>
+  <string name="n_cacrts">%d certificados CA</string>
+  <string name="name_char_error">Digite um nome que contenha apenas letras e números.</string>
+  <string name="name_credential_dialog_title">Nomeie este certificado</string>
+  <string name="name_empty_error">Digite um nome.</string>
+  <string name="no_cert_file_found">Nenhum arquivo de certificado foi encontrado no armazenamento USB.</string>
+  <string name="no_cert_to_saved">Não há certificado para instalar.</string>
+  <string name="one_cacrt">um certificado CA</string>
+  <string name="one_usercrt">um certificado de usuário</string>
+  <string name="one_userkey">uma chave de usuário</string>
+  <string name="only_primary_user_allowed">Somente o dono do dispositivo pode instalar certificados.</string>
+  <string name="p12_description">Certificados no armazenamento de chaves PKCS12.</string>
+  <string name="password_empty_error">Digite a senha.</string>
+  <string name="password_error">Digite a senha correta.</string>
+  <string name="pick_file_title">Escolher um certificado</string>
+  <string name="pkcs12_file_password_dialog_title">Extrair de %s</string>
+  <string name="pkcs12_password_dialog_title">Extrair certificado</string>
+  <string name="redirect_ca_certificate_close_button">Fechar</string>
+  <string name="redirect_ca_certificate_title">Instale os certificados CA em Configurações</string>
+  <string name="redirect_ca_certificate_with_app_info_message">Este certificado de %1$s deve ser instalado em Configurações. Instale apenas certificados CA de organizações em que você confia.</string>
+  <string name="sdcard_not_present">Armazenam. USB não disponível.</string>
+  <string name="select_certificate_usage_title">Escolha um tipo de certificado</string>
+  <string name="unable_to_save_cert">Não foi possível salvar o certificado. Armazenamento de credenciais desativado ou não inicializado corretamente.</string>
+  <string name="user_cert_is_added">Certificado de usuário instalado</string>
+  <string name="user_certificate">VPN e certificado de usuário do app</string>
+  <string name="wifi_cancel_label">Cancelar</string>
+  <string name="wifi_cert_is_added">Certificado Wi-Fi instalado</string>
+  <string name="wifi_certificate">Certificado Wi-Fi</string>
+  <string name="wifi_config_text">"Nome: %1$s
+FQDN: %2$s
+Consórcios de roaming: %3$s
+Realm: %4$s
+Método de autenticação: EAP-%5$s
+"</string>
+  <string name="wifi_detail_label">Detalhes</string>
+  <string name="wifi_detail_title">Detalhes sobre %s</string>
+  <string name="wifi_dismiss_label">Dispensar</string>
+  <string name="wifi_install_label">Instalar</string>
+  <string name="wifi_installer_detail">Instalar credenciais de Wi-Fi para se conectar a redes disponíveis via %1$s.</string>
+  <string name="wifi_installer_download_error">O arquivo transferido por download tem problemas e não pode ser instalado. Certifique-se de que você tenha feito o download do arquivo da fonte correta.</string>
+  <string name="wifi_installer_fail">Não foi possível instalar as credenciais de Wi-Fi. Tente baixar o arquivo novamente.</string>
+  <string name="wifi_installer_fail_no_wifi">Ative o Wi-Fi e tente novamente.</string>
+  <string name="wifi_installer_fail_no_wifi_title">Instalação cancelada</string>
+  <string name="wifi_installer_fail_title">Não é possível realizar a instalação</string>
+  <string name="wifi_installing_label">Instalando</string>
+  <string name="wifi_no_config">Nenhum</string>
+  <string name="wifi_sim_config_text">"SIM: %s
+"</string>
+  <string name="wifi_title">Perfil de Wi-Fi</string>
+  <string name="wifi_tls_config_text">"Certificados do cliente:
+%1$s
+Chave: %2$s
+"</string>
+  <string name="wifi_trust_config_text">"Certificado de confiança:
+%s
+"</string>
+  <string name="wifi_ttls_config_text">"Nome de usuário: %s
+"</string>
+</resources>
