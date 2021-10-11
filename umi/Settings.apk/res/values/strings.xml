@@ -1065,6 +1065,7 @@ Apps:
     <string name="biometric_weak_improve_matching_title">Improve face matching</string>
     <string name="biometric_weak_liveliness_summary">Require blinking to unlock</string>
     <string name="biometric_weak_liveliness_title">Real person check</string>
+    <string name="blank_screen_no_device">No devices</string>
     <string name="ble_scan_notify_text">To improve location accuracy, system apps and services can still detect Bluetooth devices. You can change this in LINK_BEGINscanning settingsLINK_END.</string>
     <string name="blob_expires_text">Expires at %s</string>
     <string name="blob_id_text">Shared data ID: %d</string>
@@ -1110,7 +1111,7 @@ Apps:
     <string name="bluetooth_broadcasting">Broadcasting</string>
     <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Make sure it is showing this passkey:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_connect_failed">"Couldn't connect. Try again."</string>
-    <string name="bluetooth_connect_settings">Bluetooth connection settings</string>
+    <string name="bluetooth_connect_settings">Connection</string>
     <string name="bluetooth_connect_specific_profiles_title">Connect to…</string>
     <string name="bluetooth_connected">Connected %1$s</string>
     <string name="bluetooth_connected_battery_level">Connected | Battery %1$s %2$s</string>
@@ -1136,7 +1137,6 @@ Apps:
     <string name="bluetooth_device_advanced_profile_header_title">Use for</string>
     <string name="bluetooth_device_advanced_rename_device">Rename</string>
     <string name="bluetooth_device_advanced_title">Paired Bluetooth device</string>
-    <string name="bluetooth_device_blacklist_summary">Manage blocked Bluetooth devices</string>
     <string name="bluetooth_device_blacklist_tital">Bluetooth blocklist</string>
     <string name="bluetooth_device_context_connect">Connect</string>
     <string name="bluetooth_device_context_connect_advanced">Options…</string>
@@ -1175,7 +1175,7 @@ Apps:
     <string name="bluetooth_disconnected">Disconnected</string>
     <string name="bluetooth_disconnecting">Disconnecting…</string>
     <string name="bluetooth_display_passkey_pin_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Type on it:&lt;br>&lt;b>%2$s&lt;/b>, then press Return or Enter.</string>
-    <string name="bluetooth_display_settings">Bluetooth display settings</string>
+    <string name="bluetooth_display_settings">Displayed items</string>
     <string name="bluetooth_dock_settings">Dock Settings</string>
     <string name="bluetooth_dock_settings_a2dp">For music and media</string>
     <string name="bluetooth_dock_settings_headset">As speaker phone</string>
@@ -1238,7 +1238,7 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_message_access_notification_content">Untrusted device wants to access your messages. Tap for details.</string>
     <string name="bluetooth_message_move_out_of_blacklist">Unblock %1$s now?</string>
     <string name="bluetooth_mi_fast_connect">Pair compatible devices</string>
-    <string name="bluetooth_mi_fast_connect_summary">Connect to nearby devices using a simplified pairing process</string>
+    <string name="bluetooth_mi_fast_connect_summary">Quickly connect earphones, speakers, and other compatible devices</string>
     <string name="bluetooth_middle_name">Case</string>
     <string name="bluetooth_move_out_of_blacklist">Unblock device</string>
     <string name="bluetooth_name_not_set">No name set, using account name</string>
@@ -1253,6 +1253,7 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
     <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
     <string name="bluetooth_opp_profile_summary_use_for">Used for file transfer</string>
+    <string name="bluetooth_other_settings">Additional settings</string>
     <string name="bluetooth_paired">Saved</string>
     <string name="bluetooth_paired_device_title">Your devices</string>
     <string name="bluetooth_pairing">Pairing…</string>
@@ -2186,6 +2187,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="current_input_method">Current Keyboard</string>
     <string name="current_password">Current screen lock</string>
     <string name="current_screen_lock">Current screen lock</string>
+    <string name="current_use_default_wallet">Selected automatically</string>
     <string name="current_use_ese">Using embedded secure element</string>
     <string name="current_use_ese_wallet">"You're using Mi Wallet. It allows you to use Mi Pay and NFC transport card."</string>
     <string name="current_use_hce_wallet">"You're using HCE Wallet"</string>
@@ -2413,6 +2415,7 @@ This setting affects all users of this device."</string>
     <string name="dc_light_summary">Apply DC dimming to reduce eye strain</string>
     <string name="dc_light_summary_new">DC dimming prevents extensive flickering and reduces eye strain in low light conditions. However, image quality might be affected when this feature is on.</string>
     <string name="dc_light_title">Anti-flicker mode</string>
+    <string name="dclight_unavailable_prompt">Anti-flicker mode is only supported by the outer screen</string>
     <string name="debug_app">Select debugging app</string>
     <string name="debug_app_not_set">"Debugging app isn't set"</string>
     <string name="debug_app_set">Debugging app: %1$s</string>
@@ -2683,6 +2686,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="display_dashboard_summary_with_style">Styles, wallpapers, screen timeout, font size</string>
     <string name="display_label">Screen</string>
     <string name="display_order_text">Sort by:</string>
+    <string name="display_prompt_confirm">Got it</string>
     <string name="display_settings">Display</string>
     <string name="display_settings_title">Display</string>
     <string name="display_summary">Sleep after %1$s of inactivity</string>
@@ -6748,6 +6752,7 @@ To use app pinning: \u0009
     <string name="screen_projection_title">Cast</string>
     <string name="screen_reader_category_title">Screen readers</string>
     <string name="screen_recorder_title">Screen Recorder</string>
+    <string name="screen_refresh_unavailable_prompt">Changing refresh rate is only supported by the outer screen</string>
     <string name="screen_resolution_dialog_title">Switch resolution</string>
     <string name="screen_resolution_high_format">High (%1$s)</string>
     <string name="screen_resolution_normal_format">Normal (%1$s)</string>
@@ -6830,11 +6835,13 @@ To use app pinning: \u0009
     <string name="sdcard_settings_unmounted_status">It’s now safe to remove the USB storage.</string>
     <string name="sdcard_settings_used_bytes_label">Used bytes:</string>
     <string name="sdcard_unmount">Unmount USB storage</string>
+    <string name="se_route_default">Select automatically</string>
     <string name="se_route_ese">Embedded secure element</string>
     <string name="se_route_uicc">Secure element on SIM card</string>
     <string name="se_wallet_ese">Mi Wallet</string>
     <string name="se_wallet_hce">HCE Wallet</string>
     <string name="se_wallet_uicc">SIM %1$s Wallet</string>
+    <string name="se_wallet_uicc_jp">"SIM %1$s wallet (Can't be selected automatically)"</string>
     <string name="search_about_settings">About phone;Model number;Android version;MIUI version;CPU;RAM;Internal memory;Memory;Storage;Internal storage;Baseband version;Kernel version;Build number;My device;Phone;Device</string>
     <string name="search_accelerometer_title">Auto rotate screen;Rotate screen;Orientation;Portrait;Landscape</string>
     <string name="search_access_control">Privacy settings;Security Privacy;Guest;Guest mode</string>
