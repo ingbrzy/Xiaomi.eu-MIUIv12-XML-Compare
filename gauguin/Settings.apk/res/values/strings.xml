@@ -1066,6 +1066,7 @@ Apps:
     <string name="biometric_weak_liveliness_summary">Require blinking to unlock</string>
     <string name="biometric_weak_liveliness_title">Real person check</string>
     <string name="blank_screen_no_device">No devices</string>
+    <string name="blank_screen_no_record">No records here yet</string>
     <string name="ble_scan_notify_text">To improve location accuracy, system apps and services can still detect Bluetooth devices. You can change this in LINK_BEGINscanning settingsLINK_END.</string>
     <string name="blob_expires_text">Expires at %s</string>
     <string name="blob_id_text">Shared data ID: %d</string>
@@ -1423,6 +1424,8 @@ Selection"</string>
     <string name="bluetooth_unpair_dialog_title">Forget device?</string>
     <string name="bluetooth_untether_blank">%1$s will be untethered.</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s will no longer be paired with any device linked to this account</string>
+    <string name="bluetooth_version">Bluetooth version</string>
+    <string name="bluetooth_version_message">Update</string>
     <string name="bluetooth_visibility_timeout">Visibility timeout</string>
     <string name="bluetooth_wake">Wake with Bluetooth audio</string>
     <string name="boot_sounds_title">Power on sounds</string>
@@ -3110,8 +3113,12 @@ For more details, contact your organization's admin."</string>
     <string name="face_data_manage_unlock_slide_msg">Replace slider shortcuts with face unlock</string>
     <string name="face_data_manage_unlock_title">Unlock using face data</string>
     <string name="face_data_siggesstion_next">Next</string>
+    <string name="face_data_siggesstion_next_cn">OK</string>
     <string name="face_data_siggesstion_next_time">Next (%ds)</string>
+    <string name="face_data_siggesstion_next_time_cn">OK (%ds)</string>
     <string name="face_data_suggesstion_first">Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance.</string>
+    <string name="face_data_suggesstion_first_cn">"For you to be able to use Face unlock, we need to collect your face data. The face data will be stored locally on this device. To delete it, search for \"Face unlock\" in the Settings and then select Face unlock > Face data.
+Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance."</string>
     <string name="face_data_suggesstion_second">"Make sure all parts of your face are clearly visible. Don't wear any accessories that might cover your face. Keep your face evenly lit and avoid direct light."</string>
     <string name="face_intro_error_max">You’ve added the maximum number of faces</string>
     <string name="face_intro_error_unknown">Can’t add more faces</string>
@@ -3196,6 +3203,10 @@ For more details, contact your organization's admin."</string>
     <string name="find_my_device_disable">Off</string>
     <string name="find_my_device_enable">On</string>
     <string name="find_my_device_summary">This feature requires signing in to Mi Account</string>
+    <string name="finger_add_user_info_dialog_cancel">Cancel</string>
+    <string name="finger_add_user_info_dialog_message">"For you to be able to use Fingerprint unlock and make fingerprint payments, we need to collect your fingerprint. The fingerprint will be stored locally on this device. To delete it, search for \"Fingerprint unlock\" in the Settings and then select Fingerprint unlock > Fingerprint. You won't be able to use this feature if you don't agree."</string>
+    <string name="finger_add_user_info_dialog_next">Agree</string>
+    <string name="finger_add_user_info_dialog_title">Attention</string>
     <string name="fingerprint_add_max">You can add up to %d fingerprints</string>
     <string name="fingerprint_add_title">Add fingerprint</string>
     <string name="fingerprint_and_password_entrance_title">Screen lock &amp; fingerprint</string>
@@ -4568,6 +4579,9 @@ as your First space PIN."</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">Too many unsuccessful attempts</string>
     <string name="lockpattern_tutorial_cancel_label">Cancel</string>
     <string name="lockpattern_tutorial_continue_label">Next</string>
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
     <string name="lockscreen_bypass_summary">After face unlock, go directly to last used screen</string>
     <string name="lockscreen_bypass_title">Skip lock screen</string>
     <string name="lockscreen_glogin_checking_password">Checking…</string>
@@ -4931,6 +4945,7 @@ You can't reverse this action."</string>
     <string name="miui_experience_optimization">Turn on MIUI optimization</string>
     <string name="miui_face_enroll_risk_warning_btn_cancel">Cancel</string>
     <string name="miui_face_enroll_risk_warning_title_text">Attention</string>
+    <string name="miui_face_enroll_risk_warning_title_text_cn">Statement on security</string>
     <string name="miui_face_enroll_success">"You can unlock this device using your face data now.
 Continue to access additional settings."</string>
     <string name="miui_input_method_attention">Attention</string>
