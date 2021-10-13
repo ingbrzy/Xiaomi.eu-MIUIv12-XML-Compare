@@ -543,6 +543,7 @@
     <string name="copy">Copy</string>
     <string name="copy_email">Copy email address</string>
     <string name="copy_number">Copy phone number</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="create_action">New</string>
     <string name="cur_debt">Account balance</string>
     <string name="custom_from_account_label">Send mail as:</string>
@@ -683,6 +684,9 @@
     <string name="failed_parse_eml_file">"Couldn't open EML file, try again."</string>
     <string name="failed_read_write_calendar_permission">Access to Calendar is restricted</string>
     <string name="failed_read_write_contacts_permission">Access to contacts is restricted</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
     <string name="feedback">Send feedback</string>
     <string name="feedback_body">Message</string>
     <string name="feedback_body_domestic" />
@@ -848,6 +852,10 @@
     <string name="get_database_exception">"Clear this app's data in Settings > System apps and try again."</string>
     <string name="get_oauth_code">Get code</string>
     <string name="gmail_acceleration">Use proxy server for Gmail Account</string>
+    <string name="gmail_invalid_tip_cancel">我知道了</string>
+    <string name="gmail_invalid_tip_confirm">登录</string>
+    <string name="gmail_invalid_tip_message">非常抱歉！由于最新谷歌安全协议规定，需要您重新完成Gmail登录授权</string>
+    <string name="gmail_invalid_tip_title">Gmail登录</string>
     <string name="gmail_login_confirm_to_use_proxy">Use proxy server to access your Gmail Account?</string>
     <string name="gmail_login_failed_non_proxy_title">"Couldn't access Gmail server"</string>
     <string name="gmail_server_authorization_deleted">"Couldn't authenticate account. Try adding this account again."</string>
@@ -1006,7 +1014,7 @@ This issue might be caused by the account's two-factor authentication. Try enter
     <string name="mark_not_spam">Unmark as spam</string>
     <string name="mark_read">Mark read</string>
     <string name="mark_unread">Mark unread</string>
-    <string name="marketSdkVersion">3.2.5</string>
+    <string name="marketSdkVersion">3.2.9</string>
     <string name="material_slider_range_end">Range end,</string>
     <string name="material_slider_range_start">Range start,</string>
     <string name="me_object_pronun">me</string>
@@ -1624,6 +1632,9 @@ Wait until it's fully synced or view the message on your computer."</string>
     <string name="show_images_all">Load and show all images</string>
     <string name="show_password">Show password</string>
     <string name="show_server_cet">View certificate</string>
+    <string name="sign_in_dialog_outlook_enterprise">Outlook for business (without calendar)</string>
+    <string name="sign_in_dialog_outlook_exchange">EXCHANGE (with calendar)</string>
+    <string name="sign_in_dialog_outlook_imap">IMAP (without calendar)</string>
     <string name="sign_in_graph_error">"You can sign in using IMAP or EXCHANGE protocols login only when your organization hasn't changed the general server configuration. If your server address is customized by the organization or related protocols are disabled, sign in using Microsoft's new protocol."</string>
     <string name="sign_in_no_useful_provider_error">"Can't get protocol configurations from Microsoft. Use a different protocol or update the protocol from Microsoft."</string>
     <string name="signature">"
@@ -1885,9 +1896,9 @@ Touch "<b>Sync Now</b> to sync mail once, or <b>Change Sync Settings</b> to set 
     <string name="wrong_password">The password you entered is incorrect</string>
     <string name="x_account_settings_mibill_resolve_label_summary">Recognize credit card bills automatically</string>
     <string name="xiaomi_email">Mail</string>
-    <string name="xiaomi_market_sdk_update_dialog_cancel">以后再说</string>
-    <string name="xiaomi_market_sdk_update_dialog_ok">立即更新</string>
-    <string name="xiaomi_market_sdk_update_dialog_title">%s 新版本</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Not now</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">Update</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">An update is available</string>
     <string name="yes">Yes</string>
     <string name="yesterday">Yesterday</string>
     <string name="you_are_in_mobile_network">Use mobile data to upload logs?</string>

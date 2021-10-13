@@ -179,16 +179,6 @@
         <item>@string/heavenly_stems_ren</item>
         <item>@string/heavenly_stems_gui</item>
     </string-array>
-    <string-array name="height_array">
-        <item>Centimeters</item>
-        <item>Meters</item>
-        <item>Feet</item>
-        <item>Inches</item>
-    </string-array>
-    <string-array name="loan_rulers">
-        <item>@string/loan_type_summary_lpr</item>
-        <item>@string/loan_type_summary_base</item>
-    </string-array>
     <string-array name="months">
         <item>@string/month_january</item>
         <item>@string/month_february</item>
@@ -231,48 +221,6 @@
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
     </string-array>
-    <string-array name="mortgage_repayment">
-        <item>Equal installments</item>
-        <item>Decreasing installments</item>
-    </string-array>
-    <string-array name="operatorDescs">
-        <item>left parenthesis</item>
-        <item>right parenthesis</item>
-        <item>factorial</item>
-        <item>natural logarithm</item>
-        <item>logarithm</item>
-        <item>square root</item>
-        <item>divided by</item>
-        <item>multiplied by</item>
-        <item>plus</item>
-        <item>minus</item>
-        <item> point </item>
-        <item>power</item>
-        <item>tangent</item>
-        <item>sine</item>
-        <item>cosine</item>
-        <item>pi</item>
-        <item>equals</item>
-    </string-array>
-    <string-array name="operators">
-        <item>(</item>
-        <item>)</item>
-        <item>!</item>
-        <item>ln</item>
-        <item>log</item>
-        <item>√</item>
-        <item>÷</item>
-        <item>×</item>
-        <item>+</item>
-        <item>−</item>
-        <item>.</item>
-        <item>^</item>
-        <item>tan</item>
-        <item>sin</item>
-        <item>cos</item>
-        <item>π</item>
-        <item>=</item>
-    </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
         <item>@string/solar_term_slight_cold</item>
@@ -300,177 +248,6 @@
         <item>@string/solar_term_heavy_snow</item>
         <item>@string/solar_term_winter_solstice</item>
     </string-array>
-    <string-array name="table_titles">
-        <item>@string/mortgage_detail_month</item>
-        <item>@string/mortgage_detail_monthly_repayment</item>
-        <item>@string/mortgage_detail_monthly_principal</item>
-        <item>@string/mortgage_detail_monthly_interest</item>
-        <item>@string/mortgage_detail_monthly_remain</item>
-    </string-array>
-    <string-array name="unit_data_order_area_">
-        <item>sq.km</item>
-        <item>ha</item>
-        <item>are</item>
-        <item>sq.m</item>
-        <item>sq.dm</item>
-        <item>sq.cm</item>
-        <item>sq.mm</item>
-        <item>sq.um</item>
-        <item>acre</item>
-        <item>sq.mi</item>
-        <item>sq.yd</item>
-        <item>sq.ft</item>
-        <item>sq.in</item>
-        <item>sq.rd</item>
-        <item>qing</item>
-        <item>mu</item>
-        <item>sq.chi</item>
-        <item>sq.cun</item>
-    </string-array>
-    <string-array name="unit_data_order_currency_">
-        <item>USD</item>
-        <item>EUR</item>
-        <item>JPY</item>
-    </string-array>
-    <string-array name="unit_data_order_data_">
-        <item>b</item>
-        <item>kb</item>
-        <item>mb</item>
-        <item>gb</item>
-        <item>tb</item>
-        <item>pb</item>
-    </string-array>
-    <string-array name="unit_data_order_length_">
-        <item>km</item>
-        <item>m</item>
-        <item>dm</item>
-        <item>cm</item>
-        <item>mm</item>
-        <item>um</item>
-        <item>nm</item>
-        <item>pm</item>
-        <item>dm</item>
-        <item>nmi</item>
-        <item>mi</item>
-        <item>fur</item>
-        <item>fm</item>
-        <item>yd</item>
-        <item>ft</item>
-        <item>in</item>
-        <item>gongli</item>
-        <item>li</item>
-        <item>zhang</item>
-        <item>chi</item>
-        <item>cun</item>
-        <item>fen</item>
-        <item>lii</item>
-        <item>hao</item>
-        <item>pc</item>
-        <item>ld</item>
-        <item>au</item>
-        <item>ly</item>
-    </string-array>
-    <string-array name="unit_data_order_radix">
-        <item>2</item>
-        <item>8</item>
-        <item>10</item>
-        <item>16</item>
-    </string-array>
-    <string-array name="unit_data_order_temperature_">
-        <item>C</item>
-        <item>F</item>
-        <item>K</item>
-        <item>R</item>
-        <item>Re</item>
-    </string-array>
-    <string-array name="unit_data_order_time_">
-        <item>yr</item>
-        <item>week</item>
-        <item>day</item>
-        <item>h</item>
-        <item>min</item>
-        <item>s</item>
-        <item>ms</item>
-        <item>us</item>
-        <item>ps</item>
-    </string-array>
-    <string-array name="unit_data_order_velocity_">
-        <item>c</item>
-        <item>mach</item>
-        <item>mps</item>
-        <item>kmph</item>
-        <item>kmps</item>
-        <item>nmiph</item>
-        <item>mileph</item>
-        <item>fps</item>
-        <item>ips</item>
-    </string-array>
-    <string-array name="unit_data_order_volume_">
-        <item>cu.m</item>
-        <item>cu.dm</item>
-        <item>cu.cm</item>
-        <item>cu.mm</item>
-        <item>hl</item>
-        <item>l</item>
-        <item>dl</item>
-        <item>cl</item>
-        <item>ml</item>
-        <item>cu.ft</item>
-        <item>cu.in</item>
-        <item>cu.yd</item>
-        <item>cu.af</item>
-    </string-array>
-    <string-array name="unit_data_order_weight_">
-        <item>t</item>
-        <item>kg</item>
-        <item>g</item>
-        <item>mg</item>
-        <item>ug</item>
-        <item>q</item>
-        <item>lb</item>
-        <item>oz</item>
-        <item>ct</item>
-        <item>gr</item>
-        <item>lt</item>
-        <item>st</item>
-        <item>uk.cwt</item>
-        <item>us.cwt</item>
-        <item>uk.st</item>
-        <item>dr</item>
-        <item>dan</item>
-        <item>jin</item>
-        <item>qian</item>
-        <item>liang</item>
-        <item>taijin</item>
-    </string-array>
-    <integer-array name="units_default_selection_area">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_length">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_temperature">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_time">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_velocity">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_volume">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_weight">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
     <string-array name="week_days">
         <item>@string/sunday</item>
         <item>@string/monday</item>
@@ -497,9 +274,5 @@
         <item>@string/thursday_shortest</item>
         <item>@string/friday_shortest</item>
         <item>@string/saturday_shortest</item>
-    </string-array>
-    <string-array name="weight_array">
-        <item>Kilograms</item>
-        <item>Pounds</item>
     </string-array>
 </resources>

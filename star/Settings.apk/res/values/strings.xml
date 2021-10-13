@@ -12,6 +12,7 @@
     <string name="APN_NAME_CUSUPL">China Unicom AGPS</string>
     <string name="APN_NAME_CUWAP">China Unicom WAP</string>
     <string name="Accounts_settings_title">Accounts</string>
+    <string name="MiSans_title">MiSans</string>
     <string name="a11y_settings_label">Accessibility settings</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -55,7 +56,7 @@
     <string name="about_ad_service_instructions">About ad services and privacy​</string>
     <string name="about_phone_device_name_warning">Your device name is visible to apps on your phone. It may also be seen by other people when you connect to Bluetooth devices, connect to a Wi-Fi network or set up a Wi-Fi hotspot.</string>
     <string name="about_phone_enter_xiaomi_net">Learn more</string>
-    <string name="about_settings">About device</string>
+    <string name="about_settings">About phone</string>
     <string name="about_settings_summary">View legal info, status, software version</string>
     <string name="ac_enable_summary">Set a password for individual apps</string>
     <string name="ac_enable_title">App lock</string>
@@ -484,7 +485,7 @@ To switch between features, swipe up with 3 fingers and hold."</string>
     <string name="add_text_app_name">Add a testing app package</string>
     <string name="add_text_app_name_here">Enter package name</string>
     <string name="add_text_app_package_name">Add a testing app package</string>
-    <string name="add_user_failed">Failed to create a new user</string>
+    <string name="add_user_failed">"Couldn't create a new user"</string>
     <string name="add_virtual_keyboard">Manage on-screen keyboards</string>
     <string name="added_sources_dashboard_title">Added Broadcast Sources</string>
     <string name="added_sources_title">Broadcast sources</string>
@@ -555,7 +556,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
     <string name="alarm_volume_title">Alarm</string>
     <string name="alarms_and_reminders_footer_title">"Allow this app to set alarms and schedule time-sensitive actions. This lets the app run in the background, which may use more battery.
 
-If this permission is off, existing alarms and time-based events scheduled by this app won’t work."</string>
+If this permission is off, existing alarms and time-based events scheduled by this app won't work."</string>
     <string name="alarms_and_reminders_label">Alarms and reminders</string>
     <string name="alarms_and_reminders_switch_title">Allow setting alarms and reminders</string>
     <string name="alarms_and_reminders_title">Alarms &amp; reminders</string>
@@ -588,7 +589,7 @@ If this permission is off, existing alarms and time-based events scheduled by th
     <string name="already_delete_system_app">Uninstalled system apps</string>
     <string name="always">Always</string>
     <string name="always_allow_bind_appwidgets_text">You’ve chosen to allow this app to create widgets and access their data.</string>
-    <string name="always_on">Always on</string>
+    <string name="always_on">始终开启</string>
     <string name="always_running">Always running (%s)</string>
     <string name="am">AM</string>
     <string name="amber_alerts_summary">Receive bulletins about child abductions</string>
@@ -863,7 +864,7 @@ Change settings now?"</string>
 2. If the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards."</string>
     <string name="auto_clean_summary">Play a 30-second audio to clear the speaker</string>
     <string name="auto_clean_title">Clear speaker</string>
-    <string name="auto_disable_broadcast_audio">Switch off broadcast automatically</string>
+    <string name="auto_disable_broadcast_audio">不广播时关闭该模式</string>
     <string name="auto_disable_screenbuttons_ask">Ask to disable</string>
     <string name="auto_disable_screenbuttons_auto">Always disable</string>
     <string name="auto_disable_screenbuttons_cancel">Cancel</string>
@@ -934,16 +935,16 @@ Last ran on %2$s"</string>
     <string name="avoid_ui">Block touch response</string>
     <string name="awake">Device awake time</string>
     <string name="aware_summary_when_bedtime_on">Unavailable because bedtime mode is on</string>
-    <string name="ba_high_security_level">16 digit pin</string>
-    <string name="ba_high_security_level_summary">Security risk: Low</string>
-    <string name="ba_low_security_level">Unencrypted</string>
-    <string name="ba_low_security_level_summary">Security risk: High</string>
-    <string name="ba_mid_security_level">4 digit pin</string>
-    <string name="ba_mid_security_level_summary">Security risk: Medium</string>
-    <string name="ba_security_settings">Security settings</string>
-    <string name="ba_security_summary">Pass Code:</string>
-    <string name="ba_security_summary_no_pin">No pass code</string>
-    <string name="ba_security_summary_pin_unavailable">Unavailable</string>
+    <string name="ba_high_security_level">16位密码</string>
+    <string name="ba_high_security_level_summary">安全风险: 低</string>
+    <string name="ba_low_security_level">无密码</string>
+    <string name="ba_low_security_level_summary">安全风险: 高</string>
+    <string name="ba_mid_security_level">4位密码</string>
+    <string name="ba_mid_security_level_summary">安全风险: 中</string>
+    <string name="ba_security_settings">共享广播密码</string>
+    <string name="ba_security_summary">密码:</string>
+    <string name="ba_security_summary_no_pin">无密码</string>
+    <string name="ba_security_summary_pin_unavailable">不可用</string>
     <string name="back">Back</string>
     <string name="back_button">Back</string>
     <string name="back_double_tap">Double back tap</string>
@@ -1279,6 +1280,8 @@ for ^2"</string>
     <string name="biometrics_unlock_set_unlock_pin">PIN • Face • Fingerprint</string>
     <string name="biometrics_unlock_skip_biometrics">Continue without face or fingerprint</string>
     <string name="biometrics_unlock_title">You can unlock your phone using your face or fingerprint. For security, this option requires a backup screen lock.</string>
+    <string name="blank_screen_no_device">No devices</string>
+    <string name="blank_screen_no_record">No records here yet</string>
     <string name="ble_scan_notify_text">To improve location accuracy, system apps and services can still detect Bluetooth devices. You can change this in LINK_BEGINscanning settingsLINK_END.</string>
     <string name="blob_expires_text">Expires at %s</string>
     <string name="blob_id_text">Shared data ID: %d</string>
@@ -1324,13 +1327,20 @@ for ^2"</string>
     <string name="bluetooth_bcast_rcvr_device_name">Broadcast receiver</string>
     <string name="bluetooth_blacklist_cancel_remove_device">Cancel</string>
     <string name="bluetooth_blacklist_remove_device">Unblock</string>
+    <string name="bluetooth_ble_audio_source_connect">连接</string>
+    <string name="bluetooth_ble_audio_source_duplicate_add_error">您选择的设备source已经被添加过</string>
+    <string name="bluetooth_ble_audio_source_invalid_error">您选择的source无效</string>
+    <string name="bluetooth_ble_audio_source_no_empty_slot_error">您选择的source没有可用slot</string>
+    <string name="bluetooth_ble_audio_source_passoword">密码</string>
+    <string name="bluetooth_ble_audio_source_select_error">广播选择异常</string>
+    <string name="bluetooth_ble_audio_source_unavailable_error">您选择的source不可以用</string>
     <string name="bluetooth_broadcast">Broadcast</string>
-    <string name="bluetooth_broadcast_audio">Bluetooth broadcast audio</string>
-    <string name="bluetooth_broadcast_audio_sharing">Bluetooth broadcast audio sharing</string>
-    <string name="bluetooth_broadcast_audio_summary">Share your bluetooth audio via bluetooth broadcast</string>
-    <string name="bluetooth_broadcast_audio_summary_disable">No bluetooth broadcast audio device is connected</string>
-    <string name="bluetooth_broadcast_audio_switch_summary">Switch off to disable bluetooth broadcast audio</string>
-    <string name="bluetooth_broadcast_audio_switch_title">Bluetooth broadcast audio</string>
+    <string name="bluetooth_broadcast_audio">蓝牙共享广播</string>
+    <string name="bluetooth_broadcast_audio_sharing">蓝牙共享广播</string>
+    <string name="bluetooth_broadcast_audio_summary">可将手机的音频共享给其他蓝牙设备</string>
+    <string name="bluetooth_broadcast_audio_summary_disable">没有连接支持蓝牙广播的设备</string>
+    <string name="bluetooth_broadcast_audio_switch_summary">关闭蓝牙共享广播</string>
+    <string name="bluetooth_broadcast_audio_switch_title">蓝牙共享广播</string>
     <string name="bluetooth_broadcast_pin_configure">Broadcast: Bluetooth Privacy Code</string>
     <string name="bluetooth_broadcast_pin_configure_dialog">Broadcast: Configure Bluetooth Privacy Code</string>
     <string name="bluetooth_broadcasting">Broadcasting</string>
@@ -1352,7 +1362,7 @@ You haven’t connected to %2$s before."</string>
     <string name="bluetooth_connect_access_notification_content">A device wants to connect. Tap for details.</string>
     <string name="bluetooth_connect_access_notification_title">Bluetooth device available</string>
     <string name="bluetooth_connect_failed">"Couldn't connect. Try again."</string>
-    <string name="bluetooth_connect_settings">Bluetooth connection settings</string>
+    <string name="bluetooth_connect_settings">Connection</string>
     <string name="bluetooth_connect_specific_profiles_title">Connect to…</string>
     <string name="bluetooth_connected">Connected %1$s</string>
     <string name="bluetooth_connected_battery_level">Connected | Battery %1$s %2$s</string>
@@ -1378,7 +1388,6 @@ You haven’t connected to %2$s before."</string>
     <string name="bluetooth_device_advanced_profile_header_title">Use for</string>
     <string name="bluetooth_device_advanced_rename_device">Rename</string>
     <string name="bluetooth_device_advanced_title">Paired Bluetooth device</string>
-    <string name="bluetooth_device_blacklist_summary">Manage blocked Bluetooth devices</string>
     <string name="bluetooth_device_blacklist_tital">Bluetooth blocklist</string>
     <string name="bluetooth_device_context_connect">Connect</string>
     <string name="bluetooth_device_context_connect_advanced">Options…</string>
@@ -1417,7 +1426,7 @@ You haven’t connected to %2$s before."</string>
     <string name="bluetooth_disconnected">Disconnected</string>
     <string name="bluetooth_disconnecting">Disconnecting…</string>
     <string name="bluetooth_display_passkey_pin_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Type on it:&lt;br>&lt;b>%2$s&lt;/b>, then press Return or Enter.</string>
-    <string name="bluetooth_display_settings">Bluetooth display settings</string>
+    <string name="bluetooth_display_settings">Displayed items</string>
     <string name="bluetooth_dock_settings">Dock Settings</string>
     <string name="bluetooth_dock_settings_a2dp">For music and media</string>
     <string name="bluetooth_dock_settings_headset">As speaker phone</string>
@@ -1484,7 +1493,7 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_message_access_notification_content">Untrusted device wants to access your messages. Tap for details.</string>
     <string name="bluetooth_message_move_out_of_blacklist">Unblock %1$s now?</string>
     <string name="bluetooth_mi_fast_connect">Pair compatible devices</string>
-    <string name="bluetooth_mi_fast_connect_summary">Connect to nearby devices using a simplified pairing process</string>
+    <string name="bluetooth_mi_fast_connect_summary">Quickly connect earphones, speakers, and other compatible devices</string>
     <string name="bluetooth_middle_name">Case</string>
     <string name="bluetooth_move_out_of_blacklist">Unblock device</string>
     <string name="bluetooth_name_not_set">No name set, using account name</string>
@@ -1499,6 +1508,7 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
     <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
     <string name="bluetooth_opp_profile_summary_use_for">Used for file transfer</string>
+    <string name="bluetooth_other_settings">Additional settings</string>
     <string name="bluetooth_paired">Saved</string>
     <string name="bluetooth_paired_device_title">Your devices</string>
     <string name="bluetooth_pairing">Pairing…</string>
@@ -1624,6 +1634,18 @@ Selection"</string>
     <string name="bluetooth_settings">Bluetooth</string>
     <string name="bluetooth_settings_summary">Manage connections, set device name &amp; discoverability</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
+    <string name="bluetooth_share_audio">蓝牙共享音频</string>
+    <string name="bluetooth_share_broadcast">蓝牙共享广播</string>
+    <string name="bluetooth_share_broadcast_available_connect">可连接的共享广播</string>
+    <string name="bluetooth_share_broadcast_delete">删除广播</string>
+    <string name="bluetooth_share_broadcast_jion">加入蓝牙共享广播</string>
+    <string name="bluetooth_share_broadcast_listen">收听当前广播</string>
+    <string name="bluetooth_share_broadcast_listen_summary">加入蓝牙共享广播后自动开启，可手动关闭</string>
+    <string name="bluetooth_share_broadcast_nearby_available">附近的蓝牙共享广播</string>
+    <string name="bluetooth_share_broadcast_param">蓝牙共享广播参数</string>
+    <string name="bluetooth_share_broadcast_password_hint">当前蓝牙共享广播已设置密码，正确填写后加入</string>
+    <string name="bluetooth_share_broadcast_summary">关闭后耳机将切换为经典蓝牙模式</string>
+    <string name="bluetooth_share_broadcast_update">更新广播</string>
     <string name="bluetooth_show_devices_without_names">Show Bluetooth devices without names</string>
     <string name="bluetooth_show_devices_without_names_summary">Bluetooth devices without names (MAC addresses only) will be displayed</string>
     <string name="bluetooth_show_files_received_via_bluetooth">Files received via Bluetooth</string>
@@ -1889,9 +1911,9 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="call_records_name_1">Debbie Smith</string>
     <string name="call_records_name_2">Jason Lee</string>
     <string name="call_records_name_3">Tom Fowles</string>
-    <string name="call_records_summary_1">9:35 AM | 26 seconds | China Unicom</string>
-    <string name="call_records_summary_2">August 16 | 1m 16s | China Mobile</string>
-    <string name="call_records_summary_3">August 16 | 2m 24s | China Unicom</string>
+    <string name="call_records_summary_1">9:35 AM | 26 seconds</string>
+    <string name="call_records_summary_2">August 16 | 1m 16s</string>
+    <string name="call_records_summary_3">August 16 | 2m 24s</string>
     <string name="call_settings_primary_user_only">Change call settings in First space</string>
     <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
     <string name="call_settings_title">Call settings</string>
@@ -2001,7 +2023,7 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="cell_broadcast_receiver_package">com.android.cellbroadcastreceiver.module</string>
     <string name="cell_broadcast_settings">Wireless emergency alerts</string>
     <string name="cell_data_limit">^1 data limit</string>
-    <string name="cell_data_off_content_description">Mobile data off</string>
+    <string name="cell_data_off_content_description">Mobile data is off</string>
     <string name="cell_data_template">^1 mobile data</string>
     <string name="cell_data_warning">^1 data warning</string>
     <string name="cell_data_warning_and_limit">^1 data warning / ^2 data limit</string>
@@ -2138,7 +2160,7 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
     <string name="clear_all_data">Erase all data</string>
     <string name="clear_cache_btn_text">Clear cache</string>
-    <string name="clear_data_alert_info">All backups stored on this device will be deleted permanently. Back up important items to your computer and Xiaomi Cloud before you continue.</string>
+    <string name="clear_data_alert_info">All backups stored on this device will be deleted permanently. Back up important items to your computer and Xiaomi Cloud before performing a factory reset.</string>
     <string name="clear_data_dlg_text">All this app’s data will be deleted permanently. This includes all files, settings, accounts, databases, etc.</string>
     <string name="clear_data_dlg_title">Delete app data?</string>
     <string name="clear_failed_dlg_text">Couldn’t clear storage for app.</string>
@@ -2818,7 +2840,7 @@ This setting affects all users of this device."</string>
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
     <string name="delete_rule">Delete rules</string>
     <string name="delete_saved_network">Delete saved networks</string>
-    <string name="delete_sound_effect">\"Delete\" sound</string>
+    <string name="delete_sound_effect">Play sound when deleting items</string>
     <string name="deleted_apps">Deleted apps</string>
     <string name="deletion_helper_automatic_title">Automatic</string>
     <string name="deletion_helper_manual_title">Manual</string>
@@ -2914,7 +2936,7 @@ This setting affects all users of this device."</string>
 To try to fix this issue, you can stop %1$s and prevent it from running in the background."</string>
     <string name="dialog_background_check_ok">Turn off</string>
     <string name="dialog_background_check_title">Turn off background usage &amp; stop app?</string>
-    <string name="dialog_backup_title">Update backups before performing the factory reset?</string>
+    <string name="dialog_backup_title">Back up items first?</string>
     <string name="dialog_check_button_negative">Try again</string>
     <string name="dialog_check_button_positive">Connect to Wi-Fi</string>
     <string name="dialog_check_context">"Your device can't connect to the internet now.
@@ -3082,6 +3104,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="dndm_vip_list_starred_contact">Favorites</string>
     <string name="dndm_wristband">Activate with Mi Band</string>
     <string name="dndm_wristband_detailed">"Turn on Do Not Disturb if your wearable device detects you're sleeping within an hour before scheduled start time"</string>
+    <string name="dns_select_dialog_title">Select private DNS mode</string>
     <string name="do_disclosure_generic">This device is managed by your organization.</string>
     <string name="do_disclosure_learn_more_separator">" "</string>
     <string name="do_disclosure_with_name">This device is managed by %s.</string>
@@ -3158,7 +3181,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="dual_clock_aod_open_message">Dual clock will be displayed on the Lock screen, Home screen, and turned off screen.</string>
     <string name="dual_clock_hint">Dual clock requires using system clock widget and default theme</string>
     <string name="dual_clock_ok">Got it</string>
-    <string name="dual_clock_open_message">Dual clock will be displayed on the Lock screen, Home screen.</string>
+    <string name="dual_clock_open_message">Dual clock will be displayed on the Lock screen and Home screen.</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="dual_wifi">Dual band Wi-Fi speed boost</string>
@@ -3483,8 +3506,12 @@ Restart your device and try again."</string>
     <string name="face_data_manage_unlock_slide_msg">Replace slider shortcuts with face unlock</string>
     <string name="face_data_manage_unlock_title">Unlock using face data</string>
     <string name="face_data_siggesstion_next">Next</string>
+    <string name="face_data_siggesstion_next_cn">OK</string>
     <string name="face_data_siggesstion_next_time">Next (%ds)</string>
+    <string name="face_data_siggesstion_next_time_cn">OK (%ds)</string>
     <string name="face_data_suggesstion_first">Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance.</string>
+    <string name="face_data_suggesstion_first_cn">"For you to be able to use Face unlock, we need to collect your face data. The face data will be stored locally on this device. To delete it, search for \"Face unlock\" in the Settings and then select Face unlock > Face data.
+Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance."</string>
     <string name="face_data_suggesstion_second">"Make sure all parts of your face aren't covered by objects and are clearly visible. Your face should be well-lit as well."</string>
     <string name="face_intro_error_max">You’ve added the maximum number of faces</string>
     <string name="face_intro_error_unknown">Can’t add more faces</string>
@@ -3578,6 +3605,10 @@ To learn more, contact your creditor provider."</string>
     <string name="find_my_device_disable">Off</string>
     <string name="find_my_device_enable">On</string>
     <string name="find_my_device_summary">This feature requires signing in to Mi Account</string>
+    <string name="finger_add_user_info_dialog_cancel">Cancel</string>
+    <string name="finger_add_user_info_dialog_message">"For you to be able to use Fingerprint unlock and make fingerprint payments, we need to collect your fingerprint. The fingerprint will be stored locally on this device. To delete it, search for \"Fingerprint unlock\" in the Settings and then select Fingerprint unlock > Fingerprint. You won't be able to use this feature if you don't agree."</string>
+    <string name="finger_add_user_info_dialog_next">Agree</string>
+    <string name="finger_add_user_info_dialog_title">Attention</string>
     <string name="fingerprint_add_max">You can add up to %d fingerprints</string>
     <string name="fingerprint_add_title">Add fingerprint</string>
     <string name="fingerprint_and_password_entrance_title">Screen lock &amp; fingerprint</string>
@@ -3801,7 +3832,7 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
     <string name="forget_pattern"><u>Forgot pattern?</u></string>
     <string name="forget_privacy_password_setting">Add Mi Account</string>
     <string name="forget_privacy_password_summary">Use Mi Account to reset your password</string>
-    <string name="forget_wifi_message">Your phone will stop connecting to this network automatically</string>
+    <string name="forget_wifi_message">Your device will stop connecting to this network automatically. You might need to enter the password when you connect to this network again.</string>
     <string name="forgot_password_text">They can help you reset your PIN, pattern, or password</string>
     <string name="forgot_password_title">Contact your IT admin</string>
     <string name="found_new_version">Update available</string>
@@ -3956,7 +3987,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="guest_nickname">Guest</string>
     <string name="guest_reset_guest">Reset guest</string>
     <string name="guest_reset_guest_confirm_button">Reset</string>
-    <string name="guest_reset_guest_dialog_title">Reset guest?</string>
+    <string name="guest_reset_guest_dialog_title">Reset guest now?</string>
     <string name="guest_resetting">Resetting guest…</string>
     <string name="gxzw_add_fingerprint_area">Fingerprint scanner</string>
     <string name="gxzw_add_fingerprint_continue">Continue</string>
@@ -4001,7 +4032,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="handy_mode">One-handed mode</string>
     <string name="handy_mode_enable">One-handed mode</string>
     <string name="handy_mode_size">Screen size</string>
-    <string name="handy_mode_tips">Turn on one-handed mode by swiping left or right from the center of the navigation panel</string>
+    <string name="handy_mode_tips">Turn on one-handed mode by swiping left or right from the center of the navigation panel.</string>
     <string name="handy_mode_tips_full_screen">"Turn on one-handed mode by swiping the full screen indicator. This feature won't work if the indicator is hidden."</string>
     <string name="haptic_agent_completion_01_content_description">Completed task</string>
     <string name="haptic_cursor_movement_07_content_description">Adjusting brightness</string>
@@ -4034,7 +4065,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="hardware_info">Model &amp; hardware</string>
     <string name="hardware_revision">Hardware version</string>
     <string name="hardware_version">Hardware version</string>
-    <string name="has_screenshot_sound">Screenshot sound</string>
+    <string name="has_screenshot_sound">Play sound when taking screenshots</string>
     <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
     <string name="hdcp_checking_title">HDCP checking</string>
     <string name="hdmi_3d_display_enable_summary">Support 3D games</string>
@@ -4083,6 +4114,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="headset_remove_message_indicate">%1$s will be unpaired from all the devices associated with this Mi Account.</string>
     <string name="headset_sbc">SBC</string>
     <string name="headset_settings_title">Sound effects</string>
+    <string name="headset_spatial_audio">Spatial audio</string>
     <string name="headset_unsaved_device">Remove the device</string>
     <string name="headset_unsaved_devices">Used on other devices</string>
     <string name="hearing_aids_category">Hearing assistive tools</string>
@@ -5117,7 +5149,7 @@ as your First space PIN."</string>
     <string name="long_press_power_key_half_second">Press and hold the Power button for %ss</string>
     <string name="long_press_power_key_tips">&lt;Data>Long pressing the Power button is &lt;font color=#999999>faster and more convenient&lt;/font>&lt;/Data></string>
     <string name="long_press_volume_down">Long press Volume down</string>
-    <string name="long_time">30 minutes</string>
+    <string name="long_time">30分钟</string>
     <string name="lost_internet_access_cancel">Stay on Wi‑Fi</string>
     <string name="lost_internet_access_persist">Never show again</string>
     <string name="lost_internet_access_switch">Switch to mobile</string>
@@ -5303,7 +5335,7 @@ You won't be able to reverse this action."</string>
     <string name="media_output_switching">Switching…</string>
     <string name="media_output_title">Play media to</string>
     <string name="media_transfer_this_device_name">This device</string>
-    <string name="media_transfer_this_phone">This phone</string>
+    <string name="media_transfer_this_phone">This device</string>
     <string name="media_transfer_wired_device_name">Wired audio device</string>
     <string name="media_transfer_wired_usb_device_name">Wired headphone</string>
     <string name="media_volume_option_title">Media</string>
@@ -5370,7 +5402,7 @@ You won't be able to reverse this action."</string>
     <string name="menu_use_uss">Use Uss</string>
     <string name="mi_pay">Mi Wallet</string>
     <string name="mi_pay_indonesia">Mi Pay Account</string>
-    <string name="mi_pay_summary">Bus card/Mi Pay/Key card</string>
+    <string name="mi_pay_summary">Transport card/Mi Pay/Key card</string>
     <string name="mi_pay_summary_without_nfc">Mi Pay</string>
     <string name="mi_service">Mi Service</string>
     <string name="mi_service_app_detail">Data usage details</string>
@@ -5486,6 +5518,7 @@ You won't be able to reverse this action."</string>
     <string name="miheadset_triple_press_left">Triple press left earphone</string>
     <string name="miheadset_triple_press_right">Triple press right earphone</string>
     <string name="miheadset_unpair_device_text">%1$s will be unpaired from all the devices associated with this Mi Account.</string>
+    <string name="miheadset_windnoise">Wind</string>
     <string name="mipush_fake_channel_group_name">Mi Push</string>
     <string name="misc_files">Misc files</string>
     <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
@@ -5500,6 +5533,7 @@ You won't be able to reverse this action."</string>
     <string name="miui_experience_optimization">Turn on MIUI optimization</string>
     <string name="miui_face_enroll_risk_warning_btn_cancel">Cancel</string>
     <string name="miui_face_enroll_risk_warning_title_text">Attention</string>
+    <string name="miui_face_enroll_risk_warning_title_text_cn">Statement on security</string>
     <string name="miui_face_enroll_success">"You can unlock this device using your face data now.
 Continue to access additional settings."</string>
     <string name="miui_input_method_attention">Attention</string>
@@ -5846,7 +5880,7 @@ Select your operating system:"</string>
     <string name="musicfx_title">Music effects</string>
     <string name="mute">Silent mode</string>
     <string name="mute_media_sound_summary">Games, music, videos, and other apps</string>
-    <string name="mute_media_sound_title">Silence media sound</string>
+    <string name="mute_media_sound_title">Silence media in Silent mode</string>
     <string name="mute_music_stream">Mute media sound</string>
     <string name="mute_voiceassist_stream">Mute voice assistant</string>
     <string name="mvno_match_data">MVNO value</string>
@@ -6486,7 +6520,7 @@ Read and agree to %s before using this service."</string>
     <string name="password_turned_off_text">Password has been turned off</string>
     <string name="password_turned_on_text">Password has been turned on</string>
     <string name="password_unlock">Screen lock</string>
-    <string name="password_unlock_title">Password</string>
+    <string name="password_unlock_title">Screen lock</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -7056,7 +7090,7 @@ Press Power and Volume up at the same time."</string>
     <string name="remove_sourceinfo_btn_txt">Remove Source Info</string>
     <string name="repeat">Repeat</string>
     <string name="repeat_call">Notify about repeated calls</string>
-    <string name="repeat_call_info">Ring or vibrate while receiving the second call from the same phone number within %d minutes</string>
+    <string name="repeat_call_info">Ring or vibrate while receiving the second call from the same contact within %d minutes</string>
     <string name="repeat_days_in_week">Repeat</string>
     <string name="repeat_never">Never</string>
     <string name="repeat_title">Repeat</string>
@@ -7106,7 +7140,7 @@ Restart your device and try again."</string>
 "<li>Mobile data</li>"
 "<li>Bluetooth</li></string>
     <string name="reset_network_final_button_text">Reset settings</string>
-    <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to undo this action."</string>
+    <string name="reset_network_final_desc">"This might take several seconds. You won't be able to undo this action."</string>
     <string name="reset_network_final_desc_esim">Reset all network settings and erase downloaded SIMs? You can’t undo this action.</string>
     <string name="reset_network_title">Reset Wi-Fi, mobile networks, and Bluetooth</string>
     <string name="reset_network_wifi">Wi-Fi</string>
@@ -7175,7 +7209,7 @@ Restart your device and try again."</string>
     <string name="ring_to_you_info">Set a custom tone other people will hear before you pick up</string>
     <string name="ring_volume_option_title">Ringtone</string>
     <string name="ring_volume_title">Ring &amp; notification volume</string>
-    <string name="ringer_mode_setting_summary">Silence calls and notifications</string>
+    <string name="ringer_mode_setting_summary">Silence incoming calls and notifications</string>
     <string name="ringer_mode_setting_title">Silent mode</string>
     <string name="ringtone_slot_setting_title">Single SIM settings</string>
     <string name="ringtone_title">Ringtone</string>
@@ -7293,8 +7327,8 @@ This setting affects all users on this phone."</string>
     <string name="screen_fps_summary_smooth">Some apps will increase refresh rate automatically to improve picture quality</string>
     <string name="screen_fps_title">Refresh rate</string>
     <string name="screen_fps_unit">%d Hz</string>
-    <string name="screen_fps_unit_power_save">%dHz (Saves battery)</string>
-    <string name="screen_fps_unit_smooth">%dHz (Better quality)</string>
+    <string name="screen_fps_unit_power_save">%d Hz (Saves battery)</string>
+    <string name="screen_fps_unit_smooth">%d Hz (Better quality)</string>
     <string name="screen_key_long_press">Long press navigation buttons</string>
     <string name="screen_key_long_press_action">Trigger function</string>
     <string name="screen_key_long_press_timeout">Set long press time</string>
@@ -8029,7 +8063,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="shared_data_title">Shared data</string>
     <string name="sharing_remote_bugreport_dialog_message">This bug report is being shared with your IT admin. Contact them for more details.</string>
     <string name="short_summary_font_size">Make text larger or smaller</string>
-    <string name="short_time">10 minutes</string>
+    <string name="short_time">10分钟</string>
     <string name="show_all_anrs">Show background ANRs</string>
     <string name="show_all_anrs_summary">Show \"App not responding\" dialog for background apps</string>
     <string name="show_all_apps">Show full device usage</string>
@@ -9965,7 +9999,7 @@ Please review your service provider’s privacy policy."</string>
     <string name="wifi_disabled_help">Wi-Fi was disconnected due to poor connection. You can turn this feature off in Settings > Wi-Fi > Additional settings.</string>
     <string name="wifi_disabled_network_failure">"Couldn't configure IP"</string>
     <string name="wifi_disabled_password_failure">Authentication problem</string>
-    <string name="wifi_disabled_wifi_failure">Wi-Fi Connection Failure</string>
+    <string name="wifi_disabled_wifi_failure">"Couldn't connect to Wi-Fi"</string>
     <string name="wifi_disconnect_button_text">Disconnect</string>
     <string name="wifi_disconnected">Disconnected</string>
     <string name="wifi_disconnected_from">Disconnected from %1$s</string>
@@ -10708,7 +10742,7 @@ Looks like credential storage isn't enabled."</string>
     <string name="zen_mode_duration_summary_forever">Until you turn off</string>
     <string name="zen_mode_duration_summary_time_hours">{count, plural, =1 {1 hour} other {# hours} }</string>
     <string name="zen_mode_duration_summary_time_minutes">{count, plural, =1 {1 minute} other {# minutes} }</string>
-    <string name="zen_mode_effected_always">Always on</string>
+    <string name="zen_mode_effected_always">Always</string>
     <string name="zen_mode_enable_dialog_turn_on">Turn on</string>
     <string name="zen_mode_end_time">End time</string>
     <string name="zen_mode_end_time_next_day_summary_format">%s next day</string>
@@ -10805,7 +10839,7 @@ When you turn off Do Not Disturb, find missed notifications by swiping down from
     <string name="zen_mode_schedule_rule_days_all">Every day</string>
     <string name="zen_mode_schedule_rule_days_none">None</string>
     <string name="zen_mode_schedule_title">Schedule</string>
-    <string name="zen_mode_screen_locked_only">Only when screen is locked</string>
+    <string name="zen_mode_screen_locked_only">When screen is locked</string>
     <string name="zen_mode_screen_off">When the screen is off</string>
     <string name="zen_mode_screen_off_summary">Let notifications silenced by Do Not Disturb turn on the screen and blink the light</string>
     <string name="zen_mode_screen_off_summary_no_led">Let notifications silenced by Do Not Disturb turn on the screen</string>
@@ -10878,7 +10912,7 @@ Update settings to:
     <string name="zen_onboarding_screen_on_summary">"Don't show notifications at all, except for basic phone activity and status"</string>
     <string name="zen_onboarding_screen_on_title">Block when the screen is on</string>
     <string name="zen_onboarding_settings">Settings</string>
-    <string name="zen_rule_name_hint">"Enter rule's name"</string>
+    <string name="zen_rule_name_hint">Enter name for this rule</string>
     <string name="zen_schedule_rule_enabled_toast">Automatic rule set to turn on Do Not Disturb during specified times</string>
     <string name="zen_schedule_rule_type_name">Time</string>
     <string name="zen_settings_general">General</string>
