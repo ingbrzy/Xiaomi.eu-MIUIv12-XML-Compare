@@ -79,8 +79,8 @@
     <string name="ad_download">Download</string>
     <string name="ad_join">Join community</string>
     <string name="ad_more">More</string>
-    <string name="add_local_shortcut_add">+Add</string>
-    <string name="add_local_shortcut_des">Add “My Video” to desktop to easily watch your local videos.</string>
+    <string name="add_local_shortcut_add">Add</string>
+    <string name="add_local_shortcut_des">Add \"My videos\" to Home screen to access local video files in a single tap.</string>
     <string name="add_search_channel_link">URL</string>
     <string name="add_search_channel_name">Name</string>
     <string name="add_search_channel_tip">Search for \"%s\" on the target website, then copy and paste URL here.</string>
@@ -261,6 +261,7 @@
     <string name="cloud_online_switch_close_time">You can turn on personalized content recommendations in %s</string>
     <string name="cloud_online_switch_open_time">Show personalized content recommendations</string>
     <string name="collect_diagnosis_log">Collect logs</string>
+    <string name="columbus_ad_flag_text">AD</string>
     <string name="columbus_player_close_desc">You will lose your reward</string>
     <string name="columbus_player_close_resume">RESUME VIDEO</string>
     <string name="columbus_player_close_title">Close Video?</string>
@@ -270,6 +271,7 @@
     <string name="columbus_player_speed_title">Skip Video?</string>
     <string name="columbus_player_speed_video">Skip VIDEO</string>
     <string name="columbus_player_unit_sec">sec</string>
+    <string name="columbus_skip_ad">Skip</string>
     <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
@@ -345,7 +347,10 @@
     <string name="confirm_unbundled_phone_dialog_message">This phone number was associated with Mi Account %2$s on %1$s. It will no longer be associated with Mi Account %3$s if you continue. Continue?</string>
     <string name="content">Content</string>
     <string name="content_can_not_null">"Can't submit feedback without description."</string>
+    <string name="content_country_key">content_country</string>
+    <string name="content_language_key">content_language</string>
     <string name="continue_play">Resume</string>
+    <string name="current_service_key">service</string>
     <string name="data_empty">No items here</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -355,6 +360,7 @@
     <string name="day">day</string>
     <string name="default_filedownloader_notification_content">FileDownloader is running.</string>
     <string name="default_filedownloader_notification_title">FileDownloader</string>
+    <string name="default_localization_key">system</string>
     <string name="default_upgrade_hint">"Hi there!
 Mi Video is ready for an update.
 Update the app now to check out our new cool features!
@@ -367,6 +373,12 @@ Mi Video Team"</string>
     <string name="diagnosis_log_sent_format">"Sent logs successfully.
 ID:%s
 Send this code to the supervisor."</string>
+    <string name="dialog_app_comment_cancel">Cancel</string>
+    <string name="dialog_app_comment_default_content">How do you feel about Mi Video?</string>
+    <string name="dialog_app_comment_ok">OK</string>
+    <string name="dialog_app_comment_select_feedback">Could you give us your feedback as well?</string>
+    <string name="dialog_app_comment_select_praise">Nice! Rate Mi Video in Play Store as well?</string>
+    <string name="dialog_app_comment_title">Rate our app</string>
     <string name="dialog_disagree_privacychange_info">"You won't be able to use Mi Video online streaming services if you don't agree to our Privacy Policy. Tap \"Cancel\" to go back or \"Don't agree\" to continue and use Mi Video as a local player only."</string>
     <string name="dialog_disagree_privacychange_title">"Don't agree?"</string>
     <string name="dialog_privacy_change_info">"We've updated Mi Video Privacy Policy due to the adjustments in the services we offer. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using the app."</string>
@@ -611,6 +623,12 @@ Send this code to the supervisor."</string>
     <string name="galleryplus_network_connect_confirm">Connect to Wi-Fi or turn on mobile data in the network settings.</string>
     <string name="galleryplus_network_error">"Couldn't connect to the network"</string>
     <string name="galleryplus_network_not_wifi">Using mobile data to stream videos may generate additional carrier fees</string>
+    <string name="galleryplus_notification_linkvideo_subtitle1" formatted="false">Manage files %$s Add subtitles %$s Cast videos %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle2">Protect your private videos with a password %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle3">Download videos from TikTok, Instagram, and Twitter %$s</string>
+    <string name="galleryplus_notification_linkvideo_title1">%$s Check out all the cool features of Mi Video!</string>
+    <string name="galleryplus_notification_linkvideo_title2">%$s Tap to manage your videos</string>
+    <string name="galleryplus_notification_linkvideo_title3">%1$s Download videos for free %2$s Manage files</string>
     <string name="galleryplus_online_cta">Mi Video needs to connect to the internet to work normally. Agree?</string>
     <string name="galleryplus_online_cta_agree">Agree</string>
     <string name="galleryplus_online_cta_disagree">"Don't agree"</string>
@@ -621,14 +639,13 @@ Send this code to the supervisor."</string>
     <string name="galleryplus_permission_content">Give Mi Video the required permissions to be able to use this feature.</string>
     <string name="galleryplus_permission_content_opt">Mi Video needs permissions to work normally. Clear all app data in the Settings and open the app again.</string>
     <string name="galleryplus_permission_content_xms">Mi Video needs permissions to work normally. Go to Settings and give Mi Video the required permissions.</string>
-    <string name="galleryplus_permission_open_settings">去开启</string>
-    <string name="galleryplus_permission_refuse">取消</string>
-    <string name="galleryplus_permission_retry">去开启</string>
-    <string name="galleryplus_permission_storage_content_reshowable">%s需请求读写手机存储权限，若需使用该功能请授权</string>
-    <string name="galleryplus_permission_storage_content_unreshowable">%s需请求读写手机存储权限，若需要使用该功能，请点击“设置”，进入应用详情页，在“权限”中，开启设备权限</string>
-    <string name="galleryplus_permission_storage_title">读写设备上的照片及文件</string>
+    <string name="galleryplus_permission_open_settings">Settings</string>
+    <string name="galleryplus_permission_refuse">Cancel</string>
+    <string name="galleryplus_permission_retry">Settings</string>
+    <string name="galleryplus_permission_storage_content_reshowable_video_player">To be able to use local video player, allow this app to access storage first.</string>
+    <string name="galleryplus_permission_storage_content_unreshowable_video_player">To be able to use local video player, allow this app to access storage in the \"Permissions\" section of the Settings.</string>
+    <string name="galleryplus_permission_storage_title">Storage access required</string>
     <string name="galleryplus_permission_title">Attention</string>
-    <string name="galleryplus_permission_video_player">视频播放功能</string>
     <string name="galleryplus_play_speed">%1$.1fX</string>
     <string name="galleryplus_restore_play_speed">Playing at the regular speed now</string>
     <string name="galleryplus_save_cancel_toast">Tap \"Back\" again to cancel saving video</string>
@@ -727,12 +744,14 @@ for videos"</string>
     <string name="live_title">Live</string>
     <string name="live_tv_title">Live TV</string>
     <string name="loading">Just a sec…</string>
+    <string name="local_empty_guide">The videos you film will appear here</string>
     <string name="local_play_tip">Playing local video</string>
     <string name="local_push_setting_power_tag">Notifications about local videos</string>
     <string name="local_push_title">Popular today</string>
     <string name="local_video_create_a_new_playlist">New playlist</string>
     <string name="local_video_date">Date</string>
     <string name="local_video_dialog_default">Default</string>
+    <string name="local_video_edit_playlist">Edit playlist</string>
     <string name="local_video_from_a_to_z">A to Z</string>
     <string name="local_video_from_big_to_small">Big to small</string>
     <string name="local_video_from_long_to_short">Long to short</string>
@@ -1096,6 +1115,7 @@ for videos"</string>
     <string name="ovp_navigation_language">Language</string>
     <string name="ovp_navigation_localvideo">Local</string>
     <string name="ovp_navigation_notice">Notifications</string>
+    <string name="ovp_navigation_score">Rate our app</string>
     <string name="ovp_navigation_setting">Settings</string>
     <string name="ovp_navigation_subscribe">Subscription</string>
     <string name="ovp_navigation_version_update">Check for updates</string>
@@ -1229,6 +1249,7 @@ Update Mi Video to the latest version first."</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="peertube_selected_instance_key">peertube_selected_instance</string>
     <string name="permission_continue">Continue</string>
     <string name="permission_info">"Mi Video needs to access the IMEI number of your device to do the following:
  
@@ -1409,6 +1430,7 @@ Increase the security of your account."</string>
     <string name="question_next">Next</string>
     <string name="question_step">Skip</string>
     <string name="read_and_agree">Agree</string>
+    <string name="recaptcha_cookies_key">recaptcha_cookies_key</string>
     <string name="recommend_channels">Recommended channels</string>
     <string name="recommend_online_switch">Online recommendations</string>
     <string name="recommend_online_switch_open_time">This feature will be turned on automatically on %s</string>
@@ -1422,6 +1444,7 @@ Increase the security of your account."</string>
     <string name="remaining_space_not_enough">"Can't download due to insufficient storage space"</string>
     <string name="reminder">Attention</string>
     <string name="rename">Rename</string>
+    <string name="rename_word_out">This filename is too long</string>
     <string name="report">Report</string>
     <string name="report_content_dislike">Violence or inappropriate behavior</string>
     <string name="report_content_fakement">Spam or fraud</string>
@@ -1612,6 +1635,7 @@ Increase the security of your account."</string>
     <string name="the_forth_day">Fourth day of Chinese New Year</string>
     <string name="the_hksar_establishment_day">Hong Kong SAR Establishment Day</string>
     <string name="the_international_womens_day">"Women's Day"</string>
+    <string name="the_item_choosed_tint">%s selected</string>
     <string name="the_laba_festival">Laba Festival</string>
     <string name="the_labour_day">Labor Day</string>
     <string name="the_lantern_festival">Lantern Festival</string>
@@ -1661,6 +1685,7 @@ Increase the security of your account."</string>
     <string name="tool_bar_notification_setting_title">Notification shade toolbar</string>
     <string name="top_bar_game_desc">Discover lots of fresh games here</string>
     <string name="top_bar_game_title">Gaming channel</string>
+    <string name="trending_scroll_load_more">Swipe up for more videos</string>
     <string name="tuesday">Tuesday</string>
     <string name="tuesday_short">Tue</string>
     <string name="tuesday_shortest">Tue</string>
@@ -1735,6 +1760,7 @@ Increase the security of your account."</string>
     <string name="video_resolution_kb_size_suffix">%.2f KB</string>
     <string name="video_resolution_mb_size_suffix">%.2f MB</string>
     <string name="video_resolution_tag_suffix">%dP</string>
+    <string name="videos_guide_tip">Temukan tren Indonesia sini</string>
     <string name="view">View</string>
     <string name="vp_VideoView_error_button">OK</string>
     <string name="vp_VideoView_error_text_unknown">An error occurred</string>
@@ -1767,6 +1793,7 @@ Delta update size: %2$s"</string>
     <string name="xiaomi_update_sdk_megabytes_unit">%1$sMB</string>
     <string name="year">year</string>
     <string name="yesterday">Yesterday</string>
+    <string name="youtube_restricted_mode_enabled">youtube_restricted_mode_enabled</string>
     <string name="ytb_account">Accounts</string>
     <string name="ytb_author_video">Videos</string>
     <string name="ytb_login">Sign in</string>
