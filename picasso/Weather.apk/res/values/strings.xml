@@ -176,7 +176,7 @@
     <string name="clear_net_mock_success">Net mock clear success</string>
     <string name="clearable_edittext_clear_description">Clear</string>
     <string name="close">Close</string>
-    <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
+    <string name="com.crashlytics.android.build_id">4781bb75231c4f88af26f87069cacd79</string>
     <string name="common_google_play_services_enable_button">Enable</string>
     <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
     <string name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -385,13 +385,11 @@
     <string name="indices_title_wind_speed">Wind speed</string>
     <string name="information_settings_title">Weather info</string>
     <string name="install_progress">%1$s%%</string>
-    <string name="international_details_chance_of_rain">CHANCE OF RAIN</string>
-    <string name="international_details_humidity">HUMIDITY</string>
+    <string name="international_details_chance_of_rain">@string/indices_title_chance_of_rain</string>
+    <string name="international_details_humidity">@string/realtime_humidity_title</string>
     <string name="international_details_no_data">@string/item_city_list_temperature_no_data</string>
-    <string name="international_details_pressure_title">PRESSURE</string>
-    <string name="international_details_real_feel_title">REAL FEEL®</string>
-    <string name="international_details_uv_index_title">UV INDEX</string>
-    <string name="international_details_wind_title">WIND</string>
+    <string name="international_details_real_feel_title">@string/indices_title_feel</string>
+    <string name="international_details_uv_index_title">UV index</string>
     <string name="item_city_list_region_no_data">-- / --</string>
     <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Turn on location services</string>
