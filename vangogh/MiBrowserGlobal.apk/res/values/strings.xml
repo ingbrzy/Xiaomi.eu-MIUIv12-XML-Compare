@@ -372,6 +372,7 @@ Toggle off to stop syncing."</string>
     <string name="collect_diagnosis_log">Collect logs</string>
     <string name="collection_articles">Articles</string>
     <string name="collection_videos">Videos</string>
+    <string name="columbus_ad_flag_text">AD</string>
     <string name="columbus_player_close_desc">You will lose your reward</string>
     <string name="columbus_player_close_resume">RESUME VIDEO</string>
     <string name="columbus_player_close_title">Close Video?</string>
@@ -381,7 +382,8 @@ Toggle off to stop syncing."</string>
     <string name="columbus_player_speed_title">Skip Video?</string>
     <string name="columbus_player_speed_video">Skip VIDEO</string>
     <string name="columbus_player_unit_sec">sec</string>
-    <string name="com.crashlytics.android.build_id">747db013b00d49e09dec35a7cd468877</string>
+    <string name="columbus_skip_ad">Skip</string>
+    <string name="com.crashlytics.android.build_id">911c2a42dc444c25ad5a68be7ee58b77</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -1133,7 +1135,7 @@ Send this code to the supervisor."</string>
     <string name="mw_actionbar_web_search">Web search</string>
     <string name="mw_add_to_dictionary">Add to dictionary</string>
     <string name="mw_autofill_popup_content_description">Showing autofill popup</string>
-    <string name="mw_chip_remove_icon_content_description">"Remove '%1$s'"</string>
+    <string name="mw_chip_remove_icon_content_description">Remove \"%1$s\"</string>
     <string name="mw_color_picker_button_black">Black</string>
     <string name="mw_color_picker_button_blue">Blue</string>
     <string name="mw_color_picker_button_cancel">Cancel</string>
@@ -1191,7 +1193,7 @@ Leave this page now?"</string>
     <string name="mw_js_dialog_title_default">JavaScript</string>
     <string name="mw_last_month">Last month</string>
     <string name="mw_license_activity_title">System WebView licenses</string>
-    <string name="mw_link_copied">Link copied</string>
+    <string name="mw_link_copied">Copied URL successfully</string>
     <string name="mw_low_memory_error">"Can't complete previous operation due to low memory"</string>
     <string name="mw_miui_content_copy">Copy</string>
     <string name="mw_miui_content_cut">Cut</string>
@@ -1297,7 +1299,7 @@ Leave this page now?"</string>
     <string name="mw_save_password_notnow">Not now</string>
     <string name="mw_save_password_remember">Remember</string>
     <string name="mw_search_menu_title">Search</string>
-    <string name="mw_speech_recognition_service_not_found">"Google speech engine can't be found"</string>
+    <string name="mw_speech_recognition_service_not_found">"Couldn't find Google speech engine"</string>
     <string name="mw_status_bar_notification_info_overflow">999+</string>
     <string name="mw_time_picker_dialog_am">AM</string>
     <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
@@ -1398,6 +1400,13 @@ Leave this page now?"</string>
     <string name="notification_download_completed">Downloaded successfully</string>
     <string name="notification_download_failed">"Couldn't download."</string>
     <string name="notification_wechat_expired_empty">WeChat has already deleted these video clips.</string>
+    <string name="offline_notification_text">Tap to open ad</string>
+    <string name="offline_notification_title">View the ad you saved when you were offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">"You'll get a notification with the link when you're back online"</string>
+    <string name="offline_opt_in_decline">No thanks</string>
+    <string name="offline_opt_in_message">"We'll send you a notification with a link to the advertiser site."</string>
+    <string name="offline_opt_in_title">"Open ad when you're back online."</string>
     <string name="ok">OK</string>
     <string name="open_app_confirm_message">Allow this page to open %s?</string>
     <string name="open_private_folder">Release to view hidden folders</string>
@@ -1829,7 +1838,6 @@ Some sites won't use your previous browsing history to personalize their ads for
     <string name="regid">RegId(Click To Export)</string>
     <string name="release_to_refresh">Release to refresh</string>
     <string name="remember_passwords_confirm_message">Turning this feature off may affect usage.</string>
-    <string name="remote_config">Remote Config(Click To Export)</string>
     <string name="remove_bookmark">Delete bookmark</string>
     <string name="remove_bookmark_group">Delete group</string>
     <string name="remove_from_bookmarks">Remove from bookmarks</string>
@@ -1879,6 +1887,15 @@ Some sites won't use your previous browsing history to personalize their ads for
     <string name="restart_phone_bind_message">It may take some time to receive SMS. Start over anyway?</string>
     <string name="restart_phone_bind_title">Change recovery phone</string>
     <string name="return_to_homepage">Go back to start page</string>
+    <string name="risk_continue">Continue</string>
+    <string name="risk_detail">Details</string>
+    <string name="risk_malicious_url">This website might pose security risks.</string>
+    <string name="risk_protect_browsing">Mi Browser checks websites for security issues</string>
+    <string name="risk_safe_url">This website is secure</string>
+    <string name="risk_setting_des">Allow Mi Browser to check websites for security issues</string>
+    <string name="risk_setting_title">Secure browsing</string>
+    <string name="risk_stop">Stop</string>
+    <string name="risk_unspecified_url">"There's a problem with this website's security certificate."</string>
     <string name="rlv_last_refreshing_time">Updated %1$s</string>
     <string name="rlv_loading_more">Just a sec…</string>
     <string name="rlv_pull_to_refresh">Pull down to refresh</string>
