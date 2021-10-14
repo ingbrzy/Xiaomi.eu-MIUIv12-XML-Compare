@@ -1065,6 +1065,8 @@ Apps:
     <string name="biometric_weak_improve_matching_title">Improve face matching</string>
     <string name="biometric_weak_liveliness_summary">Require blinking to unlock</string>
     <string name="biometric_weak_liveliness_title">Real person check</string>
+    <string name="blank_screen_no_device">No devices</string>
+    <string name="blank_screen_no_record">No records here yet</string>
     <string name="ble_scan_notify_text">To improve location accuracy, system apps and services can still detect Bluetooth devices. You can change this in LINK_BEGINscanning settingsLINK_END.</string>
     <string name="blob_expires_text">Expires at %s</string>
     <string name="blob_id_text">Shared data ID: %d</string>
@@ -1110,7 +1112,7 @@ Apps:
     <string name="bluetooth_broadcasting">Broadcasting</string>
     <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Make sure it is showing this passkey:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_connect_failed">"Couldn't connect. Try again."</string>
-    <string name="bluetooth_connect_settings">Bluetooth connection settings</string>
+    <string name="bluetooth_connect_settings">Connection</string>
     <string name="bluetooth_connect_specific_profiles_title">Connect to…</string>
     <string name="bluetooth_connected">Connected %1$s</string>
     <string name="bluetooth_connected_battery_level">Connected | Battery %1$s %2$s</string>
@@ -1136,7 +1138,6 @@ Apps:
     <string name="bluetooth_device_advanced_profile_header_title">Use for</string>
     <string name="bluetooth_device_advanced_rename_device">Rename</string>
     <string name="bluetooth_device_advanced_title">Paired Bluetooth device</string>
-    <string name="bluetooth_device_blacklist_summary">Manage blocked Bluetooth devices</string>
     <string name="bluetooth_device_blacklist_tital">Bluetooth blocklist</string>
     <string name="bluetooth_device_context_connect">Connect</string>
     <string name="bluetooth_device_context_connect_advanced">Options…</string>
@@ -1175,7 +1176,7 @@ Apps:
     <string name="bluetooth_disconnected">Disconnected</string>
     <string name="bluetooth_disconnecting">Disconnecting…</string>
     <string name="bluetooth_display_passkey_pin_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Type on it:&lt;br>&lt;b>%2$s&lt;/b>, then press Return or Enter.</string>
-    <string name="bluetooth_display_settings">Bluetooth display settings</string>
+    <string name="bluetooth_display_settings">Displayed items</string>
     <string name="bluetooth_dock_settings">Dock Settings</string>
     <string name="bluetooth_dock_settings_a2dp">For music and media</string>
     <string name="bluetooth_dock_settings_headset">As speaker phone</string>
@@ -1238,7 +1239,7 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_message_access_notification_content">Untrusted device wants to access your messages. Tap for details.</string>
     <string name="bluetooth_message_move_out_of_blacklist">Unblock %1$s now?</string>
     <string name="bluetooth_mi_fast_connect">Pair compatible devices</string>
-    <string name="bluetooth_mi_fast_connect_summary">Connect to nearby devices using a simplified pairing process</string>
+    <string name="bluetooth_mi_fast_connect_summary">Quickly connect earphones, speakers, and other compatible devices</string>
     <string name="bluetooth_middle_name">Case</string>
     <string name="bluetooth_move_out_of_blacklist">Unblock device</string>
     <string name="bluetooth_name_not_set">No name set, using account name</string>
@@ -1253,6 +1254,7 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
     <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
     <string name="bluetooth_opp_profile_summary_use_for">Used for file transfer</string>
+    <string name="bluetooth_other_settings">Additional settings</string>
     <string name="bluetooth_paired">Saved</string>
     <string name="bluetooth_paired_device_title">Your devices</string>
     <string name="bluetooth_pairing">Pairing…</string>
@@ -1422,6 +1424,8 @@ Selection"</string>
     <string name="bluetooth_unpair_dialog_title">Forget device?</string>
     <string name="bluetooth_untether_blank">%1$s will be untethered.</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s will no longer be paired with any device linked to this account</string>
+    <string name="bluetooth_version">Bluetooth version</string>
+    <string name="bluetooth_version_message">Update</string>
     <string name="bluetooth_visibility_timeout">Visibility timeout</string>
     <string name="bluetooth_wake">Wake with Bluetooth audio</string>
     <string name="boot_sounds_title">Power on sounds</string>
@@ -2186,6 +2190,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="current_input_method">Current Keyboard</string>
     <string name="current_password">Current screen lock</string>
     <string name="current_screen_lock">Current screen lock</string>
+    <string name="current_use_default_wallet">Selected automatically</string>
     <string name="current_use_ese">Using embedded secure element</string>
     <string name="current_use_ese_wallet">"You're using Mi Wallet. It allows you to use Mi Pay and NFC transport card."</string>
     <string name="current_use_hce_wallet">"You're using HCE Wallet"</string>
@@ -2413,6 +2418,7 @@ This setting affects all users of this device."</string>
     <string name="dc_light_summary">Apply DC dimming to reduce eye strain</string>
     <string name="dc_light_summary_new">DC dimming prevents extensive flickering and reduces eye strain in low light conditions. However, image quality might be affected when this feature is on.</string>
     <string name="dc_light_title">Anti-flicker mode</string>
+    <string name="dclight_unavailable_prompt">Anti-flicker mode is only supported by the outer screen</string>
     <string name="debug_app">Select debugging app</string>
     <string name="debug_app_not_set">"Debugging app isn't set"</string>
     <string name="debug_app_set">Debugging app: %1$s</string>
@@ -2683,6 +2689,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="display_dashboard_summary_with_style">Styles, wallpapers, screen timeout, font size</string>
     <string name="display_label">Screen</string>
     <string name="display_order_text">Sort by:</string>
+    <string name="display_prompt_confirm">Got it</string>
     <string name="display_settings">Display</string>
     <string name="display_settings_title">Display</string>
     <string name="display_summary">Sleep after %1$s of inactivity</string>
@@ -3109,8 +3116,12 @@ For more details, contact your organization's admin."</string>
     <string name="face_data_manage_unlock_slide_msg">Replace slider shortcuts with face unlock</string>
     <string name="face_data_manage_unlock_title">Unlock using face data</string>
     <string name="face_data_siggesstion_next">Next</string>
+    <string name="face_data_siggesstion_next_cn">OK</string>
     <string name="face_data_siggesstion_next_time">Next (%ds)</string>
+    <string name="face_data_siggesstion_next_time_cn">OK (%ds)</string>
     <string name="face_data_suggesstion_first">Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance.</string>
+    <string name="face_data_suggesstion_first_cn">"For you to be able to use Face unlock, we need to collect your face data. The face data will be stored locally on this device. To delete it, search for \"Face unlock\" in the Settings and then select Face unlock > Face data.
+Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance."</string>
     <string name="face_data_suggesstion_second">"Make sure all parts of your face are clearly visible. Don't wear any accessories that might cover your face. Keep your face evenly lit and avoid direct light."</string>
     <string name="face_intro_error_max">You’ve added the maximum number of faces</string>
     <string name="face_intro_error_unknown">Can’t add more faces</string>
@@ -3195,6 +3206,10 @@ For more details, contact your organization's admin."</string>
     <string name="find_my_device_disable">Off</string>
     <string name="find_my_device_enable">On</string>
     <string name="find_my_device_summary">This feature requires signing in to Mi Account</string>
+    <string name="finger_add_user_info_dialog_cancel">Cancel</string>
+    <string name="finger_add_user_info_dialog_message">"For you to be able to use Fingerprint unlock and make fingerprint payments, we need to collect your fingerprint. The fingerprint will be stored locally on this device. To delete it, search for \"Fingerprint unlock\" in the Settings and then select Fingerprint unlock > Fingerprint. You won't be able to use this feature if you don't agree."</string>
+    <string name="finger_add_user_info_dialog_next">Agree</string>
+    <string name="finger_add_user_info_dialog_title">Attention</string>
     <string name="fingerprint_add_max">You can add up to %d fingerprints</string>
     <string name="fingerprint_add_title">Add fingerprint</string>
     <string name="fingerprint_and_password_entrance_title">Screen lock &amp; fingerprint</string>
@@ -4582,6 +4597,9 @@ as your First space PIN."</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">Too many unsuccessful attempts</string>
     <string name="lockpattern_tutorial_cancel_label">Cancel</string>
     <string name="lockpattern_tutorial_continue_label">Next</string>
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
     <string name="lockscreen_bypass_summary">After face unlock, go directly to last used screen</string>
     <string name="lockscreen_bypass_title">Skip lock screen</string>
     <string name="lockscreen_glogin_checking_password">Checking…</string>
@@ -4945,6 +4963,7 @@ You can't reverse this action."</string>
     <string name="miui_experience_optimization">Turn on MIUI optimization</string>
     <string name="miui_face_enroll_risk_warning_btn_cancel">Cancel</string>
     <string name="miui_face_enroll_risk_warning_title_text">Attention</string>
+    <string name="miui_face_enroll_risk_warning_title_text_cn">Statement on security</string>
     <string name="miui_face_enroll_success">"You can unlock this device using your face data now.
 Continue to access additional settings."</string>
     <string name="miui_input_method_attention">Attention</string>
@@ -6748,6 +6767,7 @@ To use app pinning: \u0009
     <string name="screen_projection_title">Cast</string>
     <string name="screen_reader_category_title">Screen readers</string>
     <string name="screen_recorder_title">Screen Recorder</string>
+    <string name="screen_refresh_unavailable_prompt">Changing refresh rate is only supported by the outer screen</string>
     <string name="screen_resolution_dialog_title">Switch resolution</string>
     <string name="screen_resolution_high_format">High (%1$s)</string>
     <string name="screen_resolution_normal_format">Normal (%1$s)</string>
@@ -6830,11 +6850,13 @@ To use app pinning: \u0009
     <string name="sdcard_settings_unmounted_status">It’s now safe to remove the USB storage.</string>
     <string name="sdcard_settings_used_bytes_label">Used bytes:</string>
     <string name="sdcard_unmount">Unmount USB storage</string>
+    <string name="se_route_default">Select automatically</string>
     <string name="se_route_ese">Embedded secure element</string>
     <string name="se_route_uicc">Secure element on SIM card</string>
     <string name="se_wallet_ese">Mi Wallet</string>
     <string name="se_wallet_hce">HCE Wallet</string>
     <string name="se_wallet_uicc">SIM %1$s Wallet</string>
+    <string name="se_wallet_uicc_jp">"SIM %1$s wallet (Can't be selected automatically)"</string>
     <string name="search_about_settings">About phone;Model number;Android version;MIUI version;CPU;RAM;Internal memory;Memory;Storage;Internal storage;Baseband version;Kernel version;Build number;My device;Phone;Device</string>
     <string name="search_accelerometer_title">Auto rotate screen;Rotate screen;Orientation;Portrait;Landscape</string>
     <string name="search_access_control">Privacy settings;Security Privacy;Guest;Guest mode</string>
@@ -7595,6 +7617,23 @@ If you don't agree to grant such permissions or share and upload your personal i
 Before using our services, read and agree to our %s."</string>
     <string name="sos_privacy_dialog_title">Terms and Conditions</string>
     <string name="sos_privacy_policy">Privacy Policy</string>
+    <string name="sos_privacy_policy_change_endtitle">Read and agree to the new version of %s before you continue.</string>
+    <string name="sos_privacy_policy_change_message_reject">"You won't be able to keep using Emergency SOS unless you agree to the new version of its Privacy Policy. Agree to the updated %s now?"</string>
+    <string name="sos_privacy_policy_change_subtitle">Emergency SOS Privacy Policy was updated:</string>
+    <string name="sos_privacy_policy_change_title">Updated Privacy Policy</string>
+    <string name="sos_privacy_policy_change_title_reject">"Can't use the app"</string>
+    <string name="sos_privacy_policy_no_net_button">Got it</string>
+    <string name="sos_privacy_policy_no_net_message">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
+    <string name="sos_privacy_policy_no_net_title">"Couldn't connect to the network"</string>
+    <string name="sos_privacy_policy_revoke">Withdrawal of consent</string>
+    <string name="sos_privacy_policy_revoke_message_reject">"If you continue, you'll withdraw your consent to the Privacy Policy of Emergency SOS. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise.
+
+As Emergency SOS provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept Security services.
+
+Withdraw consent to %s now?"</string>
+    <string name="sos_privacy_policy_revoke_title_reject">Attention</string>
+    <string name="sos_privacy_revoke_failed_dialog_content">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="sos_privacy_revoke_failed_dialog_title">"Couldn't withdraw consent"</string>
     <string name="sound_assist_summary">Customize your sound settings</string>
     <string name="sound_assist_title">Sound assistant</string>
     <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
