@@ -27,14 +27,18 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="access_non_personal_data">If you withdraw consent to the access and use of non-personal data from your device, Wallpaper Carousel services will be deactivated and any collected data will be deleted within the period specified in applicable laws and regulations.</string>
     <string name="accessibility_enabled">Accessibility enabled.</string>
     <string name="actionbar_button_up_description">Back</string>
     <string name="afternoon">Afternoon</string>
     <string name="agree">Agree</string>
     <string name="agree_and_next">Agree</string>
+    <string name="agree_cookie">Accept cookies</string>
     <string name="agree_terms">"I've read and agree to the User Agreement and Privacy Policy."</string>
     <string name="agree_terms_input_method_facemoji">"I've read and agreed to Facemoji Privacy Policy."</string>
     <string name="agree_terms_input_method_kika">"I've read and agreed to Kika Privacy Policy."</string>
+    <string name="agreement_declare_use_network_and_location_china">"Additionally, the following services will connect to the network and access your location: "</string>
+    <string name="agreement_declare_use_network_china">will connect to the network.</string>
     <string name="ai_button_desc">AI button allows you to trigger Mi AI and use Mi AI shortcuts.</string>
     <string name="ai_button_double_press">Double press</string>
     <string name="ai_button_double_press_desc">Double press AI button to complete custom tasks</string>
@@ -139,6 +143,9 @@
     <string name="content_description_start">Start</string>
     <string name="content_introduction">Content Center aggregates content and services from multiple channels. Here you can read articles, watch videos, view daily featured items, and receive content recommendations.</string>
     <string name="continue_to_enable_accessibility">Keep holding down two fingers to enable accessibility.</string>
+    <string name="cookies_content_one">"When you tap the images and stories in Wallpaper Carousel, we'll open their full versions in your browser. Taboola, our trusted third party content provider, can then recommend additional content and ads that are tailored to your interests. If you agree to activate this feature, Taboola will place cookies on your device via the browser, as described in Taboola's &lt;a href =%1$s>Cookie Policy&lt;/a>. If you decline the use of cookies, Wallpaper Carousel items will continue to appear on your Lock screen and full stories will be opened in your browser, but additional recommendations won't be specifically selected for you. You can change your preferences anytime in the Settings."</string>
+    <string name="cookies_content_two">"Decide whether you'd like our trusted third party content providers to use cookies to personalize content recommendations and ads based on your interests."</string>
+    <string name="cookies_title">Personalized content and cookies</string>
     <string name="copy">Copy</string>
     <string name="data_traffic_enable_dialog_title">"If you aren't connected to Wi-Fi now, your device will use mobile data. Using mobile data may generate additional carrier fees."</string>
     <string name="date_picker_label_day" />
@@ -464,11 +471,14 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="pref_title_data_slot">Preferred data SIM card</string>
     <string name="pref_title_voice_slot">Preferred voice SIM card</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="privacy_content_one">"Wallpaper Carousel recommendations are powered by Taboola, our trusted third party content provider. To provide this content, Taboola needs to access and store non-personal data from your device, including your system language and browser type. You can learn how Taboola uses the collected data in Taboola's &lt;a href =%1$s>Privacy Policy&lt;/a> and &lt;a href =%2$s>User Agreement&lt;/a>. Read and agree to the terms and conditions provided in these documents before you continue. If you don't agree, Wallpaper Carousel services will be deactivated."</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="privacy_provision_more">Learn more about privacy protection</string>
     <string name="privacy_provision_summary">Privacy protection is the commitment behind the design of our products</string>
     <string name="privacy_provision_text">We are committed to respecting and protecting your privacy. Prioritizing research and development in the field of information security, Xiaomi constantly works on improving the methods, practices, and technical solutions that safeguard your data. We also share our latest achievements with our partners in order to ensure your privacy across the board.</string>
     <string name="privacy_provision_title">Privacy</string>
+    <string name="privacy_refuse">"Don't agree"</string>
+    <string name="privacy_title">Terms &amp; Privacy Policy</string>
     <string name="protect_persoanl_info_statement">We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.</string>
     <string name="provision_back">Back</string>
     <string name="provision_inputmethod_policy_description"><Data>View the &lt;a href=%1$s>Privacy Policy&lt;/a > of your selected keyboard.</Data></string>
@@ -476,6 +486,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="provision_next">Next</string>
     <string name="provision_skip_underline">Skip</string>
     <string name="recorder_introduction">You can use this app to record audio and back up recordings to the cloud.</string>
+    <string name="refuse_cookie">Decline cookies</string>
     <string name="require_authority_statement">To allow us to provide you with basic services, you need to grant the following permissions in order for us to collect your personal information:</string>
     <string name="require_miuidaemon_authority_statement">To allow us to provide you with this service, you need to grant the following permissions in order for us to collect your personal information:</string>
     <string name="require_network_authority_statement">To allow us to provide you with basic services, you need to connect to the internet and grant the following permissions in order for us to collect your personal information:</string>
@@ -569,19 +580,48 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">Sun</string>
     <string name="system_navigation_mode">System navigation mode</string>
+    <string name="term_condition_detail">"Get stunning images and exciting stories delivered to your Lock screen daily. This feature won't use your data for personalization without your consent. Read and agree to the third party content provider's &lt;a href =%1$s>Privacy Policy&lt;/a> and &lt;a href =%2$s>User Agreement&lt;/a> before using this feature."</string>
+    <string name="terms_of_label_period">". "</string>
+    <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Terms and conditions</string>
-    <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTML Viewer</string>
-    <string name="terms_of_use_label">"Read our User Agreement and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
-You must agree to our User Agreement and Privacy Policy before you can use MIUI.
-%s and Mi Account components will connect to the internet and acquire your location."</string>
-    <string name="terms_of_use_label_Mistore">, Mi Store system plug-in</string>
-    <string name="terms_of_use_label_mab">, MAB</string>
-    <string name="terms_of_use_label_package">, Package installer</string>
-    <string name="terms_of_use_label_phrase">, Frequent phrases</string>
-    <string name="terms_of_use_label_systemhelper">, Self-registered service</string>
-    <string name="terms_of_use_label_updater">, Updater</string>
-    <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, Translation Service, MIUI SDK, Quick apps, App vault, statistics, Mi Link</string>
-    <string name="terms_of_use_lable_apps_wifi_device">Mi services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, Translation Service, MIUI SDK, Quick apps, App vault, statistics, Mi Link</string>
+    <string name="terms_of_use_label_MSA">MSA</string>
+    <string name="terms_of_use_label_Mistore">Mi Store system plug-in</string>
+    <string name="terms_of_use_label_RMS">Permissions Manager</string>
+    <string name="terms_of_use_label_ai_assistant">AI Assistant</string>
+    <string name="terms_of_use_label_app_vault">App vault</string>
+    <string name="terms_of_use_label_back">Backup service</string>
+    <string name="terms_of_use_label_ble">Fused location provider</string>
+    <string name="terms_of_use_label_cloud">Xiaomi Cloud</string>
+    <string name="terms_of_use_label_communication_service">Xiaomi Internet Communication Service</string>
+    <string name="terms_of_use_label_finddevice">Find device</string>
+    <string name="terms_of_use_label_game">Games</string>
+    <string name="terms_of_use_label_home">Home screen</string>
+    <string name="terms_of_use_label_htmlViewer">HTML Viewer</string>
+    <string name="terms_of_use_label_htmlviewer">HTML Viewer</string>
+    <string name="terms_of_use_label_info_assistant">Mi Link</string>
+    <string name="terms_of_use_label_joyose">Joyose</string>
+    <string name="terms_of_use_label_landscape">landscape view optimization functionality</string>
+    <string name="terms_of_use_label_mab">MAB</string>
+    <string name="terms_of_use_label_mi_account">Mi Account components</string>
+    <string name="terms_of_use_label_miuiDaemon">MIUI Daemon</string>
+    <string name="terms_of_use_label_miuisdk">MIUI SDK</string>
+    <string name="terms_of_use_label_os">OS AI Setting</string>
+    <string name="terms_of_use_label_package">Package installer</string>
+    <string name="terms_of_use_label_parallel_windows">Parallel windows</string>
+    <string name="terms_of_use_label_phrase">Frequent phrases</string>
+    <string name="terms_of_use_label_power_detection">Power detector</string>
+    <string name="terms_of_use_label_power_performance">Battery and performance</string>
+    <string name="terms_of_use_label_quickapp">Quick apps</string>
+    <string name="terms_of_use_label_secure">Secure Element Application</string>
+    <string name="terms_of_use_label_simcard">Mi SIM activation services</string>
+    <string name="terms_of_use_label_smart_service">smart services</string>
+    <string name="terms_of_use_label_statistics">Statistics</string>
+    <string name="terms_of_use_label_systemhelper">Self-registration service</string>
+    <string name="terms_of_use_label_translation">Translation service</string>
+    <string name="terms_of_use_label_updater">Updater</string>
+    <string name="terms_of_use_label_use_location_and_network_global">"Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, the following services will connect to the network and access your location: "</string>
+    <string name="terms_of_use_label_use_network_china">"Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, the following services will connect to the network: "</string>
+    <string name="terms_of_use_label_wallpaper">Wallpaper</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 You must agree to Facemoji Privacy Policy before using this feature."</string>
@@ -591,9 +631,10 @@ You must agree to Kika Privacy Policy before using this feature."</string>
     <string name="terms_of_use_lable_default_input_method_mint">"
 
 You must agree to Mint Keyboard Privacy Policy before using this feature."</string>
-    <string name="terms_of_use_lable_gms">, Google Play services</string>
-    <string name="terms_of_use_lable_smart_cards">, Smart cards</string>
-    <string name="terms_of_use_lable_vsimcore">, MConnService</string>
+    <string name="terms_of_use_lable_gms">Google Play services</string>
+    <string name="terms_of_use_lable_smart_cards">Smart cards</string>
+    <string name="terms_of_use_lable_vsimcore">MConnService</string>
+    <string name="terms_of_use_lable_xmsf">Xiaomi service framework</string>
     <string name="terms_privacy_policy_input_method_facemoji">Facemoji Privacy Policy</string>
     <string name="terms_privacy_policy_input_method_kika">Kika Privacy Policy</string>
     <string name="the_anniversary_of_lifting_martial_law">Anniversary of Lifting Martial Law</string>
@@ -650,10 +691,6 @@ You must agree to Mint Keyboard Privacy Policy before using this feature."</stri
     <string name="tuesday_short">Tue</string>
     <string name="tuesday_shortest">Tue</string>
     <string name="user_agreement">User Agreement</string>
-    <string name="user_agreement_declare">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Mi SIM Activation Service, Xiaomi Cloud, Backup Service, Find device, Home screen, Frequent phrases, Xiaomi Internet Communication Service, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, and Updater will connect to the network. Smart cards, Permissions Manager, and smart services will connect to the network and access your location.</string>
-    <string name="user_agreement_declare_gmscore">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Mi SIM Activation Service, Xiaomi Cloud, Backup Service, Find device, Home screen, Frequent phrases, Xiaomi Internet Communication Service, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, and Updater will connect to the network. Smart cards, Permissions Manager, ConfigUpdater, and smart services will connect to the network and access your location.</string>
-    <string name="user_agreement_declare_wifi_device">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Xiaomi Cloud, Backup Service, Find device, Home screen, Frequent phrases, Xiaomi Internet Communication Service, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, and Updater will connect to the network. Smart cards, Permissions Manager, and smart services will connect to the network and access your location.</string>
-    <string name="user_agreement_declare_wifi_device_gmscore">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Xiaomi Cloud, Backup Service, Find device, Home screen, Frequent phrases, Xiaomi Internet Communication Service, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, and Updater will connect to the network. Smart cards, Permissions Manager, ConfigUpdater, and smart services will connect to the network and access your location.</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="voice_assist_advice">Mi AI allows you to use voice controls, but it consumes more power (+1% every hour).</string>
@@ -675,6 +712,7 @@ You must agree to Mint Keyboard Privacy Policy before using this feature."</stri
     <string name="wednesday_short">Wed</string>
     <string name="wednesday_shortest">Wed</string>
     <string name="welcome">Welcome</string>
+    <string name="withdraw_consent">If you withdraw consent, Wallpaper Carousel services will be deactivated.</string>
     <string name="wizard_script_uri">android.resource://com.android.provision/raw/wizard_script</string>
     <string name="yesterday">Yesterday</string>
     <string name="zone_picker_title">Choose time zone</string>
