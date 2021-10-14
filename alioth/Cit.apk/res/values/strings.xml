@@ -55,10 +55,12 @@
     <string name="battery_reverse_wireless_charge_time_out">reverse wireless charge time out</string>
     <string name="battery_reverse_wireless_charge_title">reverse wireless charge</string>
     <string name="battery_value">Electricity</string>
+    <string name="bottom_high_speaker_title">Bottom tweeter test</string>
     <string name="bottom_left_high_speaker">Left side bottom tweeter test</string>
     <string name="bottom_left_low_speaker">Left side bottom woofer test</string>
+    <string name="bottom_low_speaker_title">Bottom woofer test</string>
     <string name="bottom_right_high_speaker">Right side bottom tweeter test</string>
-    <string name="bottom_right_low_speaker">Right side bottom Low woofer test</string>
+    <string name="bottom_right_low_speaker">Right side bottom woofer test</string>
     <string name="bt_address">Address:</string>
     <string name="bt_name">Name:</string>
     <string name="camera_capture">Capture</string>
@@ -76,9 +78,11 @@ Charger test end, please plug out the charger"</string>
     <string name="cit_abnormal_reboot_title">Device Stability Data</string>
     <string name="cit_ac_charger_in">Charging via (USB_DCP)</string>
     <string name="cit_ac_charger_out">AC charger disconnected</string>
+    <string name="cit_accdata_second_sensor_check_title">Second Accelerometer</string>
     <string name="cit_accdata_sensor_check_summary">Values for X, Y, Z, coordinates should appear below</string>
     <string name="cit_accdata_sensor_check_title">Accelerometer</string>
     <string name="cit_accdata_sensor_second_screen_check_title">Second Screen Accelerometer</string>
+    <string name="cit_accelermeter_second_cali_title">Second Acceleration sensor calibration test</string>
     <string name="cit_accelermeter_sensor_cali_title">Acceleration sensor calibration test</string>
     <string name="cit_accelermeter_sensor_check_summary">"Move the device quickly in one direction. X，Y，Z coordinate values are displayed below. (when device is in motion: X is represents left/right, y represents front/back, z represents up and down).
 Before you calibrate the device, place it on a flat surface."</string>
@@ -103,9 +107,16 @@ Hold the device as if you are making a call, speak to main microphone, you shoul
     <string name="cit_audio_spk_cal_valueT">Temp:</string>
     <string name="cit_battery_temp_pass">Battery temperature is normal</string>
     <string name="cit_batterylight">Battery light</string>
+    <string name="cit_batterylight_13blue">13Blue</string>
+    <string name="cit_batterylight_13green">13Green</string>
+    <string name="cit_batterylight_13red">13Red</string>
+    <string name="cit_batterylight_24blue">24Blue</string>
+    <string name="cit_batterylight_24green">24Green</string>
+    <string name="cit_batterylight_24red">24Red</string>
     <string name="cit_batterylight_blue">Blue</string>
     <string name="cit_batterylight_green">Green</string>
     <string name="cit_batterylight_red">Red</string>
+    <string name="cit_batterylight_rgb_all">All Light Effects</string>
     <string name="cit_batterylight_white">White</string>
     <string name="cit_blue_tooth_address_check_summary">The Bluetooth address of this device should be displayed below.</string>
     <string name="cit_blue_tooth_address_check_title">Get Bluetooth address</string>
@@ -159,6 +170,7 @@ and reverse plug in the charger"</string>
     <string name="cit_diag_jank_summary">Copy jank logger files to sdcard</string>
     <string name="cit_diag_signal_summary">Copy singal stablity logger files to sdcard</string>
     <string name="cit_diag_wait">Please wait... Copying files</string>
+    <string name="cit_dial_emergencycall">Dial 112</string>
     <string name="cit_display_check_summary">Confirm that the colors are consistently displayed across the whole screen. Make sure there are no irregular bright spots and dark spots.</string>
     <string name="cit_display_check_title">Display</string>
     <string name="cit_display_continue">Touch screen to begin test</string>
@@ -167,9 +179,10 @@ and reverse plug in the charger"</string>
     <string name="cit_earpiece">Receiver</string>
     <string name="cit_earpiece_summary">"You will hear two random numbers
 Please click the appropriate button according to the number you hear"</string>
+    <string name="cit_emergencycall_check_summary">Please click Dial 112 button to dial 112 to check if 112 can be placed.</string>
+    <string name="cit_emergencycall_check_title">Emergency Call</string>
     <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
     <string name="cit_exit_test_title">Exit test</string>
-    <string name="cit_external_keyboard_test_get_sn">Click to get the SN serial number of the external keyboard (please keep the keyboard and the device connected)</string>
     <string name="cit_external_keyboard_test_summary">Please input characters randomly after connecting the keyboard and observe the test results</string>
     <string name="cit_external_keyboard_test_title">External keyboard test</string>
     <string name="cit_fail">Fail</string>
@@ -185,6 +198,9 @@ Before test you have to insert the headset"</string>
     <string name="cit_fold_hall_test_summary">Please fold the device and expand it. If the pass button becomes clickable, the test passes</string>
     <string name="cit_fp_fod_cali_title">Fod fingerprint calibration</string>
     <string name="cit_front_camera_check_title">Front camera</string>
+    <string name="cit_front_camera_motor_cali_fail">Motor calibration failed</string>
+    <string name="cit_front_camera_motor_cali_success">Motor calibration success</string>
+    <string name="cit_front_camera_motor_cali_tips">Do not block the camera during the pop-up camera motor calibration process</string>
     <string name="cit_front_dual_camera_check_title">Front Bokeh camera</string>
     <string name="cit_front_sub_camera_check_title">Front Aux camera</string>
     <string name="cit_get_signature_failed">get signature FAILED</string>
@@ -195,9 +211,11 @@ Before test you have to insert the headset"</string>
     <string name="cit_gps_satellite_count">Satellite count: %d</string>
     <string name="cit_gps_satellite_prn">Prn: %s</string>
     <string name="cit_gps_satellite_snr">Snr: %s</string>
+    <string name="cit_gyrodata_second_sensor_check_title">Second Gyroscope</string>
     <string name="cit_gyrodata_sensor_check_summary">Values for X，Y，Z, coordinates should appear below</string>
     <string name="cit_gyrodata_sensor_check_title">Gyroscope</string>
     <string name="cit_gyrodata_sensor_second_screen_check_title">Second Screen Gyroscope</string>
+    <string name="cit_gyroscope_second_cali_title">Second Gyroscope sensor calibration test</string>
     <string name="cit_gyroscope_sensor_cali_title">Gyroscope sensor calibration test</string>
     <string name="cit_gyroscope_sensor_check_summary">Values for X，Y，Z, coordinates should appear below</string>
     <string name="cit_hall_far">far</string>
@@ -624,6 +642,7 @@ Please select the correct button according to different vibration conditions"</s
     <string name="cit_wifi_fail_to_scan">"Couldn't scan for networks"</string>
     <string name="cit_wifi_state_refresh">Refresh</string>
     <string name="cit_x_tele_camera_check_title">Super Tele camera</string>
+    <string name="close_third_color_led">close three color led</string>
     <string name="continue_vibrator">Continue vibrator</string>
     <string name="current_angle">Current Angle:</string>
     <string name="dispaly_sar_sensor_values">Display All Current Sensor Values</string>
@@ -674,12 +693,19 @@ Test failed!"</string>
     <string name="mic_tip">Please make a noise on the MIC. After you plug in the headset, listen to the headset for a sound</string>
     <string name="mic_volume_height_tip">MIC volume test PASS</string>
     <string name="mic_volume_low_tip">MIC the volume test did not pass. Please make a larger sound when recording</string>
+    <string name="motor_calibration">Motor Calibration</string>
     <string name="mtb_tool_modem_cdma_manager">CDMA Cap Manager</string>
     <string name="nfc_disable_tip">Please turn on the NFC function</string>
     <string name="nfc_not_available">NFC not available</string>
     <string name="no_vibrator">No vibrator</string>
+    <string name="open_third_color_led">open three color led</string>
     <string name="plugout_and_reverse_plugin">"
 Please plug out the charger and reverse plug in."</string>
+    <string name="pop_camera">Pop Camera</string>
+    <string name="pop_push_camera_test_summary">"Click the Pop Camera Button to see if the camera comes out
+Click the Push Camera Button to see if the camera comes in"</string>
+    <string name="pop_push_camera_test_title">Pop and Push Camera Test</string>
+    <string name="push_camera">Push Camera</string>
     <string name="radio_info_asdiv_switch_label">ASDiv Status:</string>
     <string name="radio_info_call_status_label">Voice Call Status:</string>
     <string name="radio_info_cellinfo_label">All Cell Measurement Info:</string>
@@ -725,6 +751,7 @@ Please plug out the charger and reverse plug in."</string>
     <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
     <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
     <string name="sar_sensor_collect_data">Start Collect Data</string>
+    <string name="sar_sensor_collect_data_self_cali">Self-Calibration</string>
     <string name="sar_sensor_collect_test_summary">"Rotate the device, put it to the fixture
 Click the Start data acquisition button
 Control the fixture close and away from the device"</string>
@@ -756,8 +783,10 @@ Please click the appropriate button according to the number you hear"</string>
     <string name="tips_not_placed_right_angle">The device not placed right angle</string>
     <string name="tips_show_current_angle">Show current angle</string>
     <string name="tips_show_current_sar_sensor_data">Show current sensor data</string>
+    <string name="top_high_speaker_title">Top tweeter test</string>
     <string name="top_left_high_speaker">Left side top tweeter test</string>
     <string name="top_left_low_speaker">Left side top woofer test</string>
+    <string name="top_low_speaker_title">Top woofer test</string>
     <string name="top_mic_check_record_tip">Recording, please say something to MIC at the top of the device</string>
     <string name="top_right_high_speaker">Right side top tweeter test</string>
     <string name="top_right_low_speaker">Right side top woofer test</string>

@@ -27,11 +27,13 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="access_non_personal_data">If you withdraw consent to the access and use of non-personal data from your device, Wallpaper Carousel services will be deactivated and any collected data will be deleted within the period specified in applicable laws and regulations.</string>
     <string name="accessibility_enabled">Accessibility enabled.</string>
     <string name="actionbar_button_up_description">Back</string>
     <string name="afternoon">Afternoon</string>
     <string name="agree">Agree</string>
     <string name="agree_and_next">Agree</string>
+    <string name="agree_cookie">Accept cookies</string>
     <string name="agree_terms">"I've read and agree to the User Agreement and Privacy Policy."</string>
     <string name="agree_terms_input_method_facemoji">"I've read and agreed to Facemoji Privacy Policy."</string>
     <string name="agree_terms_input_method_kika">"I've read and agreed to Kika Privacy Policy."</string>
@@ -127,7 +129,7 @@
     <string name="clearable_edittext_clear_description">Clear</string>
     <string name="clock_introduction">You can use this app to view time, as well as use timer, world clock, stopwatch, set alarms, and more.</string>
     <string name="close">Close</string>
-    <string name="close_location_service_setting">You can choose turn off location access in Settings > Privacy protection > Manage or restrict permissions for individual apps in Security.</string>
+    <string name="close_location_service_setting">You can choose turn off location access in Settings > Additional settings > Privacy or restrict permissions for individual apps in Security.</string>
     <string name="cm_terms_content">"In order to improve the services provided to you, the mobile network operator of your choice may upload your personal data and the info about this device to its servers using Wi-Fi networks or mobile data connection. This information will only be used for statistical purposes in order to improve the quality of the services and provide more personalized content. This information won't be used to identify you personally and won't be disclosed to third parties."</string>
     <string name="cm_terms_title">Mobile Network Operator Agreement</string>
     <string name="compass_introduction">You can use this app for navigation, as well as viewing coordinates, atmospheric pressure, and altitude.</string>
@@ -139,6 +141,9 @@
     <string name="content_description_start">Start</string>
     <string name="content_introduction">Content Center aggregates content and services from multiple channels. Here you can read articles, watch videos, view daily featured items, and receive content recommendations.</string>
     <string name="continue_to_enable_accessibility">Keep holding down two fingers to enable accessibility.</string>
+    <string name="cookies_content_one">"When you tap the images and stories in Wallpaper Carousel, we'll open their full versions in your browser. Taboola, our trusted third party content provider, can then recommend additional content and ads that are tailored to your interests. If you agree to activate this feature, Taboola will place cookies on your device via the browser, as described in Taboola's &lt;a href =%1$s>Cookie Policy&lt;/a>. If you decline the use of cookies, Wallpaper Carousel items will continue to appear on your Lock screen and full stories will be opened in your browser, but additional recommendations won't be specifically selected for you. You can change your preferences anytime in the Settings."</string>
+    <string name="cookies_content_two">"Decide whether you'd like our trusted third party content providers to use cookies to personalize content recommendations and ads based on your interests."</string>
+    <string name="cookies_title">Personalized content and cookies</string>
     <string name="copy">Copy</string>
     <string name="data_traffic_enable_dialog_title">"If you aren't connected to Wi-Fi now, your device will use mobile data. Using mobile data may generate additional carrier fees."</string>
     <string name="date_picker_label_day" />
@@ -361,19 +366,18 @@
     <string name="msim_setting_default_data">Data SIM</string>
     <string name="msim_setting_default_voice">Default SIM for calls</string>
     <string name="multisim_settings_category">SIM card settings</string>
-    <string name="multisim_settings_sb_title">1 SIM card detected</string>
     <string name="multisim_settings_title">2 SIM cards detected</string>
     <string name="navigation_picker_gesture_guide">Gesture guide</string>
     <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
     <string name="navigation_picker_radio_text_virtual_key">Buttons</string>
     <string name="next">Next</string>
     <string name="next_fingerprint">Next</string>
-    <string name="ng_haokan_glance_user_agreement">https://hksocial-cdn.levect.com/html/app_h5_user_agreement_ms.html</string>
-    <string name="ng_haokan_privacy_policy">https://hksocial-cdn.levect.com/html/privacy_policy_ms.html</string>
+    <string name="ng_haokan_privacy_policy">https://92.haokan.mobi/lockscreen/mi/privacy_policy</string>
+    <string name="ng_haokan_user_agreement">https://92.haokan.mobi/lockscreen/mi/user_agreement</string>
     <string name="ng_id_glance_privacy_policy">https://in.api.glance.inmobi.com/api/v0/glance/xiaomi/privacy?lang=%1$s_region=%2$s</string>
     <string name="ng_id_glance_user_agreement">https://in.api.glance.inmobi.com/api/v0/glance/xiaomi/eula?lang=%1$s_region=%2$s</string>
-    <string name="ng_mailru_privacy_policy">https://help.mail.ru/feed/policy</string>
-    <string name="ng_mailru_user_agreement">https://help.mail.ru/feed/UA</string>
+    <string name="ng_mailru_privacy_policy">https://help.mail.ru/legal/terms/pulse/privacy</string>
+    <string name="ng_mailru_user_agreement">https://help.mail.ru/legal/terms/pulse/terms</string>
     <string name="ng_wuli_privacy_policy">https://news.lockscreenapi.com/sl/fiyuYz</string>
     <string name="ng_wuli_user_agreement">https://news.lockscreenapi.com/sl/BfMnQf</string>
     <string name="ng_xiaomi_privacy_policy">https://h5.app.intl.miui.com/gallery/privacy.html?lang=%1$s_%2$s</string>
@@ -397,7 +401,7 @@
     <string name="other_settings_enhanced_lockscreen_summary">Get curated images and stories delivered to your Lock screen daily. %1$s and %2$s</string>
     <string name="other_settings_enhanced_lockscreen_summary_index">End User Licence Agreement</string>
     <string name="other_settings_location">Location</string>
-    <string name="other_settings_location_summary">Allow apps and websites to access your location info to provide location-based services</string>
+    <string name="other_settings_location_summary">Allow apps to access your location</string>
     <string name="other_settings_upload_debug_log_detail">"Help improve your MIUI device experience by automatically sending diagnostic, device, and app usage data to Xiaomi. This will help improve battery life, MIUI system and app stability, and more.
 The data you'll send will contain general information about your device and how you use it (e.g. battery level, system and app activity, and errors). The data will be used to improve MIUI devices.
 Turning off this feature doesn't affect your device's ability to send the information needed for essential services such as system updates and security.
@@ -405,7 +409,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="other_settings_upload_debug_log_summary">Help improve your MIUI device experience by automatically sending diagnostic, device, and app usage data to Xiaomi. This will help improve battery life, MIUI system and app stability, and more.</string>
     <string name="other_settings_upload_debug_log_title">Send usage and diagnostic data</string>
     <string name="other_settings_user_experience">User Experience Program</string>
-    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats and analytics with us.</string>
+    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us.</string>
     <string name="other_settings_user_experience_summary_index">View details</string>
     <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
     <string name="permission_account">Access accounts on your device:</string>
@@ -464,11 +468,14 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="pref_title_data_slot">Preferred data SIM card</string>
     <string name="pref_title_voice_slot">Preferred voice SIM card</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="privacy_content_one">"Wallpaper Carousel recommendations are powered by Taboola, our trusted third party content provider. To provide this content, Taboola needs to access and store non-personal data from your device, including your system language and browser type. You can learn how Taboola uses the collected data in Taboola's &lt;a href =%1$s>Privacy Policy&lt;/a> and &lt;a href =%2$s>User Agreement&lt;/a>. Read and agree to the terms and conditions provided in these documents before you continue. If you don't agree, Wallpaper Carousel services will be deactivated."</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="privacy_provision_more">Learn more about privacy protection</string>
     <string name="privacy_provision_summary">Privacy protection is the commitment behind the design of our products</string>
     <string name="privacy_provision_text">We are committed to respecting and protecting your privacy. Prioritizing research and development in the field of information security, Xiaomi constantly works on improving the methods, practices, and technical solutions that safeguard your data. We also share our latest achievements with our partners in order to ensure your privacy across the board.</string>
     <string name="privacy_provision_title">Privacy</string>
+    <string name="privacy_refuse">"Don't agree"</string>
+    <string name="privacy_title">Terms &amp; Privacy Policy</string>
     <string name="protect_persoanl_info_statement">We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.</string>
     <string name="provision_back">Back</string>
     <string name="provision_inputmethod_policy_description"><Data>View the &lt;a href=%1$s>Privacy Policy&lt;/a > of your selected keyboard.</Data></string>
@@ -476,6 +483,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="provision_next">Next</string>
     <string name="provision_skip_underline">Skip</string>
     <string name="recorder_introduction">You can use this app to record audio and back up recordings to the cloud.</string>
+    <string name="refuse_cookie">Decline cookies</string>
     <string name="require_authority_statement">To allow us to provide you with basic services, you need to grant the following permissions in order for us to collect your personal information:</string>
     <string name="require_miuidaemon_authority_statement">To allow us to provide you with this service, you need to grant the following permissions in order for us to collect your personal information:</string>
     <string name="require_network_authority_statement">To allow us to provide you with basic services, you need to connect to the internet and grant the following permissions in order for us to collect your personal information:</string>
@@ -513,7 +521,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="service_policy"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a >.</Data></string>
     <string name="service_policy_download"><Data>Before using our services, read and agree to &lt;a href=%1$s>Xunlei Privacy Policy&lt;/a >.</Data></string>
     <string name="service_privacy_index">Privacy Policy</string>
-    <string name="service_security_over_r"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a > before using Security.&lt;br/>&lt;br/>In accordance with Android 11 standards, a one-time permission will be withdrawn within 5 seconds after the corresponding app stops running. If you open the app during this short period of time, the permission will be withdrawn then.</Data></string>
+    <string name="service_security_over_r"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a >.&lt;br/>&lt;br/>In accordance with Android R standards, a one-time permission will be withdrawn within a set period of time (around &lt;xliff:g example=5 seconds id=short>%2$s&lt;/xliff:g>) after the corresponding app stops running. If you open the app during this short period of time, the permission will be withdrawn then.</Data></string>
     <string name="servicestate_title">Statement on basic services</string>
     <string name="setting_locale">Setting region…</string>
     <string name="shut_down">Shut down</string>
@@ -523,11 +531,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="sim_card_detecting_title">Checking for SIM card…</string>
     <string name="sim_card_detection">Insert SIM card</string>
     <string name="sim_card_detection_info">To insert your SIM card, read the instructions that came with your device.</string>
-    <string name="sim_card_detection_info_sb">"Insert a SIM card before you continue. Find device and sync-related functionality won't be fully available to you if you create an account without a SIM card. This device supports eSIM. "</string>
-    <string name="sim_card_detection_info_sb_esim">Tap to activate eSim.</string>
     <string name="sim_card_detection_mobile_not_available">"SIM card couldn't connect to the network"</string>
-    <string name="sim_card_detection_sb_esim">Activate eSIM></string>
-    <string name="sim_card_detection_sb_nonactivated">Not activated</string>
     <string name="sim_dectection_next">Continue</string>
     <string name="sim_redetection">Check again</string>
     <string name="sim_scard_detecting_check_mobile_not_available">"Your SIM card couldn't connect to a valid carrier network. Make sure you have sufficient funds on your balance and try to connect again."</string>
@@ -569,6 +573,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">Sun</string>
     <string name="system_navigation_mode">System navigation mode</string>
+    <string name="term_condition_detail">"Get stunning images and exciting stories delivered to your Lock screen daily. This feature won't use your data for personalization without your consent. Read and agree to the third party content provider's &lt;a href =%1$s>Privacy Policy&lt;/a> and &lt;a href =%2$s>User Agreement&lt;/a> before using this feature."</string>
     <string name="terms_of_use">Terms and conditions</string>
     <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTML Viewer</string>
     <string name="terms_of_use_label">"Read our User Agreement and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
@@ -673,6 +678,7 @@ You must agree to Mint Keyboard Privacy Policy before using this feature."</stri
     <string name="wednesday_short">Wed</string>
     <string name="wednesday_shortest">Wed</string>
     <string name="welcome">Welcome</string>
+    <string name="withdraw_consent">If you withdraw consent, Wallpaper Carousel services will be deactivated.</string>
     <string name="wizard_script_uri">android.resource://com.android.provision/raw/wizard_script</string>
     <string name="yesterday">Yesterday</string>
     <string name="zone_picker_title">Choose time zone</string>
