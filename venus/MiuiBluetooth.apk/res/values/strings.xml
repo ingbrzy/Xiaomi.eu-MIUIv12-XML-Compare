@@ -89,13 +89,13 @@
     <string name="adb_wireless_verifying_qrcode_text">Pairing device…</string>
     <string name="adbwifi_warning_message">Wireless debugging is intended for development purposes only. Use it to copy data between your computer and your device, install apps on your device without notification, and read log data.</string>
     <string name="adbwifi_warning_title">Allow wireless debugging?</string>
-    <string name="add_user_failed">Failed to create a new user</string>
+    <string name="add_user_failed">"Couldn't create a new user"</string>
     <string name="afternoon">Afternoon</string>
     <string name="alarm_template">at %1$s</string>
     <string name="alarm_template_far">on %1$s</string>
     <string name="alarms_and_reminders_footer_title">"Allow this app to set alarms and schedule time-sensitive actions. This lets the app run in the background, which may use more battery.
 
-If this permission is off, existing alarms and time-based events scheduled by this app won’t work."</string>
+If this permission is off, existing alarms and time-based events scheduled by this app won't work."</string>
     <string name="alarms_and_reminders_label">Alarms and reminders</string>
     <string name="alarms_and_reminders_switch_title">Allow setting alarms and reminders</string>
     <string name="alarms_and_reminders_title">Alarms &amp; reminders</string>
@@ -263,7 +263,7 @@ Selection"</string>
     <string name="carrier_network_change_mode">Carrier network changing</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Work</string>
-    <string name="cell_data_off_content_description">Mobile data off</string>
+    <string name="cell_data_off_content_description">Mobile data is off</string>
     <string name="certinstaller_package">com.android.certinstaller</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
@@ -571,7 +571,7 @@ Faster connection protocol."</string>
     <string name="guest_nickname">Guest</string>
     <string name="guest_reset_guest">Reset guest</string>
     <string name="guest_reset_guest_confirm_button">Reset</string>
-    <string name="guest_reset_guest_dialog_title">Reset guest?</string>
+    <string name="guest_reset_guest_dialog_title">Reset guest now?</string>
     <string name="guest_resetting">Resetting guest…</string>
     <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
     <string name="hdcp_checking_title">HDCP checking</string>
@@ -600,6 +600,7 @@ Faster connection protocol."</string>
     <string name="headset_fw_file_position_failed">"Couldn't access file"</string>
     <string name="headset_fw_file_readfailed">"Couldn't get update info"</string>
     <string name="headset_loss_notify_summary">Looks like at least one of your earphones is not in the charging case. Take a look around!</string>
+    <string name="headset_loss_notify_summary1">"Looks like your earphones aren't in the case. Put them back to let them charge."</string>
     <string name="headset_loss_notify_title">Missing earphone alert</string>
     <string name="headset_read_fw_state">"Couldn't get update info"</string>
     <string name="headset_update_failed">"Couldn't update"</string>
@@ -692,7 +693,7 @@ Faster connection protocol."</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="media_category">Media</string>
     <string name="media_transfer_this_device_name">This device</string>
-    <string name="media_transfer_this_phone">This phone</string>
+    <string name="media_transfer_this_phone">This device</string>
     <string name="media_transfer_wired_device_name">Wired audio device</string>
     <string name="media_transfer_wired_usb_device_name">Wired headphone</string>
     <string name="mi_audio_relay_cancel">OK</string>
@@ -1189,9 +1190,9 @@ Any user can update apps for all other users."</string>
     <string name="user_add_user_title">Add new user?</string>
     <string name="user_add_user_type_title">Add</string>
     <string name="user_guest">Guest</string>
-    <string name="user_image_choose_photo">Choose an image</string>
-    <string name="user_image_photo_selector">Select photo</string>
-    <string name="user_image_take_photo">Take a photo</string>
+    <string name="user_image_choose_photo">Gallery</string>
+    <string name="user_image_photo_selector">Select image</string>
+    <string name="user_image_take_photo">Camera</string>
     <string name="user_info_settings_title">User info</string>
     <string name="user_need_lock_message">Before you can create a restricted profile, you’ll need to set up a screen lock to protect your apps and personal data.</string>
     <string name="user_new_profile_name">New profile</string>
@@ -1253,7 +1254,7 @@ Any user can update apps for all other users."</string>
     <string name="wifi_disabled_generic">Disabled</string>
     <string name="wifi_disabled_network_failure">"Couldn't configure IP"</string>
     <string name="wifi_disabled_password_failure">Authentication problem</string>
-    <string name="wifi_disabled_wifi_failure">Wi-Fi Connection Failure</string>
+    <string name="wifi_disabled_wifi_failure">"Couldn't connect to Wi-Fi"</string>
     <string name="wifi_disconnected">Disconnected</string>
     <string name="wifi_display_certification">Wireless display certification</string>
     <string name="wifi_display_certification_summary">Show options for wireless display certification</string>

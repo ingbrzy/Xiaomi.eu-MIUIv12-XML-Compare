@@ -107,9 +107,16 @@ Hold the device as if you are making a call, speak to main microphone, you shoul
     <string name="cit_audio_spk_cal_valueT">Temp:</string>
     <string name="cit_battery_temp_pass">Battery temperature is normal</string>
     <string name="cit_batterylight">Battery light</string>
+    <string name="cit_batterylight_13blue">13Blue</string>
+    <string name="cit_batterylight_13green">13Green</string>
+    <string name="cit_batterylight_13red">13Red</string>
+    <string name="cit_batterylight_24blue">24Blue</string>
+    <string name="cit_batterylight_24green">24Green</string>
+    <string name="cit_batterylight_24red">24Red</string>
     <string name="cit_batterylight_blue">Blue</string>
     <string name="cit_batterylight_green">Green</string>
     <string name="cit_batterylight_red">Red</string>
+    <string name="cit_batterylight_rgb_all">All Light Effects</string>
     <string name="cit_batterylight_white">White</string>
     <string name="cit_blue_tooth_address_check_summary">The Bluetooth address of this device should be displayed below.</string>
     <string name="cit_blue_tooth_address_check_title">Get Bluetooth address</string>
@@ -163,6 +170,7 @@ and reverse plug in the charger"</string>
     <string name="cit_diag_jank_summary">Copy jank logger files to sdcard</string>
     <string name="cit_diag_signal_summary">Copy singal stablity logger files to sdcard</string>
     <string name="cit_diag_wait">Please wait... Copying files</string>
+    <string name="cit_dial_emergencycall">Dial 112</string>
     <string name="cit_display_check_summary">Confirm that the colors are consistently displayed across the whole screen. Make sure there are no irregular bright spots and dark spots.</string>
     <string name="cit_display_check_title">Display</string>
     <string name="cit_display_continue">Touch screen to begin test</string>
@@ -171,6 +179,8 @@ and reverse plug in the charger"</string>
     <string name="cit_earpiece">Receiver</string>
     <string name="cit_earpiece_summary">"You will hear two random numbers
 Please click the appropriate button according to the number you hear"</string>
+    <string name="cit_emergencycall_check_summary">Please click Dial 112 button to dial 112 to check if 112 can be placed.</string>
+    <string name="cit_emergencycall_check_title">Emergency Call</string>
     <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
     <string name="cit_exit_test_title">Exit test</string>
     <string name="cit_external_keyboard_test_summary">Please input characters randomly after connecting the keyboard and observe the test results</string>
@@ -741,6 +751,7 @@ Click the Push Camera Button to see if the camera comes in"</string>
     <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
     <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
     <string name="sar_sensor_collect_data">Start Collect Data</string>
+    <string name="sar_sensor_collect_data_self_cali">Self-Calibration</string>
     <string name="sar_sensor_collect_test_summary">"Rotate the device, put it to the fixture
 Click the Start data acquisition button
 Control the fixture close and away from the device"</string>

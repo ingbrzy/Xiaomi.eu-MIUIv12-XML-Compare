@@ -109,6 +109,9 @@
     <string name="binded_description" formatted="false">"%s has been connected to your Mi Account.
 You can sign in to your Mi Account using %s now."</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="button_agree">Agree</string>
+    <string name="button_close">Close</string>
+    <string name="button_refuse">"Don't agree"</string>
     <string name="button_unbind">Disconnect</string>
     <string name="cancel">Cancel</string>
     <string name="change_activate_email">Change email address</string>
@@ -427,9 +430,11 @@ Send this code to the supervisor."</string>
     <string name="kr_permission_sms_desc">For autofilling verification codes</string>
     <string name="kr_permission_storage_desc">For saving diagnostics</string>
     <string name="loading_micloud_sync_data">Just a sec…</string>
+    <string name="login_3rd_app_with_system_account">Sign in to %s</string>
     <string name="login_check_find_device">Getting device security info…</string>
     <string name="login_check_find_device_failed_title">"Couldn't check device security info"</string>
     <string name="login_find_device_bind">This device is associated with an existing Mi Account ID (%s).</string>
+    <string name="login_with_other">More options</string>
     <string name="logout_account">Sign out</string>
     <string name="logout_failed">"Can't sign out"</string>
     <string name="mi_account_identity_title">Verify your identity</string>
@@ -807,13 +812,19 @@ Send this code to the supervisor."</string>
     <string name="permission_group_phone">Phone</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Storage</string>
+    <string name="permission_instructions">Permission usage</string>
     <string name="permission_read_sms">Access messages</string>
+    <string name="permission_withdraw">Withdraw</string>
     <string name="permission_write_external_storage">Access and save items to storage</string>
     <string name="personal_info_desc">Photo, nickname, and more</string>
     <string name="phone_num_use_for">Phone number is used for:</string>
     <string name="photoPickerNotFoundText">No photos available.</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="privacy_policy_reject_confirm_msg">"You won't be able to keep using Mi Account unless you agree to the new version of its Privacy Policy. Agree to the updated Mi Account &lt;a href=%1$s>Privacy Policy&lt;/a> now?"</string>
+    <string name="privacy_policy_reject_confirm_title">"Can't use Mi Account"</string>
+    <string name="privacy_policy_update_msg">Mi Account Privacy Policy was updated:&lt;br/>%1$s&lt;br/>Read and agree to the new version of &lt;a href=%2$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before you continue.</string>
+    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
     <string name="provision_back">Back</string>
     <string name="provision_next">Next</string>
     <string name="provision_skip_underline">Skip</string>
@@ -840,6 +851,9 @@ Send this code to the supervisor."</string>
     <string name="restart_action">Start over</string>
     <string name="restart_phone_bind_message">It may take some time to receive SMS. Start over anyway?</string>
     <string name="restart_phone_bind_title">Change recovery phone</string>
+    <string name="revoke_privacy_policy">Withdrawal of consent</string>
+    <string name="revoke_privacy_policy_instructions">"If you continue, you'll withdraw your consent to Mi Account Privacy Policy. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As Mi Account provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept Mi Account services. Withdraw consent now?"</string>
+    <string name="revoke_privacy_policy_title">Withdrawal of consent</string>
     <string name="risky_pwd_not_allow">"New password isn't secure. Set a different one."</string>
     <string name="same_new_and_old_pwd">New password must be different from the old one</string>
     <string name="saturday">Saturday</string>
@@ -991,6 +1005,16 @@ Send this code to the supervisor."</string>
     <string name="user_avatar_uploading">Just a sec…</string>
     <string name="user_instruction_all_purpose">Welcome to Mi Account! You can use your account to access services provided by Xiaomi and its affiliated companies, such as Mi.com, Xiaomi Cloud, and GetApps. You can get Mi Coins, buy virtual goods, and enjoy value-added services including games, themes, and ebooks.</string>
     <string name="user_instruction_tip">To be able to sign in, read and agree to terms and conditions.</string>
+    <string name="user_license_with_3rd_app"><Data>"By signing in with my Mi Account, I confirm I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> and Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>."</Data></string>
+    <string name="user_license_with_3rd_app_mobile"><Data>"I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>, as well as &lt;a href=%5$s>Terms and conditions of China Mobile verification services&lt;/a>."</Data></string>
+    <string name="user_license_with_3rd_app_no_operator"><Data>"I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> and Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>."</Data></string>
+    <string name="user_license_with_3rd_app_telcom"><Data>"I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>, as well as &lt;a href=%5$s>Terms and conditions of eSurfing account verification services&lt;/a>."</Data></string>
+    <string name="user_license_with_3rd_app_unicom"><Data>"I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>, as well as &lt;a href=%5$s>Terms and conditions of China Unicom verification services&lt;/a>."</Data></string>
+    <string name="user_license_with_out_3rd_app_no_operator"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>."</Data></string>
+    <string name="user_license_without_3rd_app"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>."</Data></string>
+    <string name="user_license_without_3rd_mobile"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, as well as &lt;a href=%3$s>Terms and conditions of China Mobile verification services&lt;/a>."</Data></string>
+    <string name="user_license_without_3rd_telcom"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, as well as &lt;a href=%3$s>Terms and conditions of eSurfing account verification services&lt;/a>."</Data></string>
+    <string name="user_license_without_3rd_unicom"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, as well as &lt;a href=%3$s>Terms and conditions of China Unicom verification services&lt;/a>."</Data></string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="vip_account_settings">VIP Settings</string>
