@@ -252,6 +252,7 @@
     <array name="config_virtualKeyUpPattern" />
     <string-array name="empty_initial_attach_apn_plmn">
         <item>20205</item>
+        <item>20601</item>
         <item>20801</item>
         <item>20802</item>
         <item>20810</item>
@@ -1845,7 +1846,6 @@
         <item>com.miui.wmsvc</item>
         <item>com.miui.miwallpaper</item>
         <item>com.xiaomi.mimobile.cloudsim</item>
-        <item>com.miui.tsmclient</item>
         <item>com.magiear.handsfree.assistant</item>
         <item>com.xiaomi.mi_connect_service</item>
     </string-array>
@@ -2076,6 +2076,7 @@
         <item>com.lbe.security.miui</item>
         <item>com.miui.virtualsim:authentication</item>
         <item>com.miui.touchassistant:float</item>
+        <item>com.miui.tsmclient:daemon</item>
         <item>com.miui.securitycore.remote</item>
         <item>com.miui.securitycenter.remote</item>
         <item>com.miui.greenguard</item>
@@ -2320,11 +2321,13 @@
         <item>renoir</item>
         <item>lisa</item>
         <item>mona</item>
+        <item>veux</item>
     </string-array>
     <string-array name="white_list_device_level">
         <item>v:1,c:2,g:1</item>
         <item>v:1,c:2,g:1</item>
         <item>v:1,c:2,g:1</item>
+        <item>v:1,c:2,g:2</item>
         <item>v:1,c:2,g:2</item>
         <item>v:1,c:2,g:2</item>
         <item>v:1,c:2,g:2</item>
