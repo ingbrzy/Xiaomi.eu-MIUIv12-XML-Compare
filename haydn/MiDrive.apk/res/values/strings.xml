@@ -44,6 +44,8 @@
     <string name="app_name">Mi Drive</string>
     <string name="auto_save_to_file">Saved to \"Converted to PDF\" folder</string>
     <string name="be_sure_to_clear_cache">Clear cache now?</string>
+    <string name="btn_recall_text_next_step_timer">Withdraw (%ds)</string>
+    <string name="btn_recall_text_ok_timer">Withdraw</string>
     <string name="camera">Camera</string>
     <string name="cancel">Cancel</string>
     <string name="category_document">Documents</string>
@@ -382,6 +384,8 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
 Make sure you're using the current Mi Account as your MIUI system account."</string>
     <string name="micloud_space_soundrecorder_title">Audio recordings</string>
     <string name="midnight">Night</string>
+    <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_alphabet_indexer_name">Index bar</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -396,6 +400,7 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -500,6 +505,16 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="pause_all">Pause all</string>
     <string name="pause_download">Paused</string>
     <string name="pause_upload">Paused</string>
+    <string name="permission_account_desc">Access all accounts stored on this device</string>
+    <string name="permission_account_title">Accounts</string>
+    <string name="permission_accpeted">Granted</string>
+    <string name="permission_camera_desc">Taking photos and making videos</string>
+    <string name="permission_camera_title">Camera</string>
+    <string name="permission_denied">Not granted</string>
+    <string name="permission_phone_desc">Access phone number and device status</string>
+    <string name="permission_phone_title">Device info</string>
+    <string name="permission_storage_desc">Access and save photos and files on this device</string>
+    <string name="permission_storage_title">Storage</string>
     <string name="picker_bottom_btn_text">Upload</string>
     <string name="picker_bottom_text_desc">"Upload to "</string>
     <string name="picker_permission_failed">"Couldn't grant permission. This feature won't work without it."</string>
@@ -509,11 +524,21 @@ Make sure you're using the current Mi Account as your MIUI system account."</str
     <string name="play_metered_network_dialog_title">Using mobile data</string>
     <string name="pm">PM</string>
     <string name="ppt_to_pdf">Converted to PDF</string>
+    <string name="pre_permission_management">Permissions details</string>
     <string name="pre_privacy_policy">Privacy Policy</string>
+    <string name="pre_privacy_recall">Withdrawal of consent</string>
     <string name="pre_user_agreement">User Agreement</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="preview">Preview</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_recall_dialog_msg">"If you continue, you'll withdraw your consent to the Privacy Policy of Mi Drive. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As Mi Drive provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept Mi Drive services. Withdraw consent now?"</string>
+    <string name="privacy_recall_dialog_title">Withdrawal of consent</string>
+    <string name="privacy_update_dialog_msg">Mi Drive Privacy Policy was updated:&lt;br/>%1$s&lt;br/>Read and agree to the new version of &lt;a href=%2$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before you continue.</string>
+    <string name="privacy_update_dialog_title">Updated Privacy Policy</string>
+    <string name="privacy_user_notice_dialog_exit_btn_text">Exit</string>
+    <string name="privacy_user_notice_dialog_msg">"You won't be able to keep using Mi Drive unless you agree to the new version of its &lt;a href=%1$s>&lt;u>Privacy Policy&lt;/u>&lt;/a>. Agree to the updated Privacy Policy now?"</string>
+    <string name="privacy_user_notice_dialog_ok_btn_text">Agree</string>
+    <string name="privacy_user_notice_dialog_title">Attention</string>
     <string name="private_empty_desc">Here you can store files privately.</string>
     <string name="private_empty_sub_desc">Try moving files here or upload them directly.</string>
     <string name="private_folder_name">Private files</string>
