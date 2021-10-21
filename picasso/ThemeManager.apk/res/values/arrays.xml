@@ -352,8 +352,16 @@
     <string-array name="system_cta_runtime_perm_desc_non_phone_state">
         <item>@string/system_cta_runtime_perm_desc_storage</item>
     </string-array>
+    <string-array name="system_cta_runtime_perm_desc_non_phone_state_install_app">
+        <item>@string/system_cta_runtime_perm_desc_storage</item>
+        <item>@string/application_list_permission_desc</item>
+    </string-array>
     <string-array name="system_cta_runtime_perm_non_phone_state">
         <item>android.permission-group.STORAGE</item>
+    </string-array>
+    <string-array name="system_cta_runtime_perm_phone_state_and_install_app">
+        <item>android.permission-group.STORAGE</item>
+        <item>com.android.permission.GET_INSTALLED_APPS</item>
     </string-array>
     <string-array name="wallpaper_version">
         <item>视觉中国</item>
