@@ -31,6 +31,7 @@
     <string name="actionbar_button_up_description">Back</string>
     <string name="afternoon">Afternoon</string>
     <string name="am">AM</string>
+    <string name="androidx_camera_default_config_provider">androidx.camera.camera2.Camera2Config$DefaultProvider</string>
     <string name="antispam">Blocklist</string>
     <string name="app_name">Mi Mover</string>
     <string name="appname_app_data_suffix">%1$s app data</string>
@@ -74,6 +75,7 @@
     <string name="cancel">Cancel</string>
     <string name="cancel_moving_dialog_message">Stop importing now?</string>
     <string name="cancel_moving_dialog_title">Stop importing</string>
+    <string name="cancel_tranfer">Cancel</string>
     <string name="cannot_use_mi_huanji_button">Got it</string>
     <string name="cannot_use_mi_huanji_summary">Looks like MIUI is backing up items now. Stop ongoing backups or reboot your device to allow Mi Mover to start the transfer.</string>
     <string name="cannot_use_mi_huanji_title">"Can't transfer now"</string>
@@ -331,6 +333,7 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="guest_unfinished_task_alert_btn_positive">Continue</string>
     <string name="guest_unfinished_task_alert_message">Looks like you have unfinished transfer tasks. Continue with the transfer?</string>
     <string name="guest_unfinished_task_alert_title">Unfinished tasks</string>
+    <string name="guest_wainting_title">Continue on your new device</string>
     <string name="heavenly_stems_bing">丙</string>
     <string name="heavenly_stems_ding">丁</string>
     <string name="heavenly_stems_geng">庚</string>
@@ -370,12 +373,15 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="host_dialog_message">Make sure the latest version of Mi Mover is installed on the other device; otherwise, two devices might not be able to connect.</string>
     <string name="host_dialog_title">"Can't connect for a long time"</string>
     <string name="host_install_hint">"Mi Mover isn't installed?"</string>
-    <string name="host_manual_connect_link_text">If it takes too long for your old device to find the hotspot, try connecting manually.</string>
     <string name="host_memory_insuff_cancel">Cancel</string>
     <string name="host_memory_insuff_confirm">Select again</string>
     <string name="host_memory_insuff_summary">"There isn't enough storage space on the new device to start a transfer."</string>
     <string name="host_memory_insuff_title">Not enough storage space</string>
     <string name="host_new_device_hint">This device</string>
+    <string name="host_verify_lock_hint">Enter screen lock</string>
+    <string name="host_verify_lock_retry">Confirm screen lock</string>
+    <string name="host_verify_lock_summary">"This will become your new device's screen lock"</string>
+    <string name="host_verify_lock_title">"Enter your old device's screen lock"</string>
     <string name="hsa_code_null">"Verification code can't be empty"</string>
     <string name="hsa_input_tip">Your Apple ID uses two-factor authentication. Enter verification code.</string>
     <string name="hsa_send_again">Send again</string>
@@ -406,6 +412,9 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="icloud_signin_fail_message">Your apple ID was locked due to security reasons. Go to iforgot.apple.com and follow instructions.</string>
     <string name="icloud_start_now">Use mobile data</string>
     <string name="icloud_verify_tips">Tap Allow on your iOS device and enter the code that appears on it here.</string>
+    <string name="idm_discovery_positive_text">Transfer</string>
+    <string name="idm_discovery_summary">"Looks like you're activating a new device now. Transfer items from this device to the new one?"</string>
+    <string name="idm_discovery_title">Transfer items to your new device</string>
     <string name="im_recipient">"I'm a recipient"</string>
     <string name="im_sender">"I'm a sender"</string>
     <string name="image">Images</string>
@@ -434,6 +443,9 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="loading_data">Just a sec…</string>
     <string name="location_permission_desc">For finding devices nearby</string>
     <string name="location_permission_request">For connecting to other devices nearby</string>
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
     <string name="login">Sign in</string>
     <string name="login_failed">"Couldn't sign in. Try again."</string>
     <string name="logining">Signing in…</string>
@@ -456,11 +468,8 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="main_receiver_title">New</string>
     <string name="main_sender_summary">Tap to send items</string>
     <string name="main_sender_title">Old</string>
-    <string name="manual_connection_content1">1. Tap \"Connect to the new device manually\" on the old device.</string>
-    <string name="manual_connection_content2">2. Select the following Wi-Fi hotspot.</string>
-    <string name="manual_connection_content3">3. Enter this password on the old device to connect.</string>
-    <string name="manual_connection_summary2">"If you can't find this hotspot, refresh the list of the available Wi-Fi networks and try again."</string>
-    <string name="manual_connection_title">Connect to the old device manually</string>
+    <string name="manual_connection_hint">Tap \"Connect manually\" on your old device.</string>
+    <string name="manual_connection_title">Connect old device to this hotspot</string>
     <string name="marketSdkVersion">3.2.9</string>
     <string name="message_request_package_stats_perm">Mi Mover needs this permission to learn what apps are installed on a device and transfer these apps to another one.</string>
     <string name="midnight">Night</string>
@@ -471,6 +480,8 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="miui_wait_link_message_1">"\"I'm a sender\" button is right on the start page of Mi Mover."</string>
     <string name="miui_wait_link_title_1">"%d. Tap \"I'm a sender\" and wait a moment."</string>
     <string name="miui_wait_link_title_2">%d. Select this hotspot on your old device to connect.</string>
+    <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_alphabet_indexer_name">Index bar</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -485,6 +496,7 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -672,16 +684,21 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
     <string name="prompt_before_transmission_message4_title">Stay connected throughout the transfer</string>
     <string name="prompt_before_transmission_message5_summary">"Transferring big amounts of data wirelessly might cause slight overheating which isn't abnormal. Your device will cool down soon after the transfer is complete."</string>
     <string name="prompt_before_transmission_message5_title">Your device might heat up during transfers.</string>
+    <string name="provision_cta_title">Transfer from old device</string>
     <string name="provision_receiver_finish_button">Next</string>
+    <string name="provision_select_data_null">Select items to transfer</string>
     <string name="qq_app">QQ</string>
     <string name="qq_app_receive_fail">"Couldn't receive QQ"</string>
     <string name="qq_app_send_fail">"Couldn't send QQ"</string>
     <string name="qq_data_external">QQ SD card data</string>
     <string name="quit_now">Quit</string>
+    <string name="receiver">Receive</string>
     <string name="receiver_finish_detail_button">View report</string>
     <string name="receiver_finish_detail_fail">"Couldn't transfer"</string>
     <string name="receiver_finish_detail_success">Transferred items</string>
     <string name="receiver_finish_title">"You're all set!"</string>
+    <string name="receiver_video_summary">Unlock your old device, tap \"Transfer\", and scan this image</string>
+    <string name="receiver_video_title">Transfer from old device</string>
     <string name="reconnect">Connect again</string>
     <string name="recreate_soft_ap_tips">Tap the button below to try again.</string>
     <string name="request_all_permission_content">"Mi Mover needs to access the following items to be able to transfer items to a new device:
@@ -691,9 +708,14 @@ Open WeChat and go to Me > Settings > General > Back up &amp; migrate chats."</s
 - Text messages
 - Storage"</string>
     <string name="request_all_permission_title">Permissions required</string>
+    <string name="required_permissions">;</string>
     <string name="restore_data_to_device_content">"Your items were synced with Xiaomi Cloud.
 Sign in to your Mi Account to restore them."</string>
     <string name="restore_data_to_device_title">Restore items to this device</string>
+    <string name="revoke">Withdraw consent</string>
+    <string name="revoke_agree">Withdrawal of consent</string>
+    <string name="revoke_confirm_dialog_statement">"If you continue, you'll withdraw your consent to the Privacy Policy of Mi Mover. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As Mi Mover provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept Mi Mover services."</string>
+    <string name="revoke_confirm_dialog_yes">OK</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
@@ -739,8 +761,11 @@ Free up at least %s."</string>
     <string name="send">Send</string>
     <string name="send_verification_code_fail">"Couldn't send verification code"</string>
     <string name="send_verification_code_fail_tips">"Make sure that you signed in with this account on your Apple device. Otherwise, you won't be able to receive the code."</string>
+    <string name="sender">Send</string>
     <string name="sender_finish_bottom_tips">"Make sure you've backed up all important items before erasing data on this device."</string>
     <string name="sender_finish_title">Transferred successfully</string>
+    <string name="sender_scanning_code">Place the image in the frame</string>
+    <string name="sender_scanning_connecting">Connecting with new device…</string>
     <string name="settings_phone">Phone settings</string>
     <string name="settings_powerkeeper">Step counter data</string>
     <string name="settings_sms">Messaging settings</string>
@@ -753,6 +778,7 @@ Free up at least %s."</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_transfer">Skip</string>
     <string name="skip_underline">Skip this step</string>
     <string name="sms">SMS</string>
     <string name="soft_ap_create_failed">"Couldn't create hotspot. Try again."</string>
@@ -868,7 +894,10 @@ Download and install Mi Mover."</string>
     <string name="trans_receive_time_remained">Received: %1$s | Remaining: %2$s</string>
     <string name="trans_send_time_remained">Sent: %1$s | Remaining: %2$s</string>
     <string name="trans_show_qr_code_label">Open Mi Mover on the old device</string>
+    <string name="trans_show_qr_code_label_for_pad">Open Mi Mover on the old device</string>
     <string name="trans_sync_transfer_data_list">Select items to transfer on the old device</string>
+    <string name="trans_sync_transfer_data_list_hint">Just a sec…</string>
+    <string name="trans_sync_transfer_data_list_summary_for_pad">Select items on your old device and tap \"Send\".</string>
     <string name="trans_time_format_second">Less than 1 minute</string>
     <string name="trans_time_spent">Time: %s</string>
     <string name="transfer_bottom_tip">"You won't be able to use Wi-Fi or Bluetooth during the transfer. Don't leave this page."</string>
