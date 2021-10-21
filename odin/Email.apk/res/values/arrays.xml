@@ -556,6 +556,30 @@
         <item>Frequently Used</item>
         <item>All Folders</item>
     </string-array>
+    <string-array name="permission_array">
+        <item>@string/permission_calendar_title</item>
+        <item>@string/permission_write_external_storage_title</item>
+        <item>android.permission.WRITE_CONTACTS</item>
+        <item>@string/permission_phone_status_title</item>
+        <item>android.permission.GET_ACCOUNTS</item>
+    </string-array>
+    <string-array name="permission_array_pie">
+        <item>@string/permission_calendar_title</item>
+        <item>@string/permission_write_external_storage_title</item>
+        <item>android.permission.WRITE_CONTACTS</item>
+    </string-array>
+    <string-array name="permission_array_pie_subtitle">
+        <item>@string/permission_calendar_subtitle</item>
+        <item>@string/permission_des_external_storage</item>
+        <item>@string/permission_write_contacts_subtitle</item>
+    </string-array>
+    <string-array name="permission_array_subtitle">
+        <item>@string/permission_calendar_subtitle</item>
+        <item>@string/permission_des_external_storage</item>
+        <item>@string/permission_write_contacts_subtitle</item>
+        <item>@string/permission_phone_status_subtitle</item>
+        <item>@string/permission_get_accounts_subtitle</item>
+    </string-array>
     <string-array name="prefEntries_autoAdvance">
         <item>Newer message</item>
         <item>Older message</item>
