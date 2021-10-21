@@ -1332,8 +1332,12 @@ for ^2"</string>
     <string name="bluetooth_ble_audio_source_invalid_error">您选择的source无效</string>
     <string name="bluetooth_ble_audio_source_no_empty_slot_error">您选择的source没有可用slot</string>
     <string name="bluetooth_ble_audio_source_passoword">密码</string>
+    <string name="bluetooth_ble_audio_source_remove_fail">广播源移除失败，请重新尝试！</string>
     <string name="bluetooth_ble_audio_source_select_error">广播选择异常</string>
     <string name="bluetooth_ble_audio_source_unavailable_error">您选择的source不可以用</string>
+    <string name="bluetooth_ble_audio_stop_synchronize_confirmed">确定</string>
+    <string name="bluetooth_ble_audio_stop_synchronize_message">停止后，耳机将无法收听到蓝牙广播音频</string>
+    <string name="bluetooth_ble_audio_stop_synchronize_title">停止音频同步</string>
     <string name="bluetooth_broadcast">Broadcast</string>
     <string name="bluetooth_broadcast_audio">蓝牙共享广播</string>
     <string name="bluetooth_broadcast_audio_sharing">蓝牙共享广播</string>
@@ -1723,6 +1727,8 @@ While connected, %2$s will receive all calls made to %3$s."</string>
     <string name="bluetooth_unpair_dialog_title">Forget device?</string>
     <string name="bluetooth_untether_blank">%1$s will be untethered.</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s will no longer be paired with any device linked to this account</string>
+    <string name="bluetooth_version">Bluetooth version</string>
+    <string name="bluetooth_version_message">Update</string>
     <string name="bluetooth_visibility_timeout">Visibility timeout</string>
     <string name="bluetooth_wake">Wake with Bluetooth audio</string>
     <string name="boot_sounds_title">Power on sounds</string>
@@ -2532,6 +2538,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="current_input_method">Current Keyboard</string>
     <string name="current_password">Current screen lock</string>
     <string name="current_screen_lock">Current screen lock</string>
+    <string name="current_use_default_wallet">Selected automatically</string>
     <string name="current_use_ese">Using embedded secure element</string>
     <string name="current_use_ese_wallet">"You're using Mi Wallet. It allows you to use Mi Pay and NFC transport card."</string>
     <string name="current_use_hce_wallet">"You're using HCE Wallet"</string>
@@ -5132,6 +5139,7 @@ as your First space PIN."</string>
     <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with the cloud.</string>
     <string name="login_account_dialog_title">Sign in with Mi Account</string>
     <string name="login_account_summary">Manage accounts, cloud services, payments, and more</string>
+    <string name="login_account_summary_temp">Manage accounts, cloud services, and more</string>
     <string name="login_action">Sign in</string>
     <string name="long_press_back_key">Long press the Back button</string>
     <string name="long_press_buttom_key">Long press Home on the Lock screen</string>
@@ -7504,11 +7512,13 @@ To use app pinning: \u0009
     <string name="sdcard_settings_unmounted_status">It’s now safe to remove the USB storage.</string>
     <string name="sdcard_settings_used_bytes_label">Used bytes:</string>
     <string name="sdcard_unmount">Unmount USB storage</string>
+    <string name="se_route_default">Select automatically</string>
     <string name="se_route_ese">Embedded secure element</string>
     <string name="se_route_uicc">Secure element on SIM card</string>
     <string name="se_wallet_ese">Mi Wallet</string>
     <string name="se_wallet_hce">HCE Wallet</string>
     <string name="se_wallet_uicc">SIM %1$s Wallet</string>
+    <string name="se_wallet_uicc_jp">"SIM %1$s wallet (Can't be selected automatically)"</string>
     <string name="search_about_settings">About phone;Model number;Android version;MIUI version;CPU;RAM;Internal memory;Memory;Storage;Internal storage;Baseband version;Kernel version;Build number;My device;Phone;Device</string>
     <string name="search_accelerometer_title">Auto rotate screen;Rotate screen;Orientation;Portrait;Landscape</string>
     <string name="search_access_control">Privacy settings;Security Privacy;Guest;Guest mode</string>
@@ -8381,6 +8391,24 @@ For sharing your location with emergency contacts
 If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to turn off or not use Emergency SOS in such cases.
 Before using our services, read and agree to our %s."</string>
     <string name="sos_privacy_dialog_title">Terms and Conditions</string>
+    <string name="sos_privacy_policy">Privacy Policy</string>
+    <string name="sos_privacy_policy_change_endtitle">Read and agree to the new version of %s before you continue.</string>
+    <string name="sos_privacy_policy_change_message_reject">"You won't be able to keep using Emergency SOS unless you agree to the new version of its Privacy Policy. Agree to the updated %s now?"</string>
+    <string name="sos_privacy_policy_change_subtitle">Emergency SOS Privacy Policy was updated:</string>
+    <string name="sos_privacy_policy_change_title">Updated Privacy Policy</string>
+    <string name="sos_privacy_policy_change_title_reject">"Can't use the app"</string>
+    <string name="sos_privacy_policy_no_net_button">Got it</string>
+    <string name="sos_privacy_policy_no_net_message">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
+    <string name="sos_privacy_policy_no_net_title">"Couldn't connect to the network"</string>
+    <string name="sos_privacy_policy_revoke">Withdrawal of consent</string>
+    <string name="sos_privacy_policy_revoke_message_reject">"If you continue, you'll withdraw your consent to the Privacy Policy of Emergency SOS. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise.
+
+As Emergency SOS provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept Security services.
+
+Withdraw consent to %s now?"</string>
+    <string name="sos_privacy_policy_revoke_title_reject">Attention</string>
+    <string name="sos_privacy_revoke_failed_dialog_content">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="sos_privacy_revoke_failed_dialog_title">"Couldn't withdraw consent"</string>
     <string name="sound_assist_summary">Customize your sound settings</string>
     <string name="sound_assist_title">Sound assistant</string>
     <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
