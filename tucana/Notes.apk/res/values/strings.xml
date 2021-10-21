@@ -395,7 +395,6 @@
     <string name="loading_text">Just a sec…</string>
     <string name="login_sync">Sign in &amp; sync</string>
     <string name="lunar_day">Lunar %1$s</string>
-    <string name="marketSdkVersion">3.2.9</string>
     <string name="material_clock_display_divider">:</string>
     <string name="material_clock_toggle_content_description">Select AM or PM</string>
     <string name="material_hour_selection">Select hour</string>
@@ -595,6 +594,7 @@
     <string name="note_gesture_guide_step3">Press and hold a note and then drag it over a folder to move the note there</string>
     <string name="note_header_first_enter_guide">Pull down to view more</string>
     <string name="note_invalid_mindnote_hint">"Mind maps aren't available in this version. Update the app to use this feature."</string>
+    <string name="note_item_default_title">Empty note</string>
     <string name="note_link_email">Compose email</string>
     <string name="note_link_other">Open using map app</string>
     <string name="note_link_select">Select text</string>
@@ -671,6 +671,12 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Swipe up with 2 fingers to delete notes without confirmation</string>
     <string name="pref_desc_todo_float_mode">Swipe from the edge of the screen to open task toolbox</string>
     <string name="pref_excerpt_link_float">Receive a reminder to create an excerpt whenever a URL is copied</string>
+    <string name="pref_permission_allowed">Granted</string>
+    <string name="pref_permission_manage">Permissions details</string>
+    <string name="pref_permission_manage_key_contact">Access contacts</string>
+    <string name="pref_permission_manage_key_recording">Record audio</string>
+    <string name="pref_permission_manage_key_storage">Access storage</string>
+    <string name="pref_permission_not_allowed">Not granted</string>
     <string name="pref_quick_note_desc">Use the shortcut at the edge of the screen to create notes and tasks, as well as save copied URLs, text, and images to Notes.</string>
     <string name="pref_remind_type_summary">Play reminder sound in Silent mode</string>
     <string name="pref_remind_type_summary_new">Ignore Silent mode and keep playing sound until the alarm is turned off</string>
@@ -720,7 +726,7 @@
     <string name="repeat_mode_set_title">Repeat</string>
     <string name="repeat_mode_week">Every week</string>
     <string name="repeat_mode_year">Every year</string>
-    <string name="required_permissions">android.permission.READ_PRIVILEGED_PHONE_STATE;android.permission.GET_ACCOUNTS_PRIVILEGED</string>
+    <string name="required_permissions">;</string>
     <string name="rich_text_bold_description">Bold</string>
     <string name="rich_text_bulleted_list_description">Checkbox</string>
     <string name="rich_text_center_description">Center</string>
@@ -1016,10 +1022,10 @@ Allow Notes to record audio."</string>
     <string name="widget_size_item_2x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x4">%1$d×%2$d</string>
+    <string name="widget_size_item_big">Large</string>
+    <string name="widget_size_item_medium">Medium</string>
+    <string name="widget_size_item_small">Small</string>
     <string name="widget_take_notes_title">Notes</string>
     <string name="xiaomi_account_type">com.xiaomi</string>
-    <string name="xiaomi_market_sdk_update_dialog_cancel">Not now</string>
-    <string name="xiaomi_market_sdk_update_dialog_ok">Update</string>
-    <string name="xiaomi_market_sdk_update_dialog_title">An update is available</string>
     <string name="yesterday">Yesterday</string>
 </resources>
