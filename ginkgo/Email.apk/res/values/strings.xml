@@ -245,7 +245,7 @@
     <string name="add_pre_message_attachments_yes">Add</string>
     <string name="add_star">Star</string>
     <string name="afternoon">Afternoon</string>
-    <string name="agreement_url" formatted="false">http://www.miui.com/res/doc/eula.html?region=%1s&amp;lang=%2s</string>
+    <string name="agreement_url" formatted="false">https://miui.wpsmail.net/cn/agreement.html?region=%1s&amp;lang=%2s</string>
     <string name="all_purpose">Welcome to Mail, an email client custom-made for Xiaomi by Kingsoft. You can use this app to compose, send, and receive emails.</string>
     <string name="allow_notify">Allow notifications</string>
     <string name="allread">Read all</string>
@@ -778,7 +778,7 @@
     <string name="folder_junk_name_en2">Junk Mail</string>
     <string name="folder_junk_name_en3">Junk E-Mail</string>
     <string name="folder_junk_name_en4">Junk</string>
-    <string name="folder_list_current_account">Current mailbox</string>
+    <string name="folder_list_current_account">Current account</string>
     <string name="folder_list_display_all">Display all folders</string>
     <string name="folder_list_display_only_import">Only display important folders</string>
     <string name="folder_no_mails">No mail</string>
@@ -852,10 +852,10 @@
     <string name="get_database_exception">"Clear this app's data in Settings > System apps and try again."</string>
     <string name="get_oauth_code">Get code</string>
     <string name="gmail_acceleration">Use proxy server for Gmail Account</string>
-    <string name="gmail_invalid_tip_cancel">我知道了</string>
-    <string name="gmail_invalid_tip_confirm">登录</string>
-    <string name="gmail_invalid_tip_message">非常抱歉！由于最新谷歌安全协议规定，需要您重新完成Gmail登录授权</string>
-    <string name="gmail_invalid_tip_title">Gmail登录</string>
+    <string name="gmail_invalid_tip_cancel">Cancel</string>
+    <string name="gmail_invalid_tip_confirm">Sign in</string>
+    <string name="gmail_invalid_tip_message">"Google's terms and conditions have changed. Sign in to Gmail again."</string>
+    <string name="gmail_invalid_tip_title">Sign in to Gmail</string>
     <string name="gmail_login_confirm_to_use_proxy">Use proxy server to access your Gmail Account?</string>
     <string name="gmail_login_failed_non_proxy_title">"Couldn't access Gmail server"</string>
     <string name="gmail_server_authorization_deleted">"Couldn't authenticate account. Try adding this account again."</string>
@@ -1226,7 +1226,7 @@ This issue might be caused by the account's two-factor authentication. Try enter
     <string name="network_unavailable">Network not available</string>
     <string name="new_incoming_messages_one">New message from %s. Show.</string>
     <string name="new_mail_notification">Notify about new messages</string>
-    <string name="new_mail_notification_str">Allow notifications</string>
+    <string name="new_mail_notification_str">Allow reminders</string>
     <string name="new_signature_has_saved">Saved successfully</string>
     <string name="next_action">Next</string>
     <string name="night">Evening</string>
@@ -1371,11 +1371,18 @@ Try switching to a different email account."</string>
     <string name="perference_setup_send_tag">Outgoing mail server</string>
     <string name="permission_access_provider_desc">Allows app to access your email, usernames, and passwords</string>
     <string name="permission_access_provider_label">Access user data</string>
+    <string name="permission_calendar_subtitle">For syncing events from email to your Calendar</string>
+    <string name="permission_calendar_title">Access and add Calendar events</string>
     <string name="permission_des_calendar">For syncing calendar events</string>
     <string name="permission_des_contact">For accessing emails of your contacts in order to autocomplete recipients</string>
     <string name="permission_des_external_storage">For creating new emails, as well as saving and adding attachments</string>
+    <string name="permission_get_accounts_subtitle">For signing in and managing system accounts</string>
+    <string name="permission_phone_status_subtitle">For identifying different devices</string>
+    <string name="permission_phone_status_title">Access accounts on device</string>
     <string name="permission_read_attachment_desc">"Allows app to read your emails' attachments"</string>
     <string name="permission_read_attachment_label">Read attachments</string>
+    <string name="permission_write_contacts_subtitle">"For displaying and changing contacts' email addresses"</string>
+    <string name="permission_write_external_storage_title">Access and save photos and files on device</string>
     <string name="personal_data_collection_summary">When the switch is toggled on, you agree that we may collect your personal data. You can toggle the switch off, revoke your authorization, and delete your data from our servers at any time.</string>
     <string name="personal_data_collection_title">Allow collecting personal data</string>
     <string name="photo_view_count">%1$d/%2$d</string>
