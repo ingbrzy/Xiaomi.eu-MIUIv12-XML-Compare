@@ -544,9 +544,17 @@
         <item quantity="other">%1$s, %2$s items</item>
         <item quantity="one">%1$s, %2$s item</item>
     </plurals>
+    <plurals name="trash_purge_dialog_message_cloud">
+        <item quantity="other">%d selected items will be permanently deleted from the cloud and all synced devices. Delete anyway?</item>
+        <item quantity="one">%d selected item will be permanently deleted from the cloud and all synced devices. Delete anyway?</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">"You won't be able to restore %d selected items if you delete them. Delete anyway?"</item>
         <item quantity="one">"You won't be able to restore %d selected item if you delete it. Delete anyway?"</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_local">
+        <item quantity="other">%d selected items will be deleted permanently. Delete anyway?</item>
+        <item quantity="one">%d selected item will be deleted permanently. Delete anyway?</item>
     </plurals>
     <plurals name="trash_purge_dialog_message_media">
         <item quantity="other">"You won't be able to restore %d selected items if you delete them. Delete anyway?"</item>

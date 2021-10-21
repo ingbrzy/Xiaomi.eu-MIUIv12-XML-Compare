@@ -372,6 +372,7 @@ Toggle off to stop syncing."</string>
     <string name="collect_diagnosis_log">Collect logs</string>
     <string name="collection_articles">Articles</string>
     <string name="collection_videos">Videos</string>
+    <string name="columbus_ad_flag_text">AD</string>
     <string name="columbus_player_close_desc">You will lose your reward</string>
     <string name="columbus_player_close_resume">RESUME VIDEO</string>
     <string name="columbus_player_close_title">Close Video?</string>
@@ -381,7 +382,8 @@ Toggle off to stop syncing."</string>
     <string name="columbus_player_speed_title">Skip Video?</string>
     <string name="columbus_player_speed_video">Skip VIDEO</string>
     <string name="columbus_player_unit_sec">sec</string>
-    <string name="com.crashlytics.android.build_id">38826a9ca21d4a1bb367fdc4863397e7</string>
+    <string name="columbus_skip_ad">Skip</string>
+    <string name="com.crashlytics.android.build_id">911c2a42dc444c25ad5a68be7ee58b77</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -1129,11 +1131,11 @@ Send this code to the supervisor."</string>
     <string name="mw_accessibility_time_picker_minute">Minute</string>
     <string name="mw_accessibility_time_picker_second">Second</string>
     <string name="mw_actionbar_share">Share</string>
-    <string name="mw_actionbar_textselection_title">Text selection</string>
+    <string name="mw_actionbar_textselection_title">Select text</string>
     <string name="mw_actionbar_web_search">Web search</string>
     <string name="mw_add_to_dictionary">Add to dictionary</string>
-    <string name="mw_autofill_popup_content_description">Showing Autofill popup</string>
-    <string name="mw_chip_remove_icon_content_description">"Remove '%1$s'"</string>
+    <string name="mw_autofill_popup_content_description">Showing autofill popup</string>
+    <string name="mw_chip_remove_icon_content_description">Remove \"%1$s\"</string>
     <string name="mw_color_picker_button_black">Black</string>
     <string name="mw_color_picker_button_blue">Blue</string>
     <string name="mw_color_picker_button_cancel">Cancel</string>
@@ -1168,10 +1170,10 @@ Send this code to the supervisor."</string>
     <string name="mw_common_signin_button_text">Sign in</string>
     <string name="mw_common_signin_button_text_long">Sign in with Google</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
-    <string name="mw_copy_to_clipboard_failure_message">Failed to copy to the clipboard</string>
-    <string name="mw_data_traffic_prompt_change">"Using your mobile data connection to watch videos will increase your data usage. If you go over your plan’s data usage limit, y    our carrier could charge you additional fees."</string>
-    <string name="mw_data_traffic_prompt_message">"Using your mobile data connection to browse videos will increase your data usage. If you go over your plan’s data usage limit,     your carrier could charge you additional fees."</string>
-    <string name="mw_data_traffic_prompt_message_short">Using mobile data to stream video may cause you to go over your plan’s data usage limit.</string>
+    <string name="mw_copy_to_clipboard_failure_message">"Couldn't copy to clipboard"</string>
+    <string name="mw_data_traffic_prompt_change">"Using your mobile data connection to stream videos will increase your data usage. If you go over your plan's data usage limit, your carrier will charge you additional fees."</string>
+    <string name="mw_data_traffic_prompt_message">"Using your mobile data connection to stream videos will increase your data usage. If you go over your plan's data usage limit, your carrier will charge you additional fees."</string>
+    <string name="mw_data_traffic_prompt_message_short">"Using mobile data to stream videos may cause you to go over your plan's data usage limit."</string>
     <string name="mw_data_traffic_prompt_title">Data usage warning</string>
     <string name="mw_date_picker_dialog_clear">Clear</string>
     <string name="mw_date_picker_dialog_other_button_label">Other</string>
@@ -1183,16 +1185,16 @@ Send this code to the supervisor."</string>
     <string name="mw_find_previous">Find previous</string>
     <string name="mw_js_dialog_before_unload">"%s
 
-Are you sure you want to navigate away from this page?"</string>
-    <string name="mw_js_dialog_before_unload_negative_button">Stay on this Page</string>
-    <string name="mw_js_dialog_before_unload_positive_button">Leave this Page</string>
-    <string name="mw_js_dialog_before_unload_title">Confirm Navigation</string>
+Leave this page now?"</string>
+    <string name="mw_js_dialog_before_unload_negative_button">Stay on this page</string>
+    <string name="mw_js_dialog_before_unload_positive_button">Leave this page</string>
+    <string name="mw_js_dialog_before_unload_title">Leave this page?</string>
     <string name="mw_js_dialog_title">The page at \"%s\" says:</string>
     <string name="mw_js_dialog_title_default">JavaScript</string>
     <string name="mw_last_month">Last month</string>
     <string name="mw_license_activity_title">System WebView licenses</string>
-    <string name="mw_link_copied">Link copied</string>
-    <string name="mw_low_memory_error">Unable to complete previous operation due to low memory</string>
+    <string name="mw_link_copied">Copied URL successfully</string>
+    <string name="mw_low_memory_error">"Can't complete previous operation due to low memory"</string>
     <string name="mw_miui_content_copy">Copy</string>
     <string name="mw_miui_content_cut">Cut</string>
     <string name="mw_miui_content_extent_select">Select more</string>
@@ -1284,20 +1286,20 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="mw_month_picker_dialog_title">Set month</string>
     <string name="mw_no_matches">No matches</string>
     <string name="mw_older">Older</string>
-    <string name="mw_opening_file_error">Failed to open selected file</string>
-    <string name="mw_permission_alert_window">To use the feature, please open system option Diplay pop-up window.</string>
-    <string name="mw_permission_unknown">Unknown Option</string>
-    <string name="mw_private_browsing_warning">This functionality is not supported in this version of Android.</string>
-    <string name="mw_profiler_error_toast">Failed to start profiler</string>
-    <string name="mw_profiler_no_storage_toast">"Can't start profiler because external storage is not ready"</string>
+    <string name="mw_opening_file_error">"Couldn't open selected file"</string>
+    <string name="mw_permission_alert_window">To use the feature, allow displaying pop-up windows.</string>
+    <string name="mw_permission_unknown">Unknown option</string>
+    <string name="mw_private_browsing_warning">"This functionality isn't supported in this version of Android."</string>
+    <string name="mw_profiler_error_toast">"Couldn't start profiler"</string>
+    <string name="mw_profiler_no_storage_toast">"Can't start profiler because external storage isn't ready"</string>
     <string name="mw_profiler_started_toast">Profiler started</string>
     <string name="mw_profiler_stopped_toast">Profiler finished. Results are in %1$s.</string>
-    <string name="mw_save_password_message">Do you want the browser to remember this password?</string>
+    <string name="mw_save_password_message">Remember this password?</string>
     <string name="mw_save_password_never">Never</string>
     <string name="mw_save_password_notnow">Not now</string>
     <string name="mw_save_password_remember">Remember</string>
     <string name="mw_search_menu_title">Search</string>
-    <string name="mw_speech_recognition_service_not_found">"Google speech engine can't be found"</string>
+    <string name="mw_speech_recognition_service_not_found">"Couldn't find Google speech engine"</string>
     <string name="mw_status_bar_notification_info_overflow">999+</string>
     <string name="mw_time_picker_dialog_am">AM</string>
     <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
@@ -1306,13 +1308,13 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Set time</string>
     <string name="mw_video_buffering_percent">"Buffering "</string>
-    <string name="mw_video_download_no_permission">no download permission</string>
-    <string name="mw_video_float_drag_scale_msg">drag to scale</string>
+    <string name="mw_video_download_no_permission">Permissions required to download items</string>
+    <string name="mw_video_float_drag_scale_msg">Drag to scale</string>
     <string name="mw_video_float_window">Pop-up</string>
-    <string name="mw_video_float_window_playing">Video is playing in float-widow mode</string>
+    <string name="mw_video_float_window_playing">Playing video in PiP mode…</string>
     <string name="mw_video_play_error">"Couldn't play video"</string>
     <string name="mw_webview_find_on_page">Find on page</string>
-    <string name="mw_webviewchromium_private_browsing_warning">This functionality is not supported in this version of Android.</string>
+    <string name="mw_webviewchromium_private_browsing_warning">"This functionality isn't supported in this version of Android."</string>
     <string name="mw_week_picker_dialog_title">Set week</string>
     <string name="my_account">My account</string>
     <string name="my_cahnnel">My channels</string>
@@ -1398,6 +1400,13 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="notification_download_completed">Downloaded successfully</string>
     <string name="notification_download_failed">"Couldn't download."</string>
     <string name="notification_wechat_expired_empty">WeChat has already deleted these video clips.</string>
+    <string name="offline_notification_text">Tap to open ad</string>
+    <string name="offline_notification_title">View the ad you saved when you were offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">"You'll get a notification with the link when you're back online"</string>
+    <string name="offline_opt_in_decline">No thanks</string>
+    <string name="offline_opt_in_message">"We'll send you a notification with a link to the advertiser site."</string>
+    <string name="offline_opt_in_title">"Open ad when you're back online."</string>
     <string name="ok">OK</string>
     <string name="open_app_confirm_message">Allow this page to open %s?</string>
     <string name="open_private_folder">Release to view hidden folders</string>
@@ -1763,8 +1772,8 @@ Some sites won't use your previous browsing history to personalize their ads for
     <string name="privacy_authorize_summary">Toggle the switch on and off to grant or revoke your authorization</string>
     <string name="privacy_authorize_title">Authorization</string>
     <string name="privacy_btn_more">More</string>
-    <string name="privacy_improve_performance">"Help improve Mi Browser's performance"</string>
-    <string name="privacy_improve_performance_desc">Send aggregated data and crash reports to Mi Browser automatically</string>
+    <string name="privacy_improve_performance">User Experience Program</string>
+    <string name="privacy_improve_performance_desc">Allow Xiaomi to collect and analyze user data in order to improve our products and services</string>
     <string name="privacy_message">Before using Browser, you must agree to our &lt;font color=#4086f5>&lt;a href=%1$s style=color:#4086f5;>User Agreement&lt;/a>&lt;/font> and &lt;font color=#4086f5>&lt;a href=%2$s style=color:#4086f5;>Privacy Policy&lt;/a>&lt;/font>.</string>
     <string name="privacy_message_main_tips_first">Mi Browser needs to collect necessary personal information to provide you with the basic services. You can learn how we handle the information we collect in our &lt;font color=#4086f5>&lt;a href=%1$s style=color:#4086f5;>Privacy Policy&lt;/a>&lt;/font>. You can always withdraw your consent to the Privacy Policy of Mi Browser in Settings > Privacy &amp; security. Read and agree to our &lt;font color=#4086f5>&lt;a href=%2$s style=color:#4086f5;>User Agreement&lt;/a>&lt;/font> and &lt;font color=#4086f5>&lt;a href=%1$s style=color:#4086f5;>Privacy Policy&lt;/a>&lt;/font> before using Mi Browser.</string>
     <string name="privacy_message_main_tips_second">"To be able to search for apps on this device and know which apps are installed, Mi Browser needs to access app installation info, which won't be saved locally or uploaded in any form."</string>
@@ -1829,7 +1838,6 @@ Some sites won't use your previous browsing history to personalize their ads for
     <string name="regid">RegId(Click To Export)</string>
     <string name="release_to_refresh">Release to refresh</string>
     <string name="remember_passwords_confirm_message">Turning this feature off may affect usage.</string>
-    <string name="remote_config">Remote Config(Click To Export)</string>
     <string name="remove_bookmark">Delete bookmark</string>
     <string name="remove_bookmark_group">Delete group</string>
     <string name="remove_from_bookmarks">Remove from bookmarks</string>
@@ -1879,6 +1887,15 @@ Some sites won't use your previous browsing history to personalize their ads for
     <string name="restart_phone_bind_message">It may take some time to receive SMS. Start over anyway?</string>
     <string name="restart_phone_bind_title">Change recovery phone</string>
     <string name="return_to_homepage">Go back to start page</string>
+    <string name="risk_continue">Continue</string>
+    <string name="risk_detail">Details</string>
+    <string name="risk_malicious_url">This website might pose security risks.</string>
+    <string name="risk_protect_browsing">Mi Browser checks websites for security issues</string>
+    <string name="risk_safe_url">This website is secure</string>
+    <string name="risk_setting_des">Allow Mi Browser to check websites for security issues</string>
+    <string name="risk_setting_title">Secure browsing</string>
+    <string name="risk_stop">Stop</string>
+    <string name="risk_unspecified_url">"There's a problem with this website's security certificate."</string>
     <string name="rlv_last_refreshing_time">Updated %1$s</string>
     <string name="rlv_loading_more">Just a sec…</string>
     <string name="rlv_pull_to_refresh">Pull down to refresh</string>
@@ -2311,7 +2328,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="wednesday_shortest">Wed</string>
     <string name="weibo_application_id" />
     <string name="weibo_redirect_uri" />
-    <string name="welcome_to_mi_browser">Welcome to Mi Browser!</string>
     <string name="what_is_new">Update the app to access new features</string>
     <string name="whatsapp_downloadpage_tips">WhatsApp Status Saver</string>
     <string name="whatsapp_file_saved_success">Saved successfully</string>

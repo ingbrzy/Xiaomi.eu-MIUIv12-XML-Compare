@@ -218,6 +218,8 @@
     <string name="cm_privacy_dialog_tips">"Smart messaging services are provided by your carrier. Messaging needs to connect to the Internet and access your location in order to provide these services. You must agree to your carrier's %1s before you start using these services. Agree?"</string>
     <string name="cm_privacy_dialog_title">Attention</string>
     <string name="cmcc_privacy">China Mobile Carrier Privacy Agreement</string>
+    <string name="cn_privacy_dialog_title">Attention</string>
+    <string name="cn_privacy_update_dialog_title">Updated Privacy Policy</string>
     <string name="complain_message_title">Report</string>
     <string name="compressing">Picture is too large. Compressing…</string>
     <string name="confirm">OK</string>
@@ -298,6 +300,8 @@
     <string name="delete_wild_sims_title">Delete selected numbers</string>
     <string name="delivery_report_activity">Delivery report</string>
     <string name="delivery_toast_body">Message received by %s</string>
+    <string name="dialog_agree">Agree</string>
+    <string name="dialog_cancel">Cancel</string>
     <string name="dialog_choice_all_correct_as_normal">All messages from %s</string>
     <string name="dialog_complain_tips">Allow Messaging to connect to the network to be able to report items.</string>
     <string name="dialog_message_correct_as_ad">All messages from %s (except verification codes) will be moved to promotional messages.</string>
@@ -306,6 +310,8 @@
     <string name="dialog_message_mx">Mi Message allows you to send messages to other MIUI users without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message.</string>
     <string name="dialog_message_networking">Messaging needs to use Yellow pages to be able to provide Sender ID recognition. Messaging and Yellow pages need to connect to the internet and access your location to work normally. Allow?</string>
     <string name="dialog_message_rcs">China Mobile Messaging allows you to send messages to other China Mobile users in Mainland China without incurring charges. You must agree to \"%1$s\" before using China Mobile Messaging.</string>
+    <string name="dialog_quit">Exit</string>
+    <string name="dialog_revoke">Withdraw</string>
     <string name="dialog_sim_locked_confirm">OK</string>
     <string name="dialog_sim_locked_message">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
     <string name="dialog_smart_message_privacy_tips">Smart Messaging services are provided in part by Dianhuabang. Before using Smart Messaging, you must agree to \"%1$s\". Smart Messaging needs to connect to the internet and access your location to work normally. Agree?</string>
@@ -539,7 +545,7 @@
     <string name="loading_mms">Just a sec…</string>
     <string name="manage_permission_app_label">Device permissions</string>
     <string name="mark_number_by_own_dialog_subtitle">Marked as %1$s</string>
-    <string name="marketSdkVersion">3.2.5</string>
+    <string name="marketSdkVersion">3.2.9</string>
     <string name="me">Me</string>
     <string name="menu_add_black">Block this number</string>
     <string name="menu_add_contact">Add to existing contact</string>
@@ -626,6 +632,8 @@ Check your SIM card."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
     <string name="mms">MMS</string>
+    <string name="mms_5g_mms_privacy_policy">5G Messaging Privacy policy</string>
+    <string name="mms_5g_mms_privacy_policy_revoke">Withdraw consent to the Privacy Policy of 5G Messaging</string>
     <string name="mms_block_alert_message">All MMS except the messages sent from authorized senders will be blocked. Authorized senders include network carriers, national railway booking systems, etc.</string>
     <string name="mms_block_alert_ok">Block</string>
     <string name="mms_block_alert_title">Block MMS</string>
@@ -743,6 +751,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="mx_on_sim_2">Mi Message SIM slot 2</string>
     <string name="mx_online">Activated</string>
     <string name="mx_privacy_policy">Mi Message Privacy Policy</string>
+    <string name="mx_privacy_policy_revoke">Withdraw consent to the Privacy Policy of Mi Message</string>
     <string name="mx_reactivate">Reactivate Mi Message</string>
     <string name="mx_recommend_msg">Tap to turn Mi Message on</string>
     <string name="mx_stranger_recommend_msg">Tap to block Mi Messages from unknown numbers</string>
@@ -806,6 +815,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="perm_purpose_rcs_account">"For displaying beginner's guide to new users"</string>
     <string name="perm_purpose_rcs_phone_state">For accessing IMEI in order to identify your device</string>
     <string name="perm_purpose_rcs_storage">For saving images, videos, files, and other RCS attachments</string>
+    <string name="permission_new_retry_dialog_msg">Messaging needs to access contacts to be able to work normally. You can change permissions in Settings > Apps > System app settings.</string>
     <string name="permission_retry_deny">Cancel</string>
     <string name="permission_retry_dialog_msg">Messaging needs permissions to be able to work normally. To give the required permissions, tap \"Settings\", select \"App permissions\", and allow the app to access phone, SMS, and contacts.</string>
     <string name="permission_retry_setting">Settings</string>
@@ -869,6 +879,7 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="pref_system_title">System</string>
     <string name="pref_title_ad_mms_recognition">Recognize promotional messages</string>
     <string name="pref_title_allow_si_sl_push">Allow WAP push messages (SI/SL)</string>
+    <string name="pref_title_authority_management">Permissions details</string>
     <string name="pref_title_auto_delete">Delete old messages</string>
     <string name="pref_title_card_format">Card share format</string>
     <string name="pref_title_delivery_reports">Delivery status</string>
@@ -886,6 +897,17 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="pref_title_mms_validity_period">MMS expiration</string>
     <string name="pref_title_msg_blocked">Blocklist</string>
     <string name="pref_title_notification_body_enabled">Show messages on Lock screen</string>
+    <string name="pref_title_perm_audio">Record audio</string>
+    <string name="pref_title_perm_calander">Access calendar</string>
+    <string name="pref_title_perm_call">Make calls</string>
+    <string name="pref_title_perm_camera">Use camera</string>
+    <string name="pref_title_perm_location">Location</string>
+    <string name="pref_title_perm_read_call_log">Access call history</string>
+    <string name="pref_title_perm_read_contacts">Access contacts</string>
+    <string name="pref_title_perm_read_mms">Read SMS</string>
+    <string name="pref_title_perm_send_mms">Send SMS</string>
+    <string name="pref_title_perm_storage">Access storage</string>
+    <string name="pref_title_perm_write_contacts">Edit contacts</string>
     <string name="pref_title_privacy_authority">Authorization</string>
     <string name="pref_title_privacy_policy_detail">Privacy Policy</string>
     <string name="pref_title_ringtone_repeat">Notification sounds</string>
@@ -909,6 +931,16 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="priority_label">"Priority: "</string>
     <string name="priority_low">Low</string>
     <string name="priority_normal">Normal</string>
+    <string name="privacy_dialog_error_service">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="privacy_dialog_text_policy_link">Privacy Policy</string>
+    <string name="privacy_dialog_tips_revoke" formatted="false">"If you continue, you'll withdraw your consent to the Privacy Policy of %s. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As %s provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept %s services. Withdraw consent now?"</string>
+    <string name="privacy_dialog_tips_update" formatted="false">"%s Privacy Policy was updated:
+%s
+Read and agree to the new version of Privacy Policy before you continue."</string>
+    <string name="privacy_dialog_tips_update_confim" formatted="false">"You won't be able to keep using %s unless you agree to the new version of %s Privacy Policy. Agree to the updated Privacy Policy now?"</string>
+    <string name="privacy_dialog_title_revoke_confim">Withdrawal of consent</string>
+    <string name="privacy_dialog_title_update">Updated Privacy Policy</string>
+    <string name="privacy_dialog_title_update_confim">"Can't use the app"</string>
     <string name="privacy_mode_hint">"Can't send messages in Guest mode"</string>
     <string name="privacy_password_message1">Privacy protection password works for photos, notes, and hidden folders.</string>
     <string name="privacy_password_message2">Use Privacy protection password. It works for photos, notes and hidden folders.</string>
@@ -919,6 +951,10 @@ An outgoing SMS message is required to activate Mi Message. Your carrier will ch
     <string name="privacy_password_title3">Upgrade your password</string>
     <string name="privacy_password_title4">Password upgraded</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_name_5g_mms">5G Messaging</string>
+    <string name="privacy_policy_name_mms">Messaging</string>
+    <string name="privacy_policy_name_smart_sms">Smart Messaging</string>
+    <string name="privacy_policy_name_websms">Mi Message</string>
     <string name="privacy_revoke_nonetwork_msg">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
     <string name="privacy_revoke_nonetwork_ok">Got it</string>
     <string name="privacy_revoke_nonetwork_title">"Can't connect to the network"</string>
@@ -1243,6 +1279,7 @@ Take a look at the recommended ones!"</string>
     <string name="smart_messages_network_allow_title">Internet connection is required</string>
     <string name="smart_msg_main_purpose">Smart Messaging provides Sender ID recognition and smart menu services.</string>
     <string name="smart_msg_privacy_policy">Smart Messaging Privacy Policy</string>
+    <string name="smart_msg_privacy_policy_revoke">Withdraw consent to the Privacy Policy of Smart Messaging</string>
     <string name="smart_msg_upgrade_main_purpose">"Smart Messaging works with MMS now. You'll be able to use more services provided by the senders, as well as receive messages in new formats."</string>
     <string name="sms_card_partner_label">"SMS card partner: "</string>
     <string name="sms_card_teddy_mobile">Teddy Mobile</string>
@@ -1340,10 +1377,37 @@ If you don't agree to grant such permissions or share and upload your personal i
     <string name="system_permission_declare_single_link">Read and agree to our %1s before using this feature.</string>
     <string name="system_permission_declare_triple_link" formatted="false">Read and agree to our %1s, %2s, and %3s before using these features.</string>
     <string name="system_permission_declare_use_network">Connect to the network</string>
+    <string name="system_permission_disabled">Not granted</string>
+    <string name="system_permission_enabled">Granted</string>
+    <string name="system_permission_perm_agree_desc">Allow this app to connect to the Internet and grant the optional permissions to be able to use all its features.</string>
+    <string name="system_permission_perm_all_purpose">Welcome to Messaging! You can use this app to send and receive text and multimedia messages.</string>
     <string name="system_permission_perm_answer_call">Make calls</string>
+    <string name="system_permission_perm_calendar">For creating Calendar events</string>
+    <string name="system_permission_perm_call_log">For accessing your recent contacts when creating messages</string>
+    <string name="system_permission_perm_call_phone">For making calls</string>
+    <string name="system_permission_perm_copy_menu_text">For accessing items copied to the clipboard</string>
+    <string name="system_permission_perm_email">For creating and sending emails</string>
+    <string name="system_permission_perm_get_account">For cloud backup</string>
+    <string name="system_permission_perm_get_phone_state">For accessing phone number and device status</string>
+    <string name="system_permission_perm_location">For accessing and sharing your location</string>
+    <string name="system_permission_perm_new_read_sms">For accessing message content</string>
+    <string name="system_permission_perm_new_receive_mms">For accessing message content</string>
+    <string name="system_permission_perm_paste_menu_text">For accessing and saving items to the clipboard</string>
+    <string name="system_permission_perm_rcs_call_phone">For answering, ending, and monitoring calls</string>
+    <string name="system_permission_perm_read_contact">For accessing contacts when creating messages</string>
     <string name="system_permission_perm_read_mms">Read MMS</string>
     <string name="system_permission_perm_read_numbers">Read phone numbers</string>
+    <string name="system_permission_perm_read_sms">Allow Messaging to read SMS</string>
+    <string name="system_permission_perm_record_audio">For recording audio</string>
     <string name="system_permission_perm_send_mms">Send MMS</string>
+    <string name="system_permission_perm_send_sms">For sending text messages</string>
+    <string name="system_permission_perm_sms">For viewing and sending messages</string>
+    <string name="system_permission_perm_storage">For viewing, sending, and storing files</string>
+    <string name="system_permission_perm_takephoto">For taking photos and videos</string>
+    <string name="system_permission_perm_write_contact">For creating and editing contacts</string>
+    <string name="system_permission_perm_write_mms">Allow Messaging to write MMS</string>
+    <string name="system_permission_perm_write_sms">Allow Messaging to write SMS</string>
+    <string name="system_permission_requested">Ask</string>
     <string name="tab_finance">Finance</string>
     <string name="tab_message">Messages</string>
     <string name="tab_promotions">Promotions</string>
@@ -1414,9 +1478,19 @@ If you don't agree to grant such permissions or share and upload your personal i
     <string name="to_label">"To "</string>
     <string name="to_send_wrapper">Will send at %s</string>
     <string name="toast_failed_to_close_priv_auth">"Couldn't revoke authorization. Check your network settings and try again."</string>
+    <string name="toast_new_not_show_microphone_perm_req">Allow Messaging to access the microphone to use this feature</string>
+    <string name="toast_not_show_account_perm_req">Allow Messaging to access accounts stored on your device to use this feature</string>
+    <string name="toast_not_show_calendar_perm_req">Allow Messaging to access Calendar to use this feature</string>
+    <string name="toast_not_show_call_log_perm_req">Allow Messaging to access your call history to use this feature</string>
+    <string name="toast_not_show_call_perm_req">Allow Messaging to make calls to use this feature</string>
     <string name="toast_not_show_camera_perm_req">Allow Messaging to use camera to be able to use this feature</string>
+    <string name="toast_not_show_clipboard_perm_req">Allow Messaging to access the clipboard to use this feature</string>
+    <string name="toast_not_show_email_perm_req">Allow Messaging to access your email to use this feature</string>
+    <string name="toast_not_show_location_perm_req">Allow Messaging to access your location to use this feature</string>
     <string name="toast_not_show_microphone_perm_req">Allow Messaging to use microphone to be able to use this feature</string>
+    <string name="toast_not_show_send_sms_perm_req">To be able to use this feature, allow this app to send messages first.</string>
     <string name="toast_not_show_storage_perm_req">Allow Messaging to access storage to be able to use this feature</string>
+    <string name="toast_not_show_write_contacts_perm_req">Allow Messaging to edit contacts to use this feature</string>
     <string name="toast_pending_hangup_msg">Message will be sent after the call ends</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
@@ -1481,9 +1555,9 @@ Attempt made: %s."</string>
     <string name="wednesday_shortest">Wed</string>
     <string name="wild_msg_processing">Working…</string>
     <string name="wild_msg_title">Choose phone numbers to sync</string>
-    <string name="xiaomi_market_sdk_update_dialog_cancel">以后再说</string>
-    <string name="xiaomi_market_sdk_update_dialog_ok">立即更新</string>
-    <string name="xiaomi_market_sdk_update_dialog_title">%s 新版本</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Not now</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">Update</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">An update is available</string>
     <string name="yellowpage_recommend_msg">"Check out MIUI's messaging features"</string>
     <string name="yes">OK</string>
     <string name="yesterday">Yesterday</string>

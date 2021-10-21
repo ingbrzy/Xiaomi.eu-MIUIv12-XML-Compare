@@ -97,7 +97,7 @@
     <string name="accessibility_flash_back_soft_light">Flash is working in the Soft light mode</string>
     <string name="accessibility_flash_off">Flash is off</string>
     <string name="accessibility_flash_on">Flash is on</string>
-    <string name="accessibility_flash_screen_halo">补光环,开启状态</string>
+    <string name="accessibility_flash_screen_halo">Ring light is on</string>
     <string name="accessibility_flash_torch">Flash is on, torch mode</string>
     <string name="accessibility_focus_face_pos_bottom">Located near the lower edge of the frame</string>
     <string name="accessibility_focus_face_pos_left">Located near the left edge of the frame</string>
@@ -354,6 +354,7 @@ and adjust preferences automatically"</string>
     <string name="back_alioth">3:REDMI K40</string>
     <string name="back_alioth_global">3:POCO F3</string>
     <string name="back_aliothin">3:MI 11X</string>
+    <string name="back_amber">3:MI 11T</string>
     <string name="back_andromeda">2:MI MIX 3 5G:AI DUAL CAMERA</string>
     <string name="back_apollo">3:REDMI K30S ULTRA</string>
     <string name="back_apollo_global">3:MI 10T</string>
@@ -398,6 +399,7 @@ and adjust preferences automatically"</string>
     <string name="back_crux">3:MI 9 PRO 5G:AI TRIPLE CAMERA</string>
     <string name="back_curtana">4:REDMI NOTE 9S:AI QUAD CAMERA</string>
     <string name="back_curtana_india">4:REDMI NOTE 9 PRO:AI QUAD CAMERA</string>
+    <string name="back_curtana_india_tier">4:REDMI NOTE 10 LITE:AI QUAD CAMERA</string>
     <string name="back_curtanacn">4:SHOT ON MI 9S:AI QUAD CAMERA</string>
     <string name="back_dandelion">2:SHOT ON MI 8:AI DUAL CAMERA</string>
     <string name="back_davinci">3:SHOT ON REDMI K20:AI TRIPLE CAMERA</string>
@@ -451,6 +453,7 @@ and adjust preferences automatically"</string>
     <string name="back_lmipro_pro">4:REDMI K30 PRO ZOOM:AI QUAD CAMERA</string>
     <string name="back_maltose">4:REDMI NOTE 10S</string>
     <string name="back_mars">3:MI 11 PRO</string>
+    <string name="back_marsgl">3:MI 11 PRO</string>
     <string name="back_merlin">4:SHOT ON REDMI 10X:AI QUAD CAMERA</string>
     <string name="back_merlin_global">4:REDMI NOTE 9:AI QUAD CAMERA</string>
     <string name="back_merlin_india">4:REDMI NOTE 9:AI QUAD CAMERA</string>
@@ -486,6 +489,7 @@ and adjust preferences automatically"</string>
     <string name="back_shiva_india_reloaded">0:POCO:POCO M2 RELOADED</string>
     <string name="back_sirius">2:SHOT ON MI 8 SE:AI DUAL CAMERA</string>
     <string name="back_star_pro">3:MI 11 ULTRA</string>
+    <string name="back_stargl_pro">3:MI 11 ULTRA</string>
     <string name="back_sunny">4:REDMI NOTE 10</string>
     <string name="back_surya">4:POCO X3 NFC</string>
     <string name="back_sweet_pro_global">4:REDMI NOTE 10 PRO</string>
@@ -854,6 +858,13 @@ scanned documents automatically"</string>
     <string name="dolly_zoom_guide_video_title1">Magic zoom</string>
     <string name="dolly_zoom_guide_video_title2">Scenes</string>
     <string name="download_alert">"Can't edit during ongoing downloads"</string>
+    <string name="download_automatic_cancel">Cancel</string>
+    <string name="download_automatic_confirm">Download</string>
+    <string name="download_automatic_message">Download feature plug-ins automatically when this device is connected to Wi-Fi?</string>
+    <string name="download_automatic_message_cn">Download feature plug-ins automatically when this device is connected to Wi-Fi?</string>
+    <string name="download_automatic_summary">Download feature plug-ins automatically over Wi-Fi</string>
+    <string name="download_automatic_summary_cn">Download feature plug-ins automatically over Wi-Fi</string>
+    <string name="download_automatic_title">Download automatically</string>
     <string name="download_cancel_hint">Cancel downloading %1$s?</string>
     <string name="download_confirm">Download</string>
     <string name="download_hint">%1$s MB of mobile data will be used to download items. Download anyway?</string>
@@ -1499,13 +1510,17 @@ look larger on photos"</string>
     <string name="portait_effect_entry_cool">Mint</string>
     <string name="portait_effect_entry_dusk">Dusk</string>
     <string name="portait_effect_entry_fairytale">Childhood</string>
+    <string name="portait_effect_entry_holiday">Holiday</string>
     <string name="portait_effect_entry_japanese">Sky blue</string>
     <string name="portait_effect_entry_lilt">Lilt</string>
     <string name="portait_effect_entry_maze">Maze</string>
     <string name="portait_effect_entry_mood">Emotions</string>
     <string name="portait_effect_entry_movie">Movie</string>
     <string name="portait_effect_entry_nature">Nature</string>
+    <string name="portait_effect_entry_original">Original</string>
+    <string name="portait_effect_entry_oxygen">Oxygen</string>
     <string name="portait_effect_entry_pink">Blush</string>
+    <string name="portait_effect_entry_pink_orange">Citrus</string>
     <string name="portait_effect_entry_riddle">Candy</string>
     <string name="portait_effect_entry_romance">Romantic</string>
     <string name="portait_effect_entry_sepia">Sepia</string>
@@ -1707,7 +1722,7 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_flashmode_entry_back_soft_light">Soft light</string>
     <string name="pref_camera_flashmode_entry_off">Off</string>
     <string name="pref_camera_flashmode_entry_on">On</string>
-    <string name="pref_camera_flashmode_entry_screen_halo">补光环</string>
+    <string name="pref_camera_flashmode_entry_screen_halo">Ring light</string>
     <string name="pref_camera_flashmode_entry_torch">Torch</string>
     <string name="pref_camera_flashmode_title">Flash mode</string>
     <string name="pref_camera_focus_shoot_summary">Tap to focus, then tap again to take a photo.</string>
@@ -1907,6 +1922,8 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_stereo_default">5</string>
     <string name="pref_camera_stereo_mode_title">Focus adjustment</string>
     <string name="pref_camera_super_resolution_title">Turn on SR</string>
+    <string name="pref_camera_tap_shoot_summary">Tap the preview screen to take a photo</string>
+    <string name="pref_camera_tap_shoot_title">Tap to take a photo</string>
     <string name="pref_camera_tilt_shift_entry_circle">Circle</string>
     <string name="pref_camera_tilt_shift_entry_parallel">Parallel</string>
     <string name="pref_camera_tilt_shift_entryvalue_circle">circle</string>
@@ -1980,6 +1997,8 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_camera_zsl_entry_on">On</string>
     <string name="pref_camera_zsl_value_off">off</string>
     <string name="pref_capture_settings">Camera</string>
+    <string name="pref_cup_camera_position_summary">"Show front camera position when it's being used"</string>
+    <string name="pref_cup_camera_position_title">Show front camera</string>
     <string name="pref_custom_feature_layout_title">Feature layout</string>
     <string name="pref_custom_shutter_sound_title">Sound</string>
     <string name="pref_custom_tint_title">Colors</string>
@@ -2012,9 +2031,11 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_hdr10_video_mode_description">Optimize colors and contrast for 4K and 8K videos automatically. Optimized videos can only be played on HDR10 compatible devices.</string>
     <string name="pref_hdr10_video_mode_title">HDR10</string>
     <string name="pref_hdr10plus_video_mode_description">Optimize colors and adjust contrast for 4K and 8K videos. This feature only works on HDR10+ compatible devices.</string>
+    <string name="pref_hybrid_video_mode_description">采用xxx格式录制视频，优化高分辨率视频的色彩和动态范围</string>
+    <string name="pref_hybrid_video_mode_title">hybrid</string>
     <string name="pref_i_n_r_b">Smart noise reduction</string>
     <string name="pref_k_h">Live in-ear monitor</string>
-    <string name="pref_k_s_i">Monitor recorded sound using the earphones when they are connected</string>
+    <string name="pref_k_s_i">Monitor recorded sound using wired earphones when they are connected</string>
     <string name="pref_lens_dirty_detect_summary">Receive a notification when the lens is dirty</string>
     <string name="pref_lens_dirty_detect_title">Notify about dirty lens</string>
     <string name="pref_live_duration_title">Live duration</string>
@@ -2069,10 +2090,10 @@ Keep the subject sharp while blurring the background."</string>
     <string name="pref_super_night_se_summary">Detect low light conditions and improve image quality automatically</string>
     <string name="pref_super_night_se_title">Auto night mode</string>
     <string name="pref_userdefine_watermark_title">Custom watermark</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d">333</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_i">000</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_ii">111</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_original">222</string>
+    <string name="pref_video_ai_audio_effect_comparation_3d">3D</string>
+    <string name="pref_video_ai_audio_effect_comparation_3d_i">3D sound</string>
+    <string name="pref_video_ai_audio_effect_comparation_3d_ii">Demo</string>
+    <string name="pref_video_ai_audio_effect_comparation_3d_original">Original</string>
     <string name="pref_video_ai_audio_single">Frontal sound</string>
     <string name="pref_video_autoexposure_default">1</string>
     <string name="pref_video_captrue_ability_title">Image capture while recording</string>
@@ -2461,6 +2482,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
     <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
     <string name="video_hdr10_tip">HDR10</string>
     <string name="video_hdr10plus_tip">HDR10+</string>
+    <string name="video_hybrid_tip">hybrid</string>
     <string name="video_overheat_tip_content">Looks like your device is too hot. Try shooting video in lower resolution.</string>
     <string name="video_reach_size_limit">Size limit reached.</string>
     <string name="video_shortcut_short">Video</string>
