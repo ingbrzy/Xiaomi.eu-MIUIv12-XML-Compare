@@ -379,7 +379,7 @@
     <string name="msim_setting_default_data">Data SIM</string>
     <string name="msim_setting_default_voice">Default SIM for calls</string>
     <string name="multisim_settings_category">SIM card settings</string>
-    <string name="multisim_settings_sb_title">1 SIM card detected</string>
+    <string name="multisim_settings_sb_title">%d SIM card detected</string>
     <string name="multisim_settings_title">2 SIM cards detected</string>
     <string name="navigation_picker_gesture_guide">Gesture guide</string>
     <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
@@ -602,7 +602,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="service_policy_adjust_content">Xunlei Privacy Policy</string>
     <string name="service_policy_download"><Data>Read and agree to the &lt;a href=%1$s>Xunlei Privacy Policy&lt;/a > and &lt;a href=%1$s>Xunlei Network Services User Agreement&lt;/a > before you continue.</Data></string>
     <string name="service_privacy_index">Privacy Policy</string>
-    <string name="service_security_over_r"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a > before using Security.&lt;br/>&lt;br/>In accordance with Android 11 standards, a one-time permission will be withdrawn within 5 seconds after the corresponding app stops running. If you open the app during this short period of time, the permission will be withdrawn then.</Data></string>
+    <string name="service_security_over_r"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a >.&lt;br/>&lt;br/>In accordance with Android R standards, a one-time permission will be withdrawn within a set period of time (around &lt;xliff:g example=5 seconds id=short>%2$s&lt;/xliff:g>) after the corresponding app stops running. If you open the app during this short period of time, the permission will be withdrawn then.</Data></string>
     <string name="service_sim_activation">SIM card activation</string>
     <string name="servicestate_title">Statement on basic services</string>
     <string name="setting_locale">Setting region…</string>
@@ -615,9 +615,9 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="sim_card_detection">Insert SIM card</string>
     <string name="sim_card_detection_info">To insert your SIM card, read the instructions that came with your device.</string>
     <string name="sim_card_detection_info_sb">"Insert a SIM card before you continue. Find device and sync-related functionality won't be fully available to you if you create an account without a SIM card. This device supports eSIM. "</string>
-    <string name="sim_card_detection_info_sb_esim">Tap to activate eSim.</string>
+    <string name="sim_card_detection_info_sb_esim">Tap to activate eSIM.</string>
     <string name="sim_card_detection_mobile_not_available">"SIM card couldn't connect to the network"</string>
-    <string name="sim_card_detection_sb_esim">Activate eSIM></string>
+    <string name="sim_card_detection_sb_esim">Activate eSIM</string>
     <string name="sim_card_detection_sb_nonactivated">Not activated</string>
     <string name="sim_dectection_next">Continue</string>
     <string name="sim_redetection">Check again</string>
