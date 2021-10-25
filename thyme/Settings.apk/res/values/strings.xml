@@ -2213,7 +2213,11 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="color_game_led_applications_title_summary">Select individual apps that will work with LED light</string>
     <string name="color_game_led_battery_title">Keep on while charging</string>
     <string name="color_game_led_charging_summary">LED light will be turned off when the battery is charged</string>
+    <string name="color_game_led_color_title">Light color</string>
     <string name="color_game_led_end_time">End</string>
+    <string name="color_game_led_feature_off">Off</string>
+    <string name="color_game_led_feature_on">On</string>
+    <string name="color_game_led_freq_title">Flicker frequency</string>
     <string name="color_game_led_game_mode_summary">Show effects for games when Game Turbo is on</string>
     <string name="color_game_led_game_mode_title">Use for Game Turbo</string>
     <string name="color_game_led_incall_pulse_title">Use for incoming calls</string>
@@ -3291,6 +3295,7 @@ You can view generated logs in File Manager."</string>
     <string name="enable_local_backup">Turn on</string>
     <string name="enable_local_backup_cancel">Cancel</string>
     <string name="enable_local_backup_message">Turn this feature on to be able to save backups on this device and copy them to your computer or USB storage device. Turn on now?</string>
+    <string name="enable_local_backup_message_intledition">Turn this feature on to be able to save backups on this device and copy them to your computer. Turn on now?</string>
     <string name="enable_local_backup_ok">OK</string>
     <string name="enable_local_backup_title">Local backups</string>
     <string name="enable_mms_notification_channel_title">MMS message</string>
@@ -3803,6 +3808,7 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
     <string name="font_size_summary2">Lite mode</string>
     <string name="footer_learn_more_content_description">Learn more about %1$s</string>
     <string name="forbidden_network">(forbidden)</string>
+    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
     <string name="forbidden_switch_apn_string">"Selected APN settings don't match current network type"</string>
     <string name="force_allow_on_external">Force allow apps to write on external storage</string>
     <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
@@ -7274,6 +7280,7 @@ This setting affects all users on this phone."</string>
     <string name="rx_link_speed">%1$d Mbps</string>
     <string name="rx_link_speed_label">Receive link speed:</string>
     <string name="rx_wifi_speed">Receive link speed</string>
+    <string name="safe_install_mode_settings">Secure mode</string>
     <string name="safety_and_regulatory_info">Safety &amp; regulatory manual</string>
     <string name="sar">RF Exposure Information</string>
     <string name="saturday">Saturday</string>
@@ -8337,6 +8344,7 @@ Double tap to open Recents."</string>
     <string name="sms_received_sound_dialog_title">Select sound for received messages</string>
     <string name="sms_received_sound_title">Message received</string>
     <string name="snooze_options_title">Allow notification snoozing</string>
+    <string name="softbank_apn_lock_toast">APN is locked. Cannot edit.</string>
     <string name="software_version">Software version</string>
     <string name="solar_term_autumn_begins">Autumn begins</string>
     <string name="solar_term_autumn_equinox">Autumn equinox</string>
@@ -8438,7 +8446,7 @@ Withdraw consent to %s now?"</string>
     <string name="source_info_details_title">Broadcast source Information</string>
     <string name="speaker">Speaker</string>
     <string name="speaker_clean">Clear speaker</string>
-    <string name="special_access">Special app access</string>
+    <string name="special_access">Special permissions</string>
     <string name="special_access_more">See more</string>
     <string name="special_preview">Demos</string>
     <string name="speed_label_fast">Fast</string>
