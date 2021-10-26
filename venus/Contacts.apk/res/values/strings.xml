@@ -907,6 +907,8 @@ Reason: \"%s\""</string>
     <string name="miprofile_switch_off_alertdialog_message">"You won't be able to exchange contact cards with other people."</string>
     <string name="missing_name">(No name)</string>
     <string name="missing_required_permission">You have disabled a required permission.</string>
+    <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_alphabet_indexer_name">Index bar</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -924,6 +926,8 @@ Reason: \"%s\""</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
+    <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -1040,6 +1044,7 @@ Reason: \"%s\""</string>
     <string name="permission_notice_desc_access_fine_location">For importing contacts from other devices via Bluetooth</string>
     <string name="permission_notice_desc_add_voicemail">For using voicemail and audio message functionality</string>
     <string name="permission_notice_desc_call_phone">For making calls in third party apps</string>
+    <string name="permission_notice_desc_call_phone_for_pad">For making calls in third party apps</string>
     <string name="permission_notice_desc_camera">For taking profile photos</string>
     <string name="permission_notice_desc_read_call_logs">For viewing call history</string>
     <string name="permission_notice_desc_read_contacts">For viewing contacts</string>
@@ -1136,7 +1141,10 @@ Reason: \"%s\""</string>
     <string name="privacy_password_title4">Password upgraded</string>
     <string name="privacy_settings_call_phone">Make calls</string>
     <string name="privacy_settings_call_phone_description">For making calls in third party apps</string>
+    <string name="privacy_settings_call_phone_description_for_pad">For making calls in third party apps</string>
+    <string name="privacy_settings_call_phone_for_pad">Make calls</string>
     <string name="privacy_settings_contacts">Contacts and Phone</string>
+    <string name="privacy_settings_contacts_for_pad">Privacy</string>
     <string name="privacy_settings_mallowed">Granted</string>
     <string name="privacy_settings_mnotallowed">Not granted</string>
     <string name="privacy_settings_permission_description">Permissions details</string>
@@ -1445,6 +1453,7 @@ Reason: \"%s\""</string>
     <string name="toast_not_show_read_contacts_perm_req">To be able to view contacts, allow this app to access contacts first.</string>
     <string name="toast_not_show_read_phone_state_perm_req">To be able to use this app with your SIM card, allow this app to access device info first.</string>
     <string name="toast_not_show_storage_perm_req">To be able to add profile photos and import vCards, allow this app to access storage first.</string>
+    <string name="toast_not_show_storage_perm_req_for_pad">To be able to add profile photos and import vCards, allow this app to access storage first.</string>
     <string name="toast_not_show_write_calllogs_perm_req">To be able to keep call history up to date, allow this app to edit call history first.</string>
     <string name="toast_not_show_write_contacts_perm_req">To be able to view contacts, allow this app to edit contacts first.</string>
     <string name="toast_start_intent_failed">"Couldn't find apps to handle this action"</string>
