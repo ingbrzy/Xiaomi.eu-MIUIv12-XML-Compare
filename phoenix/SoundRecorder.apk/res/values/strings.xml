@@ -37,6 +37,7 @@
     <string name="alert_message_delete_record">Deleting the recording from your device will also delete this recording from Xiaomi Cloud. Delete now?</string>
     <string name="alert_message_delete_record_title">Delete recording?</string>
     <string name="all_record">All recordings</string>
+    <string name="allowed">Granted</string>
     <string name="am">AM</string>
     <string name="app_name">Recorder</string>
     <string name="app_record">App recordings</string>
@@ -452,6 +453,7 @@
     <string name="no_records">No recordings here yet</string>
     <string name="noon">Midday</string>
     <string name="normal_settings_pref_title">General settings</string>
+    <string name="not_allowed">Not granted</string>
     <string name="not_set">Not set</string>
     <string name="notification_message_all_paused">Waiting for Wi-Fi connection.</string>
     <string name="notification_playback">Playing…</string>
@@ -501,6 +503,15 @@
     <string name="pay_error_cancel">Payment was canceled</string>
     <string name="pay_error_null">"Couldn't complete payment. Check your account."</string>
     <string name="pay_error_unknown">Unknown error</string>
+    <string name="permission_desc">Permissions details</string>
+    <string name="permission_dialog_cancel">Cancel</string>
+    <string name="permission_dialog_ok">Settings</string>
+    <string name="permission_record">Record audio</string>
+    <string name="permission_record_description">For providing audio recording services</string>
+    <string name="permission_storage">Access storage</string>
+    <string name="permission_storage_description">For managing recordings and downloading them from the cloud</string>
+    <string name="permission_storage_description_for_download">For downloading recordings from the cloud</string>
+    <string name="permission_storage_description_for_manage_files">For managing recordings</string>
     <string name="play_speed">%1$.1fX speed</string>
     <string name="playback_delete_records">Delete recording</string>
     <string name="playback_share_records">Share recording</string>
@@ -522,6 +533,7 @@
     <string name="preference_status_bar_indicator_prompt">Show a blue indicator on the Lock screen while recording</string>
     <string name="preference_tip_rename">Name recordings manually</string>
     <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_settings">Privacy</string>
     <string name="recognition_button_add_to_queue">Add to queue</string>
     <string name="recognition_button_cancel">Not now</string>
     <string name="recognition_button_start">Transcribe</string>
@@ -606,6 +618,7 @@
     <string name="record_mark_point">Mark %s</string>
     <string name="record_name_hour">.</string>
     <string name="record_name_minute">​</string>
+    <string name="record_permission_dialog_title">Microphone permissions required</string>
     <string name="record_quliaty_preference_title">Recording quality</string>
     <string name="record_resotre">Recover records</string>
     <string name="recorder_record">Audio</string>
@@ -638,7 +651,7 @@
     <string name="rename_duplicate">Another recording with the same name already exists.</string>
     <string name="rename_fail_tip">"Couldn't rename. Item with this name already exists."</string>
     <string name="rename_no_more_tip">"Don't show again"</string>
-    <string name="required_permissions">android.permission.RECORD_AUDIO;android.permission.READ_EXTERNAL_STORAGE;android.permission.WRITE_EXTERNAL_STORAGE;</string>
+    <string name="required_permissions">;</string>
     <string name="retry">Retry</string>
     <string name="runtime_permission_ungranted">"Can't use Recorder due to ungranted permissions"</string>
     <string name="saturday">Saturday</string>
@@ -703,6 +716,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Recording…</string>
     <string name="status_bar_recording_pause">Recorder paused</string>
+    <string name="storage_permission_dialog_title">Storage permissions required</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sunday</string>
     <string name="sunday_short">Sun</string>
@@ -793,6 +807,7 @@
     <string name="user_feedback">Feedback</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
+    <string name="view_privacy">View Privacy Policy</string>
     <string name="webview_check_network">Network settings</string>
     <string name="webview_data_error">An error occurred</string>
     <string name="webview_locating_fail">"Couldn't find your location"</string>
