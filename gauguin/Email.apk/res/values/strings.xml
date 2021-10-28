@@ -37,6 +37,12 @@
     <string name="account_add_title">Select email service</string>
     <string name="account_cache_provider">Account Cache Provider</string>
     <string name="account_change">Switch accounts</string>
+    <string name="account_child_dialog_neg_text">Exit</string>
+    <string name="account_child_dialog_pos_text">Guardian agrees</string>
+    <string name="account_child_dialog_text">"If you're a minor under the age of 14, inform your guardian that they must read and agree to \"Kingsoft Statement on Protection of Minors' Personal Data\". You must also seek their consent and guidance before using our services or submitting any personal information to us.
+To fully understand your rights as a user as well as the ways in which we process your data, read \"Kingsoft Statement on Protection of Minors' Personal Data\"."</string>
+    <string name="account_child_dialog_title">"Statement on Protection of Minors' Personal Data"</string>
+    <string name="account_child_save_statement">"Kingsoft Statement on Protection of Minors' Personal Data"</string>
     <string name="account_duplicate_dlg_message_fmt">"You're already using this username for the account \"%s\"."</string>
     <string name="account_duplicate_dlg_title">Duplicate account</string>
     <string name="account_failure">Session timed out</string>
@@ -51,6 +57,12 @@
     <string name="account_options_sync_title">Sync</string>
     <string name="account_password_spaces_error">"This password starts or ends with one or more
         space characters. Many servers don't support passwords with spaces."</string>
+    <string name="account_permission_child_statement">"Statement on Protection of Minors' Personal Data"</string>
+    <string name="account_permission_dialog_cancel_text">Withdraw</string>
+    <string name="account_permission_dialog_text">"If you continue, you'll withdraw your consent to End User License Agreement, Privacy Policy, and Statement on Protection of Minors' Personal Data. After that, you won't be able to use WPS Mail, and all the data generated on this device will be deleted."</string>
+    <string name="account_permission_dialog_title">Withdrawal of consent</string>
+    <string name="account_permission_private_policy">Privacy Policy</string>
+    <string name="account_permission_user_privacy">End User License Agreement</string>
     <string name="account_security_dialog_content_fmt">"%s requires that you update your security
          settings."</string>
     <string name="account_security_dialog_title">Security update</string>
@@ -376,6 +388,7 @@
     <string name="chat_item_msg_people_unit">people</string>
     <string name="chat_item_msg_user_etc">etc.</string>
     <string name="check_setup_data">"    Validating server settings…"</string>
+    <string name="child_policy_url">https://www.wps.cn/privacy/full_kids</string>
     <string name="chinese_day_1">初一</string>
     <string name="chinese_day_10">初十</string>
     <string name="chinese_day_11">十一</string>
@@ -1424,6 +1437,8 @@ to receive reminders about payments and trips"</string>
     <string name="print">Print</string>
     <string name="print_scheduler_title">Print all schedulers</string>
     <string name="privacy_and_help">Privacy and help</string>
+    <string name="privacy_and_private_permission">Consent to User Agreement and Privacy Policy</string>
+    <string name="privacy_and_private_permission_key">privacy_and_private_permission</string>
     <string name="privacy_des">"Logs contain debugging info of the email client and your device info. This information is used to locate problems faster. By tapping \"%1$s\" below, you're agreeing to our \"%2$s\"."</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="privacy_policy_url">https://miui.wpsmail.net/policy.html</string>
@@ -1639,6 +1654,7 @@ Wait until it's fully synced or view the message on your computer."</string>
     <string name="show_images_all">Load and show all images</string>
     <string name="show_password">Show password</string>
     <string name="show_server_cet">View certificate</string>
+    <string name="sign_in_dialog_office365">Office 365</string>
     <string name="sign_in_dialog_outlook_enterprise">Outlook for business (without calendar)</string>
     <string name="sign_in_dialog_outlook_exchange">EXCHANGE (with calendar)</string>
     <string name="sign_in_dialog_outlook_imap">IMAP (without calendar)</string>
