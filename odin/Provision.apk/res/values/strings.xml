@@ -256,8 +256,8 @@
     <string name="fmt_weekday_timezone">zW</string>
     <string name="font_hint_large">Default text size</string>
     <string name="font_hint_normal">Increase text size</string>
-    <string name="framework_introduction">Mi Services Framework allows you to use Mi Account, Mi Push, Mi Stats, and MIUI BI.</string>
-    <string name="framwork_base_service">To provide you with these services, Mi Services Framework (Mi Account, Mi Push, Mi Stats, MIUI BI) needs to connect to the internet, access your location, phone number, IMEI, and IMSI, and allow your device to receive push notifications</string>
+    <string name="framework_introduction">Mi Services Framework allows you to use Mi Account, Mi Push, Analytics, and MIUI BI.</string>
+    <string name="framwork_base_service">To provide you with these services, Mi Services Framework (Mi Account, Mi Push, Analytics, MIUI BI) needs to connect to the internet, access your location, phone number, IMEI, and IMSI, and allow your device to receive push notifications</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
@@ -379,7 +379,6 @@
     <string name="msim_setting_default_data">Data SIM</string>
     <string name="msim_setting_default_voice">Default SIM for calls</string>
     <string name="multisim_settings_category">SIM card settings</string>
-    <string name="multisim_settings_sb_title">1 SIM card detected</string>
     <string name="multisim_settings_title">2 SIM cards detected</string>
     <string name="navigation_picker_gesture_guide">Gesture guide</string>
     <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
@@ -415,7 +414,7 @@
     <string name="other_settings_enhanced_lockscreen_summary">Get curated images and stories delivered to your Lock screen daily. %1$s and %2$s</string>
     <string name="other_settings_enhanced_lockscreen_summary_index">End User Licence Agreement</string>
     <string name="other_settings_location">Location</string>
-    <string name="other_settings_location_summary">Allow apps and websites to access your location info to provide location-based services</string>
+    <string name="other_settings_location_summary">Allow apps to access your location</string>
     <string name="other_settings_upload_debug_log_detail">"Help improve your MIUI device experience by automatically sending diagnostic, device, and app usage data to Xiaomi. This will help improve battery life, MIUI system and app stability, and more.
 The data you'll send will contain general information about your device and how you use it (e.g. battery level, system and app activity, and errors). The data will be used to improve MIUI devices.
 Turning off this feature doesn't affect your device's ability to send the information needed for essential services such as system updates and security.
@@ -423,21 +422,21 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="other_settings_upload_debug_log_summary">Help improve your MIUI device experience by automatically sending diagnostic, device, and app usage data to Xiaomi. This will help improve battery life, MIUI system and app stability, and more.</string>
     <string name="other_settings_upload_debug_log_title">Send usage and diagnostic data</string>
     <string name="other_settings_user_experience">User Experience Program</string>
-    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats and analytics with us.</string>
+    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us.</string>
     <string name="other_settings_user_experience_summary_index">View details</string>
     <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
     <string name="permission_access_calendar">Access calendar</string>
     <string name="permission_access_calendar_fast_application_summary">For allowing quick apps to access the calendar;</string>
-    <string name="permission_account">Access accounts on your device:</string>
+    <string name="permission_account">Access account info</string>
     <string name="permission_account_introduction">For signing in with Mi Account</string>
     <string name="permission_application_package_introduction">For accessing storage in order to parse and scan installation packages</string>
     <string name="permission_backup">Accessing storage</string>
     <string name="permission_backup_introduction">For accessing and saving backups on your device</string>
-    <string name="permission_call_records">Access call history:</string>
+    <string name="permission_call_records">Access call history</string>
     <string name="permission_call_records_introduction">For accessing call history in order to display blocked items</string>
     <string name="permission_call_state_introduction">For accessing phone status, recording calls, and pausing recordings during incoming calls</string>
     <string name="permission_clock_info_introduction">For saving alarm data</string>
-    <string name="permission_contact">Access contacts:</string>
+    <string name="permission_contact">Access contacts</string>
     <string name="permission_contact_describe">Access contacts</string>
     <string name="permission_contact_describe_MIUIDaemon_summary">For verifying your identity.</string>
     <string name="permission_contact_describe_desktop_summary">For using the Home screen emergency contact feature in Lite mode and displaying conversation notifications;</string>
@@ -450,7 +449,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="permission_device_mi_account_summary">For ensuring the security of the sign-in environment.</string>
     <string name="permission_different_device_introduction">For identifying services associated with different devices</string>
     <string name="permission_different_info_introduction">For identifying different devices</string>
-    <string name="permission_direct_call">Make calls:</string>
+    <string name="permission_direct_call">Make calls</string>
     <string name="permission_direct_call_introduction">For adding items to Blocklist</string>
     <string name="permission_download_introduction">For caching downloaded items and saving them on your device</string>
     <string name="permission_fast_pairing">To be able to find devices nearby, Mi Link needs to connect to the internet and requires the following permissions:</string>
@@ -471,20 +470,20 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="permission_message_introduction">For sending messages to blocked contacts</string>
     <string name="permission_phone_imei_device">For accessing IMEI in order to identify devices</string>
     <string name="permission_phone_network">For accessing network type in order to optimize and adjust downloadable items</string>
-    <string name="permission_phone_service">Access phone number, IMEI, and IMSI:</string>
+    <string name="permission_phone_service">Access phone number, IMEI, and IMSI</string>
     <string name="permission_photo_introduction">For saving images to Gallery and publishing statuses</string>
     <string name="permission_photo_video">Take photos and record video:</string>
     <string name="permission_photo_video_introduction">For taking photos, recording videos, and using flash</string>
     <string name="permission_picture_introduction">For saving, editing, and syncing photos and videos</string>
     <string name="permission_read_app_list">Access the list of apps installed on this device</string>
-    <string name="permission_read_application_list_summary">For updating downloaded apps and confirming app information used by the package installer.</string>
-    <string name="permission_read_call_records">Edit call history:</string>
+    <string name="permission_read_application_list_summary">For managing installed apps and installation packages</string>
+    <string name="permission_read_call_records">Edit call history</string>
     <string name="permission_read_call_records_introduction">For adding items to call history and deleting blocked calls</string>
     <string name="permission_read_contacts">Accessing contacts</string>
     <string name="permission_read_contacts_introduction">For verifying your identity</string>
     <string name="permission_read_device_store">Access device storage</string>
     <string name="permission_read_device_store_summary">For accessing downloaded source files and source configuration files;</string>
-    <string name="permission_read_message">Accessing text messages</string>
+    <string name="permission_read_message">Read SMS</string>
     <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">For accessing notes and attachments</string>
     <string name="permission_read_send_message">Send and receive SMS</string>
@@ -498,13 +497,13 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="permission_read_write_contacts">Access and edit contacts</string>
     <string name="permission_read_write_contacts_fast_application_summary">For allowing quick apps to access and edit contacts;</string>
     <string name="permission_read_write_contacts_summary">For viewing and managing contacts;</string>
-    <string name="permission_read_write_device_store">For accessing and saving items to device storage;</string>
+    <string name="permission_read_write_device_store">Access and save items to storage</string>
     <string name="permission_read_write_device_store_album_summary">For storing, displaying, editing, syncing, and downloading your photos and videos.</string>
     <string name="permission_read_write_device_store_application_package_summary">For parsing and scanning installation packages.</string>
     <string name="permission_read_write_device_store_camera_summary">For saving files to your device after taking photos or videos.</string>
     <string name="permission_read_write_device_store_download_summary">For caching, accessing, and managing downloaded content.</string>
     <string name="permission_read_write_device_store_fast_application_summary">For allowing quick apps to access, cache, and edit files;</string>
-    <string name="permission_read_write_file">Access and save files and photos on your device:</string>
+    <string name="permission_read_write_file">Access and save photos and files on device</string>
     <string name="permission_read_write_file_introduction">For accessing, saving, and caching items on your device</string>
     <string name="permission_read_write_phone_store">For accessing and saving items to device storage;</string>
     <string name="permission_read_write_phone_store_summary">For accessing and saving Home screen items;</string>
@@ -602,7 +601,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="service_policy_adjust_content">Xunlei Privacy Policy</string>
     <string name="service_policy_download"><Data>Read and agree to the &lt;a href=%1$s>Xunlei Privacy Policy&lt;/a > and &lt;a href=%1$s>Xunlei Network Services User Agreement&lt;/a > before you continue.</Data></string>
     <string name="service_privacy_index">Privacy Policy</string>
-    <string name="service_security_over_r"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a > before using Security.&lt;br/>&lt;br/>In accordance with Android 11 standards, a one-time permission will be withdrawn within 5 seconds after the corresponding app stops running. If you open the app during this short period of time, the permission will be withdrawn then.</Data></string>
+    <string name="service_security_over_r"><Data>Read and agree to our &lt;a href=%1$s>Privacy Policy&lt;/a >.&lt;br/>&lt;br/>In accordance with Android R standards, a one-time permission will be withdrawn within a set period of time (around &lt;xliff:g example=5 seconds id=short>%2$s&lt;/xliff:g>) after the corresponding app stops running. If you open the app during this short period of time, the permission will be withdrawn then.</Data></string>
     <string name="service_sim_activation">SIM card activation</string>
     <string name="servicestate_title">Statement on basic services</string>
     <string name="setting_locale">Setting region…</string>
@@ -614,11 +613,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="sim_card_detecting_title">Checking for SIM card…</string>
     <string name="sim_card_detection">Insert SIM card</string>
     <string name="sim_card_detection_info">To insert your SIM card, read the instructions that came with your device.</string>
-    <string name="sim_card_detection_info_sb">"Insert a SIM card before you continue. Find device and sync-related functionality won't be fully available to you if you create an account without a SIM card. This device supports eSIM. "</string>
-    <string name="sim_card_detection_info_sb_esim">Tap to activate eSim.</string>
     <string name="sim_card_detection_mobile_not_available">"SIM card couldn't connect to the network"</string>
-    <string name="sim_card_detection_sb_esim">Activate eSIM></string>
-    <string name="sim_card_detection_sb_nonactivated">Not activated</string>
     <string name="sim_dectection_next">Continue</string>
     <string name="sim_redetection">Check again</string>
     <string name="sim_scard_detecting_check_mobile_not_available">"Your SIM card couldn't connect to a valid carrier network. Make sure you have sufficient funds on your balance and try to connect again."</string>
@@ -665,8 +660,12 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Terms and conditions</string>
+    <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTML Viewer</string>
+    <string name="terms_of_use_label">"Read our User Agreement and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
+You must agree to our User Agreement and Privacy Policy before you can use MIUI.
+%s and Mi Account components will connect to the internet and acquire your location."</string>
     <string name="terms_of_use_label_MSA">MSA</string>
-    <string name="terms_of_use_label_Mistore">Mi Store system plug-in</string>
+    <string name="terms_of_use_label_Mistore">, Mi Store system plug-in</string>
     <string name="terms_of_use_label_RMS">Permissions Manager</string>
     <string name="terms_of_use_label_ai_assistant">AI Assistant</string>
     <string name="terms_of_use_label_app_vault">App vault</string>
@@ -683,14 +682,14 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="terms_of_use_label_info_assistant">Mi Link</string>
     <string name="terms_of_use_label_joyose">Joyose</string>
     <string name="terms_of_use_label_landscape">landscape view optimization functionality</string>
-    <string name="terms_of_use_label_mab">MAB</string>
+    <string name="terms_of_use_label_mab">, MAB</string>
     <string name="terms_of_use_label_mi_account">Mi Account components</string>
     <string name="terms_of_use_label_miuiDaemon">MIUI Daemon</string>
     <string name="terms_of_use_label_miuisdk">MIUI SDK</string>
     <string name="terms_of_use_label_os">OS AI Setting</string>
-    <string name="terms_of_use_label_package">Package installer</string>
+    <string name="terms_of_use_label_package">, Package installer</string>
     <string name="terms_of_use_label_parallel_windows">Parallel windows</string>
-    <string name="terms_of_use_label_phrase">Frequent phrases</string>
+    <string name="terms_of_use_label_phrase">, Frequent phrases</string>
     <string name="terms_of_use_label_power_detection">Power detector</string>
     <string name="terms_of_use_label_power_performance">Battery and performance</string>
     <string name="terms_of_use_label_quickapp">Quick apps</string>
@@ -698,12 +697,14 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="terms_of_use_label_simcard">Mi SIM activation services</string>
     <string name="terms_of_use_label_smart_service">smart services</string>
     <string name="terms_of_use_label_statistics">Statistics</string>
-    <string name="terms_of_use_label_systemhelper">Self-registration service</string>
+    <string name="terms_of_use_label_systemhelper">, Self-registered service</string>
     <string name="terms_of_use_label_translation">Translation service</string>
-    <string name="terms_of_use_label_updater">Updater</string>
+    <string name="terms_of_use_label_updater">, Updater</string>
     <string name="terms_of_use_label_use_location_and_network_global">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network and access your location:</string>
     <string name="terms_of_use_label_use_network_china">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
     <string name="terms_of_use_label_wallpaper">Wallpaper</string>
+    <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, Translation Service, MIUI SDK, Quick apps, App vault, statistics, Mi Link</string>
+    <string name="terms_of_use_lable_apps_wifi_device">Mi services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, Translation Service, MIUI SDK, Quick apps, App vault, statistics, Mi Link</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 You must agree to Facemoji Privacy Policy before using this feature."</string>
@@ -713,9 +714,9 @@ You must agree to Kika Privacy Policy before using this feature."</string>
     <string name="terms_of_use_lable_default_input_method_mint">"
 
 You must agree to Mint Keyboard Privacy Policy before using this feature."</string>
-    <string name="terms_of_use_lable_gms">Google Play services</string>
-    <string name="terms_of_use_lable_smart_cards">Smart cards</string>
-    <string name="terms_of_use_lable_vsimcore">MConnService</string>
+    <string name="terms_of_use_lable_gms">, Google Play services</string>
+    <string name="terms_of_use_lable_smart_cards">, Smart cards</string>
+    <string name="terms_of_use_lable_vsimcore">, MConnService</string>
     <string name="terms_of_use_lable_xmsf">Xiaomi service framework</string>
     <string name="terms_privacy_policy_input_method_facemoji">Facemoji Privacy Policy</string>
     <string name="terms_privacy_policy_input_method_kika">Kika Privacy Policy</string>
