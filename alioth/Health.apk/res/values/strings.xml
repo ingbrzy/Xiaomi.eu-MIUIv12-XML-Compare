@@ -92,6 +92,8 @@ You'll be able to track your workouts and activity."</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="audio_permission_dialog_desc">To analyze your sleep cycle and record talking and snoring, Xiaomi Health needs permission to record audio.</string>
     <string name="audio_permission_dialog_title">Allow recording audio</string>
+    <string name="audio_permission_subtitle">For detecting snoring and talking</string>
+    <string name="audio_permission_title">Record audio</string>
     <string name="audio_record_perm_description">For recording snoring and talking while analyzing sleep cycle</string>
     <string name="audio_record_permission_description">For recording talking and snoring while analyzing your sleep cycle</string>
     <string name="auth_description">Allow %1$s to sync data from the following devices</string>
@@ -172,6 +174,8 @@ If you don't want to get access to the recommended classes, you can still use th
     <string name="bmi_label">BMI</string>
     <string name="body_bmi_descripe_content">Body mass index (BMI) is defined as the body mass in kilograms divided by the square of the body height in meters. Knowing your BMI might help you understand whether your weight has any negative impact on your health.</string>
     <string name="body_composition">Body composition</string>
+    <string name="body_sport_permission_subtitle">For tracking your steps</string>
+    <string name="body_sport_permission_title">Access health and activity data</string>
     <string name="body_water">Water</string>
     <string name="body_water_descripe_content">Body water percentage refers to the proportion of water in the total weight of the human body. Usually, muscle tissue contains more water than other body parts.</string>
     <string name="body_weight">Weight</string>
@@ -196,6 +200,8 @@ If you don't want to get access to the recommended classes, you can still use th
     <string name="buy">Buy</string>
     <string name="calories">calories</string>
     <string name="camera_permission_desc">For setting profile photos</string>
+    <string name="camera_permission_subtitle">For obtaining blood flow changes for heart rate detection and setting profile photos</string>
+    <string name="camera_permission_title">Use camera</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_edit">Discard changes</string>
     <string name="cancel_mark_end">"Period hasn't ended"</string>
@@ -305,6 +311,8 @@ If you don't want to get access to the recommended classes, you can still use th
 %2$s | %3$s"</string>
     <string name="contact_format3">%1$s | %2$s | %3$s</string>
     <string name="contact_permission_desc">For setting emergency contacts</string>
+    <string name="contact_permission_subtitle">For setting emergency contacts</string>
+    <string name="contact_permission_title">Access contacts</string>
     <string name="copy">Copy</string>
     <string name="copy_done">Copied successfully</string>
     <string name="copyright_statement">Copyright © Xiaomi Inc. All rights reserved.</string>
@@ -623,6 +631,8 @@ If your device is listed here, you can add data sources manually in Xiaomi Healt
     <string name="expand_all">Show all</string>
     <string name="expand_button_title">Advanced</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="external_storage_permission_subtitle">For setting profile photos</string>
+    <string name="external_storage_permission_title">Access and save items to storage</string>
     <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="fall_sleep_hard">Trouble falling asleep</string>
@@ -917,6 +927,8 @@ Start over."</string>
     <string name="location_permission_dialog_negative">Not now</string>
     <string name="location_permission_dialog_positive">Allow</string>
     <string name="location_permission_dialog_title">Location permissions required</string>
+    <string name="location_permission_subtitle">For tracking outdoor workouts and recording routes</string>
+    <string name="location_permission_title">Access location</string>
     <string name="location_service_dialog_content">Turn on location services in the Settings to be able to track your outdoor workouts.</string>
     <string name="location_service_dialog_negative">Not now</string>
     <string name="location_service_dialog_positive">Turn on</string>
@@ -1613,6 +1625,9 @@ sleep data"</string>
     <string name="sport_btn_pause">Pause</string>
     <string name="sport_btn_unlock">Unlock</string>
     <string name="sport_counter_begin">Start now</string>
+    <string name="sport_data_use_subtitle">To track your workouts and fitness progress, we collect and process your information including workout routes, sleep data, heart rate, and weight.</string>
+    <string name="sport_data_use_tip">"Read and agree to our &lt;font color=\"#0D84FF\">&lt;a href=%1$s>Health and Activity Data Use Policy&lt;/a>&lt;/font> to better understand how we collect and process your information. You won't be able to use this service if you don't consent to our collection and processing."</string>
+    <string name="sport_data_use_title">Data permissions</string>
     <string name="sport_home_begin">Start</string>
     <string name="sport_home_set_goal">Set goal</string>
     <string name="sport_invalid_dialog_distance_content">The distance you covered during this workout is too short to create a history record. End this workout anyway?</string>
@@ -1735,6 +1750,7 @@ sleep data"</string>
     <string name="sync_status_never_done">Not synced</string>
     <string name="sync_status_oauth_error">"Couldn't sync data. Grant the required permissions first."</string>
     <string name="system_app_setting">System app settings</string>
+    <string name="system_permission">Permissions details</string>
     <string name="systolic_pressure">Systolic</string>
     <string name="tb_audio_progress_bar">Audio playback bar</string>
     <string name="tb_blood_pressure_day_chart">%1$s. Highest systolic pressure: %2$d millimeters of mercury. Lowest diastolic pressure: %3$d millimeters of mercury.</string>

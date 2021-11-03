@@ -451,10 +451,13 @@ If you need to turn on Miracast, press the [MENU] button and select My apps > Ca
     <string name="path_setting_cast_demo_game">Connection &amp; sharing/Cast/Demos/Games</string>
     <string name="path_setting_cast_feature">Connection &amp; sharing/Cast/Special features</string>
     <string name="path_setting_cast_help">Connection &amp; sharing/Cast/Help</string>
+    <string name="permission_allowed">Granted</string>
+    <string name="permission_uballowed">Not granted</string>
     <string name="pm">PM</string>
+    <string name="pre_privacy_setting_title">Privacy</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="privacy_agree">Agree</string>
-    <string name="privacy_detail"><Data>This app needs to connect to the internet and collect the required personal data to be able to work normally. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>.</Data></string>
+    <string name="privacy_detail">Allow this app to connect to the internet and grant the required permissions before you continue.</string>
     <string name="privacy_detail_extra"><Data>Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &lt;a href=%1$s>HappyCast Privacy Policy&lt;/a> and &lt;a href=%2$s>HappyCast Legal Statement&lt;/a>.</Data></string>
     <string name="privacy_explain">"Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor. This app needs to connect to the internet and requires the following permissions to be able to work normally:"</string>
     <string name="privacy_link_1">http://cdn.hpplay.com.cn/xm/lbprivacy/index.html?langType=en</string>
@@ -475,6 +478,24 @@ If you need to turn on Miracast, press the [MENU] button and select My apps > Ca
     <string name="privacy_permission_wlan_desc">For finding available devices nearby</string>
     <string name="privacy_permission_wlan_desc_china">For finding available devices nearby</string>
     <string name="privacy_positive">Agree</string>
+    <string name="privacy_revoke_confirm_cancel">Cancel</string>
+    <string name="privacy_revoke_confirm_message">"You won't be able to keep using casting features unless you allow us to provide our services based on the collection of the necessary personal information. Withdraw consent to HappyCast Privacy Policy anyway?"</string>
+    <string name="privacy_revoke_confirm_sure">OK</string>
+    <string name="privacy_revoke_confirm_title">"Can't use services"</string>
+    <string name="privacy_revoke_dialog_agree">Agree</string>
+    <string name="privacy_revoke_dialog_message">"If you continue, you'll withdraw your consent to the Privacy Policy of HappyCast. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As HappyCast provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept HappyCast services. Withdraw consent now?"</string>
+    <string name="privacy_revoke_dialog_revoke">Withdraw</string>
+    <string name="privacy_revoke_dialog_title">Withdrawal of consent</string>
+    <string name="privacy_setting_category_1">Privacy Policy</string>
+    <string name="privacy_setting_category_2">HappyCast Privacy Policy</string>
+    <string name="privacy_setting_category_3">Permissions</string>
+    <string name="privacy_setting_permission_manager">Manage permissions</string>
+    <string name="privacy_setting_revoke_lelink_policy">Withdrawal of consent to HappyCast Privacy Policy</string>
+    <string name="privacy_setting_show_authority">Permissions details</string>
+    <string name="privacy_setting_show_lelink_law">View HappyCast Legal Statement</string>
+    <string name="privacy_setting_show_lelink_policy">View HappyCast Privacy Policy</string>
+    <string name="privacy_setting_show_policy">View Privacy Policy</string>
+    <string name="privacy_setting_show_user_agreement">View User Agreement</string>
     <string name="privacy_text_1"><Data>"Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor.
 We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies. Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &lt;a href=%2$s>HappyCast Legal Statement&lt;/a> and &lt;a href=%1$s>HappyCast Privacy Policy&lt;/a>.
 To be able to work normally, this app needs to connect to the internet and requires the following permissions in order to collect your personal information:"</Data></string>
@@ -485,6 +506,9 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
 　　•Access phone number, IMEI, and IMSI to identify your device
 　　•Access your location to find devices nearby"</string>
     <string name="privacy_title">Attention</string>
+    <string name="privacy_update_dialog_negative_btn">Cancel</string>
+    <string name="privacy_update_dialog_positive_btn">Agree</string>
+    <string name="privacy_update_dialog_quit">Exit</string>
     <string name="private_protect">Hide private items</string>
     <string name="project_id">milink-73be7</string>
     <string name="required_permissions">android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_BACKGROUND_LOCATION;android.permission.READ_PHONE_STATE;android.permission.READ_EXTERNAL_STORAGE;android.permission.RECORD_AUDIO;</string>
