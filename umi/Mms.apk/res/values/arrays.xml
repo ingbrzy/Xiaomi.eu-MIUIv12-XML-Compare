@@ -399,6 +399,42 @@
         <item>silent</item>
         <item>never</item>
     </string-array>
+    <string-array name="privacy_update_5g_mms">
+        <item>@string/privacy_dialog_tips_update</item>
+        <item>@string/privacy_dialog_text_policy_link</item>
+        <item>https://api.comm.miui.com/calendar/stat.html?stat_id=245</item>
+        <item>@string/privacy_dialog_title_update</item>
+        <item>@string/privacy_policy_name_5g_mms</item>
+        <item>@string/dialog_agree</item>
+        <item>@string/dialog_cancel</item>
+    </string-array>
+    <string-array name="privacy_update_mms">
+        <item>@string/privacy_dialog_tips_update</item>
+        <item>@string/privacy_dialog_text_policy_link</item>
+        <item>https://privacy.mi.com/all/%s/</item>
+        <item>@string/privacy_dialog_title_update</item>
+        <item>@string/privacy_policy_name_mms</item>
+        <item>@string/dialog_agree</item>
+        <item>@string/dialog_quit</item>
+    </string-array>
+    <string-array name="privacy_update_smart_mms">
+        <item>@string/privacy_dialog_tips_update</item>
+        <item>@string/privacy_dialog_text_policy_link</item>
+        <item>https://privacy.mi.com/smart-sms/%s/</item>
+        <item>@string/privacy_dialog_title_update</item>
+        <item>@string/privacy_policy_name_smart_sms</item>
+        <item>@string/dialog_agree</item>
+        <item>@string/dialog_cancel</item>
+    </string-array>
+    <string-array name="privacy_update_websms">
+        <item>@string/privacy_dialog_tips_update</item>
+        <item>@string/privacy_dialog_text_policy_link</item>
+        <item>https://privacy.mi.com/websms/%s/</item>
+        <item>@string/privacy_dialog_title_update</item>
+        <item>@string/privacy_policy_name_websms</item>
+        <item>@string/dialog_agree</item>
+        <item>@string/dialog_cancel</item>
+    </string-array>
     <string-array name="rcs_fallback_value">
         <item>0</item>
         <item>1</item>
