@@ -132,6 +132,12 @@
     <string name="ad_btn_default_text">Learn more</string>
     <string name="ad_floating_window_title">Close floating window to unlock</string>
     <string name="ad_split_screen_title">Exit Split screen to unlock</string>
+    <string name="ad_text_adx">广告</string>
+    <string name="ad_text_btn_download">立即安装</string>
+    <string name="ad_text_develop">开发者:%1$s</string>
+    <string name="ad_text_permission">权限</string>
+    <string name="ad_text_privacy">隐私</string>
+    <string name="ad_text_version">版本:%1$s</string>
     <string name="ad_update_time">Last updated %s</string>
     <string name="ad_update_time_unKnown">Last update unknown</string>
     <string name="adb_install_no_network">Connect to the network and try again</string>
@@ -158,6 +164,9 @@
     <string name="adjust_traffic_carrier_summary_two_day_before">Updated 2 days ago</string>
     <string name="adjust_traffic_carrier_summary_yesterday">Updated yesterday at %s</string>
     <string name="adjust_traffic_data">Set data usage</string>
+    <string name="adv_permission_text">Permissions</string>
+    <string name="adv_privacy_text">Privacy</string>
+    <string name="adv_version_text">Version: %s</string>
     <string name="after_the_lock_screen">Lock apps together with the screen</string>
     <string name="afternoon">Afternoon</string>
     <string name="ai_allow_all">Decide for me in all cases</string>
@@ -917,6 +926,15 @@ You will not lose any app data."</string>
     <string name="battery_status_overheat">Overheated</string>
     <string name="battery_status_unknown">Unknown error</string>
     <string name="battery_temperature_title">Temperature</string>
+    <string name="beauty_fc_assistant">Front camera assistant</string>
+    <string name="beauty_fc_assistant_summary">Use fill light and Beautify with front camera</string>
+    <string name="beauty_fc_fill_lamp">Fill light</string>
+    <string name="beauty_fc_light">Fill light brightness</string>
+    <string name="beauty_fc_video_call">Beautify for video calls</string>
+    <string name="beauty_fc_video_call_summary">Show Beautify options during WeChat video calls</string>
+    <string name="beauty_fun_filter">Beautify</string>
+    <string name="beauty_fun_light">Fill light</string>
+    <string name="beauty_settings">Settings</string>
     <string name="before_execute_notify">before_exclude_notify</string>
     <string name="begin_date">Usage reset date</string>
     <string name="behavior_widget_get_installed_apps">Accessed apps</string>
@@ -1647,6 +1665,7 @@ volunteer"</string>
     <string name="exception_titile">An error occurred</string>
     <string name="execute_notify">exclude_notify</string>
     <string name="exit">Exit</string>
+    <string name="exit_category">exit_category</string>
     <string name="exit_dialog_exit">Exit</string>
     <string name="exit_dialog_garbage_clean_message">The amount of trash on your device is more than %s. Clean up trash?</string>
     <string name="exit_dialog_garbage_clean_message_new"><Data>Cleaner can free up &lt;font color=#0099ff>%s&lt;/font> of storage space. Clean now?</Data></string>
@@ -2229,6 +2248,27 @@ of your gaming sessions"</string>
     <string name="gb_xunyou_gift_type_three">Xunyou 3-day boost</string>
     <string name="gb_xunyou_gift_type_two">Xunyou 2-day boost</string>
     <string name="gcm_defaultSenderId">436805358632</string>
+    <string name="gd_app_edit_done">Done</string>
+    <string name="gd_app_edit_title">Add apps</string>
+    <string name="gd_app_edit_title_new">Edit floating window shortcuts</string>
+    <string name="gd_setting_desc_action1">Open floating window</string>
+    <string name="gd_setting_desc_action2">Use a shortcut</string>
+    <string name="gd_setting_group_custom_gtb_apps">Games</string>
+    <string name="gd_setting_group_custom_line_location">Toolbox position</string>
+    <string name="gd_setting_group_custom_settings">Personalization</string>
+    <string name="gd_setting_group_custom_vtb_apps">Video apps</string>
+    <string name="gd_setting_group_smart_tool_box">Smart toolbox</string>
+    <string name="gd_setting_group_title_switch">Scenes</string>
+    <string name="gd_setting_gtb">Show while playing games</string>
+    <string name="gd_setting_gtb_desc">Special features for gaming</string>
+    <string name="gd_setting_guide_one">Tap to open floating window</string>
+    <string name="gd_setting_guide_three">Swipe from the edge to open gaming shortcuts</string>
+    <string name="gd_setting_guide_two">Swipe from the edge to open video toolbox</string>
+    <string name="gd_setting_miui_dock">Always show</string>
+    <string name="gd_setting_shorthand">Quick notes</string>
+    <string name="gd_setting_title">Smart toolbox</string>
+    <string name="gd_setting_vtb">Show while playing videos</string>
+    <string name="gd_setting_vtb_desc">Special features for video playback</string>
     <string name="gdpr_msg"><Data>"To be able to detect security risks and protect your data, we need to collect the necessary amount of information about your device. Read and agree to our &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Privacy Policy&lt;/a> before using our services. In case you don't allow us to collect such information, you'll still be able to use this app, but some features won't be available to you. "</Data></string>
     <string name="ge">个</string>
     <string name="get_detail_by_click">Tap to view details</string>
@@ -2302,10 +2342,10 @@ of your gaming sessions"</string>
     <string name="gtb_dialog_btn_open">Turn on</string>
     <string name="gtb_dialog_hint_smart_5g">You can turn this feature on and off in Game Turbo > Settings.</string>
     <string name="gtb_dialog_privacy_speed_message">"You're about to use Xunyou Game Booster. This service will collect your Mi Account ID to record your membership duration."</string>
-    <string name="gtb_dialog_privacy_speed_tips">"I've read and agreed to Xunyou Game Booster Privacy Policy."</string>
+    <string name="gtb_dialog_privacy_speed_tips"><Data>"I've read and agreed to Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy.&lt;/a>"</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Game Booster</string>
     <string name="gtb_dialog_privacy_voice_message">"You're about to use Xunyou Game Voice Changer. This service will collect your Mi Account ID to record your membership duration."</string>
-    <string name="gtb_dialog_privacy_voice_tips">"I've read and agreed to Xunyou Game Voice Changer Privacy Policy."</string>
+    <string name="gtb_dialog_privacy_voice_tips"><Data>"I've read and agreed to Xunyou Game Voice Changer &lt;a href=\"%1$s\">Privacy Policy.&lt;/a>"</Data></string>
     <string name="gtb_dialog_privacy_voice_title">Xunyou Game Voice Changer</string>
     <string name="gtb_dialog_summary_smart_5g">Whenever Game Turbo detects a 5G network, it can connect your device to the best network available to reduce network delay. Turn on this feature now?</string>
     <string name="gtb_dialog_title_smart_5g">5G network optimization</string>
@@ -2744,6 +2784,7 @@ Your device is %d%% faster now."</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
     <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
@@ -2909,6 +2950,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="no_game">"Couldn't find games"</string>
     <string name="no_lucky_money">尚未收到红包</string>
     <string name="no_open">Not now</string>
+    <string name="no_privacy_permission">Consent to Privacy Policy not required</string>
     <string name="noon">Midday</string>
     <string name="not_available">暂无</string>
     <string name="not_limited_brand">Unlimited</string>
@@ -3067,6 +3109,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="open_now">Allow app to use mobile data</string>
     <string name="open_right_now">立刻抢红包</string>
     <string name="open_right_now_short">立刻抢</string>
+    <string name="open_shut_down_password">@string/ew_guide_start_agree</string>
     <string name="operator_name_cmcc">China Mobile</string>
     <string name="operator_name_mi_mobile">Mi Mobile</string>
     <string name="operator_name_telcom">China Telecom</string>
@@ -3172,7 +3215,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_hidemode_normal_title">Balanced</string>
     <string name="pc_hidemode_performance">Performance</string>
     <string name="pc_hidemode_performance_title">Performance mode</string>
-    <string name="pc_hidemode_power_save">Power</string>
+    <string name="pc_hidemode_power_save">Save battery</string>
     <string name="pc_install_manager">Install via USB</string>
     <string name="pc_main_activity_back">Back</string>
     <string name="pc_main_battery_text_day">Added %1$sm, about %2$sd remaining</string>
@@ -4889,6 +4932,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="summary_realname_verify">Verify your identity to make payments more secure.</string>
     <string name="summary_restrict_data_usage">You restricted data usage for this app.</string>
     <string name="summary_result_screen_brightness_format">Set screen brightness to %s</string>
+    <string name="summary_safe_mode">Neutralize risks during installation</string>
     <string name="summary_show_notification">Clear cache, view battery status, and block items in Notification shade</string>
     <string name="summary_telecom_operator">Get your monthly data usage stats from your carrier</string>
     <string name="summary_usb">Prevent malware from being transmitted via USB</string>
@@ -5249,6 +5293,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="title_result_typeface">Text size &amp; font weight</string>
     <string name="title_result_wlan">Wi-Fi</string>
     <string name="title_result_zen_mode">DND mode</string>
+    <string name="title_safe_mode">Turn on Secure mode</string>
     <string name="title_show_notification">Notification shade widget</string>
     <string name="title_system_auto_download">Updates will be downloaded automatically</string>
     <string name="title_telecom_operator">Auto adjust</string>
@@ -5445,12 +5490,17 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_ve_settings_display_style_tips_new">*Effects will be applied to video playback area only</string>
     <string name="vb_ve_settings_pic_border_stronger">Enhanced contours</string>
     <string name="vb_ve_settings_picture_stronger">Enhanced animations</string>
+    <string name="vb_video_effects_3d">Surround sound</string>
+    <string name="vb_video_effects_3d_summary">Enhance the depth of sound reproduction for earphones and speakers</string>
+    <string name="vb_video_effects_3d_surround">Surround sound</string>
     <string name="vb_video_effects_display_style">Style</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">Enhanced dialogue</string>
     <string name="vb_video_effects_dolby_headset">" (Earphones only)"</string>
     <string name="vb_video_effects_dolby_open">Dolby Atmos is on</string>
     <string name="vb_video_effects_dolby_stereo_expansion">Expanded stereo</string>
+    <string name="vb_video_effects_liquid_summary">Enhance dialogue clarity in videos</string>
+    <string name="vb_video_effects_only_headphone">Only works with earphones</string>
     <string name="vb_video_effects_setting_black_white">B&amp;W</string>
     <string name="vb_video_effects_setting_cinema">Cinema</string>
     <string name="vb_video_effects_setting_girl">Blush</string>
@@ -5468,6 +5518,10 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_video_effects_setting_warmth">Warm</string>
     <string name="vb_video_effects_settings_liquid">Clarity</string>
     <string name="vb_video_effects_settings_stereo">Volume</string>
+    <string name="vb_video_effects_some_headphone">Supported by selected earphone models</string>
+    <string name="vb_video_effects_spatial">Track head movement</string>
+    <string name="vb_video_effects_spatial_summary">"Adjust surround sound based on head movement
+*Supported only on gaming earphone models"</string>
     <string name="vb_video_effects_srs_premium_sound">Sound</string>
     <string name="vb_video_super_division">Upscale</string>
     <string name="vb_video_super_division_desc">"Upscale resolution automatically when it's ≤720p.
