@@ -121,6 +121,8 @@
     <string name="before_yestoday">2 days ago</string>
     <string name="bind_sign_in_title">Add Mi Account</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="box_title_gallery">Video toolbox</string>
+    <string name="box_title_mivideo">Additional features</string>
     <string name="brvah_app_name">Library</string>
     <string name="brvah_load_end">没有更多数据</string>
     <string name="brvah_load_failed">加载失败，请点我重试</string>
@@ -252,6 +254,7 @@
     <string name="choose_to_signup">"No, I'll create one"</string>
     <string name="clearable_edittext_clear_description">Clear</string>
     <string name="click_to_open_pip">Tap to switch to picture-in-picture</string>
+    <string name="click_to_play_video_push_context">Tap to play video</string>
     <string name="click_to_reload_more">Tap to load more</string>
     <string name="click_to_retry">Try again</string>
     <string name="close">Close</string>
@@ -379,8 +382,15 @@ Send this code to the supervisor."</string>
     <string name="dialog_app_comment_select_feedback">Could you give us your feedback as well?</string>
     <string name="dialog_app_comment_select_praise">Nice! Rate Mi Video in Play Store as well?</string>
     <string name="dialog_app_comment_title">Rate our app</string>
+    <string name="dialog_bookmark_add">Add</string>
+    <string name="dialog_bookmark_cancel">Cancel</string>
     <string name="dialog_disagree_privacychange_info">"You won't be able to use Mi Video online streaming services if you don't agree to our Privacy Policy. Tap \"Cancel\" to go back or \"Don't agree\" to continue and use Mi Video as a local player only."</string>
     <string name="dialog_disagree_privacychange_title">"Don't agree?"</string>
+    <string name="dialog_edit_hint_bookmarks_name">Bookmark name</string>
+    <string name="dialog_edit_hint_bookmarks_url">URL</string>
+    <string name="dialog_jumpto_choose">"Don't show again"</string>
+    <string name="dialog_jumpto_content">Switch to Mi Video to access additional playback features?</string>
+    <string name="dialog_jumpto_title">Mi Video</string>
     <string name="dialog_privacy_change_info">"We've updated Mi Video Privacy Policy due to the adjustments in the services we offer. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using the app."</string>
     <string name="dialog_privacy_change_title">Privacy Policy update</string>
     <string name="dialog_privacy_info_new2">"To be able to use its services, you must agree that %1$s will collect, process, and use your personal information. You'll be deemed to have read and agreed to our &lt;a href=%2$s>Privacy Policy&lt;/a> when you tap \"Agree\" below."</string>
@@ -396,12 +406,16 @@ Send this code to the supervisor."</string>
     <string name="dialog_privacy_title">Terms and conditions</string>
     <string name="dialog_revoke_privacy_info_new2">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from our servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
     <string name="dialog_revoke_privacy_title">Revoking authorization</string>
+    <string name="dialog_set_default_later">No thanks</string>
+    <string name="dialog_set_default_set">Set</string>
+    <string name="dialog_set_default_text">Set Mi Video as default video player?</string>
     <string name="disagree">"Don't agree"</string>
     <string name="diy_channels_tips">You can customize the list of your channels now.</string>
     <string name="do_not_show_again">"Don't show again"</string>
     <string name="download">Download</string>
     <string name="download_checking_tip">Preparing to download…</string>
     <string name="download_complete">Downloaded</string>
+    <string name="download_completed_push_title">Download complete</string>
     <string name="download_delete_tip">Delete selected items?</string>
     <string name="download_delete_title">Delete</string>
     <string name="download_guide_click_icon_to_website_or_enter_url">Tap a shortcut to open a website or enter URL</string>
@@ -704,6 +718,8 @@ Send this code to the supervisor."</string>
     <string name="hidden_channels">"The following channels won't be displayed on the Home page."</string>
     <string name="hide">Hide</string>
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hint_icon_ad_title">Recommended</string>
+    <string name="hint_in_mivideo">You can check the side panel for additional features now</string>
     <string name="history">History</string>
     <string name="history_local_video">Local</string>
     <string name="history_online_video">Online</string>
@@ -1677,6 +1693,13 @@ Increase the security of your account."</string>
     <string name="title_firework_recommend">Firework recommendations</string>
     <string name="title_publisher">Creators</string>
     <string name="title_subscribe">Subscriptions</string>
+    <string name="toast_bookmark_add_success">Bookmark added</string>
+    <string name="toast_bookmark_already_created">This bookmark already exists</string>
+    <string name="toast_bookmark_input_name">Enter bookmark name</string>
+    <string name="toast_bookmark_input_url">Enter URL</string>
+    <string name="toast_bookmark_success_to_add">Bookmark added</string>
+    <string name="toast_bookmark_success_to_delete">Bookmark deleted</string>
+    <string name="toast_bookmark_url_error">Enter a valid URL</string>
     <string name="toast_no_data">"This item isn't available now. Come back later."</string>
     <string name="toast_request_too_frequently">Not so fast!</string>
     <string name="toast_share_failed">"Couldn't share. Wait a minute or two and try again."</string>
@@ -1774,6 +1797,7 @@ Increase the security of your account."</string>
     <string name="vp_replay">Replay</string>
     <string name="vp_upcoming_auto_play">Autoplay</string>
     <string name="vp_upcoming_title">Up next</string>
+    <string name="website_button_add_bookmarks">Add bookmark</string>
     <string name="wechat_application_id" />
     <string name="wechat_scope" />
     <string name="wechat_state" />
