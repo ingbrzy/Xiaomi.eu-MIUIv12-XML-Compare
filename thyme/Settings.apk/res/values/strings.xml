@@ -3783,7 +3783,7 @@ To learn more, contact your creditor provider."</string>
     <string name="font_settings_jump">Accessibility > Display size</string>
     <string name="font_settings_recommend_title">"Text size isn't big enough?"</string>
     <string name="font_settings_summary_cn">Fonts and text size</string>
-    <string name="font_size_exhuge">Extra Huge</string>
+    <string name="font_size_exhuge">Extra huge</string>
     <string name="font_size_huge">Huge</string>
     <string name="font_size_kddi">Medium</string>
     <string name="font_size_large">Larger</string>
@@ -3915,6 +3915,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="game_settings_summary">Turn on Game Dashboard shortcut, etc</string>
     <string name="game_settings_title">Game settings</string>
     <string name="game_storage_settings">Games</string>
+    <string name="gd_setting_title">Smart toolbox</string>
     <string name="general_category_title">General</string>
     <string name="general_notification_header">Manage</string>
     <string name="general_text">Text field</string>
@@ -4714,6 +4715,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="launch_noapp_dialog_replace">Settings</string>
     <string name="launch_notification_center">Notification shade</string>
     <string name="launch_recents">Launch Recents</string>
+    <string name="launch_smarthome">Xiaomi Quick Connect</string>
     <string name="launch_voice_assistant">Launch voice assistant</string>
     <string name="launch_wechat_health_code">WeChat health code</string>
     <string name="launch_wechat_health_code_auto_close">WeChat health code shortcut is no longer available. You can switch to a different shortcut.</string>
@@ -5307,11 +5309,11 @@ You won't be able to reverse this action."</string>
     <string name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="max_aspect_settings_all_app_display_loading">Just a sec…</string>
-    <string name="max_cpu10_info">Deca-core Max</string>
-    <string name="max_cpu2_info">Dual-core Max</string>
-    <string name="max_cpu4_info">Quad-core Max</string>
-    <string name="max_cpu6_info">Hexa-core Max</string>
-    <string name="max_cpu8_info">Octa-core Max</string>
+    <string name="max_cpu10_info">"Deca-core Max "</string>
+    <string name="max_cpu2_info">"Dual-core Max "</string>
+    <string name="max_cpu4_info">"Quad-core Max "</string>
+    <string name="max_cpu6_info">"Hexa-core Max "</string>
+    <string name="max_cpu8_info">"Octa-core Max "</string>
     <string name="max_fingerprint_number_reached">"Can't add more than 5 fingerprints. To add a new fingerprint, delete an existing fingerprint first."</string>
     <string name="max_fingerprint_reached_toast">You can add up to 5 fingerprints</string>
     <string name="maximum_memory_use">Maximum memory use</string>
@@ -5651,6 +5653,7 @@ Continue to access additional settings."</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
     <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
@@ -8083,6 +8086,17 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="sharing_remote_bugreport_dialog_message">This bug report is being shared with your IT admin. Contact them for more details.</string>
     <string name="short_summary_font_size">Make text larger or smaller</string>
     <string name="short_time">10分钟</string>
+    <string name="shoulder_key_game_light_settings">Animations</string>
+    <string name="shoulder_key_settings">Shoulder buttons</string>
+    <string name="shoulder_key_settings_title">Shoulder buttons</string>
+    <string name="shoulder_key_sound_settings">Sound effects</string>
+    <string name="shoulder_key_sound_switch_title">Sound effects</string>
+    <string name="shoulder_key_sound_text_bullet">Bullet</string>
+    <string name="shoulder_key_sound_text_current">Future</string>
+    <string name="shoulder_key_sound_text_sword">Sword</string>
+    <string name="shoulder_key_sound_text_wind">Engine</string>
+    <string name="shoulder_key_switch_status_close">Off</string>
+    <string name="shoulder_key_switch_status_open">On</string>
     <string name="show_all_anrs">Show background ANRs</string>
     <string name="show_all_anrs_summary">Show \"App not responding\" dialog for background apps</string>
     <string name="show_all_apps">Show full device usage</string>
@@ -9681,6 +9695,9 @@ Tap the plus to add words."</string>
     <string name="voice_service_preference_section_title">Voice input services</string>
     <string name="voicemail_number_not_set">&lt;Not set></string>
     <string name="voip_assistant_settings">VoIP assistant</string>
+    <string name="voip_assistant_settings_off">Off</string>
+    <string name="voip_assistant_settings_on">On</string>
+    <string name="voip_assistant_settings_summary">Record VoIP calls and use voiceprint optimization</string>
     <string name="volte_5G_limited_text">"This also turns off your 5G connection.
 During a voice call, you can’t use the internet and some apps may not work."</string>
     <string name="volte_5G_limited_title">Turn off VoLTE?</string>
@@ -10876,7 +10893,7 @@ When you turn off Do Not Disturb, find missed notifications by swiping down from
     <string name="zen_mode_schedule_rule_days_all">Every day</string>
     <string name="zen_mode_schedule_rule_days_none">None</string>
     <string name="zen_mode_schedule_title">Schedule</string>
-    <string name="zen_mode_screen_locked_only">When screen is locked</string>
+    <string name="zen_mode_screen_locked_only">When device is locked</string>
     <string name="zen_mode_screen_off">When the screen is off</string>
     <string name="zen_mode_screen_off_summary">Let notifications silenced by Do Not Disturb turn on the screen and blink the light</string>
     <string name="zen_mode_screen_off_summary_no_led">Let notifications silenced by Do Not Disturb turn on the screen</string>
