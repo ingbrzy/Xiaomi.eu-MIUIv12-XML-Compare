@@ -387,6 +387,8 @@
         <item>/sys/class/backlight/panel0-backlight/brightness</item>
     </string-array>
     <array name="config_virtualKeyUpPattern" />
+    <array name="display_compat_allow_list" />
+    <array name="display_compat_block_list" />
     <string-array name="empty_initial_attach_apn_plmn">
         <item>20205</item>
         <item>20404</item>
@@ -411,6 +413,7 @@
         <item>45006</item>
         <item>45008</item>
     </string-array>
+    <array name="fixed_aspect_ratio_list" />
     <string-array name="float_notification_whitelist">
         <item>com.google.android.apps.messaging</item>
         <item>com.google.android.talk</item>
@@ -480,6 +483,12 @@
         <item>1.0</item>
         <item>1.2</item>
         <item>1.4</item>
+    </string-array>
+    <string-array name="force_dark_app_whitelist">
+        <item>com.xiaomi.vipaccount</item>
+        <item>com.xiaomi.market</item>
+        <item>com.xiaomi.gamecenter</item>
+        <item>com.google.android.apps.docs.editors.sheets</item>
     </string-array>
     <string-array name="force_landscape_application">
         <item>com.tencent.tmgp.cf</item>
