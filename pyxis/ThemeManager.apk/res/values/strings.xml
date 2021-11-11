@@ -102,6 +102,7 @@
     <string name="apply_success_not_enable_aod">Turn on Always-on display in the Settings first</string>
     <string name="apply_success_not_support_aod">"Can't combine Always-on display with themes on this device. The rest of this theme's components were applied successfully."</string>
     <string name="apply_theme_with_ringtones">Use theme ringtones</string>
+    <string name="apply_warning_get_device_dialog_message">To be able to use downloaded content, allow this feature to access your device ID first. You can grant this permission in Settings > Privacy.</string>
     <string name="apply_warning_tip_get_device_status">Allow this app to access your device ID in Profile > Settings first.</string>
     <string name="audio_duration_minutes_format">%1$d minutes</string>
     <string name="audio_duration_seconds_format">%1$d seconds</string>
@@ -118,6 +119,8 @@
     <string name="backup_theme_name">Theme backup</string>
     <string name="backup_theme_progress_message">Backing up…</string>
     <string name="backup_theme_success_message">Your current theme settings have been backed up.</string>
+    <string name="basic_mode">Offline mode</string>
+    <string name="basic_mode_desc">"Themes won't connect to the Internet and will only use local content. Your personal information won't be collected."</string>
     <string name="boot_audio_dialog_cancel">Cancel</string>
     <string name="boot_audio_dialog_confirm">OK</string>
     <string name="boot_audio_dialog_content">Boot audio is off now. Turn it back on and apply this sound?</string>
@@ -125,6 +128,8 @@
     <string name="both_all_apply_failured">"Can't apply wallpaper"</string>
     <string name="both_all_apply_success">Wallpaper applied</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="browse_mode">Online mode</string>
+    <string name="browse_mode_desc">"Themes will connect to the Internet and use both local and online content. Your personal information won't be collected."</string>
     <string name="browser_local_resource">Local resources</string>
     <string name="can_not_apply">Can not apply</string>
     <string name="can_not_apply_error">"This video format isn't supported"</string>
@@ -213,6 +218,7 @@
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="clearable_edittext_clear_description">Clear</string>
     <string name="close">Close</string>
+    <string name="close_custom_permission_warning_text">"Without storage permissions, this app won't be able to download items and personalize your device. Turn off anyway?"</string>
     <string name="common_applying">Applying…</string>
     <string name="common_downloading">Downloading…</string>
     <string name="common_format_date_no_year">MM/dd</string>
@@ -244,6 +250,7 @@
     <string name="current_using_lockscreen_wallpaper_text">Lock screen</string>
     <string name="current_version">Current version: %1$s</string>
     <string name="current_version_incompatible">Not compatible</string>
+    <string name="custom_storage_permission_desc">To be able to change personalization preferences and save downloaded items, allow this feature to access storage first. You can grant this permission in Settings > Privacy.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -327,7 +334,13 @@
     <string name="dialog_apply_lock_screen_wallpaper_content">Current theme might not support changing Lock screen wallpaper.</string>
     <string name="dialog_apply_lock_screen_wallpaper_warning">Lock screen wallpaper</string>
     <string name="dialog_content_get_device_status">This app needs to access your device ID to be able to authenticate the items purchased on your other devices. You might not be able to use some of the purchased items after you turn this feature off. Turn off anyway?</string>
+    <string name="dialog_negative_button_text">Not now</string>
+    <string name="dialog_positive_button_text">Allow</string>
     <string name="dialog_show_never">"Don't show again."</string>
+    <string name="dialog_trans_wallpaper_offline_detail">"Transparent wallpapers are no longer available because they aren't supported by Android 12."</string>
+    <string name="dialog_trans_wallpaper_offline_inform_detail">Transparent wallpapers are no longer available due to Android 12 restrictions and compatibility issues.</string>
+    <string name="dialog_trans_wallpaper_offline_inform_title">Transparent wallpapers</string>
+    <string name="dialog_trans_wallpaper_offline_title">"Transparent wallpapers aren't available"</string>
     <string name="display">Display</string>
     <string name="do_not_allow">Restricted</string>
     <string name="download_failed">"Couldn't download"</string>
@@ -585,6 +598,7 @@ To turn this feature off, go to Settings > Sound &amp; vibration > Profile video
     <string name="lockscreen_magazine_title">Wallpaper Carousel</string>
     <string name="lockscreen_wallpaper">Lock screen</string>
     <string name="lockstyle_personal_settings">Customize</string>
+    <string name="login_theme">Sign in to Themes</string>
     <string name="long_click_can_hide_resource">Press and hold to hide items</string>
     <string name="marketSdkVersion">3.2.9</string>
     <string name="material_slider_range_end">Range end,</string>
@@ -819,6 +833,7 @@ View and use the items you purchased or added to favorites."</string>
     <string name="personalize_icon_title">Icons</string>
     <string name="personalize_notify_ringtone_title">Notifications</string>
     <string name="personalize_notify_style_title">Effects</string>
+    <string name="personalize_recommend_switch_desc">Receive personalized content recommendations based on device ID</string>
     <string name="personalize_second_space_not_support_set_font">"Can't change font in Second space"</string>
     <string name="personalize_theme_entrance">Themes</string>
     <string name="personalize_third_font">Fonts</string>
@@ -932,6 +947,9 @@ All the personalization items currently used on this device. Default personaliza
     <string name="privacy_read_statement">Agree to the terms and conditions first</string>
     <string name="privacy_read_the_updated_privacy_policy_content">"Read and agree to the new version of &lt;font color ='#37A5FF'>&lt;a href='%1$s'>Privacy Policy&lt;/font>&lt;/a> before you continue."</string>
     <string name="privacy_reading_the_application_list">Access the list of apps installed on this device</string>
+    <string name="privacy_remind_user_mode_agree">Agree</string>
+    <string name="privacy_remind_user_mode_content"><Data>Agree to our Privacy Policy to use this feature. Read our &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%1$s\">Privacy Policy&lt;/a>&lt;/font> to learn how we collect, use, disclose, process, and store the personal information you provide to us when you use Themes.</Data></string>
+    <string name="privacy_remind_user_mode_title">Attention</string>
     <string name="privacy_revoke_agree_content">Withdrawal of consent</string>
     <string name="privacy_revoke_agree_content_1">1. All the orders (including paid orders) made on the Xiaomi devices where you used your Mi Account. You will no longer be able to use the items you purchased.</string>
     <string name="privacy_revoke_agree_content_2">2. All the information about your likes, comments, ratings, and followers generated on the Xiaomi devices where you used your Mi Account.</string>
@@ -939,6 +957,8 @@ All the personalization items currently used on this device. Default personaliza
     <string name="privacy_revoke_agree_data_warning">The following data will be permanently deleted or anonymized after withdrawal of consent (except as otherwise provided by laws and regulations, or otherwise required by regulatory authorities):</string>
     <string name="privacy_revoke_succeed">Withdrew consent successfully</string>
     <string name="privacy_revoking_warning">Withdrawing consent…</string>
+    <string name="privacy_select_mode">Select mode</string>
+    <string name="privacy_select_mode_desc">"Since you haven't agreed to our Privacy Policy, select one of the following modes:"</string>
     <string name="privacy_settings">Privacy</string>
     <string name="privacy_update_prompt_title">Updated Privacy Policy</string>
     <string name="private_pad_fold_revoke_agree_detail_content_1">"1. Make sure that you have the right to withdraw consent before you continue.
@@ -955,9 +975,12 @@ All the personalization items currently used on this device. Default personaliza
     <string name="provision_loading_tips">Just a sec…</string>
     <string name="provision_second_title">Select one of the several default themes</string>
     <string name="provision_title">Choose a theme</string>
+    <string name="prvicay_permission_not_allow_desc">"This app needs to access storage to delete all the data generated on this device. Without this permission, some data may not be deleted. Cancel services anyway?
+You can grant this permission in Settings > Privacy."</string>
     <string name="pull_down_view_error_message">Whoops! No internet connection found. Check your connection or try again.</string>
     <string name="pull_down_view_refresh">Refresh</string>
     <string name="pull_down_view_title">"What's new"</string>
+    <string name="read_and_agree_account_privacy"><Data>"I've read and agreed to the Mi Account &lt;font color=\"#37A5FF\">&lt;a href=\"%3$s\">User Agreement&lt;/a>&lt;/font> and &lt;font color=\"#37A5FF\">&lt;a href=\"%4$s\">Privacy Policy&lt;/a>&lt;/font>."</Data></string>
     <string name="recently_used">Recently used</string>
     <string name="recommend_trigger">Personalized recommendations</string>
     <string name="recommend_trigger_summary">Turn on to receive recommendations based on your preferences</string>
@@ -1486,6 +1509,7 @@ All the personalization items currently used on this device. Default personaliza
     <string name="to_activate_the_account">Activate your Mi Account now</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
+    <string name="trans_wallpaper_offline_notice">"Transparent wallpapers aren't available"</string>
     <string name="transparency_pref_summary">Choose how transparent you want your wallpaper to be</string>
     <string name="transparency_pref_title">Opacity level</string>
     <string name="transparent_wallpaper">Transparent wallpaper</string>
