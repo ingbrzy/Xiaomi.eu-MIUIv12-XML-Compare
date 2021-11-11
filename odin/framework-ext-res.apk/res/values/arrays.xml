@@ -121,6 +121,9 @@
         <item>com.tencent.djcity</item>
         <item>com.qqgame.happymj</item>
     </string-array>
+    <string-array name="config_autobrightness_global_adjustment_application_array">
+        <item>com.miui.home</item>
+    </string-array>
     <string-array name="config_autobrightness_image_application_array">
         <item>com.mt.mtxx.mtxx</item>
         <item>com.gorgeous.lite</item>
@@ -387,6 +390,8 @@
         <item>/sys/class/backlight/panel0-backlight/brightness</item>
     </string-array>
     <array name="config_virtualKeyUpPattern" />
+    <array name="display_compat_allow_list" />
+    <array name="display_compat_block_list" />
     <string-array name="empty_initial_attach_apn_plmn">
         <item>20205</item>
         <item>20404</item>
@@ -411,6 +416,7 @@
         <item>45006</item>
         <item>45008</item>
     </string-array>
+    <array name="fixed_aspect_ratio_list" />
     <string-array name="float_notification_whitelist">
         <item>com.google.android.apps.messaging</item>
         <item>com.google.android.talk</item>
@@ -481,6 +487,12 @@
         <item>1.2</item>
         <item>1.4</item>
     </string-array>
+    <string-array name="force_dark_app_whitelist">
+        <item>com.xiaomi.vipaccount</item>
+        <item>com.xiaomi.market</item>
+        <item>com.xiaomi.gamecenter</item>
+        <item>com.google.android.apps.docs.editors.sheets</item>
+    </string-array>
     <string-array name="force_landscape_application">
         <item>com.tencent.tmgp.cf</item>
         <item>com.tencent.tmgp.speedmobile</item>
@@ -528,10 +540,10 @@
         <item>com.android.incallui</item>
         <item>com.miui.video</item>
         <item>com.miui.videoplayer</item>
-        <item>com.miui.player</item>
         <item>com.miui.fm</item>
         <item>com.miui.packageinstaller</item>
         <item>com.mi.android.globallauncher</item>
+        <item>com.mi.android.globallauncher-poco</item>
         <item>com.google.android.dialer</item>
         <item>com.google.android.apps.magazines</item>
         <item>com.miui.compass</item>
@@ -566,9 +578,109 @@
         <item>com.ansangha.drdriving</item>
         <item>com.google.android.youtube</item>
         <item>com.gbits.atm.mi</item>
+        <item>com.tencent.tetris</item>
+        <item>com.sukhavati.gotoplaying.bubble.BubbleShooter.mint</item>
+        <item>com.block.puzzle.game.hippo.mi</item>
+        <item>com.youzu.bs.mi</item>
+        <item>com.miHoYo.Yuanshen</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.appsomniacs.da2</item>
+        <item>com.android.stk</item>
+        <item>com.feiyu.carrot3.mi</item>
+        <item>com.popcap.pvz2cthdxm</item>
+        <item>com.mxtech.videoplayer.ad</item>
+        <item>com.miui.securitycenter</item>
+        <item>cn.cisc</item>
+        <item>com.kiloo.subwaysurf</item>
     </string-array>
     <string-array name="freeform_black_list_for_pad">
-        <item>com.android.mms</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.xiaomi.calendar</item>
+        <item>com.miui.mishare.connectivity</item>
+        <item>com.android.settings</item>
+        <item>com.android.printspooler</item>
+        <item>com.miui.backup</item>
+        <item>com.miui.huanji</item>
+        <item>com.android.thememanager</item>
+        <item>com.mfashiongallery.emag</item>
+        <item>com.miui.smarttravel</item>
+        <item>com.mi.health</item>
+        <item>com.android.camera</item>
+        <item>com.lbe.security.miui</item>
+        <item>com.miui.cleanmaster</item>
+        <item>com.miui.newhome</item>
+        <item>com.miui.voiceassist</item>
+        <item>com.android.phone</item>
+        <item>com.miui.yellowpage</item>
+        <item>com.android.updater</item>
+        <item>com.miui.tsmclient</item>
+        <item>com.miui.securitycore</item>
+        <item>com.xiaomi.account</item>
+        <item>com.xiaomi.hm.health</item>
+        <item>com.miui.bugreport</item>
+        <item>com.xiaomi.mibrain.speech</item>
+        <item>com.xiaomi.mimoji</item>
+        <item>com.xiaomi.scanner</item>
+        <item>com.duokan.phone.remotecontroller</item>
+        <item>com.miui.hybrid</item>
+        <item>com.android.incallui</item>
+        <item>com.miui.videoplayer</item>
+        <item>com.miui.player</item>
+        <item>com.miui.fm</item>
+        <item>com.miui.packageinstaller</item>
+        <item>com.mi.android.globallauncher</item>
+        <item>com.mi.android.globallauncher-poco</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.magazines</item>
+        <item>com.miui.compass</item>
+        <item>com.miui.greenguard</item>
+        <item>com.kiteguard</item>
+        <item>com.google.android.apps.prodcasts</item>
+        <item>com.google.ar.lens</item>
+        <item>com.xiangkan.android</item>
+        <item>com.android.bankabc</item>
+        <item>com.sohu.inputmethod.sogou</item>
+        <item>com.tencent.mtt</item>
+        <item>com.shyz.toutiao</item>
+        <item>com.netease.mc.mi</item>
+        <item>com.outfit7.talkingtomgoldrun.mi</item>
+        <item>com.doudz.mi</item>
+        <item>com.wepie.snake.new.mi</item>
+        <item>cn.jj</item>
+        <item>com.standddz002.mi</item>
+        <item>com.miHoYo.bh3.mi</item>
+        <item>com.qqgame.hlddz</item>
+        <item>com.happyelements.AndroidAnimal</item>
+        <item>com.minitech.miniworld.TMobile.mi</item>
+        <item>com.mfp.jelly.xiaomi</item>
+        <item>com.lilithgames.afk.mi</item>
+        <item>com.tencent.peng</item>
+        <item>com.teenpatti.hd.gold</item>
+        <item>blockpuzzle.jewelgames.jewelslegend</item>
+        <item>com.playgendary.tanks</item>
+        <item>com.chillingo.robberybobfree.android.row</item>
+        <item>com.episodeinteractive.android.catalog</item>
+        <item>com.playrix.township</item>
+        <item>com.ansangha.drdriving</item>
+        <item>com.google.android.youtube</item>
+        <item>com.gbits.atm.mi</item>
+        <item>com.tencent.tetris</item>
+        <item>com.sukhavati.gotoplaying.bubble.BubbleShooter.mint</item>
+        <item>com.block.puzzle.game.hippo.mi</item>
+        <item>com.youzu.bs.mi</item>
+        <item>com.miHoYo.Yuanshen</item>
+        <item>com.appsomniacs.da2</item>
+        <item>com.miHoYo.Yuanshen</item>
+        <item>com.android.stk</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.feiyu.carrot3.mi</item>
+        <item>com.popcap.pvz2cthdxm</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.mxtech.videoplayer.ad</item>
+        <item>cn.cisc</item>
+        <item>com.cncyj.mostbrain</item>
+        <item>com.geenk.zto.sys</item>
     </string-array>
     <string-array name="freeform_caption_insets_height_to_zero_list">
         <item>com.ss.android.article.news</item>
@@ -585,13 +697,11 @@
         <item>com.xingin.xhs</item>
         <item>com.sinovatech.unicom.ui</item>
         <item>com.mt.mtxx.mtxx</item>
-        <item>ctrip.android.view</item>
         <item>com.suning.mobile.ebuy</item>
         <item>com.tencent.tmgp.speedmobile</item>
         <item>com.tencent.qqgame.xq</item>
         <item>com.supercell.clashofclans.mi</item>
         <item>com.blizzard.wtcg.hearthstone</item>
-        <item>com.supercell.clashroyale.mi</item>
         <item>com.chaoxing.mobile</item>
         <item>cn.wps.moffice_eng.xiaomi.lite</item>
     </string-array>
@@ -609,6 +719,15 @@
         <item>com.ztgame.bob</item>
         <item>com.netease.sky.mi</item>
         <item>com.blizzard.wtcg.hearthstone</item>
+    </string-array>
+    <string-array name="get_fixed_rotation_in_freeform">
+        <item>com.tencent.wemeet.app</item>
+        <item>com.hipu.yidian</item>
+        <item>com.xtc.watch</item>
+        <item>com.jingyao.easybike</item>
+        <item>com.hunantv.imgo.activity</item>
+        <item>com.bilibili.comic</item>
+        <item>com.youdao.dict</item>
     </string-array>
     <string-array name="high_device_cpu_list">
         <item>kona</item>
@@ -685,6 +804,7 @@
     <string-array name="list_about_support_landscape_video">
         <item>com.hunantv.imgo.activity</item>
         <item>com.tencent.qqlive</item>
+        <item>com.qiyi.video</item>
     </string-array>
     <string-array name="low_device_cpu_list">
         <item>msm8953</item>
@@ -2200,6 +2320,62 @@
         <item>com.miui.aod</item>
     </string-array>
     <array name="process_static_white_list_lite" />
+    <string-array name="rt_boost_pkg_white_list">
+        <item>com.tencent.mm</item>
+        <item>com.sina.weibo</item>
+        <item>com.taobao.taobao</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.xunmeng.pinduoduo</item>
+        <item>com.kuaishou.nebula</item>
+        <item>com.ss.android.ugc.aweme.lite</item>
+        <item>com.smile.gifmaker</item>
+        <item>com.tencent.mtt</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.jingdong.app.mall</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.sankuai.meituan</item>
+        <item>com.alibaba.android.rimet</item>
+        <item>com.ss.android.article.lite</item>
+        <item>com.UCMobile</item>
+        <item>com.tencent.qqlive</item>
+        <item>com.kugou.android</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.tencent.qqmusic</item>
+        <item>com.dragon.read</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.xingin.xhs</item>
+        <item>com.qiyi.video</item>
+        <item>com.tencent.news</item>
+        <item>com.zhihu.android</item>
+        <item>com.taobao.idlefish</item>
+        <item>com.miui.home</item>
+        <item>com.android.incallui</item>
+        <item>com.android.browser</item>
+        <item>com.sohu.inputmethod.sogou.xiaomi</item>
+        <item>com.android.SystemUI</item>
+        <item>com.android.deskclock</item>
+        <item>com.miui.gallery</item>
+        <item>com.miui.video</item>
+        <item>com.android.contacts</item>
+        <item>com.android.camera</item>
+        <item>com.android.mms</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.calculator</item>
+        <item>com.miui.weather2</item>
+        <item>com.android.settings</item>
+        <item>com.xiaomi.market</item>
+        <item>com.miui.notes</item>
+        <item>com.android.calendar</item>
+        <item>com.xiaomi.shop</item>
+        <item>com.miui.player</item>
+        <item>com.android.thememanager</item>
+        <item>com.android.fileexplorer</item>
+        <item>com.miui.personalassistant</item>
+    </string-array>
     <string-array name="screen_key_long_press_default_action">
         <item>voice_assistant</item>
         <item>none</item>
@@ -2208,7 +2384,9 @@
     </string-array>
     <array name="screen_resolution_supported" />
     <string-array name="start_from_freeform_black_list_activity">
-        <item>com.netease.cloudmusic.activity.LockScreenActivity</item>
+        <item>com.tencent.qqmusic/.business.lockscreennew.LockScreenActivity</item>
+        <item>com.netease.cloudmusic/.activity.LockScreenActivity</item>
+        <item>com.ximalaya.ting.android/.host.activity.LockScreenActivity</item>
         <item>com.miui.todo.feature.remind.TodoAlarmAlertActivity</item>
     </string-array>
     <string-array name="top_game_list">
