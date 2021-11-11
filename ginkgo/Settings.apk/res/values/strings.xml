@@ -1112,6 +1112,14 @@ Apps:
     <string name="bluetooth_blacklist_remove_device">Unblock</string>
     <string name="bluetooth_broadcasting">Broadcasting</string>
     <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Make sure it is showing this passkey:&lt;br>&lt;b>%2$s&lt;/b></string>
+    <string name="bluetooth_connect_access_dialog_content">"%1$s wants to connect to this phone.
+
+You haven’t connected to %2$s before."</string>
+    <string name="bluetooth_connect_access_dialog_negative">Don’t connect</string>
+    <string name="bluetooth_connect_access_dialog_positive">Connect</string>
+    <string name="bluetooth_connect_access_dialog_title">Connect to Bluetooth device?</string>
+    <string name="bluetooth_connect_access_notification_content">A device wants to connect. Tap for details.</string>
+    <string name="bluetooth_connect_access_notification_title">Bluetooth device available</string>
     <string name="bluetooth_connect_failed">"Couldn't connect. Try again."</string>
     <string name="bluetooth_connect_settings">Connection</string>
     <string name="bluetooth_connect_specific_profiles_title">Connect to…</string>
@@ -1377,6 +1385,12 @@ Selection"</string>
     <string name="bluetooth_show_devices_without_names_summary">Bluetooth devices without names (MAC addresses only) will be displayed</string>
     <string name="bluetooth_show_files_received_via_bluetooth">Files received via Bluetooth</string>
     <string name="bluetooth_show_received_files">Received files</string>
+    <string name="bluetooth_sim_card_access_dialog_content">"A Bluetooth device, %1$s, wants to access data on your SIM card. This includes your contacts.
+
+While connected, %2$s will receive all calls made to %3$s."</string>
+    <string name="bluetooth_sim_card_access_dialog_title">Allow access to SIM card?</string>
+    <string name="bluetooth_sim_card_access_notification_content">A device wants to access your SIM card. Tap for details.</string>
+    <string name="bluetooth_sim_card_access_notification_title">SIM card access request</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
     <string name="bluetooth_talkback_computer">Computer</string>
     <string name="bluetooth_talkback_headphone">Headphones</string>
@@ -1850,6 +1864,7 @@ This affects other apps or conversations that are allowed to bubble."</string>
     <string name="close_optimization_option">Turn off</string>
     <string name="close_privacy_thumbnail_blur_title">"Previews aren't blurred"</string>
     <string name="close_slave_wifi_hint">Disconnect from auxiliary Wi-Fi networks before casting</string>
+    <string name="closed_beta">Stable (Internal)</string>
     <string name="cloud_backup_section_title">Xiaomi Cloud backups</string>
     <string name="cloud_backup_settings_section_title">Backup settings</string>
     <string name="cloud_category_text">Cloud</string>
@@ -4793,6 +4808,7 @@ You can't reverse this action."</string>
     <string name="memory_usage_apps">Memory used by apps</string>
     <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">%1$s avg memory used in last 3 hours</string>
+    <string name="memorycard_calculating">Calculating</string>
     <string name="menu_cancel">Discard</string>
     <string name="menu_check">Experience</string>
     <string name="menu_delete">Delete APN</string>
@@ -6233,6 +6249,7 @@ Read and agree to %s before using this service."</string>
     <string name="privacy_file">Files</string>
     <string name="privacy_gallery">Photos</string>
     <string name="privacy_header_text_less_than_half">Too small. Drag a bit further.</string>
+    <string name="privacy_lab_settings">Privacy protection lab</string>
     <string name="privacy_mms">Messages</string>
     <string name="privacy_mode_dialog_message">"Messages, notes, photos, and settings will be hidden in Guest mode. Also, you won't be able to edit Home screen. Switch to Guest mode?"</string>
     <string name="privacy_mode_dialog_title">Guest mode</string>
@@ -6431,6 +6448,7 @@ Read and agree to %s before using this service."</string>
     <string name="repeat_days_in_week">Repeat</string>
     <string name="repeat_never">Never</string>
     <string name="repeat_title">Repeat</string>
+    <string name="request_manage_bluetooth_permission_dont_allow">Don’t allow</string>
     <string name="requires_modern_control_center">Works with the new version of Control center</string>
     <string name="reset_aaid">Reset advertising identifier</string>
     <string name="reset_app_preferences">Reset app preferences</string>
