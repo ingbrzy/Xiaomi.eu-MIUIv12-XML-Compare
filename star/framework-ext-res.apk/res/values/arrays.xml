@@ -394,24 +394,21 @@
     <array name="display_compat_block_list" />
     <string-array name="empty_initial_attach_apn_plmn">
         <item>20205</item>
-        <item>20404</item>
+        <item>20601</item>
         <item>20801</item>
         <item>20802</item>
         <item>20810</item>
         <item>20811</item>
         <item>20813</item>
-        <item>21401</item>
         <item>21670</item>
         <item>22210</item>
         <item>22601</item>
-        <item>23003</item>
         <item>23402</item>
         <item>23411</item>
         <item>26202</item>
         <item>26209</item>
         <item>26801</item>
         <item>26806</item>
-        <item>27201</item>
         <item>45005</item>
         <item>45006</item>
         <item>45008</item>
@@ -593,6 +590,10 @@
         <item>com.miui.securitycenter</item>
         <item>cn.cisc</item>
         <item>com.kiloo.subwaysurf</item>
+        <item>com.cncyj.mostbrain</item>
+        <item>pdf.tap.scanner</item>
+        <item>com.miHoYo.ys.mi</item>
+        <item>com.netease.sky.mi</item>
     </string-array>
     <string-array name="freeform_black_list_for_pad">
         <item>com.miui.securitycenter</item>
@@ -626,7 +627,6 @@
         <item>com.miui.hybrid</item>
         <item>com.android.incallui</item>
         <item>com.miui.videoplayer</item>
-        <item>com.miui.player</item>
         <item>com.miui.fm</item>
         <item>com.miui.packageinstaller</item>
         <item>com.mi.android.globallauncher</item>
@@ -796,6 +796,9 @@
         <item>com.miui.systemAdSolution</item>
         <item>com.techown.emm</item>
         <item>com.miui.hybrid.accessory</item>
+    </string-array>
+    <string-array name="list_about_ignore_request_orientation_in_freeform">
+        <item>com.miui.player</item>
     </string-array>
     <string-array name="list_about_need_relunch">
         <item>com.supercell.clashroyale.mi</item>
