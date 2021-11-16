@@ -58,6 +58,7 @@
     <string name="accessor_expires_text">Lease expires at %s</string>
     <string name="accessor_info_title">Apps sharing data</string>
     <string name="accessor_no_description_text">No description provided by the app.</string>
+    <string name="according_to_carrier">Show preferences</string>
     <string name="actionbar_button_up_description">Back</string>
     <string name="active_input_method_subtypes">Active input methods</string>
     <string name="activity_title_fakecell">Protection from fake base stations</string>
@@ -948,6 +949,8 @@ Selection"</string>
     <string name="domain_address">SipDomain</string>
     <string name="domain_address_title">Server</string>
     <string name="doneButton">Done</string>
+    <string name="dsda_summary">5G+4G dual SIM standby is supported by selected networks</string>
+    <string name="dsda_title">Turn on 5G+4G DSDA</string>
     <string name="dsds_dialog_cancel">Cancel</string>
     <string name="dsds_dialog_confirm">Restart</string>
     <string name="dsds_dialog_message">You need to restart your device to change this setting.</string>
@@ -1108,6 +1111,7 @@ Selection"</string>
     <string name="fiveg_hosted_mode_summary">Select best network automatically to save battery</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
     <string name="fiveg_icon_type1">Nr Icon Type :</string>
+    <string name="fiveg_info">View 5G info</string>
     <string name="fiveg_infos">5G infos</string>
     <string name="fiveg_network_config_type1">Network Config Type :</string>
     <string name="fiveg_network_mode_default">Auto</string>
@@ -1116,12 +1120,15 @@ Selection"</string>
     <string name="fiveg_network_mode_title">Select 5G network mode</string>
     <string name="fiveg_network_title">5G networks</string>
     <string name="fiveg_plmn_info_list1">PLMN info list :</string>
+    <string name="fiveg_power_switch_summary">Make 5G connectivity less power consuming in certain scenarios</string>
+    <string name="fiveg_power_switch_title">5G battery saver</string>
     <string name="fiveg_restrict_dcnr1">Restrict DCNR :</string>
     <string name="fiveg_sa_switch_open_dialog_content">5G connection might be unstable in standalone mode, which might affect telephony services. Turn on SA mode anyway?</string>
     <string name="fiveg_sa_switch_open_dialog_title">Attention</string>
     <string name="fiveg_sa_switch_summary">Allow connecting to 5G networks in standalone mode</string>
     <string name="fiveg_sa_switch_title">Use SA network</string>
     <string name="fiveg_sa_switch_warning_toast">Reboot your device to apply changes</string>
+    <string name="fiveg_sa_vice_switch_summary">Allow secondary SIM to use independent 5G network</string>
     <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="fiveg_signal_strength1">5G Signal strength :</string>
     <string name="fiveg_switch_status1">5G switch status:</string>
@@ -1194,6 +1201,8 @@ Selection"</string>
     <string name="force_resizable_activities_summary">Make all activities resizable for multi-window, regardless of manifest values.</string>
     <string name="force_rtl_layout_all_locales">Force RTL layout direction</string>
     <string name="force_rtl_layout_all_locales_summary">Force screen layout direction to RTL for all locales</string>
+    <string name="forced_to_display">Force show</string>
+    <string name="forced_to_hide">Force hide</string>
     <string name="four_point_five_switch_summary">Use 4.5G to increase mobile data connection speed and improve voice quality</string>
     <string name="four_point_five_switch_title">4.5G</string>
     <string name="frequecy_num">lte channel num</string>
@@ -1214,6 +1223,7 @@ Contact your carrier if this problem persists."</string>
 Switch to the new provider anyway?"</string>
     <string name="general_news_settings">General News</string>
     <string name="general_setting">Settings</string>
+    <string name="general_settings_category">General</string>
     <string name="get_pin2">Type PIN2</string>
     <string name="get_smsc_address_error">"Can't connect to the network."</string>
     <string name="get_smsc_address_timeout">Connection timed out</string>
@@ -1717,6 +1727,8 @@ You can still make emergency calls."</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
     <string name="multi_category_disable">Multi-category disabled</string>
     <string name="multi_category_enable">Multi-category enabled</string>
+    <string name="n28_summary">Use the 803MHz frequency band</string>
+    <string name="n28_title">N28 band</string>
     <string name="name">Name</string>
     <string name="national_disable">National news disabled</string>
     <string name="national_enable">National news enabled</string>
@@ -1835,10 +1847,12 @@ Please contact your operators"</string>
     <string name="onscreenShowDialpadText">Dialpad</string>
     <string name="onscreenSwapCallsText">Swap</string>
     <string name="onscreenVideoCallText">Video call</string>
+    <string name="opconfig_info">View OpConfig info</string>
     <string name="open_miui">Turn on</string>
     <string name="opened_dual_4g_confirm_prompt">Looks like you have a 4G only SIM card. Dual 4G was turned on automatically.</string>
     <string name="opened_dual_4g_confirm_prompt_with_sim">SIM %1$s only supports 4G. To make sure your SIM card works normally, dual 4G was turned on.</string>
     <string name="operator">Carrier</string>
+    <string name="optimization_settings_category">Optimization</string>
     <string name="optional_summary">&lt;Optional></string>
     <string name="osu_completing_sign_up">Completing sign-up…</string>
     <string name="osu_connect_failed">Couldn’t connect</string>
@@ -1875,6 +1889,7 @@ Try again or call customer service for more options."</string>
     <string name="other_available_phone_accounts">Other available accounts</string>
     <string name="other_settings">Other call settings</string>
     <string name="other_settings_category">Other</string>
+    <string name="other_settings_categorys">Additional features</string>
     <string name="overlay_display_devices_title">Simulate secondary displays</string>
     <string name="overseas_roaming_setting">Data roaming</string>
     <string name="pane_title_emergency_dialpad">Emergency Dialpad</string>
@@ -2288,6 +2303,8 @@ UT Interface: %5$s"</string>
     <string name="running_process_item_user_label">User: %1$s</string>
     <string name="runningservices_settings_summary">View and control currently running services</string>
     <string name="runningservices_settings_title">Running services</string>
+    <string name="sa_switch_debug_summary">Show 5G network mode options in additional SIM settings</string>
+    <string name="sa_switch_debug_title">Show 5G network mode options</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
@@ -2386,6 +2403,12 @@ UT Interface: %5$s"</string>
     <string name="show_screen_updates_summary">Flash entire window surfaces when they update</string>
     <string name="show_touches">Show taps</string>
     <string name="show_touches_summary">Show visual feedback for taps</string>
+    <string name="show_volte_switch_summary">Show VoLTE switch in SIM details</string>
+    <string name="show_volte_switch_title">Show VoLTE switch</string>
+    <string name="show_vonr_switch_summary">Show VoNR switch in SIM details</string>
+    <string name="show_vonr_switch_title">Show VoNR switch</string>
+    <string name="show_vowifi_switch_summary">Show Wi-Fi call switch in SIM details</string>
+    <string name="show_vowifi_switch_title">Show Wi-Fi call switch</string>
     <string name="simContacts_airplaneMode">Turn off airplane mode to import contacts from the SIM card.</string>
     <string name="simContacts_empty">No contacts on your SIM card.</string>
     <string name="simContacts_emptyLoading">Reading from SIM card…</string>
@@ -2577,6 +2600,7 @@ Please confirm your default calling account setting."</string>
     <string name="supp_service_over_ut_precautions_roaming_dual_sim">To use %1$s, make sure mobile data and data roaming are turned on for SIM %2$d. You can change these in mobile network settings.</string>
     <string name="support_forbidden_fakecell">Note: Restricting connection to fake base stations may lower the signal in areas with poor coverage.</string>
     <string name="switch_dds_to_sub_alert">Set this card as your default data card.</string>
+    <string name="switch_debug_menu">Additional network settings</string>
     <string name="switch_off">Off</string>
     <string name="switch_on">On</string>
     <string name="system_visual_voicemail_client" />
@@ -2762,6 +2786,8 @@ Next period starts in %2$d days (%3$s)"</string>
     <string name="uplmn_list_setting_add_plmn">New PLMN</string>
     <string name="uplmn_list_setting_title">Preferred networks</string>
     <string name="uplmn_numeric_is_empty">Enter a network ID</string>
+    <string name="uplmn_summary">Show available carrier network preferences in SIM details</string>
+    <string name="uplmn_title">Carrier network preferences</string>
     <string name="usb_audio_disable_routing">Disable USB audio routing</string>
     <string name="usb_audio_disable_routing_summary">Disable automatic routing to USB audio peripherals</string>
     <string name="use_system_language_to_select_input_method_subtypes">Use system languages</string>
