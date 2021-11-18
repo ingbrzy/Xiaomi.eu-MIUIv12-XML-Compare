@@ -1500,8 +1500,7 @@ If you've already done any of the above, add your Mi Account again; otherwise, y
     <string name="breathing_light_freq_summary">Set pulse interval for trackball</string>
     <string name="breathing_light_freq_title">Light pulse frequency</string>
     <string name="brightness">Brightness level</string>
-    <string name="brightness_auto_adjust_off">You can adjust screen brightness manually now. It will remain constant until you adjust it again.</string>
-    <string name="brightness_auto_adjust_on">Screen brightness will be optimized according to ambient light. You can still make minor adjustments manually.</string>
+    <string name="brightness_auto_summary">Adjust brightness to ambient light to save battery</string>
     <string name="brightness_summary">Adjust the brightness of the screen</string>
     <string name="brightness_title">Brightness</string>
     <string name="bssid_label">BSSID:</string>
@@ -3811,6 +3810,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="hide_extra_apps">Show app usage</string>
     <string name="hide_silent_icons_summary">"Icons from gentle notifications aren't shown in the status bar"</string>
     <string name="hide_silent_icons_title">Hide icons from gentle notifications</string>
+    <string name="high_brightness_hint_summary">A small sun icon will appear at the top of the screen when ambient light is strong</string>
     <string name="high_label">High</string>
     <string name="high_performance_notif_summary">Device may heat up during heavy use.</string>
     <string name="high_performance_notif_title">Performance mode is on</string>
@@ -4808,7 +4808,7 @@ You can't reverse this action."</string>
     <string name="memory_usage_apps">Memory used by apps</string>
     <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">%1$s avg memory used in last 3 hours</string>
-    <string name="memorycard_calculating">Calculating</string>
+    <string name="memorycard_calculating">Calculating…</string>
     <string name="menu_cancel">Discard</string>
     <string name="menu_check">Experience</string>
     <string name="menu_delete">Delete APN</string>
@@ -5072,6 +5072,7 @@ Continue to access additional settings."</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
     <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
@@ -5480,12 +5481,6 @@ This replaces %2$s as your default payment app."</string>
     <string name="night_display_temperature_title">Intensity</string>
     <string name="night_display_text">Night Light tints your screen amber. This makes it easier to look at your screen or read in dim light, and may help you fall asleep more easily.</string>
     <string name="night_display_title">Night Light</string>
-    <string name="night_light">Night mode</string>
-    <string name="night_light_brightness">Night mode brightness</string>
-    <string name="night_light_color">Night mode color temperature</string>
-    <string name="night_light_color_tip">Changes will take effect when Reading mode is off</string>
-    <string name="night_light_summary">To turn on Night mode, minimize screen brightness in low light conditions.</string>
-    <string name="night_light_tip">Changes will take effect when Night mode is on</string>
     <string name="no">No</string>
     <string name="no_5g_in_dsds_text">When using 2 SIMs, this phone will be limited to 4G. <annotation id="url">Learn more</annotation>.</string>
     <string name="no_application">None</string>
@@ -6629,6 +6624,7 @@ This setting affects all users on this phone."</string>
     <string name="scanning_status_text_wifi_on_ble_off">Wi-Fi scanning is on, Bluetooth scanning is off</string>
     <string name="scanning_status_text_wifi_on_ble_on">Both Wi-Fi and Bluetooth scanning are on</string>
     <string name="screen">Screen</string>
+    <string name="screen_brightness">Screen brightness</string>
     <string name="screen_cancel">Cancel</string>
     <string name="screen_color_and_optimize">Colors &amp; contrast</string>
     <string name="screen_color_and_optimize_disabled">"Can't adjust color scheme and color temperature in Reading mode"</string>
@@ -8050,8 +8046,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">Sun</string>
     <string name="sunlight_mode">Sunlight mode</string>
-    <string name="sunlight_mode_summary">Adjust brightness to strong ambient light when automatic brightness is off</string>
-    <string name="sunlight_mode_summary_new">Adjust brightness to strong ambient light to prevent the screen from going too dark. A small sun icon will appear at the top of the screen when ambient light is strong.</string>
+    <string name="sunlight_mode_summary">Adjust brightness to strong ambient light to prevent the screen from going too dark</string>
     <string name="supl_not_set">&lt;Not set></string>
     <string name="supplicant_state_label">Supplicant state:</string>
     <string name="support_summary">Help articles, phone &amp; chat, getting started</string>
