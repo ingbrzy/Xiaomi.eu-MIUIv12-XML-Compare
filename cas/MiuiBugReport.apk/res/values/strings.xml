@@ -111,7 +111,7 @@
     <string name="catch_full_log_item_title_gps">Location services</string>
     <string name="catch_full_log_item_title_sensor">Sensors</string>
     <string name="catch_full_log_item_title_signal">Phone, signal, and mobile networks</string>
-    <string name="catch_full_log_item_title_trace">Jank</string>
+    <string name="catch_full_log_item_title_trace">Lag</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
     <string name="catch_full_log_item_title_wifi_china">Wi-Fi</string>
     <string name="catch_full_log_notification_content">Tap to go back to logs</string>
@@ -123,7 +123,7 @@
     <string name="catch_full_log_privacy_content_gps">"You're generating logs and saving them on your device. The logs may contain your personal info and location info. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_sensor">"You're generating logs and saving them on your device. The logs may contain the information collected by your device's sensors (including ambient light sensor, barometer, pedometer, magnetometer, etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_signal">"You're generating logs and saving them on your device. The logs may contain your messages, call history, network info, and communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
-    <string name="catch_full_log_privacy_content_trace">"You're generating logs and saving them on your device. The logs may contain Program running record (including CPU frequency, system call, memory usage etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+    <string name="catch_full_log_privacy_content_trace">"You're generating logs and saving them on your device. The logs may contain app usage stats (including CPU frequency, system call, memory usage, etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_wifi">"You're generating logs and saving them on your device. The logs may contain your personal info, location info, as well as the IP and MAC addresses of your device. If you're connected to an unencrypted Wi-Fi network, we might also be able to access parts of your communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_wifi_china">"You're generating logs and saving them on your device. The logs may contain your personal info, location info, as well as the IP and MAC addresses of your device. If you're connected to an unencrypted Wi-Fi network, we might also be able to access parts of your communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_start_dump_hprof">Generate lagging log</string>
@@ -463,6 +463,7 @@ Send this code to the supervisor."</string>
     <string name="heavenly_stems_yi">乙</string>
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hint_feedback_main">Describe the issue</string>
+    <string name="i_get_it">Got it</string>
     <string name="i_know">OK</string>
     <string name="identity">Identification</string>
     <string name="inconsistent_pwd">"Passwords don't match"</string>
@@ -725,6 +726,10 @@ Send this code to the supervisor."</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="privacy_category_title">Privacy</string>
     <string name="privacy_policy_title">Privacy policy</string>
+    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+%2$s
+Read and agree to the new version of %3$s before you continue."</string>
+    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
     <string name="psw_hint">Password</string>
     <string name="psw_sign_in">Sign in using password</string>
     <string name="qq_application_id" />
@@ -917,6 +922,8 @@ Size: %2$s"</string>
     <string name="user_avatar_update_title">Change profile photo</string>
     <string name="user_avatar_uploading">Just a sec…</string>
     <string name="user_id_hint">Email/Phone/Mi Account ID</string>
+    <string name="user_must_known">Attention</string>
+    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="v_code_title">Enter verification code</string>
@@ -930,7 +937,11 @@ Size: %2$s"</string>
     <string name="weibo_redirect_uri" />
     <string name="withdraw">Withdraw</string>
     <string name="withdraw_consent">Withdrawal of consent</string>
+    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
+    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
     <string name="withdraw_consent_hint">"If you continue, you'll withdraw your consent to the Privacy Policy of %1$s. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As %2$s provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept %3$s services. Withdraw consent now?"</string>
+    <string name="withdrawing">Withdrawing consent…</string>
     <string name="xiaomi_update_sdk_bytes_unit">%1$sB</string>
     <string name="xiaomi_update_sdk_connect_download_manager_fail">Connect Download Manager failed, please check the Download Manager state in the Application Management.</string>
     <string name="xiaomi_update_sdk_dialog_message">"Introducing version %1$s
