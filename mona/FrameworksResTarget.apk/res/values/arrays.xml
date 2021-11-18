@@ -2,7 +2,7 @@
 <resources>
     <integer-array name="config_ambientBrighteningThresholds">
         <item>8</item>
-        <item>8</item>
+        <item>5</item>
         <item>10</item>
         <item>30</item>
         <item>100</item>
@@ -30,9 +30,9 @@
         <item>4000</item>
     </integer-array>
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>9</item>
-        <item>9</item>
-        <item>9</item>
+        <item>6.8</item>
+        <item>6.8</item>
+        <item>6.8</item>
         <item>19.1</item>
         <item>26.6</item>
         <item>34.4</item>
@@ -140,224 +140,69 @@
         <item>1000.0</item>
     </array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>37</item>
-        <item>37</item>
-        <item>37</item>
-        <item>78</item>
-        <item>109</item>
-        <item>141</item>
-        <item>154</item>
-        <item>209</item>
-        <item>267</item>
-        <item>350</item>
-        <item>381</item>
-        <item>388</item>
-        <item>388</item>
-        <item>388</item>
-        <item>393</item>
-        <item>393</item>
-        <item>393</item>
-        <item>399</item>
-        <item>399</item>
-        <item>405</item>
-        <item>405</item>
-        <item>405</item>
-        <item>405</item>
-        <item>410</item>
-        <item>410</item>
-        <item>417</item>
-        <item>428</item>
-        <item>434</item>
-        <item>440</item>
-        <item>451</item>
-        <item>456</item>
-        <item>467</item>
-        <item>472</item>
-        <item>482</item>
-        <item>487</item>
-        <item>493</item>
-        <item>509</item>
-        <item>513</item>
-        <item>518</item>
-        <item>527</item>
-        <item>532</item>
-        <item>542</item>
-        <item>547</item>
-        <item>556</item>
-        <item>565</item>
-        <item>654</item>
-        <item>732</item>
-        <item>811</item>
-        <item>947</item>
-        <item>1062</item>
-        <item>1218</item>
-        <item>1327</item>
-        <item>1393</item>
-        <item>1696</item>
-        <item>1805</item>
-        <item>1863</item>
-        <item>1929</item>
-        <item>1987</item>
-        <item>2040</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>8</item>
+        <item>15</item>
+        <item>20</item>
+        <item>26</item>
+        <item>35</item>
+        <item>45</item>
+        <item>46</item>
+        <item>46</item>
+        <item>46</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>64</item>
+        <item>66</item>
+        <item>70</item>
+        <item>73</item>
+        <item>80</item>
+        <item>88</item>
+        <item>110</item>
+        <item>130</item>
+        <item>135</item>
+        <item>145</item>
+        <item>180</item>
+        <item>200</item>
+        <item>240</item>
+        <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
         <item>2</item>
-        <item>4</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
+        <item>5</item>
+        <item>9</item>
+        <item>13</item>
+        <item>17</item>
+        <item>21</item>
+        <item>26</item>
         <item>30</item>
-        <item>35</item>
         <item>40</item>
-        <item>45</item>
-        <item>50</item>
-        <item>55</item>
-        <item>60</item>
-        <item>65</item>
-        <item>70</item>
-        <item>75</item>
-        <item>80</item>
-        <item>85</item>
-        <item>90</item>
-        <item>95</item>
-        <item>100</item>
-        <item>120</item>
-        <item>140</item>
-        <item>160</item>
-        <item>180</item>
+        <item>83</item>
+        <item>104</item>
         <item>200</item>
-        <item>220</item>
-        <item>240</item>
-        <item>260</item>
-        <item>280</item>
-        <item>300</item>
-        <item>320</item>
-        <item>340</item>
-        <item>360</item>
-        <item>380</item>
         <item>400</item>
-        <item>420</item>
-        <item>440</item>
-        <item>460</item>
-        <item>480</item>
         <item>500</item>
+        <item>600</item>
         <item>700</item>
-        <item>900</item>
-        <item>1100</item>
-        <item>1300</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1200</item>
         <item>1500</item>
-        <item>1700</item>
-        <item>1900</item>
+        <item>1800</item>
         <item>2000</item>
-        <item>2500</item>
+        <item>2165</item>
+        <item>2680</item>
         <item>3000</item>
-        <item>3500</item>
+        <item>3540</item>
         <item>4000</item>
-        <item>4500</item>
-        <item>5000</item>
-        <item>5500</item>
-        <item>6000</item>
-        <item>6500</item>
-        <item>7000</item>
-        <item>7500</item>
-        <item>8000</item>
-        <item>8500</item>
-        <item>9000</item>
-        <item>9500</item>
-        <item>10000</item>
-        <item>10500</item>
-        <item>11000</item>
-        <item>11500</item>
-        <item>12000</item>
-        <item>12500</item>
-        <item>13000</item>
-        <item>13500</item>
-        <item>14000</item>
-        <item>14500</item>
-        <item>15000</item>
-        <item>16000</item>
-        <item>17000</item>
-        <item>18000</item>
-        <item>19000</item>
-        <item>20000</item>
-        <item>21000</item>
-        <item>22000</item>
-        <item>23000</item>
-        <item>24000</item>
-        <item>25000</item>
-        <item>26000</item>
-        <item>27000</item>
-        <item>28000</item>
-        <item>29000</item>
-        <item>30000</item>
-        <item>35000</item>
-        <item>40000</item>
-        <item>45000</item>
-        <item>50000</item>
-        <item>55000</item>
-        <item>60000</item>
-        <item>65000</item>
-        <item>70000</item>
-        <item>75000</item>
-        <item>80000</item>
-        <item>85000</item>
-        <item>90000</item>
-        <item>95000</item>
-        <item>100000</item>
     </integer-array>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
     <string-array name="config_defaultPinnerServiceFiles">
         <item>/system/framework/arm64/boot-framework.oat</item>
         <item>/system/framework/arm64/boot-QPerformance.oat</item>

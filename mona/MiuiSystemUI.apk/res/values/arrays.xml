@@ -115,6 +115,24 @@
         <item>com.autonavi.cmccmap</item>
         <item>brut.googlemaps</item>
     </string-array>
+    <array name="background_style1">
+        <item>@drawable/rounded_ripple</item>
+    </array>
+    <array name="background_style2">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
+    <array name="background_style3">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
+    <array name="background_style4">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -176,13 +194,13 @@
         <item>3</item>
     </integer-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
@@ -194,12 +212,12 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -209,16 +227,16 @@
         <item>2</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimized for audio quality</item>
-        <item>Balanced audio and connection quality</item>
-        <item>Optimized for connection quality</item>
-        <item>Best effort (Auto bit rate)</item>
+        <item>Optimized for Audio Quality</item>
+        <item>Balanced Audio And Connection Quality</item>
+        <item>Optimized for Connection Quality</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimized for audio quality (990kbps/909kbps)</item>
-        <item>Balanced audio and connection quality (660kbps/606kbps)</item>
-        <item>Optimized for connection quality (330kbps/303kbps)</item>
-        <item>Best effort (Auto bit rate)</item>
+        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
+        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
+        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
         <item>1000</item>
@@ -227,14 +245,14 @@
         <item>1003</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -248,32 +266,20 @@
         <item>8</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Use system preference (Default)</item>
+        <item>Use System Selection (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
-        <item>Enable optional codecs</item>
-        <item>Disable optional codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_values">
         <item>1000000</item>
@@ -282,30 +288,23 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
-        <item>" | Active"</item>
-        <item>" | Active (media)"</item>
-        <item>" | Active (phone)"</item>
+        <item>, active</item>
+        <item>, active (media)</item>
+        <item>, active (phone)</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp14</item>
-        <item>avrcp13</item>
         <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (Default)</item>
+        <item>AVRCP 1.5 (Default)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.4</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
@@ -320,17 +319,13 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Disabled</item>
-        <item>Filtered</item>
+        <item>Enabled Filtered</item>
         <item>Enabled</item>
-        <item>Headers filtered</item>
-        <item>Media packets filtered</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_values">
         <item>disabled</item>
         <item>filtered</item>
         <item>full</item>
-        <item>snoopheadersfiltered</item>
-        <item>mediapktsfiltered</item>
     </string-array>
     <array name="bt_icon_bg_colors">
         <item>@color/bt_color_bg_1</item>
@@ -645,7 +640,6 @@
         <item>com.miui.core</item>
         <item>com.ss.android.lark.kami</item>
         <item>com.turkcell.bip</item>
-        <item>com.kakao.talk</item>
     </string-array>
     <string-array name="config_allowKeyguardPackages">
         <item>com.kddi.selfcare.client</item>
@@ -849,7 +843,6 @@
         <item>400</item>
     </integer-array>
     <string-array name="config_canCustomNotificationAppIcon">
-        <item>com.android.nfc</item>
         <item>com.xiaomi.bluetooth</item>
         <item>com.miui.securitycenter</item>
         <item>com.miui.bugreport</item>
@@ -966,7 +959,6 @@
         <item>com.ss.android.lark</item>
         <item>cn.xuexi.android</item>
         <item>com.turkcell.bip</item>
-        <item>com.kakao.talk</item>
     </string-array>
     <string-array name="config_charge_supportWirelessStrongSuper">
         <item>cas</item>
@@ -1017,13 +1009,14 @@
     </integer-array>
     <string-array name="config_drip_left_statusBarIcons">
         <item>zen</item>
-        <item>volume</item>
+        <item>mute</item>
         <item>alarm_clock</item>
         <item>headset</item>
         <item>micphone</item>
         <item>ble_unlock_mode</item>
     </string-array>
     <string-array name="config_drip_right_block_statusBarIcons">
+        <item>network_speed</item>
         <item>micphone</item>
         <item>headset</item>
         <item>mikey</item>
@@ -1034,14 +1027,12 @@
         <item>gps</item>
         <item>missed_call</item>
         <item>ime</item>
-        <item>sync_failing</item>
-        <item>sync_active</item>
         <item>cast</item>
         <item>bluetooth_handsfree_battery</item>
         <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
-        <item>volume</item>
+        <item>mute</item>
         <item>alarm_clock</item>
     </string-array>
     <string-array name="config_except_charge_support_lite">
@@ -1050,6 +1041,7 @@
         <item>joyeuse</item>
         <item>gram</item>
     </string-array>
+    <array name="config_face_auth_props" />
     <integer-array name="config_notification_snooze_times">
         <item>15</item>
         <item>30</item>
@@ -1064,6 +1056,7 @@
         <item>com.xunmeng.pinduoduo</item>
         <item>com.taobao.taobao</item>
         <item>com.hipu.yidian</item>
+        <item>com.qiyi.video</item>
         <item>ctrip.android.view</item>
         <item>com.autonavi.minimap</item>
         <item>com.achievo.vipshop</item>
@@ -1099,11 +1092,9 @@
         <item>wind_down_first_time_setup:custom(com.google.android.apps.wellbeing/.screen.ui.GrayscaleTileService)</item>
         <item>focus_mode_first_time_setup:custom(com.google.android.apps.wellbeing/.focusmode.quicksettings.FocusModeTileService)</item>
     </string-array>
-    <string-array name="config_statusBarIconBlackList">
-        <item>rotate</item>
-        <item>ime</item>
-    </string-array>
+    <array name="config_showSpnByGIDWhenAirPlane" />
     <string-array name="config_statusBarIcons">
+        <item>network_speed</item>
         <item>micphone</item>
         <item>headset</item>
         <item>mikey</item>
@@ -1114,9 +1105,8 @@
         <item>gps</item>
         <item>missed_call</item>
         <item>managed_profile</item>
+        <item>second_space</item>
         <item>ime</item>
-        <item>sync_failing</item>
-        <item>sync_active</item>
         <item>cast</item>
         <item>location</item>
         <item>bluetooth</item>
@@ -1125,7 +1115,7 @@
         <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
-        <item>volume</item>
+        <item>mute</item>
         <item>alarm_clock</item>
         <item>vpn</item>
         <item>ethernet</item>
@@ -1138,17 +1128,19 @@
         <item>wifi</item>
         <item>demo_wifi</item>
     </string-array>
+    <string-array name="config_statusBarIconsToExclude">
+        <item>rotate</item>
+        <item>ime</item>
+    </string-array>
     <string-array name="config_systemUIServiceComponents">
         <item>com.android.systemui.util.NotificationChannels</item>
         <item>com.android.systemui.keyguard.KeyguardViewMediator</item>
         <item>com.android.systemui.recents.Recents</item>
         <item>com.android.systemui.volume.VolumeUI</item>
-        <item>com.android.systemui.stackdivider.Divider</item>
         <item>com.android.systemui.statusbar.phone.StatusBar</item>
         <item>com.android.systemui.usb.StorageNotification</item>
         <item>com.android.systemui.media.RingtonePlayer</item>
         <item>com.android.systemui.keyboard.KeyboardUI</item>
-        <item>com.android.systemui.pip.PipUI</item>
         <item>com.android.systemui.shortcut.ShortcutKeyDispatcher</item>
         <item>@string/config_systemUIVendorServiceComponent</item>
         <item>com.android.systemui.util.leak.GarbageMonitor$Service</item>
@@ -1157,12 +1149,12 @@
         <item>com.android.systemui.ScreenDecorations</item>
         <item>com.android.systemui.biometrics.AuthController</item>
         <item>com.android.systemui.SliceBroadcastRelayHandler</item>
-        <item>com.android.systemui.SizeCompatModeActivityController</item>
         <item>com.android.systemui.statusbar.notification.InstantAppNotifier</item>
         <item>com.android.systemui.theme.ThemeOverlayController</item>
         <item>com.android.systemui.accessibility.WindowMagnification</item>
         <item>com.android.systemui.accessibility.SystemActions</item>
         <item>com.android.systemui.toast.ToastUI</item>
+        <item>com.android.systemui.wmshell.WMShell</item>
         <item>com.android.systemui.controlcenter.ControlCenter</item>
     </string-array>
     <string-array name="config_systemUIServiceComponentsPerUser">
@@ -1490,7 +1482,6 @@
         <item>com.miui.bugreport</item>
         <item>com.android.systemui</item>
     </string-array>
-    <array name="locale_carrier_names" />
     <string-array name="lockscreen_num_pad_klondike">
         <item>+</item>
         <item></item>
@@ -1585,7 +1576,6 @@
         <item>left,back,home,recent,right;space;space</item>
         <item>space;space;left,back,home,recent,right</item>
     </string-array>
-    <array name="origin_carrier_names" />
     <string-array name="overlay_display_devices_entries">
         <item>None</item>
         <item>480p</item>
@@ -1639,25 +1629,25 @@
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Off</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Off</item>
-        <item>64 KB per log buffer</item>
-        <item>256 KB per log buffer</item>
-        <item>1 MB per log buffer</item>
-        <item>4 MB per log buffer</item>
-        <item>16 MB per log buffer</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M per log buffer</item>
+        <item>4M per log buffer</item>
+        <item>8M per log buffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
     </string-array>
     <string-array name="select_logd_size_values">
         <item>32768</item>
@@ -1665,19 +1655,19 @@
         <item>262144</item>
         <item>1048576</item>
         <item>4194304</item>
-        <item>16777216</item>
+        <item>8388608</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Off</item>
         <item>All log buffers</item>
         <item>All but radio log buffers</item>
-        <item>Kernel log buffer only</item>
+        <item>kernel log buffer only</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Off</item>
         <item>All</item>
         <item>All but radio</item>
-        <item>Kernel only</item>
+        <item>kernel only</item>
     </string-array>
     <string-array name="select_logpersist_values">
         <item></item>
@@ -1736,10 +1726,6 @@
         <item>@string/solar_term_heavy_snow</item>
         <item>@string/solar_term_winter_solstice</item>
     </string-array>
-    <string-array name="split_screen_force_not_resize_pkg_list">
-        <item>com.android.camera</item>
-    </string-array>
-    <array name="status_bar_show_spn_by_gid_when_airplane" />
     <string-array name="system_alert_window_notification_whitelist">
         <item>com.miui.notes</item>
         <item>com.android.thememanager</item>
@@ -1753,6 +1739,7 @@
         <item>com.android.providers.contacts</item>
         <item>com.android.updater</item>
         <item>com.miui.gallery</item>
+        <item>com.android.fileexplorer</item>
         <item>com.mi.android.globalFileexplorer</item>
         <item>com.miui.securitycenter</item>
         <item>com.miui.cloudappbackup</item>
@@ -1786,6 +1773,136 @@
         <item>com.xiaomi.simactivate.service</item>
         <item>com.milink.service:hide_foreground</item>
         <item>com.xiaomi.aiasst.vision:ai_toolbox_fs</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_default">
+        <item>@string/tile_unavailable</item>
+        <item>@string/switch_bar_off</item>
+        <item>@string/switch_bar_on</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Off</item>
@@ -1853,21 +1970,12 @@
         <item>350</item>
         <item>400</item>
     </string-array>
-    <string-array name="tv_pip_settings_class_name">
-        <item>com.android.tv.settings</item>
-        <item>com.google.android.leanbacklauncher/.settings.HomeScreenSettingsActivity</item>
-        <item>com.google.android.apps.mediashell/.settings.CastSettingsActivity</item>
-        <item>com.google.android.katniss.setting/.SpeechSettingsActivity</item>
-        <item>com.google.android.katniss.setting/.SearchSettingsActivity</item>
-        <item>com.google.android.tungsten.setupwraith/.settings.usage.UsageDiagnosticsSettingActivity</item>
-        <item>com.google.android.tvlauncher/.notifications.NotificationsSidePanelActivity</item>
-    </string-array>
     <string-array name="usb_configuration_titles">
         <item>Charging</item>
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Audio source</item>
+        <item>Audio Source</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_configuration_values">
@@ -1928,6 +2036,20 @@
         <item>Connected to %1$s</item>
         <item>Suspended</item>
         <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
         <item>Disconnected</item>
         <item>Unsuccessful</item>
         <item>Blocked</item>
