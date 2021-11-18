@@ -272,7 +272,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="enable_local_backup">Turn on local backups</string>
     <string name="enable_local_backup_and_restore">Turn on local backups</string>
     <string name="enable_local_backup_tips">Turn this feature on to be able to save backups on this device and copy them to your computer or USB storage device. Turn on now?</string>
-    <string name="enable_local_backup_tips_global">Turn on this feature to be able to back up and restore data to your device or computer. Turn on now?</string>
+    <string name="enable_local_backup_tips_global">Turn this feature on to be able to save backups on this device and copy them to your computer. Turn on now?</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
     <string name="err_acquire_system_service">"Couldn't start system service."</string>
@@ -566,6 +566,10 @@ you should create an iCloud backup first."</string>
     <string name="new_local_detail_description">"Note:
 %1$d. Copy backups to your computer to avoid data loss. %2$s.
 %3$d. Backups will be saved to MIUI-Backup-AllBackup."</string>
+    <string name="new_local_detail_description_global">"Note:
+%1$d. Copy backups to your computer to avoid data loss. %2$s.
+%3$d. Backups will be saved to MIUI-Backup-AllBackup.
+%4$d. Some apps might not support backups."</string>
     <string name="new_local_tab_backup">Back up</string>
     <string name="new_local_tab_backup_pad">Back up</string>
     <string name="new_local_tab_restore">Restore</string>
