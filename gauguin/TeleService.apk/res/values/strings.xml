@@ -1403,6 +1403,8 @@ Emergency calls are only possible in areas with cellular coverage."</string>
     <string name="msim_sim_radio_off">Off</string>
     <string name="msim_switch_data_conn_toast">Swapped SIM cards. Network type has changed. View additional info in SIM cards and mobile networks in the Settings menu.</string>
     <string name="msim_switch_data_conn_toast_for_h2xct">SIM slot 2 only supports GSM networks. Preferred network type for this slot has been changed to 2G only.</string>
+    <string name="mtn_simlock_emergency">Emergency</string>
+    <string name="mtn_simlock_text_tip">The inserted SIM card does not meet the requirement. You need to insert a SIM card required by the contract before using the phone. For details,please contact your local carrier.</string>
     <string name="multi_category_disable">Multi-category disabled</string>
     <string name="multi_category_enable">Multi-category enabled</string>
     <string name="name">Name</string>
@@ -1718,11 +1720,13 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_jp_sb">4G/3G/GSM</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_lm_cr">LTE/WCDMA/GSM auto</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_mx_at">4G/3G/2G (4G preferred)</string>
+    <string name="preferred_network_type_pref_entries_4g_preferred_za_mt">2G/3G/4G auto</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_za_mtn">2G/3G/4G auto</string>
     <string name="preferred_network_type_pref_entries_5g_preferred">Prefer 5G</string>
     <string name="preferred_network_type_pref_entries_5g_preferred_jp_sb">5G/4G/3G/GSM</string>
     <string name="preferred_network_type_pref_entries_5g_preferred_lm_cr">5G/LTE/WCDMA/GSM auto</string>
     <string name="preferred_network_type_pref_entries_5g_preferred_mx_at">5G/4G/3G/2G (5G/4G preferred)</string>
+    <string name="preferred_network_type_pref_entries_5g_preferred_za_mt">2G/3G/4G/5G auto</string>
     <string name="preferred_network_type_pref_entries_5g_preferred_za_mtn">2G/3G/4G/5G auto</string>
     <string name="preferred_network_type_pref_entries_auto">Automatic</string>
     <string name="preferred_network_type_pref_entries_global">Global</string>
@@ -1975,6 +1979,7 @@ UT Interface: %5$s"</string>
     <string name="simContacts_title">Select contacts to import</string>
     <string name="simFdnContacts_empty">No fixed dialing contacts.</string>
     <string name="sim_accounts">SIM accounts</string>
+    <string name="sim_can_not_read">card slot %d can only read the SIM card of the MTN operator</string>
     <string name="sim_card_num">SIM %s</string>
     <string name="sim_change_data_message">Use %1$s instead of %2$s for mobile data?</string>
     <string name="sim_change_data_title">Change data SIM?</string>
