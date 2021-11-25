@@ -154,6 +154,8 @@
     <string name="choose_to_signup">"No, I'll create one"</string>
     <string name="clearable_edittext_clear_description">Clear</string>
     <string name="collect_diagnosis_log">Collect logs</string>
+    <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
     <string name="confirm_activate_email">Verified</string>
     <string name="confirm_bundled_phone_dialog_title">Confirm associated phone number</string>
     <string name="confirm_new_pwd">Confirm new password</string>
@@ -167,6 +169,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Chinese Traditional Calendar</string>
+    <string name="default_web_client_id">894187160737-b8uv2nrpckavvk5l6nd8rli33ib22ubc.apps.googleusercontent.com</string>
     <string name="diagnosis_log_send_failed">"Couldn't send logs. Try again."</string>
     <string name="diagnosis_log_sent_format">"Sent logs successfully.
 ID:%s
@@ -262,6 +265,7 @@ Send this code to the supervisor."</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
+    <string name="gcm_defaultSenderId">894187160737</string>
     <string name="get_back_pwd">Resetting password</string>
     <string name="get_ph_ticket">Get code</string>
     <string name="get_phone_bind_exceed_limit">"You can associate up to 3 Mi Accounts with a phone number. Can't add new accounts."</string>
@@ -270,7 +274,11 @@ Send this code to the supervisor."</string>
     <string name="global_app_description_title">Uninstall FM Radio?</string>
     <string name="global_remove_app_description_content">"FM Radio is a system app. You won't be able to listen to radio broadcasts after you remove the Home screen shortcut."</string>
     <string name="global_remove_app_description_title">Remove \"FM Radio\" from Home screen?</string>
+    <string name="google_api_key">AIzaSyAPWEtroUukepAVF9FqznYTVE8AW8ymPg8</string>
+    <string name="google_app_id">1:894187160737:android:344ce39b3b4d7465e29ce0</string>
     <string name="google_application_id" />
+    <string name="google_crash_reporting_api_key">AIzaSyAPWEtroUukepAVF9FqznYTVE8AW8ymPg8</string>
+    <string name="google_storage_bucket">fm-radio-4585e.appspot.com</string>
     <string name="goto_sign_up">Create account</string>
     <string name="group_favor">Presets</string>
     <string name="group_other">Others</string>
@@ -291,6 +299,7 @@ Send this code to the supervisor."</string>
     <string name="identity">Identification</string>
     <string name="inconsistent_pwd">"Passwords don't match"</string>
     <string name="input_email_address_notice">"We'll use this email to verify your account"</string>
+    <string name="input_length_exceeds_limit">The text you entered is too long</string>
     <string name="input_new_pwd">Enter new password</string>
     <string name="isornot_your_mi_account">Is this your Mi Account?</string>
     <string name="just_a_second">Just a sec…</string>
@@ -505,16 +514,20 @@ Send this code to the supervisor."</string>
     <string name="pm">PM</string>
     <string name="pre_station">Previous station</string>
     <string name="progressbar_title">Checking for security issues…</string>
+    <string name="project_id">fm-radio-4585e</string>
     <string name="psw_hint">Password</string>
     <string name="psw_sign_in">Sign in using password</string>
     <string name="qq_application_id" />
     <string name="qq_login_protocol_scheme">com.xiaomi.passport.ui</string>
     <string name="register_by_local_phone_long_text">Create account</string>
     <string name="register_by_local_phone_short_text">Create account</string>
+    <string name="request_agree">Allow</string>
     <string name="request_camera_permission_message">"We shall protect your personal information in accordance with the relevant laws and regulations. This app needs the following permissions to work normally:&lt;br>&lt;br>&lt;b>Using camera (for setting your profile photo)&lt;/b>&lt;br>&lt;br>If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
+    <string name="request_cancel">Cancel</string>
     <string name="request_error_invalid_token">"Couldn't verify"</string>
     <string name="request_error_network">A network error occurred. Check your network settings and try again.</string>
     <string name="request_error_unknown">A system error occurred. Go back and try again.</string>
+    <string name="request_gallery_permission_message">Allow access to Gallery:&lt;br />For setting profile photos</string>
     <string name="resend_active_email">Resend</string>
     <string name="resend_email_reach_limit_message">"You've requested too many verification emails. Make sure that the verification email isn't in your inbox's Spam folder."</string>
     <string name="resend_email_reach_limit_title">Too many attempts</string>
