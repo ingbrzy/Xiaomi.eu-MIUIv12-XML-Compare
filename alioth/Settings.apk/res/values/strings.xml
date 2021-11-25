@@ -1258,6 +1258,7 @@ for ^2"</string>
     <string name="beauty_camera">Beautify for video calls</string>
     <string name="beauty_camera_summary">Use Beautify for WeChat video calls</string>
     <string name="beauty_camera_switch">Beautify</string>
+    <string name="beauty_fc_assistant">Front camera assistant</string>
     <string name="billing_cycle">Data warning &amp; limit</string>
     <string name="billing_cycle_fragment_summary">Monthly on day %1$s</string>
     <string name="billing_cycle_less_than_one_day_left">Less than 1 day left</string>
@@ -3928,16 +3929,19 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
     <string name="freeform_guide_move_title">Moving floating windows around</string>
     <string name="freeform_guide_move_to_small_freeform_window_summary">Drag the floating window to the corner of the screen</string>
     <string name="freeform_guide_move_to_small_freeform_window_title">Minimizing floating windows</string>
+    <string name="freeform_guide_multi_window">Multitasking</string>
     <string name="freeform_guide_notification_drop_down_summary">Press and hold, and then pull down the action bar of a notification</string>
     <string name="freeform_guide_notification_drop_down_title">Opening floating windows</string>
     <string name="freeform_guide_settings">Floating windows</string>
     <string name="freeform_guide_slide_to_small_freeform_summary">"Press and hold the bottom of the window, and drag it to the upper right corner.
 This feature works only when system navigation is set to gestures."</string>
+    <string name="freeform_guide_slide_to_small_freeform_summary_pad">Drag the corner to minimize an app</string>
     <string name="freeform_guide_slide_to_small_freeform_title">Minimize an app</string>
     <string name="freeform_guide_slide_up_to_close_summary">Swipe up from the action bar of a floating window</string>
     <string name="freeform_guide_slide_up_to_close_title">Closing floating windows</string>
     <string name="freeform_vedio_description">"·Press and hold, and then pull down a notification to open it in a floating window.
 ·Tap \"Floating windows\" in Recents to select apps."</string>
+    <string name="freeform_vedio_description_pad">Drag items out of the dock to open floating windows</string>
     <string name="frequently_fragment_delete">Remove</string>
     <string name="frequently_fragment_tempty">Frequently used items will be listed here</string>
     <string name="friday">Friday</string>
@@ -5941,6 +5945,8 @@ Select your operating system:"</string>
     <string name="multi_network_acceleration_app_settings">Network acceleration for apps</string>
     <string name="multi_touch_points_category_title">Multi-touch points</string>
     <string name="multi_touch_points_preference">This setting will take effect after you reboot your device</string>
+    <string name="multi_window_cvw_summary">Drag the corner to switch to a floating window and adjust its size</string>
+    <string name="multi_window_cvw_title">Floating window</string>
     <string name="multifunction_keyboard">Multifunctional</string>
     <string name="multiple_users_main_switch_title">Use multiple users</string>
     <string name="music_equalizer">Equalizer</string>
@@ -6771,9 +6777,9 @@ Press Power and Volume up at the same time."</string>
     <string name="pre_install_network_unavailable">当前未联网，请先联网</string>
     <string name="pre_install_question_disable_summary">对于某些系统应用，您可以在应用的设置项中禁用应用部分扩展功能。如果需要恢复这些扩展功能，您可以再次到设置项中重新开启。</string>
     <string name="pre_install_question_disable_title">如何禁用功能？</string>
-    <string name="pre_install_question_query_summary">您可以到设置-更多应用中，选择想要查看的应用，在应用信息里点击“查看权限详情”来查看软件所需权限。您也可以在桌面按菜单键然后长按应用快速进入应用信息页，然后直接点击查看权限详情。在用户的开机引导页面里您也可以快速查看所有的软件安装及所需权限列表信息。</string>
+    <string name="pre_install_question_query_summary">您可以到设置-应用设置-应用管理中，选择想要查看的应用，在应用信息里点击“查看权限详情”来查看软件所需权限。您也可以在桌面按菜单键然后长按应用快速进入应用信息页，然后直接点击查看权限详情。在用户的开机引导页面里您也可以快速查看所有的软件安装及所需权限列表信息。</string>
     <string name="pre_install_question_query_title">如何查询软件安装及运行所需权限列表？</string>
-    <string name="pre_install_question_uninstall_summary">您可以到设置-更多应用中，选择支持卸载的应用并点击卸载。卸载系统预置组件可能导致系统部分功能无法正常使用或运行出现异常，建议谨慎操作。对于可卸载的第三方应用，您还可以在桌面上长按图标，然后拖拽到屏幕上方的垃圾桶卸载应用。</string>
+    <string name="pre_install_question_uninstall_summary">您可以到设置-应用设置-应用管理中，选择支持卸载的应用并点击卸载。卸载系统预置组件可能导致系统部分功能无法正常使用或运行出现异常，建议谨慎操作。对于可卸载的第三方应用，您还可以在桌面上长按图标，然后拖拽到屏幕上方的垃圾桶卸载应用。</string>
     <string name="pre_install_question_uninstall_title">如何卸载应用？</string>
     <string name="pre_installed_application">Pre-installed apps</string>
     <string name="pref_bg_network_title">Background connection</string>
@@ -7796,6 +7802,7 @@ To use app pinning: \u0009
     <string name="secure_keyguard_business_title">Set screen lock</string>
     <string name="secure_lock_encryption_warning">Because you’ve turned on an accessibility service, your device won’t use your screen lock to enhance data encryption.</string>
     <string name="security_center_title">Security</string>
+    <string name="security_check_progress_dialog_message">Checking for security issues…</string>
     <string name="security_dashboard_summary">Screen lock, Find My Device, app security</string>
     <string name="security_enable_widgets_disabled_summary">Disabled by admin</string>
     <string name="security_enable_widgets_title">Enable widgets</string>
@@ -8086,6 +8093,11 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="settings_backup">Back up settings</string>
     <string name="settings_backup_summary">Back up my settings</string>
     <string name="settings_button">Settings</string>
+    <string name="settings_charging_at_fast_speed">Charging fast</string>
+    <string name="settings_charging_at_normal_speed">Charging</string>
+    <string name="settings_charging_at_top_speed">Charging at top speed</string>
+    <string name="settings_charging_fully_charged">Fully charged</string>
+    <string name="settings_charging_not_charging">Not charging</string>
     <string name="settings_forbidden_message">This setting is restricted</string>
     <string name="settings_label">Settings</string>
     <string name="settings_label_launcher">Settings</string>
@@ -9707,6 +9719,7 @@ Tap the plus to add words."</string>
     <string name="video_tool_box_title">Video toolbox</string>
     <string name="view_saved_network">To view, choose saved network</string>
     <string name="vip_list">Notify about calls</string>
+    <string name="vip_service_settings">My services</string>
     <string name="virtual_keyboard_category">On-screen keyboard</string>
     <string name="virtual_keyboards_for_work_title">On-screen keyboard for work</string>
     <string name="virtual_sim_category_title">Mi Roaming</string>
