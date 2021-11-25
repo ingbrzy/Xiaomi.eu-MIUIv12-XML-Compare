@@ -246,7 +246,7 @@ Toggle off to stop syncing."</string>
     <string name="category_folder">Folders</string>
     <string name="category_installed_app">Installed apps</string>
     <string name="category_midrive">Mi Drive</string>
-    <string name="category_move_limit_notice">You can move from 3 to 7 items to the upper part of the screen</string>
+    <string name="category_move_limit_notice">You can move from %1$d to %2$d items to the upper part of the screen</string>
     <string name="category_music">Music</string>
     <string name="category_other">Other</string>
     <string name="category_photo">Photos</string>
@@ -383,7 +383,7 @@ Toggle off to stop syncing."</string>
     <string name="columbus_player_speed_video">Skip VIDEO</string>
     <string name="columbus_player_unit_sec">sec</string>
     <string name="columbus_skip_ad">Skip</string>
-    <string name="com.crashlytics.android.build_id">fb401fb440604816a4959b9fc76aa8a0</string>
+    <string name="com.crashlytics.android.build_id">5905fe79bdd24fe3a8e40a954f8d685a</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -544,7 +544,7 @@ Send this code to the supervisor."</string>
     <string name="download_btn_select_none">Deselect all</string>
     <string name="download_business_app_new_version">The latest version of this app is already installed</string>
     <string name="download_business_app_update_install">Ready to install update.</string>
-    <string name="download_business_v5_edit_mode_title_empty">0 selected</string>
+    <string name="download_business_v5_edit_mode_title_empty">Select items</string>
     <string name="download_change_dir">Change folder</string>
     <string name="download_complete">Downloaded successfully</string>
     <string name="download_completed">Downloaded</string>
@@ -565,7 +565,7 @@ Send this code to the supervisor."</string>
     <string name="download_dialog_failed_body">Try again later or remove this file from the download que​ue?</string>
     <string name="download_dialog_file_already_exists">"You've already downloaded this file"</string>
     <string name="download_dialog_file_length_hint_txt">"File size: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">Less than 1KB</string>
+    <string name="download_dialog_file_length_lessthan1kb">Less than %1$dKB</string>
     <string name="download_dialog_file_length_nolength_error_txt">"Couldn't download"</string>
     <string name="download_dialog_file_length_nolength_txt">Just a sec…</string>
     <string name="download_dialog_file_missing_body">"Couldn't find file. Did you move or delete it?"</string>
@@ -843,6 +843,8 @@ Send this code to the supervisor."</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
     <string name="gaid">GAID(Click To Export)</string>
+    <string name="game_center_recommend_play">Play</string>
+    <string name="game_center_recommend_title">Recommended for you</string>
     <string name="game_news_flow_download_bar_download">Download</string>
     <string name="game_news_flow_download_bar_play">Play</string>
     <string name="game_played">Recent</string>
@@ -978,9 +980,9 @@ Send this code to the supervisor."</string>
     <string name="lockpattern_need_to_unlock_wrong">Try again</string>
     <string name="lockpattern_pattern_confirmed_header">"Here's your unlock pattern:"</string>
     <string name="lockpattern_pattern_entered_header">Done!</string>
-    <string name="lockpattern_recording_incorrect_too_short">Try again. Connect at least 4 dots.</string>
+    <string name="lockpattern_recording_incorrect_too_short">Try again. Connect at least %1$d dots.</string>
     <string name="lockpattern_recording_inprogress">Release when your pattern is complete</string>
-    <string name="lockpattern_recording_intro_header">Connect at least 4 dots</string>
+    <string name="lockpattern_recording_intro_header">Connect at least %1$d dots</string>
     <string name="lockpattern_retry_button_text">Reset</string>
     <string name="login_failed_toast">"Couldn't sign in, refresh and try again"</string>
     <string name="login_or_register">or</string>
@@ -991,7 +993,7 @@ Send this code to the supervisor."</string>
     <string name="make_private_msg_1">Hide this file?</string>
     <string name="make_private_msg_2">Hide these files?</string>
     <string name="max_tabs_warning">"Can't open more tabs"</string>
-    <string name="maximum_input_alert">"Can't enter more than 2048 characters"</string>
+    <string name="maximum_input_alert">"Can't enter more than %1$d characters"</string>
     <string name="menu_addtodesk">Add to Home screen</string>
     <string name="menu_exit_nightmode">Exit</string>
     <string name="menu_hv_swap">V/H screen</string>
@@ -1852,7 +1854,7 @@ Some sites won't use your previous browsing history to personalize their ads for
     <string name="rename_alert">"If you change this file's extension, you may not be able to open it."</string>
     <string name="rename_alert2">The file will be hidden after you change its extension.</string>
     <string name="rename_failed">"Couldn't rename %1$s"</string>
-    <string name="rename_letter_count">%1$d/150</string>
+    <string name="rename_letter_count">%1$d/%2$d</string>
     <string name="renew_sub_now">Renew</string>
     <string name="replace">Replace</string>
     <string name="replay">Play again</string>
@@ -1905,7 +1907,7 @@ Some sites won't use your previous browsing history to personalize their ads for
     <string name="rlv_pull_to_refresh">Pull down to refresh</string>
     <string name="rlv_refreshing">Refreshing…</string>
     <string name="rlv_release_to_refresh">Release to refresh</string>
-    <string name="rlz_access_point">Y1</string>
+    <string name="rlz_access_point">Y%1$d</string>
     <string name="root_folder_lable">None</string>
     <string name="router_download_exist">This file already exists</string>
     <string name="router_download_failed">"Couldn't download"</string>
@@ -1964,7 +1966,7 @@ Some sites won't use your previous browsing history to personalize their ads for
     <string name="search_hint">Search</string>
     <string name="search_label">Browser</string>
     <string name="search_menu_title">Search</string>
-    <string name="search_s139">139</string>
+    <string name="search_s139">%1$d</string>
     <string name="search_settings_description">Bookmarks and web history</string>
     <string name="search_shipin">Video</string>
     <string name="search_sm">SM</string>
@@ -2301,8 +2303,8 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="vpn_data_used_info">Used %2$s of %1$s</string>
     <string name="vpn_detail_guide1">Unlock all servers to speed up your connection</string>
     <string name="vpn_detail_guide2">Subscribe to VPN services to access more websites</string>
-    <string name="vpn_detail_guide3">"You're almost out of traffic. Try our 12-month plan! Tap to learn about your options."</string>
-    <string name="vpn_detail_guide4">"You're out of traffic. Try our 12-month plan! Tap to learn about your options."</string>
+    <string name="vpn_detail_guide3">"You're almost out of traffic. Try our %1$d-month plan! Tap to learn about your options."</string>
+    <string name="vpn_detail_guide4">"You're out of traffic. Try our %1$d-month plan! Tap to learn about your options."</string>
     <string name="vpn_detail_guide5">"You're almost out of traffic"</string>
     <string name="vpn_detail_guide6">"You're out of traffic"</string>
     <string name="vpn_detail_subscribe">Subscribe</string>
@@ -2338,7 +2340,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_how_it_works">How it works</string>
     <string name="whatsapp_intro_dialog_title">New feature</string>
     <string name="whatsapp_no_status_tips">No images or videos here yet. View your WhatsApp status updates and come back here again.</string>
-    <string name="whatsapp_principle_page_message">WhatsApp saves photos and videos that you browse to a hidden folder. These items disappear after 24 hours. Now you can use Mi Browser to save them.</string>
+    <string name="whatsapp_principle_page_message">WhatsApp saves photos and videos that you browse to a hidden folder. These items disappear after %1$d hours. Now you can use Mi Browser to save them.</string>
     <string name="whatsapp_principle_page_title">You can save images and videos from WhatsApp statuses using Mi Browser</string>
     <string name="whatsapp_principle_step_1">Browse images and videos from the \"Status\" tab in WhatsApp.</string>
     <string name="whatsapp_principle_step_2">Come back here to save them.</string>
