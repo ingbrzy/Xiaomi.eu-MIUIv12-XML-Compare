@@ -343,14 +343,26 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-    <string-array name="speaker_scenario_selection">
-        <item>@string/speaker_scenario_selection_default</item>
-        <item>@string/speaker_scenario_selection_another</item>
+    <array name="soundid_music_select_image">
+        <item>@drawable/music_background_1</item>
+        <item>@drawable/music_background_2</item>
+        <item>@drawable/music_background_3</item>
+    </array>
+    <string-array name="soundid_music_select_text">
+        <item>@string/sound_id_music_one_title</item>
+        <item>@string/sound_id_music_two_title</item>
+        <item>@string/sound_id_music_three_title</item>
     </string-array>
-    <string-array name="speaker_scenario_selection_entry_values">
-        <item>0</item>
-        <item>1</item>
+    <string-array name="soundid_music_select_text_detail">
+        <item>@string/sound_id_music_one_description</item>
+        <item>@string/sound_id_music_two_description</item>
+        <item>@string/sound_id_music_three_description</item>
     </string-array>
+    <array name="soundid_music_test_bg_img">
+        <item>@drawable/music_test_background_1</item>
+        <item>@drawable/music_test_background_2</item>
+        <item>@drawable/music_test_background_3</item>
+    </array>
     <string-array name="support_sound_version">
         <item>4.1.2</item>
         <item>4.21.2</item>
