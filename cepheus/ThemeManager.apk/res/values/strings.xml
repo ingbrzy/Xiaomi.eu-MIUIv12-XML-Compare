@@ -88,6 +88,7 @@
     <string name="app_disable_transparent_wallpaper">Without transparent wallpaper</string>
     <string name="app_enable_transparent_wallpaper">With transparent wallpaper</string>
     <string name="app_name">Themes</string>
+    <string name="app_name_pad">Personalization</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="application_list_permission_desc">For showing apps compatible with transparent wallpapers</string>
     <string name="apply_choosen_type_resource">Apply selected items</string>
@@ -129,11 +130,13 @@
     <string name="both_all_apply_failured">"Can't apply wallpaper"</string>
     <string name="both_all_apply_success">Wallpaper applied</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string name="browse_mode">Online mode</string>
     <string name="browse_mode_desc">"Themes will connect to the Internet and use both local and online content. Your personal information won't be collected."</string>
     <string name="browser_local_resource">Local resources</string>
     <string name="can_not_apply">Can not apply</string>
     <string name="can_not_apply_error">"This video format isn't supported"</string>
+    <string name="can_not_apply_pc_video">"PC mode doesn't support live wallpapers"</string>
     <string name="can_not_apply_size_invalid">This video is too big</string>
     <string name="cancel_download">Download canceled</string>
     <string name="card_data_request_error">An error occurred. Wait a minute or two and try again.</string>
@@ -499,6 +502,11 @@
     <string name="font_compat_dialog_title">Compatibility issues</string>
     <string name="font_compat_dialog_trial_confirm">Try</string>
     <string name="font_compat_dialog_trial_content">Third party fonts might not be supported by some apps. This compatibility issue will be fixed by an upcoming system update. Try this font anyway?</string>
+    <string name="font_pad_setting_charge_font">Paid</string>
+    <string name="font_pad_setting_find_more_title">More fonts</string>
+    <string name="font_pad_setting_free_font">Free</string>
+    <string name="font_pad_setting_local_font">Local fonts</string>
+    <string name="font_pad_setting_title">Fonts</string>
     <string name="font_trial_end_purchase">Buy font</string>
     <string name="forbid_transparent_wallpaper_by_second_space">Apply transparent wallpaper in First space first.</string>
     <string name="forbid_video_wallpaper_by_second_space">Apply dynamic wallpaper in First space first.</string>
@@ -542,6 +550,7 @@
     <string name="hide_mamual_hide_miwallpaper">"Don't show hidden Home screen effects"</string>
     <string name="hide_mamual_hide_theme">"Don't show hidden themes"</string>
     <string name="hide_mamual_hide_wallpaper">"Don't show hidden wallpapers"</string>
+    <string name="hide_phone_wallpaper">Hide phone wallpapers</string>
     <string name="hide_pull_down_message">Hide trinket?</string>
     <string name="hide_pull_down_negative">"Don't hide"</string>
     <string name="hide_pull_down_positive">Hide</string>
@@ -551,6 +560,9 @@
     <string name="home_daily">Daily highlights</string>
     <string name="i_know">Got it</string>
     <string name="icon_content_description">Dialog Icon</string>
+    <string name="icon_pad_setting_find_more_title">More icons</string>
+    <string name="icon_pad_setting_local_icon">Local icons</string>
+    <string name="icon_pad_setting_title">Icons</string>
     <string name="in_the_end">No more items to show</string>
     <string name="incall_show_apply">Set as profile video</string>
     <string name="incall_show_apply_fail">"Couldn't set"</string>
@@ -580,6 +592,7 @@ To turn this feature off, go to Settings > Sound &amp; vibration > Profile video
     <string name="lab">Themes lab</string>
     <string name="like_list">My likes</string>
     <string name="live_wallpaper">Dynamic wallpapers</string>
+    <string name="load_from_local_photos">Gallery</string>
     <string name="loading">Just a sec…</string>
     <string name="loading_picture">Loading image…</string>
     <string name="loading_resource_detail_fail">"Can't load resource"</string>
@@ -602,8 +615,26 @@ To turn this feature off, go to Settings > Sound &amp; vibration > Profile video
     <string name="login_theme">Sign in to Themes</string>
     <string name="long_click_can_hide_resource">Press and hold to hide items</string>
     <string name="marketSdkVersion">3.2.9</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
     <string name="material_slider_range_end">Range end,</string>
     <string name="material_slider_range_start">Range start,</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="mi_wallpaper">MIUI wallpaper</string>
     <string name="midnight">Night</string>
     <string name="mine_tab_not_login">"Sign in to view items.
@@ -652,6 +683,8 @@ mm"</string>
     <string name="miuishare_title_share">Share</string>
     <string name="miuishare_wechat_timeline_title">WeChat Moments</string>
     <string name="miuishare_weibo_title">Weibo</string>
+    <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_alphabet_indexer_name">Index bar</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -675,6 +708,8 @@ mm"</string>
     <string name="miuix_compat_dialog_title">Applied default theme to \"%s\"</string>
     <string name="miuix_compat_dialog_update_title">An update is required</string>
     <string name="miuix_compat_mms">Messaging</string>
+    <string name="miuix_indexer_collect">Collections</string>
+    <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -743,7 +778,7 @@ mm"</string>
     <string name="mtrl_picker_cancel">@android:string/cancel</string>
     <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Select a Date</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
     <string name="mtrl_picker_date_header_unselected">Selected date</string>
     <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
     <string name="mtrl_picker_invalid_format">Invalid format.</string>
@@ -755,7 +790,7 @@ mm"</string>
     <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
     <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
-    <string name="mtrl_picker_range_header_title">Select a Date Range</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
     <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
     <string name="mtrl_picker_save">Save</string>
     <string name="mtrl_picker_text_input_date_hint">Date</string>
@@ -841,6 +876,7 @@ View and use the items you purchased or added to favorites."</string>
     <string name="personalize_title">Wallpaper and personalization</string>
     <string name="personalize_wallpaper_sub_title">Super wallpapers and featured images</string>
     <string name="personalize_wallpaper_title">Wallpaper</string>
+    <string name="personalized_cta_content_text">Welcome to Themes! You can use this app to manage your wallpapers, ringtones, fonts, and more.</string>
     <string name="phone_exit_theme_warning_content">"You won't be able to perform the following actions after you sign out:
 1. View and use the items you purchased or added to favorites.
 2. Add comments and likes, follow other people and interact with them."</string>
@@ -1059,6 +1095,10 @@ You can grant this permission in Settings > Privacy."</string>
     <string name="resource_delete">Delete</string>
     <string name="resource_delete_all">Delete %1$d selected resources?</string>
     <string name="resource_delete_confirm">Delete these resources?</string>
+    <string name="resource_delete_font_title">Delete fonts</string>
+    <string name="resource_delete_icon_title">Delete icons</string>
+    <string name="resource_delete_ring_title">Delete ringtones</string>
+    <string name="resource_delete_wallpaper_title">Delete wallpapers</string>
     <string name="resource_delta_update_failed">Downloading theme again…</string>
     <string name="resource_delta_update_successful">Theme updated</string>
     <string name="resource_delta_update_total">%1$d delta updates saved %2$s</string>
@@ -1101,7 +1141,8 @@ You can grant this permission in Settings > Privacy."</string>
     <string name="resource_free_download">Download for free</string>
     <string name="resource_get_auth_checking">Verifying…</string>
     <string name="resource_get_auth_exceed_max_limit_tips">10 devices have already been authorized on this account</string>
-    <string name="resource_get_auth_exceed_max_limit_title">Number of authorized devices exceeded</string>
+    <string name="resource_get_auth_exceed_max_limit_tips_pad">You can use Personalization with one account on up to 10 devices.</string>
+    <string name="resource_get_auth_exceed_max_limit_title">Too many authorized devices</string>
     <string name="resource_get_auth_has_been_undercarriaged">This theme is no longer available.</string>
     <string name="resource_get_auth_not_official">Themes from third-party sources are not supported</string>
     <string name="resource_get_auth_retrieving">Getting info…</string>
@@ -1294,6 +1335,7 @@ You can grant this permission in Settings > Privacy."</string>
     <string name="show_mamual_hide_miwallpaper">Show hidden Home screen effects</string>
     <string name="show_mamual_hide_theme">Show hidden themes</string>
     <string name="show_mamual_hide_wallpaper">Show hidden wallpapers</string>
+    <string name="show_phone_wallpaper">Show phone wallpapers</string>
     <string name="solar_term_autumn_begins">Autumn begins</string>
     <string name="solar_term_autumn_equinox">Autumn equinox</string>
     <string name="solar_term_clear_and_bright">Clear and bright</string>
@@ -1344,10 +1386,15 @@ You can grant this permission in Settings > Privacy."</string>
     <string name="system_aod_dialog_title">Always-on display is off</string>
     <string name="system_cta_agree_desc">Allow this app to connect to the internet and grant the mandatory permissions listed above.</string>
     <string name="system_cta_all_purpose">Welcome to Themes! You can use this app to manage your themes, wallpapers, ringtones, and fonts.</string>
+    <string name="system_cta_all_purpose_fold">Welcome to Wallpaper and personalization! You can use this app to manage your Always-on display themes, wallpapers, ringtones, and fonts.</string>
+    <string name="system_cta_all_purpose_pad">Welcome to Personalization! You can use this app to manage your wallpapers, ringtones, app icons, and fonts.</string>
     <string name="system_cta_main_purpose">Manage and use online and offline themes, wallpapers, ringtones, fonts, and video wallpapers</string>
+    <string name="system_cta_retry_get_permission_btn_pad">Start</string>
+    <string name="system_cta_retry_get_permission_msg_pad">Permissions required</string>
     <string name="system_cta_runtime_perm_desc_get_accounts">For accessing IMEI and providing download services</string>
     <string name="system_cta_runtime_perm_desc_read_phone_state">Access device ID to identify your device</string>
     <string name="system_cta_runtime_perm_desc_storage">For using the items stored on your device for personalization and saving purchased items</string>
+    <string name="system_cta_runtime_perm_desc_storage_pad">For using the items stored on your device for personalization and saving purchased items</string>
     <string name="system_precust">Pre-installed</string>
     <string name="tag_ad">Ad</string>
     <string name="task_already_exist">This task already exists</string>
@@ -1587,6 +1634,10 @@ Go to Themes > My account > Themes lab for more options."</string>
     <string name="voice_input">Voice input</string>
     <string name="wallpaper_24h">24H</string>
     <string name="wallpaper_apply">Apply</string>
+    <string name="wallpaper_apply_full">All</string>
+    <string name="wallpaper_apply_large">Inner screen</string>
+    <string name="wallpaper_apply_pcmode">Set PC mode wallpaper</string>
+    <string name="wallpaper_apply_small">Outer screen</string>
     <string name="wallpaper_crop">Crop</string>
     <string name="wallpaper_dark_mode_image_preview_tip">Dark mode preview</string>
     <string name="wallpaper_decoded_error">"Can't load wallpaper"</string>
@@ -1625,10 +1676,16 @@ Go to Themes > My account > Themes lab for more options."</string>
     <string name="wallpaper_online_tip">Connect to the network to access more items</string>
     <string name="wallpaper_scroll_type_tips">Wallpaper scroll</string>
     <string name="wallpaper_set_as_both">Set both</string>
+    <string name="wallpaper_set_as_both_large">Set both</string>
+    <string name="wallpaper_set_as_both_small">Set both</string>
     <string name="wallpaper_set_as_desktop">Set as Home screen</string>
+    <string name="wallpaper_set_as_desktop_large">Set as inner Home screen</string>
+    <string name="wallpaper_set_as_desktop_small">Set as outer Home screen</string>
     <string name="wallpaper_set_as_float_wallpaper">Set as transparent wallpaper</string>
     <string name="wallpaper_set_as_incall_show">Set as profile video</string>
     <string name="wallpaper_set_as_lockscreen">Set as Lock screen</string>
+    <string name="wallpaper_set_as_lockscreen_large">Set as inner Lock screen</string>
+    <string name="wallpaper_set_as_lockscreen_small">Set as outer Lock screen</string>
     <string name="wallpaper_set_as_loop_extra_msg">大家都在用</string>
     <string name="wallpaper_setting_all">All wallpapers</string>
     <string name="wallpaper_setting_aod_wallpaper_banner_button_text">AOD</string>
