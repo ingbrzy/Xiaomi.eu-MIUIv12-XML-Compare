@@ -902,6 +902,7 @@ Change settings now?"</string>
     <string name="auto_sync_account_title">Automatically sync app data</string>
     <string name="auto_sync_personal_account_title">Automatically sync personal data</string>
     <string name="auto_sync_work_account_title">Automatically sync work data</string>
+    <string name="auto_task_operation_close">Close</string>
     <string name="autofill_app">Autofill service</string>
     <string name="autofill_confirmation_message">"&lt;b>Make sure you trust this app&lt;/b> &lt;br/> &lt;br/> &lt;xliff:g id=app_name example=Google Autofill>%1$s&lt;/xliff:g> uses what's on your screen to determine what can be autofilled."</string>
     <string name="autofill_keywords">auto, fill, autofill, password</string>
@@ -1494,6 +1495,8 @@ You haven’t connected to %2$s before."</string>
     <string name="bluetooth_enable_gabeldorsche_summary">Enables the Bluetooth Gabeldorsche feature stack.</string>
     <string name="bluetooth_enable_page_scan">enable bluetooth page scan</string>
     <string name="bluetooth_enable_page_scan_summary">disable/enable page scan for Bluetooth test</string>
+    <string name="bluetooth_enable_pts_test">enable bluetooth PTS test</string>
+    <string name="bluetooth_enable_pts_test_summary">disable/enable PTS for Bluetooth test</string>
     <string name="bluetooth_enter_passkey_msg">Type the pairing code then press Return or Enter</string>
     <string name="bluetooth_enter_passkey_other_device">You may also need to type this passkey on the other device.</string>
     <string name="bluetooth_enter_pin_other_device">You may also need to type this PIN on the other device.</string>
@@ -5459,6 +5462,7 @@ You won't be able to reverse this action."</string>
     <string name="menu_duration_3h">3 hours</string>
     <string name="menu_duration_6h">6 hours</string>
     <string name="menu_hide_system">Hide system</string>
+    <string name="menu_item_notification_power_text">Battery optimisation</string>
     <string name="menu_key">Menu</string>
     <string name="menu_new">New APN</string>
     <string name="menu_proc_stats_duration">Duration</string>
@@ -6505,6 +6509,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="owner_info_settings_summary">None</string>
     <string name="owner_info_settings_title">Lock screen signature</string>
     <string name="owner_space">First space</string>
+    <string name="p2p_summary_enable_GPS">This feature works when location services are on</string>
     <string name="packages_subtitle">Included packages</string>
     <string name="page_layout_1">Sunday, August 16</string>
     <string name="page_layout_10">Settings</string>
@@ -8336,7 +8341,7 @@ Possibly incorrect PIN."</string>
     <string name="sim_pin_disable_failed">"Can't disable PIN."</string>
     <string name="sim_pin_enable_failed">"Can't enable PIN."</string>
     <string name="sim_pin_toggle">Lock SIM card</string>
-    <string name="sim_pins_dont_match">PINs don’t match</string>
+    <string name="sim_pins_dont_match">"PINs don't match"</string>
     <string name="sim_preferred_message">%1$s is the only SIM in your device. Do you want to use this SIM for mobile data, calls, and SMS messages?</string>
     <string name="sim_preferred_title">Update preferred SIM card?</string>
     <string name="sim_radio_off">Off</string>
@@ -8560,7 +8565,9 @@ Withdraw consent to %s now?"</string>
     <string name="speed_label_very_fast">Very fast</string>
     <string name="speed_label_very_slow">Very slow</string>
     <string name="speed_mode">Speed mode</string>
-    <string name="speed_mode_summary">To debug applications.</string>
+    <string name="speed_mode_noti_summary">Speed mode will increase power consumption and heat generation</string>
+    <string name="speed_mode_noti_title">Speed mode on</string>
+    <string name="speed_mode_summary">When turned on, the performance will reach the extreme state, but it will increase power consumption and generate heat. Please turn it on carefully</string>
     <string name="spell_checker_master_switch_title">Use spell checker</string>
     <string name="spell_checker_not_selected">Not selected</string>
     <string name="spell_checker_primary_switch_title">Use spell checker</string>
