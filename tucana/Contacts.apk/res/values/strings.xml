@@ -460,6 +460,7 @@
     <string name="combined_title_and_miprofile_swaped">%1$s, %2$s</string>
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
+    <string name="comma">Comma</string>
     <string name="composer_failed_to_get_database_infomation">"Couldn't get database information."</string>
     <string name="composer_has_no_exportable_contact">There are no exportable contacts. If you do have contacts on your device, some data providers may not allow the contacts to be exported from the device.</string>
     <string name="composer_not_initialized">"The vCard composer didn't start properly."</string>
@@ -864,6 +865,7 @@ Reason: \"%s\""</string>
     <string name="importing_vcard_finished_title">Finished importing vCard %s</string>
     <string name="insertContactDescription">Create contact</string>
     <string name="invalidContactMessage">"Contact doesn't exist"</string>
+    <string name="item_offical">Official</string>
     <string name="keep_local">"Don't sync"</string>
     <string name="keep_local_btn">"Use device's internal storage"</string>
     <string name="label_custom_type">Custom</string>
@@ -1069,7 +1071,7 @@ Reason: \"%s\""</string>
     <string name="permission_dailog_title">Permissions required</string>
     <string name="permission_notice_desc_access_fine_location">For importing contacts from other devices via Bluetooth</string>
     <string name="permission_notice_desc_add_voicemail">For using voicemail and audio message functionality</string>
-    <string name="permission_notice_desc_call_phone">For making calls in third party apps</string>
+    <string name="permission_notice_desc_call_phone">For making calls through Home screen shortcuts</string>
     <string name="permission_notice_desc_call_phone_for_pad">For making calls in third party apps</string>
     <string name="permission_notice_desc_camera">For taking profile photos</string>
     <string name="permission_notice_desc_read_call_logs">For viewing call history</string>
@@ -1082,7 +1084,7 @@ Reason: \"%s\""</string>
     <string name="permission_notice_desc_write_external_storage">For adding profile photos and importing vCards</string>
     <string name="permission_record_audio_desc">For using your voice during ID verification</string>
     <string name="permission_retry_deny">Cancel</string>
-    <string name="permission_retry_dialog_msg">To be able to use your SIM card with this app, manage your contacts, and keep call history up to date, allow this app to access and edit your contacts and call history, as well as to access device info.</string>
+    <string name="permission_retry_dialog_msg">To be able to use your SIM card with this app, make calls through Home screen shortcuts, manage your contacts, and keep call history up to date, allow this app to access and edit your contacts and call history, make calls, and access device info.</string>
     <string name="permission_retry_dialog_msg_pad">To be able to use your SIM card with this app and manage your contacts, allow this app to access and edit your contacts, as well as to access device info.</string>
     <string name="permission_retry_setting">Settings</string>
     <string name="permission_write_external_storage_desc">For saving app data</string>
@@ -1166,7 +1168,7 @@ Reason: \"%s\""</string>
     <string name="privacy_password_title3">Upgrade your password</string>
     <string name="privacy_password_title4">Password upgraded</string>
     <string name="privacy_settings_call_phone">Make calls</string>
-    <string name="privacy_settings_call_phone_description">For making calls in third party apps</string>
+    <string name="privacy_settings_call_phone_description">For making calls through Home screen shortcuts</string>
     <string name="privacy_settings_call_phone_description_for_pad">For making calls in third party apps</string>
     <string name="privacy_settings_call_phone_for_pad">Make calls</string>
     <string name="privacy_settings_contacts">Contacts and Phone</string>
@@ -1231,7 +1233,7 @@ Reason: \"%s\""</string>
     <string name="remove_duplicate">"MIUI will help you find and merge duplicate contacts.
 
  To begin, tap the Merge icon at the bottom of your screen."</string>
-    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE</string>
+    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE</string>
     <string name="residual_time_description">%1$sday%2$shour</string>
     <string name="residual_time_description2">%1$dh</string>
     <string name="residual_time_description3">%1$dm</string>
