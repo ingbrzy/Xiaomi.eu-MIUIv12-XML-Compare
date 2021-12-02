@@ -91,6 +91,9 @@
     <string name="bh_buy_now">Purchase</string>
     <string name="bh_call_used">Used minutes</string>
     <string name="bh_cancel">Cancel</string>
+    <string name="bh_cancellation_of_carrier_services">Cancel services</string>
+    <string name="bh_cancellation_of_carrier_services_des">Cancel Mi Carrier Services</string>
+    <string name="bh_cancellation_of_carrier_services_result">"If you continue, you'll cancel Mi Carrier Services. After that, we'll stop collecting and using your personal information and delete your order history permanently. Make sure all your transactions are completed before you cancel services."</string>
     <string name="bh_cannot_action">"Couldn't use %1$s. Install the corresponding app first."</string>
     <string name="bh_cannot_fetch_num">Unknown phone number</string>
     <string name="bh_cannot_login_miacount">"Couldn't sign in to Mi Account"</string>
@@ -118,6 +121,9 @@
     <string name="bh_delete_charged_phone_number">Delete the recently used phone number</string>
     <string name="bh_delete_edited_phone_number">Delete the entered phone number</string>
     <string name="bh_delete_success">Deleted successfully</string>
+    <string name="bh_deregister_service_failure_description">Wait a minute or two and try again.</string>
+    <string name="bh_deregister_service_failure_title">"Couldn't cancel services"</string>
+    <string name="bh_deregister_service_success">Canceled services successfully</string>
     <string name="bh_edit_saved_phone_number">Edit tag for the saved number</string>
     <string name="bh_edit_sim_num">Edit SIM phone number</string>
     <string name="bh_exchange_number">Change number</string>
@@ -130,13 +136,17 @@
     <string name="bh_get_balance_success">Checked successfully. The info might be updated with a delay here.</string>
     <string name="bh_get_charge_phone_number">Select from contacts</string>
     <string name="bh_goto_granted">去授权</string>
-    <string name="bh_goto_open">去开启</string>
+    <string name="bh_goto_open">Not granted</string>
     <string name="bh_goto_set">Set</string>
+    <string name="bh_i_got_it">Got it</string>
     <string name="bh_input_hint">Enter phone number</string>
     <string name="bh_input_total_limit">Enter data amount</string>
     <string name="bh_insert_card_number">Add SIM %1$d phone number</string>
+    <string name="bh_is_open">Granted</string>
     <string name="bh_just_now">Just now</string>
     <string name="bh_kb">KB</string>
+    <string name="bh_login_to_cancellation">To be able to cancel services, sign in first.</string>
+    <string name="bh_login_to_withdrawal">To be able to withdraw consent, sign in first.</string>
     <string name="bh_mb">MB</string>
     <string name="bh_minute">m</string>
     <string name="bh_misim_recharge">Top up</string>
@@ -146,10 +156,12 @@
     <string name="bh_more_value">Other amount</string>
     <string name="bh_ms">Mi SIM</string>
     <string name="bh_net_error">A network error occurred</string>
+    <string name="bh_no_permission_read_call_log_desc">This permission allows displaying call duration</string>
+    <string name="bh_no_permission_read_contact_desc">This permission allows access to phone numbers in contacts</string>
     <string name="bh_no_sim">"SIM card isn't installed"</string>
     <string name="bh_no_sim_inserted">"SIM card isn't installed"</string>
     <string name="bh_none">None</string>
-    <string name="bh_not_contact">"Couldn't find results"</string>
+    <string name="bh_not_contact">"This number isn't in your contacts"</string>
     <string name="bh_notice">Attention</string>
     <string name="bh_online_service">Online support</string>
     <string name="bh_option_agree_dec">Allow Mi Carrier Services to connect to the internet and grant the required permissions before using the app.</string>
@@ -167,13 +179,15 @@
     <string name="bh_pay_success_desc">Your balance might be credited with a delay</string>
     <string name="bh_perm_ask_read_contacts">Allow Mi Carrier Services to access your contacts first.</string>
     <string name="bh_perm_desc_read_contacts">For displaying contacts during topping up</string>
+    <string name="bh_permission_contact">Access contacts</string>
     <string name="bh_permission_contact_desc">For topping up balance of your contacts</string>
     <string name="bh_permission_get_accounts_desc">For placing orders and checking their status</string>
+    <string name="bh_permission_read_call_log">Access call history</string>
     <string name="bh_permission_read_call_log_desc">For displaying call duration</string>
     <string name="bh_permission_read_call_log_desc_and_reason">Read call log for displaying call duration</string>
     <string name="bh_permission_read_contact_desc_and_reason">Read contacts for topping up balance of your contacts</string>
     <string name="bh_permission_read_phone_state_desc">For displaying phone numbers and related carrier info</string>
-    <string name="bh_permission_showing">权限说明</string>
+    <string name="bh_permission_showing">Permissions details</string>
     <string name="bh_pkg_data_cant_query">"Can't view details due to carrier restrictions"</string>
     <string name="bh_please_check_operation">请检查运营商是否设置正确</string>
     <string name="bh_please_complete_sim_before_charge">To top up, add a phone number first.</string>
@@ -195,6 +209,9 @@
     <string name="bh_should_login_to_buy">Sign in to Mi Account to be able to purchase call minutes and mobile data</string>
     <string name="bh_sim">SIM %1$d</string>
     <string name="bh_similar_number_hint">This number is similar to %1$s. Top up this number anyway?</string>
+    <string name="bh_stop_carrier_services">Turn off Mi Carrier Services</string>
+    <string name="bh_stop_carrier_services_short">Turn off Mi Carrier Services</string>
+    <string name="bh_stop_result">"You won't be able to manage your carrier plan or purchase data and call minutes if you turn off Mi Carrier Services. Turn off anyway?"</string>
     <string name="bh_system_recommend">System recommendations</string>
     <string name="bh_system_recommend_des">Allow us to analyze your traffic and recommend digital products based on the results</string>
     <string name="bh_tag">*%1$s</string>
@@ -220,7 +237,16 @@
     <string name="bh_used_today">Used today</string>
     <string name="bh_user_agreement">User Agreement</string>
     <string name="bh_vs">Mi Roaming</string>
+    <string name="bh_where_to_restart_carrier_services">You can always turn Mi Carrier Services back on in Contacts > Settings.</string>
     <string name="bh_will_open">Opening %1$s…</string>
+    <string name="bh_withdraw_permission_failure_description">Wait a minute or two and try again.</string>
+    <string name="bh_withdraw_permission_failure_title">"Couldn't withdraw consent"</string>
+    <string name="bh_withdraw_permission_success">Withdrew consent successfully</string>
+    <string name="bh_withdrawal_of_consent">Withdrawal of consent</string>
+    <string name="bh_withdrawal_of_consent_and_cancellation_of_services">Withdrawal of consent and service cancelation</string>
+    <string name="bh_withdrawal_of_consent_des">Withdraw consent to the Privacy Policy of Mi Carrier Services</string>
+    <string name="bh_withdrawal_of_consent_long">Withdrawal of consent</string>
+    <string name="bh_withdrawal_of_consent_result">"If you continue, you'll withdraw your consent to the Privacy Policy of Mi Carrier Services. After that, we'll stop collecting and using your personal information and delete your order history permanently. Make sure all your transactions are completed before you withdraw consent."</string>
     <string name="bh_wrong_number_hint">Enter a valid phone number</string>
     <string name="bh_yuan">CNY</string>
     <string name="bind_simcard_default">Default SIM for calls</string>
@@ -434,6 +460,7 @@
     <string name="combined_title_and_miprofile_swaped">%1$s, %2$s</string>
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
+    <string name="comma">Comma</string>
     <string name="composer_failed_to_get_database_infomation">"Couldn't get database information."</string>
     <string name="composer_has_no_exportable_contact">There are no exportable contacts. If you do have contacts on your device, some data providers may not allow the contacts to be exported from the device.</string>
     <string name="composer_not_initialized">"The vCard composer didn't start properly."</string>
@@ -838,6 +865,7 @@ Reason: \"%s\""</string>
     <string name="importing_vcard_finished_title">Finished importing vCard %s</string>
     <string name="insertContactDescription">Create contact</string>
     <string name="invalidContactMessage">"Contact doesn't exist"</string>
+    <string name="item_offical">Official</string>
     <string name="keep_local">"Don't sync"</string>
     <string name="keep_local_btn">"Use device's internal storage"</string>
     <string name="label_custom_type">Custom</string>
@@ -1043,7 +1071,7 @@ Reason: \"%s\""</string>
     <string name="permission_dailog_title">Permissions required</string>
     <string name="permission_notice_desc_access_fine_location">For importing contacts from other devices via Bluetooth</string>
     <string name="permission_notice_desc_add_voicemail">For using voicemail and audio message functionality</string>
-    <string name="permission_notice_desc_call_phone">For making calls in third party apps</string>
+    <string name="permission_notice_desc_call_phone">For making calls through Home screen shortcuts</string>
     <string name="permission_notice_desc_call_phone_for_pad">For making calls in third party apps</string>
     <string name="permission_notice_desc_camera">For taking profile photos</string>
     <string name="permission_notice_desc_read_call_logs">For viewing call history</string>
@@ -1056,7 +1084,7 @@ Reason: \"%s\""</string>
     <string name="permission_notice_desc_write_external_storage">For adding profile photos and importing vCards</string>
     <string name="permission_record_audio_desc">For using your voice during ID verification</string>
     <string name="permission_retry_deny">Cancel</string>
-    <string name="permission_retry_dialog_msg">To be able to use your SIM card with this app, manage your contacts, and keep call history up to date, allow this app to access and edit your contacts and call history, as well as to access device info.</string>
+    <string name="permission_retry_dialog_msg">To be able to use your SIM card with this app, make calls through Home screen shortcuts, manage your contacts, and keep call history up to date, allow this app to access and edit your contacts and call history, make calls, and access device info.</string>
     <string name="permission_retry_dialog_msg_pad">To be able to use your SIM card with this app and manage your contacts, allow this app to access and edit your contacts, as well as to access device info.</string>
     <string name="permission_retry_setting">Settings</string>
     <string name="permission_write_external_storage_desc">For saving app data</string>
@@ -1140,7 +1168,7 @@ Reason: \"%s\""</string>
     <string name="privacy_password_title3">Upgrade your password</string>
     <string name="privacy_password_title4">Password upgraded</string>
     <string name="privacy_settings_call_phone">Make calls</string>
-    <string name="privacy_settings_call_phone_description">For making calls in third party apps</string>
+    <string name="privacy_settings_call_phone_description">For making calls through Home screen shortcuts</string>
     <string name="privacy_settings_call_phone_description_for_pad">For making calls in third party apps</string>
     <string name="privacy_settings_call_phone_for_pad">Make calls</string>
     <string name="privacy_settings_contacts">Contacts and Phone</string>
@@ -1205,7 +1233,7 @@ Reason: \"%s\""</string>
     <string name="remove_duplicate">"MIUI will help you find and merge duplicate contacts.
 
  To begin, tap the Merge icon at the bottom of your screen."</string>
-    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE</string>
+    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE</string>
     <string name="residual_time_description">%1$sday%2$shour</string>
     <string name="residual_time_description2">%1$dh</string>
     <string name="residual_time_description3">%1$dm</string>
@@ -1220,6 +1248,10 @@ Reason: \"%s\""</string>
     <string name="return_call_dialing">Dialing</string>
     <string name="return_call_incoming">Incoming call</string>
     <string name="ringLabelsGroup">Ringtone</string>
+    <string name="saf_permission_dialog_content">"Android doesn't allow Contacts and Phone to access call recordings by default. Allow these apps to access call recordings to be able to view them."</string>
+    <string name="saf_permission_dialog_grant_permission_immediately">Allow</string>
+    <string name="saf_permission_dialog_later">Later</string>
+    <string name="saf_permission_dialog_title">Allow Contacts and Phone to access call recordings</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
