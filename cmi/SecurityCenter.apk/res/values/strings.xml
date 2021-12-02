@@ -746,7 +746,7 @@ You will not lose any app data."</string>
     <string name="auto_task_default_task_summary_listen_music">Play music and select earphone type</string>
     <string name="auto_task_default_task_summary_meet">Schedule meeting time and turn on DND mode</string>
     <string name="auto_task_default_task_summary_noon_break">Schedule nap time and turn on DND mode</string>
-    <string name="auto_task_default_task_summary_save_power">Turn on Battery saver when battery is lower than %s</string>
+    <string name="auto_task_default_task_summary_save_power">Turn on Battery saver when battery is lower than 30%</string>
     <string name="auto_task_default_task_summary_sleep">Schedule bedtime and customize device behavior</string>
     <string name="auto_task_default_task_summary_watch_video">Open app, turn on Wi-Fi, adjust volume</string>
     <string name="auto_task_default_task_title_driver_car">Drive</string>
@@ -1332,6 +1332,8 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
     <string name="descx_quick_scan_preparation">Just a sec…</string>
     <string name="detail_app_button">App info</string>
     <string name="details_subtitle">Usage details</string>
+    <string name="dev_sign_notification_content">"You're using Android 12 Beta now. The feedback you provide will help us identify and fix issues. Thanks for participating in this program!"</string>
+    <string name="dev_sign_notification_title">Android 12 Beta</string>
     <string name="device_manager_apply_step_1">Activate device administrator for this app?</string>
     <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
 All data on your device might be erased and your Lock screen password might be reset."</string>
@@ -1716,6 +1718,7 @@ volunteer"</string>
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Removing downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_player_time_seperate">/</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
     <string name="exo_track_resolution">%1$d × %2$d</string>
@@ -1984,6 +1987,7 @@ volunteer"</string>
     <string name="gamebooster_network_dialog_cn_message">"You can't use Game Turbo when Security isn't allowed to connect to the internet and access your location. Allow now?"</string>
     <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of Game Turbo?</string>
     <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
+    <string name="gamebox_ai_subtitle">AI subtitles</string>
     <string name="gamebox_app_not_find">Install the app first.</string>
     <string name="gamebox_brightness">Brightness</string>
     <string name="gamebox_browser_not_find">Install Mi Browser first</string>
@@ -2257,7 +2261,7 @@ of your gaming sessions"</string>
     <string name="gd_setting_group_custom_line_location">Toolbox position</string>
     <string name="gd_setting_group_custom_settings">Personalization</string>
     <string name="gd_setting_group_custom_vtb_apps">Video apps</string>
-    <string name="gd_setting_group_smart_tool_box">Smart toolbox</string>
+    <string name="gd_setting_group_smart_tool_box">Sidebar</string>
     <string name="gd_setting_group_title_switch">Scenes</string>
     <string name="gd_setting_gtb">Show while playing games</string>
     <string name="gd_setting_gtb_desc">Special features for gaming</string>
@@ -2266,7 +2270,7 @@ of your gaming sessions"</string>
     <string name="gd_setting_guide_two">Swipe from the edge to open video toolbox</string>
     <string name="gd_setting_miui_dock">Always show</string>
     <string name="gd_setting_shorthand">Quick notes</string>
-    <string name="gd_setting_title">Smart toolbox</string>
+    <string name="gd_setting_title">Sidebar</string>
     <string name="gd_setting_vtb">Show while playing videos</string>
     <string name="gd_setting_vtb_desc">Special features for video playback</string>
     <string name="gdpr_msg"><Data>"To be able to detect security risks and protect your data, we need to collect the necessary amount of information about your device. Read and agree to our &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Privacy Policy&lt;/a> before using our services. In case you don't allow us to collect such information, you'll still be able to use this app, but some features won't be available to you. "</Data></string>
@@ -3318,7 +3322,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permission_instruction_read_contacts">This permission allows apps to access the contact info stored on your device. This info might contain the frequency of your communication with specific contacts via calls, emails, and other methods. This permission also allows apps to save contacts. Malicious apps might use this permission to share contacts without your consent.</string>
     <string name="permission_instruction_read_notify_sms">This permission allows apps to read notification text messages stored on your device or SIM card.</string>
     <string name="permission_instruction_read_phone_state">"This permission allows apps to access your phone number, IMEI, IMSI, and other device identifiers. Apps normally use this permission to determine whether your calls are being forwarded. If you're using a virtual device ID, apps won't be able to access your actual device identifiers."</string>
-    <string name="permission_instruction_read_sms">This permission allows apps to read all text messages stored on your device or SIM card. Such messages might contain passwords, bank account details, and other personal information.</string>
+    <string name="permission_instruction_read_sms">This permission allows apps to read all text and multimedia messages stored on your device or SIM card. Such messages might contain passwords, bank account details, and other personal information.</string>
     <string name="permission_instruction_read_write_calendar">This permission allows apps to access your calendar, as well as read, add, remove, edit, share, and save calendar events. Malicious apps might use this permission to send messages from your name or edit calendar events without your consent.</string>
     <string name="permission_instruction_receive_mms">This permission allows apps to read all multimedia messages stored on your device or SIM card. Such messages might contain passwords, bank account details, and other personal information.</string>
     <string name="permission_instruction_record_audio">"This permission allows apps to use the microphone for recording audio. Remember that this permission allows apps to record anything, including your conversations with others. It's best to allow apps to use this permission only while you're using the apps."</string>
@@ -3497,6 +3501,11 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_center_super_wireless_charge_noti_title">Quick wireless charging is on</string>
     <string name="power_center_super_wireless_charge_summary">"Increase the fan speed of the wireless charger's cooler"</string>
     <string name="power_center_super_wireless_charge_toast_close">Quick wireless charging is off</string>
+    <string name="power_center_surface_temp_high">Hot</string>
+    <string name="power_center_surface_temp_higher">Warm</string>
+    <string name="power_center_surface_temp_low">Cold</string>
+    <string name="power_center_surface_temp_lower">Cool</string>
+    <string name="power_center_surface_temp_normal">Normal</string>
     <string name="power_center_time_to_boot">Power on time</string>
     <string name="power_center_time_to_shutdown">Power off time</string>
     <string name="power_center_title">Battery</string>
@@ -3578,6 +3587,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="power_optimize_save_on_lockscreen">Save power when device is locked</string>
     <string name="power_optimize_set_lockscreen_time_holder">Lock device after %d seconds of inactivity</string>
     <string name="power_phone">Voice calls</string>
+    <string name="power_rank_surface_flinger">Rendering</string>
+    <string name="power_rank_system">Android system</string>
     <string name="power_save_mode">Battery saver</string>
     <string name="power_save_mode_auto_exit_summary_new">Turn off when battery is %s or fully charged​</string>
     <string name="power_save_mode_auto_exit_title">Turn off when charged</string>
@@ -4977,6 +4988,11 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="sys_freememory_title">Available</string>
     <string name="sys_title_gamebooster_unit_gb">GB</string>
     <string name="sys_title_gamebooster_unit_mb">MB</string>
+    <string name="system_anti_fraud_dialog_confirm_btn_txt">Got it</string>
+    <string name="system_anti_fraud_dialog_content">"Looks like you've just received a scam call or message. Proceeding with this payment may cause financial losses."</string>
+    <string name="system_anti_fraud_dialog_hint">&lt;font = color=#747474>If customer service personnel, authorities, or the people you might know ask you to complete this payment, &lt;/font>&lt;font = color=#F22424>verify their identity before you continue.&lt;/font></string>
+    <string name="system_anti_fraud_dialog_image_txt">Anti-fraud protection</string>
+    <string name="system_anti_fraud_dialog_title">Anti-fraud warning</string>
     <string name="system_app">System apps</string>
     <string name="system_app_permission_instruction">This app needs the following permissions to provide basic system services. Managing permissions is restricted for this app, as changing permission statuses will lead to system operation abnormalities.</string>
     <string name="system_application">System apps</string>
