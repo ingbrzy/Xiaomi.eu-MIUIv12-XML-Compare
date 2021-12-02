@@ -55,6 +55,7 @@
     <string name="application_permissions">App permissions</string>
     <string name="back">Back</string>
     <string name="backup_introduction">You can use this app to back up and restore items on your device.</string>
+    <string name="bluetooth_introduction">Bluetooth is used by the system for wireless communication. To be able to work normally, Bluetooth needs the following permissions:</string>
     <string name="boot_video_desc" />
     <string name="boot_video_replay">Play again</string>
     <string name="boot_video_skip">Skip</string>
@@ -180,6 +181,7 @@
     <string name="disagreement_location_service_abnormal">"If you don't agree to grant these permissions, you won't be able to use location services. You can turn location services on or off at any time in Settings > Privacy protection."</string>
     <string name="disagreement_mi_account_abnormal">"If you don't agree to grant these permissions, you won't be able to use Mi Account services. You can turn Mi Account services on or off at any time in Settings > Mi Account."</string>
     <string name="disagreement_service_not_working_properly">"If you don't agree to grant these permissions, you won't be able to use this app."</string>
+    <string name="disagreement_terminate_bluetooth">"If you don't want to grant these permissions, you won't be able to use Bluetooth. You can turn Bluetooth on and off and add Bluetooth devices in the Settings."</string>
     <string name="disagreement_terminate_miuidaemon">"We will use the permissions only when you start transferring data from your device when its screen is damaged. If you don't agree to grant these permissions, you won't be able to use this app."</string>
     <string name="disagreement_terminate_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall, sign out, or restrict permissions in the Settings in such cases."</string>
     <string name="download_introduction">Downloads is an app provided by Xunlei used for downloads and managing downloaded content (including App store content, videos, system updates, themes, and browser content) for users of Xiaomi devices.</string>
@@ -397,14 +399,6 @@
     <string name="navigation_picker_radio_text_virtual_key">Buttons</string>
     <string name="next">Next</string>
     <string name="next_fingerprint">Next</string>
-    <string name="ng_haokan_privacy_policy">https://92.haokan.mobi/lockscreen/mi/privacy_policy</string>
-    <string name="ng_haokan_user_agreement">https://92.haokan.mobi/lockscreen/mi/user_agreement</string>
-    <string name="ng_id_glance_privacy_policy">https://in.api.glance.inmobi.com/api/v0/glance/xiaomi/privacy?lang=%1$s_region=%2$s</string>
-    <string name="ng_id_glance_user_agreement">https://in.api.glance.inmobi.com/api/v0/glance/xiaomi/eula?lang=%1$s_region=%2$s</string>
-    <string name="ng_mailru_privacy_policy">https://help.mail.ru/legal/terms/pulse/privacy</string>
-    <string name="ng_mailru_user_agreement">https://help.mail.ru/legal/terms/pulse/terms</string>
-    <string name="ng_wuli_privacy_policy">https://news.lockscreenapi.com/sl/fiyuYz</string>
-    <string name="ng_wuli_user_agreement">https://news.lockscreenapi.com/sl/BfMnQf</string>
     <string name="ng_xiaomi_privacy_policy">https://h5.app.intl.miui.com/gallery/privacy.html?lang=%1$s_%2$s</string>
     <string name="ng_xiaomi_user_agreement">https://h5.app.intl.miui.com/gallery/eula.html?lang=%1$s_%2$s</string>
     <string name="night">Evening</string>
@@ -426,7 +420,7 @@
     <string name="other_settings_enhanced_lockscreen_summary">Get curated images and stories delivered to your Lock screen daily. %1$s and %2$s</string>
     <string name="other_settings_enhanced_lockscreen_summary_index">End User Licence Agreement</string>
     <string name="other_settings_location">Location</string>
-    <string name="other_settings_location_summary">Allow apps to access your location</string>
+    <string name="other_settings_location_summary">Allow apps and websites to access your location info to provide location-based services</string>
     <string name="other_settings_upload_debug_log_detail">"Help improve your MIUI device experience by automatically sending diagnostic, device, and app usage data to Xiaomi. This will help improve battery life, MIUI system and app stability, and more.
 The data you'll send will contain general information about your device and how you use it (e.g. battery level, system and app activity, and errors). The data will be used to improve MIUI devices.
 Turning off this feature doesn't affect your device's ability to send the information needed for essential services such as system updates and security.
@@ -445,12 +439,14 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="permission_backup">Accessing storage</string>
     <string name="permission_backup_introduction">For accessing and saving backups on your device</string>
     <string name="permission_call_records">Access call history</string>
+    <string name="permission_call_records_describe_bluetooth_summary">For allowing your other compatible devices that you connect to this device to access call history. This will only happen when you proactively require using call history via another device. Call history and contacts shared by the system via Bluetooth will only be cached locally on your devices and shared with them with your permission.</string>
     <string name="permission_call_records_introduction">For accessing call history in order to display blocked items</string>
     <string name="permission_call_state_introduction">For accessing phone status, recording calls, and pausing recordings during incoming calls</string>
     <string name="permission_clock_info_introduction">For saving alarm data</string>
     <string name="permission_contact">Access contacts</string>
     <string name="permission_contact_describe">Access contacts</string>
     <string name="permission_contact_describe_MIUIDaemon_summary">For verifying your identity.</string>
+    <string name="permission_contact_describe_bluetooth_summary">For allowing your other compatible devices that you connect to this device to access contacts. This will only happen when you turn Bluetooth on or edit your contacts while Bluetooth is on.</string>
     <string name="permission_contact_describe_desktop_summary">For using the Home screen emergency contact feature in Lite mode and displaying conversation notifications;</string>
     <string name="permission_contact_describe_message_summary">For displaying the corresponding contact information of SMS and MMS.</string>
     <string name="permission_contact_introduction">For providing Blocklist functionality and calling emergency contacts</string>
@@ -588,6 +584,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="service_name_album">Gallery</string>
     <string name="service_name_application_package">Package installer</string>
     <string name="service_name_backup">Backups</string>
+    <string name="service_name_bluetooth">Bluetooth</string>
     <string name="service_name_calculator">Calculator</string>
     <string name="service_name_camera">Camera</string>
     <string name="service_name_carrier">Statement on carrier services</string>
@@ -628,7 +625,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="sim_card_detection_mobile_not_available">"SIM card couldn't connect to the network"</string>
     <string name="sim_card_dial_card1">SIM1 for calls</string>
     <string name="sim_card_dial_card2">SIM2 for calls</string>
-    <string name="sim_card_do_not_select_dial_card">Select SIM card to dialing</string>
+    <string name="sim_card_do_not_select_dial_card">Select SIM card when dialing</string>
     <string name="sim_card_network_card1">Data SIM1</string>
     <string name="sim_card_network_card2">Data SIM2</string>
     <string name="sim_dectection_next">Continue</string>
