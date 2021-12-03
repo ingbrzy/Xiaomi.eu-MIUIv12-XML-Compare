@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="access_denied_info">Too many attempts. Wait a minute or two and try again.</string>
     <string name="account_bind_secure_email_title">Add recovery email</string>
     <string name="account_bind_secure_phone_title">Add recovery phone number</string>
     <string name="account_crop_user_avatar">Crop photo</string>
@@ -106,12 +107,12 @@
     <string name="catch_full_log_item_title_audio">Audio, call sound, and audio recording</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_camera">Camera</string>
-    <string name="catch_full_log_item_title_charge">Charge</string>
+    <string name="catch_full_log_item_title_charge">Charging</string>
     <string name="catch_full_log_item_title_dump_heap">Lagging</string>
     <string name="catch_full_log_item_title_gps">Location services</string>
     <string name="catch_full_log_item_title_sensor">Sensors</string>
     <string name="catch_full_log_item_title_signal">Phone, signal, and mobile networks</string>
-    <string name="catch_full_log_item_title_trace">Jank</string>
+    <string name="catch_full_log_item_title_trace">Lag</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
     <string name="catch_full_log_item_title_wifi_china">Wi-Fi</string>
     <string name="catch_full_log_notification_content">Tap to go back to logs</string>
@@ -119,11 +120,11 @@
     <string name="catch_full_log_privacy_content_audio">"You're generating logs and saving them on your device. The logs may contain the information about the audio on your device, including playback history and recording history. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_bt">"You're generating logs and saving them on your device. The logs may contain Bluetooth device usage info (including call history, messages, transferred files etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_camera">"You're generating logs and saving them on your device. The logs may contain Camera usage info (including CPU frequency, system call, memory usage etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
-    <string name="catch_full_log_privacy_content_charge">"You're generating logs and saving them on your device. The logs may contain Charge info. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+    <string name="catch_full_log_privacy_content_charge">"You're generating logs and saving them on your device. The logs may contain charging stats. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_gps">"You're generating logs and saving them on your device. The logs may contain your personal info and location info. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_sensor">"You're generating logs and saving them on your device. The logs may contain the information collected by your device's sensors (including ambient light sensor, barometer, pedometer, magnetometer, etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_signal">"You're generating logs and saving them on your device. The logs may contain your messages, call history, network info, and communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
-    <string name="catch_full_log_privacy_content_trace">"You're generating logs and saving them on your device. The logs may contain Program running record (including CPU frequency, system call, memory usage etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+    <string name="catch_full_log_privacy_content_trace">"You're generating logs and saving them on your device. The logs may contain app usage stats (including CPU frequency, system call, memory usage, etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_wifi">"You're generating logs and saving them on your device. The logs may contain your personal info, location info, as well as the IP and MAC addresses of your device. If you're connected to an unencrypted Wi-Fi network, we might also be able to access parts of your communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_privacy_content_wifi_china">"You're generating logs and saving them on your device. The logs may contain your personal info, location info, as well as the IP and MAC addresses of your device. If you're connected to an unencrypted Wi-Fi network, we might also be able to access parts of your communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_start_dump_hprof">Generate lagging log</string>
@@ -233,6 +234,9 @@ Send this code to the supervisor."</string>
     <string name="discard_draft_dialog_button_discard">Discard</string>
     <string name="discard_draft_dialog_content">"Any changes you've made to this report will be lost."</string>
     <string name="discard_draft_dialog_title">Discard draft?</string>
+    <string name="doing_login">Signing in…</string>
+    <string name="doing_query_account">Checking account info…</string>
+    <string name="doing_register">Creating account…</string>
     <string name="early_morning">Morning</string>
     <string name="earthly_branches_chen">辰</string>
     <string name="earthly_branches_chou">丑</string>
@@ -448,9 +452,11 @@ Send this code to the supervisor."</string>
     <string name="get_ph_ticket">Get code</string>
     <string name="get_phone_bind_exceed_limit">"You can associate up to 3 Mi Accounts with a phone number. Can't add new accounts."</string>
     <string name="get_phone_verifycode_exceed_limit">Too many verification codes have been sent to this number. Wait 24 hours and try again.</string>
+    <string name="getverifycode_seconde">s</string>
     <string name="google_application_id" />
     <string name="goon_feedback_main">Continue</string>
     <string name="goto_sign_up">Create account</string>
+    <string name="header_help">Help</string>
     <string name="heavenly_stems_bing">丙</string>
     <string name="heavenly_stems_ding">丁</string>
     <string name="heavenly_stems_geng">庚</string>
@@ -463,10 +469,12 @@ Send this code to the supervisor."</string>
     <string name="heavenly_stems_yi">乙</string>
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hint_feedback_main">Describe the issue</string>
-    <string name="i_know">OK</string>
+    <string name="i_get_it">Got it</string>
+    <string name="i_know">Got it</string>
     <string name="identity">Identification</string>
     <string name="inconsistent_pwd">"Passwords don't match"</string>
     <string name="input_email_address_notice">"We'll use this email to verify your account"</string>
+    <string name="input_length_exceeds_limit">The text you entered is too long</string>
     <string name="input_new_pwd">Enter new password</string>
     <string name="isornot_your_mi_account">Is this your Mi Account?</string>
     <string name="issue_search">Search</string>
@@ -501,6 +509,11 @@ Send this code to the supervisor."</string>
     <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
     <string name="loading">Just a sec…</string>
     <string name="loading_apps">Loading list…</string>
+    <string name="login_by_local_phone_long_text">Sign in now</string>
+    <string name="login_by_local_phone_short_text">Sign in</string>
+    <string name="login_other">Another Mi Account</string>
+    <string name="login_register_by_local_phone_long_text">Create account</string>
+    <string name="login_with_sns">Other ways to sign in</string>
     <string name="logo_title">Feedback</string>
     <string name="logout_account">Sign out</string>
     <string name="menu_copy">Copy</string>
@@ -510,6 +523,7 @@ Send this code to the supervisor."</string>
     <string name="mi_service_dialog_content">All feedback features were moved to the new \"Services &amp; feedback\" app. The Feedback app will be removed from your Home screen. Tap \"Open\" to try \"Services &amp; feedback\".</string>
     <string name="mi_service_dialog_title">Introducing \"Services &amp; feedback\"</string>
     <string name="midnight">Night</string>
+    <string name="mishop_login_other">Another Account</string>
     <string name="miuix_access_state_desc">Selected</string>
     <string name="miuix_alphabet_indexer_name">Index bar</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
@@ -526,6 +540,7 @@ Send this code to the supervisor."</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
     <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
@@ -605,6 +620,8 @@ Send this code to the supervisor."</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="net_error_info">No network connection, tap here to go to Settings</string>
     <string name="network_err">"Can't connect to the network."</string>
+    <string name="network_error_info">A network error occurred. Check your network settings and try again.</string>
+    <string name="network_timeout_info">"Couldn't connect to the network. Try again."</string>
     <string name="network_unavailable_dialog_button_ok">OK</string>
     <string name="network_unavailable_dialog_content">Your report will be sent when you have a data connection.</string>
     <string name="network_unavailable_dialog_title">"Can't connect to the network"</string>
@@ -618,7 +635,7 @@ Send this code to the supervisor."</string>
     <string name="nothing">--</string>
     <string name="ok">OK</string>
     <string name="open_feedback_main">More</string>
-    <string name="open_settings">Go to settings</string>
+    <string name="open_settings">Settings</string>
     <string name="passport_access_denied">Access denied</string>
     <string name="passport_account_label">Mi Account</string>
     <string name="passport_account_name">"Account: %1$s "</string>
@@ -720,23 +737,40 @@ Send this code to the supervisor."</string>
     <string name="phone_num_use_for">Phone number is used for:</string>
     <string name="phone_number">Phone number</string>
     <string name="photoPickerNotFoundText">No photos available.</string>
+    <string name="please_agree_protocal">Please Agree Protocal</string>
     <string name="pm">PM</string>
     <string name="post_miui_bbs_failed">"Couldn't post to MIUI Forum"</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="privacy_category_title">Privacy</string>
     <string name="privacy_policy_title">Privacy policy</string>
+    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+%2$s
+Read and agree to the new version of %3$s before you continue."</string>
+    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+    <string name="progressbar_title">Checking for security issues…</string>
+    <string name="protocal_dialog_cancel">Cancel</string>
+    <string name="protocal_dialog_confirm">Agree</string>
+    <string name="protocal_dialog_title">Attention</string>
     <string name="psw_hint">Password</string>
     <string name="psw_sign_in">Sign in using password</string>
     <string name="qq_application_id" />
     <string name="qq_login_protocol_scheme">com.xiaomi.passport.ui</string>
     <string name="refresh">Refresh</string>
+    <string name="register_by_local_phone_long_text">Create account</string>
+    <string name="register_by_local_phone_short_text">Create account</string>
     <string name="related_question_answer_details">Related issue</string>
     <string name="reply_failed">"Couldn't reply"</string>
     <string name="reply_option_log_hint">Optional</string>
     <string name="reply_select_log_hint">Select log</string>
     <string name="reply_successful">Replied successfully</string>
     <string name="report_miui">Report bug</string>
-    <string name="request_camera_permission_message">This service need to ask your permission follows, we will strictly abide by relevant laws to protect your personal information: &lt;br>&lt;br>&lt;b> Access Camera: experience real-time recording services for setting Avatar &lt;/b>&lt;br>&lt;br> If you do not agree to call the above permissions, this function will not work properly, but it will not affect your use of the basic functions of this application. You can choose to turn off the above permission call in the system settings to withdraw your consent.</string>
+    <string name="request_agree">Allow</string>
+    <string name="request_camera_permission_message">"We shall protect your personal information in accordance with the relevant laws and regulations. This app needs the following permissions to work normally:&lt;br>&lt;br>&lt;b>Using camera (for setting your profile photo)&lt;/b>&lt;br>&lt;br>If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
+    <string name="request_cancel">Cancel</string>
+    <string name="request_error_invalid_token">"Couldn't verify"</string>
+    <string name="request_error_network">A network error occurred. Check your network settings and try again.</string>
+    <string name="request_error_unknown">A system error occurred. Go back and try again.</string>
+    <string name="request_gallery_permission_message">Allow access to Gallery:&lt;br />For setting profile photos</string>
     <string name="resend_active_email">Resend</string>
     <string name="resend_email_reach_limit_message">"You've requested too many verification emails. Make sure that the verification email isn't in your inbox's Spam folder."</string>
     <string name="resend_email_reach_limit_title">Too many attempts</string>
@@ -761,6 +795,7 @@ Send this code to the supervisor."</string>
     <string name="sign_in">Signing in</string>
     <string name="sign_in_progress">Signing in…</string>
     <string name="sign_in_title">Sign in with your Mi Account</string>
+    <string name="skip_query_account">Skip</string>
     <string name="sms_send_success">Sent successfully</string>
     <string name="sns_access_token_expired_warning">Session expired. Sign in again to reconnect this account.</string>
     <string name="sns_bind_limit">Too many attempts. Try other ways to sign in.</string>
@@ -811,6 +846,7 @@ Send this code to the supervisor."</string>
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">Sun</string>
     <string name="system_app_select">Built-in apps</string>
+    <string name="system_error_info">System is busy. Wait a minute or two and try again.</string>
     <string name="tab_title_chat">FAQ</string>
     <string name="tab_title_my_reports">My reports</string>
     <string name="tab_title_preferences">Settings</string>
@@ -902,6 +938,7 @@ Send this code to the supervisor."</string>
     <string name="tuesday">Tuesday</string>
     <string name="tuesday_short">Tue</string>
     <string name="tuesday_shortest">Tue</string>
+    <string name="unknown_error_info">Unknown error</string>
     <string name="update_dialog_cancel">Cancel</string>
     <string name="update_dialog_confirm">Update</string>
     <string name="update_dialog_content_log">"What's new:
@@ -914,9 +951,24 @@ Size: %2$s"</string>
     <string name="update_phone_notice">Change security settings</string>
     <string name="upload_error_log">Upload log</string>
     <string name="upload_log_failed">"Couldn't send logs"</string>
+    <string name="user_agreement_hint_3rd_app"><Data>"I've read and agreed to &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> and Mi Account's &lt;a href=\"%3$s\">User Agreement&lt;/a> and &lt;a href=\"%4$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile"><Data>"I've read and agreed to &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, Mi Account's &lt;a href=\"%3$s\">User Agreement&lt;/a> and &lt;a href=\"%4$s\">Privacy Policy&lt;/a>, as well as &lt;a href=\"%5$s\">Terms and conditions of China Mobile verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom"><Data>"I've read and agreed to &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, Mi Account's &lt;a href=\"%3$s\">User Agreement&lt;/a> and &lt;a href=\"%4$s\">Privacy Policy&lt;/a>, as well as &lt;a href=\"%5$s\">Terms and conditions of eSurfing account verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom"><Data>"I've read and agreed to &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, Mi Account's &lt;a href=\"%3$s\">User Agreement&lt;/a> and &lt;a href=\"%4$s\">Privacy Policy&lt;/a>, as well as &lt;a href=\"%5$s\">Terms and conditions of China Unicom verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_default"><Data>"I've read and agreed to Mi Account's &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_default_1"><Data>Read and agreed to the &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy.&lt;/a></Data></string>
+    <string name="user_agreement_hint_default_extra"><Data>"I've read and agreed to the &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy.&lt;/a> The first login will automatically create a Xiaomi account"</Data></string>
+    <string name="user_agreement_hint_first_login">"We'll create an account automatically if you're using your phone number for the first time."</string>
+    <string name="user_agreement_hint_with_mobile"><Data>"I've read and agreed to Mi Account's &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, as well as &lt;a href=\"%3$s\">Terms and conditions of China Mobile verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_with_telecom"><Data>"I've read and agreed to Mi Account's &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, as well as &lt;a href=\"%3$s\">Terms and conditions of eSurfing account verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_with_unicom"><Data>"I've read and agreed to Mi Account's &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>, as well as &lt;a href=\"%3$s\">Terms and conditions of China Unicom verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default"><Data>"Read and agreed to &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> and Mi Account's &lt;a href=\"%3$s\">User Agreement&lt;/a> and &lt;a href=\"%4$s\">Privacy Policy&lt;/a>."</Data></string>
     <string name="user_avatar_update_title">Change profile photo</string>
     <string name="user_avatar_uploading">Just a sec…</string>
     <string name="user_id_hint">Email/Phone/Mi Account ID</string>
+    <string name="user_must_known">Attention</string>
+    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_name_phone_number">Phone number</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="v_code_title">Enter verification code</string>
@@ -930,7 +982,11 @@ Size: %2$s"</string>
     <string name="weibo_redirect_uri" />
     <string name="withdraw">Withdraw</string>
     <string name="withdraw_consent">Withdrawal of consent</string>
+    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
+    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
     <string name="withdraw_consent_hint">"If you continue, you'll withdraw your consent to the Privacy Policy of %1$s. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As %2$s provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept %3$s services. Withdraw consent now?"</string>
+    <string name="withdrawing">Withdrawing consent…</string>
     <string name="xiaomi_update_sdk_bytes_unit">%1$sB</string>
     <string name="xiaomi_update_sdk_connect_download_manager_fail">Connect Download Manager failed, please check the Download Manager state in the Application Management.</string>
     <string name="xiaomi_update_sdk_dialog_message">"Introducing version %1$s
