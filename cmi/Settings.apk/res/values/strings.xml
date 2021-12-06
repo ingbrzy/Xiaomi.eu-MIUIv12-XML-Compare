@@ -1635,6 +1635,7 @@ You haven't connected to %2$s before."</string>
     <string name="bluetooth_profile_pbap_summary">Used for sharing contacts</string>
     <string name="bluetooth_profile_sap">Used for accessing SIM</string>
     <string name="bluetooth_profile_vcp">Volume control</string>
+    <string name="bluetooth_profile_volume_control">VOLUME_CONTROL</string>
     <string name="bluetooth_quick_toggle_summary">Turn on Bluetooth</string>
     <string name="bluetooth_quick_toggle_title">Bluetooth</string>
     <string name="bluetooth_remember_choice">Don’t ask again</string>
@@ -2917,6 +2918,8 @@ This setting affects all users of this device."</string>
     <string name="deny">Deny</string>
     <string name="detail_app_button">App info</string>
     <string name="detail_question">Details</string>
+    <string name="detailed_wifi_logging_disabled">Detailed Wi-Fi logging is off</string>
+    <string name="detailed_wifi_logging_enabled">Detailed Wi-Fi logging is on</string>
     <string name="details_subtitle">Use details</string>
     <string name="dev_logpersist_clear_warning_message">When we no longer are monitoring with the persistent logger, we are required to erase the logger data resident on your device.</string>
     <string name="dev_logpersist_clear_warning_title">Clear logger persistent storage?</string>
@@ -3476,6 +3479,7 @@ For more details, contact your organization's admin."</string>
     <string name="enterprise_privacy_settings_summary_with_name">Changes &amp; settings managed by %s</string>
     <string name="enterprise_privacy_usage_stats">Amount of time and data spent in each app</string>
     <string name="enterprise_privacy_wipe_device">Admin can delete all device data</string>
+    <string name="environmental_speech_recognition">Ambient sound recognition</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
     <string name="erase_application">Erase apps</string>
@@ -3530,6 +3534,7 @@ Restart your device and try again."</string>
     <string name="experimental_preference">(Experimental)</string>
     <string name="expert_detail_content_description">View details</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="extended_power_menu">Extended power menu</string>
     <string name="exterior">Color scheme</string>
     <string name="external_code_size_label">USB storage app</string>
     <string name="external_data_size_label">USB storage data</string>
@@ -3970,7 +3975,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="game_settings_summary">Turn on Game Dashboard shortcut, etc</string>
     <string name="game_settings_title">Game settings</string>
     <string name="game_storage_settings">Games</string>
-    <string name="gd_setting_title">Smart toolbox</string>
+    <string name="gd_setting_title">Sidebar</string>
     <string name="general_category_title">General</string>
     <string name="general_notification_header">Manage</string>
     <string name="general_text">Text field</string>
@@ -5239,7 +5244,10 @@ as your First space PIN."</string>
     <string name="low_label">Low</string>
     <string name="low_storage_summary">Storage is low. %1$s used - %2$s free</string>
     <string name="macaddr_label">MAC addr:</string>
+    <string name="magic_list_empty_text">No apps compatible with this feature now</string>
+    <string name="magic_list_empty_text_pad">No apps compatible with this feature now</string>
     <string name="magic_window_name">Parallel windows</string>
+    <string name="magic_window_name_pad">Optimize apps for landscape view</string>
     <string name="mah">%d mAh</string>
     <string name="main_clear_accounts">"
 
@@ -5454,6 +5462,7 @@ You won't be able to reverse this action."</string>
     <string name="memory_usage_apps">Memory used by apps</string>
     <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">%1$s avg memory used in last 3 hours</string>
+    <string name="memorycard_calculating">Calculating…</string>
     <string name="menu_cancel">Cancel</string>
     <string name="menu_check">Experience</string>
     <string name="menu_delete">Delete APN</string>
@@ -9380,7 +9389,7 @@ This also deletes the fingerprint model stored on your device. You won’t be ab
     <string name="unlogin_account_summary">All Mi services. One Mi Account.</string>
     <string name="unlogin_account_title">Sign in to Mi Account</string>
     <string name="unmount_inform_text">USB storage will be unmounted.</string>
-    <string name="unmute_sound_title">Unmute sound</string>
+    <string name="unmute_sound_title">Play sound when Silent mode is turned off</string>
     <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
     <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
     <string name="unrestricted_app_title">Unrestricted data usage</string>

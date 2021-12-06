@@ -147,6 +147,13 @@
     <string name="album_page_empty">Empty</string>
     <string name="album_page_label">Albums</string>
     <string name="album_pano_name">Panoramas</string>
+    <string name="album_permission_activity_title">Manage permissions</string>
+    <string name="album_permission_state_granted">Granted</string>
+    <string name="album_permission_state_non_granted">Grant</string>
+    <string name="album_permission_subtitle_single">%2$d album (%1$s)</string>
+    <string name="album_permission_tip_text">Gallery needs permissions to be able to sync, edit, and manage the items shown below.</string>
+    <string name="album_permission_title_granted">Granted</string>
+    <string name="album_permission_title_non_granted">Not granted</string>
     <string name="album_quota_fulfiled">Too many albums. Delete some albums and try again.</string>
     <string name="album_rubbish_cant_change_status">"Can't sync albums that were moved to trash"</string>
     <string name="album_rubbish_clear_all_item_description">Clear trash</string>
@@ -281,6 +288,7 @@
     <string name="backup_device_space_low_title">Not enough storage space</string>
     <string name="backup_dirty_num">Total: %s</string>
     <string name="backup_dirty_tip">Not backed up photos and videos</string>
+    <string name="backup_disable_message">Gallery needs to clear app cache because you turned off sync with the cloud.</string>
     <string name="backup_file_over_size_desc">"Photos bigger than %1$s and videos bigger than %2$s can't be backed up."</string>
     <string name="backup_immediately">Back up</string>
     <string name="backup_need_sync_desc">Tap to continue backing up</string>
@@ -1051,6 +1059,7 @@
     <string name="default_web_client_id">184486664684-e0h3j1dpl78mpu5sj8a1j6v8i358j772.apps.googleusercontent.com</string>
     <string name="define_by_user">Custom</string>
     <string name="delete">Delete</string>
+    <string name="delete_account_message">Gallery needs to clear app cache because you signed out of your Mi Account.</string>
     <string name="delete_album_failed">"Couldn't delete album"</string>
     <string name="delete_album_msg_format">Delete \"%2$s\" album %1$s %3$s?</string>
     <string name="delete_album_msg_format_cloud">Delete %1$s %2$s from Xiaomi Cloud and all synced devices?</string>
@@ -1079,6 +1088,12 @@
     <string name="device_status_sending">Sending…</string>
     <string name="device_status_success">Sent successfully</string>
     <string name="device_status_waiting">Waiting…</string>
+    <string name="device_storage_space_low_dialog_des">Store original photos and videos in the cloud while keeping smaller high-quality copies on this device to free up %s of storage.</string>
+    <string name="device_storage_space_low_dialog_title">Not enough storage space</string>
+    <string name="device_storage_space_low_notice_des">Sync photos and videos with the cloud to free up %s</string>
+    <string name="device_storage_space_low_notice_title">Running out of storage</string>
+    <string name="device_storage_space_low_textline_button">Start</string>
+    <string name="device_storage_space_low_textline_des">"Free up %s of storage. "</string>
     <string name="device_type_pc">Computer</string>
     <string name="disable_auto_upload_tip">Turn off sync with the cloud for this album?</string>
     <string name="disable_auto_upload_title">Turn off sync with the cloud</string>
@@ -1222,6 +1237,8 @@
     <string name="error_storage_full_action">Free up space</string>
     <string name="error_storage_full_msg">Free up storage space on your device and try again.</string>
     <string name="error_storage_full_tip">Not enough storage space</string>
+    <string name="error_storage_no_write_permission_tip_action">Grant</string>
+    <string name="error_storage_no_write_permission_tip_title">"Some albums require permissions to be synced. "</string>
     <string name="error_sync_off_action">Turn on</string>
     <string name="error_sync_off_msg">"Make sure you've turned on sync with the cloud."</string>
     <string name="error_sync_off_tip">Sync is off</string>
@@ -1351,6 +1368,7 @@ are available"</string>
     <string name="filter_popular_autumn">Autumn</string>
     <string name="filter_popular_blackred">Sangria</string>
     <string name="filter_popular_bluedream">Slumber</string>
+    <string name="filter_popular_blues">Blues</string>
     <string name="filter_popular_coffee">Coffee</string>
     <string name="filter_popular_coldsmoke">Cool mist</string>
     <string name="filter_popular_comic">Anime</string>
@@ -1373,6 +1391,7 @@ are available"</string>
     <string name="filter_popular_shallow_summer">June</string>
     <string name="filter_popular_summercloud">Vesper</string>
     <string name="filter_popular_sunset">Eventide</string>
+    <string name="filter_popular_sunset_gold">Radiance</string>
     <string name="filter_popular_wakakusa">Wakakusa</string>
     <string name="filter_popular_windchime">Chime</string>
     <string name="filter_popular_wintersun">Midwinter</string>
@@ -1572,6 +1591,7 @@ are available"</string>
     <string name="help">"Can't find devices?"</string>
     <string name="help_content">"If you can't find the device you need, ask the other person to turn on Mi Share."</string>
     <string name="hidden_album_display_name">Hidden album</string>
+    <string name="hide_nearby_photos">Hide nearby photos and videos</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
     <string name="home_menu_all_photos">Show all items</string>
@@ -1641,6 +1661,7 @@ are available"</string>
     <string name="input_or_select_a_name">Enter or select a name</string>
     <string name="input_relation_name">Enter group name</string>
     <string name="install_fail">"Couldn't load plug-in due to an error."</string>
+    <string name="install_media_editor_latest_message">To be able to edit items, download the latest plug-in first.</string>
     <string name="install_media_editor_message">To be able to edit items, download the plug-in first. Download now?</string>
     <string name="install_media_editor_title">Download plug-in</string>
     <string name="internal_storage_device">Internal storage</string>
@@ -1669,7 +1690,7 @@ are available"</string>
     <string name="kilobyteShort">KB</string>
     <string name="limit_height">Height should be > 0</string>
     <string name="limit_width">Width should be > 0</string>
-    <string name="live_photo">Live photo</string>
+    <string name="live_photo">Dynamic shot</string>
     <string name="load_complete">No more items here</string>
     <string name="load_failed">"Couldn't load info, tap to try again"</string>
     <string name="load_relations">Just a sec…</string>
@@ -1813,6 +1834,7 @@ are available"</string>
     <string name="map_grant_position_permission_after_declined_twice_message">To view photos and videos on the map, allow Gallery to access your location first.</string>
     <string name="map_grant_position_permission_subtitle">For showing nearby photos and videos on the map</string>
     <string name="map_guide_message">View your photos and videos on the map</string>
+    <string name="map_location">Move to current location</string>
     <string name="map_positioning_failed_tip">"Can't get location info due to weak signal"</string>
     <string name="map_privacy_dialog_message"><Data>This service allows you to view photos and videos with location info on a map. We use Baidu Map Open SDK to provide you with this service. Read &lt;a href=\"%1$s\">Baidu Map Privacy Policy for Open Platform Products and Services&lt;/a> to learn more.</Data></string>
     <string name="map_privacy_dialog_title">Gallery map</string>
@@ -1865,6 +1887,13 @@ to personalize Gallery"</string>
     <string name="mi_pad_5_pro_5g">Xiaomi Pad 5 Pro 5G</string>
     <string name="micloud_introduce">Sync photos and videos automatically (Mi Account is required)</string>
     <string name="midnight">Night</string>
+    <string name="migrate_msg">Some albums require permissions to move items after a system update.</string>
+    <string name="miplay_adjust_volume">Set volume to %d</string>
+    <string name="miplay_pause_video">Pause</string>
+    <string name="miplay_play_video">Play</string>
+    <string name="miplay_seekbar_content_description">Playback progress: %1$s %2$s</string>
+    <string name="miplay_stop_video">Stop video playback</string>
+    <string name="miplay_volume_btn">Volume</string>
     <string name="mishare_all_devices">All devices</string>
     <string name="miuix_access_state_desc">Selected</string>
     <string name="miuix_alphabet_indexer_name">Index bar</string>
@@ -1952,7 +1981,7 @@ to personalize Gallery"</string>
     <string name="mosaic_item_talkback_effect8">Flowers</string>
     <string name="mosaic_item_talkback_effect9">Stars</string>
     <string name="mosaic_item_talkback_eraser">Eraser</string>
-    <string name="motion_photo_enter" />
+    <string name="motion_photo_enter">Dynamic shot</string>
     <string name="motion_photo_play">Play</string>
     <string name="move_to_other_albums_tip">Move this album to Other albums?</string>
     <string name="move_to_rubbish_albums_tip">Move selected albums to trash?</string>
@@ -2078,6 +2107,7 @@ to personalize Gallery"</string>
     <string name="ocr_using_cellular_text">Recognizing text using mobile data might generate additional carrier fees. Recognize anyway?</string>
     <string name="ok">OK</string>
     <string name="onekey_auto">Auto</string>
+    <string name="onekey_beautify_tag_done">Effects applied</string>
     <string name="onekey_food">Food</string>
     <string name="onekey_none">Original</string>
     <string name="onekey_portrait">Portrait</string>
@@ -2155,6 +2185,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="operation_unforce_top">Unpin</string>
     <string name="operation_unhide">Unhide</string>
     <string name="operation_video_compress">Compress video</string>
+    <string name="operation_watermark">Protective watermark</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
     <string name="orientation_lock_tip">Auto-rotate off</string>
@@ -2186,6 +2217,11 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="permission_contacts_desc_2">For associating people on photos with contacts</string>
     <string name="permission_contacts_name">Contacts</string>
     <string name="permission_contacts_name_2">Access contacts</string>
+    <string name="permission_custom_cta_network_button_negative">"Don't agree"</string>
+    <string name="permission_custom_cta_network_button_positive">Agree</string>
+    <string name="permission_custom_cta_network_title">Attention</string>
+    <string name="permission_location">Location</string>
+    <string name="permission_location_desc">For displaying photos and videos on the map</string>
     <string name="permission_optional_category">Optional permissions</string>
     <string name="permission_phone_desc">For assigning corresponding devices to recently deleted items in Xiaomi Cloud</string>
     <string name="permission_phone_name">Phone</string>
@@ -2257,6 +2293,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg">"Looks like you aren't connected to Wi-Fi. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">"Looks like you aren't connected to Wi-Fi. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">Download plug-in</string>
+    <string name="photo_editor_privacy_watermark">Protective watermark</string>
     <string name="photo_editor_remove_watermark">Remove watermark</string>
     <string name="photo_editor_remove_watermark_on">Add watermark</string>
     <string name="photo_editor_remover">Erase</string>
@@ -2315,6 +2352,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="photo_editor_talkback_undo">Undo</string>
     <string name="photo_editor_text">Text</string>
     <string name="photo_editor_transition_image_view">photo_view</string>
+    <string name="photo_editor_watermark_default">DO NOT COPY</string>
     <string name="photo_font_cancel_download">Cancel</string>
     <string name="photo_font_download">Download</string>
     <string name="photo_font_download_failed_for_notwork">"Couldn't download. Connect to the network and try again."</string>
@@ -2564,6 +2602,15 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="rubbish_album_move_to_other_album_success">You can view these items in \"Other albums\" now.</string>
     <string name="rubbish_nomedia_manager_button_text">Manage albums with \".nomedia\" files</string>
     <string name="runtime_permission_ungranted">Closed Gallery, no required permissions</string>
+    <string name="saf_hyper_link_text">Manage permissions</string>
+    <string name="saf_operation_guide_1">"Gallery needs your permission to be able to protect and manage your data. "</string>
+    <string name="saf_operation_guide_2">To grant the permission, tap \"%1$s\" and then select \"%2$s\".</string>
+    <string name="saf_operation_guide_param1">Next</string>
+    <string name="saf_operation_guide_param2">Access this folder</string>
+    <string name="saf_requester_cancel">Cancel</string>
+    <string name="saf_requester_title">Allow Gallery to access \"%s\"</string>
+    <string name="saf_secret_album">Private album</string>
+    <string name="saf_secret_album_guide">This app needs permissions to display items from your private album.</string>
     <string name="same_name_album_exist_and_toast">"An album with the same name already exists. Created '%s' instead."</string>
     <string name="samsung">Samsung</string>
     <string name="samsung_phone">Samsung phone</string>
@@ -2575,6 +2622,14 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="scan_barcode_to_join">Scan QR code to add album</string>
     <string name="scan_qr_code_buttom_text">Scan QR code to view this album</string>
     <string name="scanning_device_tips">Searching for devices nearby… Make sure the other device is in discoverable mode.</string>
+    <string name="scope_storage_dialog_cancel_btn">Cancel</string>
+    <string name="scope_storage_dialog_confirm_btn">Next</string>
+    <string name="scope_storage_dialog_description">Gallery permissions were updated. Allow Gallery to access this folder to be able to view its content.</string>
+    <string name="scope_storage_dialog_guide_content"><Data>Tap &lt;b>\"%1$s\"&lt;/b> and then select &lt;b>\"%2$s\"&lt;/b>.</Data></string>
+    <string name="scope_storage_dialog_guide_title">How to grant permission</string>
+    <string name="scope_storage_dialog_title">Permissions required</string>
+    <string name="scope_storage_operation_btn_1">Save</string>
+    <string name="scope_storage_operation_btn_2">Access this folder</string>
     <string name="screen_doodle_talkback_size">Doodle line width</string>
     <string name="screen_editor_btn_delete">Delete</string>
     <string name="screen_editor_btn_save">Save</string>
@@ -2742,6 +2797,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="show_in_other_albums_disable_toast_long_press_menu">Moved successfully, go to Other albums to view</string>
     <string name="show_in_other_albums_enable_toast_long_press_menu">Moved successfully, go to Albums to view</string>
     <string name="show_in_rubbish_albums_enable_toast_long_press_menu">Moved to trash successfully</string>
+    <string name="show_nearby_photos">Show nearby photos and videos</string>
     <string name="signature_dialog_clear">Clear</string>
     <string name="signature_manage_dialog_title_string">Signature</string>
     <string name="signature_view_add_signature_String">Add signature</string>
@@ -2870,6 +2926,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="sticker_tab_talkback_frog">Frog</string>
     <string name="sticker_tab_talkback_graduate">Graduation</string>
     <string name="sticker_tab_talkback_graffito">Pencil</string>
+    <string name="sticker_tab_talkback_halloween">Halloween</string>
     <string name="sticker_tab_talkback_line">Lines</string>
     <string name="sticker_tab_talkback_lovely">Cuteness</string>
     <string name="sticker_tab_talkback_markpen">Marker</string>
@@ -3194,7 +3251,6 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="update_check_title">Current version: %s</string>
     <string name="update_ignore">Ignore this version</string>
     <string name="update_latest_version">Current version is up to date</string>
-    <string name="update_log_format" formatted="false">%s %s</string>
     <string name="update_network_error">Check your network settings and try again</string>
     <string name="update_new_version">An update is available</string>
     <string name="update_title">Version %s is available now</string>
@@ -3569,6 +3625,9 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="vlog_video_trans_code_cons">Importing…</string>
     <string name="voice_assistant">Voice input</string>
     <string name="watch_all_photo">Gallery</string>
+    <string name="watermark_enter">Protective watermark</string>
+    <string name="watermark_summary">Recognize photos of IDs stored on this device and receive prompts to add protective watermarks</string>
+    <string name="watermark_title">Protective watermark</string>
     <string name="wave_path_1">M120,40 A80,80,0,0,1,120,200 A80,80,0,0,1,120,40</string>
     <string name="wave_path_2">M120,0 A120,120,0,0,1,120,240 A120,120,0,0,1,120,0</string>
     <string name="web_sso_login_fail">You need to sign in again</string>
