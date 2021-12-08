@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="account_user_gender_name">
-        <item>Male</item>
-        <item>Female</item>
-    </string-array>
     <string-array name="alphabet_table">
         <item>A</item>
         <item>B</item>
@@ -144,11 +140,6 @@
         <item>@string/chinese_symbol_animals_dog</item>
         <item>@string/chinese_symbol_animals_pig</item>
     </string-array>
-    <string-array name="customer_service">
-        <item>@string/customer_service_apply</item>
-        <item>@string/customer_service_complain</item>
-        <item>@string/customer_service_station</item>
-    </string-array>
     <string-array name="detailed_am_pms">
         <item>@string/midnight</item>
         <item>@string/early_morning</item>
@@ -230,12 +221,6 @@
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
     </string-array>
-    <string-array name="reproductivity">
-        <item>@string/feedback_reproductivity_everytime</item>
-        <item>@string/feedback_reproductivity_often</item>
-        <item>@string/feedback_reproductivity_occasionally</item>
-        <item>@string/feedback_reproductivity_once</item>
-    </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
         <item>@string/solar_term_slight_cold</item>
@@ -262,6 +247,26 @@
         <item>@string/solar_term_light_snow</item>
         <item>@string/solar_term_heavy_snow</item>
         <item>@string/solar_term_winter_solstice</item>
+    </string-array>
+    <string-array name="uwb_scan_distance_entries">
+        <item>Far</item>
+        <item>Middle</item>
+        <item>Nearby</item>
+    </string-array>
+    <string-array name="uwb_scan_distance_entries_values">
+        <item>600</item>
+        <item>500</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="uwb_shortcut_entries">
+        <item>@string/uwb_shortcut_entries_power_long</item>
+        <item>@string/uwb_shortcut_entries_power_double</item>
+        <item>@string/uwb_shortcut_entries_power_none</item>
+    </string-array>
+    <string-array name="uwb_shortcut_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="week_days">
         <item>@string/sunday</item>
