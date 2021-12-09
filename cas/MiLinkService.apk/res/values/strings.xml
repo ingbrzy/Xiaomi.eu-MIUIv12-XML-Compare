@@ -111,6 +111,9 @@
     <string name="close_hotspot_hint">Turn off portable hotspot before casting</string>
     <string name="close_slave_wifi_hint">Disconnect from auxiliary Wi-Fi networks before casting</string>
     <string name="close_slave_wifi_hint_china">Disconnect from auxiliary Wi-Fi networks before casting</string>
+    <string name="config_wifi_label_china">Configure MiPaiPai Wi-Fi</string>
+    <string name="config_wifi_label_global">Configure MiPaiPai Wi-Fi</string>
+    <string name="connect_device_fail">"Couldn't connect to device"</string>
     <string name="console_guide_btn_got_it">Got it</string>
     <string name="console_guide_subtitle_hang_up">You can keep casting when the screen of your device is turned off. This feature decreases power consumption.</string>
     <string name="console_guide_subtitle_private">"Don't display floating notifications, incoming calls, and other private items on external monitors"</string>
@@ -180,6 +183,8 @@ View help if you have problems connecting."</string>
     <string name="dialog_select_tv">Select device (%1$d)</string>
     <string name="dialog_show_help">Help</string>
     <string name="disconnect">Stop casting</string>
+    <string name="dual_wifi_warning_china">Turn off dual Wi-Fi and try again</string>
+    <string name="dual_wifi_warning_global">Turn off dual Wi-Fi and try again</string>
     <string name="early_morning">Morning</string>
     <string name="earthly_branches_chen">辰</string>
     <string name="earthly_branches_chou">丑</string>
@@ -429,6 +434,7 @@ If you need to turn on Miracast, press the [MENU] button and select My apps > Ca
     <string name="month_september_shortest">Sep</string>
     <string name="more">More</string>
     <string name="morning">Morning</string>
+    <string name="msg_send_fail">"Couldn't transfer data"</string>
     <string name="nfc_connect_failed_toast">"Couldnt't cast. Try again."</string>
     <string name="night">Evening</string>
     <string name="noon">Midday</string>
@@ -444,6 +450,11 @@ If you need to turn on Miracast, press the [MENU] button and select My apps > Ca
     <string name="notify">Casting is working in the background</string>
     <string name="open_game_accelerate">Turn on Game Turbo</string>
     <string name="p2p_location_des">For connecting your mobile device to external monitors</string>
+    <string name="paipai_connect_btn_text">Done</string>
+    <string name="paipai_connect_tv1_text">Connected to device</string>
+    <string name="paipai_connect_tv2_text">Transferred data</string>
+    <string name="paipai_error_dialog_msg">Check your network settings and try again.</string>
+    <string name="paipai_error_dialog_negative">Got it</string>
     <string name="path_setting_cast">Connection &amp; sharing/Cast</string>
     <string name="path_setting_cast_demo">Connection &amp; sharing/Cast/Demos</string>
     <string name="path_setting_cast_demo_document">Connection &amp; sharing/Cast/Demos/Documents</string>
@@ -460,8 +471,10 @@ If you need to turn on Miracast, press the [MENU] button and select My apps > Ca
     <string name="privacy_detail">Allow this app to connect to the internet and grant the required permissions before you continue.</string>
     <string name="privacy_detail_extra"><Data>Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &lt;a href=%1$s>HappyCast Privacy Policy&lt;/a> and &lt;a href=%2$s>HappyCast Legal Statement&lt;/a>.</Data></string>
     <string name="privacy_explain">"Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor. This app needs to connect to the internet and requires the following permissions to be able to work normally:"</string>
-    <string name="privacy_link_1">http://cdn.hpplay.com.cn/xm/lbprivacy/index.html?langType=en</string>
-    <string name="privacy_link_2">http://cdn.hpplay.com.cn/xm/lbservice/index.html?langType=en</string>
+    <string name="privacy_link_lawer_en">http://cdn.hpplay.com.cn/xm/lbservice/index.html?langType=en</string>
+    <string name="privacy_link_lawer_zh">http://cdn.hpplay.com.cn/xm/lawer.html</string>
+    <string name="privacy_link_privacy_en">http://cdn.hpplay.com.cn/xm/lbprivacy/index.html?langType=en</string>
+    <string name="privacy_link_privacy_zh">http://cdn.hpplay.com.cn/xm/privacy.html</string>
     <string name="privacy_negative">Exit</string>
     <string name="privacy_permission_ble">Turning Bluetooth on and off</string>
     <string name="privacy_permission_ble_desc">For finding available devices nearby</string>
@@ -519,6 +532,8 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
+    <string name="scan_wifi_label_china">Connect to Wi-Fi</string>
+    <string name="scan_wifi_label_global">Connect to Wi-Fi</string>
     <string name="screen_projection">Cast</string>
     <string name="screen_projection_characteristics">Special features</string>
     <string name="screen_projection_characteristics_off_screen_summary">You can keep casting when the screen of your device is turned off. This feature decreases power consumption.</string>
@@ -541,6 +556,7 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="search_menu_title">Search</string>
     <string name="send">Send</string>
     <string name="service_name">MiplayAudio</string>
+    <string name="show_result_on_tv">View results on the TV</string>
     <string name="small_window">Minimize window</string>
     <string name="small_window_not_supported">"Can't minimize this app while it's being cast"</string>
     <string name="solar_term_autumn_begins">Autumn begins</string>
@@ -626,6 +642,7 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="toast_guide_show_more">Learn more</string>
     <string name="toast_guide_title">Explore our new features here</string>
     <string name="toast_invisible_mode">"You're incognito. Can't use casting now."</string>
+    <string name="toast_invisible_mode1">"Casting won't work when you're incognito"</string>
     <string name="toast_msg_for_multi_window">"Can't use this feature with Split screen"</string>
     <string name="toast_msg_for_small_window">"You can minimize the window that's being cast to be able to use other features of your phone without interrupting the casting process."</string>
     <string name="toast_nfc_dont_move">"Don't move your phone away"</string>
@@ -663,5 +680,11 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="wednesday">Wednesday</string>
     <string name="wednesday_short">Wed</string>
     <string name="wednesday_shortest">Wed</string>
+    <string name="wifi_connect_btn_text">Configure</string>
+    <string name="wifi_other">Other networks</string>
+    <string name="wifi_passwd_et_hint">Enter password</string>
+    <string name="wifi_recommendation">Select %1$d GHz networks for better casting experience</string>
+    <string name="wifi_scan_btn_text">Scan again</string>
+    <string name="wifi_username_et_hint">Enter account ID</string>
     <string name="yesterday">Yesterday</string>
 </resources>
