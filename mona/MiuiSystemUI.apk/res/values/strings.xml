@@ -164,7 +164,7 @@
     <string name="accessibility_keyguard_face_unlock_view">Face unlock</string>
     <string name="accessibility_left_control_center_button">Shortcut</string>
     <string name="accessibility_left_lock_screen_magazine_button">Wallpaper Carousel</string>
-    <string name="accessibility_left_xmyzl_button" />
+    <string name="accessibility_left_xmyzl_button">Xiaomi Quick Connect</string>
     <string name="accessibility_location_active">Location requests active</string>
     <string name="accessibility_lock_icon">Device locked</string>
     <string name="accessibility_long_click_tile">Open settings</string>
@@ -991,6 +991,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="face_unlock_fail">"Couldn't verify face"</string>
     <string name="face_unlock_fail_retry">"Couldn't verify your face. Tap above to try again."</string>
     <string name="face_unlock_fail_retry_global">Tap above to use Face unlock</string>
+    <string name="face_unlock_locked">"Can't use Face unlock now"</string>
     <string name="face_unlock_not_found">"Couldn't recognize you"</string>
     <string name="face_unlock_open_eye">Open your eyes a bit wider</string>
     <string name="face_unlock_password_and_fingerprint">Enter password or use fingerprint to unlock</string>
@@ -1262,10 +1263,12 @@ Keep showing them?"</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">"Can't switch between spaces when Ultra battery saver is on"</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
     <string name="input_password_hint_text">Enter password</string>
-    <string name="input_pattern_after_boot_msg">Confirming your pattern is required when the device reboots</string>
-    <string name="input_pattern_after_restart_msg">系统安全保护，请您输入密码</string>
+    <string name="input_pattern_after_boot_msg">Drawing your pattern is required when the device reboots</string>
+    <string name="input_pattern_after_face_not_allowed">Enter your password at least once every %d hours to keep this device secure</string>
+    <string name="input_pattern_after_restart_msg">Confirm your screen lock to continue</string>
     <string name="input_pattern_hint_text">Draw your unlock pattern</string>
-    <string name="input_pin_after_boot_msg">Confirming your pin is required when the device reboots</string>
+    <string name="input_pattern_or_finger_after_face_not_allowed">Enter your password or use fingerprint at least once every %d hours to keep this device secure</string>
+    <string name="input_pin_after_boot_msg">Entering your PIN is required when the device reboots</string>
     <string name="input_pin_code">Enter PIN</string>
     <string name="input_puk_code">Input PUK</string>
     <string name="install_other_apps">Install unknown apps</string>
@@ -1980,7 +1983,7 @@ If you have questions, contact %2$s."</string>
     <string name="open_lock_screen_magazine_hint_text">Swipe right for more options</string>
     <string name="open_remote_center_hint_text">Swipe right to view shortcuts</string>
     <string name="open_saver_setting_action">Settings</string>
-    <string name="open_xmyzl_hint_text" />
+    <string name="open_xmyzl_hint_text">Swipe right to open Xiaomi Magic Control</string>
     <string name="orb_search_action">Search Action</string>
     <string name="osu_completing_sign_up">Completing sign-up…</string>
     <string name="osu_connect_failed">Couldn’t connect</string>
