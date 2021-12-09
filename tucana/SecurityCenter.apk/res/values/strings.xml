@@ -1056,7 +1056,6 @@ You will not lose any app data."</string>
     <string name="card_main_gamebooster_title">Game Turbo</string>
     <string name="card_main_hbassistant_summary">Use this tool to grab the envelopes faster</string>
     <string name="card_main_hbassistant_title">Red envelope assistant</string>
-    <string name="card_main_hwtest_title">Hardware test</string>
     <string name="card_main_monthreport_action">View</string>
     <string name="card_main_netcheck_action">Test</string>
     <string name="card_main_netcheck_summary">Test connection for networking issues</string>
@@ -2273,6 +2272,7 @@ of your gaming sessions"</string>
     <string name="gd_setting_title">Sidebar</string>
     <string name="gd_setting_vtb">Show while playing videos</string>
     <string name="gd_setting_vtb_desc">Special features for video playback</string>
+    <string name="gd_splite_screen_tips">"Split screen doesn't support floating windows"</string>
     <string name="gdpr_msg"><Data>"To be able to detect security risks and protect your data, we need to collect the necessary amount of information about your device. Read and agree to our &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Privacy Policy&lt;/a> before using our services. In case you don't allow us to collect such information, you'll still be able to use this app, but some features won't be available to you. "</Data></string>
     <string name="ge">个</string>
     <string name="get_detail_by_click">Tap to view details</string>
@@ -2479,7 +2479,10 @@ to join our egg hunt!"</string>
     <string name="install_sucess">Installed %s successfully</string>
     <string name="install_title">Install via USB</string>
     <string name="installing">Installing</string>
-    <string name="intercept_dimension_ratio">35:24</string>
+    <string name="intercept_dimension_ratio">612:380</string>
+    <string name="intercept_net_fold_external_image_ratio">808:480</string>
+    <string name="intercept_net_split_image_ratio">898:528</string>
+    <string name="intercept_net_split_land_image_ratio">646:380</string>
     <string name="international_Ad">Ad</string>
     <string name="international_roaming_setting">Overseas roaming</string>
     <string name="intl_app_manager_card_permission_title">Privacy &amp; permissions</string>
@@ -3186,6 +3189,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_abnormal_scan_reason_use_GPS">Uses location services too frequently</string>
     <string name="pc_abnormal_scan_reason_wake_system">Wakes the system too frequently</string>
     <string name="pc_activity_title">Optimize battery</string>
+    <string name="pc_battery_chart_loading">Just a sec…</string>
     <string name="pc_battery_detail_curve_reference_now">Now</string>
     <string name="pc_battery_detail_device_item_title">Battery usage stats</string>
     <string name="pc_battery_history_battery_detail_menu_item">Details</string>
@@ -5508,6 +5512,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="vb_ve_settings_picture_stronger">Enhanced animations</string>
     <string name="vb_video_effects_3d">Surround sound</string>
     <string name="vb_video_effects_3d_summary">Enhance the depth of sound reproduction for earphones and speakers</string>
+    <string name="vb_video_effects_3d_summary_headset">Increase the sense of immersion and envelopment when listening to audio in the earphones</string>
     <string name="vb_video_effects_3d_surround">Surround sound</string>
     <string name="vb_video_effects_display_style">Style</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
