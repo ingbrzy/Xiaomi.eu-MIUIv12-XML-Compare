@@ -81,6 +81,10 @@
         <item quantity="other">%s people can view this album</item>
         <item quantity="one">%s person can view this album</item>
     </plurals>
+    <plurals name="album_permission_subtitle_multiple">
+        <item quantity="other">%2$d albums including %1$s</item>
+        <item quantity="one">%2$d album including %1$s</item>
+    </plurals>
     <plurals name="album_photo_count_text">
         <item quantity="other">%1$d items</item>
         <item quantity="one">%1$d item</item>
@@ -235,6 +239,14 @@
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Just now</item>
+    </plurals>
+    <plurals name="miplay_time_minute_unit">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="miplay_time_second_unit">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d items selected</item>
