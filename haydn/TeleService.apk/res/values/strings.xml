@@ -130,6 +130,7 @@ If this permission is off, existing alarms and time-based events scheduled by th
     <string name="alert_dialog_yes">Yes</string>
     <string name="alertdialogtitle">Results</string>
     <string name="all_empty_alert">Enter details of new SIP account.</string>
+    <string name="allow">Granted</string>
     <string name="allow_mock_location">Allow mock locations</string>
     <string name="allow_mock_location_summary">Allow mock locations</string>
     <string name="already_auto">Already in automatic selection.</string>
@@ -150,6 +151,7 @@ If this permission is off, existing alarms and time-based events scheduled by th
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="arrears_sim_summary">Top up your phone balance to stay connected.</string>
     <string name="arrears_sim_title">Insufficient funds</string>
+    <string name="ask">Ask</string>
     <string name="atr_disable">Area Traffic Reports disabled</string>
     <string name="atr_enable">Area Traffic Reports enabled</string>
     <string name="audio_mode_bluetooth">Bluetooth</string>
@@ -776,7 +778,6 @@ Selection"</string>
     <string name="creating_new_user_dialog_message">Creating new user…</string>
     <string name="crescendo_ringer_summary">Ringtone volume will gradually grow to the level you set</string>
     <string name="crescendo_ringer_title">Increasing ringtone volume</string>
-    <string name="ct_volte_no_voice_service_notification_channel">ctVolteNoCallServiceChannel</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
     <string name="daltonizer_mode_disabled">Disabled</string>
     <string name="daltonizer_mode_monochromacy">Monochromacy</string>
@@ -1802,6 +1803,7 @@ Please contact your operators"</string>
     <string name="not_set">Not set</string>
     <string name="not_support_forbidden_fakecell">"Your device doesn't support chip level protection from fake base stations."</string>
     <string name="not_voice_capable">Voice calling not supported</string>
+    <string name="notallow">Not granted</string>
     <string name="notice_header" />
     <string name="notification_channel_demo">Demo device</string>
     <string name="notification_channel_sip_account">Deprecated SIP accounts</string>
@@ -1824,6 +1826,8 @@ Please contact your operators"</string>
     <string name="nr_usaged_used_time">Usage duration</string>
     <string name="number">Number</string>
     <string name="numerous_emergency_numbers_title">Emergency numbers</string>
+    <string name="obtain_location_information">Location</string>
+    <string name="obtain_location_information_summary">For optimizing current network environment</string>
     <string name="oem_preferred_feedback_reporter" />
     <string name="oem_radio_info_label">OEM-specific Info/Settings</string>
     <string name="oem_unlock_enable">OEM unlocking</string>
@@ -1941,6 +1945,7 @@ Try again or call customer service for more options."</string>
     <string name="pause_prompt_yes">Yes</string>
     <string name="payphone">Payphone</string>
     <string name="pci_num">lte pci num</string>
+    <string name="permission_description">Permissions details</string>
     <string name="phoneAppLabel">Phone Services</string>
     <string name="phoneIconLabel">Phone</string>
     <string name="phone_account_settings">Calling accounts</string>
@@ -2022,12 +2027,14 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="prefered_network_type_3g_promp">You should turn off VoLTE before seleсting 3G as your preferred network type. Turn off now?</string>
     <string name="preference_auto_ip_summary_disable">Off</string>
     <string name="preference_category_ringtone">Ringtone &amp; Vibrate</string>
+    <string name="preference_check_privacy">View Privacy Policy</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="preference_countrycode_title">Country code</string>
     <string name="preference_dial_pad_touch_tone_default">Default</string>
     <string name="preference_dial_pad_touch_tone_off">Off</string>
     <string name="preference_dial_pad_touch_tone_piano">Piano keys</string>
     <string name="preference_dial_pad_touch_tone_title">Dial pad touch tones</string>
+    <string name="preference_permission_related">Permissions</string>
     <string name="preference_summary_default_combination">%1$s / %2$s</string>
     <string name="preference_telocation_summary_countrycode_off">"Don't auto-dial country code"</string>
     <string name="preference_telocation_summary_countrycode_on">Auto-dial country code</string>
@@ -2102,6 +2109,7 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="preferred_phone_account">Preferred calling account</string>
     <string name="preferred_wificall_title">Network preferences</string>
     <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_setting">Privacy</string>
     <string name="private_dns_broken">Private DNS server cannot be accessed</string>
     <string name="private_dns_mode_off">Off</string>
     <string name="private_dns_mode_opportunistic">Automatic</string>
@@ -2218,6 +2226,8 @@ UT Interface: %5$s"</string>
     <string name="radio_info_voice_network_type_label">Voice Network Type:</string>
     <string name="radio_off_during_emergency_call">Cannot enter airplane mode during an emergency call.</string>
     <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
+    <string name="read_call_log">Record audio</string>
+    <string name="read_call_log_summary">For recording calls</string>
     <string name="reading_settings">Reading settings…</string>
     <string name="regional_disable">Regional news disabled</string>
     <string name="regional_enable">Regional news enabled</string>
@@ -2496,7 +2506,7 @@ Please confirm your default calling account setting."</string>
     <string name="smart_dual_sim_title">Smart dual SIM</string>
     <string name="smart_forwarding_settings_menu">Smart Forwarding</string>
     <string name="smart_forwarding_settings_menu_summary">"When one number isn't reachable, always forward calls to your other number"</string>
-    <string name="smart_multinetwork_acceleration_title">Smart Multinetwork Acceleration</string>
+    <string name="smart_multinetwork_acceleration_title">Smart network acceleration</string>
     <string name="sms_messages_title">SMS</string>
     <string name="smsc_dialog_message">"Make sure the number you enter is correct. Otherwise, you won't be able to send or receive SMS. Contact your carrier to confirm your SMSC number."</string>
     <string name="solar_term_autumn_begins">Autumn begins</string>
@@ -2899,7 +2909,6 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
     <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with VoLTE network coverage. VoLTE services are provided by the carrier.</string>
     <string name="vonr_switch_summary">Use VoNR to improve the quality of voice calls</string>
     <string name="vonr_switch_title">Use VoNR</string>
-    <string name="vowifi_emergency_notification_channel">Wi-Fi Calling emergency warning</string>
     <string name="vowifi_emergency_notification_content">Emergency calls in areas with cellular coverage only</string>
     <string name="vowifi_emergency_notification_title">Vodafone Wi-Fi Calling</string>
     <string name="vowifi_emergency_warning_check">"Don't show again."</string>
@@ -2909,7 +2918,6 @@ The device switches automatically to a cellular network(2G/3G) to place an emerg
 
 Emergency calls are only possible in areas with cellular coverage."</string>
     <string name="vowifi_emergency_warning_title">Emergency calls via Wi-Fi Calling</string>
-    <string name="vowifi_welcome_notification_channel">wifiCallWelcomeNotification</string>
     <string name="vpn_settings_not_available">VPN settings are not available for this user</string>
     <string name="vt_provisioned_switch_string">Video Calling Provisioned</string>
     <string name="vvm_unsupported_message_format">Unsupported message type, call %s to listen.</string>
