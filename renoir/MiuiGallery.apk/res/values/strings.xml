@@ -185,6 +185,7 @@
     <string name="album_sort_type_name_desc">From Z to A</string>
     <string name="album_tab_page_switch_view_style_to_grid">Grid view</string>
     <string name="album_tab_page_switch_view_style_to_linear">List view</string>
+    <string name="album_tab_tool_tips">%s MB</string>
     <string name="album_type_baby">Baby album</string>
     <string name="album_type_share">Shared albums</string>
     <string name="album_type_system">System albums</string>
@@ -1111,6 +1112,9 @@
     <string name="double_tap_for_hr_preview_108m">Double tap again to switch to 108MP preview</string>
     <string name="double_tap_to_higher_definition">Double tap again to open HD preview</string>
     <string name="download_canceled">Download canceled</string>
+    <string name="download_delete_error_desc">"Can't restore this item because you deleted it from this device and the cloud. Remove empty file now?"</string>
+    <string name="download_delete_error_positive">Remove</string>
+    <string name="download_delete_error_title">Missing item</string>
     <string name="download_error_format">"Couldn't download %s"</string>
     <string name="download_error_tip">. Downloads were interrupted.</string>
     <string name="download_retry_message">"Couldn't download files, check network connection and try again"</string>
@@ -1573,6 +1577,7 @@ are available"</string>
     <string name="grant_permission_unlock_and_set_2">Unlock</string>
     <string name="grant_permission_write_clipboard">To be able to copy items, allow this app to save items to clipboard.</string>
     <string name="group_header_title_immutable_album">Organize photos</string>
+    <string name="group_header_title_media_group">Media types</string>
     <string name="group_header_title_third_album">More albums</string>
     <string name="group_header_title_user_create_album">My albums</string>
     <string name="has_invalid_recipient">Invalid recipients: %1$s</string>
@@ -1601,7 +1606,7 @@ are available"</string>
     <string name="home_menu_collage">Collage</string>
     <string name="home_menu_id_photo">ID</string>
     <string name="home_menu_macarons">Magic vignette</string>
-    <string name="home_menu_magic_matting">Magic</string>
+    <string name="home_menu_magic_matting">Cutout</string>
     <string name="home_menu_photo_movie">Clip</string>
     <string name="home_menu_print">Print photos</string>
     <string name="home_menu_video_post">Video effects</string>
@@ -1652,7 +1657,7 @@ are available"</string>
     <string name="image_with_time">Photo taken on %s</string>
     <string name="image_with_time_and_location">Photo taken on %1$s. Location: %2$s.</string>
     <string name="impunity_declaration_settings">Internet connection notification</string>
-    <string name="impunity_declaration_summary">Show internet connection notification every time you open Gallery</string>
+    <string name="impunity_declaration_summary">Show internet connection notification next time you open Gallery</string>
     <string name="initializing_cloud">Initializing…</string>
     <string name="input_a_name">Enter name</string>
     <string name="input_baby_name">Enter name</string>
@@ -1749,7 +1754,7 @@ are available"</string>
     <string name="magic_eraser">Eraser</string>
     <string name="magic_error_adding_filter">"Couldn't apply filter"</string>
     <string name="magic_exporting">Saving…</string>
-    <string name="magic_filter">Magic</string>
+    <string name="magic_filter">Cutout</string>
     <string name="magic_filter_dsc">Create portraits with stunning backgrounds</string>
     <string name="magic_galery">Gallery</string>
     <string name="magic_hight">Height</string>
@@ -1774,13 +1779,13 @@ are available"</string>
     <string name="magic_matting_download_failed_for_notwork">"Couldn't download. Check your network settings and try again."</string>
     <string name="magic_matting_download_sdk_without_wifi_msg">"Looks like your device isn't connected to Wi-Fi. Download the plug-in using mobile data?"</string>
     <string name="magic_matting_download_sdk_without_wifi_msg_china">"Looks like your device isn't connected to Wi-Fi. Download the plug-in using mobile data?"</string>
-    <string name="magic_matting_download_sdk_without_wifi_title">Download \"Magic\" plug-in</string>
+    <string name="magic_matting_download_sdk_without_wifi_title">Download \"Cutout\" plug-in</string>
     <string name="magic_matting_error_px">"This image size isn't supported"</string>
     <string name="magic_matting_face_fail">"Couldn't process face"</string>
     <string name="magic_matting_load_data_fail">"Couldn't load data"</string>
     <string name="magic_matting_module_failed">@string/error_install_connect_fail</string>
-    <string name="magic_matting_module_finish">Downloaded \"Magic\" plug-in successfully</string>
-    <string name="magic_matting_module_loading">Downloading \"Magic\" plug-in…</string>
+    <string name="magic_matting_module_finish">Downloaded \"Cutout\" plug-in successfully</string>
+    <string name="magic_matting_module_loading">Downloading \"Cutout\" plug-in…</string>
     <string name="magic_max_px">This image is too big</string>
     <string name="magic_mix_px">The image is too small</string>
     <string name="magic_more_fact">Looks like there are multiple people on this photo</string>
@@ -1836,6 +1841,7 @@ are available"</string>
     <string name="map_guide_message">View your photos and videos on the map</string>
     <string name="map_location">Move to current location</string>
     <string name="map_positioning_failed_tip">"Can't get location info due to weak signal"</string>
+    <string name="map_privacy_dialog_content"><Data>This service allows you to view photos and videos with location info on a map. We use Baidu Map Open SDK to provide you with this service. Read and agree to &lt;a href=\"%1$s\">Gallery Map Third Party Data Sharing Statement&lt;/a> before you continue.</Data></string>
     <string name="map_privacy_dialog_message"><Data>This service allows you to view photos and videos with location info on a map. We use Baidu Map Open SDK to provide you with this service. Read &lt;a href=\"%1$s\">Baidu Map Privacy Policy for Open Platform Products and Services&lt;/a> to learn more.</Data></string>
     <string name="map_privacy_dialog_title">Gallery map</string>
     <string name="map_privacy_policy">Gallery Map Privacy Policy</string>
@@ -1849,6 +1855,18 @@ to personalize Gallery"</string>
     <string name="mark_operation_succeeded">Added successfully</string>
     <string name="mark_people_ignore_info_message">Press and hold photos of people to add them to groups</string>
     <string name="marketSdkVersion">3.2.9</string>
+    <string name="media_type_burst_photo">Burst</string>
+    <string name="media_type_clone_photo">Clones</string>
+    <string name="media_type_doc_photo">Docs</string>
+    <string name="media_type_fast_motion_video">Time-lapse</string>
+    <string name="media_type_front_photo">Selfies</string>
+    <string name="media_type_gif">GIF</string>
+    <string name="media_type_live_vv">Vlog</string>
+    <string name="media_type_motion_photo">Dynamic</string>
+    <string name="media_type_pano_photo">Panoramas</string>
+    <string name="media_type_portrait_photo">Portrait</string>
+    <string name="media_type_raw">RAW</string>
+    <string name="media_type_slow_motion_video">Slo-mo</string>
     <string name="megabyteShort">MB</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
@@ -2447,6 +2465,7 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="privacy_map">Gallery Map</string>
     <string name="privacy_map_detail"><Data>This service allows you to view photos and videos with location info on a map. We use Baidu Map Open SDK to provide you with this service. Read and agree to &lt;a href=\"%1$s\">Baidu Map Privacy Policy for Open Platform Products and Services&lt;/a> before you continue.</Data></string>
     <string name="privacy_map_detail_content">Baidu Map Privacy Policy for Open Platform Products and Services</string>
+    <string name="privacy_map_detail_content_new">Gallery Map Third Party Data Sharing Statement</string>
     <string name="privacy_permission">Permissions</string>
     <string name="privacy_permission_account">Accounts</string>
     <string name="privacy_permission_account_detail">For signing in and syncing items with the cloud</string>
@@ -2469,9 +2488,12 @@ Transcoding might take some time when you use this feature for the first time."<
     <string name="privacy_permission_shotcut_detail">For creating Home screen shortcuts</string>
     <string name="privacy_permission_storage">Storage</string>
     <string name="privacy_permission_storage_detail">For storing photos and videos</string>
+    <string name="privacy_reject_map_detail_new"><Data>"Your withdrawal of consent to &lt;a href=\"%1$s\">Gallery Map Third Party Data Sharing Statement&lt;/a> will be held as refusing to accept Gallery Map services. You'll still be able to use other Gallery features normally. Withdraw consent now?"</Data></string>
     <string name="privacy_rejected">Withdrawal of consent</string>
     <string name="privacy_rejected_map">Withdraw consent to the Privacy Policy of Gallery Map</string>
     <string name="privacy_rejected_map_detail">"Your withdrawal of consent to the Privacy Policy of Gallery Map will be held as refusing to accept its services. Other basic features and services of Gallery won't be affected. Withdraw anyway?"</string>
+    <string name="privacy_rejected_map_new">Withdrawal of consent to Gallery Map Third Party Data Sharing Statement</string>
+    <string name="privacy_rejected_pos_btn">Withdraw</string>
     <string name="private_entry_lock_state_activated_text">Release to open private folder</string>
     <string name="private_entry_lock_state_enterd_text">Pull down to open private folder</string>
     <string name="problem_feedback">Feedback</string>
