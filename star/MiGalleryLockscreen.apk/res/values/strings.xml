@@ -34,6 +34,7 @@
     <string name="about_newest">Wallpaper Carousel is up to date.</string>
     <string name="about_permission">Permissions</string>
     <string name="about_update">Update</string>
+    <string name="access_denied_info">Too many attempts. Wait a minute or two and try again.</string>
     <string name="account_bind_secure_email_title">Add recovery email</string>
     <string name="account_bind_secure_phone_title">Add recovery phone number</string>
     <string name="account_crop_user_avatar">Crop photo</string>
@@ -325,6 +326,9 @@ Send this code to the supervisor."</string>
     <string name="disable_dlg_title">Turn off Wallpaper Carousel?</string>
     <string name="dislike">Delete</string>
     <string name="dlg_cancel">Cancel</string>
+    <string name="doing_login">Signing in…</string>
+    <string name="doing_query_account">Checking account info…</string>
+    <string name="doing_register">Creating account…</string>
     <string name="dot_and_space">• </string>
     <string name="double_click_to_exit_activity">Tap again to exit</string>
     <string name="early_morning">Morning</string>
@@ -431,9 +435,11 @@ Send this code to the supervisor."</string>
     <string name="get_ph_ticket">Get code</string>
     <string name="get_phone_bind_exceed_limit">"You can associate up to 3 Mi Accounts with a phone number. Can't add new accounts."</string>
     <string name="get_phone_verifycode_exceed_limit">Too many verification codes have been sent to this number. Wait 24 hours and try again.</string>
+    <string name="getverifycode_seconde">s</string>
     <string name="google_application_id" />
     <string name="goto_confirm">Settings</string>
     <string name="goto_sign_up">Create account</string>
+    <string name="header_help">Help</string>
     <string name="heavenly_stems_bing">丙</string>
     <string name="heavenly_stems_ding">丁</string>
     <string name="heavenly_stems_geng">庚</string>
@@ -449,6 +455,7 @@ Send this code to the supervisor."</string>
     <string name="homepaperchanged">@string/theme_apply_success</string>
     <string name="hour_1">Every hour</string>
     <string name="hour_3">Every 3 hours</string>
+    <string name="i_know">Got it</string>
     <string name="icon_content_description">Dialog Icon</string>
     <string name="idbct_desc">Customize Wallpaper Carousel according to network types</string>
     <string name="idbct_opt_auto_select_desc_text">Download standard images using mobile data and HD images via Wi-Fi</string>
@@ -461,11 +468,21 @@ Send this code to the supervisor."</string>
     <string name="identity">Identification</string>
     <string name="inconsistent_pwd">"Passwords don't match"</string>
     <string name="input_email_address_notice">"We'll use this email to verify your account"</string>
+    <string name="input_length_exceeds_limit">The text you entered is too long</string>
     <string name="input_new_pwd">Enter new password</string>
     <string name="isornot_your_mi_account">Is this your Mi Account?</string>
     <string name="just_a_second">Just a sec…</string>
     <string name="later">"Don't turn off"</string>
     <string name="launch_bg_permission_exception">Allow Wallpaper Carousel to display pop-up windows while running in the background in Security</string>
+    <string name="library_android_database_sqlcipher_author">Zetetic, LLC</string>
+    <string name="library_android_database_sqlcipher_authorWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_isOpenSource">true</string>
+    <string name="library_android_database_sqlcipher_libraryDescription">Android SQLite API based on SQLCipher</string>
+    <string name="library_android_database_sqlcipher_libraryName">SQLCipher for Android</string>
+    <string name="library_android_database_sqlcipher_libraryVersion">${clientVersionNumber}</string>
+    <string name="library_android_database_sqlcipher_libraryWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_licenseLink">https://www.zetetic.net/sqlcipher/license/</string>
+    <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
     <string name="like">Add to favorites</string>
     <string name="liked">Added to favorites</string>
     <string name="lks_left_net_deny">Network connection is restricted</string>
@@ -521,6 +538,11 @@ Send this code to the supervisor."</string>
     <string name="login_app">Sign in</string>
     <string name="login_app_cancel">Cancel</string>
     <string name="login_app_confirm">Sign in</string>
+    <string name="login_by_local_phone_long_text">Sign in now</string>
+    <string name="login_by_local_phone_short_text">Sign in</string>
+    <string name="login_other">Another Mi Account</string>
+    <string name="login_register_by_local_phone_long_text">Create account</string>
+    <string name="login_with_sns">Other ways to sign in</string>
     <string name="login_xiaomi_account_summary">"I've read and agreed to Mi Account &lt;font color ='#0D84FF'>&lt;a href='%1$s'>User Agreement&lt;/font>&lt;/a> and &lt;font color ='#0D84FF'>&lt;a href='%2$s'>Privacy Policy&lt;/font>&lt;/a>."</string>
     <string name="logout">Sign out</string>
     <string name="logout_account">Sign out</string>
@@ -538,6 +560,7 @@ Send this code to the supervisor."</string>
     <string name="midnight">Night</string>
     <string name="minutes_15">Every 15 minutes</string>
     <string name="minutes_5">Every 5 minutes</string>
+    <string name="mishop_login_other">Another Account</string>
     <string name="miui_clock_city_name_local">Local</string>
     <string name="miui_clock_city_name_second">Second clock</string>
     <string name="miui_clock_fancy_colon"></string>
@@ -670,6 +693,8 @@ mm"</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
     <string name="need_open_gallery">Turn on Wallpaper Carousel</string>
+    <string name="network_error_info">A network error occurred. Check your network settings and try again.</string>
+    <string name="network_timeout_info">"Couldn't connect to the network. Try again."</string>
     <string name="new_feature_title">"What's new"</string>
     <string name="nick_name">Nickname</string>
     <string name="night">Evening</string>
@@ -698,6 +723,7 @@ mm"</string>
     <string name="open_gallery">Wallpaper Carousel</string>
     <string name="open_gallery_tips">Tap here to turn on Wallpaper Carousel</string>
     <string name="open_guid_des">Go to Settings > Permissions > Other permissions > Wallpaper Carousel and give the app all the required permissions.</string>
+    <string name="open_settings">Settings</string>
     <string name="open_sub_title">Select categories</string>
     <string name="open_title">Wallpaper Carousel</string>
     <string name="open_unable">"Wallpaper Carousel only works with MIUI's default Lock screen."</string>
@@ -814,6 +840,7 @@ mm"</string>
     <string name="platform_unavailable_wechat">Install WeChat</string>
     <string name="platform_unavailable_wechatmoment">Install WeChat</string>
     <string name="platform_unavailable_weibo">Install Weibo</string>
+    <string name="please_agree_protocal">Please Agree Protocal</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="privacy_policy">Privacy Policy</string>
@@ -826,6 +853,10 @@ mm"</string>
     <string name="privacy_update_summary3">"You won't be able to keep using Wallpaper Carousel unless you agree to the new version of its &lt;font color ='#37A5FF'>&lt;a href='%1$s'>Privacy Policy&lt;/font>&lt;/a>. Agree to the updated Privacy Policy now?"</string>
     <string name="privacy_update_title1">Updated privacy policy</string>
     <string name="privacy_update_title2">Attention</string>
+    <string name="progressbar_title">Checking for security issues…</string>
+    <string name="protocal_dialog_cancel">Cancel</string>
+    <string name="protocal_dialog_confirm">Agree</string>
+    <string name="protocal_dialog_title">Attention</string>
     <string name="prv_end"><CDATA>"That's all for now."</CDATA></string>
     <string name="prv_loading"><CDATA>Just a sec…</CDATA></string>
     <string name="prv_nodata"><CDATA>No data</CDATA></string>
@@ -845,8 +876,17 @@ mm"</string>
     <string name="recommend_switch_dlg_title">Turn off recommendations?</string>
     <string name="recommend_switch_title">Personalized recommendations</string>
     <string name="refresh_network">Refresh</string>
+    <string name="register_by_local_phone_long_text">Create account</string>
+    <string name="register_by_local_phone_short_text">Create account</string>
     <string name="remove">Remove</string>
     <string name="req_permission_dis_tip">Permissions required</string>
+    <string name="request_agree">Allow</string>
+    <string name="request_camera_permission_message">"We shall protect your personal information in accordance with the relevant laws and regulations. This app needs the following permissions to work normally:&lt;br>&lt;br>&lt;b>Using camera (for setting your profile photo)&lt;/b>&lt;br>&lt;br>If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
+    <string name="request_cancel">Cancel</string>
+    <string name="request_error_invalid_token">"Couldn't verify"</string>
+    <string name="request_error_network">A network error occurred. Check your network settings and try again.</string>
+    <string name="request_error_unknown">A system error occurred. Go back and try again.</string>
+    <string name="request_gallery_permission_message">Allow access to Gallery:&lt;br />For setting profile photos</string>
     <string name="require_permission">Permissions required</string>
     <string name="require_permission_text">To be able save and view items, allow Wallpaper Carousel to access storage.</string>
     <string name="resend_active_email">Resend</string>
@@ -926,6 +966,7 @@ mm"</string>
     <string name="sign_in">Signing in</string>
     <string name="sign_in_progress">Signing in…</string>
     <string name="sign_in_title">Sign in with your Mi Account</string>
+    <string name="skip_query_account">Skip</string>
     <string name="sliding_on_unlock">Swipe up to unlock</string>
     <string name="sms_send_success">Sent successfully</string>
     <string name="sns_access_token_expired_warning">Session expired. Sign in again to reconnect this account.</string>
@@ -1051,6 +1092,7 @@ mm"</string>
     <string name="sure_close_gallery">Turn off Wallpaper Carousel?</string>
     <string name="sure_close_gallery_des">"You won't be able to have fresh images delivered to your Home screen and Lock screen if you turn off Wallpaper Carousel. Turn off anyway?"</string>
     <string name="system_default">Default</string>
+    <string name="system_error_info">System is busy. Wait a minute or two and try again.</string>
     <string name="tab_user_title_bar_text">Settings</string>
     <string name="tb_collapse_desc">Hide the \"Share\" menu</string>
     <string name="temporary_not_available">"This feature isn't available yet"</string>
@@ -1141,15 +1183,29 @@ mm"</string>
     <string name="uninstall_introduction_text_title">About Wallpaper Carousel</string>
     <string name="uninstall_warning_text_desc">"Without Wallpaper Carousel you won't be able to receive new Lock screen wallpapers regularly. However, you'll be able to download and install the app again. Delete Wallpaper Carousel?"</string>
     <string name="uninstall_warning_text_title">Deleting Wallpaper Carousel</string>
+    <string name="unknown_error_info">Unknown error</string>
     <string name="update_email_address_dialog_message">You need to verify your identity before you update the recovery email.</string>
     <string name="update_email_address_dialog_title">Update recovery email</string>
     <string name="update_phone_notice">Change security settings</string>
     <string name="upload_error_log">Upload log</string>
     <string name="user_ac_click_to_login">Tap to sign in</string>
     <string name="user_ac_not_login">Not signed in</string>
+    <string name="user_agreement_hint_3rd_app"><Data>"I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> and Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile"><Data>"I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>, as well as &lt;a href=%5$s>Terms and conditions of China Mobile verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom"><Data>"I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>, as well as &lt;a href=%5$s>Terms and conditions of eSurfing account verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom"><Data>"I've read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>, as well as &lt;a href=%5$s>Terms and conditions of China Unicom verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_default"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_default_1"><Data>Read and agreed to the &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy.&lt;/a></Data></string>
+    <string name="user_agreement_hint_default_extra"><Data>"I've read and agreed to the &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy.&lt;/a> The first login will automatically create a Xiaomi account"</Data></string>
+    <string name="user_agreement_hint_first_login">"We'll create an account automatically if you're using your phone number for the first time."</string>
+    <string name="user_agreement_hint_with_mobile"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, as well as &lt;a href=%3$s>Terms and conditions of China Mobile verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_with_telecom"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, as well as &lt;a href=%3$s>Terms and conditions of eSurfing account verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_hint_with_unicom"><Data>"I've read and agreed to Mi Account's &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>, as well as &lt;a href=%3$s>Terms and conditions of China Unicom verification services&lt;/a>."</Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default"><Data>"Read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> and Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>."</Data></string>
     <string name="user_avatar_update_title">Change profile photo</string>
     <string name="user_avatar_uploading">Just a sec…</string>
     <string name="user_id_hint">Email/Phone/Mi Account ID</string>
+    <string name="user_name_phone_number">Phone number</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="v_code_title">Enter verification code</string>
